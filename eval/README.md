@@ -38,7 +38,7 @@
 
 ----
 
-## Observations
+## Observations superficielles
 
 ### Press
 
@@ -58,3 +58,37 @@
 * Un tiret de mot mis en fin de ligne a été supprimé
 * Malgré la disparition habituelle du tiret, il est gardé à plusieurs reprises : "rembourse-ment", "établis-sement", "Direc-tion", "con-former"
 
+----
+
+## Observations détaillées
+
+### Press
+
+* 45C --> Un signe de ponctuation a été oublié
+* 46B --> Un mot a été mal reconnu
+* 49A7 --> L'en-tête de la page a été oublié
+* 55A --> Aucune différence
+* 55C --> Une parenthèse a été oublié
+* 64B --> Des caractères ont été mal reconnus, certains mots oubliés et la structure de liste a été changée
+* 68A4 --> Des espaces ont été oubliés
+* 71A --> Des caractères mal imprimés ont été corrigés à la reconnaissance
+* 77D --> Aucune différence
+* 78A1 --> Des signes de ponctuation ont été remplacés, certains oubliés, et un chiffre a été mal reconnu
+
+### Reviews
+
+* 01-12 --> La foliation a été oublié
+* 01-29 --> La foliation a été oublié, des éléments de tableaux ont été rajoutés (catégories) ou enlevés (guillemets)
+* 01-36 --> Un tiret qui n'apparait pas sur l'image a été rajouté, des sauts à la ligne ont été rajoutés
+* 04-08 --> Des éléments de tableaux ont été rajoutés (catégories), un tiret dans un mot a été oublié
+* 04-20 --> La foliation a été oublié, quelques espaces entre un chiffre et le 'e' ou 'er' ont été rajoutés
+* 04-23 --> La ponctuation de fin de chaque élément de liste a été oublié, un des noms de famille a été mis en minuscule
+* 07-09 --> La foliation a été oublié, des éléments de tableaux ont été rajoutés (catégories)
+* 07-24 --> 
+* 07-29 --> 
+* 10-09 --> 
+* 10-13 --> 
+* 10-26 --> 
+* 12-04 --> 
+* 12-20 --> 
+* 12-35 --> 
