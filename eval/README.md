@@ -84,11 +84,11 @@
 * 04-20 --> La foliation a été oublié, quelques espaces entre un chiffre et le 'e' ou 'er' ont été rajoutés
 * 04-23 --> La ponctuation de fin de chaque élément de liste a été oublié, un des noms de famille a été mis en minuscule
 * 07-09 --> La foliation a été oublié, des éléments de tableaux ont été rajoutés (catégories)
-* 07-24 --> 
-* 07-29 --> 
-* 10-09 --> 
-* 10-13 --> 
-* 10-26 --> 
-* 12-04 --> 
-* 12-20 --> 
-* 12-35 --> 
+* 07-24 --> Un tiret a été oublié dans la foliation
+* 07-29 --> Aucune différence
+* 10-09 --> La foliation a été oublié, des éléments de tableaux ont été rajoutés (catégories) ou enlevés (guillemets), des sauts de ligne ont été ajoutés
+* 10-13 --> La foliation a été oublié
+* 10-26 --> La foliation a été oublié, des éléments de tableaux ont été rajoutés (catégories) ou enlevés (signes de ponctuation), des sauts de ligne ont été ajoutés, quelques mots ont été oubliés
+* 12-04 --> La foliation a été oublié
+* 12-20 --> La foliation a été oublié, mauvaise reconnaissance d'un caractère
+* 12-35 --> Aucune différence
