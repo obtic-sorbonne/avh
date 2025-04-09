@@ -141,5 +141,16 @@ Séparation proposée par ChatGPT :
 ## Par Fichier
 
 ### Coupures de presse
+* La majorité des fichiers ne contiennent pas de mots qui "commence/finit par un tiret" ou de "contient des chiffres"
+* La majorité des fichiers ne possèdent qu'un nombre assez faible de mots erronés
+* Les fichiers qui contiennent une quantité pouvant être considéré comme conséquente sont : P1000706-043_D-1 (132), P1000706-055_B (68), P1000706-062_A (94), P1000706-064_B (98), P1000706-066_A (71), P1000706-067_A (95), P1000706-075_C (66), P1000706-111_B (64), P1000706-161_B (67)
+* Peu de fichiers qui ont des "mots de plus de 10 caractères" ou avec plus de cinq dans cette catégorie. La majorité de ces mots existent dans la langue française et il y a également beaucoup d'entre eux que l'on retrouve d'une coupure à l'autre ("marseillaise", "malvoyantes")
+
 
 ### Reviews
+* La liste 'noms valides' reste toujours la plus conséquente : la plus courte a 191 entrées et la plus longue 396.
+* A part dans deux cas (30 et 12), la liste 'commence/finit par un tiret' n'a que très peu d'entrées
+* La liste 'contient un tiret' a généralement une cinquantaine d'entrées, sauf pour R1000022_1925_10 (175), R1000022_1925_07 (131) et R1000022_1925_05 (123) 
+* Les listes de "contient des chiffres" et "mots de plus de 10 caractères" ne monte pas à plus d'une vingtaine d'entrées
+* La liste "Autres" varie entre 100 et 173 entrées
+* En termes de totaux, le plus bas est 356 (R1000022_1925_09) et le plus haut est de plus de 700 (R1000022_1925_07, 713 ; R1000022_1925_10, 717 ; R1000022_1925_12, 702)
