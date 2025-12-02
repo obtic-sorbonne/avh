@@ -4,22 +4,22 @@
     <fileDesc>
       <titleStmt>
         <title>Bulletin Mensuel de l'Union des Aveugles de Guerre - Février 1925</title>
-        <author>Union des Aveugles de Guerre</author>
+        <author>L'Union des Aveugles de Guerre</author>
         <respStmt>
-          <resp>Digitization by</resp>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
           <name>AVH</name>
         </respStmt>
         <respStmt>
-          <resp>Transcription by</resp>
-          <name>AVH</name>
-        </respStmt>
-        <respStmt>
-          <resp>Encoding by</resp>
+          <resp>Encodage par</resp>
           <name>ObTIC</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Imprimerie Dubois et Bauer</publisher>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
         <availability>
           <p>Droits non spécifiés</p>
         </availability>
@@ -29,7 +29,6 @@
           publique par décret du 9 avril 1921 et Journal des Soldats Blessés aux Yeux</title>
         <title type="genre">Bulletin d'association / Journal</title>
         <title type="topic">Soutien et informations pour les aveugles de guerre</title>
-        <biblScope unit="volume"/>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -38,15 +37,24 @@
             <settlement>Paris</settlement>
             <institution>Association Valentin Haüy</institution>
             <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
           </msIdentifier>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>This encoding is done as part of the Valentin Haüy Foundation Project - Foundation for
-          the visually impaired</p>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et critique des collections 
+          de la Bibliothèque patrimoniale Valentin Haüy (Association Valentin Haüy, Sorbonne Université, CNRS).</p>
       </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <textClass>
@@ -60,7 +68,7 @@
         <classCode scheme="DDC">362.41 (Bien-être des aveugles et des malvoyants)</classCode>
       </textClass>
       <langUsage>
-        <language ident="fr">Français</language>
+        <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1925-02">Février 1925</date>
@@ -78,7 +86,7 @@
     <revisionDesc>
       <change when="2025-10-29" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
-      <change when="2025-10-28" who="#fchiffol">Conversion from HTML to TEI</change>
+      <change when="2025-10-28" who="#fchiffol">Conversion du texte en XML-TEI</change>
     </revisionDesc>
   </teiHeader>
   <text>
