@@ -1,0 +1,846 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 6ème année 1924, n°9</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Indemnités</title>
+        <title type="topic">Assemblée générale</title>
+        <title type="topic">Pupilles de la nation</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Guerre 1914-1918</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#assemblee">Assemblée</term>
+          <term ref="#union">Union</term>
+          <term ref="#victimes">Victimes</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#blesses">Blessés</term>
+          <term ref="#soldats">Soldats</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#indemnites">Indemnités</term>
+          <term ref="#pupilles-de-la-nation">Pupilles de la Nation</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un large éventail de sujets
+          pertinents pour ses membres. Il détaille l'ordre du jour de l'assemblée générale, incluant
+          les rapports moraux et financiers, les vœux des commissions, le vote du budget et les
+          élections. Des sections sont dédiées aux pensions, aux indemnités, au rappel de
+          l'allocation 5 bis, et aux pupilles de la nation. La chronique de l'U.A.G. inclut des
+          nouvelles des membres, des mariages, des naissances et des décès. Le bulletin contient
+          également des informations administratives et des avis aux camarades des différents
+          groupements régionaux.</p>
+      </abstract>
+      <creation>
+        <date when="1924-09-01">01/09/1924</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-09" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-08" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h6">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h7">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h8">Assemblée Générale de 1924</ref>
+          </item>
+          <item>
+            <ref target="#h9">ORDRE DU JOUR :</ref>
+          </item>
+          <item>
+            <ref target="#h10">LISTE DES CANDIDATS ADMINISTRATEURS</ref>
+          </item>
+          <item>
+            <ref target="#h11">VOIR</ref>
+          </item>
+          <item>
+            <ref target="#h12">Le code des victimes de la guerre</ref>
+          </item>
+          <item>
+            <ref target="#h13">PENSIONS - INDEMNITÉS</ref>
+          </item>
+          <item>
+            <ref target="#h14">LE RAPPEL</ref>
+          </item>
+          <item>
+            <ref target="#h15">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h16">LE MINISTRE VEUT QUE LES DOSSIERS DE PENSIONS SOIENT EXAMINES
+                  RAPIDEMENT</ref>
+              </item>
+              <item>
+                <ref target="#h17">PUPILLES DE LA NATION</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U.A.G.</ref>
+            <list>
+              <item><ref target="#h18">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">DÉCÈS</ref>
+                  </item>
+                </list></item>
+              <item>
+                <ref target="#h22">Projet de procès-verbal de la séance du Conseil d'administration
+                  du Mardi 29 Juillet 1924</ref>
+              </item>
+              <item>
+                <ref target="#h23">AVIS AUX CAMARADES DU GROUPEMENT REGIONAL DE BORDEAUX</ref>
+              </item>
+              <item>
+                <ref target="#h24">Compte rendu de la réunion du Comité de la Régionale du Nord du 6
+                  Juillet</ref>
+              </item>
+              <item>
+                <ref target="#h25">Recettes :</ref>
+              </item>
+              <item>
+                <ref target="#h26">Dépenses</ref>
+              </item>
+              <item>
+                <ref target="#h27">AVIS AUX CAMARADES DU GROUPE DE LIMOGES</ref>
+              </item>
+              <item>
+                <ref target="#h28">LÉGION D'HONNEUR</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h29">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h30">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h31">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">6e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">Septembre 1924</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Assemblée Générale.</item>
+                    <item>Liste des candidats administrateurs.</item>
+                    <item>Voir.</item>
+                    <item>Le code des victimes de la guerre.</item>
+                    <item>Pensions.</item>
+                    <item>Indemnités.</item>
+                    <item>Le rappel.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Notes et Informations</head>
+                  <list>
+                    <item>Tribunaux de pensions.</item>
+                    <item>Pupilles de la Nation.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h5">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Projet de procès-verbal de la séance du Conseil d'administration du 29
+                      juillet 1924.</item>
+                    <item>Groupement régional de Bordeaux.</item>
+                    <item>Groupement régional du Nord.</item>
+                    <item>Groupement régional de Limoges.</item>
+                    <item>Lettre de camarade.</item>
+                    <item>Légion d'honneur.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, ancien Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Bricux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie
+              Française ; M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty ; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper ; Miss Winifred Holt; Mme Léopold Kahn ; Mme Géo Kessler ; M. Krug
+              ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député; M. Pierre Rameil, député ; \mathbf{M}^{\bullet} Henri-Robert, de
+              l'Académie Française, ancien bâtonnier de l'Ordre des Avocats; Général
+              Sainte-Claire-Deville ; M. Vallery-Radot ; M. Constant Verlot, député; M. le
+              Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Assemblée Générale de 1924</head>
+            <p>L'Assemblée générale ordinaire aura lieu le dimanche, 16 novembre 1924, à 14 h .30 ,
+              à la Sorbonne, amphithéâtre Richelieu, entrée 17 , rue de la Sorbonne.</p>
+            <p>Le présent avis sert de convocation pour tous les membres de l'Union des Aveugles de
+              guerre.</p>
+            <p>Moyens de communication : Métro : Odéon. Autobus : Porte Champerret - Place Médicis.
+              Tramways : Montrouge - Gare de l'Est.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">ORDRE DU JOUR :</head>
+            <p>1<hi rend="superscript">°</hi> Rapport moral annuel; 2<hi rend="superscript">°</hi>
+              Rapport financier; 3<hi rend="superscript">°</hi> Rapport des commissaires aux
+              comptes; 4<hi rend="superscript">°</hi> Vœux présentés par les Commissions ayant
+              précédé l'Assemblée générale. a) Pensions des veuves, des enfants, des femmes
+              d'aliénés, des ascendants, des Aveugles de guerre art. 12; b) Pupilles de la Nation,
+              art. 64 de la loi du 31 mars 1919. Transports; c) Fonctionnement du siège social et de
+              la Maison de Franceville, Caisse fraternelle, Groupements régionaux, Sections
+              départementales, Maison de retraite; d) Relations extérieures, propagande, victimes
+              civiles de la guerre, Aveugles sans pension. 5<hi rend="superscript">°</hi> Vote du
+              budget 1924-1925; 6<hi rend="superscript">°</hi> Elections; a) Renouvellement du tiers
+              des membres du Conseil d'administration. b) Nomination des commissaires aux comptes.
+              c) Nomination de deux délégués pour la modification éventuelle des statuts sur la
+              demande de l'administration publique. 7<hi rend="superscript">°</hi> Questions
+              diverses.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Un bulletin de yote sera adressé en temps utile à tous les membres titulaires de l'U.
+              A. G. Nous vous donnons plus loin la listé des candidats administrateurs.</p>
+            <p>Votre Conseil vous engage si vous ne l'avez fait à vous faire lire attentivement la
+              note parue dans le bulletin de juillet concernant l'Assemblée générale.</p>
+            <p>Nous ne saurions trop vous répéter l'importance qu'a pour la vie toujours de plus en
+              plus utile de votre groupement cette grande réunion, aussi chacun doit faire tous ses
+              efforts pour y assister; ceux d'entre nous qui ne peuvent absolument pas se déplacer
+              ont le devoir d'envoyer leurs pouvoirs. Nous joindrons une formule de pouvoir au
+              bulletin de vote. Dans notre Bulletin de juillet nous vous avons indiqué de quelle
+              façon ces pièces devront nous être retournées.</p>
+            <p>Vous devez vous efforcer d'apporter le plus grand soin au choix des administrateurs;
+              c'est pour vous faciliter ce choix que les comptes rendus in extenso des séances du
+              Conseil d'administration ont été encartées dans le bulletin mensuel.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">LISTE DES CANDIDATS
+              ADMINISTRATEURS</head>
+            <p>Courteix (Joseph) (administrateur sortant),né le 15 mars 1892, à Faux-la-Montagne
+              (Creuse), domicilié, 41, rue de Maistre, Paris.</p>
+            <p>Laffargue (Aristide) (administrateur sortant), né le 29 janvier 1887, à Bretagne
+              d'Armagnac (Gers), domicilié, 22, quai Queyries, à Bordeaux (Gironde).</p>
+            <p>Lagarde (Osmin) (administrateur sortant), né le 20 novembre 1882, à Lannepax (Gers),
+              domicilié, 6 boul. Amiral-Grevel, Brive (Corrèze).</p>
+            <p>Robert (Maurice-Paul-Victor) (administrateur sortant), né le 16 mars 1887, à Privas
+              (Ardèche), domicilié à Privas, place du Théâtre.</p>
+            <p>Scapini (Georges) (administrateur sortant), né à Paris, le 4 octobre 1893, domicilié
+              à Paris, 18, quai du Louvre.</p>
+            <p>Toudouri (Demètre) (administrateur sortant), né le 10 août 1882, à Vanves (Seine),
+              domicilié, avenue Raibaud, quartier Laval, villa Rolande, à Antibes
+              (Alpes-Maritimes).</p>
+            <p>Beda (Pierre-Léon), né le 15 août 1897, à la Ferté-sous-Jouarre (Seine-et-Marne),
+              domicilié, 17, rue Jules-Ferry, à Bruyères (Vosges).</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Polette (Louis), né le 5 mai 1896, à Vandeur (Yonne), domicilié, 26, place de la
+              Mairie, à Cerisiers (Yonne).</p>
+            <p>Satge (Charles), né le 11 août 1889, à Albi, domicilié, 39, place du Foiral, à Albi
+              (Tarn).</p>
+            <p>Seguy (Antonin), né le 15 avril 1877, à Toulouse, domicilié 9, rue Maury, à Toulouse
+              (Haute-Garonne).</p>
+            <p>Fauque (Marcel-Pierre), né le 26 janvier 1889, à Clermont-Ferrand (Puy-de-Dôme),
+              domicilié 4 et 6 , impasse des Amandiers, Paris.</p>
+            <p>Estienne (Auguste-Clairice), né le 18 avril 1878, à Six-Fours (Var), domicilié 70
+              ,rue de la République, à Six-Fours (Var).</p>
+            <p>Arnault (Victor-Ernest), (administrateur sortant), né le 11 avril 1879 à Bourges
+              (Cher), domicilié 14, rue Daru à Paris.</p>
+            <p>Boidin (Léon), né le 31 août 1876, à Amiens (Somme), domicilié 32, rue de Reuilly, à
+              Paris.</p>
+            <p>Cabasson (Maurice-Antoine), né le 30 janvier 1892, à Marseille, domicilié 29, Chemin
+              des Chartreux, à Marseille (Bouches-du-Rhône).</p>
+            <p>Conan (Albert-Guillaume), né le 7 avril 1894, à Château-Gontier (Mayenne), domicilié
+              124, avenue Emile-Zola, à Paris.</p>
+            <p>Sainte-Rose (Eucher), né le 20 février 1888, à Saint-Esprit (Martinique), domicilié
+              14, rue Daru, à Paris.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">VOIR</head>
+            <p>Ce simple mot qui nous cause tant de regrets, bien loin refoulés au fond de notre
+              cosur, mais qui n'en sont pas moins toujours vivaces est la source, pour certains
+              d'entre nous, de beaux espoirs qu'à fait naître l'éminent docteur Bonnefon, de
+              Bordeaux, Bien rares sont les Aveugles de guerre qui ignorent aujourd'hui les
+              heureuses interventions de cet oculiste si dévoué à ceux dont la lumière semble
+              éteinte à jamais.</p>
+            <p>Parmi nous, peu nombreux sans doute, se trouvent des blessés aux yeux qui peuvent,
+              grâce à une intervention chirurgicale délicate, sinon recouvrer la vue complètement,
+              du moins un degré de vision suffisant pour jouir de la belle lumière du soleil.</p>
+            <p>Dans un article intitulé : "Gardons-nous des illusions », publié dans notre bulletin
+              de décembre, le Président de l'U. A. G. donne les caractéristiques de la première
+              opération, dont les résultats ont été heureux, <pb n="6"/>
+              <note type="foliation">— 4 —</note> faite sur un de nos camarades; il indique en même
+              temps quelles sont les conditions indispensables permettant cette adroite et fort
+              délicate opération. Ne nous illusionnons pas, nous le répétons, nous ne sommes pas
+              tous guérissables. La plupart d'entre nous ont des blessures, telles, qu'aucune
+              amélioration n'est réalisable; d'autres sont énuclées des deux yeux et dans ce cas, il
+              n'y a plus d'espoir; mais à défaut de revoir nous-mêmes, nous pouvons nous réjouir de
+              savoir qu'un petit nombre de nos camarades a pu et pourrait être tiré des
+              ténèbres.</p>
+            <p>Sur plus de soixante Aveugles de guerre que le <hi rend="superscript">D</hi>^{\prime}
+              Bonnefon a bien voulu examiner, trois seulement étaient opérables. Ce n'est pas un
+              gros pourcentage et en admettant qu'il soit applicable à la totalité des Aveugles de
+              guerre, on peut dire que sur deux mille deux cent cinquante que nous sommes, une
+              centaine environ peuvent peut-être sortir de la nuit dans laquelle ils vivent depuis
+              plusieurs années.</p>
+            <p>Le <hi rend="superscript">D</hi>^{\prime} Bonnefon, malgré toute sa bonne volonté ne
+              peut examiner tous les Aveugles de guerre susceptibles de recouvrer un degré de
+              vision, ceux-ci étant répartis sur l'ensemble du territoire.</p>
+            <p>Nous souhaitons qu'avec le seul souci de rendre service à de grands mutilés, les
+              oculistes des quatre coins de la France, se mettent en rapport avec l'éminent
+              chirurgien de Bordeaux, ou s'inspirent de ses communications à l'Académie de Médecine
+              et reçoivent les Aveugles de guerre qui se présenteraient à eux pour connaître l'état
+              de leurs yeux blessés et subir, s'il y a lieu, les opérations nécessaires.</p>
+            <p>Rendons hommage à ceux qui s'efforcent d'adoucir les souffrances physiques engendrées
+              par la guerre.</p>
+            <p>FAVRET.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Le code des victimes de la
+              guerre</head>
+            <p>Par arrêté du 18 juillet (Journal Officiel du 19 juillet 1924), le Ministre des
+              Pensions vient de constituer une Commission chargée de rassembler et de coordonner les
+              textes intéressant les victimes de la guerre et les anciens combattants.</p>
+            <p>Aussitôt après la guerre, les législateurs firent des lois en faveur des victimes de
+              cette terrible catastrophe, mais la situation si délicate des intéressés, a nécessité
+              peu à peu, outre la modification des premiers textes, la création de nouvelles lois et
+              de nouveaux règlements. Aussi peut-on dire aujourd'hui que l'importance de ces textes
+              est telle, que <pb n="7"/>
+              <note type="foliation">— 5 —</note> la plupart d'entre eux sont ignorés des intéressés
+              et que ceux qui sont chargés de leur application ont une tâche difficile et
+              compliquée.</p>
+            <p>L'heureuse décision prise par M. Bovier-Lapierre aura pour résultat d'apporter un
+              remède à cette situation, car c'est à l'édification du Code des victimes de la guerre
+              que cette nouvelle Commission va travailler. Celle-ci compte parmi les membres qui la
+              composent, six représentants des invalides et des veuves de guerre, désignés par les
+              mutilés de guerre, membres de l'Office National des Mutilés et Réformés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">PENSIONS - INDEMNITÉS</head>
+            <p>Pour essayer de mettre en harmonie le taux des pensions avec le coût moyen de la vie,
+              et sans pour cela apporter de modifications à la loi des pensions du 31 mars 1919, M.
+              Goy, député de la Seine, a déposé sur le Bureau de la Chambre, le 30 juin dernier le
+              projet de loi ci-dessous :</p>
+            <p>ARTICLE PREMIER. - Les mutilés ou réformés que leurs blessures ou maladies mettent
+              hors d'état de se livrer à un travail rémunérateur auront droit à l'attribution d'une
+              pension correspondant à l'invalidité absolue ( 1000 / 0 ).</p>
+            <p>Art. 2. - La pension accordée en vertu de la loi du 31 mars 1919 aux mutilés ayant
+              une invalidité de 1000 / 0 est augmentée de 3.000 francs.</p>
+            <p>Art. 3. - Les pensions des mutilés ayant moins de 1000 / 0 d'invalidité sont
+              augmentées proportionnellement au carré du pourcentage d'invalidité.</p>
+            <p>Art. 4. - Les allocations spéciales <hi rend="superscript">N</hi>^{\circ} 1,2,3 et 4
+              servies aux invalides ayant 85,90,95 et 1000 / 0 d'invalidité sont supprimées. M. Goy,
+              d'après certains calculs et certaines comparaisons, a estimé que la pension du 1000 /
+              0 devait être portée à 5.400 francs, somme qui correspond au salaire d'un ouvrier non
+              spécialisé ( 18 francs par jour) et au traitement de début d'un fonctionnaire.</p>
+            <p>Si cette somme de 5.400 francs a été reconnue comme le minimum du traitement que l'on
+              devait allouer au jeune fonctionnaire pour subvenir à ses besoins personnels, nous ne
+              croyons pas qu'on puisse la refuser à l'invalide absolu, d'autant plus que celui qui
+              débute a devant lui la possibilité d'améliorer son sort, alors que le mutilé n'a que
+              la certitude de voir accroître avec l'âge les difficultés du moment.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>En prenant ce chiffre de 5.400 francs comme base, l'augmentation à accorder est de
+              3.000 francs pour le 1000 / 0 puisque la pension de 1919 a été fixée à 2.400 francs.
+              M. Charles Bertrand a déposé le 3 juillet une proposition de loi ayant pour but de
+              pallier au coût de la vie.</p>
+            <p>Une indemnité dite d'attente serait attribuée aux pensionnés immédiatement et
+              disparaîtrait lorsque sera accompli le rajustement de tarifs de pensions.</p>
+            <p>Voici le texte de cette proposition : "A dater de la promulgation de la présente loi,
+              il est alloué à tous les pensionnés de la loi du 31 mars 1919 et aux victimes civiles
+              de la guerre, une indemnité maximum de 1.000 francs par an dite : "d'attente " dont le
+              minimum comprendra autant de vingtièmes qu'il leur est attribué de vingtièmes
+              d'invalidité. "</p>
+            <p>L'indemnité pour les veuves non remariées et les ascendants tributaires de la loi du
+              31 mars 1919 sera égale à la moitié de celle attribuée à un pensionné de 1000 / 0.</p>
+            <p>Les majorations d'enfants subiront une augmentation proportionnelle à l'indemnité
+              accordée au 1000 / 0 et au prorata du degré d'invalidité du titulaire de la
+              pension.</p>
+            <p>L'indemnité allouée aux grands invalides par le décret du 11 février 1922 ne viendra
+              pas en déduction de ladite indemnité.</p>
+            <p>Les dispositions de la présente loi sont applicables à partir du 1<hi
+                rend="superscript">er</hi> janvier 1924. "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LE RAPPEL</head>
+            <p>En vertu de l'article 35 de la loi du 1<hi rend="superscript">er</hi> août, notre
+              augmentation de l'allocation 5 bis part du 1<hi rend="superscript">er</hi> janvier
+              1924.</p>
+            <p>Afin de percevoir le rappel du 1<hi rend="superscript">er</hi> janvier au 30 avril
+              1924, soit une somme de 666 fr. 66, les intéressés doivent adresser, sous pli
+              recommandé, leur carnet d'allocation 5 bis à la Sous-Intendance de leur département,
+              en priant celle-ci de joindre au Carnet un ordre de paiement leur permettant de
+              rentrer en possession de ce rappel.</p>
+            <p>Nous avons la latitude, soit d'envoyer dès à présent notre Carnet, soit au contraire
+              d'attendre d'avoir perçu le coupon venant à échéance à la fin de ce mois.</p>
+            <p>Nous ne croyons pas inutile de conseiller à tous nos camarades, de garder par devers
+              eux le récépissé de la poste et le numéro du carnet.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">LE MINISTRE VEUT QUE LES
+                DOSSIERS DE PENSIONS SOIENT EXAMINES RAPIDEMENT</head>
+              <p>Le Ministre des Pensions a été amené à constater que dans certains organes de son
+                administration, l'examen et la transmission des dossiers de pension établis en
+                exécution de la loi du 31 mars 1919 ne sont pas opérés avec toute la célérité
+                désirable.</p>
+              <p>Il en résulte, parfois, des réclamations justifiées de la part des victimes de la
+                guerre, qui sont en droit de prétendre à toute la sollicitude du Gouvernement.</p>
+              <p>En particulier les anciens militaires se mettant pour la première fois en instance
+                de pension ou d'allocation, se plaignent, à juste titre, des délais souvent
+                excessifs qui s'écoulent entre la date à laquelle ils ont produit leur demande et
+                celle à laquelle ils sont mis en possession de la décision du Ministre. Ces trop
+                longs délais les lèsent d'autant plus que, souvent, par le jeu normal des lois et
+                règlements actuellement en vigueur, les intéressés ne sont pas en possesion des
+                titres d'allocation d'attente.</p>
+              <p>Le Ministre tient essentiellement à ce que l'état de choses qu'il a constaté cesse
+                immédiatement. Il importe au plus haut point que, dans chaque organe, les dossiers
+                de pension ou d'allocation (qu'il s'agisse de renouvellement de pension, de
+                constatation d'aggravation ou de première instance) ne soient conservés que le temps
+                strictement nécessaire pour y effectuer correctement et consciencieusement les
+                opérations incombant au dit organe et qu'ils soient transmis à l'autorité qualifiée
+                dès que ces opérations sont terminées.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">PUPILLES DE LA NATION</head>
+              <p>Le crédit destiné au fonctionnemes: des colonies scolaires de vacances et de
+                l'apprentissage des pupilles de la Nation a été voté. Il ne pouvait en être
+                autrement. L'Etat a : devoir de veiller sur la</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>santé de ses pupilles, de s'efforcer de donner à chacun d'eux le moyen d'apprendre
+                un métier afin qu'ils puissent tous mener l'existence honorable que leur auraient
+                procurée leurs parents.</p>
+              <p>Nous devons cette heureuse décision à l'intervention de M. Ricolfi, député, que
+                nous remercions ici.</p>
+              <p>Notre camarade Walter Godaert, Aveugle de guerre, qui a été rééduqué au "Phare de
+                France ", vient d'être couronné par le Conservatoire de Bruxelles.</p>
+              <p>Il a obtenu le premier prix au concours de flûte. Nous félicitons chaleureusement
+                notre camarade de sa persévérance et de son succès.</p>
+              <p>Son infirmité l'empêche de faire partie d'un orchestre mais il jouera en soliste
+                dans les fêtes musicales et nous espérons que son concours sera sollicité.</p>
+              <p>La Compagnie Paris-Orléans vient de prendre une mesure bienveillante en faveur des
+                mutilés.</p>
+              <p>Afin d'éviter à ces derniers une longue attente au guichet des locations des
+                places, ceux-ci pourront présenter leur carte de priorité qui leur donnera un droit
+                de priorité sur les autres voyageurs à l'accès des guichets susvisés.</p>
+              <p>Les instructions nécessaires ont été données par la Compagnie Paris-Orléans aux
+                gares et aux agences pour que cette mesure soit applicable immédiatement.</p>
+              <p>Il est à souhaiter que les autres compagnies suivent l'exemple de la Compagnie
+                Paris-Orléans que nous remercions ici.</p>
+              <p>A vendre, état neuf un lit chêne plaqué acajou, 130 de large, sommier métallique,
+                table de nuit chêne, 250 francs. S'adresser à Tihon, 1, rue Duban, Paris XVI {
+                  }^{<hi rend="superscript">e</hi>}.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">NAISSANCES</head>
+                <p>Notre camarade et Mme Potdevin (Louis), à Saint-Aubin-lesForges, nous font part
+                  de la naissance de leur sixième enfant, Lucien, né le 27 juillet 1924.</p>
+                <p>Notre camarade et Mme Baptiste (Théophile), à Fleury-lesAubrais (Loiret), nous
+                  font part de la naissance de leur fils Roger, né le 28 juillet 1924.</p>
+                <p>Notre camarade et Mme Lenglare (Léon), à Douvin (Pas-deCalais), nous font part de
+                  la naissance de leur fils François, né le 25 juin 1924</p>
+                <p>Notre camarade et Mme Boiteau (Clément), nous font part de la naissance de leur
+                  quatrième enfant Jean, né le 28 juillet 1924.</p>
+                <p>Notre camarade et Mme Courtemanche, nous font part de la naissance de leur
+                  deuxième enfant Gérard, né le 25 juillet.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">MARIAGES</head>
+                <p>Notre camarade Belliol nous fait part de son mariage avec Mlle Charlotte Lesieur,
+                  célébré le 4 août.</p>
+                <p>Notre camarade Cizeron (Barthélemy), nous fait part de son mariage avec Mlle
+                  Montagnon (Jeanne-Marie), qui a eu lieu le 3 juillet.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">DÉCÈS</head>
+                <p>Nous apprenons le décès : De la mère de notre camarade Louis Lainé, à Pannece; Du
+                  père de notre camarade Louesdon (Gabriel), survenu à l'âge de 63 ans, le 22
+                  juin.</p>
+                <p>Du père de notre camarade Harrivelle, âgé de 60 ans. Nous exprimons aux parents
+                  nos plus vives condoléances.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Projet de procès-verbal de
+                la séance du Conseil d'administration du Mardi 29 Juillet 1924</head>
+              <p>La séance est ouverte à 14 h .45 sous la présidence de Scapini. Sont présents:
+                L'Evesque (Gaston), Scapini, Bois, Dufourc, Favret, Arnault, Bertrand, Courteix,
+                Fauvel, Gudefin, Heuze, Izaac, Laute, Leloup, Noireaux, Sainte-Rose.</p>
+              <p>Ont écrit : Antoine, Arnault, Derender (pouvoirs à Noireaux), Lagarde (pouvoirs à
+                Laffargue), Lallement, Levran (pouvoirs à Izaac), Durat.</p>
+              <p>Excusés : Bardoux (pouvoir à Favret), Grillet (pouvoir à Favret), Laffargue
+                (pouvoir à Heuzé), Amar.</p>
+              <p>Assistent à la séance: M. de Traversay, Président du Comité d'Action ; les
+                camarades Boidin et Saillot. 1<hi rend="superscript">°</hi> Procès-verbal de la
+                dernière séance. Adopté à l'unanimité. 2<hi rend="superscript">°</hi> Situation
+                financière de juin. Adoptée à l'unanimité. 3<hi rend="superscript">°</hi> Ordre du
+                jour de l'Assemblée générale. Le Secrétaire général demande qu'à la troisième
+                Commission soit ajoutée la Maison de Retraite, car depuis le 18 novembre il s'est
+                produit un fait qui demandera discussion à la prochaine Assemblée générale.</p>
+              <p>Du reste, le Conseil de septembre sera saisi de cette question. La demande du
+                Secrétaire général est adoptée à l'unanimité des membres présents et l'ordre du jour
+                de l'Assemblée générale de 1924 est fixé comme suit : 1<hi rend="superscript">°</hi>
+                Rapport moral annuel. 2<hi rend="superscript">°</hi> Rapport financier. 3<hi
+                  rend="superscript">°</hi> Rapport des commissaires aux comptes. 4<hi
+                  rend="superscript">°</hi> Vœux présentés par les Commissions ayant précédé
+                l'Assemblée générale ; a) Pension des veuves, des enfants, des femmes d'aliénés, des
+                ascendants, des Aveugles de guerre art. 12; b) Pupilles de la Nation, article 64 de
+                la loi du 31 mars 1919 ; transports ; c) Fonctionnement du Siège social et de la
+                Maison de Franceville, Caisse Fraternelle, Groupements Régionaux, Sections
+                Départementales, Maison de retraite ; d) Relations extérieures, Propagande, Victimes
+                civiles de la guerre, Aveugles sans pension.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+              <p>5<hi rend="superscript">°</hi> Vote du budget 1924-1925. 6<hi rend="superscript"
+                  >°</hi> Elections : a) Renouvellement du tiers des membres du Conseil
+                d'administration : b) Nomination des commissaires aux comptes ; c) Nomination de
+                deux légués pour la modification éventuelle des statuts sur la demande de
+                l'administration publique. 7<hi rend="superscript">°</hi> Questions diverses. Le
+                Secrétaire général rend compte brièvement de l'entrevue que notre Président a eue
+                avec M. Bovier-Lapierre au sujet du point de départ de notre allocation 5 bis.</p>
+              <p>Nul doute que satisfaction nous soit donnée avait la fin du mois, à savoir que
+                notre augmentation courra du 1<hi rend="superscript">er</hi> janvier dernier.</p>
+              <p>Le Conseil remercie M. Bovier-Lapierre, ministre des Pensions et M. Clémentel,
+                ministre des Finances de leur intervention en notre faveur.</p>
+              <p>Ravalement de la façade, côté jardin de l'immeuble, 25, rue Ballu. Le Conseil à
+                l'unanimité des membres présents autorise le Bureau à faire procéder à la réfection
+                de la façade, côté jardin de l'immeuble de la rue Ballu. Les travaux s'élèveront à
+                environ 10.000 francs.</p>
+              <p>Le Conseil prend acte de la lettre du Comité de Direction des grands réseaux de
+                chemins de fer français nous informant qu'il est impossible de délivrer au guichet
+                des mutilés des billets à plein tarif.</p>
+              <p>Lecture de la lettre du camarade Gallet Wast et de la réponse du Secrétaire
+                général.</p>
+              <p>Le Conseil approuve les termes de cette réponse. Le Conseil prie le Bureau de faire
+                paraître un article dans la " Presse ", attirant l'attention du Sénat sur l'urgence
+                du vote de la loi des pupilles de la Nation.</p>
+              <p>Lecture de la lettre du camarade Hourcade au sujet de l'amnistie. Lecture des
+                procès-verbaux des séances du groupement régional du Nord, des sections
+                départementales de la Seine-Inférieure et de la Haute-Garonne.</p>
+              <p>Ces procès-verbaux sont insérés plus loin. Démission du camarade Sainte-Rose,
+                administrateur. Le Conseil prend note de la démission d'administrateur de
+                SainteRose.</p>
+              <p>La séance est levée à 17 h .20 .</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">AVIS AUX CAMARADES DU
+                GROUPEMENT REGIONAL DE BORDEAUX</head>
+              <p>Les camarades du Groupement Régional de Bordeaux (CharenteInférieure, Dordogne,
+                Landes, Gironde, Hautes-Pyrénées et BassesPyrénées), sont invités à assister à la
+                prochaine réunion générale du Groupe, qui aura lieu le dimanche 12 octobre, à 14 h
+                .30 , salle de l'Athénée, à Bordeaux.</p>
+              <p>ORDRE DU JOUR :</p>
+              <p>1<hi rend="superscript">°</hi> Nomination des délégués départementaux ; 2<hi
+                  rend="superscript">°</hi> Election d'un nouveau Bureau; 3<hi rend="superscript"
+                  >°</hi> Lecture du rapport moral et financier de l'U. A. G. Bien entendu cet avis
+                tient lieu de convocation.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Compte rendu de la réunion
+                du Comité de la Régionale du Nord du 6 Juillet</head>
+              <p>La réunion a eu lieu à Calais, dans un des salons de l'Hôtel Cosmorama.</p>
+              <p>La séance est ouverte à 11 heures sous la présidence de Planquette. Sont présents :
+                Boé, Bridoux, Duforest, Derunder, Hennebicque, Planquette.</p>
+              <p>Ont écrit : Donce et Muret. Lecture est donnée du procès-verbal de la réunion du 3
+                février qui est adopté à l'unanimité.</p>
+              <p>Transport. - Le secrétaire fait donner lecture d'un extrait des délibérations du
+                Comité départemental du Nord appuyant le vœu de la régionale tendant à faire adopter
+                la carte d'invalidité par toutes les compagnies du département. Lecture est aussi
+                donnée de la lettre de M. Grimprez, ingénieur en chef des Ponts-et-Chaussées grâce à
+                qui, nos revendications ont été prises en considération par la presque totalité des
+                compagnies de transports en commun du Nord.</p>
+              <p>Le comité décide de continuer les démarches près des deux compagnies encore
+                rebelles à la réalisation de notre projet.</p>
+              <p>A la suite de cette communication, le Comité émet le vœu que</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>toutes les régionales et départementales interviennent près de toutes les
+                compagnies de transports de leur région et département afin de faire adopter d'une
+                façon générale la carte d'invalidité. Le Comité souhaite également que le Conseil
+                d'administration de l'Union agisse dans le même sens, dès qu'il le jugera possible,
+                si cela ne l'est actuellement, près de la T C. R. P.</p>
+              <p>Comité de Patronage. - Le Comité prend connaissance de la composition du Comité de
+                patronage arrêtée comme suit :</p>
+              <p>Président d'honneur, M. Morin, Préfet du Nord, M. le Préfet du Pas-de-Calais, le
+                général Lacapelle; MM. les sénateurs, Pottié et Hayez; MM. les députés, Cerquet,
+                Crespel, Daniel Vincent, Dele= salle, Des Rotours, Grousseau, Lefebvre du Prez,
+                Plichon et Vandamme; MM. les Présidents des Chambres de commerce : Descamps, de
+                Lille; Toulemonde, de Roubaix; Lorthiois, de Tourcoing; Coquelle, de Dunkerque;
+                Michonneau, d'Arras; Lavocat, de Boulo-gne-sur-Mer; Bodin, de Calais; M. Charles
+                Droulers, industriel à Roubaix et La Fraternelle des Combattants roubaisiens.</p>
+              <p>Le Comité décide, sur la proposition de Muret, d'ajourner toute relation avec ledit
+                Comité jusq'à la rentrée des vacances.</p>
+              <p>Situation financière. - Lecture est donnée de la situation financière de l'exercice
+                23-24.</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">Recettes :</head>
+                <p>En caisse 30-9-23 .............................. Fr. 9310 18-2-24 transmis par
+                  Hennebicq ..................... 471 " Subvention Comité départemental du
+                  Nord........... 15590 28 avril "Groupe des Joyeux " Roubaix.............. 312 " 26
+                  mai, Palanchier, Roubaix ....................... 15 " 28 mai, M. Morin, préfet du
+                  Nord.................. 100 " Total des recettes ...................... 1.147 "</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">Dépenses</head>
+                <p>Fournitures et frais de secrétariat ..................... 7240 Frais de
+                  trésorerie ................................ 770 Versé à l'U. A. G. 1 / 10 sur 898
+                  francs.............. 8980 Total des dépenses ..................... 16990 Reste en
+                  caisse au 30 juin 1924........ 1.147 " Moins. 16990 <pb n="16"/>
+                  <note type="foliation">— 14 —</note> M. Donce, trésorier, n'assistant pas à la
+                  réunion, la Comité décide d'ajourner la proposition de dépôt en banque, jusqu'à la
+                  prochaine réunion.</p>
+                <p>Travail. - Le secrétaire fait donner lecture de la lettre de l'Union reçue par le
+                  Président, concernant l'organisation du travail dans la région.</p>
+                <p>Duforest estime que la plupart des brossiers, sinon tous, ne manquent pas de
+                  travail dans notre région et ne croit pas nécessaire la création d'un magasin de
+                  vente. Moins documenté, sur les autres professions, le Comité décide à l'unanimité
+                  d'ajourner la question jusqu'à l'assemblée générale. Néanmoins, considérant que la
+                  région est déjà très occupée par les magasins de vente de la "Société de patronage
+                  des Aveugles du Nord ", des "Amis des Aveugles militaires et des Aveugles civils "
+                  et de l'organisation mixte de Roubaix sociétés et organisations, organisant encore
+                  entretemps, des expositions-ventes dans les grandes villes des deux départements),
+                  le Comité est d'un grand pessimisme sur le résultat vraiment appréciable
+                  qu'obtiendrait le nouveau magasin naissant. De plus, un magasin de vente
+                  nécessitant une permanence, celle-ci entraînant d'assez grosses dépenses, le
+                  Comité ne peut donc momentanément envisager la création du dit magasin.</p>
+                <p>Réunion générale régionale. - Sur la proposition du Bureau, le Comité décide
+                  qu'un certain nombre de lots, en espèce, seront tirés entre les membres
+                  présents.</p>
+                <p>Sur la proposition du Président, la réunion générale régionale est fixée au
+                  dimanche 21 septembre.</p>
+                <p>Questions diverses. - Le secrétaire communique au Comité, la lettre de M. le
+                  Préfet du Nord, faisant connaître que seules les sociétés et œuvres ayant leur
+                  siège à Lille peuvent participer aux bénéfices des fêtes de la Préfecture.</p>
+                <p>Avant de lever la séance, le Comité adresse au Conseil d'administration de
+                  l'Union ainsi qu'à la Commission des Pensions, toutes ses félicitations, ainsi que
+                  ses plus sincères remerciements, pour toutes les démarches qui firent aboutir le
+                  juste et si nécessaire relèvement de pension réclamé par tous.</p>
+                <p>La séance est levée à 13 heures.</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">AVIS AUX CAMARADES DU GROUPE
+                DE LIMOGES</head>
+              <p>(Corrèze, Creuse, Haute-Vienne et Vienne)</p>
+              <p>La réunion du Groupe de Limoges aura lieu en cette ville, salle de la Société
+                d'Agriculture de la Haute-Vienne, le dimanche, 12 octobre à 14 heures. Un avis
+                individuel donnera des détails plus complets.</p>
+              <p>Lettre du camarade Hourcade, à Paris,</p>
+              <p>"Avec la majorité des camarades j'apprécie les résultats obtenus par les laborieux
+                efforts de notre Union. Il y a cependant encore beaucoup à faire.</p>
+              <p>Au moment où le Sénat est appelé à se prononcer sur la loi d'amnistie, il serait
+                opportun de lui rappeler très énergiquement que nous attendons depuis longtemps une
+                nouvelle loi sur les "Pupilles de la Nation " qui reconnaît des droits à tous les
+                enfants des Grands Mutilés, quelle que soit la date de leur naissance.</p>
+              <p>Ce projet, adopté par la Chambre depuis plus d'un an, devrait être ratifié avant
+                l'amnistie. Si je pouvais faire entendre ma voix à la Haute Assemblée, je
+                qualifierais d'iniquité de faire passer l'amnistie avant de reconnaître les droits
+                des victimes du devoir.</p>
+              <p>Va-t-on faire des cadeaux aux défaillants avant de satisfaire nos plus modérées
+                revendications?</p>
+              <p>A qui va aller le droit de priorité ? Quoiqu'il arrive, par la présente, je demande
+                à être inscrit pour demander des comptes au Conseil à l'Assemblée générale, si
+                satisfaction ne nous est pas donnée à ce sujet par le Sénat. "</p>
+              <p>Note du Bureau. - Le Bureau se fera un plaisir de donner les renseignements que le
+                camarade Hourcade, ainsi que tous nos camarades, voudront bien nous demander.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">LÉGION D'HONNEUR</head>
+              <p>Par décret, en date du 11 juillet 1924 (J. O., du 18 juillet 1924), sont promus au
+                grade de Chevalier de la Légion d'honneur, les camarades suivants :</p>
+              <p>Bettreieux (François-Louis-Joseph), ex-soldat du 151<hi rend="superscript">°</hi>
+                R. I. Deguerville (Louis-Alexis), ex-soldat du 42<hi rend="superscript">°</hi>
+                régiment d'artillerie. Gabolde (Henri-Jules-Léon-Joseph), ex-aspirant du 340<hi
+                  rend="superscript">°</hi> R. I. Dupont (Julien-Paul-Arsène), ex-soldat du 2<hi
+                  rend="superscript">°</hi> régiment de zouaves. Laurent (Alexandre-Paul-Marie),
+                ex-sergent du 2<hi rend="superscript">°</hi> R. I. coloniale. Meyer (Joseph),
+                ex-soldat du 36<hi rend="superscript">°</hi> R. I. Thibaut (Léonce-Albert),
+                ex-soldat du 401<hi rend="superscript">°</hi> R. I.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents : Bois, Dufourc, Grilley. Secrétaire général :
+              Favrey. Trésorier : Gaston L'Evesque. Membres : Amar, Antoine, Arnault, Bardoux,
+              Bertrand, Courteix, Derunder, Durat, Fauvel, Goubin, Guderin, Heuze, Isaac, Laffargue,
+              Lagarde, Lalle- ment, Laute, Leveau, Leloup, Malgat, Noireaux, Robert (Maurice),
+              SainteRose, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur ; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-President; M. Oscar Bloch, Secrétaire
+              adjoint ; M. de Fleubieu, Trésorier adjoint ; M. Auterbe, Actuaire à la Compagnie
+              «L'Union»; M. Marcel Bloch.</p>
+            <p>Mme Boylesve. Mme Broguin. M. Chepper. M. Pierre Chêrot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranie, Inspecteur des Ecoles de Rééducation</p>
+            <p>Mlle Jalacuier. Mme Henri. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. Mme Mus. M. Joseph Roux. M. Sollar., D' Schneider. Mme
+              Valton. Mme Yves.</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">Liste des Donateurs</head>
+            <p>Hanemoglon, rue Le Peletier, Paris, 40 fr. - Préfet de la HauteSaône, 100 fr. -
+              Directeur de l'Institut Agronomique de Campinas, Etat de Sao Paul, Brésil, 2.034 fr.
+              85. - Mme Jeanty Carjat, 15 fr. - Lemeignen, à Nantes, 20 fr. - Masaad, 20 fr. G.
+              Romain, à Charols (Drôme), 20 fr. - Mme Vve Madeleine Guerin, à
+              Châteauneuf-en-Thimeray (Eure-et-Loir), 50 fr. - Jossa C. A., Paris, 100 fr. - Léopold
+              Lévy, Paris, 100 fr. - M. du Hertoz, à Den Haag (Pays-Bas), 100 fr. M. Muller,
+              Is-sur-Tille (Côte-d'Or), 25 fr. - Les Elèves du Cours Complémentaire, une
+              Geoffroy-L'Asnier, Paris, 20 fr. - M. le docteur Francisco Dominguez, Paris, 200 fr. -
+              Anonyme N 18.461, 10 fr. - Anonyme N 18.462, 10 fr. - Ecole Maternelle, Courbevoie, 6
+              fr. 25. - Collège de Provins (Seine-et-Marne), 100 fr. Ecole Normale d'Institutrices,
+              à Gueret (Creuse), 40 fr. - Mme Léon Parisot, Senones (Vosges), 1.000 fr. - M.
+              Ransons, Paris, 200 fr. Ecole du Cours Jaurès, à Grenoble, 39 fr. 75. - Mme Parey O.
+              Flaherty, à Vernon (Eure), 400 fr. - M. Constantin G. Giordanon, Alexandrie (Egypte),
+              50 fr. - Mile Vessière, Le Vésinet, 20 fr. M. Michaud, à Paris, transmis par les
+              Annales, 10 fr. - M. Richard Weil, New-York, 200 fr. - Association des anciennes
+              élèves de l'Ecole Normale d'Institutrices de Grenoble, 50 fr. - Les Elèves des Ecoles
+              de Garçons et de Filles, Nederhoff (Moselle), 12 fr. 45. Collecte Mariage des époux
+              Martin, à L. (Faute-Marne), 31 fr. - M. abey, à Plombières (Vosges), 338 scs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

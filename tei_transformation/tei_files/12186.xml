@@ -1,0 +1,1308 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 7ème année 1925, n°6</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Droits des mutilés</title>
+        <title type="topic">Réadaptation professionnelle</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Travail</title>
+        <title type="topic">Législation</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>22,5 X 15,5 cm ; 24 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#mutiles-de-guerre">mutilés de guerre</term>
+          <term ref="#pensions">pensions</term>
+          <term ref="#ascendants">ascendants</term>
+          <term ref="#titularisation">titularisation</term>
+          <term ref="#tsf">T.S.F.</term>
+          <term ref="#travail-automobile">travail automobile</term>
+          <term ref="#bibliographie">bibliographie</term>
+          <term ref="#cecite">cécité</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre traite de plusieurs sujets d'intérêt pour
+          ses membres, notamment les questions financières (cotisations, réajustement des pensions),
+          les droits sociaux (ascendants de mutilés, titularisation des employés de l'État), et les
+          opportunités professionnelles (travail dans l'industrie automobile). Il inclut également
+          des informations pratiques (T.S.F., petites annonces), des ressources culturelles
+          (bibliographie, bibliothèque), et des nouvelles de l'association (chronique, caisse
+          fraternelle). Le document met en avant les efforts de l'association pour défendre les
+          intérêts de ses membres et améliorer leur qualité de vie.</p>
+      </abstract>
+      <creation>
+        <date when="1925-06-01">01/06/1925</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-09" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-08" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aueugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">COTISATION</ref>
+          </item>
+          <item>
+            <ref target="#h8">Nos ascendants</ref>
+          </item>
+          <item>
+            <ref target="#h9">Le Réajustement des Pensions</ref>
+          </item>
+          <item>
+            <ref target="#h10">Le travail dans l'industrie automobile</ref>
+          </item>
+          <item>
+            <ref target="#h11">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h12">TITULARISATION</ref>
+                <list>
+                  <item>
+                    <ref target="#h13">CHAPITRE PREMIER Dispositions générales</ref>
+                  </item>
+                  <item>
+                    <ref target="#h14">CHAPITRE II Effets de la titularisation</ref>
+                  </item>
+                  <item>
+                    <ref target="#h15">CHAPITRE III Reclassement des bénéficiaires de l'article 18
+                      dont l'emploi est supprimé</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h16">T.S.F.</ref>
+              </item>
+              <item>
+                <ref target="#h17">A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h18">BIBLIOGRAPHIE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h19">BIBLIOTHÈQUE</ref>
+            <list>
+              <item>
+                <ref target="#h20">Avis important.</ref>
+              </item>
+              <item>
+                <ref target="#h21">ROMAN</ref>
+              </item>
+              <item>
+                <ref target="#h22">LITTÉRATURE</ref>
+              </item>
+              <item>
+                <ref target="#h23">POÉSIE</ref>
+              </item>
+              <item>
+                <ref target="#h24">THEATRE</ref>
+              </item>
+              <item>
+                <ref target="#h25">PHILOSOPHIE</ref>
+              </item>
+              <item>
+                <ref target="#h26">SOCIOLOGIE</ref>
+              </item>
+              <item>
+                <ref target="#h27">HISTOIRE</ref>
+              </item>
+              <item>
+                <ref target="#h28">LIVRES DE GUERRE (1914-1918)</ref>
+              </item>
+              <item>
+                <ref target="#h29">GÉOGRAPHIE</ref>
+              </item>
+              <item>
+                <ref target="#h30">MATHÉMATIQUES</ref>
+              </item>
+              <item>
+                <ref target="#h31">AGRICULTURE</ref>
+              </item>
+              <item>
+                <ref target="#h32">ENSEIGNEMENT</ref>
+              </item>
+              <item>
+                <ref target="#h33">OUVRAGES SUR LES AVEUGLES</ref>
+              </item>
+              <item>
+                <ref target="#h34">MÉTIERS</ref>
+              </item>
+              <item>
+                <ref target="#h35">MUSIQUE</ref>
+              </item>
+              <item>
+                <ref target="#h36">ESPAGNOL</ref>
+              </item>
+              <item>
+                <ref target="#h37">ANGLAIS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h38">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h39">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h40">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h41">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h42">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h43">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h44">Compte rendu de l'Assemblée Générale de la Section des Masseurs
+                  de l'Union des Aveugles de Guerre du 25 Février 1925</ref>
+              </item>
+              <item>
+                <ref target="#h45">RAPPORT PRESENTE PAR LES COMMISSAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h46">COMPTE RENDU DE LA REUNION DES COMMISSAIRES MASSEURS DU SAMEDI 2
+                  MAI 1925</ref>
+              </item>
+              <item>
+                <ref target="#h47">LETTRE DU CAMARADE MESLIN (Georges)</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h48">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h49">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h50">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h51">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">7e Année. — N° 6</fw>
+          <fw type="header">
+            <hi rend="underline">Juin 1925</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Cotisation.</item>
+                    <item>Nos ascendants.</item>
+                    <item>Le réajustement des pensions.</item>
+                    <item>Le travail dans l'industrie automobile.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Notes et Informations</head>
+                  <list>
+                    <item>Titularisation.</item>
+                    <item>T. S. F.</item>
+                    <item>A vendre.</item>
+                    <item>Bibliographie.</item>
+                    <item>Bibliothèque.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Section des masseurs.</item>
+                    <item>Lettre de camarade.</item>
+                    <item>Décoration.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aueugles de Guerre</head>
+            <p>M. A. Millerand, ancien Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Bricux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès ; M. Brisac, préfet ; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie
+              Française ; M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty ; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ; Mme Géo Kessler ; M. Krug
+              ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député; M. Pierre Rameil, député ; <hi rend="superscript">M</hi>^{\circ}
+              Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre des Avocats;
+              Général Sainte-Claire-Deville ; M. Vallery-Radot ; M. Constant Verlot, député; M. le
+              Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">COTISATION</head>
+            <p>Nous rappelons aux camarades, peu nombreux du reste, qui n'ont pas encore payé leur
+              cotisation qu'ils nous adressent celle-ci avant le 30 juin prochain.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Nos ascendants</head>
+            <p>On se souvient que nous avions fait de nombreuses et pressantes démarches auprès de
+              M. Vincent Auriol, dont vous connaissez tous le dévouement à la cause des victimes de
+              la guerre, dans le but de le voir incorporer les ascendants des grands mutilés dans un
+              projet de loi dont il avait l'initiative.</p>
+            <p>Ces démarches tendaient à faire assimiler les ascendants des grands mutilés aux
+              ascendants des morts pour la France.</p>
+            <p>On conçoit aisément les motifs d'équité et de justice qui nous poussaient à plaider
+              la cause de nos parents.</p>
+            <p>Le projet de M. Vincent Auriol a été récemment déposé sur le Bureau de la Chambre. Il
+              a même été rapporté devant la Commission par M. Ricolfi, notre sympathique ami.</p>
+            <p>Nos efforts semblent avoir porté leurs fruits. Nous reproduisons ci-dessous les
+              articles adoptés par la Commission et qui concernent nos intérêts :</p>
+            <p>TITRE III. - Droits des ascendants. - Droit à pension. Art. 28. - Tous les ascendants
+              français, neutres ou alliés dont les fils sont morts au service de la France, ont
+              droit, sans condition d'âge et de fortune, à une pension, sous réserve, toutefois,
+              qu'il n'y ait pas, au moment de la demande, d'ascendant d'un degré plus rapproché du
+              défunt.</p>
+            <p>Les ascendants dont les fils sont disparus au cours des opérations de guerre ont
+              également droit à pension provisoire, en attendant que soit officiellement établi le
+              décès de leur fils.</p>
+            <p>Art. 29. - La date de jouissance de ces pensions aura pour point de départ le
+              lendemain du jour du décès du ou des militaires et le jour de la réforme pour ceux
+              réformés avec une invalidité de 100%.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>ART. 30. - Les pensions prévues en faveur des ascendants sont fixées ainsi qu'il
+              suit, sous réserve toutefois des droits acquis et des suppléments précédemment alloués
+              pour les allocations :</p>
+            <p>Pour la mère, 400 francs; Pour le père, 400 francs. Pour la mère, veuve, divorcée ou
+              non remariée, ou pour le père veuf, 800 francs.</p>
+            <p>ART. 31. - Si le père et la mère ont eu plusieurs enfants tués au service de la
+              France, disparus au cours des opérations de guerre, ou réformés avec une invalidité de
+              100%, la pension sera majorée de 200 francs pour chaque enfant, décédé, disparu ou
+              réformé, mais à partir du second inclusivement.</p>
+            <p>En cas de divorce ou de séparation de corps, ces majorations seront partagées par
+              moitié entre les deux conjoints.</p>
+            <p>ART. 32. - A défaut du père et de la mère, la pension sera accordée aux
+              grands-parents, dans les conditions prévues à l'article 28. Elle sera, dans chaque
+              ligne, de 300 francs pour le grand-père ou la grand'mère remariée, de 600 francs pour
+              le grand-père et la grand'mère conjointement et de 600 francs pour la grand'mère
+              veuve.</p>
+            <p>Chaque grand-parent ou chaque couple de grands-parents ne pourra recevoir qu'une
+              seule pension.</p>
+            <p>La pension sera augmentée de 100 francs par chaque petit enfant décédé, jusqu'à
+              concurrence de trois, à partir du second inclusivement.</p>
+            <p>Art. 33. - Les droits des ascendants du premier degré sont ouverts à toute personne
+              qui justifie d'avoir recueilli, élevé et entretenu l'enfant mort pour la France et
+              avoir remplacé son père ou sa mère auprès de lui jusqu'à sa majorité ou son appel sous
+              les drapeaux.</p>
+            <p>TITRE V. - Le paragraphe 2 de l'article 55 de la loi est modifié ainsi :</p>
+            <p>Art. 55. - Toutefois, en cas d'existence de femme et d'enfants et dans le cas
+              d'inexistence de l'un et de l'autre, l'administrateur des biens de l'aliéné ou son
+              tuteur doit, avant tout autre prélèvement, verser dans les quinze premiers jours de
+              chaque trimestre : 1<hi rend="superscript">°</hi> A la femme ou au représentant légal
+              des enfants, les majorations d'enfants et une somme égale à une pension de veuve du
+              taux de reversion; 2<hi rend="superscript">°</hi> Aux ascendants, une somme égale à
+              une pension sur les taux et dans les conditions fixées au titre III de la présente
+              loi.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Nous sommes bien obligés de constater une certaine obscurité dans la rédaction du
+              texte, d'une part le législateur indique dans l'article 28 que, pour avoir droit à
+              pension, il faut avoir un ou des enfants morts pour la France, ceci paraît bien devoir
+              être la condition essentielle. Plus loin, on comprend à plusieurs reprises que les
+              ascendants des mutilés 100% paraissent bien, eux aussi, avoir droit à pension.
+              Cependant nulle part, leur droit n'est exprimé clairement.</p>
+            <p>L'intention du législateur ne nous semble pas douteuse, il est probable qu'il entend
+              bien faire l'assimilation que nous lui avons demandée. Nous allons immédiatement prier
+              M. Vincent Auriol et M. Ricolfi de préciser leur pensée en inscrivant dans l'article
+              18, à la suite de la phrase : "Tous les ascendants français, neutres ou alliés, dont
+              les fils " sont morts au service de la France ", la motion : " ou dont les " enfants
+              sont réformés avec 100% d'invalidité. "</p>
+            <p>Nous craignons, et ceci n'est pas dénué de fondement, de voir nos ascendants obligés
+              de faire reconnaître leur droit par des décisions judiciaires, ce qui représenterait
+              un aléa et une perte de temps que nous allons tenter de leur éviter.</p>
+            <p>Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Le Réajustement des
+              Pensions</head>
+            <p>Enfin l'horizon s'éclaircit, et l'incertitude qui planait sur nos esprits quant à la
+              façon dont le réajustement serait opéré et quant au sentiment du nouveau gouvernement
+              sur le fond même du réajustement, cette incertitude s'est dissipée.</p>
+            <p>Désormais, trois points sont nettement et formellement acquis : 1<hi
+                rend="superscript">°</hi> Le réajustement de la pension de base sera opéré par une
+              majoration de 80%; 2<hi rend="superscript">°</hi> Nous ne courons plus le risque d'un
+              emprunt à but spécial, toujours aléatoire, puisque la dépense que comporte le
+              réajustement de nos pensions sera supportée par le budget; 3<hi rend="superscript"
+                >°</hi> Nous serons payés en numéraires. Voici, n'est-il pas vrai, un résultat qui
+              sera de nature à apporter dans vos foyers un peu de joie et une certaine
+              consolation.</p>
+            <p>De tout notre cœur et avec un inlassable acharnement, nous avons tenté et nous
+              tentons toujours d'obtenir que les 80% soient calculés pour nos camarades articles 10
+              et 12 sur leur pension totale, de même <pb n="6"/>
+              <note type="foliation">— 4 —</note> qu'en ce qui nous concerne nous tentons encore
+              l'impossible pour obtenir le calcul des 80%, aussi bien sur la majoration accordée
+              pour la tierce personne que sur la pension de base. Mais les victoires complètes et
+              absolues ne paraissent pas devoir être de ce monde, ainsi nous l'a enseigné celle qui
+              résulta de la guerre dont nous fûmes les victimes.</p>
+            <p>Ce n'est pas en vain que vous aurez travaillé ; pour aussi incomplète qu'elle soit,
+              la solution n'en est pas moins à considérer.</p>
+            <p>Scapini-Favret, Délégués de l'U. A. G. au Comité d'Entente.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Le travail dans l'industrie
+              automobile</head>
+            <p>En parcourant le livre publié par M. Ford, le grand constructeur d'automobiles
+              américaines, je trouve le passage suivant, que je transcris textuellement. M. BOCQUET.
+              "La grande division du travail industriel crée des occupations qui sont à la portée,
+              pour ainsi dire, de n'importe qui. Il y a notamment plus d'emplois convenant à des
+              aveugles qu'il n'y a d'aveugles à y mettre; plus de places pour les infirmes que
+              d'infirmes à placer. Et dans chacune de ces places, un homme que l'on aurait pu par
+              erreur considérer comme voué à recevoir la charité, pourra gagner sa vie tout aussi
+              bien que le plus vif et le plus vigoureux de ses camarades. C'est du gaspillage que de
+              mettre un homme vigoureux à un travail qui pourrait aussi bien être exécuté par un
+              infirme; gaspillage que d'employer les aveugles à tresser des paniers en osier;
+              gaspillage encore que d'employer des forçats à casser des pierres ou à effiler des
+              cordes ou à telle autre tâche inférieure et peu utile... "L'industrie organisée en vue
+              de l'intérêt général fait disparaître la nécessité de la philanthropie. Ce sentiment,
+              quelle qu'en soit la noblesse, ne contribue pas à développer l'habitude de compter sur
+              soimême. Or, il nous faut des gens qui comptent sur eux-mêmes... "L'industrie
+              organisée en vue de l'intérêt public (que l'ouvrier, non moins que le patron, a pour
+              devoir de servir) peut payer des salaires suffisants pour permettre à chaque famille
+              de vivre et de se suffire. Les philanthropes qui consacrent leur temps et leur argent
+              à procurer à la Société les moyens de mieux subvenir à ses besoins, font meilleure
+              besogne que ceux qui se contentent de donner, et par là, encouragent la paresse...
+              )</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">TITULARISATION</head>
+              <p>Ainsi que nos camarades pourront s'en rendre compte par la lecture du règlement
+                d'administration publique (J. O. 10 avril 1925), que nous reproduisons ci-dessous,
+                seuls les mutilés employés de l'Etat peuvent, à l'heure actuelle, bénéficier de
+                l'article 18 de la loi du 26 avril 1924 (article inséré dans notre Bulletin de juin
+                1924) :</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h13">CHAPITRE PREMIER
+                  Dispositions générales</head>
+                <p>Article premier. - En vue de l'application de l'article 18 de la loi du 26 avril
+                  1924, assurant l'emploi obligatoire des mutilés de la guerre, les administrations
+                  ou établissements de l'Etat qui comprennent, dans leur personnel d'employés ou
+                  d'ouvriers, des auxiliaires même temporaires, quel que soit le titre auquel ils
+                  ont été nommés à leur emploi, devront, dans les deux mois qui suivront la
+                  publication du présent décret au Journal Officiel, inviter les intéressés à leur
+                  adresser une demande indiquant notamment la nature de l'emploi qu'ils occupent,
+                  leur traitement ou salaire et leurs indemnités, la date de leur entrée dans
+                  l'administration dont ils relèvent actuellement et, dans le cas de services
+                  accomplis dans diverses administrations, la nature des emplois occupés, avec les
+                  traitements ou salaires et indemnités y afférents, ainsi que les dates d'entrée et
+                  de sortie.</p>
+                <p>En formulant cette demande, les intéressés devront justifier qu'ils sont
+                  bénéficiaires de l'article 18 de la loi du 26 avril 1924, c'est-à-dire :</p>
+                <p>I" Qu'ils étaient, au 30 avril 1924, bénéficiaires de la loi du 31 mars 1919,
+                  soit comme ancien militaire des armées de terre et de mer, soit comme veuve de
+                  guerre non remariée, soit comme veuve de guerre remariée, mais ayant des enfants
+                  mineurs du conjoint mort pour la France, soit comme mère ou fille mineure de
+                  militaire mort à la <pb n="8"/>
+                  <note type="foliation">— 6 —</note> guerre ou des suites de la guerre, soit comme
+                  femme d'aliéné interné, soit comme infirmier ou infirmière pensionné en vertu de
+                  l'article 57 de la loi du 31 mars 1919, ou qu'ils ont obtenu le bénéfice de cette
+                  dernière loi, en l'une des qualités qui viennent d'être spécifiées,
+                  postérieurement au 30 avril 1924, mais avec effet rétroactif à cette date au plus
+                  tard ;</p>
+                <p>2" Qu'ils étaient au service de l'Etat le 30 avril 1924 et qu'à cette date ils
+                  avaient accompli, en l'une des qualités mentionnées au paragraphe ci-dessus au
+                  moins une année de services civils, consécutifs ou non, soit dans l'administration
+                  ou établissement de l'Etat dont ils dépendent à la date de la demande, soit dans
+                  une autre administration ou établissement de l'Etat.</p>
+                <p>L'invitation prévue au premier paragraphe du présent article sera accompagnée
+                  d'un formulaire type de demande, spécifiant les justifications à produire; sa
+                  remise sera, pour les intéressés présents dans les services, constatée par leur
+                  émargement; pour les autres, l'invitation sera adressée, par lettre recommandée, à
+                  leur dernier domicile connu.</p>
+                <p>Les intéressés devront déposer la demande, accompagnée des justifications qu'elle
+                  comporte, dans les trois mois qui suivront la date de l'invitation; ils ne
+                  pourront présenter cette demande après l'expiration de ce délai de trois mois que
+                  si leur retard est justifié par des raisons reconnues valables par
+                  l'administration ou établissement.</p>
+                <p>Un arrêté interministériel fixera le formulaire type des demandes, ainsi que les
+                  pièces justificatives à produire.</p>
+                <p>Art. 2. - Entrent en compte dans le calcul de l'année de présence exigée pour la
+                  titularisation, les services civils accomplis dans les diverses administrations ou
+                  établissements de l'Etat.</p>
+                <p>Le total de ces services résulte de l'addition des périodes respectivement
+                  passées dans chaque administration ou établissement, y compris la durée des congés
+                  annuels ou de maladie qui ont été accordés conformément aux règlements en
+                  vigueur.</p>
+                <p>Art. 3. - Le ministre de qui relève l'administration ou l'établissement de l'Etat
+                  auquel appartient l'intéressé vérifie si ce dernier remplit les conditions exigées
+                  par l'article 18 et, dans l'affirmative, prononce son admission au bénéfice de cet
+                  article.</p>
+                <p>L'intéressé conserve le bénéfice de cette admission même si, postérieurement à la
+                  décision ministérielle qui la lui accorde, il cesse de jouir de la pension qu'il
+                  avait obtenue au titre de la loi du 31 mars 1919, exception faite du cas où la
+                  pension lui serait retirée par application <pb n="9"/>
+                  <note type="foliation">— 7 —</note> du paragraphe 3, A, de l'article 67 de la loi
+                  du 31 mars 1919, modifié par la loi du 28 juillet 1921.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h14">CHAPITRE II Effets de
+                  la titularisation</head>
+                <p>Art. 4. - La titularisation dans leur emploi des employés ou ouvriers auxiliaires
+                  de l'Etat admis au bénéfice de l'article 18 de la loi du 26 avril 1924, prend date
+                  de la publication du présent règlement au Journal Officiel, pour ceux qui sont en
+                  exercice à cette date, et à partir de leur rentrée en fonctions pour les
+                  autres.</p>
+                <p>Dans toutes les administrations et établissements de l'Etat qui comptent des
+                  bénéficiaires de l'article 18, il sera constitué un cadre dit latéral, comprenant
+                  uniquement les employés ou ouvriers admis au bénéfice dudit article 18 , et dans
+                  lequel ils seront titularisés.</p>
+                <p>La titularisation dans le cadre latéral a pour effet de donner aux bénéficiaires
+                  de l'article 18, indépendamment de la permanence de leur emploi par l'Etat, tous
+                  les avantages du statut applicable au personnel des cadres permanents, notamment
+                  aux points de vue du traitement ou du salaire, de l'avancement, de la retraite,
+                  des congés, des mesures disciplinaires, de l'accession aux emplois supérieurs.</p>
+                <p>Lorsque les auxiliaires à titulariser occupent des emplois identiques à ceux de
+                  la hiérarchie normale, la titularisation se fera aux grades et classes
+                  correspondant à ceux de ladite hiérarchie.</p>
+                <p>Lorsque les emplois occupés par les bénéficiaires de l'article 18 sont seulement
+                  analogues à ceux de la hiérarchie normale, la titularisation aura lieu par
+                  assimilation à des grades ou classes correspondantes.</p>
+                <p>Il sera tenu compte, à cet effet, des fonctions exercées, de l'ancienneté, des
+                  salaires, traitements et émoluments de toute nature perçus par les intéressés.</p>
+                <p>En aucun cas, le bénéfice de la titularisation ne pourra être refusé pour
+                  inaptitude physique ou professionnelle.</p>
+                <p>Des décrets rendus dans la forme des règlements d'administration publique pour
+                  les administrations centrales de ministère, fixeront les conditions dans
+                  lesquelles aura lieu, compte tenu des équivalences déterminées comme il est dit à
+                  l'article suivant, le classement des intéressés, dans le cadre latéral, le statut
+                  de chaque cadre latéral, ainsi que les conditions dans lesquelles les intéressés
+                  pourront accéder à des emplois autres que ceux du cadre latéral. Ils seront pris
+                  sur le rapport du ministre intéressé, du ministre du Travail et du ministre des
+                  Finances, après avis du ministre des Pensions, l'Office national des mutilés
+                  entendu.</p>
+                <pb n="10"/>
+                <note type="foliation">— 8 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h15">CHAPITRE III
+                  Reclassement des bénéficiaires de l'article 18 dont l'emploi est supprimé</head>
+                <p>Art. 5. - Pour permettre le classement, et, en cas de suppression d'emploi, le
+                  reclassement des bénéficiaires de l'article 18, les administrations et
+                  établissements de l'Etat adresseront au ministre du Travail, dans les trois mois
+                  de la publication du présent décret, la nomenclature des emplois tenus par les
+                  auxiliaires, même temporaires, bénéficiaires des dispositions de l'article 18 avec
+                  la description exacte des travaux, des traitements et avantages divers et du
+                  régime de retraite.</p>
+                <p>Dès réception de ces renseignements, le ministre du Travail dressera la
+                  nomenclature de ces emplois et déterminera d'accord avec le ministre des Pensions,
+                  après consultation de l'Office national des mutilés, la correspondance des emplois
+                  des auxiliaires avec les emplois des titulaires, sur avis d'une commission
+                  paritaire comprenant pour moitié des représentants de chaque administration ou
+                  établissement de l'Etat et pour moitié des représentants des bénéficiaires de
+                  l'article 18.</p>
+                <p>Une deuxième nomenclature devra être fournie par chaque administration et
+                  mentionner tous les emplois tenus par les auxiliaires non victimes de la
+                  guerre.</p>
+                <p>Art. 6. - Les suppressions d'emploi dans les catégories comprenant des agents non
+                  bénéficiaires des lois du 30 janvier 1923, du 26 avril 1924 et du 18 juillet 1924
+                  ne pourront atteindre ces bénéficiaires que quand il n'y aura plus d'autres agents
+                  qu'eux dans la catégorie en question ou quand la conservation d'autres agents dans
+                  cette catégorie sera nécessaire à la bonne marche du service.</p>
+                <p>Toute administration, tout établissement qui projette la suppression d'emplois
+                  occupés par des bénéficiaires de l'article 18 de la loi du 26 avril 1924 est tenu
+                  d'envoyer à l'Office central de la main-d'œuvre la liste nominative de ces
+                  bénéficiaires.</p>
+                <p>Cette liste donnera, pour chaque intéressé, avec la date de la décision
+                  l'admettant au bénéfice de l'article 18, toutes indications utiles à son
+                  reclassement, telles que son âge, la nature de son emploi, la catégorie à laquelle
+                  il appartient, son traitement actuel et ses perspectives d'avenir, ses aptitudes,
+                  ses charges de famille, ainsi que les décisions générales ou spéciales déjà
+                  intervenues et notifiées par le ministre du Travail, en ce qui concerne
+                  l'équivalence de son emploi, par application de l'article 5.</p>
+                <p>Art. 7. - Chaque administration ou établissement sera tenu de</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+                <p>signaler, dans les huit jours, à l'Office central de la main-d'œuvre, relevant du
+                  ministère du Travail, toute vacance d'emploi figurant dans les tableaux
+                  d'équivalence mentionnés à l'article 5 et dont l'administration sera en droit de
+                  disposer. Tous ces emplois seront attribués immédiatement, dans les conditions
+                  fixées par le présent article ei l'article 8, aux bénéficiaires de l'article 18 de
+                  la loi du 26 avril 1924 dont l'emploi serait supprimé.</p>
+                <p>Lorsqu'un ministère pourra affecter un emploi disponible dans ses services au
+                  reclassement d'un bénéficiaire de l'article 18 occupant un emploi dont la
+                  suppression est envisagée, il devra simplement notifier à l'Office central de la
+                  main-d'œuvre la mutation ainsi opérée.</p>
+                <p>Art. 8. - A l'aide des indications fournies par les diverses administrations,
+                  l'Office central de la main-d'œuvre dressera, par catégorie d'emplois, la liste
+                  des bénéficiaires à reclasser.</p>
+                <p>Dans un délai de quinze jours à dater de l'avis mentionné à l'article 7, l'Office
+                  central de la main-d'œuvre devra présenter aux administrations et établissements
+                  intéressés les bénéficiaires de l'article 18 qu'il propose de reclasser dans les
+                  emplois disponibles.</p>
+                <p>Il est interdit aux administrations et établissements de faire appel à d'autres
+                  candidats avant l'expiration du délai précité. Tout agent recruté en contravention
+                  de cette prescription sera licencié et remplacé par un bénéficiaire de l'article
+                  18.</p>
+                <p>L'emploi occupé par un bénéficiaire de l'article 18 ne peut être supprimé
+                  qu'après nomination de l'intéressé à un nouvel emploi ou après son refus
+                  d'accepter l'emploi qui lui était offert, reconnu injustifié par le ministre de
+                  qui relève cet emploi, la commission, constituée comme il est dit à l'article 5,
+                  entendue.</p>
+                <p>Art. 9. - Les mutations entraînant un changement de résidence ne devront être
+                  prononcées qu'en cas de nécessité absolue et en tenant compte du taux d'invalidité
+                  des charges de famille et de la situation particulière de chaque intéressé.</p>
+                <p>Au cas où le reclassement n'assurerait pas par lui-même à l'intéressé le maintien
+                  intégral des avantages de traitement ou salaire dont il jouissait avant son
+                  reclassement, il pourra lui être attribué, à titre personnel, sur l'avis d'une
+                  commission constituée comme il est dit à l'article 5 ci-dessus, une indemnité
+                  compensatrice, prélevée sur les crédits ouverts à un chapitre spécial prévu à cet
+                  effet au budget de chaque ministère.</p>
+                <p>Art. 10. - Le ministre du Travail, le ministre des Pensions et le ministre des
+                  Finances, ainsi que les autres ministres, pour ce qui concerne <pb n="12"/>
+                  <note type="foliation">— 10 —</note> leurs services, sont chargés de l'exécution
+                  du présent décret, qui sera oublié au Journal Officiel et inséré au Bulletin des
+                  Lois.</p>
+                <p>Fait à Paris, le 3 avril 1925.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">T.S.F.</head>
+              <p>Les nombreuses lettres que j'ai reçues à la suite de mon premier article
+                m'encouragent à continuer, dans notre Bulletin, l'étude de la T. S. F.</p>
+              <p>Et d'abord, il faut que vous vous persuadiez d'une chose : un appareil de T. S. F.
+                bien conçu est robuste et d'un maniement très facile. La cécité n'est un obstacle
+                que dans certains postes compliqués et de réglages délicats.</p>
+              <p>Que faut-il pour monter un poste de T. S. F.? Disposer autant que possible d'un
+                jardin ou d'un toit pour y installer l'antenne qui est comme le balai qui va, dans
+                l'air, chercher les ondes.</p>
+              <p>L'antenne consiste en un fil de cuivre, étamé si possible, d'une longueur variant
+                suivant l'espace dont on dispose. La longueur d'une antenne a, dans les montages
+                récents, moins d'importance que son dégagement, c'est-à-dire sa hauteur. Il faut,
+                autant que faire se peut, l'écarter des fils électriques de lumière ou de
+                téléphone.</p>
+              <p>L'appareil qui a l'antenne comme porte d'entrée a, comme sortie, la prise de
+                terre.</p>
+              <p>Ne croyez pas qu'il suffise pour cette prise de terre de mettre une bonne terre
+                dans une tabatière et de s'en garnir confortablement le nez lorsque l'on a
+                l'écouteur sur les oreilles. La prise de terre consiste à réunir la borne "Terre" de
+                l'appareil à un robinet d'eau, si vous avez l'eau chez vous, ou à un grillage de
+                deux mètres carrés enterré dans la terre.</p>
+              <p>Si la terre dont on dispose est sèche, il est bon de recouvrir le grillage de coke
+                et d'arroser avant chaque réception.</p>
+              <p>Je vous ai parlé dernièrement de quelques postes. Je vous présente, aujourd'hui,
+                une petite merveille, l' "Artis " R2, qui vous donnera, avec deux lampes, de bonnes
+                réceptions en haut parleur. C'est le poste du camarade qui se trouve isolé en pleine
+                campagne. Fonctionnant entièrement sur piles sèches, voici son devis d'installation
+                : <pb n="13"/>
+                <note type="foliation">— 11 —</note> Appareil nu ..... 500 francs Fiche Pilac pour
+                éviter de griller les lampes ..... 25 Une pile chauffage filament (durée 4 à 6
+                mois). ..... 25 Une pile tension plaque ..... 36 Deux lampes faible consommation
+                ..... 60 Un casque ..... 50 Un haut parleur ..... 200 Matériel d'antenne, fils et
+                isolateurs ..... 30 926 francs Port et emballage ..... 15 L' "Artis " R3 qui donne
+                du haut parleur dans toute la France pour presque tous les concerts européens à 3
+                lampes revient complet à 180 francs de plus. Albert Fauvel, 30, rue de Seine, à
+                Sartrouville (Seine-et-Oise). Un guide (petit format de poche) des stations et
+                correspondances du Métro et du Nord-Sud vient d'être édité à l'usage des Aveugles.
+                Il est en vente, au prix de 1 fr. 30 (un franc trente) (franco : un franc
+                cinquante), à l'Institution Nationale des Jeunes Aveugles, 56, boulevard des
+                Invalides, Paris, et au Bureau des Publications de l'Association Valentin-Hauy, 9,
+                rue Duroc, à Paris.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">A VENDRE </head>
+              <p>Pour raison de santé. Commerce de brosserie, installé depuis 1913, avec atelier
+                muni du matériel nécessaire à quatre ouvriers. Clientèle gros et détail assurée.
+                Prix du commerce : 8.000 à 9.000 francs, selon le matériel que désirerait conserver
+                l'acheteur. Pour les marchandises, le vendeur accorderait facilité de paiement.
+                S'adresser à M. Louis Rouvière, 20, rue Clemenceau, à Rambervillers (Vosges). *</p>
+              <p>Maison et fonds de bonneterie, atelier comprenant trois machines "Dubied ", état
+                neuf, marche parfaite, une surjeteuse-raseuse, marque "Merrow", un an de service;
+                bobinoir automatique "Dubied " n'ayant jamais servi ; un auto-paraffineur à main
+                complet ; un grand rouet à main; accessoires de rechange, bobines, marchandises en
+                maga- <pb n="14" break="no"/>
+                <note type="foliation">— 12 —</note> \sin. Maison comprenant une cave ; au
+                rez-de-chaussée : magasin, salle à manger, cuisine et cour avec w.-c.; premier étage
+                : trois pièces et deux grands greniers. Travail à façon assuré, bonne clientèle.
+                Centre commercial. Ville très commerçante. Installation électrique. Le tout pour
+                32.000 francs. S'adresser au camarade Galis, à Tonneins (Lot-et-Garonne).</p>
+              <p>Machine à écrire "Remington ", écriture invisible. Bon état. S'adresser à G. Dubos,
+                à Vauchelles, par Abbeville (Somme).</p>
+              <p>Machine à tricoter, marque " Dubied ", largeur 60, en très bon état. S'adresser à
+                Charles Carpentier, à Sacy-le-Grand (Oise).</p>
+              <p>Lot de terrain de 500 mètres, bien placé, sis à Franceville-Plage (Calvados).
+                Ecrire à Sursuc (Pierre), à Cuzy par Launey (Nièvre).</p>
+              <p>Le camarade Léger rappelle qu'il a toujours des accoupleurs "Card " et de solides
+                vélos, au prix de mille francs le groupe complet (vélo homme et dame). Lui écrire à
+                Cepoy (Loiret).</p>
+              <p>Notre camarade Achille Grispoire, président du Conseil d'administration de
+                l'Association d'Ouvriers Tisserands "L'Artisane ", à Hallencourt (Somme), nous prie
+                de porter à la connaissance de nos camarades et aux personnes qui s'intéressent à
+                l'U. A. G. que l'Association "L'Artisane " fabrique exclusivement à la main, les
+                toiles à draps et à matelas. La marchandise ne subit aucun apprêt. Demandez prix et
+                échantillons à Achille Grispoire, à Hallencourt (Somme). Des agents seraient
+                acceptés.</p>
+              <p>Notre camarade Suquet se trouvant dans l'obligation de fermer un petit atelier de
+                bonneterie, possède un stock de laine se montant à 90 kilos environ. Les teintes
+                dont il dispose sont : bordeaux, mauve, violet, corail, bleu nil et champagne. Les
+                camarades qui seraient désireux de faire un achat sont priés de s'adresser
+                directement à Suquet, villa Dresch, rue du Lycée, à Foix (Ariège), qui leur fera un
+                prix intéressant.</p>
+              <p>Le camarade Reynes, tricoteur à Carcassonne, 48, rue de la Mairie, est acheteur
+                d'une machine 80 ou d'une 60 à double rayeur, marque " Dubied ".</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>Nous sommes informés que les mutilés bénéficiaires de l'article 10 et leur guide
+                pourront entrer gratuitement à l'Exposition des Arts Décoratifs sur simple
+                présentation de la carte à double barre bleue.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">BIBLIOGRAPHIE</head>
+              <p>La Société d'Impression et de Reliure nous prie d'insérer la liste des ouvrages
+                parus en avril 1925 :</p>
+              <p>Augé. - Grammaire, Cours élémentaire. Baudrillard. - Petit livret de la Guerre
+                1914-1918. Cammann (P.). - Géométrie du Brevet élémentaire. Estaunié. - Les Choses
+                voient (Phare). Hugo (Victor). - Ray Blas. Hémon. - La Belle que voilà. Kipling
+                (Rudyard). - Recueil de poésies. Ledouc. - Cours de Sciences du B. E. Lenotre. -
+                Contes de Noël. Loti (Pierre). - Mon Frère Yves. Mironneau. - Livre de lecture,
+                Cours élémentaire ( 2<hi rend="superscript">°</hi> degré). Palluad de Besset (Mme).
+                - Pour aider nos Aveugles. Schrader et Gallouédec. - Géographie, Cours moyen.
+                Weilleir (N.). - Contes d'ailleurs et d'autrefois (lectures pour enfants). -
+                Historiettes pour enfants.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">BIBLIOTHÈQUE</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Avis important.</head>
+                <p>La Bibliothèque de l'U. A. G. possédant des ouvrages en plusieurs exemplaires
+                  peut les offrir aux camarades qui en feront la demande. Voir la liste
+                  ci-dessous.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">ROMAN</head>
+                <list>
+                  <item>Scènes de la vie de campagne, Balzac (1 vol.).</item>
+                  <item>Amants et Voleurs, Tristan Bernard (6 vol.).</item>
+                  <item>La Chaumière indienne, B. de Saint-Pierre (2 vol.).</item>
+                  <item>Un saint, P. Bourget (2 vol.).</item>
+                  <item>Le justicier, P. Bourget (3 vol.).</item>
+                  <item>La preuve, Guy Chantepleure (1 vol.).</item>
+                  <item>Scènes de la vie de campagne, Balzac (1 vol.).</item>
+                  <item>Amants et Voleurs, Tristan Bernard (6 vol.).</item>
+                  <item>La Chaumière indienne, B. de Saint-Pierre (2 vol.).</item>
+                  <item>Un saint, P. Bourget (2 vol.).</item>
+                  <item>Le justicier, P. Bourget (3 vol.).</item>
+                  <item>La preuve, Guy Chantepleure (1 vol.).</item>
+                </list>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+                <list>
+                  <item>L'adoption, F. Coppée (1 vol.).</item>
+                  <item>Les vices du capitaine, F. Coppée (1 vol.).</item>
+                  <item>Trois contes, A. Daudet (1 vol.).</item>
+                  <item>L'installation. - Les vieux, A. Daudet (1 vol.).</item>
+                  <item>La Dame aux camélias, A. Dumas fils ( 10 vol.).</item>
+                  <item>La guerre en dentelles (extraits), G. d'Esparbès (1 vol.).</item>
+                  <item>La Légende de Saint Julien l'Hospitalier, G. Flaubert (1 vol.).</item>
+                  <item>Bicard, dit le Bouif, La Fouchardière (6 vol.).</item>
+                  <item>Crainquebille, A. France (1 vol.).</item>
+                  <item>Dominique, Fromentin ( 7 vol.).</item>
+                  <item>Le professeur Knatchke, Hansi (2 vol.).</item>
+                  <item>Au tigre, R. Kipling (2 vol.).</item>
+                  <item>Le phoque blanc, R. Kipling (1 vol.).</item>
+                  <item>Toomay des éléphants, R. Kipling (1 vol.).</item>
+                  <item>La hyène enragée (extraits), P. Loti (1 vol.).</item>
+                  <item>Contes choisis. - L'Auberge, G. de Maupassant (1 vol.).</item>
+                  <item>Boule de Suif, G. de Maupassant (2 vol.).</item>
+                  <item>Mademoiselle Fifi, G. de Maupassant (1 vol.).</item>
+                  <item>La bête à Maître Belhomme, G. de Maupassant (1 vol.).</item>
+                  <item>Deux amis, G. de Maupassant (1 vol.).</item>
+                  <item>Jours heureux, H. de Régnier (2 vol.).</item>
+                  <item>Le colonel Evrard, Jules Sandeau (2 vol.).</item>
+                  <item>Contes pour le peuple, Tolstoi (2 vol.).</item>
+                  <item>Le jambon de Grapu, P. Valdagne (2 vol.).</item>
+                  <item>La canne de jonc, Vigny (4 vol.).</item>
+                  <item>L'oncle Fédia, Vogué (1 vol.).</item>
+                  <item>Candide, Voltaire (2 vol.).</item>
+                  <item>La chèvre aux pieds d'or, Ch.-H. Hirsch (4 vol.).</item>
+                  <item>L'envers du décor. - Le Mensonge du Père, P. Bourget (3 vol.).</item>
+                  <item>bis. - L'envers du décor. - Les Moreau-Janville, P. Bourget ( 2
+                    vol.).</item>
+                  <item>Le Rouge et le Noir, Stendhal (9 vol.).</item>
+                  <item>Les noces de Laurik Cosquêr, A. Le Braz (1 vol).</item>
+                  <item>La Guerre des Mondes, Wells (7 vol.).</item>
+                  <item>Le Rouge et le Noir, Stendhal (9 vol.).</item>
+                  <item>Lettres aux Soldats blessés aux yeux, BRIEUX (1 vol.).</item>
+                </list>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">LITTÉRATURE</head>
+                <list>
+                  <item>Discours, Maréchal Joffre (1 vol.).</item>
+                  <item>Voyage autour de ma chambre, X. de Maistre (2 vol.).</item>
+                  <item>Vie de Beethoven, R. Rolland (3 vol.).</item>
+                  <item>Discours, Maréchal Joffre (1 vol.).</item>
+                  <item>Voyage autour de ma chambre, X. de Maistre (2 vol.).</item>
+                  <item>Vie de Beethoven, R. Rolland (3 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">POÉSIE</head>
+                <list>
+                  <item>Les Chansons du Bivouac, Th. Botrel (1 vol.).</item>
+                  <item>Le sacre de la femme. - Le petit roi de Galice (Légende des Siècles), V.
+                    Hugo (1 vol.).</item>
+                  <item>Préface aux Premières Méditations Poétiques, Lamartine (1 vol.).</item>
+                  <item>Méditations Poétiques, Lamartine (5 vol.).</item>
+                  <item>L'aigle du casque. - La rose de l'Infante (Légende des Siècles), V. Hugo (1
+                    vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">THEATRE</head>
+                <list>
+                  <item>1400. - Les Fourchambault, E. Augier (2 vol.).</item>
+                  <item>1402. - Le fils de Giboyer, E. Augier (2 vol.).</item>
+                  <item>1426. - L'affaire de la rue de Lourcine, E. Labiche (1 vol.).</item>
+                  <item>1427. - Polyphème, Albert Samain (2 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">PHILOSOPHIE</head>
+                <list>
+                  <item>Essais sur les données de la conscience, Bergson (9 vol.).</item>
+                  <item>Maximes, de la Rochefoucauld (5 vol.).</item>
+                  <item>Emile (Livre I.), J.-J. Rousseau (2 vol.).</item>
+                </list>
+                <list>
+                  <item>Emile (Livre II.), J.-J. Rousseau (4 vol.).</item>
+                  <item>Emile (Livre II), J.-J. Rousseau (5 vol.).</item>
+                  <item>2024. - Emile (Livre IV), J.-J. Rousseau (7 vol.).</item>
+                  <item>Emile (Livre IV), J.-J. Rousseau (8 vol.).</item>
+                  <item>2025. - Précis de Psychologie, William James (11 vol.).</item>
+                  <item>2032. - Doctrine d'Auguste Comte, Alain (1 vol.).</item>
+                  <item>2034. - Le Rire, Bergson (5 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">SOCIOLOGIE</head>
+                <list>
+                  <item>L'après-guerre, Ed. Herriot (2 vol.).</item>
+                  <item>Droit commercial, Foignet (13 vol.).</item>
+                  <item>Principes d'économie politique, Ch. Gide (10 vol.).</item>
+                  <item>Cours de représentation commerciale de Neuilly (4 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h27">HISTOIRE</head>
+                <list>
+                  <item>Histoire de Charles XII, Voltaire (9 vol.).</item>
+                </list>
+                <pb n="18"/>
+                <note type="foliation">— 16 —</note>
+                <list>
+                  <item>2224. - Histoire rationnelle de la France, Laclef et Bergeron (7
+                    vol.).</item>
+                  <item>2225. - L'Histoire, Levrault (5 vol.).</item>
+                  <item>2226. - Histoire de la Civilisation française, Alfred Rambaud (1
+                    vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">LIVRES DE GUERRE
+                  (1914-1918)</head>
+                <list>
+                  <item>2227. - Extrait d'un poste de commandement, M. Prévost (1 vol.).</item>
+                  <item>2228. - Le père du militarisme allemand, marquis de Ségur (1 vol.).</item>
+                  <item>2317. - Civilisation, G. Duhamel (2 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">GÉOGRAPHIE</head>
+                <list>
+                  <item>2229. - France et Colonies, Lanier (5 vol.).</item>
+                  <item>2230. - Géographie, Gallouédec (13 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">MATHÉMATIQUES </head>
+                <list>
+                  <item>2408. - Géométrie, PÉTERSEN (4 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h31">AGRICULTURE </head>
+                <list>
+                  <item>2231. - Le petit jardinier, D. Bois (2 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h32"> ENSEIGNEMENT </head>
+                <list>
+                  <item>2232. - Lectures choisies (Français moderne), Ch. Bigot (3 vol.).</item>
+                  <item>2233. - Cours d'escrime pour les Aveugles, G. Dubois (1 vol.).</item>
+                  <item>2234. - Récitation, Cours moyen et supérieur, Laclef et Bergeron (5
+                    vol.).</item>
+                  <item>2235. - Leçons de lecture. - La famille (3 vol.).</item>
+                  <item>2236. - Méthode de Braille, Cap. Mouchard (1 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h33">OUVRAGES SUR LES
+                  AVEUGLES </head>
+                <list>
+                  <item>2237. - Lueurs dans les Ténèbres, Hawkes (3 vol.).</item>
+                  <item>2688. - A tâtons, Benjamin Valloton (4 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h34">MÉTIERS </head>
+                <list>
+                  <item>2238. - Barème de brosserie, Neuilly (1 vol.).</item>
+                  <item>2239. - Méthode de tricotage, Dufour (1 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h35">MUSIQUE </head>
+                <list>
+                  <item>2240. - Petit traité d'harmonie, Alain (3 vol.).</item>
+                </list>
+                <pb n="19"/>
+                <note type="foliation">— 17 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h36">ESPAGNOL</head>
+                <list>
+                  <item>Don Quijote de la Manchot, Cervantes (4 vol.).</item>
+                </list>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h37">ANGLAIS</head>
+                <list>
+                  <item>Cours abrégé de langue anglaise, Miss Getty (4 vol.).</item>
+                  <item>Contractions in English, Braille (1 vol.).</item>
+                  <item>English. - French Dictionary (1 vol.).</item>
+                  <item>French. - English Dictionary (2 vol.).</item>
+                  <item>Two stories, R. Kipling (1 vol.).</item>
+                  <item>Robinson Crusoé, D. Foe (3 vol.).</item>
+                  <item>Barnaby Rudge (8 vol.).</item>
+                </list>
+                <pb n="20"/>
+                <note type="foliation">— 18 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h39">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, du 16 avril au 15 mai, une somme de 5.915
+                francs, se répartissant comme suit :</p>
+              <table>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell>4.000 francs</cell>
+                </row>
+                <row>
+                  <cell>Décès (couronnes)</cell>
+                  <cell>75</cell>
+                </row>
+                <row>
+                  <cell>Secours</cell>
+                  <cell>1.540</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 5.915 francs, une somme de 2.500 francs pour prêts
+                d'honneur et de construction de maisons.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 25 demandes de secours, sur
+                lesquelles 12 n'ont donné lieu, pour motifs divers, à aucun secours.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h40">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h41">NAISSANCES</head>
+                <p>Notre camarade et Mme Lennoz, à La Bathie (Savoie), nous font part de la
+                  naissance de leur troisième fils, Fernand-David, né le 8 mars 1925.</p>
+                <p>Notre camarade et Mme Maguet, de Vichy (Allier), nous font part de la naissance
+                  de leur fille, Marie-Bernadette, née le 8 avril 1925.</p>
+                <p>Notre camarade et Mme Vilain, d'Aubigny-sur-Nère (Cher), nous font part de la
+                  naissance de leur quatrième fils, Jean-Marcel, né le 1<hi rend="superscript"
+                    >er</hi> avril 1925.</p>
+                <p>Notre camarade et Mme Salmon, de Paris, nous font part de la naissance de leur
+                  fille, Simone, née le 17 avril 1925.</p>
+                <p>Notre camarade et Mme Ménager, de Malbrouck-Masle (Orne), nous font part de la
+                  naissance de leur fils, Guy, né le 19 avril 1925.</p>
+                <p>Notre camarade et Mme Mougin, de Baccara, nous font part de la naissance de leur
+                  fils, Paul, né le 1<hi rend="superscript">er</hi> avril 1925.</p>
+                <p>Notre camarade et Mme Salefranque, de Pau (Basses-Pyrénées), nous font part de la
+                  naissance de leur fils, né le 17 avril 1925.</p>
+                <p>Notre camarade et Mme Leblond (Maurice), de Paris, nous font part de la naissance
+                  de leur fils, Guy, né le 20 avril 1925.</p>
+                <pb n="21"/>
+                <note type="foliation">— 19 —</note>
+                <p>Notre camarade et Mme Taillepied, de Duroy-Sainte-Marguerite (Calvados), nous
+                  font part de la naissance de leur fils, né le 13 avril 1925.</p>
+                <p>Notre camarade et Mme Levêque, de Beauvais-en-Saimpoux (Ille-et-Vilaine), nous
+                  font part de la naissance de leur fils, Félix, né le 10 avril 1925.</p>
+                <p>Notre camarade et Mme Gatineau, de la Brosse-Montoumais (Vendée), nous font part
+                  de la naissance de leur fils, Marcel, né le 1<hi rend="superscript">er</hi> avril
+                  1925.</p>
+                <p>Notre camarade et Mme Joseph (Edouard), d'Alençon (Orne), nous font part de la
+                  naissance de leur troisième enfant, né le 26 avril 1925.</p>
+                <p>Notre camarade et Mme Frapsauce (Alexandre), de Lorient (Morbihan), nous font
+                  part de la naissance de leur deuxième fils, né le 1<hi rend="superscript">er</hi>
+                  mai 1925.</p>
+                <p>Notre camarade et Mme Fondement (Louis), de La Croix-SaintOuen (Oise), nous font
+                  part de la naissance de leur fils, René, né le 12 avril 1925.</p>
+                <p>Notre camarade et Mme Mercier (Robert), d'Avignon (Vaucluse), nous font part de
+                  la naissance de leur fille, Nicole.</p>
+                <p>Notre camarade et Mme Malgoire, de Cremps (Lot), nous font part de la naissance
+                  de leur fils Paul, né le 1<hi rend="superscript">er</hi> mai 1925.</p>
+                <p>Notre camarade et Mme Coignoux, de Nantes (Loire-Inférieure), nous font part de
+                  la naissance de leur fille, Renée, née le 13 février 1925.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h42">MARIAGES</head>
+                <p>Notre camarade Angel (Louis) nous fait part de son mariage avec Mlle Marthe
+                  Steneich, qui a été célébré le 9 mars 1925.</p>
+                <p>Notre camarade Coubluc (Paul) nous fait part de son mariage avec Mlle Berthe
+                  Dupaut, qui a été célébré le 15 avril 1925.</p>
+                <p>Notre camarade Bardin (Louis) nous fait part de son mariage avec Mlle Marie
+                  Roggiero, qui a été célébré le 9 mai 1925.</p>
+                <p>Notre camarade Mayet (Charles) nous fait part de son mariage avec Mlle Alsac, qui
+                  a eu lieu le 28 avril 1925.</p>
+                <p>Nous adressons aux jeunes époux nos meilleurs vœux de bonheur.</p>
+                <pb n="22"/>
+                <note type="foliation">— 20 —</note>
+                <p>M. de Traversay, président de notre Comité d'Action, nous fait part du mariage de
+                  sa fille avec le baron de Grotthuss-Gernandt.</p>
+                <p>Nous prions à nouveau M. de Traversay de vouloir bien accepter nos sincères
+                  félicitations et de transmettre nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h43">DÉCÈS</head>
+                <p>Nous apprenons le décès : De la femme de notre camarade Le Stang, survenu le 14
+                  avril 1925, à l'âge de vingt-sept ans, au Plessis-Trévise (Seine-et-Oise).</p>
+                <p>Du frère de notre camarade Charlat, survenu à l'âge de vingtquatre ans, le 15
+                  avril 1925, à Saint-Pierre-les-Nemours.</p>
+                <p>De la naissance et du décès de l'enfant de notre camarade Laboulais, le 19 avril
+                  1925.</p>
+                <p>Du bébé de notre camarade Malgat, de Villemomble, survenu le 25 avril 1925, à
+                  huit mois.</p>
+                <p>De la mère de notre camarade Carpentier, décédée le 14 avril, à l'âge de
+                  cinquante-deux ans.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h44">Compte rendu de l'Assemblée
+                Générale de la Section des Masseurs de l'Union des Aveugles de Guerre du 25 Février
+                1925</head>
+              <p>La séance est ouverte à 20 h .30 , sous la présidence de Grillet. Sont présents :
+                Mauger, Cardot, Grillet, Tihon, Rion, Rouquette, Gudefin, Erb.</p>
+              <p>Excusés : Lecomte, Favret, Daubenay, Pagenel, Cariou, Guittard, Michon,
+                Corraza.</p>
+              <p>Lecture du rapport établi par les commissaires masseurs et dont ci-dessous copie
+                :</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h45">RAPPORT PRESENTE PAR LES
+                COMMISSAIRES</head>
+              <p>MASSEURS, CARDOT, MAUGER, RIOU, ROUQUETTE, à l'Assemblée générale annuelle de la
+                Section de Massage de l'Union des Aveugles de Guerre, le 25 avril 1925.</p>
+              <p>Chers camarades, A l'Assemblée générale extraordinaire de décembre 1924, nous vous
+                avons rendu compte de notre mandat pour l'exercice 1924-1925, nous allons vous
+                donner les résultats obtenus depuis cette réunion.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+              <p>Tarif "Breton». - Vous nous aviez donné mandat de faire des démarches auprès du
+                Ministère du Travail, de l'Hygiène et de la Prévoyance sociales en vue de la
+                modification de l'article 24 du tarif " Breton ".</p>
+              <p>Nous avons été reçus par le chef du Cabinet du ministre. Ce haut fonctionnaire a
+                bien voulu promettre de soutenir notre requête et de nous mettre au courant de la
+                suite qui lui aura été donnée.</p>
+              <p>Article 64, Loi du 31 mars 1919. - Vous nous aviez demandé également d'entrer en
+                rapports avec le Ministère des Pensions pour obtenir une addition à l'article 64 de
+                la loi du 31 mars 1919.</p>
+              <p>Cette addition aurait eu pour but de reconnaître officiellement le masseur diplômé
+                de l'Etat et de lui permettre, après ordonnance du médecin, bien entendu, de traiter
+                les bénéficiaires de l'article 64, de détacher les bons du carnet de soins gratuits
+                et de se les faire rembourser dans les mêmes conditions que le font les
+                docteurs.</p>
+              <p>Le temps nous a manqué pour mettre cette question au point, elle fera partie du
+                programme du prochain exercice.</p>
+              <p>Masseurs employés dans les hôpitaux militaires. - Les masseurs, Aveugles de Guerre,
+                employés dans les hôpitaux militaires de province, ne bénéficient pas des mêmes
+                traitements ni de la même échelle d'augmentation que ceux accordés aux masseurs,
+                Aveugles de Guerre, travaillant pour le Service de Santé militaire de Paris.</p>
+              <p>Nous avons pu faire des démarches auprès du Service de Santé dans le but de faire
+                supprimer cette différence et de faire accorder aux masseurs, Aveugles de Guerre,
+                employés dans les hôpitaux militaires de province les mêmes appointements et
+                augmentations que ceux alloués à leurs camarades des établissements hospitaliers
+                militaires de Paris.</p>
+              <p>Le Service de Santé mène actuellement une enquête et nous avons tout lieu de croire
+                qu'elle aboutira à l'entière satisfaction des intéressés.</p>
+              <p>Article 18 de la Loi du 26 avril 1924. - En outre, nous avons pris position pour
+                que l'article 18 de la Loi du 26 avril 1924 donne satisfaction aux mutilés qui en
+                sont bénéficiaires. L'article précité intéresse au plus haut point les masseurs
+                employés dans les hôpitaux de l'Etat.</p>
+              <p>L'Office National des Mutilés et Réformés avait déposé un projet de règlement
+                d'administration publique qui aurait donné satisfaction à tous les fonctionnaires
+                auxiliaires mutilés. Ce règlement précisait que les auxiliaires seraient titularisés
+                dans les cadres normaux et jouiraient des mêmes avantages que les autres
+                fonctionnaires. Le Conseil d'Etat a modifié ce règlement et créait un cadre latéral
+                avec un statut spécial <pb n="24"/>
+                <note type="foliation">— 22 —</note> et des appointements qui ne concordaient pas
+                avec ceux des fonctionnaires du cadre normal.</p>
+              <p>A la suite de démarches entreprises, d'accord avec le Comité d'Entente, l'horizon
+                s'est éclairci et le règlement d'administration publique adopté par le Conseil des
+                Ministres, quoique n'étant pas tout à fait celui de l'Office National des Mutilés et
+                Réformés, donne satisfaction aux intéressés. En effet, il stipule que la
+                titularisation dans le cadre latéral a pour effet de donner aux bénéficiaires de
+                l'article 18, indépendamment de la permanence de leur emploi par l'Etat, tous les
+                avantages du statut applicable au personnel des cadres permanents, notamment aux
+                points de vue du traitement ou salaire, de l'avancement, de la retraite, des congés,
+                des mesures disciplinaires, de l'accession aux emplois supérieurs. (Voir règlement
+                d'administration publique dans le présent Bulletin.)</p>
+              <p>Diplôme d'Etat de masseur. - Depuis notre dernière Assemblée générale, rien de
+                nouveau, sauf cependant que le diplôme qui nous sera délivré n'entraînera pour les
+                ayants droit aucun frais d'établissement. Nous ne savons pas à quelle date nous nous
+                verrons en possession du diplôme d'Etat.</p>
+              <p>Publicité. - Comme les années précédentes, nous adresserons au Bottin, les noms et
+                adresses des masseurs, Aveugles de guerre, du département de la Seine faisant partie
+                de la Section.</p>
+              <p>Ce rapport est adopté à l'unanimité. Pagenel demande que de nouvelles démarches
+                soient faites auprès du Ministère du Travail relativement à la modification du tarif
+                "Breton " sur les accidents du travail. Il est entendu qu'ils feront de nouvelles
+                démarches auprès du Ministère intéressé.</p>
+              <p>Renouvellement des commissaires masseurs. - A l'unanimité des membres présents ont
+                été nommés commissaires masseurs :</p>
+              <p>Erb, en remplacement de notre camarade Rouquette qui, obligé de s'absenter pendant
+                quelques mois, ne peut continuer à remplir les fonctions de commissaire, Cardot,
+                Riou, Mauger.</p>
+              <p>Au nom des membres de la Section, le Président remercie les commissaires masseurs
+                du dévouement qu'ils ont apporté à défendre les intérêts de leurs camarades au cours
+                de l'exercice 1924-1925.</p>
+              <p>Pour l'exercice 1925-1926, les commissaires masseurs décident de se réunir à l'U.
+                A. G., le premier samedi de chaque mois.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h46">COMPTE RENDU DE LA REUNION
+                DES COMMISSAIRES MASSEURS DU SAMEDI 2 MAI 1925</head>
+              <p>Les commissaires masseurs se sont réunis, le samedi 2 mai, à l'U. A. G.</p>
+              <p>Etaient présents : Cardot, Mauger, Riou. Excusé : Erb. Assistent à la séance :
+                Favret, Grillet, Dufourc. Lecture de la lettre du Ministère de la Guerre avisant
+                l'U. A. G. que les masseurs, Aveugles de Guerre, employés dans les hôpitaux
+                militaires du Gouvernement Militaire de Paris, du 1<hi rend="superscript">er</hi>
+                Corps d'Armée (Lille) et du 15<hi rend="superscript">e</hi> Corps d'Armée (Nice),
+                ont vu leur salaire relevé.</p>
+              <p>Les commissaires masseurs décident de rappeler à M. le ministre, l'entretien qu'ils
+                ont eu avec son chef de Cabinet relativement à la modification du tarif
+                "Breton».</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h47">LETTRE DU CAMARADE MESLIN
+                (Georges)</head>
+              <p>Monsieur le Président, Ayant appris par le Bulletin de l'Union des Aveugles de
+                Guerre que quelques camarades avaient eu le bonheur de recouvrer la vue grâce à
+                l'intervention de l'éminent oculiste qu'est le docteur Bonnefon, j'ai voulu à mon
+                tour tenter la chance.</p>
+              <p>Ayant parcouru les cliniques de Paris pour savoir si j'étais opérable, c'est
+                toujours par la négative que l'on m'a répondu et ce grand savant n'a pas hésité à
+                tenter l'opération.</p>
+              <p>Quarante-huit heures après l'opération, j'ai eu la joie de voir la main du docteur,
+                et de jour en jour, les couleurs vives et, aujourd'hui, à l'aide d'un verre spécial,
+                je suis arrivé à une acuité visuelle de deux dixièmes.</p>
+              <p>Je vous envoie ces lignes dans le but qu'elles soient insérées dans le prochain
+                Bulletin de l'U. A. G., pour rendre hommage à ce grand savant à la fois si bon et si
+                généreux et pour le faire savoir aux camarades qui voudraient tenter la chance à
+                leur tour. Je suis heureux de répéter à nouveau le brillant résultat obtenu :</p>
+              <p>Avant l'opération, acuité visuelle : zéro. Aujourd'hui, acuité visuelle : deux
+                dixièmes. Recevez, Monsieur le Président, mes remerciements et mes sincères
+                salutations.</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h48">LEGION D'HONNEUR</head>
+              <p>Par décret du Président de la République, en date du 6 mai 1925 (Journal Officiel
+                du 16 mai 1925, pages 4621 et 4622), a été promu au grade d'officier de la Légion
+                d'honneur :</p>
+              <p>Pour prendre rang le 16 août 1920 : Dubrac (Stanislas-Max-Roger), médecin
+                aide-major de 1<hi rend="superscript">re</hi> classe au 89<hi rend="superscript"
+                  >°</hi> régiment territorial d'infanterie, retraité pour blessures de guerre. Sont
+                nommés au grade de chevalier : Pour prendre rang au 16 août 1920 : Castel
+                (François-Frédéric-Emilien), ex-soldat du 119<hi rend="superscript">°</hi> régiment
+                d'infanterie. Grondin (Pierre-Henri), ex-soldat du 109<hi rend="superscript">°</hi>
+                régiment d'infanterie. Pour prendre rang du 16 décembre 1921 : Bellec (Yves),
+                ex-soldat du 48<hi rend="superscript">°</hi> régiment d'infanterie. Pour prendre
+                rang du 5 février 1924 : Semat (Marius-Paul-François), ex-soldat du 40<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Pour prendre rang du 3 mai 1924 :
+                Duvallet (Charles-Léon), ex-soldat du 403<hi rend="superscript">°</hi> régiment
+                d'infanterie. Pour prendre rang du 12 septembre 1924 : Boudra (Jean-Clément),
+                ex-soldat du 251<hi rend="superscript">°</hi> régiment d'infanterie. Pour prendre
+                rang du 6 octobre 1924 : Hedouin (Armand-Raoul), ex-soldat du 51<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <pb n="27"/>
+              <note type="foliation">— 25 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h49">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents: Courteix, Grillet, Nicolaï. Secrétaire général
+              : Faybet. Trésorier : Gaston L'Evesque. Membres : Amab, Antoine, Arnault, Bardoux,
+              Bertrand, Bois, Conan, Derunder, Dutourc, Fauvel, Goubin, Gubefin, Izaac, Lappargue,
+              Lagarde, Lallement, lauté, Leloup, Malgat, Nolbeaux, Robert (Maurice), Toubousi,
+              Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h50">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur ; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint ; M. Auterbe, Actuaire à la Compagnie «L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broquin. M. Chepfer. M. Pierre ChÉrot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranie, Inspecteur des Ecoles de Rééducation</p>
+            <p>Mlle Jalaguier. Mme Henri. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal. M. Joseph Roux. M. Sollar.</p>
+            <p>Dr Schneider.</p>
+            <pb n="28"/>
+            <note type="foliation">— 26 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h51">Liste des Donateurs</head>
+            <p>Anonyme, n <hi rend="superscript">°</hi> 20.446, 20 fr. - Mme Couleru-Bœringer, à
+              Lugano (Suisse), 50 fr. - Anonyme, n <hi rend="superscript">°</hi> 20.458, affectation
+              Franceville, 25 fr . - Mme Michaud, à Paris, transmis par Les Annales, 10 fr. - M.
+              Emile Hony, Le Caire (Egypte), transmis par Les Annales, 350 fr. - Mlle Scheurer,
+              Paris, affectation Franceville, 200 fr. - Mme Vve Joseph Jaïs, Alger, 50 fr. - Mme Vve
+              Albert Barré, Châlons-sur-Marne, 500 fr. - Préfecture de la Haute-Saône (subvention),
+              100 fr. - Mme Henri Varin, à Guéthary (Basses-Pyrénées), 100 fr. - Anonyme, n <hi
+                rend="superscript">°</hi> 20.522, affectation Franceville, 25 fr. - Anonyme, n <hi
+                rend="superscript">°</hi> 20.523, 10.000 francs. - M. Richomme, à Paris, 75 fr. - M.
+              Napoléon Rancy, Grand Cirque, Marseille, 500 fr. Les lecteurs de la Bibliothèque, 12,
+              rue Titon, Paris, 57 fr. - M. J. Buttob, 74, avenue de la République, Paris, 25
+              fr.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
