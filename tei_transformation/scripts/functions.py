@@ -3,6 +3,9 @@ import unicodedata # Informations sur les caractères Unicode
 import re  # Expressions régulières
 from lxml import etree # Pour créer et écrire le XML TEI
 
+
+from variables import BLOC_PB1
+
 NS_TEI = "http://www.tei-c.org/ns/1.0"
 NSMAP = {"tei": NS_TEI}
 
@@ -13,57 +16,110 @@ ALLOWED_TAGS = ("p", "list", "table", "quote", "figure", "pb", "note", "metamark
 # =======  TABLE DES MATIERES ========
 # ======================================================
 
-def build_toc_for_div(div, ns, idx_counter):
-    """Construit récursivement une liste hiérarchique de contenu pour la TOC."""
+TEI_NS = "http://www.tei-c.org/ns/1.0"
+XML_NS = "http://www.w3.org/XML/1998/namespace"
+NSMAP = {"tei": TEI_NS}
 
-    toc_list = etree.Element("{http://www.tei-c.org/ns/1.0}list")
+def get_full_text(elem):
+    """Retourne tout le texte d’un élément (y compris contenu des enfants)."""
+    return (elem.xpath("string()") or "").strip()
 
-    for child in div:
-        if child.tag == "{http://www.tei-c.org/ns/1.0}div":
-            head = child.find("tei:head", namespaces=ns)
-            if head is not None and child.get("type") != "toc":
-                # Assigner un xml:id si absent
-                if not head.get("{http://www.w3.org/XML/1998/namespace}id"):
-                    head_id = f"h{idx_counter[0]}"
-                    head.set("{http://www.w3.org/XML/1998/namespace}id", head_id)
-                    idx_counter[0] += 1
-                else:
-                    head_id = head.get("{http://www.w3.org/XML/1998/namespace}id")
+def ensure_head_id(head, idx_counter):
+    """Assure qu'un head a un xml:id, retourne l'id."""
+    head_id = head.get(f"{{{XML_NS}}}id")
+    if not head_id:
+        head_id = f"h{idx_counter[0]}"
+        head.set(f"{{{XML_NS}}}id", head_id)
+        idx_counter[0] += 1
+    return head_id
 
-                # Créer l’entrée TOC
-                item = etree.Element("{http://www.tei-c.org/ns/1.0}item")
-                ref = etree.Element("{http://www.tei-c.org/ns/1.0}ref", target=f"#{head_id}")
-                ref.text = head.text if head.text else "[Sans titre]"
+def build_toc_from_node(node, idx_counter, debug=False):
+    """
+    Parcourt `node` en profondeur et construit une liste TOC (list of item elements).
+    Chaque fois qu'une <div> avec <head> est rencontrée, on crée un <item>.
+    """
+    toc_list = etree.Element(f"{{{TEI_NS}}}list")
+
+    # Nous parcourons uniquement les éléments enfants (itération profonde via recursion)
+    for child in node:
+        # on n'agit que sur les éléments TEI (ignore texte / comments)
+        if not isinstance(child.tag, str):
+            continue
+
+        # Si c'est un <div>, vérifier s'il a un head (même si head est enfoui)
+        if child.tag == f"{{{TEI_NS}}}div":
+            head = child.find("tei:head", namespaces=NSMAP)
+            if head is not None:
+                title = get_full_text(head) or "[Sans titre]"
+                head_id = ensure_head_id(head, idx_counter)
+
+                if debug:
+                    print(f"[TOC] trouvée head id={head_id} titre='{title}'")
+
+                item = etree.Element(f"{{{TEI_NS}}}item")
+                ref = etree.Element(f"{{{TEI_NS}}}ref", target=f"#{head_id}")
+                # on met le texte du titre dans ref (si tu préfères un element <label> on peut)
+                ref.text = title
                 item.append(ref)
 
-                # Ajouter les sous-éléments récursivement
-                sublist = build_toc_for_div(child, ns, idx_counter)
+                # Construire la liste pour les enfants de ce div (récursion)
+                sublist = build_toc_from_node(child, idx_counter, debug=debug)
                 if len(sublist):
                     item.append(sublist)
 
                 toc_list.append(item)
+            else:
+                # Même si pas de head ici, il peut y en avoir dans les sous-divs :
+                sublist = build_toc_from_node(child, idx_counter, debug=debug)
+                # si la sous-liste contient des items, on l'annexe directement (évite listes vides)
+                if len(sublist):
+                    # Si le parent div n'a pas de head, on veut promouvoir ses items au niveau courant
+                    # pour ne pas perdre la hiérarchie.
+                    for it in sublist:
+                        toc_list.append(it)
+
+        else:
+            # Si l'enfant n'est pas un div, continuer à descendre (ex: <p><div> ...)
+            sublist = build_toc_from_node(child, idx_counter, debug=debug)
+            if len(sublist):
+                for it in sublist:
+                    toc_list.append(it)
 
     return toc_list
 
 
-def build_hierarchical_toc(root):
-    """Construit la TOC hiérarchique complète."""
-
-    ns = {"tei": "http://www.tei-c.org/ns/1.0"}
-    toc_div = etree.Element("{http://www.tei-c.org/ns/1.0}div", type="toc")
-    toc_head = etree.Element("{http://www.tei-c.org/ns/1.0}head")
+def build_hierarchical_toc(root, insert_into_body=True, debug=False):
+    """
+    Construit la div type='toc' complète et renvoie l'élément.
+    insert_into_body: si True, la fonction n'insère pas la div dans l'arbre;
+                      c'est laissé au caller (tu peux désactiver si tu veux insertion automatique).
+    debug: affiche les heads trouvés.
+    """
+    toc_div = etree.Element(f"{{{TEI_NS}}}div", type="toc")
+    toc_head = etree.Element(f"{{{TEI_NS}}}head")
     toc_head.text = "TABLE DES MATIÈRES"
     toc_div.append(toc_head)
 
     idx_counter = [1]
-    for div in root.xpath("//tei:div[tei:head]", namespaces=ns):
-        if div.get("type") == "toc":
-            continue
-        toc_list = build_toc_for_div(div, ns, idx_counter)
-        if len(toc_list):
-            toc_div.append(toc_list)
+
+    # On cherche une racine pratique pour parcourir le contenu : prefer body, sinon text, sinon root
+    body = root.find(".//tei:body", namespaces=NSMAP)
+    if body is not None:
+        scan_root = body
+    else:
+        text = root.find(".//tei:text", namespaces=NSMAP)
+        scan_root = text if text is not None else root
+
+    if debug:
+        print("[TOC] point de départ:", scan_root.tag)
+
+    toc_list = build_toc_from_node(scan_root, idx_counter, debug=debug)
+    if len(toc_list):
+        toc_div.append(toc_list)
 
     return toc_div
+
+
 
 # ======================================================
 # =======  ENCODAGE DE TEXTE ========
@@ -273,6 +329,27 @@ def encode_elements(elem, parent_el):
 
 
 # ======================================================
+# =======  PAGINATION ========
+# ======================================================
+def replace_first_pb(xml: str) -> str:
+    """
+    Remplacer <pb n="1"/> par le bloc long
+    """
+
+    return xml.replace('<pb n="1"/>', BLOC_PB1, 1)
+
+
+def add_breakno_pb(pb_tag: str) -> str:
+    """
+    Ajouter break="no" si tiret
+    """
+
+    if re.search(r'\bbreak\s*=', pb_tag, flags=re.IGNORECASE):
+        return pb_tag
+    return re.sub(r'(<pb\b[^>]*?)(\s*/?>)', r'\1 break="no"\2', pb_tag, count=1, flags=re.IGNORECASE)
+
+
+# ======================================================
 # =======  FOLIATION ========
 # ======================================================
 def insert_foliation(tree):
@@ -427,7 +504,6 @@ def group_head_with_subdivs(root):
 
             i += 1
 
-
 def group_all_heads(root):
     """
     Appelle les deux fonctions de groupement dans le bon ordre.
@@ -567,3 +643,21 @@ def transform_footer_info(root):
 
             parent = p.getparent()
             parent.replace(p, new_tag)
+
+
+def p_to_list_regex(xml: str) -> str:
+    """
+    Transformer <p> avec " - " en <list><item> via regex
+    """
+
+    pattern = re.compile(r'<p>(.*?)</p>', re.DOTALL | re.IGNORECASE)
+
+    def replace(match):
+        content = match.group(1).strip()
+        if ' - ' not in content:
+            return match.group(0)  # ne rien changer
+        items = content.split(' - ')
+        items_xml = ''.join(f'<item>{item.strip()}</item>' for item in items)
+        return f'<list>{items_xml}</list>'
+
+    return pattern.sub(replace, xml)

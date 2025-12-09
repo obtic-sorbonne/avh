@@ -38,3 +38,41 @@ collectiontext = 'Fonds "Aveugles de guerre"'
 # ======================================================
 hyphenationtext = "Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une version de lecture"
 quotationtext = "Tous les guillemets du texte ont été transformés en guillemets anglais"
+
+# -------------------------------------------------------------------------
+# Bloc XML à insérer à la place de <pb n="1"/>
+# -------------------------------------------------------------------------
+BLOC_PB1 = """<pb n="1"/>
+<fw type="header">e Année. — N° </fw>
+<fw type="header">
+  <hi rend="underline">19</hi>
+  <lb/>
+  <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+</fw>
+<div type="section">
+  <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+    AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/> et
+    <lb/>Journal des Soldats Blessés aux Yeux</head>
+  <div type="section">
+    <head type="section" rend="align(center)">SOMMAIRE</head>
+    <list>
+      <item>...</item>
+    </list>
+  </div>
+  <div type="section">
+    <head type="section" rend="align(center)">Notes et Informations</head>
+    <list>
+      <item>...</item>
+    </list>
+  </div>
+  <div type="section">
+    <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+    <list>
+      <item>...</item>
+    </list>
+  </div>
+</div>
+<fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+  Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 —
+  Chèque postal 160-31</fw>
+""".strip()

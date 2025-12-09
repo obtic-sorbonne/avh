@@ -5,7 +5,7 @@ from lxml import etree # Pour créer et écrire le XML TEI
 from datetime import date # Gestion des dates et heures
 
 #Appel des fonctions utiles pour les modifications supplémentaires
-from functions import (build_toc_for_div, 
+from functions import (build_toc_from_node, 
     build_hierarchical_toc, normalize_dates, 
     group_all_heads, transform_footer_info)
 
@@ -26,7 +26,11 @@ def process_tei(xml_path, output_path):
     # ======================================================
     # -- Génération TOC --
     # ======================================================
+
+    ns = {"tei": "http://www.tei-c.org/ns/1.0"}  # ← important
+
     toc_div = build_hierarchical_toc(root)
+
     body = root.find(".//tei:body", namespaces=ns)
     if body is not None:
         body.insert(0, toc_div)
