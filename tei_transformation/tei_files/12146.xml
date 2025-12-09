@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 5ème année 1923, n°1</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Droits des mutilés de guerre</title>
+        <title type="topic">Transports</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Prothèses oculaires</title>
+        <title type="topic">Alphabet Braille</title>
+        <title type="topic">Organisation du travail</title>
+        <title type="topic">Actualités de l'Union des Aveugles de Guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#transports">Transports</term>
+          <term ref="#braille">Braille</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#cotisations">Cotisations</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un large éventail de sujets
+          d'intérêt pour ses membres, notamment les vœux pour la nouvelle année, les questions
+          relatives aux transports (chemins de fer, tramways, transports maritimes), les droits de
+          succession, les informations sur le centre de prothèse oculaire, et les jugements
+          importants concernant les pensions. Il aborde également les initiatives visant à améliorer
+          l'écriture Braille, les activités du syndicat des journaux des anciens combattants, les
+          cotisations, les ventes et achats, et les nouvelles bibliothèques Braille. Le bulletin
+          contient des chroniques de l'U.A.G., des informations sur l'organisation du travail, la
+          maison de Franceville, les réunions des A.G. de la Charente-Inférieure, et les comptes
+          rendus de la séance des masseurs. Enfin, il inclut des informations sur les naissances,
+          les mariages et les décès des membres de l'Union.</p>
+      </abstract>
+      <creation>
+        <date when="1923-01-01">01/01/1923</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-03" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-03" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">VOEUX POUR 1923</ref>
+          </item>
+          <item>
+            <ref target="#h4">DES TRANSPORTS</ref>
+          </item>
+          <item>
+            <ref target="#h5">FILS DE MUTILES</ref>
+          </item>
+          <item>
+            <ref target="#h6">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h7">Centre de prothèse oculaire du G. M. P.</ref>
+              </item>
+              <item>
+                <ref target="#h8">Droits de succession</ref>
+              </item>
+              <item>
+                <ref target="#h9">Un jugement d'un tribunal régional des pensions</ref>
+              </item>
+              <item>
+                <ref target="#h10">Transports en commun</ref>
+              </item>
+              <item>
+                <ref target="#h11">UN ESSAI INTERESSANT</ref>
+              </item>
+              <item>
+                <ref target="#h12">UNE NOUVELLE ECRITURE D'AVEUGLES</ref>
+              </item>
+              <item>
+                <ref target="#h13">PERFECTIONNEMENT DE L'ALPHABET BRAILLE</ref>
+              </item>
+              <item>
+                <ref target="#h14">DU SYNDICAT DES JOURNAUX DES ANCIENS COMBATTANTS AIDE AUX ANCIENS
+                  COMBATTANTS</ref>
+              </item>
+              <item>
+                <ref target="#h15">COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h16">AUX BROSSIERS</ref>
+              </item>
+              <item>
+                <ref target="#h17">CHIEN A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h18">AUX CANNEURS</ref>
+              </item>
+              <item>
+                <ref target="#h19">REPRESENTANTS DEMANDES</ref>
+              </item>
+              <item>
+                <ref target="#h20">RECOMPENSE</ref>
+              </item>
+              <item>
+                <ref target="#h21">POUR LES FAMILLES DES AVEUGLES</ref>
+              </item>
+              <item>
+                <ref target="#h22">NOUVELLE BIBLIOTHEQUE BRAILLE</ref>
+              </item>
+              <item>
+                <ref target="#h23">SOCIETE D'IMPRESSION ET DE RELIURE DU LIVRE POUR LES
+                  AVEUGLES</ref>
+                <list>
+                  <item>
+                    <ref target="#h24">Livres parus</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">Livres sous presse</ref>
+                  </item>
+                  <item>
+                    <ref target="#h26">Livres parus au Phare</ref>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item><ref target="#h43">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h27">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h31">ORGANISATION DU TRAVAIL</ref>
+              </item>
+              <item>
+                <ref target="#h32">MAISON DE REPOS DE FRANCEVILLE</ref>
+              </item>
+              <item>
+                <ref target="#h33">PROCES-VERBAL DE LA REUNION DES AVEUGLES DE GUERRE DE LA
+                  CHARENTE-INFERIEURE</ref>
+              </item>
+              <item>
+                <ref target="#h34">COMPTE RENDU DE LA SEANCE DES MASSEURS</ref>
+              </item>
+              <item>
+                <ref target="#h35">L'UNION FEDERALE</ref>
+              </item>
+              <item>
+                <ref target="#h36">REMISE DE LEGION D'HONNEUR</ref>
+              </item>
+              <item>
+                <ref target="#h37">LETTRE DE CAMARADE</ref>
+              </item>
+              <item>
+                <ref target="#h38">QUESTIONNAIRE MAISON DE REPOS A FRANCEVILLE</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h39">CONSEIL D'ADMIMISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h40">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h41">COMITÉ D'AIDE</ref>
+          </item>
+          <item>
+            <ref target="#h42">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">5e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">Janvier 1925</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Vœux.</item>
+                    <item>Les transports.</item>
+                    <item>Fils de mutilés.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Notes et Informations</head>
+                  <list>
+                    <item>Centre de prothèse orulaire du G. M. P.</item>
+                    <item>Droits de succession.</item>
+                    <item>Un jugement intéressant.</item>
+                    <item>Transports en commun.</item>
+                    <item>Un essai intéressant.</item>
+                    <item>Une nouvelle écriture d'aveugles.</item>
+                    <item>Perfectionnement de l'alphabet Braille.</item>
+                    <item>Des syndicats de journaux de A. C.</item>
+                    <item>Cotisations.</item>
+                    <item>Ventes et achats.</item>
+                    <item>Bibliothèques.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Organisation du Travail.</item>
+                    <item>Maison de Franceville.</item>
+                    <item>Réunion des A. G. de la Charente-Inférieure.</item>
+                    <item>Compte rendu de la séance des masseurs.</item>
+                    <item>Union fédérale.</item>
+                    <item>Remise de la Légion d'honneur.</item>
+                    <item>Lettre de camarade.</item>
+                    <item>Questionnaire pour Franceville.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. le général Maunoury, président ; M. Barthou, ministre de la Justice ; M. Brieux,
+              de l'Académie Française, président honoraire ; M. le général Balfourié ; M. Borrel,
+              député, ancien sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter. M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. le colonel Fabry, député ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, député de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ;
+              Mme Géo Kessler ; M. Krug ; M. Lugol, député ; M. le docteur Morax ; M. Meyer,
+              conseiller d'Etat ; M. Henry Paté, député ; M. Pierre Ramell, député ;</p>
+            <p>M・ Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; M. Vallon; M.
+              Vallery-Radot ; M. Constant Verlot, député ; M. le Professeur Walther, membre de
+              l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">VOEUX POUR 1923</head>
+            <p>Les Aveugles de Guerre adressent leurs vœux les meilleurs à tous ceux qui se sont
+              intéressés à leur sort, et tout particulièrement aux: membres du Comité de Patronage,
+              du Comité d'Action et du Comité d'Aide de leur Union.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">DES TRANSPORTS</head>
+            <p>Où en est actuellement pour nous la question des transports et quels sont nos désirs
+              à ce sujet? Tel est le but de cet article.</p>
+            <p>Sur les grands réseaux de chemins de fer, nous avons droit à la gratuité pour la
+              personne qui nous accompagne et devons payer notre voyage au même taux que les 500 /
+              0.</p>
+            <p>Mais il n'en est pas de même sur les lignes secondaires, sur les omnibus et tramways
+              et sur les transports automobiles. Nous allons traiter de ces divers points, d'abord,
+              pour la province, ensuite pour la région parisienne.</p>
+            <p>En province pour les lignes secondaires, à la conclusion de nouveaux contrats ou au
+              renouvellement des anciens, les préfets obtiennent généralement, pour les mutilés de
+              500 / 0 et plus, certaines réductions qui sont, sur la plupart des lignes, applicables
+              aux personnes qui accompagnent les 1000 / 0 article 10 ; mais nous continuons encore à
+              payer, en plus de notre place personnelle, celle de notre guide; cela est
+              inadmissible, et, aidés des groupements locaux, nous devons faire des démarches pour
+              la modification de cet état de choses dans les futures conventions. Nous chercherons à
+              obtenir la gratuité du transport pour la personne dont ne peut se passer le 1000 / 0
+              article 10 et sans laquelle il ne peut voyager. Ce besoin absolu d'une aide a été
+              causé par nos blessures; il ne doit pas nous occasionner des dépenses supplémentaires;
+              il faut donc que le 1000 / 0 article 10 et son guide ne soient, pour les voyages,
+              traités à eux deux que comme une seule et même personne et qu'ils n'aient à payer
+              qu'un seul billet au tarif accordé aux mutilés de 500 / 0 et plus. Nous avons obtenu
+              pour l'Alsace-Lorraine les mêmes avantages que sur les grands réseaux.</p>
+            <p>D'autre part, la Chambre des députés a voté récemment un article <pb n="4"/>
+              <note type="foliation">— 2 —</note> assimilant les lignes de l'Algérie aux grandes
+              lignes du territoire; nous espérons que le Sénat adoptera cette proposition et que,
+              par suite, nous n'aurons bientôt plus aucune différence entre les lignes algériennes
+              et les lignes françaises.</p>
+            <p>Pour Paris, les 1000 / 0 article 10 se trouvent au point de vue des transports dans
+              un état d'infériorité par rapport aux réformés de 500 / 0 et plus. Ces derniers
+              peuvent voyager en première ou deuxième classe, dans une ou plusieurs sections,
+              moyennant le prix d'une section de deuxième classe; dans les chemins de fer
+              souterrains, ils peuvent monter en première classe avec un billet de seconde.</p>
+            <p>Les Aveugles de Guerre, bénéficiaires de l'article 10, ont la gratuité dans tous ces
+              transports; mais, forcés d'avoir recours à un guide qui paie entièrement sa place, ils
+              se voient obligés de le suivre dans la classe qu'il prend.</p>
+            <p>Le Conseil municipal de Paris vient enfin, sur nos instances, de décider que, dans
+              les omnibus et tramways parisiens, les 1000 / 0 article 10 jouiront des mêmes
+              prérogatives que les mutilés de 500 / 0 et plus, c'est-à-dire que nous pourrons monter
+              en toutes classes, pour plusieurs sections, moyennant 0 fr. 25 , prix d'une section;
+              le voyage de notre guide sera gratuit.</p>
+            <p>Mais cette mesure ne sera exécutoire qu'après un vote du Conseil général de la Seine,
+              qui a racheté pour le département les lignes d'omnibus et de tramways. Pour le
+              Métropolitain et le Nord-Sud qui appartiennent à des Sociétés, nous resterons
+              provisoirement aux conditions que nous avons maintenant.</p>
+            <p>Sur les transports maritimes, les réductions varient d'une Compagnie à l'autre; nous
+              désirons que sur ces bateaux le passage du guide soit gratuit (sauf naturellement pour
+              la nourriture).</p>
+            <p>Enfin nous voudrions n'avoir à utiliser que la carte d'invalidité qui nous est
+              délivrée pour le transport sur les voies ferrées; cette carte devrait pouvoir servir
+              dans toutes les occasions, et nous ne devrions pas avoir comme maintenant plusieurs
+              cartes entre lesquelles les Aveugles hésitent chaque fois que l'on réclame l'une
+              d'elles.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">FILS DE MUTILES</head>
+            <p>Les fils de mutilés et réformés de 500 / 0 et plus ont droit de choisir leur
+              régiment, même s'ils n'ont pas obtenu le brevet d'aptitude militaire.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">Centre de prothèse oculaire
+                du G. M. P.</head>
+              <p>Le Centre de prothèse oculaire du Gouvernement Militaire de Paris a été transféré à
+                Saint-Maurice (Seine), 14, rue du Vald'Osne.</p>
+              <p>Consultations : Mardis et vendredis, de 8 heures à 10 \mathrm{~h} .1 / 2.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">Droits de succession</head>
+              <p>En cas de décès d'un réformé par suite de blessures reçues ou de maladies
+                contractées pendant la guerre, les arrérages de la pension accordé au défunt
+                pourront, jusqu'à concurrence de 500 francs, être affranchis de l'impôt sur les
+                successions en vertu de la loi du 9 avril 1918, à condition que l'acte de décès
+                indique que le défunt est mort pour la France.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Un jugement d'un tribunal
+                régional des pensions</head>
+              <p>L'article ci-dessous, extrait du Petit Journal du 20 novembre et qui nous est
+                communiqué par le camarade Potiron, intéresse particulièrement quelques-uns des
+                membres de l'U. A. G.; aussi nous avons jugé bon de le publier : "La Cour régionale
+                siégeant à Chambéry vient de rendre un arrêt appelé à fixer les droits d'un certain
+                nombre de soldats qui furent victimes d'explosions d'engins de guerre. "Vers la fin
+                de l'année 1916, un chasseur du 22<hi rend="superscript">°</hi> bataillon, nommé
+                Orset, apportait en permission une fusée d'obus allemand ramassée en première ligne.
+                La manipulation de cet engin, qu'il croyait éclaté, détermina une explosion à la
+                suite de laquelle Orset perdit les deux yeux et l'avant-bras droit. En raison des
+                circonstances de l'accident, <pb n="6"/>
+                <note type="foliation">— 4 —</note> l'Etat prétendait refuser au malheureux le
+                bénéfice de la loi sur les pensions. Le tribunal des pensions avait déjà fait
+                justice de cette prétention; mais l'Etat avait cru devoir faire appel. La Cour, par
+                un arrêt très fortement motivé, vient de rétablir Orset dans tous ses droits. Elle
+                retient qu'il existe un lien indiscutable entre l'accident et le service. ))</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Transports en commun</head>
+              <p>Les réductions ci-après sont accordées aux mutilés de guerre, de 500 / 0 et plus,
+                sur présentation de la carte d'invalidité : 500 / 0 de réduction aux mutilés et
+                réformés sur les transports automobiles entre Saint-Omer gare et Anvin gare
+                (Pas-de-Calais). Même réduction au guide.</p>
+              <p>Transport à quart de place sur les automobiles publics de la gare d'Aubusson à la
+                gare d'Evaux-les-Bains (Creuse) pour les réformés à 500 / 0 d'invalidité et plus et
+                pour les guides des réformés à 1000 / 0 sur présentation de la carte.</p>
+              <p>Même réduction sur les transports automobiles entre les gares de Guéret et de
+                Cressat (Creuse).</p>
+              <p>Transports à quart de place sur les automobiles publics entre Genouillac gare et
+                Boussac gare (Creuse) pour les réformés de guerre ayant au moins 500 / 0
+                d'invalidité et pour le guide du réformé à 1000 / 0.</p>
+              <p>Nous avons reçu de M. le Sous-Secrétaire.d'Etat de la Marine marchande une lettre
+                modifiant certaines conditions de transport par les Compagnies de navigation
+                (Bulletin de l'U. A. G. de septembre 1922, page 8).</p>
+              <p>Les modifications sont: Messageries Maritimes : Réduction de 500 / 0 sur le prix du
+                passage pour le réformé. Réduction de 500 / 0 pour le guide du 1000 / 0 ( 2<hi
+                  rend="superscript">°</hi> et 3<hi rend="superscript">°</hi> classes
+                seulement).</p>
+              <p>Compagnie Sud-Atlantique : Réduction de 750 / 0 sur le prix du passage pour le
+                réformé. Réduction de 750 / 0 pour le guide du 1000 / 0 (nourriture non comprise,
+                  2<hi rend="superscript">°</hi> et 3<hi rend="superscript">°</hi> classes
+                seulement).</p>
+              <p>Compagnie Fraissinet (lignes de Corse et lignes libres) : Réduction de 750 / 0 sur
+                le prix du passage pour le réformé. Réduction de 750 / 0 pour le guide du 1000 / 0
+                (nourriture non comprise, 2<hi rend="superscript">°</hi> et 3<hi rend="superscript"
+                  >°</hi> classes seulement).</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">UN ESSAI INTERESSANT</head>
+              <p>A titre d'essai l'Administration des chemins de fer de l'Etat a, du 11 au 25
+                décembre, dans tous les trains de la ligne Paris-Argenteuil, réservé aux mutilés et
+                réformés, porteurs de la carte d'invalidité, des compartiments dans les voitures de
+                toutes classes.</p>
+              <p>Si cet essai réussit, application en sera faite dans tous les trains de la
+                ligne.</p>
+              <p>En outre, la faculté de se faire réserver des places dans les trains des grandes
+                lignes, accordée jusqu'ici aux bénéficiaires de l'article 10 seulement, est étendue
+                aux mutilés des membres inférieurs munis de leur carte d'invalidité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">UNE NOUVELLE ECRITURE
+                D'AVEUGLES</head>
+              <p>M. le docteur Cantonnet, ophtalmologiste des hôpitaux, a inventé un nouveau procédé
+                d'écriture pour aveugles.</p>
+              <p>Ce procédé substitue à l'écriture Braille une écriture en caractères usuels de
+                l'imprimerie ordinaire et qui, par suite, peut être lue par tous, voyants et
+                aveugles.</p>
+              <p>L'auteur nous a envoyé des notices sur son procédé. Nous les tenons à la
+                disposition des camarades.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">PERFECTIONNEMENT DE
+                L'ALPHABET BRAILLE</head>
+              <p>Nous avons reçu de M. le Directeur des Recherches Scientifiques et Industrielles et
+                des Inventions (Ministère de l'Instruction Publique), la lettre suivante : " J'ai
+                l'honneur de vous faire connaître que la communication de M. Mayrou, demeurant à
+                Banyuls-sur-Aspres, concernant des perfectionnements dans les alphabets pour
+                aveugles et dans leurs poinçons d'écriture, a été soumise à l'examen du service
+                compétent de la Direction des Recherches Scientifiques et Industrielles et des
+                Inventions.</p>
+              <p>La Commission supérieure des Inventions a accepté les conclusions du rapport
+                ci-joint, auquel a donné lieu cette étude : M. Mayrou a étudié avec une excellente
+                méthode les dispositifs les plus simples de points permettant la constitution d'un
+                alphabet <pb n="8"/>
+                <note type="foliation">— 6 —</note> Braille. Peut-être cet alphabet serait-il plus
+                aisé à apprendre que l'alphabet Braille et il permettrait bien probablement une
+                reconnaissance plus rapide des lettres. L'étude systématique des caractères
+                d'imprimerie a, en effet, montré que les caractères de forme simple sont beaucoup
+                plus vite reconnus que ceux de forme complexe et qu'il y aurait lieu, au moins
+                théoriquement, de changer nos caractères. Mais ce changement entraînerait une telle
+                perturbation dans les habitudes et une telle mise de fonds qu'il est totalement
+                impraticable. Ce qui a été fait pour la reconnaissance des caractères par le sens de
+                la vue s'étend, selon toute probabilité, à la reconnaissance tactile des caractères
+                pour aveugles. Je sais que la question a été étudiée il y a quelques années par un
+                spécialiste du Braille et qu'il est arrivé à la conclusion indiquée ici ; je crois
+                donc qu'il serait mauvais de voir la Commission des Inventions appuyer de son
+                autorité la demande d'un tel changement. »</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">DU SYNDICAT DES JOURNAUX DES
+                ANCIENS COMBATTANTS AIDE AUX ANCIENS COMBATTANTS</head>
+              <p>M. le Ministre de la Guerre et des Pensions vient de signer l'arrêté instituant une
+                Commission d'études pour l'élaboration d'un organisme destiné à venir en aide aux
+                Anciens Combattants.</p>
+              <p>Ci-joint la liste des Membres de cette Commission : MM. Legrand, Conseiller d'Etat,
+                Directeur du Cabinet civil du Ministre de la Guerre. Lehmann Marcel, Inspecteur
+                général du Ministère des Pensions, représentant du Ministre de la Guerre et des
+                Pensions. Charmeil, Conseiller d'Etat, Directeur au Ministère du Commerce.
+                Delamarche Léon, Inspecteur général du Ministère du Commerce, représentant du
+                Ministre du Commerce. de Mouy, Sous-Directeur au Ministère des Finances,
+                représentant du Ministre des Finances. Dupont, Chef de la division des Habitations à
+                bon marché, représentant du Ministre de l'Hygiène et de la Prévoyance sociales.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>Tardy Louis, Directeur général de l'Office National du Crédit Agricole,
+                représentant du Ministre de l'Agriculture. Picot, Député, Président du Groupe des
+                Députés mutilés. Bertrand Charles, Député, Président du Groupe des Députés
+                combattants. Strohl, Inspecteur chef du Service administratif de la Banque de
+                France. Grimpel, Directeur de la Nationale-Vie. Richet, Sous-Directeur de la Banque
+                Nationale de Crédit. Brousmiche, Secrétaire général de l'Union Fédérale. Aubert
+                Hubert, Directeur de l'Union Nationale des Combattants. de Medevielle, Secrétaire
+                général de l'Association du Corps de Santé de l'Avant. Delplanque, Notaire à Paris.
+                Secrétaire de la Commission : M. Doué.</p>
+              <p>Pour l'organisation, la composition des fêtes de tout genre données au profit des
+                œuvres de mutilés, nous attirons tout spécialement l'attention de nos amis sur notre
+                camarade Angeli, gravement blessé à Berry-au-Bac, en 1914, directeur des tournées A.
+                R. C. Angeli ; il prodigue avec zèle tout autant son talent personnel que son
+                activité d'organisateur dans toutes les fêtes données au profit des victimes de la
+                guerre. Citons particulièrement celles de l'Union des Femmes de France, des
+                Combattants, des Réformés, des Médaillés militaires, etc., dans les villes les plus
+                importantes aussi bien que les plus modestes, en Bretagne, en Champagne, au Nord, au
+                Midi, à Paris même et dans ses environs immédiats comme peuvent en témoigner les
+                programmes que nous tenons à la disposition de chaque œuvre.</p>
+              <p>Ses relations choisies dans le monde artistique lui permettent d'assurer pour la
+                ville et la province, à des conditions modérées et à forfait, c'est-à-dire sans
+                déconvenue possible, le programme complet d'une fête, orchestre et soli, danses,
+                diction, drame ou comédie, avec le concours certain des meilleurs artistes des
+                théâtres et concerts. Les organisateurs évitent ainsi toute difficulté en
+                s'adressant à notre camarade A. R. C. Angeli, 7, rue de Montreuil, à Vincennes
+                (Seine).</p>
+              <p>Signalons avec plaisir que le succès le plus vif a toujours accueilli <pb n="10"/>
+                <note type="foliation">— 8 —</note> ses tournées ; il s'amplifiera encore, grâce à
+                l'appui certain de nos amis qui se plairont, nous en sommes sûrs, à encourager et
+                fêter un artiste combattant.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">COTISATIONS</head>
+              <p>Nous rappelons aux camarades le paiement des cotisations pour 1923 et les prions de
+                faire parvenir à nos bureaux, 25 , rue Ballu, la somme de 5 francs, montant de la
+                cotisation annuelle.</p>
+              <p>On peut éviter tous les versements annuels en versant une fois pour toutes une
+                somme de 50 francs représentant dix fois la cotisation (article 3 des Statuts).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">AUX BROSSIERS</head>
+              <p>Le camarade Magnenet, de Maiche (Doubs), cessant son métier de brossier, serait
+                désireux de liquider les bois de brosses qui lui restent :</p>
+              <p>Lave-pont, 6 rangs, 88 trous.............. 350 bois environ. Polissoir, 7 pouces, 6
+                rangs.............. 800 " Fusil à étendre le cirage, 3 rangs.......... 300 " Ces
+                bois sont d'un travail irréprochable et sortent de la maison Emile Villaume, de
+                Salins (Jura).</p>
+              <p>A céder également quelques kilos de Tampico blanc peigné. Prix très avantageux.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">CHIEN A VENDRE</head>
+              <p>A vendre un magnifique chien policier allemand âgé de 17 mois et muni de son
+                pédigrée.</p>
+              <p>Ce chien ne peut servir de guide à un aveugle, mais serait une bonne garde pour une
+                propriété.</p>
+              <p>S'adresser à notre camarade Lecomte Louis, 15, rue d'Agnicourt, à Méru (Oise).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">AUX CANNEURS</head>
+              <p>Nous signalons aux camarades canneurs que M. Matton, demeurant 127, faubourg
+                Saint-Antoine, à Paris, serait disposé à procurer du travail aux canneurs. Ceux-ci
+                n'auront qu'à adresser leur demande à l'adresse ci-dessus, en indiquant leurs
+                conditions.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">REPRESENTANTS
+                DEMANDES</head>
+              <p>Un de nos membres associés nous demande d'insérer l'annonce suivante qui peut
+                intéresser certains camarades :</p>
+              <p>Représentants demandés Huiles, Savons, Cafés, Confitures. E. Vuichard, à Salon
+                (Bouches-du-Rhône).</p>
+              <p>Fortes remises - Affaires faciles.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">RECOMPENSE</head>
+              <p>Le camarade Gentilhomme François, de Neuilly-Plaisance, nous apprend qu'il a obtenu
+                pour les brosses et balais un diplôme d'honneur à l'Exposition de l'Apprentissage et
+                du Travail, à Versailles.</p>
+              <p>Nos bien vives félicitations.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">POUR LES FAMILLES DES
+                AVEUGLES</head>
+              <p>Nous devons recevoir quelques billets pour assister aux concerts symphoniques du
+                Gaumont-Palace du samedi après-midi.</p>
+              <p>Les camarades pourront se les procurer à l'Union et leurs enfants pourront trouver
+                à ces concerts un moment de récréation.</p>
+              <p>Tous nos remerciements à M. Wurmser qui est un de nos amis des premiers jours et
+                qui a été le scrutateur des élections de notre première Assemblée Générale.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">NOUVELLE BIBLIOTHEQUE
+                BRAILLE</head>
+              <p>Le Comité départemental des Mutilés va créer incessamment dans son immeuble de la
+                rue des Minimes une bibliothèque Braille.</p>
+              <p>Au cas où l'Office nous demanderait un candidat bibliothécaire, nous prions les
+                camarades que cette situation intéresserait de bien vouloir adresser au siège de
+                l'Union leurs nom et prénoms.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">SOCIETE D'IMPRESSION ET DE
+                RELIURE DU LIVRE POUR LES AVEUGLES</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">Livres parus</head>
+                <p>Bernard (Tristan). Le Jeu de Massacre, I vol. 27 ex. Coppée, Daudet, Maupassant.
+                  Contes divers, I vol. 30 ex. Daudet. Sapho, 10 vol. 5 ex. Duhamel. La Vie des
+                  Martyrs (suite), 1 vol. 18 ex. Géniaux. Sous les Figuiers de Kabylie. 27 ex.
+                  Isaac. Histoire moderne (suite) (5, 6, 7, 8). 30 ex. Lagerlof Selma. Le
+                  Merveilleux Voyage de Nils Holgerson. 5 vol. à suivre. 28 ex. Maupassant. La Roche
+                  aux Guillemots. 1 vol. 13 ex. Michelet. Le Peuple, A suivre. 25 ex. Musset.
+                  Poésies. Vol. 9. Spectacle dans un fauteuil, I vol. 24 ex. Wagner. Histoires et
+                  Fariboles. 13 ex. La Chanson de Roland. Trall Gauthier. 5 vol.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">Livres sous
+                  presse</head>
+                <p>Balzac. La Grenadière. Bourget. L'envers du décor. Isaac. Résumé aide-mémoire.
+                    2<hi rend="superscript">°</hi> partie. La Fontaine. Quelques Fables.
+                  Shakespeare. La Nuit des Rois. XXX... Un Voyage à Warna. Adresser les demandes au
+                  Secrétariat de la Société, 48, rue de Miromesnil, Paris (VIII').</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">Livres parus au
+                  Phare</head>
+                <p>Villetard Pierre. M. Bille dans la Tourmente. (Abrégé) 5 vol.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h43">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">NAISSANCES</head>
+                <p>Notre camarade et Mme Laporte Ernest nous font part de la naissance de leur
+                  fille, née le 3 novembre.</p>
+                <p>Notre camarade et Mme Drion Georges nous font part de la naissance de leur fille
+                  Georgette, née le 10 novembre.</p>
+                <p>Notre camarade et Mme Goulet Marcel nous font part de la naissance de leur fille
+                  Suzanne-Simone-Camille, née le 20 novembre.</p>
+                <p>Notre camarade et Mme Betoux Maurice nous font part de la naissance de leur fils
+                  Armand-Lucien, né le 14 novembre.</p>
+                <p>Notre camarade et Mme Daumas Pierre nous font part de la naissance de leur fille
+                  Thérèse, née le 28 septembre.</p>
+                <p>Notre camarade et Mme Lemée Ernest nous font part de la naissance de leur
+                  deuxième enfant, Solange, née le 5 décembre.</p>
+                <p>Nous adressons nos bien sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">MARIAGES</head>
+                <p>Notre camarade Mansion Maurice nous fait part de son mariage avec Mlle Marys
+                  Letourneur.</p>
+                <p>Notre camarade Le Treust Pierre nous fait part de son mariage avec Mlle
+                  Marie-Henriette Morvan, qui a été célébré le 18 octobre.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">DÉCÈS</head>
+                <p>Nous apprenons le décès : Du père de notre camarade Robinet Louis, décédé le 8
+                  novembre. De notre camarade Abîven, décédé le 31 octobre. De notre camarade
+                  Delaunay Albert, décédé le 21 novembre. De notre camarace Anselot Victor. Nous
+                  prions les familles de vouloir bien recevoir ici l'expression de nos bien sincères
+                  condoléances.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">ORGANISATION DU
+                TRAVAIL</head>
+              <p>Voici, dans ses grandes lignes, le projet que le Bureau, d'accord avec la
+                Commission du Travail, va soumettre à l'approbation du Conseil d'Administration du
+                16 décembre : 1<hi rend="superscript">°</hi> Un magasin d'exposition-vente sera
+                installé au siège social de l'Union ; 2<hi rend="superscript">°</hi> Un registre
+                références sera tenu, portant les indications, prix de gros et de détail ; les
+                numéros de référence seront attribués aux camarades par ordre d'arrivée ; 3<hi
+                  rend="superscript">°</hi> Les objets devront être envoyés par les camarades, après
+                avoir été étiquetés ; étiquettes uniformes fournies par l'U. A. G., avec place
+                réservée pour le numéro du camarade et le numéro de l'objet, prix de détail ; 4<hi
+                  rend="superscript">°</hi> Utilité de fixer des modèles types (a) ; 5<hi
+                  rend="superscript">°</hi> Toute commande de détail ou de gros devra
+                obligatoirement passer par l'intermédiaire de l'Union (b) ; 6<hi rend="superscript"
+                  >°</hi> Marchandises refusées par l'acheteur. En aucun cas, la responsabilité de
+                l'U. A. G. ne doit être engagée (b) ; 7<hi rend="superscript">°</hi> Les objets
+                exposés pendant trois mois et non vendus pourront être réclamés par leur fabricant ;
+                dans le cas contraire, l'Union n'aura aucune responsabilité dans la dépréciation de
+                la marchandise ; 8<hi rend="superscript">°</hi> Chaque camarade pourra envoyer au
+                magasin de l'Union : Brossiers . . . . . . . . . 12 objets assortis. Tricoteurs . .
+                . . . . . 6 "</p>
+              <p>90 Le magasin sera ouvert aux camarades sous la réserve ci-dessous :</p>
+              <p>Pour les brossiers : le camarade ne travaillant qu'avec une seule personne ;</p>
+              <p>Pour les tricoteurs n'employant que 3 machines ; 10<hi rend="superscript">°</hi>
+                L'Union prélèvera 50 / 0 sur la vente des objets ; 11<hi rend="superscript">°</hi>
+                Les frais d'expédition du fabricant à l'U. A. G. seront à la charge du camarade (b)
+                ; 12<hi rend="superscript">°</hi> Propagande : envoi de circulaires, remise de
+                tracts aux visiteurs, articles de journaux, participation aux expositions et ventes
+                d'objets organisées par certaines Associations de Mutilés.</p>
+              <p>Nota. - (a) Cette question est laissée à l'entière disposition des diverses
+                corporations des travailleurs; certaines y trouvant des avantages, d'autres non.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>(b) Les articles 5, 6, 11 ont été modifiés à la réunion des tricoteurs de la région
+                parisienne.</p>
+              <p>Les catégories de travailleurs autres que les brossiers et tricoteurs bénéficieront
+                du magasin d'exposition-vente dans les mêmes conditions.</p>
+              <p>Le règlement définitif arrêté par le Conseil d'administration du 16 décembre sera
+                inséré au bulletin prochain.</p>
+              <p>En conséquence, ne pas envoyer d'objets avant nouvel avis.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">MAISON DE REPOS DE
+                FRANCEVILLE</head>
+              <p>Nous rappelons aux camarades que l'Etablissement de Franceville est ouvert du
+                1^{\text {" }} avril au 1^{\text {" }} novembre de chaque année comme station de
+                repos.</p>
+              <p>Pour l'année 1923, le prix de location est fixé à 2 francs par jour.</p>
+              <p>Le tirage au sort pour l'attribution des logements disponibles aura lieu au plus
+                tard le 1^{\text {" }} mars.</p>
+              <p>Nous engageons les camarades à nous adresser avant cette date leur demande
+                d'admission.</p>
+              <p>Les camarades trouveront à la dernière page du bulletin le questionnaire qu'ils
+                devront joindre à leur demande de séjour.</p>
+              <p>Le projet de règlement de Franceville, paru dans le bulletin d'octobre et adopté à
+                l'Assemblée générale, devient définitif.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">PROCES-VERBAL DE LA REUNION
+                DES AVEUGLES DE GUERRE DE LA CHARENTE-INFERIEURE</head>
+              <p>Le 1^{\text {" }} octobre 1922, à quatorze heures, sous la présidence du Commandant
+                Martin, Président de la Section de l'U. F. B. G. G., de la Section de La Rochelle de
+                l'Union Nationale des Combattants et de l'Association départementale des Veuves de
+                Guerre, se sont réunis, salle de réunion du Café Français : MM. Brusson, Arnoux,
+                Potiron, Vandromme, Augé, Bendriès, Membres de l'U. A. G., à l'effet de constituer
+                une section départementale. M. Brusson fait connaître qu'il est détenteur des
+                pouvoirs de MM. Penaud, Pierre Louis, Boiteau, Constant, Riffaud et Tornier, d'un
+                pouvoir non signé.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>M. Brusson remet au Commandant Martin les communications qu'il a reçues de l'U. A.
+                G.</p>
+              <p>Le Président donne lecture de ces documents, qui sont approuvés à l'unanimité,
+                notamment le règlement intérieur.</p>
+              <p>En conséquence, il est décidé que la Section départementale de la
+                Charente-Inférieure est constituée à la date de ce jour.</p>
+              <p>Par vote à mains levées, le camarade Brusson est élu à l'unanimité délégué de la
+                section.</p>
+              <p>Le présent procès-verbal est adopté à l'unanimité des Membres présents, après
+                lecture.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">COMPTE RENDU DE LA SEANCE
+                DES MASSEURS</head>
+              <p>La Commission des Masseurs s'est réunie le 4 décembre. Etaient présents: Cardot,
+                Nicolas, Tihon. Excusé : Riou. Après avoir pris connaissance des votes exprimés par
+                leurs camarades relativement à la formation d'un groupement d'aveugles civils et
+                militaires, et vu le petit nombre de réponses, décide de convoquer leurs camarades
+                en Assemblée générale.</p>
+              <p>Cette Assemblée générale aura lieu le samedi 16 décembre. La prochaine réunion aura
+                lieu le 8 janvier. La séance est levée à 17 h .30.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">L'UNION FEDERALE</head>
+              <p>En vue de renseigner exactement tous les Aveugles de Guerre sur l'opportunité qu'il
+                y a pour l'U. A. G. à devenir Membre de l'Union Fédérale et pour nous conformer à la
+                volonté de l'Assemblée générale, le Bureau prie tous les camarades désirant exposer
+                leurs arguments pour ou contre l'affiliation, de les adresser par lettre spéciale,
+                25 , rue Ballu, avant le 1<hi rend="superscript">er</hi> février 1923.</p>
+              <p>Lorsque toutes ces lettres seront groupées, nous les communiquerons à tous les
+                Aveugles de Guerre, de manière qu'au mois de mars un referendum puisse avoir
+                lieu.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">REMISE DE LEGION
+                D'HONNEUR</head>
+              <p>Le camarade Léger nous fait savoir qu'une touchante manifestation s'est déroulée,
+                le dimanche matin, à onze heures, sur la GrandePlace de Saint-Quentin, face à
+                l'Hôtel de Ville, à l'occasion de la remise de sa Légion d'honneur.</p>
+              <p>Nous regrettons de ne pouvoir publier en entier l'article de journal qu'il nous a
+                envoyé à ce sujet et qui, bien que très intéressant, est un peu long pour notre
+                bulletin.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h37">LETTRE DE CAMARADE</head>
+              <p>De notre camarade Béda : " Il est fort regrettable pour des provinciaux venant de
+                six cents kilomètres, et plus, pour assister aux Assemblées générales, afin de
+                prendre connaissance des travaux exécutés par notre Conseil d'administration pendant
+                une année, et prendre connaissance également de ceux en cours d'exécution, ainsi que
+                des projets en formation, et parfois même certains de ces provinciaux se sont fait
+                inscrire à l'ordre du jour pour présenter des revendications devant être discutées
+                par cette Assemblée ; et l'heure des trains du soir arrive, par lesquels ces
+                provinciaux doivent repartir, sans avoir entendu rien de sérieux, sans avoir pu
+                présenter leurs revendications, qui auraient dû être sagement discutées, sans
+                tapage, comme il s'est produit chaque fois. Pourquoi, dans des réunions comme les
+                nôtres, tant de cris et de vacarme? Pourquoi tant de mesquineries et de jeux de
+                mots, comme se plaisent à en faire certains membres? J'estime que, puisque confiance
+                il y a en nos dirigeants, que ceux-ci aient libre parole et qu'il n'y ait pas, chez
+                les interpellateurs, tant d'énervement, et afin que dans nos réunions futures, soit
+                ordinaires ou extraordinaires, il y ait beaucoup plus de calme et que les
+                interpellateurs puissent parler librement, et que, de son côté, le Bureau puisse y
+                répondre, et afin aussi que nos provinciaux puissent repartir par leurs trains du
+                soir, après avoir entendu jusqu'au bout les discussions sérieuses : " Je propose au
+                Conseil d'administration d'adopter le règlement suivant : Puisqu'un bulletin,
+                précédant de quelques mois l'Assemblée générale, fait connaître à tous ses membres
+                l'ordre du jour qui doit y être discuté et présenté, que tous les interpellateurs
+                sur cet ordre du jour se fassent inscrire au bureau de l'U. A. G., au moins huit <pb
+                  n="18"/>
+                <note type="foliation">— 16 —</note> jours avant la date de l'Assemblée; après quoi,
+                l'inscription sera close et nul inscrit ne devra prendre la parole que dans les
+                questions diverses, en fin de séance; car il est absolument inutile de se déranger
+                de plusieurs centaines de kilomètres pour ne rien savoir, ne rien faire, ou presque
+                rien. Donc, pour la moralité de notre Union et dans l'intérêt de tous, il est
+                nécessaire que notre Conseil d'administration adopte pour ces réunions un règlement,
+                tout en comptant sur les liens étroits de bonne camaraderie. «Pierre BÉda.» Nota. -
+                Le Conseil d'administration étudiera au moment opportun les desiderata du camarade
+                Béda.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h38">QUESTIONNAIRE MAISON DE
+                REPOS A FRANCEVILLE</head>
+              <p>Nom Prénoms Combien de vos enfants vous accompagnent? Combien d'autres personnes?
+                Indiquez la ou les périodes pendant laquelle ou lesquelles vous désirez bénéficier
+                du séjour.</p>
+              <p>Le 19 Signature :</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">CONSEIL D'ADMIMISTRATION</head>
+            <p>Président: Izaac; vice-présidents: Chautard, Noireaux, Roy Georges. Secrétaire
+              général : Favret. Trésorier : L'Evesque Gaston. Membres: MM. Amar, Antoine, Arnault,
+              Bardoux, Bois, Bertrand, Delage, Dufourc, Durat, Goubin, Guderin, Lapfargue, Lagarde,
+              Lallement, Leloup, Leveau, Malgat, Marie, Robert (Maurice), Sainte-Rose, Scapini,
+              Sigault, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h40">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. de Fleurieu, Trésorier adjoint; M. Auterbe, Actuaire à la Compagnie
+              «L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Boylesve. Mme Broquin. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaguier. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer,</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. M. Roux. M. Joseph Roux. M. Sollar.</p>
+            <p>D" Schneider. Mme Valton. Mme Yves.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h41">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente ; Mme Levgues ; Mme Le Troquee ; Mme Lhopiteau. Mme
+              J.-L. Lebreton. Mme Marthe Brandès, présidente de l'Abri du Soldat Aveugle.</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h42">Liste des Donateurs</head>
+            <p>Société SADAC, Paris ..... 400 " Produit d'une quête faite au mariage de Marcel Lasne
+              avec Mlle George Sevestre ..... 600 " Econome du Lycée de Jeunes Filles de Nîmes .....
+              125 " Mme Denise Lowton, Paris ..... 10 " Mutuelle des Comptables Limonadiers de la
+              Seine ..... 52650 Mme Juliette Ripeloux, New-York ..... 15037 Comité des Fêtes de
+              Santa-Fé ..... 1.500 " Mme Colas, Paris ..... 20 " Une Beauceronne, L. B. ..... 50 "
+              M. Charles Schweitzer, Le Havre ..... 50 " Mlle Grolet, Nuits-Saint-Georges (transmis
+              par les Annales) ..... 40 " Mme Veuve Limousin, Tolosa Espagne (transmis par les
+              Annales) ..... 100 " Euvre Anglo-Franco-Mauricienne (transmis par Mme Delcassé) .....
+              4.000 " Ecole Communale de Filles, Blanquefort (Gironde) ..... 15 " Mme Edouard Weil,
+              Chaumont (Haute-Marne) ..... 50 " M. Gilbert Pillon, Bourg ..... 20 " M. Gaitz Hockey,
+              Paris ..... 50 " Association "d'Ambulance et d'Assistance Coloniales, Paris .....
+              60250 Mme Veuve Claude Martin, Chambéry ..... 100 " Mme Teilh, Loudun (Vienne) .....
+              20 " M. Outrebon, Rouen ..... 125 " Rectification au Bulletin précédent au lieu de :
+              Part nous revenant sur la fête de Vincennes ..... 10.000 " lire : Donation nous
+              revenant sur la fête de Vincennes, orga- nisée par le groupement des officiers
+              mutilés. ..... 10.000 "</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

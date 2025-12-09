@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 6ème année 1924, n°7</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Associations de mutilés</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Assemblée générale</title>
+        <title type="topic">Informations aux membres</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+          <term ref="#assemblee-generale">Assemblée générale</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#braille">Braille</term>
+          <term ref="#franceville">Franceville</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de juillet 1924 de l'Union des Aveugles de Guerre (U.A.G.) fournit des
+          informations sur l'organisation, ses activités et ses membres. Il inclut des détails sur
+          la prochaine assemblée générale, des rapports sur les finances et les activités de
+          l'union, des nouvelles des sections départementales, des informations sur les pensions et
+          les droits des membres, ainsi que des chroniques sociales (naissances, mariages, décès).
+          Le bulletin contient également des informations sur les publications en braille
+          disponibles et les activités du Comité d'Entente des Associations Nationales de
+          Combattants et de Victimes de la guerre.</p>
+      </abstract>
+      <creation>
+        <date when="1924-07-01">01/07/1924</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-08" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-08" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aueugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h4">LE 16 NOVEMBRE</ref>
+          </item>
+          <item>
+            <ref target="#h5">ASSEMBLÉE GÉNÉRALE</ref>
+          </item>
+          <item>
+            <ref target="#h6">LETTRE OUVERTE AUX CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h8">BIBLIOTHÈQUE</ref>
+                <list>
+                  <item>
+                    <ref target="#h9">AVIS AUX LECTEURS BRAILLE</ref>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item><ref target="#h21">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h10">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h11">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h12">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h13">DÉCÉS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h14">Procès-verbal de la séance du Conseil d'administration du 24 Mai
+                  1924</ref>
+              </item>
+              <item>
+                <ref target="#h15">Admission de nouveaux adhérents</ref>
+              </item>
+              <item>
+                <ref target="#h16">LEGION D'HONNEUR</ref>
+              </item>
+              <item>
+                <ref target="#h17">LISTE DES AVEUGLES DE GUERRE DU TERRITOIRE DE BELFORT</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h18">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h19">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h20">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">6e Année. — N° 7</fw>
+          <fw type="header">
+            <hi rend="underline">Juillet 1924</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Le 16 Novembre.</item>
+                    <item>Assemblée générale.</item>
+                    <item>Lettre ouverte aux camarades.</item>
+                    <item>Note du Comité d'Entente.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)">Notes et Informations</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Note de la Section départementale des Vosges.</item>
+                    <item>Procès-verbal de la séance du Conseil d'Administration du 24 mai
+                      1924.</item>
+                    <item>Légion d'honneur.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aueugles de Guerre</head>
+            <p>M. A. Millerand, ancien Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou;</p>
+            <p>M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de l'Académie
+              Française, président honoraire; M. le général Balfourie; M. Borrel, député, ancien
+              sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Cartes; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty ; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper ; Miss Winifred Holt; Mme Léopold Kahn ; Mme Géo Kessler ; M. Krug
+              ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député; M. Pierre Rameil, député ;</p>
+            <p>M { }^{e} Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre des
+              Avocats; Général Sainte-Claire-Deville ; M. Vallery-Radot ; M. Constant Verlot,
+              député; M. le Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">LE 16 NOVEMBRE</head>
+            <p>C'est certainement avec le sourire que, cette année, plus encore que l'année
+              précédente, nous nous retrouverons à l'Assemblée générale. Nous serons tous, ou
+              presque tous, sous la bonne impression procurée par l'augmentation, si attendue, de
+              notre allocation. La pension ne sera jamais suffisante pour procurer tout l'apaisement
+              matériel que des grands mutilés seraient en droit de demander, mais actuellement, si
+              le coût de la vie cesse d'augmenter, nous pourrons tout de même arriver à faire face à
+              un budget simple, opération qui était devenue impossible à réaliser depuis plusieurs
+              mois.</p>
+            <p>Comme il arrive toujours lorsqu'on est satisfait, nous serons plus indulgents les uns
+              envers les autres, plus enclins à comprendre que la tâche des dirigeants d'une
+              Association de Mutilés n'est pas toujours facile, plus calmes pour demander tel ou tel
+              renseignement sur un vœu n'ayant pas reçu d'exécution. Car, dès à présent, il faut se
+              dire que l'Assemblée générale de 1924 ne pourra constater la réalisation de tous les
+              vœux émis par celle de 1923.</p>
+            <p>Le 18 novembre 1923, les Aveugles de guerre ont donné à leur Conseil
+              d'administration, non pas le programme d'une année de travail mais celui de plusieurs
+              années d'activité. Ainsi que vous pourrez le constater par la lecture du rapport moral
+              qui sera publié dans un prochain Bulletin, les vœux les plus urgents ont été
+              exécutés.</p>
+            <p>Comme l'année dernière, notre grande réunion sera précédée de séances d'études tenues
+              par des Commissions ouvertes à tous les membres titulaires de l'U. A. G. Les camarades
+              n'ont eu en effet qu'à se louer de cette nouvelle méthode. Nombreux seront, nous
+              l'espérons, les Aveugles de guerre qui assisteront à ces réunions préliminaires où
+              tous nous pourrons, plus aisément et plus facilement qu'à l'Assemblée générale,
+              travailler en commun, faire connaître nos idées. C'est le meilleur moyen d'arriver,
+              sinon à contenter tous les Aveugles de guerre, chose bien difficile, du moins à en
+              satisfaire le plus grand nombre.</p>
+            <p>Préparons-nous dès à présent au grand travail que doit être pour chacun l'Assemblée
+              générale de l'Union des Aveugles de Guerre. N'oublions pas que la vie de notre
+              Association dépend d'elle. Nous devrons donc nous efforcer, par notre présence, à lui
+              donner toute l'ampleur qui lui est nécessaire. Il est inutile, nous en sommes
+              certains, <pb n="4"/>
+              <note type="foliation">— 2 —</note> de rappeler le calme que nous devons conserver on
+              cette circonstance pour qu'une telle réunion ait toute son efficacité.</p>
+            <p>C'est avec le souci de rendre service à la collectivité que nous devrons être
+              présents le 16 novembre 1924.</p>
+            <p>Faisons donc lire très attentivement la note ci-après donnant les premières
+              indications sur l'Assemblée générale prochaine.</p>
+            <p>Favret.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">ASSEMBLÉE GÉNÉRALE</head>
+            <p>L'Assemblée générale prochaine aura lieu le 16 novembre 1924 à 14 h .30 .</p>
+            <p>Le rapport moral et le rapport financier seront arrêtés à la date du 31 août et
+              publiés dans le Bulletin de septembre, de manière à permettre à tous les membres de
+              l'U. A. G. d'avoir les documents nécessaires en temps utile pour juger de l'exercice
+              clos.</p>
+            <p>L'ordre du jour de la séance et le lieu de la réunion seront ultérieurement fixés par
+              le Bulletin.</p>
+            <p>Tout membre de l'Union qui désire poser une question à l'Assemblée générale est prié
+              de la formuler par écrit et de la faire parvenir avant le 10 octobre prochain au siège
+              social.</p>
+            <p>Comme les années précédentes les Aveugles de guerre auront à élire dix
+              administrateurs, nous indiquerons dans un prochain Bulletin la liste des candidats,
+              mais nous donnons dès à présent la liste des administrateurs sortants :</p>
+            <p>Laffargue (Aristide), Amault (Victor), Courteix (Joseph), Toudouri (Demètre), Scapini
+              (Georges), président; Robert (Maurice), Durat (Octave), Lagarde (Osmin), Sainte-Rose
+              (Eucher), Heuzé (Henri).</p>
+            <p>Les camarades qui sont candidats au Conseil d'administration sont priés de faire
+              connaître dès maintenant leurs nom, prénoms, date et lieu de naissance, profession,
+              aux bureaux de l'Union.</p>
+            <p>La liste des candidats sera définitivement arrêtée le 20 août. Pour les élections,
+              chaque Aveugle de guerre recevra un bulletin de vote et deux enveloppes. Une des
+              enveloppes portera seulement comme inscription "Bulletin de Vote ), l'autre sera
+              timbrée et portera l'adresse de l'U. A. G.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Le bulletin de vote devra être retourné à l'U. A. G. avant le 1<hi rend="superscript"
+                >er</hi> novembre 1924 dans les conditions ci-dessous indiquées, et ceci pour
+              permettre au Conseil de l'U. A. G. de se conformer au vœu exprimé par notre dernière
+              Assemblée générale et que nous croyons utile de reproduire ici : " Que les camarades
+              ayant pris part aux élections annuelles aient " un droit de priorité dans leurs
+              demandes sur les camarades n'ayant " pas voté sans excuse valable. L'Assemblée
+              générale laisse au Con" seil le soin de prendre toutes les mesures utiles pour la
+              vérification " des votants et d'apprécier les excuses. "</p>
+            <p>Le bulletin de vote devra être placé dans l'intérieur de l'enveloppe ne portant que
+              l'inscription "Bulletin de Vote", cette enveloppe sera cachetée et placée ensuite dans
+              la seconde enveloppe affranchie et portant l'adresse de l'U. A. G. Sur celle-ci,
+              chaque Aveugle de guerre devra inscrire son nom. A leur arrivée ces enveloppes seront
+              ouvertes après avoir pris le nom de l'expéditeur, l'enveloppe blanche qui contiendra
+              le bulletin de vote sera ensuite mise de côté, pour n'être décachetée que par des
+              Commissions spéciales composées de membres du Comité d'Action que celui-ci désignera.
+              Le secret du vote sera ainsi respecté.</p>
+            <p>Le scrutin sera clos le 16 novembre à l'ouverture de la séance.</p>
+            <p>Les Aveugles de guerre assistant à la séance voteront sur les questions mises à
+              l'ordre du jour après avoir entendu la discussion. </p>
+            <p>Ceux qui seront certains au dernier moment de ne pas pouvoir assister à la séance,
+              devront donner leurs pouvoirs à un camarade. Aveugle de guerre, de leur commune, de
+              leur département, de leur région ou même de Paris, qui sera présent à l'Assemblée
+              générale. N'oublions pas que c'est là un devoir de solidarité pour ceux qui ne peuvent
+              absolument pas se déplacer, ils permettront ainsi que nos délibérations soient
+              conformes à la loi.</p>
+            <p>En même temps que le bulletin de vote, nous adresserons d'ailleurs une formule de
+              délégation de pouvoirs. Etant donnée la façon de procéder pour l'envoi du bulletin de
+              vote, les camarades pourront envoyer cette formule de pouvoirs dans l'enveloppe qui
+              contiendra celle enfermant le bulletin de vote.</p>
+            <p>Ainsi que nous le disions plus haut, cette année comme l'année écoulée, nous nous
+              réunirons en Commissions les vendredi et samedi précédant l'Assemblée générale. Voici
+              les heures auxquelles auront lieu ces Commissions et les questions qu'elles auront à
+              étudier.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>Ces Commissions se tiendront au siège social de l'U. A. G., 25, rue Ballu : 1<hi
+                rend="superscript">°</hi> Le vendredi 14 novembre : Première Commission, de 9 h. 30
+              à 11 h. 30. Relations extérieures (Office National des Mutilés, Office National des
+              Combattants, Association de Mutilés, Euvres s'occupant des Aveugles de guerre),
+              propagande, victimes civiles de la guerre, aveugles sans pension.</p>
+            <p>Rapporteur : Scapini. Deuxième Commission, de 14 heures à 15 h. 30. Pupilles de la
+              Nation, Article 64 de la loi du 31 mars 1919. Transports.</p>
+            <p>Rapporteur : Gudefin. Troisième Commission, de 16 heures à 18 heures. Fonctionnement
+              du Siège social et de la Maison de Franceville, Caisse Fraternelle, Groupements
+              régionaux, Sections départementales.</p>
+            <p>Rapporteur : Favret. 2<hi rend="superscript">°</hi> Le samedi 15 novembre : Quatrième
+              Commission, de 10 heures à 11 h. 30. Pension des veuves, des enfants, des femmes
+              d'aliénés, des ascendants des Aveugles, article 12.</p>
+            <p>Rapporteur : Izaac. Enfin, ce samedi, de 14 h .30 à 17 heures, présentation des vœux
+              préparés dans les !Commissions précédentes.</p>
+            <p>Les camarades qui désireraient faire connaître, par correspondance, leur opinion sur
+              les questions à étudier par les Commissions, sont priés de ne pas attendre au dernier
+              moment et de faire une lettre séparée pour chacune des questions qu'ils
+              traiteront.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LETTRE OUVERTE AUX
+              CAMARADES</head>
+            <p>Chers Camarades,</p>
+            <p>De nombreux camarades nous signalent et nous font parvenir une brochure publiée par
+              Mme Louis Deschamps, dans laquelle elle donne <pb n="7"/>
+              <note type="foliation">— 5 —</note> copie de la correspondance échangée entre le
+              Comité d'Aide et l'Union des Aveugles de guerre.</p>
+            <p>Après en avoir pris connaissance nous relevons, dans les commentaires de la dernière
+              page du fascicule la phrase suivante : "Depuis novembre 1923, le Comité d'Aide n'a pas
+              été avisé " par l'Union des Aveugles de guerre des sommes qui parviennent " encore
+              journellement rue Ballu au nom du Comité d'Aide de " l'Union des Aveugles de guerre
+              ».</p>
+            <p>Mme Louis Deschamps commet là une erreur puisque : 1<hi rend="superscript">°</hi> Le
+              Comité d'Aide étant démissionnaire, n'existait plus depuis le 25 octobre 1923; 2<hi
+                rend="superscript">°</hi> Que, néanmoins, par courtoisie, le président Scapini l'a
+              remerciée par lettre en date du 16 janvier 1924 de l'avoir mis en rapport avec M. le
+              Docteur Chappe, le Secrétaire général Favret lui a accusé réception et l'a remerciée
+              également du don provenant des Indes françaises par lettre en date du 26 mars
+              1924.</p>
+            <p>Ces deux lettres sont les dernières publiées dans le fascicule de Mme Louis
+              Deschamps.</p>
+            <p>Il nous sera permis de nous étonner que sur les 17 lettres comprises dans ce
+              fascicule, deux seulement ne soient pas datées et que ce soient précisément celles qui
+              opposent un démenti formel à la dernière phrase de Mme Louis Deschamps.</p>
+            <p>N'ayant pas l'intention de discuter les mérites de l'ancienne Présidente du Comité
+              d'Aide nous vous adressons cette lettre simplement à titre d'indication.</p>
+            <p>Nous sommes bien d'accord pour convenir qu'auprès de nos généreux amis le Comité
+              d'Aide a su recueillir en trois années une somme de 543.250 fr. 10. Et puis, les
+              donateurs savent bien que nous leur gardons toute notre reconnaissance, les Aveugles
+              de guerre les connaissent, leurs noms ayant été ou devant toujours être publiés dans
+              le Bulletin.</p>
+            <p>Nous nous excusons, chers camarades, d'avoir à insérer des rectifications de ce
+              genre.</p>
+            <p>Recevez notre cordiale poignée de mains. Le Secrétaire général : Favret.</p>
+            <p>Le Président : Scapini.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>Le Comité d'Entente des Associations Nationales de Combattants et de Victimes de la
+              guerre nous demande d'insérer la lettre cidessous :</p>
+            <p>Le Comité d'Entente des Grandes Associations Nationales de Combattants et de Victimes
+              de la guerre s'est, pour la deuxième fois depuis la fin de la dernière consultation
+              électorale, réuni à Paris, 13, rue La Fayette, le jeudi 2 juin.</p>
+            <p>Etaient présentes les Associations suivantes : Fédération des Anciens Prisonniers de
+              guerre; Fédération des Commerçants et Industriels mobilisés; Groupement des Officiers
+              mutilés; Union Nationale des Combattants; Union Fédérale des Associations de Mutilés.
+              Excusées : Aide et Protection; Association Générale des Mutilés de la guerre; Union
+              des Aveugles de Guerre. Les délégués ont à nouveau été amenés à étudier quelle
+              tactique pouvait être employée pour permettre la prompte réalisation des
+              revendications des victimes de la guerre.</p>
+            <p>Après discussion il a semblé que la méthode la plus rationnelle consistait pour le
+              Comité d'Entente à se saisir de toute proposition de loi, qu'elle soit d'initiative
+              parlementaire ou qu'elle provienne de l'initiative d'une Association.</p>
+            <p>L'entente, une fois faite, sur un texte précis, entre toutes les grandes Associations
+              nationales composant le Comité d'entente celuici entrerait immédiatement en relations
+              avec les groupes de Mutilés et anciens Combattants du Sénat et de la Chambre,
+              également avec les membres désignés par les Commissions parlementaires (en particulier
+              la Commission des Finances), voire même avec les représentants désignés par les
+              différents partis politiques.</p>
+            <p>Cette méthode aurait l'avantage de mettre les membres du Parlement en présence des
+              délégués authentiques des grandes fédérations et de connaître, par eux, la volonté
+              précise des victimes de la guerre. Elle permettrait, en outre, aux revendications des
+              victimes de la guerre d'échapper à la querelle des partis et de faire, dans une très
+              large mesure, l'union de tous ceux ayant, lors de la dernière consultation électorale,
+              pris des engagements précis à notre égard.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>La question de tactique étant d'importance et les Congrès des différents groupements
+              composant le Comité d'Entente devant avoir lieu prochainement, le Comité estime qu'il
+              y a lieu de surseoir jusqu'à ce que les Congrès, après avoir étudié ce problème
+              d'importance, se soient prononcés. Il demande que soit prise comme base de discussion
+              la suggestion formulée plus haut sur laquelle s'est déjà prononcé le Congrès de
+              l'Union Fédérale.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTES &amp; INFORMATIONS</head>
+            <p>L'Imprimerie Beaunoise du Livre des Aveugles de guerre, à Beaune (Côte-d'Or) nous
+              avise qu'elle a décidé d'offrir des objets de layette aux nouveau-nés des Aveugles de
+              guerre habitant dans les départements dont elle s'occupe, c'est-à-dire : l'Yonne, la
+              Côte-d'Or, l'Aube, la Saône-et-Loire, le Cher, la Nièvre, le Jura, le Doubs et
+              l'Ain.</p>
+            <p>Nous remercions la Direction de l'Imprimerie Beaunoise de l'heureuse disposition
+              qu'elle vient de prendre en faveur d'un certain nombre de nos camarades.</p>
+            <p>A vendre : 3 couteaux de brossier en très bon état, au prix de 50 à 60 francs pièce,
+              s'adresser à Thèbes (Albert), 18, rue de la Poterie, à Corbeil (Seine-et-Oise).</p>
+            <p>A vendre : Quadricycle Monet et Goyon, 1 HP 1 / 2 deux places, en parfait état de
+              neuf. Réelle occasion. Ecrire à Richard (Elie), Saint-André de Majencoules (Gard).</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">BIBLIOTHÈQUE</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h9">AVIS AUX LECTEURS
+                  BRAILLE</head>
+                <p>Nous expédions les livres qui nous sont demandés en principe dès le reçu de la
+                  lettre de demande. Lorsqu'il y a retard, c'est que les livres demandés sont entre
+                  les mains d'un camarade; il serait donc prudent d'indiquer toujours plusieurs
+                  numéros dans l'ordre de préférence afin d'en recevoir de suite.</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+                <p>Nous donnons ci-dessous les ouvrages imprimés en Braille par l'Imprimerie pour
+                  les Aveugles de guerre La Roue, depuis juin 1923 à ce jour : Droit : Manuel
+                  Elémentaire du Droit Romain (abrégé), à l'usage des étudiants de première et
+                  deuxième année, par R. Foignet.</p>
+                <p>Philosophie : Le Pouvoir de la Volonté. Prof. Jagot (abrégé), 2 vol. </p>
+                <p>Sciences : Eléments de Linguistique Romane, de Bourcier, 25 vol. Religion :
+                  Recueil de Méditation, Extraits des Paillettes d'Or, 1 vol. Evangile selon saint
+                  Jean (traduction de l'abbé Crampon). Euvres diverses : Quand Israël est roi (J.-J.
+                  Claraud) abrégé, 4 vol. Yvan Gall. Le Pupille de la Marine (G. Compayré) (Lecture
+                  pour les enfants), 9 volumes. Les Légendes mythologiques de la Grèce et de Rome
+                  (Henri Aubert), abrégé, 6 volumes. Latin : De Viris Illustribus, avec volumes de
+                  notes et litiques, 13 vol. Guerre des Gaules, Jules César, 17 volumes. Anglais :
+                  The forty Seven Rômins. Légende Japonaise by Mitt The Mac Maker. Légende chinoise.
+                  Espagnol : Conte espagnol, 1 volume. Italien : La Divina Comédia de Dante. L'enfer
+                  (int. 4 volumes). Le Purgatoire (4 volumes). Le Paradis (4 volumes). Grammaire
+                  italienne. Roméo et Juliette, nouvelle de Luigi da Porta.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h11">NAISSANCES</head>
+                <p>Notre camarade et Mme Vigier (Joseph), à Saint-Flour (Cantal) nous font part de
+                  la naissance de leurs deux jumeaux, Denise et René, nés le 20 mai 1924.</p>
+                <p>Notre camarade et Mme Chasselade (Joseph), à Courpière (Puy-de-Dôme) nous font
+                  part de la naissance de leur quatrième enfant, Jean-François, né le 17 mai
+                  1924.</p>
+                <p>Notre camarade et Mme Masson (René), à Plougasnou (Finistère) nous font part de
+                  la naissance de leur fils Pierre, né le 8 mai 1924.</p>
+                <p>Notre camarade et Mme Izard (Marcellin), à Lunac (Aveyron) nous font part de la
+                  naissance de leur fille. Paulette, née le 16 avril 1924.</p>
+                <p>Notre camarade et Mme Lecomte (Fernand), à Hérin (Nord) nous font part de la
+                  naissance de leur fils Marceau-Robert, né le 27 mai 1924.</p>
+                <p>Notre camarade et Mme Le Mire (Ernest), au Guildo (Côtes-du-Nord) nous font part
+                  de la naissance de leur troisième fils, Michel, né le 2 mai 1924.</p>
+                <p>Notre camarade et Mme Le Bourlout, à Pontivy (Morbihan) nous font part de la
+                  naissance de leur fille Odette, née le 23 mai 1924.</p>
+                <p>Notre camarade et Mme Talleur (Léopold), à Sainte-Margue-rite-sur-Fauville
+                  (Seine-Inférieure) nous font part de la naissance de leur troisième fille Liliane,
+                  née le 7 juin 1924.</p>
+                <p>Notre camarade et Mme Gambert (François), à La Marronnerie, près Rohan (Morbihan)
+                  nous font part de la naissance de leur fille Denise, née le 28 avril 1924.</p>
+                <p>Notre camarade et Mme Isnardy (Jean), à Grasse (Alpes-Maritimes) nous font part
+                  de la naissance de leur fils Edouard, né le 13 mai 1924.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+                <p>Notre camarade et Mme Fermont d'Andrea, à Issy-les-Moulineaux (Seine) nous font
+                  part de la naissance de leur deuxième enfant, Maurice, né le 11 juin 1924.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h12">MARIAGES</head>
+                <p>Notre camarade Vitre (Albert), à Navry-en-Syllas (Loiret) fait part de son
+                  mariage avec Mme veuve Lefavrais, célébré le 26 février 1924.</p>
+                <p>Notre camarade Coignoux (Eugène), à Croze (Creuse) fait part de son mariage avec
+                  Mlle Jeanne Brousse, célébré le 19 juin 1924.</p>
+                <p>Notre camarade Henry (Paul), à Laveline-devant-Bruyères (Vosges) fait part de son
+                  mariage qui a été célébré le 26 juin 1924.</p>
+                <p>Notre camarade Gatineau (Marcel), à La Brosse-de-Montournais (Vendée) fait part
+                  de son mariage avec Mlle Juliette Morisseau, célébré le 20 mai 1924.</p>
+                <p>Notre camarade Revol (Claudius), à La Chapelle-La-Tour (Isère) fait part de son
+                  mariage avec Mlle Fernande Lamart, qui sera célébré le 12 juillet 1924.</p>
+                <p>Notre camarde Billard (Maurice), à Barby (Savoie) fait part de son mariage avec
+                  Mlle Léa Ruel, célébré le 24 mai 1924.</p>
+                <p>Notre camarade et Mme Mas (Louis), à Narbonne (Aude) nous font part du mariage de
+                  leur fille Marie-Jeanne avec M. Georges Techene, célébré le 1<hi
+                    rend="superscript">er</hi> juillet 1924.</p>
+                <p>Notre camarade et Mme Deschamps (Charles), au Parc-SaintMaur (Seine) nous font
+                  part du mariage de leur fille Charlotte avec M. Dutheil, célébré le 24 juin
+                  1924.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h13">DÉCÉS</head>
+                <p>Nous apprenons le décès : De notre camarade Mann (Georges), à Boulogne-sur-Mer
+                  (Pas-de-Calais).</p>
+                <p>De notre camarade Manon, à Pessac (Dordogne), le 27 mai 1924.</p>
+                <p>De la mère de notre camarade Derunder (Paul), à Calais (Pas-de-Calais), le 22 mai
+                  1924.</p>
+                <p>De la mère de notre camarade Amar (José), à Paris, le 11 juin 1924.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+                <p>De la femme de notre camarade Goulet, au Mans (Sarthe), le 12 mai 1924.</p>
+                <p>Du père de notre camarade Le Carret (Alphonse), à Locminée (Morbihan).</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Procès-verbal de la séance
+                du Conseil d'administration du 24 Mai 1924</head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence de Scapini. Sont présents :
+                L'Evesque (Gaston), Grillet, Dufourc, Favret, Amar, Arnault, Bardoux, Bertrand,
+                Goubin, Gudefin, Heuzé, Izaac, Laffargue, Laute, Leveau, Noireaux, Sainte-Rose.</p>
+              <p>Assistent à la séance : M. de Traversay, président du Comité d'Action, les
+                camarades Saillot, Boidin, Briant.</p>
+              <p>Les administrateurs de province : Derunder, Lagarde, Leloup, Robert, Toudouri ont
+                écrit.</p>
+              <p>Excusés : Antoine (pouvoir à Izaac), Courteix (pouvoir à Favret), Malgat (pouvoir à
+                Grillet), Bois (pouvoir au président), Durat. 1<hi rend="superscript">°</hi> Le
+                procès-verbal de la dernière séance est adopté à l'unanimité; 2<hi
+                  rend="superscript">°</hi> La situation financière d'avril est adoptée à
+                l'unanimité; 3<hi rend="superscript">°</hi> Membres titulaires de l'U. A. G. dont la
+                pension est rejetée. Lecture des lettres des administrateurs de province : Derunder,
+                Lagarde, Leloup, Robert, Toudouri.</p>
+              <p>Parmi les membres titulaires de l'U. A. G. se trouvent des aveugles dont la pension
+                a été rejetée par le Ministre, leur infirmité n'ayant pas été reconnue imputable au
+                service militaire.</p>
+              <p>Après discussion, la motion suivante est adoptée à l'unanimité des membres présents
+                : "Les membres titulaires de l'Union, dont le titre de pension est " retiré par le
+                Ministre des Pensions, sont rayés des membres titus laires de l'U. A. G. Ils
+                pourront être classés dans une liste spéciale " dont les membres ne paieront pas de
+                cotisation, mais recevront " néanmoins le Bulletin mensuel et tous renseignements
+                dont ils pour" ront avoir besoin. "L'Assemblée générale pourra voter chaque année,
+                sur la propo" sition du Conseil d'administration, une somme variant suivant les <pb
+                  n="15"/>
+                <note type="foliation">— 13 —</note> " ressources financières de l'U. A. G.; cette
+                somme sera répartie " en une seule fois entre tous les membres de la liste précitée.
+                "</p>
+              <p>Les aveugles rentrant dans cette catégorie pourront être remboursés de leur
+                cotisation à l'U. A. G. Ils n'auront pas droit aux avantages matériels de l'Union
+                non plus qu'au bulletin de vote. Nous les inscrirons à nouveau membres titulaires si
+                une pension leur est accordée.</p>
+              <p>Ces mesures ne seront applicables qu'après ratification de l'Assemblée
+                générale.</p>
+              <p>Afin de ne plus avoir à revenir sur cette question, le Conseil d'administration
+                décide d'admettre, de la façon suivante, les blessés aux yeux qui désireraient dans
+                l'avenir adhérer à l'U. A. G.</p>
+              <p>Les camarades réformés 100.0 / 0 pour la vision ayant une pension définitive,
+                temporaire ou provisoire, pourront être respectivement admis membres titulaires de
+                l'U. A. G. définitivement, temporairement ou provisoirement; 4<hi rend="superscript"
+                  >°</hi> Victimes civiles de la guerre. Lecture des lettres des administrateurs de
+                province : Derunder, Lagarde, Robert.</p>
+              <p>Le Conseil ayant examiné la situation des aveugles, victimes civiles de la guerre,
+                constate que d'après l'article 3 des statuts ils sont classés dans la catégorie des
+                membres souscripteurs, c'est-à-dire qu'ils n'ont droit ni au bulletin de vote, ni
+                aux avantages matériels de l'Union (Secours, Franceville, etc...). Cependant, il ne
+                leur sera demandé qu'une cotisation de 5 francs comme par le passé, sauf en ce qui
+                concerne les aveugles, victimes civiles de la guerre, mineurs, qui ne paieront
+                aucune cotisation jusqu'à leur majorité; 5<hi rend="superscript">°</hi> Affiliation
+                des Groupements régionaux et Sections départementales à des Fédérations.</p>
+              <p>Lecture des lettres des administrateurs de province : Derunder, Lagarde, Leloup,
+                Robert, Toudouri.</p>
+              <p>A titre documentaire, lecture de la lettre du Président de la Section
+                départementale des Vosges.</p>
+              <p>Après discussion, la motion suivante est adoptée à l'unanimité des membres
+                présents, moins une abstention : Favret. "Le Conseil d'administration rappelle aux
+                Groupements régio" naux et Sections départementales qu'ils ne doivent pas s'affilier
+                à " des Sociétés indépendantes ou à des Fédérations. Toutefois, il est " bien
+                entendu que les membres des Groupements ou Sections dépar- <pb n="16" break="no"/>
+                <note type="foliation">— 14 —</note> «tementales peuvent individuellement faire
+                partie de n'importe "quelle Société de mutilés ou d'anciens combattants »: 6<hi
+                  rend="superscript">°</hi> Location des appartements de Franceville. Lecture des
+                lettres des administrateurs de province : Derunder, Leloup, Toudouri, Lagarde.</p>
+              <p>Le camarade Amar propose d'accorder une réduction de 50 0/0 sur le prix de location
+                des logements de Franceville aux Aveugles de guerre ayant des enfants, attendu que
+                les mutilés doivent supporter l'augmentation des tarifs de chemins de fer.</p>
+              <p>La proposition d'Amar est ajournée jusqu'à l'Assemblée générale qui seule peut
+                fixer le taux de location des pavillons de Franceville. 7<hi rend="superscript"
+                  >°</hi> Commission de Caisse Fratemelle. Les camarades Courteix, Goubin, Lauté,
+                Noireaux sont nommés membres du Comité de Caisse Fraternelle pour les mois de juin,
+                juillet et août; 8<hi rend="superscript">°</hi> Congrès de l'Union Fédérale. Lecture
+                des lettres des administrateurs, Lagarde, Leloup, Derunder.</p>
+              <p>L'Union Fédérale a invité l'Union des Aveugles de guerre à envoyer un délégué
+                auditeur à son Congrès qui aura lieu à Arras les 8,9 et 10 juin. Le Conseil désigne
+                un délégué auditeur. 9<hi rend="superscript">°</hi> Questions diverses. Lecture du
+                compte rendu de l'Assemblée générale de la Section départementale des Vosges. Ce
+                compte rendu sera publié dans l'encartage du Bulletin de juin.</p>
+              <p>Lecture de la lettre du camarade Estienne relative à la répartition des Chambres de
+                l'U. A. G. au moment des réunions.</p>
+              <p>Le Conseil laisse le soin au Bureau de s'occuper de la répartition des chambres de
+                l'U. A. G. au mieux des intérêts de tous.</p>
+              <p>Bal de la Légion d'honneur. Le Conseil félicite vivement le Bureau du résultat
+                obtenu par le Bal de la Légion d'honneur. Il charge son Président de féliciter et de
+                remercier les membres du Comité d'Action qui ont si effectivement collaboré à
+                l'organisation de cette fête et principalement Mlle Arbel.</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h15">Admission de nouveaux
+                  adhérents</head>
+                <p>Sont admis membres titulaires de l'U. A. G. : 1<hi rend="superscript">°</hi>
+                  Définitivement Goulet et Pierron (Louis) : <pb n="17"/>
+                  <note type="foliation">— 15 —</note> 2<hi rend="superscript">°</hi> Temporairement
+                  : Benkhelifa (Feghoul), Ould (Larbi), Bouisson (Denis), Peeters (Jean); 3<hi
+                    rend="superscript">°</hi> Provisoirement : Maillasson (Joseph), Parisot
+                  (Edmond), Ravachol (Louis).</p>
+                <p>Le Conseil prend connaissance de la lettre du camarade Brusson qui sera publiée
+                  dans l'encartage du Bulletin de juin et de celle du camarade Roubaud.</p>
+                <p>La séance est levée à 16 h .30 .</p>
+                <p>Nous apprenons avec plaisir que sur l'intervention de la Départementale des
+                  Vosges, le Conseil général des Vosges réuni en cession de mai a, au cours de cette
+                  dernière, accordé sur toutes les lignes de tramways et autobus du département des
+                  Vosges une réduction de 500 / 0 consentie à l'aveugle et son guide sur la seule
+                  présentation de la carte à double barre. C'est-à-dire que tous les aveugles de
+                  guerre circulant dans le département pourront être bénéficiaires de cette
+                  mesure.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">LEGION D'HONNEUR</head>
+              <p>Sont nommés au grade de Chevalier de la Légion d'honneur par décret du 25 février
+                1924 (paru au Journal Officiel du 3 mars) :</p>
+              <p>Reyne (Jean-Marie-Eugène-Roger), ex-brigadier au 24<hi rend="superscript">°</hi>
+                régiment d'artillerie de campagne. par décret du 15 mai 1924 (paru au Journal
+                Officiel du 24 mai) : Boudot (Jean-Joseph), ex-sergent au 5<hi rend="superscript"
+                  >°</hi> régiment d'infanterie coloniale.</p>
+              <p>Ducros (André-Léon), ex-soldat au 54<hi rend="superscript">°</hi> régiment
+                d'infanterie coloniale.</p>
+              <p>Delmas (Georges), ex-soldat au 59<hi rend="superscript">°</hi> régiment
+                d'infanterie. Gudefin (Marcel-Maurice-Eugène), ex-caporal au 145<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <p>Trannoy (François-Laurent), ex-soldat au 20<hi rend="superscript">°</hi> escadron
+                du train des équipages militaires.</p>
+              <p>Richard (Elie-Albert), ex-soldat au 149<hi rend="superscript">°</hi> régiment
+                d'infanterie. Par décret du 26 mai 1924 (Journal Officiel du 4 juin 1924), sont
+                promus dans l'Ordre National de la Légion d'honneur : <pb n="18"/>
+                <note type="foliation">— 16 —</note> Au grade d'officier : Mariani
+                (Jacques-Antoine), lieutenant au 8<hi rend="superscript">°</hi> régiment de
+                tirailleurs.</p>
+              <p>Au grade de Chevalier : Balagny (Joseph-Marie), ex-soldat au 112<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <p>Fitas Boubekeir ould Mohamed, ex-soldat au 2<hi rend="superscript">°</hi> régiment
+                de tirailleurs.</p>
+              <p>Jean (Pierre), ex-soldat au 134<hi rend="superscript">°</hi> régiment d'infanterie.
+                Valladeau (Georges-Lucien), ex-soldat au 4<hi rend="superscript">°</hi> régiment
+                d'infanterie.</p>
+              <p>Fredj Ben Mohamed Ben Taieb, ex-soldat au 4<hi rend="superscript">°</hi> régiment
+                de tirailleurs indigènes.</p>
+              <p>Augoyat (Fernand-Victor), ex-soldat au 174<hi rend="superscript">°</hi> régiment
+                d'infanterie.</p>
+              <p>Deldon (Marius-Joseph), ex-soldat au 55<hi rend="superscript">°</hi> régiment
+                d'infanterie. Emeric (Louis-Auguste), ex-soldat au 15<hi rend="superscript">°</hi>
+                régiment d'infanterie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">LISTE DES AVEUGLES DE GUERRE
+                DU TERRITOIRE DE BELFORT</head>
+              <p>Bitsch (Joseph), 36, rue Adrien-Guidon, Belfort. Gable (Alphonse),
+                Auxelles-le-Haut, par Giromagny. Marsot (René), Rougemont-le-Château. Renaudot
+                (Clément), 51, faubourg de France, Belfort.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapint; Vice-Présidents : Bois, Dufourc, Grillet, Secrétaire général :
+              Favret. Trésorier : Gaston L'Evesque. Membres : Amar, Antoine, Arnault, Bardoux,
+              Bertrand, Courteix, Derunder, Durat, Fauvel, Goubin, Gudevin, Heuze, Isaac, Laffargue,
+              Lagarde, Lallement, Laute, Leveau, Leloup, Malgat, Notreaux, Robert (Maurice),
+              SainteRose, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur ; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meyhadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint ; M. de Fleurieu, Trésorier adjoint ; M. Auterbe, Actuaire à la Compagnie
+              «L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Bovlesve. Mme Broquin. M. Chepper. M. Piérre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranie, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaguier. Mme Henri. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. Mme Mus. M. Joseph Roux. M. Sollar.</p>
+            <p>D' Schneider. Mme Valton. Mme Yves.</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">Liste des Donateurs</head>
+            <p>M. et Mme Jules Coutin, Versailles (Seine-et-Oise), 35 francs; Mme Alf, Paris, 20
+              francs; Mme James Kaufmann, Paris, 20 fr.; Mme C. Bréard, Curetpique Iles Maurice,
+              transmis par les Annales, 30 francs; M. le Docteur Dupuy-Dutemps, Paris, 200 francs;
+              Mme Vve Maffiolli, Paris, 20 francs; M. le Docteur Marfan, Paris, 200 francs; The
+              Caledonian Society of France, 375 francs; Anonyme n <hi rend="superscript">°</hi>
+              18.044, Maisons de repos à Franceville, 100 francs; Lycée de Jeunes Filles de Nîmes
+              (Gard), 125 francs; Mme Couleru Lugano (Suisse), 50 francs; M. le Docteur L. Brocq,
+              Paris, 200 fr.; M. et Mme Veyrassat. Mont-Saint-Père (Aisne), 100 francs; Mme Cardon,
+              Paris, 10 francs; M. Maurice Dreyfus, Paris, affectation Maison de Repos à
+              Franceville, 100 francs; Anonyme <hi rend="superscript">n</hi>^{\circ} 18.145,300
+              francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

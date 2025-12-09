@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 6ème année 1924, n°6</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">Emploi des mutilés</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 8 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#emploi">Emploi</term>
+          <term ref="#bal">Bal</term>
+          <term ref="#conseil-dadministration">Conseil d'Administration</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre détaille les activités de
+          l'association, incluant un compte-rendu du bal annuel, des informations sur l'emploi
+          obligatoire des mutilés, et des notes et informations diverses concernant les membres. Il
+          contient des chroniques de l'U.A.G., des annonces de naissances, mariages et décès, ainsi
+          que le procès-verbal de la séance du Conseil d'Administration du 12 avril 1924. Le
+          bulletin inclut également une liste des aveugles de guerre par département et une liste
+          des donateurs.</p>
+      </abstract>
+      <creation>
+        <date when="1924-06-01">01/06/1924</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-08" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-08" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h4">Bal de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">L'EMPLOI OBLIGATOIRE DES MUTILÉS</ref>
+          </item>
+          <item>
+            <ref target="#h6">NOTES &amp; INFORMATIONS</ref>
+          </item>
+          <item><ref target="#h18">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h7">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h8">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h9">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h10">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h11">Procès-verbal de la séance du Conseil d'administration du 12
+                  Avril 1924</ref>
+              </item>
+              <item>
+                <ref target="#h12">LISTE DES AVEUGLES DE GUERRE DU DEPARTEMENT DE LA SOMME
+                  (Suite)</ref>
+              </item>
+              <item>
+                <ref target="#h13">LISTE DES AVEUGLES DE GUERRE DU DEPARTEMENT DU TARN</ref>
+              </item>
+              <item>
+                <ref target="#h14">LISTE DES AVEUGLES DE GUERRE DU DEPARTEMENT DU
+                  TARN-ET-GARONNE</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h15">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h16">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h17">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">6e Année. — N° 6</fw>
+          <fw type="header">
+            <hi rend="underline">Juin 1924</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Bal de l'U. A. G.</item>
+                    <item>Emploi obligatoire des mutilés.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)">Notes et Informations</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la séance du Conseil d'Administration du 12 avril
+                      1924.</item>
+                    <item>Lettre nous intéressant.</item>
+                    <item>Liste des aveugles de guerre par département.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou;</p>
+            <p>M. le colonel Fabry, ministre des Colonies; M. Brieux, de l'Académie Française,
+              président honoraire; M. le général Balfourié; M. Borrel, député, ancien
+              sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie Française ; M.
+              Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty ; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, député de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ;
+              Mme Géo Kessler ; M. Krug ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député; M. Pierre Rameil, député ;</p>
+            <p>M* Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; Général
+              Sainte-Claire-Deville ; M. Vallery-Rabot ; M. Constant Verlot, député; M. le
+              Professeur Walther, membre de l'Académie de Médecine.</p>
+          </div>
+          <pb n="3"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Bal de l'Union des Aveugles de
+              Guerre</head>
+            <p>Le Bal que nous avons donné dans les Salons du Palais de la Grande Chancellerie de la
+              Légion d'honneur, mis gracieusement à notre disposition par M. le Grand Chancelier,
+              fut couronné d'un brillant succès.</p>
+            <p>Nous nous étions inquiétés d'obtenir le concours d'excellents artistes et les
+              Fratellini, les rois du rire et de la gaîté, ont répondu gracieusement à notre appel.
+              Un ballet fut dansé d'une façon charmante par les demoiselles du corps de ballet de
+              l'Opéra. Ces diverses attractions ont été très goûtées et très applaudies.</p>
+            <p>Cette fête revêtait l'aspect correct et élégant que tous les Aveugles de guerre
+              aiment à trouver dans une manifestation de ce genre. Le 17 mai marque certainement une
+              date dans les annales de l'Union, en effet, une publicité de bon ton a fait connaître
+              au public que l'Union des Aveugles de guerre fidèle à sa noble devise organisait une
+              fête au bénéfice des Aveugles de guerre.</p>
+            <p>Cette publicité a mis en lumière les buts de haute solidarité que poursuit cette
+              Association d'anciens Soldats, tous portant le lourd fardeau d'une blessure
+              commune.</p>
+            <p>Le public sait que les Aveugles de guerre aident les Aveugles de guerre; il n'y a pas
+              de charité, il y a un grand sentiment de fraternité.</p>
+            <p>En outre, nous avons fait connaître, et ceci à toutes fins utiles, que nous comptions
+              dans notre sein des accordeurs de piano, des brossiers, des dactylographes, des
+              masseurs, des menuisiers, des téléphonistes, des tricoteurs, des vanniers, etc., que
+              notre magasin tenait à la disposition de toutes les personnes pouvant en avoir besoin,
+              aux prix ordinaires du commerce, des articles fabriqués exclusivement par des Aveugles
+              de guerre.</p>
+            <p>Tout cet ensemble de choses a mis au point et en relief l'objet de notre
+              Association.</p>
+            <p>Outre l'effet moral de cette fête au Palais de la Légion d'honneur, il est bon
+              d'ajouter que le bénéfice matériel qu'en retire l'Union est loin d'être
+              négligeable.</p>
+            <p>Nous tenons à exprimer ici nos remerciements au Comité d'action <pb n="4"/>
+              <note type="foliation">— 2 —</note> et tout particulièrement à sa vice-présidente et à
+              son président qui nous ont apporté l'appui efficace de leur dévouement inlassable et
+              de leur activité infatigable.</p>
+            <p>Bien des efforts ont été dépensés et nous espérons, avec quelque vraisemblance,
+              qu'ils continueront à porter leurs fruits et que, prospère et bienfaisante, l'Union
+              des Aveugles de guerre poursuivra sa marche ascendante vers l'idéal magnifique qu'elle
+              s'est fixé pour but : "Pour les Aveugles, par les Aveugles ».</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">L'EMPLOI OBLIGATOIRE DES
+              MUTILÉS</head>
+            <p>Nous extrayons de la loi sur l'emploi obligatoire des mutilés, publiée au Journal
+              officiel du 29 avril, l'article 18 qui intéresse un petit nombre de nos camarades : "
+              Article 18. - Les bénéficiaires de la présente loi, employés " ou ouvriers,
+              auxiliaires même temporaires, dans une administra" tion ou un établissement de l'Etat,
+              seront titularisés dans leur " emploi s'ils justifient d'une année de présence. "En
+              cas de suppression d'emploi, ils seront pourvus d'un " emploi équivalent. )</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">NOTES &amp; INFORMATIONS</head>
+            <p>Nous remercions le Permanent Blind Relief War Fund, bien connu des Aveugles de guerre
+              et particulièrement de ceux qui lisent le Braille, du don qu'il vient de faire à l'U.
+              A. G. de 120 volumes admirablement imprimés, reliés élégamment et solidement.</p>
+            <p>La liste des nouveaux ouvrages que possède ainsi notre bibliothèque sera imprimée
+              dans un prochain Bulletin.</p>
+            <p>Nous espérons que les lecteurs de notre bibliothèque "B Braille " prendront soin de
+              ces volumes comme ils ont pris soin de ceux qui leur ont déjà été prêtés.</p>
+            <p>Le Cercle des Amitiés Françaises d'Enghien a organisé, comme il l'a déjà fait les
+              années précédentes, un très beau concert au profit de notre Association.</p>
+            <p>C'est avec plaisir que nous renouvelons ici les sentiments de reconnaissance que nous
+              avons déjà adressés à M. Droit, président du Cercle, organisateur de la fête. Nous
+              remercions sincèrement toutes les personnes qui ont contribué au succès de cette
+              fête.</p>
+            <p>Le camarade Romant recherche une fillette de treize à quatorze ans pour garder un
+              enfant de six ans pendant les vacances, soit quatre à cinq mois, à partir du mois de
+              juin. Nourrie, blanchie, couchée.</p>
+            <p>Prière de s'adresser directement au camarade Romant, 21, avenue de la Gare, à
+              Cayeux-sur-Mer (Somme).</p>
+            <p>Mme Forestier, domiciliée à Nogent-le-Roi, petite ville située à 80 kilomètres de
+              Paris, serait heureuse d'avoir un aveugle de guerre comme pensionnaire.</p>
+            <p>Mme Forestier a perdu deux fils à la guerre; elle vit seule avec un grand fils de
+              vingt-deux ans.</p>
+            <p>Le camarade que cette offre pourrait intéresser est prié de s'adresser directement à
+              Mme Forestier, rue du Pont-aux-Juifs, à Nogent-le-Roi (Eure-et-Loir).</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h8">NAISSANCES</head>
+                <p>Notre camarade et Mme Debeaupuis (Raymond), à Estrées-Saint-Denis (Oise), nous
+                  font part de la naissance de leur fils René-Georges-Raymond, né le 17 avril.</p>
+                <p>Notre camarade et Mme Auliac (Antoine), à Saint-MartialEntraygues (Corrèze), nous
+                  font part de la naissance de leur fils Jules, né le 18 avril 1924.</p>
+                <p>Notre camarade et Mme Bellec (Yves), à Kermarger-en-Cleder (Finistère), nous font
+                  part de la naissance de leur fils Jean-Louis, né le 11 mars 1924.</p>
+                <p>Notre camarade et Mme Berdon (Albert), à Vinneuf (Yonne), nous font part de la
+                  naissance de leur fils Maurice.</p>
+                <p>Notre camarade et Mme Bathière (François), à Sereillac (Haute-Vienne), nous font
+                  part de la naissance de leur fille MarieMadeleine, née le 14 mars 1924.</p>
+                <p>Notre camarade et Mme Girault, à Fonfréroux (Deux-Sèvres), nous font part de la
+                  naissance de leur fille Colette, née le 30 avril 1924.</p>
+                <p>Notre camarade et Mme Mauriceau, aux Tuffeaux, par Gennes (Maine-et-Loire), nous
+                  font part de la naissance de leur fils Serge.</p>
+                <p>Notre camarade et Mme Plateau (André), à Orléans (Loiret), nous font part de la
+                  naissance de leur fils Maurice, né le 29 avril 1924.</p>
+                <p>Notre camarade et Mme Simion, à Avallon (Yonne), nous font part de la naissance
+                  de leur fille Yvonne, née le 20 avril 1924.</p>
+                <p>Notre camarade et Mme Koeberle, à Conches (Eure), nous font part de la naissance
+                  de leur fille Jeannine, née le 26 avril 1924.</p>
+                <p>Notre camarade et Mme Desseignes, à Paris, nous font part de la naissance de leur
+                  fille Georgette, née le 9 mai 1924.</p>
+                <pb n="7"/>
+                <note type="foliation">— 5 —</note>
+                <p>Notre camarade et Mme Marchan (Simon), à Laruns (BassesPyrénées), nous font part
+                  de la naissance de leur deuxième fille, Marie-Solange, née le 29 avril 1924.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h9">MARIAGES</head>
+                <p>Notre camarade Brossamain, à Vouvray (Indre-et-Loire), nous fait part de son
+                  mariage avec Mlle Yvonne Gaudin, qui a été célébré le 30 avril 1924.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h10">DÉCÈS</head>
+                <p>Nous apprenons le décès : Du camarade Perrette (Adrien), à
+                  Saint-Pierre-du-Regard. Du camarade Brunel, à Lavoult (Ardèche), le 16 mars 1924.
+                  Du camarade Jacquelin (Pierre), à Tournus (Saône-et-Loire), le 30 avril 1924.</p>
+                <p>Du camarade Clarot, à Vaux-sur-Laon (Aisne), le 11 mai 1924. De la femme de notre
+                  camarade Bicheron (Marius), à Mazargues-Marseille (Bouches-du-Rhône).</p>
+                <p>De la fille de notre camarade Bellenger (Emile), à Elbeuf, à l'âge de huit
+                  ans.</p>
+                <p>Du fils de notre camarade Gauthier (Edmond), à Parthenay (Deux-Sèvres), à l'âge
+                  de un mois et demi.</p>
+                <p>Du beau-père de notre camarade Martin (Paul), à La Courneuve (Seine).</p>
+                <p>Du père adoptif de notre camarade Sklarg, à Paris, le 9 mai. Nous exprimons aux
+                  parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Procès-verbal de la séance
+                du Conseil d'administration du 12 Avril 1924</head>
+              <p>La séance est ouverte à 15 heures sous la présidence de Scapini. Sont présents :
+                Gaston L'Evesque, Bois, Grillet, Dufourc, Favret, Amar, Arnault, Bardoux, Courteix,
+                Goubin, Gudefin, Heuzé, Izaac, Laffargue, Laute, Malgat, Noireaux, Sainte-Rose.</p>
+              <p>Excusés : Antoine, Lallemant, Leveau (pouvoirs à Izaac) ; Fauvel, Derunder (pouvoir
+                à Noireaux) ; Toudouri, Bertrand.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>Assistent à la séance : M. de Traversay, président du Comité d'action; les
+                camarades Boidin, Erb, Mougenel, Pagenel, Prune, Saillot, Sursin. 1<hi
+                  rend="superscript">°</hi> Lecture du procès-verbal de la dernière séance. - Adopté
+                à l'unanimité; 2<hi rend="superscript">°</hi> Situation financière de mars. -
+                Adoptée à l'unanimité: 3<hi rend="superscript">°</hi> Additions au règlement
+                intérieur : a) Au paragraphe "Conseil d'administration»: "Les membres du Conseil
+                d'administration sont autorisés à donner leurs pouvoirs par écrit aux
+                administrateurs susceptibles d'assister à la réunion du Conseil. Cette délégation
+                n'est valable que pour une séance. "</p>
+              <p>L'addition mise aux voix est adoptée par 20 voix, contre 2 et 1 abstention. b) Au
+                paragraphe "Secrétaire général »: " Il est responsable du bon fonctionnement
+                intérieur de l'Union et doit en assurer l'administration ».</p>
+              <p>L'addition mise aux voix est adoptée à l'unanimité. 4<hi rend="superscript">°</hi>
+                Pensions. - Le président met le Conseil au courant des démarches entreprises au
+                sujet des pensions, et dont le succès est certain.</p>
+              <p>Le Conseil adresse ses plus vifs remerciements à toutes les personnes qui l'ont
+                aidé à obtenir le relèvement des allocations aux grands invalides et donne mandat, à
+                son bureau, de remercier par lettre individuelle M. Alexandre Millerand, président
+                d'honneur de l'U. A. G., les membres du Gouvernement et du Parlement qui ont fait
+                voter ces allocations. 5<hi rend="superscript">°</hi> Questions diverses : a)
+                Admission de nouveaux membres :</p>
+              <p>Les camarades Bachir Ben Mostfa, Chaxel (Emile), Cunin (Emile), sont admis
+                définitivement comme membres titulaires.</p>
+              <p>Les camarades Belliot (Charles), Camerle (Louis), Debatisse (Georges), Piot
+                (Philippe), Brevet (André), Ledieu (Louis), Lefèvre (Eugène), sont admis
+                provisoirement. b) Fête de Longwy</p>
+              <p>Sur la demande de la Société "Sidi Brahim », le Conseil <pb n="9"/>
+                <note type="foliation">— 7 —</note> décide d'envoyer un officier et un soldat
+                aveugle à la fête qui doit avoir lieu le 27 juillet, à Longwy.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 heures.</p>
+              <p>Nous reproduisons ci-dessous la lettre de M. le docteur Bigo, directeur de la
+                Clinique Ophtalmologique de la Cochinchine, à Saïgon, qui a bien voulu nous
+                autoriser à l'insérer : "J'ai lu avec intérêt votre mise au point sur l'opération
+                faite par M. le docteur Bonnefon. Son initiative est d'autant plus louable que je
+                suis persuadé que bien des malheureux abandonnés peuvent être encore mis au moins en
+                état de se conduire par eux-mêmes. J'ai vu six opérés aveugles, depuis six à dix
+                ans, que j'ai pu libérer de tout guide. Et, dans ce cas, une seule condition est
+                indispensable : que le décollement de la rétine ne soit pas complet. Les autres
+                conditions sont des éléments défavorables, mais non une contre-indication absolue à
+                opérer; surtout si on utilise longuement, comme je le fais et comme je le publierai
+                bientôt, l'électricité sous forme de courant continu à très faible intensité, mais
+                en séances longues de plus d'une heure. Il suffit, pour justifier une tentative : "
+                1" Que la forme du globe ne soit pas trop modifiée, que la tension soit voisine de
+                la normale; " 2" Qu'une partie suffisante de la cornée ait conservé sa transparence;
+                " 3" Que le décollement de la rétine ne soit pas complet; " 4" Que l'épanchement
+                sanguin ne soit pas organisé, car il se résorbe assez vite sous l'influence du
+                courant ( en deux mois environ). " Dans ces cas, en apparence très mauvais, on peut
+                espérer faire voir suffisamment pour les actes courants de la vie. " Il y aurait
+                intérêt, pour ceux qui le désirent, à procéder à une revision sérieuse de leurs
+                yeux. "Bigo."</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">LISTE DES AVEUGLES DE GUERRE
+                DU DEPARTEMENT DE LA SOMME (Suite)</head>
+              <p>Pisson (Charles), Vrely, par Rosières. Pruvot (Gustave), Saint-Maxent. Romant
+                (Etienne), 21, avenue de la Gare, Cayeux-sur-Mer.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>Salembier (Marcel), 31, rue Jeanne-d'Arc, Amiens. Thuilliez (Albert), Aveluy, par
+                Albert. Tilloloy (Emile), Canaples. Vivot (Charles), 83, rue du Bellay, Amiens.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">LISTE DES AVEUGLES DE GUERRE
+                DU DEPARTEMENT DU TARN</head>
+              <p>Albouy (Ernest), Cuq-Toulza. Assemat (Louis), L'Arcarié (Com. de
+                Castelnau-de-Brassac). Blatge (Casimir), Saint-Sulpice-de-la-Pointe. Bonnet
+                (Elisée), au Roussés-Mazamet. Cance (Jules), rue Joseph-Rigal, Gaillac. Dardie
+                (Gabriel), rue de la République, Saint-Guéry. Dupuy (Julien), 44, boulevard Valmy,
+                Albi. Enjalbert (Jacques), Usine du Saut-du-Tarn, Saint-Juéry. Fortania (Laurent),
+                Brassac. Gatimel (Léopold), rue des Barris, Brassac. Genies (Camille), 16, rue des
+                Trois-Rois, Castres. Germa (Fernand), Durfort, par Sorrèze. Huc (Pierre), Pouzats
+                (Commune de Mesnan). Montalan (Auguste), 7, rue de la Resse, Mazamet. Montet
+                (Firmin), Laligoumie, par Puycelci. Satge, 39, place du Foiral, Albi. Severac
+                (Auguste), La Bernardier, Les Salvages, par Castres. Tanis (Joseph), rue Goulimou,
+                Puy-Laurens. Vidal (Albert), Les Salvages, par Castres.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">LISTE DES AVEUGLES DE GUERRE
+                DU DEPARTEMENT DU TARN-ET-GARONNE</head>
+              <p>Belmontet, route de Montbartier, Montech. Berrie (Célestin), rue de la Mouline,
+                Castelsarrasin. Granet (Jean), Grisolles. Lafon (Jean), villa Pierre, allée des
+                Mûriers, Montauban. Nonorgues (Albert), Saint-Antonin. Rattier (Elie), Castelmayran
+                (Canton de Saint-Nicolas).</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini, Vice-Présidents : Bois, Dufourc, Grillet. Secrétaire général :
+              Favret. Trésorier : Gaston L'Evesque. Membres : Amar, Antoine, Arnault, Bardoux,
+              Bertrand, Courteix, Derunder, Durat, Fauvel, Goubin, Guderin, Heuze, Isaac, Laffargue,
+              Lagarde, Lallement, Laute, Leveau, Leloup, Malgay, Noireaux, Robert (Maurice),
+              SainteRose, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur.; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint ; M. de Fleurieu, Trésorier adjoint ; M. Auterbe, Actuaire à la Compagnie
+              «L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Boylesve. Mme Brogüin. M. Chepfer. M. Pietre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaguier. Mme Henri. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. Mme Mus. M. Joseph Roux. M. Sollar.</p>
+            <p>Dr Schneider. Mme Valton. Mme Yves.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">Liste des Donateurs</head>
+            <p>Produit d'une représentation théâtrale donnée à Hai- phong, le 16 février .....
+              13.461 Mme veuve Limousin, Tolosa (Espagne) ..... 200 Mme Paul Meyer, Paris ..... 500
+              " Les élèves de l'Ecole primaire supérieure de Saint- Gaultier (Indre) ..... 100 "
+              Mlle Grandjean, Cuxac-d'Aude ..... 20 " Mme Georges Sick, Val-d'Ajol (Vosges) ..... 20
+              " Mme Pierre Martin, à Vif (Isère) ..... 150 " M. Charles David, Paris ..... 50 "
+              Anonyme <hi rend="superscript">N</hi>^{\circ} 17.891 ..... 50 " Anonyme <hi
+                rend="superscript">N</hi>^{\circ} 17.894 ..... 40 " Mme Condamin, Moularès (Tunisie)
+              ..... 100 " M. Y. Adam, Le Caire (Egypte) ..... 35 " M. Ernest Marchal ..... 50 "
+              Anonyme <hi rend="superscript">N</hi>^{\circ} 17.911 ..... 50 " M. J. Boissy, Paris
+              ..... 50 " Anonyme <hi rend="superscript">N</hi>^{\circ} 17.915 ..... 1.500 " M. Jonas
+              de Vries, Amsterdam (Hollande) ..... 10.000 " Mme Goestch, Paris ..... 20 " Mlles Rose
+              et Marthe Elkann, Montbéliard ..... 20 " Maison Cara, Paris ..... 10 " Mme Averton,
+              Cadenet (Vaucluse) ..... 20 " Mme Louise Pouiles, Pamiers (Ariège) ..... 10 " M. Lipot
+              Xavier, Bouvincourt (Somme) ..... 100 " Les élèves de la classe de mathématiques
+              élémentaires du lycée Henri-IV ..... 2.400 " Mme Harlé, Paris, affectation Maison de
+              Repos Franceville ..... 200 " MM. Ducerf, Scavini et fils, Paris ..... 50 " M. Jean
+              Hayaux du Tilly, Paris ..... 200 " M. A. Cenival, Paris ..... 20 " M. Deleau,
+              Neuilly-sur-Seine ..... 50 "</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

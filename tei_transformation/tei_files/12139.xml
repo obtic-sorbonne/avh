@@ -1,0 +1,1358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 4ème année 1922, n°7</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Association</title>
+        <title type="topic">Assemblée générale</title>
+        <title type="topic">Finances</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Franceville</title>
+        <title type="topic">Maison de l'Aveugle</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 24 pages numérotées + 2 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#union">Union</term>
+          <term ref="#assemblee">Assemblée</term>
+          <term ref="#orphelins">Orphelins</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#reeducation">Rééducation</term>
+          <term ref="#impots">Impôts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre fournit des informations sur les
+          activités de l'association, notamment les convocations à l'assemblée générale, les
+          nouvelles concernant les orphelins et les anciens combattants aveugles, et les
+          informations sur les enfants au lycée. Il comprend également des notes et des informations
+          sur divers sujets tels que les brossiers, le congrès national des aveugles, les blessés
+          dans les tanks, et les impôts. Le bulletin contient aussi la chronique de l'U.A.G., avec
+          des naissances, mariages, décès, et les procès-verbaux du Conseil d'Administration.</p>
+      </abstract>
+      <creation>
+        <date when="1922-07-01">01/07/1922</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-03" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-03" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">Convocation à l'Assemblée générale</ref>
+          </item>
+          <item>
+            <ref target="#h4">Ordre du jour</ref>
+          </item>
+          <item>
+            <ref target="#h5">LES ORPHELINS</ref>
+          </item>
+          <item>
+            <ref target="#h6">NOS ANCIENS NE POUVAIENT ATTENDRE</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOS ENFANTS AU LYCEE</ref>
+          </item>
+          <item>
+            <ref target="#h8">DEMANDES DE RENSEIGNEMENTS</ref>
+          </item>
+          <item>
+            <ref target="#h9">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h10">NOS BROSSIERS NON COMPLETEMENT REEDUQUES</ref>
+              </item>
+              <item>
+                <ref target="#h11">Communication de l' "Abri du Soldat Aveugle "</ref>
+              </item>
+              <item>
+                <ref target="#h12">CONGRES NATIONAL DES AVEUGLES</ref>
+              </item>
+              <item>
+                <ref target="#h13">BLESSES DANS LES TANKS EN 1917-1918</ref>
+              </item>
+              <item>
+                <ref target="#h14">IMPOTS SUR LE CHIFFRE D'AFFAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h15">IMPOT SUR LES BICYCLETTES</ref>
+              </item>
+              <item>
+                <ref target="#h16">GRAMMAIRE LATINE EN BRAILLE</ref>
+              </item>
+            </list>
+          </item>
+          <item><ref target="#h40">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h17">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h18">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h19">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h21">Procès-verbal de la Séance du Conseil d'Administration du 20 Mai
+                  1922</ref>
+              </item>
+              <item>
+                <ref target="#h22">Procès-verbal de la Séance du Conseil d'Administration du 26 Mai
+                  1922</ref>
+              </item>
+              <item>
+                <ref target="#h23">TYPE DE RÈGLEMENT INTÉRIEUR pour les Régions et les
+                  Départements</ref>
+              </item>
+              <item>
+                <ref target="#h24">GROUPE REGIONAL DE LIMOGES</ref>
+              </item>
+              <item>
+                <ref target="#h25">MASSEURS</ref>
+              </item>
+              <item>
+                <ref target="#h26">FELICITATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h27">VENTE D'OSIER</ref>
+              </item>
+              <item>
+                <ref target="#h28">PENSIONS POUR LES REFORMES</ref>
+              </item>
+              <item>
+                <ref target="#h29">LA MACHINE AUX DEUX ECRITURES</ref>
+              </item>
+              <item>
+                <ref target="#h30">ETUDE SUR LES STENO-DACTYLOS</ref>
+              </item>
+              <item>
+                <ref target="#h31">LETTRE DU CAMARADE LOUIS CHAMPEY</ref>
+              </item>
+              <item>
+                <ref target="#h32">LETTRE DU CAMARADE CATTAERT</ref>
+              </item>
+              <item>
+                <ref target="#h33">LETTRE DU CAMARADE VENRIES PAULIN, A PARIS</ref>
+              </item>
+              <item>
+                <ref target="#h34">DECORATIONS</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h35">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h36">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h37">COMITÉ D'AIDE</ref>
+          </item>
+          <item>
+            <ref target="#h38">Liste des Donateurs</ref>
+          </item>
+          <item>
+            <ref target="#h39">Transmis par les Annales</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">4e Année. — N° 7</fw>
+          <fw type="header">
+            <hi rend="underline">Juillet 1922</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Convocation à l'Assemblée générale.</item>
+                    <item>Les Orphelins.</item>
+                    <item>Nos anciens ne pouvaient attendre.</item>
+                    <item>Nos enfants au lycée.</item>
+                    <item>Demandes de renseignements.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Notes et Informations</head>
+                  <list>
+                    <item>Aux Brossiers non complètement réeduqués.</item>
+                    <item>Congrès national des Aveugles.</item>
+                    <item>Blessés dans les Tanks.</item>
+                    <item>Impôts sur le chiffre d'affaires.</item>
+                    <item>Impôts sur les Bicyclettes.</item>
+                    <item>Grammaire latine en Braille.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbaux du Conseil d'Administration (20 et 26 mai).</item>
+                    <item>Type de Règlement intérieur pour les Régions et Départements.</item>
+                    <item>Groupe régional de Limoges.</item>
+                    <item>Masseurs.</item>
+                    <item>Félicitations.</item>
+                    <item>Vente d'osier.</item>
+                    <item>Pension pour les Réformés.</item>
+                    <item>La Machine aux deux écritures.</item>
+                    <item>Etude sur les Steno-Dactylo.</item>
+                    <item>Lettres de camarades.</item>
+                    <item>Décorations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 38, rue
+            du Mont-Thabor, PARIS (1<hi rend="superscript">er</hi>) <lb/> TÉLÉPH. : Central 44-88 —
+            Chèque postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. le général Maunoury, président ; M. Barthou, ministre de la Justice ; M. Brieux,
+              de l'Académie Française, président honoraire ; M. le général Balfourié ; M. Borrel,
+              député, ancien sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès ; M. Brisac, préfet ; M. J. Ridgely Carter. M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. le colonel Fabry, député ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, député de Lyon ; Miss Grass Harper : Miss Winifred Holt ; Mme Léopold Kahn ;
+              Mme Géo Kessler ; M. Krug ; M. Lugol, député ; M. le docteur Morax ; M. Meyer,
+              conseiller d'Etat ; M. Henry Paté, député ; M. Pierre Rameil, député ;</p>
+            <p>Me Henri-Robert, ancien bâtonnier de l'Ordre des Avocats; M. Vallon ; M.
+              Vallery-Radot ; M. Constant Verlot, député ; M. le Professeur Walther, membre de.
+              l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Convocation à l'Assemblée
+              générale</head>
+            <p>L'Assemblée générale ordinaire aura lieu le 12 novembre 1922, à 14 h .30 très
+              précises, à la Sorbonne, Salle Descartes, entrée : 17, rue de la Sorbonne.</p>
+            <p>Le présent avis sert de convocation pour tous les membres de l'Union des Averigles de
+              Guerre.</p>
+            <p>Moyens de communications : Métro : Odéon. Autobus : Porte-Champerret-Place Médicis.
+              Tramways : Montrouge-Gare de l'Est.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h4">Ordre du jour</head>
+              <p>1<hi rend="superscript">°</hi> Lecture du rapport moral, présenté par le Conseil
+                d'administration ; 2<hi rend="superscript">°</hi> Lecture du rapport financier; 3<hi
+                  rend="superscript">°</hi> Lecture du rapport des commissaires aux comptes; 4<hi
+                  rend="superscript">°</hi> Approbation des legs et donations consentis à l'Union;
+                  5<hi rend="superscript">°</hi> Ratification de l'achat du terrain de Franceville à
+                I franc; 6<hi rend="superscript">°</hi> Modification au règlement de la Caisse
+                fraternelle; 7<hi rend="superscript">°</hi> Vote du budget pour l'exercice
+                1922-1923; 8<hi rend="superscript">°</hi> Nécessité de consolider le bloc des
+                mutilés de guerre et projet d'affiliation à l'Union fédérale; 9<hi
+                  rend="superscript">°</hi> Approbation des réglements intérieurs; 10<hi
+                  rend="superscript">°</hi> Elections : a) Ratification d'un membre nommé par le
+                Conseil; b) Nomination de dix administrateurs; c) Nomination des commissaires aux
+                comptes; d) Nomination des délégués pour la modification aux statuts demandée par
+                l'Administration. 11<hi rend="superscript">°</hi> Questions diverses.</p>
+              <pb n="4"/>
+              <note type="foliation">— 2 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">LES ORPHELINS</head>
+            <p>Nous avons la très grande joie d'aunoncer que les orphelins des tués à l'ennemi vont
+              toucher à l'avenir cinq cents francs.</p>
+            <p>L' "U. A. G. ", à l'appel particulier de l' "Union Fédérale ", s'était rangée aux
+              côtés du colonel Picot, qui avait déposé un projet de loi dans ce sens à la
+              Chambre.</p>
+            <p>Cinq cents francs, c'était le minimum que pouvaient attendre les orphelins des tués à
+              l'ennemi comme nos propres enfants.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">NOS ANCIENS NE POUVAIENT
+              ATTENDRE</head>
+            <p>Tous les camarades devenus aveugles depuis 1914 apprendront avec joie la mesure
+              favorable que vient de prendre le Parlement à l'égard des invalides d'avant-guerre;
+              une amélioration très sensible de pension leur est accordée.</p>
+            <p>Dans la plupart des cas, ils vont jouir des mêmes droits que leurs cadets; cependant,
+              les articles 59 et 60 de la loi du 31 mars 1919 ne leur sont pas applicables.</p>
+            <p>L' "U. A. G. ", depuis deux ans, avait commencé une campagne en faveur des Aveugles
+              d'avant-guerre; elle avait demandé l'appui de tous ceux qui nous aident dans les
+              circonstances analogues; il faut remercier ici le Ministre des Pensions et les
+              parlementaires qui ont bien voulu soutenir nos justes demandes; bien entendu, l' "U.
+              A. G. " n'a pas été seule à réclamer cet acte d'équité du Parlement; nous avons
+              rencontré sur ce chemin bien d'autres associations de mutilés.</p>
+            <p>Au moment où nous mettons sous presse, la loi n'est pas encore promulguée et ne sera
+              appliquée qu'après le décret d'administration publique; mais nous disons à nos anciens
+              : Patience, vous passerez bientôt à la caisse, avec rappel du I { }^{<hi
+                rend="superscript">er</hi>} janvier 1922.</p>
+            <p>Malgré les réserves faites des articles 59 et 60 , nous pensons que le Sénat a été
+              sage en votant, avant de se séparer, cette loi attendue àvec anxiété par les mutilés
+              d'avant-guerre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOS ENFANTS AU LYCEE</head>
+            <p>Pour éviter un assez grand nombre de correspondances particulières, nous donnons ici
+              les renseignements généraux suivants :</p>
+            <p>Nos enfants, adoptés préalablement par les Tribunaux comme Pupilles de la Nation,
+              peuvent être admis dans les lycées avec exonération de frais d'études ou d'internat
+              pour les classes secondaires proprement dites, si les notes obtenues dans
+              l'établissement fréquenté antérieurement par eux permettent de penser qu'ils sont
+              aptes à tirer profit de l'enseignement secondaire.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>L'exonération n'est valable que pour une année. Les pupilles exonérés ne seront
+              maintenus au lycée que s'ils passent avec succès l'examen des bourses. Le taux de
+              l'exonération ou de la bourse accordée aux pupilles est proportionné aux ressources de
+              la famille, en application de l'article 4 de la loi du 27 juillet 1917 et du décret du
+              26 mars 1919. Il est fixé par la Commission spéciale des bourses aux Pupilles de la
+              Nation instituée au Ministère de l'Instruction Publique, qui est composée d'anciens
+              combattants, de veuves de guerre appartenant à l'enseignement public et de
+              représentants de l'Office National des Pupilles de la Nation. Les dossiers soumis à
+              cette Commission sont constitués par les Offices départementaux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">DEMANDES DE RENSEIGNEMENTS</head>
+            <p>Nous prions instamment tous les membres de l'Union, membres bienfaiteurs, donateurs
+              ou associés qui feraient partie, soit du Comité départemental des Mutilés, Réformés de
+              la guerre, soit des Comités départementaux des Pupilles de la Nation, de se faire
+              connaître aux bureaux de l'Union. L'établissement d'une liste de camarades siégeant
+              dans ces divers Comités pourra rendre de grands' services et permettre d'appuyer
+              auprès d'eux certaines demandes intéressant les aveugles de guerre.</p>
+            <p>Dans un même ordre d'idées, tous les membres de l' "Union» qui siégeraient dans les
+              tribunaux départementaux des pensions sont également priés de faire connaître leur
+              nom. Pour ceux-ci, sans chercher à faire pression sur l'esprit d'équité qui doit les
+              animer, nous pouvons être appelés à intervenir pour fournir une documentation
+              complémentaire ou pour user de leur influence pour hâter l'examen de certaines causes
+              soumises aux Tribunaux où ils siègent.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">NOS BROSSIERS NON
+                COMPLETEMENT REEDUQUES</head>
+              <p>Nous communiquons la note suivante de l' "Abri du Soldat Aveugle ), excellente
+                maison de rééducation pour brossiers. Cette maison reste ouverte aux aveugles de
+                guerre aux conditions exposées ci-après. Nous insistons auprès de nos camarades qui
+                auraient le désir d'une rééducation en brosserie pour qu'ils adressent une demande
+                au plus tôt à la Présidente de cette Société, Mme Marthe Brandès, « Abri du Soldat
+                Aveugle ), 60, avenue de la Reine, Boulogne-sur-Seine.</p>
+              <p>Faute de demandes, cette maison qui a rééduqué de très bons ouvriers se verrait
+                sans doute dans l'obligation de mettre fin à une activité si précieuse jusqu'ici aux
+                aveugles de guerre.</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h11">Communication de l'
+                  "Abri du Soldat Aveugle "</head>
+                <p>L' "Abri du Soldat Aveugle " rappelle à tous les blessés aux yeux qu'il reste
+                  ouvert dans le but de donner une rééducation à ceux qui n'en ont pas, ou de
+                  parfaire une rééducation incomplète.</p>
+                <p>Les conditions d'entrée à l' "Abri ) sont de payer 5 francs par jour, ce qui
+                  permet aux camarades d'être logés, nourris et blanchis pour ce prix.</p>
+                <p>Programme de la Maison. - Lever à 8 heures, travail de 8 h. I/2 à midi, reprise
+                  du travail à ih. I/2 jusqu'à 5 h. I/2 (le jeudi, travail le matin seulement). Les
+                  blessés sont libres de sortir de la maison s'ils ont un guide.</p>
+                <p>Adresser les demandes pour la rééducation directement à Mme Marthe Brandès, "Abri
+                  du Soldat Aveugle ), 60, avenue de la Reine, Boulogne-sur-Seine.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">CONGRES NATIONAL DES
+                AVEUGLES</head>
+              <p>Le Congrès s'est tenu le 17 juillet 1922. Les aveugles, quelle que soit l'origine
+                de leur cécité, y ont étudié les nombreuses questions inscrites au programme. Nous
+                donnerons ultérieurement quelques détails sur les vœux présentés par ce Congrès.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">BLESSES DANS LES TANKS EN
+                1917-1918</head>
+              <p>Notre camarade Toutain, membre du Comité départemental de l'Orne, nous a fait une
+                communication intéressant les blessés dans les tanks :</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+              <p>Un legs a été fait par Mme Veuve Comprisso, de Marseille, au bénéfice des aveugles
+                estropiés, mutilés dans les tanks pendant les années 1917 et 1918.</p>
+              <p>Ce legs a été adressé à l'Office National qui est chargé de procéder à la
+                répartition.</p>
+              <p>Adresser les demandes, avant septembre, à l'Office National des Mutilés et Réformés
+                de la Guerre : 6, boulevard des Invalides, Paris (VII <hi rend="superscript">°</hi>
+                .)</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">IMPOTS SUR LE CHIFFRE
+                D'AFFAIRES</head>
+              <p>A ce sujet, le Ministre des Finances nous fait connaitre que, d'après l'article 59
+                de la loi du 25 juin 1920, l'impôt sur le chiffre d'affaires atteint d'une façon
+                générale les personnes qui accomplissent les actes relevant des professions
+                assujetties à l'impôt sur les bénéfices industriels et commerciaux par le titre
+                premier de la loi du 31 juillet 1917. Or, l'article 13 de cette loi soumet à cette
+                contribution les ouvriers travaillant pour leur compte chez eux ou chez des
+                particuliers sans compagnon ou apprenti.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">IMPOT SUR LES
+                BICYCLETTES</head>
+              <p>A la demande du camarade Leveau, Président de la Régionale du Mans, nous reprenons
+                la demande d'exonération d'impôts pour les aveugles de guerre capables de se servir
+                de tandem ou de bicyclette. Il est démontré qu'un aveugle habile peut pratiquer le
+                sport de la bicyclette, pourvu que son guide non moins habile pédale sur une
+                deuxième bicyclette à côté de lui. La somme d'argent constituant l'exonération
+                d'impôts n'est pas considérable. Mais le principe de cette exonération est aussi
+                raisonnable pour nous que pour certains mutilés des membres inférieurs. Voici
+                d'ailleurs la déclaration ministérielle relative à ces derniers mutilés, que nous
+                livrons aux méditations de tous : "Les mutilés de guerre, amputés ou paralysés de
+                l'un ou des deux membres inférieurs sont exonérés de l'impôt sur les vélocipèdes. ")
+                (Journal Officiel du 22 mars, Chambre des Députés, page 976.)</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">GRAMMAIRE LATINE EN
+                BRAILLE</head>
+              <p>Le "Livre de l'Aveugle », 5, place Pereire, a transcrit en Braille sur clichés
+                paraffinés Garin :</p>
+              <p>La Grammaire latine de 5<hi rend="superscript">°</hi> et 6<hi rend="superscript"
+                  >°</hi> d'Othon Riemann et Henri Goelzer.</p>
+              <p>Armand Colin, éditeur. Le "Livre de l'Aveugle » désirerait connaitre le nombre et
+                le nom des aveugles de guerre qui voudraient posséder ce livre, le nombre des
+                exemplaires tirés étant restreint.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h40">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">NAISSANCES</head>
+                <p>Notre camarade et Mme Cayrel Joseph nous font part de la naissance de leur fille
+                  Germaine, le II juin.</p>
+                <p>Notre camarade et Mme Le Marec Pierre nous font part de la naissance de leur fils
+                  André, le 6 juin.</p>
+                <p>Notre camarade et Mme Louesdon Gabriel nous font part de la naissance de leur
+                  fille Emmanuelle, le 27 mai.</p>
+                <p>Notre camarade et Mme Gueguen François nous font part de la naissance de leur
+                  fille Marie-Germaine, le 3 juin.</p>
+                <p>Notre camarade et Mme Obitz nous font part de la naissance de leur troisième
+                  enfant, Suzanne, née le 21 mai.</p>
+                <p>Notre camarade et Mme Chomart J. nous font part de la naissance de leur fille
+                  Paulette, le I9 juin.</p>
+                <p>Notre camarade et Mme Loiseau Alfred nous font part de la naissance de leur fils
+                  René-Alfred.</p>
+                <p>Notre camarade et Mme Le Nouveau Louis nous font part de la naissance de leur
+                  fils Pierre-Louis.</p>
+                <p>Notre camarade et Mme Goulet G. nous font part de la naissance de leur fils
+                  Gustave, le 16 juin.</p>
+                <p>Notre camarade et Mme Mayis Jean nous font part de la naissance de leur fils
+                  Ange, le 25 juin 1922.</p>
+                <p>Notre camarade et Mme Lotte Victor nous font part de la naissance de leur fils
+                  Paul-Marcel-Edouard, le 7 juin.</p>
+                <p>Nous adressons nos bien sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">MARIAGES</head>
+                <p>Notre camarade Monnier Robert nous fait part de son mariage avec Mlle Marie
+                  Cattin, le 22 mai.</p>
+                <p>Notre camarade Ferezou Gabriel nous fait part de son mariage avec Mlle Jeanne
+                  Balay, le 6 juin.</p>
+                <p>Notre camarade Millien Louis nous fait part de son mariage avec Mme Elisa Segard,
+                  le 27 mai.</p>
+                <p>Notre camarade Bouvard Henri nous fait part de son mariage avec Mme Jeanne Raoux,
+                  le 24 juin.</p>
+                <pb n="9"/>
+                <note type="foliation">— 7 —</note>
+                <p>Notre camarade Barnabé Claude nous fait part de son mariage avec Mme Veuve
+                  Marguerite Rochias, le 8 juillet.</p>
+                <p>Notre camarade Mauconduit nous fait part de son mariage avec Mlle Aldonza Petit,
+                  le 24 juin.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">DÉCÈS</head>
+                <p>Nous apprenons le décès : De la femme de notre camarade Guy Louis. De notre
+                  camarade Mainier André, décédé le I9 juin 1922. De la femme de notre camarade
+                  Anthène Claude, décédée le 30 juin 1922.</p>
+                <p>De la sœur de notre camarade Loiseau Alfred. De la femme de notre camarade
+                  Charrier Mathurin. Du beau-père de notre camarade Ricci Ange. Nous exprimons aux
+                  parents nos plus vives condoléances. Nous avons le regret d'apprendre le décès du
+                  lieutenant-colonel Babin, beau-père de notre camarade Izaac.</p>
+                <p>Nous adressons à notre Président et à sa famille l'expression bien vive de nos
+                  sentiments de condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">Procès-verbal de la Séance
+                du Conseil d'Administration du 20 Mai 1922</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence d'Izaac. Sont présents :
+                L'Evesque, Izaac, Arnault, Favret, Laffargue, Amar, Bardoux, Bertrand, Chautard,
+                Delage, Durat, Goubin, Gudefin, Roy Georges, Sainte-Rose, Scapini, Marie.</p>
+              <p>Ont écrit : Leloup, Antoine, Sigault, Lagarde, Robert. Excusé : Bois. Sont
+                également présents : les camarades Bloncourt, Hourcade, Boidin, M. de Traversay,
+                Président du Comité d'action.</p>
+              <p>Izaac annonce la maladie de notre trésorier, M. Boetzel. S'associant à Izaac, le
+                Conseil d'administration décide d'envoyer à notre dévoué trésorier des vœux de
+                prompt rétablissement.</p>
+              <p>Lecture du dernier procès-verbal. Adopté. Groupements régionaux. - Lecture est
+                donnée du projet de règlement pour les groupements régionaux.</p>
+              <p>Ce projet reviendra au Conseil après avis qui sera donné par les camarades des
+                régionales.</p>
+              <p>Ce règlement sera publié à part dans le Bulletin. Laffargue rend compte de l'état
+                actuel de la question des groupements régionaux.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>Le groupement du Mans tiendra sa première Assemblée le 28 mai; celui de Limoges,
+                probablement le 2 juillet; celui de Nantes, fin juillet. Il demande que le bureau
+                puisse continner l'étude et la formation des groupements, au fur et à mesure que les
+                circonstances le permettront.</p>
+              <p>Durat. - Prévoit-on un groupement pour Paris? Izaac. - Oui, ainsi qu'il est prévu
+                dans le règlement. Goubin. - Les groupements régionaux devraient être délimités
+                comme les régions des corps d'armée.</p>
+              <p>Question de Cannes. - Izaac fait observer que l'Etablissement Professionnel et
+                Climatique de Cannes n'a pas eu le temps matériel de répondre aux questions 2 et 4
+                stipulant : " A notre question <hi rend="superscript">n</hi>^{\circ} 2 vous
+                demandant si nos charges diminueraient ou seraient supprimées selon que le montant
+                de notre souslocation serait lui-même supprimé ou diminué, vous nous adressez la
+                réponse suivante : Oui, il pourrait seulement être entendu que, dans ce cas, le
+                nombre de places diminuerait lui-même progressivement... )</p>
+              <p>On pourrait supposer, à la lecture de cet alinéa, que le nombre de places dont nous
+                disposerions devrait décroître parallèlement à l'abaissement des frais de
+                sous-location. Or, il ne nous parait pas possible d'envisager la question sous ce
+                jour. Nous désirons, au contraire, que les conventions contemporaines à la signature
+                du contrat restent valables pour l'avenir. La réduction du nombre de places
+                réservées aux aveugles de guerre ne pourrait être envisagée que d'accord avec l'U.
+                A. G. Cette dernière en prendrait du reste certainement l'initiative si ce nombre de
+                places excédait un jour ses besoins.</p>
+              <p>Par ailleurs à notre question <hi rend="superscript">n</hi>^{\circ} 4, relative aux
+                droits de l'U. A. G. de désigner les candidats, sous réserve des conditions d'un
+                règlement préalablement établi, vous nous faites également une réponse affirmative
+                en observant cependant que le Conseil de direction de l'Etablissement Climatique
+                conservera son droit d'exclure tout pensionnaire aveugle ou voyant, à l'égard de qui
+                cette mesure se justifierait. Les exclusions ainsi prononcées par le Conseil de
+                Direction seraient immédiatement communiquées à l'U. A. G. " Nous comprenons,
+                certes, toute la légitimité de votre remarque, car il peut se présenter des
+                situations qui nécessitent une mesure immédiate; mais nous désirerions simplement
+                qu'il soit entendu que la décision prise par votre direction n'aurait qu'un
+                caractère provisoire. Elle ne pourrait devenir définitive qu'après communication du
+                cas à l'U. A. G. et approbation par elle. La question d'autorité qui peut ici entrer
+                en jeu pour votre direction serait sauvegardée par la simple précaution de signifier
+                aux pensionnés que la mesure dont ils sont l'objet n'est que temporaire, quitte à
+                nous signifier plus tard qu'elle s'impose comme devant être définitive. »</p>
+              <p>Il est évident que si la réponse à cette lettre était négative, l'affaire ne
+                pourrait avoir de suite.</p>
+              <p>Lecture est ensuite donnée des lettres des camarades ayant séjourné <pb n="11"/>
+                <note type="foliation">— 9 —</note> à Cannes et des lettres des administrateurs de
+                province donnant leur avis sur la question.</p>
+              <p>Chautard ne voit pas pourquoi nous nous engagerions avec l'œuvre de Cannes, car,
+                d'après lui, il n'y aurait dès lors plus de raison pour ne pas répondre à d'autres
+                ceuvres similaires.</p>
+              <p>Favret s'oppose par principe à toute tractation parce que c'est une ceuvre
+                mixte.</p>
+              <p>Arnault reconnait l'utilité qu'il y aurait pour l'U. A. G. à posséder une maison à
+                Cannes comme Franceville. Il en fait aussi une question de principe et, pour lui,
+                l'affaire n'offre pas de garanties suffisantes.</p>
+              <p>Laffargue est, au contraire, partisan d'une sous-location, une station de repos à
+                Cannes lui paraît utile pour les camarades malades. Il estime que la question de
+                garanties ne doit pas se poser ici, car il est bien entendu que le Bureau ne
+                traiterait jamais avec des garanties insuffisantes, entendu que le Bureau ne
+                signerait un contrat de souslocation que lorsque le Comité de l'Ecole Climatique de
+                Cannes aurait lui-même obtenu un contrat de la municipalité de Cannes.</p>
+              <p>Bloncourt. - Les camarades vont-ils à Cannes en villégiature ou pour suivre un
+                traitement nécessaire?</p>
+              <p>Izaac. - Les deux cas se produisent. Sainte-Rose. - Pourquoi les camarades malades
+                ne se servent-ils pas des droits que leur donne l'article 64 ?</p>
+              <p>Izaac. - L'article 64 ne joue malheureusement pas encore toujours et ne s'applique
+                qu'à des cas tout à fait déterminés.</p>
+              <p>Le trésorier adjoint L'Evesque offre qu'une enquête complémentaire soit faite,
+                Izaac remercie M. L'Evesque de sa proposition qui sera retenue si un supplément
+                d'enquête est nécessaire et met au vote la motion suivante : "Le Conseil est-il
+                d'avis de donner au Bureau le pouvoir de traiter avec Cannes sous réserve faite de
+                ces deux questions en suspens? ))</p>
+              <p>VOTE : II oui, 6 non, 8 abstentions. Ont voté pour : Administrateurs de province :
+                Lagarde, Leloup; Administrateurs de Paris : L'Evesque, Roy Georges, Amar, Gudefin,
+                Izaac, Laffargue, Bois, Noireaux, Robert.</p>
+              <p>Ont voté contre : Administrateurs de Paris : Durat, Marie, SainteRose, Chautard,
+                Arnauld, Favret.</p>
+              <p>Abstentions : Antoine, Levêque Jacques, Sigault (province); Bertrand, Bardoux,
+                Scapini, Coubin, Delage (Paris).</p>
+              <p>Izaac. - La majorité simple devant être 14, le principe de l'intervention reste en
+                suspens. Le Bureau jugera si la question doit être à nouveau portée devant le
+                Conseil.</p>
+              <p>Lecture est donnée de l'extrait du procès-verbal de l'A. V. H., nous offrant un don
+                de 30.000 francs pour notre projet de Franceville.</p>
+              <p>Le Conseil décide de remercier l'A. V. H. de sa communication et prend acte des
+                termes contenus dans cet extrait.</p>
+              <p>Proposition Marie. - Lecture est donnée de la proposition Marie, tendant à prélever
+                sur les fonds courants la somme de 75 francs <pb n="12"/>
+                <note type="foliation">— 10 —</note> pour l'achat d'une couronne lors du décès de
+                l'un des membres de l'Union des Aveugles de Guerre, avec cette inscription uniforme
+                pour tous : "L'Union des Aveugles de Guerre à leur camarade regretté. ))</p>
+              <p>Pour les membres de province, la famille achètera cette couronne dans la ville ou
+                celle la plus rapprochée du domicile du défunt et fera parvenir la facture au siège
+                de l'Union qui la règlera. Cette facture ne devra pas s'élever à plus de 75
+                francs.</p>
+              <p>Lecture des avis de Leloup et Sigault. Ce dernier n'est pas favorable. La question
+                est adoptée par les membres présents, sous réserve d'impossibilité financière
+                absolue.</p>
+              <p>Le Bureau propose comme membre titulaire Lecoq, aveugle 100 \% Adopté.</p>
+              <p>Date de la prochaine assemblée générale. - Izaac propose soit le II novembre, soit
+                le dimanche le plus rapproché de cette date. Le dimanche 12 novembre, à 2 h .30 ,
+                est adopté à l'unanimité.</p>
+              <p>Izaac s'excuse auprès du Président du Comité d'action de n'avoir pas consulté ce
+                Comité au sujet de l'élection de M. Solar, mutilé de guerre, qui est ratifiée à
+                l'unanimité.</p>
+              <p>Izaac expose qu'une Société de Mutilés veut faire une vente d'objets fabriqués par
+                les aveugles. Les tricoteurs s'abstiennent. Les brossiers, au contraire, retiennent
+                la proposition qui les intéresse à titre de réclame.</p>
+              <p>Izaac rend compte que l'Union a été représentée aux fêtes de Jeanne d'Arc et sera
+                représentée à la fête commémorative de Notre-Dame-de-Lorette.</p>
+              <p>Izaac expose que les victimes civiles de la guerre, qui demandent à percevoir
+                l'indemnité <hi rend="superscript">n</hi>^{\circ} 5 bis, paraissent avoir obtenu
+                satisfaction auprès du Ministère des Pensions, mais non au Ministère des
+                Finances.</p>
+              <p>Les victimes civiles nous demandent d'agir et il est entendu qu'on le fera.</p>
+              <p>Lecture d'une lettre de l'Union fédérale nous informant qu'un Congrès aura lieu à
+                Clermont-Ferrand. Le Conseil décide à l'unanimité qu'il serait bon que le président
+                y assiste.</p>
+              <p>Franceville : Situation financière. - La Commission Franceville demande au Conseil
+                l'ouverture d'un crédit de 50.000 francs sur la caisse spéciale de Franceville pour
+                meubler les douze appartements actuellement en construction. Ce crédit est adopté à
+                l'unanimité:</p>
+              <p>Donation Petit. - Le Conseil accepte la donation faite par Mme Petit de sa maison
+                de Cormeille, sous réserve des conditions stipulées.</p>
+              <p>Adopté à l'unanimité. La séance est levée à 17 heures.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Procès-verbal de la Séance
+                du Conseil d'Administration du 26 Mai 1922</head>
+              <p>La séance est ouverte à 15 heures, sous la présidence d'Izaac. Sont présents : MM.
+                L'Evesque (Gaston), Izaac, Arnault, Favret, Noireaux, Laffargue, Amar, Bardoux,
+                Bois, Bertrand, Chautard, Delage, Dufourc, Durat, Goubin, Gudefin, Sainte-Rose,
+                membres du Conseil.</p>
+              <p>Ont écrit : MM. Sigault, Lagarde, Leloup, Robert. Les camarades Boidin, Bloncourt,
+                Hourcade. Excusés : MM. Marie, Scapini, Roy (Georges). Maison de l'Aveugle. -
+                Laffargue rend compte que la Commission de la Maison de l'Aveugle propose l'achat
+                d'un immeuble situé 25, rue Ballu. Cet immeuble comprend deux étages, un jardin de
+                100 mètres carrés et un garage pouvant servir de magasin. Il paraît devoir convenir
+                entièrement à ce que nous nous proposons de créer. D'autre part, notre architecte,
+                dans son rapport, nous fait observer qu'il y a lieu de prévoir une vingtaine de
+                mille francs de réparations, lesquelles ne s'imposent du reste pas d'urgence
+                puisqu'elles ne compromettent en rien la solidité ni l'esthétique de l'immeuble : il
+                s'agit, en effet, du ravalement de la façade et de la réfection de la couverture
+                d'une véranda donnant sur le jardin. "La question est urgente si l'on veut avoir le
+                temps matériel de constituer un dossier pour faire une demande de subvention au
+                PariMutuel. )</p>
+              <p>Bardoux offre ses services auprès du Pari-Mutuel. Lecture est donnée des lettres
+                des administrateurs de province émettant leur opinion sur la question.</p>
+              <p>Antoine, Lagarde, Lallement, Leloup, Robert sont favorables au projet.</p>
+              <p>Sigault n'est pas partisan de l'achat d'un hôtel dans Paris. Il estime que les
+                frais d'entretien seront très lourds et qu'il vaudrait mieux louer des bureaux plus
+                confortables que ceux que possède actuellement l'Union et un magasin de vente. Il se
+                demande ce que l'Union fera d'un hôtel dans vingt ou trente ans.</p>
+              <p>Izaac fait observer que lorsque notre camarade Sigault parle d'un magasin de vente,
+                il commet une erreur : il s'agit d'un magasin d'exposition. D'autre part, on peut
+                s'opposer à l'achat de tel ou tel immeuble, mais on ne peut être opposé au principe
+                de la Maison de l'Aveugle, puisqu'il s'agit d'une décision de l'Assemblée
+                générale.</p>
+              <p>Chautard invite les membres du Conseil à ne pas abuser d'abstentions qui rendent
+                les questions insolubles.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>Izaac met aux voix la proposition d'achat de l'immeuble : 19 voix pour. I contre
+                (Sigault). I abstention (Sainte-Rose). Sainte-Rose s'abstient parce qu'il ne sait
+                absolument rien de ce qui s'est passé. Il estime qu'avant de porter la question au
+                Conseil d'administration un vote devait avoir lieu à la Commission chargée de
+                l'étude de la question. Izaac fait remarquer qu'il y a eu une Commission où
+                Sainte-Rose n'a pas assisté, bien qu'il y ait été convoqué.</p>
+              <p>Sainte-Rose répond qu'il n'a pas assisté à la Commission parce qu'il savait que
+                toutes les dispositions étaient déjà prises et que l'étude de la Commission ne
+                changerait rien.</p>
+              <p>Izaac. - C'est la Commission qui transmet un projet ferme au Conseil, Commission à
+                laquelle Sainte-Rose n'a pas jugé bon d'assister.</p>
+              <p>Goubin demande à Sainte-Rose de s'expliquer avec plus de précision.</p>
+              <p>Sainte-Rose déclare qu'il n'avait pas à venir dire son opinion à une Commission qui
+                avait déjà accepté le principe d'un plan. M. L'Evêque. - Avant de saisir cette
+                Commission, il était du devoir du Bureau de prendre avant tout les renseignements
+                utiles pour pouvoir éclairer à son tour les membres de la Commission. Le devoir du
+                président était d'engager des négociations.</p>
+              <p>Sainte-Rose. - Le devoir du président était d'en informer la Commission.</p>
+              <p>Arnault, membre de la Commission, demande qu'on passe à l'ordre du jour.
+                Sainte-Rose n'avait qu'à répondre à la convocation qui lui fut adressée.</p>
+              <p>Izaac. - Si Sainte-Rose avait bien voulu se rendre à la réunion à laquelle il a été
+                convoqué, il aurait pu discuter des propositions qui étaient faites et qui
+                n'étaient, je le répète, que des propositions à discuter et non des résolutions.</p>
+              <p>Le Conseil vote ensuite à l'unanimité les délibérations suivantes : Le Conseil
+                d'administration, après avoir pris connaissance du rapport de l'architecte, M.
+                Tinthoin, et des plans concernant cet immeuble tel qu'il existe aujourd'hui,
+                approuve : a) Le projet d'achat de l'immeuble situé 25 , rue Ballu, et donne mandat
+                à son bureau d'en poursuivre la réalisation; b) Les améliorations proposées
+                concernant l'immeuble; c) Les achats de meubles nécessaires à l'aménagement.</p>
+              <p>Il vote également à l'unanimité des membres présents les deux propositions
+                complémentaires suivantes :</p>
+              <p>I" Le Conseil d'administration, pour réaliser le projet de l'achat et de
+                l'installation de là Maison de l'Aveugle de Guerre, est d'avis de demander au
+                Pari-Mutuel une subvention de 300.000 francs. D'autre part, les sommes existant en
+                caisse à l'U. A. G., avec affectation spéciale pour cette maison, s'élèvent à la
+                date de ce jour à 211.000 francs. Les dépenses d'achat, d'installation, seraient
+                ainsi couvertes. L'Union <pb n="15"/>
+                <note type="foliation">— 13 —</note> des Aveugles de Guerre y participant pour une
+                somme de 150.000 fr ., une somme de 61.000 francs étant mise en réserve en cas
+                d'imprévu; 2<hi rend="superscript">°</hi> Le Conseil d'administration de l'Union des
+                Aveugles de Guerre a été informé que, si une subvention est accordée sur les fonds
+                du Pari-Mutuel pour le projet d'achat et d'aménagement de la Maison de l'Aveugle de
+                Guerre, toute modification même partielle apportée au plan et devis tels qu'ils ont
+                été approuvés et qui n'aurait pas été autorisée par le ministre de l'Hygiène, de
+                l'Assistance et de la Prévoyance sociales entraînerait de plein droit l'annulation
+                de la subvention.</p>
+              <p>Suppression du poste de chef du secrétariat. - Izaac rend compte que le Bureau a
+                été saisi par le chef du secrétariat d'une demande d'augmentation mensuelle
+                d'appointements de 200 francs.</p>
+              <p>En étudiant cette demande qui grèverait nos frais de personnel d'une dépense
+                supplémentaire de 2.400 francs par an, le Bureau a été amené par mesure d'économie à
+                envisager la suppression du poste de chef du secrétariat.</p>
+              <p>Cette suppression d'emploi amènera certainement un surcroit de travail pour le
+                Bureau, mais celui-ci est convaincu qu'il pourra y faire face, et l'économie
+                annuelle de 15.000 francs qui en résultera vaut la peine que l'on tente
+                l'expérience.</p>
+              <p>Le Bureau propose donc au Conseil d'administration la suppression du poste de chef
+                du secrétariat.</p>
+              <p>La personnalité de M. Rieutort n'est nullement en cause. Il a rendu de très grands
+                services à l'Union, et nous lui devrons une indemnité pour le retrait brusque de son
+                emploi.</p>
+              <p>Amar déclare qu'il n'est pas possible de supprimer ce poste et vote contre.</p>
+              <p>Izaac. - Le Bureau a étudié la question à fond. Il estime que son devoir absolu est
+                de faire des économies dans l'administration de l'U. A. G., et pose la question de
+                confiance sur la motion qu'il présente.</p>
+              <p>Gudefin dit que la question de confiance ne devrait pas être posée sur ce
+                point.</p>
+              <p>Goubin partage son avis. Dufourc. - Ce sont les membres du Bureau qui sont au
+                courant du travail de l'administration qui doivent rester seuls juges dans la
+                matière, puisqu'ils nous proposent une économie et non une augmentation.</p>
+              <p>Après avoir entendu les explications de M. Rieutort, chef du secrétariat, qui
+                prétend que son poste est des plus utiles, la question est mise aux voix.</p>
+              <p>Ont voté pour la suppression du poste de chef du secrétariat : Goubin, Dufourc,
+                Bertrand, Arnault, Noireaux, Favret, Bardoux, Durat, Delage, Bois, Izaac, Laffargue,
+                Chautard, Sainte-Rose, L'Evesque (Gaston). </p>
+              <p>Voté contre : Amar.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>Abstention : Gudefin, qui fait observer qu'il voterait contre si la question de
+                confiance n'avait pas été posée.</p>
+              <p>Goubin, Bardoux et Sainte-Rose, bien qu'ayant voté pour, regrettent également que
+                la question de confiance ait été posée.</p>
+              <p>Izaac. - En raison des services exceptionnels rendus par M. Rieutort, le Bureau
+                propose une indemnité de trois mois en sa faveur.</p>
+              <p>Durat demande que l'on tienne compte que M. Rieutort n'avait pas pris de vacances
+                l'année dernière et avait refusé la gratification de fin d'année attribuée à tout le
+                personnel.</p>
+              <p>L'indemnité de trois mois est adoptée à l'unanimité. Il est entendu que le
+                comptable deviendra responsable du travail et sera chef du personnel. Il aura donc
+                un travail supplémentaire, et le Bureau propose de lui allouer une gratification de
+                100 francs par mois.</p>
+              <p>Adopté à l'unanimité. Lecture est donnée du projet du camarade Levêque (Jacques)
+                tendant à réduire certains impôts des 1000 / 0, article 10 .</p>
+              <p>Arnauld demande le renvoi du projet à une Commission pour étude. Scapini est de cet
+                avis.</p>
+              <p>Leloup n'est pas favorable à ce projet. Sigault y est également opposé.</p>
+              <p>Néanmoins le Conseil vote l'adoption du projet à l'unanimité des membres
+                présents.</p>
+              <p>La séance est levée à 17 heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">TYPE DE RÈGLEMENT INTÉRIEUR
+                pour les Régions et les Départements</head>
+              <p>Article premier. - Il est créé au sein de l'U. A. G. entre ses membres aveugles,
+                des groupements régionaux.</p>
+              <p>Art. 2. - Ces groupements régionaux ont pour but : 1<hi rend="superscript">°</hi>
+                De resserrer entre les membres d'une même région les liens de camaraderie et de
+                solidarité; 2<hi rend="superscript">°</hi> D'assurer par leur action auprès du
+                public et des pouvoirs régionaux et locaux l'amélioration matérielle et morale du
+                sort de l'aveugle de guerre.</p>
+              <p>Art. 3. - Le Conseil d'administration de l'U. A. G. détermine le nombre, l'étendue
+                territoriale et le siège des groupements régionaux. Toutefois toute demande de
+                section départementale ou sousrégionale sera examinée par le Conseil
+                d'administration de l'U. A. G.</p>
+              <p>Art. 4. - Tout membre aveugle de l'U. A. G. ne fait partie que d'un seul groupe
+                régional. En principe, ce groupe est celui englobant dans sa circonscription
+                territoriale la résidence du camarade. Toute- <pb n="17" break="no"/>
+                <note type="foliation">— 15 —</note> fois, pour raisons de commodités de transport,
+                tout camarade peut demander à être rattaché à un groupe voisin.</p>
+              <p>Art. 5. - Les membres des groupes régionaux doivent se réunir au moins une fois
+                l'an en Assemblée régionale, en principe deux mois avant l'Assemblée générale de
+                l'U. A. G.</p>
+              <p>Art. 6. - Le groupe régional nomme chaque année un Comité d'administration régional
+                composé de cinq ou sept membres aveugles et de deux membres voyants devant faire
+                office de trésorier régional et de commissaire aux comptes. En dehors de l'assemblée
+                régionale, ce Comité se réunira au moins une fois par semestre.</p>
+              <p>Il désigne en son sein un président et un secrétaire aveugles qui, avec le
+                trésorier et le commissaire aux comptes voyants, constituent le bureau du
+                groupe.</p>
+              <p>Art. 7. - Outre les membres élus dont il est fait mention à l'article 6, tout
+                membre du Conseil d'administration de l'U. A. G. fait partie obligatoirement du
+                Comité de la région où il a son domicile.</p>
+              <p>Art. 8. - En dehors du trésorier et du commissaire aux comptes voyants, le Comité
+                d'administration régional peut solliciter, dans un but de patronage ou d'aide
+                effective, le concours de personnes voyantes résidant dans sa circonscription, ces
+                personnes ont toujours voix consultative dans les assemblées ou réunions
+                diverses.</p>
+              <p>Art. 9. - Le Comité d'administration régional et son bureau sont seuls
+                représentants autorisés de l'U. A. G. auprès des camarades aveugles, du public et
+                des pouvoirs locaux dans l'étendue de la circonscription territoriale du groupe.</p>
+              <p>Art. 10. - Le Comité d'administration, son bureau et son président sont seuls
+                représentants du groupe régional auprès de l'U. A. G. et de son Conseil
+                d'administration.</p>
+              <p>Art. II. - Le Comité d'administration régional a pour règle : auprès du public et
+                des pouvoirs locaux, de faire de la propagande, de provoquer toutes mesures
+                administratives locales, toutes initiatives particulières favorables aux aveugles de
+                guerre; auprès des camarades aveugles, de se tenir en rapports étroits avec eux et
+                de faciliter les relations amicales et commerciales entre eux.</p>
+              <p>Art. 12. - Il est formellement interdit au Comité d'administration régional de
+                conclure aucun arrangement, de tenter aucune démarche, en particulier d'ordre
+                législatif, pouvant engager l'U. A. G. tout entière, sans l'assentiment du Conseil
+                d'administration de celle-ci.</p>
+              <p>Art. 13. - Le groupement de la région parisienne sera administré par le Conseil
+                d'administration de l'Union.</p>
+              <p>Art. 14. - Un délégué de chaque région est désigné chaque année pour assister à
+                l'Assemblée générale de l'U. A. G.</p>
+              <p>Art. 15. - En vue de maintenir l'unité indispensable entre tous les aveugles de
+                guerre, les Comités régionaux n'ont aucune qualité pour retenir les fonds provenant
+                de la générosité publique.</p>
+              <p>Art. 16. - Les fonds parvenant à l'U. A. G. par l'intermédiaire des Comités
+                régionaux sont : I ^{\circ} à l'entière disposition du Conseil d'administration de
+                l'U. A. G., si le donateur n'a fait aucune affec- <pb n="18" break="no"/>
+                <note type="foliation">— 16 —</note> tation spéciale; 2<hi rend="superscript">°</hi>
+                remis par le Conseil d'administration de l'U. A. G. à la disposition du Comité
+                régional intéressé, si le donateur a affecté cette somme à la région. Toutefois l'U.
+                A. G. prélève dans ce cas une taxe d'un dixième de la somme. Ce dixième est versé au
+                chapitre spécial destiné à alimenter la caisse nécessaire au fonctionnement de tous
+                les groupes régionaux de l'Union.</p>
+              <p>Art. 17. - En pratique, le Comité régional verse immédiatement par chèque postal
+                les fonds destinés à l'U. A. G. n'ayant aucune affectation spéciale. Il peut
+                conserver les neuf dixièmes des fonds ayant une affectation spéciale régionale, mais
+                verse immédiatement le dixième de cette somme au compte postal de l'U. A. G.</p>
+              <p>Art. 18. - Les opérations financières du Comité régional sont présentées
+                semestriellement au Conseil d'administration de l'U. A. G.</p>
+              <p>Art. 19. - Les sections départementales ou sous-régionales nomment obligatoirement
+                un délégué; ces sections ne peuvent fonctionner que selon les principes généraux
+                établis par le présent règlement intérieur.</p>
+              <p>Déjà adopté par les régions du Mans et de Limoges.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">GROUPE REGIONAL DE
+                LIMOGES</head>
+              <p>Le groupe régional de Limoges a tenu sa première séance le dimanche 2 juillet,
+                salle de la Société d'Agriculture de la HauteVienne. Trente et un camarades étaient
+                présents, venus de tous les points de la région; plusieurs autres s'étaient fait
+                excuser.</p>
+              <p>Le capitaine Izaac, président de l'U. A. G., rappela les buts de l'U. A. G. et
+                définit ensuite l'utilité des groupements régionaux (resserrer les liens de
+                camaraderie, action auprès des pouvoirs locaux tout en restant unis dans le cadre de
+                l'Union). Cette allocution fut unanimement approuvée, ainsi que le règlement
+                intérieur du groupe. Ont été désignés comme président: Lagarde (Corrèze) ;
+                secrétaire: Sigault (Haute-Vienne) ; délégués : Fauconnet (Creuse), Bégouin
+                (Charente), Faure (Dordogne) et Artus (Vienne).</p>
+              <p>Le groupe a émis plusieurs vœux demandant notamment l'application de l'article 64
+                (soins gratuits) et l'augmentation de la pension des veuves. Il a demandé en outre
+                que les veuves des camarades mariés depuis le 22 octobre 1921 puissent bénéficier de
+                la pension de réversion, et qu'en attendant l'U. A. G. augmente le secours de ces
+                veuves. Un autre vœu vise la création sur l'océan, du côté d'Arcachon, d'une maison
+                de repos. Au sujet des brossiers, ceux-ci demandent : 1<hi rend="superscript">°</hi>
+                que l'Union publie des adresses de maisons de matières premières fournissant à des
+                prix avantageux; 2<hi rend="superscript">°</hi> que des démarches soient tentées
+                auprès des maisons de gros pour que des commandes faites en bloc puissent être
+                livrées en détail moyennant un faible supplément de prix.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>La nécessité a été envisagée aussi de réduire à quelques types les matières
+                premières qui seront demandées.</p>
+              <p>Adresses des camarades désignés : Président : Lagarde (Osmin), 6, boulevard
+                Amiral-Grivel, à Driac (Corrèze).</p>
+              <p>Secrétaire : Sigault (Jean), villa Belle-Vue, à Saint-Léonard-deNablat
+                (Haute-Vienne).</p>
+              <p>Délégués : Fauconnet (Victor), à Chénérailles (Creuse); Begoin (Ulysse), impasse
+                Lugat, à Angoulème (Charente); Faure (Jean), 21, rue Louis-Blanc, à Périgueux
+                (Dordogne); Artus (Jean), La Cucille, Aigné, près Poitiers (Vienne).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">MASSEURS</head>
+              <p>A l'heure où nous imprimons ces lignes, les camarades Gudetin et Bouet nous font
+                savoir qu'ils sont allés voir M. Vidal au sous-secrétariat de l'Enseignement
+                technique. Ce dernier les a priés de revenir quand le Sénat aura voté le crédit de
+                subvention pour les Jeux Olympiques.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">FELICITATIONS</head>
+              <p>Nous apprenons avec le plus vif plaisir le succès de notre camarade Sainte-Rose,
+                qui a passé son cinquième examen de doctorat avec la mention : «Assez bien. »</p>
+              <p>Toutes nos félicitations.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">VENTE D'OSIER</head>
+              <p>Le camarade Nicomette, rue du Breuil, à Fayl-Billot (HauteMarne), nous prie
+                d'insérer qu'il vend de l'osier blanc de toute première qualité aux prix suivants
+                :</p>
+              <p>Longueur : o m. 80 à I m. 20 , le kilo : 2 fr. 30. Longueur : I m. 30 à I m. 80 ,
+                le kilo : 2 fr. Longueur : I m. 90 à 2 m .20 , le kilo : I fr. 80. Osier pour
+                enfonçure et écrin : I fr. 60. L'expédition est faite à partir de 50 kilos, port à
+                la charge de l'acheteur.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">PENSIONS POUR LES
+                REFORMES</head>
+              <p>L'Office National des Mutilés et Réformés nous fait savoir que Mme Boudrey-Piquet,
+                domiciliée à Molosmes, près Tonnerre (Yonne), s'offre à recevoir des réformés de
+                guerre comme pensionnaires pendant la belle saison, au prix de 10 francs par
+                jour.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">LA MACHINE AUX DEUX
+                ECRITURES</head>
+              <p>Comment une personne qui voit peut écrire en Braille sans le connaître, et comment
+                un aveugle peut relire en Braille ce qu'il a écrit en noir.</p>
+              <p>Le problème de la machine aux deux écritures est résolu. On sait combien les
+                caractères Braille sont différents par leur forme géométrique des caractères
+                d'imprimerie ordinaire. On sait également avec quelle lenteur désespérante
+                l'aveugle, au moyen d'un petit poinçon, perce point à point le papier qui, refoulé
+                ainsi, formera les caractères Braille. Cette écriture est peu attrayante pour les
+                voyants, qui, ayant du temps de libre et voulant le consacrer à faire œuvre utile,
+                désirent copier du Braille, car ils se trouvent vivement rebutés par un alphabet
+                nouveau à apprendre. Et si leur bonne volonté leur a permis de vaincre ce premier
+                obstacle, et qu'ils entreprennent de transcrire un livre, ils en voient rarement la
+                fin lorsqu'ils s'aperçoivent, pour ne citer qu'un exemple, que la lettre é les
+                oblige à percer six petits points dans le papier, et que, par conséquent, ils se
+                trouvent devant un travail de Romains. Découragés par la lenteur désespérante de
+                leur tâche, ils abandonnent à tout jamais le Braille et les aveugles perdent ainsi
+                une collaboration qui aurait pu leur être utile si les débuts n'étaient pas si
+                arides et peu encourageants.</p>
+              <p>Comme les procédés de travail employés par les aveugles et inhérents à leur état
+                sont horriblement en retard sur les procédés employés par les voyants, il faut donc
+                essayer de tirer parti de l'aide de ceux-ci avec le rendement optimum. Comme
+                aujourd'hui c'est la loi du moindre effort qui régit l'activité humaine, il ne faut
+                pas demander aux personnes qui nous entourent des choses différentes de celles
+                qu'elles ont l'habitude d'exécuter. Il faut également essayer d'obtenir le concours,
+                dans leur travail journalier, des classes de travailleurs ou travailleuses les plus
+                répandues.</p>
+              <p>Tel est le but de la nouvelle machine que je vais décrire. Avant tout je dois dire
+                que cette machine n'est plus à l'état de projet, mais réalisée pratiquement, et que
+                plusieurs personnes l'ont déjà vu en action.</p>
+              <p>Ce mécanisme permet, lorsqu'une dactylographe écrit sur une machine de type
+                courant, qu'une seconde machine à caractères Braille reprodutise instantanément ce
+                qui s'écrit sur la première sans qu'il soit nécessaire d'apporter la moindre
+                attention à la machine Braille.</p>
+              <p>J'ai pu, grâce à l'électricité, résoudre cette question assez complexe. Il ne faut
+                pas oublier de remarquer que la manière dont les doigts agissent sur une machine
+                ordinaire et une machine Braille est tout à fait différente. Dans la machine
+                ordinaire, il suffit de donner à la touche une impulsion un peu vive au départ, elle
+                continue son chemin; tandis que la machine Braille n'emboutit le papier que dans les
+                derniers moments de sa course. Il en résulte que vouloir faire une machine mixte
+                sans le concours d'une force extérieure qui donne un accouple- <pb n="21" break="no"/>
+                <note type="foliation">— 19 —</note> ment élastique entre les deux machines me
+                parait un problème insoluble. De plus, pour que la machine ne devienne pas un
+                véritable mécanisme d'horlogerie, il faut réduire les ressorts de contacts à un
+                nombre excessivement restreint. C'est ce que réalise ce dispositif. Il permet
+                d'accoupler les machines à écrire de tous les types couramment employés. Cet
+                accouplement n'entraîne aucune modification des pièces des machines.</p>
+              <p>La machine ordinaire est placée sur un socle de huit centimètres de hauteur, qui
+                contient tout le mécanisme réalisant les nombreuses combinaisons existant entre les
+                lettres ordinaires et les caractères Braille, combinaisons d'autant plus complexes
+                que, suivant les différentes marques, les machines permettent d'écrire un, deux ou
+                trois caractères par touche. La machine Braille est également placée sur un socle à
+                l'intérieur duquel se trouve le système de commande des poinçons.</p>
+              <p>Dans cette machine, on ne voit bouger que les poinçons et le chariot, car, étant de
+                construction plus rustique, il faut diminuer l'inertie des pièces en mouvement.
+                C'est pourquoi, lors du fonctionnement de cette machine, on voit les leviers rester
+                au repos. Malgré la lourdeur du chariot Braille, elle obéit fidèlement aux commandes
+                de la machine ordinaire. Il en résulte que l'écriture Braille intégrale atteint la
+                même vitesse que l'écriture à la machine ordinaire, et cela sans qu'on ait besoin de
+                s'en préoccuper, comme il a été dit plus haut. Mais du fait que l'on ne doit
+                apporter aucune attention à la machine Braille, elle possède le retour automatique
+                du chariot et fait en même temps l'interligne. Mais si rapide que soit le retour à
+                la ligne de la machine Braille pendant cet instant très court, il ne faut pas que
+                les poinçons de cette machine puissent être actionnés sous peine de déchirer la
+                feuille de papier, car le moteur ne s'arrête que lorsque le chariot est complètement
+                revenu au début de sa course. Les touches de la machine ordinaire sont bloquées
+                pendant ce temps très court.</p>
+              <p>Il eût été beaucoup plus simple d'employer une machine Braille à sténographier qui
+                écrit sur une bande de papier et non sur une feuille. Mais sa lecture est difficile
+                et les opérations de roulage et déroulage de la bande très ennuyeuses. D'un autre
+                côté, cette machine ne permet pas la copie des livres.</p>
+              <p>Je suis parti du principe que l'opérateur devait ignorer la présence de la machine
+                Braille qui pourrait, si on le voulait, être placée dans une autre chambre,
+                puisqu'elle n'est réunie que par un câble électrique à la machine ordinaire.</p>
+              <p>Ce dispositif présente encore l'avantage que l'énergie pour poinçonner le papier
+                étant empruntée au courant électrique, une dactylographe, en tapant sur sa machine,
+                pourra commander aussi facilement une seule machine qu'un nombre infini de machines
+                Braille. C'est donc un procédé tout indiqué pour copier des livres à un nombre
+                déterminé d'exemplaires en prenant un nombre égal de machines Braille. Ce moyen sera
+                plus économique pour la copie à un nombre très restreint <pb n="22"/>
+                <note type="foliation">— 20 —</note> d'exemplaires pour laquelle on hésite devant un
+                tirage à la presse, le travail n'étant pas en rapport avec un aussi faible
+                tirage.</p>
+              <p>Pour ne pas être obligé de remettre si souvent du papier sur la machine Braille
+                (car une page ne dure même pas cinq minutes), on peut employer des rouleaux et
+                sectionner les pages. Une sonnette annonce la fin du papier des deux machines en
+                frappant sur son timbre de deux façons différentes.</p>
+              <p>Comme ces deux machines ne sont reliées que par un câble souple, la machine Braille
+                peut être placée à volonté soit à droite, soit à gauche de la machine ordinaire.</p>
+              <p>Ces deux machines ont de plus le grand avantage de pouvoir marcher séparément sans
+                aucune précaution spéciale, car il peut très bien arriver que l'on veuille écrire
+                soit seulement en Braille ou seulement en noir. Dans ce dernier cas, un petit levier
+                que l'on déplace sépare complètement la machine ordinaire de son socle et elle
+                regagne alors sa douceur.</p>
+              <p>La machine ordinaire n'est pas attachée sur son socle, mais simplement posée
+                dessus. Des emplacements sont ménagés pour les pieds, de manière qu'elle se retrouve
+                toujours à la même place. On peut donc à volonté transporter la machine ordinaire
+                dans une autre chambre et venir la replacer sur son socle quand on le désire.</p>
+              <p>Cette machine apportera par son adaptation aux systèmes d'imprimerie actuels une
+                très grande rapidité. Elle pourra s'appliquer indifféremment à la composition rapide
+                des clichés sur métal comme à la composition des plaques Balquet et des caractères
+                Vaughan.</p>
+              <p>Les poinçons Braille étant commandés par des appareils de puissance identique, on
+                remarquera que ces caractères sont très réguliers.</p>
+              <p>Une machine construite exactement dans les mêmes conditions pourra écrire l'abrégé
+                Braille, car, comme je l'ai dit, une touche de la machine ordinaire correspond à un,
+                deux ou trois jeux de poinçons différents. On peut donc réaliser toutes les
+                combinaisons possibles du fait que la corrélation entre l'imprimerie ordinaire et
+                les caractères Braille a été trouvée. M. Bocquet, ingénieur.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">ETUDE SUR LES
+                STENO-DACTYLOS</head>
+              <p>Nous publions avec beaucoup de retard une étude qui nous a été remise par notre
+                camarade Musquar, un ( as ) de la dactylographie, et qui, on le verra, regrette de
+                ne pas posséder une bonne sténographie.</p>
+              <p>Cette étude intéressera à un moment où notre camarade Bocquet, comme on le verra
+                d'autre part, fait ses efforts pour améliorer les appareils des dactylographes
+                aveugles.</p>
+              <p>Cette étude comprendra trois parties : 1<hi rend="superscript">°</hi> Aptitudes
+                physiques naturelles de l'élève; 2<hi rend="superscript">°</hi> Etudes proprement
+                dites;</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+              <p>3<hi rend="superscript">°</hi> Inconvénients des appareils à dicter et avantages de
+                la sténo Braille. 1<hi rend="superscript">°</hi> Aptitudes physiques naturelles. Il
+                faut d'abord poser le principe qu'il n'y a aucune différence à faire entre l'aveugle
+                qui savait auparavant la dactylographie et celui qui n'a jamais touché une machine à
+                écrire. La cécité les a mis au même rang. La seule supériorité que le premier
+                pourrait avoir sur le deuxième serait de connaître le mécanisme de la machine, chose
+                tout à fait secondaire, car, en très peu de temps, et en s'en donnant la peine, on
+                doit connaître les organes principaux de sa machine, et une fois son apprentissage
+                terminé, on doit être capable de démonter ces principaux organes, du moins dans la
+                Japy, qui s'y prête le mieux, et même de placer soi-même, sans le secours de
+                personne, un ruban de rechange. De cette façon, on n'aura besoin de personne pour
+                entretenir et graisser sa machine, car il est absolument nécessaire d'avoir une
+                machine très propre, si l'on ne veut pas qu'elle ne vous laisse en panne. Les
+                caractères doivent également être nettoyés tous les jours, si l'on veut obtenir du
+                travail propre et lisible.</p>
+              <p>Pour réussir pleinement et avec succès dans l'étude de la dactylographie, l'élève
+                ne doit être ni trop nerveux, ni émotif, ni trop timide.</p>
+              <p>Dans le premier cas, au bout d'un certain temps, il se fatiguera, s'énervera et
+                sera incapable de frapper les touches avec sûreté.</p>
+              <p>Dans le deuxième, la moindre chose qu'il rencontrera : une observation de son
+                patron, une difficulté imprévue, en un mot, une chose à laquelle il ne s'attendra
+                pas, tout cela l'émotionnera, le troublera, il perdra la tête et fera des
+                bêtises.</p>
+              <p>Dans le troisième cas, l'élève trop timide ne réussira pas dans sa place : il ne
+                fera pas assez ressortir ses qualités, il ne se fera pas valoir, chose qu'il faut
+                absolument éviter. Sans pour cela tomber dans le "bluff », il faut, si cela est
+                français, se faire "survaloir ». Je vous parle de ces deux derniers cas, par
+                expérience personnelle, faite à mes dépens.</p>
+              <p>2<hi rend="superscript">°</hi> Etudes proprement dites.</p>
+              <p>Avant d'aborder ce sujet, je tiens à dire qu'à mon avis, pour faire un bon
+                sténo-dactylo aveugle, il faut au minimum dix-huit mois de rééducation, et elle peut
+                aller jusqu'à deux ans, pour les sujets moins doués. Je veux parler d'élèves entrant
+                à l'école ne connaissant rien du tout, ni Braille, ni machine, car il ne suffit pas
+                de bien posséder la dactylographie, il faut, de toute nécessité, posséder, sur le
+                bout du doigt, c'est le cas de le dire, une bonne sténo Braille, et ceci, pour les
+                raisons qui seront expliquées sous le <hi rend="superscript">n</hi>^{\circ} 3.</p>
+              <p>Il faut choisir une bonne méthode, qui donnera à l'élève un automatisme absolu,
+                sans lequel un aveugle ne peut prétendre au titre de dactylographe. Sans pour cela
+                faire de la réclame, je conseillerais la <pb n="24"/>
+                <note type="foliation">— 22 —</note> méthode graduée et raisonnée de M. F. Hercent,
+                en vente, je crois, à l'Institut Commercial de Vincennes. Cette méthode, au moyen
+                d'exercices journaliers, progressifs, que je ne puis comparer qu'à des gammes, met
+                dans les doigts de l'élève toutes les syllabes initiales et finales des mots et
+                arrive ainsi, graduellement, à donner l'automatisme, dont il est parlé plus
+                haut.</p>
+              <p>Dans les premières semaines d'étude, une demi-heure de leçon à la fois suffit, car
+                les doigts et le cerveau, qui ne sont pas habitués à ce travail, se fatiguent assez
+                vite. Dès que l'on ressent une fatigue, ne pas insister et passer à un autre genre
+                de travail.</p>
+              <p>L'étude du clavier de la machine est autant une affaire de cerveau que de doigts,
+                et il arrive quelquefois, dans les premiers temps d'étude, de faire, pendant la
+                nuit, de la machine à écrire de tête.</p>
+              <p>Dès que l'élève commence à savoir à peu près son clavier, il faut lui faire éviter
+                le défaut de vouloir aller trop vite, la vitesse arrive graduellement, sans y
+                penser, en même temps que la sûreté, et celle-ci serait compromise si l'élève
+                tombait dans ce défaut.</p>
+              <p>Il est nécessaire que le dactylographe aveugle atteigne une très grande vitesse,
+                afin qu'il rattrape le temps qu'il perd pour lire son texte en sténo, chose qui se
+                fait moins rapidement qu'en voyant. Cette vitesse doit aller de 50 à 55 mots à la
+                minute. IEle ne pourra être atteinte qu'après un travail très sérieux et assez long;
+                c'est pour cela que je préconise une rééducation assez prolongée, malgré l'avis
+                contraire de certains voyants, qui, n'ayant jamais étudié la dactylographie, et
+                n'étant pas aveugles, ne peuvent parler avec compétence de cette question.</p>
+              <p>En ce qui concerne l'étude de la sténographie Braille, je n'en parlerai pas ici, ne
+                l'ayant pas apprise, chose que je reprocherai toujours à mes rééducateurs.
+                Néanmoins, je me doute que la sténo Braille doit demander autant d'étude que la
+                dactylographie, car l'élève doit, avant de commencer l'étude de la sténo, savoir
+                lire et écrire très couramment, le Braille intégral et abrégé, environ 40 à 45 pages
+                de lecture à l'heure, de n'importe quel texte. Aussi, le temps de dix-huit mois à
+                deux ans, indiqué plus haut, ne semble pas exagéré, car, je le répète, je prends
+                l'exemple d'un élève ne sachant absolument rien en Braille et dactylographie.</p>
+              <p>Inutile d'ajouter que cette sténo doit être apprise avec une machine appropriée; je
+                ne vois pas trop faire de la sténo à la planchette. (A suivre.)</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">LETTRE DU CAMARADE LOUIS
+                CHAMPEY</head>
+              <p>49, rue du Centre, à Tournus (Saône-et-Loire). Ma santé et celle de ma femme ne me
+                permettant plus de tenir mon magasin de vannerie fine et brosserie, je cherche à le
+                remettre et serais heureux d'en faire profiter un camarade.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+              <p>C'est très intéressant pour la brosserie, ayant une grosse maison qui écoule
+                suivant ce que je produis; il en faudrait même davantage. Le magasin est très bien
+                situé et tout à côté du marché, donc très bon pour le détail et la vannerie.</p>
+              <p>Ce magasin serait libre à partir du mois d'août.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">LETTRE DU CAMARADE
+                CATTAERT</head>
+              <p>Etant rentré de Franceville ces derniers jours, je m'empresse de vous écrire ces
+                quelques lignes afin de vous exprimer tout le vif regret d'avoir quitté ce lieu de
+                repos.</p>
+              <p>Nous y avons goûté tous les délices d'une vie tranquille : l'air, le soleil, les
+                bains de mer, enfin tout a contribué au bonheur de nous tous, même de notre petit
+                garçon.</p>
+              <p>Il me reste maintenant, cher Camarade, à vous remercier et à vous prier de
+                remercier les généreux donateurs qui ont contribué dans une large part à la " Maison
+                de Repos de l'Aveugle de Guerre ».</p>
+              <p>P. Cattaert.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">LETTRE DU CAMARADE VENRIES
+                PAULIN, A PARIS</head>
+              <p>De retour de Franceville, je viens vous exprimer ma satisfaction pour les quinze
+                jours que je viens de passer là-bas. Le calme, le bon air et la proximité de la mer
+                font de Franceville l'endroit idéal, pour nous qui préférons tout cela au tumulte
+                des villes.</p>
+              <p>L'accueil bienveillant que nous fit le dévoué M. Wattier contribua à nous mettre à
+                l'aise et à nous sentir au milieu de vrais amis.</p>
+              <p>La société des camarades Cattaert, Bréchon, Loulergue et leur famille nous fut
+                particulièrement agréable et la neurasthénie ne fut pas des nôtres.</p>
+              <p>Je terminerai en vous adressant mes meilleurs compliments pour une œuvre qui ne
+                fait que commencer et qu'apprécieront certainement les nombreux camarades qui, je
+                l'espère, iront à Franceville.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">DECORATIONS</head>
+              <p>Par décret du 16 juin 1922 et par application de la loi du 16 août 1920 (Journal
+                Officiel du 23 juin 1922, page 6585), sont nommés au grade de chevaliers de la
+                Légion d'honneur, sans traitement : Aragon Léon, ex-sergent au 347<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Benard Joseph-Emilien, ex-soldat
+                au 68<hi rend="superscript">°</hi> régiment d'infanterie. Boulesteix Pierre,
+                ex-soldat au 95<hi rend="superscript">°</hi> régiment d'infanterie coloniale.
+                Domenger Pierre, ex-soldat au 18<hi rend="superscript">°</hi> régiment
+                d'infanterie.</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+              <p>Draperi Jean-Dominique, ex-soldat au 54<hi rend="superscript">°</hi> bataillon de
+                chasseurs à pied. Duchamp Jules-Eugène, ex-soldat au 33<hi rend="superscript">°</hi>
+                régiment d'infanterie. Ferrari Louis-Jean-Marie, ex-soldat au 173<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Garnier Auguste-Louis, ex-soldat
+                au 47<hi rend="superscript">°</hi> régiment d'infanterie. Grabeerr René-Paul,
+                ex-soldat au 360<hi rend="superscript">°</hi> régiment d'infanterie. Guilhemjquan
+                Jean, ex-soldat au 9<hi rend="superscript">°</hi> régiment d'infanterie. Guy
+                Louis-Marcel, ex-soldat au 282<hi rend="superscript">°</hi> régiment d'infanterie.
+                Jung Paul-Pierre, ex-soldat au 21<hi rend="superscript">°</hi> régiment
+                d'infanterie. Lecanut Louis-Victor, ex-adjudant au 28<hi rend="superscript">°</hi>
+                régiment d'infanterie. Lefebvre Georges-René-Marcel, ex-sergent au I { }^{<hi
+                  rend="superscript">er</hi>} régiment d'infanterie coloniale. Lemarchand
+                André-Emile-Armand, ex-caporal au 26<hi rend="superscript">°</hi> bataillon de
+                chasseurs à pied. Marignier Benoit-Marius, ex-soldat au 350<hi rend="superscript"
+                  >°</hi> régiment d'infanterie. Mauconduit Joseph-Ernest-Raphaël, ex-soldat au
+                \mathbf{6}^{\circ} régiment de dragons. Nozier Henri-Emile, ex-sergent fourrier au
+                  8<hi rend="superscript">°</hi> régiment d'infanterie coloniale. Parvilliers
+                Léopold-Arthur, ex-soldat au 72<hi rend="superscript">°</hi> régiment d'infanterie.
+                Pillon Pierre-Prosper, ex-soldat à la 2<hi rend="superscript">°</hi> section
+                d'infirmiers militaires. Polette Louis-René, ex-soldat au 233<hi rend="superscript"
+                  >°</hi> régiment d'infanterie. Regat Emile, ex-soldat au IIO <hi
+                  rend="superscript">°</hi> régiment d'infanterie. Sainte-Rose Eucher, médecin
+                aide-major au 54<hi rend="superscript">°</hi> bataillon de chasseurs à pied. Samuel
+                Joseph, ex-soldat au 54<hi rend="superscript">°</hi> régiment d'infanterie. Simon
+                Joseph, ex-soldat au 2<hi rend="superscript">°</hi> régiment d'infanterie coloniale.
+                Sklarg Kalman, ex-soldat au I { }^{<hi rend="superscript">er</hi>} régiment
+                étranger. Tihon Pierre, ex-caporal au 84<hi rend="superscript">°</hi> régiment
+                d'infanterie. Vaxelaire Lucien-Henri, ex-soldat au 158<hi rend="superscript">°</hi>
+                régiment d'infanterie. Veau Alphonse-Victor, ex-soldat au 264<hi rend="superscript"
+                  >°</hi> régiment d'artillerie. Vennier Jacques-Fernand, ex-soldat au 120<hi
+                  rend="superscript">°</hi> bataillon de chasseurs à pied. Villois René-Eugène,
+                ex-soldat au 131<hi rend="superscript">°</hi> régiment d'infanterie. Vincent Jules,
+                ex-soldat au 27<hi rend="superscript">°</hi> régiment d'infanterie. Verou Claude,
+                ex-caporal au 23<hi rend="superscript">°</hi> régiment d'infanterie (décédé).</p>
+              <fw type="footer">Le Gérant: DécoÊNE.</fw>
+              <pb n="27"/>
+              <note type="foliation">— 25 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Izaac ; Vice-Présidents : Arnault, Favret, Noireaux. Secrétaire général :
+              Laffargue ; Trésorier L'Evesque. Membres : MM. Albert, Amar, Antoine, Bardoux, Bois,
+              Bourguignon, Bertrand, Chautard, Delage, Dufour, Durat, Goubin, Gudefin, Lagarde,
+              Lallement, Leloup, Lévêque, Marie, Robert (Maurice), Roy (Georges), Sainte-Rose,
+              Scafini, Sicault, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h36">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, sénateur, président d'honneur ; M. le baron de Traversay,
+              président ;</p>
+            <p>Mlle Arbel, vice-présidente ; M. Meynadier, vice-président ; M. Bloch,
+              secrétaire-adjoint ; M. l'Evesque, trésorier adjoint ; M. Auterbe, actuaire à la
+              Compagnie l' «Union»;</p>
+            <p>Mme Boylesve ; Mme Broquin ; M. Pierre Cherot ; Mme Chevalier ; Mme Contamin ; M.
+              Dubranle, inspecteur des Ecoles de Rééducation ; M. de Fleurieu ;</p>
+            <p>Mlle L. Ghys ; Mlle Jalaguier ; Mme Kalt ; Mme Lévy-Weiss ; M. Mayer ;</p>
+            <p>Mme Meyer ; M. Roux ; M. Joseph Roux ; M. Sollar ;</p>
+            <p>D' Schneider ; Mme Yves.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente ; Mme Leygues ; Mme Le Troquer ; Mme Lhopiteau. Mme
+              J.-L. Lebreton. Mme Marthe Brandès, présidente de l'Abri du Soldat Avengle.</p>
+            <pb n="28"/>
+            <note type="foliation">— 26 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">Liste des Donateurs</head>
+            <p>M. Tourtel, conseiller général de Meurthe-et-Moselle, 500 fr. Mme Thérèse Vie
+              (Produit d'un concert donné Salle des Agriculteurs), 500 fr. - Société Franco-Belge
+              Portland Orégon U. S. H., 437 fr. - Imprimerie Beaunoise pour les Aveugles de Guerre,
+              100 fr. - Association des Comédiens Combattants, 500 fr. Filature de Guebwiller
+              (Haut-Rhin), 100 fr. - Une Bourguignonne, 25 fr.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Transmis par les Annales</head>
+            <p>Mlle Pageix, Saint-Nectaire (Pas-de-Calais), 50 fr. - Mme Veuve Limousin, à Tolosa
+              (Espagne), 100 fr. - Mme Michaud, Paris, 10 fr. - En reconnaissance à la sainte
+              Vierge, A. S., 20 fr. Union des Femmes de France, Comité de Sousse (Tunisie), 1.000
+              fr. - M. Gaitz Hocki, Paris, 50 fr. - Société de Réintégration des Alsaciens-Lorrains,
+              Paris, 100 fr. - Guillemat Jean, Babuyls del Aspres (Pyrénées-Orientales), 100 fr. -
+              Mlle Granger, Chaines (Saône-et-Loire), 15 fr. - Union des Femmes de France, Comité de
+              Cherchell, 200 fr. - M. Delesseux, Paris, 10.000 fr. - Classe de Mathématiques, Lycée
+              Henri-IV, Paris, 3.257 fr. 30. - Anonyme, <hi rend="superscript">N</hi>^{\circ} 9635,
+              25 fr. - Marquise de Villedeuil, Madrid, 100 fr. - Elisa Perreira, Cardoso, Paris, 500
+              fr. - Docteur Arx, Rotterdam (Hollande), 40 fr. - Anonyme, <hi rend="superscript"
+                >N</hi>^{\circ} 9648, "Pour protection et bonne santé de notre famille », 300 fr. -
+              Mme Veuve Bresson, Charbonnières (Rhône), 50 fr.</p>
+            <p>Rectification du Bulletin précédent : lire MM. Dolfus, Mieg \ <hi rend="superscript"
+                >C</hi>^{\circ}, 100 <hi rend="superscript">fr</hi>.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

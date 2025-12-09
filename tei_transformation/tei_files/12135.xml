@@ -1,0 +1,995 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 4ème année 1922, n°4</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Emploi</title>
+        <title type="topic">Congrès</title>
+        <title type="topic">Assistance</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Association</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#automobile">Automobile</term>
+          <term ref="#franceville-plage">Franceville-Plage</term>
+          <term ref="#caisse-fraternelle">Caisse fraternelle</term>
+          <term ref="#congres-des-aveugles-de-france">Congrès des Aveugles de France</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un large éventail de sujets
+          pertinents pour ses membres. Il discute de l'avenir de la caisse fraternelle et de sa
+          collaboration potentielle avec d'autres œuvres, détaille l'organisation du congrès des
+          aveugles de France, et fait le point sur la construction de la Maison de Repos à
+          Franceville-Plage. Le bulletin explore également les possibilités d'emploi pour les
+          soldats aveugles dans l'industrie automobile, fournit des informations sur les droits et
+          les services disponibles, et partage des nouvelles personnelles des membres de l'Union.
+          Enfin, il inclut le procès-verbal du Conseil d'Administration, offrant une transparence
+          sur les décisions et les activités de l'organisation.</p>
+      </abstract>
+      <creation>
+        <date when="1922-04-01">01/04/1922</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-03" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-02" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOTRE CAISSE FRATERNELLE</ref>
+          </item>
+          <item>
+            <ref target="#h5">CONGRÈS DES AVEUGLES DE FRANCE</ref>
+          </item>
+          <item>
+            <ref target="#h6">RÉALISATION</ref>
+          </item>
+          <item>
+            <ref target="#h7">CE QUE LES SOLDATS AVEUGLES PEUVENT FAIRE DANS L'AUTOMOBILE</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h9">INVALIDES D'AVANT-GUERRE</ref>
+              </item>
+              <item>
+                <ref target="#h10">MI-CAREME</ref>
+              </item>
+              <item>
+                <ref target="#h11">ALSACE-LORRAINE</ref>
+              </item>
+              <item>
+                <ref target="#h12">ARTICLE 64</ref>
+              </item>
+              <item>
+                <ref target="#h13">CHEMINS DE FER EN ALGERIE</ref>
+              </item>
+            </list></item>
+          <item><ref target="#h27">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h14">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h15">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h16">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">DÉCÈS</ref>
+                  </item>
+                </list></item>
+              <item>
+                <ref target="#h18">Procès-verbal de la Séance du Conseil d'Administration du 4 Mars
+                  1922</ref>
+              </item>
+              <item>
+                <ref target="#h19">ORGANISATION REGIONALE</ref>
+              </item>
+              <item>
+                <ref target="#h20">AVIS AUX BROSSIERS PARISIENS</ref>
+              </item>
+              <item>
+                <ref target="#h21">COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h22">DÉCORATIONS</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h23">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h24">COMITÉ D'AIDE</ref>
+          </item>
+          <item>
+            <ref target="#h25">Liste des Donateurs</ref>
+          </item>
+          <item>
+            <ref target="#h26">Liste des Donateurs (suite)</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">4e Année. — N° 4</fw>
+          <fw type="header">
+            <hi rend="underline">Avril 1922</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Notre caisse fraternelle.</item>
+                    <item>Congres des Aveugles de France.</item>
+                    <item>Réalisation.</item>
+                    <item>Ce que les soldats aveugles peuvent faire dans l'automobile.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Notes et Informations</head>
+                  <list>
+                    <item>Notre caisse fraternelle.</item>
+                    <item>Congres des Aveugles de France.</item>
+                    <item>Réalisation.</item>
+                    <item>Ce que les soldats aveugles peuvent faire dans l'automobile.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Notre caisse fraternelle.</item>
+                    <item>Congres des Aveugles de France.</item>
+                    <item>Réalisation.</item>
+                    <item>Ce que les soldats aveugles peuvent faire dans l'automobile.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 38, rue
+            du Mont-Thabor, PARIS (1<hi rend="superscript">er</hi>) <lb/> TÉLÉPH. : Central 44-88 —
+            Chèque postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR<lb/> de
+              l'Union des Aveugles de Guerre</head>
+            <p>M. A. MILLERAND, ancien Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. le général Maunoury, président ; M. Barthou, ministre de la Justice ; M. Brieux,
+              de l'Académie Française, président honoraire ; M. le général Balfourié ; M. Borrel,
+              député, ancien sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès ; M. Brisac, préfet ; M. J. Ridgely Carter. M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. le colonel Fabry, député ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty ; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, député de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ;
+              Mme Géo Kersler ; M. Krug ; M. Lugol, député ; M. le docteur Morax ; M. Meyer,
+              conseiller d'Etat ; M. Henry Paté, député ; M. Pierre Rameil, député ;</p>
+            <p>M* Henri-Robert, ancien batonnier de l'Ordre des Avocats ; M. Vallon ; M.
+              Vallery-Radot ; M. Constant Verlot, député ; M. le Professeur Walther, membre de
+              l'Académie de Médecine.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Izaac ; Vice-Présidents : Abnault, Fayret, Noireaux, Secrétaire général :
+              Labfargué ; Trésorier : Bietzel.</p>
+            <p>Membres : MM. Albert, Amar, Antoine, Bardoux, Bois, Bourguignon, Bertrand, Chautard,
+              Delage, Dufour, Durat, Goubin, Gudevin, Lagarde, Lallement, Leloup, Lévêque, Marie,
+              Robert (Maurice), Roy (Georges), Sainte-Rose, Scapini, Sicault, Toudouri.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOTRE CAISSE FRATERNELLE</head>
+            <p>Au moment de la constitution de la Caisse fraternelle, le Conseil après s'être mis
+              d'accord sur les principes qui ont régi son fonctionnement, avait subordonné son
+              existence à la nécessité qui l'imposait alors : elle devait prendre fin lorsque la
+              situation matérielle des aveugles de guerre aurait été convenablement améliorée après
+              l'action que se proposait l' "U. A. G. " à cet effet. C'est la décision même de notre
+              Conseil d'administration du 28 janvier 1922.</p>
+            <p>L'amélioration récente de notre pension avait déterminé le Conseil à envisager sous
+              quelle forme devrait fonctionner désormais notre Caisse fraternelle. Sa suppression
+              n'avait pas en effet apparu comme désirable. Il appartient à chacun comme à toutes les
+              collectivités de faire acte de prévoyance devant le malheur dont on peut un jour être
+              victime. Les clairvoyants ont dans ce but des possibilités que nous n'avons pas. Les
+              assurances sur la vie, contre les accidents (accidents personnels ou accidents causés
+              à des tiers) refusent tout contrat à l'aveugle. Il nous appartient donc de conserver
+              un organisme qui nous permit de nous mettre individuellement plus ou moins entièrement
+              à l'abri des conséquences parfois désastreuses de certains événements auxquels peut
+              être en butte toute existence humaine.</p>
+            <p>Nous avions pensé qu'une collaboration étroite avec les diverses ceuvres s'occupant
+              d'aveugles pouvait avoir les plus heureux fruits, et c'est dans cet esprit que le
+              Conseil d'administration du 28 janvier 1922 avait voté une motion déjà parue dans le
+              Bulletin et dont nous rappelons ici l'extrait suivant ( \S III, IV, V). III. -
+              L'aveugle de guerre ne s'est résolu jusqu'ici que contraint et forcé à faire appel à
+              une aide quelconque et son amour-propre en a toujours souffert. A l'heure actuelle et
+              tout au moins d'ici très peu de temps, on peut espérer que l'aveugle sera en temps
+              normal à l'abri du besoin par sa pension et le gain supplémentaire dû à son travail.
+              Il est à souhaiter qu'il ne sollicite des secours directs en argent que dans des cas
+              tout à fait exceptionnels et réservés à des causes accidentelles. IV. - Le Conseil
+              pense que l'amélioration du sort des aveugles doit être réalisée désormais grâce à
+              l'aide par le travail et non par des dons en argent souvent incompatibles avec la
+              dignité de celui qui a perdu la vue pour son pays. V. - Les allocations de notre
+              Caisse fraternelle seront supprimées à l'exception de celles relatives aux décès, qui
+              devront être ver- <pb n="4" break="no"/>
+              <note type="foliation">— 2 —</note> sées aussi longtemps que l'état de la caisse le
+              permettra à la condition que les allocations de mariage, de naissance et les secours
+              pour causes accidentelles soient assurés par les œuvres, après entente avec l' "U; A.
+              G. )).</p>
+            <p>De cette entente que nous aurions aimé voir consentie par tous aurait pu naître un
+              organisme très souple, très sûr, très équitable. Telle ou telle œuvre aurait pu se
+              spécialiser dans ce que nous aurions appelé les primes à la natalité, accordées
+              régulièrement et d'une manière uniforme à la naissance de chaque enfant. L'allocation
+              au mariage aurait été offerte par une autre, tandis qu'une troisième se serait bornée
+              à une allocation accordée à la personne désignée de son vivant par le camarade décédé
+              ; enfin, l'une d'entre elles aurait pu se réserver l'aide à apporter après examen aux
+              situations particulièrement pénibles : longue et coûteuse maladie de la femme ou des
+              enfants, incendie ou tout malheur qui aurait momentanément jeté le trouble dans le
+              budget d'un camarade. Notre désir était d'apporter ainsi plus d'équité dans la
+              répartition de l'argent collecté par les diverses œuvres auprès du public. Quelques
+              camarades plus audacieux et mieux informés ont notoirement touché des sommes
+              relativement considérables, tandis que d'autres, soit volontairement, soit timidité,
+              soit manque d'information, ont parfois su se passer de toute aide et n'en ont reçu
+              qu'une beaucoup moins efficace. Cet état de choses peut s'expliquer étant donné
+              l'effroyable misère dans laquelle était plongé l'aveugle de guerre dans le passé, mais
+              elle ne saurait, selon nous, trouver une excuse pour l'avenir. Nous avions donc pensé
+              très simplement qu'un plan d'ensemble devait être concerté et adopté par tous dans le
+              but de venir en aide à chacun en cas de nécessité absolue, avec le plus d'équité
+              possible.</p>
+            <p>Ce point de vue n'a pas été accepté par les diverses œuvres qui en avaient été
+              saisies. A la Conférence des Euvres d'Aveugles, elles nous firent connaître que leur
+              pensée était différente de la nôtre, et cela pour deux raisons que la plupart d'entre
+              elles ont donné : 1<hi rend="superscript">°</hi> Elles estimaient que leur action
+              avait rendu les plus grands services, en rendait encore ; pour elles il n'y avait pas
+              de raisons sérieuses de changer leur ligne de conduite ; 2<hi rend="superscript"
+                >°</hi> En souscrivant à l'entente demandée, elles craignaient d'amoindrir leur
+              autonomie qu'elles désirent conserver entière.</p>
+            <p>En somme, les diverses œuvres déclarent être d'accord avec nous sur le but à
+              atteindre, et elles expliquent leur fin de non recevoir, simplement par une conception
+              différente dans le choix des moyens, dont elles entendent rester entièrement
+              maîtresses. Oulques-unes d'entre elles ont du reste accepté de nous aider dans notre
+              projet de Franceville-Plage et nos camarades en ont déjà été informés dans le
+              précédent Bulletin.</p>
+            <p>Devant cette situation délicate, et malgré son vote de mars 1919, le Conseil n'a pas
+              cru devoir supprimer brutalement la Caisse fraternelle de l'Union. Celle-ci continuera
+              donc à fonctionner jusqu'à la <pb n="5"/>
+              <note type="foliation">— 3 —</note> prochaine Assemblée générale qui décidera de son
+              sort. Faudra-t-il s'orienter vers d'autres conceptions, et favoriser par exemple la
+              création de sociétés mutuelles, départementales ou locales, comme celle de la
+              Loire-Inférieure ?</p>
+            <p>A ce sujet les dirigeants de l'Union doivent avoir des directives qui ne peuvent
+              naitre que de la consultation des aveugles eux-mêmes. Le rôle du Conseil est
+              d'exécuter les volontés de la collectivité, mais devant une situation nouvelle il a
+              besoin d'être éclairé. Encore une fois, c'est l'Assemblée générale seule qui pourra
+              dicter ses décisions au Conseil de l' "U. A. G. ".</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">CONGRÈS DES AVEUGLES DE
+              FRANCE</head>
+            <p>Les membres de l' "U. A. G. " savent déjà qu'un Congrès réunissant les aveugles de
+              France et leurs amis doit s'ouvrir à Paris le 17 juillet 1922.</p>
+            <p>Voici les diverses sections composant le Congrès : I. - Questions médicales,
+              président : professeur Truc.</p>
+            <p>Cette section parait devoir étudier les questions purement médicales, soins aux yeux,
+              mesures préventives à prendre contre la cécité, appareils de prothèse pour les
+              énuclées. Elle n'étudiera pas la question des masseurs qui est du domaine de la
+              quatrième section. II. - Enseignement, président : M. Pierre Villey, qui étudiera
+              comment l'enseignement doit être donné aux aveugles. III. - Systèmes et matériel,
+              président : M. Octave Berger.</p>
+            <p>Cette question peut intéresser plis spécialement les aveugles adultes. Il y sera
+              parlé du Braille, des sténographies et des divers appareils dont peuvent se servir les
+              aveugles. IV. - Questions post-scolaires, président : M. Albert Mahaut.</p>
+            <p>Cette section étudiera l'instruction à donner aux aveugles après leurs études
+              scolaires. V. - Métiers nouveaux, président : M. Ferdinand Lotz.</p>
+            <p>Des questions très importantes seront certainement agitées dans cette section.</p>
+            <p>Les vœux qui pourront être émis influeront sur les vœux de la section précédente qui
+              étudiera la rééducation. VI. - La femme aveugle, présidente : Mlle Marie Régnier.</p>
+            <p>Que de choses à faire pour la femme aveugle en France dont la situation est bien plus
+              pénible encore que celle de l'homme aveugle !</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>VII. - Les Aveugles de guerre, président : capitaine Izaac.</p>
+            <p>Dans cette section, les aveugles de guerre ne reviendront pas sur l'ensemble de leur
+              programme particulier tel qu'il a été défini par les Assemblées générales de l' "U.
+              A/G. " ; mais la question suivante sera posée : " Comment les aveugles de guerre
+              peuvent-ils, tout en assurant la défense de leurs intérêts particuliers, collaborer à
+              l'amélioration du sort de l'aveugle, quelle que soit l'origine de sa cécité ? "</p>
+            <p>VIII. - Assistance et hospitalisation, président' : M. James Vielhomme, dont le titre
+              seul indique les questions qui y seront agitées. IX. - Législation, président : <hi
+                rend="superscript">M</hi>^{\circ} Marcel Bloch.</p>
+            <p>Il y a peu ou presque pas de lois relatives aux aveugles en France et les diverses
+              sections du Congrès émettront sans doute des vœux qui pourront être repris par cette
+              section de législation lorsque l'Etat devra intervenir pour la solution demandée. X. -
+              Questions diverses, président : M. Félix Pimoule.</p>
+            <p>Comme les camarades peuvent s'en rendre compte, ce Congrès peut être très utile à la
+              cause des aveugles, quelle que soit l'origine de leur cécité. Fidèles à ce que nous
+              avons proclamé au moment même de la formation de l'Union des Aveugles de Guerre, nous
+              pensons que les membres de l'Union doivent prendre une part active à ce Congrès.</p>
+            <p>Pour que ce Congrès aboutisse à quelque chose de pratique, il faudra savoir par qui
+              les vœux seront soutenus et à qui ils seront présentés.</p>
+            <p>La Section des Aveugles de guerre trouvera, espérons-le, à résoudre en partie le
+              problème.</p>
+            <p>Les membres de l' "U. A. G. " qui s'intéressent particulièrement au Congrès et qui
+              désirent y prendre une part active pourront se mettre en relations avec M. le
+              Secrétaire général du Congrès national, 56, boulevard des Invalides, Paris, et nous
+              leur conseillons en même temps de nous écrire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">RÉALISATION</head>
+            <p>Voici plus d'un an que nous vous entretenons de notre projet de "Maison de Repos " de
+              Franceville-Plage, projet que l'Assemblée générale a adopté à l'unanimité.</p>
+            <p>La période de réalisation vraie n'avait pas encore commencé et nous en étions
+              toujours à l'humble, mais très insuffisante tentative qui avait eu auprès de nos
+              camarades le succès le plus grand.</p>
+            <p>Nous voici en pleine exécution. Le terrain qui nous avait été offert est désormais
+              propriété de l' "U. A. G. " par acte notarié, et les ca- <pb n="7" break="no"/>
+              <note type="foliation">— 5 —</note> marades qui se reposent en ce moment à Franceville
+              assistent aux premiers coups de pioche des fondations d'où cette année même
+              s'élèveront nos premières constructions, simples certes, mais durables. Probablement
+              même dès le mois d'août les camarades pourront y loger ; en attendant, nous demandons
+              à tous ceux qui désirent aller se reposer à Franceville et faire respirer l'air de la
+              mer à leurs enfants anémiés, d'être indulgents tant que l'Union pourra leur offrir
+              seulement des baraquements hâtivement édifiés l'an dernier à titre d'essai.</p>
+            <p>Nos locaux sont déjà occupés et des camarades y jouissent d'un repos qu'ils sont
+              venus y chercher. Pour le mois de mai, à la suite du tirage au sort que nous avons
+              effectué, sont sortis les noms d'Edouard, Joseph, 13, ruelle Metee, à Alençon (Orne);
+              Cattaert, 10, rue des Chanoines, à Vannes ; Laine (Louis), à Pannecé
+              (LoireInférieure); Carudel, à Pannecé (Loire-Inférieure).</p>
+            <p>Ils ont du reste été prévenus par lettre individuelle. Quant à ceux qui avaient fait
+              une demande pour le mois de mai, ils seront, selon leur désir, tirés au sort à
+              l'époque qu'ils ont désignée ultérieurement.</p>
+            <p>En reconnaissance de l'aide qui nous a été donnée en vue de la construction des
+              Maisons de Franceville, le Conseil d'administration de l' "U. A. G. ") a décidé que
+              les locaux qui seraient complètement construits par les apports ainsi venus
+              porteraient le nom de leur donateur.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">CE QUE LES SOLDATS AVEUGLES
+              PEUVENT FAIRE DANS L'AUTOMOBILE</head>
+            <p>L'industrie est capable de fournir du travail à tous ceux qui ont perdu pour leur
+              pays.</p>
+            <p>Actuellement avec le travail en série dans lequel un ouvrier fait toujours la même
+              pièce, il n'y a pour ainsi dire plus besoin d'apprentissage. Ce qu'on demande à
+              l'ouvrier, c'est uniquement de l'attention et de la rapidité. Le travail devient
+              naturellement monotone, mais qu'importe, si le salaire vient en rompre la monotonie.
+              Lorsqu'on examine les différents métiers exercés par les aveugles : brosserie,
+              vannerie, chaiserie, filet, tricotage, on voit qu'ils sont analogues aux travaux de
+              série des grosses usines. Placer sur une machine des pièces les unes après les autres,
+              au fur et à mesure de leur façonnage n'est pas plus difficile ni plus monotone que de
+              boucher des trous avec du chiendent ou de la soie. Il est donc tout indiqué de choisir
+              des travaux qui dans leur monotonie rapportent les gains les plus élevés. Ces emplois
+              ne pourront se trouver que très rarement chez les petits industriels qui ne possèdent
+              pas l'outillage suffisant ou sont obligés de faire <pb n="8"/>
+              <note type="foliation">— 6 —</note> faire de nombreuses pièces entièrement à la main.
+              On devra donc s'adresser aux grosses sociétés ou entreprises produisant par jour un
+              très grand nombre de pièces semblables. L'industrie électrique a fait ses preuves et
+              déjà une dizaine d'usines ont pris parmi leur personnel des soldats aveugles. Ce sont
+              : la Compagnie Thomson-Houston dans ses usines de Neuilly-Plaisance, de Colombes, de
+              la rue Lecourbe, de la rue des Favorites, ainsi qu'au siège social rue de Londres et
+              rue Daguesseau où des dactylographes y sont employés. A citer également la Maison
+              Bréguet, la Maison Vedovelli et la Compagnie des Compteurs.</p>
+            <p>Un essai des plus heureux vient d'être fait dans les ateliers de la Maison Citroën, à
+              Paris. Quatre hommes y sont actuellement employés et d'autres en instance d'y entrer.
+              Le premier place dans des gaines les conducteurs en cuivre destinés aux petits moteurs
+              électriques servant au démarrage des moteurs d'automobiles. Le second fixe des
+              lanières de cuir ainsi que des boucles de métal ou assemble différentes pièces de cuir
+              au moyen de rivets tubulaires. Le troisième garnit de ouate les coussins des voitures.
+              Le quatrième garnit de gaines de cuir des armatures en fer. Ceci n'est qu'un
+              commencement.</p>
+            <p>La moyenne de leurs salaires varie de I fr. 75 à 2 francs de l'heure. Elle est
+              proportionnelle à l'habileté de chacun. En dehors de ces travaux de début, il est
+              évident que l'on pourrait également y effectuer ceux qui comme le découpage et
+              l'emboutissage à la presse, le calibrage des pièces, ont déjà donné de très bons
+              résultats dans les usines électriques.</p>
+            <p>Le travail ne manque pas, et lorsque le soldat aveugle prouve qu'il est apte à
+              remplir les mêmes services que l'ouvrier voyant, aucune maison ne se refusera à lui
+              donner de l'ouvrage.</p>
+            <p>Ces grosses usines ne se trouvent pas toujours près du domicile de chacun, mais
+              lorsque l'on désire réellement travailler, on arrive toujours à vaincre les petits
+              obstacles qui peuvent se dresser momentanément. Que ceux qui ont l'intention de
+              travailler dans les usines me signalent la plus grosse industrie dans la région qu'ils
+              habitent et je me mettrai en relations avec la direction de l'usine indiquée.</p>
+            <p>Sans aucun doute, lorsque ces maisons seront mises en présence des résultats déjà
+              obtenus elles ne feront aucune difficulté pour admettre à leur tour des soldats
+              aveugles. Autant que possible me donner le nom du directeur. J'envisage la possibilité
+              de faire des démarches auprès de la Maison Renault si des demandes me sont adressées à
+              ce sujet. M. Bocquet, ingénieur, 14, rue Daru, Paris \left(8^{e}\right).</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTES &amp; INFORMATIONS</head>
+            <p>Au Theatre Mogador, le samedi 13 mai 1922, à 2 heures 30 , matinée artistique au
+              bénéfice de l' "Union des Aveugles de Guerre " pour leur Maison de repos.</p>
+            <p>Tableaux vivants et animés avec orchestre à chœurs. Intermèdes : MM. Fugère, de
+              l'Opéra-Comique; Plamondon, de l'Opéra; Dominique Bonnaud, chansonnier
+              montmartrois.</p>
+            <p>Programme de M. Lucien Métivet. On trouvera des billets au siège de l'Union, 38, rue
+              du MontThabor. Tél. : Central 44-88, de 3 heures à 5 heures.</p>
+            <p>Places : 100 fr., 50 fr., 35 fr., 20 fr. et 15 fr.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">INVALIDES
+                D'AVANT-GUERRE</head>
+              <p>Après entente entre le ministre des Travaux publics et les Compagnies des chemins
+                de fer, il a été décidé que la carte d'invalidité serait attribuée comme sous le
+                régime de la loi du 14 février 1920 aux invalides des campagnes antérieures à la
+                guerre 1914-1918.</p>
+              <p>Les comités départementaux des mutilés chargés de la délivrance des cartes ont reçu
+                maintenant les instructions nécessaires.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">MI-CAREME</head>
+              <p>La quête faite par l'Académie culinaire de Belgique pendant les fêtes de la
+                Mi-Carême a produit une somme de 14.508 fr. 35. En outre, cette Société nous a fait
+                don de 3.200 francs.</p>
+              <p>La totalité de cette somme a été affectée conformément aux désirs des donateurs à
+                la construction de nos maisons à Franceville.</p>
+              <p>Nous adressons nos remerciements les plus vifs à l'Académie Culinaire de Belgique,
+                ainsi qu'au Comité des Fêtes et en particulier à M. Hannaux, commissaire général,
+                qui s'est mis avec la plus grande bienveillance à notre disposition.</p>
+              <p>Notre camarade Dupuis (Joseph), nous prie d'insérer qu'il serait acheteur de balais
+                de sorgho ou de paille de riz aux camarades de la Gironde, de Tarn-et-Garonne ou
+                dans la région du Sud-Ouest.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>Adresser directement les offres à Dupuis (Joseph), brosserie, vannerie, à
+                Doudeville (Seine-Inférieure).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">ALSACE-LORRAINE</head>
+              <p>Une loi du 29 mars 1922 introduit dans les départements qui formaient
+                l'Alsace-Lorraine les lois et règlements français sur les pensions d'invalidité, les
+                secours, pécules et indemnités attribués aux personnes ayant servi dans l'armée
+                française.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">ARTICLE 64</head>
+              <p>La Chambre des députés a modifié l'article 64 de la loi du 31 mars 1919 relatif aux
+                soins médicaux et pharmaceutiques. Particulièrement le projet en question autorise
+                les mutilés à choisir leur médecin et l'établissement hospitalier où ils désirent
+                être soignés.</p>
+              <p>Espérons que le Sénat ne tardera pas à voter ce projet qui alors nous deviendra
+                applicable.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">CHEMINS DE FER EN
+                ALGERIE</head>
+              <p>A la suite d'une réclamation que nous avons faite à l'Office national des mutilés
+                et réformés au sujet de l'application en Algérie du nouveau régime des chemins de
+                fer, M. le Secrétaire général de cet office nous informe que les mesures favorables
+                édictées par la loi du 29 octobre 1921 sont prévues dans le projet de loi sur les
+                chemins de fer algériens actuellement soumis à l'approbation du Parlement.</p>
+              <p>En outre, M. le Gouverneur général de l'Algérie a demandé aux réseaux algériens de
+                consentir à l'application immédiate des mesures prévues au projet.</p>
+              <p>Dans ces conditions, nos camarades de l'Algérie ne tarderont pas à recevoir
+                satisfaction. M. Vuichard nous prie d'insérer la note suivante : " ...Je serais très
+                heureux d'entrer en relations avec ceux de vos membres qui désireraient s'intéresser
+                au placement de mes produits. Cette occupation est d'un bon rapport et elle ne
+                nécessite pas de déplacement puisque les offres peuvent être faites dans un cercle
+                de parents et l'amis, lors d'une visite, d'une rencontre, et je peux vous dire que
+                beauconp d'aveugles de guerre sont arrivés à un résultat qu'ils n'envisageaient pas
+                au début. "</p>
+              <p>S'adresser à M. Vuichard, huiles d'olives pures, Salon-de-Provence
+                (Bouches-du-Rhône):</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h15">NAISSANCES</head>
+                <p>Notre camarade et Mme Louis Polette nous font part de la naissance de leur fils
+                  Guy, le 18 décembre 1921.</p>
+                <p>Notre camarade et Mme Jean Faure nous font part de la naissance de leur fille
+                  Simone, le 2 mars 1922.</p>
+                <p>Notre camarade et Mme Séraphin Gaetti nous font part de la naissance de leurs
+                  deux jumeaux Max et Mireille, le 19 mars 1922.</p>
+                <p>Notre camarade et Mme Louis Dubessay nous font part de la naissance de leur fils
+                  André, le 3 mars 1922.</p>
+                <p>Notre camarade et Mme Jean Burnier nous font part de la naissance de leur
+                  quatrième enfant Henriette, née le 8 mars 1922.</p>
+                <p>Notre camarade et Mme Raoul Chaigneau nous font part de la naissance de leur
+                  fille Denise, le 22 mars 1922.</p>
+                <p>Notre camarade et Mme Julien Alix nous font part de la naissance de leur fille
+                  Julienne, le 13 mars 1922.</p>
+                <p>Notre camarade et Mme Mohamed Ben Hassine Ben Meimouna nous font part de la
+                  naissance de leur fils Laroussi Fellah.</p>
+                <p>Notre camarade et Mme Mathy nous font part de la naissance de leur fille
+                  Georgette-Denise, le 18 septembre 1921.</p>
+                <p>Notre camarade et Mme J.-N. Le Sin nous font part de la naissance de leur
+                  cinquième enfant, le 16 décembre 1921.</p>
+                <p>Notre camarade et Mme Chavastelon nous font part de la naissance de leur fils
+                  André, le 12 novembre 1921.</p>
+                <p>Notre camarade et Mme Louis Arbaizar nous font part de la naissance de leur
+                  deuxième enfant Jean.</p>
+                <p>Notre camarade et Mme Paul Gauzentes nous font part de la naissance de leur fils
+                  Elie-Benoit, le 18 mars 1922.</p>
+                <p>Notre camarade et Mme Baudoin nous font part de la naissance de leur sixième
+                  enfant, Germaine, le 10 mars.</p>
+                <p>Nous adressons nos bien sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h16">MARIAGES</head>
+                <p>Notre camarade Miremont (Pierre) nous fait part de son mariage célébré le 18
+                  février 1922.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+                <p>Notre camarade Colombel (Maurice) nous fait part de son mariage avec Mlle
+                  Marguerite Noirot, qui a été célébré le 18 mars 1922.</p>
+                <p>Notre camarade Duc (Jean) nous fait part de son mariage avec Mlle Louise Buiret,
+                  qui a été célébré le II mars 1922.</p>
+                <p>Notre camarade Rousseau (Lucien) nous fait part de son mariage avec Mlle Pietri,
+                  qui a été célébré le 30 mars 1922.</p>
+                <p>Notre camarade Boisard (Pierre) nous fait part de son mariage avec Mlle Juliette
+                  Papon, qui a été célébré le 25 mars 1922.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">DÉCÈS</head>
+                <p>Nous apprenons le décès de : Notre camarade Veron (Claude) décédé le 16 octobre
+                  1921. De la femme de notre camarade Marlin (Emile) décédée le 9 niars 1922.</p>
+                <p>De la femme de notre camarade Fonchy (Martial). Du fils de notre camarade Mallet
+                  (Jean) décédé le II août, à vingt ans.</p>
+                <p>De notre camarade Masseye Wade. De la mère de notre camarade Foce (Régis) dans sa
+                  64^{e} année. De la soeur de notre camarade Mazeaud (Georges). Notre camarade
+                  Moniroty nous fait également part de la naissance de sa fillette décédée le même
+                  jour.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Procès-verbal de la Séance
+                du Conseil d'Administration du 4 Mars 1922</head>
+              <p>La séance est ouverte à 15 heures 30 sous la présidence d'Izaac. Sont présents :
+                Boetzel, Izaac, Arnault, Noiraux, Laffargue. Bardoux, Bois, Bertrand, Chautard,
+                Dufourc, Durat, Gudefin, Marie, Robert (Maurice), Roy (Georges), Sainte-Rose,
+                Toudouri, membres du Conseil.</p>
+              <p>Camarades : Boidin, Hourcadé, Mougenel. Excusés : Amar, Delage, Scapini. Ont écrit
+                : Antoine, Bourguignon, Sigault. Lecture du procès-verbal de la dernière séance. -
+                Adopté. Lecture de la situation financière. - Adoptée. Maison de l'Aveugle.-- Le
+                Secrétaire général fait savoir qu'il nous a été offert un hôtel particulier situé
+                dans le quartier TrocadéroPassy, 38, rue Vital. La disposition de cet hôtel répond
+                exactement à nos désirs. Conformément au projet présenté à l'Assemblée géné- <pb
+                  n="13" break="no"/>
+                <note type="foliation">— 11 —</note> rale nous pourrions y installer une grande
+                salle de réunion, une bibliothèque, un magasin de vente, nos bureaux et des chambres
+                pour des camarades de passagê. Nous pensions que nous pourrions obtenir cet hôtel
+                pour une somme d'environ 330.000 francs avec facilités de paiement.</p>
+              <p>Le trésorier donne lecture du rapport de l'architecte qui a visité l'immeuble. Ce
+                rapport constate son bon état et en donne une évaluation concordant avec le prix
+                ci-dessus.</p>
+              <p>Durat demande ce que deviendra le capital. N'y aurait-il pas moyen de le placer en
+                viager?</p>
+              <p>Le trésorier : "L'opération de mise en viager d'un immeuble peut être faite sur la
+                tête d'un individu, mais devient impossible pour une collectivité. Vous vous
+                inquiétez de la question pécuniaire ; il y a un point sur lequel j'attire votre
+                attention : l'Assemblée générale a adopté à l'unanimité le principe de la Maison de
+                l'Aveugle ; des fonds ont été recueillis à cet effet ; nous ne faisons donc aucun
+                tort à la Caisse de l'Union en les employant dans ce sens. »</p>
+              <p>Le président : "Les remarques du trésorier sont judicieuses ; le pari-mutuel ne
+                donne des fonds à une Société reconnue d'utilité publique que dans un but précis. La
+                subvention qui nous viendra de ce côté ne rentrera pas dans notre caisse pour
+                d'autres motifs. »</p>
+              <p>Robert : "Je ne suis pas un adversaire de la Maison de l'Aveugle, mais sa
+                réalisation doit répondre aux trois points suivants : " 1<hi rend="superscript"
+                  >°</hi> Organisation des magasins de vente; " 2<hi rend="superscript">°</hi>
+                Procurer des chambres aux camarades de province ; " 3<hi rend="superscript">°</hi>
+                Installation des bureaux de l'Union; "Je ne crois pas du tout que cette maison donne
+                satisfaction aux besoins exprimés par nos camarades. "Le quartier de Passy peu
+                commerçant n'offrira pas de débouchés au magasin de vente ; en outre, les camarades
+                sont loin de toute communication, des spectacles et des magasins ; il ne faut pas
+                sous prétexte d'agrandir les bureaux acheter un immeuble de 400.000 francs. »</p>
+              <p>Toudouri : "J'estime que l'hôtel que nous avons trouvé répond à nos désirs. Certes,
+                il est un peu éloigné du centre du commerce. Mais pour le prix fixé, nous ne
+                trouverons pas un immeuble central. En outre au point de vue réclame et propagande,
+                le quartier de Passy est un quartier riche où nous trouverons des appuis. »</p>
+              <p>Bois et Durat confirment les idées de Toudouri. Le trésorier : " Tout à l'heure un
+                camarade a demandé que des dispositions soient prises pour que le capital rapporte
+                et ne soit pas perdu. "Le capital n'est pas perdu par le fait qu'il est représenté
+                par un immeuble ; en outre nous économisons le loyer des bureaux auquel il faudra
+                ajouter la location des chambres des camarades. D'un autre côté, si l'on crée un
+                magasin de vente, ne serait-on pas en droit de demander un pourcentage aux camarades
+                sur la vente ?"</p>
+              <p>Le secrétaire général : " Si nous avions créé un magasin de vente, <pb n="14"/>
+                <note type="foliation">— 12 —</note> dans Paris, nous aurions eu un loyer
+                considérable ; cela représente donc une économie sérieuse. »</p>
+              <p>Arnault demande, si le Conseil décide l'achat, que des démarches soient effectuées
+                dans le but d'obtenir l'exonération des frais d'enregistrement.</p>
+              <p>Le trésorier : " J'ai posé la question à l'enregistrement en ce qui concerne les
+                legs ; ils sont passibles d'un impôt de 90/0 ; pour l'acquisition de l'immeuble, je
+                ne suis pas au courant. »</p>
+              <p>Le Conseil prend acte des désirs exprimés par les administrateurs de province :
+                Antoine, Bourguignon, Sigault. "Le président : " Nous allons mettre au vote la
+                question de l'achat de l'immeuble de la rue Vital. Je propose que le Conseil vote
+                sur le, principe de l'achat avec un prix maximum. »</p>
+              <p>La motion suivante est mise aux voix : " Le Conseil vote le principe de l'achat de
+                l'immeuble situé 38, rue Vital, pour le prix de 400.000 francs maximum, frais
+                compris. Il fait, en outre, confiance à trois membres du comité pour entamer les
+                négociations et obtenir les meilleures conditions possibles. »</p>
+              <p>17 voix pour. 3 contre : Bourguignon, Sigault, Robert. Ce dernier motive son vote
+                par le fait que les chambres de camarades ne sont pas assez nombreuses et que le
+                quartier ne convient pas.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">ORGANISATION
+                REGIONALE</head>
+              <p>Le secrétaire général fait connaitre que la Commission des groupements régionaux a
+                élaboré un règlement intérieur dont les règles très souples pourront être modifiées.
+                La Commission estime qu'il faudrait entrer immédiatement dans la voie de la pratique
+                et créer prochainement quelques groupes régionaux. Ces premières entreprises
+                permettraient d'étendre rapidement cette organisation à toute la France. Les
+                camarades Toutain et Leveau pour la région du Mans ; Sigault pour la région de
+                Limoges, ayant préparé l'organisation des groupements dans ces deux régions, nous
+                vous demandons de donner mandat au bureau à ce sujet.</p>
+              <p>Gudefin demande que les Assemblées régionales aient lieu quinze jours ou un mois
+                avant J'Assemblée générale de l'Union et qu'un délégué de chaque région vienne
+                assister à cette Assemblée.</p>
+              <p>Le secrétaire général trouve l'idée excellente, mais elle ne pourra être appliquée
+                qu'après la constitution complète des groupements régionaux.</p>
+              <p>Le Conseil d'administration donne mandat à son bureau pour la création très
+                prochaine des groupements régionaux en commençant par ceux du Mans et de
+                Limoges.</p>
+              <p>La séance est levée à 17 heures.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">AVIS AUX BROSSIERS
+                PARISIENS</head>
+              <p>L'Assemblée générale de la section parisienne des brossiers aura lieu le 18 mai à
+                14 heures 30 aux bureaîx de l'Union.</p>
+              <p>Les commissaires brossiers font un pressant appel à leurs camarades pour qu'ils
+                assistent à cette réunion où leurs intérêts professionnels seront discutés.</p>
+              <p>Ordre du jour. Compte rendu des demandes faites au cours de l'année. Renouvellement
+                du bureau. Rapport sur l'organisation du travail.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">COTISATIONS</head>
+              <p>Nous rappelons aux camarades le paiement des cotisations pour 1922 et les prions de
+                faire parvenir à nos bureaux, 38 , rue du MontThabor, la somme de cinq francs,
+                montant de la cotisation annuelle.</p>
+              <p>On peut éviter tous les versements annuels en versant une fois pour toutes une
+                somme de cinquante francs, représentant dix fois la cotisation (art. 3 des
+                statuts).</p>
+              <p>Nous extrayons d'une lettre de notre camarade Leloup le passage suivant :</p>
+              <p>Pour émettre une opinion fondée, il faudrait savoir ce que les œuvres continuent de
+                faire ou se refusent à faire depuis l'augmentation.</p>
+              <p>L'aveugle, au point de vue pécuniaire, n'est plus à plaindre. Les aveugles de
+                province que j'ai vus, l'affirment hautement, et j'en connais un, amputé en outre
+                d'un bras qui, spontanément, est venu faire rayer son enfant de la liste des
+                subventionnés de l'Office départemental des Pupilles de la Nation.</p>
+              <p>La Caisse fraternelle doit être réservée à nos veuves, à nos orphelins, à faire
+                face à de grandes infortunes, maladies, etc.</p>
+              <p>Cet exemple montre bien que lorsque le Conseil affirme que les camarades ne se sont
+                adressés que contraints et forcés à solliciter divers secours, il reflète l'opinion
+                générale des aveugles.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">DÉCORATIONS</head>
+              <p>Par décret du 27 mars 1922 et par application de la loi du 16 août 1920 ont été
+                promus dans la Légion d'honneur sans traitement, au grade de commandeur :</p>
+              <p>Lemordant (Julien-Louis), lieutenant au 41<hi rend="superscript">e</hi> régiment
+                d'infanterie ;</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>Au grade d'officier : Nicolai (Pierre-Louis), sous-lieutenant au 159<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <p>Renaux (Louis-Marc), lieutenant au 87<hi rend="superscript">°</hi> régiment
+                d'infanterie. Par décret en date du 30 mars 1922, par application de la loi du 16
+                août 1920, sont nommés au grade de chevalier de la Légion d'honneur sans traitement
+                : (Journal officiel du 3 avril 1922, page 3.664.) Agnus (Alfred), ex-soldat au 87<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Augé (Jean-Gustave-René),
+                ex-soldat au I 2<hi rend="superscript">e</hi> régiment d'infanterie. Bakour
+                (Smail-Ben-Ali), ex-soldat au 7<hi rend="superscript">e</hi> régiment de tirailleurs
+                indigènes.</p>
+              <p>Belmontet (Joseph), ex-soldat au 302<hi rend="superscript">e</hi> régiment
+                d'infanterie. Bonamy (Augustin), ex-soldat au 3<hi rend="superscript">e</hi>
+                bataillon de chasseurs à pied. Bosquet (Pierre-Alexandre), ex-caporal au 136<hi
+                  rend="superscript">°</hi> rég. d'infanterie. Boudant (Henri-André), ex-soldat au
+                  51<hi rend="superscript">e</hi> régiment d'infanterie. Bouix (Samuel), ex-soldat
+                au 28<hi rend="superscript">e</hi> bataillon de chasseurs alpins. Bouvard
+                (Henri-Claudius), ex-soldat au 172<hi rend="superscript">e</hi> rég. d'infanterie.
+                Brinon (Auguste-Edgard-Raoul), ex-soldat au 22<hi rend="superscript">e</hi> régiment
+                d'infanterie coloniale.</p>
+              <p>Cagnard (Maxime-Ernest), ex-soldat au 21<hi rend="superscript">e</hi> régiment
+                d'infanterie territoriale.</p>
+              <p>Campardon (Célestin-Jean-Marie), ex-soldat au 412<hi rend="superscript">e</hi>
+                régiment d'infanterie.</p>
+              <p>Camuset (Olivier), ex-sergent au 242<hi rend="superscript">e</hi> régiment
+                d'infanterie. Canevet (Jean-Joseph-Marie), ex-soldat au 9<hi rend="superscript"
+                  >e</hi> rég. d'infanterie. Cantier (Jules-Urbain-Léon), ex-sergent fourrier au
+                  142<hi rend="superscript">e</hi> régiment Capelle (Julien-Henri), ex-soldat au IOI
+                { }^{<hi rend="superscript">e</hi>} régiment d'artillerie lourde.</p>
+              <p>Cassar (François-Paul-Joseph), ex-soldat au 4<hi rend="superscript">e</hi> régiment
+                de zouaves.</p>
+              <p>Cassat (Gustave-Gabriel), ex-soldat au 174<hi rend="superscript">e</hi> régiment
+                d'infanterie. Charpentier (Eugène-Armand), ex-soldat au 90<hi rend="superscript"
+                  >e</hi> rég. d'infanterie. Charrier (Mathurin-Joseph-Marie), ex-sergent au 120<hi
+                  rend="superscript">e</hi> régiment d'infanterie.</p>
+              <p>Chaulier (Clovis-Romuald), ex-sergent major au 55<hi rend="superscript">e</hi>
+                régiment d'infanterie.</p>
+              <p>Cladier (Charles), ex-soldat au 226<hi rend="superscript">e</hi> régiment
+                d'infanterie. Cointepas (André-Camille-Marie), ex-soldat au 113<hi
+                  rend="superscript">e</hi> régiment d'in-fanterie.</p>
+              <p>Colombel (Maurice-Louis), ex-soldat au 208<hi rend="superscript">e</hi> régiment
+                d'infanterie. Comble (Paul-Guislain-Jean-Baptiste), ex-soldat au 151<hi
+                  rend="superscript">e</hi> régiment d'infanterie.</p>
+              <p>Couesnon (Marie-Ange), ex-soldat au 9<hi rend="superscript">e</hi> régiment
+                d'infanterie. Courtot (Marie-Louis-Théophile), ex-soldat au 248<hi
+                  rend="superscript">e</hi> régiment d'infanterie.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Danger (Joseph-Eugène), ex-soldat au 4<hi rend="superscript">e</hi> régiment
+                d'infanterie. Delforge (Antoine), ex-soldat au 96<hi rend="superscript">°</hi>
+                régiment d'infanterie. Demalaine (Henri-Joseph), ex-soldat au 205<hi
+                  rend="superscript">°</hi> rég. d'infanterie. Denis (Joseph), ex-soldat au 5<hi
+                  rend="superscript">e</hi> bataillon de chasseurs à pied. Erouart
+                (Fernand-Charles-Edouard), ex-soldat au 8<hi rend="superscript">°</hi> régiment
+                d'infanterie.</p>
+              <p>Faudot (Louis-Bernard), ex-soldat au 16<hi rend="superscript">e</hi> régiment de
+                dragons. Feret (Marcel-Paul), ex-soldat au 3<hi rend="superscript">e</hi> régiment
+                de zouaves. Feschet (Eugène-Séverin), ex-soldat au 7<hi rend="superscript">e</hi>
+                bataillon de chasseurs à pied.</p>
+              <p>Forgues (Jean), ex-soldat au 59<hi rend="superscript">°</hi> régiment d'infanterie.
+                Fourcade (Jean-Marie-François), ex-soldat au I 35<hi rend="superscript">e</hi>
+                régiment d'infanterie territoriale.</p>
+              <p>Gendrin (Émile-Louis-Désiré), ex-soldat au 233<hi rend="superscript">e</hi> rég.
+                d'artillerie. Girard (Jules-Clément), ex-soldat au 53<hi rend="superscript">e</hi>
+                régiment d'infanterie. Goulet (Louis-Eugène), ex-soldat au 160<hi rend="superscript"
+                  >°</hi> régiment d'infanterie. Gousse (François-Louis), ex-soldat au 103<hi
+                  rend="superscript">e</hi> régiment d'infanterie. Goussin
+                (Jean-Baptiste-Camille-Désiré), ex-soldat au II4 { }^{<hi rend="superscript">e</hi>}
+                régiment d'infanterie.</p>
+              <p>Granet (Jean), ex-brigadier au 175<hi rend="superscript">°</hi> régiment
+                d'artillerie. Gréard (Henri-Charles-Achille), ex-soldat au 317<hi rend="superscript"
+                  >°</hi> régiment d'infanterie.</p>
+              <p>Grispoire (Achille), ex-caporal au 128<hi rend="superscript">°</hi> régiment
+                d'infanterie. Guégan (Albert-Louis-Marie), ex-soldat au I { }^{<hi
+                  rend="superscript">er</hi>} rég. de zouaves. Guilhard (Louis-Marie), ex-sergent au
+                  81<hi rend="superscript">e</hi> régiment d'infanterie territoriale.</p>
+              <p>Guis (Antonin-Sylvain), ex-sergent au 27<hi rend="superscript">e</hi> bataillon de
+                chasseurs à pied.</p>
+              <p>Hassen Ben Salem Krim, ex-soldat au 2<hi rend="superscript">e</hi> régiment du
+                génie. Jacquelin (Pierre-Paul), ex-soldat au 408<hi rend="superscript">°</hi>
+                régiment d'infanterie. Johamsen (Raymond-Joseph), ex-soldat au 19<hi
+                  rend="superscript">e</hi> bataillon de chasseurs à pied.</p>
+              <p>Labre (Gilbert), ex-soldat au 5<hi rend="superscript">e</hi> régiment d'infanterie
+                coloniale. Lajous (Henri), ex-adjudant-chef au 143<hi rend="superscript">e</hi>
+                régiment d'infanterie. Laloit (Léopold-Cyprien-Alphonse), ex-soldat au 315<hi
+                  rend="superscript">e</hi> régiment d'infanterie.</p>
+              <p>Le Barzic (Ernest-Mathurin), ex-soldat au 104<hi rend="superscript">e</hi> régiment
+                d'infanterie.</p>
+              <p>Le Floch (Joseph-Marie), ex-soldat au 51<hi rend="superscript">e</hi> régiment
+                d'infanterie. Le Hetet ,Emile-François), ex-sergent au 262<hi rend="superscript"
+                  >°</hi> rég. d'infanterie. Le Roux (Jean-Jacques), ex-soldat au 168<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Le Sciellour (François-Marie),
+                ex-soldat au 7<hi rend="superscript">e</hi> régiment d'artillerie de campagne.</p>
+              <p>Lhermitte (Jean-Joseph-Louis), ex-soldat au IOI { }^{<hi rend="superscript">e</hi>}
+                rég. d'infanterie. Lorriaux (Victor), ex-soldat au 29<hi rend="superscript">°</hi>
+                régiment d'artillerie de campagne.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Mahalin (Henri-Aimé), ex-soldat au 20<hi rend="superscript">°</hi> bataillon de
+                chasseurs à pied.</p>
+              <p>Malesieux (Auguste-Victor), ex-soldat au 71<hi rend="superscript">°</hi> rég.
+                d'infanterie. Marchan (Simon), ex-sergent au 49<hi rend="superscript">°</hi>
+                régiment d'infanterie. Marguet (Marie-Léon), ex-soldat au 407<hi rend="superscript"
+                  >°</hi> régiment d'infanterie. Mauger (Gaston-Louis), ex-soldat au 82<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Maury (Gaston-Aimé-Bernard),
+                ex-soldat au 20<hi rend="superscript">°</hi> rég. d'infanterie. Mège (Antoine),
+                ex-soldat au 97<hi rend="superscript">°</hi> régiment d'infanterie. Meslin
+                (Georges-Marcel), ex-soldat au 405<hi rend="superscript">°</hi> régiment
+                d'infanterie. Messin (Camille-Emile), ex-soldat au 8<hi rend="superscript">°</hi>
+                cuirassiers. Moquais (Gustave-Eugène-Cyrille), ex-sergent au I { }^{<hi
+                  rend="superscript">er</hi>} tirailleurs algériens.</p>
+              <p>Moussay (Marie-Joseph), ex-soldat au 21<hi rend="superscript">°</hi> régiment
+                d'infanterie. Parlant (René-Félix), ex-soldat au 245<hi rend="superscript">°</hi>
+                régiment d'infanterie. Philippe (Louis), ex-soldat au 329<hi rend="superscript"
+                  >°</hi> régiment d'infanterie. Poubane (Pierre-Louis-Joseph), ex-soldat au 70<hi
+                  rend="superscript">°</hi> rég. d'infanterie. Poussard (Moïse-Raphaël), ex-soldat
+                au 246<hi rend="superscript">°</hi> rég. d'infanterie. Pouthier (Paul-Auguste),
+                ex-soldat au 171<hi rend="superscript">°</hi> régiment d'infanterie. Radet
+                (Robert-Henri), ex-soldat au 94<hi rend="superscript">°</hi> régiment d'infanterie.
+                Reynes (Gustave-Zéphyrin), ex-soldat au 149<hi rend="superscript">°</hi> rég.
+                d'infanterie. Reynes (François-Alphonse-Marie), ex-sergent major au 215<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <p>Ricci (Archange), ex-soldat au 131<hi rend="superscript">°</hi> régiment
+                d'infanterie. Ricotteau (Emile-Henri), ex-soldat au 169<hi rend="superscript">°</hi>
+                régiment d'infanterie. Rosant (René-Raymond-Victor-Alphonse), ex-soldat au 69<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <p>Roybin (Benoit-Jean-Marie), ex-soldat au I { }^{<hi rend="superscript">er</hi>}
+                groupe d'artillerie de campagne d'Afrique.</p>
+              <p>Saint-Martin (Jean-Gabriel), ex-soldat au 55<hi rend="superscript">°</hi> rég.
+                d'infanterie. Scotto di Rinaldi (Dominique-Michel-Saint), ex-soldat au 3<hi
+                  rend="superscript">°</hi> régiment de zouaves.</p>
+              <p>Serive (Georges-Prosper), ex-caporal au 23<hi rend="superscript">°</hi> régiment
+                d'infanterie coloniale.</p>
+              <p>Sibiril (Pierre-Marie), ex-caporal au 42<hi rend="superscript">°</hi> régiment
+                d'infanterie coloniale.</p>
+              <p>Sursin (Pierre-Aristide), ex-sergent au 36<hi rend="superscript">°</hi> régiment
+                d'infanterie. Trubert (Abel-Emile), ex-caporal au 26<hi rend="superscript">°</hi>
+                bataillon de chasseurs à pied.</p>
+              <p>Vergiat (Jean), ex-soldat au 22<hi rend="superscript">°</hi> bataillon de chasseurs
+                à pied. Victor (Jules-St-Yves), ex-sergent au 206<hi rend="superscript">°</hi>
+                régiment d'infanterie. Rousseau (Lucien), ex-soldat au 60<hi rend="superscript"
+                  >°</hi> régiment d'artillerie. Décret du 8 novembre 1921, Lacotas (Alfred),
+                ex-caporal au I { }^{<hi rend="superscript">er</hi>} étranger.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, sénateur, président d'honneur ; M. le baron de Traversay,
+              président ;</p>
+            <p>Mlle Arbel, vice-présidente ; M. Meynadier, vice-président ; M. Bloch,
+              secrétaire-adjoint ; M. l'Evesque, trésorier adjoint ; M. Auterbe, actuaire à la
+              Compagnie l' "Union»; Mme Boylesve ; Mme Broquin ; M. Pierre Chérot ;</p>
+            <p>Mme Chevalier ; Mme Contamin ; M. Dubranie, inspecteur des Ecoles de Rééducation; M.
+              de Fleurieu;</p>
+            <p>Mlle L. Ghys ; Mlle Jalaguier ; Mme Kalt ; Mme Lévy-Weiss ; M. Mayer ;</p>
+            <p>Mme Meyer ; M. Roux ; M. Joseph Roux</p>
+            <p>Dr Schneider ; Mme Yves.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente ; Mme Levgues ; Mme Le Troquer ; Mme L'Hopiteau ; Mme
+              Le Breton ; Mme Marthe Brandès, présidente de l'Abri du Soldat Aveugle.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">Liste des Donateurs</head>
+            <p>Croix-Rouge française, Comité de Béja (Tunisie), 200 fr. Mme Garet à Autheuil (Eure),
+              100 fr. - Mme Puy, 50 fr. Mme Boulignand, 20 fr. - Mmes Max Beltrendt, Ernest-Maurice,
+              Nettre (Georges), 1.000 fr. - Mme la Générale B. Matton, à Versailles, 55 fr. - M. E.
+              L. Ficatier, à Tananarive, 35 fr. - Anonyme, Io fr. - M. le maire de la commune de
+              Saint-André (Ile de la Réunion), 200 fr. - Le personnel de la Maison Martial et
+              Armand, place</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">Liste des Donateurs
+              (suite)</head>
+            <p>Vendôme, 65 fr. - Euvre cherbourgeoise d'imprimerie pour aveugles à Cherbourg, 200
+              fr. - Mme Rodrigues, à Paris, 100 fr. Mme Richard Bloch, à Paris, 50 fr. - Mme
+              Salomon, à Paris, I 100 fr. - M. Dumazeau, à Lyon, 100 fr. - Mlle Mallet,
+              institutrice, à Lodève, 20 fr. - M. Pierron, à Antibes, 20 fr. - Mme de Poulpiquet de
+              Brescanvel, à Dinan (Côtes-du-Nord), 200 fr. Mme Théodore Braun, à Guethary
+              (Basses-Pyrénées), 20 fr. Mme Coraze et Cie, à Marseille, 50 fr. - Les élèves de
+              l'école primaire supérieure de Saint-Gaulthier (Indre), 136 fr. - Mme Louis Pouiles, à
+              Pamiers (Ariège), ro fr. - Anonyme J. P., 5 fr. - M. Conza, à Marseille, 30 fr. - MM.
+              Japy frères, Beaucourt (Haut-Rhin), 100 fr. - M. France de Ferrière, 25 fr. - Mlle
+              Edmée Danon, à Paris, 20 fr. - Mme Maingot, à Argenteuil (Seine-et-Oise), une
+              obligation de 500 fr. - Mme Mmner, à Paris, 20 fr. - M. Jeanparis, à
+              Boulogne-sur-Seine, 20 fr. - Groupe sportif de la Cie algérienne à Paris, 1.100 fr. -
+              Une anonyme, 4.100 fr. - Mlle Brevie, reine du 1<hi rend="superscript">er</hi>
+              arrondissement, 1.000 fr. - M. Léon Cortes, à Médéa (Algérie), 100 fr. - Les enfants
+              J.-B. Helle, 50 fr. - Peugeot et Cie. 100 fr. - Cie des Forges d'Audincourt, 50 fr. -
+              M. Pelard, au Havre, 20 fr. - Mme Marcille, à Franceville (Calvados), 20 fr. M. Paul
+              Girot, à Ugine (Savoie), 50 fr. - Mme Louise Tabouriech, à Paris, 100 fr. - M. Ernest
+              Granier, 50 fr. - Mme Alphonse Hauser, à Paris, 50 fr. - Mme Vve Renel (Gironde), 20
+              fr. Remerciements «Que le bon Dieu protège notre famille », 300 fr.</p>
+            <p>Liste transmise par Mlle Tricot. Mme Morel, à Valée, 3 fr. - Mme Serre, à Valée, 2
+              fr. - Mme Schellemberg, à Valée, 10 fr. - M. Passerière, maire de Philippeville, 40
+              fr. - Mlle Laout, à Philippeville, 5 fr. - M. G. Amieux, à Philippeville, 5 fr. - Mme
+              E. Jourdan, à Valée, 10 fr. - Mme L. Scognamiglio, à Valée, 5 fr. - Mme Morandini, à
+              Valée, 5 fr. - M. J. Nielli, à Philippeville, 5 fr. - Mlle N. Rossi, à Philippeville,
+              5 fr. Mme Ch. Nielli, à Valée, 30 fr. - Mme Duplessis, à Valée, 5 fr. Mme et Mlle
+              Gardetto, à Philippeville, 30 fr. - Mme Quillery, à Philippeville, 2 fr. - M. Raynal,
+              à Philippeville, 2 fr. - M. Auzias, à Philippeville, 5 fr. - Mlle Traquin, à
+              Philippeville, 5 fr. - Mme Monvotsin, à Philippeville, 2 fr. - Mme Roy, à
+              Philippeville, 5 fr. - Mme Baghero, à Valée, 5 fr. - Mme Seognamiglio (F.), à Valée, 5
+              fr. - Mme Schellemberg (A.), à Philippeville, 20 fr. - Redier, à Valée, 1 fr. - Mme
+              Grouillet, à Valée, 5 fr. - Mme Arnaud, à Valée, I fr. - Mme A. Jourdan, à Valée, 5
+              fr. - Deux indigènes de Valée, I fr. 50. - Mlle M. Tricot, à Valée, 30 fr. 50.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

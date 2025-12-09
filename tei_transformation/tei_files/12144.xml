@@ -1,0 +1,1840 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 4ème année 1922, n°12</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Associations de mutilés</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Assemblée générale</title>
+        <title type="topic">Finances</title>
+        <title type="topic">Pupilles de la Nation</title>
+        <title type="topic">Soins médicaux</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 40 pages numérotées + 2 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#reforme">Réforme</term>
+          <term ref="#assemblee">Assemblée</term>
+          <term ref="#budget">Budget</term>
+          <term ref="#donation">Donation</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#transports">Transports</term>
+          <term ref="#pupilles">Pupilles</term>
+          <term ref="#article-64">Article 64</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin détaille le compte rendu de l'assemblée générale du 12 novembre 1922,
+          incluant les rapports moral et financier, les discussions sur la donation Petit, l'achat
+          d'un terrain à Franceville, le fonctionnement de la Caisse Fraternelle, le projet de
+          budget, et le projet d'affiliation à l'Union Fédérale. Il présente également des
+          informations sur les pupilles de la Nation suite à une loi récente, l'application de
+          l'article 64 concernant les soins médicaux, les procédures pour les changements de
+          domicile et de résidence, et une lettre du Ministre des Pensions. Enfin, il fournit des
+          notes et informations pratiques sur les centres d'appareillage, les réductions de
+          transport, et la recherche de soldats disparus.</p>
+      </abstract>
+      <creation>
+        <date when="1922-12-01">01/12/1922</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-03" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-03" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">Compte rendu de l'Assemblée générale du 12 Novembre 1922</ref>
+          </item>
+          <item>
+            <ref target="#h4">Rapport moral.</ref>
+          </item>
+          <item>
+            <ref target="#h5">Rapport financier.</ref>
+          </item>
+          <item>
+            <ref target="#h6">Donation Petit</ref>
+          </item>
+          <item>
+            <ref target="#h7">Caisse fraternelle</ref>
+          </item>
+          <item>
+            <ref target="#h8">Projet de budget</ref>
+          </item>
+          <item>
+            <ref target="#h9">Projet d'affiliation à l'Union Fédérale</ref>
+          </item>
+          <item>
+            <ref target="#h10">Règlement de Franceville</ref>
+          </item>
+          <item>
+            <ref target="#h11">Elections</ref>
+          </item>
+          <item>
+            <ref target="#h12">LES PUPILLES DE LA NATION</ref>
+          </item>
+          <item>
+            <ref target="#h13">ARTICLE 64</ref>
+          </item>
+          <item>
+            <ref target="#h14">CHANGEMENTS DE DOMICILE CHANGEMENTS DE RÉSIDENCE, PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h15">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h16">LISTE DES CENTRES D'APPAREILLAGE</ref>
+              </item>
+              <item>
+                <ref target="#h17">AVIS AUX PENSIONNES</ref>
+              </item>
+              <item>
+                <ref target="#h18">TRANSPORTS EN COMMUN</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">Réductions</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">POUR CEUX QUI RECHERCHENT LES CORPS DE SOLDATS DISPARUS</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">ECOLES DE REEDUCATION</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">PLACES A L'ABRI DU SOLDAT AVEUGLE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h23">LE LIVRE DE L'AVEUGLE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">MACHINE VAUGHAN</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">UN PHONOGRAPHE A VENDRE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h26">VENTE D'OSIER</ref>
+                  </item>
+                  <item>
+                    <ref target="#h27">RECOMPENSE</ref>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h51">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h28">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h29">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h31">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h32">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION du 30
+                  septembre 1922</ref>
+                <list>
+                  <item>
+                    <ref target="#h33">Lecture du procès-verbal de la dernière séance </ref>
+                  </item>
+                  <item>
+                    <ref target="#h34">Lecture du rapport financier annuel</ref>
+                  </item>
+                  <item>
+                    <ref target="#h35">Règlement de Franceville</ref>
+                  </item>
+                </list>
+              </item>
+
+              <item>
+                <ref target="#h36">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION du 21
+                  OCTOBRE 1922</ref>
+                <list>
+                  <item>
+                    <ref target="#h37">Lecture du procès-verbal de la dernière séance </ref>
+                  </item>
+                  <item>
+                    <ref target="#h38">Organisation de l'Assemblée générale</ref>
+                  </item>
+                  <item>
+                    <ref target="#h39">Maisons de repos de Franceville</ref>
+                  </item>
+                  <item>
+                    <ref target="#h40">Donation Petit</ref>
+                  </item>
+                </list>
+              </item>
+
+              <item>
+                <ref target="#h41">NOTRE NOUVEAU BUREAU</ref>
+              </item>
+              <item>
+                <ref target="#h42">GROUPEMENT REGIONAL DE PRIVAS</ref>
+              </item>
+              <item>
+                <ref target="#h43">CONSTITUTION DU GROUPEMENT DE LA REGION DU NORD</ref>
+              </item>
+              <item>
+                <ref target="#h44">GROUPEMENT REGIONAL DU MANS DE L'UNION DES AVEUGLES DE
+                  GUERRE</ref>
+              </item>
+              <item>
+                <ref target="#h45">GROUPEMENT REGIONAL DU MANS</ref>
+              </item>
+              <item>
+                <ref target="#h46">LEGION D'HONNEUR</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h47">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h48">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h49">COMITÉ D'AIDE</ref>
+          </item>
+          <item>
+            <ref target="#h50">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">4e Année. — N° 12</fw>
+          <fw type="header">
+            <hi rend="underline">Décembre 1922</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Compte rendu de l'Assemblée générale.</item>
+                    <item>Les pupilles de la Nation.</item>
+                    <item>Article 64.</item>
+                    <item>Changements de domicile, de résidence et pensions.</item>
+                    <item>Lettre du ministère des Pensions.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Notes et Informations</head>
+                  <list>
+                    <item>Centre d'appareillage pour yeux de verre.</item>
+                    <item>Avis.</item>
+                    <item>Transports en commun.</item>
+                    <item>Identification de morts.</item>
+                    <item>Ecoles de rééducation.</item>
+                    <item>Le livre de l'aveugle.</item>
+                    <item>Achats et ventes.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbaux des séances des Conseils du 30 septembre et du 21
+                      octobre.</item>
+                    <item>Notre nouveau bureau.</item>
+                    <item>Groupements régionaux (Privas, Nord et Maine-et-Loire).</item>
+                    <item>Décorations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. le général Maunoury, président ; M. Barthou, ministre de la Justice ; M. Brieux,
+              de l'Académie Française, président honoraire ; M. le général Balfourié ; M. Borrel,
+              député, ancien sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès ; M. Brisac, préfet ; M. J. Ridgely Carter. M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. le colonel Fabry, député ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, député de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ;
+              Mme Géo Kessler ; M. Krug ; M. Lugol, député ; M. le docteur Morax ; M. Meyer,
+              conseiller d'Etat ; M. Henry Paté, député ; M. Pierre Rameil, député ;</p>
+            <p>M・ Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; M. Vallon ; M.
+              Vallery-Radot ; M. Constant Verlot, député ; M. le Professeur Walther, membre de
+              l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Compte rendu de l'Assemblée
+              générale du 12 Novembre 1922</head>
+            <p>La séance est ouverte à 14 h .30 sous la présidence du capitaine Izaac.</p>
+            <p>Sont présents ou représentés : 1.253 camarades. Le président remercie le recteur de
+              l'Académie de Paris d'avoir bien voulu cette année encore mettre à la disposition du
+              groupement la salle Descartes dans l'illustre établissement de la Sorbonne.</p>
+            <p>L'Assemblée regrette que le général Maunoury, absent de Paris, ait été dans
+              l'impossibilité de prendre la présidence d'honneur de la réunion et lui adresse
+              l'hommage de son plus profond respect.</p>
+            <p>Le président félicite les camarades de province d'être venus plus nombreux encore que
+              l'an passé.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h4">Rapport moral.</head>
+              <p>Adopté à l'unanimité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h5">Rapport financier.</head>
+              <p>Après lecture de ce rapport, Brusson demande que les cotisations soient payées
+                avant le 1<hi rend="superscript">er</hi> avril de chaque année.</p>
+              <p>Cette motion est adoptée. Robert demande quelles seront les sanctions prises contre
+                les camarades qui ne paieront pas?</p>
+              <p>Le président. - L'article 4 des statuts est toujours applicable dans ce cas.</p>
+              <p>Toutain appelle l'attention de l'Assemblée sur les dons faits à l'Office National
+                des Mutilés et Réformés avec affectation spéciale pour les aveugles de guerre.</p>
+              <p>Le président répond que le Bureau suivra l'affectation de ces sommes.</p>
+              <pb n="4"/>
+              <note type="foliation">— 2 —</note>
+              <p>M. Bloch donne lecture du rapport des commissaires aux comptes :</p>
+              <p>"Messieurs,</p>
+              <p>"En vertu du mandat que vous avez bien voulu nous renouveler dans votre Assemblée
+                générale du 11 décembre 1921, nous avons vérifié les comptes de votre Association,
+                ce qui nous a permis de constater que les écritures sont bien tenues et que le bilan
+                qui vous est soumis est un résumé de votre situation au 30 septembre dernier. "En
+                nous plaisant à certifier la régularité des écritures, nous nous permettons de
+                recommander à votre approbation les comptes et le bilan de l'exercice 1921-1922,
+                tels qu'ils vous sont présentés. " Paris, le 7 novembre 1922. "Les commissaires aux
+                comptes : "Bloch et Mayer. " Après cette lecture, le rapport financier et le rapport
+                des commissaires aux comptes sont adoptés à l'unanimité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h6">Donation Petit</head>
+              <p>L'Assemblée est appelée à approuver la délibération du Conseil d'administration du
+                21 octobre 1922, relative au projet de donation faite par Mme Petit d'un immeuble
+                sis à Cormeille (Oise), sous réserve d'acceptation par Mme Petit de la modification
+                suivante apportée dans le projet de contrat par le Conseil d'administration dans sa
+                séance du 30 septembre 1922. "La maison présentement donnée sera utilisée par
+                l'Union comme la Société le jugera convenable. " (Extrait du procès-verbal du
+                Conseil d'administration du 30 septembre 1922.) "L'Assemblée approuve purement et
+                simplement cette délibération et donne mandat et plein pouvoir à M. L'Evesque
+                Gaston, trésorier de l'Union des Aveugles de Guerre, prendre tous engagements,
+                passer et signer tous actes et faire le nécessaire. "</p>
+              <p>Ratification de l'achat d'un terrain à Franceville Héron demande pourquoi le
+                terrain a été acheté un franc, au lieu d'avoir une donation pure et simple ?</p>
+              <p>Le secrétaire général répond que les frais d'enregistrement sont moins élevés dans
+                une vente à un franc que dans une donation.</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+              <p>Héron dit qu'il a voté contre le projet de Franceville, car il est partisan que ce
+                ne soit pas une maison de plaisir, mais si c'est un lieu de repos il vote pour.</p>
+              <p>Sur la demande de Bois, le secrétaire général explique que l'Union s'est engagée à
+                faire construire quatre pavillons sur le terrain qui nous a été cédé.</p>
+              <p>L'Assemblée est appelée à voter la ratification de la délibération du Conseil
+                d'administration du 10 décembre 1921, au sujet de l'acquisition, pour la somme de un
+                franc, d'un terrain d'une contenance de 3.626 mètres carrés environ, situé à
+                Franceville, commune de Merville (Calvados).</p>
+              <p>L'Assemblée approuve purement et simplement cette délibération et la réalisation de
+                ladite acquisition qui a eu lieu selon contrat reçu par Maîtres Cottenet et Burth,
+                notaires à Paris, le 31 mars 1922.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">Caisse fraternelle</head>
+              <p>Malgat et Courteix demandent le maintien de l'allocation de naissance.</p>
+              <p>Durat est également partisan du maintien de ces allocations auxquelles ont droit
+                indistinctement tous les camarades, tandis que les demandes de secours exceptionnels
+                sont malheureusement formulées par un petit nombre de camarades qui sont toujours
+                les mêmes.</p>
+              <p>Marie rappelle des demandes de secours adressées à la Caisse Fraternelle pour des
+                motifs absolument irrecevables.</p>
+              <p>Couesnon rappelle la lettre publiée au Bulletin pour la création d'une mutuelle en
+                cas de décès.</p>
+              <p>Le secrétaire général fait remarquer que si intéressante que soit la création d'une
+                mutuelle, cette question ne peut être discutée aujourd'hui, l'Assemblée ayant à se
+                prononcer sur le fonctionnement de la Caisse Fraternelle.</p>
+              <p>Brusson demande que dans le cas où les couronnes ne pourraient pas se trouver à des
+                prix abordables en province, l'Union les envoie de Paris.</p>
+              <p>Le président : La chose sera faite ainsi, sur la demande des intéressés.</p>
+              <p>Le Conseil d'administration propose que la Caisse Fraternelle intervienne : 1<hi
+                  rend="superscript">°</hi> Dans des cas tout à fait accidentels;</p>
+              <pb n="6"/>
+              <note type="foliation">— 4 —</note>
+              <p>2<hi rend="superscript">°</hi> Au décès de chaque camarade, en faveur de la
+                personne désignée par lui préalablement; 3<hi rend="superscript">°</hi> Que
+                l'allocation en cas de décès soit doublée, s'il s'agit d'une veuve d'un camarade
+                n'ayant pas droit à pension dans l'état de la législation actuelle; 4<hi
+                  rend="superscript">°</hi> Qu'une couronne soit offerte par le Groupement au décès
+                de chaque camarade.</p>
+              <p>Adopté à l'unanimité, sauf le paragraphe <hi rend="superscript">n</hi>^{\circ} 4,
+                où il y a une voix contre.</p>
+              <p>L'Assemblée décide à la majorité que les allocations de naissance soient maintenues
+                comme par le passé.</p>
+              <p>Elle décide également à l'unanimité moins trois voix que les allocations de mariage
+                soient supprimées.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">Projet de budget</head>
+              <p>A la demande de Robert, lecture est donnée de la répartition des pouvoirs entre les
+                camarades présents à la réunion.</p>
+              <p>Lecture est donnée du projet de budget pour l'exercice 19221923.</p>
+              <p>Le président propose d'augmenter de 5.000 francs le chapitre de la Caisse
+                Fraternelle par suite du vote de l'Assemblée sur le maintien des allocations pour
+                naissance.</p>
+              <p>L'Assemblée fait confiance au trésorier pour faire face à cette dépense
+                supplémentaire.</p>
+              <p>Malgat demande pourquoi le chapitre (téléphone et provision) comporte une somme
+                supérieure à celle de l'exercice précédent.</p>
+              <p>Le comptable fait connaître que l'installation téléphonique de notre ancien siège
+                social n'avait qu'un poste, tandis que celui de la rue Ballu comporte un poste
+                principal et deux postes complémentaires. De plus, l'exercice précédent ne
+                s'étendait que sur dix mois.</p>
+              <p>Demande de Jannin au sujet du chiffre porté à l'organisation du travail.</p>
+              <p>Le président fait remarquer qu'en outre des frais à prévoir pour l'installation du
+                magasin d'exposition, il faudra renouveler cette année la propagande des listes des
+                travailleurs avec leur adresse.</p>
+              <p>Grillet demande qu'on emploie le plus possible le Bulletin pour répondre aux
+                demandes particulières des camarades.</p>
+              <p>Le projet de budget est adopté à l'unanimité.</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Projet d'affiliation à
+                l'Union Fédérale</head>
+              <p>L'Assemblée, à l'unanimité, émet le vœu qu'une coopération plus étroite se fasse
+                entre les diverses Sociétés de mutilés dans l'intérêt de toutes les victimes de la
+                guerre.</p>
+              <p>Chauvel demande qu'un administrateur, partisan de l'affiliation à l'U. F., en
+                expose les motifs et qu'un administrateur d'avis contraire soit également
+                entendu.</p>
+              <p>Toudouri déclare qu'il est adversaire du projet d'affiliation, parce qu'il croit
+                notre "Union " assez forte pour obtenir seule l'ensemble de nos revendications,
+                comme nous les avons obtenues dans le passé. De plus, il est à craindre que notre
+                affiliation à un groupement plus général détache de nous des amis dans le monde
+                voyant.</p>
+              <p>Bois est également adversaire du projet d'affiliation, car il estime que tous les
+                groupements de mutilés ont à leur tête des personnes qui s'occupent de
+                politique.</p>
+              <p>D'ailleurs, il vaudrait mieux former une société avec des grands invalides ayant un
+                grand pourcentage plutôt qu'avec des mutilés à 100 / 0.</p>
+              <p>Marie partage les idées des camarades Toudouri et Bois et au nom des camarades
+                qu'il représente il vote contre l'affiliation à l'U. F.</p>
+              <p>Gudefin est partisan de l'affiliation à l'" U. F. ", car s'il y a certaines choses
+                que nous avons obtenues seuls, il y en a que nous n'avons pu obtenir. Il estime que
+                si nous n'avons pas encore réussi dans nos démarches au sujet des transports, par
+                exemple, c'est que nous n'avons pas été suffisamment aidés et soutenus.</p>
+              <p>Amar contredit les affirmations de Gudefin relativement aux démarches faites au
+                sujet des transports en commun et déclare qu'il n'est pas partisan de l'affiliation
+                à l'U. F.</p>
+              <p>Robert n'est pas partisan de cette affiliation. A la tête de chaque grande
+                association, il y a des hommes politiques. C'est un tremplin. Le jour où nous serons
+                dans une de ces associations, nous sommes perdus.</p>
+              <p>Fauvel rappelle que les statuts de l' " U. F. " prévoient l'incompatibilité entre
+                les fonctions d'administrateur de l'" U. F. " et des fonctions politiques.</p>
+              <p>Il ajoute que l'U. A. G. s'est toujours occupée des grands mutilés et cela dès le
+                Congrès de Tours.</p>
+              <p>Durat parle de la manière dont l'augmentation des pensions a été obtenue l'année
+                dernière.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>Le président l'arrête dans cet exposé qui ne fait pas l'objet de la discussion
+                actuelle.</p>
+              <p>Devarieux est d'avis de ne s'affilier à aucune fédération. Toutain repousse la
+                demande d'affiliation et fait donner lecture d'une communication sur la création
+                récente d'un Comité d'études réunissant les adhésions de trois grandes associations.
+                Il propose que l'Union participe à ce Comité d'études.</p>
+              <p>Gudefin propose que le président expose pour quel motif la majorité du Conseil
+                s'était prononcée pour cette affiliation.</p>
+              <p>Le président : Il est inexact que les grandes associations de mutilés ont agi
+                contre nous. Au contraire, elles nous ont prêté leur appui chaque fois que nous leur
+                avons demandé.</p>
+              <p>Pour l'avenir, il apparut à la majorité de vos administrateurs que les victimes de
+                la guerre devaient former un bloc plus important en raison de l'éloignement de la
+                guerre. Tout en poursuivant les mêmes buts, les grandes associations de mutilés
+                suivent des chemins différents, ce qui cause le retard ou l'échec de certaines lois
+                importantes attendues avec impatience par les victimes de la guerre.</p>
+              <p>Les statuts de l'Union Fédérale sont parfaitement conformes à l'esprit qui n'a
+                cessé de régner dans notre groupement et c'est la société qui groupe le plus de
+                victimes de la guerre.</p>
+              <p>Bien que nous ayons entretenu des relations amicales avec toutes les associations
+                de mutilés, c'est pour ces derniers motifs que l' "U. F. " a été choisie par la
+                majorité des administrateurs.</p>
+              <p>Lagarde constate que l'assemblée n'est pas suffisamment éclairée pour se prononcer
+                immédiatement. Il propose que les partisans et les adversaires de l'affiliation
+                exposent leurs idées dans des articles qui paraîtront dans les plus prochains
+                Bulletins et qu'un referendum soit fait sur cette question vers le mois de mars.</p>
+              <p>La proposition de Lagarde est adoptée à l'unanimité, moins trois voix.</p>
+              <p>Règlement intérieur des groupements régionaux.</p>
+              <p>Durand René dit qu'il prend la parole comme délégué du groupement de la
+                Côte-d'Or.</p>
+              <p>Le président fii fait remarquer que ce groupement n'étant pas officiellement
+                constitué, il ne peut avoir de délégué.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>Le règlement intérieur des groupements régionaux présenté par le Conseil est
+                adopté.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Règlement de
+                Franceville</head>
+              <p>Adopté.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Elections</head>
+              <p>Le trésorier donne lecture des résultats pour les élections au Conseil
+                d'administration.</p>
+              <p>Ont obtenu : MM. L'Evesque 1.182 voix</p>
+              <p>Izaac 1.157 " Lallement 903 " Goubin 878 " Dufourc 874 " Favret 863 " Gudefin 849 "
+                Antoine 819 " Leveau 507 " Malgat 506 " Courteix 427 " Jannin 412 " Mougenel 360 "
+                Mengin 345 " Derunder 328 " Brinon 328 " Héron 312 " Faure 304 " Léger 272 " Beda
+                241 "</p>
+              <p>Les camarades: L'Evesque Gaston, Izaac, Lallement, Goubin, Dufourc, Favret,
+                Gudefin, Antoine, Leveau, Malgat sont nommés administrateurs.</p>
+              <p>La nomination du camarade Marie comme administrateur a été ratifiée par 1.080
+                voix.</p>
+              <p>Sont élus commissaires aux comptes à l'unanimité : MM. Bloch et Mayer.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>Sont également élus à l'unanimité comme délégués pour les modifications aux statuts
+                les camarades Grillet et Seguin, à la demande de l'administration.</p>
+              <p>L'ordre du jour étant épuisé, on passe aux questions diverses. Brusson demande que
+                les camarades de Paris et de la région parisienne posent, de préférence, leur
+                candidature au Conseil d'administration puisqu'ils ont la facilité d'assister aux
+                réunions.</p>
+              <p>Héron regrette que les brossiers ne soient pas plus nombreux comme
+                administrateurs.</p>
+              <p>Lagarde demande que l'Assemblée générale adresse des plus vifs remerciements à la
+                présidente du Comité d'Aide, Mme Louis Deschamps, pour le précieux concours qu'elle
+                nous a apporté.</p>
+              <p>Adopté à l'unanimité. Joli exprime le vœu que les aveugles qui ont appartenu à une
+                unité combattante soient décorés de la médaille militaire.</p>
+              <p>Seguy rappelle la lettre qu'il a adressée au Conseil d'administration et qui a été
+                publiée dans le dernier Bulletin. Il demande que l'Union s'occupe activement de la
+                question des suspensions.</p>
+              <p>Lecture est donnée d'une lettre de Martin Paul, relative aux transports en commun,
+                à l'exemption de certains impôts, à la question des ascendants et à l'organisation
+                du travail.</p>
+              <p>La séance est levée à 18 heures.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LES PUPILLES DE LA NATION</head>
+            <p>Une loi du 26 octobre 1922 (J. O. du 27 octobre, page 10582) modifie diverses
+              dispositions de la loi du 27 juillet 1917 instituant des pupilles de la Nation.</p>
+            <p>Les Associations de mutilés et réformés de guerre, veuves de guerre et ascendants de
+              combattants morts pour la patrie, seront désormais représentées à l'Office National
+              des Pupilles de la Nation dans les offices départementaux et dans les sections
+              cantonales.</p>
+            <p>En outre, en vertu de l'article premier, peuvent être désormais susceptibles d'être
+              Pupilles de la Nation : 1<hi rend="superscript">°</hi> Orphelins dont le père ou le
+              soutien de famille a été tué à l'ennemi; 2<hi rend="superscript">°</hi> Orphelins dont
+              le père, la mère ou le soutien de famille est mort de blessures ou de maladies
+              contractées ou aggravées du fait de la guerre; 3<hi rend="superscript">°</hi> Les
+              enfants nés avant la fin des hostilités ou dans les trois cents jours qui suivent leur
+              cessation, dont le père, la mère ou le soutien de famille se trouvent, en raison de
+              blessures reçues ou de maladies contractées ou aggravées par un fait de guerre, dans
+              l'incapacité de pourvoir à leurs obligations et à leurs charges de chef de famille;
+                4<hi rend="superscript">°</hi> Les enfants des disparus à l'ennemi lorsqu'on peut
+              conclure que le militaire est, en réalité, mort pour la France; 5<hi
+                rend="superscript">°</hi> Les enfants dont le père ou le soutien est décédé dans des
+              circonstances ayant ouvert droit à la pension; 6<hi rend="superscript">°</hi> Les
+              enfants de tous les pensionnés par application de la loi du 31 mars 1919; 7<hi
+                rend="superscript">°</hi> Les enfants des pensionnés comme victimes civiles; 8<hi
+                rend="superscript">°</hi> Les enfants de moins de dix-huit ans, victimes civiles
+              pensionnés comme victimes civiles.</p>
+            <p>La nouvelle loi qui apporte une amélioration demandée depuis longtemps par toutes les
+              associations de mutilés, ne nous satisfait pas complètement.</p>
+            <p>Actuellement, les enfants nés après le 23 août 1920 ne peuvent être pupilles de la
+              Nation.</p>
+            <p>Il y a là une injustice que nous ne pouvons admettre; nous avons toujours demandé ce
+              titre de pupille pour tous nos enfants, quelle que soit la date de leur naissance, par
+              rapport à la cessation des hostilités.</p>
+            <p>Nous voulons que les enfants nés ou à naître de grands mutilés soient pupilles de la
+              Nation.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+            <p>La Chambre des Députés est de notre avis et plusieurs orateurs l'ont déclaré au cours
+              de la discussion qui a précédé le vote de la loi.</p>
+            <p>Sur la demande des Associations des mutilés et réformés, ils l'ont votée telle
+              quelle, pour ne pas avoir à la renvoyer au Sénat, ce qui en aurait retardé
+              l'application et l'adoption de 195.000 orphelins non encore adoptés.</p>
+            <p>Mais il a été entendu que, dès le 26 octobre, jour même du vote, une proposition de
+              loi dans le sens indiqué serait déposée sur le bureau de la Chambre.</p>
+            <p>Le rapporteur du projet, M. Patureau Miraud, a fait observer que l'intérêt général du
+              pays, si gravement engagé dans la question de la repopulation, est d'encourager
+              l'invalide lui-même à développer sa famille et, dans cette intention de lui assurer,
+              aussi bien pour ses enfants à venir que pour ses enfants déjà nés, la protection de la
+              nation à laquelle l'origine de ses souffrances lui confère un droit permanent. M. lé
+              colonel Picot, membre de notre Comité de patronage, a vigoureusement demandé le vote
+              de la loi présentée et s'est engagé, au nom du groupe des députés mutilés, à déposer
+              le jour même le projet de loi nous donnant satisfaction complète.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">ARTICLE 64</head>
+            <p>Au J. O. du 29 octobre 1922, page 10651, a paru un décret du 25 octobre déterminant
+              les tarifs des soins médicaux, chirurgicaux et pharmaceutiques applicables aux
+              bénéficiaires de l'art. 64, les conditions et limites de remboursement des frais de
+              voyage et de transport, ainsi que la composition, les attributions et le
+              fonctionnement des Commissions de contrôle.</p>
+            <p>Pour bénéficier des soins gratuits, médicaux, chirurgicaux ou pharmaceutiques
+              institués par l'art. 64 pour les accidents ou complications des blessures ou maladies
+              ayant nécessité la réforme, il faut demander à sa mairie d'être inscrit sur les listes
+              spéciales établies à cet effet; il faut déclarer en même temps que l'on ne reçoit pas
+              ces soins d'une Société de secours mutuels, d'une Société de secours des ouvriers
+              mineurs ou des Caisses de secours des Syndicats professionnels.</p>
+            <p>Si une demande faite à l'une de ces Sociétés n'avait pas été admise, il en fait la
+              déclaration.</p>
+            <p>Il faut joindre à sa demande une copie certifiée conforme des men- <pb n="13"
+                break="no"/>
+              <note type="foliation">— 11 —</note> tions portées sur le certificat de réforme
+              relativement aux causes (blessure ou maladie) ayant motivé la pension. La copie peut
+              être certifiée conforme par le maire.</p>
+            <p>Il est délivré à chaque intéressé un récépissé. En cas de refus du maire, faire une
+              réclamation au préfet.</p>
+            <p>Les réformés temporaires ou les non réformés qui manqueraient à deux convocations de
+              la Commission de réforme peuvent être rayés de la liste.</p>
+            <p>En cas de changement de résidence, il y a lieu de se faire rayer de la liste de
+              l'ancienne résidence et de se faire délivrer un certificat de radiation qui servira à
+              l'inscription sur la liste de la nouvelle résidence.</p>
+            <p>Il est remis un carnet à tout bénéficiaire de l'art. 64 inscrit sur la liste.</p>
+            <p>Ce carnet est à présenter au médecin. Les réformés ont, si besoin est, le droit de se
+              faire hospitaliser dans un établissement public ou privé à leur choix, mais dans
+              l'étendue de la Faculté de médecine de la région qu'on habite. Ces dispositions ne
+              sont pas applicables s'il s'agit d'établissements thermaux ou d'aliénés.</p>
+            <p>Les malades hospitalisés n'ont plus la faculté de se servir du carnet visé ci-dessus
+              et doivent le déposer pendant la durée de l'hospitalisation entre les mains du
+              gestionnaire de l'établissement hospitalier.</p>
+            <p>Frais de voyage et de transport. Tout malade faisant l'objet d'un ordre
+              d'hospitalisation a droit au transport gratuit, de son domicile à l'établissement où
+              il sera soigné. Il peut faire l'avance des frais et se faire rembourser sur demande
+              adressée au préfet, à laquelle il y a lieu de joindre un récépissé du billet de chemin
+              de fer (à demander à la gare d'arrivée en remettant son billet), un ticket de
+              récépissé de voiture publique, une facture acquittée par le loueur de voitures.</p>
+            <p>Si le malade ne peut faire l'avance du transport, il le signale au préfet qui lui
+              envoie un mandat payable à vue. Si le voyage n'avait pas lieu, le mandat doit être
+              remboursé, ou la somme est récupérée sur l'intéressé lors du paiement de sa pension.
+              La somme à mandater est le prix du billet de 2<hi rend="superscript">°</hi> classe,
+              déduction faite de la réduction consentie au mutilé sur le transport d'après son degré
+              d'invalidité.</p>
+            <p>En cas de décès, la famille (veuve, parents, grands-parents, enfants, petits-enfants,
+              frères et sceurs) a droit au transport gratuit du corps de l'hôpital au domicile, sur
+              demande adressée au préfet du département dans lequel a eu lieu le décès.</p>
+            <p>A titre exceptionnel, les corps des décédés dans les hôpitaux, à <pb n="14"/>
+              <note type="foliation">— 12 —</note> la suite de blessures ou de maladies contractées
+              en service entre le 1<hi rend="superscript">er</hi> janvier 1921 et le 29 octobre 1922
+              peuvent être exhumés et transportés aux frais de l'Etat. N. B. - La gratuité des
+              soins, en exécution de l'art. 64, n'est accordée que pour les blessures ou maladies
+              ayant motivé la réforme.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">CHANGEMENTS DE DOMICILE
+              CHANGEMENTS DE RÉSIDENCE, PENSIONS</head>
+            <p>Nous recevons assez souvent des lettres de camarades se plaignant des difficultés
+              qu'ils rencontrent pour percevoir le trimestre de leur pension échu, après un
+              changement de localité.</p>
+            <p>Ces désagréments faciles à éviter sont généralement imputables à l'intéressé qui a
+              omis de faire, en temps voulu, les démarches nécessaires et qui, de ce fait, les
+              faisant trop tard, recule, à son détriment, la date à laquelle il pourra toucher le
+              trimestre échu.</p>
+            <p>Nous allons donner la marche à suivre pour éviter ces ennuis. Nous avons tous appris
+              la différence entre un changement de domicile et un changement de résidence.</p>
+            <p>Il y a changement de domicile lorsque l'on change de localité avec l'intention de ne
+              pas revenir dans celle que l'on quitte.</p>
+            <p>Il y a changement de résidence lorsque l'on s'absente de son domicile pour deux ou
+              trois mois avec l'intention d'y revenir.</p>
+            <p>Changements de domicile. Il y a trois cas à considérer : 1<hi rend="superscript"
+                >°</hi> Le pensionné change de domicile, mais la caisse payante reste la même. Il
+              suffit, dans ce cas, de prévenir le comptable qui paie la pension; 2<hi
+                rend="superscript">°</hi> Le pensionné change de domicile, dans le même département,
+              et de caisse payante. Il faut, avant le départ, par l'intermédiaire du comptable qui
+              payait la pension jusqu'au moment du déplacement, adresser au trésorier général du
+              département une demande de transfert de la pension à la nouvelle caisse payante, en
+              lui indiquant l'ancien et le nouveau domiciles. Les formalités nécessitent de quinze
+              jours à un mois; 3<hi rend="superscript">°</hi> Le pensionné change de domicile et va
+              habiter dans un autre département. Mêmes formalités que pour le cas qui précède, mais
+              les formalités durent environ six semaines.</p>
+            <p>Pour ces deux derniers cas, il appartient au pensionné de prendre <pb n="15"/>
+              <note type="foliation">— 13 —</note> les mesures utiles pour ne pas retarder le
+              paiement de sa pension par la nouvelle caisse payante; il faut donc prévenir, dès
+              qu'on le peut, par l'intermédiaire du comptable payeur, le trésorier général du
+              département que l'on quitte et ne pas attendre, pour faire cette démarche, son arrivée
+              à son nouveau domicile.</p>
+            <p>Changements de résidence. En principe, le changement de résidence, quelque long que
+              soit le voyage, n'entraîne pas de changement de caisse payante; mais tout à fait
+              exceptionnellement le pensionné peut, pendant son déplacement, être dans l'obligation
+              de percevoir son trimestre échu; il doit alors en faire la demande au trésorier
+              général du département du domicile légal, en lui indiquant : 1<hi rend="superscript"
+                >°</hi> ce domicile légal; 2<hi rend="superscript">°</hi> la caisse payante
+              habituelle; 3<hi rend="superscript">°</hi> l'endroit où l'on veut toucher son
+              trimestre; 4<hi rend="superscript">°</hi> les motifs de la demande.</p>
+            <p>Les formalités peuvent être assez longues et durer au moins un mois et quelquefois
+              beaucoup plus; une entente entre les trésoriers payeurs des deux départements (celui
+              du domicile et celui du lieu de déplacement) est nécessaire lorsque l'on a changé de
+              département, et souvent le trimestre attendu avec impatience arrivera trop tard pour
+              le pensionné, aussi ne faut-il pas faire de demande sans un motif des plus
+              urgents.</p>
+            <p>Lettre du Ministre des Pensions au sujet des grands invalides victimes civiles de la
+              guerre.</p>
+            <p>Paris, le 4 novembre 1922. Vous avez bien voulu appeler mon attention sur l'intérêt
+              qu'il y aurait à faire bénéficier les grands invalides, victimes civiles de la guerre,
+              des allocations spéciales attribuées par la loi de finances du 31 juillet 1920 aux
+              grands invalides, bénéficiaires de la loi du 31 mars 1919.</p>
+            <p>J'ai l'honneur de vous faire connaître que les règles d'attribution des allocations
+              aux grands invalides, victimes civiles, viennent d'être fixées par le décret du 21
+              octobre 1922 (J. O. du 22 octobre) et l'instruction du même jour.</p>
+            <p>Conformément aux dispositions de l'article 4 de l'instruction, il appartient aux
+              intéressés d'adresser leur demande aux sous-intendants militaires chargés du service
+              des pensions dans le département de leur résidence, en joignant à l'appui leurs titres
+              ou carnets de pension et de majorations des enfants, ainsi que la lettre de
+              notification leur allouant une pension.</p>
+            <p>Veuillez agréer, etc...</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">LISTE DES CENTRES
+                D'APPAREILLAGE</head>
+              <p>auxquels les aveugles de guerre peuvent s'adresser conformément à la circulaire du
+                17 octobre 1921 1<hi rend="superscript">re</hi> région Lille. 2<hi
+                  rend="superscript">°</hi> " Amiens. 9<hi rend="superscript">°</hi> "
+                Joué-les-Tours. 10<hi rend="superscript">°</hi> " Rennes. 13<hi rend="superscript"
+                  >°</hi> " Clermont-Ferrand. 14<hi rend="superscript">°</hi> " Lyon. 15<hi
+                  rend="superscript">°</hi> " Marseille. 16<hi rend="superscript">°</hi> "
+                Montpellier. 17<hi rend="superscript">°</hi> " Toulouse. 18<hi rend="superscript"
+                  >°</hi> " Bordeaux. 19<hi rend="superscript">°</hi> " Alger. 20<hi
+                  rend="superscript">°</hi> " Nancy. Alsace-Lorraine: Strasbourg.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">AVIS AUX PENSIONNES</head>
+              <p>Afin d'éviter tout retard dans l'examen, par les bureaux des ministères, des
+                questions qui peuvent intéresser les pensionnés, nous engageons vivement les
+                camarades à se conformer aux indications de la lettre de M. l'intendant Zaigue, qui
+                a paru au Bulletin de novembre, page <hi rend="superscript">n</hi>^{\circ} 5.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">TRANSPORTS EN COMMUN</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Réductions</head>
+                <p>1<hi rend="superscript">°</hi> 500 / 0 aux mutilés de 500 / 0 et plus. Même
+                  réduction au guide.</p>
+                <p>Sur les lignes suivantes : Transports automobiles de Collobrières à Toulon (Var).
+                  Transports automobiles entre Condom et Castera Verduzan (Gers).</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+                <p>Transports automobiles entre Vic-Ferenzac et Cazaubon par Eauze (Gers).</p>
+                <p>Transports automobiles entre Simorre et Gimont (Gers). Transports automobiles
+                  entre Miélan et Castelnau-Rivière-Basse (Gers).</p>
+                <p>Transports automobiles entre Mauvezin et Gimont (Gers). 2<hi rend="superscript"
+                    >°</hi> 750 / 0 pour les réformés de 500 / 0 et plus. Gratuité du voyage pour le
+                  guide du 1000 / 0, article 10 .</p>
+                <p>Sur les lignes suivantes : Transports automobiles entre Tulle-Préfecture et
+                  Brives-Gare (Corrèze).</p>
+                <p>Compagnie des chemins de fer départementaux (Seine-et-Marne). Lignes de :
+                  Montereau à Château-Landon, de la Ferté-sous-Jouarre à Montmirail et de Lagny à
+                  Mortcerf (un seul billet pour le mutilé et son guide pour cette Compagnie).</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">POUR CEUX QUI RECHERCHENT
+                LES CORPS DE SOLDATS DISPARUS</head>
+              <p>Nous croyons intéresser nos camarades en leur faisant connaître la création d'une
+                cuvre patriotique intéressante créée à Arras en vue de la recherche et de
+                l'identification des corps des soldats morts ou disparus pendant la guerre.</p>
+              <p>Cette cuvre, qui a été fondée par le Comité de Lorette, a son siège 4, rue des
+                Fours, à Arras, elle publie, le 15 de chaque mois, le Bulletin du Souvenir, organe
+                de renseignements où l'on trouve toutes les indications afférentes aux militaires
+                dont on retrouve les restes au fur et à mesure des fouilles effectuées sur les
+                différents champs de bataille de la mer du Nord à la Somme.</p>
+              <p>En procédant à des fouilles sur les champs de bataille d'Artois, il vient d'être
+                retrouvé : 1<hi rend="superscript">°</hi> à Aix-Noulette, au fond de Buval : BUISS..
+                Claude, classe 1912, identifié par plaque d'identité partiellement lisible. ..DR...
+                ....n, classe 1915, recrutement C....., Mle 2344, identifié par plaque détériorée.
+                ...ERNAND ..neis, classe 19.4, recrutement ..ecy, Mle .60, identifié par plaque
+                d'identité partiellement lisible. ..... Roger, classe 1910, recrutement illisible,
+                Mle 4.0, identifié par plaque d'identité détériorée.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>2<hi rend="superscript">°</hi> A Duisans : Inconnu du 2<hi rend="superscript"
+                  >°</hi> tirailleurs algériens, Mle 8451, entré au service le 8 février 1912,
+                identifié par plaque d'identité. 3<hi rend="superscript">°</hi> A Bugnicourt :
+                PRINCE Albert, identifié par papier au nom placé dans une bouteille retrouvée sur le
+                corps.</p>
+              <p>De RIVOIRE Pierre, identifié d'après dossier. 4<hi rend="superscript">°</hi> A
+                Mont-St-Eloi (secteur du Labyrinthe, Neuville-St-Vaast) : ALLARD François; DUCHAUX
+                Eugène; FAHY Gaston; FERRAND Léon; GIBERT Henri-Désiré; MOSCOVICHTZ Casamajor.</p>
+              <p>Seuls, les noms ont pu être relevés, sans aucune indication ni de recrutement, ni
+                de régiment.</p>
+              <p>Renseignements communiqués par le Comité de Lorette, 4, rue des Fours, à Arras, qui
+                se tient à la disposition des familles pour les aider dans la recherche de leurs
+                disparus.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">ECOLES DE REEDUCATION</head>
+              <p>Nous recevons de l'Ecole Gallieni, 18, rue de la Reconnaissance, à
+                Lyon-Villeurbanne (Rhône), la lettre suivante :</p>
+              <p>" Monsieur le Président,</p>
+              <p>" Dans le numéro d'octobre du Bulletin de l'U. A. G., je lis, page 4, au paragraphe
+                intitulé "Activité des Aveugles ", que sont signalées comme maisons de rééducation
+                encore ouvertes : l'Abri du Soldat Aveugle, le Phare de France et le groupement
+                dirigé par Mme Henry. " Permettez-moi de vous informer que notre établissement
+                continue à recevoir des aveugles de guerre en vue de leur rééducation. Lorsque
+                l'Office National des Mutilés et Réformés nous demande l'admission d'un blessé aux
+                yeux, nous lui réservons toujours une place parmi les 70 que nous comptons et lui
+                accordons toujours la priorité. En ce moment, nous avons 10 aveugles de guerre sur
+                les 65 présents à nos ateliers. " Veuillez agréer, Monsieur le Président,
+                l'assurance de mes sentiments dévoués. "</p>
+              <p>Le Président : Signé : Lafontaine.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">PLACES A L'ABRI DU SOLDAT
+                AVEUGLE</head>
+              <p>L'Abri du Soldat Aveugle, école de rééducation pour brossiers, nous informe qu'elle
+                a des places vacantes.</p>
+              <p>Les camarades désireux de faire ou de compléter leur rééducation en brosserie et
+                balais doivent s'adresser directement à " l'Abri du Soldat Aveugle », 60, avenue de
+                la Reine, à Boulogne-sur-Seine (Seine).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">LE LIVRE DE L'AVEUGLE</head>
+              <p>Nous recevons du Livre de l'Aveugle la note suivante : Le Livre de l'Aveugle, 5,
+                place Péreire, Paris (17'), se propose d'ajouter à sa bibliothèque circulante ceux
+                des ouvrages littéraires et scientifiques récents qui seraient susceptibles
+                d'intéresser ses adhérents. Les ouvrages à transcrire seraient exclusivement choisis
+                par ceux mêmes auxquels ils seraient destinés. L'œuvre invite tous ceux qui veulent
+                bien la seconder dans ses efforts, à lui adresser, le plus rapidement possible, la
+                liste des livres de leur choix. En outre, elle demeure, comme par le passé, à leur
+                entière disposition pour toutes les transcriptions personnelles qu'ils lui
+                demanderont.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">MACHINE VAUGHAN</head>
+              <p>Mme Vve Latham cèderait pour le prix de 100 francs une machine à imprimer le
+                Braille, système Ernest Vaughan.</p>
+              <p>Cette machine a peu servi et est à l'état de neuf.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">UN PHONOGRAPHE A
+                VENDRE</head>
+              <p>Bonne occasion. Le camarade Thuet nous informe qu'il a un phonographe Pathé
+                portatif à vendre avec 12 disques double face, au prix de 300 francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">VENTE D'OSIER</head>
+              <p>Notre camarade Nicomette, rue du Breuil, à Fayl-Billot (HauteMarne), prévient les
+                vanniers qu'il n'expédie plus d'osier avant le mois de mai 1923, sa récolte étant
+                complètement épuisée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">RECOMPENSE</head>
+              <p>Notre camarade Gouet Georges nous informe qu'il vient d'obtenir un diplôme avec
+                médaille de bronze à l'Exposition des Mutilés de Versailles pour avoir exposé une
+                chaussure.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h51">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">NAISSANCES</head>
+                <p>Notre camarade et Mme Mariani (J.) nous font part de la naissance de leur fils
+                  Henry.</p>
+                <p>Notre camarade et Mme Hugues (Daniel) nous font part de la naissance de leur
+                  fille Jeannine, le 8 octobre 1922.</p>
+                <p>Notre camarade et Mme Monnerie (Gabriel) nous font part de la naissance de leur
+                  fils Marcel, le 1<hi rend="superscript">er</hi> octobre.</p>
+                <p>Notre camarade et Mme Fouet (Jean) nous font part de la naissance de leur
+                  deuxième fils, le 31 août 1922.</p>
+                <p>Notre camarade et Mme Urvoy (Louis) nous font part de la naissance de leur
+                  deuxième fils, le 29 septembre.</p>
+                <p>Notre camarade et Mme Raphel (Marcellin) nous font part de la naissance de leur
+                  fils Alphonse, le 14 octobre.</p>
+                <p>Notre camarade et Mme Aubin (Raymond) nous font part de la naissance de leur
+                  fille Marguerite, le 16 octobre.</p>
+                <p>Notre camarade et Mme Vigier (Joseph) nous font part de la naissance de leur
+                  fille Suzanne, le 4 août.</p>
+                <p>Notre camarade et Mme Galis (Gérard) nous font part de la naissance de leur fille
+                  Jeannine, le 1<hi rend="superscript">er</hi> novembre.</p>
+                <p>Notre camarade et Mme Dumas (Joseph) nous font part de la naissance de leur fils
+                  Jean-Edouard.</p>
+                <p>Notre camarade et Mme Delorme (Louis) nous font part de la naissance de leur fils
+                  Jean-Marie, le 3 novembre.</p>
+                <p>Notre camarade Chasselade (Joseph) et Mme nous font part de la naissance de leur
+                  fille Gabrielle, le 26 octobre.</p>
+                <p>Notre camarade Héron nous fait part de la naissance de son troisième fils André,
+                  le 26 octobre.</p>
+                <p>Notre camarade et Mme Bezard (Valentin) nous font part de la naissance de leur
+                  fils Marcel-Henri, le 13 novembre.</p>
+                <p>Nous adressons nos bien sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+                <pb n="21"/>
+                <note type="foliation">— 19 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">MARIAGES</head>
+                <p>Notre camarade Montgermont (Lucien) nous fait part de son mariage avec Mlle Emma
+                  Baudry.</p>
+                <p>Notre camarade Loistron nous fait part de son mariage avec Mlle Germaine
+                  Prono.</p>
+                <p>Notre camarade Boudras (Jean-Clément) nous fait part de son mariage avec Mlle
+                  Berthon, célébré le 14 octobre 1922.</p>
+                <p>Notre camarade Simion (Lucien) nous fait part de son prochain mariage, qui sera
+                  célébré le 20 novembre.</p>
+                <p>Notre camarade Raffat (Benoit) nous fait part de son mariage avec Mlle Constance
+                  Barallon.</p>
+                <p>Notre camarade Liote nous fait part de son mariage avec Mme née Dronot, célébré
+                  le 4 novembre 1922.</p>
+                <p>Notre camarade Bergadieu (Pierre) nous fait part de son mariage avec Mlle Jeanne
+                  Portets.</p>
+                <p>Notre camarade Le Cocq (André) nous fait part de son mariage avec Mlle Yvonne Le
+                  Goff.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h31">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Lacuisse, décédé le 23 septembre dans
+                  sa quarante-sixième année.</p>
+                <p>Du petit garçon de notre camarade Raveleau (Gérard) à l'âge de quatre mois.</p>
+                <p>Du bébé de notre camarade Monnerie (Gabriel), âgé de douze jours.</p>
+                <p>De la petite fille de notre camarade Bougeois, âgée de trois semaines.</p>
+                <p>De notre camarade Tallec, décédé le 9 octobre 1922. Du père de notre camarade
+                  Bourguignon (Octave). Du fils de notre camarade Mampey (Henri). De la fille de
+                  notre camarade Roybin (Benoit), décédée le 30 août à l'âge de dix-huit mois.</p>
+                <p>De la femme de notre camarade Pasco (Alfred), décédée le 20 octobre.</p>
+                <p>Du père de notre camarade Prévost.</p>
+                <pb n="22"/>
+                <note type="foliation">— 20 —</note>
+                <p>De la naissance et du décès du fils de notre camarade Balagny (Joseph), décédé le
+                  28 septembre 1922.</p>
+                <p>De notre camarade Imbert (André), décédé le 21 octobre. De la naissance et du
+                  décès du fils de notre camarade Grosjean (Alphonse).</p>
+                <p>Nous prions les familles de vouloir bien recevoir ici l'expression de nos bien
+                  sincères condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">PROCES-VERBAL DE LA SEANCE
+                DU CONSEIL D'ADMINISTRATION du 30 septembre 1922</head>
+              <p>Rectification au procès-verbal de la séance du 16 septembre : Robert (Maurice)
+                indique qu'il a voté contre l'affiliation à l'Union Fédérale, contrairement au
+                procès-verbal mentionnant son vote favorable.</p>
+              <p>La séance est ouverte à 14 h .45 sous la présidence d'Izaac. Sont présents : MM.
+                L'Evesque (Gaston), Izaac, Amault, Favret, Noireaux, Laffargue, Bardoux, Bois,
+                Bertrand, Delage, Goubin, Gudefin, SainteRose.</p>
+              <p>Ont écrit : Lagarde. Excusés : Amar, Chautard, Marie. Assistent à la séance : M. de
+                Traversay, président du Comité d'action. Les camarades : Boidin, Heuzé, Larher.</p>
+
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h33">Lecture du
+                  procès-verbal de la dernière séance </head>
+                <p>Adopté. Le président informe le Conseil d'une invitation de la Fédération
+                  Nationale des militaires belges pour assister à l'inauguration du monument érigé
+                  au cimetière du Père-Lachaise à la mémoire des soldats belges morts pour la patrie
+                  et inhumés sur le territoire français.</p>
+                <p>Une délégation sera envoyée.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h34">Lecture du rapport
+                  financier annuel</head>
+                <p>Le Conseil remercie le trésorier du rapport qu'il a présenté, l'adopte à
+                  l'unanimité et passe à l'ordre du jour.</p>
+                <p>Le président demande l'adhésion du Conseil pour le projet de budget.</p>
+                <pb n="23"/>
+                <note type="foliation">— 21 —</note>
+                <p>Bardoux demande si un concierge est prévu. Le président: "Les appointements du
+                  concierge sont compris dans le budget du personnel, le Bureau a pris des
+                  engagements pour assurer un garde et sa femme. »</p>
+                <p>Gudefin demande si les sommes prévues pour le personnel en 1922 et 1923
+                  contiennent le total du traitement de tous les employés sans exception?</p>
+                <p>Le président : " Au chapitre du Bulletin est incorporé le paiement d'un employé.
+                  D'autre part, il n'est pas tenu compte dans notre budget des frais du Comité
+                  d'Action. "</p>
+                <p>Le rapport moral présenté par le Bureau est adopté. La liste des candidats au
+                  prochain Conseil est arrêtée et le tirage au sort est fait pour établir le
+                  bulletin de vote :</p>
+                <p>MM. L'Evesque (Gaston), trésorier; Brinon (Raoul); Antoine; Derunder; Lèveau
+                  (Désiré); Lallement; Malgat; Favret; Héron; Léger (Antonin); Gudefin (Marcel);
+                  Courteix; Jannin (Léon); Faure (Jean); Béda; Mougenel; Mengin (Charles); Goubin;
+                  Izaac; Dufour (Pierre); Marie, à ratifier.</p>
+                <p>Lecture de la lettre de Lévêque (Jacques), au sujet de l'exemption d'impôts.</p>
+                <p>Arnault : "C'est une question importante, le renvoi à une Commission est
+                  nécessaire. "</p>
+                <p>Bardoux demande d'attendre l'Assemblée générale, il estime que ce serait très
+                  juste de donner entière confiance au camarade Lévêque (Jacques).</p>
+                <p>Arnault refuse de voter un projet qui n'a pas été suffisamment étudié.</p>
+                <p>Après discussion, le Conseil décide d'écrire à Lévêque (Jacques) pour qu'il
+                  propose lui-même la motion qui doit accompagner son projet. Cette question devra
+                  être inscrite à l'ordre du jour du prochain Conseil.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h35">Règlement de
+                  Franceville</head>
+                <p>Lecture est donnée du règlement de Franceville, dont le texte adopté par le
+                  Conseil d'administration paraîtra au Bulletin d'octobre.</p>
+                <p>Le président rend compte d'une demande de Brinon tendant à ce que quelques locaux
+                  de Franceville soient réservés aux camarades fournissant des certificats
+                  médicaux.</p>
+                <p>Après discussion, la question est posée de savoir si des locaux pourront être
+                  réservés de préférence à des camarades fournissant un certi-<pb n="24" break="no"/>
+                  <note type="foliation">— 22 —</note>ficat médical relatif à eux-mêmes, à leur
+                  femme et à leurs enfants et concluant aux bienfaits d'un séjour au bord de la
+                  mer.</p>
+                <p>Ont voté pour : Bardoux, Bois, Delage, Goubin, Izaac, Marie. La proposition n'est
+                  pas adoptée. La Commission chargée d'étudier un cas de mendicité, après avoir
+                  entendu le camarade visé et pris note de ses regrets et de ses engagements pour
+                  l'avenir, estime qu'il n'y a pas lieu de poursuivre l'affaire.</p>
+                <p>Lecture d'un contrat de Méru. Le Conseil décide d'apporter à la phrase suivante :
+                  " Cette donation est en outre faite sous la condition que la mai« son présentement
+                  donnée soit affectée à l'habitation ou soulagement " des aveugles de la grande
+                  guerre de 1914-1918. " la modification ci-après : "La maison présentement donnée
+                  sera utilisée par l'Union comme " la Société le jugera convenable. "</p>
+                <p>La séance est levée à 17 heures. La prochaine réunion est fixée au 21
+                  octobre.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">PROCES-VERBAL DE LA SEANCE
+                DU CONSEIL D'ADMINISTRATION du 21 OCTOBRE 1922</head>
+              <p>La séance est ouverte à 14 h .45 , sous la présidence du capitaine Izaac.</p>
+              <p>Sont présents : MM. L'Evesque (Gaston), Izaac, Arnault, Favret, Noireaux,
+                Laffargue, Amar, Bardoux, Bois, Bertrand, Chautard, Delage, Dufourc, Goubin,
+                Gudefin, Marie, Sainte-Rose.</p>
+              <p>Ont écrit : Les administrateurs de province : Antoine, Lagarde, Sigault.</p>
+              <p>Excusés : Durat, Toudouri, Roy (Georges). Assistent à la séance : M. de Traversay,
+                président du Comité d'Action; le camarade Saillot.</p>
+
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h37">Lecture du
+                  procès-verbal de la dernière séance </head>
+                <p>Adopté.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h38">Organisation de
+                  l'Assemblée générale</head>
+                <p>Izaac prie M. de Traversay, président du Comité d'Action de bien vouloir se
+                  charger des mesures à prendre en vue du dépouillement des bulletins de vote pour
+                  les élections au Conseil.</p>
+                <pb n="25"/>
+                <note type="foliation">— 23 —</note>
+                <p>M. de Traversay assure qu'il fera le nécessaire avec les membres du Comité
+                  d'action.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h39">Maisons de repos de
+                  Franceville</head>
+                <p>Le trésorier donne lecture d'une lettre de l'Office National faisant savoir que
+                  cet organisme examine avec la plus grande bienveillance notre demande de
+                  subvention pour Franceville et demandant, avant de se prononcer, les plans et
+                  dévis des constructions déjà réalisées, ainsi que les conditions d'achat de la
+                  maison de la rue Ballu. M. L'Evesque ajoute qu'il a écrit à M. Wattier pour
+                  obtenir les pièces nécessaires.</p>
+                <p>Le Conseil approuve l'initiative du trésorier. Izaac expose, que pour être
+                  d'accord avec les termes du contrat de vente à un franc du terrain, que l'Union a
+                  acquis à Franceville, nous devons faire construire deux nouveaux pavillons.</p>
+                <p>L'un des pavillons serait de ceux du type déjà construit et comprendrait donc 6
+                  appartements indépendants pour 6 aveugles et leur famille.</p>
+                <p>Le deuxième pavillon comprendrait une dizaine de chambres pour célibataires avec,
+                  au rez-de-chaussée, salle à manger et salle de réunion.</p>
+                <p>Lecture de la lettre de Lagarde rappelant la décision de l'Assemblée générale du
+                  23 juillet, décision invitant le Conseil à étudier un projet de création de
+                  maisons de repos sur une plage des Landes.</p>
+                <p>Laffargue fait remarquer qu'avant de donner suite à cette idée, l'Union doit
+                  remplir les obligations contenues dans le contrat de Franceville. Ce n'est
+                  qu'après que le Conseil sera en mesure de donner suite au projet de Lagarde.</p>
+                <p>Gudefin demande si la situation financière de l'Union permet de faire ces
+                  constructions.</p>
+                <p>Lecture de la lettre de Sigault, qui émet également des craintes à ce sujet en se
+                  basant sur les paiements que l'Union doit encore effectuer pour la Maison de
+                  l'Aveugle.</p>
+                <p>Le trésorier rassure le Conseil à ce sujet en signalant que l'état de notre
+                  caisse va nous permettre d'effectuer, le 1<hi rend="superscript">er</hi> novembre
+                  prochain, le paiement de la première échéance relative à la Maison de l'Aveugle.
+                  Nous serons donc en avance de deux mois.</p>
+                <p>Goubin fait remarquer que nous devons d'ailleurs tenir nos engagements et propose
+                  la mention suivante :</p>
+                <p> Après avoir entendu les explications du trésorier et en conformité des clauses
+                  du contrat de vente du terrain, le Conseil d'admi- <pb n="26" break="no"/>
+                  <note type="foliation">— 24 —</note> "nistration de l' "U. A. G. " décide la
+                  construction de deux nou" veaux pavillons à Franceville."</p>
+                <p>La motion est adoptée à l'unanimité des membres présents. Vote contre : Sigault.
+                  Lecture est donnée d'une lettre du camarade Jacques Lévêque qui donne sa démission
+                  et retire son projet ayant trait à l'exemption de certains impôts. Il n'admet pas
+                  qu'à la précédente séance, le Conseil ait renvoyé ce projet à une Commission pour
+                  étude.</p>
+                <p>Bois regrette le fait qui a motivé la démission de Jacques Lévêque et demande
+                  qu'un nouveau projet d'exemption d'impôts soit établi par l'Union.</p>
+                <p>Gudefin estime qu'il est du devoir du Conseil d'étudier à fond toutes les
+                  questions qui lui sont présentées.</p>
+                <p>Le Conseil accepte la démission du camarade Jacques Lévêque, tout en exprimant
+                  des regrets pour son départ.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h40">Donation Petit</head>
+                <p>Le trésorier donne lecture, dans son entier, du projet de contrat relatif à la
+                  donation faite par Mme Petit d'une maison située à Cormeille.</p>
+                <p>Le Conseil d'administration donne plein pouvoir à M. L'Evesque (Gaston) pour
+                  signer le contrat, avec la seule modification adoptée à la précédente séance.</p>
+                <p>Laffargue fait savoir qu'un nouveau groupement régional va être formé dans le
+                  Nord. Il comprendra les départements du Nord, du Pas-de-Calais et de l'Aisne.</p>
+                <p>La réunion constitutive de ce groupement aura lieu le 22 octobre à Lille. Les
+                  camarades Izaac et Noireaux sont désignés pour y représenter le Conseil.</p>
+                <p>Lecture est faite d'un article du camarade Béda ayant trait à l'attribution de la
+                  médaille militaire à tous les aveugles de guerre, quelle que soit l'origine de
+                  leur cécité, et qui n'ont pas encore reçu cette récompense.</p>
+                <p>Laffargue fait remarquer qu'il n'y a jamais eu de loi attribuant la médaille
+                  militaire à un aveugle de guerre, même lorsque ce dernier avait perdu la vue des
+                  suites de blessures reçues sur le front.</p>
+                <p>On ne peut donc demander au Parlement une loi attribuant de plein droit la
+                  médaille militaire sans que les causes de la cécité soient recherchées. Ce serait
+                  courir à un échec certain et nous userions inutilement le crédit de l'Union.</p>
+                <pb n="27"/>
+                <note type="foliation">— 25 —</note>
+                <p>L' "U. A. G. " doit s'en tenir à la méthode suivie jusqu'ici, c'est-à-dire à
+                  l'étude des cas particuliers transmis séparément à la bienveillante attention du
+                  ministre.</p>
+                <p>Le Conseil se range à l'unanimité à cet avis et décide de ne pas publier
+                  l'article de Béda. Ce dernier pourra soulever la question à l'Assemblée générale
+                  s'il le désire.</p>
+                <p>Bois demande que le nom de notre regretté trésorier, M. Boetzel, soit donné à la
+                  salle de réunions de la Maison de l'Aveugle de Guerre.</p>
+                <p>Accepté à l'unanimité. La séance est levée à 17 h .30 .</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h41">NOTRE NOUVEAU BUREAU</head>
+              <p>Dans une réunion du Conseil d'administration du 18 novembre, le Bureau de l'Union
+                pour l'année 1923 a été composé ainsi qu'il suit, à la suite d'un vote des
+                administrateurs :</p>
+              <p>Président : Izaac, 25 voix; Vice-Présidents : Noireaux, 17 voix ; Roy (Georges), 11
+                voix ; Chautard, 10 voix ;</p>
+              <p>Secrétaire général : Favret, 23 voix; Trésorier : L'Evesque.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h42">GROUPEMENT REGIONAL DE
+                PRIVAS</head>
+              <p>Le dimanche 24 septembre, l'U. A. G. avait convoqué, à Privas, pour la formation
+                d'un groupement régional, les cent trente-neuf camarades des six départements,
+                Ardèche, Drôme, Gard, Isère, Rhône et Vaucluse, cinquante-neuf seulement firent
+                parvenir la réponse qu'on leur demandait, vingt-six d'entre eaux disant qu'ils
+                viendraient à la réunion.</p>
+              <p>Finalement vingt purent se rendre à l'appel : treize de l'Ardèche, deux de la
+                Drôme, cinq de Vaucluse.</p>
+              <p>A 14 \mathrm{~h} .1 / 2, après un repas pris en commun, le groupe des camarades et
+                de leurs guides se rendit à la mairie, dans la salle du Conseil municipal mise à sa
+                disposition.</p>
+              <p>Le capitaine Izaac, président de l'U. A. G., venu de Paris pour diriger les
+                délibérations, propose d'élire comme président de séance le camarade Maurice Robert,
+                de Privas, membre du Conseil d'adminis- <pb n="28" break="no"/>
+                <note type="foliation">— 26 —</note> tration, chargé de réaliser la présente
+                réunion, et comme secrétairevoyant, M. Bonnel, professeur à Privas. Cette double
+                proposition est acceptée à l'unanimité.</p>
+              <p>Le camarade Robert donne alors la parole à M. Brisset, chef du cabinet,
+                représentant M. le Préfet de l'Ardèche empêché, qui, en quelques paroles de
+                chaleureuse sympathie, assure l'Assemblée des dispositions toutes bienveillantes des
+                pouvoirs publics, et approuve en leur nom la formation du nouveau groupement
+                régional. Il est digne des aveugles de guerre de continuer à donner l'exemple du
+                devoir accompli : en organisant pour eux-mêmes le travail régénérateur, ils aideront
+                aussi la France à gagner la paix.</p>
+              <p>On aborde ensuite l'ordre du jour de la réunion : 1<hi rend="superscript">°</hi> Le
+                capitaine Izaac, dans une allocution claire et substantielle, expose les services
+                déjà rendus par l'U. A. G. à ses adhérents.</p>
+              <p>Qu'advient-il tout d'abord des aveugles de guerre? Après leur blessure, on leur fit
+                dans les hôpitaux beaucoup de visites pour les réconforter et on leur disait : "La
+                vie est encore possible. "Mais comment? Ils avaient pour la plupart peu de
+                ressources. Diverses Sociétés généreuses s'efforcèrent de réaliser pratiquement les
+                effusions de la reconnaissance publique. Mais vers la fin de la guerre, malgré le
+                grand cœur de tant d'amis, le rang d'homme parut, en quelque sorte, perdu pour les
+                aveugles qu'elle avait faits. En 1918 cependant, quelques dizaines d'entre eux
+                pensèrent à se grouper, se mirent d'accord, élaborèrent des statuts et, parmi
+                quelques-uns d'entre eux, recueillirent les noms et adresses de 3.400 aveugles
+                auxquels M. Brieux s'était intéressé sur la demande du ministre de la Guerre. Des
+                circulaires parvinrent à en grouper 3.000 : l'U. A. G. était née. Mais beaucoup de
+                camarades n'ayant pu résister longtemps aux conséquences matérielles ou morales de
+                leur mutilation, lorsque l'U. A. G. rassembla finalement l'unanimité des survivants,
+                leur nombre avait diminué. Aujourd'hui, ils ne sont plus que 2.250 environ pour la
+                France, les colonies et les pays de protectorat.</p>
+              <p>Les Sociétés amies s'étaient d'abord inquiétécs, croyant voir dans la formation de
+                l'U. A. G. le résultat de réclamations dressées contre leur œuvre philanthropique.
+                Cela n'était pas; mais les aveugles de guerre ne voulaient pas être dans le pays des
+                enfants en tutelle et prétendaient essayer de vivre en hommes, d'être utiles.</p>
+              <p>C'est à la réalisation de ce souhait si légitime, que l'U. A. G. s'est employée
+                déjà et veut s'employer encore.</p>
+              <pb n="29"/>
+              <note type="foliation">— 27 —</note>
+              <p>Elle s'est d'abord occupée de l'amélioration des pensions. En 1921, le camarade
+                Robert poussa le Conseil d'administration à convaincre les parlementaires qu'il
+                fallait assurer définitivement et complètement la situation matérielle de l'aveugle
+                de guerre. Au 1<hi rend="superscript">er</hi> avril 1922, une amélioration vraiment
+                sensible fut obtenue.</p>
+              <p>L'Etat avait oublié les camarades devenus aveugles avant la guerre dans leur
+                service aux colonies, mais cet oubli est maintenant réparé.</p>
+              <p>Enfin, depuis juillet dernier, la majoration de pension pour les orphelins a été
+                portée de 300 à 500 francs.</p>
+              <p>Il reste cependant une grande lacune dans l'action de l'U. A. G. Elle n'a pas
+                obtenu d'amélioration dans les conditions de réversibilité de la pension pour les
+                veuves. A vrai dire, dans l'état actuel de nos finances, on hésite à demander
+                encore. Mais il est évident qu'une veuve d'aveugle ne peut rester avec 500 francs
+                seulement, car elle doit s'occuper de son mari tant qu'il vit et renoncer presque à
+                tout métier qui lui permette de se suffire par un travail personnel. D'autre part,
+                le délai donnant droit à la pension de réversibilité est beaucoup trop court.
+                Certains soldats sont devenus aveugles à dix-sept ans; on devrait au moins leur
+                permettre d'avoir trente ans avant de songer à se marier.</p>
+              <p>On a accordé aux aveugles de guerre la Légion d'honneur à titre civil. Cette mesure
+                choque le bon sens populaire et les meilleurs soldats de la dernière guerre, malgré
+                leur connaissance des textes législatifs, en restent profondément étonnés. Il y a
+                lieu de croire que le Parlement s'apercevra qu'il doit au plus tôt transformer les
+                Légions d'honneur civiles en récompenses purement militaires.</p>
+              <p>L'U. A. G. a créé, dès sa formation, une Caisse fraternelle. Au 1<hi
+                  rend="superscript">er</hi> septembre dernier, 180.000 francs venus du public
+                avaient été dépensés au bénéfice des camarades dans le besoin. Il ne convient pas de
+                continuer, car il y a des abus manifestes; 30.000 francs au maximum doivent suffire
+                annuellement pour les décès ou les accidents.</p>
+              <p>L'U. A. G. a résolu aussi de s'installer dans une maison bien à elle, car, rue du
+                Mont-Thabor, ce n'était ni assez grand ni assez confortable. Aussi un immeuble plus
+                vaste a-t-il été récemment acquis rue Ballu où le siège social sera solidement
+                installé.</p>
+              <p>L'U. A. G. a également fait construire des maisons de repos à Franceville, sur la
+                côte normande, qui ultérieurement pourront être transformées en maisons de retraite.
+                Plus tard, si la situation financière le permet, des organisations du même genre
+                pourront être envisagées sur divers points du territoire.</p>
+              <pb n="30"/>
+              <note type="foliation">— 28 —</note>
+              <p>L'U. A. G. a rendu d'immenses services aux aveugles de guerre; mais une nouvelle
+                organisation s'impose : Il faut décentraliser pour une action plus efficace, plus
+                précise. A l'heure actuelle, 1.700 camarades seulement répondent aux efforts du
+                Conseil d'administration; 500 lui échappent à peu près complètement, car ils ne font
+                que payer leur cotisation, se laissant aller à l'inertie, à l'indifférence, au
+                découragement. Mais les groupements régionaux peuvent les aider à sortir de cet état
+                fâcheux et néfaste. D'abord, ils soulageront les dépenses des bureaux de Paris, qui
+                se montent à 50.000 francs. Puis ils permettront aux camarades, pour quantité de
+                questions pouvant être traitées sur place, de s'adresser plus près, dans leur
+                région, ce qui n'empêchera pas la région d'en référer à Paris s'il y a lieu. Enfin,
+                ils pourront plus exactement s'appliquer à la rééducation et à la réorganisation du
+                travail devenues si nécessaires aujourd'hui. Ils mettront en œuvre les initiatives
+                locales et régionales pour les questions particulières et laisseront se centraliser
+                à l'U. A. G. les vœux se rapportant aux questions générales, car il faut conserver
+                l'unité, l'ordre, la discipline dans l'action collective.</p>
+              <p>Le capitaine Izaac recueille l'approbation de tous. On procède ensuite à la
+                formation d'un Comité régional : Sont nommés : Comme voyants : MM. Faugier,
+                industriel, et Bonnel, professeur de Privas.</p>
+              <p>Comme aveugles de guerre, les camarades Arnaud, de St-Vallier; Gardette, de
+                Montélimar; Coulomb, de Pertuis; Prialat, d'Avignon; Robert, de Privas; Roumeas, de
+                St-Péray, en attendant que le Gard, l'Isère, le Rhône, non représentés à la réunion,
+                fassent connaître leurs délégués.</p>
+              <p>Lecture est donnée par M. Bonnel, secrétaire, du Règlement intérieur des
+                groupements régionaux.</p>
+              <p>A l'unanimité, l'Assemblée émet le vœu que la Légion d'honneur soit donnée à titre
+                militaire et non à titre civil.</p>
+              <p>Sur proposition de Vernet, du Pouzin, elle émet aussi le vœu qu'il n'y ait pas de
+                limite d'âge pour la réversibilité de la pension des veuves, mais qu'on exige
+                seulement un an de mariage avant le décès.</p>
+              <p>Le Comité régional s'occupera de découvrir dans chaque département les personnes
+                qui voudront bien s'intéresser à l'action spéciale de l'U. A. G. en offrant d'une
+                manière désintéressée leur collaboration.</p>
+              <pb n="31"/>
+              <note type="foliation">— 29 —</note>
+              <p>A son tour, le camarade Robert expose avec ure conviction réfléchie et étudiée les
+                avantages matériels et surtout moraux du travail pour les aveugles de guerre.
+                Jusqu'à présent, un certain nombre n'ont pas fait de véritable rééducation; mais ils
+                se sont laissé vivre, dorlotés comme des enfants; aussi beaucoup se découragent.
+                Qu'ils le sachent, le travail, dont on ne se lasse jamais tant que du repos, est
+                indispensable à leur indépendance et à leur dignité ? Mais il doit être bien choisi
+                et bien organisé. Or, il en est un qui offre plus d'avantage que tout autre, pour la
+                région, c'est le tricotage. Le camarade Robert pense fermement que, si on lui donne
+                une forme à la fois industrielle et commerciale, en l'organisant à domicile ou en
+                atelier, il peut répondre assez bien aux conditions voulues. Robert adjure donc
+                vivement ses camarades de faire l'apprentissage du métier de tricoteur et de se
+                solidariser le plus possible pour en tirer parti. Le Bureau du groupement régional
+                s'emploiera de toutes ses forces à les y aider, avec le concours de l'U. A. G. et
+                des œuvres amies. Robert est suivi avec le plus large intérêt et plusieurs camarades
+                donnent immédiatement leur adhésion au projet.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée. Signé : Maurice Robert.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h43">CONSTITUTION DU GROUPEMENT
+                DE LA REGION DU NORD</head>
+              <p>Le dimanche 22 octobre, s'est tenue à Lille, salle du Conservatoire, l'Assemblée
+                constitutive du Groupement des Aveugles de guerre de la région du Nord; ce dernier
+                comprend les départements du Nord et du Pas-de-Calais et compte une centaine de
+                membres.</p>
+              <p>Après un exposé du capitaine Izaac démontrant la nécessité de la création des
+                groupements régionaux, l'Assemblée approuva le règlement intérieur dans tous ses
+                articles et constitua son bureau comme suit : Président : Planquette; secrétaire
+                général : Hennebicq; délégué du Nord : Muret; délégué du Pas-de-Calais : Derunder;
+                commissaire aux comptes : Donce, membre voyant.</p>
+              <p>Etaient présents: MM. Izaac et Noireaux, administrateurs de l'Union.</p>
+              <p>MM. Barbier, Boé, Bonamy, Brunon, Cataert, Couteau, Derunder, Deroyer, Dewlieger,
+                Duforest, Erouart, Goguillon, Hennebicq, Joly, <pb n="32"/>
+                <note type="foliation">— 30 —</note> Lemaire (Louis), Lehouck, Levy, Lefebvre
+                (Charles), Lefebvre (Julien), Limmien, Ocre, Ogé, Planquette, Prudhomme, Revolois,
+                Sty, Theret, Villette, Vanluggene, Van Audenaerde.</p>
+              <p>Les camarades de la région seraient désireux qu'un carnet portant les noms,
+                adresses et professions de chacun d'eux, soit imprimé.</p>
+              <p>Que la carte d'invalidité à double barre remplace, à elle seule, toutes celles de
+                réduction et de priorité sur les transports.</p>
+              <p>Muret demande l'extension de la durée du droit à pension pour les veuves de
+                camarades non encore mariés et de faire augmenter la pension qui leur est
+                allouée.</p>
+              <p>Concernant les non-décorés, un certain nombre de camarades ont émis le veeu
+                ci-après :</p>
+              <p>Que la médaille militaire soit attribuée à tous ceux qui sont devenus aveugles,
+                soit par blessure, accident ou maladie ayant séjourné au moins trois mois dans la
+                zone des armées.</p>
+              <p>Une courte explication eut lieu au sujet de la répartition des dons en nature qui
+                pourraient être faits à l'avenir.</p>
+              <p>Les questions soulevées furent discutées avec un large esprit de camaraderie et
+                l'Assemblée se sépara confiante dans l'action régionale.</p>
+              <p>Pour le Groupement régional de Lille : Le secrétaire général : HennebicQ. Notre
+                camarade Erouart a fait paraître dans le Réveil du Nord un bel article sur cette
+                régionale.</p>
+              <p>Cet article explique le but de ces groupements, donne leur programme et par suite
+                ne peut que nous être très utile.</p>
+              <p>Remercions donc Erouart de son initiative.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h44">GROUPEMENT REGIONAL DU MANS
+                DE L'UNION DES AVEUGLES DE GUERRE</head>
+              <p>Section départementale du Maine-et-Loire Compte rendu du banquet organisé dans les
+                salons Vallage, 24 bis, rue de Brissac, à Angers, le dimanche 1<hi
+                  rend="superscript">er</hi> octobre 1922.</p>
+              <p>Les aveugles de guerre du Maine-et-Loire se sont réunis en un banquet intime, à
+                Angers, le 1<hi rend="superscript">er</hi> octobre, à midi.</p>
+              <p>Assistaient à ce banquet : les camarades Baudon, Bernier, Blaize, <pb n="33"/>
+                <note type="foliation">— 31 —</note> Boudeville, Cointepas, Duverger, Leveau, Moron,
+                Panteme et Pichonneau; Mme Barrault, de Chalonnes-sur-Loire, abonnée au Bulletin de
+                notre Union; M. Thomas, représentant du journal Le Petit Courrier; onze personnes et
+                deux enfants accompagnaient nos camarades.</p>
+              <p>Le camarade Leveau prend la parole pour donner connaissance du télégramme qu'il a
+                reçu du capitaine Izaac, à qui il comptait offrir la présidence de cette réunion,
+                l'informant de l'impossibilité dans laquelle il se trouvait de répondre à notre
+                aimable invitation. Leveau remercie ensuite chaleureusement Mme Barrault et M.
+                Thomas, qui ont bien voulu répondre à notre appel, donnant la plus belle preuve du
+                grand intérêt qu'ils nous portent, et rehaussant ainsi par leur présence l'éclat de
+                notre fête intime.</p>
+              <p>Après un repas très confortable pour un prix relativement modique, lecture est
+                donnée d'une lettre de M. Landais, maire de Chacé, près Saumur, abonné au Bulletin
+                de notre Union, nous exprimant ses regrets de ne pouvoir se joindre à nous à cause
+                de ses nombreuses occupations, mais nous informant, d'autre part, que désirant
+                participer néanmoins à notre banquet, il se fait un plaisir de nous adresser un
+                caisson de six bouteilles de vin mousseux, "Le Grand Saumur ". Lecture est également
+                donnée de la réponse qui a été adressée en temps utile à ce généreux donateur.
+                Leveau s'unit à ses camarades pour remercier M. Landais, à la santé de qui chacun
+                lève son verre. Au moment de prendre le café, grâce aux dons spéciaux et généreux de
+                MM. Malinge et Guillet, et de M. Bigeard, également abonnés à notre Bulletin
+                mensuel, un délicieux cigare est offert à chacun des convives.</p>
+              <p>Ce banquet est alors suivi d'une réunion à laquelle prennent part tous les
+                convives, pour l'examen des questions intéressant la cause des aveugles de
+                guerre.</p>
+              <p>Lecture est donnée du rapport moral et du rapport financier de l'Union des Aveugles
+                de Guerre, pour l'exercice 1921-1922. Aucune observation n'est faite à ce sujet,
+                quelques vœux sont émis, dont il sera fait mention à la fin de ce compte rendu.</p>
+              <p>Leveau prend ensuite la parole ; il indique à ses camarades que pour cette réunion
+                trente lettres ont été adressées aux personnes du Maine-et-Loire s'intéressant à
+                notre cause; se sont fait excuser : Mines Lacretelle, de la Noue, Querqui; MM.
+                Antoine, Bigeard, Deshayes, Hérard, Landais, Malinge et Guillet, Métivier, Rousseau,
+                Sallé. D'autre part, sur vingt et un aveugles de guerre convoqués, six se sont fait
+                excuser : Chupin, Courtas, Gallard, Girardeau, Piron et <pb n="34"/>
+                <note type="foliation">— 32 —</note> Veillet; dix sont présents, ce qui porte le
+                nombre de ceux qui n'ont pas répondu à cinq. Leveau constate avec plaisir que les
+                camarades s'intéressent de plus en plus à notre groupement, puisque lors de l'envoi
+                de sa première lettre-circulaire du 29 juin, dix lettres étaient restées sans
+                réponse; il espère, la prochaine fois, obtenir la collaboration de tous sans aucune
+                exception.</p>
+              <p>Quelques camarades ne comprennent pas très bien l'utilité d'un groupement régional
+                et auraient préféré la création de groupements départementaux, cela surtout à cause
+                des difficultés de transports. Prenant comme exemple notre groupement, ils indiquent
+                les difficultés qu'ils rencontrent déjà pour se rendre à Angers, centre de notre
+                département, soit du fait qu'ils doivent voyager sur une ligne de chemin de fer
+                d'intérêt local n'ayant pas toujours un horaire très pratique, soit qu'ils n'ont pas
+                de correspondance facile avec les grandes lignes. Ils en déduisent qu'à plus forte
+                raison, ils éprouvent encore plus de difficultés pour se rendre au Mans, centre de
+                notre groupement. Leveau comprend parfaitement la justesse de ce raisonnement, mais
+                il explique le bon côté des groupements régionaux, qui sont indispensables si on
+                veut obtenir une réelle collaboration de chacun de nous avec le siège de notre
+                Union, pour la défense de nos intérêts communs. L'Union a réuni plusieurs
+                départements dans un même groupement, pour deux raisons principales : 1<hi
+                  rend="superscript">°</hi> tous les départements n'ont pas un nombre suffisant
+                d'aveugles de guerre pour constituer chacun un groupement départemental; 2<hi
+                  rend="superscript">°</hi> dans chaque département on ne trouve pas toujours un
+                camarade disposant d'assez de temps et ayant certaines facilités pour diriger un
+                groupement. Or, vous le savez, le Comité administratif du Groupement régional
+                comprend au moins un délégué dans chaque département. Or, c'est précisément ce
+                délégué départemental qui joue le rôle le plus important dans notre groupement, il a
+                pour mission de se mettre en rapport très étroit avec les camarades de son
+                département, il doit prendre toutes mesures utiles pour assurer la défense de leurs
+                intérêts locaux, il doit connaître leurs besoins ou leurs désirs, et c'est lui leur
+                porte-parole auprès du Comité administratif du groupement concernant la cause
+                commune des aveugles dé guerre. C'est donc essentiellement avec leur délégué que les
+                camarades d'un même département doivent garder la plus étroite liaison. Quant au
+                Comité administratif du groupement, son rôle est de rassembler les rapports des
+                délégués départementaux, afin de communiquer au Conseil d'administration de notre
+                Union les vœux et revendications des membres du groupement, intéressant la cause
+                commune des aveugles de guerre, en outre, le pré- <pb n="35" break="no"/>
+                <note type="foliation">— 33 —</note> sident et le secrétaire du groupement doivent
+                assurer leur concours en toutes circonstances aux délégués départementaux.</p>
+              <p>Après ces explications, les camarades du Maine-et-Loire approuvent alors
+                unanimement une telle organisation appelée à rendre les plus grands services à
+                tous.</p>
+              <p>On passe ensuite en revue l'action menée dans le département depuis la création du
+                groupement. Les plus vifs remerciements sont adressés à l'administration du journal
+                Le Petit Courrier, qui, au lendemain même de notre réunion du Mans, s'est mise à
+                notre entière disposition et n'a cessé depuis de témoigner le grand intérêt qu'elle
+                nous porte en publiant dans son journal plusieurs articles très précis sur
+                l'organisation de notre groupement et sur les différents projets d'ordre général
+                établis par l'Union des Aveugles de Guerre.</p>
+              <p>Leveau informe ses camarades de l'acceptation aux fonctions de trésorier de notre
+                groupement, faite par M. le commandant de Bouille, maire de Coulonges (Orne), sur
+                l'intervention de notre camarade Toutain.</p>
+              <p>Démarches faites et résultats obtenus : M <hi rend="superscript">°</hi> Hérard,
+                avocat à Angers, a bien voulu accepter à des conditions exceptionnelles de fournir
+                des renseignements et aider de ses conseils nos camarades du Maine-et-Loire; nous
+                pouvons être assurés de son entier dévouement.</p>
+              <p>Une demande a été adressée au préfet du Maine-et-Loire, tendant à obtenir la
+                priorité dans les établissements publics de l'Etat, pour toutes les démarches
+                concernant notre invalidité, aucune solution n'est encore intervenue, cette démarche
+                sera renouvelée en temps utile.</p>
+              <p>Un rapport a été fourni au Comité départemental des Mutilés sur sa demande,
+                concernant l'organisation éventuelle d'une bibliothèque Braille, la publication d'un
+                journal Braille, la propagande à faire pour que la méthode Braille soit employée de
+                plus en plus par les aveugles.</p>
+              <p>Une lettre a été adressée au président du Conseil général du Maine-et-Loire
+                concernant les chemins de fer de l'Anjou qui, actuellement, accordent une demi-place
+                à l'aveugle et une demi-place à son guide, soit, au total, une place entière, alors
+                que les mutilés à partir de 500 / 0 bénéficient effectivement de la réduction d'une
+                demi-place puisqu'ils peuvent voyager seuls, ce qui n'est pas notre cas. Nous
+                demandons, en conséquence, que l'aveugle et son guide réunis ne paient également
+                qu'une seule demi-place. D'après un compte rendu de la session du Conseil général,
+                il semble que notre demande a été repoussée, mais aucune note officielle ne nous est
+                encore parvenue à ce sujet. En tout <pb n="36"/>
+                <note type="foliation">— 34 —</note> cas, cette démarche sera poussée jusqu'à ce que
+                nous obtenions satisfaction.</p>
+              <p>A la suite d'une demande adressée au directeur de la Compagnie des Tramways
+                électriques d'Angers, l'administration centrale de cette Compagnie a décidé
+                d'accorder une carte de circulation gratuite aux aveugles de guerre domiciliés dans
+                les localités desservies par ses lignes, le guide payant place entière. Or, cette
+                carte est soumise à un impôt de l'Etat qui se monte annuellement à la somme de
+                vingt-cinq francs, taxe trop élevée comparativement à nos rares déplacements et qui
+                nous empêche de profiter de la faveur accordée par cette Compagnie. Les tramways
+                nous donnent d'une main, mais l'Etat reprend de l'autre. Une nouvelle démarche a été
+                tentée pour essayer de faire disparaitre cet obstacle, espérons qu'elle recevra une
+                suite favorable.</p>
+              <p>Formation d'un Comité de clairvoyants. - Dans sa réunion du 8 octobre prochain qui
+                aura lieu au Mans, le Comité administratif de notre groupement doit constituer un
+                Comité de clairvoyants comprenant toutes les personnes dévouées à notre cause.
+                Plusieurs lettres ont été adressées à cet effet à des personnes du Maine-et-Loire.
+                Mme Lacretelle, d'Angers, et Mme Querqui, de Saumur, ont accepté de faire partie de
+                ce Comité, nous les en remercions très sincèrement. Leveau propose d'inscrire
+                d'office dans ce Comité, Mme Jauneau, d'Angers, qui, depuis longtemps déjà, se
+                dévoue à notre cause en s'occupant du placement des divers objets fabriqués par nos
+                camarades, ainsi que <hi rend="superscript">M</hi>^{\circ} Hérard, dont le
+                dévouement est acquis à notre cause. Ces propositions sont acceptées à
+                l'unanimité.</p>
+              <p>Une cérémonie devant avoir lieu le dimanche 29 octobre, à Angers, pour
+                l'inauguration d'un monument aux morts de la grande guerre, Leveau devant être
+                absent d'Angers à cette date, demande au camarade Panterné de bien vouloir
+                représenter notre groupement, Panterné accepte volontiers.</p>
+              <p>Dons reçus dans le département. - La section Justice Saint-Léonard de l'U. N. C.
+                nous a remis la somme de vingt francs provenant d'une vente de fleurs qu'elle avait
+                organisée; cette somme est affectée aux aveugles de guerre du Maine-et-Loire. Nous
+                avons, d'autre part, reçu avec affectation spéciale à l'organisation de notre
+                banquet la somme de dix francs de MM. Malinge et Guillet, et cinq francs de M.
+                Bigeard, directeur de la Compagnie du Gaz d'Angers. Nous remercions les généreux
+                donateurs.</p>
+              <p>Lecture est donnée de la lettre de notre camarade Toutain, nous informant que sur
+                sa demande la Fédération des Mutilés de l'Orne <pb n="37"/>
+                <note type="foliation">— 35 —</note> nous a alloué la somme de cent francs pour
+                servir aux frais de formation de notre groupement.</p>
+              <p>Leveau fait savoir que depuis le 28 mai dernier, 129 lettres ont été expédiées par
+                ses soins, dont 39 pour le groupement, et 90 pour le département.</p>
+              <p>Après entente avec les différents délégués départementaux, Leveau compte organiser
+                l'Assemblée générale du groupement au Mans en mai ou juin 1923, il espère, d'autre
+                part, réunir les camarades de son département en octobre 1923 en un banquet intime
+                suivi d'un grand concert au profit de notre Union pour un but déterminé. Les
+                camarades seront prévenus en temps utile et auront la faculté d'émettre leur avis
+                sur ces différentes réunions.</p>
+              <p>Vœux émis par les aveugles de guerre du Maine-et-Loire : 1<hi rend="superscript"
+                  >°</hi> Concernant le projet d'affiliation à l'Union Fédérale, nous demandons que
+                l'Union des Aveugles de Guerre reste indépendante, tout en conservant avec les
+                autres Sociétés de Mutilés des rapports très cordiaux; 2<hi rend="superscript"
+                  >°</hi> Nous demandons que le titre de "Pupille de la Nation» soit accordé à tous
+                nos enfants, sans qu'il soit créé un privilège pour ceux qui sont nés ou ont été
+                conçus avant la cessation des hostilités. Il existe, du reste, des précédents
+                provenant peut-être d'erreurs, mais dont peuvent témoigner nos camarades Moron et
+                Panterne; 3<hi rend="superscript">°</hi> Nous demandons que les veuves de tous nos
+                camarades aient droit à la pension de réversion, quelle que soit la date à laquelle
+                le mariage a été contracté; 4<hi rend="superscript">°</hi> Nous demandons que les
+                efforts de notre Union tendent à faire obtenir une pension plus forte à nos veuves
+                qui ont donné une grande partie de leur existence pour nous et se trouvent dans une
+                situation très précaire au moment de notre mort, avec la faible pension qui leur est
+                actuellement accordée; 5<hi rend="superscript">°</hi> Nous demandons que nos
+                ascendants aient droit à la même pension que les ascendants des soldats tués à
+                l'ennemi, puisque du fait de notre invalidité, ils ont perdu le soutien qu'ils
+                pouvaient avoir en nous; 6<hi rend="superscript">°</hi> Nous demandons que les
+                camarades qui ont l'avantage de posséder un tandem ne soient pas obligés de payer
+                double plaque comme les voyants, puisque, du fait de leur cécité, il leur est
+                impossible de faire de la bicyclette; 7<hi rend="superscript">°</hi> On nous crie
+                sur tous les tons que nous sommes menacés de tuberculose et de bien d'autres
+                maladies par suite de notre manque <pb n="38"/>
+                <note type="foliation">— 36 —</note> de mouvements, on nous conseille de faire du
+                sport. Le meilleur remède à notre inaction serait que nous possédions chacun un
+                quadricycle. Que les grandes œuvres d'aveugles de guerre s'unissent, qu'elles nous
+                offrent de payer les deux tiers de ce quadricycle, et chacun de nous, s'il désire
+                réellement s'en servir, trouvera bien le moyen d'acquitter le dernier tiers.</p>
+              <p>Avant de terminer la séance, Leveau dit que la question du travail ne lui a amené
+                aucune réclamation spéciale, ce qui semblerait indiquer que tous nos camarades sont
+                satisfaits, si ce n'est Pichonneau de Longué, ajusteur-mécanicien et lui-même
+                sténographe-dactylographe, qui, du fait de leur spécialité même, ne trouvent pas de
+                travail à exécuter chez eux.</p>
+              <p>Leveau remercie les camarades et toutes les personnes qui ont bien voulu prendre
+                part à cette petite réunion intime, il espère que la prochaine fois nous serons
+                encore plus nombreux, et il demande à chacun de faire une grande propagande pour
+                amener des abonnés à notre Bulletin mensuel, organe qui renseignera toujours de la
+                façon la plus précise, aux personnes qui s'intéressent à notre cause, sur nos
+                besoins, nos désirs et nos projets, et par l'intermédiaire duquel les concours les
+                plus précieux peuvent nous être apportés.</p>
+              <p>La séance est levée à 17 heures. Au moment où je termine ce rapport, je reçois une
+                lettre de la Compagnie des Tramways Electriques d'Angers m'informant qu'à la suite
+                d'une demande faite par son administration centrale auprès de l'administration des
+                contributions indirectes, cette dernière a admis l'exonération de la taxe de 100 / 0
+                pour les cartes de libre parcours délivrées aux aveugles de guerre. Tout est donc
+                pour le mieux, sincères remerciements à la Compagnie des Tramways Electriques
+                d'Angers, ainsi qu'à l'administration des contributions indirectes.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h45">GROUPEMENT REGIONAL DU
+                MANS</head>
+              <p>Compte rendu de la réunion du Comité administratif du 8 octobre 1922.</p>
+              <p>Sont présents : Leveau, président (Maine-et-Loire); Toutain, secrétaire (Orne);
+                Courtemanche et Ruel (Sarthe).</p>
+              <p>Excusés : Commandant de Bouillé, trésorier; Doiteau (Mayenne). Lecture est donnée
+                du télégramme du commandant de Bouillé, qui, se trouvant souffrant est dans
+                l'impossibilité d'assister à notre réunion. Nous regrettons vivement son absence et
+                en même temps que nous for- <pb n="39" break="no"/>
+                <note type="foliation">— 37 —</note> mons des vœux pour son prompt rétablissement,
+                nous lui adressons nos sincères remerciements pour avoir bien voulu accepter les
+                fonctions de trésorier de notre groupement, sur l'intervention de notre camarade
+                Toutain.</p>
+              <p>Lecture est faite des rapports fournis par les délégués du Maine-et-Loire et de
+                l'Orne.</p>
+              <p>Comme il s'agit de la première réunion administrative, Leveau donne quelques
+                précisions sur le but de notre groupement, et sur le rôle actif que chaque délégué
+                doit avoir dans son département; il rappelle que le président et le secrétaire du
+                groupement doivent se tenir à la disposition des délégués départementaux chaque fois
+                que ceux-ci jugeront leur collaboration utile.</p>
+              <p>Résultats obtenus à la suite de démarches locales : Maître Hérard, avocat à Angers,
+                a bien voulu accepter de fournir des renseignements et aider de ses conseils nos
+                camarades du Maine-et-Loire à des conditions exceptionnelles.</p>
+              <p>Le journal Le Petit Courrier a fait paraître, depuis le 28 mai dernier, plusieurs
+                articles concernant notre groupement et différents projets de notre Union.</p>
+              <p>La Compagnie des tramways électriques d'Angers a accordé une carte de circulation
+                gratuite aux aveugles de guerre domiciliés dans les localités desservies par ses
+                lignes, le guide payant seul sa place.</p>
+              <p>Les réunions départementales suivantes ont eu lieu : pour le Maine-et-Loire, le
+                dimanche 1<hi rend="superscript">er</hi> octobre; pour l'Orne, à la même date.</p>
+              <p>Lettres envoyées du 28 mai 1922 au 30 septembre 1922 : 188. Formation d'un Comité
+                de clairvoyants : Le Comité administratif du groupement, afin d'être aidé dans ses
+                démarches et secondé dans tous ses efforts, décide de s'entourer d'un Comité de
+                clairvoyants comprenant les personnes dévouées à notre cause dans chaque
+                département. Sont nommés membres de ce Comité: Mmes Jauneau, à Angers, Lacrételle, à
+                Angers et Querqui, à Saumur, Maître Hérard, avocat à Angers. Les délégués de la
+                Mayenne, de l'Orne et de la Sarthe sont invités à rechercher les personnes
+                susceptibles de faire partie de ce Comité.</p>
+              <p>Après un examen des questions générales intéressant la cause commune des aveugles
+                de guerre, plusieurs vœux sont formulés :</p>
+              <p>Concernant le projet d'affiliation à l'Union Fédérale, nous demandons que l'" U. A.
+                G. " reste indépendante, afin d'avoir son entière liberté d'action. Cela ne nous
+                empêche pas de conserver des relations cordiales avec les associations de
+                mutilés.</p>
+              <p>Nous demandons que le titre de Pupille de la Nation soit accordé <pb n="40"/>
+                <note type="foliation">— 38 —</note> à tous nos enfants, sans qu'il soit créé une
+                sorte de privilège pour ceux qui sont nés ou ont été conçus avant la cessation des
+                hostilités.</p>
+              <p>Nous demandons que nos veuves aient droit à la pension de réversion, quelle que
+                soit la date à laquelle le mariage a été contracté.</p>
+              <p>Nous demandons que la pension de réversion de nos veuves soit augmentée et portée
+                au moins à la moitié de notre pension réelle, c'est-à-dire à 1.200 francs.</p>
+              <p>Nous demandons que nos ascendants aient droit à pension comme les ascendants des
+                tués à l'ennemi, puisque du fait de notre invalidité, ils ont perdu le soutien
+                qu'ils pouvaient trouver en nous.</p>
+              <p>Nous demandons que ceux de nos camarades qui ont l'avantage de faire du tandem
+                n'aient à payer qu'une seule plaque et non deux comme les voyants, puisque du fait
+                de leur cécité, ils ne peuvent faire de la bicyclette.</p>
+              <p>Afin de nous permettre de faire un exercice agréable et des plus utiles pour notre
+                santé qui laisse souvent à désirer, par suite de notre manque de mouvements, nous
+                serions heureux de voir les grandes Euvres d'aveugles de guerre s'unir pour nous
+                offrir de payer les deux tiers du prix d'un quadricycle, étant persuadés que chacun
+                de nous, s'il désire réellement s'en servir, trouvera bien le moyen d'en acquitter
+                le dernier tiers.</p>
+              <p>Concernant la Caisse Fraternelle de notre Union, nous exprimons le désir de la voir
+                disparaître pour faire place à une Caisse de Mutualité régulièrement constituée et à
+                laquelle chacun devrait verser une cotisation à fixer. Cette caisse n'aurait à
+                intervenir que pour les maladies et décès.</p>
+              <p>Le camarade Toutain, qui représentera notre groupement à l'Assemblée générale de l'
+                "U. A. G. ", donnera, s'il y a lieu, des'explications complémentaires sur ces
+                différents vœux ou rappels de vœux.</p>
+              <p>Sur la proposition du camarade Ruel, délégué de la Sarthe, étude sera faite d'un
+                projet de coopérative d'achats en commun des matières premières pour brossiers,
+                spécialement en ce qui concerne le chiendent et la ficelle.</p>
+              <p>Pendant l'examen de cette dernière question, un vœu est. émis, tendant à obtenir
+                l'exonération complète de l'impôt sur le chiffre d'affaires.</p>
+              <p>Lecture est ensuite donnée des rapports financiers, qui se récapitulent ainsi :</p>
+              <pb n="41"/>
+              <note type="foliation">— 39 —</note>
+              <table>
+                <head type="section" rend="align(center)">Recettes</head>
+                <row>
+                  <cell>3 septembre : Malinge et Guillet. . . . . . . . . . . . . . .Fr.</cell>
+                  <cell> 10 "</cell>
+                </row>
+                <row>
+                  <cell>" Don Bigeard. . . . . . . . . . . . . . . . . . . . </cell>
+                  <cell>5 "</cell>
+                </row>
+                <row>
+                  <cell>(Ces deux dons ont été faits avec affectation spéciale aux frais
+                    d'organisation du banquet du 1<hi rend="superscript">er</hi> octobre du
+                    Maine-et-Loire.)</cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell>18 septembre : Don de l'. "U. N. C. ", section Justice Saint-Léonard, pour
+                    les aveugles de guerre du Maine-et-Loire .Fr.</cell>
+                  <cell>20 "</cell>
+                </row>
+                <row>
+                  <cell>28 septembre: Don Fédération des Mutilés de l'Orne pour frais formation de
+                    notre groupement. . . . . . . . . . .Fr.</cell>
+                  <cell>100 "</cell>
+                </row>
+                <row>
+                  <cell>Total . . . . . . . . . . . . . . . . . . . . . . . . .Fr. </cell>
+                  <cell>135 "</cell>
+                </row>
+              </table>
+              <table>
+                <head type="section" rend="align(center)">Dépenses</head>
+                <row>
+                  <cell>Frais de correspondance du Maine-et-Loire. . . . . . . .Fr.</cell>
+                  <cell>3213</cell>
+                </row>
+                <row>
+                  <cell>Papier, enveloppes et fournitures diverses. . . . . . . . . . . . . .</cell>
+                  <cell>787</cell>
+                </row>
+                <row>
+                  <cell>Frais organisation du banquet du 1<hi rend="superscript">er</hi> octobre. .
+                    . . . . . . . . .</cell>
+                  <cell>15 "</cell>
+                </row>
+                <row>
+                  <cell>Frais de correspondance de l'Orne. . . . . . . . . . . . . . . . .</cell>
+                  <cell>720</cell>
+                </row>
+                <row>
+                  <cell>Papier, enveloppes et fournitures diverses. . . . . . . . . .</cell>
+                  <cell>1 50</cell>
+                </row>
+                <row>
+                  <cell>Frais de réunion du 1er octobre . . .. . . . . . . . . . . .</cell>
+                  <cell>6 "</cell>
+                </row>
+                <row>
+                  <cell>Versement à l'U. A. G., 10 0/0 sur 120 francs »</cell>
+                  <cell>12 "</cell>
+                </row>
+                <row>
+                  <cell>TOTAL ...................... Fr</cell>
+                  <cell>81 70</cell>
+                </row>
+                <row>
+                  <cell>Reste en caisse au 1er octobre 1922 .............. Fr.</cell>
+                  <cell>53 30</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h46">LEGION D'HONNEUR</head>
+              <p>Par décret du 30 octobre 1922, ont été nommés au grade de chevalier de la Légion
+                d'honneur par application de la loi du 16 août 1920. AUBINEAU
+                (Henri-Auguste-Hipppolyte), ex-soldat au 293<hi rend="superscript">°</hi> rég.
+                d'infanterie. BLANCHARD (Théodule-Georges), ex-soldat au 94<hi rend="superscript"
+                  >°</hi> rég. d'infanterie. CHAPLAIN (André), ex-soldat au 172<hi
+                  rend="superscript">°</hi> rég. d'infanterie. CYSSAU (Omer-Achille-René), ex-soldat
+                au 16<hi rend="superscript">°</hi> bataillon de chasseurs à pied. BALESTER
+                (Baptiste) , ex-soldat au l<hi rend="superscript">°</hi> régiment étranger. <pb
+                  n="42"/>
+                <note type="foliation">— 40 —</note> Hilaire (Gustave-Léon), ex-soldat au 261<hi
+                  rend="superscript">°</hi> rég. d'infanterie. Lallemant (Joseph-Célestin),
+                ex-soldat au 10<hi rend="superscript">°</hi> rég. d'infanterie. Laurent
+                (Ernest-Eugène), ex-soldat au 82<hi rend="superscript">°</hi> rég. d'infanterie.
+                Lefebvre (Oscar-Julien), ex-soldat au 169<hi rend="superscript">°</hi> rég.
+                d'infanterie. Lemaire (Georges-Adolphe), ex-soldat au 348<hi rend="superscript"
+                  >°</hi> rég. d'infanterie. Madaire (Albert-Antoine-Louis), ex-soldat au 113<hi
+                  rend="superscript">°</hi> rég. d'infanterie. Mattei (Charles), ex-caporal au 14<hi
+                  rend="superscript">°</hi> bataillon de chasseurs à pied. Nicolet (Jean-Pierre),
+                ex-caporal au 42<hi rend="superscript">°</hi> rég. d'infanterie. Kolb (Alfred),
+                ex-soldat au 117<hi rend="superscript">°</hi> rég. d'infanterie.</p>
+              <pb n="43"/>
+              <note type="foliation">— 41 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h47">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Izaac; vice-présidents : Chautard, Noireaux, Roy Georges. Secrétaire
+              général : Favret. Trésorier : L'Evesque Gaston. Membres: MM. Amar, Antoine, Arnault,
+              Bardoux, Bois, Bertrand, Delage, Dufourc, Durat, Goubin, Guderin, Laffargue, Lagarde,
+              Lallement, Leloup, Leveau, Malgat, Marie, Robert (Maurice), Sainte-Rose, Scapini,
+              Sigault, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h48">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, sénateur, président d'honneur ; M. le baron de Traversay,
+              président ;</p>
+            <p>Mlle Arbel, vice-présidente ; M. Meynadier, vice-président ; M. Bloch,
+              secrétaire-adjoint ; M. Auterbe, actuaire à la Compagnie I' « Union »;</p>
+            <p>Mme Boylesve ; Mme Broquin ; M. Pierre Cherot ;</p>
+            <p>Mme Chevalier ; Mme Contamin ; M. Dubranle, inspecteur des Ecoles de Rééducation ; M.
+              de Fleurieu ;</p>
+            <p>Mlle L. Ghrs ; Mlle Jalaguier ; Mme Kalt ; Mme Lévy-Weiss ; M. Mayer ;</p>
+            <p>Mme Meyer ; M. Roux ; M. Joseph Roux ; M. Sollar ;</p>
+            <p>Dr Schneider ; Mme Yves.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h49">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente ; Mme Leygues ; Mme Le Troquer ; Mme Lhopiteau. Mme
+              J.-L. Lebreton. Mme Marthe Brandès, présidente de l'Abri du Soldat Aveugle.</p>
+            <pb n="44"/>
+            <note type="foliation">— 42 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h50">Liste des Donateurs</head>
+            <p>En souvenir de Mlle Antoinette Legat, artiste dramatique ..... 2.000 " Subvention de
+              l'Indo-Chine ..... 3.000 " Subvention de l'Ile de la Réunion ..... 200 " Mlle Edmée
+              Danon, Paris ..... 25 " M. Louis Rivoire, Pont-de-Beauvoisin (Savoie) ..... 100 " Part
+              nous revenant sur la fête de Vincennes ..... 10.000 " Mme H. Canevet, Stubbs, Calais
+              ..... 150 " Mme Louis Pouiles, Pamiers (Ariège) ..... 10 " Anonyme ..... 2 " Anonyme
+                <hi rend="superscript">n</hi>^{\circ} 10.420 ..... 100 " Association Amicale des
+              Anciens du 355<hi rend="superscript">°</hi> rég. d'inf. ..... 186 " Mme Francis
+              Tattegrain, Senlis ..... 50 " Mlle Brossaud, Pornic (Loire-Inférieure) ..... 200 " M.
+              Sabatier d'Espeyran, Paris ..... 200 " Mme Labrousse, Paris ..... 10 " Anonyme <hi
+                rend="superscript">n</hi>^{\circ} 10.453 ..... 22.90 Anonyme <hi rend="superscript"
+                >n</hi>^{\circ} 10.471 ..... 100 " M. Andhré Bouche ..... 16480</p>
+          </div>
+        </div>
+      </div>
+
+    </body>
+  </text>
+</TEI>
