@@ -1,0 +1,1287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 10ème année 1928 n°2</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Paix</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 28 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#fidac">F.I.D.A.C.</term>
+          <term ref="#fop">F.O.P.</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#paix">Paix</term>
+          <term ref="#office-national-des-combattants">Office National des Combattants</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de L'UNION DES AVEUGLES DE GUERRE aborde divers sujets liés aux
+          anciens combattants et aux victimes de guerre. Il comprend des articles de fond sur le
+          rôle des anciens combattants dans la promotion de la paix, des informations pratiques
+          concernant les pensions et les cartes d'invalidité, ainsi que des comptes rendus de
+          réunions et des allocutions de personnalités importantes. Le bulletin vise à informer et à
+          soutenir les membres de l'organisation et à promouvoir leurs intérêts.</p>
+      </abstract>
+      <creation>
+        <date when="1928-02-01">01/02/1928</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-11" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-11" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h7">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h8">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h9">Le Devoir des Anciens Combattants</ref>
+          </item>
+          <item>
+            <ref target="#h11">Un Meeting de la F.O.P.</ref>
+          </item>
+          <item>
+            <ref target="#h12">Allocution de M. Sansanelli Président de la F.I.D.A.C. à la
+              Délégation Française</ref>
+          </item>
+          <item>
+            <ref target="#h13">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h14">L'Office National du Combattant</ref>
+              </item>
+              <item>
+                <ref target="#h15">Le paiement des pensions au nouveau tarif</ref>
+              </item>
+              <item>
+                <ref target="#h16">Cartes d'invalidité</ref>
+              </item>
+              <item>
+                <ref target="#h17">Une circulaire du Ministère des Pensions</ref>
+              </item>
+              <item>
+                <ref target="#h18">LES INSTRUCTIONS MINISTERIELLES</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">Où les demandes doivent-elles être adressées?</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Délivrance des titres d'allocation provisoire
+                      d'attente.</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Quelles pièces devront fournir les intéressés?</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Avis aux ascendants</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h23">LA SOCIETE DES "AMIS DES SOLDATS AVEUGLES "</ref>
+              </item>
+
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">La Page des Sans-Filistes</ref>
+            <list>
+              <item>
+                <ref target="#h25">Alimentation sur le courant électrique.</ref>
+              </item>
+              <item>
+                <ref target="#h26">AVIS</ref>
+              </item>
+            </list>
+          </item>
+
+          <item><ref target="#h1">Chronique de l'U. A. G.</ref><list>
+              <item>
+                <ref target="#h27">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h31">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h32">UN COEUR GENEREUX</ref>
+              </item>
+              <item>
+                <ref target="#h33">FELICITATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h34">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h35">COTISATIONS POUR L'ANNEE 1928 ENVOYEES A LA DATE DU 20 JANVIER
+                  1928, PAR LES CAMARADES :</ref>
+              </item>
+              <item>
+                <ref target="#h36">Procès-verbal de la séance du Conseil d'Administration</ref>
+              </item>
+              <item>
+                <ref target="#h37">AVIS AUX CAMARADES</ref>
+              </item>
+              <item>
+                <ref target="#h38">ERRATUM</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h39">Liste des Donateurs</ref>
+          </item>
+          <item>
+            <ref target="#h40">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h41">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h42">COMITE D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">10e Année. — N° 2</fw>
+          <fw type="header"><hi rend="underline">Février 1928</hi><lb/><hi rend="underline">POUR LES
+              AVEUGLES PAR LES AVEUGLES</hi></fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Le devoir des anciens combattants.</item>
+                    <item>Un meeting de la F. O. P.</item>
+                    <item>Une allocution du Président de la F. I. D. A. C.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Notes et Informations</head>
+                  <list>
+                    <item>L'Office National des Combattants.</item>
+                    <item>Le paiement des pensions au nouveau taux.</item>
+                    <item>Cartes d'invalidité.</item>
+                    <item>Une circulaire du Ministère des Pensions au sujet des ascendants.</item>
+                    <item>Avis de la Sous-Intendance départementale de la Seine.</item>
+                    <item>"Les Amis des Soldats Aveugles".</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h5">La Page du Sans-Filiste</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h6">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Un coeur généreux.</item>
+                    <item>Félicitations.</item>
+                    <item>Cotisations volontaires.</item>
+                    <item>Procès-verbal du Conseil d'administration du 17 décembre 1927.</item>
+                    <item>Avis divers.</item>
+                    <item>Erratum.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou, Ministre de la Justice; M. le colonel Farry, ancien ministre des
+              Colonies; M. Brieux, de l'Académie Française, président honoraire; M. le général
+              Balfourier; M. Borrel, député, ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien ministre;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kann; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Rameil, député;</p>
+            <p>Me Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre des Avocats;
+              Général Sainte-Claire-Deville; M. Vallery-Radot; M. Constant Verlot, député; M. le
+              professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Le Devoir des Anciens
+              Combattants</head>
+            <p>Personne n'est mieux placé pour décrire les horreurs de la guerre, sous tous ses
+              aspects, et le désir ardent de paix de ceux qui ont souffert des effets de la guerre,
+              que le général James Guthrie Harbord, auteur de cet article.</p>
+            <p>Engagé comme simple soldat dans l'armée des Etats-Unis en 1889, il fut versé dans la
+              cavalerie et promu successivement caporal, sergent, quartier-maître-sergent, et,
+              enfin, sous-lieutenant en 1891. Pendant la période de pacification des Philippines, il
+              servit comme " assistantchef " de la "Constabulary " avec le grade de colonel. Quand
+              les Etats-Unis entrèrent dans la guerre mondiale, le général Harbord vint en France en
+              mai 1917, comme chef d'état-major du général Pershing où il servit jusqu'au 5 mai
+              1918. A cette date, il fut désigné commandant des fusiliers marins et exécuta la
+              fameuse attaque du Bois de Belleau aux environs de Château-Thierry. Ensuite, il fut
+              nommé commandant de la 2<hi rend="superscript">e</hi> division et il prit part aux
+              opérations qui se déroulèrent aux environs de Soissons. Chef du service de
+              ravitaillement de l'armée américaine à la fin de la guerre, il a été promu au grade de
+              brigadier général en décembre 1918 et versé de nouveau à l'état-major de l'American
+              Expeditionnary Forces. Comme chef de la mission militaire américaine en Arménie, en
+              1919, il fut témoin des terribles effets de la guerre en Orient. Le général Harbord
+              fut promu major général en 1919; il prit sa retraite en 1922. Il est maintenant
+              président de la Radio Corporation of America.</p>
+            <p>Il est décoré de la Distinguished Service Medal des Etats-Unis, de la Légion
+              d'honneur, de la Croix de guerre française avec deux palmes; il est chevalier de
+              Saint-Michel and Saint-George (GrandeBretagne), Grand-Officier de l'Ordre de la
+              Couronne (Belgique), Commandeur de Saint-Maurice et Saint-Lazare (Italie), Chevalier
+              de l'Ordre du Prince Danilo (Monténégro) et l'Ordre de la Solidaridad (Panama). -
+              N.D.L.R.</p>
+            <p>Loin d'avoir cessé avec la signature de la paix, le devoir du soldat continue, tout
+              aussi impérieux : le soldat doit protéger la paix, si chèrement acquise par la
+              victoire.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Ceux d'entre nous qui ont pris part à la dernière guerre, la plus terrible qu'on ait
+              jamais connue, n'ont pas été complètement libérés par leur démobilisation.</p>
+            <p>Sans doute, pleinement conscients des grands problèmes issus d'une guerre plus
+              terrible qu'aucune autre, les chefs qui ont signé l'armistice dans le fameux wagon de
+              la forêt de Compiègne, derrière les lignes alliées, en France, ont rendu à une vie
+              paisible et de travail, des millions de combattants; sans doute, les horreurs de la
+              guerre moderne ont pris fin avec l'ordre de cesser le feu; il n'en reste pas moins
+              vrai que chacun d'entre nous, dès son retour à la vie normale, a le devoir de coopérer
+              à la guérison des hideuses blessures laissées par la tourmente et d'arriver à
+              l'établissement d'une entente durable, non seulement avec les ex-ennemis, mais encore
+              avec le monde tout entier.</p>
+            <p>Le soldat a enfin le devoir de rappeler incessamment, pendant le reste de sa vie, les
+              formidables holocaustes résultant d'une guerre moderne; ainsi, ses sacrifices ne
+              seront pas inutiles, et il permettra à ses enfants de connaître une vie meilleure.</p>
+            <p>Nul mieux que les anciens combattants ne sait ce que peut être une guerre moderne. La
+              guerre a laissé entre eux des souvenirs inoubliables de la vie des tranchées vécue,
+              jours après de longs jours, mois après de longs mois; de la boue; de l'eau; de la
+              vermine; des gaz asphyxiants; de tout ce qui a fait de leur vie, au front, un
+              véritable calvaire. Qui peut oublier les ravages d'une simple mitrailleuse, fauchant
+              la fleur de la jeunesse de sa petite balle d'acier ? Qui peut oublier les bombes
+              d'avions qui, trop souvent, ne distinguant pas les combattants des noncombattants,
+              frappaient indistinctement des hôpitaux ou des dépôts de munitions de guerre ou des
+              églises ? Qui peut oublier l'artillerie fouillant aveuglément la campagne, derrière
+              les lignes, sans distinguer souvent les soldats des civils; qui peut oublier les gaz
+              asphyxiants dont les vagues couchaient les soldats et les non-combattants, sans qu'il
+              leur soit possible de se défendre ? Qui peut oublier enfin tous les procédés de
+              barbarie dont le but consistait uniquement à semer la mort ?</p>
+            <p>Cependant, une nouvelle guerre serait encore plus scientifiquement atroce : de
+              nouveaux gaz, plus mortels encore, seraient employés, d'ores et déjà conçus par des
+              chimistes, dans des laboratoires secrets; des tanks innombrables, perfectionnés,
+              entreraient dans la lutte; des aéroplanes gigantesques, fabriqués actuellement pour le
+              plus grand confort des passagers, serviraient à transporter des bombes capables de
+              détruire des villes entières et d'en supprimer toute la population ; nous entendrions
+              le tonnerre d'une artillerie encore plus puissante, le déchirement <pb n="5"/>
+              <note type="foliation">— 3 —</note> de mitrailleuses nouvelles; nous connaîtrions des
+              sous-marins immenses, des armements d'une force insoupçonnée, des lance-bombes
+              effarants, des mines plus destructives encore ! La science, collaboratrice de l'homme,
+              et qui devrait uniquement servir à lui assurer toujours plus de bien-être, est
+              destinée à être un implacable instrument de mort. C'est de la science, changée en
+              monstre, qu'est née la légende de Frankenstein; la race humaine connaît actuellement
+              le plus grand danger de sa longue histoire ! La destinée de notre civilisation est
+              suspendue à un fil !</p>
+            <p>Autrefois, la gloire, la bravoure, l'esprit chevaleresque ont pu inspirer le soldat;
+              ces sentiments disparaissent avec la guerre scientifique : la guerre est actuellement
+              aussi bien organisée qu'une industrie quelconque. Avec la science comme alliée, la
+              conception moderne de la guerre tend à détruire l'ennemi de la façon la plus complète.
+              La guerre devient de plus en plus une science, où la rapidité d'exécution joue un rôle
+              considérable, où le rôle de l'individu perd de plus en plus de son importance, où la
+              valeur de la vie humaine compte de moins en moins. La distinction existant entre les
+              combattants et les non-combattants, les nations en guerre et les nations neutres, les
+              soldats valides et les mutilés, s'affaiblit sans cesse : bientôt, la guerre entre des
+              puissances englobera chaque homme, chaque femme, chaque enfant. Cette forme de
+              destruction illimitée au cours des guerres futures menace l'humanité : la guerre sera
+              sans quartier; aucune pitié ne pourra être demandée.</p>
+            <p>Cependant, une arme existe pour empêcher le retour de la guerre, et plus la guerre
+              apparaît terrible, plus cette arme gagne de force : elle consiste à faire comprendre
+              ce que serait l'horreur d'une autre guerre. Il n'existe peut-être pas dans le
+              vocabulaire des râces d'expression plus forte que celle-ci : "compréhension de la
+              guerre "! Des mondes de sagesse y sont contenus. Les troubles du monde entier peuvent
+              être guéris par elle. Aucune force plus grande n'existe, pour l'harmonie et la paix
+              internationales, qu'une parfaite "compréhension des horreurs de la guerre ».</p>
+            <p>Ceux qui, en 1918, ont déposé leurs uniformes après avoir gagné la plus grande
+              victoire de toute l'histoire, possèdent cette arme; ils sauront l'utiliser pour la
+              conquête de la paix internationale et l'harmonie entre les nations. Si,
+              individuellement, nous sommes limités dans nos efforts, nous pouvons, en étant unis,
+              obtenir d'inappréciables résultats en propageant les idées d'entente entre les
+              nations; en nous efforçant d'être tolérants envers nos frères des autres races; en
+              apprenant à nous <pb n="6"/>
+              <note type="foliation">— 4 —</note> mieux connaître, ce qui est plus facile à notre
+              époque où l'on dispose de moyens de communication puissants tels que la presse, et les
+              publications de toutes sortes.</p>
+            <p>Une mobilisation nouvelle doit être entreprise, analogue à celle que fut l'appel aux
+              armes pour la grande guerre. Nous devons servir unis, disciplinés, comme des camarades
+              d'armes, avançant vers une victoire infiniment plus grande que celle gagnée sur les
+              champs de bataille, vers une victoire profitable à l'humanité tout entière.</p>
+            <p>Voilà pourquoi je suis de tout cœur avec la F.I.D.A.C., organisation internationale
+              groupant cinq ou six millions d'anciens combattants organisés en France, en
+              Grande-Bretagne, en Belgique, en Italie, en Pologne, en Roumanie, dans le Royaume des
+              Serbes, Croates et Slovènes, en Tchécoslovaquie, aux Etats-Unis d'Amérique. Si le but
+              de la F.I.D.A.C. consiste tout d'abord à resserrer les liens puissant ces pays alliés
+              pendant la guerre, à s'efforcer de les faire mieux se comprendre les uns les autres,
+              il sera élargi par son contact avec les organisations d'anciens combattants des pays
+              qui luttèrent avec l'Allemagne et avec l'Allemagne elle-même, avec les organisations
+              voulant lutter, avec nous, pour la paix universelle.</p>
+            <p>Les anciens combattants ne sauraient faire un travail plus beau, plus noble et plus
+              utile, pour sauvegarder les sacrifices qu'ils ont consentis il y a dix ans. Ils
+              doivent cet effort à ceux qui sont tombés dans la grande mêlée; à ceux qui ont perdu
+              un membre, leurs yeux, leur esprit; à ceux qui ont perdu des parents qui leur sont
+              chers; à leur jeunesse enfin. Si les anciens combattants comprennent parfaitement les
+              horreurs de la guerre, s'ils marchent unis sous la bannière de la F.I.D.A.C., je suis
+              convaincu qu'ils ne failliront pas à cet idéal. (Extrait du Bulletin de la
+              F.I.D.A.C.)</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Un Meeting de la F. O.P.</head>
+            <p>Le dimanche 15 janvier 1928 s'est tenu, à Paris, dans la grande salle du
+              Gaumont-Palace, un meeting organisé par la Fédération Ouvrière et Paysanne des
+              Mutilés. Cette réunion, à laquelle assistaient plus de 2.000 anciens combattants et
+              victimes de la guerre, a eu lieu sous la présidence de Scapini que notre camarade
+              Félix, secrétaire général de la F.O.P. avait instamment prié d'être à côté de lui, ce
+              jour-là. L'ordre du jour comprenait : l'action de la F.O.P., l'application de la loi
+              des pensions, l'esprit ancien combattant le problème de la paix, la justice militaire
+              et les Conseils de guerre. Ces diverses questions furent successivement exposées par
+              Félix Delsuc, secrétaire général de la Fédération des Blessés du Poumon,
+              Thierry-Sandre, président de l'Association des Ecrivains Combattants, <hi
+                rend="superscript">M</hi>^{<hi rend="superscript">e</hi>} Corcos, membre du Comité
+              Central de la Ligue des Droits de l'Homme, et <hi rend="superscript">M</hi>^{<hi
+                rend="superscript">e</hi>} Henri Torrès, membre de la F. O. P. L'annonce de ce
+              meeting ayant fait naître des inquiétudes chez certains de nos camarades qui pensaient
+              qu'il devait avoir un caractère politique et que l'U. A. G. se départissait ainsi de
+              la neutralité absolue qui est sa règle et qu'elle a toujours observée, depuis sa
+              fondation, nous publions ci-dessous l'allocution prononcée par Scapini à l'ouverture
+              de la séance : " Tous mes camarades, - je pourrais presque dire d'infortune, - au
+              moins tous ceux avec qui nous avons vécu tant d'heures de tragique misère et de gloire
+              douloureuse, m'ont déjà fait, à Versailles, l'insigne honneur de m'élever à la
+              présidence des Etats Généraux de la France Meurtrie. " J'ai senti, ce jour-là, l'âme
+              des morts de Belgique, d'Artois, de Champagne, de la Somme et d'Orient, qui, enfin,
+              espéraient en cette génération du martyre et de la souffrance. " Le lien du sang se
+              resserrait, l'unité naissait, nous allions être forts et en mesure de mieux protéger
+              ceux que la guerre a si cruellement frappés. Nous allions aussi être en mesure
+              d'apporter un ordre efficace à ce pays, que notre besogne avait rendu si grand, et que
+              l'égoïsme des hommes et la mauvaise politique ont tant rabaissé depuis, sabotant ainsi
+              l'œuvre accomplie au prix de tant de sang versé. " Notre génération en est révoltée. "
+              A Versailles, nous avons établi le bilan de nos droits et affirmé<pb n="8"/><note
+                type="foliation">— 6 —</note> notre volonté d'en obtenir la satisfaction. Nous avons
+              aussi délimité nos devoirs. Il nous faut sauver ce patrimoine laissé à notre charge
+              par nos mgrts. "La similitude, entre le titre de la "Fédération Ouvrière et Paysanne "
+              et celui d'une Association d'ordre purement politique, a laissé croire que vous étiez
+              un groupement extrémiste. Vous n'avez pas voulu qu'un tel malentendu puisse subsister
+              et vous m'avez fait l'honneur de m'appeler à présider ce meeting, dont le but est de
+              préciser que vous n'avez aucune espèce d'attache avec le parti communiste, que vous
+              êtes des gens d'ordre. Vous avez tenu à affirmer votre joie de l'unité des anciens
+              combattants qui s'est réalisée à Versailles, et votre accord complet avec la
+              Fédération de la France Meurtrie. "La tâche de cette Fédération est lourde; sur bien
+              des points, nous aurons à intervenir énergiquement. Nous ne sommes pas gens à reculer
+              devant les problèmes que nous-mêmes avons posés; notre sort est intimement lié à celui
+              de notre pays. Nous avons décidé de mener une action civique, nous n'y faillirons pas.
+              "Etant tous de bonne foi, la vieille camaraderie profonde qui nous unit fera tomber,
+              j'en ai la conviction intime, les quelques obstacles qui pourraient naître. Nous
+              travaillerons, dans l'ordre, à l'établissement d'une directive sociale et économique,
+              à l'étude du problème de la paix, ceci dans un esprit de sécurité et de respect des
+              traités. "Nous avons déjà, d'ailleurs, prouvé que, dans quelques circonstances
+              importantes, nous avions su être unis et agir. Je n'en veux, pour témoin, que notre
+              immense manifestation au temps où il était question de-dettes interalliées. "La
+              démonstration d'ordre et d'union que votre Fédération accomplit aujourd'hui est digne
+              de vous, et je suis sûr que cette Assemblée sera à la hauteur des gens qui la
+              composent, c'est-à-dire de ceux à qui la France doit d'exister encore. )</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Allocution de M. Sansanelli
+              Président de la F.I.D.A.C. à la Délégation Française</head>
+            <p>A tous les Anciens Combattants de l'Armée Victorieuse de France dans la Grande
+              Guerre.</p>
+            <p>Mes Chers Camarades,</p>
+            <p>"Je tiens à faire précéder le commencement des travaux du premier Conseil de
+              Direction que je préside par ce salut bien cordial que j'ai l'honneur d'adresser à
+              vous tous, soldats héroïques et glorieux d'innombrables batailles, auxquels nous nous
+              sentons plus particulièrement liés par l'hospitalité dont notre Siège social jouit
+              dans la capitale de votre grand Pays.</p>
+            <p>Au lendemain du plus terrible conflit dont l'histoire se souvienne, lorsque les
+              négociations des Gouvernements éprouvaient les difficultés inévitables inhérentes à ce
+              rétablissement de la paix qui présentè tous les aspects des choses humaines, il a paru
+              nécessaire de préserver et de raviver chez les combattants alliés l'esprit de
+              camaraderie et la cordialité de la tranchée.</p>
+            <p>Le souvenir inoubliable des heures difficiles à travers lesquelles la jeunesse d'une
+              génération est passée, parmi les angoisses et l'exaltation, les martyrs et les
+              victoires, le souvenir du sang versé ensemble, la religion des morts qui a porté sur
+              les autels de nos pays un seul visage : "le Soldat Inconnu ", nous sont apparus ce
+              qu'effectivement ils doivent être : le témoignage de nos vrais sentiments et la
+              garantie la plus sûre de concorde entre les nations. Celles-ci, après avoir vaincu la
+              guerre, ont le devoir de défendre la paix issue d'un droit sacré qui, pour la première
+              fois peut-être, dans l'histoire du monde, légitime la raison aveugle des armes.</p>
+            <p>La F. I. D. A. C. est née de cet acte de foi ; parmi ses initiateurs dominent deux
+              hommes de votre terre et de vos rangs : M. Charles Bertrand, son premier président, et
+              Marcel Héraud, l'éminent président que j'ai la lourde charge de remplacer
+              maintenant.</p>
+            <p>Ce message chaleureux, que je vous adresse avec un cœur de camarade, entend vous
+              signifier l'honnête impatience avec laquelle nous attendons de voir, reconstituée
+              intégralement, dans l'esprit et dans la foi <pb n="10"/>
+              <note type="foliation">— 8 —</note> de la F.I.D.A.C., la grande famille des anciens
+              combattants alliés; ceux-ci doivent regagner dans leur pays respectif cette unité de
+              pensée et d'action qui nous a étroitement liés pendant le conflit, dans la lumière des
+              drapeaux glorieux de nos patries.</p>
+            <p>C'est dans cet esprit que je pense à vous, Camarades de l'Armée Victorieuse de
+              France, vous qui êtes les aînés dans les droits et dans les devoirs de l'histoire
+              nouvelle de votre pays.</p>
+            <p>Nous avons suivi avec une attention émue les travaux de vos Etats Généraux de
+              Versailles; vous y avez accompli un pas important. Il vous faut maintenant dépasser
+              tous les obstacles et déplacer tous les fardeaux, afin que vos esprits retrouvent la
+              sérénité des heures du sacrifice. Alors, le commandement était unique : celui de la
+              patrie ; intactes étaient les visions d'un peuple, en marche comme un seul homme, ces
+              visions qui ont le privilège de conserver les yeux pleins de splendeur du grand
+              mutilé, notre camarade Scapini, qui a présidé à vos travaux de Versailles avec une foi
+              incorruptible.</p>
+            <p>Quand la F. I. D. A. C., par votre solidarité et par la solidarité des Associations
+              des pays adhérents, qui représentent déjà tous les pays alliés durant la guerre, aura
+              réalisé la condition essentielle de sa puissance matérielle et de sa force morale, je
+              crois que de nos contacts et de nos discussions surgiront des enseignements qui
+              pourront - en toute circonstance - donner de la lumière à la sagesse des Gouvernements
+              et à la conscience des peuples.</p>
+            <p>Je vous prie, mes Chers Camarades, de croire à mes sentiments de profonde et sincère
+              affection."</p>
+            <p>Le Président : Nicola SANSANELLI.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">L'Office National du
+                Combattant</head>
+              <p>Dans notre Bulletin du mois de septembre 1927, nous avons publié les articles
+                essentiels du décret constitutif de l'Office National des Combattants, institué par
+                l'article 101 de la loi du 19 décembre 1926.</p>
+              <p>Le Journal Officiel de la République Française, en date du 18 décembre 1927, publie
+                un décret réglant l'organisation intérieure de l'Office National des Combattants et
+                des Comités départementaux. L'Office des Combattants relevant du Ministère des
+                Pensions, comme l'Office National des Mutilés et Réformés, il a été jugé opportun de
+                recourir, en vue du fonctionnement administratif de l'Office des Combattants, aux
+                seules ressources de l'Office des Mutilés. Cette procédure doit avoir le double
+                avantage d'être économique et d'utiliser des services administratifs qui sont déjà
+                au courant de toutes les questions intéressant les anciens combattants et les
+                victimes de la guerre. Le Comité provisoire, prévu à l'article 17 du décret
+                constitutif de l'Office et qui remplit antérieurement à la constitution définitive
+                de l'Assemblée plénière de l'Office les attributions dévolues à cette Assemblée, ne
+                tardera donc pas à disparaître. Bientôt, l'Office des Combattants sera en mesure
+                d'accorder aux intéressés les avantages auxquels ils pourront prétendre et nous ne
+                saurions trop insister auprès de nos camarades pour qu'ils soient, au plus tôt, en
+                possession du certificat provisoire devant tenir lieu de carte du combattant. Dans
+                notre Bulletin de septembre, nous avons indiqué l'utilité de cette carte et tous les
+                services chargés de l'attribution du certificat provisoire. Nous croyons devoir
+                rappeler ci-dessous à qui nos camarades doivent s'adresser pour l'obtention de ce
+                certificat et nous leur conseillons vivement de ne pas se désintéresser de ces
+                formalités dont l'exécution peut seule leur permettre de réunir les conditions qui
+                seront exigées de tous les bénéficiaires éventuels de l'Office des Combattants.</p>
+              <p>Pour la délivrance de cette carte provisoire, les ayants droit devront formuler
+                leur demande avec signature légalisée par le maire ou, dans les grandes villes, par
+                le commissaire de police, en ce qui concerne les anciens militaires, sur papier
+                libre, en produisant les renseignements suivants destinés à faciliter l'examen de
+                leurs titres : nom, prénoms, grade,</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+              <p>classe et numéro matricule au recrutement, adresse actuelle, affectations
+                successives au cours de la guerre 1914-1918 ou des opérations effectuées sur l'un
+                des théâtres d'opérations extérieures, avec dates correspondantes, date et lieu des
+                blessures reçues, date et lieu de la capture, s'il y a lieu, nom et adresse de la
+                Société d'anciens combattants à laquelle est affilié l'intéressé.</p>
+              <p>Nos camarades devront adresser leur demande à l'autorité désignée ci-après : 1<hi
+                  rend="superscript">°</hi> Officiers rayés des cadres et militaires des classes
+                1897 et antérieures, demande au Ministère de la Guerre (Service du Personnel et du
+                Matériel de l'Administration Centrale, Archives administratives); 2<hi
+                  rend="superscript">°</hi> Militaires réformés de la classe 1898 et postérieures,
+                demande au Commandant du Bureau de recrutement d'origine.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Le paiement des pensions au
+                nouveau tarif</head>
+              <p>La loi de finances du 27 décembre 1927, aux termes de son article 73 , porte à
+                12.500 francs, à partir du 1<hi rend="superscript">er</hi> janvier 1928,
+                l'allocation 5 bis accordée aux grands invalides bénéficiaires de l'article 10 de la
+                loi des pensions du 31 mars 1919.</p>
+              <p>Une circulaire du Ministère des Pensions, en date du 6 janvier 1928, indique les
+                modalités de paiement de ce supplément de 2.500 francs accordé par la loi de
+                finances précitée. Nos camarades n'ont aucune démarche à effectuer. La
+                régularisation sera accomplie par le percepteur lorsqu'ils se présenteront à
+                l'échéance normale pour toucher le montant de l'allocation aux grands invalides.
+                Nous rappelons qu'en ce qui concerne les enfants, âgés de moins de seize ans, la
+                majoration au titre de l'allocation 5 bis est de 28 francs, par enfant, à compter du
+                  1<hi rend="superscript">er</hi> janvier 1928.</p>
+              <p>Quant au paiement des pensions proprement dites, qui s'effectue sur présentation
+                d'un certificat d'inscription ou d'un livret définitif, il sera réglé par une
+                circulaire du Ministre des Finances qui n'a pas encore paru, au moment où nous
+                écrivons ces lignes, mais il se confirme que c'est seulement après l'échéance du 20
+                février que les trimestres seront payés au nouveau taux, étant bien entendu que le
+                bénéfice de ce nouveau taux remonte au 1<hi rend="superscript">er</hi> janvier 1928.
+                Nous rappelons qu'en ce qui concerne la pension proprement dite; la majoration, par
+                rapport à 1927, est de 20 / 0, majoration qui porte, tant sur la pension principale,
+                que sur les pensions pour enfants.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+              <p>Les possesseurs d'un titre provisoire, quel que soit le pourcentage de
+                l'invalidité, doivent s'adresser au sous-intendant militaire. Ils n'ont aucune
+                déclaration à remplir ; il leur suffit de retourner leur titre, accompagné d'une
+                demande tendant à obtenir le bénéfice des dispositions de la loi du 27 décembre
+                1927.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Cartes d'invalidité</head>
+              <p>Les pensionnés de guerre sont informés que les cartes attribuées en 1926, et
+                donnant droit à la réduction sur les chemins de fer, cesseront d'être valables dans
+                le courant de l'année 1928. Le renouvellement de ces cartes s'effectuera d'après
+                l'ordre alphabétique des noms des bénéficiaires. Le premier trimestre sera consacré
+                aux lettres de A à F , le deuxième de G à L , le troisième aux lettres de M à R et
+                le quatrième aux lettres de S à Z . C'est à la mairie de leur arrondissement ou de
+                leur commune que les intéressés doivent adresser leur demande de renouvellement. Que
+                chacun se hâte.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Une circulaire du Ministère
+                des Pensions</head>
+              <p>La loi du 31 mars 1919, qui fixe dans son Titre III les droits des ascendants des
+                tués à l'ennemi, a subi une modification en ce qui concerne la transformation de
+                l'allocation de ces ascendants en pension et les conditions d'attribution de cette
+                nouvelle pension.</p>
+              <p>Le Journal Officiel du 1<hi rend="superscript">er</hi> janvier 1928 donne le texte
+                d'une circulaire du Ministère des Pensions concernant l'application des articles 53
+                et 54 de la loi du 9 décembre 1927 qui a modifié la loi du 31 mars 1919 dans le sens
+                que nous venons d'indiquer.</p>
+              <p>La loi du 28 juillet 1921, étendant le bénéfice des articles 28 à 34 de la loi du
+                31 mars 1919 aux ascendants de nationalité étrangère dont les fils, incorporés dans
+                l'armée française, sont décédés ou disparus dans les conditions de nature à ouvrir
+                le droit à pension des veuves, a été également modifiée.</p>
+              <p>Les modifications apportées à ces textes sont les suivantes. Nous les communiquons
+                à ceux de nos camarades dont les parents bénéficient d'une pension d'ascendants et
+                que cela pourrait intéresser : <pb n="14"/>
+                <note type="foliation">— 12 —</note> a) Transformation en pension de l'allocation
+                instituée par la loi du 31 mars 1919 en faveur des ascendants, pension dont
+                l'attribution reste néanmoins liée à l'accomplissement de certaines conditions, dont
+                le prix peut être réduit ou dont le paiement peut être suspendu lorsque les
+                intéressés ne remplissent plus ces conditions ; b) Suppression de tout délai pour
+                faire valoir le droit à pension d'ascendant quand les intéressés remplissent les
+                conditions imposées par la loi ; c) Modification de la condition de non inscription
+                au rôle de l'impôt général sur le revenu ; d) Attribution de la pension à
+                l'ascendant n'ayant pas l'âge légal, mais dont le conjoint est infirme ou atteint
+                d'une maladie incurable; e) Dispense de la condition d'âge pour les mères veuves,
+                divorcées séparées de corps ou non mariées ayant à leur charge un ou plusieurs
+                enfants âgés de moins de vingt et un ans (au lieu de seize) ou sous les drapeaux. Il
+                est fait remarquer que la loi assimile désormais les mères séparées de corps aux
+                mères veuves; en ce qui concerne la condition de dispense d'âge la loi du 13 avril
+                1923 n'avait, en effet, réalisé cette assimilation qu'en ce qui concerne le taux de
+                l'allocation à accorder aux intéressés ; f) Attribution de la pension aux parâtres
+                et marâtres s'ils ont élevé et entretenu l'enfant et remplacé un des parents auprès
+                de lui jusqu'à sa majorité ou son appel sous les drapeaux ; g) Cumul sans limite des
+                pensions d'ascendants soit avec un traitement ou une solde, soit avec une autre
+                pension; h) Suppression pour les ascendants étrangers non ressortissants de Tune des
+                nations en guerre avec la France de 1914 à 1919 de la condition de résidence en
+                France; i) Droit à pension pour les ascendants étrangers ressortiscants de Tune des
+                nations en guerre avec la France de 1914 à 1919 s'ils résident en France.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">LES INSTRUCTIONS
+                MINISTERIELLES</head>
+              <p>La circulaire du 29 décembre détermine dans quelles conditions seront attribuées
+                les pensions d'ascendants qui vont se substituer aux allocations servies
+                précédemment.</p>
+              <p>Point de départ des dispositions nouvelles. L'application des nouvelles
+                dispositions porte effet du 12 décembre 1927 (date à laquelle la loi du 9 décembre
+                1927 est devenue exécutoire).</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>Pour les ascendants qui sollicitent la remise en payement d'une allocation
+                antérieurement concédée et suspendue pour inscription au rôle de l'impôt général sur
+                le revenu, le point de départ de cette remise en payement est le 12 décembre
+                1927.</p>
+              <p>Pour les ascendants qui sollicitent le bénéfice des nouvelles dispositions de la
+                loi, sans être en possession d'un titre d'allocation d'ascendant, le point de départ
+                de la pension sera fixé ainsi qu'il suit : 1<hi rend="superscript">°</hi> Au 12
+                décembre 1927 s'ils remplissent à cette date des conditions imposées par la loi et
+                s'ils formulent leur demande avant le 1<hi rend="superscript">er</hi> juillet 1928 ;
+                  2<hi rend="superscript">°</hi> A la date de la demande si, satisfaisant aux
+                conditions légales au 12 décembre 1927, ils ont formulé leur demande postérieurement
+                au 1<hi rend="superscript">er</hi> juillet 1928 ; 3<hi rend="superscript">°</hi> A
+                la date de la demande s'ils n'ont rempli les conditions légales que postérieurement
+                au 12 décembre 1927.</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Où les demandes
+                  doivent-elles être adressées?</head>
+                <p>Les ascendants dont la situation doit être régularisée par le Ministère des
+                  Finances adresseront une demande de remise en payement de leur pension ou de
+                  prolongation de la durée de validité de cette dernière au Ministère des Finances
+                  (direction de la dette inscrite, bureau de l'inscription) par l'intermédiaire du
+                  comptable assignataire de l'ancienne allocation et du trésorier-payeur général
+                  dont ce dernier relève.</p>
+                <p>Les ascendants désirant bénéficier des droits nouveaux qui leur sont ouverts
+                  devront adresser leur demande au Ministère des Pensions par l'intermédiaire du
+                  sous-intendant départemental des pensions du cheffieu de leur domicile.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Délivrance des titres
+                  d'allocation provisoire d'attente.</head>
+                <p>1<hi rend="superscript">°</hi> Intéressés ayant formulé une première demande. La
+                  demande a donné lieu à décision de rejet pour un motif que la nouvelle législation
+                  rend caduc. - Si les éléments du dossier financier des intéressés permettent de
+                  déterminer en toute connaissance de cause que le décès du militaire est survenu
+                  dans des conditions de nature à ouvrir droit à pension de veuve et que le rejet a
+                  été prononcé exclusivement pour une des causes rendues caduques par la loi du 9
+                  décembre 1927, le sous-intendant délivrera un titre d'allocation provisoire
+                  d'attente. Le point de départ de ce titre sera celui de la pension elle-même
+                  déterminé ainsi qu'il est dit plus haut ;</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+                <p>2<hi rend="superscript">°</hi> La demande a fait l'objet d'une décision de rejet
+                  pour plusieurs motifs dont certains sont encore valables au regard de la nouvelle
+                  législation. - Aucun titre d'allocation d'attente ne devra être délivré ; 3<hi
+                    rend="superscript">°</hi> La demande primitive des intéressés n'a pas encore
+                  donné lieu à décision. - La délivrance d'un titre d'allocation d'attente est
+                  effectuée dans les conditions indiquées au paragraphe premier qui précède ;</p>
+                <p>Intéressés n'ayant jamais formulé de demande. - La délivrance d'un titre
+                  d'allocation d'attente est effectuée dans les conditions prévues par le décret et
+                  l'instruction du 20 octobre 1919, compte tenu des règles spéciales plus loin
+                  indiquées en ce qui concerne l'application de la nouvelle condition de
+                  fortune.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Quelles pièces devront
+                  fournir les intéressés?</head>
+                <p>Les postulants à pension devront fournir : 1<hi rend="superscript">°</hi> Une
+                  demande de pension ; 2<hi rend="superscript">°</hi> Un extrait d'acte de naissance
+                  de chacun des ascendants ; 3<hi rend="superscript">°</hi> Un extrait d'acte de
+                  mariage, s'il s'agit de conjoints ; 4<hi rend="superscript">°</hi> Un extrait
+                  d'acte de naissance de chacun des militaires enfants légitimes ouvrant droit à
+                  pension ou à majoration. S'il y a lieu : un extrait d'acte de naissance de chacun
+                  des enfants infirmes ou âgés de moins de vingt et un ans, à la charge de la mère.
+                  Dans ce dernier cas, l'intéressé devra fournir un certificat collectif ou
+                  individuel des enfants mineurs ou infirmes ; 5<hi rend="superscript">°</hi> (S'il
+                  y a lieu), extrait de l'acte de décès de l'ascendant décédé; 6<hi
+                    rend="superscript">°</hi> Certificat de nationalité établi gratuitement par le
+                  maire ; 7<hi rend="superscript">°</hi> Extrait du rôle de l'impôt général sur le
+                  revenu ou certificat de non imposition au dit rôle ; 8<hi rend="superscript"
+                    >°</hi> Pour les mères veuves, certificat de non remariage ; pour les mères
+                  divorcées ou séparées de corps invoquant l'existence d'enfants à leur charge,
+                  extrait du jugement leur ayant confié les enfants ; 9<hi rend="superscript">°</hi>
+                  Pour les ascendants sollicitant le bénéfice de l'article 33 de la loi du 31 mars
+                  1919 (y compris les parâtres et marâtres), extrait du jugement du tribunal civil
+                  de la résidence indiquant que le postulant a élevé et entretenu l'enfant ou a
+                  remplacé ses parents ou l'un d'eux jusqu'à sa majorité ou son appel sous les
+                  drapeaux ; 10<hi rend="superscript">°</hi> Certificat d'expertise des médecins du
+                  centre de réforme qui ont été appelés à examiner, soit les ascendants n'ayant pas
+                  l'âge légal prévu par la loi, soit les ascendants déjà titulaires d'une pension
+                  après avoir atteint l'âge légal, qui demandent à faire valoir des infirmités ou
+                    <pb n="17"/>
+                  <note type="foliation">— 15 —</note> des maladies incurables afin de permettre à
+                  leur conjoint de bénéficier de la pension avant d'avoir lui-même atteint l'âge
+                  légal, soit les enfants infirmes du postulant (s'il y a lieu). Attribution de
+                  l'allocation provisoire d'attente aux parâtres et marâtres. Un titre d'allocation
+                  d'attente ne pourra être délivré que sur le vu de l'extrait du jugement du
+                  tribunal de la résidence de l'intéressé attestant que ce dernier remplit les
+                  conditions imposées par la loi.</p>
+                <p>LA SOUS-INTENDANCE MILITAIRE DU DEPARTEMENT DE LA SEINE NOUS COMMUNIQUE LA NOTE
+                  SUIVANTE :</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Avis aux ascendants</head>
+              <p>La loi du 9 décembre 1927 ouvre des droits à pension à certains ascendants
+                antérieurement non bénéficiaires de la loi du 31 mars 1919. Les nouvelles
+                dispositions s'appliquent, notamment, aux parâtres et marâtres de militaires décédés
+                ou disparus, ainsi qu'aux ascendants de nationalité étrangère résidant à l'étranger.
+                Elles étendent l'application de la loi du 31 mars 1919, sous certaines conditions,
+                aux ascendants n'ayant pas atteint l'âge légal, ainsi qu'aux mères veuves,
+                divorcées, séparées de corps ou non mariées, ayant des enfants à charge. Enfin,
+                elles modifient les conditions en vigueur relativement à l'inscription au rôle de
+                l'impôt général sur le revenu.</p>
+              <p>Les demandes des intéressés leur permettant de bénéficier des dispositions de la
+                nouvelle loi, à compter du 12 décembre 1927, doivent être formulées avant le 1<hi
+                  rend="superscript">er</hi> juillet 1928. Pour tous renseignements, s'adresser aux
+                comptables des finances assignataires pour toute: les allocations concédées et à
+                l'Office Central des Renseignements, 10, quai de la Rapée, pour tous les autres
+                ayants droit résidant dans la Seine.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">LA SOCIETE DES "AMIS DES
+                SOLDATS AVEUGLES "</head>
+              <p>nous informe qu'une décision du Conseil d'administration des "Amis des Soldats
+                Aveugles ", en date du 21 octobre 1927, a porté les dons de naissance à 200 francs
+                pour le premier enfant, 300 francs pour le deuxième, 400 francs pour le troisième,
+                et ainsi de suite.</p>
+              <p>Ces dons seront accordés, à partir de cette date, sur production du bulletin de
+                naissance de l'enfant.</p>
+              <p>Cette décision ne comporte pas d'effet rétroactif, c'est-à-dire qu'il ne sera pas
+                fait de rappel pour les dons de même nature accordés avant le 21 octobre 1927.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">La Page des Sans-Filistes</head>
+            <p>Depuis la formation de la Section des Sans-Filistes de l'Union des Aveugles de
+              Guerre, un certain nombre d'adhésions nous sont déjà parvenues. Nous sommes heureux
+              d'enregistrer les noms de nos camarades : Bertrand, 6, rue Ferdinand-Flocon, Paris.
+              Badel (Pierre), rue de Genève, Meximieux (Ain). Blondel, 11, place de la Madeleine,
+              Paris. Bois (Paul), 6, avenue d'Alsace-Lorraine, Drancy. Cardot, 86, rue des Pyrénées,
+              Paris. Crouzilhac (Clément), Murviel-les-Hérault (Hérault). Capitaine Douet, Champlain
+              (Algérie). Favret (René), 37, rue des Belles-Feuilles, Paris. Fauvel (Albert), 30 rue
+              de Seine, Sartrouville (Seine-et-Oise). Gautier (Robert), instituteur, 20, rue
+              Chauveau-Lagarde, Chartres. Grillet, 86, rue des Pyrénées, Paris. Hachez (Eugène), 52,
+              place de la Gare, Montgeron (Seine-et-Oise). Lagarde (Osmin), 6, boulevard
+              Amiral-Grevel, Brive (Corrèze). Lainé (Georges), Savigny-s.-Lathan (Indre-et-Loire).
+              Lallement, 27, avenue Pétrarque, Carpentras (Vaucluse). Levesque (Lucien), 46, rue de
+              la Paix, Cherbourg (Manche). Morand (Henri), 16, rue de Guéramé, Alençon (Orne). Peil
+              (Nicolas), 19, rue des Morts, Longeville-les-St-Avold (Moselle). Pillon (Pierre), 18,
+              rue Courbet, Persan (Seine-et-Oise). Raphaël (Marcellin), 57, avenue du Maréchal-Foch,
+              Cuers (Var). Rohken, Orgeval (Seine-et-Oise). Remia, 6, rue du Champ-d'Epreuves,
+              Corbeil. Teissier (Emile), place de la Bourgade, Taulignan (Drôme). Viellet (H.),
+              Grande-Rue, Gy (Haute-Saône). Tous les camarades que la question radiophonie intéresse
+              sont priés de bien vouloir nous faire part de leurs suggestions, des résultats qu'ils
+              ont déjà pu obtenir, en nous indiquant les postes dont ils se servent et les
+              inconvénients qui en résultent.</p>
+            <p>Les renseignements qui nous seraient communiqués pouvant intéresser les camarades
+              s'occupant de T. S. F. seront publiés chaque mois dans la rubrique T. S. F., en même
+              temps que les renseignements d'ordre général.</p>
+            <pb n="19"/>
+            <note type="foliation">— 17 —</note>
+            <p>A la suite des différentes lettres reçues par la Section des SansFilistes de l'U. A.
+              G., nous avons constaté que nombre de camarades seraient désireux de posséder un poste
+              de T.S.F., mais sont embarrassés devant la multitude de postes qui leur sont
+              offerts.</p>
+            <p>Pour faire un choix, tout dépend : 1<hi rend="superscript">°</hi> de l'usage que l'on
+              veut en faire; 2<hi rend="superscript">°</hi> de la région où l'appareil doit être
+              installé.</p>
+            <p>Si l'on recherche simplement, dans la T. S. F., un passe-temps agréable, les postes
+              simples sont les plus recommandés, pour leur facilité de réglage, et la modicité de
+              leur prix. Si, au contraire, on désire fouiller dans les ondes et obtenir des
+              réceptions plus lointaines, il faut se servir d'appareils plus compliqués et d'un prix
+              de revient assez élevé.</p>
+            <p>S'il est possible d'établir une antenne assez longue, un poste à 3 ou 4 lampes est
+              tout indiqué pour donner, en haut-parleur, une bonne réception des postes français. Ce
+              poste, d'un prix de revient de 800 à 1.000 francs, donne de très bons résultats.
+              Plusieurs maisons peuvent nous les fournir à ces conditions. On peut très facilement
+              en faire l'installation soi-même, mais pour les camarades habitant Paris ou la région
+              parisienne, ces postes peuvent leur être livrés montés et prêts à fonctionner.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Alimentation sur le courant
+                électrique.</head>
+              <p>Les postes sont généralement alimentés, soit par des accumulateurs, soit par des
+                piles sèches, toutefois, les camarades qui possèdent chez eux le courant électrique
+                alternatif ont un grand intérêt, au point de vue économique, comme au point de vue
+                facilités de réglage, à utiliser les appareils d'alimentation par le secteur.</p>
+              <p>Ces appareils sont maintenant complètement au point. Leur prix de revient est de
+                500 francs pour le courant alternatif, 110 volts, 40 à 50 périodes, et un peu plus
+                élevé pour les autres courants.</p>
+              <p>Les camarades que cette question intéresserait sont priés d'écrire directement au
+                camarade Fauvel, 30, rue de Seine, à Sartrouville (Seine-et-Oise), qui leur fournira
+                toutes les indications utiles (joindre un timbre pour la réponse).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">AVIS</head>
+              <p>Nous sommes heureux d'informer nos camarades que la Maison V. Martin, constructions
+                radio-électriques, fournitures pour T.S.F., consent une réduction de 200 / 0 sur
+                présentation de la carte de l'U. A. G.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">NAISSANCES</head>
+                <p>Notre camarade et Mme Chardon, de Paris, nous font part de la naissance de leur
+                  deuxième enfant, Pierre, né le 29 octobre 1927.</p>
+                <p>Notre camarade et Mme Gay (Lucien), de Mareilles (Vendée), nous font part de la
+                  naissance de leur troisième enfant, Cécile, née le 20 décembre 1927.</p>
+                <p>Notre camarade et Mme George (Léon), de Nice, nous font part de la naissance de
+                  leur troisième enfant, Roger, né le 18 décembre 1927.</p>
+                <p>Notre camarade et Mme Cancé (Jules), de Gaillac (Tarn), nous font part de la
+                  naissance de leur deuxième enfant, Raymond, né le 26 décembre 1927.</p>
+                <p>Notre camarade et Mme Sénéchal (François), d'Outreau (Pas-deCalais), nous font
+                  part de la naissance de leur quatrième enfant, MarieFrançoise, née le 9 décembre
+                  1927.</p>
+                <p>Notre camarade et Mme Montcharmont, de Larochemillay (Nièvre), nous font part de
+                  la naissance de leur quatrième enfant, Jean, né le 24 décembre 1927.</p>
+                <p>Notre camarade et Mme Dutaut, de Fontenay-le-Comte (Vendée), nous font part de la
+                  naissance de leur fils Jean, né le 21 décembre 1927.</p>
+                <p>Notre camarade et Mme Granet, de Grisolles (Tam-et-Garonne), nous font part de la
+                  naissance de leur deuxième enfant, Josette, née le 27 décęmbre 1927.</p>
+                <p>Notre camarade et Mme Roy (René), de Paris, nous font part de la naissance de
+                  leur fils, Jean-Noël, né le 26 décembre 1927.</p>
+                <p>Notre camarade et Mme Lardière, de Cognac (Charente), nous font part de la
+                  naissance de leur fille, Marie-Madeleine, née le 31 décembre 1927.</p>
+                <p>Notre camarade et Mme Bovis, de Watreloos (Nord), nous font part de la naissance
+                  de leur quatrième enfant, Valentine, née le 15 jac vier 1928.</p>
+                <p>Notre camarade et Mme Lacomblez, de Saint-Epoint (Mame),</p>
+                <pb n="21"/>
+                <note type="foliation">— 19 —</note>
+                <p>nous font part de la naissance de leurs deux enfants, Olga-Georgette, née le 3
+                  février 1926, et René, né le 26 novembre 1927.</p>
+                <p>Notre camarade et Mme Chanui, du Creusot, nous font part de la naissance de leur
+                  fille, Geneviève, née le 4 janvier 1928.</p>
+                <p>Notre camarade et Mme Hamon (Théophile), de Monterfil (Ille-etVilaine), nous font
+                  part de la naissance de leur cinquième enfant, Simone, née le 28 décembre
+                  1927.</p>
+                <p>Notre camarade et Mme Dutrève, de Villefranche-sur-Saône, nous font part de la
+                  naissance de leur fils, Roger-Marcel.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">MARIAGES</head>
+                <p>Notre camarade Prault (Louis), de Châtillon-sur-Indre (Indre), nous fait part de
+                  son mariage avec Mlle Sallé, célébré le 14 janvier 1928.</p>
+                <p>Notre camarade Daraspe, de Biarritz (Basses-Pyrénées), nous fait part de son
+                  mariage avec Mlle Eugénie Doux, célébré le 4 février 1928.</p>
+                <p>Notre camarade Moreau, de Lormes (Nièvre), nous fait part de son mariage avec Mme
+                  Charlotte Dautil, célébré le 4 juillet 1927.</p>
+                <p>Notre camarade Duché (Jules), de Commercy (Meuse), nous fait part du mariage de
+                  sa fille, célébré le 21 janvier 1928.</p>
+                <p>Nous adressons nos meilleurs vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Christophe, de Paris, décédé le 2
+                  janvier 1928, à l'âge de 48 ans.</p>
+                <p>De notre camarade Guay, d'Alençon (Ome), décédé le 5 janvier 1928.</p>
+                <p>La naissance et le décès du fils de notre camarade Janson, de Melay
+                  (Saône-et-Loire), le 22 novembre 1927.</p>
+                <p>Naissance et décès de l'enfant de notre camarade Sciellour, de Lorient
+                  (Morbihan), le 28 décembre 1927.</p>
+                <p>Du fils de notre camarade Labepie, de Saubrigues (Landes), décédé le 14 décembre
+                  1927.</p>
+                <p>De la fille de notre camarade Louesdon, de Brehan-Loudéac (Morbihan), décédée le
+                  6 décembre 1927, à l'âge de 5 ans.</p>
+                <p>Du père de notre camarade Badel, du Pré-Saint-Gervais, décédé le 19 avril 1927, à
+                  l'âge de 62 ans.</p>
+                <pb n="22"/>
+                <note type="foliation">— 20 —</note>
+                <p>De la mère de notre camarade Poirson, décédée le 16 décembre 1927, à l'âge de 66
+                  ans.</p>
+                <p>De la mère de notre camarade Latrille, de Toulouse, décédée le 14 novembre, à
+                  l'âge de 71 ans.</p>
+                <p>Du beau-père de notre camarade Mulsant (François), de Lyon (Rhône).</p>
+                <p>De la belle-mère de notre camarade Leboindre, de Lesparre (Gironde), décédée en
+                  décembre 1927, dans sa 71<hi rend="superscript">°</hi> année.</p>
+                <p>Du frère de notre camarade Webber (Paul), d'Hazebrouck, décédé le 8 janvier 1928,
+                  à l'âge de 39 ans.</p>
+                <p>De notre camarade Foret, de Villefranche (Rhône), décédé le 10 janvier 1928, dans
+                  sa 48<hi rend="superscript">°</hi> année.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fratemelle a distribué, entre le 1<hi rend="superscript">er</hi>
+                décembre et le 31 décembre, une somme de 10.500 francs, se répartissant comme
+                suit:</p>
+              <table>
+                <row>
+                  <cell>Décès et couronnes.</cell>
+                  <cell>Fr.</cell>
+                  <cell>6.800</cell>
+                </row>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell/>
+                  <cell>3.000</cell>
+                </row>
+                <row>
+                  <cell>Secours</cell>
+                  <cell/>
+                  <cell>700</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 10.500 fr. une somme de 1.000 fr. pour prêts de maisons
+                familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 17 demandes de secours, dont 12
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">UN COEUR GENEREUX</head>
+              <p>La façon de donner vaut mieux souvent que ce qu'on donne. Aussi, combien avons-nous
+                été touchés du geste généreux de Mme Radou, simple et pauvre dame habitant Rennes,
+                et dont les héritiers ont tenu à exécuter strictement le suprême désir de faire don
+                à l'Union des Aveugles de Guerre d'une somme de 150 francs, que nous avons reçue au
+                moment de son décès, par l'intermédiaire de M. Perrouas, Président honoraire des
+                Anciens Combattants de Rennes, que les héritiers de Mme Radou avaient prié de nous
+                faire parvenir.</p>
+              <p>De telles marques de sympathie ne peuvent nous laisser indifférents et nous tenons
+                à en faire part à tous nos camarades, en assurant encore une fois les enfants de Mme
+                Radou de notre vive gratitude.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">FELICITATIONS</head>
+              <p>Nous apprenons avec plaisir la nomination au grade d'officier d'Académie de Mme
+                Pannetrat, épouse de notre camarade Pannetrat, de Chaumont. Nous prions Mme
+                Pannetrat de vouloir bien agréer nos plus vives et plus sincères félicitations.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leur cotisation, ont tenu néanmoins à effectuer un
+                nouveau versement.</p>
+              <p>Lefebvre (Charles), 20 fr.; Boudault, 10 fr.; Duponts (J.-B.), 20 fr.; Vochel, 40
+                fr.; Marchal (Léon), 20 fr.; Thuilliez, 20 fr.; Roy (Georges), 10 fr.; Dupuy
+                (Marcel), 20 francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">COTISATIONS POUR L'ANNEE
+                1928 ENVOYEES A LA DATE DU 20 JANVIER 1928, PAR LES CAMARADES :</head>
+              <p>Leveau, Delafosse, Leriche, Morand, Fleury, Germa, Buckel, Thibault, Teilhet,
+                Speiltz, Malavault, Marcangeli, Massaly, Lançon, Vidry, Clément, Moluçon, Raffat
+                (B.), Seebacher, Bonamy, Montalan, Lafon (Léon), Gary, L'Hermitte, Peil, Guillemin
+                (J.), Julie, Bartier, Noirjean, Jung, Lemaître, Plateau, Léger (Louis), Guillot,
+                Pagenel, Sautter, Le Goff, Cohen, Cabannot, Holveck, Berruel, Vochel, Nicolas,
+                Rachid-Frasti, Vial, Lambert (E.), Seguela, Ducrot, Harrivelle, André (A.), Fabre
+                (J.), Bardonnet, Podevin (F.), Montet (Emile), Delplanque, Gauthier (R.), Coudrai,
+                Masson (J.-B.), Boulert (R.), Montcharmont, Dutaud, Perot, Donadieu, Ravel,
+                Guyollot, de Chatillon, La Porte, Lambert (L.), Monroty, Boé, Domenger, Pichonneau,
+                Douris, Obitz, Noel (H.), Verdelet, Delebecque, Pasco, Menuet, Donzelot, Fournier
+                (V.), Labœuf, Pannetrat, Verrier, Renoux (H.), Tauriac, Colombat, Tauziet, Gresset,
+                Gerard, Rain, Galli, Plenacoste, Pagel, de Vitte, Morin, Duval (P.), Girard (A.),
+                Beaucourt, Lardé, Bernoux, Millepied, Constantin, Maillasson, Bordin, Serret,
+                Hesnard, Béraud, Chatillon, Zimmermann, Galis, Erouart, Bourbon, Fraisse, Liabeuf,
+                Le Floch, Lardière, Caron, Fafet, Quinquis, Barbier, Gallet-Wast. Vidil. Girard,
+                Desgouttes, Doguet, Brusson, Dajieu, Bur. Guy. Roussel, Boudeville, Fournier (C.),
+                Evrat, Berthet, Levesque, Belliot. Fauque, Couesnon, Bretin, Latrille, Billoud, Mlle
+                Marin, Luc (J.), Nottin, Rost, Debatisse, Sicard, Janson, Bastide, Labbé,</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+              <p>Broussaudier, Moreau, Chezeaud, Véron (F.), Cassar, Duchamp, Chardon, Gaetti,
+                Bertrand (M.), Bonnecuelle, Planquette, Alquié (G.), Mazaudier, Frapsauce, Tourrès,
+                Benoit, Maurel, Prevel, Desgrippes, Faustch, Mary, Toutain (L.), Pruvost,
+                Courtemanche, Viault, Lebrun (G.), Roche, Storme, Thibault, Guyennet, Blaise,
+                Epstein, Reguilhem, Vachon (L.), Guilmain, Guitteny, Souty, Lassalle, Laville,
+                Laine, Evette, Sigault, Favret, Pélissier, Berton, Chouquet, Robert (G.), Torrès,
+                Olivier (M.), Bouillard, Bequart, Boche, Piollet, Daliot, Reulet, Izambard, Sompron,
+                Barnabé (C.), Palmaro, Raybaud, Ramadour, Simon (P.), Douale, Capitaine, Brunet
+                (Ch.), Amant, Bruno, George (L.), Marchand, Arnoux, Grandjean, Rouxel, Drapeau,
+                Guittard, Bourret, Banyuls, Barnabé, Dupuy (M.), Navarron, Dessenne, Casdagre,
+                Crozon, Brunon, Brassac, Raphaël.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">Procès-verbal de la séance
+                du Conseil d'Administration</head>
+              <p>DU 17 DECEMBRE 1927</p>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Scapini. Sont présents :
+                Scapini, Favret, Grillet, Noireaux, Bloncourt, L'Evesque, Amblard, Bardoux,
+                Bertrand, Bois, Conan, Courteix, Izaac, Laffargue, Lauté, Malgat, Muller, Nicolaï,
+                Virot. M, de Traversay, Président du Comité d'Action. Les camarades Agutte,
+                Chaillou, Dufourc, François, Guibaud, Lamy, Martin (Paul), Panterne, Saint-Yves,
+                Saillot, Séré-Labourdette.</p>
+              <p>Ont écrit : Antoine, Cabasson, Derunder, Guillam, Lagarde, Lallement, Satgé.</p>
+              <p>Ont donné leurs pouvoirs : Au président : Antoine, Amault, Goubin, Lallement. Au
+                secrétaire général : Satgé. A Favret : Cabasson. A Noireaux : Derunder. A Conan :
+                Guillam. A Laffargue, ou en son absence à Favret : Lagarde. A Bois ou en son absence
+                à Favret : Fauvel. 1<hi rend="superscript">er</hi> Lecture du procès-verbal 'de la
+                séance du Conseil d'administration du 19 novembre 1927.</p>
+              <p>Adopté à l'unanimité.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+              <p>Situation financière des mois d'octobre et de novembre.</p>
+              <p>Adoptée à l'unanimité. 3<hi rend="superscript">°</hi> Rajustement des pensions.
+                Lecture des lettres des administrateurs de province. Le Président expose au Conseil
+                les interventions et les démarches qui ont été faites en vue d'obtenir une
+                majoration de l'allocation spéciale aux grands invalides au moment du vote de la loi
+                des finances de la Chambre des Députés. Grâce à l'action entreprise, une
+                augmentation de 1.250 francs a été votée par la Chambre dans sa séance de nuit du 11
+                décembre dernier et l'engagement a été pris, par le Gouvernement, ainsi que par le
+                rapporteur du budget des Pensions, M. Fould, de doubler cette augmentation dès que
+                le budget serait de retour du Sénat, si un excédent de 20 millions se trouvait
+                disponible après le vote du budget par la Haute Assemblée. Le rajustement des
+                pensions a été opéré sans catégorisation sur la base de 320 / 0, de sorte que les
+                pensions dont nous bénéficions au titre de la loi du 31 mars 1919 se trouvent
+                majorées de 20 / 0 de plus que cette année, en tenant compte de cette majoration et
+                du supplément d'allocation spéciale qui sera donc de 2.500 francs. Un mutilé de 1000
+                / 0, article 10 , touchera en 1928: 2.560 francs de plus qu'en 1927.</p>
+              <p>A l'unanimité, le Conseil vote la motion suivante : "Le Conseil, après avoir
+                entendu les explications fournies par son "dévoué Président, approuve entièrement
+                son attitude, le remercie et " le félicite, ainsi que le Bureau, du travail accompli
+                ces temps der" miers, en ce qui concerne le rajustement des pensions. "</p>
+              <p>4<hi rend="superscript">°</hi> Confédération Nationale de la France Meurtrie.</p>
+              <p>Lecture des lettres des administrateurs de province. A la suite d'une discussion à
+                laquelle prennent part notamment Favret, Izaac, Scapini, Conan, Nicolaï, le Conseil
+                vote la motion suivante : "Le Conseil fait confiance au Bureau pour adopter telle
+                solution "qui conviendra au sujet de l'adhésion de l'U. A. G. à la Confédé" ration
+                Nationale de la France Meurtrie. "</p>
+              <p>5<hi rend="superscript">°</hi> Questions diverses.</p>
+              <p>Lecture est donnée des demandes d'adhésion de : Mialot (Jules), 8, rue Gravel,
+                Levallois-Perret (Seine), 100 0/0 article 10 , titre provisoire.</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+              <p>Lescouzère (Jean), route de Villaudrant, impasse Duchamp, Langon, 100 0/0 article
+                10 , titre provisoire.</p>
+              <p>A la suite d'une observation de Favret et du secrétaire général, le Conseil décide
+                de surseoir à la ratification des deux demandes dont il s'agit et vote la motion
+                suivante, à l'unanimité : "Le Conseil d'administration donne mandat à son Bureau
+                d'ap" porter au règlement intérieur de l'Union des modifications en ce qui "
+                concerne les conditions d'admission des membres titulaires et de les " lui soumettre
+                à une prochaine réunion du Conseil. "</p>
+              <p>Lecture est donnée d'une lettre de M" Siébert, notaire, à Dieuze (Moselle), nous
+                informant que Mme Veuve Jules Bay a légué à l'U. A. G., une somme de 1100.000
+                francs, nette de tous droits et frais.</p>
+              <p>Après avoir pris connaissance des dispositions testamentaires de Mme
+                Jeanne-Adèle-Thérèse Duboscq, veuve de M. Jules Bay, demeurant à Paris, 84, avenue
+                Mozart, décédée à Gelucourt (Moselle), le 15 novembre 1927, par lesquelles elle
+                lègue à "L'Union des Aveugles de Guerre ", 25, rue Ballu, la somme de 100.000 francs
+                en espèces, nette de tous droits et frais, le Conseil d'administration, après avoir
+                rendu hommage à la générosité de la donatrice, accepte à l'unanimité ces
+                dispositions testamentaires et donne tous pouvoirs au Trésorier de l'U. A. G. pour
+                l'encaisser au nom de ladite Société, prendre tous engagements et faire le
+                nécessaire.</p>
+              <p>Communication est faite au Conseil de la lettre par laquelle notre camarade Jacques
+                Péricard, vice-président de "La Flamme ", informe l'U. A. G. que c'est à elle
+                qu'incombe la mission de rallumer la flamme au Tombeau du Soldat Inconnu, le
+                vendredi 30 décembre 1927. Il est décidé que tous les administrateurs habitant la
+                capitale formeront la délégation qui se rendra ce jour-là à l'Arc de Triomphe de
+                l'Etoile, accompagnée du drapeau.</p>
+              <p>Après avoir pris connaissance d'une lettre du camarade Paris sollicitant
+                l'autorisation de convoquer les camarades du Lot-et-Garonne, en vue de la
+                constitution d'une section de l'U. A. G., le Conseil, à l'unanimité, approuve
+                l'initiative du camarade Paris.</p>
+              <p>En réponse à la lettre de notre camarade Marcel Héraud, de la F.I.D.A.C., demandant
+                à l'U. A. G. de désigner un délégué chargé de faire partie du Comité de réception de
+                la British Legion, qui doit se rendre en France, au cours de l'été prochain, le
+                Conseil désigne Scapini comme délégué de l'Union.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 heures.</p>
+              <pb n="27"/>
+              <note type="foliation">— 25 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h37">AVIS AUX CAMARADES</head>
+              <p>Les cotisations pour l'année 1928 ( 10 francs) peuvent être versées dès maintenant,
+                soit par mandat-poste, soit à notre compte chèque postal <hi rend="superscript"
+                  >n</hi>^{\circ} 160-31.</p>
+              <p>Nous rappelons aux camarades que leurs noms paraîtront au Bulletin au fur et à
+                mesure du versement de leur cotisation, et qu'il ne leur sera pas envoyé d'accusé de
+                réception. M. Maurice Constançon, directeur de "L'Asile des Aveugles ", Lausanne
+                (Suisse), nous informe qu'il peut, dès maintenant, fournir à prix très réduit la
+                machine à écrire le Braille qu'il a fait construire.</p>
+              <p>Cette machine, dont le prospectus nous a été communiqué, coûte franco de port : 65
+                francs suisses, soit 320 francs français.</p>
+              <p>Un rabais spécial de 100 / 0, soit de 32 francs, sera fait aux aveugles de guerre
+                faisant partie de l'U. A. G. M. M. Constançon peut fournir également des tablettes
+                Braille (modèle anglais), mais permettant l'écriture sur feuilles doubles, pour le
+                prix de 24 fr. 50 (francs français), port en plus.</p>
+              <p>A vendre : un métier à tricoter Jacquard, avec tous accessoires, marque "Restil ",
+                longueur 1 mètre.</p>
+              <p>S'adresser, 13, rue Tronchet, de la part du camarade Paul Martin, 10, rue de
+                l'Union, La Courneuve (Seine).</p>
+              <p>Fonds de brosserie à vendre. Pour tous renseignements, s'adresser au camarade
+                Georges Ponce, 12, place du Marché, Maule (Seine-et-Oise).</p>
+              <p>A vendre : machine à couper les brosses, état neuf, marque Watteeuw, 5 tondeuses,
+                ainsi qu'un appareil de T.S.F. Berrens, 4 lampes, haut-parleur Brunet, à
+                l'essai.</p>
+              <p>S'adresser au camarade J. Granet jeune, à Grisolles (Tarn-et-Garonne).</p>
+              <p>A vendre : accordéon chromatique 48 notes, 80 basses, état neuf. S'adresser au
+                camarade Boudant, à Melleray, par Montmirail (Sarthe).</p>
+              <pb n="28"/>
+              <note type="foliation">— 26 —</note>
+              <p>A vendre : Accoupleur état neuf, 150 francs. Bicyclette d'homme très bon état,
+                occasion. Machine à tricoter Dubied 7-50, état de neuf, sans rayeurs. Prix
+                modéré.</p>
+              <p>S'adresser au camarade Fonchy, route de Quinsac, Saint-Yrieix (Haute-Vienne).</p>
+              <p>L'art de se meubler vous est offert gracieusement. Notre superbe album illustré de
+                180 pages vous sera envoyé, sur simple demande aux Galeries Barbès, 55, boulevard
+                Barbès, Paris. (Ne pas confondre, au coin de la rue Labat.)</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h38">ERRATUM</head>
+              <p>Dans notre Bulletin de janvier, page 38, lire à l'article 21 du règlement intérieur
+                de Franceville : 1 fr. 50 par paire de taies d'oreiller au lieu de : 1 fr. 50 par
+                taie d'oreiller.</p>
+              <pb n="29"/>
+              <note type="foliation">— 27 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Liste des Donateurs</head>
+            <p>Protection et bonne santé de notre famille, 300 fr . - Mme G.-A. Kessler,
+              Neuilly-sur-Seine, 1.000 fr. - Mme Veuve Limousin, Tolosa (Espagne), 200 fr. - Mme
+              Roger Lavigne, Pau (transmis par Les Annales), 25 fr. - Cercle Républicain, Paris, 100
+              fr. - Produit d'une soifée de gala donnée par M. Faive, 1.050 fr. - M. Gaston
+              Cavalier, Nîmes (transmis par Les Annales), 10 fr. - Mme Ebner, à Amsterdam, 10
+              florins. - M. Heloing, à Buenos-Aires, 500 fr. Association des collaborateurs et
+              anciens collaborateurs des ministres, 3.905 fr. 75. - Mlles Flandin, Marseille, 25 fr.
+              - Produit d'une fête donnée à Pnom-Penh par Mme Marque, 21.088 fr. 80. Mme Segalon, Le
+              Havre, 20 fr. - Une Jurassienne, 10 fr. Mlle Draussin, à Valence, 10 fr . - Mme
+              Romezin, à Valence, 30 fr . - Mme Buell G. Tallman, à Buffalo, 1.063 fr. - Mme
+              Barnet-Lyon, La Haye (Hollande), 100 fr. - M. et Mme Genevoix, Paris, 50 fr. - Mme
+              Lemaire, à Cambrai, 20 fr. - Mme Vagnat, à Paris, 100 fr. - M. et Mme Eichens, à
+              Beaumesnil (Eure), 30 fr. - M. Cottin, Paris, 50 fr. - Les élèves de l'école primaire
+              de jeunes filles et leur directrice de Villeneuve-la-Garenne, 250 fr. - Lycée de
+              Bar-le-Duc, 20 fr. - M. Vieilleville, Meudon, 20 fr. - M. Delaroche, à Metz, 20 fr. -
+              M. Lipot (Xavier), à Bouvincourt (Somme), 100 fr. Mlle de Freycinet, Paris, 100 fr. -
+              Anonyme de Noordwjk (Hollande), 1.400 florins. - M. Chabaud, Dellys (Algérie), 20 fr.
+              Mme Le Gallais, Luxembourg, 1.250 fr. - M. Del Carril, Paris, 100 fr. - M. Costedoat,
+              Alger, 20 fr. - Mme Dornec, Paris, 100 fr. - M. Ripeloux, Princeton (New-Jersey), 200
+              fr. - Mme Bettelini, Jacksonville (Floride), 617 fr. - Un groupe d'infirmières et leur
+              directeur, 600 fr. - M. James Hennesy, Cognac (Charente), 200 fr. Mme Teilh, Louson
+              (Vienne), 20 fr. - Mlle Caillon, directrice d'école à Sellière (Jura), 20 fr. - Caisse
+              d'épargne de Sezanne a (Marne), 300 fr. - Etablissements Hotchkiss, 500 fr. -
+              Sidi-Brahim du canton de Longwy, 200 fr. - M. Granier, Crepy-en-Valois (Oise), 25 fr.
+              - Union Immobilière à Tientsin (Chine), 25 fr. - M. Guilly, à Douvrin (Pas-de-Calais),
+              50 fr. - Mme Mazuray, Paris, 10 fr. -</p>
+            <pb n="30"/>
+            <note type="foliation">— 28 —</note>
+            <p>Mme Blanche Matton, Neuilly-sur-Seine, 200 fr. - Etablissements Volterra, 300 fr. -
+              Mlle Maisonète, "Darlington (Angleterre), 61 fr. 70. - Les Enfants de Mme Radou, Janzé
+              (Ille-et-Vilaine), 150 fr. - Les élèves de l'école des filles du Claret, à Toulon, 25
+              fr. - Mme Lebossé, à Sainte-Adresse (Seine-Inférieure), 25 fr. Mme Sens, à Marseille,
+              100 fr. - Mme Cornud Peschier, Vallon (Ardèche), 500 fr. - Mme J. Meyer, Béziers, 50
+              fr. - M. Limoujoux, Ussel (Corrèze), 50 fr. - M. Combis, Dannemoine (Yonne), 200 fr. -
+              Mme Le Gallais, Luxembourg, 500 fr. - Mme Mus, Hanoï (Tonkin), 2.000 fr. - Mme Veuve
+              Caneja, Rio Salado Oran, 30 fr. - Mlle Scheurer, Paris (affectation Maison repos
+              Franceville), 200 fr. - Mme Charles Peugeot, Paris (affectation Maison repos
+              Franceville), 200 fr. - Ecole primaire supérieure à Voiron (Isère), 50 fr. - M.
+              Ransons, Paris, 100 fr. - M. Gilcrease Thomas, Oklohama (U.S.A.), transmis par Le
+              Matin, 6.250 fr. - M. le docteur Huel, Paris, 60 francs.</p>
+            <pb n="31"/>
+            <note type="foliation">— 29 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h40">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h41">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents : Favret, Grilley, Noireaux. Secrétaire général
+              : Bloncourt. Trésorier : Gaston L'Evesque. Membres : Amblard, Antoine, Arnault,
+              Bardoux, Bertrand, Bois, Cabasson, Courteix, Derunder, Fauvel, Conan, Goubin, Guillam,
+              Izaac, Lapfargue, Lagarde, Lallement, Lauté, Malgat, Muller, Nicolai, Robert
+              (Maurice), Satgé, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h42">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Oscar Bloch, Secrétaire adjoint; M. Auterbe, Actuaire
+              à la Compagnie « L'Union »; M. Marcel Bloch;</p>
+            <p>Mme Broquin; M. Chepper; M. Pierre Chérot;</p>
+            <p>Mme Chevalier; Mme Contamin; Mlle Jalaguier; Baronue de Grottihuss-Gernanet; Mme
+              Henri; Mme Kalt; Mme L'Evesque; Mme Lévy-Weiss; M. Mayer.</p>
+            <p>Mme Meyer; Mme Mus; M. Pascal; Dr Schneider;</p>
+            <p>Colonel de Traversay.</p>
+            <pb n="32"/>
+            <note type="foliation">— 30 —</note>
+            <fw type="footer">Imp. Dubois et Bauer, r. Laffitte, Paris. - 1928.</fw>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

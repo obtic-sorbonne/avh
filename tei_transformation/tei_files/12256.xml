@@ -1,0 +1,911 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 9ème année 1927 n°4</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Rapprochement franco-allemand</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Entraide</title>
+        <title type="topic">T.S.F.</title>
+        <title type="topic">Caisse Fraternelle</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 18 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#fidac">F.I.D.A.C.</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#cotisations">Cotisations</term>
+          <term ref="#informations">Informations</term>
+          <term ref="#chronique">Chronique</term>
+          <term ref="#tsf">T.S.F.</term>
+          <term ref="#radio-club-des-aveugles-de-france">Radio-Club des Aveugles de France</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un éventail de sujets allant
+          du rapprochement franco-allemand aux activités internes de l'association, telles que les
+          cotisations, la caisse fraternelle, et les procès-verbaux des séances du conseil
+          d'administration. Il inclut également des informations sur les services offerts aux
+          membres, comme la bibliothèque et les annonces diverses, ainsi que des articles sur des
+          thèmes plus généraux comme l'esprit combattant et le rôle de la F.I.D.A.C. Le bulletin
+          fournit un aperçu des préoccupations et des activités de l'Union des Aveugles de Guerre
+          dans les années 1920.</p>
+      </abstract>
+      <creation>
+        <date when="1927-04-01">01/04/1927</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-11" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-11" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Le Rapprochement Franco-Allemand</ref>
+          </item>
+          <item>
+            <ref target="#h8">VISITE DU GÉNÉRAL GREENLAW</ref>
+          </item>
+          <item>
+            <ref target="#h9">" L'ESPRIT COMBATTANT "</ref>
+          </item>
+          <item>
+            <ref target="#h10">Qu'est-ce que la F. I. D. A. C. ?</ref>
+          </item>
+          <item>
+            <ref target="#h11">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h12">COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h13">LETTRE DU CAMARADE GUILBOT (Eugène)</ref>
+              </item>
+              <item>
+                <ref target="#h14">UN ACCOUPLEUR DE CYCLES PERFECTIONNE</ref>
+              </item>
+              <item>
+                <ref target="#h15">BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h16">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h17">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h18">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h22">Procès-Verbal de la Séance extraordinaire du Conseil
+                  d'Administration du 24 Février 1927</ref>
+              </item>
+              <item>
+                <ref target="#h23">Procès-Verbal de la Séance du Conseil d'Administration</ref>
+              </item>
+              <item>
+                <ref target="#h24">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h25">COTISATIONS REÇUES A LA DATE DU 15 MARS</ref>
+              </item>
+              <item>
+                <ref target="#h26">LEGION D'HONNEUR</ref>
+              </item>
+              <item>
+                <ref target="#h27">MINISTERE DE LA GUERRE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h28">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h29">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h30">COMITE D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h31">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">9e Année. — N° 4</fw>
+          <fw type="header">
+            <hi rend="underline">Avril 1927</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le rapprochement franco-allemand.</item>
+                    <item>Visite du général Greenlaw à l'U. A. G.</item>
+                    <item>« L'esprit combattant ».</item>
+                    <item>Qu'est-ce que la E. I. D. A. C.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Cotisations.</item>
+                    <item>A vendre.</item>
+                    <item>Avis.</item>
+                    <item>Bibliothèque.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbaux des séances du Conseil d'Administration des 24 février et 5
+                      mars 1927.</item>
+                    <item>Légion d'honneur.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur is Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Rigdeiy Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kain; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Rameil, député; M^{e} Henri-Robert, de l'Académie Française,
+              ancien bâtonnier de l'Ordre ues Avocats; Général Sainte-Claire-Deville; M.
+              Vallery-Radot; M. Constant Verlot, député; M. le professeur Walther, membre de
+              l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Le Rapprochement
+              Franco-Allemand</head>
+            <p>Est-ce une utopie? Qu'y a-t-il à en espérer? Les anciens combattants ex-ennemis et
+              les anciens combattants alliés ont pris contact à Genève. Le but : tenter de
+              développer, dans leurs pays respectifs, un esprit de paix qui puisse, dans la mesure
+              du possible, retarder ou empêcher le retour de catastrophes comme celle de 1914.</p>
+            <p>Trois courants d'opinion se sont manifestés à la suite de cette tentative : 1<hi
+                rend="superscript">°</hi> Le rapprochement est intéressant dans son principe, mais
+              il sera stérile. 2<hi rend="superscript">°</hi> Les alliés sont de bonne foi,
+              cherchent la paix, la prêcheront chez eux, mais en face ils trouveront des hommes qui
+              exploiteront leur bonne foi et poursuivront leur objectif de revanche. 3<hi
+                rend="superscript">°</hi> C'était un geste que les anciens combattants se devaient
+              de faire ; il ne comporte pas de risques et a de grandes chances d'aboutir s'il reste
+              dans l'esprit des hommes un atome de bon sens.</p>
+            <p>La première opinion, qui consiste à soutenir que l'effort sera stérile, est purement
+              gratuite, et n'est basée sur aucune espèce d'argument sérieux.</p>
+            <p>D'autre part, dire que les ex-ennemis exploiteront l'esprit de paix que nous tentons
+              de développer chez nous et se joueront encore de notre loyalisme, paraît aussi peu
+              fondé. Il est évident que la propagande que nous faisons chez nous en faveur de la
+              paix doit être prudente ; que nos relations avec les ex-ennemis doivent s'entourer de
+              grandes précautions ; mais, en somme, nous avons des moyens de contrôle sur l'action
+              qu'ils mènent chez eux, et il est aisé, à la première défaillance de leur part, de
+              donner un coup de barre de redressement.</p>
+            <p>La troisième opinion est celle qui offre certainement le plus de sérieux. Si des
+              hommes peuvent sincèrement et de bonne foi détester la guerre, en voir toute l'horreur
+              et de toute leur force vouloir en éviter le retour, ce sont bien ceux - à quelque bord
+              qu'ils appartiennent - qui ont eu à en souffrir en premier chef.</p>
+            <p>Ce sont les générations qui ont été entraînées dans ce formidable tourbillon de
+              désolation qui sont le plus à même de faire sainement le <pb n="4"/>
+              <note type="foliation">— 2 —</note> bilan : d'un côté la mort horrible, la souffrance
+              terne, les deuils dont la répercussion est illimitée, des nations épuisées en sang et
+              en or, chaque pays atteint dans ses œuvres vives, et, en face, comme contrepartie, le
+              néant, pas de vainqueur, pas de vaincu, ébranlement monstrueux dont tout le monde
+              souffre.</p>
+            <p>On conçoit que les hommes aient pu aimer la guerre dans un passé encore proche ; elle
+              s'entourait d'une auréole brillante de gloire, de panache, d'uniforme ; la valeur
+              individuelle était mise en évidence ; chacun portait dans son sac, ainsi qu'il a été
+              dit, un bâton de maréchal : tout cela a disparu ; il ne reste de la guerre qu'un
+              squelette. Pour ne pas le comprendre, l'ayant vécu, il faudrait être fou, et, en
+              somme, les chances de réussite des tentatives en faveur de la paix se résument en ceci
+              : si les hommes sont stupides, si l'humanité ne possède plus un atome de raison, dans
+              ce cas la cause de la paix est indiscutablement perdue en dépit des efforts que
+              pourraient faire les anciens combattants ; mais s'il n'en est pas ainsi, elle doit
+              triompher, et nous avons le ferme espoir qu'il n'en est pas ainsi.</p>
+            <p>Georges Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">VISITE DU GÉNÉRAL GREENLAW</head>
+            <p>à " l'Union des Aveugles de Guerre", le 12 Mars 1927</p>
+            <p>L'Union des Aveugles de Guerre a reçu, le samedi 12 mars, au siège de l'Association,
+              25, rue Ballu, le général Greenlaw, délégué de la Légion Américaine à Paris, et le
+              major Thorn, président de l'American Legion en France.</p>
+            <p>Scapini, président de l'Union des Aveugles de Guerre, a exposé les buts de l'Union.
+              Le général a remercié les Aveugles de Guerre en termes émus de leur accueil. Il leur a
+              dit l'admiration des Américains pour ces hommes qui savent souffrir sans murmurer et
+              dont l'œuvre d'entr'aide est d'une élévation morale qui se passe de commentaires. Il
+              leur a assuré que la Légion Américaine fera l'impossible pour apporter son aide à
+              l'Union des Aveugles de Guerre.</p>
+            <p>Le général Greenlaw, au cours de sa visite, s'est arrêté longuement devant les objets
+              fabriqués par les Aveugles de Guerre.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">" L'ESPRIT COMBATTANT "</head>
+            <p>(Extrait du Bulletin de la F. I. D. A. C. de février 1927)</p>
+            <p>On a souvent essayé de définir ce qu'on entend par " l'esprit du combattant " ou "
+              l'esprit ancien combattant ". Tout le monde en parle et lorsqu'on essaie de le
+              définir, bien rares sont ceux qui arrivent à une formule précise.</p>
+            <p>Dans la belle publication mensuelle de l'U. F., La France Mutilée - qui,
+              malheureusement, a cessé de paraître, - M. José Germain, président honoraire de
+              l'Association des Ecrivains Combattants, a publié un excellent article sur "l'esprit
+              combattant ".</p>
+            <p>En voici quelques extraits : "La génération du feu n'a pas su se faire écouter. Lasse
+              des combats de la guerre, elle n'a pas goûté le plaisir qui s'offrait des nouveaux
+              combats de la paix. Elle avait bien le droit au repos : qui donc la blâmera? et qui
+              surtout aurait le droit de la blâmer? " ...Le principe démocratique exige la loi du
+              nombre : ceux qui n'y étaient pas sont plus nombreux que ceux qui y étaient et qui en
+              sont revenus, c'est donc eux qui décréteront le silence obligatoire sur les mots
+              désormais condamnés de "Guerre de 1914 ". "Et l'ancien combattant fut ainsi rayé des
+              rôles du gouvernement. Il leva les épaules, s'attrista, prédit le naufrage rapide du
+              magnifique navire qu'il avait conduit au havre après tant de tempêtes, et retiré en
+              lui-même pour méditer sur l'ingratitude humaine, il ne garda plus qu'une pensée :
+              vivre. Qu'on le laisse vivre en paix !... "Plus que tous les autres et parce que nous
+              nous sommes livrés aux pires expériences, nous aimons ila paix. Nous nous sommes
+              battus pour que nos enfants ne connaissent pas l'horreur suprême des guerres. Nous
+              rêvons d'un monde où le seul intérêt général détruirait l'instinct belliqueux des
+              peuples. La fraternité nous semble un bien suprême. Entre nous déjà, nous la
+              pratiquons longuement, comme dans la tranchée, Notre solidarité n'est pas un vain mot.
+              Les anciens combattants sont demeurés camarades de combat, non comme des matamores
+              attardés, fervents du cliquetis des armes, mais comme des porte-flambeau, parmi la
+              brume sociale et la nuit internationale : en quête d'une nouvelle aurore de justice,
+              de bonté et de vérité. "L'A. C. est foncièrement pacifique : résolu parce qu'élevé à
+              l'école de l'action, réaliste et idéaliste à la fois, c'est-à-dire ennemi de toute
+              idéologie folle; constructeur parce que las de détruire;</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>ordonné car il a gardé le souvenir pénible de l'immense désordre de la guerre ;
+              ennemi du mensonge et de tout bourrage de crâne ; pourvu du sens infiniment rare de
+              l'intérêt général ; imbu de l'esprit d'équipe et de toutes les solidarités ; fier sans
+              présomption ; incapable de haine ; politiquement et religieusement respectueux de
+              toutes les opinions. "</p>
+            <p>Et voici la définition de "l'esprit combattant" que donne M. Camille Planche, dans
+              l'excellent Almanach du Combattant, dirigé par notre éminent ami Jacques Péricard : "
+              Il est certain que s'il existe incontestablement un " esprit "ancien combattant ",
+              chacun d'entre nous le façonne à sa manière et veut que son concept soit celui qui
+              représente exactement ce que les mots veulent dire. L'erreur vient, à mon sens, de ce
+              que l'on veut que " l'esprit ancien combattant " constitue une commune pensée et une
+              commune façon de voir et d'examiner certains problèmes. Je pense qu'envisagé sous
+              cette forme " l'esprit ancien combattant " n'existe pas. " S'il paraît possible que,
+              d'un congrès commun où l'on examinerait les choses de la politique et de l'économie,
+              il pourrait surgir un certain nombre de solutions sur lesquelles, par des concessions
+              mutuelles, on arriverait à se mettre d'accord, il n'en subsisterait pas moins que sur
+              un grand nombre d'autres problèmes, l'accord ne pourrait se faire. " Aussi je crois
+              que c'est une illusion de chercher à faire prévaloir en France une sorte de programme
+              qui serait la résultante de ce qu'on appelle " l'esprit ancien combattant ". " En
+              réalité, celui-ci n'est pas formé par un ensemble d'idées, mais plutôt par une façon
+              particulière d'envisager ces idées. En d'autres termes, je pense que " l'esprit ancien
+              combattant " est fait de bonne humeur, de cordialité, de sympathie réciproque, de
+              solidarité et surtout d'honnêteté. Les qualités qui firent que, pendant la guerre,
+              nous pouvions vivre côte à côte avec des opinions diamétralement opposées ont persisté
+              chez nous et elles constituent, aujourd'hui, " l'esprit ancien combattant ". "
+              Appliquez à la politique ces idées, c'est-à-dire faites que les relations entre
+              partis, que les relations entre militants, que les relations entre élus deviennent
+              empreintes comme nous venons de le voir, de " bonne humeur, de cordialité, de
+              sympathie réciproque, de solidarité et surtout d'honnêteté, et vous aurez transporté
+              dans ce domaine, " l'esprit ancien combattant ".</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+            <p>Afin de faire connaître à nos camarades, qui pourraient l'ignorer, ce qu'est la F. I.
+              D. A. C., nous vous donnons ci-dessous quelques indications sur cette importante
+              Fédération.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Qu'est-ce que la F. I. D. A. C.
+              ?</head>
+            <p>La F. I. D. A. C. a été créée à Paris, le 28 novembre 1920. Elle réunit actuellement
+              plus de trois millions de membres, groupés dans vingt-huit Associations et appartenant
+              aux pays suivants :</p>
+            <p>Belgique, Etat -Unis, France, Grande-Bretagne, Italie, Pologne, Roumanie, Tchécs
+              lovaquie et Yougoslavie.</p>
+            <p>Le but principal de la F. I. D. A. C. est de maintenir, d'encourager et de développer
+              l'esprit de camaraderie qui s'est manifesté sur les champs de bataille et de mettre
+              cette camaraderie au service de la paix. Les Congrès annuels de la F. I. D. A. C.
+              constituent le meilleur moyen de faire connaître son utilité et son influence. Le
+              premier Congrès constitutif fut tenu à Paris, en 1920 ; celui de 1921 eut lieu
+              également à Paris ; celui de 1922 fut tenu à la Nouvelle-Orléans, puis à Bruxelles
+              (1923), à Londres (1924), et à Rome (1925).</p>
+            <p>C'est la Pologne qui, cette année, a eu l'honneur d'offrir son hospitalité au VII <hi
+                rend="superscript">°</hi> Congrès de la F. I. D. A. C. Commencé le 5 septembre à
+              Varsovie, il s'est terminé le 11 à Cracovie. Le Comité d'organisation, dirigé par M.
+              Maryan Kantor, a fourni un effort considérable couronné de succès. Les autorités
+              polonaises prêtèrent aux organisateurs le plus large appui. Le président du Conseil en
+              personne a offert un banquet aux congressistes.</p>
+            <p>Ecartés des Conseils internationaux où leurs sacrifices et leur vaillance avaient
+              pourtant marqué leur place, les anciens combattants des pays alliés pendant la guerre,
+              entendent, en dehors et par-dessus les diplomaties, travailler pour la paix et le
+              rapprochement des peuples, œuvre dont l'indispensable prélude ne saurait être qu'une
+              consécration nouvelle de la solidarité interalliée.</p>
+            <p>Le premier président de la F. I. D. A. C. était M. Charles Bertrand, député de Paris,
+              qui a gardé ses fonctions pendant quatre ans. L'Américain Thomas W. Miller lui a
+              succédé. Le président suivant était le colonel britannique George-R. Crosfield. Enfin,
+              le nouveau président, élu à l'unanimité par le Congrès de Varsovie, est M. Marcel
+              Héraud, député de Paris.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>Il y a à côté du président, neuf vice-présidents (un par nation). Voici leurs noms :
+              MM. Achille Reisdorff (Belgique), colonel HenryD. Lindsley (Etats-Unis), Jean Desbons
+              (France), colonel George-R. Crosfield (Grande-Bretagne), On. Nicola Sansanelli
+              (Italie), Maryan Kantor (Pologne), Pierre Ciolan (Roumanie), colonel Milan
+              Radossavfievitch (Yougoslavie) et Yaroslav Chaoupka (Tchécoslovaquie). M. Roger-Marie
+              d'Avigneau, le sympathique et dévoué secrétaire général de la F. I. D. A. C. depuis sa
+              création, a vu son mandat renouvelé par acclamations pour la septième fois.</p>
+            <p>Le siège social de la F. I. D. A. C. se trouve à Paris ( 96 , rue de l'Université).
+              Un Bulletin mensuel, publié en français et en anglais, sous la direction du signataire
+              de cette chronique, est son organe. Une Commission permanente de propagande, présidée
+              par le colonel britannique Fred-W. Abbot, assure l'exécution des vœux votés par les
+              Congrès en vue d'assurer à la F. I. D. A. C. la diffusion toujours plus large de ses
+              idées.</p>
+            <p>Depuis sa fondation, la F. I. D. A. C. n'a cessé de croître. Elle est aujourd'hui la
+              plus forte organisation d'anciens combattants dans le monde. Elle jouit d'une
+              situation morale tout à fait exceptionnelle.</p>
+            <p>Casimir Smogorzewski.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">COTISATIONS</head>
+              <p>Nous rappelons aux camarades que, par suite de la décision de l'Assemblée générale
+                du 14 novembre 1926, la cotisation annuelle est portée à 10 francs.</p>
+              <p>On peut s'en acquitter dès maintenant en faisant parvenir cette somme aux bureaux
+                de l'Union, soit par mandat-carte, soit par chèque postal.</p>
+              <p>Maison à vendre, libre de location, à Nointel-Saint-Aubin (Oise), composé :</p>
+              <p>D'un rez-de-chaussée divisé en trois pièces; D'un étage en mansardes ; D'un
+                grenier, avec dépendances : cour, grange, deux hangars, buanderie sur cave et
+                grenier au-dessus, écurie, poulailler, lapinière.</p>
+              <p>Superficie totale : 12 ares. Prix : 27.000 francs, payable au comptant avec
+                réduction. S'adresser à : <hi rend="superscript">M</hi>^{\circ} Gattelet, notaire, à
+                Clermont (Oise), ou à Mme Dangu, à Nointel-Saint-Aubin, près Clermont (Oise).</p>
+              <p>Le camarade Giroir demande à échanger son logement dans le 18<hi rend="superscript"
+                  >°</hi> arrondissement, composé de deux pièces, grande cuisine, entrée, cabinet de
+                débarras, eau, gaz, électricité, d'un prix modique, contre un similaire dans Paris
+                ou banlieue immédiate.</p>
+              <p>S'adresser : M. Paul Giroir, chez M. Weinbach, 60, rue de Richelieu, Paris.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">LETTRE DU CAMARADE GUILBOT
+                (Eugène)</head>
+              <p>Je rappelle à tous mes camarades qui ignorent encore combien d'heures agréables la
+                T. S. F. peut leur apporter, qu'ils peuvent être assurés, en m'honorant de leur
+                commande d'appareils, d'une livraison consciencieuse et soignée. Les appareils que
+                je construis sont bien présentés et parfaits de mise au point. Leur prix est bien
+                inférieur à ceux pratiqués dans le commerce à qualité égale de marchandise
+                employée.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>Je tiens cependant à dire à mes camarades que je ne veux pas construire d'appareils
+                "camelotés" dont les prix pourraient descendre aux trois quarts et même à la moitié
+                de ceux que je donne ci-dessous :</p>
+              <p>Appareil à deux lampes complet (avec les accessoires énoncés plus loin) : 800
+                francs.</p>
+              <p>Appareil à quatre lampes, donnant sur antenne extérieure d'un seul fil d'environ 50
+                mètres, la majorité des postes européens en fort haut-parleur. Réglage facile,
+                sélectivité très poussée, complet : 1.380 francs.</p>
+              <p>Cet appareil est monté à l'américaine avec lampes intérieures. Montage à changement
+                de fréquence (superhétérodyne) par lampe bi-grille : assurant une réception parfaite
+                sur cadre ou sur petite antenne de tous les concerts européens. La présentation de
+                ce genre d'appareil est faite dans un beau coffret meuble fermant dessus et devant,
+                façon acajou, verni au tampon, emboîtage à double fond, lampes intérieures.</p>
+              <p>Récepteur à cinq lampes, complet sans le cadre... 1.800 francs</p>
+              <list>
+                <item>à six lampes........................ 2.000 -</item>
+                <item>à sept lampes...................... 2.300 -</item>
+              </list>
+              <p>Tous autres appareils sur devis. Tous ces appareils sont livrés avec les
+                perfectionnements les plus modernes : emploi du minimum de lampes avec mise en
+                circuit de lampes amplificatrices suivant les besoins, passage automatique de
+                l'écoute au casque à celle en haut-parleur. Accessoires de marque : casque Pival,
+                haut-parleur Thomson, lampes Philipps spécialisées, piles Hydra ou Wonder à prises
+                multiples, accus Watt.</p>
+              <p>En outre, je me mets à la disposition de tous mes camarades acheteurs ou non d'un
+                appareil de T.S.F. pour leur donner tous les renseignements techniques dont ils
+                pourraient avoir besoin et pour leur fournir toutes les pièces ou accessoires, y
+                compris les lampes Philipps, à des prix de 15 à 200 / 0 en dessous des prix
+                courants. Les frais de port sont comptés au plus juste.</p>
+              <p>Mon tarif sera majoré de 150 / 0 pour toute vente à des voyants et si c'est un
+                aveugle qui a servi d'intermédiaire, je lui consentirai une remise de 100 / 0 sur la
+                totalité de la commande. Je compte sur une honnête camaraderie pour me dire si
+                l'appareil leur est bien personnellement destiné.</p>
+              <p>Références sur demande. Eugène Guilbot, Secrétaire du Radio-Club des Aveugles de
+                France, 7, avenue de Madrid, Neuilly-sur-Seine.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">UN ACCOUPLEUR DE CYCLES
+                PERFECTIONNE</head>
+              <p>Messieurs,</p>
+              <p>Permettez-moi de vous présenter, en peu de mots, un nouvel accoupleur de cycles
+                susceptibles de vous intéresser. Déjà deux de vos membres s'en servent à leur
+                entière satisfaction. Ce sont eux qui le montent eux-mêmes.</p>
+              <p>Cet accoupleur n'a aucun des défauts des anciens systèmes : ceux-ci étaient
+                rigides, fatiguaient énormément les machines et les cyclistes, il fallait les monter
+                entièrement et les régler à chaque sortie. Le montage demandait une demi-heure, le
+                démontage un bon quart d'heure.</p>
+              <p>Celui-ci est entièrement souple : les quatre roues sont indépendantes. Il est
+                constitué par trois tubes d'acier et une direction doublée. Le tout est assemblé sur
+                les colliers posés sur les machines par des haubans en fil d'acier à haute
+                résistance (corde à piano) comme on en voit sur les avions.</p>
+              <p>Il se monte en moins de deux minutes sans outils, sans rien. Le démontage est
+                instantané : faites pivoter une tringle et appuyez sur quatre poignées spéciales.
+                Les deux machines sont libérées ! Cette opération demande 15 à 20 secondes !</p>
+              <p>Il se monte sur n'importe quelles machines, même munies de changement de
+                vitesse.</p>
+              <p>Toutes ces qualités lui ont valu une médaille d'argent au concours Lépine 1923 et
+                deux diplômes au Touring-Club de France.</p>
+              <p>Il se fait en deux modèles. Modèle A., larg. 90 <hi rend="superscript">c</hi> / <hi
+                  rend="superscript">m</hi>., poids 4 kilos 100 . Prix : 400 francs. Modèle B.,
+                larg. 70 <hi rend="superscript">c</hi> / <hi rend="superscript">m</hi>., poids 3
+                kil. 100 . Prix : 385 francs. 50 / 0 de remise aux membres. Pour tous
+                renseignements, écrire en joignant un timbre pour la réponse à M. Lanfray fils.
+                "Avion-Sport », 95, rue de Ménilmontant, Paris (20).</p>
+              <p>Le "Phare de France », 14, rue Daru, nous prie d'informer nos camarades que deux
+                professeurs de chant du Conservatoire de Paris, chaque mercredi, à 8 \mathrm{~h} .1
+                / 2 du soir, mettent leur talent à la disposition des camarades qui voudraient en
+                profiter.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">BIBLIOTHEQUE</head>
+              <p>Le Phare de France a publié récemment les volumes dont les noms suivent :
+                'Aphrodite (Pierre Louys), 6 volumes. Abrégé. Le Masque aux Yeux d'Or (Cahuet), 6
+                volumes. Abrégé. Mon Cæur au Ralenti (Dekobra), 7 volumes. Abrégé. Les Sæurs de
+                Napoléon (Turquan), 14 volumes. Abrégé. Knock (Jules Romains), 2 volumes. Abrégé.
+                Coup de Roulis (Larrouy), 8 volumes. Abrégé. Les Contes de la Bécasse (Maupassant),
+                4 volumes. Abrégé. La Fille au Turban Vert (Bertheroy), 4 volumes. Abrégé. Les
+                Nouveaux Messieurs (de Flers), 3 volumes. Abrégé. Le Baiser au Lépreux (Mauriac), 2
+                volumes. Abrégé. Genitrix (Mauriac), 2 volumes. Abrégé. Précis de Psychologie
+                (James), 5 volumes. Abrégé. Le Problème de l'Etre et de la Destinée (Denis), 11
+                volumes. Abrégé. Les Frères Zemganno (E. de Goncourt), 5 volumes. Intégral. Les
+                Dieux ont soif (A. France), 8 volumes. Intégral. Poèmes à dire (auteurs divers), 1
+                volume. Abrégé.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fratemelle a distribué, entre le 15 février et le 15 mars, une somme
+                de 4.200 francs, se répartissant comme suit :</p>
+              <table>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell>1.800</cell>
+                </row>
+                <row>
+                  <cell>Décès</cell>
+                  <cell>1.350</cell>
+                </row>
+                <row>
+                  <cell>Secours et frais.</cell>
+                  <cell>1.050</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 4.200 francs une somme de 1.550 francs pour prêts
+                exceptionnels et une somme de 13.700 francs pour prêts de Maisons familiales.</p>
+              <p>La Commission de Caisse Fratemelle a eu à examiner 26 demandes de secours, dont 6
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+              <p>Les crédits affectés aux prêts exceptionnels étant dépassés, ceux-ci sont
+                momentanément suspendus.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">NAISSANCES</head>
+                <p>Notre camarade et Mme Bobon, de Pontorson (Manche), nous font part de la
+                  naissance de leur fille, Gabrielle, née le 16 février 1927.</p>
+                <p>Notre camarade et Mme Patisson (Pierre), de Vincent-de-Connezac (Dordogne), nous
+                  font part de la naissance de leur fils, Georges, né le 21 janvier 1927.</p>
+                <p>Notre camarade et Mme Falcou (Germain), de Mirepoix (Ariège), nous font part de
+                  la naissance de leur fille, Gemaine, née le 17 février 1927.</p>
+                <p>Notre camarade et Mme Dimitrieff, de Dives (Calvados), nous font part de la
+                  naissance de leur fils, Georges, né le 8 mars 1927.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents, et nos vœux de
+                  prospérité aux bébés.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">MARIAGES</head>
+                <p>Notre camarade Bicheron (Marius), de Marseille (Bouches-duRhône), nous fait part
+                  de son mariage avec Mme Veuve Sorsanat, qui a eu lieu le 29 mars 1927.</p>
+                <p>Nous adressons nos meilleurs vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Poissonnier (Louis), d'Orléans
+                  (Loiret), décédé le 4 mars 1927, à 53 ans.</p>
+                <p>De la fille de notre camarade Cado (Pierre), de Plouay (Morbihan), décédée le 15
+                  février 1927.</p>
+                <p>De la soeur de notre camarade Faure (Jean), de Ajat (Dordogne), décédée à 48
+                  ans.</p>
+                <p>Du beau-père de notre camarade Leroy (Marcel), de Fécamp, décédé le 12 février
+                  1927, à 62 ans.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Procès-Verbal de la Séance
+                extraordinaire du Conseil d'Administration du 24 Février 1927</head>
+              <p>La séance est ouverte à 20 h .30 sous la présidence de Favret. Sont présents :
+                Favret, Bertrand, Bois, L'Evesque, Bardoux, Bloncourt, Guillam, Laffargue, Lauté. M.
+                de Traversay, président du Comité d'action. M. le colonel de Traversay, membre du
+                Comité d'action.</p>
+              <p>Excusés : Scapini, Noireaux, Courteix, Grillet, Cabasson, Goubin, Muller, Nicolaï,
+                Virot, Derunder.</p>
+              <p>Ont donné leurs pouvoirs : Au président: Dufourc. Au secrétaire général : Noireaux,
+                Courteix, Grillet, Cabasson, Goubin, Scapini, Muller, Nicolaï, Virot.</p>
+              <p>A Lauté : Conan. Ont écrit : Cabasson, Goubin, Derunder. 1<hi rend="superscript"
+                  >°</hi> Le Conseil, à l'unanimité, désigne Bois (Paul-Eugène-Henri), né le 21
+                décembre 1884, à Rahart (Loir-et-Cher), profession : tonnelier, nationalité
+                française, comme délégué pour prendre part aux</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>élections de l'office départemental des pupilles de la Nation, élections qui auront
+                lieu le 3 avril 1927. 2<hi rend="superscript">°</hi> Sur la proposition de Favret,
+                le Conseil, à l'unanimité, désigne comme candidat au Comité départemental des
+                pupilles de la Nation le camarade Bloncourt.</p>
+              <p>Bloncourt remercie ses camarades de la marque de confiance qu'ils lui témoignent et
+                accepte la candidature qui lui est proposée.</p>
+              <p>La séance est levée à 21 heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Procès-Verbal de la Séance
+                du Conseil d'Administration</head>
+              <p>du 5 MARS 1927 La séance est ouverte à 14 h .30 , sous la présidence de Scapini.
+                Sont présents : Scapini, Noireaux, L'Evesque, Bardoux, Bertrand, Bloncourt, Bois,
+                Conan, Dufourc, Guillam, Laffargue, Lauté, Malgat, Nicolai. M. de Traversay,
+                président du Comité d'action, Mmes de Grotthuss-Gernandt, L'Evesque, Chevalier, M.
+                Meynadier, membres du Comité d'action.</p>
+              <p>Les camarades Saillot et Leveau. Excusés : Amault, Cabasson, Courteix, Derunder,
+                Goubin, Grillet, Izaac, Lagarde, Müller, Robert, Toudouri.</p>
+              <p>Ont donné leurs pouvoirs : Au président : Izaac, Toudouri. A Noireaux : Derunder.
+                Au secrétaire général : Amault, Cabasson, Courteix, Goubin, Grillet, Müller,
+                Robert.</p>
+              <p>A Laffargue : Lagarde. 1<hi rend="superscript">°</hi> Lecture des procès-verbaux
+                des séances des 5 et 24 février 1927.</p>
+              <p>Ces procès-verbaux sont adoptés à l'unanimité. 2<hi rend="superscript">°</hi>
+                Lecture de la situation financière de janvier et de février 1927. Adoptée à
+                l'unanimité. 3<hi rend="superscript">°</hi> Répartition d'une somme de 5.000 francs.
+                Lecture des lettres des administrateurs de province. Une somme de 5.000 francs a été
+                remise à l'Union pour être répartie de la façon suivante : 2.000 francs au profit de
+                deux aveugles bimanchots ou privés de deux membres ;</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>2.000 francs au profit de deux aveugles bimanchots ou privés de membre ; 1.000
+                francs au profit d'un aveugle (y compris ceux des catégories précédentes).</p>
+              <p>Le tirage au sort a lieu, les heureux bénéficiaires, membres titulaires de l'Union,
+                sont :</p>
+              <p>Bardet, Van Audenaerde, Marie (Emile), Fafet, Delhez, chacun pour une somme de
+                1.000 francs. 4<hi rend="superscript">°</hi> Franceville. Lecture des lettres
+                d'administrateurs de province. Le Conseil d'administration est mis au courant d'un
+                rapport établi par M. Guillemin-Tarayre, architecte départemental, chargé de nos
+                intérêts à Franceville. Ce rapport comporte divers travaux ou modifications à
+                apporter aux pavillons.</p>
+              <p>Après échange de vues, la motion suivante est mise aux voix, et adoptée à
+                l'unanimité : "Le Conseil autorise le Bureau à faire exécuter les travaux, étant
+                entendu que lorsqu'il sera en possession du devis estimatif, il le présentera au
+                Conseil. »</p>
+              <p>5<hi rend="superscript">°</hi> Propagande.</p>
+              <p>Lecture de la lettre adressée aux 7.630 notaires de France et des colonies.</p>
+              <p>Lecture des lettres des administrateurs de province. Après explications fournies
+                par le président et le secrétaire général, le Conseil fait confiance au Bureau pour
+                mener à bien la propagande. 6<hi rend="superscript">°</hi> Renouvellement de la
+                Caisse Fraternelle. Sont nommés pour les mois de mars, avril et mai : Bloncourt,
+                Bertrand, Lauté. 7<hi rend="superscript">°</hi> Nomination d'un secrélaire général
+                honoraire. Le Conseil, à l'unanimité, pour remercier Conan du dévouement dont il a
+                fait preuve, et des services qu'il a rendus alors qu'il remplissait les délicates
+                fonctions de secrétaire général, le nomme secrétaire général honoraire. 8<hi
+                  rend="superscript">°</hi> Questions diverses. 1<hi rend="superscript">°</hi> Sur
+                invitation de M. Billeton, le Conseil engage le président à se rendre à Arras, pour
+                assister à la réunion de l'Assistance Nationale aux Aveugles, pour y prendre la
+                parole. 2<hi rend="superscript">°</hi> Lecture d'une lettre du camarade Lacotas,
+                relative aux pensions des 1000 / 0, article 10 , bénéficiaires également de
+                l'article 12.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>3<hi rend="superscript">°</hi> Lecture d'une lettre de Petitjean, président de
+                l'Amicale de l'Est, relative à l'impression d'une cinquantaine d'exemplaires de
+                notre Bulletin en dialecte alsacien.</p>
+              <p>Le Conseil demande au Bureau de convoquer Petitjean pour renseignements
+                complémentaires. 4<hi rend="superscript">°</hi> Lecture d'une lettre de l'Euvre des
+                Masseurs Aveugles, informant l'Union que, par résolution de leur Assemblée générale
+                en date du 9 décembre 1926, l'Euvre des Masseurs Aveugles de Guerre, arrivée au
+                terme de sa durée, a décidé d'attribuer à l'Union des Aveugles de Guerre la moitié
+                de son avoir net disponible, soit 6.800 francs.</p>
+              <p>Le Conseil d'administration prie le Bureau de vouloir bien, en accusant réception
+                de cette lettre à l'Euvre des Masseurs Aveugles, lui adresser ses sincères
+                remerciements, et la prier de bien vouloir transmettre à l'Union copie du
+                procès-verbal de l'Assemblée générale de dissolution. 5<hi rend="superscript">°</hi>
+                Lecture de la lettre du général Greenlaw, répondant à notre invitation.</p>
+              <p>Le Conseil fixe à samedi 12 mars 1927, à 16 heures, la réception du général
+                Greenlaw à l'Union. 6<hi rend="superscript">°</hi> Lecture d'une lettre de la
+                Fédération Nationale des Associations Françaises de Mutilés, Réformés et Veuves de
+                Guerre, invitant le président de l'U. A. G. à assister à leur Congrès annuel qui se
+                tiendra à Tunis.</p>
+              <p>Le Conseil charge le président de représenter l'Union à ce Congrès. 7<hi
+                  rend="superscript">°</hi> Admission de nouveaux membres : Heuze
+                (Honoré-Alexandre), réformé 1000 / 0, article 10 , titre définitif.</p>
+              <p>Declercq (Jules), 1000 / 0, article 10 , victime civile. La séance est levée à 16
+                heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Félicitations.</p>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leurs cotisations, ont tenu néanmoins à effectuer un
+                nouveau versement.</p>
+              <p>Charlat, 30 fr. ; Hannequin, 10 fr. ; Lepesteur, 25 fr. ; Léger (Robert), 5 fr. ;
+                Basset (Jean), 20 fr. ; Blondell, 200 fr. ; Abderal- <pb n="18" break="no"/>
+                <note type="foliation">— 16 —</note> mann Ben Saad, 35 fr. ; Vandersteneen, 20 fr. ;
+                Martin (J.-M.), 25 fr.; Lavole, 15 fr.; Petit (Charles), 50 fr.; Thierry, 10 fr.;
+                Salvanès, 20 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS REÇUES A LA DATE
+                DU 15 MARS</head>
+              <p>Basset (Jean) (cot. vol.), 20 fr. ; Blondell (cot. vol.), 200 fr. ; Abderalmann Ben
+                Saad (cot. vol.), 35 fr. ; Vandersteneen (cot. vol.), 20 fr. ; Martin (J.-M.) (cot.
+                vol.), 25 fr. ; Lavole (cot. vol.), 15 fr. ; Petit (Charles) (cot. vol.), 50 fr. ;
+                Malessard, Delaplace, Vernet, Madaire, Dahout, Reynes, G. Couesnon, R. Orcel,
+                Pautel, Peligry, Gromelle, Mary, Valdant, Dessartre, Grossemy, Morel, Maréchal,
+                Leroux (E.), Hatet, Berruel, Seury, Trouillet, Aubineau, Mariet, Poirson, Hautier,
+                Gerentes, Le Beuvant, Goudal, J. Loizeau, A. Trojtel, Gaconnier, Plenacoste, Crepin,
+                Quittanson, Delebecque, Castor, Amar-Schoettel, Monribot, Moteau, Tuloup, Bouvard
+                H., Lixon, Castroi, Colleuille, Bavouzet, Laboulais, Arnaud, A. Peigne, Gleye,
+                Francart, Fenardnt, Gazay, Tremege, Erbette, Lauté, Vialatoux, Beauval, Lacazotte,
+                Bernier, Nadon, Padellec, Franjus, Kerangall, Richard (René) (rachat), Mirouze,
+                Beaurain, Lennoz, Bony, Granier, Dupont, J. Le Cam, Monsard, Le Carret, Dubreuil,
+                Gohiec, Beaural, Sursin, P. Lafay, Hennebicq, Remy, J. Cabrillac, Chardon, Bataille,
+                Bertau, Huc, Leproust, Parisot, Cressent, Hayotte, Chenenaille, Pey, Deniel, Denos
+                (J.), Dumontet, Blaise, Menuet, P...Julia, Leroy, M. Cayrel, Reynes, F.
+                Guillenjouan, Prevot, J. Pavil, Dumont, L. Rineau, Deguerville, Rouse, Delaunay,
+                Delafosse, G. Marlin, Debeaurain, Auze, Guyollot, Vincendo, Clément, R. Ricci,
+                Heron, Jammet, Guery, Basile, Vilain, Berigaud, Radet, Pasquier, Bellettre, Roget,
+                A. Digne, Teillet, Ecal, Lapebie, J.-B. Curely, Molinié, B. Correger, Loyer, Coat,
+                Lebrun, G. Marie, E. Torrebore, Barbier, J. Dole, Serret, Ferrer, Bourotte,
+                Desormes, Theret, Penaud, Guiton, Levesque, Lambert, G. Fouasse, Gay, Gable, Viard,
+                G. Demalaine, Versini, Paillisse, Lambert, L. Fort, Quesne, Loulergue, Simonet,
+                Barbier, J.-M. Aubert, S. Olivier, H. Jullien, Rambeau, Bovenval, Gary, F. Barbette,
+                L. Rafestin, Briel, Coulaud, Albert, Bakour, Nicolas, F. L'Hermitte, Moulin, A.
+                Piot, A. Bernard, G. Massot, P. Vincent, G. Leger, A. Pannetrat, Pallot, Buteau.
+                Cresson, Trubert, Bazas, Wetzel, Betoux, Caron, O. Fournier, V. Dore, L. Bellesceur,
+                Ruess, Deltor, Parent, E. Chanson, Mazeaud, Laurent, E. Bertin, Drion, G. Roi, J.
+                Rollet, Boissard, Viguier, Falcou, Delorme, Le <pb n="19"/>
+                <note type="foliation">— 17 —</note> Marec, Guillam, Legris, A. Tourneux, Feuillet,
+                Delille, Charrière, S. Lansquenet, Fabre, I. Bucket, Raison, Chavet, Lecomte, G.
+                Pasquier, A. Prudhomme, Quinet, Debout, Gros, Chaxel, Martin, Marcel Torres,
+                Clemencel, Guenivet, Nehou, Meslin, Lacotas, Pairaud, Beauquesne, Albert, V. Brevet,
+                Mouchotte, Launay (E.), Roy (René), Charrière, A. Magat, Ceysson, Arzagot,
+                Bisserier, Michon (P.), Lavorel, Cochet, Pisson, Barbier, J.-F. Toudic, Rabel, Emo,
+                Romant, Durant (J.), Auliac, Le Barzic, Chauvel, Anquetil, Hugueny, Mézières,
+                Parent, A. Beaslas, Gagnard, Reyne, R. Payen, Bergadieu, Raphil, Malingre, Gauchet,
+                Lenfant, Magadur, Guillo, Rignault, Nadal. Gustin, Mauconduit, Olivet, Desmons, G.
+                Millon, Michel, Raoul Renaux, H. Grosjean, Prigent, Salmon, Citeme, Lanuc, Collot,
+                Gironnet, Rosso, Guilloud, Andrieu, Lancon, Vaxelaire, Bertrand, F. Malgat, Abba,
+                Liotaud, Degoutte, Mautemps, Guerin, Guillemin, M. Lhomme, Johannsen, Leroy, J.
+                Gallard, Cartaillac, Castagne, Viriot, Karli, Garnier, A. Murat, Baranger, Giloux,
+                Henry, P. Heuzé, A. Paget, Morizet, Roumeas, Rivemale, Mougenel, Le Bars, F. Touzet,
+                F. Laurent, E. Boulesteix, Gauzentes, Marquette, Broutin, Livet, Barbette, S.
+                Barnet, Maumont, Malesieux, Michel, F. Georges, Léon Barallon, Fatten, Almey,
+                Souverain, Berthet, Larde, Bouet, Fauchier, Deroyere, Lacombe, Guillien, Guay,
+                Verrier, Thomas, Houdre, Roussaux, Masse, G. Fournier, C. Baron, J. Guerrier,
+                Michelet, Cochereau, Darnaud, G. Paulin, Thevenard, Duplan, J.-B. Medard, Hadot,
+                Guihard, Aragon, Chanut, Dutreve, Mithouard, Valadeau, P. Girard, J.-M. Bourlot.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">LEGION D'HONNEUR</head>
+              <p>Par décret du Président de la République, du 24 février 1927, en application de la
+                loi du 26 décembre 1923 relative à la nomination ou à la promotion dans la Légion
+                d'honneur.</p>
+              <p>Pour prendre rang du 16 octobre 1926 : Le Viavant (Marc-Marie), ex-soldat du 41<hi
+                  rend="superscript">°</hi> régiment d'infant.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">MINISTERE DE LA
+                GUERRE</head>
+              <p>Par décret en date du 13 mars 1927, en application de la loi du 26 décembre 1923
+                relative à la nomination ou à la promotion dans la Légion d'honneur des mutilés de
+                guerre de 100 0/0 ;</p>
+              <p>Vu la déclaration du Conseil de l'Ordre de la Légion d'honneur, <pb n="20"/>
+                <note type="foliation">— 18 —</note> portant que la promotion du présent décret est
+                faite en conformité des lois, décrets et règlements en vigueur,</p>
+              <p>L'ancien officier dont le nom suit, titulaire d'une pension d'invalidité de 1000 /
+                0, à titre définitif,</p>
+              <p>Est promu au grade de commandeur dans l'Ordre national de la Légion d'honneur :</p>
+              <p>IzaAc (Henri-Louis-Octave), capitaine retraité pour blessures de guerre,
+                anciennement au 2<hi rend="superscript">e</hi> régiment de zouaves.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <fw type="footer">Imp. Dubois et Bauer, r. Laffitte, Paris. - 1927. Le Géranl:
+                Decokur.</fw>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Fayret,
+              secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; vice-présidents: Courtriax, Grillet, Nourbaux. Secrétaire général
+              : Fayret. Trésorier : Gaston L'Evesque. Membres : Antoine, Arnault, Bardoux, Bertrand,
+              Bloncourt, Bois, Cabasson, Derunder, Dufourc, Fauvel, Conan, Gourin, Guillam, Izaac,
+              Lappargue, Lagarde, Lallement, Lauté, Malgat, Muller, Nicolai, Robert (Maurice),
+              Toudouri, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. Auterbe, Actuaire à la Compagnie "L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broguin. M. Chepper. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Bééducation.</p>
+            <p>Mlle Jálaguier. Baronue de Grotthuss-Germany. Mme Henri. Mme Kalt. Mme L'Evesque. Mme
+              Lévi-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal.</p>
+            <p>Dr Scinelder. Colonel de Traversay.</p>
+            <pb n="24"/>
+            <note type="foliation">— 22 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">Liste des Donateurs</head>
+            <p>Mme Louise Pouiles, Pamiers (Ariège), 10 fr. - Cercle et Harmonie de Pierrefeu (Var),
+              12.890 fr. - M. le docteur Sednaoui, Paris, 200 fr. - Mme Vve Ramponi, à Lugano
+              (Suisse), 20 fr. M. le commandant Jaubert, La Casanova, par Trouillas
+              (PyrénéesOrientales), un titre de rente de 100 fr. 50 / 0 1915-1916. Mme Etève, à
+              Paris, 20 fr. - Lycée Lakanal, à Sceaux, 100 fr. Mme Vve Jaïs, à Alger, 50 fr. - Lycée
+              de Garçons, à Toulon, 100 fr. - Miss Mary Bakewel, à Lusk (U. S. A.), 634 fr. 50. Mme
+              Jacques Helft, à Paris, 10 fr. - Mme Bloch, à Paris, 10 fr. - Mlle A. Fournier, à
+              Alger, transmis par Les Annales, 25 fr. M. P. Vincent, Arles (B.-du-R.), 100 fr. - MM.
+              P. Thibaud et Cie, à Paris, 200 fr. - M. et Mme Jules César, à Saumur, 10 fr.
+              Etablissements Léon Weil, à Paris, 300 fr. - M. Guentel, à Valencigney (Doubs), 15 fr.
+              - Mme Condamin Lyotard, à Constantine, 5 fr. - Liquidation de la cantine des officiers
+              de la Commission militaire interalliée de contrôle qui a siégé à Berlin, 8.000 fr. -
+              Les Elèves de la Seconde D du Lycée Henri-IV, 565 fr. - Mme Marthe Baudonnet, à
+              Guéthary (Basses-Pytrénées), 50 fr. - Euvre des Masseurs Aveugles, 6.800 fr .</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

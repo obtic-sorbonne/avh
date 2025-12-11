@@ -1,0 +1,964 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 9ème année 1927 n°1</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Rééducation professionnelle</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 20 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+          <term ref="#fidac">F.I.D.A.C.</term>
+          <term ref="#comites-departementaux">Comités départementaux</term>
+          <term ref="#pensions-militaires">Pensions militaires</term>
+          <term ref="#reeducation">Rééducation</term>
+          <term ref="#hospitalisation">Hospitalisation</term>
+          <term ref="#allocation">Allocation</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre présente un sommaire varié incluant
+          des informations sur le nouvel an, le nouveau président de la F.I.D.A.C., le rôle des
+          comités départementaux et les conditions d'application de certaines lois. Il contient
+          également des informations pratiques concernant les cotisations, la bibliothèque de
+          l'Union et des avis divers. Une chronique de l'U.A.G. est présente, abordant la caisse
+          fraternelle, des échanges entre membres, le procès-verbal du conseil d'administration et
+          les changements d'adresses. Enfin, le bulletin inclut une instruction ministérielle
+          détaillant les conditions d'application de certains articles de loi concernant les
+          pensions et l'hospitalisation des mutilés.</p>
+      </abstract>
+      <creation>
+        <date when="1927-01-01">01/01/1927</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-10" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOUVEL AN</ref>
+          </item>
+          <item>
+            <ref target="#h8">Le nouveau Président de la F.I.D.A.C. MARCEL HÉRAUD</ref>
+          </item>
+          <item>
+            <ref target="#h9">Rôle et Attributions des Comités départementaux</ref>
+          </item>
+          <item>
+            <ref target="#h10">Instruction Ministérielle</ref>
+            <list>
+              <item>
+                <ref target="#h11">1. - Majoration du quart de la pension.</ref>
+              </item>
+              <item>
+                <ref target="#h12">Frais d'hospitalisation.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h13">DECLARATION</ref>
+          </item>
+          <item>
+            <ref target="#h14">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h15">OFFRES DE REPRESENTATION</ref>
+              </item>
+              <item>
+                <ref target="#h16">COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h17">BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h18">AVIS</ref>
+              </item>
+              <item>
+                <ref target="#h19">LETTRE DU CAMARADE H. DE CHATILLON</ref>
+              </item>
+              <item>
+                <ref target="#h20">UN HEROS D'ALSACE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h21">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h22">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h23">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h24">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h26">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h27">Procès-Verbal de la Séance du Conseil d'Administration du 27
+                  Novembre 1926</ref>
+              </item>
+              <item>
+                <ref target="#h28">NECROLOGIE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h29">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h30">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h31">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h32">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">9e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">Janvier 1927</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Nouvel an.</item>
+                    <item>Le nouveau président de la F. I. D. A. C.</item>
+                    <item>Rôle et attributions des Comités départementaux.</item>
+                    <item>Conditions d'application des articles 10, 55 et 64 de la loi du 31 Mars
+                      1919.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Cotisations.</item>
+                    <item>Bibliothèque.</item>
+                    <item>Avis.</item>
+                    <item>A vendre.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la séance du Conseil d'Administration du 27 novembre
+                      1926.</item>
+                    <item>Changements d'adresses des camarades.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Rydely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper; Miss Winifred Holt; Mme Léopold Kahn; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Ramell, député; M^{0} Henri-Robert, de l'Académie Française,
+              ancien bâtonnier de l'Ordre ues Avocats; Général Sainte-Claire-Deville; M.
+              Vallery-Radot; M. Constant Verlot, député; M. le professeur Walther, membre de
+              l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOUVEL AN</head>
+            <p>L'Union est heureuse d'offrir à tous les lecteurs de son Bulletin, amis dévoués, et à
+              ses adhérents, ses vœux les meilleurs et les plus fervents pour la nouvelle année.</p>
+            <p>Mois par mois, ce Bulletin vous a tenu au courant de ce qui a été fait à l'Union, de
+              nos espoirs, de nos difficultés, de nos efforts, et l'année qui s'achève nous donne le
+              résultat patiemment attendu.</p>
+            <p>La Chambre, dans sa séance du 3 décembre, a adopté les propositions gouvernementales
+              en portant notre allocation spéciale 5 bis de 7.000 à 10.000 francs et en majorant de
+              40%, c'est-à-dire de 80 francs, l'allocation de nos enfants. A l'heure où ces lignes
+              paraitront, nous sommes certains que le Sénat aura, lui aussi, ratifié le vote de la
+              Chambre.</p>
+            <p>Nous espérons que cette amélioration apportera dans les foyers de tous nos camarades,
+              un peu plus de sérénité et rendra plus confiants et plus joyeuses les réunions
+              familiales de cette fin d'année qui a été marquée, aussi vivement que par le passé, et
+              autant qu'aux premiers jours de l'existence de notre Union, par un grand esprit de
+              solidarité et d'excellente camaraderie.</p>
+            <p>Notre passé est déjà fécond, l'avenir peut l'être plus encore. Unis par la même
+              épreuve, nous avons, parmi les groupements des victimes de la guerre et dans la
+              nation, une place particulière. Cette place ira s'élargissant, amenant de précieux
+              concours, ravivant des sentiments que la guerre qui s'éloigne semble parfois atténuer.
+              Au seuil de cette nouvelle année, une aurore nouvelle se lève; notre pays espère,
+              soyons, dans la mesure de nos moyens, et par notre exemple, de laborieux artisans de
+              notre redressement national.</p>
+            <p>Le Bureau.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Le nouveau Président de la
+              F.I.D.A.C. MARCEL HÉRAUD</head>
+            <p>La F. I. D. A. C. est la plus forte organisation d'anciens combattants dans le monde.
+              Elle jouit d'une situation morale tout à fait exceptionnelle. Et on comprend
+              facilement que, de ce fait, la tâche de son Président est particulièrement
+              délicate.</p>
+            <p>Un président de la F. I. D. A. C. doit réunir en sa personne les qualités les plus
+              diverses : il doit, tout d'abord, être une personnalité ; il doit ensuite être bon
+              orateur et parler au moins une langue étrangère; il doit connaître à fond notre milieu
+              et être imprégné par " l'esprit ancien combattant n; enfin, il doit être énergique et
+              bon tacticien, il doit être chef.</p>
+            <p>Notre nouveau président, Marcel Héraud, élu à l'unanimité à Cracovie, le 10
+              septembre, sera, sans doute, un président idéal, car il possède toutes les qualités
+              susmentionnées.</p>
+            <p>Marcel Héraud est né à Cérilly (Allier), le 8 mai 1883. Il a fait ses études à Paris
+              : d'abord au Collège Stanislas, puis à la Faculté de Droit.</p>
+            <p>Jeune avocat, il s'inscrit à la Cour d'appel de Paris, où il se fait remarquer par
+              son intelligence vive, son grand talent oratoire et son esprit de parfaite
+              camaraderie. Bientôt, il devient premier secrétaire de la Conférence des Avocats,
+              poste très recherché où notre distingué ami a eu d'illustres prédécesseurs : MM.
+              Raymond Poincaré et J. PaulBoncour.</p>
+            <p>Vient la guerre. Marcel Héraud n'attend pas l'appel de sa classe. Il s'engage pour la
+              durée de la guerre. Il part au front comme sergent du 2<hi rend="superscript">°</hi>
+              régiment mixte de zouaves et de tirailleurs. Il s'y conduit bravement. Le 2 mai 1916,
+              il est blessé à l'attaque de Douaumont. Péniblement rétabli, il est réformé. Il
+              reprend sa place au Palais, décoré de la Légion d'honneur, de la Médaille militaire et
+              de la Croix de guerre.</p>
+            <p>Après la victoire, Marcel Héraud - d'abord au sein de l'U. F. et ensuite de l'A. G.
+              M. G. - prend une part très active à la vie et à l'organisation de la génération des
+              hommes de la guerre. Il est un repré-</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>sentant très en vue de cette génération. Rien d'étonnant que la politique l'ait
+              pris.</p>
+            <p>En novembre 1919, il devient conseiller municipal de Paris. En 1923, il est
+              vice-président du Conseil municipal. En mai 1924, il est élu député de Paris. Un an
+              plus tard, il quitte l'Hôtel de Ville, car il ne s'est pas représenté devant le corps
+              électoral.</p>
+            <p>Au Palais-Bourbon, Marcel Héraud est inscrit au Groupe de la Gauche Républicaine
+              Démocratique. Il fait aussi partie du Groupe des Députés mutilés et de la Commission
+              des Pensions. C'est un "jeune " qui a déjà réussi et qui n'a pas encore touché son
+              "plafond ". Au Palais, il avait déjà l'opinion d'un debater habile sachant bien
+              équilibrer tous les arguments d'une plaidoirie. Par ses multiples interventions à la
+              tribune de la Chambre des Députés, il s'est révélé un escrimeur redoutable bien que
+              toujours courtois.</p>
+            <p>A la F. I. D. A. C., Marcel Héraud peut, à juste titre, être appelé un " ancien ". Il
+              parut, pour la première fois, au Congrès de la Nou-velle-Orléans (1922), il y a
+              aussitôt joué un rôle de premier plan. Depuis, il a constamment fait partie du Conseil
+              de Direction et il a participé à tous nos Congrès.</p>
+            <p>Il connait toutes nos associations-membres, leurs chefs et leur esprit. Tout le
+              monde, à la F. I. D. A. C., nourrit pour Marcel Héraud l'amitié la plus affectueuse.
+              Le VII { }^{e} Congrès ne pouvait pas faire un meilleur choix.</p>
+            <p>Depuis sa création, la F. I. D. A. C. n'a cessé de croître. Elle groupe aujourd'hui
+              28 associations appartenant à neuf pays qui furent alliés pendant la guerre. C'est
+              l'œuvre de Charles Bertrand, de Thomas Miller et de George Crosfield. Sortir
+              victorieusement des difficultés créées par la très grave question des relations avec
+              les combattants ex-ennemis, recevoir à la F. I. D. A. C. les associations de certains
+              pays alliés restées jusqu'à maintenant à l'écart, ce sera l'œuvre de Marcel
+              Héraud.</p>
+            <p>Casimir Smogersewski, Rédacteur en Chef. (Extrait du Bulletin de la F. I. D. A. C. du
+                1<hi rend="superscript">er</hi> octobre 1926.)</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Rôle et Attributions des Comités
+              départementaux</head>
+            <p>Les Comités Départementaux des Mutilés et Réformés de la Guerre, institués en vertu
+              des dispositions de la loi du 2 janvier 1918, ont pour principale attribution la
+              rééducation professionnelle.</p>
+            <p>En effet, tout militaire atteint d'infirmités ou de maladies contractées ou aggravées
+              pendant la guerre, qu'il soit réformé à titre définitif ou temporaire ; enfin, tout
+              ancien combattant qui a subi une diminution de capacité de travail peut se réclamer
+              des dispositions de la loi du 2 janvier 1918 et trouver auprès de l'Office National
+              des Mutilés et Réformés et des Comités départementaux l'appui qu'il est en droit
+              d'exiger.</p>
+            <p>La rééducation professionnelle s'effectue sous le contrôle des Comités et, d'après
+              les prescriptions de l'Office National des Mutilés et Réformés, soit dans les écoles
+              de rééducation, soit chez les patrons.</p>
+            <p>Dans les écoles, les élèves sont soumis au régime de l'internat (pour les réformés
+              célibataires ou éloignés de leur famille) ou de la demipension. Pendant leur séjour
+              dans les écoles, les réformés sont logés, nourris, blanchis, à titre entièrement
+              gracieux ; ils perçoivent, le cas échéant, pour leur famille une allocation
+              journalière de 3 francs par jour et par personne à charge jusqu'à la quatrième
+              inclusivement et de 3 fr .50 pour la cinquième et chacune des suivantes.</p>
+            <p>La rééducation patronale s'exécute chez les artisans qui acceptent d'enseigner aux
+              réformés et aux veuves de la guerre le métier qu'ils exercent. Si au cours de cette
+              rééducation, l'éducateur ne perçoit du Comité départemental aucune indemnité, par
+              contre les victimes de la guerre se voient attribuer une indemnité journalière
+              d'apprentissage de 13 francs augmentée de 3 francs par jour et par personne à charge à
+              laquelle vient s'ajouter en cas de conclusion d'un contrat une allocation de montant
+              variable, dont le maximum ne peut cependant excéder 2 francs par jour en vertu de
+              l'article 76 de la loi du 31 mars 1919.</p>
+            <p>A l'issue de leurs études ou de leur apprentissage, les élèves reçoivent une prime de
+              fin de rééducation de 200 francs.</p>
+            <p>Le directeur de l'école ou le patron leur remet un certificat d'aptitudes
+              professionnelles attestant que le mutilé ou la veuve de guerre est capable d'exercer
+              le métier qu'il a appris.</p>
+            <p>Cependant, si le principal rôle des Comités départementaux est de <pb n="7"/>
+              <note type="foliation">— 5 —</note> reclasser les victimes de la guerre dans la vie,
+              l'Office National a étendu les attributions de ces organismes en leur permettant
+              d'apporter une aide morale et surtout matérielle aux mutilés et aux veuves. C'est
+              ainsi que l'Office National créa les avances d'argent de différentes catégories. 1<hi
+                rend="superscript">°</hi> Les prêts d'honneur dont le montant ne peut dépasser 4.000
+              fr . et dont l'intérêt annuel est de 1% permettent aux rééduqués et aux réadaptés
+              d'acheter l'outillage nécessaire à leur profession ou d'acquérir un fonds de commerce
+              quand ils sont aptes à exercer le métier appris dans les écoles ou chez les patrons.
+                2<hi rend="superscript">°</hi> Les prêts professionnels dont le montant peut
+              atteindre 10.000 francs sont destinés à permettre aux mutilés déjà établis dans le
+              commerce ou l'industrie qui offrent des garanties morales et pécuniaires suffisantes
+              de donner une plus grande extension à leurs exploitations. Ces avances comportent un
+              intérêt de 4% l'an. 3<hi rend="superscript">°</hi> Les victimes de la guerre qui
+              désirent acquérir ou faire édifier une maison d'habitation trouvent, dans la catégorie
+              des prêts pour habitations à bon marché, un petit capital qui leur permet de compléter
+              la somme qu'ils possèdent déjà ou celle qui leur sera avancée par une Société de
+              crédit immobilier. Dans ce cas, l'Office National demande certaines garanties telles
+              que première hypothèque, nantissement, etc.</p>
+            <p>Les prêts hypothécaires destinés à parfaire le prix d'achat d'une maison d'habitation
+              peuvent atteindre 10.000 francs, intérêt 1%.</p>
+            <p>Les prêts complémentaires destinés à acquérir ou faire édifier une construction avec
+              le concours d'une Société de crédit immobilier est fixé à 1 \% 8 du prix de revient de
+              l'immeuble. 4<hi rend="superscript">°</hi> Enfin, les avances dites secours
+              remboursables sont consenties par les Comités départementaux eux-mêmes aux mutilés ou
+              veuves rééduqués ou non qui offrent des garanties de solvabilité réelles et quel que
+              soit l'objet du prêt sollicité. Ces prêts dont le maximum est fixé à 1.000 francs
+              portent intérêt à 1%.</p>
+            <p>Outre ces avantages offerts aux victimes de la guerre, l'Office National s'est
+              préoccupé du sort des familles des pensionnés de guerre qui, atteints de tuberculose
+              pulmonaire, ont été obligés d'interrompre leur travail.</p>
+            <p>Le Comité accorde à ces familles une allocation joürnalière qui peut atteindre 2
+              francs pour chacune des personnes à la charge du réformé.</p>
+            <p>Ces mêmes avantages sont étendus aux familles des pensionnés de guerre hospitalisés
+              ou soignés à domicile pour affection consécutive à la <pb n="8"/>
+              <note type="foliation">— 6 —</note> blessure ou à la maladie ayant donné lieu à
+              l'attribution de la pension. Les femmes ou les ascendants des pensionnés de guerre
+              internés pour aliénation mentale peuvent prétendre, si leur situation le nécessite, au
+              bénéfice d'une allocation journalière maximum de 2 francs. Toutefois, si
+              l'hospitalisation se prolonge ou même si elle devient permanente, cette allocation ne
+              peut pas dans le cours de la même année être accordée pour une période de plus de cinq
+              mois. Aux mutilés, veuves de guerre et ascendants de militaires morts pour la France
+              qui se trouvent momentanément gênés, les Comités départementaux accordent, après
+              qu'une enquête a été effectuée sur la moralité des demandeurs, des secours en espèces
+              et en nature (bons de repas, bons de vestiaire pour les mutilés).</p>
+            <p>Des machines à écrire en Braille ou en caractères ordinaires pour les aveugles de
+              guerre, des machines à coudre pour les veuves de guerre mères de trois enfants âgés de
+              moins de seize ans sont attribuées par l'Office National après avis du Comité
+              départemental. Ces machines deviennent la propriété des bénéficiaires au bout de dix
+              années.</p>
+            <p>Enfin, les cartes d'invalidité donnant droit à une réduction sur les tarifs des
+              chemins de fer aux mutilés ayant 25% au moins d'invalidité ( 25 à 45% d'invalidité,
+              50% de réduction, 50 à 100 \%, 75 \% de réduction) sont établies par les soins des
+              Comités départementaux.</p>
+            <p>Il ne faut pas omettre enfin de mentionner que les victimes de la guerre trouvent
+              auprès des Comités départementaux tous les renseignements dont elles peuvent avoir
+              besoin (loi des pensions, les loyers, établissement de pourvois auprès des tribunaux
+              des pensions, etc.). De plus, les agents des Comités départementaux effectuent de
+              nombreuses interventions auprès des administrations publiques en faveur des mutilés et
+              veuves, soit en vue de hâter la liquidation de certaines pensions d'invalidité, soit
+              pour tout autre cause. En résumé, les victimes de la guerre trouvent au Comité
+              départemental et dans toutes les circonstances aide matérielle et appui moral.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Instruction Ministérielle</head>
+            <p>fixant les conditions d'application des articles 10,55 et 64 de la loi du 31 Mars
+              1919</p>
+            <p>Aux termes de l'article 10 de la loi du 31 mars 1919, les mutilés que leurs
+              infirmités rendent incapables de se mouvoir, de se conduire ou d'accomplir les actes
+              essentiels à la vie, ont droit à l'hospitalisation s'ils la réclament. En ce cas, les
+              frais de cette hospitalisation sont prélevés sur la pension qui leur a été concédée.
+              S'ils ne reçoivent pas ou s'ils cessent de recevoir cette hospitalisation et si,
+              vivant chez eux, ils sont obligés de recourir d'une manière constante aux soins d'une
+              tierce personne, ils ont droit, à titre d'allocation spéciale, à une majoration égale
+              au quart de leur pension.</p>
+            <p>D'autre part, l'article 55 de la même loi spécifie que la pension définitive
+              temporaire allouée pour cause d'aliénation mentale à un militaire ou marin interné
+              dans un établissement public d'aliénés ou dans un établissement privé faisant fonction
+              d'établissement public sera employée jusqu'à due concurrence à acquitter les frais de
+              son hospitalisation sous réserve d'un prélèvement préalable, le cas échéant, en faveur
+              de la femme et des enfants de l'aliéné.</p>
+            <p>Enfin l'article 64, modifié par l'article unique de la loi du 21 juillet 1922,
+              reconnaît aux militaires et marins bénéficiaires de la loi du 31 mars 1919, le droit
+              aux soins médicaux, chirurgicaux et pharmaceutiques, nécessités par la blessure ou la
+              maladie contractée ou aggravée en service qui a motivé leur réforme et prévoit que si
+              l'hospitalisation est reconnue nécessaire, les malades seront admis, à leur choix,
+              dans les salles militaires ou dans les salles civiles des hôpitaux de leur ressort et,
+              s'il y a lieu, soit dans les sanatoria publics, soit dans les établissements privés
+              agréés? L'Etat payera les frais suivant un tarif déterminé.</p>
+            <p>Il a été constaté que l'application de ces différentes dispositions n'était pas
+              correctement assurée. La présente instruction a pour but de déterminer : 1<hi
+                rend="superscript">°</hi> Dans quels cas le bénéfice de la majoration du quart de
+              pension dite pour tierce personne instituée par l'article 10 doit être accordé ou
+              retiré aux intéressés et dans quelles conditions s'effectuera la suspension quand elle
+              sera nécessaire; 2<hi rend="superscript">°</hi> Dans quels cas les frais
+              d'hospitalisation sont ou non à la charge</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>des intéressés et dans quelles conditions s'exerceront les retenues destinées à
+              couvrir le montant desdits frais.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">1. - Majoration du quart de
+                la pension.</head>
+              <p>La majoration du quart de la pension pour tierce personne est, conformément aux
+                dispositions de l'article 10 de la loi du 31 mars 1919, accordée d'office au vu des
+                décisions médicales et comprise dans le montant du titre d'allocation provisoire
+                d'attente établi par la SousIntendance et du titre de pension ultérieurement délivré
+                par la direction de la dette inscrite.</p>
+              <p>Le bénéfice de cette majoration et, bien entendu, celui du supplément spécial
+                temporaire de la loi du 13 juillet 1925 correspondant, doit être suspendu : 1<hi
+                  rend="superscript">°</hi> Chaque fois que le pensionné faisant valoir le droit que
+                lui reconnaît l'article 10 demande et obtient l'hospitalisation au titre dudit
+                article ; 2<hi rend="superscript">°</hi> Chaque fois que le pensionné est
+                hospitalisé au titre de l'article 64 ; 3<hi rend="superscript">°</hi> Chaque fois
+                que le pensionné, atteint d'aliénation mentale, est interné dans un asile public ou
+                dans un asile privé faisant fonction d'asile public, même lorsque l'aliénation n'est
+                pas imputable au service.</p>
+              <p>Les brevets ou livrets de pension que délivre actuellement la direction de la dette
+                inscrite aux pensionnés bénéficiaires de l'article 10 portent une mention spéciale
+                permettant de reconnaître les pensions dont il s'agit.</p>
+              <p>En ce qui concerne les brevets et livrets antérieurement concédés sans que ladite
+                mention y ait été apposée, la dette inscrite fera parvenir aux trésoriers-payeurs
+                généraux un relevé des pensions faisant l'objet d'un titre ainsi établi et payables
+                dans leur département. Ce relevé permettra de rechercher lesdites pensions aux fins
+                d'opposition par les comptables intéressés sur les titres eux-mêmes et sur tous les
+                documents y relatifs (registres permanents, fiches de payement, etc.) de la mention
+                omise lors de la concession. L'examen des fiches d'allocations spéciales n<hi
+                  rend="superscript">°</hi> 5 bis aux grands invalides permettra de vérifier et de
+                compléter le relevé adressé par la direction de la dette inscrite.</p>
+              <p>Les titres, avis d'émission et fiches afférents aux allocations provisoires
+                d'attente remis par les sous-intendants à des bénéficiaires de l'article 10
+                porteront également à l'avenir une mention spéciale. En ce qui concerne les titres
+                de l'espèce en cours de payement, les trésorierspayeurs généraux se livreront à une
+                recherche analogue à celle effectuée <pb n="11"/>
+                <note type="foliation">— 9 —</note> pour les titres de pension et compléteront les
+                titres, avis d'émission et fiches établis sans mention de l'article 10.</p>
+              <p>La retenue de la majoration et du supplément spécial correspondant sera exercée,
+                chaque fois qu'il y aura lieu, par le comptable chargé du payement du titre
+                d'allocation provisoire d'attente ou du titre de pension. A chaque règlement
+                d'arrérages, ledit comptable réclamera de la personne donnant acquit une déclaration
+                du modèle ci-annexé, certifiant que le titulaire de l'allocation provisoire
+                d'attente ou de la pension n'a pas été hospitalisé au cours du trimestre échu, ou,
+                au contraire, indiquant les périodes d'hospitalisation (date à date). Pour chaque
+                journée d'hospitalisation entraînant suspension de la majoration, il sera déduit de
+                la somme à payer un trois cent soixantième du montant annuel de la majoration et du
+                supplément spécial correspondant. Pratiquement, le chiffre à diviser par 360
+                s'obtiendra en prenant le cinquième du total obtenu en additionnant le montant de la
+                pension principale, comprenant la majoration de l'article 10 et, le cas échéant,
+                celle de l'article 12, et le montant du supplément spécial temporaire de la pension
+                principale.</p>
+              <p>Exemple : Un caporal titulaire d'une pension de 100% avec article 10 et article
+                  12\left(5<hi rend="superscript">°</hi>\right. degré) a été hospitalisé
+                quatre-vingts jours au cours du trimestre dont les arrérages doivent être payés. La
+                pension principale s'élève à : 2.430+500( art. 12) +733 (art. 10) =3.663 francs. Le
+                supplément spécial temporaire afférent à cette question est de 2.900 francs.</p>
+              <p>La retenue à effectuer s'élève à :</p>
+              <p>\frac{(3.663+2.900)}{5} \times \frac{80}{360}=291,68</p>
+              <p>Les mois seront comptés uniformément pour trente jours. Les sommes retenues seront
+                versées au compte "Recettes accidentelles à différents titres n.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">Frais
+                d'hospitalisation.</head>
+              <p>Il résulte des trois articles de la loi du 31 mars 1919, dont les dispositions ont
+                été rappelées au début de la présente instruction, que les bénéficiaires de
+                l'article 10 peuvent être hospitalisés à trois titres différents : 1<hi
+                  rend="superscript">°</hi> Le pensionné faisant valoir le droit que lui reconnaît
+                l'ar- <pb n="12" break="no"/>
+                <note type="foliation">— 10 —</note> ticle 10 se fait hospitaliser pour se procurer,
+                sous une forme autre que l'aide d'une tierce personne, l'assistance qui lui est
+                indispensable pour accomplir les actes essentiels à la vie. L'affection en cause
+                offre un caractère d'incurabilité ; l'état de l'invalide relève de l'hospice plutôt
+                que de l'hôpital. L'intéressé, qui est alors toujours admis dans un établissement
+                public, doit subir le prélèvement des frais d'hospitalisation. Le prélèvement porte
+                sur la pension principale, y compris la majoration de l'article 12, s'il la touche,
+                et le supplément spécial temporaire correspondant, sur l'allocation spéciale
+                temporaire aux grands invalides.</p>
+              <p>Par contre, aucune retenue ne doit être opérée sur les majorations d'enfants et les
+                suppléments spéciaux temporaires correspondants, non plus que sur les majorations
+                supplémentaires temporaires : 2<hi rend="superscript">°</hi> Le pensionné obtient
+                l'hospitalisation pour des accidents ou complications de la blessure ou de la
+                maladie qui a motivé sa pension.</p>
+              <p>L'affection en cause offre un caractère de curabilité. L'hospitalisation,
+                essentiellement temporaire, a lieu suivant les règles établies par le décret du 25
+                octobre 1922, pour l'application de l'article 64 de la loi du 31 mars 1919, modifié
+                par l'article unique de la loi du 21 juillet 1922, et les frais de cette
+                hospitalisation sont à la charge de l'Etat. Le préfet les mandate au profit des
+                établissements intéressés par imputation sur les crédits budgétaires : 3<hi
+                  rend="superscript">°</hi> Le pensionné est interné pour aliénation. Le payement
+                des frais d'hospitalisation s'effectue conformément aux prescriptions de l'article
+                55 de la loi du 31 mars 1919, prescriptions qui seront précisées dans une prochaine
+                instruction ministérielle.</p>
+              <p>En règle absolument générale, lorsque le bénéficiaire d'une allocation provisoire
+                d'attente ou d'une pension comprenant la majoration du quart sera hospitalisé dans
+                un établissement public, son titre sera obligatoirement déposé entre les mains du
+                receveur ou du gestionnaire de l'établissement au moment même de l'entrée. Le
+                receveur, après avoir provoqué, le cas échéant, le changement d'assignation
+                nécessaire, touchera tous les arrérages venant à échéance pendant la durée de
+                l'hospitalisation. Le payement sera appuyé d'un certificat de présence délivré par
+                la direction de l'établissement:</p>
+              <p>D'autre part, dans tous les cas d'hospitalisation au titre de l'article 10, des
+                états décomptés des frais d'hospitalisation arrêtés par le directeur de
+                l'établissement hospitalier seront adressés par lui au préfet du département, qui
+                les revêtira de son visa. Les receveurs ou gestionnaires des établissements
+                prélèveront sur les émoluments détaillés <pb n="13"/>
+                <note type="foliation">— 11 —</note> à l'alinéa 1<hi rend="superscript">°</hi>
+                ci-dessus, le montant des frais d'hospitalisation. Les recettes seront justifiées
+                dans leur comptabilité par les états décomptés visés par le préfet.</p>
+              <p>Lorsque par suite de départ de l'établissement ou pour tout autre motif, un
+                receveur se sera dessaisi du titre ou livret d'un pensionné hospitalisé au titre de
+                l'article 10, il adressera au trésorier-payeur général l'état décompté des frais
+                d'hospitalisation restant dus. Ce comptable supérieur poursuivra le recouvrement
+                desdits frais par voie de retenues intégrales sur les arrérages à payer au pensionné
+                ou à ses ayants droit. Les sommes, une fois récupérées, seront transmises au
+                receveur de l'établissement intéressé.</p>
+              <p>L'attention des préfets, trésoriers-payeurs généraux, receveurs ou gestionnaires
+                d'établissements hospitaliers est spécialement attirée sur les prescriptions
+                précédentes. L'inobservation de ces dernières ou leur exécution dans des délais trop
+                longs mettrait obstacle à l'exercice du précompte des frais d'hospitalisation et
+                pourrait engager la responsabilité des fonctionnaires dont la négligence aurait été
+                reconnue.</p>
+              <p>L'ensemble des prescriptions qui font l'objet de la présente instruction sera
+                appliqué lors du premier règlement d'arrérages venant à échéance. Toutefois, la
+                retenue de la majoration pour tierce personne sera exercée rétroactivement à partir
+                du 1<hi rend="superscript">er</hi> avril 1926. En conséquence, la déclaration à
+                produire à l'appui du premier payement d'arrérages par les bénéficiaires de
+                l'article 10 devra, à titre exceptionnel, faire mention des périodes
+                d'hospitalisation depuis la date précitée. La présente instruction s'applique aux
+                pensions de victimes civiles de la loi du 24 juin 1919, et aux pensions d'avant
+                guerre, bonifiées par la loi du 18 juillet 1922, comportant le bénéfice de l'article
+                10.</p>
+              <p>Paris, le 12 juin 1926.</p>
+              <p>Le Ministre des Pensions : JOURDAIN.</p>
+              <p>Le Ministre du Travail, de l'Hygiène, de l'Assistance et de la Prévoyance sociales
+                :</p>
+              <p>Durafour. Le Ministre des Finances : Raoul PÉret</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">DECLARATION</head>
+            <p>Département d. En vertu des dispositions de l'article 5 de la loi du 5 septembre
+              1919, quiconque aura fait une fausse déclaration pour obtenir la concession ou le
+              payement d'une pension sera puni d'un emprisonnement de deux à cinq ans (de la
+              réclusion ou des travaux forcés dans certains cas), sans préjudice de la perte des
+              droits civils et de la perte du droit à pension. (1) Nom et prénoms du titulaire de
+              l'allocation provisoire d'attente de la pension. (2) Rayer les mentions inutiles. M
+              (1) titulaire du titre d'allocation provisoire d'attente <hi rend="superscript"
+              >n</hi>^{\circ} titulaire du titre de pension <hi rend="superscript">n</hi>^{\circ}
+              \qquad comportant le bénéfice de l'article 10 de la doi du 31 mars 1919 n'a pas été
+              hospitalisé a été hospitalisé au titre de l'article 10 de la loi du 31 mars 1919 au
+              titre de l'article 55 de la loi du 31 mars 1919 au titre de l'article 64 de la loi du
+              31 mars 1919 du au (3) Désignation de l'établissement hospitalier.</p>
+            <p>Désignation et visa du comptable à qui a été produite la présente déclaration, A le
+              Le (3) Désignation de l'établissement hospitalier.</p>
+            <p>Désignation et visa du comptable à qui a été produite la présente déclaration,</p>
+            <p>A le Le (3) Désignation de l'établissement hospitalier.</p>
+            <p>Désignation et visa du comptable à qui a été produite la présente déclaration,</p>
+            <p>Le receveur de (Signature) :</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">OFFRES DE
+                REPRESENTATION</head>
+              <p>La Société des Plaques de Sécurité de la Ville de Paris, 5, rue du Pont-de-Lodi,
+                Paris ( 6<hi rend="superscript">°</hi> ), Tél. : Fleurus 45-79, recherche parmi les
+                Aveugles de Guerre des représentants pour le placement de plaques dans tous les
+                immeubles parisiens.</p>
+              <p>Pour tous renseignements s'adresser directement à la Société. Les Etablissements
+                Strauss, 11, rue des Caboufs, à Asnières (Seine), Tél. : Asnières 10-60, recherche
+                parmi les Aveugles de Guerre des représentants pour le placement de linge en papier
+                (nappes, serviettes, etc., en papier), dans les restaurants, hôtels, etc.</p>
+              <p>Il s'agit d'un article de très grande consommation, d'un placement facile et
+                susceptible de constituer une ressource supplémentaire et régulière de revenus.</p>
+              <p>Pour tous renseignements s'adresser directement à la Société.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">COTISATIONS</head>
+              <p>L'Assemblée générale du 14 novembre a décidé de porter les cotisations pour l'année
+                1927 à la somme de dix francs.</p>
+              <p>Nous avisons les camarades que celles-ci peuvent être payées dès maintenant à notre
+                siège social, soit par mandat-poste, ou de préférence à notre compte courant postal
+                  <hi rend="superscript">n</hi>^{\circ} 16.031.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">BIBLIOTHEQUE</head>
+              <p>Notre catalogue, vendu 2 francs, est imprimé en noir. Pour les camarades qui
+                désirent en prendre connaissance en Braille, nous le faisons éditer actuellement.
+                L'Union ne pouvant le posséder à plusieurs exemplaires le prêtera en bibliothèque
+                circulante et priera les lecteurs de le renvoyer sitôt leur choix terminé.</p>
+              <p>Note. - La poste nous recommande de ficeler nos colis dorénavant une fois dans la
+                longueur, deux fois dans la largeur, afin de les recevoir intacts.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">AVIS</head>
+              <p>Le Conseil d'administration du "Livre de l'Aveugle " nous prie d'informer les
+                camarades que M. Lapie, recteur de l'Académie de Paris, a bien voulu accepter la
+                présidence de cette Association en remplacement de M. Henry Marcel, décédé.</p>
+              <p>A VENDRE. - Deux bicyclettes accouplées avec fauteuil pour enfant (bon état).</p>
+              <p>S'adresser au camarade Stéphane Charrière, 43, rue de la Préfecture, à
+                Saint-Etienne (Loire).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">LETTRE DU CAMARADE H. DE
+                CHATILLON</head>
+              <p>... Beaucoup de camarades aiment particulièrement la musique et la littérature. Ne
+                serait-il pas possible de former à l' "U. A. G. " une section musicale et
+                littéraire.</p>
+              <p>Une telle organisation permettrait aux camarades ayant les mêmes goûts de se
+                rapprocher, de se connaître et leur donnerait des occasions de s'occuper davantage
+                de ce qui peut les intéresser, les distraire.</p>
+              <p>En outre, en obtenant pour la section musicale littéraire un Comité de patronage
+                artistique choisi parmi les auteurs, compositeurs, directeurs, éditeurs et artistes,
+                il en résulterait sans aucun doute de grandes facilités pour permettre aux camarades
+                - sous l'égide de l' "U.A.G." - d'arriver (ce qui n'est pas toujours facile, surtout
+                pour les membres de l'U. A. G. paralysés physiquement dans toutes démarches) à se
+                produire soit comme auteurs, soit comme exécutants.</p>
+              <p>Enfin - notamment au point de vue instruments et chants - une phalange de camarades
+                se créerait et serait à même de participer aux fêtes d'Association de Mutilés, voire
+                même éventuellement à organiser de propres réunions.</p>
+              <p>Pour assurer le fonctionnement de la section musicale et littéraire un Comité
+                spécial de direction sera constitué, sous la présidence naturellement du Président
+                de l' "U. A. G. "...</p>
+              <p>Nous prions les camarades intéressés par cette proposition, de vouloir bien le
+                faire savoir à nos bureaux.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">UN HEROS D'ALSACE</head>
+              <p>Nous venons de perdre en la personne d'Haberthur, un 'camarade qui, pendant seize
+                ans, avait su donner, malgré sa blessure, le plus bel exemple d'énergie.</p>
+              <p>Les Aveugles de la Grande Guerre avaient accueilli dans leur Union, ce légionnaire
+                frappé de cécité, en 1910, au combat de Moul-el-Pacha, en terre marocaine. Son amour
+                pour la France ne se démentit pas après son sacrifice et il repoussa dédaigneusement
+                toutes les offres séduisantes qui lui étaient faites pour s'associer à une odieuse
+                campagne destinée à essayer de salir les régiments d'élite qui forment notre Légion
+                étrangère.</p>
+              <p>Il repose aujourd'hui dans sa terre natale, l'Alsace, dans le village de
+                Bourgfelden et les drapeaux français ont pu s'incliner une dernière fois sur sa
+                tombe.</p>
+              <p>Nous nous associons à la douleur de sa vaillante femme et de son fils, mais qu'ils
+                ne pleurent pas, car Haberthur a donné aux vivants un magnifique exemple dont ils
+                ont le droit d'être fiers.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué entre le 15 octobre et le 15 novembre 1926 une
+                somme de huit mille francs, se répartissant comme suit :</p>
+              <p>A ces 8.000 francs, il y a lieu d'ajouter une somme de 1.700 francs pour prêts
+                exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 20 demandes, sur lesquelles 15
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">NAISSANCES</head>
+                <p>Notre camarade et Mme Dussaud, Isnel-de-Pujols-sur-Dordogne (Gironde), nous font
+                  part de la naissance de leur fille, Marcelle, née le 10 novembre 1926.</p>
+                <p>Notre camarade et Mme Blondel, de Ocqueville (Seine-Inférieure), nous font part
+                  de la naissance de leur quatrième enfant, Marcelle, née le 26 novembre 1926.</p>
+                <p>Notre camarade et Mme Curbières, de Pamiers (Ariège), nous font part de la
+                  naissance de leur quatrième enfant, Odette, née le 4 décembre 1926.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents, et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">MARIAGES</head>
+                <p>Notre camarade Dubreuil, de Saint-Romans-les-Melle (DeuxSèvres), nous fait part
+                  de son mariage avec Mlle Marie-Louise Roven, qui a été célébré le 4 octobre
+                  1926.</p>
+                <p>Notre camarade Le Cam, de Joinville-le-Pont (Seine), nous fait <pb n="19"/>
+                  <note type="foliation">— 17 —</note> part du mariage de sa fille, Marie, avec M.
+                  Raymond Lajarriges, qui a été célébré le 4 décembre 1926.</p>
+                <p>Nous adressons aux jeunes époux nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Assemat (Louis), décédé le 8 novembre
+                  1926, à trente-trois ans, à Castelnau-de-Brassac (Tam).</p>
+                <p>De notre camarade Gervais (Gilbert), de Tours-sur-Meymont (Puy-de-Dôme), décédé
+                  le 18 novembre 1926, à quarante-cinq ans.</p>
+                <p>De notre camarade Maitre (François), de Paris, décédé le 24 novembre 1926, à
+                  quarante-trois ans.</p>
+                <p>De la mère de notre camarade Goassens, de Lille (Nord), décédée le 24 novembre, à
+                  l'âge de soixante-treize ans.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Procès-Verbal de la Séance
+                du Conseil d'Administration du 27 Novembre 1926</head>
+              <p>La séance est ouverte à 14 h .30 . Sont présents : Bardoux, Bertrand, Bloncourt,
+                Conan, Courteix, Dufourc, Fauvel, Favret, Grillet, Guillam, Malgat, Muller,
+                Noireaux, Scapini, L'Evesque. M. le baron de Traversay, président du Comité
+                d'Action.</p>
+              <p>Les camarades : Briant, Saillot. Excusés : Arnault, Bois, Cabasson, Derunder,
+                Goubin, Izaac, Lallement, Lauté, Robert, Toudouri.</p>
+              <p>Ont donné leurs pouvoirs : Au président : Toudouri, Bois, Lallement; Au secrétaire
+                général : Goubin, Lauté ; A Noireaux : Derunder ; A Favret : Arnault, Cabasson,
+                Robert. Noireaux, en sa qualité de doyen d'âge, prend la présidence. Il félicite les
+                membres du Conseil sortants qui ont été réélus, et souhaite la bienvenue aux deux
+                nouveaux administrateurs : Guillam et Muller.</p>
+              <p>Noireaux, au nom du Conseil, remercie Scapini et Conan pour les fonctions qu'ils
+                ont remplies dans le précédent exercice, et auxquelles ils se sont consacrés avec
+                tant d'assiduité.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+              <p>1<hi rend="superscript">°</hi> Elections du Bureau.</p>
+              <p>MM. de Traversay et L'Evesque procèdent au dépouillement du scrutin.</p>
+              <p>Sur trente administrateurs en exercice, trente bulletins de vote ont été reçus.</p>
+              <p>Ont obtenu : Scapini, 26 voix ; Conan, 26 ; Grillet, 18 ; Noireaux, 18 ; Courteix,
+                17 ; Favret, 13 ; Lauté, 7 ; Virot, 5 ; Bloncourt, 4 ; Dufourc, 4 ; Bardoux, 1 ;
+                Fauvel, 1 ; Goubin, 1 ; Laffargue, 1 ; Muller, 1 ; Nicolaï, 1.</p>
+              <p>Scapini, Conan, Courteix, Grillet, Noireaux sont élus membres du Bureau.</p>
+              <p>La séance est levée pour permettre aux cinq membres élus de former le Bureau.</p>
+              <p>Noireaux rouvre la séance. Le nouveau Bureau se présente : Président : Scapini.
+                Vice-Présidents : Courteix, Grillet, Noireaux. Secrétaire général : Conan. Le
+                Président, au nom du Bureau, remercie le Conseil de la confiance qu'il a bien voulu
+                leur renouveler.</p>
+              <p>2<hi rend="superscript">°</hi> Election du Comité d'Action.</p>
+              <p>Lecture des lettres des administrateurs de province qui adressent leurs vifs
+                remerciements aux membres du Comité d'Action pour leur dévouement à l'Union des
+                Aveugles de Guerre.</p>
+              <p>A l'unanimité des membres présents, le Conseil d'administration adresse aux membres
+                du Comité d'Action ses plus vives félicitations et ses affectueux remerciements. En
+                outre, il charge le Président de l'U. A. G. de prier les membres de ce Comité de
+                vouloir bien nous apporter encore leur concours précieux et leurs efforts.</p>
+              <p>Sur la proposition du Président et du Trésorier, M. le colonel de Traversay, frère
+                de notre dévoué Président du Comité d'Action, est élu membre nouveau de ce Comité.
+                  3<hi rend="superscript">°</hi> Lecture du procès-verbal de la séance du Conseil
+                d'administration du 30 octobre.</p>
+              <p>Adopté à l'unanimité. Guillam et Muller n'appartenant pas à l'ancien Bureau n'ont
+                pas pris part au vote. 4<hi rend="superscript">°</hi> Lecture du procès-verbal de
+                l'Assemblée générale. Adopté à l'unanimité.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>5<hi rend="superscript">°</hi> Situation financière d'octobre. Adoptée à
+                l'unanimité. 6<hi rend="superscript">°</hi> Election des Commissions : Pensions :
+                Dufourc, Favret, Lauté ; Franceville : Bertrand, Dufourc, Favret ; Transports :
+                Bardoux, Favret ; Finances : Bloncourt, Dufourc, Lauté, Muller ; Propagande :
+                Bloncourt, Dufourc, Favret, Lauté ; Prêt pour l'achat ou construction de maisons
+                familiales : Bois, Guillam, Malgat ;</p>
+              <p>Caisse Fraternelle : Courteix, Grillet, Noireaux. 7<hi rend="superscript">°</hi>
+                Les Aveugles de Guerre et le docteur Bonnefon. Le Président est heureux de faire
+                part au Conseil de la nouvelle guérison de l'un de ses membres due à la science et
+                au dévouement du docteur Bonnefon, de Bordeaux.</p>
+              <p>Charles Barrey, de Noron-la-Poterie (Calvados), blessé aux deux yeux par éclat
+                d'obus en 1917 et réformé à la suite de nombreux examens pour cécité complète et
+                définitive, a été opéré, le 8 novembre 1926, par le docteur Bonnefon.</p>
+              <p>Depuis trois ans, l'Union des Aveugles de Guerre a fait une active propagande
+                auprès de ses membres afin que tous ceux dont la terrible infirmité peut être
+                atténuée, n'hésitent pas à courir la chance d'une opération libératrice. Cette
+                propagande a été complétée par le généreux concours de la presse française.</p>
+              <p>Le docteur Bonnefon a toujours fait preuve du plus grand désintéressement, et c'est
+                toujours gratuitement qu'il a opéré nos camarades.</p>
+              <p>Le Président annonce que le docteur Bonnefon vient d'être exclus du Syndicat des
+                Oculistes français en raison de la propagande faite autour de ses opérations.</p>
+              <p>Le docteur Bonnefon a fait vainement appel contre la décision de ce Syndicat.</p>
+              <p>Le docteur Bonnefon s'est alors porté partie civile contre le Syndicat en demandant
+                sa réintégration et un franc de dommages-intérêts.</p>
+              <p>Le Président fait remarquer que cette propagande a été menée indépendamment de la
+                volonté du docteur Bonnefon, et que l'Union y a participé dans une certaine
+                mesure.</p>
+              <p>En raison de cet état de fait et de l'obligation morale que l'Union <pb n="22"/>
+                <note type="foliation">— 20 —</note> possède envers le docteur Bonnefon, le
+                Président demande au Conseil d'administration d'intervenir dans le procès en sa
+                faveur.</p>
+              <p>Adopté à l'unanimité, moins une voix, Muller. 8<hi rend="superscript">°</hi>
+                Questions diverses. Admission de nouveaux membres : Almey (Félix-André), réformé
+                100%, article 10 , titre définitif ; Gobillard (Emile-Henri), réformé 100%, article
+                10 , titre provisoire.</p>
+              <p>Lecture de la lettre de Toudouri, demandant que des modifications soient apportées
+                à la nouvelle circulaire ministérielle supprimant la faculté de paiement des
+                pensions aux bureaux de poste.</p>
+              <p>Le Conseil prend acte de la demande de Toudouri. Lecture de la lettre du camarade
+                Grattepain au sujet des pensions.</p>
+              <p>Lecture de la lettre de Robert demandant la réintégration du camarade Boidin qui
+                avait été rayé temporairement de l'Union.</p>
+              <p>Le Président fait remarquer que le camarade Boidin ayant démissionné à la suite de
+                la sanction dont il avait été l'objet, il devient nécessaire que Boidin fasse
+                lui-même sa demande d'admission.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">NECROLOGIE</head>
+              <p>Au moment où nous mettons ce Bulletin sous presse, nous avons le regret d'apprendre
+                le décès de M. Jean-Philippe Worth, philanthrope bien connu.</p>
+              <p>Les Aveugles de Guerre et les bimanchots, qu'il a particulièrement aidés, seront
+                très peinés de la mort de ce bienfaiteur.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; vice-présidents: Courtreix, Grillet, Noirfaux. Secrétaire général
+              : Conan. Trésorier: Gaston L'Evesque. Membres : Antoine, Arnault, Bardoux, Bertrand,
+              Bloncourt, Bois, Cabasson, Derunder, Dufourc, Fauvel, Favret, Goubin, Guillam, Izaac,
+              Lappargue, Lagarde, Lallement, Lauté, Malgat, Muller, Nicolai, Robert (Maurice),
+              Toudouri, Vibot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">COMITÉ D'ACTION</head>
+            <p>M. François-Mabsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle-Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. Auterbe, Actuaire à la Compagnie «L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broquin. M. Chepper. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaquier. Baronne de Grotthuss-Germandt. Mme Henri. Mme Kalt. Mme L'Evesque.
+              Mme Lévy-Wbiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal.</p>
+            <p>Dr Schneider. Colonel de Traversay.</p>
+            <pb n="24"/>
+            <note type="foliation">— 22 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">Liste des Donateurs</head>
+            <p>Compagnie d'Assurances La Nationale "Vie ", à Paris, 500 fr. - Compagnie d'Assurances
+              La Nationale "Incendie ", à Paris, 500 fr. - M. Hellinckx, à Bruxelles, 1.000 fr. - M.
+              Gérald Dobède, à Nice, 800 fr. - Mme L. Beneditti, à Jachsonville (U. S. A.), 800 fr.
+              - M. Henri Théron, Château-Thierry (Aisne), 25 fr. - Mme d'Hosting et ses élèves, à
+              Paris, 30 fr. - Mme A. Teilh, Loudun (Vienne), 20 fr. - Association Française de
+              Bienfaisance, à Tientsin (Chine), 500 fr. - Mme Mas, à Saint-Chinian (Hérault), 25 fr.
+              - Mme Condamin Lyotard, à Constantine, 5 fr. - Collège Chaptal, à Paris, 150 fr.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

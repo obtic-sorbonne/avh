@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 8ème année 1926, n°1</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Association</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">France</title>
+        <title type="topic">Première Guerre Mondiale</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 10 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#transports">Transports</term>
+          <term ref="#secours">Secours</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre fournit des informations
+          essentielles à ses membres, notamment concernant le renouvellement des cartes
+          d'invalidité, la franchise de bagages, et les cartes de priorité dans les transports en
+          commun. Il détaille les activités de la Caisse Fraternelle, les naissances, mariages et
+          décès parmi les membres, et inclut le procès-verbal des réunions du Conseil
+          d'Administration. Le bulletin met également en avant les membres décorés de la Légion
+          d'Honneur et remercie les donateurs pour leur soutien financier.</p>
+      </abstract>
+      <creation>
+        <date when="1926-01-01">01/01/1926</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-10" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">A NOS LECTEURS</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h9">Renouvellement des Cartes d'invalidité (Chemins de Fer) des
+                  Mutilés de la Guerre</ref>
+              </item>
+              <item>
+                <ref target="#h10">Franchise de Bagages accordée aux Réformés et Pensionnés de
+                  Guerre ayant 100% d'invalidité, accompagnés de leur guide</ref>
+              </item>
+              <item>
+                <ref target="#h11">GRANDS VINS DE TABLE DES ETABLISSEMENTS COSTE-FOLCHER</ref>
+              </item>
+              <item>
+                <ref target="#h12">HUILERIE CASTELLANE, COMPTOIR PROVENCAL, MONTPELLIER</ref>
+              </item>
+              <item>
+                <ref target="#h13">LES CARTES DE PRIORITE DANS LES TRANSPORTS EN COMMUN</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h14">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h15">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h16">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h17">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">MARIAGE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h19">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h20">Procès-Verbal de la réunion du Consell d'Administration</ref>
+              </item>
+              <item>
+                <ref target="#h21">LÉGION D'HONNEUR</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h22">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h23">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h24">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">8e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">Janvier 1926</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>A nos lecteurs.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Notes et Informations</head>
+                  <list>
+                    <item>Renouvellement des cartes d'invalidité des mutilés de la guerre</item>
+                    <item>Franchise de bagages accordée aux Réformés et Pensionnés de guerre ayant
+                      100% d'invalidité, accompagnés de leur guide.</item>
+                    <item>Les cartes de priorité dans les Transports en commun.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Proces-verbal de la seance du Conseil d'Administration du 28
+                      Novembre.</item>
+                    <item>Légion d'honneur.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourie; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie
+              Française ; M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ministre du Travail et de l'Hygién.</p>
+            <p>Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ; Mme Géo Kessler ; M. Krug
+              ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député; M. Pierre Rameil, député ;</p>
+            <p>M* Henri-Robert, de l'Académie Française ancien bâtonnier de l'Ordre des Avocats;
+              Général Sainte-Claire-Deville ; M. Vallery-Radot ; M. Constant Verlot, député; M. le
+              Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">A NOS LECTEURS</head>
+            <p>Pour la huitième fois, l'Union est heureuse d'offrir à tous ses membres et à tous ses
+              amis dévoués, ses vœux de nouvel an.</p>
+            <p>Nous ne redirons pas ici les étapes successives qui ont marqué la vie de notre
+              groupement depuis le jour où, sur l'appel pressant de notre si cher et si regretté
+              camarade, le lieutenant Chounet, notre Union fut créée.</p>
+            <p>Rappelons seulement que l'année qui vient de s'écouler fut, ainsi que les
+              précédentes, fécondes en beaux résultats. Du reste, les yotes émis par notre dernière
+              Assemblée générale - qui fut une belle manifestation de solidarité - ont souligné
+              l'accord qui existait entre les dirigeants et les membres de l'Union.</p>
+            <p>Réjouissons-nous de la prospérité de notre "U. A. G. ", dont nous ressentons tous les
+              bienfaits, et qui, par un heureux rayonnement, nous attire chaque jour de nouvelles
+              amitiés.</p>
+            <p>L'année 1926 nous permettra, espérons-le, malgré les difficultés nationales
+              momentanées, de réaliser quelques-uns de nos plus chers désirs, en apportant plus de
+              quiétude et de bonheur dans nos foyers.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Renouvellement des Cartes
+                d'invalidité (Chemins de Fer) des Mutilés de la Guerre</head>
+              <p>Le renouvellement des cartes d'invalidité des mutilés de la guerre a été fixé par
+                l'instruction de MM. les ministres des Pensions et des Travaux publics, en date du
+                23 novembre 1925.</p>
+              <p>La validité des cartes actuelles est prorogée jusqu'au 31 décembre 1926. Leur
+                renouvellement se fera à partir du 1<hi rend="superscript">er</hi> janvier 1926 dans
+                l'ordre suivant :</p>
+              <p>1 er trimestre. - Invalides dont les noms commencent par les lettres A à F . 2<hi
+                  rend="superscript">°</hi> trimestre. - Invalides dont les noms commencent par les
+                lettres G à L . 3<hi rend="superscript">°</hi> trimestre. - Invalides dont les noms
+                commencent par les lettres M à R. 4<hi rend="superscript">°</hi> trimestre. -
+                Invalides dont les noms commencent par les lettres S à Z.</p>
+              <p>Les nouvelles cartes seront valables pour une période de deux années, qui aura pour
+                point de départ la date de la délivrance.</p>
+              <p>Les intéressés devront, comme par le passé, adresser leur demande de renouvellement
+                à la mairie de leur domicile en produisant l'une des pièces ci-après :</p>
+              <p>Notification ministérielle de concession de pension ou titre de pension ou à défaut
+                certificat de réforme modèle <hi rend="superscript">n</hi>^{\circ} 12 ayant moins de
+                4 mois de date.</p>
+              <p>Il devra, en outre, fournir sa photographie d'une dimension de 3 <hi
+                  rend="superscript">c</hi> / <hi rend="superscript">m</hi>. sur 4.</p>
+              <p>En vue d'éviter tout retard dans l'établissement des nouvelles cartes, les mutilés
+                sont priés de se conformer aux instructions ci-dessus, aucun autre délai de
+                prorogation ne pouvant être accordé.</p>
+              <p>Nous engageons nos camarades à se munir, en plus des pièces indiquées ci-dessus, de
+                leur carte d'invalidité.</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Franchise de Bagages
+                accordée aux Réformés et Pensionnés de Guerre ayant 100% d'invalidité, accompagnés
+                de leur guide</head>
+              <p>Le chapitre II de l'annexe aux tarifs spéciaux communs G. V. 101 et 102 prévoit une
+                réduction de 75% pour tout réformé ou pensionné de guerre ayant une invalidité de
+                50% et plus. En outre, il est spécifié que la gratuité du voyage est accordée au
+                guide de l'invalide de 100% bénéficiaire des dispositions de l'article 10 de la loi
+                du 31 mars 1919. Un seul billet est délivré au réformé ou au pensionné et à la
+                personne qui l'accompagne.</p>
+              <p>Les gares prendront note que la franchise de 30 kilos de bagages doit être accordée
+                non seulement au réformé, mais aussi au guide qui l'accompagne.</p>
+              <p>Le camarade Marius Digne nous informe qu'il met à la disposition des camarades un
+                appartement composé de deux pièces, à savoir : chambre et cuisine servant de salle à
+                manger, moyennant le prix de 75 francs par mois.</p>
+              <p>Cet appartement est situé au Plan-de-la-Tour, petit village entre Saint-Raphaël et
+                Hyères et desservi par la gare de Sainte-Maxime.</p>
+              <p>Pour tous renseignements complémentaires, s'adresser directement au camarade Marius
+                Digne, au Plan-de-la-Tour (Var).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">GRANDS VINS DE TABLE DES
+                ETABLISSEMENTS COSTE-FOLCHER</head>
+              <p>Tarif au 1<hi rend="superscript">er</hi> décembre 1925</p>
+              <table>
+                <row>
+                  <cell/>
+                  <cell>Pièce</cell>
+                  <cell>1 / 2 nièce</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge côteau nouveau 9<hi rend="superscript">°</hi></cell>
+                  <cell>365</cell>
+                  <cell>198</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge côteau supérieur nouveau 10<hi rend="superscript">°</hi>.</cell>
+                  <cell>375</cell>
+                  <cell>203</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge coteau supérieur vieux 10<hi rend="superscript">°</hi>.</cell>
+                  <cell>380</cell>
+                  <cell>205</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge Saint-Genres vieux 10<hi rend="superscript">°</hi> 5.</cell>
+                  <cell>400</cell>
+                  <cell>215</cell>
+                </row>
+                <row>
+                  <cell>Vin rosé nouveau 9<hi rend="superscript">°</hi> 5.</cell>
+                  <cell>390</cell>
+                  <cell>210</cell>
+                </row>
+                <row>
+                  <cell>Vin blanc sec vieux 9<hi rend="superscript">°</hi></cell>
+                  <cell>395</cell>
+                  <cell>213</cell>
+                </row>
+                <row>
+                  <cell>Vin blanc picpoul vieux 10<hi rend="superscript">°</hi>.</cell>
+                  <cell>430</cell>
+                  <cell>230</cell>
+                </row>
+              </table>
+              <p>Ces prix s'entendent à la pièce de 220 litres, ou à la 1 / 2 pièce de 110 litres,
+                franco de port, de régie et de logement sur gare destinataire.</p>
+              <pb n="6"/>
+              <note type="foliation">— 4 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">HUILERIE CASTELLANE,
+                COMPTOIR PROVENCAL, MONTPELLIER</head>
+              <p>Huile d'arachide garantie pure 1<hi rend="superscript">er</hi> choix ..... 675
+                Huile de table surfine, garantie 20%, olive extra ..... 725 Ces prix s'entendent
+                pour marchandises rendues franco en bonbonnes ou estagnons de 10 litres.</p>
+              <p>Majoration de 0,25 au litre pour expédition en bonbonne de 6 litres.</p>
+              <p>S'adresser à A. Lacotas, 5, rue Gerhart, Montpellier (Hérault).</p>
+              <p>Un phonographe "Zéphyr " à vendre 70 francs ( 120 morceaux différents).</p>
+              <p>S'adresser au camarade Bertrand, 6, rue Ferdinand-Flocon, Paris.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">LES CARTES DE PRIORITE DANS
+                LES TRANSPORTS EN COMMUN</head>
+              <p>Le renouvellement annuel des cartes de priorité dans les voitures de transports en
+                commun aura lieu à la Préfecture de Police, du 11 janvier au 15 février, de 9 heures
+                à 18 h .30 en semaine et le dimanche de 9 heures à midi.</p>
+              <p>L'échange dés cartes rouges aura lieu comme suit : Du lundi 11 au dimanche 17
+                janvier, cartes numérotées de 1 à 10.000 ;</p>
+              <p>Du 18 au 24, de 10.001 à 20.000 ; Du 25 au 31 janvier, de 20.001 à 30.000 ; Du 1<hi
+                  rend="superscript">er</hi> février au 7, de 30.001 à 40.000 ; Du 8 au 15 février,
+                40.001 et au-dessus. Les cartes blanches de bénéficiaires de l'article 10 et les
+                cartes vertes d'aveugles seront échangées sans distinction de semaine. Cependant,
+                pour éviter toute attente aux grands mutilés, il est recommandé de ne se présenter
+                ni le samedi ni le dimanche.</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, du 16 novembre au 15 décembre, une somme de
+                7.325 francs se répartissant comme suit :</p>
+              <table>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell>2.000</cell>
+                </row>
+                <row>
+                  <cell>Décès et couronnes.</cell>
+                  <cell>4.775</cell>
+                </row>
+                <row>
+                  <cell>Secours</cell>
+                  <cell>550</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 7.325 francs, une somme de 3.500 pour prêts
+                d'honneur.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 7 demandes de secours, sur
+                lesquelles 5 n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">NAISSANCES</head>
+                <p>Notre camarade et Mme Rineau (François), de Gétigné (LoireInférieure), nous font
+                  part de la naissance de leur troisième enfant, Joseph, né le 7 novembre.</p>
+                <p>Notre camarade et Mme Ristori (Antoine), de Piazzoli (Corse), nous font part de
+                  la naissance de leur 6^{e} enfant, Pauline, née le 30 octobre.</p>
+                <p>Notre camarade et Mme Lorriaux, de Solesmes (Nord), nous font part de la
+                  naissance de leur fils Edouard, né le 13 octobre 1925.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">MARIAGE</head>
+                <p>Notre camarade Lambert, de la Garenne-Colombes (Seine), nous fait part de son
+                  mariage avec Mlle Lucienne Marque, qui a été célébré le 24 octobre.</p>
+                <p>Nous adressons nos meilleurs vœux de bonheur aux jeunes époux.</p>
+                <pb n="8"/>
+                <note type="foliation">— 6 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Bonnier (Albert), de Nice, décédé le
+                  23 novembre à l'âge de 37 ans.</p>
+                <p>De notre camarade Crété, de Paris, décédé le 11 décembre à l'âge de 44 ans.</p>
+                <p>De notre camarade Pelissier (Jean-Joseph), de Toulouse, décédé le 8 décembre à
+                  l'âge de 37 ans.</p>
+                <p>De notre camarade Billebault (Paul), de Cosne-les-Nièvre (Nièvre), décédé le 1<hi
+                    rend="superscript">er</hi> décembre, à l'âge de 37 ans.</p>
+                <p>De la femme de notre camarade Morlet, décédée le 19 novembre, à l'âge de 42
+                  ans.</p>
+                <p>Du petit garçon de notre camarade Colas d'Aubervilliers. De la mère de notre
+                  camarade Arzagot, de Lourdes, décédée à l'âge de 76 ans.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">Procès-Verbal de la réunion
+                du Consell d'Administration</head>
+              <p>du 28 Novembre 1925 La séance est ouverte à 14 heures 30 sous la présidence du
+                camarade Goubin, doyen d'âge.</p>
+              <p>Sont présents : Amar, Arnault, Bardoux, Bois, Bloncourt, Conan, Courteix, Dufourc,
+                Fauvel, Favret, Goubin, Laffargue, Lauté, L'Evesque, Malgat, Nicolaï, Scapini,
+                Virot.</p>
+              <p>Ont écrit : Cabasson, Derunder, Fauvel, Izaac, Lagarde, Lallement, Leloup, Robert
+                (Maurice), Toudouri, Noireaux, Grillet, Bertrand.</p>
+              <p>Pouvoirs: Noireaux et Lallement, à Scapini; Cabasson, Leloup, Robert (Maurice) et
+                Grillet, à Favret; Derunder, à Noireaux; Izaac au président d'âge; Lagarde, à
+                Laffargue; Bertrand, à Lauté.</p>
+              <p>Assistent à la réunion : M. de Traversay, les camarades Cochon et Saillot.</p>
+              <p>Goubin. - Je me fais un plaisir de souhaiter la bienvenue à notre camarade
+                Bloncourt nouvellement élu, et à notre camarade Virot, dont l'élection a été
+                ratifiée par l'Assemblée générale.</p>
+              <p>Je vous demande de passer de suite à l'ordre du jour qui appelle l'élection du
+                Bureau.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>MM. de Traversay et L'Evesque procèdent à l'ouverture du scrutin.</p>
+              <p>Sur 30 administrateurs en exercice, 30 bulletins de vote ont été reçus.</p>
+              <p>Ont obtenu : Scapini, 28 voix; Favret, 25 voix; Grillet, 24 voix; Courteix, 17
+                voix; Conan, 18 voix.</p>
+              <p>Scapini, Favret, Grillet, Conan, Courteix sont élus membres du Bureau.</p>
+              <p>Il sera procédé à l'élection d'un troisième vice-président au prochain Conseil.</p>
+              <p>La séance est levée pour permettre aux cinq membres élus de former le Bureau.</p>
+              <p>Goubin rouvre la séance. Le nouveau Bureau se présente : Président : Scapini.
+                Vice-présidents : Courteix, Grillet. Secrétaire général : Conan. Le président. - Le
+                Bureau en groupe vous remercie de la confiance que vous lui témoignez. Les camarades
+                ont bien voulu me renommer président, je les en remercie. Favret a refusé les
+                fonctions qui lui ont été offertes.</p>
+              <p>Conan. - Je vous remercie de la marque d'estime et de confiance que vous venez de
+                me témoigner.</p>
+              <p>Bloncourt déclare qu'il est heureux d'apporter son concours au Conseil
+                d'administration. 2<hi rend="superscript">°</hi> Election du Comité d'action :
+                Lecture des lettres des administrateurs de province qui adressent leurs vifs
+                remerciements aux membres du Comité d'action pour leur dévouement à l'Union des
+                Aveugles de Guerre.</p>
+              <p>A l'unanimité des membres présents, le Conseil d'administration adresse aux membres
+                du Comité d'action ses plus vives félicitations et ses affectueux remerciements. En
+                outre, il charge le président de l'U. A. G. de prier les membres de ce Comité de
+                vouloir bien nous apporter encore leur concours précieux et leurs efforts.</p>
+              <p>Le Conseil d'administration est heureux de compter parmi les membres du Comité
+                d'action la baronne de Grotthus-Gernandt, fille de notre dévoué président du Comité
+                d'action. 3<hi rend="superscript">°</hi> Lecture du procès-verbal de la dernière
+                réunion du Conseil d'administration : <pb n="10"/>
+                <note type="foliation">— 8 —</note> Lecture des administrateurs de province. Le
+                procès-verbal est adopté à l'unanimité, moins une abstention, Goubin, qui désire ne
+                pas voir figurer au procès-verbal le nom des membres titulaires radiés. 4<hi
+                  rend="superscript">°</hi> Lecture du procès-verbal de l'Assemblée générale : Le
+                procès-verbal mis aux voix est adopté à l'unanimité. 5<hi rend="superscript">°</hi>
+                Election des membres devant composer les diverses Commissions :</p>
+              <p>Pensions : Bois, Favret, Malgat. Franceville : Amar, Courteix, Dufourc. Transports
+                : Bardoux, Bloncourt, Lauté. Finances : Arnault, Favret, Nicolaï. Prêts pour maisons
+                familiales : Arnault, Bois, Favret. Caisse fraternelle, pour les mois de décembre,
+                janvier et février : Courteix, Grillet, Lauté, Noireaux.</p>
+              <p>Questions diverses : Lecture de la lettre d'une victime civile de la guerre
+                aveugle, membre souscripteur de l'U. A. G., qui désire bénéficier d'un prêt
+                d'honneur.</p>
+              <p>LE PRÉSIDENT. - C'est la première fois que nous recevons une demande de prêt
+                d'honneur émanant d'une victime civile de la guerre, membre souscripteur de l'Union,
+                ainsi qu'il en a été décidé antérieurement, c'est au Conseil d'administration qu'il
+                appartient d'étudier cette demande.</p>
+              <p>Après avoir pris connaissance du dossier de l'intéressé, les administrateurs font
+                observer que les motifs entraînant cette demande de prêt ne sont pas mentionnés.</p>
+              <p>Le Conseil d'administration prend en considération la demande faite et laisse le
+                soin au Bureau de statuer dès qu'il sera en possession des renseignements
+                nécessaires.</p>
+              <p>Election des candidats pour faire partie des Commissions de surveillance et de
+                contrôle des soins médicaux du département de la Seine.</p>
+              <p>Sont désignés : Dufourc, Favret. Lecture de la lettre de la Société des Mutilés des
+                Yeux. Lecture de la lettre que nous a transmise M. Brieux, et qui lui avait été
+                adressée par M. Peltier, relative au port d'un brassard tricolore par tous les
+                aveugles.</p>
+              <p>Lecture de la réponse proposée par le président, indiquant qu'au point de vue des
+                Aveugles de guerre, le port de cet insigne ne paraît pas s'imposer.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+              <p>La réponse est approuvée à l'unanimité. Après avoir entendu la lecture de la lettre
+                du camarade Hourcade, le Conseil d'administration ne voit aucun inconvénient à la
+                publier au Bulletin.</p>
+              <p>Lauté demande au Conseil d'administration s'il n'y aurait pas lieu d'envisager un
+                nouveau mode de scrutin pour les élections des membres du Bureau et des
+                administrateurs nommés en cours d'exercice.</p>
+              <p>Le Conseil décide de n'apporter aucune modification à la méthode actuelle.</p>
+              <p>Le Président met le Conseil d'administration au courant des offres qui lui ont été
+                faites par une Société cinématographique, il informe le Conseil du projet de Mme
+                Chevalier, tendant à donner une représentation du Roi David au bénéfice de l'Union
+                des Aveugles de Guerre.</p>
+              <p>La séance est levée à 15 heures 30 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">LÉGION D'HONNEUR</head>
+              <p>Par décret du Président de la République, en date du 14 octobre 1925, a été promu
+                au grade d'officier dans l'ordre national de la Légion d'honneur :</p>
+              <p>Pour prendre rang du 2 février 1925 : LARHER (Vincent-Jean), lieutenant au 87<hi
+                  rend="superscript">°</hi> régiment d'infanterie territoriale.</p>
+              <p>Par décret en date du 2 juillet 1925, a été nommé au grade de chevalier dans
+                l'Ordre national de la Légion d'honneur :</p>
+              <p>Pour prendre rang du 11 août 1924 : CACHET (Joseph), du 158<hi rend="superscript"
+                  >°</hi> régiment d'infanterie. Par décret en date du 28 août 1925, ont été nommés
+                au grade de chevalier dans l'Ordre national de la Légion d'honneur :</p>
+              <p>Pour prendre rang du 16 août 1920 : Bertrand (Pierre-Eugène-Marius), ex-soldat du
+                  24<hi rend="superscript">°</hi> régiment de chasseurs alpins.</p>
+              <p>Pour prendre rang du 28 juin 1921 : RondeAu (Jean-Baptiste-Louis), ex-soldat du
+                  103<hi rend="superscript">°</hi> régiment d'infanterie.</p>
+              <p>Pour prendre rang du 10 février 1925 : JULlien (Léonce-Marius), ex-soldat au 26<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+              <p>Par décret en date du 24 octobre 1925 a été promu au grade de chevalier dans
+                l'Ordre National de la Légion d'honneur :</p>
+              <p>Pour prendre rang au 1<hi rend="superscript">er</hi> avril 1924 : JANSON
+                (Charles-Joseph), ex-soldat du 10<hi rend="superscript">°</hi> régiment
+                d'infanterie.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+              <p>.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; vice-présidente : Courteix, Grillet, Noirkaux. Secrétaire
+              général : Conan. Trésorier : Gaston L'Evesque. Membres: Amar, Antoine, Arnault,
+              Bardoux, Bertrand, Bloncourt, Bois, Derunder, Dufourc, Fauvel, Favret, Goubin, Izaac,
+              Laffabcur, Lagarde, Lallement, Lauté, Leloup, Malgat, Nicolai, Robert (Maurice),
+              Toudouri, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur ; M. le Baron de Traversay, Président;</p>
+            <p>Mile Arber, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint ; M. Auterbe, Actuaire à la Compagnie «L'Union»; M. Marcel Bloch.</p>
+            <p>Mme Broguin. M. Chepper. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation</p>
+            <p>Mlle Jalaguler. Baronne de Grottiluss-Gernandt. Mme Henri. Mme Kalt. Mme L'Evesque.
+              Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal. M. Joseph Roux. M. Sollar. D<hi rend="superscript"
+                >′</hi> Schneider.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Liste des Donateurs</head>
+            <p>Anonyme, transmis par l'Echo de Paris, 100 fr. - Mme Averton, Cadenet (Vaucluse), 20
+              fr. - Société "Sadac », Paris, 250 fr. M. le pasteur Besançon, à Ste-Foy-la-Grande
+              (Gironde), 100 fr. Mme Edouard Pelletant, St-Palais-du-Né (Charente), 100 fr. Mlle
+              Veyssière, Paris, 20 fr. - M. Cornu, à Pont-sur-Yonne, 30 fr. - Mme Juliette Ripeloux,
+              New Jersey U. S. A., transmis par Les Annales, 200 fr. - Commune de Saint-Rémy
+              (Vosges), 25 fr. M. de Saint-Vis, Paris, 10 fr. - Mme Pernod, à Libos
+              (Lot-et-Garonne), 50 fr. - Mme Coralie Valentie, Sao Paulo (Brésil), transmis par
+              l'Illustration, 100 fr. - M. Lectère, Paris, 50 fr. - M. Philip Pierre, à Paris, 20
+              fr. - M. Gerald Dobède, Nice, 650 fr. M. Bernstein, Paris, affectation maison de repos
+              Franceville, 100 fr. - M. Franc de Ferrière, à Pessac-sur-Dordogne (Gironde), 25
+              francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

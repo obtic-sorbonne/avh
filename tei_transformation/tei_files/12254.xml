@@ -1,0 +1,965 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 9ème année 1927 n°3</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Légion d'honneur</title>
+        <title type="topic">Secours mutuel</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Guerre 1914-1918</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 18 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#legion-dhonneur">Légion d'honneur</term>
+          <term ref="#phare-de-france">Phare de France</term>
+          <term ref="#office-national-des-combattants">Office National des Combattants</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre présente un sommaire varié incluant
+          des réflexions sur le rôle des anciens combattants, des informations sur l'Association des
+          Membres de la Légion d'honneur, un discours de M. Ridgely Carter, et des nouvelles de
+          l'Office National des Combattants. Il aborde également des sujets pratiques tels que les
+          cotisations, le renouvellement du bureau du Comité d'Action, et des informations sur le
+          lit des "Amis des Soldats aveugles" à l'hôpital Saint-Joseph. La chronique de l'U.A.G.
+          détaille les activités de la Caisse Fraternelle, des naissances, mariages, décès, et le
+          procès-verbal de la séance du Conseil d'Administration.</p>
+      </abstract>
+      <creation>
+        <date when="1927-03-01">01/03/1927</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-10" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h5">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Du rôle des Anciens Combattants pendant la paix</ref>
+          </item>
+          <item>
+            <ref target="#h8">Association des Membres de la Légion d'honneur ayant " gagné le raban
+              rouge au péril de lear sie "</ref>
+          </item>
+          <item>
+            <ref target="#h9">DISCOURS</ref>
+          </item>
+          <item>
+            <ref target="#h10">L'Office National des Combattants</ref>
+            <list>
+              <item>
+                <ref target="#h11">Combattants pensionnés et non pensionnés.</ref>
+              </item>
+              <item>
+                <ref target="#h12">L'Office ne doit pas être autonome.</ref>
+              </item>
+              <item>
+                <ref target="#h13">Collège électoral.</ref>
+              </item>
+              <item>
+                <ref target="#h14">Commission consultalive.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h15">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h16">COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h17">LIT DES "AMIS DES SOLDATS AVEUGLES " A L'HOPITAL
+                  SAINT-JOSEPH</ref>
+              </item>
+              <item>
+                <ref target="#h18">EXTRAIT DU JOURNAL OFFICIEL DU 12 FEVRIER 1927, PAGE 372</ref>
+              </item>
+              <item>
+                <ref target="#h19">AVIS AUX CAMARADES DE LA GIRONDE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h20">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h21">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h22">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h23">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h26">Procès-Verbal de la Séance du Consell d'Administration du 22
+                  JANVIER 1927</ref>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS REÇUES A LA DATE DU 16 FEVRIER</ref>
+              </item>
+              <item>
+                <ref target="#h28">CAMARADES AYANT CHANGE D'ADRESSE DEPUIS LA PARUTION DES
+                  LISTES</ref>
+              </item>
+              <item>
+                <ref target="#h29">QUESTIONNAIRE A REMPLIR ET A RETOURNER PAR LES CAMARADES DESIREUX
+                  DE FAIRE UN SEJOUR A FRANCEVILLE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h30">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h31">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h32">COMITE D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h33">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">9e Année. — N° 3</fw>
+          <fw type="header">
+            <hi rend="underline">Mars 1927</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Du rôle des Anciens Combattants pendant la paix.</item>
+                    <item>Association des Membres de la Légion d'honneur ayant "gagné le ruban rouge
+                      au péril de leur vie".</item>
+                    <item>Discours de M. Ridgely Carter, secrétaire général du Comité
+                      franco-américain.</item>
+                    <item>L'Office National des Combattants.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Cotisations.</item>
+                    <item>Renouvellement du Bureau du Comité d'Action.</item>
+                    <item>Célébration d'un service solennel pour les morts de Champagne.</item>
+                    <item>Décès.</item>
+                    <item>Lit des "Amis des Soldats aveugles" à l'hôpital Saint-Joseph.</item>
+                    <item>Loi du 12 février 1927.</item>
+                    <item>A vendre.</item>
+                    <item>Avis.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la séance du Conseil d'Administration du 22 janvier
+                      1927.</item>
+                    <item>Questionnaire de Franceville.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Bartrou; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. RigdelY Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribougc, député;</p>
+            <p>Miss Alice GettY; M. Justin Gohart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grace Harfer; Miss Winifred Holt; Mme Léopold Kahn; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Raneil, député; M^{e} Henri-Robert, de l'Académie Française,
+              ancien bâtonnier de l'Ordre uce Avocats; Général Sainte-Claire-Deville; M.
+              Vallery-Radot; M. Constant Verlot, député; M. le professeur Walther, membre de
+              l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Du rôle des Anciens Combattants
+              pendant la paix</head>
+            <p>(Extrait de la Revue des Vivants de février 1927) On croyait pouvoir attendre des
+              gens qui au cours des circonstances tragiques de 1914-1918 ont fait honnêtement et
+              noblement leur devoir, une autre attitude pendant la paix que celle d'une passivité
+              presque totale :</p>
+            <p>Il est en effet curieux de noter que les générations de la guerre ne se soient encore
+              réunies, dans la paix, que sur des questions d'intérêt purement corporatif. </p>
+            <p>S'être donné tant de mal et avoir tant souffert pour sauver un pays et puis se
+              désintéresser de son sort, cela ne paraît-il pas étrange?</p>
+            <p>Pourtant, on conçoit qu'à la suite du gros effort fourni au cours des années de
+              guerre eût succédé, par réaction, une période de détente. On peut envisager beaucoup
+              d'autres causes dont le détail mérite d'être longuement approfondi. Toutefois, les
+              aspirations des anciens combattants ont commencé à se faire jour. Elles se sont
+              manifestées en diverses circonstances. A plusieurs reprises, les générations de la
+              guerre ont senti, ces temps derniers, le pays en péril. Une action unanime de défense
+              s'est révélée ; une puissance considérable s'est dégagée ; une volonté s'est
+              affirmée.</p>
+            <p>A l'époque où faillit s'engager, devant la Chambre, la discussion sur la ratification
+              des accords de Washington, deux courants d'opinions contraires se sont heurtés dans le
+              pays. L'unanimité des anciens combattants a fait entendre sa voix. Cette voix s'est
+              élevée contre une ratification inique dans son principe et grave dans ses
+              conséquences.</p>
+            <p>L'action qui fut menée, à cette occasion, est une action réfléchie, composée
+              d'éléments bien coordonnés. La répercussion eut en Amérique un grand
+              retentissement.</p>
+            <p>En une autre circonstance, alors que l'on sentait le pays au bord de l'abîme, les
+              anciens combattants se rendirent à l'Elysée. Ils y proclamèrent leur foi en un
+              gouvernement d'Union nationale dans lequel disparaîtraient les luttes de partis. Ces
+              diverses interventions dénotent la conscience que les anciens combattants ont de leurs
+              devoirs. En souvenir de nos morts, nous devons nous mêler activement et énergiquement
+              à la vie du pays.</p>
+            <p>Georges Scapini, Président de l'Union des Averigles de Guerre.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Association des Membres de la
+              Légion d'honneur ayant " gagné le raban rouge au péril de lear sie "</head>
+            <p>Les légionnaires soussignés, qui, tous, doivent cette haute distinction à leur
+              conduite devant l'ennemi ou au sang qu'ils ont versé au service du pays, éprouvent
+              aujourd'hui le besoin de se compter, de se mieux connaître et de contribuer par leur
+              exemple et leur action à maintenir le prestige du glorieux Ordre national auquel ils
+              sont légitimement fiers d'appartenir.</p>
+            <p>L'Association des Membres de la Légion d'Honneur ayant " gagné le ruban rouge au
+              péril de leur vie " est fondée.</p>
+            <p>Cette Association ne concurrence en aucune manière l'excellente "Société de la Légion
+              d'Houneur ", qui fait appel indistinctement, comme chacun sait, à tous les membres de
+              l'Ordre décorés pour services et mérites divers.</p>
+            <p>Les décorés pour faits de guerre ou d'héroïsme civil collaborent, d'ailleurs, pour la
+              plupart, à cette œuvre d'entr'aide qui a été reconnue d'utilité publique, mais, unis
+              par leurs sacrifices et leurs titres spéciaux, ils veulent défendre en commun les
+              intérêts moraux qui découlent de ces titres et de ces sacrifices.</p>
+            <p>Les buts immédiats de l'Association sont les suivants : 1<hi rend="superscript"
+                >°</hi> Etablir une camaraderie puissante et active entre ses membres; 2<hi
+                rend="superscript">°</hi> Constituer et tenir à jour un livre d'or ; 3<hi
+                rend="superscript">°</hi> Dénoncer et flétrir toute action propre à jeter le
+              discrédit sur la Légion d'honneur ; 4<hi rend="superscript">°</hi> Etudier et réaliser
+              tous projets d'action bienfaisante que l'Association jugera utile à ses membres, au
+              pays et à l'humanité.</p>
+            <p>Les adhésions, accompagnées d'un extrait du Journal Officiel ou d'une copie légale
+              des citations ou motifs, sont reçues momentanément au siège social des "Plus Grands
+              Invalides de la Guerre ", 10, rue Saint-Louis-en-l'Ile. La cotisation est fixée à cinq
+              francs par an. (Ne pas envoyer de cotisation avant d'être admis.)</p>
+            <p>Le Comité directeur provisoire est ainsi constitué : Fondateur : M. Maurice d'Hartoy,
+              des "Eorivains Combattants ", décoré pour action d'éclat sur le champ de bataille,
+              mutilé de guerre.</p>
+            <p>Membres du Comité directeur : MM. Léon Démogé, grand mutilé de guerre ; Georges
+              Scapini,</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>président de l'Union des Aveugles de Guerre ; colonel Picot, président des Gueules
+              Cassées; colonel Fabry, président des Officiers Mutilés; Vaillant, radiologue, amputé
+              double pour le dévouement à la science ; Lucien Garans, grand mutilé de guerre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">DISCOURS</head>
+            <p>prononcé le 9 février 1927 au "Phare de France" par M. CARTER, le distingué
+              Secrétaire général du Comité franco-américain pour les Aveugles de Guerre</p>
+            <p>Messieurs,</p>
+            <p>Nous sommes ici pour vous entretenir des projets que nous, Américains, voudrions
+              accomplir pour les Aveugles de Guerre et dont nous assurerons la réalisation par
+              l'intermédiaire du "Phare de France».</p>
+            <p>En décembre, j'ai eu l'honneur de présenter à Son Excellence, M. Jusserand, en ma
+              qualité d'ancien membre du corps diplomatique, son épée d'académicien.</p>
+            <p>Après avoir remercié les donateurs et félicité l'artiste, M. Jusserand rappela que
+              s'il avait travaillé de toutes ses forces à faire connaître et aimer la France en
+              Amérique, il était une autre mission qu'il s'était donnée à lui-même et à laquelle il
+              ne renoncerait qu'avec son dernier souffle : celle de faire connaître et aimer
+              l'Amérique, en France, fortifiant ainsi les liens qui unissent les deux nations et qui
+              permettent d'assurer le régime de la liberté et celui de la paix dans le monde.</p>
+            <p>Ces paroles que je n'ai point oubliées sont l'expression même de notre idéal ; nous
+              nous sommes fait le serment de vous assurer la liberté, la grande paix, et de mener à
+              bien notre tâche. Le "Phare de France", lui non plus, ne doit pas faillir à la sienne
+              qui est de faire mieux comprendre l'Amérique aux Français. Mais notre mission n'a pas
+              toujours été facile à remplir. Il y a loin de la coupe aux lèvres, et quand il faut
+              passer par les rouages de l'administration, acquérir définitivement un immeuble,
+              équilibrer un budget, songer au matériel, organiser la propagande, adresser les
+              rapports aux diverses commissions, imaginez un peu les difficultés auxquelles on se
+              voit obligé de faire face. "L'Association des Amis du Phare de France ", créée pour
+              satisfaire aux exigences de la loi française, ne nous décharge en rien et laisse <pb
+                n="6"/>
+              <note type="foliation">— 4 —</note> entière notre part de responsabilité, puisque le
+              "Phare de France " reste essentiellement une œuvre américaine.</p>
+            <p>Je dois à mon poste de secrétaire général des deux Comités le lourd privilège de
+              veiller à l'exécution des mandats ; ceci joint à mes occupations journalières, sans
+              parler des nombreuses organisations auxquelles je consacre une partie de mon temps, ne
+              m'a pas permis un contact aussi constant que je l'aurais voulu avec vous tous.
+              Cependant, sachez-le bien, le Comité n'a pas un seul instant cessé d'être auprès de
+              vous par la pensée. Nous vous avons délégué un de nos membres les plus actifs, Miss
+              Tyler, dont le dévouement de tous les instants devait symboliser pour vous notre
+              amitié envers la France.</p>
+            <p>Néanmoins, nous nous rendons compte qu'il serait peut-être préférable que vos
+              revendications, vos suggestions fussent discutées entre hommes ; et c'est pourquoi
+              dorénavant nous nous réunirons de temps à autre, vous et moi, en excellents camarades
+              que nous sommes. Je serâi votre ami, votre avocat, le bon juge qui vous demandera
+              seulement en grâce de ne pas lui poser des colles, comme en eut, jadis, à résoudre
+              l'infortuné roi Salomon !</p>
+            <p>Je vous rappelle que le "Phare de France " se compose de cette maison-ci et de quatre
+              autres corps de bâtiments, à savoir : l'imprimerie, les ateliers de tricotage et de
+              carnage, puis dans le jardin donnant sur l'avenue Beaucour, d'une petite villa dont
+              nous louons les deux étages supérieurs à des peintres, et le rez-de-chaussée à un
+              syndicat d'épicerie, entreprise absolument privée, qui ne dépend en rien du "Phare "
+              et qui fut, il y a des années, fondée par la famille Menier.</p>
+            <p>Le "Phare " deviendra, plus tard, une maison de retraite, mais nous voulons
+              actuellement qu'il nous permette de développer notre programme, en ce qui concerne la
+              rééducation surtout. On apprend à tout âge et le désir d'apprendre crée une activité
+              cérébrale que le traitement du fameux docteur Voronoff lui-même n'arriverait peut-être
+              point à vous donner.</p>
+            <p>Nous voulons espérer que vous vous rendrez compte de l'importance des travaux
+              exécutés dans vos ateliers, sans oublier l'imprimerie Braille qui est, vous le savez,
+              unique au monde. D'ailleurs son admirable directrice, Miss Rackmann, n'est-elle pas
+              une fidèle amie de la France, qui s'est dépensée sans compter dans les régions
+              dévastées, et dont le dévouement est bien connu de tous.</p>
+            <p>L'administration du "Phare " est américaine, mais c'est le gouvernement français qui
+              doit s'occuper des problèmes de rééducation. Nous allons donc pouvoir élaborer, pour
+              vous, un programme des plus <pb n="7"/>
+              <note type="foliation">— 5 —</note> intéressants, grâce au précieux appui du Ministère
+              de l'Instruction publique et des Beaux-Arts.</p>
+            <p>Je suis heureux, Messieurs, que cette première réunion ait eu lieu au mois de
+              février, le mois où l'on fête en Amérique l'anniversaire de Lincoln et de
+              Washington.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">L'Office National des
+              Combattants</head>
+            <p>Le Comité d'Entente des Groupements nationaux ayant examiné, au cours de ses
+              dernières séances, la question de l'Office National des Combattants, a voté les
+              résolutions de principe suivantes :</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Combattants pensionnés et
+                non pensionnés. </head>
+              <p>L'Office National des Combattants est ouvert à tous les combattants porteurs de la
+                carte, pensionnés comme non pensionnés ; mais les avantages accordés par l'Office
+                Nat onal des Combattants doivent être exclusivement réservés aux A. C. non
+                pensionnés, lorsque ces mêmes avantages sont déjà mis à la disposition des A. C.
+                pensionnés par l'Office National des Mutilés.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">L'Office ne doit pas être
+                autonome.</head>
+              <p>L'Office National des Combattants ne doit pas être autonome. Mais sa fusion avec
+                l'Office National des Mutilés ne doit pas être complète.</p>
+              <p>Voici la formule adoptée : séparation des Comités directeurs nationaux et
+                départementaux avec unification des services administratifs dans toute la mesure du
+                possible.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Collège électoral.</head>
+              <p>En ce qui concerne la composition du collège électoral, le Comité d'Entente a pris
+                acte que la loi donne le droit de vote à quiconque est titulaire de la carte
+                d'ancien combattant.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Commission
+                consultalive.</head>
+              <p>Le Comité d'Entente a procédé à la désignation de ceux de ses membres devant faire
+                partie de la Commission consultative constituée par le ministre des Pensions.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">COTISATIONS</head>
+              <p>Nous rappelons aux camarades que, par suite de la décision de l'Assemblée générale
+                du 14 novembre 1926, la cotisation annuelle est portée à 10 francs.</p>
+              <p>On peut s'en acquitter dès maintenant en faisant parvenir cette somme aux bureaux
+                de l'Union, soit par mandat-carte, soit par chèque postal.</p>
+              <p>Le Comité d'action, dans sa séance du 10 décembre dernier, a réélu, à l'unanimité,
+                le même bureau pour l'année 1927.</p>
+              <p>Le dimanche 13 février, a été célébré aux Invalides, sous la présidence de M. le
+                général Couraud, un service solennel pour les morts de Champagne.</p>
+              <p>L'U. A. G. était représentée à cette cérémonie par une délégation accompagnée du
+                drapeau.</p>
+              <p>Nous apprenons avec peine le décès de Mlle Vallery-Radot, fille du fondateur des
+                Amis des Soldats Aveugles.</p>
+              <p>Nouve̛tenons à adresser à M. Vallery-Radot, ainsi qu'à toute sa famille,
+                l'assurance de notre respectueuse sympathie. "Les Amis des Soldats Aveugles» nous
+                prient d'insérer la communication suivante, ce que nous faisons avec le plus grand
+                plaisir.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">LIT DES "AMIS DES SOLDATS
+                AVEUGLES " A L'HOPITAL SAINT-JOSEPH</head>
+              <p>Il arrive souvent que les soldats aveugles ou des membres de leur famille sont
+                obligés de suivre un traitement coûteux à l'occasion de maladies ou d'opérations
+                chirurgicales. Nous rappelons que les Amis des Soldats Aveugles possèdent un lit de
+                fondation à l'Hôpital SaintJoseph, 7, rue Pierre-Larousse, à Paris, qui peut être
+                mis à la disposition des Aveugles de la région parisienne ou des départements
+                limitrophes, pour eux-mêmes, ou pour les membres de leur famille et que les soins et
+                les frais d'hospitalisation y sont entièrement gratuits.</p>
+              <p>Tous les Aveugles qui ont profité de ces avantages ont été una-</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>nimes à exprimer leur satisfaction de la manière dont ils ont été soignés. Les
+                camarades qui voudraient profiter des grands avantages qui leur sont offerts devront
+                écrire aux Amis des Soldats Aveugles, 6, rue de la Bienfaisance.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">EXTRAIT DU JOURNAL OFFICIEL
+                DU 12 FEVRIER 1927, PAGE 372</head>
+              <p>La Chambre des Députés a voté un projet de loi déposé par M. le Ministre des
+                Pensions tendant à proroger les délais de forclusion en faveur des ascendants, des
+                veuves et des orphelins de guerre, ainsi que des victimes civiles de guerre et de
+                leurs ayants cause, dont nous reproduisons ci-dessous l'article unique :</p>
+              <p>Article unique. - Les dispositions du premier alinéa de l'article 1<hi
+                  rend="superscript">er</hi> de la loi du 9 janvier 1926, étendant le délai pendant
+                lequel les anciens militaires peuvent demander une pension d'invalidité sont
+                applicables : 1<hi rend="superscript">°</hi> Aux veuves non remariées, aux orphelins
+                et aux ascendants de militaires décédés, entre le 2 août 1914 et le 31 décembre
+                1923, de blessures ou de maladies imputables à un service accompli pendant la guerre
+                1914-1918; 2<hi rend="superscript">°</hi> Aux personnes ayant fait valoir les droits
+                accordés par la loi du 24 juin 1919, modifiée par la loi du 28 juillet 1921, aux
+                victimes civiles de la guerre ou à leurs ayants droit, à l'exclusion des veuves
+                remariées ;</p>
+              <p>Les dispositions du deuxième alinéa de l'article 1<hi rend="superscript">er</hi> de
+                la loi du 9 janvier 1926 sont applicables aux bénéfices du panagraphe 1<hi
+                  rend="superscript">er</hi> de l'article 1<hi rend="superscript">er</hi> de la loi
+                du 24 juin 1919, modifiée le 28 juillet 1921.</p>
+              <p>A vendre : deux bicyclettes de femme avec accoupleur à l'état de neuf. S'adresser
+                au camarade Jules Girard, à Monce-en-Belin, gare de Laigné-Saint-Gervais (Sarthe).
+                M. Fourdin, 10, rue de l'Eglise, à Bermerain (Nord), informe les membres de l'U. A.
+                G. qu'il peut leur fournir des bois de brosse à des prix avantageux et en quantités
+                à leur convenance.</p>
+              <p>A vendre : une maison située à Bagnolet, se composant de : Au premier étage : trois
+                pièces. Au rez-de-chaussée : une boutique et deux pièces, le tout actuellement libre
+                et pouvant convenir à tout commerce.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>Cour cimentée, deux caves, gaz. Prix : 38.000 francs, avec grandes facilités de
+                paiement. S'adresser pour visiter chez Mme Baron, 8, passage du Monténégro, Paris (
+                  19<hi rend="superscript">°</hi> arr.).</p>
+              <p>Le camarade Georges Semin, route de Loison, à Lens (Pas-deCalais), informe les
+                membres de l'Union qu'étant représentant de la Maison Jollivet, cultures du Nord de
+                la France et de Seine-et-Oise, il lui est possible de leur fournir à bon compte des
+                gra ines, fleurs et plantes. A tous ceux qui lui feront des commandes, il adressera
+                gratuitement un catalogue et les fera bénéficier d'une remise de 100 / 0 sur leurs
+                ordres.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">AVIS AUX CAMARADES DE LA
+                GIRONDE</head>
+              <p>Le Bureau du Groupement régional de Bordeaux informe les camarades domiciliés dans
+                le département de la Gironde qu'ils peuvent obtenir une carte de réduction de 500 /
+                0 pour eux et autant pour leur guide par la Compagnie des Tramways de Bordeaux, sur
+                les parcours effectués dans cette ville.</p>
+              <p>Pour obtenir cette carte, il suffira aux camarades de passage à Bordeaux, de
+                déposer, à la Compagnie des Tramways, leur carte à double barre bleue ainsi que deux
+                photos-identité : quarante-huit heures après ils pourront reprendre les deux
+                cartes.</p>
+              <p>Ceux qui sont éloignés de Bordeaux et ne peuvent se déplacer facilement pourra ent,
+                pour obtenir cette carte, adresser par la poste, les pièces ci-dessus désignées
+                accompagnées d'un timbre de 0 fr. 50 pour le retour des deux cartes, au camarade
+                Biray, président régional, 52. rue du Château-d'Eau, à Bordeaux, qui ferait une
+                démarche collective à la date du 1<hi rend="superscript">er</hi> avril 1927.</p>
+              <p>On est prié d'envoyer carte et photos avant cette date. Notre camarade Menetrey, du
+                Thillot (Vosges), nous fait savoir qu'il a obtenu un diplôme et une médaille de
+                bronze aux récents comices agricoles du Thillot. Nos félicitations à l'heureux
+                lauréat.</p>
+              <p>Une dame de parfaite honorabilité, habitant Chelles (Seine-etMarne), désire prendre
+                en pension deux aveugles de guerre. Soins dévoués.</p>
+              <p>S'adresser à Mme Deviné, 27, rue de Bourgogne, Paris (79).</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 15 janvier et le 15 février, une
+                somme de 7.300 francs, se répartissant comme suit :</p>
+              <table>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell>1.800</cell>
+                </row>
+                <row>
+                  <cell>Décès et couronnes.</cell>
+                  <cell>2.650</cell>
+                </row>
+                <row>
+                  <cell>Secours et allocations aux camarades ayant eu leur pension rejetée.</cell>
+                  <cell>2.850</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 7.300 francs, une somme de 3.000 francs pour prêts
+                exceptionnels et une somme de 5.500 francs pour prêts de maisons familiales.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner trente et une demandes de
+                secours, dont douze n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">NAISSANCES</head>
+                <p>Notre camarade et Mme Tauzia, d'Orthez (Basses-Pyrénées), nous font part de la
+                  naissance de leur fils, Pierre, né le 10 janvier 1927.</p>
+                <p>Notre camarade et Mme Raoul (Michel), de Caudéran (Gironde), nous font part de la
+                  naissance de leur deuxième enfant, Nicole, née le 18 janvier 1927.</p>
+                <p>Notre camarade et Mme Gouriou, de Penhars-Lauriec (Finistère), nous font part de
+                  la naissance de leur fils, Roger, né le 16 octobre 1926.</p>
+                <p>Notre camarade et Mme Bertrand (Léon), de Luçon (Vendée), nous font part de la
+                  naissance de leur fille, Marie-Paulette, née le 30 décembre 1926.</p>
+                <p>Notre camarade et Mme Chouquet, de Douéra (Algérie), nous font part de la
+                  naissance de leur cinquième enfant, Jean, né le 24 janvier 1927.</p>
+                <p>Notre camarade et Mme Belgacem (Ben Sassi Ben Sliman), de</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+                <p>Mahadia (Tunisie), nous font part de la naissance de leur fils, Abdaliah, né le 4
+                  septembre 1926.</p>
+                <p>Notre camarade et Mme Leloup, de Vesoul (Haute-Saône), nous font part de la
+                  naissance de leur troisième fille, Elisabeth, née le 26 janvier 1927.</p>
+                <p>Notre camarade et Mme Hubert, de Yvignac (Côtes-du-Nord), nous font part de là
+                  naissance de leur quatrième enfant, né le 24 janvier 1927.</p>
+                <p>Notre camarade et Mme Lemarchand, de Petit-Couronne (SeineInférieure), nous font
+                  part de la naissance de leur fils, André, né le 25 janvier 1927.</p>
+                <p>Notre camarade et Mme Molinié (Bernard), de Mayenne (Mayenne), nous font part de
+                  la naissance de leur fils, Bernard, né le 10 janvier 1927.</p>
+                <p>Notre camarade et Mme Gohin, de Saint-Cyr-du-Bailleur (Manche), nous font part de
+                  la naissance de leur fils, Roland, né le 27 janvier 1927.</p>
+                <p>Notre camarade et Mme Levêque (Armand), de Beauvais-Paimpont (Ille-et-Vilaine),
+                  nous font part de la naissance de leur sixième enfant, Armand, né le 16 janvier
+                  1927.</p>
+                <p>Notre camarade et Mme Girault, de Souvigné (Deux-Sèvres), nous font part de la
+                  naissance de leur fils, Etienne, né le 12 février 1927.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">MARIAGES</head>
+                <p>Notre camarade Baron, de Gagnarel (Gironde), nous fait part de son mariage avec
+                  Mlle Solange Connaugle, qui a été célébré le 22 janvier 1927.</p>
+                <p>Notre camarade Tricaud, de Bellac (Haute-Vienne), nous fait part de son mariage
+                  avec Mlle Geneviève Nanot, qui a été célébré le 22 janvier 1927.</p>
+                <p>Notre camarade Emery, de Ezanville (Seine-et-Oise), nous fait part de son mariage
+                  avec Mlle Souy-François, qui a été célébré le 12 février 1927.</p>
+                <p>Notre camarade Penide, de Clermont-Ferrand (Puy-de-Dôme), nous fait part du
+                  mariage de sa fille Eugénie avec M. Marsanne, qui a été célébré le 15 janvier
+                  1927.</p>
+                <p>Nous adressons nos meilleurs vœux de bonheur aux jeunes époux.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Barbier (Alfred), de Maubeuge (Nord),
+                  décédé le 23 janvier 1927, à 33 ans.</p>
+                <p>De notre camarade Alquier (Gustave), de Bordeaux (Gironde), décédé le 19 janvier
+                  1927.</p>
+                <p>De la femme de notre camarade Prévost (Léopold), de Bérat (Haute-Garonne),
+                  décédée le 27 janvier 1927, à 54 ans.</p>
+                <p>De la femme de notre camarade Pey, de Elne (Pyrénées-Orientales), décédée le 31
+                  janvier 1927.</p>
+                <p>De la naissance et du décès de l'enfant de notre camarade Esclaine, de Vernous
+                  (Ardèche).</p>
+                <p>De la fille de notre camarade Renault, décédée le 11 février 1927, à 7 ans.</p>
+                <p>Du fils de notre camarade Chupin, de Torfou (Maine-et-Loire), décédé le 28
+                  janvier 1927, à 12 ans.</p>
+                <p>Du fils de notre camarade Boubekeur, de Cassaigne (Oran), décédé le 5 novembre
+                  1926.</p>
+                <p>De la mère de notre camarade Chasselade, de Courpières (Puy-de-Dôme), décédée le
+                  14 janvier 1927.</p>
+                <p>De la mère de notre camarade Truffert, de Cherbourg (Manche), décédée le 20
+                  janvier dans sa 71<hi rend="superscript">°</hi> année.</p>
+                <p>De la mère de notre camarade Thévenin (Gilbert), de Saint-Léo-pardin-d'Angy
+                  (Allier), décédée le 19 novembre 1926, à 59 ans.</p>
+                <p>De la mère de notre camarade Malsert, de Ardoise, décédée le 14 janvier 1927, à
+                  73 ans.</p>
+                <p>Du père de notre camarade Durand, de Rouen (Seine-Inférieure), décédé le 6
+                  janvier 1927, dans sa 80<hi rend="superscript">°</hi> année.</p>
+                <p>Du frère de notre camarade Desgrippes, de Paris, décédé le 7 février 1927, dans
+                  sa 43<hi rend="superscript">°</hi> année.</p>
+                <p>Du beau-père de notre camarade Prévot (Jean), de Coutras (Gironde), décédé le 28
+                  novembre 1926, à 78 ans.</p>
+                <p>Du beau-père de notre camarade Galis, de Tonneins, décédé le 22 janvier, à 65
+                  ans.</p>
+                <p>De la belle-mère de notre camarade Drapeau, de Paris, décédée le 21 janvier 1927,
+                  à 79 ans.</p>
+                <p>Du cousin de notre camarade Truffert, décédé le 3 février 1927, dans sa 73<hi
+                    rend="superscript">°</hi> année.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Procès-Verbal de la Séance
+                du Consell d'Administration du 22 JANVIER 1927</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de M. Scapini.</p>
+              <p>Sont présents : Scapini, Courteix, Grillet, Noireaux, Conan, L'Evesque, Bardoux,
+                Bertrand, Bloncourt, Bois, Dufourc, Favret, Fauvel, Guillam, Izaac, Laffargue,
+                Lauté, Malgat, Muller, Nicolaï, Virot; M. de Traversay, président du Comité
+                d'action;</p>
+              <p>Les camarades : Céré-Labourdette, Gudefin, Saillot. Excusés : Antoine, Arnault,
+                Cabasson, Derunder, Goubin, Lagarde, Lallement, Robert, Toudouri.</p>
+              <p>Ont donné leurs pouvoirs : Au président: Antoine, Lallemand, Toudouri. A Noireaux :
+                Derunder. A Favret : Cabasson, Lagarde, Robert. 1<hi rend="superscript">°</hi>
+                Lecture du procès-verbal de la dernière séance. Sur la demande de Muller, le
+                paragraphe de ce procès-verbal, intitulé : "Les Aveugles de Guerre et le docteur
+                Bonnefon », est adopté sous la rédaction définitive suivante : "Le Président est
+                heureux de faire part au Conseil de la nouvelle guérison de l'un de ses membres due
+                à la science et au dévouement du docteur Bonnefon, de Bordeaux. "Charles Barrey, de
+                Noron-la-Poterie (Calvados), blessé aux " deux ycux par éclat d'obus en 1917 et
+                réformé à la suite de nom" breux examens pour cécité complète et définitive, a été
+                opéré le " 8 novembre 1926 par le docteur Bonnefon. "Depuis trois ans, l' "Union des
+                Aveugles de Guerre " a fait " une active propagande auprès de ses membres, afin que
+                tous ceux " dont la terrible infirmité peut être atténuée, n'hésitent pas à courir "
+                la chance d'une opération libératrice. Cette propagande a été complétée par le
+                généreux concours de la presse française. "Le docteur Bonnefon a toujours fait
+                preuve du plus grand désintéressement, et c'est toujours gratuitement qu'il a opéré
+                nos cama" rades. "Le Président annonce que le dacteur Bonnefon vient d'être exclu
+                  <pb n="15"/>
+                <note type="foliation">— 13 —</note> " du syndicat des oculistes français en raison
+                de la propagande faite " autour de ses opérations. "Le docteur Bonneton a fait
+                vainement appel contre la décision " de ce syndicat. "Le docteur Bonnefon a assigné
+                le syndicat en réintégration, et " a réclamé un franc de dommages-intérêts. "Le
+                Président fait remarquer que cette propagande a été menée " indépendamment de la
+                volonté du docteur Bonnefon, et que l'Union " y a participé dans une certaine
+                mesure. "En raison de cet état de fait et de l'obligation morale que " l'Union
+                possède envers le docteur Bonnefon, le Président demande " au Conseil
+                d'administration d'intervenir au procès aux mêmes fins " que celles de l'assignation
+                du docteur Bonnefon, c'est-à-dire sa " réintégration au sein du syndicat. "</p>
+              <p>Fauvel demande que pour mieux exprimer notre reconnaissance au docteur Bonnefon, il
+                soit nommé membre d'honneur de notre Union.</p>
+              <p>A l'unanimité, le docteur Bonnefon est nommé membre d'honneur de l'Union des
+                Aveugles de Guerre.</p>
+              <p>Le procès-verbal est adopté à l'unanimité. 2<hi rend="superscript">°</hi> Lecture
+                de la situation financière. Adoptée à l'unanimité. 3<hi rend="superscript">°</hi>
+                Démission du secrétaire général. Le Président annonce au Conseil la démission du
+                secrétaire général dont les obligations professionnelles ne permettent plus de
+                disposer du temps nécessaire pour assurer cette charge. Il demande au Conseil de
+                vouloir bien procéder à une nouvelle élection, et d'en fixer la date au 5 février
+                prochain.</p>
+              <p>Le Président exprime, au nom du Conseil, au camarade Conan tous ses regrets de son
+                départ et le remercie de la façon dont il a accompli son mandat.</p>
+              <p>Le Trésorier t'ent à dire combien il a été heureux de la collaboration constante et
+                prudente du secrétaire général Conan dans la gestion des finances de l'Union.</p>
+              <p>Conan dit au Président, au Trésorier et à ses camarades combien il est touché de
+                ces marques de sympathie. 4<hi rend="superscript">°</hi> Office National du
+                Combattant. Après une discussion générale, le Conseil, à l'unanimité, déclare que
+                les mutilés ne peuvent être exclus du bénéfice de l'Office Natio- <pb n="16"
+                  break="no"/>
+                <note type="foliation">— 14 —</note> nal des Combattants, et fait confiance à son
+                Bureau pour défendre auprès des pouvoirs publics ses légitimes principes; il le
+                charge également de participer à l'étude de l'organisation administrative de cet
+                Office. 5<hi rend="superscript">°</hi> Création d'une maison de repos et de
+                retraite. Le Conseil, à l'unanimité, accepte la proposition du Bureau, et décide
+                d'inscrire à l'ordre du jour de son programme de propagande la création d'une maison
+                de repos et de retraite de l'Union des Aveugles de Guerre. 6<hi rend="superscript"
+                  >°</hi> Nomination d'un nouveau délégué au Comité départemental de la Seine, en
+                remplacement de Favret, démissionnaire.</p>
+              <p>A l'unanimité, le camarade Courteix est élu délégué auprès de ce Comité. 7<hi
+                  rend="superscript">°</hi> Acceptation d'un legs. Le Conseil d'administration,
+                après avoir pris connaissance des dispositions testamentaires, en date du 12 avril
+                1924, de Mme Veuve Paul Lafolie, décédée le 29 novembre 1926, par lesquelles elle
+                fait légataire universel M. Emile Lafolie, domicilié 13, rue Joly, à Provins
+                (Seine-et-Marne), et lègue à l' "U. A. G. " une somme de deux mille francs nette et
+                quitte de tous frais de succession et de mutation;</p>
+              <p>Le Conseil d'administration donne tous pouvoirs au trésorier de l' "U. A. G. " pour
+                l'encaisser au nom de ladite Société, prendre tout engagement, et faire le
+                nécessaire. 8<hi rend="superscript">°</hi> Lecture d'une lettre de l' "Amitié des
+                Aveugles de France ", demandant qu'une Fédération générale des Aveugles de Guerre,
+                militaires et civils, soit constituée.</p>
+              <p>Le Conseil affirme ses sentiments de cordialité envers les aveugles civils, tout en
+                observant que les statuts de l'Union ne leur permettent aucune affiliation. 9<hi
+                  rend="superscript">°</hi> Lettre du camarade Hannequin, au sujet du versement
+                volontaire adressé par les camarades ayant précédemment effectué leur rachat de
+                cotisation.</p>
+              <p>Le Conseil décide qu'une note distinctive soit faite à ce sujet dans le Bulletin.
+                  10<hi rend="superscript">°</hi> Lettre de remerciements adressée au Conseil par le
+                camarade Allaux.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Le Président fait ensuite donner lecture d'une lettre de Petitjean qui vient de
+                transmettre à l'Union un don anonyme de 5.000 francs.</p>
+              <p>Le Conseil exprime ses sentiments de reconnaissance envers ce généreux donateur, en
+                même temps qu'il remercie Petitjean d'avoir servi d'intermédiaire.</p>
+              <p>En fin de séance, le capitaine Izaac, profitant de son passage à Paris, fait un
+                exposé de la situation actuelle des Mutilés et Réformés et des Anciens Combattants.
+                Il fait appel à l'esprit d'association qui doit régner entre tous les membres d'un
+                même groupement. Il est heureux de constater les sentiments de cordialité qui
+                unissent tous les membres de l' "U. A. G. ", dont il espère que pas un ne se
+                départira. Il demande au Conseil de soutenir, en toute circonstance, les dirigeants
+                qu'ils ont choisis, et de ne jamais laisser altérer cette solidarité par des
+                rapports extérieurs non justifiés.</p>
+              <p>Le Conseil, à l'unanimité, approuve les paroles du capitaine Izaac. Adhésion de
+                nouveaux membres : Dutrève (Jean), 100%, art. 10 , titre définitif. Lappe (Pierre),
+                100%, art. 10 , titre définitif. Richard (Henri), 100%, art. 10 , titre provisoire.
+                La séance est levée à 16 h .45 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS REÇUES A LA DATE
+                DU 16 FEVRIER</head>
+              <p>Lepesteur (cotisation volontaire, 25 fr.). Léger (Robert) (cotisation volontaire 5
+                francs). Serre-Chastaing. Perrichon. Richard (Reng). Donadieu. Froget. Alloi.
+                Venier. Girard (A.). Maison. Darnis. Thebes. Chanial. Courtecuisse. Pruvost. Leroy
+                (H.) Pousse. Morelm. Roussigne. Millet. Bezard. Germain (C.). Daurios. Galas.
+                Godard. Abraham. Chaumerac. Bourreau. Cognard. Durand (René). Brunin. Lardière.
+                Champey. Dufourg. Dessenne. Le Guevel. Parvillers. Teilhet. Satgé. Chaigneau.
+                Collange. Houdry. Chapouille. Fauvel. Bois. Jule. Le Trouher. Chabbert (H.). Raynal.
+                Piollet. Guignon. Févelat. Tarte. Martin (A.). Boucq. Guillemin (I.). Voehelet.
+                Vincent (J.). Cizac. Boitel. Bled. Gouriou. Marchant. Feuilleul. Delaunay. Pillon.
+                Gouny (F.). Monneret. Mandet. Héritier. Coupas. Sourissaud. Pernoo. Mahalin.
+                Esclaine. Morand. Palmaro. Binio. Monroty. Authie. Izembard. Rouxel. Chelle.
+                Goethel. Lavaur. Garrec. Martin (E.). Despinardes. Janson. Debatisse. Girard (G.).
+                Robinet. Burgoin. Lemarchand. Bayol. Lorain. Pasquier. Bentejac. Vayne. Barbet.
+                Trannoy.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Galis. Villette. Salvat. Guitteny. Boudeville. Couesnon (A.). Bourret. Rolando.
+                Lappe. Nicomete. Viault. Vivin. André (A.). Philibert. Constantin. Planquette.
+                Béraud. Perrais. Lafaille. Bouchet. Sabin. Barret. Barthélemy. Barrat. Emtein.
+                Alvergne. Cordier. Barnabé (C.). Capitaine. Dupont (E.). Le Hétet. Tissier.
+                Tisserand. Héroin. Vella. Alison. Bellevenue. Le Sin. Briant. Porcheron. Nicaud.
+                Lopital. Storme. Leroya. Moulin. Souty. Fournier (U.). Marcangeli. Tausiet. Culot.
+                Guittard. Drapeau. Seguela. Royer (A.). Cartoux (E.). Vin. Pelletier (J.). Leblond
+                (A.). Mercadier. Laugt. Fagnon. Le Borgne. Vidry. Belleret. Raynaud. Begoin.
+                Chouquet. Bozelle (C.). Magnier. Hereng. Thibaut. Lucas (G.). Deboulet. Cadière.
+                Juhel. Lamy (A.). Chatonnier. Boudault. Guillobe. Dumont (A.). Levy (M.). Ternois.
+                Dutaud. Boudault. Marche. Jahan. Vionnet. Reguilhem. Godin. Charles (H.). Baralle.
+                Kromer. Sibiril. Le Coq. Kiddas. Terras. Fraisse. Lallement. Equerre. Grispoir.
+                Delengaigne. Lantres. Moreau (A.). Courteix. Goubin. Laffargue. Peuchamiel. Nicolaï.
+                Bertrand (M.). Pasquet. Barberin. Michel (A.). Petit (J.). Juif. Arnaud (A.). Gallo.
+                Dufourc. Amant. Hubert (G.). Balandras. Briffaut (G.). Veillet. Gallet. Scellour.
+                Laurent (F.). Berrie. Bidau. Ramadour. Feugrav. Houot. Scotto. Grillet (A.).
+                Lehouck. Tricaud.. Legrand (E.). Vial (B.). Acart. Videmont (P.). Grenet. Ansanay.
+                Raveleau. Daliot. Pierre (M.). Rubin. Ferezou. Morlet (A.). Angel. Marchal (Ch.).
+                Fessard. Cladier. Bumier. Saussotte. Brunon. Jolis. Leriche. Clavel. Ledain. Ploy.
+                Branger. Massaly. Brebion. Bourdieu. Jacquet. Bourbon. Carinu. Mauger. Ravachol.
+                Morin. Bouval. Devillers. Dunie. Roger (M.). Thévenin. Dubois (A.). Dubost (P.).
+                Maurel. Ouemener. Martin (Paul). Santini. Duouenne. Lebrun (S.). Pelletier (A.).
+                Sirault. Guilhot. Louesdon. Garcelon. Martin (F.). Peltier. Bonisson. Kerneis. de
+                Witte. Dupuy. Charrier (M.). Fafet. Véron (F.). Bompuis. Plateau. Feutre.
+                Desgrippes. Emery. Schneider. Dunaud. Ouillet. Gohin. Coignoux. Delacroix. Durand.
+                Nicolas (A.). Gesta. Lambert (P.). Bidaud. Duffaut. Baudufé. Turcat. Pellier.
+                Cassat. Petit (I.). Agutte. Mitaux. Laurent (A.). Croisé. Sadik. Greard. Debeaupuis.
+                Doguet. Fauvergue. Caron. Fonchy. Revol.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">CAMARADES AYANT CHANGE
+                D'ADRESSE DEPUIS LA PARUTION DES LISTES</head>
+              <p>Arnould (Emile), 4, rue du Réservoir, Le Perreux (Seine). Bartier (Charles), 18,
+                rue de Saint-Quentin, Manbeuge (Nord). Betremieux (François), 76, rue Victor-Renard,
+                Hasnon (Nord). Billard (Maurice), Pont-de-Labeaume (Ardèche). Brifraut (Georges),
+                Laignes (Côte-d'Or). Buy (Benoît), Saint-Amour-Bellevue (Saône-et-Loire). Cade
+                (Emile), Chemin du Port, Audenge (Gironde). Capitaine (Eugène), place de la Cure,
+                Velaux (Bouches-du-Rhône). Carlier (Raymond), 69, avenue Voltaire, Soissons (Aisne).
+                Cassat (Gustave), villa des Thuyas, Sauxillanges (Puy-de-Dôme). Delacourt (Joseph),
+                70, rue Mouy, Clermont (Oise). Delahate (Emile), 24 bis, rue de la Herse,
+                Nogent-le-Rotrou (Eure-et-Loir). Ducouret (Paul), Neuilly-la-Forêt (Calvados).
+                Goulet (Marcel), au Bourg de la Gueirche (Sarthe). Houdry (Louis), 42 ter, rue
+                Lécuyer, Aubervilliers (Seine). Lafon (Jean), 34, avenue Gambetta, Montauban
+                (Tarn-et-Garonne). Laugt (Jean), Maison Cacaret, à Nay (Basses-Pyrénées). Ledernet
+                (Ernest), Passy-sur-Marne (Aisne). Le Serpec (Yves), rue Jules-Ferry prolongée,
+                Saint-Brieuc (Côtes-du-Nord). Montfaucon (François), 71, boulevard *Washington,
+                Suresnes (Seine). Nardy (Louis), Lopis Neuf, Maison Monrent, route d'Allauch,
+                banlieue de Marseille (Bouches-du-Rhône). Reguilhem (Joseph), 7, avenue
+                Philippe-Auguste, Paris. Robin (Charles), 19, impasse Marcel, Paris. Rost (Ernest),
+                La Roque par Port-Mort (Eure). Roussel (Clément), 14, rue Daru, Paris. Royneau
+                (Alfred), Laignes (Côte-d'Or). Wetzel, 10, rue de Liverdun, Frouard
+                (Meurthe-et-Moselle).</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">QUESTIONNAIRE A REMPLIR ET A
+                RETOURNER PAR LES CAMARADES DESIREUX DE FAIRE UN SEJOUR A FRANCEVILLE</head>
+              <p>Les camarades désireux de bénéficier d'un séjour à Franceville retourneront, avant
+                le 10 avril, le questionnaire ci-dessous après l'avoir rempli et signé :</p>
+              <p>Nom Prénoms Adresse (l'écrire lisiblement)</p>
+              <p>Combien de vos enfants vous accompagnent ? Indiquez la ou les périodes pendant
+                laquelle ou lesquelles vous désirez bénéficier du séjour</p>
+              <p>Je déclare me conformer au règlement de Franceville. Le ................ 1927.
+                Signature :</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Imp. Dubeis et Bauer, r. Eafitte, Paris. - 1927. Le Géraul: Decokur.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Fayret,
+              secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; vice-présidente: Courtreix, Grilley, Noireaux. 1 Secrétaire
+              général : Fayret. Trésorier: Gaston L'Evesque. Membres : Antoine, Arnault, Bardoux,
+              Bertrand, Bloncoury, Bois, Cabassen, Derunder, Dufourc, Fauvel, Cuvan, Goubin,
+              Guillam, Izaac, Lappargue, Lágarde, Lallement, Lauté, Malgat, Muller, Nicolai, Robert
+              (Maurice), Tocdouri, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traverbsay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. Auterbe, Actuaire à la Compagnie « L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broquin. M. Chepper. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaguier. Baroune de Grottinss-Germandt. Mme Henri. Mme Kalt. Mme L'Evesque.
+              Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Piscal.</p>
+            <p>Dr Schneider. Colonel de Traverbay.</p>
+            <pb n="24"/>
+            <note type="foliation">— 22 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">Liste des Donateurs</head>
+            <p>Mlle Scheurer, à Paris (affectation maison de repos Franceville), 200 fr. - Les
+              élèves du cours complémentaire de l'école de filles, rue Saint-Benoît, à Paris, 20 fr.
+              - Lycée de garçons, à Bar-le-Duc, 20 fr. - Mlle Deterlen, à Valentigney (Doubs), 20
+              fr. - M. Rey, notaire, à Le Muy (Var), 20 fr. - M. Villevieille, Meudon
+              (Seine-et-Oise), 20 fr. - Mlle Heulhard d'Arcy, à Corvol-l'Orgueilleux (Nièvre), 40
+              fr. - Mme Séjalon, à Boulogne (Seine), 20 fr. M. Costedoat, à Alger, 20 fr. - Mme
+              Sick, à Val-d'Ajol (Vosges), 30 fr. - Mme Charles Peugeot, à Paris (affectation maison
+              de repos Franceville), 200 fr. - M. Chedanne, à Paris, 100 fr. - M. Rosalès, à Paris,
+              1.000 fr. - M. François, à Dijon, 25 fr. - Mme Bourdon, à Lesmont (Aube), 50 fr. -
+              Mlle Bret, à Charolles (Saône-etLoire), 100 fr. - Mme Preneux, Tassin-la-Demi-Lune
+              (Rhône), 25 fr. - Mme Jean Meyer, à Béziers (Hérault), 50 fr. - Mme Verner, à Berueuil
+              (Oise), 20 fr. - M. Lipot, à Bouvincourt (Somme), 100 fr. - M. Gerber, à Nancy, 20 fr.
+              - M. E. Granier, à Crépy-en-Valois (Oise), transmis par Les Annales, 25 fr. - M. Emile
+              Hany, Le Caire (Egypte), transmis par Les Annales, 400 fr. - M. Cavalier, à Nîmes,
+              transmis par Les Annales, 10 fr. - MM. Boucheron et Radius, joailliers, à Paris, 100
+              fr. - M. Cardinal, à Bressuire (DeuxSèvres), 10 fr. - M. Roger Bernard, à Paris, 100
+              fr. - Les élèves des lycées de Marseille, 300 fr. - M. Muller, à Is-sur-Tille
+              (Côted'Or), 25 fr. - Anonyme n <hi rend="superscript">°</hi> 24.407, transmis par
+              l'Union Nationale des Combattants, 50 fr. - Lycée de Valence, 50 fr. - M. A. Bernard,
+              à Paris, 20 fr. - M. Blot, à Montargis (Loiret), 20 fr. Anonyme n <hi
+                rend="superscript">°</hi> 24.464, 50 fr. - M. Réal, à Roubaix (Nord), 115 fr. -
+              Lycée Malherbe, à Caen, 100 fr. - Mme Jacques Helft, à Paris, 250 francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
