@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 20ème année 1938 n°11</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Association</title>
+        <title type="topic">Livre Parlé</title>
+        <title type="topic">Bibliothèque Braille</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 22 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#decrets-lois">Décrets-lois</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#braille">Braille</term>
+          <term ref="#livre-parle">Livre Parlé</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Ce bulletin mensuel de l'Union des Aveugles de Guerre traite de sujets variés tels que
+          l'impact des décrets-lois sur les pensions des anciens combattants, les activités de la
+          Confédération Nationale des Anciens Combattants, les réunions du Comité d'Entente des
+          Grands Invalides, la visite du Maréchal Pétain à la Maison de l'U.A.G., et les événements
+          du 11 Novembre. Il inclut également des informations sur la Section de Prévoyance, le
+          Livre Parlé, des offres d'achats avec réduction, des nouvelles de la bibliothèque Braille,
+          des chroniques de l'U.A.G. (naissances, mariages, décès), et le procès-verbal de
+          l'assemblée annuelle de la départementale du Finistère.</p>
+      </abstract>
+      <creation>
+        <date when="1938-12-01">01/12/1938</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+
+          <item>
+            <ref target="#h5">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h6">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h7">Comité d'Action</ref>
+          </item>
+          <item>
+            <ref target="#h8">LES DÉCRETS-LOIS</ref>
+          </item>
+          <item>
+            <ref target="#h9">A LA CONFÉDÉRATION</ref>
+            <list>
+              <item>
+                <ref target="#h10">LES SACRIFICES</ref>
+              </item>
+              <item>
+                <ref target="#h11">POUR REALISER DES ECONOMIES</ref>
+              </item>
+              <item>
+                <ref target="#h12">POUR PERMETTRE LES ABANDONS VOLONTAIRES</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h13">RÉUNION DU COMITÉ D'ENTENTE DES GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h14">LE MINISTRE DES PENSIONS REÇOIT LE COMITÉ D'ENTENTE LE MERCREDI 9
+              DÉCEMBRE à II HEURES 30</ref>
+          </item>
+          <item>
+            <ref target="#h15">LE MARÉCHAL PÉTAIN VISITE LA MAISON DE L'U.A.G.</ref>
+          </item>
+          <item>
+            <ref target="#h16">LE 11 NOVEMBRE</ref>
+          </item>
+          <item>
+            <ref target="#h17">NOTRE SECTION DE PRÉVOYANCE</ref>
+          </item>
+          <item>
+            <ref target="#h18">LE LIVRE PARLÉ</ref>
+          </item>
+          <item>
+            <ref target="#h19">«ET LA LUMIERE FUT»</ref>
+          </item>
+          <item>
+            <ref target="#h20">ACHATS AVEC RÉDUCTION</ref>
+          </item>
+          <item>
+            <ref target="#h21">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h22">BIBLIOTHÈQUE BRAILLE</ref>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h23">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h24">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h26">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS 1939</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">Cotisations volontaires</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">Cotisations</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h30">Procès-Verbal de l'Assemblée annuelle de la Départementale du
+                  Finistère le 30 Juin 1938</ref>
+              </item>
+              <item>
+                <ref target="#h31">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h32">LISTE DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h33">DONS AVEC AFFECTATION SPÉCIALE POUR LA MAISON DES AVEUGLES DE
+                  GUERRE</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h34">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h35">Comité de Patronage</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">20e Année. — N° 11</fw>
+          <fw type="header">
+            <hi rend="underline">DECEMBRE 1938</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Les décrets-lois.</item>
+                    <item>A la Confédération.</item>
+                    <item>Réunion du Comité d'Entente des Grands Invalides.</item>
+                    <item>Le Ministre des Pensions reçoit le Comité d'Entente le 7 décembre.</item>
+                    <item>Le Maréchal Pétain visite la Maison de l'U.A.G.</item>
+                    <item>Le 11 novembre.</item>
+                    <item>Notre Section de Prévoyance.</item>
+                    <item>Le Livre Parlé : Lettre aux auditeurs.</item>
+                    <item>Le Livre Parlé : "Et la lumière fut".</item>
+                    <item>Achats avec réduction.</item>
+                    <item>Légion d'Honneur.</item>
+                    <item>Bibliothèque Braille.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Cotisations 1939.</item>
+                    <item>Procès-verbal de l'Assemblée annuelle de la Départementale du Finistère le
+                      30 juin 1938.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Scapini, Président honoraire. Bourguignon, Secrétaire
+              général honoraire. Favret, Secrétaire général honoraire. Conan, Secrétaire général
+              honoraire. Amblard, Secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Conseil d'Administration</head>
+            <p>Président : Conan. Vice-Présidents : Guillam, Izaac, Leveall Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Favret,
+              Grillet, Lapfargue, Lagarde, Lauté, Malgat, Muller, Nicolai. Noireaux, Robert
+              (Maurice), Roy (Georges), Satgé, Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Comité d'Action</head>
+            <p>Mlle Arbel, Vice-Présidente honoraire.</p>
+            <p>Président : M. de Traversay. Vice-Présidentes Mme Contamin. Mme L'Evesque. M. Bloch,
+              adjoint au Trésorier ; Secrétaires M. Iweins, Secrétaire du Comité d'Action. M.
+              Auterbe, Sous-Directeur à la Compagnie «L'Union ».</p>
+            <p>Mme du Bos : Mme Broquin : M. de Chaumont-Quitry ; M. Chepfer :</p>
+            <p>Mme Chevalier ; Mlle Jalaguier Mme Lévy-Weis : M. Julien Mayer ;</p>
+            <p>Colonel de Traversay.</p>
+            <pb n="3"/>
+          </div>
+          <fw>20° ANNÉE - N° 11 DÉCEMBRE 1938</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LES DÉCRETS-LOIS</head>
+            <p>Beaucoup de camarades nous ont demandé dans quelle mesure les décrets-lois parus dans
+              le courant de novembre nous touchaient particulièrement.</p>
+            <p>Aucun décret-loi n'atteint spécialement les anciens combattants et victimes de la
+              guerre, mais nous sommes tous frappés de la contribution spéciale de 2% sur nos
+              pensions, les allocations spéciales aux grands invalides et les majorations étant
+              exceptées. Donc, jusqu'à nouvel ordre, c'est une retenue de 2% sur la pension
+              principale qui sera opérée, mais il est à prévoir des modifications sur ce prélèvement
+              et nous espérons que les démarches en cours aboutiront.</p>
+            <p>Le décret-loi relatif à la diminution des avantages accordés sur les chemins de fer
+              ne nous concerne pas et l'émotion qui en résultait était heureusement vaine. Notre
+              carte d'invalidité conserve donc toute sa valeur. D'autre part, l'application de la
+              taxe de droits de quai et de contrôle dont nous avons parlé dans notre dernier
+              bulletin, qui était applicable également à la tierce personne, a fait l'objet de
+              nouvelles démarches et on nous a fait savoir que M. de Monzie, Ministre des Travaux
+              Publics, était favorable à l'abolition de cette taxe en faveur de nos guides. Nous
+              espérons avoir un résultat définitif, sinon nous continuerons nos démarches, car nous
+              ne devons pas laisser toucher à la gratuité du guide : c'est une question d'ordre
+              social. H. A.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">A LA CONFÉDÉRATION</head>
+            <p>La Confédération Nationale des Anciens Combattants a tenu, comme chaque année à la
+              même époque, son Conseil National.</p>
+            <p>Ses assises ont eu lieu les 26 et 27 novembre dernier au Centre Marcellin-Berthelot,
+              et nos camarades ont pu suivre dans la presse le compte rendu de ses
+              délibérations.</p>
+            <p>Nous rappelons ici, à titre de mémoire, les motions qui présentent pour nous le plus
+              d'intérêt et qui ont trait à la position prise par la Confédération devant les
+              décrets-lois :</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">LES SACRIFICES</head>
+              <p>« La Confédération Nationale des Anciens Combattants et Victims de la Guerre, «Se
+                plaçant au-dessus et en dehors de toute considération de «politique partisane,
+                confirme unanimement sa doctrine sur l'intan«gibilité du droit à réparation : «
+                Rappelant au pays qu'en s'abstenant dans les circonstances « actuelles de demander
+                un rajustement de leurs pensions et retraites, « rajustement justifié depuis
+                longtemps par l'élévation du coût de « la vie, les Anciens Combattants et Victimes
+                de la Guerre ont ainsi «consenti un sacrifice extrêmement lourd, dépassant un
+                milliard ; «Considérant que comme citoyens, ils supportent déjà les mêmes «charges
+                que l'ensemble de la population et qu'aucun sacrifice parti«culier n'est ni demandé,
+                ni imposé aux autres parties prenantes du «budget ; «Le Conseil National
+                considérerait comme injuste tout sacrifice «imposé spécialement et exclusivement aux
+                Anciens Combattants et «Victimes de la Guerre tant que les économies possibles et
+                les réfor«mes nécessaires préconisées à maintes reprises par la Confédération «
+                Nationale n'auront pas été réalisées.»</p>
+              <p>Toutes les autres motions qui devaient suivre furent, pour la plupart, adoptées à
+                l'unanimité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">POUR REALISER DES
+                ECONOMIES</head>
+              <p>«Le Conseil National de la Confédération Nationale des Anciens «Combattants et
+                Victimes de la Guerre, <pb n="5"/>
+                <note type="foliation">— 3 —</note> « Convaincu que tout effort de redressement
+                national sera vain « tant qu'un inventaire sérieux et impartial des obligations de
+                l'Etat « vis-à-vis des citoyens et des collectivités n'aura pas été effectué, «
+                Décidé à donner l'exemple, « Demande la création d'une commission interministérielle
+                chargée « de codifier les lois intéressant les Anciens Combattants et les Victi« mes
+                de la Guerre et éventuellement de proposer les mesures propres «à les harmoniser ; «
+                Précise qu'au sein de cette Commission, les Anciens Combat«tants et Victimes de la
+                Guerre devront avoir la majorité : «Espère que tous les citoyens et toutes les
+                collectivités suivront « l'exemple donné par les Anciens Combattants et tiendront
+                eux aussi « à contribuer à l'œuvre de clarification et de redressement dont
+                dépendent peut-être la grandeur et l'existence de la France. »</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">POUR PERMETTRE LES ABANDONS
+                VOLONTAIRES</head>
+              <p>«La Confédération Nationale des Anciens Combattants et Victi«mes de la Guerre,
+                «Considérant que des difficultés administratives telles que l'exigence du certificat
+                périodique de vie, rendent pratiquement vains « les abandons de livrets de la
+                retraite du combattant et les délégations d'arrérages, consentis par des camarades
+                au profit, soit de la «Caisse de Défense Nationale, soit d'œuvres de solidarité
+                (Combattants chômeurs, veuves âgées, prêt au mariage des orphelins de « guerre,
+                etc.). « Demande au Gouvernement de prendre immédiatement les «décrets et mesures
+                mettant fin à des obstacles réglementaires qui «découragent les bonnes volontés ; «
+                Décide qu'aussitôt ces mesures prises, elle lancera un Appel aux « Anciens
+                Combattants pour qu'un large mouvement de solidarité « sociale et nationale puisse
+                donner des résultats effectifs sur la base « de la liberté et non de la contrainte.
+                »</p>
+              <pb n="6"/>
+              <note type="foliation">— 4 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">RÉUNION DU COMITÉ D'ENTENTE DES
+              GRANDS INVALIDES</head>
+            <p>Mardi 15 novembre 1938, à 16 heures. - Etaient présents : pour l'U.A.G. : Conan et
+              Amblard.</p>
+            <p>Le tour de présidence échoit à Soulier qui est heureux de revoir Régnier présent à la
+              séance.</p>
+            <p>Cette réunion a pour but l'examen des décrets-lois. Il est reconnu que toutes les
+              catégories de citoyens paieront la taxe de 2% prévue par les décrets. Quant à l'effort
+              supplémentaire demandé aux anciens combattants, le Comité ne croit pas devoir aller
+              plus loin. Il est remarqué en outre que les fonctionnaires bénéficieront d'une
+              augmentation de traitement. Le Comité réserve son action pour l'avenir.</p>
+            <p>Des télégrammes sont envoyés au Président du Conseil et au Ministre des Pensions pour
+              leur faire connaître le point de vue du Comité. Il est confirmé au Comité d'Entente
+              que le décret sur les chemins de fer ne concerne par les Grands Invalides.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LE MINISTRE DES PENSIONS REÇOIT
+              LE COMITÉ D'ENTENTE LE MERCREDI 9 DÉCEMBRE à II HEURES 30</head>
+            <p>Toutes les Associations sont représentées. Sont présents pour l'U.A.G. : Conan,
+              Amblard. La délégation fait savoir au Ministre qu'elle déplore le différend qui est
+              survenu entre lui et la Confédération et manifeste son désir de voir s'apaiser cette
+              tension.</p>
+            <p>Il est ensuite parlé du renchérissement du prix de la vie et du rajustement désirable
+              pour les allocations des grands invalides. Le Ministre dit quelle est sa sympathie
+              particulière pour les Grands Inva- <pb n="7"/>
+              <note type="foliation">— 5 —</note> lides. Il souhaiterait pouvoir opérer un
+              rajustement de leurs allocations, mais indique que sur un budget aussi lourd que celui
+              des pensions, cela ne peut être possible qu'avec des économies et des compressions de
+              dépenses. La délégation fait des comparaisons entre le coût de la vie d'aujourd'hui et
+              celui de 1935 et fait remarquer qu'une augmentation en faveur des fonctionnaires a été
+              annoncée.</p>
+            <p>La discussion se poursuit sur les besoins de toutes les catégories de grands
+              invalides et M. Champetier de Ribes est prié de demander pour le Comité d'Entente une
+              entrevue avec M. le Ministre des Finances. M. le Ministre des Pensions accepte de
+              s'entremettre pour obtenir cette audience.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">LE MARÉCHAL PÉTAIN VISITE LA
+              MAISON DE L'U.A.G.</head>
+            <p>A la veille des cérémonies de l'Armistice, le Maréchal Pétain a tenu à visiter notre
+              Maison. Le 10 novembre, à 11 heures, il est venu dans l'intimité, accompagné de son
+              officier d'ordonnance, le Capitaine Bonhomme, se rendre compte de ce qu'était notre
+              installation qu'il n'avait pu voir, étant empêché, au moment de l'inauguration. Il l'a
+              visitée en détail et avec soin, de la terrasse en passant par les chambres, jusqu'à la
+              bibliothèque Braille, les bureaux, où il a jeté un coup d'œil sur la collection de
+              notre bulletin depuis 1918 : il a vu nos comptes, nous a posé beaucoup de questions
+              sur tout le fonctionnement de notre Association et, ayant admiré le Livre Parlé, il
+              est des- cendu à notre grande salle en passant par la salle à manger.</p>
+            <p>Dans la salle des fêtes où de nombreux camarades étaient présents, répondant aux
+              paroles de bienvenue de notre Président qui lui exprimait tout le plaisir que nous
+              causait sa visite, le Maréchal Pétain nous a félicités vivement sur notre
+              organisation, sur le bon fonctionnement de notre Maison. Il a bien voulu nous
+              encourager à persévérer dans notre action et nous a promis de revenir nous voir de
+              temps en temps. C'est là, en effet, un très précieux encouragement pour les dirigeants
+              de l'U.A.G. et tous les aveugles de guerre, de la part d'un grand chef comme le
+              Maréchal Pétain qui ne nous a pas fait là une visite protocolaire mais au contraire
+              pleine d'intérêt pour nous, et sa flatteuse appréciation nous est un grand stimulant.
+              H. A.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LE 11 NOVEMBRE</head>
+            <p>Les fêtes du 11 Novembre ont revêtu cette année un éclat tout particulier à cause du
+                20<hi rend="superscript">e</hi> anniversaire de l'Armistice, célébré dans toutes les
+              villes de France.</p>
+            <p>Un grand nombre de nos camarades étaient venus de province se joindre au groupe de
+              l'U.A.G. pour assister à la cérémonie de l'Etoile et ce fut après le défilé
+              traditionnel le retour à la Maison. Là, dans notre grande salle, car le restaurant
+              était trop petit pour contenir les convives, fut servi un déjeuner amical de 190
+              couverts, ce qui prouve le succès de cette réunion. Nous avons bien cru un moment être
+              obligé de refuser de nombreux camarades, cependant les places étaient uniquement
+              réservées aux membres de l'U.A.G., à leurs femmes et à leurs enfants.</p>
+            <p>La température exceptionnelle de cette année nous permit de profiter du jardin,
+              pendant que les jeunes et même les vieux dansaient aux sons du jazz du camarade
+              Pichenot. H. A.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">NOTRE SECTION DE
+              PRÉVOYANCE</head>
+            <p>Notre Section de Prévoyance, dont la création fut décidée par notre dernière
+              Assemblée Générale, a immédiatement répondu aux espérances de ceux qui avaient
+              souhaité sa formation.</p>
+            <p>Les vacances, puis les événements de septembre dernier, dirigeaient nos pensées vers
+              d'autres sujets et cependant, aux environs du 11 novembre, qui était la date de départ
+              pour le fonctionnement de notre Section, après quelques jours de latitude laissés bien
+              naturellement pour la première fois que les versements étaient opérés, nous comptions
+              1.188 adhérents qui se sont mis à jour de leur cotisation.</p>
+            <p>Nous voulons rappeler ici à nos camarades un petit détail qui a son importance. Il
+              faut prévoir en effet le cas extrême où, par suite d'un accident par exemple, le
+              camarade disparaîtrait en même temps que la personne qu'il a désignée, ce qui pourrait
+              arriver celle-ci étant en général sa femme ou son guide.</p>
+            <p>Nous invitons nos adhérents à nous indiquer une seconde personne bénéficiaire de
+              l'allocation, en cas de mort simultanée du camarade ou du bénéficiaire, ou tout
+              simplement en cas de mort prématurée de la personne désignée. Ils n'auront qu'à nous
+              le faire savoir par une formule semblable à celle-ci par exemple : « Je désigne ma
+              femme Madame... ou à défaut... (telle personne) ». De cette façon, nos fiches seront
+              remplies avec précision.</p>
+            <p>La Section de Prévoyance vient de commencer à fonctionner à la suite du premier décès
+              d'un adhérent. Il s'agit de notre infortuné camarade Bardet, de Bordeaux, aveugle de
+              guerre bi-manchot, dont nous annonçons d'autre part la mort subite. Il avait adhéré à
+              la Section en juillet dernier, avait versé 500 francs, et sa veuve en touche 10.000 .
+              Sage précaution. H. A.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">LE LIVRE PARLÉ</head>
+            <p>Lettre aux auditeurs du « Livre Parlé »</p>
+            <p>On a souvent parlé du monde des aveugles, oui un monde fermé dont les barrières ont
+              reculé et reculeront encore si nous le voulons.</p>
+            <p>Vous êtes un des fidèles auditeurs du Livre Parlé répartis maintenant un peu partout
+              dans notre beau pays et dont le nombre s'augmente chaque semaine.</p>
+            <p>Vous n'ignorez pas combien les promoteurs de ce nouveau mode de lecture, votre
+              Président en particulier, ont multiplié leurs efforts pour en faire connaître et
+              apprécier les agréments. Des démonstrations ont été faites dans de grandes villes,
+              lors des réunions de nos Régionales et cependant nous avons la conviction que de
+              nombreux camarades attendent encore une première audition.</p>
+            <p>Vous qui avez un appareil dont vous êtes satisfait, pensez aux aveugles de guerre et
+              aux aveugles civils de votre voisinage, soyez leur initiateur comme quelqu'un le fut
+              pour vous. C'est dans la tiédeur ouatée et le calme d'un foyer familial que se révèle
+              le mieux l'agrément de la lecture d'un bon livre.</p>
+            <p>Vous serez satisfait d'avoir collaboré à l'essor d'une invention qui, pour nous
+              aveugles, marque une nouvelle étape d'émancipation. Notre discothèque prend chaque
+              jour plus d'extension, n'en gardez pas tout le plaisir pour vous seul, faites la
+              apprécier autour de vous, ce sera de la bonne camaraderie. E. G.</p>
+            <p>Nous avons rappelé dans un de nos précédents bulletins la liste des ouvrages
+              enregistrés et en cours de tirage et nous vous donnons ci-après celle des ouvrages à
+              l'enregistrement qui viennent de paraître et que nous pouvons adresser aux auditeurs
+              du Livre Parlé sur leur demande :</p>
+            <p>
+              <list>
+                <item>HARRY (Myriam) : L'île de volupté (9 disques).</item>
+                <item>ROHMER (Sax) : Le docteur Fu-Manchu (12 disques).</item>
+                <item>GENEVOIX (Maurice) : Sous Verdun (11 disques).</item>
+                <item>MONFREID (Henri de) : Abdi, l'homme à la main coupée (12 disq.).</item>
+                <item>ZWEIG (Stephan) : Magellan (15 disques).</item>
+              </list>
+            </p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">«ET LA LUMIERE FUT»</head>
+            <p>Nous vous rappelons que le Permanent Blind édite une revue intitulée Et la lumière
+              fut, qui publie, en Braille abrégé amplifié, des articles fort intéressants, extraits
+              de revues littéraires et scientifiques.</p>
+            <p>L'abonnement annuel du prix de 20 francs est fort modique, étant donné le prix de
+              revient de cette publication, aussi nous ne saurions trop vous engager à y souscrire,
+              soit directement à l'American Braille Press, 4, rue de Montevideo, Paris, soit par
+              l'intermédiaire de l'Union des Aveugles de Guerre.</p>
+            <p>Tout les camarades qui voudront bien nous en faire la demande recevront un specimen
+              accompagné d'un index des abréviations.</p>
+            <p>Et la lumière fut vous procurera chaque mois plus de cent pages d'intéressantes
+              lectures.</p>
+            <p>Sommaire du numéro de novembre : G. Robert Muller : Pêche au homard sur la Côte
+              Bretonne. Jules Chopin : Le problème des Allemands des Sudètes. René Lauret :
+              Politique sociale du National-socialisme. Ambroise Got : Le mouvement de la population
+              en France et en Allemagne. René La Bruyère : Armements navals.</p>
+            <p>Sommaire du numéro de décembre : Georges G. Toudouze : Le Conservatoire National de
+              Musique et d'Art dramatique. Jean Schlumberger : Contre l'humiliation. André Tardieu :
+              Méditerranée, clef de l'Afrique. Giscard d'Estaing : Pelèrinage. G. de Raulin :
+              Liberté des mers. Marcelle Magdinier : Une belle au Bois Dormant : la Dentelle du Puy.
+              L'homme du jour : Pasteur.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">ACHATS AVEC RÉDUCTION</head>
+            <p>Notre dernière Assemblée Générale ayant exprimé le désir de voir se constituer en nos
+              bureaux une organisation susceptible de procurer à nos camarades divers avantages au
+              cours de leurs achats dans différentes maisons, nous sommes heureux de vous présenter
+              aujourd'hui les premiers résultats de nos démarches.</p>
+            <p>Vous trouverez ci-après la liste de Maisons parisiennes qui acceptent de vous
+              consentir une remise sur vos achats au comptant. Cette remise, variable selon les
+              établissements et parfois selon les articles, vous sera faite sur présentation d'un
+              bon à en-tête de l'Union des Aveugles de Guerre, que nous tenons à votre disposition,
+              celui-ci étant nécessaire pour chaque achat.</p>
+            <p>La délivrance de ce bon n'implique aucun engagement de votre part et nous vous
+              laissons le soin d'apprécier vous-mêmes l'intérêt des conditions consenties.</p>
+            <p>Pour nous conformer à la discrétion qui nous est demandée, nous ne publions pas les
+              noms et adresses des fournisseurs, mais désignons ces derniers sous un numéro d'ordre
+              qu'il vous suffira de nous indiquer pour les articles vous intéressant.</p>
+            <p>Des catalogues et prix courants nous sont parvenus de quelques Maisons, ils pourront
+              être consultés par vous à notre siège.</p>
+            <p>Bien entendu il ne peut s'agir que d'achats au comptant faits par nos camarades qui
+              se présenteraient eux-mêmes dans différentes Maisons de Paris que nous leur
+              indiquerons.</p>
+            <p>Maisons : Remise de : FABRIQUE D'ORFEVRERIE <hi rend="superscript">N</hi>^{\circ} 1.
+              Argenterie, orfèvrerie ................................. 30%</p>
+            <list>
+              <head>ASPIRATEURS</head>
+              <item><hi rend="superscript">N</hi>° 2. Aspirateurs, fers à repasser, radiateurs et
+                matériel électrique (marques connues) — 30%</item>
+              <item><hi rend="superscript">N</hi>° 3. Aspirateurs, cireuses,
+                lampe‑électro‑formogène, divers — 30% + 2%</item>
+              <item>Petit matériel électrique — 25% à 30%</item>
+              <item>Lampes d’éclairage et divers — 30%</item>
+              <item>Jouets électriques et de construction — 20% à 25%</item>
+              <item>Gros matériel électrique — 15% à 25%</item>
+            </list>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+            <table>
+              <row>
+                <cell>Catégorie</cell>
+                <cell>Description</cell>
+                <cell>Remise</cell>
+              </row>
+              <row>
+                <cell>Manufacture de chapeaux <hi rend="superscript">N</hi>° 4</cell>
+                <cell>Chapeaux pour hommes, dames et enfants</cell>
+                <cell>20%</cell>
+              </row>
+              <row>
+                <cell>Appareils de chauffage <hi rend="superscript">N</hi>° 5</cell>
+                <cell>Réchauds à gaz, cuisinières, cheminées à feu continu, etc. (marques
+                  connues)</cell>
+                <cell>25%, 20% ou 15%</cell>
+              </row>
+              <row>
+                <cell>Cycles <hi rend="superscript">N</hi>° 6</cell>
+                <cell>Bicyclettes (grande marque)</cell>
+                <cell>15%</cell>
+              </row>
+              <row>
+                <cell>Cycles <hi rend="superscript">N</hi>° 6</cell>
+                <cell>Vélomoteurs et motos (grande marque)</cell>
+                <cell>10%</cell>
+              </row>
+              <row>
+                <cell>Appareils d’éclairage <hi rend="superscript">N</hi>° 7</cell>
+                <cell>Lustres, lampadaires, etc.</cell>
+                <cell>50%</cell>
+              </row>
+              <row>
+                <cell>Appareils d’éclairage <hi rend="superscript">N</hi>° 7</cell>
+                <cell>Accessoires et articles divers</cell>
+                <cell>30%</cell>
+              </row>
+              <row>
+                <cell>Fourrures <hi rend="superscript">N</hi>° 8</cell>
+                <cell>Pelleteries</cell>
+                <cell>Prix de gros</cell>
+              </row>
+              <row>
+                <cell>Graines – Plantes <hi rend="superscript">N</hi>° 9</cell>
+                <cell>Sur graines et spécialités</cell>
+                <cell>10%</cell>
+              </row>
+              <row>
+                <cell>Graines – Plantes <hi rend="superscript">N</hi>° 9</cell>
+                <cell>Sur plantes, quincaillerie, etc.</cell>
+                <cell>5%</cell>
+              </row>
+              <row>
+                <cell><hi rend="superscript">N</hi>° 10</cell>
+                <cell>Graines</cell>
+                <cell>10%, 5% ou 3%</cell>
+              </row>
+              <row>
+                <cell><hi rend="superscript">N</hi>° 10</cell>
+                <cell>Plantes (arbres fruitiers, céréales, etc.)</cell>
+                <cell>Selon articles</cell>
+              </row>
+              <row>
+                <cell>Fabrique d’horlogerie <hi rend="superscript">N</hi>° 11</cell>
+                <cell>Sur prix catalogue de la Maison</cell>
+                <cell>30%</cell>
+              </row>
+              <row>
+                <cell>Fabrique d’horlogerie <hi rend="superscript">N</hi>° 11</cell>
+                <cell>Montres, réveils, pendulettes (marques connues)</cell>
+                <cell>30%, 25% ou 15%</cell>
+              </row>
+              <row>
+                <cell>Fabrique d’horlogerie <hi rend="superscript">N</hi>° 11</cell>
+                <cell>Réparations d’après devis</cell>
+                <cell>Tarif artisanal</cell>
+              </row>
+              <row>
+                <cell>Horlogerie &amp; Joaillerie <hi rend="superscript">N</hi>° 12</cell>
+                <cell>Horlogerie, montres, pendulettes, joaillerie fine, brillants</cell>
+                <cell>30% + 10%</cell>
+              </row>
+              <row>
+                <cell>Imperméables <hi rend="superscript">N</hi>° 13</cell>
+                <cell>Caoutchoucs, gabardines, vêtements cuir</cell>
+                <cell>Prix de gros</cell>
+              </row>
+              <row>
+                <cell><hi rend="superscript">N</hi>° 14</cell>
+                <cell>Vêtements cuir et caoutchouc</cell>
+                <cell>Prix de gros</cell>
+              </row>
+              <row>
+                <cell>Lampes d’éclairage <hi rend="superscript">N</hi>° 15</cell>
+                <cell>Lampes électriques, toutes marques</cell>
+                <cell>30%</cell>
+              </row>
+              <row>
+                <cell>Lampes d’éclairage <hi rend="superscript">N</hi>° 15</cell>
+                <cell>Lampes T.S.F., fers à repasser, etc.</cell>
+                <cell>Remise intéressante</cell>
+              </row>
+            </table>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+            <table>
+              <row>
+                <cell>Catégorie</cell>
+                <cell>Description</cell>
+                <cell>Remise</cell>
+              </row>
+              <row>
+                <cell>Machines à coudre <hi rend="superscript">N</hi>° 16</cell>
+                <cell>Sur prix imposé</cell>
+                <cell>16%</cell>
+              </row>
+              <row>
+                <cell>Fabrique de meubles <hi rend="superscript">N</hi>° 17</cell>
+                <cell>Meubles, sièges, literie, tapis</cell>
+                <cell>25%</cell>
+              </row>
+              <row>
+                <cell>Fabrique de meubles <hi rend="superscript">N</hi>° 17</cell>
+                <cell>Meubles spéciaux</cell>
+                <cell>Sur devis</cell>
+              </row>
+              <row>
+                <cell><hi rend="superscript">N</hi>° 18</cell>
+                <cell>Meubles en hêtre et bois blanc</cell>
+                <cell>20%</cell>
+              </row>
+              <row>
+                <cell>Musique <hi rend="superscript">N</hi>° 19</cell>
+                <cell>Appareils de T.S.F. (grandes marques)</cell>
+                <cell>25%</cell>
+              </row>
+              <row>
+                <cell>Orthopédie <hi rend="superscript">N</hi>° 20</cell>
+                <cell>Ceintures, bandages, prothèses, etc.</cell>
+                <cell>10%</cell>
+              </row>
+              <row>
+                <cell>Articles de sport <hi rend="superscript">N</hi>° 21</cell>
+                <cell>Sur prix de catalogue, suivant articles</cell>
+                <cell>5 à 20%</cell>
+              </row>
+              <row>
+                <cell><hi rend="superscript">N</hi>° 22</cell>
+                <cell>Tapis et tissus pour ameublement</cell>
+                <cell>Prix de gros + 3%</cell>
+              </row>
+              <row>
+                <cell>Verreries – Cristaux <hi rend="superscript">N</hi>° 23</cell>
+                <cell>Verreries, cristaux, céramiques, porcelaines</cell>
+                <cell>Prix de gros + 5%</cell>
+              </row>
+              <row>
+                <cell>Voitures d’enfants <hi rend="superscript">N</hi>° 24</cell>
+                <cell>Voitures et lits d’enfants</cell>
+                <cell>Remise suivant l’importance de l’achat</cell>
+              </row>
+              <row>
+                <cell>Fabrique d’articles de voyage <hi rend="superscript">N</hi>° 25</cell>
+                <cell>Malles, valises, articles de voyage</cell>
+                <cell>10%</cell>
+              </row>
+              <row>
+                <cell>Fabrique d’articles de voyage <hi rend="superscript">N</hi>° 25</cell>
+                <cell>Trousses, portefeuilles, etc.</cell>
+                <cell>10%</cell>
+              </row>
+              <row>
+                <cell>Appareils sanitaires <hi rend="superscript">N</hi>° 26</cell>
+                <cell>Salles de bains, cabinets de toilette, etc.</cell>
+                <cell>15%</cell>
+              </row>
+              <row>
+                <cell>Appareils sanitaires <hi rend="superscript">N</hi>° 26</cell>
+                <cell>Commandes</cell>
+                <cell>Uniquement par l’intermédiaire de l’U.A.G.</cell>
+              </row>
+            </table>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">LÉGION D'HONNEUR</head>
+            <p>Au Journal Officiel du 4 novembre, publiant le décret du 28 octobre 1938, est promu
+              Officier dans l'Ordre de la Légion d'Honneur :</p>
+            <p>GLORIEUX (Adolphe Louis), ancien soldat du 43^{e} Régiment d'Infanterie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">BIBLIOTHÈQUE BRAILLE</head>
+            <p>Afin de disposer d'un peu plus de place pour les ouvrages nouveaux reçus à la
+              Bibliothèque, nous procédons actuellement à la suppression des doubles exemplaires que
+              nous possédons. Ces volumes seront au fur et à mesure distribués à ceux de nos
+              camarades qui nous en feront la demande.</p>
+            <p>En voici une première liste : <table>
+                <head type="section" rend="align(center)">VOYAGES - GEOGRAPHIE</head>
+                <row>
+                  <cell>3374</cell>
+                  <cell>Bazin : Le Père de Foucault</cell>
+                  <cell>13 volumes</cell>
+                </row>
+                <row>
+                  <cell>3350</cell>
+                  <cell>Bernard : Le Maroc</cell>
+                  <cell>4 vol. abr.</cell>
+                </row>
+                <row>
+                  <cell>3378</cell>
+                  <cell>Dorgeles : Route Mandarine</cell>
+                  <cell>4 vol.</cell>
+                </row>
+                <row>
+                  <cell>3353</cell>
+                  <cell>Nansen : Vers le Pôle</cell>
+                  <cell>18 volumes</cell>
+                </row>
+                <row>
+                  <cell>3382</cell>
+                  <cell>Tharaud : Rabat, Heures marocaines</cell>
+                  <cell>5 volumes</cell>
+                </row>
+                <row>
+                  <cell>3393</cell>
+                  <cell>Saint‑Exupéry : Vol de nuit</cell>
+                  <cell>2 vol. abr.</cell>
+                </row>
+              </table>
+              <table>
+                <head>THEATRE</head>
+                <row>
+                  <cell>1433</cell>
+                  <cell>d'Annunzio : La Gioconda</cell>
+                  <cell>4 vol. abr.</cell>
+                </row>
+                <row>
+                  <cell>1400</cell>
+                  <cell>Em. Augier : Les Fourchambault</cell>
+                  <cell>2 vol. abr.</cell>
+                </row>
+                <row>
+                  <cell>1401</cell>
+                  <cell>Em. Augier : Les Effrontés</cell>
+                  <cell>2 vol. abr.</cell>
+                </row>
+                <row>
+                  <cell>1402</cell>
+                  <cell>Em. Augier : Le fils de Giboyer</cell>
+                  <cell>2 vol. abr.</cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell>Le gendre de M. Poirier</cell>
+                  <cell>1 volume</cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell>Beaumarchais : Le mariage de Figaro</cell>
+                  <cell>5 volumes</cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell>Bernard (Tristan) : Le seul bandit du village</cell>
+                  <cell>1 volume</cell>
+                </row>
+              </table></p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+            <table>
+              <row>
+                <cell>1429.</cell>
+                <cell>- Le fardeau de la liberté</cell>
+                <cell>1 volume.</cell>
+              </row>
+              <row>
+                <cell>1430.</cell>
+                <cell>- M. Codonnat - Franches lippées</cell>
+                <cell>2 volumes.</cell>
+              </row>
+              <row>
+                <cell>*1444.</cell>
+                <cell>Brieux - L'enfant</cell>
+                <cell>1 vol. abr.</cell>
+              </row>
+              <row>
+                <cell>*1461.</cell>
+                <cell>- Blanchette</cell>
+                <cell>2 vol. abr.</cell>
+              </row>
+              <row>
+                <cell>1432.</cell>
+                <cell>Corneille : Le menteur</cell>
+                <cell>3 volumes.</cell>
+              </row>
+              <row>
+                <cell>1410.</cell>
+                <cell>Hugo (Victor) : Hernani</cell>
+                <cell>3 volumes.</cell>
+              </row>
+              <row>
+                <cell>1411.</cell>
+                <cell>Labiche : L'affaire de la rue de Lourcine</cell>
+                <cell>1 volume.</cell>
+              </row>
+              <row>
+                <cell>*1412.</cell>
+                <cell>- La cagnotte</cell>
+                <cell>2 vol. abr.</cell>
+              </row>
+              <row>
+                <cell>*1413.</cell>
+                <cell>Marivaux : Le jeu de l'amour et du hasard</cell>
+                <cell>1 vol. abr.</cell>
+              </row>
+              <row>
+                <cell>1415.</cell>
+                <cell>Molière : Les femmes savantes</cell>
+                <cell>1 volume.</cell>
+              </row>
+              <row>
+                <cell>1416.</cell>
+                <cell>- L'Ecole des femmes</cell>
+                <cell>3 volumes.</cell>
+              </row>
+              <row>
+                <cell>1478.</cell>
+                <cell>- Tartuffe</cell>
+                <cell>1 volume.</cell>
+              </row>
+              <row>
+                <cell>*1419.</cell>
+                <cell>Musset : On ne badine pas avec l'amour</cell>
+                <cell>1 vol. abr.</cell>
+              </row>
+              <row>
+                <cell>1420.</cell>
+                <cell>- Un caprice</cell>
+                <cell>1 volume.</cell>
+              </row>
+              <row>
+                <cell>*1422.</cell>
+                <cell>Pailleron : La souris</cell>
+                <cell>3 vol. abr.</cell>
+              </row>
+              <row>
+                <cell>1423.</cell>
+                <cell>Racine : Bérénice</cell>
+                <cell>2 volumes.</cell>
+              </row>
+              <row>
+                <cell>1425.</cell>
+                <cell>Régnard : Le légataire universel</cell>
+                <cell>2 volumes.</cell>
+              </row>
+              <row>
+                <cell>1476.</cell>
+                <cell>Rostand : Cyrano de Bergerac</cell>
+                <cell>5 volumes.</cell>
+              </row>
+              <row>
+                <cell>*1442.</cell>
+                <cell>Shakespeare : Nuit des Rois</cell>
+                <cell>3 vol. abr.</cell>
+              </row>
+            </table>
+            <pb n="17"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">Naissances</head>
+                <p>Notre camarade Marot, de Casteljaloux (L.-et-G.), nous fait part de la naissance
+                  de sa petite fille, née le 5 octobre 1938.</p>
+                <p>Notre camarade Teillet, de Chaize-le-Vicomte (Vendée), nous fait part de la
+                  naissance de sa petite fille, née le 18 octobre 1938.</p>
+                <p>Notre camarade Levie Marcel, de Parigny-les-Vaux (Nièvre), nous fait part de la
+                  naissance de son quatrième fils, Alain Marcel, né le 6 août 1938.</p>
+                <p>Notre camarade Ben Saad Abderrahmann, de Laghouat (Alger), nous fait part de la
+                  naissance de son sixième enfant, Aïcha, le 9 octobre 1938.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">Mariages</head>
+                <p>Notre camarade Lebon, de Charleville (Ardennes), nous fait part du mariage de sa
+                  fille avec M. Robinet, célébré le 22 septembre 1938.</p>
+                <p>Notre camarade Navarron, de Voirdière (P.-de-D.), nous fait part du mariage de
+                  son fils avec Mlle Vialé, célébré le 17 octobre 1938.</p>
+                <p>Notre camarade Bosquet, de La Vendelée (Manche), nous fait part du mariage de son
+                  fils avec Mlle Herman, célébré le 11 octobre 1938.</p>
+                <p>Notre camarade Vachon, de Lantignié (Rhône), nous fait part du mariage de son
+                  fils avec Mlle Lécot, célébré le 20 septembre 1938.</p>
+                <p>Notre camarade Lauro, de Guyotville (Algérie), nous fait part du mariage de son
+                  fils avec Mlle Schneider, célébré le 14 octobre 1938.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+                <pb n="18"/>
+                <note type="foliation">— 16 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">Décès</head>
+                <p>Nous apprenons le décès de : Notre camarade Reboud, d'Izeaux (Isère), décédé le 6
+                  novembre 1938 dans sa 50<hi rend="superscript">°</hi> année.</p>
+                <p>Né le 27 novembre 1888 à Izeaux (Isère), soldat au 158<hi rend="superscript"
+                    >°</hi> régiment d'infanterie, notre camarade fut blessé le 15 novembre 1916 à
+                  Ablaincourt. Réformé à 100%, art. 10, pour cécité, il était Chevalier de la Légion
+                  d'Honneur et titulaire de la Médaille Militaire.</p>
+                <p>Notre camarade Etienne Breton, de Montdauphin (S.-et-M.), décédé le 22 novembre
+                  1938, à l'âge de 57 ans.</p>
+                <p>Né le 4 septembre 1881, à Vendières, soldat au 67<hi rend="superscript">°</hi>
+                  régiment d'infanterie, notre camarade était réformé à 100%, art. 10, pour cécité.
+                  Il laisse une veuve et deux enfants.</p>
+                <p>Notre camarade Ernest Bardet, de Bordeaux (Gironde), décédé subitement le 27
+                  novembre 1938, à l'âge de 64 ans.</p>
+                <p>Né le 29 janvier 1874 à Eysine, soldat au 7<hi rend="superscript">°</hi> Régiment
+                  Colonial, notre camarade fut blessé le 17 mai 1916 à Cappy (Somme). Réformé à
+                  200%, art. 10 et 12 , pour cécité, amputation des 2 avant-bras et blessures
+                  multiples, Chevalier de la Légion d'Honneur, titulaire de la Médaille Militaire,
+                  de la Croix de Guerre et diverses décorations coloniales, il laisse une femme et 3
+                  enfants.</p>
+                <p>Du père de notre camarade Lauro, de Guyotville (Algérie), décédé le 22 octobre
+                  1938, à l'âge de 86 ans.</p>
+                <p>De la femme de notre camarade Ichtertz, de Rosheim (Bas-Rhin), décédée le 20
+                  septembre 1938, à l'âge de 61 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="19"/>
+                <note type="foliation">— 17 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS 1939</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">Cotisations
+                  volontaires</head>
+                <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                  ont tenu à effectuer un nouveau versement : Rascle 5 fr. ; Roulet 10 ; Berain 10 ;
+                  Gauthier 15 ; Delhez 10 ; Comble 5 ; Debooserie 10 ; Louesdon 5 ; Mouillé 20 ;
+                  Leroy A. 15 ; Aldeguer 20 ; Castel F. 25 ; Gambert 20 ; Malinge 15 ; Grangier 10 ;
+                  Warin 5 ; Nast 5 ; Ternois 5.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">Cotisations</head>
+                <p>Lerousseau, Delplanque, Capitaine, Cordier (rachat), Gauthier, Barrat, Delhez,
+                  Fraysse F., Tourneux, Canler, Lamy A., Rascle, Comble, Eckert, Maille (rachat),
+                  Cullet, Vaudelin, Chapouillié, Debooserie, Roger M., Bompuis, Garcelon, Lambert
+                  R., Louesdon, Dupuis J., Bellec, Rineau, Courtemanche, Thèbes, Baron J., Fétique,
+                  Leroy A., Prével, Lemarchand, Bichel, Laügt, Boitel, Favier C., Houot, Devienne,
+                  Bignon G., Bouvet, Malinge, Raynaud, Roussigné, Capelle, Warin, Gorce, Roget,
+                  Beauchemin, Nast, Raynal, Lemaire (rachat), Ternois, Cabannot, Cohen, Fillère.</p>
+                <pb n="20"/>
+                <note type="foliation">— 18 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">Procès-Verbal de l'Assemblée
+                annuelle de la Départementale du Finistère le 30 Juin 1938</head>
+              <p>Le Président Le Cocq ouvre la séance à 10 h .15 . Sont présents : Le Cocq, Kernéis,
+                Prigent, Jung, Bellec, Quéré, Le Borgne, Kerrien, Kerengal, Sibiril, Labat, Coat, Le
+                Lann, Kromer, Kaigre, trésorier ; Piton, commissaire aux comptes.</p>
+              <p>Ont donné leurs pouvoirs : Au Président : Masson, Castel, Argouach, Larher,
+                Stephan, Guillou, Gohiec ;</p>
+              <p>Au Secrétaire : Le Borgne J.M., Gouriou, Nicolas ; A Kernéis : Ferezou. Excusé :
+                Perron. Le Cocq remercie les camarades présents, ainsi que le Président accompagné
+                de Mme Conan, qui n'ont pas craint de faire pour la seconde fois un si long voyage
+                pour être encore aujourd'hui parmi nous.</p>
+              <p>L'Assemblée applaudit vivement pour remercier Conan. Le Secrétaire donne lecture du
+                procès-verbal de la dernière Assemblée Annuelle qui est adopté à l'unanimité.</p>
+              <p>Le trésorier et le commissaire aux comptes donnent lecture du compte rendu
+                financier qui est adopté à l'unanimité également.</p>
+              <p>Avant de passer à l'ordre du jour Le Cocq demande à Conan de bien vouloir donner
+                les derniers renseignements concernant l'extension du statut des grands
+                invalides.</p>
+              <p>Conan donne les explicationr sur les derniers paragraphes du projet du statut des
+                grands invalides, son extension possible ou probable et son vote définitif qui ne
+                saurait tarder.</p>
+              <p>A la demande du Comité, Conan continue son exposé sur le projet de fonctionnement
+                de la caisse de prévoyance et donne les expli- <pb n="21"/>
+                <note type="foliation">— 19 —</note> cations complémentaires sur les modalités des
+                versements suivant l'âge des camarades.</p>
+              <p>Continuant ses explications, Conan parle ensuite de la caisse de secours, des
+                améliorations apportées ainsi que de l'indemnité accordée aux veuves.</p>
+              <p>D'autre part, à la demande de Conan, Kraigre, trésorier, donne lecture d'une note
+                relative au réglement et au fonctionnement de la caisse maladie. Ensuite une
+                discussion s'engage concernant le prêt consenti par l'U.A.G. pour construction de
+                maisons familiales qui est considéré comme étant actuellement insuffisant.</p>
+              <p>Après une courte discussion, il est rappelé que la Société des « Amis des Soldats
+                Aveugles» consent aussi des prêts dans les mêmes conditions que l'Union.</p>
+              <p>Conan reprend la parole pour donner des explications sur le fonctionnement
+                intérieur de la maison, ainsi que sur le restaurant.</p>
+              <p>Puis il parle du Livre Parlé, de ses avantages, de son fonctionnement.</p>
+              <p>L'ordre du jour étant terminé, l'on passe à l'élection du Comité
+                d'Administration.</p>
+              <p>Aucune modification n'est apportée dans la constitution de ce Comité : Président,
+                Le Cocq ; Secrétaire, Sibiril ; Membres : Prigent, Kernéis, Labat ; Trésorier,
+                Kaigre ; Commissaire aux comptes. Piton.</p>
+              <p>A midi, on se trouve à nouveau réunis à l'Hôtel de Bretagne où est servi un
+                excellent repas. Au café, Le Cocq prend la parole pour renouveler ses remerciements
+                à M. et Mme Conan ainsi qu'aux camarades.</p>
+              <p>Conan dit ensuite tout le plaisir qu'il a de se trouver parmi ses camarades du
+                Finistère et de constater la bonne entente et la fraternité qui existe entre
+                eux.</p>
+              <p>A la fin du repas, une démonstration est faite du Livre Parlé, puis les chanteurs
+                se font entendre et la jeunesse danse. On se quitte un peu avant 18 heures en se
+                donnant rendez-vous à l'année prochaine.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">AVIS DIVERS</head>
+              <p>A vendre cause double emploi, très bon piano moderne palissandre, marque Ruch,
+                cordes obliques, aux prix de 1.500 francs.</p>
+              <p>S'adresser directement au camarade Lamerand, rue Lacarrière.</p>
+              <p>A l'occasion des fêtes du Nouvel An, la Maison Walmya expédiera son vin d'origine
+                par caisse de 8 bouteilles, au prix de 15 francs franco domicile. Cadeau prime à
+                toute commande.</p>
+              <p>S'adresser au camarade Polette, 42, rue de Dantzig, Paris (15e).</p>
+              <p>Pour trousseaux, achats de toile et lingerie, notre camarade Petitdidier nous
+                informe qu'il livrera aux meilleures conditions le beau linge des Vosges, garanti
+                blanchi sur pré, livraison franco, 5% d'escompte. Demander échantillons.</p>
+              <p>S'adresser directement à M. Petitdidier, 118, rue Marietton, Lyon (Rhône).</p>
+              <p>Notre camarade Léger Antony, nous informe qu'il peut fournir à des prix très bas,
+                toutes garanties : Postes de T.S.F., bicyclettes et tandems, machines à écrire, vins
+                de Valmya.</p>
+              <p>S'adresser à M. Léger, 5, rue Rataud, Paris (5e).</p>
+              <p>A vendre, en parfait état, machine Remington, écriture invisible, 350 francs, port
+                en plus.</p>
+              <p>S'adresser au camarade Chapouillié, Casteljaloux (L.-et-G.).</p>
+              <p>Notre camarade Mariani d'Alger, nous communique la note suivante :</p>
+              <p>J'ai le plaisir de vous faire connaître que, grâce à une intervention de ma part
+                auprès de M. le Maire de la Ville d'Alger, les avantages <pb n="23"/>
+                <note type="foliation">— 21 —</note> ci-après seront consentis aux aveugles de
+                guerre dès l'application des nouveaux tarifs sur le réseau de la Société des Tramway
+                Algériens (T.A.) d'Alger, sur simple présentation de la carte d'invalidité concédée
+                par l'Office Départemental des Mutilés.</p>
+              <table>
+                <row>
+                  <cell/>
+                  <cell/>
+                  <cell>TARIFS ACTUELS</cell>
+                  <cell/>
+                  <cell>TARIFS NOUVEAUX</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                </row>
+                <row>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>Prix avec tickets achetés à l'avance</cell>
+                  <cell/>
+                  <cell>Prix avec tickets ach. dans la voiture</cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell/>
+                  <cell/>
+                  <cell>Normal</cell>
+                  <cell>Mutile</cell>
+                  <cell>Normal</cell>
+                  <cell>Mutilé</cell>
+                  <cell>Normal</cell>
+                  <cell>Mutilé sur près. de sa carte</cell>
+                </row>
+                <row>
+                  <cell>Réseau électrique</cell>
+                  <cell>1 sect. Réseau</cell>
+                  <cell>\begin{aligned} 0,75 \ 1,- \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,40 \ 0,50 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,75 \ 1,125 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,375 \ 0,562 \end{aligned}</cell>
+                  <cell>\begin{aligned} 1, \ 1,50 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,50 \ 0,75 \end{aligned}</cell>
+                </row>
+                <row>
+                  <cell>Réseau trolleybus</cell>
+                  <cell>1 sect. 2 sect. 3 sect.</cell>
+                  <cell>\begin{aligned} 0,75 \ 1,- \ 1,25 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,40 \ 0,50 \ 0,65 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,75 \ 1,125 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,375 \ 0,562 \end{aligned}</cell>
+                  <cell>\begin{aligned} 1, \ 1,50 \end{aligned}</cell>
+                  <cell>\begin{aligned} 0,75 \ 0,75 \end{aligned}</cell>
+                </row>
+              </table>
+              <p>Aveugle d'après-guerre, non pensionné, serait acheteur d'une guillotine. Faire
+                offre directement à M. Dumortier, 16, rue Macard, Reims (Marne).</p>
+              <p>A vendre bicyclette enfant 6 ans, roulement à billes, pneus Ducasbles. Très bon
+                état. Prix intéressant.</p>
+              <p>S'adresser au camarade Saint-Marty, Sorèze (Tarn).</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">LISTE DE DONATEURS</head>
+              <p>Notre camarade Bourgois 10 fr. ; Mme Fischer, Bruxelles 11 fr. ; Mme J. Ripeloux,
+                Princeton (U.S.A.) 200 fr. ; Une Beauceronne 50 fr. ; Mme Gaulon, Paris 500 fr. ;
+                Mme Theron, Château-Thierry 25 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">DONS AVEC AFFECTATION
+                SPÉCIALE POUR LA MAISON DES AVEUGLES DE GUERRE</head>
+              <p>Club des Amis des Chats 1.000 fr. ; Commune de Céret (Pyr.-Or.) 135 fr.</p>
+              <pb n="25"/>
+              <pb n="26"/>
+              <pb n="27"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">Président d'Honneur de l'Union
+              des Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier ; M. Brisac, Préfet; M. J. Ridgely-Carter; M. Paul de Cassagnac,
+              ancien Député; M. Maurice Donnay, de l'Académie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député ; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              ancien Sénateur ; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer, Conseiller
+              d'Etat; M. Henry Paté, Député; \dagger M° Henri-Robert, de l'Académie française,
+              ancien Bâtonnier de l'Ordre des Avocats; M. le général Sainte-Claire-Deville; \dagger
+              M. Vallery-Radot.</p>
+            <pb n="28"/>
+          </div>
+          <fw>Gérant : DECOENE Imp. Maurice DAUER, 57, rue des Vinaigriers, Paris Ix</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

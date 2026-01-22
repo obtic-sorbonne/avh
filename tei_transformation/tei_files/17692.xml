@@ -1,0 +1,875 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 18ème année 1936, n°1</title>
+        <author>L'YNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Association d'anciens combattants</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Secours sociaux</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 19 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#impots">Impôts</term>
+          <term ref="#telephone">Téléphone</term>
+          <term ref="#maison-des-aveugles">Maison des aveugles</term>
+          <term ref="#livre-parle">Livre parlé</term>
+          <term ref="#saint-dunstans">Saint-Dunstan's</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) pour 1936 couvre un large
+          éventail de sujets pertinents pour ses membres. Il commence par des vœux de bonne année et
+          aborde ensuite des questions pratiques telles que les pensions et leur déclaration
+          d'impôt, les réductions sur l'abonnement téléphonique, et l'état d'avancement de la
+          construction de la Maison de l'U.A.G. Le bulletin présente également un aperçu des
+          initiatives pour les aveugles de guerre anglais, en particulier le "Livre Parlé", et offre
+          un aperçu de la presse combattante allemande. Des informations sur les activités de
+          l'U.A.G., telles que les allocations de la Caisse Fraternelle, les naissances, mariages et
+          décès parmi les membres, ainsi que les cotisations, sont également incluses. Enfin, le
+          bulletin fournit des détails sur le renouvellement des cartes de circulation et des cartes
+          de chemins de fer, ainsi que des nominations à la Légion d'Honneur.</p>
+      </abstract>
+      <creation>
+        <date when="1936-01-01">01/01/1936</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h6">BONNE ANNÉE</ref>
+          </item>
+          <item>
+            <ref target="#h7">CHEZ LES AVEUGLES DE GUERRE ANGLAIS «LE LIVRE PARLÉ »</ref>
+          </item>
+          <item>
+            <ref target="#h8">Réduction sur l'abonnement téléphonique</ref>
+          </item>
+          <item>
+            <ref target="#h9">NOS PENSIONS et la déclaration de l'impôt sur le revenu</ref>
+          </item>
+          <item>
+            <ref target="#h10">NOTRE MAISON</ref>
+          </item>
+          <item>
+            <ref target="#h11">Candidats au Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h12">Renouvellement des Cartes de circulation sur les transports en commun
+              de la Région parisienne</ref>
+          </item>
+          <item>
+            <ref target="#h13">Renouvellement des Cartes de chemins de fer</ref>
+          </item>
+          <item>
+            <ref target="#h14">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h15">Dans la Presse Combattante Allemande</ref>
+          </item>
+          <item>
+            <ref target="#h16">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h17">Caisse Fraternelle</ref>
+              </item>
+
+              <item>
+                <ref target="#h18">ENTRE-NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h22">Cotisations Volontaires</ref>
+              </item>
+              <item>
+                <ref target="#h23">Cotisations pour l'Année 1936</ref>
+              </item>
+              <item>
+                <ref target="#h24">Procès-verbal de la réunion de la Régionale de Bordeaux le 8
+                  décembre 1935</ref>
+              </item>
+              <item>
+                <ref target="#h25">Départementale des Bouches-du-Rhône</ref>
+              </item>
+              <item>
+                <ref target="#h26">Régionale du Nord AVIS</ref>
+              </item>
+              <item>
+                <ref target="#h27">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h28">Dons avec affectation spéciale pour la Maison des Aveugles de
+                  Guerre</ref>
+              </item>
+              <item>
+                <ref target="#h29">Liste des Donateurs</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h30">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h31">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h32">COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">18e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">Janvier 1936</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Bonne Année.</item>
+                    <item>Chez les Aveugles de guerre anglais.</item>
+                    <item>"Le Livre Parlé".</item>
+                    <item>Réduction sur l'abonnement téléphonique.</item>
+                    <item>Nos pensions et la déclaration de l'impôt sur le revenu.</item>
+                    <item>Notre Maison.</item>
+                    <item>Candidats au renouvellement du Conseil d'Administration.</item>
+                    <item>Renouvellement des cartes de circulation sur les transports en commun de
+                      la Région Parisienne.</item>
+                    <item>Renouvellement des cartes de chemins de fer.</item>
+                    <item>Légion d'Honneur.</item>
+                    <item>Dans la Presse Combattante allemande.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre Nous.</item>
+                    <item>Cotisations pour l'année 1936.</item>
+                    <item>Procès-verbal de la réunion de la Régionale de Bordeaux le 8 décembre
+                      1935.</item>
+                    <item>Départementale des Bouches-du-Rhône.</item>
+                    <item>Régionale du Nord.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert Lebrun, Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITÉ DE PATRONAGE</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire. \dagger M. Barthou,
+              de l'Académie Française, ancien Président du Consci\% M. le colonel Fabry, député,
+              ancien ministre; \dagger M. le général Balfouber; M. Brisac, préfet; M. J. Ridgely
+              Carter; M. Paul de Cassagnac, ancien député; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député; Miss Alice Gettis; M.
+              Justin Gopart, ancien ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold
+              Kahn; M. Krug; M. Lugol, sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. le
+              docteur Morax; M. Meyer, conseiller d'Etat; M. Henry Pats, député; M. Pierre Rameil,
+              député; Me Henri-Robert, de l'Académie française, ancien bâtonnier de l'Ordre des
+              Avocats * M. le général Sainte-Claire-Deville; \dagger M. Vallery-Radot; M. le
+              professeur Walther, membre de l'Académie de Médecine</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">BONNE ANNÉE</head>
+            <p>Nous tenons à ce que le premier Bulletin de l'U. A. G. qui paraît en 1936, apporte
+              aux nombreux amis et bienfaiteurs de notre Association nos vœux les plus sincères pour
+              l'année qui commence. Qu'elle soit pleine de prospérité et de joie pour ceux qui ne
+              cessent depuis de longues années de nous témoigner leur plus vive sympathie à laquelle
+              nous sommes toujours extrêmement sensibles.</p>
+            <p>Nous souhaitons aussi à tous nos camarades, ainsi qu'à leurs familles, de conserver
+              la santé et espérons qu'ils trouveront en 1936 toutes les satisfactions qu'ils
+              désirent.</p>
+            <p>Le. Bureau.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">CHEZ LES AVEUGLES DE GUERRE
+              ANGLAIS «LE LIVRE PARLÉ »</head>
+            <p>En traversant Londres au début de cette année, j'ai rendu une visite au centre des
+              aveugles de guerre anglais dont l'Association est généralement confute sous le nom de
+              Saint-Dunstan's et j'ai pensé que raconter à nos camarades les quelques points qui
+              m'ont frappé dans cette visite pourrait peut-être les intéresser.</p>
+            <p>Reçu là par Sir Jan Fraser, député aux Communes, Président de l'Association,
+              l'accueil le plus sympathique m'a été réservé par ce camarade dont la fraternelle
+              bienvenue m'a permis de constater combien il était agréable d'entretenir de bonnes
+              relations avec les aveugles de guerre des pays étrangers. Nous avons causé de nos
+              Associations, de leur composition qui est sensiblement la même, - l'U. A. G. étant un
+              peu supérieure en nombre, - de la vie de nos camarades, des pensions dont nous
+              pourrons par exemple parler entre nous lors de l'Assemblée Générale.</p>
+            <p>Sous l'aimable conduite de Sir Jan Fraser, j'ai visité Saint-Dunstan's, que
+              quelques-uns de nos camarades connaissent, arrêtant surtout mon attention sur ce qui
+              constitue les services de cette Association. La question des pensions étant
+              définitivement réglée chez nos camarades anglais, leur organisation est surtout une
+              grande Amicale qui à pour but l'entr'aide des Aveugles de guerre, tant au point de vue
+              de secours en cas de besoin comme nous le pratiquons, qu'à l'appui professionnel pour
+              le placement des travaux exécutés ou l'emploi des masseurs, dactylographes,
+              téléphonistes, etc... qui sont encore nombreux outreManche; il faut noter, en effet,
+              qu'il y a plus de 1.000 aveugles de guerre anglais qui exercent à l'heure actuelle un
+              métier. La propagande nécessaire à toute cette organisation tient une grande place à
+              Saint-Dunstan's, demande un personnel assez nombreux, comprenant rien qu'à Londres
+              environ 25 secrétaires, ce qui dépasse de loin les moyens d'action que nous
+              employons.</p>
+            <p>En ce moment, les aveugles de guerre anglais s'intéressent vivement au "Livre Parlé"
+              dont ils ont résolu le problème par le moyen du phonographe et qu'ils répandent dans
+              tout le pays et ses colonies.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Le public est tenu au courant de ce travail et j'ai pu entendre, quelques jours avant
+              ma visite, une causerie faite à la T.S.F. par le Président Fraser qui, traitant le
+              sujet d'une façon très claire, a donné au micro quelques exemples de lecture par le
+              nouveau procédé. Mon hôte me guidant dans la salle où travaille l'opérateur, m'a
+              présenté l'appareil employé pour la lecture aux aveugles. C'est un phonographe, de la
+              taille de ceux que nous connaissons, dont la particularité est de tourner à 32 tours à
+              la minute, au lieu d'environ 80 , ce qui permet d'utiliser les disques de grandeur
+              moyenne, tout en ayant une audition de 25 minutes par face; un disque donnant donc 50
+              minutes de lecture il faut de 8 à 12 disques pour enregistrer selon son importance la
+              teneur d'un livre. Ces disques, en matière incassable, sont prêtés aux camarades comme
+              les bouquins ordinaires d'une bibliothèque, expédiés dans une espèce de petite
+              mallette qui, pour un livre de 8 disques, - on m'a montré par exemple "Le Typhon ", le
+              bel ouvrage de Joseph Conrad, - représente l'épaisseur d'à peine trois doigts.
+              L'Association de Saint-Dunstan's a obtenu pour ses expéditions des tarifs spéciaux
+              fixés à 2 pence par envoi, ce qui n'est pas très ruineux, et obtenu surtout des
+              auteurs l'exonération des droits de reproduction, ce qui leur permet d'abaisser
+              simplement le prix de revient. Le tirage d'un ouvrage revient évidemment assez cher à
+              l'Association mais est encore une chose possible et le camarade auquel on prête ces
+              livres gratuitement n'a qu'à faire l'acquisition d'un appareil reproducteur. Il en a
+              été créé de trois types : le premier marche électriquement et, vendu au prix de
+              revient, coûte un peu plus de £ 5, soit environ 400 francs.</p>
+            <p>Le second, destiné aux campagnes qui ne sont pas encore pourvues d'électricité, se
+              remonte à la manivelle et coûte par conséquent moins cher.</p>
+            <p>Quant au troisième, il est dans une petite mallette, et au lieu de reproduire le son
+              à haute voix, est muni de deux écouteurs, ce qui permet au camarade de lire son livre
+              sans s'occuper de ce qui se passe autour de lui, et sans gêner les voisins, donnant
+              par exemple à sa femme le loisir de vaquer aux soins du ménage sans souci du bruit que
+              cela peut occasionner. Tous ces appareils peuvent également tourner plus vite et
+              servir alors pour l'utilisation des disques ordinaires.</p>
+            <p>C'est un très grand pas accompli dans l'œuvre d'émancipation <pb n="6"/>
+              <note type="foliation">— 4 —</note> que nous cherchons tous, mais on pourra dire que
+              ce n'est pas la perfection. En effet, nous avions vu ici deux tentatives différentes
+              de "livre parlé " par le moyen du film sonore qui présentait l'avantage de donner une
+              plus longue durée d'audition sous une forme plus réduite. Avec ce système, on n'aurait
+              même pas eu besoin, comme il est nécessaire pour les disques, de mettre un petit
+              numéro en braille sur chaque face, mais, le grand écueil du film est le prix très
+              élevé de l'appareil reproducteur qui, lors des essais auxquels nous avons assisté à
+              Paris, était estimé au moins à 2.000 francs, chiffre qui nous a même été indiqué comme
+              inférieur au prix réel d'une machine de cette sorte par d'autres personnes que nous
+              avons consultées.</p>
+            <p>C'est pourquoi, les Anglais ont, sans plus tarder, adopté le système du phonographe
+              pour le livre parlé et je dois dire que l'audition en est fort agréable, claire et
+              reposante.</p>
+            <p>Nos camarades français se demanderont sans doute pourquoi l' "U. A. G." n'a pas
+              encore pris l'initiative de mettre au point, non seulement des appareils de cette
+              sorte, ce qui ne serait peut-être pas trop difficile à trouver, mais aussi de faire
+              éditer des disques intéressants, nécessitant bien entendu de nombreuses démarches
+              possibles à faire pour obtenir des facilités de transport, d'édition, etc. C'est une
+              réflexion qui vient naturellement à l'esprit, mais il faut remarquer que notre Union
+              se dirige de plus en plus en cette voie de récupération de liberté et de confort pour
+              ses adhérents. Notre Maison, sur le point d'être achevée, présente bien ce caractère
+              d'innovation, car elle est la première maison créée spécialement pour des aveugles,
+              dans laquelle ils pourront se mouvoir librement, vivre avec aisance, trouver un
+              endroit où tout peut être réuni pour eux. Avec ce merveilleux centre que constituera
+              notre Maison, il y aura là tous les éléments propices à la recherche de ces nouveaux
+              procédés qui peuvent nous être si utiles. Ayant déjà accompli ce bel effort, je ne
+              crois pas que l' "Union des Aveugles de Guerre " soit au-dessous de cette tâche. Il
+              faut pour cela, qu'utilisant l'esprit d'Union qui existe beaucoup plus qu'on ne le
+              pense chez nous, nous employions notre activité dans un sens d'amélioration sociale
+              qui pourrait ainsi servir à tous les aveugles de France. Des ressources seront
+              nécessaires, car dans ce but, il en faudra encore davantage pour réaliser tout ce que
+              nous n'avons encore qu'en pensée; et puis, il faudra aussi du temps disponible, ce qui
+              n'est pas toujours facile à trouver.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+            <p>En m'entretenant amicalement avec nos camarades pour leur raconter cée que j'avais
+              remarqué d'intéressant chez les aveugles de guerre anglais, j'ai pensé que ces
+              quelques points pourraient retenir leur attention et qu'ils pourraient ainsi
+              collaborer à un programme propre à apporter quelque amélioration à notre sort commun.
+              H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Réduction sur l'abonnement
+              téléphonique</head>
+            <p>Nous avons fait parvenir à nos camarades par voie de circulaire copie de la lettre
+              que M. Mandel a adressée au Ministre des Pensions pour l'informer qu'il acceptait
+              d'étendre à tous les aveugles de guerre pensionnés à 100% pour cécité et bénéficiaires
+              de l'article 10 les avantages de l'article 94 de la loi de finances de mars 1930 qui
+              accordait une réduction de 50% sur l'abonnement au téléphone. Ceci vient à la suite
+              d'une démarche de notre Bureau qui a fait valoir auprès des Ministres intéressés la
+              grande utilité du téléphone pour les aveugles; les Ministres ont compris combien
+              étaient précieuses pour nous, qui vivons beaucoup par les sons, ces sortes d'aides qui
+              nous redonnent un peu de liberté.</p>
+            <p>Il faut remarquer que peu d'avantages ont été réservés dans cet ordre de choses aux
+              aveugles qui n'ont pour ainsi dire pas d'appareillage, mais se trouvant dans une
+              situation tout à fait particulière peuvent avoir une amélioration de leur sort par
+              l'application de nouveaux procédés ou la dotation de nouveaux moyens propres à les
+              émanciper en partie. C'est pourquoi les aveugles sont considérés maintenant en France,
+              comme ils le sont d'ailleurs à l'Etranger, comme une catégorie spéciale qui pourra
+              faire l'objet d'attentions particulières.</p>
+            <p>Nous donnons ici copie des lettres de M. Mandel, Ministre des Postes, et de M.
+              Maupoil, Ministre des Pensions, que nous remercions vivement de leurs bienveillantes
+              interventions en notre faveur.</p>
+            <p>Lettre de M. Mandel, Ministre des P. T. T., à M. Maupoil, Ministre des Pensions : "
+              Mon cher Collègue et ami, "Vous avez bien voulu me demander, à la requête de M.
+              Scapini, d'accorder à tous les aveugles de guerre la réduction de 50% dont <pb n="8"/>
+              <note type="foliation">— 6 —</note> bénéficient pour leur abonnement téléphonique les
+              invalides de guerre cumulant les conditions maxima des articles 10 et 12 de la loi du
+              31 mars 1919. " Vous m'avez fait savoir à ce sujet qu'à votre avis la cécité avec
+              l'article 10, en raison du traitement même fait aux aveugles, peut être considérée
+              comme équivalente à une invalidité à 200% ( 100% plus 10 degrés article 12 ). " J'ai
+              en conséquence le plaisir de vous faire connaître que je prescris d'accorder la
+              réduction de 50% susvisée à tous les aveugles de guerre bénéficiaires de l'article 10.
+              "Veuillez agréer, mon cher Collègue et ami, l'expression de mes sentiments les
+              meilleurs. "Le Ministre des P. T. T. : "MANDEL. "</p>
+            <p>M. Maupoil, Ministre des Pensions, à Monsieur le Secrétaire Général de l'U. A. G. :
+              "Monsieur le Secrétaire Général, "Vous avez bien voulu me demander d'intervenir auprès
+              de M. le Ministre des P. T. T. en vue d'obtenir une réduction de 50% sur les
+              abonnements téléphoniques des aveugles de guerre. "J'ai l'honneur de vous transmettre
+              sous ce pli copie de la réponse que vient de m'adresser M. le Ministre des P. T. T.
+              que j'avais déjà saisi de la question et par laquelle il m'informe qu'il accorde
+              satisfaction à votre requête. " Je suis très heureux d'avoir pu vous être agréable en
+              cette circonstance et vous prie d'agréer, monsieur le Secrétaire Général, l'assu7ance
+              de mes sentiments dévoués. "</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">NOS PENSIONS et la déclaration de
+              l'impôt sur le revenu</head>
+            <p>Par la voie de notre Bulletin et par circulaire, nous avons attiré l'attention de nos
+              camarades sur les divers décrets-lois nous intéressant tout particulièrement. L'un
+              d'eux prévoit que les pensions de guerre, qui jusqu'à présent se trouvaient exonérées
+              du calcul de l'impôt, y seront désormais soumises.</p>
+            <p>Bien qu'arbitraire et malgré certaines oppositions, cette mesure a été maintenue et
+              nous ne pouvons que nous y conformer. A la veille de l'établissement des déclarations
+              d'impôt qui doivent être remises aux services intéressés avant le 28 février, nous
+              avons cru nécessaire de vous donner quelques indications sur la manière d'établir
+              cette déclaration et plus particulièrement en ce qui concerne nos pensions.</p>
+            <p>Indiquons de suite que seul le montant de la pension principale perçu au cours de
+              l'année écoulée devra figurer dans cette déclaration. Entendons par pension principale
+              celle au taux de 1919, majorée de 100 ou 140% selon que le pensionné est titulaire ou
+              non de la carte du combattant, déduction faite bien entendu des retenues de 3 et 10%
+              par application des décrets d'avril 1934 et juillet 1935. Devront également figurer
+              les suppléments pour enfants, traitements, légion d'honneur, médaille militaire et
+              retraite du combattant.</p>
+            <p>Afin de faciliter l'établissement de la déclaration, nous vous donnons, ci-dessus,
+              quelques indications:</p>
+            <p>En première page, Paragraphe II, vous indiquerez votre degré d'invalidité suivi de la
+              mention : Article 10 ou articles 10 et 12.</p>
+            <p>Au Paragraphe IV, chapitre 7, vous aurez à porter la somme globale représentée par:
+              votre pension principale, traitements, médaille militaire, légion d'honneur, retraite
+              du combattant, pensions mixtes ou d'autre nature, après déduction toutefois des
+              retenues effectuées en vertu des décrets-lois des 4 avril 1934 et 17 juillet 1935.</p>
+            <p>Le Paragraphe V (Intérêts, dettes contractées, etc...) ne concerne pas les
+              remboursements des prêts consentis par l'Union ou Sociétés similaires.</p>
+            <p>Si vous versez à une Caisse de Mutuelle Retraite aux Anciens <pb n="10"/>
+              <note type="foliation">— 8 —</note> Combattants, vous porterez le montant de vos
+              cotisations de l'année écoulée au Paragraphe VI.</p>
+            <p>Nous vous rappelons que vos revenus déclarés ne sont pas obligatoirement frappés par
+              l'impôt, les abattements suivants étant prévus:</p>
+            <p>Pour être imposés, il faut : à un célibataire: 10.000 francs au moins de revenus, à
+              un ménage : 15.000 francs, à un ménage avec enfant en-dessous de 21 ans : 5.000 francs
+              en plus pour chacun des deux premiers, 8.000 francs pour le troisième, 9.000 francs
+              pour le quatrième, 10.000 fr. pour le cinquième.</p>
+            <p>Des renseignements complémentaires pourront vous être fournis par: le Contrôleur des
+              Contributions Directes, ou par le siège de notre Union. D'ailleurs, de nouvelles
+              formules quelque peu différentes seront probablement mises en circulation. Si
+              celles-ci nécessitent un complément d'informations, nous le ferions par la voix de
+              notre prochain Bulletin.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">NOTRE MAISON</head>
+            <p>Dans notre Bulletin de novembre nous vous disions notre espoir de pouvoir vous
+              annoncer pour le début de l'année l'achèvement de notre Maison.</p>
+            <p>Après les engagements pris par l'architecte, une reprise très active des travaux eut
+              lieu, mais par suite des gelées de décembre certains corps de métier durent
+              interrompre leurs travaux, ce qui à nouveau amena quelque retard. Sur les instances de
+              la Commission l'architecte a pris de nouveaux engagements qui, souhaitons-le, seront
+              tenus. Tout d'ailleurs a été mis en œuvre pour faciliter l'achèvement des travaux de
+              finition. C'est ainsi que nous avons profité des essais des appareils de chauffage
+              pour entretenir dans notre Maison une température qui permette aux peintres de
+              terminer.</p>
+            <p>Au cours de sa dernière réunion, la Commission de la Maison a traité de la décoration
+              du rez-de-chaussée et, toujours soucieux des intérêts de l'Union, nous espérons, grâce
+              à l'intervention de notre <pb n="11"/>
+              <note type="foliation">— 9 —</note> Président auprès des Pouvoirs Publics, obtenir une
+              décoration riche dans des conditions tout à fait exceptionnelles.</p>
+            <p>L'ameublement de notre Maison qui doit être sobre, pratique et de bon goût, est
+              maintenant commandé; toutes dispositions ont été prises pour que l'installation soit
+              effectuée dès l'achèvement complet de la construction.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Candidats au Conseil
+              d'Administration</head>
+            <p>Notre Conseil d'Administration n'a pas encore décidé de la date à laquelle se tiendra
+              notre Assemblée Générale; ce sera certainement plus tard que les années précédentes,
+              notre Assemblée Générale dernière ayant exprimé le vœu de se réunir vers la fin mai :
+                1<hi rend="superscript">°</hi> à cause de la saison; 2<hi rend="superscript">°</hi>
+              à cause des élections. Cependant, nous demandons dès à présent à nos camarades
+              désireux de poser leur candidature au renouvellement du tiers du Conseil
+              d'Administration sortant, de nous faire parvenir leurs noms, accompagnés pour ceux qui
+              ne l'ont pas encore fait, de la copie certifiée conforme de leur carte du combattant
+              (couleur jaune).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Renouvellement des Cartes de
+              circulation sur les transports en commun de la Région parisienne</head>
+            <p>Nous rappelons comme chaque année à pareille époque que les porteurs de cartes de
+              priorité leur permettant de circuler sur les transports en commun de la Région
+              Parisienne ont à faire renouveler leur titre de circulation.</p>
+            <p>L'échange des cartes est effectué par les services de la Préfecture de Police du 6
+              janvier au 14 février.</p>
+            <p>Pour bénéficier de ce renouvellement, les pièces suivantes sont nécessaires: 1<hi
+                rend="superscript">°</hi> la carte de 1935, 2<hi rend="superscript">°</hi> une
+              photographie format identité, 3<hi rend="superscript">°</hi> le titre de pension, 4<hi
+                rend="superscript">°</hi> un certificat de domicile ou la dernière quittance de
+              loyer.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">Renouvellement des Cartes de
+              chemins de fer</head>
+            <p>Il est rappelé que le renouvellement des cartes d'invalidité permettant aux
+              pensionnés de guerre de bénéficier de réductions sur les tarifs des grands réseaux de
+              chemins de fer français, doit être effectué au cours de l'année 1936.</p>
+            <p>Les titulaires doivent formuler leur demande à la mairie de leur domicile, produire
+              une photographie d'identité, de tirage récent ( 3 cm . sur 4 cm .) et présenter, pour
+              justifier leur qualité de pensionné et permettre de déterminer leur pourcentage
+              d'indemnité, une des pièces indiquées ci-dessous, dans l'ordre de préférence établi
+              par les instructions en vigueur. 1<hi rend="superscript">°</hi> Carnet de pension ou
+              certificat d'inscription au Grand Livre de la Dette publique; 2<hi rend="superscript"
+                >°</hi> Titre d'allocation provisoire d'attente en cours de paiement ou dernière
+              modification de l'arrêté ministériel portant concession d'une pension dont la période
+              de validité n'est pas expirée.</p>
+            <p>Aucune demande ne sera acceptée directement aux services du Comité, tous les dossiers
+              devant être établis et transmis par les soins de la mairie du domicile et être
+              paraphés par le maire.</p>
+            <p>La demande doit, dans tous les cas, être formulée au moins deux mois avant la date
+              d'expiration de la période de validité mentionnée sur la carte actuelle.</p>
+            <p>Ce délai est strictement nécessaire aux services du Comité pour effectuer les
+              différentes opérations du renouvellement, lequel portant sur un nombre très important
+              de titres, occasionne un surcroît de besogne considérable au Comité.</p>
+            <p>Le demandeur ne doit, en aucun cas, joindre la carte dont il est actuellement
+              détenteur à sa demande de renouvellement, il ne rendra cette pièce aux services de la
+              mairie, que lorsque la nouvelle carte lui sera remise. A cet effet il se présentera
+              sans convocation à la mairie à la date d'expiration de ce titre.</p>
+            <p>En aucun cas, les nouvelles cartes ne seront remises directement par les services du
+              Comité.</p>
+            <p>Le Comité Départemental de la Seine fait savoir aux camarades du département qu'il
+              est inutile de se présenter rue des Minimes où leur visite ne peut avoir comme
+              conséquence que de compliquer et aggraver la tâche des services et retarder
+              l'exécution du travail.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LÉGION D'HONNEUR</head>
+            <p>Au Journal Officiel du 12 décembre 1935, publiant le décret du 29 novembre 1935, sont
+              promus :</p>
+            <p>Au grade d'Officier : Chusseau (Clément-Edouard-Arthur), ancien soldat du 88<hi
+                rend="superscript">°</hi> Rég. d'Infanterie. Grangier (Claudius), ancien soldat du
+                133<hi rend="superscript">°</hi> Rég. d'Infanterie. Tarte (Georges-Louis), ancien
+              Maréchal des Logis du 11<hi rend="superscript">°</hi> Rég. de Cuirassiers.</p>
+            <p>Au grade de Chevalier : (pour prendre rang du 19 février 1935) BOYER
+              (Joseph-Casimir-Toussaint), ancien soldat du 58<hi rend="superscript">°</hi> Rég.
+              d'Infanterie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">Dans la Presse Combattante
+              Allemande</head>
+            <p>Le numéro de septembre dernier de la revue publiée à Berlin et intitulée "Emploi des
+              victimes de la guerre ", contient de nombreux articles, des nouvelles pouvant
+              intéresser les Associations allemandes de combattants. Le service de cette revue nous
+              étant fait nous en extrayons ce qui peut présenter quelque intérêt pour nos camarades,
+              ce qui peut leur faire pénétrer la mentalité des Anciens Combattants allemands.</p>
+            <p>Du casque ordinaire au casque d'acier. - A Saint-Quentin, il y a 20 ans, environ un
+              an après le début de la guerre mondiale, à la fin d'une journée très chaude, les
+              voitures chargées de blessés et cahotées en tous sens passent dans les rues se
+              dirigeant vers l'hôpital. Là les médecins accomplissent en silence leur pénible
+              devoir. Le médecin général de la marine Auguste Bier, chirurgien conseil du 18<hi
+                rend="superscript">°</hi> Corps, est placé devant un cas compliqué d'opération à la
+              tête, un petit éclat de grenade a pénétré dans le cerveau. Il lui faut extraire cet
+              éclat à l'aide d'un aimant imaginé par le capitaine d'état-major d'artillerie F.
+              Schwerd, dans le civil professeur à l'Ecole supérieure technique <pb n="14"/>
+              <note type="foliation">— 12 —</note> de Hanovre. Ce dernier a constaté que 80% des
+              blessures à la tête sont dues à de très petits éclats ayant une grande puissance de
+              pénétration et produisant d'effroyables blessures. En fin de journée, les deux hommes
+              quittèrent l'hôpital sous le coup de l'émotion ressentie en cette pénible journée, ils
+              étaient silencieux. Le professeur Schwerd rompit le silence pour constater que
+              l'Administration de la guerre n'avait rien fait pour protéger les troupes grâce à un
+              casque d'acier. Le professeur Bier demanda alors la protection du visage, surtout des
+              yeux, d'une part jusqu'au bout du nez, d'autre part jusqu'au bas du cou. Schwerd
+              proposa alors un casque composé de chrome, de nickel et d'acier, se préoccupant en
+              même temps de la forme et de la production par grosses quantités du nouveau casque.
+              Convaincu par cet exposé, Bier avisa le Ministère de la Guerre; le chef de
+              l'équipement convoqua Schwerd télégraphiquement à Berlin, il le reçut et, convaincu de
+              l'importance de sa communication, lui donna pleins pouvoirs pour l'exécution du
+              travail. En moins de trois mois, le matériel nécessaire à la fabrication est prêt et
+              400 casques sont fournis à l'Administration de la guerre en vue des essais. Ces essais
+              furent concluants, les casques protégaient efficacement contre les éclats, aussi la
+              Commission décida-t-elle même que ce casque pourrait servir non seulement pendant les
+              combats, mais en toutes occasions. Le Ministère de la Guerre commanda d'abord 30.000
+              casques qui furent livrés au front en 1916 et rendirent les plus grands services aux
+              troupes d'assaut amenées devant Verdun.</p>
+            <p>L'expérience des années suivantes de la guerre a démontré que le casque allemand qui
+              a été de beaucoup le meilleur des différentes coiffures employées a sauvé la vie à
+              beaucoup d'entre eux.</p>
+            <pb n="15"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Caisse Fraternelle</head>
+              <p>Notre Caisse Fraternelle a distribué entre le 1<hi rend="superscript">er</hi> et le
+                31 décembre 1935 une somme de 32.500 fr ., se répartissant comme suit :</p>
+              <p>Allocations naissances ........Fr. 1.800 Allocations décès et palmes. ..... 15.300
+                Allocation caisse-maladie ......... 15.400 Il y a lieu d'ajouter à ces 32.500 fr ,
+                une somme de 22.600 fr . pour prêts maisons familiales et pour prêts
+                exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 27 demandes dont 3 n'ont donné
+                lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">ENTRE-NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Naissances</head>
+                <p>Notre camarade et Mme GÉdin-Donat, de Trinité (Martinique) nous font part de la
+                  naissance de leur cinquième enfant, Victoire, né le 11 novembre 1935.</p>
+                <p>Notre camarade et Mme Poubane, de Rennes (I.-et-V.), nous font part de la
+                  naissance de leur cinquième enfant, Suzanne, né le 25 novembre 1935.</p>
+                <p>Notre camarade et Mme Declerce, de Watrelos (Nord), nous font part de la
+                  naissance de leur fille Marie, née le 6 décembre 1935.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Mariages</head>
+                <p>Notre camarade Van Luggene, de Tourcoing (Nord), nous fait part du mariage de ses
+                  deux filles Solange et Simone, célébré le 2 septembre 1935.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Décès</head>
+                <p>Nous apprenons le décès de : Notre camarade Hauptmann Valentin, de Hochfelden
+                  (BasRhin), décédé le 17 décembre 1935 à l'âge de 67 ans.</p>
+                <p>Né le 20 août 1869 à Melsheim, notre camarade fut mobilisé dans l'armée
+                  allemande.</p>
+                <p>Réformé le 2 février 1917 pour cécité complète, il laisse une veuve et trois
+                  enfants.</p>
+                <p>Notre camarade Raison Arsène de la Beaumerie, Chevaigné du Maine (Mayenne),
+                  décédé le 23 décembre 1935, à l'âge de 61 ans.</p>
+                <p>Né le 22 septembre 1874, à Chevaigné du Maine (Mayenne), Raison était soldat au
+                  117 Rég. d'Infanterie. Blessé le 22 septembre 1915 à Marquise par éclat d'obus,
+                  réformé à 110% art. 10 et 12 pour cécité et blessures multiples, Chevalier de la
+                  Légion d'Honneur et titulaire de la Médaille Militaire, il laisse un fils.</p>
+                <p>De la femme de notre camarade Boyenval, de Chilly (Somme), décédée le 1<hi
+                    rend="superscript">er</hi> décembre dans sa 46<hi rend="superscript">e</hi>
+                  année.</p>
+                <p>De la belle-mère de notre camarade Lallemant, de Thénissey (Côte-d'Or), décédée à
+                  l'âge de 75 ans.</p>
+                <p>De la grand'mère de notre camarade Petitdidier, de Lyon (Rhône), décédée à l'âge
+                  de 100 ans.</p>
+                <p>Du beau-père de notre camarade Louis Prault, de Châtillon (Indre), décédé à l'âge
+                  de 73 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Cotisations
+                Volontaires</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                ont tenu à effectuer un nouveau versement: Toutain L. 10 fr., - Peltier 10 fr., -
+                Bernard A. 15 fr., - Ballu 10 fr., - Laurent A., 10 fr., - Abderrahmann 20 fr., -
+                Chaudron 20 fr., - Boudra 10 fr., - Le Viavant 6 fr., - Souchard 10 fr., - Chanial
+                10 fr., - Le Poul' 10 fr., - Belliot 5 fr., Malinge 10 fr ., - Cholau 10 fr ., - Le
+                Dain 10 fr ., - Leroy A. 10 fr ., - Gambert 20 fr ., - Vochel 10 fr ., - Ferrer 5 fr
+                ., Henaff 5 fr., Bourbon 5 fr., - Adam E. 5 fr., - Bouchet G. 5 fr., - Boche 5 fr.,
+                - Leroy H. 5 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Cotisations pour l'Année
+                1936</head>
+              <p>Bobon, Montfort, Lerousseau, Médard, Eckert, Favier C., Mézières, Maille, Donadieu,
+                Vin, Malinge, Occis, Duché, Warin, Devienne, Mariet, Barlet, Rascle, Noël H., Cohen,
+                Pottier, Bourdon, Epstein, Arnould E., Cholau, Gallet-Vast, Houot, Petit A., Leroy
+                A., Laügt, Gourdin, Palmaro, Rouxel, Souchard, Hadot, Viault, Crouzilhac, Fayolle,
+                Fouasse, Colombat, Delplanque, Notelet, Fabre J., Mandet, Becker, Lombard, Podevin
+                F., Lefebvre J., Deguerville, Dupic, Rost, Levasseur, Dehner, Debooserie, Gilles R.,
+                Fauque, Raynal, Nicolle, Chanial, Garcelon, Barrat, Lambert L., Chatillon, Le Poul,
+                Fresnay, Belliot, Poirier, Bouillard, Jahan, Momboeuf, Adam, Goubin, Terras,
+                Capitaine, Degoutte, Pagenel, Gauthier R., Henry, Beauval, Bardonnet, Chambert,
+                Germa, Jeames, Vochel, Tilly, Heuzé Honoré, Kolb, Le Viavant, Héron, Berruel, Tarte,
+                Bourdieu, Gailly, Legris, Vidry, Ferrer, Boé, Serre, André A., Henaff, Bourbon, Adam
+                E., Honoré, Guitteny, Gardette, Le Hétet, Fourrer, Poussard, Hennebicq, Gentilhomme,
+                Sarret, Labat, Vachon C., Coat, Robilliard, Authié, Glorieux, Alloi, Delforge,
+                Cochereau, Marsal, Marchand P., Ferezou, Guillard A., Castrec, Granet, Lopital,
+                Delfosse, Le Borgne J., Masson J.-B., Despinardes, Lemaitre, Freixes, Hereng,
+                Bouchet G., Cariou, Harter, Monnin, Richou, Toutain L., Jung, Monribot, Delaunay S.,
+                Guit- <pb n="18"/>
+                <note type="foliation">— 16 —</note> ton, Loizeau A., Nadal, Bàstide, Griziaux,
+                Chapouillié, Sourissaud, Leblanc A., Meyer J., Detoc, Molinier A., Bardou, de Budt,
+                Gautier A., Garrec, Douale, Arnoux F., Coignoux, Pannetrat, Bartier, Casdagne,
+                Nicaud, Delorme, Berton R., Fraisse, Mazaudier, Doguet, Beucher, Poirson, Franc,
+                Corazza, Harrivelle, Bouzit, Lassalle, Gesta, Peltier.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Procès-verbal de la réunion
+                de la Régionale de Bordeaux le 8 décembre 1935</head>
+              <p>Le Bureau s'est réuni le 8 décembre 1935 sous la présidence du camarade Brusson. Un
+                déjeuner familial a précédé la réunion.</p>
+              <p>Etaient présents: Brusson, président; Almey, vice-président; Laügt, secrétaire;
+                Lanuc, Michou et Tauzia, membres du Bureau ainsi que les camarades Gouny, Magat et
+                Marc.</p>
+              <p>L'ordre du jour a porté sur les questions ci-après : 1<hi rend="superscript">e</hi>
+                Situation financière de la Section: M. Sédart, trésorier, s'est excusé par lettre de
+                ne pouvoir assister à la réunion. Ci-après son compte rendu financier: <list>
+                  <item>Solde en caisse en 1934 — Fr. 1.67425</item>
+                  <item>Dépenses :</item>
+                  <item>Une palme 1934 — 60 "</item>
+                  <item>Facture banquet 1935 — 1.133 "</item>
+                  <item>Envoi de convocations — 25151.21815</item>
+                  <item>Reste en caisse au 8 décembre 1935 — Fr. 45610</item>
+                </list> sur lesquels il y aura lieu de déduire les frais de réunion du Bureau et du
+                Secrétariat, soit 60 fr .</p>
+              <p>Le compte rendu financier est approuvé et le Bureau enregistre avec reconnaissance
+                l'offre généreuse de notre trésorier de donner prochámément dans un cinéma une
+                représentation au bénéfice de notre Section.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>2<hi rend="superscript">°</hi> Le camarade Brusson rend compte de la marche des
+                travaux de la Maison de l'U.A. G. Il donne des explications sur le fonctionnement
+                futur de notre Maison.</p>
+              <p>Le camarade Brusson fait part aussi des pourparlers et des démarches en cours
+                tendant à faire bénéficier du statut des grands invalides les camarades
+                momentanément exclus.</p>
+              <p>Ensuite à l'unanimité, le Bureau décide de fixer au 29 mars 1936 l'Assemblée
+                annuelle de la Section. En temps utile une convocation ultérieure fera connaître aux
+                membres de la Section, l'heure et le lieu de ladite Assemblée qui sera précédée d'un
+                grand banquet comme les années précédentes.</p>
+              <p>Le Secrétaire de la Section, LaUgt.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Départementale des
+                Bouches-du-Rhône</head>
+              <p>Les camarades de la Section des Bouches-du-Rhône sont avisés que la réunion de
+                l'Assemblée annuelle de la Départementale, se tiendra le dimanche 22 mars prochain,
+                à 9 h .30 , à la Maison de la Mutualité, rue François-Moissón, à Marseille. Un avis
+                sera adressé ultérieurement aux camarades donnant toutes précisions.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Régionale du Nord
+                AVIS</head>
+              <p>Les camarades sont informés que l'Assemblée générale du Groupement a été fixée au
+                dimanche 15 mars, salle du Conservatoire de Musique de Lille.</p>
+              <p>Un second avis qui paraîtra sur le Bulletin de février donnera toutes précisions
+                utiles à ce sujet.</p>
+              <p>Le Secrétaire, Léon MURET.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">AVIS DIVERS</head>
+              <p>A vendre : Piano Pleyel, acajou verni, état neuf, prix : 3.000 francs. S'adresser
+                au camarade Hervoir, 76, boulevard de Reuilly, Paris (12)</p>
+              <p>Aux amateurs de champagne, notre camarade Malgat propose un champagne excellent,
+                cuvée réservée, délimitation 1908, provenance directe du propriétaire récoltant, à 9
+                francs la bouteille franco domicile de port et d'emballage, pour Paris et banlieue
+                et à 10 francs la bouteille pour la province. Ces prix s'entendent par caisse de 25
+                bouteilles.</p>
+              <p>S'adresser directement à M. Malgat, 28 bis, rue du Chemin-deFer, Villemomble
+                (Seine).</p>
+              <p>Appareils et lampes de T.S.F. Philips, remise importante aux membres de
+                l'Union.</p>
+              <p>S'adreser au camarade Hennebicq, 4, rue Paul-Escudier, Paris (9'). Téléphone:
+                Pigalle 67-28.</p>
+              <p>Mme Barbero nous informe qu'elle prendrait en pension un aveugle de guerre auquel
+                elle donnerait ses soins. (Vie de famille, bon air, jardin plein soleil, salle de
+                bains, chambre chauffée). Pour tous renseignements complémentaires, s'adresser à Mme
+                Barbero, Villa "Les Bluettes ", avenue Notre-Dame-des-Anges, Le Cannei (A.-M.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Dons avec affectation
+                spéciale pour la Maison des Aveugles de Guerre</head>
+              <p>Ville de Marle (Aisne) 45 fr., - Notre camarade Levasseur 400 fr., - Commune de
+                Saint-Rémy (Vosges) 10 fr., - Commune de Mauzé (Deux-Sèvres), 46 fr. 50, -
+                Département de la Vendée 950 fr.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Liste des Donateurs</head>
+              <p>Mme Théron, Château-Thierry (Aisne) 25 fr., - Mme Ferrant, Saint-Vunimer (Yonne) 10
+                fr., - "Une bourguignonne" 25 fr., Mme Teilh, Loudun (Vienne), 20 fr., - Mme
+                Condamin, Nice 6 fr., - M. E. Lecomte, Marly-la-Ville (S.-et-O.) 500 fr., - M.
+                Gerald Dobède, Bournemouth (Angleterre), 747 fr. - M. Costedoat, Alger 20 fr., - Mme
+                Vve J. Schott, Hurtigheim (Bas-Rhin) 100 fr., - Cie d'Assurances "La Nationale-Vie"
+                500 fr., - Cie d'Assurances "La Nationale-Incendie" 500 fr., - Mme Harlé, Paris
+                (avec affectation Maisons de Repos) 200 fr., - Protection et bonne santé de notre
+                famille 300 fr., - M. Chabaud, Dellys (Algérie) 20 fr., - Mme et M. Wallut,
+                Bruyères-le-Châtel (S.-et-O.) 5.000 fr., - Mme Lebossé, Ste-Adresse (Seine-Inf.) 25
+                fr., Mlles Flandin, Marseille 25 fr., - Mme Romezin, Valence (Drôme) 30 fr., - M.
+                Roland Gosselin, Paris 200 fr., - Mme Cornud Peschier, Vallon (Ardèche) 200 fr., -
+                M. Lafargue, Beyrouth (Liban) 200 fr., - M. Gobrecht, Clichy (Seine), 20 fr., - Mme
+                B. Matton, Neuilly-sur-Seine 200 fr., - M. Bimbenet, Saint-Mandé (Seine) 50 fr., -
+                Mme Sens, Marseille 100 fr.; - Mlle Liard, Malesherbes (Loiret) 15 fr., M.
+                Blanchard, Paris 10 fr., - Mme Delanne, Remaucourt (Ardennes) 20 fr., - M. Buttolo,
+                Paris 50 fr., - Mlle E. Dobède, Bournemouth (Angleterre) 148 fr., - Mlle Gibert,
+                Claye-Souilly (S.-et-M.) 50 fr., - Divers 209 fr. 60.</p>
+            </div>
+          </div>
+          <fw>IMPRIMERIE DUBOIS &amp; BAUER 34, RUE LAFFITTE PARIS (IX•) - - 1936 - - Le Gérant :
+            DECOÈNE</fw>
+          <pb n="22"/>
+          <pb n="23"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; Vice-Présidents: Leveau, Muller, Noireaux. Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evêque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Cérs-Labourdette, Conan, Courteix, Debunder, Evrat, Fayret, Fauvel,
+              Grillet, Guillam, Izaac, Lapfargue, Lagarde, Lauté, Maloat, Nicolai, Robert (Maurice),
+              Roy (Georges), Sator.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">COMITÉ D'ACTION</head>
+            <p>M. le baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Mme Contamin, Vice-Présidente; M. le colonel
+              de Traversay, Vice-président; M. Oscar Bloch, Secrétaire; M. Auterbe, Sous-Directeur à
+              la Compagnie « L'Union »; Mme du Bos; Mme Broquin; M. Marcel Bloch; M. le marquis de
+              Chaumont-Quirry; M. Cueffer; M. Pierre Chénot; Mme Chevalier; Mme Francis de Croisset.
+              Mlle Jalaguier; Mlle d'Herbemont; Mme Henri; Mme Kalt; Mme L'Evêque; Mme Lévy-Weir; M.
+              Mayer; Mme Meyer; Mme Mus; M. Pascas</p>
+            <pb n="24"/>
+          </div>
+          <fw>Imp. Dubois et Bauer, 34, r. Lafitte. - 1936.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

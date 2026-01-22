@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 29ème année 1949 n°25</title>
+        <author>UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Sécurité sociale</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Revendications</title>
+        <title type="topic">Légion d'Honneur</title>
+        <title type="topic">Vie associative</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 8 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#cotisations">Cotisations</term>
+          <term ref="#reunions">Réunions</term>
+          <term ref="#manifestation">Manifestation</term>
+          <term ref="#comite-dentente">Comité d'Entente</term>
+          <term ref="#algerie">Algérie</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) daté de juin 1949, informe
+          ses membres sur diverses activités et décisions. Il comprend un appel à manifester à Paris
+          le 26 juin pour l'amélioration des conditions des anciens combattants. Le bulletin
+          détaille également les activités de l'organisation, les réunions des sections de
+          Saône-et-Loire et de Lorraine, les discussions du Comité d'Entente des Grands Invalides
+          concernant les pensions et les revendications, ainsi que des informations sur les
+          naissances, mariages, décès, petites annonces et cotisations des membres. Des informations
+          sur la Légion d'Honneur sont également incluses.</p>
+      </abstract>
+      <creation>
+        <date when="1949-06-01">01/06/1949</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">A PARIS, LE 26 JUIN!</ref>
+          </item>
+          <item>
+            <ref target="#h4">DANS LA MAISON</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITE D'ENTENTE DES GRANDS INVALIDES Réunion du 18 mai 1949</ref>
+          </item>
+          <item>
+            <ref target="#h6">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h7">SECTION DE SAONE-ET-LOIRE Réunion du 24 avril 1949</ref>
+              </item>
+              <item>
+                <ref target="#h8">SECTION DE LORRAINE Réunion du 15 mai 1949</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h9">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h10">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h11">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h12">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h13">PETITS AVIS</ref>
+          </item>
+          <item>
+            <ref target="#h14">MAI 1949</ref>
+            <list>
+              <item>
+                <ref target="#h15">COTISATIONS ORDINAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h16">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h17">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h18">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h19">COTISATIONS CAISSE PREVOYANCE</ref>
+              </item>
+            </list>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">29e Année. — N° 25</fw>
+          <fw type="header">
+            <hi rend="underline">JUIN 1949</hi>
+          </fw>
+          <div type="section">
+            <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de <lb/>L'UNION
+              DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril
+              1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+            <fw rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 49, RUE BLANCHE,
+              PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque postal
+              160-31</fw>
+            <div type="section">
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                <list>
+                  <item>A Paris le 26 juin.</item>
+                  <item>Dans la maison. </item>
+                  <item>Comité d'entente des grands invalides. </item>
+                  <item>Dans nos sections.</item>
+                  <item>Légion d'Honneur. </item>
+                  <item>Naissances. </item>
+                  <item>Mariages. </item>
+                  <item>Décès.</item>
+                  <item>Petits avis.</item>
+                  <item>Cotisations.</item>
+                </list>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">A PARIS, LE 26 JUIN!</head>
+            <p>En plein accord avec I'U.F.A.C., nous demandons à tous nos camarades de venir à Paris
+              le 26 juin, pour manifester contre le retard apporté à l'application des mesures dont,
+              en toute justice, doivent bénéficier l'ensemble des anciens combattants, y compris les
+              Aveugles de guerre, bien entendu, et aussi les veuves et les orphelins.</p>
+            <p>Nous savons bien que beaucoup d'entre vous ne pourront pas venir à leurs frais,
+              surtout quand ils habitent loin de Paris. Nous comptons cependant que, en dehors de la
+              région parisienne, beaucoup de membres de l'U.A.G. viendront, s'ils sont dans la
+              possibilité de le faire.</p>
+            <p>RENDEZ-VOUS à 14 \mathrm{~h}, 15 place de l'Opéra, porteur de vos décorations. Fin
+              probable de la manifestation vers 18 heures.</p>
+            <p>Les chambres de I'U.A.G. seront retenues dans l'ordre des demandes et seront
+              certainement insuffisantes. Indiquez également si vous prendrez des repas les 25 ou 26
+              juin.</p>
+            <p>Il a été recommandé dans d'autres groupes d'anciens combattants que chacun prenne une
+              musette garnie pour éviter les frais onéreux de restaurant. H. I.</p>
+            <pb n="2"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">DANS LA MAISON</head>
+            <p>Nous informons nos camarades que la maison restera ouverte pendant tout le mois
+              d'août pour ceux d'entre nous qui désireront une chambre.</p>
+            <p>Le restaurant sera fermé du 1<hi rend="superscript">er</hi> au 15 août et
+              contrairement aux années précédentes, reprendra ses services à partir du 16 . Nous
+              espérons que cette innovation rendra service et fera plaisir aux usagers.</p>
+            <p>Nous demandons instamment aux camarades qui désirent retenir une chambre de bien
+              vouloir, autant que possible, en indiquant le jour d'arrivée, spécifier la durée de
+              leur séjour, ceci permettrait de procéder à une plus utile répartition des chambres
+              vacantes.</p>
+            <p>En cette époque de Foire de Paris, à la veille des fêtes de Pentecôte, notre maison
+              est trop petite pour recevoir les camarades de passage ; il aurait été utile de
+              connaître la durée de séjour des passagers, ce qui nous aurait permis de faire
+              profiter à plein des chambres dont nous pouvons disposer. H. A.</p>
+            <p>Pendant le mois d'août, nous demanderons à nos camarades de n'adresser que la
+              correspondance présentant un caractère d'urgence.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITE D'ENTENTE DES GRANDS
+              INVALIDES Réunion du 18 mai 1949</head>
+            <p>Présidence : Bouré. Présents : Bouré, Delporte, Gauriault, Izaac, Jugon, Nouveau,
+              Poul, Régnier, Saulnier.</p>
+            <p>Auditeur : Mariani. Devant l'intention du Gouvernement d'augmenter d'une façon très
+              sensible le prix de l'essence, le C.E. décide d'intervenir de toute urgence auprès du
+              Président du Conseil, du Ministre des Finances, du Ministre des A. C., du Président de
+              la Commission des Pensions et des parlementaires, pour que soit maintenu au prix
+              actuel le contingent d'essence dont bénéficient chaque mois les grands invalides de
+              guerre, titulaires d'une carte d'invalidité avec mention "station debout pénible
+              ".</p>
+            <p>Le C.E. compare les résultats de l'enquête effectuée auprès de chacune des
+              associations au sujet du nombre éventuel d'invalides non salariés appelés à bénéficier
+              de la Sécurité sociale. Le pourcentage, qui atteint 80% des aveugles, 50% des plus
+              grands invalides et 24% des trépanés, tombe à 10% environ, lorsqu'il s'agit des
+              gueules cassées, des amputés ou des blessés multiples.</p>
+            <p>Ces résultats ont été communiqués aussitôt aux ministères intéressés.</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+            <p>Izaac, parlant des revendications en cours, insiste particuflèrement pour que soit
+              poussée la demande de revalorisation des pensions de veuves et particulièrement de
+              celles des bénéficiaires de l'article ro.</p>
+            <p>Il demande également que le Comité d'Entente prévoie une étude spéciale des
+              revendications propres aux bénéficiaires d'article ro:</p>
+            <p>Le C.E. est d'accord pour que : 1<hi rend="superscript">°</hi> Les revendications
+              d'ordre général soient présentées pour tous les grands invalides pensionnés à 85%
+              minimum ou bénéficiaires du statut G. M. ou G. I. ; 2<hi rend="superscript">°</hi> En
+              cas d'impossibilité absolue d'obtenir pour tous les mutilés à 85% et au-dessus les
+              avantages réclamés, il soit insisté plus particulièrement en faveur des plus atteints,
+              et notamment les bénéficiaires d'article ro ou d'article 12 .</p>
+            <p>Bien entendu, cette position de repli ne sera envisagée que de façon tout à fait
+              exceptionnelle.</p>
+            <p>Le C.E. décide de présenter au Ministre des A. C. et V. G. des propositions concrètes
+              tendant à apporter certaines modifications indispensables au guide-barème des
+              invalidités.</p>
+            <p>Il sera demandé qu'une commission spéciale soit constituée au Ministère des A. C.
+              pour étudier ces propositions. M. Mariani, président du Comité d'Entente des Grands
+              Invalides de l'Afrique du Nord, expose les difficultés qui existent en Algérie du fait
+              du maintien de la seule et unique association créée pendant la dernière guerre.</p>
+            <p>Les grands invalides d'Algérie désirent pouvoir créer des associations distinctes
+              comme cela existe dans la métropole.</p>
+            <p>Mariani prie le C.E. de voter une motion demandant au Gouvernement l'abrogation de
+              l'ordonnance du 2 septembre 1943 et l'application en Algérie des mêmes règles que dans
+              la métropole, c'est-à-dire de permettre la constitution d'associations d'A. C. et de
+              V. G. ayant la possibilité d'adhérer à l'Union Française des A. C. et V. G.
+              (U.F.A.C.).</p>
+            <p>Le Comité d'Entente est d'accord. Mariani demande que les interventions antérieures
+              soient renouvelées en vue d'obtenir la remise en vigueur de la mesure, existant avant
+              1939 qui accordait aux grands invalides une réduction de 50% du prix des places dans
+              les avions.</p>
+            <p>Mariani, au nom des grands invalides de l'Afrique du Nord lit une motion adressant
+              des remerciements aux membres du Comité d'Entente de Paris pour leur action énergique
+              et constante en faveur des grands mutilés.</p>
+            <p>Un échange de vues a lieu ensuite entre Mariani et les membres du C.E. au sujet d'un
+              éventuel congrès des associations de grands invalides, au Maroc, en 1950.</p>
+            <p>Ce projet sera étudié de façon plus approfondie par les militants d'Algérie et du
+              Maroc et le C.E. reprendra ultérieurement la question.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">SECTION DE SAONE-ET-LOIRE
+                Réunion du 24 avril 1949</head>
+              <p>La séance est ouverte à ro h. 45 . Treize camarades sont présents : Angoyat,
+                Baudin, Brusson, Champagnon, Chanut, Gauthier A., Giloux P., Gresset, Passerat,
+                Philippe Louis, Terrier Henri, Virot.</p>
+              <p>Excusés : Barday, Buy, Champey, Chifflot, David E., Dufour Louis, Fournier,
+                Guillemin Gaston, Jeannin, Laffay A., Millet, Moley, Royer et Viron.</p>
+              <p>Absents : Guillemin Marcel, Mathey Adolphe et Prudent. Assiste également à la
+                séance le camarade Aubert, secrétaire général de l'Office Départemental des Mutilés
+                de Saône-et-Loire.</p>
+              <p>Le président Philippe salue et remercie les camarades présents, qu'il aurait voulu
+                voir plus nombreux. Il annence que depuis la dernière assemblée, la section a eu la
+                douleur de perdre deux de ses camarades Tramoy et Michon. Pour honorer la mémoire de
+                ces deux camarades, une minute de silence est observée.</p>
+              <p>Avant de donner la parole à notre trésorière, Mme Giloux, Philippe donne des
+                renseignements sur certaines rentrées de fonds : bénéfice sur la vente des
+                cälendriers effectuée par quelques camarades et par le président, et subventions
+                diverses. Après l'exposé de la trésorière, la section a en caisse la somme de 14.408
+                fr. et 7.500 fr. au compte du Crédit Lyonnais n<hi rend="superscript">°</hi> 15.401,
+                à la date du 24 avril 1949. Le président remercie Mme Giloux pour la bonne tenue des
+                comptes.</p>
+              <p>Philippe donne la parole à Brusson (administrateur de l'U.A.G.). Celui-ci parle des
+                pensions et de la Sécurité sociale. Ensuite Aubert indique ce que fut l'action de
+                l'Office Départemental des Mutilés de Saône-et-Loire. Plusieurs questions diverses
+                sont ensuite examinées.</p>
+              <p>Il est ensuite procédé au renouvellement du Bureau. Sont élus : Président :
+                Philippe. Secrétaire : Gauthier A. Trésorier : Giloux P. Assesscurs : Angoyat et
+                Chanut. Philippe remercie les camarades de l'avoir réélu président. A midi chacun se
+                dirige vers un copieux et excellent déjeuner. La bonne camaraderie et la gaité ne
+                cessent de régner pendant tout le repas. On se sépare avec regrets, avec l'espoir de
+                se retrouver plus nombreux l'année prochaine.</p>
+              <pb n="5"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">SECTION DE LORRAINE Réunion
+                du 15 mai 1949</head>
+              <p>La réunion annuelle de la section a eu lieu le 15 mai à la Chambre de Commerce de
+                Nancy, sous la présidence du camarade Amblard, secrétaire général de l'U.A.G.</p>
+              <p>Elaient présents : Adam Ernest, Briel Eugène, Buiza Joseph, Chapas Etienne, Erhard
+                Jean-Marie, Fehse François, Grosdidier Victor, Holveck Georges, Mlle Lafontaine,
+                Liote René, Malo Jean, Mathieu Paul, Mougin Adrien, Poirson Georges, Sabin Louis,
+                Videmont Auguste, Wetzel Emile.</p>
+              <p>Excusés : Buckel Georges, Gentel Marcel, Luc Camille, Mamphey Henri, Marçon Léon,
+                Noirjean Charles.</p>
+              <p>Absent : Bozellec Yves. Le président Liote ouvre la séance en souhaitant la
+                bienvenue au secrétaire Amblard et en remerciant tous les Aveugles d'être venus si
+                nombreux.</p>
+              <p>Le trésorier donne lecture du rapport moral et du rapport financier de l'année qui
+                ont été adoptés à l'unanimité.</p>
+              <p>Amblard prit ensuite la parole et fit un tour d'horizon sur toutes les questions
+                qui intéressent les camarades et notamment les pensions, pensions de veuves et la
+                Sécurité sociale. Il félicite cette nouvelle section pour sa vitalité et salue M.
+                Chepfer, qui se dévoue à ce nouveau groupement de l'Est, rappelle avec émotion la
+                mémoire de Georges Chepfer père, qui fut membre de notre Comité d'Action et grand
+                ami de l'U.A.G.</p>
+              <p>Le Comité remercia les généreux donateurs pour leurs dons, soit en nature, soit en
+                espèces, reçus à l'occasion du bal du 5 mars.</p>
+              <p>Le Comité fut réélu à l'unanimité sauf pour le camarade Videmont qui donna sa
+                démission et fut remplacé par Malo, de la guerre 39-45.</p>
+              <p>Le bureau est ainsi composé : Président : Lioté. Vice-président : Sabin. Secrétaire
+                : Poirson. Délégués : Adam, Malo. M. Chepfer est secrétaire adjoint, M. Leclerc,
+                trésorier.</p>
+              <p>Un appel est fait aux jeunes camarades aveugles de la dernière guerre pour venir
+                grossir les rangs de la section et en même temps défendre leurs intérêts.</p>
+              <p>Un déjeuner amical de 37 couverts clôtura cette belle manifestation.</p>
+              <pb n="6"/>
+              <note type="foliation">— 6 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LEGION D'HONNEUR</head>
+            <p>Nous apprenons la promotion au grade d'officier dans l'ordre de la Légion d'Honneur
+              de notre camarade Camillerapp (Xavier-François), 41, rue Thomas-Dubosc, à Rouen
+              (Seine-Inférieure), ainsi que la nomination au grade de chevalier de nos camarades
+              Bordeneuve (André-Léon), 66, avenue de Breteuil, à Paris, et Alessandri
+              (François-Martin), rue Borgo, à Porto-Vecchio (Corse).</p>
+            <p>Nous leur exprimons nos bien vives félicitations.</p>
+            <p>La veuve de notre camarade Elie Richard, qui était Aveugle de guerre et amputé d'une
+              jambe, vient de nous transmettre un document des plus intéressants, étude sérieuse sur
+              l'Office National des Anciens Combattants.</p>
+            <p>Cet ouvrage constitue d'ailleurs une thèse de doctorat en droit que le jeune Maurice,
+              l'un des fils d'Elie Richard, vient de passer très brillamment, puisqu'il a été reçu
+              avec la mention "Très bien ".</p>
+            <p>Nous félicitons très vivement le jeune docteur et aussi sa mère qui a su inculquer à
+              la famille de notre camarade les saines idées de travail et de dévouement à de nobles
+              causes. H. I.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">NAISSANCES</head>
+            <p>La fille Danielle-Marie, de notre camarade François Gabas (39-45), de Marignac
+              (Haute-Garonne), le ro mai 1949.</p>
+            <p>La fille Claire, de notre camarade Jacques Beaugé (39-45), de MaisonsLaffitte
+              (Seine-et-Oise), le 22 mai 1949.</p>
+            <p>Le fils Bernard, de notre camarade André Boin (39-45), de Bezons (Seine-et-Oise), le
+              26 mars 1949.</p>
+            <p>Le fils Michel, de notre camarade Pierre Olivier, de Bordeaux, le 3o mai 1949.</p>
+            <p>Les deux petits-fils de notre camarade Doudard, de Montertelot (Morbihan),
+              Jean-Pierre, le 3 août 1948, et Jean-Jacques, le 19 octobre 1948.</p>
+            <p>Nous adressons nos félicitations aux heureux parents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">MARIAGES</head>
+            <p>Notre camarade Emile Seynmiard, de' Reyrevignes-par-Assier (Lot), avec Mme
+              Jeanne-Marguerite Thomas, le 21 mai 1949, à Paris.</p>
+            <p>La fille Odette, de notre camarade Teilhet, de Saint-Bazile-de-la-Roche, avec M. Jean
+              Beauverie, le 25 septembre 1948.</p>
+            <p>Tous nos voux de bonheur aux nouveaux mariés.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">DECES</head>
+            <p>Notre camarade Pierre Guépin, de Rennes (Ille-et-Vilaine), le 8 mai 1949 .</p>
+            <p>Notre camarade Clément Caralp, de Carcassonne (Aude), le 3 mai 1949. La mère de notre
+              camarade Edmond Boyer, de Montreuil-sous-Bois (Seine), le 14 mai 1949.</p>
+            <p>La mère de notre camarade Justin Vernhes, du Pouget-de-Campuac (Aveyron), le 12 avril
+              1949.</p>
+            <p>La mère de notre camarade Léon Lenglare, de Douvrin (Pas-de-Calais), le 7 mai
+              1949.</p>
+            <p>Nous adressons nos sincères condoléances aux familles éprouvées.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">PETITS AVIS</head>
+            <p>Le camarade Roger Lambert, 5o, rue de Turenne, Paris (Arc. 28-31), adjoint à son
+              cabinet de massage un studio de massage facial. Prix très raisonnables.</p>
+            <p>Pension de famille, cuisine soignée, jardin, 650 fr. par jour. Facilités pour leçons
+              aux étudiants. Ecrire au camarade Jandot, Saint-André-desAlpes (Basses-Alpes).</p>
+            <p>Mme Campell, Villa Beau Site, Agon (Manche), prendrait un Aveugle en pension toute
+              l'année.</p>
+            <p>A CEDER. - Matériel de brossier et chiendent. Ecrire Mme Boucq, 3, rue Laplace, Tours
+              (I.-et-L.).</p>
+            <p>A VENDRE D'OCCASION. - Remington <hi rend="superscript">n</hi>^{\circ} 7, écriture
+              invisible, bon état, et machine Braille "Hall ", bon état. Egalement tablette Braille
+              métallique, 24 lignes, réglette 3 lignes, état neuf. Ecrire à M. P. Morvan, 16, r. de
+              l'Orme, Paris (19 <hi rend="superscript">°</hi> ).</p>
+            <p>Le beau-frère d'un de nos camarades, M. Pelletier, retraité très valide, demande
+              place de guide-secrétaire auprès d'un Aveugle de guerre. Références très sérieuses.
+              Ecrire : M. Pelletier, 82, rue d'Aguesseau, Boulogne-sur-Seine.</p>
+            <p>Le camarade Bocquet demande que ceux d'entre nous qui, après la guerre de 14-18, ont
+              travaillé dans les usines, se fassent connaître et donnent leurs impressions, afin
+              qu'elles puissent être divulguées pour aider au reclassement des Aveugles. Ecrire au
+              camarade Bocquet, 49, rue Blanche.</p>
+            <p>ASPIRATEURS. - La maison S.M.A.M., 98, rue d'Amsterdam, accorde 15% de réduction aux
+              Aveugles de guerre.</p>
+            <p>120 km . de Paris, région Orléans, dame veuve 58 ans, bonne santé, possédant de
+              sérieuses références, recommandée par camarade, désire prendre en pension Aveugle de
+              guerre, tiendrait intéricur, accompagnerait voyage. S'adresser à l'U.A.G. qui
+              communiquera.</p>
+            <p>Mme Marcel Guérin désirerait vendre une jolie montre Braille, initiales M. G.
+              S'adresser 6, rue Olivier-de-Serres, Saint-Etienne.</p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">MAI 1949</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">COTISATIONS
+                ORDINAIRES</head>
+              <p>Balansa Joseph (48-49), Asbert Stellio, Montet Jean, Mazaudrier François, Meunier
+                Maxime, Baudoin Victor, Billoud Louis, Graglia Joseph, Draperi Jean, Lenoir Robert,
+                Renard Emile, Benel Edouard (48-49), Emo Emile, Hauser André, Papadopulo Roland,
+                Béguin Irénée, Guillouche Lucien, Fillion Ernest, Gédin-Donnat, Cornec Louis, Huc
+                Pierre, Guillaume Mathieu, Bézard Henri, Mathey Adolphe, Cointepas André, Boudra
+                Jean, Jouan François, Strenad Joseph, Landais Léopold, Escala Jacques ( 47-48-49 ),
+                Wagner Rémy, Patary Yvon, Mme Goulot Jeanne, Vilette Léon, Paradis Gabriel, Attard
+                Laurent ( 4^{8-49} ), Gallard Pierre, Mme Michel, Kalitka Raymond, Brachet André,
+                Marinèche Gustave, Muller Louis, Jaffiol Fernand, Heuchert Bruno, David Joseph, Le
+                Floch Joseph, Gruner Jean, Bouchepillon Prosper, Dubreuil Olivier, Vivin Albert
+                (48-49), Bourguignon Octave, Deruaz Albert ( 48-49 ), Fontaines Etienne, Arona
+                Marigor (48-49), Remia Léon, Grispoire Achille, Huyeng Henri, Deslandes Pierre,
+                Labonde Bernard, Morel Serge, Rolando Louis, Vilain Justin, Laradji Lakhedar, Nayl
+                Jean-Baptiste, Martin Jean (Morbihan).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Gobillard Emile 5o, Balansa Joseph 5o, Rouleau Pascal 300, Lenoir Robert 5o,
+                Cattaert Paul 200, Beguin Irénée 100, Spenlé Robert 200, Cointepas André 5o, Abeilhe
+                Paul 200, Boudra Jean 100, Thomas Alexis 50, Mme Goulot Jeanne 100, Attard Laurent
+                250, Marsot René 100, Deruaz Albert 250, Ben Mohamed el Chérif Trad 200, Arona
+                Marigor 100, Arnaud François 200.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Cattaert Paul 300, Angot Alphonse 100, Hauser André 200, Blanchet Bernard 500,
+                Bourguignon Octave, Martin Jean (Morbihan) 200.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Brusson Joseph 200, Angot Alphonse 100, Chimbert Benoit 200, Dubreuil Olivier,
+                Couesnon Marie 100.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">COTISATIONS CAISSE
+                PREVOYANCE</head>
+              <p>Gobillard Emile 400, Gœbel Robert 500 (1949), Baudoin Vicotr 500, Hauser André 325,
+                Angot Alphonse 500, Beguin Irénée 400, Cointepas André 400, Lelée Emile 500 (du
+                5-2-49), Stoldick Pierre 125, Vivin Albert 325, Remia Léon 500, Deville Pierre
+                500.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

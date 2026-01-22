@@ -1,0 +1,941 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 21ème année 1940 n°1</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Association</title>
+        <title type="topic">Rééducation</title>
+        <title type="topic">Livre parlé</title>
+        <title type="topic">Guerre</title>
+        <title type="topic">France</title>
+        <title type="topic">Soutien aux handicapés</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#soldats-blesses-aux-yeux">Soldats blessés aux yeux</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre-1940">Guerre 1940</term>
+          <term ref="#livre-parle">Livre parlé</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#st-dunstans">St-Dunstan's</term>
+          <term ref="#parrains-de-guerre">Parrains de guerre</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) présente un sommaire des
+          activités de l'association, incluant les vœux de l'U.A.G. pour la nouvelle année, des
+          informations sur les nouveaux aveugles chez les alliés, des lettres d'amis, des
+          parrainages de guerre, le livre parlé, et des informations administratives. Il détaille
+          les vœux de l'association dans un contexte de guerre, exprime la reconnaissance envers les
+          soldats, et mentionne les efforts pour soutenir les aveugles de guerre. Le bulletin inclut
+          également des lettres de personnalités de soutien, des informations sur le livre parlé,
+          des nouvelles des membres (naissances, mariages, décès), et des listes de donateurs.
+          L'objectif principal est de maintenir le lien entre les membres et de promouvoir les
+          initiatives de l'U.A.G. en faveur des aveugles de guerre.</p>
+      </abstract>
+      <creation>
+        <date when="1940-01-01">01/01/1940</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+
+          <item>
+            <ref target="#h5">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h7">LES VEEUX DE L'U. A. G.</ref>
+          </item>
+          <item>
+            <ref target="#h8">LES NOUVEAUX AVEUGLES CHEZ NOS ALLIÉS</ref>
+          </item>
+          <item>
+            <ref target="#h9">LETTRES D'AMIS</ref>
+            <list>
+              <item>
+                <ref target="#h10">De M. René Besse, Ministre des Anciens Combattants et Pensionnés
+                  :</ref>
+              </item>
+              <item>
+                <ref target="#h11">De M. A. Champetier de Ribes, Sous-Secretaire d'Etat aux Affaires
+                  Etrangères:</ref>
+              </item>
+              <item>
+                <ref target="#h12">De M. Quenille, Ministre de l'Agriculture, Président de l'Office
+                  National :</ref>
+              </item>
+              <item>
+                <ref target="#h13">Câble de Mr. W. N. Cromwell, Grand Croix de la Légion d'Honneur,
+                  Président de la Société de la Légion d'Honneur à New-York :</ref>
+              </item>
+              <item>
+                <ref target="#h14">Du Général Billotte,</ref>
+              </item>
+              <item>
+                <ref target="#h15">Du Général P. Héring, Gouverneur militaire de Paris :</ref>
+              </item>
+              <item>
+                <ref target="#h16">Du Général Sainte-Claire-Deville, Président d'Honneur des "Amis
+                  des Soldats Aveugles»</ref>
+              </item>
+              <item>
+                <ref target="#h17">Du Général Brécard, ancien Membre du Conseil Supérieur de la
+                  Guerre:</ref>
+              </item>
+              <item>
+                <ref target="#h18">Du Colonel Gordon Sherriff, Vice-Président de la British
+                  Legion:</ref>
+              </item>
+              <item>
+                <ref target="#h19">De Mr. Max Shopp, Président de l'American Club of Paris:</ref>
+              </item>
+              <item>
+                <ref target="#h20">De M. Bernhard Ragner, ancien Commandeur de L' "American Legion "
+                  à Paris:</ref>
+              </item>
+              <item>
+                <ref target="#h21">De M. Fred Sargenton, agent de change à Paris:</ref>
+              </item>
+              <item>
+                <ref target="#h22">De M. Depaux-Dumesnil, avoué à Paris:</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h23">PARRAINS DE GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h24">LE LIVRE PARLE</ref>
+          </item>
+          <item>
+            <ref target="#h25">CARTES DE CIRCULATION ET DE PRIORITE</ref>
+          </item>
+          <item>
+            <ref target="#h26">DERNIERE HEURE</ref>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h27">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h31">COTISATIONS 1940</ref>
+              </item>
+              <item>
+                <ref target="#h32">A LA RÉGIONALE DE LYON</ref>
+              </item>
+              <item>
+                <ref target="#h33">PROCES-VERBAL DE L'ASSEMBLÉE ANNUELLE DE LA DEPARTEMENTALE DU
+                  FINISTERE DU 29 JUIN 1939</ref>
+              </item>
+              <item>
+                <ref target="#h34">CHANGEMENT D'ADRESSE</ref>
+              </item>
+              <item>
+                <ref target="#h35">LISTE DES DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h36">DONS AVEC AFFECTATION POUR LA " MAISON DES AVEUGLES DE GUERRE
+                  "</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h37">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h38">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h39">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">21e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">JANVIER 1940</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Les Vœux de l'U. A. G.</item>
+                    <item>Les nouveaux Aveugles chez nos Alliés.</item>
+                    <item>Lettres d'Amis.</item>
+                    <item>Parrains de Guerre.</item>
+                    <item>Le Livre parlé.</item>
+                    <item>Cartes de circulation et de priorité.</item>
+                    <item>Dernière heure.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Cotisations.</item>
+                    <item>A la Régionale de Lyon.</item>
+                    <item>Procès-verbal de l'Assemblée annuelle de la Départementale du Finistère du
+                      29 juin 1939.</item>
+                    <item>Liste des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire ; \dagger M. Barthou,
+              ancien Président du Conseil ; M. le colonel Fabry, Député, ancien Ministre ; \dagger
+              M. le général Balfourier ; M. J. Ridgely-Carter ; M. Paul de Cassagnac, ancien Député
+              ; M. Maurice Donnay, de l'Académie Française ; M. Duco, Médecin-Inspecteur ; M.
+              Fribourg, Député ; Miss Alice Getty ; M. Justin Godart, ancien Ministre ; Miss Grace
+              Harper ; Miss Winifred Holt ; M<hi rend="superscript">me</hi> Léopold Kahn ; M. Krung
+              ; M. Lugol, ancien Sénateur ; \dagger M<hi rend="superscript">me</hi> la maréchale
+              Maunoury ; M. Samuel Milbank ; M. Meyer, Conseiller d'Etat ; M. Henry Paté, Député ;
+              \dagger M<hi rend="superscript">e</hi> Henri Robert, de l'Académie française, ancien
+              Bâtonnier de l'Ordre des Avocats; M. le général Sainte-Claire-Deville ; \dagger M.
+              Vallery-Radot.</p>
+            <pb n="3"/>
+          </div>
+          <fw>21e ANNEE - N° 1 JANVIER 1940</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LES VEEUX DE L'U. A. G.</head>
+            <p>Nous aurions été heureux de pouvoir vous adresser, comme chaque année, nos voux et
+              nos souhaits dans l'atmosphère de paix et de quiétude qui donne tout son charme aux
+              réunions familiales de cette époque.</p>
+            <p>Nous avions l'année dernière, émis le vou que la paix nous fût conservée. Les
+              opinions cependant divergeaient, les uns croyaient que Munich établissait cette paix
+              définitive, d'autres, au contraire, craignaient l'inévitable. Aujourd'hui, il est un
+              fait : c'est que tous les Français sont, dans l'épreuve que nous subissons, unis dans
+              un même sentiment d'espoir et de confiance.</p>
+            <p>C'est dans cette pensée que nous vous adressons tous nos voux. A cette confiance
+              s'ajoute pour nos soldats notre reconnaissance. Elle monte de tout notre cour vers
+              tous ces hommes, nos anciens camarades de combat et nos jeunes frères d'armes, qui ont
+              pris leur poste dur et périlleux et qui, trois fois mobilisés en un an, veulent
+              aujourd'hui en finir et vivre libres dans un labeur suivi.</p>
+            <p>Tout particulièrement, notre pensée va aux familles de nos camarades dont les fils
+              sont à leur tour nos défenseurs. Nous faisons des voux pour leur retour rapide et
+              victorieux, pour que leurs épreuves soient adoucies, pour qu'ils soient forts dans ces
+              heures d'attente et conservent un moral confiant dans le succès final qui les ramènera
+              à la fidèle affection des leurs.</p>
+            <p>Nous n'oublions pas, au milieu des populations évacuées de nos frontières menacées,
+              ceux de nos camarades que la guerre retient loin de chez eux et dont beaucoup ont
+              trouvé, en dehors de Franceville et de Boulleville, un accueil vraiment fraternel au
+              foyer partagé de nos camarades de nos autres régions de France.</p>
+            <p>Nous faisons des voux pour que les lourds sacrifices habituels aux guerres nous
+              soient épargnés, pour que le nombre de ceux blessés comme nous, soit aussi peu élevé
+              que possible. Envers eux, l'U. A. C. a pris ses dispositions pour les accueillir et
+              les soutenir. Dans cette tâche, les concours les plus généreux nous sont acquis; nous
+              l'accomplirons avec cour, aidés par nos amis dévoués et fidèles, que nous sommes
+              heureux <pb n="4"/>
+              <note type="foliation">— 2 —</note> de remercier à nouveau, en cette fin d'année, de
+              la constante affection qu'ils nous témoignent.</p>
+            <p>Nous aurions été heureux de pouvoir, comme les années précédentes offrir nos voux aux
+              nombreux camarades de Paris et de Province qui, dans une joie intime, fraternelle et
+              familiale, aimaient venir fêter Noël et le Premier de l'An dans notre Maison de la rue
+              Blanche.</p>
+            <p>La prudence et la sagesse, les directives des chefs responsables, nous font un devoir
+              de demeurer dans l'organisation actuelle. Souhaitons qu'une fin rapide des hostilités
+              permette à chacun de retrouver son Foyer et pour nous, libérés à jamais de l'horrible
+              tragédie et de la menace perpétuelle, de pouvoir dans une animation nouvelle, faite de
+              notre volonté de vivre, travailler au bien de tous. A. CONAN.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LES NOUVEAUX AVEUGLES CHEZ NOS
+              ALLIÉS</head>
+            <p>Nous sommes depuis longtemps, nos camarades le savent, en excellents rapports avec
+              les aveugles de guerre anglais dont le nom de l'Organisation est connu dans le
+              Royaume-Uni sous la dénomination de "St-Dunstan's». Ce nom, qui tout simplement
+              provient du lieu ainsi nommé où dans Londres ils commencèrent au cours de la dernière
+              guerre à être groupés, rééduqués, puis ensuite restèrent unis, est dans le Royaume-Uni
+              tout entier extrêmement répandu, et, dès que l'on prononce St-Dunstan's apparait
+              immédiatement dans tous les esprits l'image des aveugles de guerre britanniques. C'est
+              une grande force pour eux et, ayant fait ainsi leurs preuves, ayant comme nous des
+              résultats tangibles à leur actif, ils ont été officiellement chargés par leur
+              Gouvernement de s'occuper de la rééducation des nouveaux aveugles de cette guerre.
+              Nous avons su qu'heureusement il n'y en avait encore qu'un parmi eux, mais au cas où
+              il en viendrait d'autres, ils préparent tranquillement le regroupement et la
+              rééducation des nouveaux venus.</p>
+            <p>Nous ne voulons pas comparer complètement les deux Groupements, car ainsi que
+              beaucoup le savent, bien des Organisations ou Euvres sont en Angleterre laissées au
+              soin de l'initiative privée, comme les hôpitaux par exemple, qui ne sont pas
+              organismes d'Etat mais fonctionnent avec le seul appui de la générosité publique.
+              St-Dunstan's pourra ainsi faire un appel dans tout l'Empire pour se procurer les fonds
+              nécessaires à la nouvelle entreprise et, si dans notre Pays où l'étatisme est plus
+              développé, nous pouvons fonctionner de la même façon, nous remarquerons qu'il est fait
+              appel à ceux qui depuis plus de vingt ans ont acquis l'expérience nécessaire en cette
+              affaire particulièrement délicate.</p>
+            <p>Notre Ministre des Pensions a d'ailleurs bien voulu nous dire à plu- <pb n="5"
+                break="no"/>
+              <note type="foliation">— 3 —</note> sieurs reprises qu'il comptait sur l'influence
+              morale et même active de l'U. A. G. pour intervenir, le moment venu, en faveur des
+              nouveaux aveugles de guerre francais. Nous ne sommes d'ailleurs pas abandonnés dans
+              l'esprit du public et spécialement de hautes personnalités de notre Pays qui ont bien
+              voulu, en cette époque où tous doivent se resserrer, nous témoigner non seulement leur
+              sympathie mais aussi leur confiance en nous.</p>
+            <p>Nous donnons plus loin des extraits de quelques lettres reçues à l'occasion de la
+              nouvelle année, qui prouvent que l'Union des Aveugles de Guerre tient sa place parmi
+              les Organisations de France, et c'est pourquoi nous disons ici notre espoir de pouvoir
+              faire pour les jeunes tout ce qui sera possible aux anciens pour que les erreurs que
+              nous avons connues ne soient pas commises, pour que leur sort soit adouci et qu'ils
+              puissent trouver dans une nouvelle vie toutes les raisons que nous avons eues de
+              croire et d'espérer. H. AMBLARD.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LETTRES D'AMIS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">De M. René Besse, Ministre
+                des Anciens Combattants et Pensionnés :</head>
+              <p>Mon Cher Président et Cher Camarade, J'ai été particulièrement touché des vœux si
+                fraternels et si amicaux que vous avez bien voulu m'adresser pour la nouvelle année
+                au nom du Conseil d'Administration de l'Union des Aveugles de Guerre.</p>
+              <p>Vous savez quelle affectueuse estime je réserve à vous-même et à vos camarades si
+                cruellement frappés par la guerre ; vous savez aussi, qu'en toutes circonstances,
+                vous pouvez compter sur mon entier concours.</p>
+              <p>Laissez-moi vous dire très simplement, qu'à mon tour, je forme les vœux les plus
+                sincères pour que l'année 1940 soit douce à tous les membres de votre Union et à
+                tous ceux qui leur sont chers.</p>
+              <p>Souhaitons aussi que l'année 1940 soit l'année de la Victoire totale et définitive
+                qui assurera au monde entier la paix dans le respect du droit et de la
+                civilisation.</p>
+              <p>Veuillez recevoir, mon cher Président et cher Camarade, l'assurance de mes
+                sentiments dévoués.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">De M. A. Champetier de
+                Ribes, Sous-Secretaire d'Etat aux Affaires Etrangères:</head>
+              <p>Mon cher Président, Je ne saurais vous dire combien je suis sensible à votre
+                aimable <pb n="6"/>
+                <note type="foliation">— 4 —</note> pensée, et vous prie de dire à vos camarades, en
+                même temps que mes voux les meilleurs, la nouvelle assurance de mon profond et
+                fidèle attachement.</p>
+              <p>Bien affectueusement vôtre.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">De M. Quenille, Ministre de
+                l'Agriculture, Président de l'Office National :</head>
+              <p>Mon cher Président,</p>
+              <p>J'ai été particulièrement sensible à votre aimable lettre. Je vous remercie
+                vivement de vos souhaits et je vous retourne les miens bien sincères, pour vous et
+                vos camarades.</p>
+              <p>Veuillez agréer, mon cher Président, l'assurance de mes sentiments les meilleurs et
+                les plus dévoués.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Câble de Mr. W. N. Cromwell,
+                Grand Croix de la Légion d'Honneur, Président de la Société de la Légion d'Honneur à
+                New-York :</head>
+              <p>Votre aimable message de Noël et celui de votre Conseil d'Administration m'a
+                beaucoup touché et je tiens à vous en exprimer ma profonde reconnaissance.</p>
+              <p>Croyez que je partage vos sentiments. C'est pour moi une joie de collaborer avec
+                vous tous à la cause qui nous unit par des liens de fidélité et de dévouement.</p>
+              <p>De graves devoirs nous commandent de nouveau la loyauté et le sacrifice et nous
+                devons être prêts à répondre à tout noble appel.</p>
+              <p>Je partage très sincèrement votre regret et celui de vos collaborateurs au sujet de
+                la visite que vous aviez projetée à New-York et j'espère qu'une autre occasion me
+                sera donnée d'avoir le plaisir extrême de vous accueillir tout personnellement.</p>
+              <p>A chacun de vous j'envoie mes souvenirs affectueux.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Du Général Billotte,</head>
+              <p>Monsieur le Président,</p>
+              <p>Je vous remercie bien vivement des voux cordiaux que vous voulez bien adresser à
+                l'occasion de la nouvelle année, à ma grande famille de soldats et à moi-même.</p>
+              <p>Au moment où l'on inaugurait, dans votre salle d'honneur, le buste du Maréchal
+                Maunoury, je pensais - malgré moi - à la prochaine guerre que je sentais venir
+                menacante, et je demandais ardemment à Dieu de faire moins de victimes, moins
+                d'aveugles, moins de malheureux !</p>
+              <p>Veuillez agréer, Monsieur le Président, avec mes meilleurs voux à l'occasion de la
+                nouvelle année, l'hommage de ma haute considération.</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Du Général P. Héring,
+                Gouverneur militaire de Paris :</head>
+              <p>Monsieur le Président,</p>
+              <p>Je suis très vivement touché des voux que vous m'adressez à l'occasion de la
+                Nouvelle Année, tant en votre nom personnel qu'en celui des Aveugles de Guerre à
+                l'union desquels vous présidez. Ceux d'Alsace et de Lorraine, région où mon activité
+                militaire s'est particulièrement exercée, vous ont fait connaître les sentiments et
+                le grand intérêt que je porte à votre Association.</p>
+              <p>Je vous prie d'exprimer à vos Camarades, ma vive gratitude comme mes voux très
+                affectueux.</p>
+              <p>Veuillez agréer, Monsieur le Président, l'expression de mes sentiments
+                distingués.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Du Général
+                Sainte-Claire-Deville, Président d'Honneur des "Amis des Soldats Aveugles»</head>
+              <p>Mon cher Président,</p>
+              <p>Je ne saurais assez vous dire combien j'ai été touché de votre aimable lettre et
+                des bons souhaits que vous m'avez adressés. Je vous ai déjà exprimé, à différentes
+                reprises combien j'étais heureux des excellents rapports que l'Association one je
+                présidais entretenait avec l'Union des Aveugles de Guerre et je suis certain que
+                cette collaboration se continuera dans l'avenir dans le même esprit de réciproque
+                sympathie. Vous savez qu'en raison de mon grand âge j'ai dû renoncer à la présidence
+                effective des Amis des Soldats Aveugles, mais comme président d'honneur, je continue
+                à m'intéresser très vivement à cette œuvre.</p>
+              <p>La guerre va peut être vous apporter quelques nouveaux camarades et le vou que je
+                forme de tout ccur est que, s'il en vient, ils soient en nombre infime.</p>
+              <p>En ce moment, mon successeur, le général Duflieux est mobilisé et c'est M. Bochet,
+                notre plus ancien vice-président, qui exerce la direction de l'Euvre.</p>
+              <p>Veuillez croire, mon cher Président, à l'expression de mes sentiments de profonde
+                sympathie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Du Général Brécard, ancien
+                Membre du Conseil Supérieur de la Guerre:</head>
+              <p>Mon cher Président,</p>
+              <p>J'ai été très sensible à votre aimable pensée et je vous prie de partager avec tous
+                vos camarades les voux que je forme pour que la vie qui a été si dure pour vous
+                devienne maintenant plus clémente. J'ai été <pb n="8"/>
+                <note type="foliation">— 6 —</note> bien heureux de vous voir cette année, bien
+                installés dans cette maison où vous pouvez un peu oublier tout ce que la guerre vous
+                a pris. Nous voilà de nouveau aux prises avec elle. Espérons qu'elle sera moins
+                douloureuse que la précédente.</p>
+              <p>Veuillez croire, mon cher Président, à mes meilleurs et affectueux sentiments.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Du Colonel Gordon Sherriff,
+                Vice-Président de la British Legion:</head>
+              <p>Monsieur le Président et bien cher Camarade,</p>
+              <p>Je vous remercie infiniment du gentil mot que vous m'avez envoyé à l'occasion du
+                nouvel an. J'en ai été très touché.</p>
+              <p>Après la belle cérémonie à laquelle j'ai assisté l'été dernier, au moment de
+                l'inauguration du buste du Maréchal Maunoury, j'ai écrit sur le Livre d'Or : "Unis
+                nous vaincrons, séparés nous disparaîtrons et la civilisation aussi. " Il me semble
+                que ces paroles sont, si possibles, encore plus vraies aujourd'hui qu'au jour où je
+                les ai écrites.</p>
+              <p>De la part des Anciens Combattants Britanniques j'envoie à vos chers Aveugles de
+                Guerre mes meilleurs voux, les plus sincères et les plus fraternels pour 1940.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">De Mr. Max Shopp, Président
+                de l'American Club of Paris:</head>
+              <p>Cher Monsieur,</p>
+              <p>Je vous suis très reconnaissant de votre aimable lettre du 27 décembre me
+                transmettant si cordialement vos félicitations et celles de votre Conseil
+                d'Administration. Je l'apprécie d'autant plus que je ne mérite pas vos sincères
+                remerciements. Mais j'espère que, non seulement par l'American Braille Press, mais
+                aussi en ma qualité de Président de l'American Club, j'aurai l'occasion à l'avenir
+                de donner une meilleure preuve du grand respect que je porte non seulement à vous et
+                aux membres de votre organisation, mais à tous nos braves et courageux amis, le
+                peuple français.</p>
+              <p>Permettez-moi de transmettre mes sincères remerciements à votre Conseil
+                d'Administration pour les sentiments qu'il m'a si aimablement exprimés, et venillez
+                agréer, cher Monsieur, les assurances de mes sentiments respectueux et dévoués.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">De M. Bernhard Ragner,
+                ancien Commandeur de L' "American Legion " à Paris:</head>
+              <p>Mes chers Camarades,</p>
+              <p>Monsieur A. Conan, votre cher Président, a bien voulu, il y a quelques jours,
+                m'adresser en son nom et au vôtre, un témoignagne de gra- <pb n="9" break="no"/>
+                <note type="foliation">— 7 —</note> titude pour l'hospitalité que Pershing Hall a
+                été heureux de vous consacrer, au cours de plusieurs occasions.</p>
+              <p>Dans les circonstances, j'en suis particulièrement heureux, mais je crois de mon
+                devoir de vous remercier à mon tour. Votre foyer de Paris n'est pas un inconnu pour
+                nous, et vous avez été "très chic" aussi à notre égard.</p>
+              <p>Personnellement, j'ai beaucoup d'admiration pour vous tous, et vous serez toujours
+                les bienvenus à Pershing Hall. En ces temps particulièrement ingrats, nous
+                ressentons tous davantage la nécessité de s' "épauler ", de se rendre service, de
+                s'adoucir un peu une existence tourmentée, et je suis certain que 1940 nous
+                permettra l'échange de ces "sentiments d'affectueuse gratitude" que votre Président
+                a bien voulu nous exprimer.</p>
+              <p>Croyez, mes chers Camarades, à l'assurance de nos sentiments reconnaissants et de
+                vive amitié.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">De M. Fred Sargenton, agent
+                de change à Paris:</head>
+              <p>Monsieur le Président,</p>
+              <p>On me fait suivre à l'Etat-Major, où je suis affecté actuellement, votre aimable
+                lettre et vos v'cux pour 1940 dont je suis infiniment touché ! Permettez-moi de vous
+                dire combien j'apprécie personnellement plus que tous autres ces vicux des Aveugles
+                de Guerre qui représentent l'élément le plus sacré et le plus élevé de la Nation! Je
+                forme mes plus huinbles voux pour vous, les membres de votre Association et leurs
+                familles, pour que l'année qui va s'ouvrir nous apporte la paix et une victoire
+                définitive et je vous prie de croire à l'expression de ma plus sincère et très
+                respectueuse sympathie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">De M. Depaux-Dumesnil, avoué
+                à Paris:</head>
+              <p>Monsieur le Président,</p>
+              <p>Vous savez que c'est toujours avec le plus grand plaisir que je m'occupe de votre
+                si belle Association.</p>
+              <p>Je suis heureux, en mémoire de mon Frère, de continuer à aider de mon mieux les
+                Victimes de la Guerre de 1914 à laquelle j'ai concouru.</p>
+              <p>Je forme, à mon tour, tous mes voux les meilleurs pour tous vos adhérents et pour
+                vous-même.</p>
+              <p>Et gardez, Monsieur le Président, pour vous l'expression de mes sentiments les
+                meilleurs et très reconnaissants.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">PARRAINS DE GUERRE</head>
+            <p>Le Front a ses marraines, l'hôpital aura-t-il ses parrains? Oui, n'est-ce pas notre
+              devoir et nous savons tous nos camarades prêts à collaborer de grand cour à cette
+              tâche fraternelle.</p>
+            <p>En septembre, anxieux, nous guettions les nouvelles de la radio; avec quelle
+              indignation avons-nous entendu annoncer que le peuple allemand, suivant un chef fou,
+              se jetait sur la Pologne amie, brandissant ce glaive qu'Hitler déclarait dans "Mein
+              Kampf " devoir frayer une voie à l'expansion germanique.</p>
+            <p>France et Grande-Bretagne se dressèrent alors afin d'opposer à la force leur force
+              plus grande encore et nous vîmes partir ou repartir nos fils, nos frères, nos gendres,
+              répondant à l'appel du Pays. Nous sentîmes se diriger vers nous le regard des femmes,
+              des enfants, des amis. Pour eux, ceux qui combattirent de 14 à 18 et versèrent un peu
+              leur sang devaient savoir si l'on pouvait avoir confiance. On attendait de nous des
+              paroles d'encouragement et d'espérance que nous avons bien sincèrement prodiguées, car
+              la France est forte de son droit et de ses armes.</p>
+            <p>Réconforter notre entourage fut et demeure notre premier devoir, puisque la blessure
+              nous a condamnés au rôle de défenseurs passifs.</p>
+            <p>Mais au cours de nos méditations de ces derniers mois, une autre pensée revenait sans
+              cesse sonuant l'appel d'un second devoir. La guerre, nous demandions-nous, allait-elle
+              fermer de nouveaux yeux? Malgré les efforts pacifiques de notre Patrie, notre
+              sacrifice n'aura-t-il pas été le dernier?</p>
+            <p>Les premiers blessés aux yeux, comme nous désignait il y a vingtcinq ans Eugène
+              Bricux, sont hélas signalés et voici qu'apparaît notre mission dans cette guerre,
+              notre tâche de fraternité française. En face de ces jeunes soldats, frappés comme nous
+              par le sort cruel, notre cour se serre, et notre compassion monte. Le chemin de la vie
+              que nous avons déjà tracé sera pour eux plus aisé mais l'apprentissage de la nuit dont
+              nous avons connu toute l'angoisse leur sera dur.</p>
+            <p>L'Union, notre grande famille des aveugles de guerre, veillera sur ces grands enfants
+              blessés; des projets pour leur rééducation sont à l'étude, mais les hasards des
+              évacuations les dispersera par toute la France, aussi incombe-t-il à chacun de nous
+              d'être le soutien moral de nos nouveaux camarades ; - soyons leurs parrains.</p>
+            <p>Partout où arrivera un blessé aux yeux de cette guerre, allons vers lui les mains
+              tendues, ouvrons la porte des services d'ophtalmologie pour l'y découvrir, mettons le
+              au courant de ce qui nous est et lui sera possible, de la lecture Braille à l'audition
+              du livre parlé, de la dactylographie au jeu de cartes. En l'instruisant de notre
+              propre activité, inspirons-lui une pleine confiance en la vie digne et forte que sera
+              la sienne malgré sa blessure. E. GUILLAM.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">LE LIVRE PARLE</head>
+            <p>Dès le début des hostilités, malgré toutes les perturbations provoquées par la mise
+              en état de défense de notre pays et le transfert de notre siège à Franceville, nous
+              nous sommes efforcés de rétablir nos moyens d'informations et de maintenir nos
+              relations courantes avec nos camarades. Ce ne fut pas sans difficultés, nous avons pu
+              cependant donner à l'ensemble de nos services un rythme assez régulier, et obtenir,
+              par exemple, que notre bulletin, après une parution réduite, revienne rapidement à un
+              format presque normal.</p>
+            <p>Si nous n'avons pas obtenu pour ce bulletin tout ce que nous aurions voulu, nous
+              pouvons affirmer à nos camarades que nous nous sommes placés très en avance des
+              associations d'anciens combattants, la plupart d'entre elles n'ayant repris que
+              beaucoup plus tard leurs publications.</p>
+            <p>Nous n'avons pu, jusqu'ici, vous mettre complètement au courant de tout ce que nous
+              avons fait et entrepris, car, non seulement, nous avons eu à faire face à l'habituel
+              courant, mais nous avons eu aussi à nous occuper de nouveaux et importants problèmes
+              qui se sont posés à nous, du fait même de la guerre. Nous vous entretiendrons de ces
+              questions au fur et à mesure qu'elles se développeront. Aujourd'hui, nous reviendrons
+              sur un sujet déjà traité, mais qui, dans les circonstances actuelles, n'a rien perdu
+              de son intérêt, bien au contraire, nous voulons dire : Le Livre parlé.</p>
+            <p>En Septembre, le Livre Parlé, subissant le contre-coup de la mobilisation et soumis
+              aux restrictions inévitables des premières heures de la guerre, fut complètement
+              arrêté. L'U. A. G. aussi bien que l'A. B. P., se préoccupèrent de le remettre en
+              marche, dès que les conditions générales améliorées le permettraient. Nos camarades ne
+              douteront pas que ce fut une entreprise difficile, car elle n'était pas seulement
+              d'ordre administratif, mais surtout technique : le personnel spécialisé était
+              mobilisé, les matières premières nécessaires réquisitionnées, les ateliers réservés
+              aux fabrications de l'Etat.</p>
+            <p>Autant de problèmes qu'il fallut résoudre un à un, se livrer à de multiples
+              recherches, entreprendre toutes sortes de démarches, solliciter les Pouvoirs Publics,
+              obtenir des licences, initier une nouvelle maind'œuvre. Ces efforts ne furent point
+              tentés en vain et nous avons eu la satisfaction de pouvoir reprendre les tirages dès
+              le début de décembre. Six nouveaux ouvrages sont en cours et dans ce mois de Janvier,
+              de nouveaux lecteurs qualifiés vont remplacer, pour l'enregistrement, ceux qui ont été
+              mobilisés. Le Livre parlé va donc reprendre son rythme normal. Nous pon'ons féliciter
+              l'A. B. P. et la remercier de sa collaboration. Grâce à l'excellenté des relations qui
+              existent entre l'A. B. P. et l'U. A. G. et au travail accompli en commun, on évite <pb
+                n="12"/>
+              <note type="foliation">— 10 —</note> de priver plus longtemps nos zamarades d'un bien
+              de plus en plus apprécié par tous ceux qui en sont devenus les auditeurs assidus.</p>
+            <p>Nous allons, pour répondre à une question qui nous a été souvent posée par nos
+              camarades, vous parler du développement atteint par le Livre Parlé en Angleterre et en
+              Amérique, et vous donner quelques chiffres qui illustreront, mieux qu'aucun
+              commentaire, le succès qu'il a déjà acquis dans ces pays et son avenir certain.</p>
+            <p>Aux Etats-Unis où le Livre Parlé a pris naissance, l'on compte, aujourd'hui, plus de
+              16.000 auditeurs. Ce pays est grand, mais une telle vulgarisation n'en reste pas moins
+              le meilleur élément d'appréciation du service rendu. Ce succès a eu un autre avantage,
+              c'est d'y attirer l'attention générale. d'y intéresser les Pouvoirs Publics. Le
+              Gouvernement Américain a doté le Livre Parlé de deux millions et demi de dollars.</p>
+            <p>L'Angleterre, comme la France, ne possède pas d'aussi puissants moyens, malgré cela,
+              nos voisins et amis nous ont largement dépassés avec près de mille lecteurs, dont 700
+              Aveugles de guerre. Le Livre Parlé anglais compte maintenant 280 ouvrages enregistrés
+              et ses tirages mensuels sont très accélérés. Nous sommes bien loin de ces chiffres,
+              puisque nous n'atteignons pas à la moitié du nombre des lecteurs anglais. On sera peut
+              être étonné qu'il y ait entre eux et nous un tel écart, et l'on ne manquera pas de
+              penser que, probablement chez eux, le Livre Parlé a atteint une perfection technique
+              plus grande qu'en France.</p>
+            <p>Il n'en est rien, et c'est au contraire chez nous que le Livre Parlé a le plus de
+              qualités, le meilleur rendement de la voix, de la durée du disque, de sa solidité, de
+              sa légèreté, et qu'il revient le moins cher.</p>
+            <p>Les ingénieurs du Livre Parlé, Américain et Anglais, MM. Klebert, de New-York, et
+              Spender, de Londres, sont venus, quelques semaines avant la déclaration de guerre, se
+              rendre compte sur place de l'installation et des moyens de production du Livre Parlé
+              français. Ils en ont admiré les perfectionnements, et les principes d'une
+              collaboration avantageuse pour ces trois pays a été envisagée. Malheureusement, les
+              événements ont arrêté momentanément ces dispositions, mais un jour elles seront
+              reprises, et nous sommes certains que, de cette entente, de nouveaux et importants
+              avantages viendront consolider et faciliter l'avenir du Livre Parlé.</p>
+            <p>Le Livre Parlé en France a pu se réaliser, grâce à l'American Braille Press. Le
+              brevet est fraucais, mais sans le concours de nos amis, il ne se serait jamais,
+              jusqu'ici, développé chez nous.</p>
+            <p>C'est l'A. B. P. qui supporte une grande partie des frais élevés de cette entreprise.
+              A nous de savoir, par notre confiance, notre enthousiasme, encourager ceux qui nous
+              apportent une aide si généreuse et joignent leur effort au nôtre.</p>
+            <p>Monsieur William Nelson Cromwell, Président d'Honneur du Comité Français du Livre
+              Parlé, qui, dans les circonstances actuelles, <pb n="13"/>
+              <note type="foliation">— 11 —</note> nous témoigne particulièrement son amitié, vient
+              de nous faire un don personnel de trois nouveaux ouvrages enregistrés, dont la vie
+              émouvante d'Helen Keller. Le meilleur remerciement que nous puissions lui adresser
+              c'est de nous intéresser tous au Livre Parlé auquel il s'est, pour nous, consacré avec
+              cœur. A. CONAN.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">CARTES DE CIRCULATION ET DE
+              PRIORITE</head>
+            <p>Nous avons fait savoir à nos camarades que des pourparlers étaient engagés avec la S.
+              N. C. F. et le Ministère des Travaux Publics afin que la validité de nos cartes de
+              chemin de fer, qui devaient être renouvelées dès le début de cette année, puisse être
+              prolongée jusqu'à la fin de 1940.</p>
+            <p>La réponse officielle ne nous étant pas parvenue au moment du tirage de notre dernier
+              bulletin, nous ne pouvions être affirmatifs sur cette question. Nous avons reçu
+              maintenant l'avis de la prorogation des cartes de chemin de fer ainsi que des cartes
+              de priorité pour la Région Parisienne. Donc, il est inutile, pour 1940, de changer nos
+              cartes qui resteront valables jusqu'au 31 décembre de cette année.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">DERNIERE HEURE</head>
+            <p>M. de Traversay, Président de notre Comité d'Action, est décédé le jeudi 25 janvier
+              1940, à Niort (Deux-Sèvres).</p>
+            <p>Tous nos camarades sans exception savent quelle fut son action dans notre
+              Association.</p>
+            <p>Nous faisons part brièvement de cette triste nouvelle à nos camarades, mais nous
+              dirons dans un prochain Bulletin ce que M. de Traversay fut pour nous.</p>
+            <p>Nous prions sa famille de trouver ici l'expression des regrets unanimes que les
+              Aveugles de Guerre ressentent en cette douloureuse circonstance.</p>
+            <pb n="14"/>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">Naissances</head>
+                <p>Notre camarade Soulié de St-Cernin (Corrèze) nous fait part de la naissance de
+                  son 5<hi rend="superscript">°</hi> enfant, né le 19 décembre 1939.</p>
+                <p>Notre camarade Cabrillac de Siorac (Dordogne) nous fait part de la naissance de
+                  son petit-fils Jean-Michel, né le 5 août 1939.</p>
+                <p>Nous adressons nos félicitations aux beureux parents et nos voux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">Mariages</head>
+                <p>Notre camarade Renard de Bois-du-Coudray (S.-et.-O.) nous fait part du mariage de
+                  son fils avec <hi rend="superscript">M</hi>^{<hi rend="superscript">ns</hi>} Renée
+                  Labastide, le 25 novembre 1939.</p>
+                <p>Nous adressons nos voux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Vella Paolino, de Sousse (Tunisie),
+                  décédé le 27 novembre 1939, à l'âge de 67 ans.</p>
+                <p>Notre camarade était né le 27 février 1872 à La Calle (Algérie), Soldat au 5<hi
+                    rend="superscript">e</hi> Groupe d'Artillerie, il était réformé à 100%, article
+                  10 pour cécité. Il laisse une veuve et 5 enfants.</p>
+                <p>De notre camarade Ursat Marcellin, de La Chapelle-Hugon (Cher), décédé le 15
+                  décembre, à l'âge de 65 ans.</p>
+                <p>Né le 27 juin 1874 à La Guerche, soldat au 213<hi rend="superscript">°</hi>
+                  d'Infanterie, notre camarade fut blessé le 12 juillet 1915. Réformé à 100%, art.
+                  10 pour cécité. Chevalier de la Légion d'Honneur et titulaire de la Médaille
+                  Militaire, il laisse une veuve et 3 enfants.</p>
+                <p>De notre camarade Cabannot Jean-Baptiste, de Pau (BassesPyrénées), décédé le 15
+                  décembre 1939, à l'âge de 54 ans.</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+                <p>Né le 20 septembre 1885 à Castelnau (Basses-Pyrénées), soldat au 37<hi
+                    rend="superscript">°</hi> d'Infanterie Coloniale, notre camarade fut blessé le
+                  14 août 1916 dans la Somme. Réformé à 190%, art. 10 et 12 pour cécité et
+                  amputation du bras droit, chevalier de la Légion d'Honneur et titulaire de la
+                  Médaille Militaire, il laisse une femme et un enfant.</p>
+                <p>De notre camarade Courtecuisse Jules, de Esnes (Nord), décédé le 18 décembre 1939
+                  à l'âge de 63 ans.</p>
+                <p>Né le 6 janvier 1876, à Séranvillers (Nord), soldat au 3<hi rend="superscript"
+                    >°</hi> Territorial d'Infanterie, notre camarade devint aveugle en captivité en
+                  décembre 1917. Réformé à 100%, art. 10 pour cécité, il laisse une femme et un
+                  enfant.</p>
+                <p>De notre camarade Lais Eugène, de Selles-sur-Cher (Loir-et-Cher), décédé le 29
+                  décembre 1939, à l'âge de 48 ans.</p>
+                <p>Né le 10 avril 1891, à La Vernelle (Indre), soldat au 30<hi rend="superscript"
+                    >°</hi> R. A. C., notre camarade devint aveugle en 1918. Réformé à 100%, art. 10
+                  pour cécité, titulaire de la Croix de Guerre, il laisse une veuve et un
+                  enfant.</p>
+                <p>De la mère de notre camarade Méline, de Sereilhae (HauteVienne), décédée en
+                  octobre dernier.</p>
+                <p>Du père de notre camarade Cornet de Paris, décédé le 11 novembre, dans sa 88<hi
+                    rend="superscript">°</hi> année.</p>
+                <p>De la femme de notre Camarade Zimmermann, de Mulhouse (Haut-Rhin), décédée le 10
+                  décembre 1939, à l'âge de 48 ans.</p>
+                <p>Du fils Raymond, de notre camarade Girault Marcel, de St-Denisd'Orgues (Sarthe)
+                  décédé le 22 décembre, à l'âge de 18 ans.</p>
+                <p>De la mère de notre camarade Frère, de Rouen (Seine-Inférieure), décédée le 7
+                  janvier 1940, à l'âge de 78 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">COTISATIONS 1940</head>
+              <p>Cotisations volontaires. - Nous sommes heureux d'adresser ici nos sincères
+                remerciements à nos camarades qui ont tenu à effectuer un nouveau versement :</p>
+              <p>MM. Grattepain, 10 fr.; Bousquet, 5 fr.; Fouillet, 5 fr.; Gagnard, 5 fr. ; Chanial,
+                10 fr. ; Fouasse, 10 fr. ; Degoutte, 15 fr. ; Vve Leclercq, 25 fr. ; Vochel, 15 fr.
+                ; Noël H., 5 fr. ; Oecre, 10 fr. ; Gresle, 25 fr. ; Bourbon, 15 fr. ; Basile, 15 fr.
+                ; Le Poul, 10 fr. ; Cou- <pb n="16" break="no"/>
+                <note type="foliation">— 14 —</note> laud, 10 fr. ; Lemaître, 10 fr. ; Gobillard, 10
+                fr. ; Masson J.-B., 5 fr. ; Barthélemy, 5 fr. ; Souchard, 20 fr. ; Radet, 10 fr. ;
+                Lafay, 5 fr. ; Janson, 5 fr. ; Nicodème, 10 fr. ; Toutain L., 10 fr. ; Estorges, 10
+                fr. ; Leproust, 10 fr. ; Vidil, 5 fr. ; Peron, 5 fr. ; Dubost P., 15 fr. ; Sicard, 5
+                fr. ; Ternois, 5 fr. ; Bouchet, 5 fr. ; Pruvot, 5 fr.</p>
+              <p>Cotisations. - MM. Le Blanc, Oecis, Grattepain, Bougeois, Fournier U, Colombel,
+                Bonamy, Sourissaud, Bousquet, Thèbes, Fillère, Plateau, Pannetrat, Molinié, Angel,
+                Dahout, Fouillet, Petit J., Charrière, Gagnard, Chanial, Audibert, Crouzillac,
+                Gautier A., Duhen, Meyer M., Rieux, Fouasse, Rost, Fabre I, Degoutte, Despinardes,
+                Martin E., Bardoux, Jung, Raveleau, Gentilhomme, Vochel, Brottes, Delaunay S.,
+                Latrille, Noël H., Oecre, Viance-Broussaudier, Becker, Théret, Notelet, Guitteny,
+                Bourdon, Citerne, Chambert, Serre, Capelle, Boucher E.. Minier, Authié, Podevin,
+                Vernet M., Stolldiek, Gresle, Bourbon, Ferezou, Thibault, Chenenaille, Massot P., Le
+                Poul, Goffinon, Gaetti, Hérouin, Coulaud, Bouzit, Lemaître, Fournier C., Masson
+                J.-B., Nicaud, Jallot, Bois, Barthélemy, Labbé C., Mombeuf, Souchard, Marquette,
+                Favret, Laügt, Vachon C., Tauziet (rachat), Radet, Lafay, Laboulais, Giboulot, Coat,
+                Lambert L., Ritz, Castor, Bourdieu, Pelletier, Palmaro, Terras, Poirier, Janson,
+                Nicodème, Duverger, Caillaux (rachat), Toutain L., Estorges, Le Hetet, Pottier,
+                Feuillet, Verrier, Leproust, Dietz, Vallory, Rivemale, Lebarbier, Bastide, Bac,
+                Vidil, Peron, Dubost P., de Budt, Sicard, Ternois, Harter, Guignon, Lioté, Nazaire,
+                Bouchet, Tramoy, Richard H., Frapsauec, Cochereau, Pruvot, Massé G., Amblard.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">A LA RÉGIONALE DE
+                LYON</head>
+              <p>La Régionale de Lyon a tenu une réunion statutaire du Comité d'Administration le
+                samedi 30 décembre à 17 h ., à Lyon.</p>
+              <p>Etaient présents: Cachet, Bouton, Finet, Petitdier, Mulsant. Excusés : Gerbelli et
+                Baizet. Mulsant, Président, a mis le Comité au courant des événements qui s'étaient
+                passés dans la Régionale depuis la dernière réunion du 11 mai 1939. Une cordiale
+                discussion suivit et la séance fut levée à 19 heures.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">PROCES-VERBAL DE L'ASSEMBLÉE
+                ANNUELLE DE LA DEPARTEMENTALE DU FINISTERE DU 29 JUIN 1939</head>
+              <p>Sont présents: Le Cocq, Prigent, Le Lann, Coucheron, Jung, Quéré, Turban, Bellec,
+                Kernéis, Le Borgne L., Kromer, Coat, Sibiril.</p>
+              <p>Excusés : Espiard, Quinquis, Castel. Ont donné leurs pouvoirs: à Le Cocq : Gohiec,
+                Daniellou, Larher ; à Sibiril : Guillou, Kerangal, Argouach, Le Borgne.</p>
+              <p>Le Cocq, Président, ouvre la séance à 10 \mathrm{~h} .1 / 2. Il demande aux
+                camarades"de se lever et d'observer une minute de silence à la mémoire des camarades
+                Deniel et March'adour, décédés depuis notre dernière Assemblée Générale.</p>
+              <p>Puis il présente à l'Assemblée le délégué de l'U. A. G., qui est cette année le
+                vice-président Izaac, Président honoraire de l'U. A. G., que nous connaissons
+                tous.</p>
+              <p>Le Cocq, au nom de l'Assemblée, remercie Izaac ainsi que Madame Izaac d'avoir fait
+                un si long voyage pour être aujourd'hui parmi nous. Le Secrétaire donne lecture du
+                compte rendu de l'Assemblée départementale de 1938 qui est adopté.</p>
+              <p>Kaigre, trésorier et Piton, commissaire aux comptes, donnent lecture du compte
+                rendu financier qui est adopté.</p>
+              <p>Avant de passer à la suite de l'ordre du jour, le Président demande à Izaac de
+                faire un exposé sur les démarches auprès du Ministre des Pensions et sur la marche
+                de l'U. A. G.</p>
+              <p>Izaac fait un exposé très détaillé sur les démarches faites par le Bureau de l'U.
+                A. G. pour l'amélioration de nos pensions, puis sur le fonctionnement de la Caisse
+                de Prévoyance, de la caisse-maladie, de la caisse de secours au décès, et sur
+                l'amélioration du fonctionnement de la Maison.</p>
+              <p>L'Assemblée, très satisfaite des explications d'Izaac, fait confiance au Bureau et
+                au Conseil d'Administration de l'U. A. G. et ne dépose aucun vœu.</p>
+              <p>Le Comité sortant est réélu et aucune modification n'est apportée dans la
+                composition du Bureau.</p>
+              <p>A midi : un repas en commun est servi à l'Hôtel de Bretagne. Le Secrétaire:
+                SIBIRIL.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">CHANGEMENT D'ADRESSE</head>
+              <p>Favret René, 1, rue de Médicis, Paris ( 6^{e} ).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">LISTE DES DONATEURS</head>
+              <p><hi rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} Portier, Paris, 11
+                fr. ; <hi rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} Condamin, Nice,
+                6 fr. ; M. Dobède, Bournemouth (Angleterre), 1.740 fr. ; <hi rend="superscript"
+                  >M</hi>^{<hi rend="superscript">me</hi>} Kastler, Montargis (Loiret), 200 fr. ;
+                  <hi rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} Cornud-Peschier,
+                Vallon (Ardèche), 250 fr. ; M. E. Lecomte, Marly-la-Ville (S.-et-O.), 200 fr. ; M.
+                Olivier, LevalloisPerret (Seine), 50 fr. ; <hi rend="superscript">M</hi>^{<hi
+                  rend="superscript">me</hi>} Fischer, Paris, 10 fr. ; M. Buttolo, Paris. 50 fr. ;
+                M. J.-A. Lafargue, Alger, 300 fr. ; M. Delanne, Auzeray (Eure), 20 fr. ; M.
+                Gobrecht, Clichy (Seine), 30 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">DONS AVEC AFFECTATION POUR
+                LA " MAISON DES AVEUGLES DE GUERRE "</head>
+              <p>Commune de Céret (Pyrénées Orientales), 135 fr. ; Commune de Mauzé (Deux-Sèvres),
+                50 fr. ; Notre camarade Bac, 40 fr.</p>
+              <pb n="19"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire Scapini, Président honoraire Bourguignon, Secrétaire
+              général honoraire Favret, Secrétaire général honoraire Conan, Secrétaire général
+              honoraire Amblard, Secrétaire général honoraire</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">Conseil d'Administration</head>
+            <p>Président : Conan Vice-Présidents: Favret, Guillam, Izaac Secrétaire général: Amblard
+              Trésorier : Gaston L'Evesque Membres: Bardoux, Bertrand, Bloncourt, Bois, Bhusson,
+              Cabasson, Céré-Labourdette, Courteix, Dallet, Derunder, Fauvel, Grillet, Laffargue,
+              Lagarde, Lauté, Leveau, Malgat, Muller, Nicolai, Noireaux, Roy (Georges), Satgé,
+              Scapini</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Comité d'Action</head>
+            <p>M<hi rend="superscript">lle</hi> Arbel, Vice-Présidente honoraire. \dagger Président:
+              M. de Traversay. Vice-Présidents: \left{\begin{array}{l}M<hi rend="superscript"
+                >me</hi> \text { Contamin. } \ M<hi rend="superscript">me</hi> L'Evesque. M. Bloch,
+              adjoint au Trésorier : M. Jweins, Secrétaire du Comité d'Action. }\end{array}\right.
+              M. Auterbe, Directeur à la Compagnie «L'Union». <hi rend="superscript">M</hi>^{<hi
+                rend="superscript">me</hi>} du Bos; <hi rend="superscript">M</hi>^{<hi
+                rend="superscript">me</hi>} Broquin : M. de Chaumont-Quitry ; M. Chepfer ; M<hi
+                rend="superscript">me</hi> Chevalier ; M<hi rend="superscript">lle</hi> Jalaguier ;
+                M<hi rend="superscript">me</hi> Lévy-Weis ; M. Julien Mayer.</p>
+            <p>Colonel de Traversay.</p>
+            <pb n="20"/>
+          </div>
+          <fw>Gérant: DECOENE. IMPRIMERIE CARON &amp; Cie, 34, RUE DEMOLOMBE, CAEN</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

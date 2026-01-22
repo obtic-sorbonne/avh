@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - Février 1946</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Résistance</title>
+        <title type="topic">Droits des anciens combattants</title>
+        <title type="topic">Politique sociale</title>
+        <title type="topic">Administration publique</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>26,5 X 21 cm ; 15 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#ministere-des-anciens-combattants">Ministère des Anciens Combattants</term>
+          <term ref="#impot-de-solidarite">Impôt de solidarité</term>
+          <term ref="#code-de-la-famille">Code de la Famille</term>
+          <term ref="#resistance">Résistance</term>
+          <term ref="#polyclinique">Polyclinique</term>
+          <term ref="#reeducation">Rééducation</term>
+          <term ref="#ufac">UFAC</term>
+          <term ref="#livre-parle">Livre-parlé</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre traite de plusieurs sujets importants pour
+          ses membres. Il exprime la gratitude envers le Général de Gaulle, discute du
+          rétablissement du Ministère des Anciens Combattants, et aborde la question de la valeur
+          des pensions face à l'inflation. Le document contient également une protestation du Comité
+          d'Entente des Grands Invalides concernant les retards dans l'application de l'ordonnance
+          du 25 octobre 1945. D'autres sujets incluent l'impôt de solidarité, le Code de la Famille,
+          les candidatures au Conseil d'Administration, l'attribution de charbon, la création d'une
+          polyclinique à l'Institution Nationale des Invalides, des informations sur la résistance
+          de certains membres, et la liste des ouvrages disponibles à la bibliothèque.</p>
+      </abstract>
+      <creation>
+        <date when="1946-02-01">01/02/1946</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">RECONNAISSANCE</ref>
+          </item>
+          <item>
+            <ref target="#h2">LE MINISTERE DES ANCIENS COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h3">LA VALEUR DE NOS PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h4">PROTESTATION DU COMITE D'ENTENTE DES GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h5">L'IMPOT DE SOLIDARITE</ref>
+          </item>
+          <item>
+            <ref target="#h6">CODE DE LA FAMILLE</ref>
+          </item>
+          <item>
+            <ref target="#h7">CANDIDATURES</ref>
+          </item>
+          <item>
+            <ref target="#h8">CHARBON</ref>
+          </item>
+          <item>
+            <ref target="#h9">CREATION D'UNE POLYCLINIQUE À L'INSTITUTION NATIONALE DES
+              INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h10">RESISTANCE</ref>
+          </item>
+          <item>
+            <ref target="#h11">LE LIVRE DE L'AVEUGLE,</ref>
+          </item>
+          <item>
+            <ref target="#h12">BIBLIOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h13">POUR LES VENDEENS</ref>
+          </item>
+          <item>
+            <ref target="#h14">OUTILLAGE DE BROSSIER</ref>
+          </item>
+          <item>
+            <ref target="#h15">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION DU 18 DECEMBRE
+              1945</ref>
+          </item>
+          <item>
+            <ref target="#h16">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION DU 28
+              SEPTEMBRE 1945</ref>
+          </item>
+          <item>
+            <ref target="#h17">ADMISSION DE NOUVEAUX MEMBRES</ref>
+            <list>
+              <item>
+                <ref target="#h18">Titulaires Définitifs :</ref>
+              </item>
+              <item>
+                <ref target="#h19">Membres Associés :</ref>
+              </item>
+              <item>
+                <ref target="#h20">Membres titulaires provisoires :</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h21">SOUSCRIPTION POUR LES SINISTRÉS</ref>
+          </item>
+          <item>
+            <ref target="#h22">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h23">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h24">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h25">PETITES ANNONCES</ref>
+            <list>
+              <item>
+                <ref target="#h26">APPAREILS POUR JOUEURS DE BRIDGE</ref>
+              </item>
+              <item>
+                <ref target="#h27">MACHINE A ECRIRE A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h28">VINS VIEUX EN BOUTEILLES.</ref>
+              </item>
+            </list>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw>UNION DES AVEUGLES DE GUERRE Groupement National des Aveugles de Guerre</fw>
+          <fw>SIEGE SOCIAL: 49, RUE BLANCHE, 49 PARIS (9) Reconnue d'Utilité Publique, Décret du 9
+            Avril 1921</fw>
+          <fw>TÉLÉPHONE : TRINITÉ 85-83 COMPTE CHÈQUES POSTAUX 160-31</fw>
+          <fw>Nombre d'Adhérents : 2.000</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">RECONNAISSANCE</head>
+            <p>Nous garderons une inalterable gratitude au Général de Gaulle, pour tout ce qu'il a
+              fait en vue unique de sauvegarder les intérêts et l'honneur de la France.</p>
+            <p>Dans ces lignes qui ne paraîtront malheureusement que quelques semaines âprès départ
+              de ce grand Français, alors qu'il aura quitté la Présidence du Conseil. Nous reprenons
+              les termes même que notre Assemblée Générale du 6 mai 1945 avait votés à l'unanimité :
+              "Les Aveugles de Guerre Français " adressent le témoignage de leur reconnaissance au
+              Général de Gaulle qui, aux jours les plus sombres de "juin 1940, a été l'inspirateur
+              et l'âme de la résistance nationale et qui, galvanisant les énergies fran"çaises, a su
+              maintenir chez tous les patriotes pendant les quatre années terribles d'occupation, la
+              cohésion " et la discipline nécessaires à la conquête de la Victoire ".</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">LE MINISTERE DES ANCIENS
+              COMBATTANTS</head>
+            <p>C'est une victoire pour l'U. F. A. C. d'avoir enfin obtenu le rétablissement du
+              Ministère des Anciens Combattants. Il est indispensable que ceux qui ont fait le plus
+              pour sauver la Patrie, aient un représentant au Conseil du Gouvernement.</p>
+            <p>Monsieur CASANOVA a tous les titres qu'il convient pour nous représenter et, au
+              besoin, pour défendre nos intérêts, puisqu'il est, à la fois, ancien combattant,
+              membre actif de la Résistance, prisonnier et évadé.</p>
+            <p>Le dernier Secrétaire-Général aux Pensions ne participait pas au Conseil des
+              Ministres et si nous avons eu à nous louer de quelques uils de ses services, pour
+              certaines questions extrêmement importantes, nous avions tout lieu d'être
+              mécontents.</p>
+            <p>Lors de la dernière augmentation de nos allocations c'est au Ministère des Finances,
+              et non ailleurs, que nous avons trouvé le plus de compréhension au moment où, d'après
+              toutes les lettres de nos Camarades, une demande immédiate de relèvement de nos
+              pensions était absolument nécessaire.</p>
+            <p>D'autre part, depuis la publication de l'ordonnance du 25 Octobre 1945, au Journal
+              Officiel, il s'est écoulé 3 mois jusqu'au 23 Janvier 1946, avant que le Secrétariat
+              Général envoie des textes au Ministère des Finances pour l'application du nouveau taux
+              pour les Grands Invalides. Après nos démarches en Décembre, on nous avait cependant
+              fait espérer aux Finances, la publication de l'ordonnance pour toute la France, vers
+              le 20 Janvier; sauf pour la région Parisienne qui est hors de cause depuis le 1<hi
+                rend="superscript">er</hi> Janvier, grâce à l'initiative louable d'un fonctionnaire
+              régional. Beaucoup de nos Camarades de province ne tou-</p>
+            <pb n="2"/>
+            <note type="foliation">— 2 —</note>
+            <p>cheront pas leurs arrérages au nouveau taux avant la deuxième quinzaine de Février,
+              en raison de l'inexplicable retard apporté à l'application de l'ordonnance.</p>
+            <p>Espérons qu'à l'avenir nous serons mieux servis et mieux défendus par le nouveau
+              Ministère des Combattants, des Victimes de la Guerre et des Prisonniers. H. IZAAC.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">LA VALEUR DE NOS PENSIONS</head>
+            <p>Il nous est impossible de ne pas prêter une particulière attention à l'évolution
+              économique qui se produit en ce moment dans notre pays. Nous y sommes intéressés au
+              premier chef, et il serait très important pour nous de voir se stabiliser la monnaie
+              et les prix. .</p>
+            <p>Si nous avons pû, en effet, obtenir une raisonnable revalorisation de nos moyens
+              d'existence, nous en voyons maintenant avec désespoir les bienfaisants effets diminuer
+              de jour en jour.</p>
+            <p>Un nouveau Ministère vient d'être formé se donnant pour tâche principale d'enrayer
+              l'inflation qui devenait inquiétante. Dans notre situation de pensionnés, dont les
+              ressources sont constituées par des revenus fixes, nous ne pourrons que nous réjouir
+              si des mesures, sévères sans doute, parvenaient à conserver aux francs qui nous sont
+              versés, une valeur sur laquelle on puisse compter sans crainte. Ce résultat sera-t-il
+              atteint? Nous devons l'espérer pour notre pays d'abord et, par suite, pour nous-mêmes,
+              ce qui nous permettrait d'organiser notre vie sans souci de lendemains incertains.</p>
+            <p>N'oublions pas que c'est là une question primordiale pour les aveugles de guerre qui
+              se sont gronspés pour que justice leur soit rendue, pour que réparation leur soit
+              faite, et ceci justifie la préoccupation des dirigeants de l'U. A. G. qui désirent
+              conserver aux pensions la valeur qu'on a voulu leur donner. L'expression de cette
+              volonté ne réside pas seulement dans l'énoncé de quelques phrases, des réalisations
+              ayant été obtenues récemment, et si parfois quelques questions secondaires ont pu être
+              négligées, nous assurons que l'essentiel a été fait pour que soit garanti le pain de
+              nos familles. H. AMBLARD.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PROTESTATION DU COMITE D'ENTENTE
+              DES GRANDS INVALIDES</head>
+            <p>Le Comité d'Entente groupant les associations ci-après :</p>
+            <list>
+              <item>Union des Aveugles de Guerre;</item>
+              <item>Fédération des plus grands Invalides de Guerre;</item>
+              <item>Fédération des Amputés de Guerre de France;</item>
+              <item>Union des Blessés de la Face (Gueules Cassées);</item>
+              <item>Fédération des Blessés Multiples et Impotents;</item>
+              <item>Fédération des Trépanés et Blessés de la Tété.</item>
+            </list>
+            <p>Constatent avec amertume que plus de deux mois après la promulgation de l'ordonnance
+              du 25 octobre 1945 qui a relevé les tarifs des pensions d'invalidité et des' veuves de
+              guerre âgées, les services intéressés n'ont pas encore reçu d'instructions pour payer
+              les nouveaux tarifs. Cette situation met un grand nombre de bénéficiaires dans
+              l'obligation de vivre pendant tout l'hiver, et jusqu'au cours du deuxième trimestre
+              1946, avec des sommes notoirement insuffisantes;</p>
+            <p>Protestent avec la dernière énergie contre cette inexplicable carence administrative
+              que rien ne peut justifier;</p>
+            <p>Demandent qu'une enquête soit ouverte pour rechercher et sanctionner les
+              responsables, et que des mesures soient prises de toute urgence pour que l'ordonnance
+              du 25 octobre 1945 soit immédiatement appliquée;</p>
+            <p>Protestent également contre la prétendue impossibilité d'appliquer sans un long délai
+              les dispositions du Code de la Famille prévues en faveur des Grands Invalides et des
+              Veuves de guerre par la même ordonnance du 25 octobre 1945;</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+            <p>Remarquent enfin, qu'ils vont se trouver une fois de plus socialement déclassés du
+              fait que, durant leur attente et avant même d'avoir ressenti les effets du dernier et
+              partiel rajustement de leurs pensions, les relèvements de traitements et de salaires
+              se poursuivent, provoquant de nouvelles hausses du coût de la vie;</p>
+            <p>Adjurent les Pouvoirs Publics de s'attacher à l'assainissement financier du pays et à
+              la stabilisation des prix, que les Grands Invalides de Guerre appellent de tous leurs
+              vœux;</p>
+            <p>Demandent instamment qu'en attendant la réalisation de cette souhaitable solution,
+              des dispositions soient prises pour que ceux qui se sont battus et ont été mutilés
+              pour que la France reste la France ne soient pas les éternels sacrifiés, et qu'ils
+              reçoivent la réparation qui leur est due, en alignant leurs pensions sur le coût de la
+              vie et, en un mot, en faisant pour eux ce qui est fait pour d'autres catégories de
+              Français.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">L'IMPOT DE SOLIDARITE</head>
+            <p>Pour répondre à de nombreuses questions qui nous sont posées par nos camarades à
+              propos de l'impôt de solidarité, nous donnons ici quelques renseignements d'ordre
+              général, en rappelant toutefois que pour beaucoup de contribuables, il s'agit de cas
+              d'espèces qui ne peuvent être résolus que par des personnes compétentes, telles que :
+              notaires ou personnel d'enregistrement.</p>
+            <p>Indiquons d'abord que chaque contribuable hénéficie d'un abattement à la base de Frs
+              : 200.000 pour lui et Frs : 200.000 pour son conjoint, si leurs biens sont confondus,
+              comme dans la plupart des cas.</p>
+            <p>De plus, un abattement de Frs : 25.000 est prévu pour le premier enfant, Frs : 50.000
+              pour le deuxième, Frs : 100.000 pour le troisième et les suivants. Cet abattement
+              s'applique bien entendu à chaque conjoint.</p>
+            <p>D'autre part, nous avons déjà indiqué qu'un abattement de Frs : 250.000 était accordé
+              aux réformés 400%, bénéficiaires de l'article 10 ; donc pour un ménage dont le mari
+              est aveugle de guerre, l'abattement minimum est de Frs : 650.000 , plus les
+              abattements pour enfants, qui sont doublés si les enfants sont à charge. Si le
+              patrimoine du camarade ne dépasse pas ce chiffre, il n'est pas nécessaire de faire une
+              déclaration.</p>
+            <p>Nous avons maintenant un nouveau gouvernement, des mesures financières seront prises,
+              chan-geront-elles les modalités de l'impôt de solidarité? H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">CODE DE LA FAMILLE</head>
+            <p>Nous aurions aimé donner à nos camarades des informations précises à propos de
+              l'application du Code de la Famille en faveur de ceux qui ont de jeunes enfants.</p>
+            <p>Après avoir pris des renseignements auprès des services compétents, nous regrettons
+              de leur dire que les instructions ne sont pas encore prêtes, par suite des difficultés
+              d'application de ce système aux pays d'outre-mer.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">CANDIDATURES</head>
+            <p>Notre prochaine Assemblée Générale aura lieu vraisemblablement à la fin du mois
+              d'Avril, la date devant être fixée définitivement par le Conseil d'Administration.</p>
+            <p>D'ores et déjà, nous demandons à nos camarades désireux de poser leurs candidatures
+              au Conseil d'Administration, en vue du renouvellement de celui-ci, de faire acte de
+              candidature en nous écrivant avant la date du 28 FEVRIER, ou avant le 1er MARS DERNIER
+              DELAI.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">CHARBON</head>
+            <p>Le supplément exceptionnel de charbon, dont l'attribution avait été prévue en notre
+              faveur, correspond aux quantités accordées aux catégories E, J1 ou V.</p>
+            <p>Nos camarades peuvent dès à présent retirer à leurs mairies ces titres dont la valeur
+              sera indiquée prochainement par voie de Presse. Il est bien entendu que ces
+              suppléments ne sont délivrés que dans les communes où la carte de charbon est en
+              vigueur.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">CREATION D'UNE POLYCLINIQUE À
+              L'INSTITUTION NATIONALE DES INVALIDES</head>
+            <p>Nous recevons la lettre suivante de M. le Médecin-chef de l'Institution Nationale des
+              Invalides :</p>
+            <p>« Une Polyclinique a été fondée à l'Institution Nationale des Invalides, qui a pour
+              but de traiter « tous les bénéficiaires de l'article 64 de la loi du 31 mars 1919.</p>
+            <p>« Cette clinique a été inaugurée récemment et elle fonctionne depuis le 3
+              janvier.</p>
+            <p>« Je vous serais reconnaissant de bien vouloir faire connaître aux adhérents de votre
+              Association « que nous sommes à leur disposition pour leur assurer tous les soins et
+              spécialisations s'ils en ont besoin.</p>
+            <p>« Il est inutile d'ajouter que dans une maison de Mutilés ils seront particulièrement
+              bien reçus, « puisqu'ils sont chez eux ».</p>
+            <p>Nous communiquons ci-après la liste des spécialistes et les heures des
+              consultations.</p>
+            <p>| <hi rend="bold">Consultation de Médecine</hi> | <hi rend="italic">Mercredi 14 h. :
+                Dr. de VERICOURT.</hi> Jeudi 9 h. : Dr. LESIRE. <hi rend="italic">Samedi 9 h. : Dr.
+                QUELLIEN. | | --- | --- | |</hi>
+              <hi rend="italic">Consultation de Chirurgie</hi>
+              <hi rend="italic">|</hi> Mardi 15 h. : Dr. BALLADE. <hi rend="italic">Jeudi 14 h. :
+                Dr.</hi> Vendredi 14 h. : Dr. LE CAIN. | | <hi rend="bold">Consultation
+                d'Urologie</hi> | <hi rend="italic">Lundi 14 h. : Dr. MARTINET.</hi> Lundi 9 h. 30 :
+              Dr. LEPOIVRE. <hi rend="italic">Vendredi 9 h. : Dr. CORBEIL. | |</hi>
+              <hi rend="italic">Consultation de chirurgie Maxillo-Faciale et de Stomatologie</hi>
+              <hi rend="italic">|</hi> Mercredi 9 h. : Dr. WICART. | | <hi rend="bold">Consultation
+                d'Oto-Rhino-Laryngologie</hi> | <hi rend="italic">Mardi 10 h. : Dr. MONNET.</hi>
+              Samedi 17 h. : Dr. DEPIERRE. | | <hi rend="bold">Consultation d'Ophtalmologie</hi> |
+                <hi rend="italic">Mercredi, de 10 h. à 12 h. : Dr. BUISSON. | |</hi>
+              <hi rend="italic">Consultation de Phlisiologie</hi>
+              <hi rend="italic">|</hi> Jeudi 14 h. 30 : Dr. EVRARD. |</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">RESISTANCE</head>
+            <p>Nous avons appris avec plaisir que notre Président de la Régionale de Savoie et
+              Haute-Savoie, Louis FINET, a été décoré de la CROIX DE LA LIBERATION, le 17 novembre
+              1945. Nous lui adressons nos plus vives félicitations.</p>
+            <p>Notre camarade EVRAT nous fait connaître l'élogieuse citation dont il a été l'objet
+              par suite de son attitude de Résistant. Nous rappelons qu'Evrat fut déporté à
+              Buchenwald, où il subit de shauvais traitements de la part des Allemands.</p>
+            <p>XI REGION MILITAIRE Rennes, le 24 Octobre 1945. ETAT MAJOR BUREAU REGIONAL F. F. I.
+                <hi rend="superscript">N</hi>^{\circ} 820 / B.R.A.</p>
+            <p>Je soussigné, Commandant Costes, chef du Bureau régional F.F.I., adjoint au Général
+              Commandant la - XI ${ }^{\circ}$ région militaire, ex-responsable du Front National en
+              Maine-et-Loire, certifie que M. Evrat Paul, - aveugle de guerre, officier de la Légion
+              d'Honneur, est entré dans la Résistance dès son arrivée à Longué - (Maine-et-Loire) en
+              1940.</p>
+            <p>A distribué de nombreux tracts et journaux patriotiques clandestins, camouflé des
+              réfractaires et - patriotes, et également stocké des armes et des munitions, hébergé
+              des responsables du mouvement de - passage, aidé à l'organisation des Groupes de
+              Résistance, ce qui a permis l'action directe contre l'occupant. - Arrêté, puis déporté
+              en Allemagne, M. Evrat est une des plus belles figures de la Résistance du
+              département.</p>
+            <p>Est proposé pour la Médaille de la Résistance 4. signé : COSTES. Nous faisons savoir
+              également à nos camarades que Mine Evrat a été citée pour sa courageuse résistance qui
+              lui a value d'être déportée au camp de Ravensbrück, où sa santé fut fortement
+              ébranlée.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LE LIVRE DE L'AVEUGLE,</head>
+            <p>16, rue Languier, Paris (17) rappelle aux intellectuels aveugles qu'il est à leur
+              disposition pour transcrire en Braille tous les livres, cours, documents, etc...
+              susceptibles de leur être utiles dans leurs études ou l'exercice de leur profession.
+              Ils recevront le meilleur accueil au siège de l'œuvre, le mardi ou le vendredi, entre
+              15 et 17 heures. Les transcriptions sont personnelles et peuvent être conservées aussi
+              longtemps qu'il sera nécessaire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">BIBLIOTHEQUE</head>
+            <p>Nous publions ci-dessous la liste des ouvrages nouveaux, que nous avons fait copier
+              pour les lecteurs de la bibliothèque, qui sont dès à présent à leur disposition.</p>
+            <list>
+              <head type="section" rend="align(center)">ROMANS</head>
+              <item>20. BERRY WELL (Mrs) Mémoires de Chichi Chow (Mémoires d'un chien) 3 Vol.
+                Abr.</item>
+              <item>30. D'ORGEVAL François Le boîteux de la rue St-Marc 5 Vol. Abr.</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">LITTERATURE</head>
+              <item>1039. DUHAMEL Georges Inventaire de l'abîme 6 Vol. Abr.</item>
+            </list>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+            <list>
+              <head type="section" rend="align(center)">PHILOSOPHIE - RELIGIONS</head>
+              <item>2104. SAINT-MARC Evangile 1 Vol. Abr. </item>
+              <item>2103. SAINT-MATTHIEU Evangile 2 Vol. Abr. </item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">HISTOIRE</head>
+              <item>3204. ARBARIN Georges Le secret de la Grande Pyramide 3 Vol Abr.</item>
+              <item>3203. BRENTANO Funck Prisons d'autrefois 4 Vol Int.</item>
+              <item>3205. DE GAULLE Charles Vers l'armée de métier 4 Vol Abr.</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">GUERRE (1939-1940)</head>
+              <item>2362. BLOND Georges L'épopée silencieuse (service à la mer 1939-40) : Vol.
+                Ampl.</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">SCIENCES - MATHEMATIQUES</head>
+              <item>2428. REUNION de PROFESSEURS Arithmétique (cours supérieur) 4 Vol. Int.</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">ENSEIGNEMENT</head>
+              <item>2616. REUNION de PROFESSEURS Grammaire française abrégée 7 Vol. Int.</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">POUR LES VENDEENS</head>
+            <p>Notre camarade Potereau, de la Vendée, nous fait connaitre qu'il a obtenu en faveur
+              de nos camarades de son département, une réduction sur les autobus du département.
+              Cette réduction est de 75% pour l'aveugle et la gratuité pour le guide. Nous
+              remercions vivement Potereau pour son intervention.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">OUTILLAGE DE BROSSIER</head>
+            <p>Nous serions reconnaissants à ceux qui possèdent un outillage de brossier : établi,
+              couteau, etc.... et qui ne s'en serviraient plus de bien vouloir nous faire savoir
+              s'ils seraient susceptibles de nous le céder.</p>
+            <p>Ce matériel serait destiné à nos jeunes camarades. Prière d'indiquer l'état de ce
+              matériel et le prix qui en est demandé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION DU 18 DECEMBRE 1945</head>
+            <p>La séance est ouverte à 9 h .30 , sous la présidence d'Izaac. Etaient présents :
+              Amblard, Bertrand, Bloncourt, Bodin, Brusson, Céré, Chalendar, Conan, Cornu, Couesnon,
+              Derunder, Duc, Favret, Fauvel, Grillet, Guespereau, Guillam, Izaac, Laffargue, Leveau,
+              L'Evesque, Muller, Nicolai, Noireaux, Roy Georges, Satge, Sibiril.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+            <p>Excusés : Bois, Cabasson. Ont donné leurs pouvoirs : Bois à Noireaux, Cabasson à
+              Nicolaï. Assistaient à la séance : Mme Contamin, Vice-Présidente du Comité d'action,
+              et les camarades : Raveleau et Saillot.</p>
+            <p>Procès-verbal de la séance du 28 Septembre 1945. Brusson demande que le Bureau
+              n'engage des dépenses que dans le cadre des crédits votés au budget.</p>
+            <p>Le procès-verbal est adopté. Situations financières de Septembre, Octobre et
+              Novembre. Noireaux demande que les frais de déplacements des Administrateurs soient
+              distincts de ceux des Présidents de Régionales. Fauvel suggère de relever le chiffre
+              maximum de l'encaisse des sections. Duc fait savoir qu'il maintient sa démission de
+              membre de la Commission des Finances donnée verbalement. Après explication, sa
+              démission est acceptée. Lecture du rapport de Bois, président de la Commission des
+              Finances.</p>
+            <p>Les situations financières sont adoptées à l'unanimité. Election d'un Administrateur.
+              - Madame Contamin procède au dépouillement du vote. Votants : 29. - Un bulletin nul.
+              Ont obtenu :</p>
+            <table>
+              <row>
+                <cell>Robin</cell>
+                <cell>20 voix</cell>
+              </row>
+              <row>
+                <cell>Pagenel</cell>
+                <cell>3</cell>
+              </row>
+              <row>
+                <cell>Cattaert</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>Hauser</cell>
+                <cell>2</cell>
+              </row>
+              <row>
+                <cell>Raveleau</cell>
+                <cell>1</cell>
+              </row>
+            </table>
+            <p>Robin, de Paris, est élu membre du Conseil d'Administration. Election de trois
+              Membres du Comité d'Action. Sont élus : Docteur Coutela, à l'unanimité. M. Agasse, 28
+              voix. M. Bruillard, Professeur de Droil, 28 voix.</p>
+            <p>Pensions. - Amblard fait un exposé des différentes démarches qui aboutirent à
+              l'augmentation de nos pensions. Il dit comment le Bureau a dû défendre la position des
+              aveugles obtenue grâce au Statut. L'équilibre existant établit par nos différentes
+              allocations n'est pas détruit.</p>
+            <p>Derunder et Muller proposent de voter des félicitations à Izaac et Amblard. - Izaac
+              indique quelle est à son avis la situation des Anciens Combattants dans le pays et
+              rend compte de son action à l'U.F.A.C. au sujet du rajustement, ainsi que du
+              rétablissement du Ministère des Pensions demandé par notre Assemblée. - Nicolaï
+              proteste contre notre rattachement à différents ministères. - Fauvel voudrait voir les
+              pensions des militaires de carrière inscrites au budget des différents ministères dont
+              ils dépendent, ce qui allègerait le budget des pensions proprement dit. Il souligne
+              qu'une pension de veuve de démineur est de Frs : 16.125 .</p>
+            <p>Izaac dit combien la perte de Decoène a été sensible, d'abord au point de vue
+              sentimental, puis au point de vue pratique, son absence se faisant sentir dans nos
+              services. Guillam propose qu'une adresse de sympathie soit envoyée à Mme Decoène.
+              Laffargue, rappelant les longs et dévoués services de notre comptable demande que
+              l'Union apporte une aide à sa veuve. Il fait allusion au crédit réservé pour
+              constituer une retraite à certains membres du personnel, et des avances ayant déjà été
+              faites à la famille. Amblard propose de servir nous-mêmes une rente de Frs : 3.600 à
+              Mme Decoène. Laffargue ainsi que Roy proposent Frs : 4.000 . - La proposition est
+              adoptée.</p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+            <p>Rééducation. - Amblard fait connaître que l'École de Rééducation fonctionne depuis le
+              15 octobre, Il ajoute qu'il y eut des difficultés rencontrées, notamment pour le
+              recrutement des professeurs et souligne le coût croissant de l'œuvre entreprise,
+              malgré l'aide promise par l'Office National. Le personnel médical est cependant
+              gratuit, ainsi que les secouristes qui servent de guides.</p>
+            <p>Cousenon rend compte du résultat des différents cours qui sont donnés. Ils sont,
+              dit-il, très satisfaisants, spécialement en Braille, dactylographie et brosserie. Il
+              indique que des cours de brosserie, cannage, accords, qui n'étaient pas donnés en
+              1941, fonctionnent maintenant. - Le Conseil examine la possibilité de reprendre une
+              autre session de rééducation pour les nouveaux non encore rééduqués, beaucoup
+              d'administrateurs donnent leur avis. Il est reconnu qu'il serait désirable de laisser
+              un peu plus de place dans la maison pour les anciens. Le Conseil serait disposé à
+              reprendre une session moins chargée. La question sera définitivement tranchée lors
+              d'une prochaine séance. .</p>
+            <p>Franceville. - Amblard rend compte de son voyage à Franceville, où les pavillons sont
+              assez endommagés. Il est procédé aux réparations urgentes et des mesures sont prises
+              pour la conservation de nos pavillons et garantir nos droits.</p>
+            <p>Le Conseil approuve les décisions prises. Insignes. - Guespereau donne la description
+              d'un insigne qu'il a fait établir et nous présente la maquette. Le Conseil accepte le
+              modèle soumis, félicite Guespereau et propose de commander mille insignes.</p>
+            <p>Le Conseil prononce l'adhésion des nouveaux membres suivants : Membres titulaires
+              définitifs : DEHAN Paul, 5, rue Stanislas-Meunier, à Paris (20'); DURELLE Edmond, 71,
+              rue de la Gare à Bully-les-Mines (P.-de-C.); ESCHERICH Edouard, rue des Sables, à
+              Saint-Amand (Cher); LE POCHAT Henri, 1, rue de la Providence, Quimper (Finistère);
+              MAURICE Jean, Avenue du Général-de-Goyon, Chantenay-Nantes (L.-Inf); VALY Joachim,
+              Belle-vue, Pontivy (Morbihan). Membres titulaires provisoires : BLAYES Paul,
+              Graissessac (Hérault); BOUHADIBA Gali, 1, rue d'Orchampt, Paris (18'); BOUHALI
+              Bernard, actuellement en rééducation, 49, rue Blanche; BONNET Marcel d* DELCHAMBRE
+              François, 50, Bd St-Jacques, Paris (14'); DESLIAS Jean, 18, rue Parmentier, Villejuif
+              (Seine); ERHARD Jean-Marie, actuellement en rééducation à l'U. A. G.; GERBOD Camille,
+              60, Bd Victor-Hugo, Poissy (S.-et-O.); GHIGHI Georges, en rééducation à l'U. A. G.;
+              GIRACCA Aimé, 20, rue J.-Guesde, Charleville (Ardennes); GUIGNARD Pierre, Saint-Martin
+              de Saint-Maixent (Deux-Sèvres); HUBERT Eugène, 13, rue de Pontoise, Houilles
+              (S.-et-O.); LEGRAND Eugène, 248, rue Duguesclin, Lyon (3'); MAURIN Raymond, Fbg La
+              Vidalie, Thiers (P.-de-C.); MOREAU Maurice, Marolle-les-Brault (Sarthe); PARADE
+              Marcel, 116, Fbg St-Martin, Paris (10'); PIERA Baptiste, 14, rue Daru, Paris; ROHAUT
+              Marius, Candas (Somme); SCHAMBION Robert, 14, rue Parallèle, Strasbourg (Bas-Rhin);
+              WILLAY Roland, 182 bis, Bd Lahure, Douai (Nord).</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+            <p>Membres Associés</p>
+            <p>GENTEL Marcel, Lay-Saint-Christophe (M-et-M.); GUEDRAS Fernand, Brise du Large,
+              St-Quay-Portrieux (G.-du-N.); GUYOT André, Saint-André-sur-Vieux-Jonc (Ain).
+              Bloncourt, Vice-Président de la Commission des Pensions à la Chambre, parle des
+              relations de cette Commission avec l'U.F.A.C. - revalorisation des pensions et
+              retraite des Combattants pour les plus âgés.</p>
+            <p>Amblard demande que soit envisagée l'assimilation des veuves des articles 10 aux
+              veuves âgées de 60 ans ou incapbles de travailler.</p>
+            <p>Bloncourt exprime sa sollicitude pour l'U. A. G. Livre-Parlé. - Muller expose où en
+              est le livre-parlé à l'U. A. G. Il rappelle : 1<hi rend="superscript">°</hi> ) la
+              motion des cuvres d'aveugles civils qui demandent le retour du, L. P. à l'A B. P. -
+                2<hi rend="superscript">°</hi> Il évoque le voyage de M. Raverat qui est allé en
+              Amérique chercher des instructions pour la reprise du Livre parlé par l'A. B. P. - Ces
+              deux points mettent l'Union dans une situation d'incertitude. Il rend compte de ses
+              démarches auprès du Ministère des Affaires Etrangères et du Ministère de l'Education
+              Nationale, qui feraient des commandes à l'U. A. G., ce qui nous amènerait à créer une
+              Association auxiliaire.</p>
+            <p>Il est donné lecture du rapport de Cornu sur la réunion de la Commission. Ce dernier
+              envisage la question au point de vue propagande. Izaac estime qu'on peut continuer à
+              fonctionner en attendant la décision de l'A. B. P.</p>
+            <p>Nicolaï désire que nous fixions notre attitude au cas où l'A. B. P. reprendrait le
+              Livre-parlé. Conan résume les conditions dans lesquelles l'Union a pris la gestion de
+              l'A. B. P. pendant la guerre y compris le Livre-parlé. Favret estime qu'on doit éviter
+              un conflit et rappelle le désir des aveugles civil. Nicolaï estime qu'on ne doit pas
+              entrer en conflit avec l'A. B. P. Fauvel serait partisan d'une collaboration. Pour
+              Amblard, l'important est que les camarades aient des disques et préconise l'entente
+              avec l'A. B. P.</p>
+            <p>Le Président met aux voix la motion présentée par Nicolaï ainsi conçue : "Le Conseil
+              d'Administration autorise le Bureau et la Commission à poursuivre leurs études en vue
+              de l'exploitation éventuelle du Livre-parlé ".</p>
+            <p>Adopté à l'unanimité. Legs. - Après avoir pris connaissance des dispositions
+              testamentaires en date à Paris du 1<hi rend="superscript">er</hi> juin 1943, de Mme
+              Eugénie-Elvire Bouley, veuve Gonchon, décédée en son domicile à Paris, 8, avenue
+              VictorHugo, le 27 janvier 1945, par lesquelles elle lègue la moitié du surplus de sa
+              fortune à l'Union des Aveugles de Guerre.</p>
+            <p>Le Conseil d'Administration accepte à l'unanimité sous Lenéfice d'inventaire,
+              lesdites dispositions et donne tous pouvoirs à son Trésorier, M. Gaston l'Evesque,
+              pour encaisser le legs au nom de l'Union des Aveugles de Guerre, prendre tous
+              engagements et faire le nécessaire.</p>
+            <p>Après avoir pris connaissance de la demande formulée par M. le Conservateur des
+              Hypothèques de Pontoise, relativement à la radiation de l'inscription prise au profit
+              de l'Union des Aveugles de Guerre contre M. Pellier, le Conseil d'Administration donne
+              pouvoirs à son trésorier, M. Gaston l'Evesque, de donner mainlevée de cette hypothèque
+              et de faire tout le nécessaire à cet effet.</p>
+            <p>Caisse Prévoyance. - Au nom du Bureau, Muller présente un projet tendant à autoriser
+              les membres de la Caisse à souscrire une part supplémentaire, ce qui porterait à Frs :
+              20.000 , l'allocation versée en cas de décès. Il y aurait lieu d'opérer un rappel des
+              cotisations depuis 1938, avec intérêts simples. Muller donne toutes les explications
+              qui ont amené à prendre cette solution plus simple et plus pratique de demander au
+              Conseil de se prononcer. Les administrateurs s'inquiètent pour ce nouveau versement
+              qui rapporterait un intérêt moindre que le précédent et après avoir bien examiné la
+              question, ils sont d'accord pour demander qu'un actuaire soit consulté sur le point
+              qui leur est soumis.</p>
+            <p>Budget. - Le Conseil se livre ensuite à la lecture d'un avant projet de budget,
+              l'année n'étant pas encore terminée, cette étude permettant de fixer déjà certains
+              postes. Les Administrateurs font remarquer que les dépenses sont notablement
+              supérieures aux rentrées. Amblard établiera le montant des dépenses effectives, ce qui
+              donnera une idée exacte de l'effort fait par l'Union. Le budget définitif sera établi
+              en 1946. Laffargue est nommé membre de la Commission des Finances en remplacement de
+              Duc.</p>
+            <p>La séance est levée à 18 heures.</p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION DU 28 SEPTEMBRE 1945</head>
+            <p>La séance du Conseil d'Administration était précédée par une réunion des Présidents
+              et Délégués de nos Sections qui ont examiné avec le Bureau la possibilité de la
+              création de nouvelles sections de l'U. A. G., en concordance avec les Statuts de l'U.
+              F. A. C. Quand la question sera définitivement au point, des instructions seront
+              données à nos camarades des départements.</p>
+            <p>La séance du Conseil est ouverte à 15 h .15 . Eatient présents : Amblard, Bodin,
+              Brusson, Bois, Cabasson, Céré-Labourdette, Chalendar, Cornu, Derunder, Favret, Fauvel,
+              Guespereau, Guillam, Izaac, Laffargue, Leveau, L'Evesque, Nicolai Jean, Noireaux, Roy
+              Georges, Satgé.</p>
+            <p>Assistaient à la séance : Albespy, Allemant, Almey, Angot, Cattaert, Cointepas,
+              Debouserie, Dupuy Marius, Fourment, Galard, Hauser, Jacquet, Pagenel, Planquette,
+              Ronquette, Emo, Lardet, Bérard, Ollivier, Fonchy.</p>
+            <p>Excusés : Bertrand, pouvoirs à Amblard. Conan. Couesnon. Duc, pouvoirs à Cornu.
+              Sibiril. Grillet. Izaac souhaite la bienvenue à Brusson qui a été retenu dans la poche
+              de La Rochelle. Procès-verbaux. - Le procès-verbal de l'Assemblée Générale est mis aux
+              voix après une modification demandée par Noireaux. Il est accepté à l'unanimité.</p>
+            <p>Les procès-verbaux des Conseils des : 4 mai, 6 mai et 8 juin sont également adoptés.
+              Situations financières. - Bodin et Céré demandent quelques explications. Laffargue
+              demande qu'une étude comparative des situations financières soit faite avec celles
+              d'avant-guerre. En considérant les fortes dépenses du moment, Chalendar demande que
+              des économies soient faites. Amblard indique que certaines dépenses seront effectuées
+              par l'emploi des fonds venus de l'Office National. Les situations de juin, juillet et
+              août sont adoptées.</p>
+            <p>Le Conseil approuve l'octroi à des Victimes Civiles, H. B. et A. D., de deux
+              remboursements Caisse maladie et deux allocations pour enfants au camarade R. H.</p>
+            <p>De plus, le Conseil décide d'annuler des reliquats de dettes contractées par des
+              camarades dont la pension a été supprimée, ainsi que le reliquat de prêts dûs par
+              quelques veuves. Ce sont :</p>
+            <table>
+              <row>
+                <cell>Vve T</cell>
+                <cell>2.225</cell>
+                <cell>" Camarade</cell>
+                <cell>D</cell>
+                <cell>2.500</cell>
+              </row>
+              <row>
+                <cell>Vve C</cell>
+                <cell>2.300</cell>
+                <cell>" "</cell>
+                <cell>Del.</cell>
+                <cell>3.735</cell>
+              </row>
+              <row>
+                <cell>Vve D</cell>
+                <cell>4.200</cell>
+                <cell>" "</cell>
+                <cell>S</cell>
+                <cell>1.000</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell/>
+                <cell> "</cell>
+                <cell>N</cell>
+                <cell>1.000</cell>
+              </row>
+            </table>
+            <p>Pensions. - Izaac indique que le Meeting du 20 Septembre est motivé par le manque de
+              réponse du Ministre des Finances, sollicité fin juillet.</p>
+            <p>Amblard retrace les différentes démarches entreprises jusqu'à ce jour et résume les
+              discussions du Comité d'Entente où l'accord est unanime pour le relèvement des
+              pensions au coefficient 3. Si les réponses attendues le lendemain ne sont pas
+              satisfaisantes, une manifestation est prévue. Brusson s'en montre partisan ainsi que
+              Fauvel qui évoque l'action de la province. - Les administrateurs s'inquiètent des
+              pensions des veuves et du Code de la Famille pour les enfants. Leveau déplore que
+              depuis la libéra- <pb n="11"/>
+              <note type="foliation">— 11 —</note> tion on ne soit plus entendu. Nicolaï s'inquiète
+              du montant de l'augmentation demandée. Il est entendu que l'amélioration doit
+              représenter trois fois l'ensemble des émoluments de 1939. Nicolaï, Fauvel et Leveau
+              demandent que des nouvelles soient envoyées fréquemment aux Administrateurs. Ceux-ci
+              sont d'accord pour que l'action soit menée le plus vigoureusement possible au mieux de
+              nos intérêts. U. F. A. C. - Izaac donne quelques explications sur l'U. F. A. C. dont
+              il est Membre du Bureau. Il parle du règlement intérieur, de l'épuration et en vient à
+              l'organisation des provinces. Il suggère que dans chaque département l'Union groupe
+              les camarades pour qu'ils soient représentés sur le plan départemental.</p>
+            <p>Leveau propose qu'un seul délégué soit nommé par département où la constitution d'une
+              section n'est pas possible. Guillam demande que les camarades optent pour l'Union afin
+              d'être représentés.</p>
+            <p>Izaac rappelle l'intérêt qu'ont les Aveugles de Guerre à compter à l'U. F. A. C. en
+              tant que membre de l'Union et demande un vote de principe. le Bureau organisant au
+              moment voulu les sections, et donne toutes informations aux camarades. Il est entendu
+              que l'on peut faire partie d'autres associations, mais qu'on ne peut se faire
+              représenter que par une seule. Izaac propose la création de la section de la région
+              parisienne. Le Bureau de l'Union entend suivre la Section de la Seine.</p>
+            <p>Le Conseil accepte la proposition. Rééducation. - Le Secrétaire-Général a fait un
+              exposé de l'organisation de la maison de rééducation. Il indique que 56 élèves
+              pourront être reçus à la fois. Il est décidé que les chambres de la Maison resteront à
+              la disposition des camarades de passage.</p>
+            <p>Brusson et Chalendar demandent quelques explications. Fauvel propose certains moyens
+              de propagande. Hauser remet un chèque de Frs 30.000 . Le Président le remercie de son
+              action.</p>
+            <p>Caisse Prévoyance. - Chalendar propose une amélioration au fonctionnement de la
+              Caisse Prévoyance. Muller sera chargé d'étudier la question.</p>
+            <p>Questions diverses. - Izaac fait part de l'intention du Bureau de réorganiser le
+              Comité d'Action qui sera nécessaire pour l'avenir.</p>
+            <p>Amblard demande que le prix des chambres de la maison soit relevé. Il propose le prix
+              de Frs : 15, par jour, ce qui est adopté.</p>
+            <p>Legs. - Après avoir pris connaissance des dispositions t'estamentaires de Mme
+              Charlotte Mairet, demeurant à La Baule-les Pins, avenue Saint-Georges, villa Farfadet,
+              divorcée, puis veuve de M. Armand Chaperon, décédée le 4 août 1945, par lesquelles
+              elle institue par testament authentique du 5 septembre 1945 l'Union des Aveugles de
+              Guerre pour légataire universelle, le Conseil d'Administration décide à l'unanimité
+              d'accepter ces dispositions testamentaires, sous bénéfice d'inventaire, et donne tous
+              pouvoirs à son Trésorier, M. G. L'Evesque, pour encaisser le legs au nom de l'Union
+              des Aveugles de Guerre, prendre tous engagements et faire le nécessaire.</p>
+            <p>Par ailleurs, après avoir pris connaissance des dispositions testamentaires de Mme
+              veuve Baroux, née Blancin Augustine, Marie-Louise, en son vivant demeurant à Paris,
+              14, Bd Ornano, décédée en son domicile le 13 mai 1945, par lesquelles elle institue
+              par testaments mystiques des 18 mai 1931 et 20 mai 1932 et authentique du 8 mai 1945,
+              l'Union des Aveugles de Guerre comme légataire particulière, le Conseil
+              d'Administration décide à l'unanimité d'accepter ces dispositions testamentaires, sous
+              bénéfice d'inventaire, et donne tous pouvoirs à son trésorier, M. Gaston L'Evesque,
+              pour encaisser le legs au nom de l'Union des Aveugles de Guerre, prendre tous
+              engagements et faire le nécessaire.</p>
+            <p>Cas Mauger. - Une enquête ayant été ordonnée par l'Assemblée Générale pour l'affaire
+              Mauger, trois camarades sont désignés : Muller, Céré et Leveau.</p>
+            <p>Cas Dupuy, d'Albi. - Le Conseil est informé que le camarade Dupuy est frappé
+              d'indignité nationale. Par application des Statuts, la radiation de ce camarade est
+              demandée.</p>
+            <p>Le Conseil approuve. Chalendar vote contre. Abstentions : Bodin, Derander, Satgé.
+              Espérantistes. - Une somme de Frs : 1.500 , est votée pour l'allocation des
+              espérantistes aveugles.</p>
+            <pb n="12"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">ADMISSION DE NOUVEAUX
+              MEMBRES</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Titulaires Définitifs
+                :</head>
+              <p>CHALAS Raoul, Chambœuf, par St-Galmier (Loire). CHARBONNEL Emile,
+                St-Florent-des-Bois (Vendée). MEUNIER Georges, Bourg de Plœren (Morbihan).
+                QUEFFURUST Jean-Louis, Donjacq-Lambezellec, Brest (Finistère). ROUTABOUL Marie,
+                Vabre, Commune Onet-le-Château (Aveyron). VAVASSEUR André, 2, rue du Clos-Pinet,
+                Mantes (Seine-et-Oise). VIGUIER Henri, 8, rue du Capitaine-Ferber,
+                Issy-les-Moulineaux.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">Membres Associés :</head>
+              <p>AGAESSE Raymond, 8, rue Nominoë, Rennes (Ile-et-Vilaine). BABEL André,
+                Granges-sur-Valogne (Vosges). BECHET Hubert, Sainte-Honorine-la-Guillaume (Orne).
+                BLANCHET Bernard, 42, rue Paul-Doumer, Etampes (Sue-et-Oise). GHISTE Gaston, 13, rue
+                Benjamin-Delessert, Pantin (Seine). LE GLEAN Furey, rue Aristide-Briand, Saint-Renan
+                (Finistère). MARRANNES André, 9, rue Perronet, Neuilly-sur-Seine. THEVENET Paul, 2,
+                rue Paul-Escudier, Paris ( 9<hi rend="superscript">°</hi> ).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">Membres titulaires
+                provisoires :</head>
+              <p>BOCHE Joseph, rue de l'Hôpital prolongée, Vannes (Morbihan). BEEUF André, chez M.
+                Isaia, 30, rue de l'Escarène, Nice. CARRE Charles, Languevoisin par Nesle (Somme).
+                CARRIER Jacques, Moulin de l'Aurianne, Apt (Vaucluse). CERDAN Robert, 6, rue des
+                Moulins, Oran (Algérie). CHAUTARD Jean-Louis, 16<hi rend="superscript">°</hi> bis,
+                rue Emile-Zola, Villejuif (Seine). COURTECUISSE Ferdinand, rue Emile-Basly,
+                Courcelles-les-Lens (P.-de-C.) DEJEAN DE SAINT-MARCEL, 19, Bd Alphonse-Moutte,
+                Saint-Just Marseille. DOUTREUVE François, 22, rue Chanzy, Orléans (Loiret). ESPENEL
+                Aimé, Valence. FAURE René, 53, rue de Guise, Lyon ( 4<hi rend="superscript">°</hi>
+                ). GOMEZ André, 18, rue du Collège, La Flèche (Sarthe). FLORES François, 11, rue
+                Edouard-Choupot, Oran. GRASSO Alfred, 10, rue de Lunéville, Casablanca (Maroc).
+                GARIBALDI Séraphin, 3, Bd d'Hanoï, La Viste, Marseille. GRISARD Gilbert, 170, avenue
+                Jean-Jaurès, Paris. HALTER Georges, 2, rue du Lieutenant-Bildstein, Sarrebourg. LE
+                MENE Joseph, 22, rue de Kerlerec, Quimper. PENIN Georges, 77, rue d'Aire, Hazebrouck
+                (Nord). RIMONT Jean-Marie, Montjoie, lieu dit Peyrauté. MALPEL, 9, avenue Diderot,
+                Saint-Maur-des-Fossés (Seine). L'ordre du jour étant épuisé, à 18 h .30 la séance
+                est levée.</p>
+              <pb n="13"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">SOUSCRIPTION POUR LES
+              SINISTRÉS</head>
+            <p><list>
+                <item>BOZZENNEC — 500</item>
+                <item>Vve DARASPE — 100</item>
+                <item>VUOTTO — 65</item>
+                <item>DUCOS Louis — 100</item>
+                <item>ROLLAND Pierre — 100</item>
+                <item>BON Antonin — 100</item>
+                <item>CORBEL Yves — 100</item>
+                <item>FAUCON Louis — 100</item>
+                <item>LE BEUVANT — 1.500</item>
+                <item>MARQUET — 40</item>
+                <item>BONDON — 50</item>
+                <item>VACHON Louis — 520</item>
+                <item>BARDE Cyprien — 50</item>
+                <item>SERRE Léon — 50</item>
+                <item>GRILLON — 100</item>
+                <item>VALADEAU — 100</item>
+                <item>Total — 3.575</item>
+              </list> Portant le total de la souscription à 156.29870.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>MAHMOUD HADJ MOHAMED BELGHALI, de Téboulba (Tunisie), sa fille Salma, le 15 décembre
+              1945.</p>
+            <p>GOMEZ André (1939-45), de la Flèche (Sarthe), sa fille Marie-France, le 29 décembre
+              1945. PINCON Louis (1930-45), de St-Christophe-des-Bois (L-et-V.), son fils Louis, le
+              16 décembre 1945. DELCHAMBRE François (1939-45), de Paris, son fils Jean-Serge, le 23
+              décembre 1945. FAVRET René, de Paris, sa petite-fille Françoise, le 21 janvier 1946.
+              LEVEAU Désiré, de Pantin (Seine), sa petite-fille, décembre 1945. POIRSON Georges, de
+              Nancy (M.-et-M.), son petit-fils Marc, le 12 décembre 1945. PANNETRAT, de
+              St-Loup-s.-l'Anjou (Hte-Marne), sa petite-fille Claude-Madeleine, le 25 janvier 1946.
+              COLAS Albert, d'Aubervilliers (Seine), son petit-fils Jean-Claude, le 6 novembre 1945.
+              Nous adressons nos félicitations aux heureux parents et nos voux de prospérité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">MARIAGES</head>
+            <p>Les Camarades suivants nous font part des célébrations de mariage : HOCQ Robert, de
+              Burbure (Pas-de-Calais), le 10 novembre 1945. BABEL André, de Granges-s.-Vologne
+              (Vosges) avec Mlle Renée COLLE, le 2 octobre 1945. GRELIER P., de Nantes (Loire-Inf.),
+              sa fille avec M. VILALLONGNE, le 12 septembre 1945. AGNUS Alfred,
+              d'Arnouville-les-Gonesse (S.-et-O.), son fils Georges avec Mlle Colette Lemoine, le 27
+              octobre 1945.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+            <p>MOTTE E., de Villequier (Seine-Inf.), sa fille Geneviève avec M. Robert DELAHAYE, le
+              20 novembre 1945.</p>
+            <p>JEANNIARD G., de Dijon (Côte-d'Or), sa fille Renée avec l'adjudant-chef Robert DARRE,
+              Décembre 1945.</p>
+            <p>DELHOMME Armand, de Poitiers (Vienne), sa fille Henriette avec M. Robert MINDE, le 5
+              janvier 1946.</p>
+            <p>GUIHARD Louis, de Missillac (Loire-Inf.), son fils Louis avec Mlle Léontine DENIGOT,
+              le 15 janvier 1946; sa fille Marie avec M. Louis MOUREAUX, le 15 janvier 1946.</p>
+            <p>LE ROUX Jean, de Gourin (Morbihan), son fils Pierre avec Mlle Suzanne DELIE, le 20
+              décembre 1945. SALETTES Zéphirin, de Carcassonne (Aude), son fils Lucien avec Mlle
+              Marie-Louise ARNAUD, le 26 janvier 1946.</p>
+            <p>Nous adressons nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">DECES</head>
+            <p>PELLIER Albert, de Taverny (S.-et-O.), le 6 décembre 1945. LEIBEL Xavier, de Munster
+              (Ht-Rhin, le 9 décembre 1945. FRANCOIS Elie, de Paris (XI <hi rend="superscript"
+                >°</hi> ), le 18 décembre 1945. ROSSO Honoré, de Cannes (Alpes-M.), le 29 décembre
+              1945. LAVAUR Sylvain, de Florentin-la-Capelle (Aveyron), le 1er janvier 1946. VAYNE
+              Pierre, d'Espartignac (Corrèze), le 11 janvier 1946. CARUDEL Louis, de Nozay
+              (Loire-Intérieur), le 19 janvier 1946. PETIT Louis, de Paris (XIX <hi
+                rend="superscript">°</hi> ), le 26 janvier 1946. La mère de Albert RAY, de
+              Villemotier (Ain), le 10 janvier 1946, dans sa 88<hi rend="superscript">°</hi> année.
+              La mère de Charles SATGE, d'Albi (Tarn), le 13 janvier 1946. La belle-fille Juliette,
+              de Emile BONNET, d'Aussillin, près Mazamet (Tarn), le 28 septembre 1945, à l'âge de 25
+              ans.</p>
+            <p>Le gendre de CHAVASTELON Antoine, de Lavialle, près Sornac (Corrèze), à l'âge de 36
+              ans. Nous adressons aux familles éprouvées nos plus vives condoléances.</p>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">PETITES ANNONCES</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">APPAREILS POUR JOUEURS DE
+                BRIDGE</head>
+              <p>Il a été créé pour vous et par un de nos membres, un petit appareil permettant
+                l'inscription du mort et de suivre son jeu pendant la partie. La fabrication étant
+                limitée, hâtez-vous de demander la notice explicative avec timbre réponse, au
+                camarade :</p>
+              <p>René BAUMES - aveugle de guerre - Le Petit-Cottage, VENGE (Alpes-Maritimes)</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">MACHINE A ECRIRE A
+                VENDRE</head>
+              <p>Marque Remington, modèle commercial, caractères invisibles, en bon état. S'adresser
+                à Mme Louis BUTEAU, 5, place Gudin, Château-Chinon (Nièvre).</p>
+              <list>
+                <item>Léon-Désiré TERNOIS, rue des Vignes, Thourotte (Oise), est acheteur d'un pneu
+                  neuf ou d'occasion en bon état, pour auto N° 1245$.</item>
+                <item>Mme CHAUVEL, rue Vigée-Lebrun, à Louveciennes (Seine-et-Oise), garderait un
+                  enfant en bas âge.</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">VINS VIEUX EN
+                BOUTEILLES.</head>
+              <p>- Par caisses de 25 bouteilles, à partir de 120 frs la bouteille, droits et taxes
+                compris. S'adresser au camarade S. NFAYT, 71, rue du Pont-Saint-Jean, BERGERAG,
+                (Dordogne).</p>
+              <pb n="16"/>
+            </div>
+          </div>
+          <fw>Imprimante PIETRINI ROUEN 3643</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

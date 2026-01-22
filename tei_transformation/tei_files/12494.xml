@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 34ème année 1955 n°90</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Union des Aveugles de Guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Réunions</title>
+        <title type="topic">Voyages</title>
+        <title type="topic">Maisons de repos</title>
+        <title type="topic">Cotisations</title>
+        <title type="topic">Décès</title>
+        <title type="topic">Mariages</title>
+        <title type="topic">Naissances</title>
+        <title type="topic">Sections régionales</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 20 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#union">Union</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#assemblee">Assemblée</term>
+          <term ref="#voyages">Voyages</term>
+          <term ref="#vacances">Vacances</term>
+          <term ref="#sections">Sections</term>
+          <term ref="#cotisations">Cotisations</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un large éventail de sujets
+          pertinents pour ses membres. Il détaille les informations concernant les pensions et les
+          améliorations prévues, notamment pour les veuves. Le bulletin encourage la participation à
+          la vie de l'Union et met en avant les activités des différentes sections régionales. Des
+          informations pratiques sont également fournies concernant les voyages en avion, les
+          maisons de repos disponibles et les services de lecture par disque. Enfin, le bulletin
+          inclut des annonces de mariages, de naissances et de décès, ainsi que des informations sur
+          les cotisations et des petites annonces.</p>
+      </abstract>
+      <creation>
+        <date when="1955-06-01">01/06/1955</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOS PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h5">La participation à la vie de l'Union</ref>
+          </item>
+          <item>
+            <ref target="#h6">NOTRE TIMBRE 1955</ref>
+          </item>
+          <item>
+            <ref target="#h7">LA JOURNÉE MONDIALE DES ANCIENS COMBATTANTS 26 JUIN 1955</ref>
+          </item>
+          <item>
+            <ref target="#h8">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h9">VOYAGES EN AVION</ref>
+          </item>
+          <item>
+            <ref target="#h10">NOS MAISONS DE REPOS</ref>
+            <list>
+              <item>
+                <ref target="#h11">A FRANCEVILLE</ref>
+                <list>
+                  <item>
+                    <ref target="#h12">MOIS DE JUILLET</ref>
+                  </item>
+                  <item>
+                    <ref target="#h13">MOIS D'AOUT</ref>
+                  </item>
+                  <item>
+                    <ref target="#h14">MOIS DE SEPTEMBRE</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h15">A CARNOLES</ref>
+                <list>
+                  <item>
+                    <ref target="#h16">MOIS DE JUILLET</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">MOIS D'AOUT</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">MOIS DE SEPTEMBRE</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h19">A AMELIE-LES-BAINS</ref>
+                <list>
+                  <item>
+                    <ref target="#h20">MOIS DE JUILLET</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">MOIS D'AOUT</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">MOIS DE SEPTEMBRE</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h23">A BOULLEVILLE</ref>
+                <list>
+                  <item>
+                    <ref target="#h24">EN JUILLET</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">" LES LECTURES PAR LE DISQUE " BANDES MAGNETIQUES</ref>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h26">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h27">SECTION REGIONALE DU NORD ET DU PAS-DE-CALAIS Réunion annuelle du
+                  21 avril 1955.</ref>
+              </item>
+              <item>
+                <ref target="#h28">SECTION REGIONALE DES AVEUGLES DE GUERRE DU HAUT-RHIN, BAS-RHIN,
+                  MOSELLE</ref>
+              </item>
+              <item>
+                <ref target="#h29">REUNION ANNUELLE DE LA SECTION DE LORRAINE</ref>
+              </item>
+              <item>
+                <ref target="#h30">PRESIDENTS DE SECTION</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h31">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h32">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h33">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h34">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h35">COTISATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h36">COTISATIONS ORDINAIRES (200 FRANCS) reçues du 12 mars au 7 juin
+                  inclus.</ref>
+              </item>
+              <item>
+                <ref target="#h37">COTISATIONS CAISSE DE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h38">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h39">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h40">COTISATION VOLONTAIRE BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h41">PETITES ANNONCES</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">34e Année. — N° 90</fw>
+          <fw type="header">
+            <hi rend="underline">JUIN 1955</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Nos pensions.</item>
+                    <item>La Participation à la vie de l'Union.</item>
+                    <item>Notre timbre 1955.</item>
+                    <item>La Journée mondiale des Anciens Combattants.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Voyages en avion.</item>
+                    <item>Nos maisons de repos.</item>
+                    <item>Les lectures par le disque.</item>
+                    <item>Dans nos Sections.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                    <item>Mariages - Naissances - Décès.</item>
+                    <item>Cotisations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. IZAAC. Vice-Présidents : H. GUESPEREAU, E. GUILLAM, G. MULLER.</p>
+            <p>Secrétaire Général : H. AMBLARD. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>MM. F. BERTRAND, P. BODIN, P. BOIS, J. BRUSSON, P. CATTAERT, J. CERE-LABOURDETTE, A.
+              CHALENDAR, E. CHAPAS, E. CORNU, R. COUESNON, P. DERUNDER, A. FAUVEL, R. FAVRET, Y.
+              GUIBERT, Y. JEZEQUEL, A. LAFFARGUE, D. LEVEAU, R. MATHIEU, J. NICOLAI, M. RAVELEAU, G.
+              ROBIN, G. ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>34e Annee. - N° 90 JUIN 1955</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOS PENSIONS</head>
+            <p>Le Plan quadriennal (loi du 31 décembre 1953) est entré dans sa seconde année et l'on
+              connaît les difficultés qui se sont présentées tout d'abord pour avoir les crédits
+              nécessaires à son exécution en 1955 et ensuite, une fois la huitaine de milliards
+              obtenus, le problème s'ensuivit pour la répartition de ces milliards.</p>
+            <p>Si nous, grands invalides, avons eu satisfaction et nous devons le reconnaître, dans
+              la première année, il n'en est pas de même des parties intéressées au plan. Il y a les
+              mutilés jusqu'à 85%, les veuves, les ascendants, la retraite du combattant, les
+              différents pécules à attribuer, toutes catégories qu'il est impossible à satisfaire
+              pleinement, étant donné que le complet effet du plan ne se fera sentir qu'en décembre
+              1957.</p>
+            <p>Nous aurions aimé qu'un gros effort soit fait en faveur des veuves, afin qu'elles
+              puissent avoir, le plus tôt possible, le chiffre de pension qui a été fixé à leur
+              profit. Parmi ces veuves, il y a deux catégories : celles qui ont la pension au taux
+              normal et celles qui ont la pension au taux exceptionnel, c'est-à-dire celles qui ont
+              60 ans révolus. Pour ces dernières, un petit effort avait été fait l'année précédente
+              et nous croyons savoir qu'un second effort sera fait cette année.</p>
+            <p>Cette année-ci également, les veuves dont la pension est au taux normal,
+              c'est-à-dire, celles qui n'ont pas 60 ans, verront leur pension améliorée, sans
+              toutefois atteindre encore le chiffre de presque 120.000 qu'elles devront toucher en
+              1957.</p>
+            <p>Voilà les quelques renseignements que nous pouvons donner surtout aux veuves,
+              particulièrement aux veuves d'aveugles de guerre pour lesquelles nous voudrions voir
+              s'installer une situation spéciale, ce qui a fait d'ailleurs l'objet du vœu premier de
+              notre dernière assemblée.</p>
+            <p>Un décret paraîtra sous peu et des détails précis seront donnés à ce moment. H.
+              AMBLARD.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">La participation à la vie de
+              l'Union</head>
+            <p>L'Assemblée Générale nous a donné l'occasion d'être plus particulièrement en contact
+              les uns avec les autres et, administrateur, délégué de section, ou simple militant (ce
+              qui n'est pas le moindre titre), chacun a pu se rencontrer, échanger des idées et
+              émettre des suggestions.</p>
+            <p>Tout cela est fort bien et nous sommes très touchés de l'intérêt que nos camarades
+              prennent à la vie de l'U.A.G., même lorsqu'ils ne peuvent se rendre à Paris au moment
+              de cette assemblée. Ils tiennent cependant à émettre leur avis, soit par le vote, soit
+              par les pouvoirs qu'ils donnent à ceux qui doivent les représenter.</p>
+            <p>Nombreux sont ceux d'ailleurs qui profitent de nos réunions de sections. Ces
+              présences sont d'un grand réconfort pour les présidents, toujours extrêmement dévoués
+              et qui se donnent énormément de peine pour organiser ces réunions, lesquelles sont de
+              plus en plus réussies.</p>
+            <p>Toutefois, remarquons en passant que quelques camarades qui habitent dans la ville où
+              est fixé le rendez-vous ne se dérangent pas, alors que d'autres s'imposent des voyages
+              parfois peu pratiques dans le département et couchent en route pour avoir la joie de
+              se trouver réunis.</p>
+            <p>Nous savons bien que ceci se retrouve partout, mais nous signalons cependant le cas
+              et nous voudrions aussi dire qu'il nous a été donné de noter certaines abstentions
+              incompréhensibles au moment du vote.</p>
+            <p>Est-il si difficile de choisir dix noms de camarades qui méritent votre confiance
+              pour le renouvellement du Conseil? Au cours de l'année, il est aisé de suivre le
+              travail de vos administrateurs et il nous paraît assez paradoxal qu'on ait recours,
+              très souvent, à une association pour laquelle on ne se donne pas la peine de nommer
+              les dirigeants.</p>
+            <p>Nous sommes persuadés que cette observation fera réfléchir les abstentionnistes qui
+              pensent que tout ne va pas si mal que cela à l'U.A.G., nous le savons, et qui font
+              confiance à ceux qui s'en occupent, mais nous désirons davantage. Nous voulons une
+              adhésion plus active et nous espérons que le nombre des abstentions au vote, qui n'est
+              pas énorme, sera encore moins grand et ce sera là notre récompense. H. AMBLARD.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">NOTRE TIMBRE 1955</head>
+            <p>Tous les ans à pareille époque, nous émettons un timbre à titre de propagande. Il
+              représente cette année la tête d'un guerrier aveugle casqué, image symbolique de
+              l'aveugle de guerre.</p>
+            <p>Chacun d'entre-nous sait pourquoi nous nous adressons au public : la rééducation, les
+              maisons de repos, le livre-parlé, la bibliothèque Braille, le complément de frais
+              maladie, les prêts maisons, les aides exceptionnelles, etc..., etc...</p>
+            <p>Si nos camarades sont interrogés, ils seront donc avertis sur la valeur de ce timbre
+              et il est de leur devoir de conseiller à leurs amis de se le procurer, afin que
+              l'Union puisse obtenir les ressources nécessaires au bon fonctionnement de ses
+              services.</p>
+            <p>Persuadés que tous nos camarades feront le maximum pour l'U.A.G., nous les en
+              remercions et les prions d'éclairer le public et leurs amis sur notre action et nos
+              intentions.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LA JOURNÉE MONDIALE DES ANCIENS
+              COMBATTANTS 26 JUIN 1955</head>
+            <p>Nos camarades se feront lire, certainement avec intérêt, l'appel que notre ami,
+              Albert Morel, Président de la Fédération Mondiale des Anciens Combattants, vient de
+              lancer à propos de la publication de la Charte des Nations Unies. "Anciens Combattants
+              du Monde, mes camarades, "La célébration de notre Journée revêt cette année une
+              importance particulière du fait qu'elle coïncide avec le dixième anniversaire de la
+              Charte de San-Francisco. "Des principes énoncés dans cette Charte nous avons fait
+              notre "Credo, et toute notre action, depuis que nous nous sommes réunis " en ce
+              groupement fraternel qu'est la Fédération Mondiale, a tendu "à en assurer
+              l'application dans les domaines où notre influence pou" vait utilement s'exercer.
+              "Nous avons toujours affirmé notre volonté de Paix, et, procla" mant avec conviction
+              que la guerre n'est pas fatale, nous avons tout " fait pour que la compréhension
+              s'institue entre les hommes. "Aujourd'hui, où les représentants les plus qualifiés
+              sont réunis " au lieu de sa naissance pour une commémoration solennelle, nous "
+              pouvons regarder l'avenir avec plus de confiance. "La lueur d'espoir grandit à
+              l'horizon, prélude attendu à une " aube de paix. "Après la signature du traité qui
+              rend à l'Autriche sa souverai" neté et son indépendance, les inquiétudes s'apaisent,
+              et la convic" tion s'établit peu à peu qu'une détente, combien souhaitable, est "
+              possible, et que l'on peut enfin renoncer aux procédés stériles et " dangereux de la
+              guerre froide. "Des conférences s'organisent, dans lesquelles les Chefs d'Etats,
+              "conseients de leurs responsabilités, devront rechercher les moyens " de faire
+              disparaître la méfiance, et de créer le climat propice à " l'amorce de ce désarmement
+              général, condition essentielle du main" tien de la Paix, que nous n'avons cessé de
+              réclamer. "Aussi pouvons-nous sans orgueil inconsidéré, mais aussi sans "fausse
+              modestie, faire en ce jour, que nous voulons solennel, Té " bilan de notre action.
+              "Nous nous confirmerons alors dans cette certitude que notre " volonté de Paix, de
+              respect de la personne humaine, de Justice et de "Liberté, répond aux aspirations
+              profondes de tous les hommes et " qu'en servant de toutes nos forces cet idéal, nous
+              servons encore nos "patries et leur indépendance, comme nous servons l'humanité tout "
+              entière. "</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LEGION D'HONNEUR</head>
+            <p>Nous sommes heureux d'âpp rendre que viennent d'être élevés à la dignité de Grand
+              Officier :</p>
+            <p>Emile-Louis MATHEY. Gabriel-René OLIE. Ont été promus Officiers : Jules DUFAY.
+              Francis FLORES. Gabriel NOBLET. A été nommé Chevalier : Yann HERVE. Nous adressons nos
+              très sincères félicitations à nos camarades.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">VOYAGES EN AVION</head>
+            <p>Par suite d'une entente avec les Services d'Air-France, il est accordé depuis le 16
+              mai, une réduction de 20% sur les tarifs aller simple de la Cie Nationale Air-France,
+              desservant la Métropole, l'Afrique du Nord et l'Union Française, en faveur des mutilés
+              bénéficiaires d'une pension de 85% et au-dessus.</p>
+            <p>Voici une amélioration intéressante pour ceux d'entre-nous qui se déplacent en France
+              et dans l'Union Française.</p>
+            <p>C'est un commencement qui nous permettra de demander ce que nous désirons depuis
+              longtemps, à savoir : la gratuité pour le guide, car en effet, un aveugle ne se
+              déplace pas en avion pour son unique plaisir. Ces voyages sont coûteux et de ce fait
+              les occasions de transports de nos camarades se trouvent réduites d'une façon
+              considérable.</p>
+            <p>Nous espérons que peu à peu il sera possible d'obtenir la gratuité du guide sur les
+              avions. Quelques-uns d'entre-nous seulement seront intéressés par cette question, mais
+              nous pensons que ce serait juste de nous accorder cet avantage.</p>
+            <p>En attendant, les camarades qui voudront profiter des mesures actuellement
+              existantes, devront présenter leur carte à double barre bleue pour que la réduction de
+              20% leur soit consentie.</p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">NOS MAISONS DE REPOS</head>
+            <p>Voici la saison des vacances qui amènera un grand nombre de nos camarades à séjourner
+              dans nos maisons de repos, Franceville d'abord, puis Carnolès.</p>
+            <p>Cette année-ci, nous aurons l'appoint de notre maison d'Amélie qui sera certainement
+              très appréciée.</p>
+            <p>La question des vacances est extrêmement importante pour nous, nos familles et nos
+              enfants. Cette période de détente est indispensable après une année de travail ou
+              d'études dans des villes bruyantes, étouffantes et surpeuplées, c'est pourquoi nous
+              prévoyons, dans la mesure de nos moyens, les améliorations nécessaires à notre
+              bienêtre.</p>
+            <p>C'est ainsi qu'à Carnolès, nous avons installé le chauffage central qui s'avère
+              indispensable après le coucher du soleil dans la saison d'hiver, même dans un climat
+              favorisé comme la Côte d'Azur. Dans l'ar-rière-saison, l'eau chaude pourra être
+              distribuée sur les lavabos et les éviers, d'où une économie de fatigue pour celles qui
+              ont tant à faire dans l'accomplissement de leurs tâches quotidiennes.</p>
+            <p>A Franceville, des cabines de bains sont installées. Si une journée maussade nous
+              surprend sur cette belle Côte Normande, il sera possible de se réfugier dans les
+              petites cabines en attendant le grain qui passe. C'est là le souci de vos
+              administrateurs et nous pensons, Chers Camarades, que vous serez tous satisfaits des
+              quelques améliorations apportées pour que vous et vos enfants puissiez passer de
+              bonnes vacances.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">A FRANCEVILLE</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h12">MOIS DE JUILLET</head>
+                <p>Betoux Maurice. Boudant Henri. Calmes Firmin. Desseignes Emile. Drapeau Henri.
+                  Duchamp Jules. Fauconnet Victor. Gautier René. Gustin James.</p>
+                <p>Hachez Eugène. Heuzé Eugène. Huet François. Isnardy Jean. Julie Albert. Kromer
+                  Louis. Lejeune Charles. Lemarchand André. Martin Marcel.</p>
+                <pb n="9"/>
+                <note type="foliation">— 9 —</note>
+                <p>Morel Serge. Nicolai Pierre. Paulin Henri. Quemeneur Georges. Turrat René.
+                  Vasseur Désiré.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h13">MOIS D'AOUT</head>
+                <p>Aumont Victor. Bœuf André. Canivet Georges. Cattaert Paul. Delafosse Gratien.
+                  Drion Georges. Dupuy Joseph. Ezard René. Gilles Robert. Hadot Gaston. Hauser
+                  André. Henaux Célestin. Houé René. Johannsen Raymond. Ladrey Raymond. Leblond
+                  Maurice. Lohez Charles. Morlet André. Perelle Lucien. Richard Armand. Ternois
+                  Léon. Viel Léopold.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h14">MOIS DE
+                  SEPTEMBRE</head>
+                <p>Feret Marcel. Letellier Michel. Padois François. Royneau Alfred.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">A CARNOLES</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h16">MOIS DE JUILLET</head>
+                <p>Ghighi Georges. Ginder Henri. Lorillard Bernard. Malo Jean. Olivier Pierre.
+                  Valadeau Pierre.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">MOIS D'AOUT</head>
+                <p>Aubert Alfred. Beaufils Jean. Bridet Francisque. Casile Claude. Motz Roger.
+                  Neveux Gilbert.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">MOIS DE
+                  SEPTEMBRE</head>
+                <p>Blin René. Guillam Edmond. Lachatre Emile. Paradis Gabriel. Rouhaud Zacharie.
+                  Salmon Maurice.</p>
+                <pb n="10"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">A AMELIE-LES-BAINS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">MOIS DE JUILLET</head>
+                <p>Billoud Louis. Brèsard René. Fraisise Emmanuel. Roy Jean.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">MOIS D'AOUT</head>
+                <p>Hurissé Jean. Lemoine André. Marceau Armand. Planquette Paul. Sander Robert.
+                  Venries Paulin. Viguier Paul.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">MOIS DE
+                  SEPTEMBRE</head>
+                <p>Collet André. Couesnon René. Guibert Yvan. Morisot André. Parent André. Roy
+                  Georges. Turban Auguste.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">A BOULLEVILLE</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">EN JUILLET</head>
+                <p>Colombel. MaseLier. Rochelet. Lalle. Lecomte Fernand. Loiseau Alfred. Quemeneur.
+                  Briez. Charriere. Parent. Maguet. Barbier. Gousse. Ezard. Cohen. Delsol. Feret
+                  Marcel. Desbancs. Pallier.</p>
+                <pb n="11"/>
+                <note type="foliation">— 11 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">" LES LECTURES PAR LE DISQUE "
+              BANDES MAGNETIQUES</head>
+            <p>Nous attirons tout particulièrement sur cette note l'attention des auditeurs qui
+              écoutent les livres parlés en bandes magnétiques.</p>
+            <p>Souvent les bandes nous sont réexpédiées à l'envers. Pour pallier cet inconvénient,
+              nous rappelons que le début de la première piste de chaque bande est précédé d'une
+              amorce en deux couleurs : vert et blanc. Le VERT doit toujours être à l'extérieur de
+              la bobine, au début de la première piste et doit se retrouver de même à l'extérieur à
+              la fin de l'audition de la seconde piste. Avant de nous les renvoyer, veuillez faire
+              vérifier les bandes par quelqu'un de votre entourage, car il arrive fréquemment que la
+              bande se vrille au départ sur la bobine d'enroulement; l'écoute est normale, mais la
+              bande se retrouve à l'envers en fin d'audition (le BLANC de l'amorce à l'extérieur de
+              la bobine).</p>
+            <pb n="12"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">SECTION REGIONALE DU NORD ET
+                DU PAS-DE-CALAIS Réunion annuelle du 21 avril 1955.</head>
+              <p>Cette importante assemblée, s'est tenue à Lille sous la présidence d'honneur de
+                notre camarade Amblard, entouré des présidents Planquette et Derunder, de nos
+                traditionnels invités, et des membres de la Commission, à l'exception de Lohez et de
+                Peyskens, qui se sont fait excuser ainsi que 33 autres camarades ; par contre les
+                présents sont en plus grand nombre que de coutume.</p>
+              <p>Après les souhaits de bienvenue, et l'hommage à la mémoire de nos camarades
+                défunts, dont Béquart, pour l'exercice écoulé, l'exposé administratif relatif à
+                l'activité des deux départementales, se déroula selon le processus habituel.</p>
+              <p>Parmi les vœux, il faut citer, celui ayant trait à la pension des veuves et guides
+                de nos camarades, vou de tout premier plan, sur lequel l'unanimité se fit pleine et
+                entière devant la nécessité impérieuse de son urgente réalisation. Après les
+                questions de détail, l'assemblée, procéda au renouvellement du mandat des membres de
+                la Commission, dont celui de Bridoux, Boé, Courty pour le Pas-de-Calais, et celui de
+                Ledieu et de Wehber pour le Nord, où le camarade Bonamy est nommé, en remplacement
+                d'Arnold démissionnaire. Puis, sur la proposition de Derunder il est décidé que
+                l'assemblée régionale de 1956 se tiendra à Arras. Ensuite, M. Ley, président
+                d'honneur de la régionale, en termes émouvants dit l'affection et l'intérêt qu'il
+                porte à tous les membres de la régionale, sentiments qu'il traduit par un geste
+                généreux, et pour lequel tour à tour, Planquette et Derunder, lui expriment leur
+                profonde gratitude.</p>
+              <p>Comme un bonheur ne vient jamais seul, c'est notre camarade Amblard, qui, par une
+                délicate attention, décore de la Croix d'officier du Mérite combattant, l'actif
+                président du Pas-de-Calais, Derunder. Surprise des plus heureuses pour tous les
+                membres de l'assemblée qui en témoignent leur vive satisfaction.</p>
+              <p>Puis, c'est au tour de M. Rinjonneau, trésorier dévoué, qui reçoit des mains de
+                notre président régional, les insignes de Chevalier du Mérite social, et un gage de
+                la gratitude de toute la régionale.</p>
+              <p>Enfin, venant clore ces émouvantes cérémonies, Derunder, au nom des membres de la
+                régionale, rend hommage au dévouement de son président Planquette, et lui traduit
+                leur reconnaissance par le don d'un magnifique présent.</p>
+              <p>Un joyeux vin d'honneur termina cette belle assemblée qui fut <pb n="13"/>
+                <note type="foliation">— 13 —</note> suivi d'un beau repas de famille au cours
+                duquel, des toasts plein d'amitié, furent portés par MM. Dupré, vice-président de
+                l'U.F.A.C., Chevalier secrétaire général de l'Office, et par le secrétaire général
+                de l'U.A.G. en l'honneur duquel et de celui de sa dévouée compagne, fut chanté un
+                vibrant vivat flamand et l'on se dit au revoir, en se donnant rendez-vous pour
+                l'assemblée d'Arras.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">SECTION REGIONALE DES
+                AVEUGLES DE GUERRE DU HAUT-RHIN, BAS-RHIN, MOSELLE</head>
+              <p>La réunion annuelle de cette Régionale a eu lieu jeudi, 26 mai 1955, de 10 h. 30 à
+                12 heures, au Cinéma des Arcades, à Strasbourg. De ses 77 membres, 47 étaient
+                présents et 30 absents, dont 15 excusés.</p>
+              <p>Son président Freidinger souhaite la bienvenue à toute l'assistance ; il félicite
+                ses camarades et leurs guides d'être venus en grand nombre, il salue tout
+                particulièrement les camarades Guesperean et Amblard, vice-président et secrétaire
+                général de l'U. A. G. Une minute de silence est observée en souvenir de M. Emile
+                Arnold, président du Comité d'action, décédé le 28 décembre 1954.</p>
+              <p>Le rapport moral et le rapport financier sont adoptés à l'unanimité. Des voux
+                expliqués par Freidinger sont également émis à l'unanimité. Le Comité sortant est
+                réélu, à savoir : Président : G. Freidinger, de Metz ; vice-présidents : A. Backert
+                d'Ergersheim et L. Zimmermann, de Mulhouse ; secrétaire : Arthur Muller, de Colmar ;
+                trésorier : Paul Backert, de Strasbourg ; trésorier adjoint : Fr. Ullrich, de
+                Schiltigheim.</p>
+              <p>Des renseignements et des éclaircissements sont donnés aux questions posées par
+                différents camarades.</p>
+              <p>12 h .30 , dépôt d'une gerbe au Monument aux Morts, place de la République, en
+                présence des autorités civiles et militaires. On remarquait notamment la présence de
+                M. Roche, secrétaire de la Préfecture représentant M. le Préfet du Bas-Rhin; le
+                Général Robelin, Gouverneur militaire d'Alsace ; M. Radius, sénateur et adjoint au
+                Maire de Strasbourg ; M. Zussy, sénateur et Maire de Thann. La Fanfare du 12<hi
+                  rend="superscript">e</hi> Bataillon de Génie rendit les honneurs.</p>
+              <p>Puis, le cortège, musique en tête, se rend au Restaurant de l'Aubette, place
+                Kléber, où un repas amical de 120 couverts est servi. L'orchestre Sidney Kleiner
+                prête son gracieux concours. Partout une atmosphère de bonne et franche camaraderie.
+                Au dessert, Freidinger au nom de la Régionale renouvelle les remerciements à ceux
+                qui ont aidé à la réussite de cette journée; Guespereau et Amblard, au nom de
+                l'U.A.G., expriment leur joie d'être parmi les camarades alsaciens-lorrains. Les
+                sénateurs Zussy et Radius font une improvisation remarquable; M. Roche, au nom du
+                Gouvernement, <pb n="14"/>
+                <note type="foliation">— 14 —</note> assure les aveugles de guerre de l'appui et du
+                soutien des autorités préfectorales.</p>
+              <p>Cette assemblée générale qui était une vraie fête constitue un puissant stimulant
+                moral et physique pour chacun de nous et pour nos guides.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">REUNION ANNUELLE DE LA
+                SECTION DE LORRAINE</head>
+              <p>La Section de Lorraine des Aveugles de Guerre a tenu son Assemblée générale le
+                dimanche 5 juin, à la Chambre de Commerce de Nancy, sous la présidence du
+                vice-président Guespereau, à qui Poirson souhaita la bienvenue en ouvrant la
+                séance.</p>
+              <p>La lecture du rapport moral fut faite par Mme Castets et celle du rapport financier
+                par M. Leclerc. Ces deux rapports furent adoptés à l'unanimité.</p>
+              <p>Poirson remercia les Camarades présents et leurs guides, souhaita prompt
+                rétablissement à ceux qui sont atteints par la maladie et regretta que d'autres se
+                désintéressent de la vie de la Section.</p>
+              <p>Le Président de Section proposa une augmentation du secours accordé aux Veuves
+                ainsi qu'un don à chaque naissance ; ceux-ci furent ratifiés par l'Assemblée.</p>
+              <p>Poirson donna ensuite la parole au vice-président Guespereau qui parla de la vie
+                intérieure de l'U.A.G. ; de ses maisons de repos, etc..., ainsi que sur des
+                questions intéressant le rapport constant de nos pensions et celles de nos
+                veuves.</p>
+              <p>Le Comité a été reconduit comme l'année précédente et la séance fut levée à
+                midi.</p>
+              <p>Rendez-vous fut donné à l'Hôtel de l'Univers où un déjeuner fort bien servi mit en
+                gaîté tous les convives qui se séparèrent en se disant : A l'année prochaine.</p>
+              <pb n="15"/>
+              <note type="foliation">— 15 —</note>
+              <p>Il est apparu au cours de l'assemblée générale que bien des camarades seraient
+                heureux de connaître la liste des Présidents de Sections et leur adresse.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">PRESIDENTS DE SECTION</head>
+              <p>ALGERIE : PERDRISOT Alain, 35, boulevard Saint-Saëns, ALGER (Algérie).
+                ALPES-MARITIMES : HEBREARD Louis, Cité des Aveugles, avenue Valrose, NICE
+                (Alpes-Maritimes). ALSACE-LORRAINE : FREIDINGER Georges, 82, rue de Strasbourg, METZ
+                (Moselle). ARDECHE ET DROME : PERICHON Georges, 21, avenue de Lyon, TOURNON
+                (Ardèche). AUVERGNE : PAGENEL Albert, 31, avenue Jean-Jaurès, ROYAT (Puy-de-Dôme).
+                AVEYRON : ALBESPY Charles, NUCES, commune de VALADY (Aveyron). BORDEAUX (LANDES -
+                BASSES-PYRENEES - DORDOGNE) : ALMEY André, 30, place Pey-Berland, BORDEAUX
+                (Gironde). BOUCHES-DU-RHONE : CHIMBERT Benoit, Avenue de Flore, GEMENOS
+                (Bouches-du-Rhône). COTE-D'OR : BELLESEUR Joseph, 18, rue Odebert, DIJON
+                (Côte-d'Or). HAUSER, André, Délégué, 4, avenue Victor-Hugo, DIJON (Côte-d'Or).
+                FINISTERE : BESCOND Pierre, Ty-Per, GOURLIZON, par PLOGASTEL-SAINT-GERMAIN
+                (Finistère). GERS ET HAUTES-PYRENEES : CHALENDAR Adrien, Le Landon, AUCH (Gers).
+                HAUTE-GARONNE : FOURMENT Emile, 9, rue de Montségur, TOULOUSE (Haute-Garonne).
+                ILLE-ET-VILAINE : ANTOINE Louis, 11, avenue Aristide-Briand, RENNES
+                (Ille-et-Vilaine). INDRE-ET-LOIRE - INDRE - VIENNE : PANTERNE Claude, 14, avenue
+                Grammont, TOURS (Indre-et-Loire). ISERE : JACQUET Pierre, 12, rue de Chateaubriand,
+                GRENOBLE (Isère). LIMOGES (Haute-Vienne) : CLUZELAU François, 23, rue Montesquieu,
+                LIMOGES (Haute-Vienne). LOIR-ET-CHER : BODIN Pierre, 30 bis, rue Saint-Lubin, BLOIS
+                (Loir-et-Cher). LOT - LOT-ET-GARONNE : GALIS Jean, BRANCHE, par TONNEINS
+                (Lot-et-Garonne). MAINE (Sarthe et Mayenne) : CHARLES Gabriel, 63, rue de Belfort,
+                CONNERRE (Sarthe). MAINE-ET-LOIRE : COINTEPAS André, 3, rue Racine, ANGERS
+                (Maine-et-Loire). GALLARD Pierre, Délégué, Les Vignes, CHALONNES-SUR-LOIRE
+                (Maine-et-Loire). MAROC : LOPEZ Pierre, Rue de la Pépinière, SALE (Maroc).
+                MEURTHE-ET-MOSELLE - MEUSE - VOSGES : POIRSON Georges, 4, rue Félix-Faure, NANCY
+                (Meurthe-et-Moselle).</p>
+              <pb n="16"/>
+              <note type="foliation">— 16 —</note>
+              <p>MORBIHAN : MABON François, Rue Basse, MALESTROIT (Morbihan). NDRD : PLANQUETTE
+                Paul, 17, rue Denfert-Rochereau, TOURCOING (Nord). ORANIE : CERDAN Robert, 10, rue
+                de Gradwohl, plateau Saint-Michel, ORAN. OUEST : RAVELEAU Marcel, Place de l'Eglise,
+                LEGE (Loire-Inférieure). PAS-DE-CALAIS : DERUNDER Paul, 26, rue Leavers, CALAIS
+                (Pas-de-Calais). PICARDIE (Somme) : CORNU Emile, 45, chaussée Jules-Ferry, AMIENS
+                (Somme). RHONE : AUBERT Marcel, 37, rue Viret, VILLEURBANNE (Rhône). SAONE-ET-LOIRE
+                : PHILIPPE Louis, Bel Air, rue des Anémones, MACON (Saône-et-Loire). SAVOIE ET
+                HAUTE-SAVOIE : FINET Louis, Chemin de Mérande, CHAMBERY (Savoie). SEINE-MARITIME :
+                CAMILLERAPP Xavier, 41, rue Thomas-Dubosc, ROUEN (Seine-Maritime). TARN : SATGE
+                Charles, 43, Foirail du Castelviel, ALBI (Tarn).</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>Hubert Georges, 11, rue Maréchal-Maunoury, Orléans (Loiret). Miquellis Eugène, 62,
+              rue Gioffrédo, Nice (Alpes-Maritimes). Nayl Jean-Baptiste, 37, boulevard Victor-Hugo,
+              Nice (Alpes-Maritimes). Dubarry Serge, 1, rue Fontaine-à-Mulard, Paris (13e). Marteau
+              Guy, 5, rue Baudin, Noisy-le-Sec (Seine). Vilette Léon, 10, rue du Docteur-Héron,
+              Tours (Indre-et-Loire).</p>
+            <pb n="17"/>
+            <note type="foliation">— 17 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">MARIAGES</head>
+            <p>Nous apprenons avec joie le mariage de notre camarade : Lochet Roger de La Fresnais
+              (Ille-et-Vilaine), avec Mlle Marie Desfoux, le 18 juin 1955.</p>
+            <p>De la fille Jacqueline, de notre camarade Maxime Paget, de Morbier (Jura), avec M.
+              François Bussy, le 14 juin 1955, à Abidjan (Côte d'Ivoire).</p>
+            <p>Nous envoyons nos félicitations et nos vœux de bonheur.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">NAISSANCES</head>
+            <p>Nous apprenons avec joie la naissance de : Michèle-Henriette, fille de notre camarade
+              Michel Boehringer, de Furdenheim (Bas-Rhin), le 29 mars 1955.</p>
+            <p>Sylvie, fille de notre camarade Paul Thévenet, de Paris, le 11 mai 1955.</p>
+            <p>Daniel, petit-fils de notre camarade Daniel Hugues, de Rennes (Ille-et-Vilaine), le 3
+              mai 1955.</p>
+            <p>Guylaine, petite-fille de notre camarade Alfred Dutaud, de Fonte-nay-le-Comte
+              (Vendée), le 13 avril 1955.</p>
+            <p>Christiane, petite-fille de notre camarade Gustave Reynes, de Sauganes, par
+              Villefranche (Aveyron), le 17 mai 1955.</p>
+            <p>Michel, petit-fils de notre camarade Victor Baudoin, de Deuil (Seine-et-Oise), le 12
+              mai 1955.</p>
+            <p>A nos camarades nous adressons nos bien vives félicitations et nos vœux de prospérité
+              aux bébés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : Gentel Marcel (14-18), de
+              Lay-St-Christophe (M.-et-M.), le 3 mai 1955.</p>
+            <p>Picaud Louis (14-18), de Bégadan (Gironde), mai 1955. La femme de notre camarade
+              François Castel, d'Aix-les-Bains (Savoie), le 2 mai 1955.</p>
+            <p>La femme de notre camarade Marcel Lamerand, de Boissy-SaintLéger (S.-et-O.), le 14
+              mai 1955.</p>
+            <p>La femme de notre camarade Léopold Parvilliers, de Flixecourt (Somme), le 10 mai
+              1955.</p>
+            <p>La femme de notre camarade Eugène Chouquet, de Douéra (Algérie), le 26 mai 1955.</p>
+            <p>Le beau-frère de notre camarade J. Chomarat, de Montluel (Ain). Nous adressons aux
+              familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="18"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">COTISATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">COTISATIONS ORDINAIRES (200
+                FRANCS) reçues du 12 mars au 7 juin inclus.</head>
+              <p>Aernout Rémy, Ahmed Ben Abdellah, Amann Bernard, Artigalas Jean. Belhassain Laziz,
+                Bellet Edgard, Bodenes Pierre. Cherel Alfred, Corbet Marcel. Demarthe Léon, Deniau
+                Raymond, Durand René. Gassamnn Paul, Grisard Gilbert, Guillaume Mathieu, Guis
+                Antonin, Hugo Robert. Kaiser Robert. Lamour (Mme), Lavie Maurice. Noël Eugène.
+                Pouget René ( 400 fr.), Pujol Edmond. Rey Jean. Saynmiard Emile, Seyssieeq Jean.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h37">COTISATIONS CAISSE DE
+                PREVOYANCE</head>
+              <p>Guis Antonin ( 500 fr.). Mitaux Elie ( 500 fr.). Remond Louis ( 500 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h38">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Deniau Raymond ( 300 fr.), Desbanes Marcel ( 500 fr.), Dormont André ( 1.000 fr.).
+                Guegan Albert ( 200 fr.). Halter Georges ( 500 fr.). Kayser Robert ( 300 fr.).
+                Remond Louis ( 100 fr.), Rey Jean ( 300 fr.), Roumeas Henri ( 200 fr.). Salah Ben
+                Mohamed Ben M'Bareek ( 300 fr.).</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h39">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Gilles Robert ( 500 fr.), Guillam Edmond ( 3.000 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h40">COTISATION VOLONTAIRE
+                BIBLIOTHEQUE</head>
+              <p>Pouget René ( 100 fr.). Nous sommes très sensibles aux cotisations volontaires que
+                certains camarades veulent bien nous adresser, leur geste de solidarité nous prouve
+                leur sentiment d'attachement à l'U.A.G. et nous les en remercions bien vivement.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h41">PETITES ANNONCES</head>
+            <p>A VENDRE. - Maison dans le Calvados, bord route nationale, pein bourg, arrêt des
+              cars. A 4 km de la mer, comprenant : r.-de-c. : cuisine, arrière-cuisine, grande salle
+              commune, salle à manger. Premier étage : trois chambres, dont une avec cabinet de
+              toilette, grenier. Grand jardin entouré mur, arbres fruitiers. Ecrire : Union des
+              Aveugles de guerre, 49, rue Blanche, Paris ( 9<hi rend="superscript">°</hi> ) qui
+              transmettra.</p>
+            <p>A VENDRE. - Lit masseur. Prix intéressant. Téléphoner à Mlle Lesur, 50, boulevard
+              Murat, Paris (16). JAS. 91-53.</p>
+            <p>Si vous buvez un apéritif : Buvez un Rives Saltes. Le vin de Rives Saltes est en
+              effet le meilleur et le moins cher de tous les apéritifs.</p>
+            <p>Le meilleur, car il est doux, agréable et reconstituant. Le moins cher, car Vin
+              garanti naturel et titrant 21 degrés, il n'a pas subi la nouvelle taxe imposée à tous
+              les apéritifs à base de vin et d'alcool.</p>
+            <p>Conditions spéciales pour les Aveugles de Guerre et membres de l'U.A.G. Est vendu en
+              casiers de 15 litres ou en fûts d'un minimum de 32 litres. Toutes taxes comprises,
+              franco domicile, emballages perdus, seuls les fûts sont repris au prix de facturc.
+              Demander renseignements : camarade Toutain Paul, Aveugle de Guerre, représentant,
+              Briouze (Orne).</p>
+            <p>Du camarade A. Lacotas, représentant à Azerat (Dordogne). Buvez pour votre agrément
+              et votre santé les bordeaux des vignobles de l'Union Vinicole de Saint-Emilion, livrés
+              aux meilleurs prix aux membres de l'U.A.G. (échantillon gratuit).</p>
+            <p>Le litre nu, congé compris, en barrique de 225 litres ou en demie, départ :</p>
+            <p>Bordeaux rouge : 70 fr. Clairet : 85 fr. Fronsac-Montagne ou Saint-Georges
+              Saint-Emilion : 85 fr. Lalande de Pomerol : 90 fr. ; Saint-Emilion : 93 fr. En quart
+              de barrique, supplément de 5 francs au litre. Les membres de l'U. A. G. pajent par
+              chèque après réception des marchandises.</p>
+          </div>
+        </div>
+        <fw>Le Gerant: G. L'EVESQUE Imp. Dubois et Bauer. - Parst</fw>
+      </div>
+    </body>
+  </text>
+</TEI>

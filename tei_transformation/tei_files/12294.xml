@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 11ème année 1929 n°9</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Retraite du combattant</title>
+        <title type="topic">Assurances sociales</title>
+        <title type="topic">Radio</title>
+        <title type="topic">Vie associative</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 24 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#fidac">FIDAC</term>
+          <term ref="#retraite">Retraite</term>
+          <term ref="#assurances">Assurances</term>
+          <term ref="#radio-hosanna">Radio Hosanna</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#lacanau-ocean">Lacanau-Océan</term>
+          <term ref="#sainte-maxime">Sainte-Maxime</term>
+          <term ref="#vals-les-bains">Vals-les-Bains</term>
+        </keywords>
+        <classCode scheme="DDC">362.4106</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre présente un sommaire varié incluant
+          des rapports sur des événements comme le 10ème congrès de la FIDAC à Belgrade, des
+          discussions sur la retraite du combattant, et des remerciements. Il fournit des
+          informations sur les retraites mutuelles, les assurances sociales, l'Union des Aveugles de
+          l'Ile de France, et la Familiale des Soldats Aveugles. Le bulletin inclut également une
+          tribune libre, une page dédiée aux sans-filistes, une chronique de l'U.A.G. avec des
+          nouvelles des membres, et des avis divers.</p>
+      </abstract>
+      <creation>
+        <date when="1929-10-01">01/10/1929</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-19" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-18" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h7">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h8">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h9">Le 10me Congrès de la FIDAC A BELGRADE</ref>
+            <list>
+              <item>
+                <ref target="#h10">LE NOUVEAU PRESIDENT DE LA FIDAC</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h11">La Retraite du Combattant</ref>
+            <list>
+              <item>
+                <ref target="#h12">PROPOSITION DE LOI JULES BOYER</ref>
+              </item>
+              <item>
+                <ref target="#h13">PROPOSITION DE LA CONFEDERATION NATIONALE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h14">REMERCIEMENTS</ref>
+          </item>
+          <item>
+            <ref target="#h15">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h16">Retraites Mutuelles. - Assurances Sociales</ref>
+              </item>
+              <item>
+                <ref target="#h17">Société de Secours Mutuels des Aveugles de la Seine</ref>
+              </item>
+              <item>
+                <ref target="#h18">Union des Aveugles de l'lle de France</ref>
+              </item>
+              <item>
+                <ref target="#h19">La Familiale des Soldats Aveugles</ref>
+              </item>
+              <item>
+                <ref target="#h20">Bibliothèque</ref>
+              </item>
+
+            </list>
+          </item>
+          <item>
+            <ref target="#h21">TRIBUNE LIBRE</ref>
+            <list>
+              <item>
+                <ref target="#h22">Radio Hosanna</ref>
+              </item>
+              <item>
+                <ref target="#h23">Le Cauchemar</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">La Page des Sans-Filistes</ref>
+          </item>
+          <item>
+            <ref target="#h25">Chronique de l'U.A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h26">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h27">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h31">Procès-Verbal de la Séance du Consell d'Administration du 13
+                  JUILLET 1929</ref>
+                <list>
+                  <item>
+                    <ref target="#h32">ELECTION D'UN ADMINISTRATEUR</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h33">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h34">LE VELO-CAR</ref>
+              </item>
+              <item>
+                <ref target="#h35">Liste des Donateurs</ref>
+              </item>
+              <item>
+                <ref target="#h36">Dons avec affectation spéciale pour la création de la " Maison
+                  des Aveugles de Guerre"</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h37">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h38">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h39">COMITE D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">11e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">Octobre 1929</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le 10e Congrès de la F. I. D. A. C. à Belgrade.</item>
+                    <item>La Retraite du Combattant.</item>
+                    <item>Remerciements.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Retraites mutuelles et Assurances sociales.</item>
+                    <item>Union des Aveugles de l'Île de France.</item>
+                    <item>La Familiale des Soldats Aveugles.</item>
+                    <item>Bibliothèque.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h4">Tribune Libre</head>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h5">La Page des
+                  Sans-Filistes</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h6">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Procès-verbal de la réunion du 13 Juillet.</item>
+                    <item>Election d'un administrateur.</item>
+                    <item>Avis divers.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou, Ministre de la Justice; M. le colonel Fabry, ancien ministre des
+              Colonies; M. Brieux, de l'Académie Française, président honoraire; M. le général
+              Balpourier;</p>
+            <p>M Borrel, député, ancien sous-secrétaire d'Etat; Mme Marthe Brandès; M. Brisac,
+              préfet; M. J. Ridgely Carter; M. Paul de Cassagnac, ancien député; M. Cottin, notaire
+              honoraire; M. Maurice Donnay, de l'Académie Française; M. Duco, médecin-inspecteur; M.
+              Fribourg, député;</p>
+            <p>Mies Alice GettY; M. Justin Godart, ancien ministre:</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Rameil, député;</p>
+            <p>M* Henri-Robert, de l'Académie Française, ancien bâtonnier de .'Ordre des Avocats;
+              Général Sainte-Claire-Deville; M. Valdery-Radot; M. Constant Verlot, député; M. le
+              professeur Walther, membre de l'Académie de Médroine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Le 10<hi rend="superscript"
+                >me</hi> Congrès de la FIDAC A BELGRADE</head>
+            <p>La Fédération Interalliée des anciens combattants a tenu son 10<hi rend="superscript"
+                >°</hi> Congrès à Belgrade, du 1<hi rend="superscript">er</hi> au 7 septembre 1929.
+              Nous extrayons du Bulletin de la FIDAC les renseignements suivants relatifs à ce
+              Congrès.</p>
+            <p>Le <hi rend="superscript">X</hi>^{<hi rend="superscript">e</hi>} Congrès de la FIDAC
+              fut, sans conteste, le mieux organisé, le mieux réussi; et il convient d'en féliciter
+              sans réserves "Udruzenja Rezervnich Oficira i Ratnika " et "Savez Dobrovoliatsa
+              Kralievine S.H.S. ". A tous nos camarades yougoslaves, nous affirmons encore nos
+              sentiments de sincère reconnaissance. Ne pouvant citer les noms de tous ceux dont
+              l'hospitalité fut si cordiale, si fraternelle, si émouvante, nous nommerons seulement
+              trois d'entre eux, qui les représentent tous: Milan Radossavijévitch, un des
+              fondateurs de la FIDAC, l'âme du Congrès, président des "officiers de réserve et
+              anciens combattants"; Louis, Chevalier de Lovritch, aveugle de guerre, un héros,
+              président des "Volontaires Yougoslaves "; Lioubomir V. Stéphanovitch, ancien
+              vice-président de la FIDAC, membre du Comité de la "Chambre des avocats serbes ",
+              secrétaire général de notre <hi rend="superscript">X</hi>^{e} Congrès.</p>
+            <p>Voulant donner le plus d'éclat possible à ce Congrès même, nos amis Yougoslaves
+              tinrent à le faire coïncider non seulement avec le Congrès annuel de l' "Association
+              des Officiers de réserve et des anciens Combattants ", mais encore avec l'arrivée, à
+              Belgrade, de cinq cents d'entre les "Poilus d'Orient ", - association française
+              groupant tous ceux qui ont combattu avec les amis Serbes, sur le front de Salonique,
+              côte à côte avec les Britanniques, les Italiens et les Grecs. Deux lourds Congrès et
+              un important pèlerinage en même temps! Véritable gageure! mais Radossavljévitch
+              voulait la réussite et il a su l'obtenir, éclatante, absolue, totale.</p>
+            <p>Durant l'entier séjour de la FIDAC et des "Poilus d'Orient " en sol yougoslave, l'âme
+              interalliée, - née de sacrifices communs, de <pb n="4"/>
+              <note type="foliation">— 2 —</note> valeurs et de gloires communes; de souvenirs
+              identiques aussi et d'imperturbable foi en un meilleur avenir - l'âme de nos Patries
+              en un mot, dans tout ce qu'elle a de noble et d'apaisant, a plané sur chacun. Ah!
+              qu'on était loin des querelles d'intérêt, des égoïsmes qui semblent vouloir accaparer
+              le monde ! Quelle cure de moralité ! On respirait à pleins poumons un air spécial, tel
+              cet air du large, air sans miasmes, qui rend meilleur, qui vivifie et qui prépare aux
+              saines actions ! Telle fut l'atmosphère du Congrès. "Poésie! disent certains, mais
+              quel sera le réveil ? ) - Laissons dire.</p>
+            <p>Si la FIDAC a l'âme généreuse, elle n'en est pas moins réaliste : elle n'ignore pas
+              certaines difficultés fort graves; elle connaît les opinions rivales provenant de
+              nécessités nationales différentes, mais, et c'est là sa force, - elle aborde la
+              discussion de ces différents problèmes avec la volonté d'aboutir, sans rien laisser
+              dans l'ombre cependant. Et elle peut, seule, agir de telle sorte, parce que chacun de
+              ses délégués, dès qu'il parle, entend incessamment des voix d'outretombe, qu'il
+              connaît bien, psalmodier ces mots à ses oreilles : " Il y a dix millions de mort
+              alliés; n'oubliez pas ! ); parce que sa doctrine est la suivante : "Certes, il ne faut
+              pas dresser une partie du monde " contre l'autre, mais, avant d'espérer la paix entre
+              tous, on doit réali" ser, d'abord, la paix entre les alliés; la paix, d'abord, dans la
+              " famille. La première étape de la paix générale ne peut être que la " bonne entente
+              interalliée. "L'atmosphère de franchise totale et d'amitié, entretenue par la FIDAC
+              est telle que, par exemple, la question des dettes et des réparations des dommages a
+              pu être nettement posée. "Et il est réconfortant, a pu déclarer Reisdorff, qu'une
+              "telle question ait pu être carrément abordée, et discutée, sans que la " parfaite
+              harmonie qui règne entre tous les membres de la FIDAC " fût, un seul moment, troublée.
+              "</p>
+            <p>Sur la proposition des délégations française et italienne, la FIDAC tient à prouver
+              sa très sincère reconnaissance à Achille Reisdorff pour tout ce qu'il a fait pour elle
+              durant sa remarquable présidence; elle l'acclame président d'honneur.</p>
+            <p>Sont élus pour 1929-1930 : Président : Colonel Fred W. Abbot (Grande-Bretagne).
+              Secrétaire général : Roger Marie-d'Avigneau ( 10<hi rend="superscript">°</hi>
+              année).</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Trésorier : Canzio Cimpincio (Italie). Trésorier adjoint : S. P. Bailey (E.-U.).
+              Vice-présidents : Lieut.-général Raoul Pontus (Belgique); Commandant Julius I. Peyser
+              (E.-U.); Joseph Granier (France); Col. John Brown, CB, CBE, DSO (Grande-Bretagne) ;
+              On. Gianni Baccarini (Italie); Comm. Jan Ludyga Laskowski (Pologne); Ruy Sherley
+              Pereira (Portugal) ; Dr. Virgile Serdaru (Roumanie) ; Colonel Milan Radossavljévitch
+              (S.H.S.); Colonel J. Vavroch (Tchécoslovaquie).</p>
+            <p>A l'unanimité, et par acclamations, le Congrès décide d'accepter l'invitation de
+              l'American Legion, transmise par le colonel Mc Nutt, commandeur national. Le Congrès
+              de 1930 aura lieu aux Etats-Unis.</p>
+            <p>Le Congrès accepte, également à l'unanimité, les invitations transmises par le
+              colonel Vavroch (Tchécoslovaquie) et Ruy Shirley Pereira (Portugal). Les Congrès de
+              1931 et de 1932 auront lieu à Prague et à Lisbonne.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">LE NOUVEAU PRESIDENT DE LA
+                FIDAC</head>
+              <p>La FIDAC ne pouvait choisir un représentant plus véritablement interallié que le
+                lieutenant-colonel Fred W. Abbot, son nouveau président.</p>
+              <p>Né sujet britannique, le colonel Abbot exerça sa profession d'ingénieur civil au
+                Canada, aux Etats-Unis, en Amérique du Sud et en Europe. Il épousa Miss Minne
+                Gamble, petite-fille du gouverneur Gamble, de Saint-Louis (Etats-Unis), qui fut
+                gouverneur de l'Etat de Missouri au cours de la guerre civile. Depuis la guerre, le
+                colonel Abbot habite la France; il est très connu de tous les alliés.</p>
+              <p>Le colonel Abbot s'est attaché à la FIDAC dès sa création; il en fut le
+                vice-président pour la Grande-Bretagne durant quatre ans : il fut, pendant trois
+                ans, président de la Commission de propagande. L'année dernière, il était un des
+                deux présidents de la Commission de propagande et des Affaires extérieures.</p>
+              <p>Fred W. Abbot naquit à Londres le 23 décembre 1862. Dès son enfance, il désira
+                suivre la carrière militaire, et c'est ainsi qu'après avoir terminé ses études
+                secondaires au Wellington College, école militaire pour les fils d'officiers, il
+                tenta d'entrer à l'Ecole militaire de <pb n="6"/>
+                <note type="foliation">— 4 —</note> Sandhurst (Angleterre) ; toutefois, malgré de
+                brillants examens, il ne put être reçu, étant donné sa mauvaise vue.</p>
+              <p>Il lui fallait chercher une autre carrière, son instruction lui permit de devenir
+                ingénieur civil : les missions confiées l'entraînèrent au Canada, aux Etats-Unis
+                d'Amérique, au Mexique, en Amérique du Sud et en Europe. Signalons à son actif,
+                entre autres travaux, le percement du tunnel de chemin de fer de la ville de Mexico,
+                le dragage de nombreux canaux, l'installation d'une station hydro-électrique d'une
+                force de 1.000 .000 de chevaux, et près de 1.000 miles de lignes électriques de
+                transmission de courant à haute tension.</p>
+              <p>La déclaration de la guerre le trouva en Espagne, où il travaillait à
+                l'électrification de la ville de Barcelone : 12.000 hommes étaient sous ses ordres.
+                Dès le début des hostilités, il partit pour l'Angleterre où il s'engagea, dès
+                septembre 1914, comme simple soldat : il avait alors cinquante-deux ans ! Il devint
+                rapidement sous-lieutenant et fut envoyé à l'étranger : au mois de septembre 1917,
+                il est déjà lieutenant-colonel. Il est décoré du General Service Medal
+                (Grande-Bretagne), de la Médaille de la Victoire et de la Légion d'honneur (France).
+                Il fut attaché à la mission militaire britannique envoyée aux Etats-Unis lors de
+                leur entrée en guerre; il fut membre de la mission en Russie.</p>
+              <p>Le colonel Abbot est membre de l'Institute of Civil Engineers (Angleterre); de
+                l'American Society of Civil Engineers; il est "Fellow" de la Royal Geographic
+                Society (Angleterre).</p>
+              <p>Depuis sa démobilisation, le colonel Abbot s'est dévoué à la cause de ses frères
+                d'armes. Les anciens combattants britanniques, particulièrement ceux qui se
+                trouvaient en graves difficultés, loin de leur pays natal, ont à son égard une très
+                grande dette de gratitude, pour tout ce qu'il a fait pour eux. Il fut élu, il y a
+                trois ans, président de la British Legion "Paris Branch».</p>
+              <p>Il a toujours été un des membres les plus actifs du Conseil de direction de la
+                FIDAC : on peut être assuré que, durant son année de présidence, la FIDAC continuera
+                à grandir.</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">La Retraite du Combattant</head>
+            <p>Les Associations d'anciens combattants ont inscrit, depuis fort longtemps, à leur
+              programme, la question de la retraite du combattant et bien qu'une proposition de loi
+              ait été déposée, depuis plusieurs années, sur le Bureau de la Chambre, par le député
+              Jules Boyer pour que cette retraite soit réalisée, cette revendication n'a pas encore
+              obtenu satisfaction. Les groupements d'anciens combattants ont tout mis en œuvre pour
+              que le Parlement se prononce, cette année, sur les conditions d'attribution de cette
+              retraite gratuite et au cours de leurs Congrès de 1929, toutes les Associations ont
+              émis des vœux sur ce sujet, plusieurs projets ont même été élaborés et la
+              Confédération Nationale, elle aussi, en a conçu un qu'elle entend, naturellement,
+              faire adopter par le Parlement lorsque la question viendra en discussion. L'Union
+              Fédérale qui, comme on le sait, groupe plus de 450.000 adhérents, a, de son côté,
+              donné sa préférence à la proposition Jules Boyer et c'est ou celle-ci ou la
+              proposition de la Confédération qui sera définitivement prise en considération. A
+              titre documentaire, nous reproduisons ci-après ces deux textes.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">PROPOSITION DE LOI JULES
+                BOYER</head>
+              <p>Article premier. - Une retraite annuelle et viagère est servie par l'Etat aux
+                anciens combattants militaires ou marins, titulaires de la carte du combattant.</p>
+              <p>Article 2. - Le droit à la retraite est ouvert à l'âge de 50 ans révolus. Le
+                montant de la retraite est fixé uniformément à 500 francs par an.</p>
+              <p>Article 3. - N'ont pas droit à la retraite les militaires qui auront subi, au cours
+                de la campagne, une condamnation sans sursis pour fait qualifié crime par le code de
+                justice militaire, sauf application des lois d'amnistie.</p>
+              <p>Article 4. - Un règlement d'administration publique déterminera les modalités
+                d'application de la présente loi.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">PROPOSITION DE LA
+                CONFEDERATION NATIONALE</head>
+              <p>Article premier. - Il est institué pour tout titulaire de la carte du combattant à
+                l'âge de 55 ans une retraite de 1.200 francs cumu-</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>lable avec celle qu'il aura pu s'assurer par ses versements personnels, en
+                application notamment de la loi du 4 août 1923 sur les mutuelles retraites et avec
+                la ou les pensions qu'il pourrait toucher à un titre quelconque.</p>
+              <p>Article 2. - En cas de vieillesse prématurée ou d'invalidité dûment reconnue et non
+                indemnisée par ailleurs, notamment par les lois du 9 avril 1898, 31 mars 1919 et les
+                lois subséquentes, la limite d'âge pour l'entrée en jouissance de la retraite du
+                combattant pourra être ramenée à 50 ans.</p>
+              <p>Article 3. - La retraite du combattant est incessible et insaisissable.</p>
+              <p>Article 4. - Un décret pris en la forme des règlements d'administration publique
+                réglera les conditions d'application de la présente loi, dans un délai maximum de 6
+                mois à dater de sa promulgation.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">REMERCIEMENTS</head>
+            <p>Nous avons constaté avec plaisir que les maisons louées par nous cette année, à
+              Lacanau-Océan, à Sainte-Maxime et à Vals et qui ont été mises à la disposition des
+              membres de l'U. A. G. dans les mêmes conditions que nos maisons de repos de
+              Franceville-Plage, ont été occupées pendant toute la saison.</p>
+            <p>L'essai tenté par nous a donc pleinement réussi et nos camarades ont été, en général,
+              entièrement satisfaits de leur séjour dans les trois nouveaux centres dont ils ont pu
+              profiter en 1929.</p>
+            <p>Ceux d'entre eux qui ont séjourné à Vals-les-Bains pendant les mois de juillet,
+              d'août et de septembre nous ont dit le très aimable accueil que leur a réservé M.
+              Chalamon, administrateur de la Société Générale des Eaux à Vals-Saint-Jean. M.
+              Chalamon leur a témoigné à tous sa plus cordiale sympathie et sa sollicitude à leur
+              égard s'est même manifestée de façon concrète, chacun d'eux ayant reçu, au moment de
+              quitter la station, une caisse de 25 bouteilles d'eau de Vals qui constituait ainsi un
+              cadeau qui ne leur a pas été indifférent.</p>
+            <p>Nous renouvelons ici à M. l'administrateur de la Société Générale des Eaux à
+              Vals-Saint-Jean, l'expression de toute notre gratitude, pour ses sentiments si
+              bienveillants à l'endroit des membres de notre Association, et nous le prions d'agréer
+              de nouveau nos bien sincères remerciements.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Retraites Mutuelles. -
+                Assurances Sociales</head>
+              <p>M. André Février expose à M. le ministre du Travail que l'Etat majore les
+                versements faits par les titulaires de la carte des combattants pour se constituer
+                une retraite sans exiger que ces versements soient d'une quotité fixe, et demande :
+                  1<hi rend="superscript">°</hi> si, lorsqu'un ancien combattant sera assujetti
+                obligatoire de la loi sur les assurances sociales, les versements des salaires de
+                l'ouvrier et du patron bénéficieront de cette majoration; 2<hi rend="superscript"
+                  >°</hi> si, dans le cas de l'affirmative, ils en bénéficieront quel que soit
+                l'organisme dans lequel le versement est effectué; 3<hi rend="superscript">°</hi> ou
+                si, au contraire, le versement de l'ancien combattant ne pourra bénéficier de la
+                majoration que s'il est fait dans des caisses d'anciens combattants, ou habilitées à
+                recevoir les retraites d'anciens combattants.</p>
+              <p>Réponse. - 1<hi rend="superscript">°</hi> Il résulte de l'article 30, § 3, de la
+                loi du 5 avril 1928, que la fraction de la cotisation aux assurances sociales
+                affectée à la couverture du risque vieillesse ne peut pas, en ce qui concerne les
+                anciens combattants, bénéficier des majorations spéciales prévues par la loi du 4
+                août 1923 et l'article 127 de la loi de finances du 30 décembre 1928, même si elle
+                est versée à une caisse autonome mutualiste admise à pratiquer comme caisse primaire
+                l'assurance vieillesse. Les anciens combattants assurés obligatoires ne sauraient,
+                toutefois, souffrir en rien de l'application de cette disposition, le minimum de
+                retraite garanti par l'article 15, § 3, de la loi du 5 avril 1928 étant supérieur, à
+                égalité de versements retraite, à la retraite majorée qu'ils pourraient se
+                constituer en vertu des deux lois précitées; les intéressés gardent, d'ailleurs, le
+                droit de se constituer, en sus de la retraite des assurances sociales, une retraite
+                mutualiste bénéficiant des majorations spéciales. En ce qui concerne les anciens
+                combattants assurés facultatifs, l'article 39, § 2, de la loi du 5 avril 1928 les
+                autorisant à choisir les risques contre lesquels ils s'assurent, ils resteront
+                libres, s'ils jugent y avoir avantage, de se constituer une retraite sous le régime
+                de la loi du 4 août 1923 (complétée par l'article 127 de la loi du 30 décembre).</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Société de Secours Mutuels
+                des Aveugles de la Seine</head>
+              <p>Fondée par l'Union des Aveugles de l'lle de France Filiale de la Fédération
+                Nationale des Aveugles Civils pour la création d'une Caisse Primaire des Assurances
+                Sociales, réservée aux Aveugles et aux Membres de leur famille : femme, enfants et
+                ascendants.</p>
+              <p>BULLETIN D'ADHÉSION</p>
+              <p>Le soussigné (1) né le demeurant exerçant la profession de marié, célibataire (2)
+                ayant à sa charge enfants qui auront moins de 16 ans en 1930.</p>
+              <p>Déclare adhérer à la Société de Secours Mutuels des Aveugles de la Seine, en
+                qualité de membre participant.</p>
+              <p>Le soussigné déclare en outre adhérer : 1<hi rend="superscript">°</hi> à la Caisse
+                Primaire des Assurances Sociales qui sera créée par ladite Société de Secours
+                Mutuels; 2<hi rend="superscript">°</hi> à la Caisse de Retraites à laquelle la dite
+                Société de Secours Mutuels sera affiliée.</p>
+              <p>Fait à le 1929 Signature. Nota. - Tous les Aveugles de Paris et de la Seine, sans
+                distinction d'âge ni de sexe, peuvent y adhérer pour les avantages propres qu'elle
+                accordera à ses membres.</p>
+              <p>Peuvent également adhérer tous les membres de la famille directe des adhérents
+                aveugles : femme, enfants et ascendants, sans distinction d'âge.</p>
+              <p>Sont plus particulièrement invités à adhérer les Aveugles et les membres de leur
+                famille assujettis à la loi des Assurances sociales.</p>
+              <p>Pour tous renseignements complémentaires, écrire à la permanence</p>
+              <p>
+                <hi rend="superscript">
+                  <ref target="#fn:0">1</ref>
+                </hi>
+              </p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+              <p>de l'"Union des Aveugles de l'lle de France " (Service des Assurances Sociales),
+                38, avenue de la Motte-Picquet, Paris (7).</p>
+              <p>Sont assujettis à la loi soit comme assurés obligatoires, soit comme assurés
+                facultatifs tous les salariés, hommes ou femmes, âgés de plus de 16 ans et de moins
+                de 60 ans, et dont le revenu professionnel n'excède pas 15.000 francs, s'ils sont
+                célibataires ou mariés sans enfant.</p>
+              <p>On nous prie d'insérer la note suivante :</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Union des Aveugles de l'lle
+                de France</head>
+              <p>38, avenue de la Motte-Picquet, Paris. Je suis chargé de vous informer que,
+                conformément aux décisions de l'Assemblée générale du 4 juillet dernier, le groupe
+                de Paris de l'ancienne Union Nationale des Aveugles Civils a été constitué en
+                association autonome sous le titre de : "Union des Aveugles de l'lle de France,
+                filiale de la Fédération Nationale des Aveugles Civils ".</p>
+              <p>Le siège de l'association reste fixé au siège de la Fédération, 38, avenue de la
+                Motte-Picquet. Le Conseil d'administration pour l'année sociale est composé ainsi
+                qu'il suit :</p>
+              <p>Président : P. Guinot. Vice-présidents : Mme Benin-Augeard et Léon Rossi. Trésorier
+                : Jean Bronne. Secrétaire : Mlle Dubillard. Membres : Grémy, Leclercq, Nicot, Pépin.
+                Au cours de sa réunion du 9 juillet, et pour répondre en ce qui le concerne au vœu
+                émis sur le sujet par le Congrès de la Fédération, le Conseil d'administration a
+                décidé de prendre l'initiative de la création d'une caisse primaire des assurances
+                sociales réservées aux aveugles de la région parisienne et à leur famille.</p>
+              <p>Dans ce but et pour se conformer aux exigences de la loi, il est nécessaire de
+                constituer préalablement une Société de secours mutuels qui devra avoir recueilli au
+                moins 500 adhésions.</p>
+              <p>En conséquence et pour lui permettre de prendre toutes mesures utiles en temps
+                voulu, le Conseil d'administration vous prie de vouloir bien retourner au siège de
+                l'Association le bulletin d'adhésion, dont modèle ci-joint dûment rempli, suivant
+                les indications qu'il comporte.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+              <p>Le Conseil espère que vous vous rendrez compte de l'importance de sa nouvelle
+                initiative et que vous ne négligerez rien pour en faciliter le succès et servir
+                ainsi vos intérêts les plus directs.</p>
+              <p>Pour le Conseil d'administration : Le Président : P. Guinot.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">La Familiale des Soldats
+                Aveugles</head>
+              <p>Le Conseil d'administration de la Familiale des Soldats Aveugles informe les
+                camarades que les réunions de la saison 1929-1930'auront neu aux dates indiquées
+                ci-après, dans le local de la Société de Photographie, 51, rue de Clichy.</p>
+              <p>En 1929, les dimanches 3 novembre et 1<hi rend="superscript">er</hi> décembre. En
+                1930, les dimanches 5 janvier, 2 février, 2 mars, 13 avril, 4 mai et 1<hi
+                  rend="superscript">er</hi> juin.</p>
+              <p>Les réunions auront lieu comme habituellement de 14 h .30 à 18 h .30 et
+                comprendront concert, goûter et sauterie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">Bibliothèque</head>
+              <p>Nous prions instamment les camarades détenteurs des livres inscrits dans la liste
+                ci-après, de vouloir bien en faire retour à l'U. A. G. au plus tôt, ces livres
+                faisant partie de notre bibliothèque d'ouvrages en noir étant en leur possession
+                depuis déjà très longtemps : Le Martyre de l'Obèse : Henri Béraud. Le Réveil des
+                Morts : Dorgelès. Le Rouge et le Noir : Stendhal. La Maison du Péché : Marcelle
+                Tinayre. 20.000 Lieues sous les Mers: Jules Verne.</p>
+              <p>Gutllaume Tell : Schiller.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">TRIBUNE LIBRE</head>
+            <p>Ceux d'entre nous qui ont séjourné cette année, au mois d'août, dans nos maisons de
+              repos de Franceville, ont eu l'occcasion d'entendre notre camarade Roubaud, de
+              Marseille, réciter au cours des réunions du soir, plusieurs poésies dont il est
+              l'auteur. Nous publions ici deux de ses pièces, que tous liront certainement avec
+              plaisir et qui rappellera, sans aucun doute, à ceux qui les ont entendus, de très
+              agréables souvenirs.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Radio Hosanna</head>
+              <p>Sur le toit d'une humble demeure, Logis où trop souvent l'on pleure Se dressait un
+                manche à balai, Tous, et la vieille cheminée Toute empanachée de fumée S'accordaient
+                à le trouver laid. Mais lui, détaché de la terre, Se tenait droit dans la lumière.
+                Il semblait entendre des voix.</p>
+              <p>Et du ciel accouraient les Muses Déesses, sans doute confuses De se rencontrer sous
+                ce toit. La demeure en est transformée, Les visages sourient aux fées, Messagères
+                d'un peu de joie. Après la journée bien remplie, Toute la famille est ravie, De
+                trouver du charme au chez soi.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>L'aieul s'extasie et s'étonne Que dans sa demeure résonne Le piano qu'il n'a pu
+                s'offrir, L'harmonie chasse la tristesse Des heures marquant la vieillesse. Le
+                vieillard ne veut plus mourir. O toi, force mystérieuse, Formidable et capricieuse,
+                Un génie a pu te capter.</p>
+              <p>Tes ondes viennent en phalanges, A coup d'ailes, ainsi que des anges. Nous réjouir
+                et nous charmer. Tu égaies la solitude Des plaines et des altitudes Où l'homme se
+                trouve trop seul. Tu es sur mer l'espoir ultime De ceux pour qui le sombre abîme
+                Allait leur servir de linceul. Sour des rayons du grand soleil Fais-moi entendre au
+                réveil Le message de tous désiré. Apprends-moi enfin que la guerre, Est brisée au
+                paratonnerre Dressé par la fraternité. Allo, allo, ici Genève, La paix qu'hier
+                n'était qu'un rêve, Est aujourd'hui réalité.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Le Cauchemar</head>
+              <p>Parodie du Songe de Sully-Prudhomme Mon épouse m'a dit en songe : "Baptistin, je ne
+                te conduis plus. " Débrouille toi toi-même! Vivre avec toi, mon bon, C'est vraiment
+                trop de peine, Je quitte Franceville, demain, je prends le train. " Hélas !
+                abandonné de tout le genre humain, Dont je croyais subir l'effroyable anathème,
+                Quand j'implorais du ciel une pitié suprême, Je me retrouvai seul, debout sur mon
+                chemin. Je me levai, doutant si l'aube était réelle. Ma femme en chantant essuyait
+                la vaisselle, Mon repas était prêt, mes bas raccommodés. Je connus mon bonheur, et
+                vous le dis, Mesdames, Nul ne peut se flatter de se passer de femme. Et depuis ce
+                jour-là, je vous ai adorées.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">La Page des Sans-Filistes</head>
+            <p>Nouvel adhérent :</p>
+            <p>J. Vincent, Etaules, par Plombières (Côte-d'Or).</p>
+            <p>Cette année, les fabricants d'accessoires de T. S. F. et surtout de lampes, ont fait
+              faire un immense progrès à la technique de la radio. Les constructeurs d'appareils
+              soucieux de satisfaire leurs clients ont su mettre à profit ces énormes progrès; c'est
+              pourquoi je viens vous proposer un récepteur superhétérodyne par lampe bigrille tout à
+              fait moderne. Il est monté dans un élégant coffret en acajou verni au tampon avec
+              marqueterie. Il est construit avec des accessoires de premier choix et je le garantis
+              un an. Il fonctionne avec six lampes nouvellement parues, dont deux à écran de grille
+              et une trigrille de très grande puissance. Il donne largement la sensibilité et la
+              puissance d'un appareil à huit lampes ordinaires. Ce poste est d'un maniement
+              extrêmement simple et un aveugle peut réaliser avec lui les mêmes performances qu'un
+              voyant, c'est-à-dire presque tous les émetteurs européens et même américains en
+              haut-parleur; d'ailleurs, il serait risible de vouloir construire un appareil
+              spécialement étudié pour les aveugles, car ceux-ci sont tous capables de régler
+              facilement n'importe quel appareil de T. S. F.</p>
+            <p>Je livre mon appareil complet, avec son cadre pour toutes ondes, ses six lampes, un
+              accumulateur de 30 ampères, une pile de forte capacité et un diffuseur Sky-Vox, pour
+              le prix de seize cent soixantequinze francs, franco de port et d'emballage dans toute
+              la France continentale. Afin de renseigner mes camarades qui ne voudraient pas de la
+              marque de diffuseur que je propose, ou qui voudraient remplacer la pile par un
+              accumulateur, je dois leur dire que le diffuseur est compté 200 francs, moins 200 / 0,
+              et la pile de 80 volts, 110 francs, moins 200 / 0, dans mon devis. Les 200 / 0 de
+              diminution sur ces prix cor-</p>
+            <pb n="17"/>
+            <note type="foliation">— 15 —</note>
+            <p>respondent à la remise que je consens à tous mes camarades sur toutes les pièces
+              détachées dont ils pourraient avoir besoin. Pour les amateurs de puissance et de bonne
+              musique, je recommande tout spécialement le diffuseur Lowe, d'un prix de 320 francs,
+              moins 200 / 0, ou le diffuseur Guilbot, net 450 francs. Pour les amateurs ayant le
+              courant électrique à leur disposition ou pouvant faire recharger leurs accus
+              facilement, je recommande un accumulateur Mars de 80 volts, 200 francs, 200 / 0, en
+              remplacement de la pile.</p>
+            <p>Eugène Guilbot, 7, rue Théophile-Gautier, à Neuilly-sur-Seine. Tél. Maillot
+              35-22.</p>
+            <pb n="18"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">Chronique de l'U.A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi>
+                septembre et le 30 septembre, une somme de 22.291 fr. 75 , se répartissant comme
+                suit :</p>
+              <p>Il y a lieu d'ajouter à ces 22.291 fr. 75 une somme de 46.300 fr. pour prêts de
+                maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 17 demandes de secours, dont 9
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">NAISSANCES</head>
+                <p>Notre camarade et Mme Fautsch, de Merville (Calvados), nous font part de la
+                  naissance de leur quatrième enfant, Thérèse, née le 7 septembre 1929.</p>
+                <p>Notre camarade et Mme Louis Keller, de Wissembourg (BasRhin), nous font part de
+                  la naissance de leur neuvième enfant, Jérôme, né le 7 août 1929.</p>
+                <p>Notre camarade et Mme Billoud, de Villeurbanne (Rhône), nous font part de la
+                  naissance de leur fils Gilbert, né le 10 septembre 1929.</p>
+                <p>Notre camarade et Mme Fernand Martin, de Wahagnies (Nord), nous font part de la
+                  naissance de leur fille, Jeanne, née le 16 septembre 1929.</p>
+                <pb n="19"/>
+                <note type="foliation">— 17 —</note>
+                <p>Notre camarade et Mme Bugnat, de Genas (Isère), nous font part de la naissance de
+                  leur sixième enfant, Henriette, née le 27 août 1929.</p>
+                <p>Notre camarade et Mme Aumont, de Trun (Orne), nous font part de la naissance de
+                  leur troisième enfant, Marie-Rose, née le 25 août 1929.</p>
+                <p>Notre camarade et Mme Dupuy, de Saint-Plancard (Haute-Garonne), nous font part de
+                  la naissance de leur deuxième enfant, Anna, née le 13 juillet 1929.</p>
+                <p>Notre camarade et Mme Bovis, de Wattrelos (Nord), nous font part de la naisssance
+                  de leur fils, Jean, né le 20 septembre 1929.</p>
+                <p>Notre camarade et Mme Laurent, de La Berthenaux (Indre), nous font part de la
+                  naissance de leur fille, Renée, née le 12 août 1929.</p>
+                <p>Notre camarade et Mme Loubière, de Joncquières (Vaucluse), nous font part de la
+                  naissance de leur troisième enfant, Georges, né le 25 septembre 1929.</p>
+                <p>Notre camarade et Mme Herbet, de Huppy (Somme), nous font part de la naissance de
+                  leur troisième enfant, Jean, né le 20 août 1929.</p>
+                <p>Notre camarade et Mme Dubois (Aimé), de Bermerain (Nord), nous font part de la
+                  naissance de leur fille, Nelly, née le 23 septembre 1929.</p>
+                <p>Notre camarade et Mme Anquetil (Pierre), de Plessis-Robinson (Seine), nous font
+                  part de la naissance de leur fils, Jean, né le 1<hi rend="superscript">er</hi>
+                  octobre 1929.</p>
+                <p>Notre camarade et Mme Gardel, de Domaize, nous font part de la naissance de leur
+                  deuxième enfant, Jeannine, née le 19 septembre 1929.</p>
+                <p>Notre camarade et Mme Bezard, de Langeais (Indre-et-Loire), nous font part de la
+                  naissance de leur quatrième enfant, Robert, né le 2 octobre 1929.</p>
+                <p>Notre camarade et Mme Le Floch, de Rostrenen (Côtes-du-Nord), nous font part de
+                  la naissance de leur fille, Annic, née le 13 octobre.</p>
+                <p>Notre camarade et Mme Auliac, de Martial (Corrèze), nous font part de la
+                  naissance de leur cinquième enfant, Gabrielle, née le 13 octobre.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+                <pb n="20"/>
+                <note type="foliation">— 18 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">MARIAGES</head>
+                <p>Notre camarade Reyné, de Pellegrue (Gironde), nous fait part de son mariage avec
+                  Mlle Lucy Largeteau, célébré le 23 septembre 1929.</p>
+                <p>Notre camarade Gardette, de Montélimar (Drôme), nous fait part de son mariage
+                  avec Mlle Thérèse Besse, célébré le 5 octobre 1929.</p>
+                <p>Notre camarade Bellevenue, de Paris, nous fait part de son mariage avec Mlle
+                  Simone Bellevault, célébré le 7 octobre 1929.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Lasbleis (Raymond), de Pau
+                  (Basses-Pyrénées), décédé le 11 septembre 1929, à l'âge de trente et un ans.</p>
+                <p>De notre camarade Miot (Henri), de Paris, décédé le 3 octobre 1929, à l'âge de
+                  trente-cinq ans.</p>
+                <p>De notre camarade Stolz, de Schaffhausen (Bas-Rhin), décédé le 19 septembre
+                  1929.</p>
+                <p>De la naissance et du décès de la fille de notre camarade Dubos, de Vauchelles
+                  (Somme), le 12 septembre 1929.</p>
+                <p>De la fille de notre camarade Pierre Simon, de Petit-Quevilly (Seine-Inférieure),
+                  décédée le 11 septembre 1929.</p>
+                <p>De la fille de notre camarade Khidas, de Nancy (Meurthe-etMoselle), décédée le 11
+                  octobre, à l'âge de treize mois.</p>
+                <p>De la mère de notre camarade Levy, de Sains-en-Gohelle (Pas-de-Calais), décédée à
+                  l'âge de soixante-dix ans.</p>
+                <p>De la mère de notre camarade Lucas, de Villedieu, décédée le 14 août 1929, à
+                  l'âge de quatre-vingt-cinq ans.</p>
+                <p>Du père de notre camarade Raveleau, de Légé (Loire-Inférieure), décédé à l'âge de
+                  soixante-deux ans.</p>
+                <p>Du père de notre camarade F. Sauvage, de Saint-Aubin-du-Cormier, décédé le 26
+                  septembre 1929, à l'âge de quatre-vingt-trois ans.</p>
+                <p>De la soeur de notre camarade Galis, de Tonneins (Loir-et-Cher), décédée le 7
+                  octobre 1929, à l'âge de 24 ans.</p>
+                <pb n="21"/>
+                <note type="foliation">— 19 —</note>
+                <p>De la naissance et du décès du fils de notre camarade Envin, de Paris, né le 2
+                  juillet et décédé le 4 juillet 1929.</p>
+                <p>De la femme de notre camarade Raffa, de la Ricamarie, décédé à l'âge de 59
+                  ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">Procès-Verbal de la Séance
+                du Consell d'Administration du 13 JUILLET 1929</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Scapini. Sont présents :
+                Scapini, Amblard, Favret, Noireaux, Bloncourt, Bardoux, Bertrand, Bois, Conan,
+                Courteix, Fauvel, Grillet, Guillam, Laffargue, Leveau, Lauté, L'Evesque, Malgat,
+                Muller, Nicolaï, Virot. M. de Traversay, président du Comité d'Action.</p>
+              <p>Ont donné leurs pouvoirs : Au président : Antoine, Arnault, Izaac. A Favret :
+                Cabasson. A Bloncourt : Satgé. A Noireaux : Derunder. A Laffargue : Lagarde. A
+                Leveau : Robert (Maurice). Le président expose au Conseil que par son testament
+                authentique reçu par <hi rend="superscript">M</hi>^{\circ} Rousset, notaire à
+                Marseille, le 28 avril 1927, enregistré, Mlle Aimée-Louise Antola, décédée à
+                Marseille le 30 décembre 1927, a légué à l'Union des Aveugles de Guerre une maison
+                sise à Marseille, rue Milly, <hi rend="superscript">n</hi>^{\circ} 12, quartier
+                Vauban.</p>
+              <p>Que par délibération du 3 mars 1928, le Conseil d'administration a accepté ce legs
+                et a donné tous pouvoirs au trésorier de l'Union pour prendre tous engagements et
+                faire le nécessaire.</p>
+              <p>Que par autre délibération du 21 juillet 1928, il a été, conformément aux
+                prescriptions de la loi, ordonné la vente de l'immeuble légué par Mlle Antola pour
+                les revenus du capital de cette vente être affectés, selon la volonté de la
+                testatrice, au paiement d'allocations annuelles en faveur de deux familles
+                d'aveugles de guerre.</p>
+              <p>Que ces deux délibérations ont été approuvées par M. le Président <pb n="22"/>
+                <note type="foliation">— 20 —</note> de la République, suivant décret du 29 novembre
+                1928, qui a autorisé le trésorier de l'Association à accepter le legs et ordonné que
+                les fonds à provenir de la vente de l'immeuble soient placés conformément aux
+                dispositions de l'article 14 des statuts.</p>
+              <p>Qu'en exécution de ces délibérations et décret, délivrance du legs dont il s'agit a
+                été consentie à l'Union suivant acte reçu par <hi rend="superscript">M</hi>^{\circ}
+                Coquard, notaire à Marseille, le 8 avril 1929.</p>
+              <p>Qu'il y aurait lieu, actuellement, de faire procéder à la vente de l'immeuble,
+                objet du legs, conformément à la délibération prise antérieurement le 21 juillet
+                1928, et au décret sus-énoncé et de donner les pouvoirs à cet effet.</p>
+              <p>Après en avoir délibéré, le Conseil, à l'unanimité, décide de faire procéder à la
+                vente de l'immeuble, objet du legs fait par Mlle Antola et donne tous pouvoirs
+                nécessaires à M. le trésorier de l'Association, à l'effet de vendre, soit de gré à
+                gré, soit aux enchères en totalité ou en partie, en un seul ou plusieurs lots, aux
+                personnes et aux prix, charges et conditions que la Trésorerie jugera convenable,
+                l'immeuble sis à Marseille, rue Milly n <hi rend="superscript">°</hi> 12, légué à
+                l'Union des Aveugles de Guerre, par Mlle Antola, ainsi qu'il est dit ci-dessus.</p>
+              <p>Etablir la désignation complète et l'origine de propriété dudit immeuble, obliger
+                l'Association à toutes garanties et au rapport de toutes mainlevées et
+                radiations.</p>
+              <p>Fixer l'époque d'entrée en jouissance, convenir du mode et des époques de paiement
+                du prix, le recevoir en principal et intérêts, soit comptant, soit aux termes
+                convenus, ou par anticipation, consentir toutes délégations aux créanciers inscrits,
+                accepter toutes garanties, transporter avec ou sans garantie tout ou partie des prix
+                de vente; toucher le prix du transport, faire toutes déclarations d'état civil et
+                autres, déclarer notamment que l'Union des Aveugles de Guerre, en raison de son
+                caractère de personne morale n'est soumise à aucune hypothèque légale.</p>
+              <p>A défaut de paiement, exercer toutes poursuites nécessaires depuis les
+                préliminaires de conciliation jusqu'à l'obtention de tous jugements et arrêts;
+                produire à tous ordres et distribution, toucher le montant de toutes
+                allocations.</p>
+              <p>De toutes sommes reçues, donner quittance, consentir mention privilège et toutes
+                antériorités, faire mainlevées avec désistement de tous droits de privilège,
+                hypothèque et action résolutoire et consentir la <pb n="23"/>
+                <note type="foliation">— 21 —</note> radiation de toutes inscriptions d'offices et
+                autres, le tout avec ou sans constatation de paiement.</p>
+              <p>Faire et accepter tous emplois. Aux effets ci-dessus, passer et signer tous actes,
+                élire domicile, substituer et généralement faire le nécessaire.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 15 h .15 :</p>
+
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h32">ELECTION D'UN
+                  ADMINISTRATEUR</head>
+                <p>Au cours de sa séance du 5 octobre, le Conseil d'administration a procédé à
+                  l'élection d'un administrateur en remplacement du camarade Lallement,
+                  démissionnaire.</p>
+                <p>Six candidats s'étaient fait inscrire et les résultats ont été les suivants :
+                  Suffrages exprimés : 24 . Ont obtenu : Roy (Georges), 12 voix (élu).
+                  Céré-Labourdette : 11 voix. Biray : 1 voix.</p>
+              </div>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">AVIS DIVERS</head>
+              <p>A vendre. Occasion, machine à tricoter Abeilhe, largeur 34, jauge 7, prix 250
+                francs. S'adresser au camarade Martin (Paul), 10, rue de l'Union, La Courneuve
+                (Seine).</p>
+              <p>A vendre : machine à tricoter, marque " Dubied ", largeur de fonture 50 cent.,
+                jauge 50 , état neuf.</p>
+              <p>Une machine à écrire en Braille, marque " The Hall Braille Writer ", très bon
+                état.</p>
+              <p>S'adresser au camarade Joseph Pallier, tricoteur, Bellac (HauteVienne).</p>
+              <p>Le camarade A. Léger, Les Fourneaux (Yonne), serait reconnaissant aux camarades
+                habitant Paris, qui lui indiqueraient un logement de trois pièces. Ecrire au
+                camarade A. Léger, Les Fourneaux (Yonne).</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+              <p>TAILLEUR MODERNE</p>
+              <p>Draperies françaises et anglaises Costumes sur mesure et à façon R. C. Seine
+                1726</p>
+              <p>FERNAND LEROY 18, rue Linné, Paris (V) Travail à façon - Coup de fer instantané
+                RÉPARATIONS - TRANSFORMATIONS Une remise de 100 / 0 est accordée aux membres de l'U.
+                A. G. Mme Fabien, 76, rue d'Aligre, Marans (Charente-Inférieure), serait disposée à
+                prendre, comme pensionnaire un Aveugle de guerre qui trouverait chez elle l'accueil
+                le meilleur.</p>
+              <p>Ecrire à l'adresse précitée. Mme Veuve Chave, demeurant à Donzère (Drôme), nous
+                informe qu'elle prendrait comme pensionnaire un Aveugle de guerre. S'adresser pour
+                tous renseignements complémentaires à Mme Vve Chave, Grande-Rue, à Donzère
+                (Drôme).</p>
+              <p>Un de nos membres associés, M. E. Vuichard, à Salon (Bouches-du-Rhône), huiles,
+                savons, cafés, offre la représentation de sa maison à nos camarades. Les affaires se
+                traitent surtout par relations de parenté et d'amitié.</p>
+              <p>Le gain à réaliser est appréciable et les camarades trouveront dans cette
+                occupation un attrait réel.</p>
+              <p>La Maison Gabay serait susceptible de fournir du travail de tricotage en série
+                (tricot sans être monté) et donnerait la préférence aux tricoteurs aveugles
+                inoccupés.</p>
+              <p>S'adresser à M. Gabay, 24, rue de Ménilmontant, Paris. La Maison Neyken, 272, rue
+                Renory, Kinkempois (Angleur), Belgique, nous informe que, sous les auspices de
+                l'Euvre Nationale des Aveugles, elle est à même de fournir une machine à écrire en
+                relief, genre Stains-By comprenant : 1<hi rend="superscript">°</hi> un étui en
+                carton; 2<hi rend="superscript">°</hi> la planche en bois dur; 3<hi
+                  rend="superscript">°</hi> un châssis pour chariot; 4<hi rend="superscript">°</hi>
+                le chariot, le tout au prix de 50 belgas port et douane non compris.</p>
+              <p>S'adresser pour toute commande à la Maison Neyken.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+              <p>MATIÈRES PREMIÈRES POUR LA BROSSERIE SOIES DE PORCS de toutes provenances, brutes
+                et préparées pour la brosserie générale : Brosses, balais, brosses à parquets,
+                brosses à plafonds, brosses à têtes, brosses à dents, brosses à habits, etc.</p>
+              <p>Maison KREJTMAN FRERES</p>
+              <p>6, rue N.-D.- de Nazareth, Paris ( 3<hi rend="superscript">°</hi> ) Téléphone :
+                Turbigo 88-99 Stock permanent. La Maison adressera des échantillons sur simple
+                demande.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">LE VELO-CAR</head>
+              <p>SALON DU CYCLE</p>
+              <p>du 25 octobre au 5 novembre Pas d'impôts Pas d'essence Pas de permis</p>
+              <p>Vente au comptant et à crédit</p>
+              <p>Demander notice à votre camarade Lamerand, 47, boulevard Ménilmontant, Paris ( <hi
+                  rend="superscript">XI</hi>^{\circ} )</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">Liste des Donateurs</head>
+              <p>Collecte faite à l'occasion du mariage des époux Watremez, à Cambrai, 47 fr. 80. -
+                M. Metral, Lyon, 20 fr. - Collecte faite par les réservistes du 184<hi
+                  rend="superscript">°</hi> d'artillerie, 125 fr. - M. Faisse, Alès (Gard), en
+                souvenir de son père, 500 fr. - M. Schweitzer, Paris, 50 fr. - Protection et bonne
+                santé de notre famille, 300 fr. M. Louis D. Beaumont, Cap d'Antibes, 3.300 fr. - M.
+                Ruben Helft, Paris, 100 fr. - M. Puissochet, Tours-sur-Meymont (Pas-deCalais), 1.000
+                francs.</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">Dons avec affectation
+                spéciale pour la création de la " Maison des Aveugles de Guerre"</head>
+              <p>Ville de Vouziers (Ardennes), 100 fr. - Caisse d'Epargne de Lillers
+                (Pas-de-Calais), 200 fr. - Ville de Landerneau (Finistère), 100 fr. - Caisse
+                d'Epargne de Caen (Calvados), 3.000 fr. - Ville de Poitiers (Vienne), 100 fr. -
+                Commune de Montluel (Ain), 100 fr. - Ville d'Auneau (Eure-et-Loir), 50 fr. - Ville
+                de Rethel (Ardennes), 50 fr. - Ville de Benfeld (Bas-Rhin), 100 fr. - Ville
+                d'Avesnes (Nord), 50 fr. - Commune de Auzances (Creuse), 100 fr. - Ville de Beaune
+                (Côte-d'Or), 100 fr. - Ville de Montmédy (Meuse), 100 fr. - Ville de Bar-sur-Aube,
+                100 fr. - Ville de Stenay (Meuse), 200 fr. - Commune de Cheroy (Yonne), 20 fr.
+                Commune de Bourbon-l'Archambault (Allier), 100 fr. - Ville de Gerbeviller
+                (M.-et-M.), 50 fr. - Mme E. Hardy, Paris, 10 fr. Mme Paul Bouché, Paris, 10 fr. -
+                Caisse d'Epargne de Niederbronn (Bas-Rhin), 200 fr. - Ville de Vichy (Allier), 100
+                fr. Commune de Montrevel (Ain), 50 fr. - M. Schweitzer, Paris, 50 fr. - Ville de
+                Concarneau (Finistère), 200 fr. - Chambre de Commerce de Kayes (Soudan), 1.000 fr. -
+                Ville d'Erstein (Bas-Rhin), 200 fr. - M. Leblond, Metz, 450 fr. - Commune de Roybon
+                (Isère), 50 fr. - Ville de Cassel (Nord), 100 fr. - Commune de Chef-Boutonne
+                (Deux-Sèvres), 25 fr. - Ville de Munster (HautRhin), 50 fr. - Ville de Badonviller
+                (Meurthe-et-Moselle), 100 fr. - Caisse d'Epargne de Toul (Meurthe-et-Moselle), 500
+                fr. - Caisse d'Epargne de Lille, 10.000 fr. - Province de Ventiane, Laos, 500 fr. -
+                Colonie Française de Ventiane, Laos, 1.631 fr. 25. M. Bellain, Vichy, 50 fr. - M.
+                Paugiri Bey, Vittel, 80 fr. Ville de Montbrison (Loire), 100 fr. - Ville de Vitré
+                (Ille-et-Vilaine), 100 fr. - Commune de Meyzieux (Isère), 50 fr. - Ville de Salins
+                (Jura), 200 fr. - Ville de Cambrai, 200 fr. - Commune d'Aspres-sur-Buech
+                (Hautes-Alpes), 50 fr.</p>
+              <pb n="27"/>
+              <note type="foliation">— 25 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents : Amblard, Favret, Noirkaux. Secrétaire général
+              : Bloncourt. Trésorier : Gaston L'Evesque. Membres : Antoine, Arnault, Bardoux,
+              Bertrand, Bois, Cabaisson, Conan, Courteix, Derunder, Fauvel, Grillet, Guillam, Izaac,
+              Lappargue, Lagarde, Lauté, Leveau, Malgat, Muller, Nicolai, Robert (Maurice), Roy
+              (Georges), Satgé, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Oscar Bloch, Secrétaire adjoint; M. Autrbre, Actuaire
+              à la Compagnie "L'Union n M. Marcel Bloch;</p>
+            <p>Mme Broquin; M. Chepper; M. Pierre Chérot;</p>
+            <p>Mme Chevalier; Mme Contamin; Mlle Jalaguier; Baronne de Grotthuss-Gernandt. Mme
+              Henri; Mme Kalt; Mme L'Evesque; Mme Lévy-Weiss; M. Mayer,</p>
+            <p>Mme Meyer; Mme Mus; M. Pascal; Dr Scuneder; Colonel de Traversat.</p>
+            <pb n="28"/>
+            <note type="foliation">— 26 —</note>
+            <fw type="footer">Imprimerie Dubois et Bauer, M. rue Laffitte, Paris 1929.</fw>
+            <list type="ordered">
+              <item>(1) Donner très complètement et très lisiblement nom, prénoms, lieu et date de
+                naissance, adresse et profession. (2) Bayer, suivant le cas, le mot marié ou le mot
+                célibataire et indiquer le nombre d'enfants. ↩</item>
+            </list>
+            <p>(1) Donner très complètement et très lisiblement nom, prénoms, lieu et date de
+              naissance, adresse et profession. (2) Bayer, suivant le cas, le mot marié ou le mot
+              célibataire et indiquer le nombre d'enfants. <ref target="#fnref:0">↩</ref></p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,806 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 21ème année 1939, n°9</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#bibliotheque">Bibliothèque</term>
+          <term ref="#livre-parle">Livre parlé</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre (U.A.G.) fournit des informations
+          essentielles à ses membres, notamment sur les pensions, les visites au Ministre des
+          Pensions, la commémoration du 11 Novembre, les services de bibliothèque et de livre parlé,
+          et les nouvelles des aveugles de guerre canadiens et polonais. Il aborde également des
+          questions pratiques telles que les loyers, l'exemption de réquisition des automobiles et
+          les déclarations de changement d'adresse. Le bulletin inclut une chronique de l'U.A.G.,
+          des procès-verbaux des réunions du Conseil d'administration, et des informations sur les
+          naissances, mariages et décès parmi les membres et leurs familles.</p>
+      </abstract>
+      <creation>
+        <date when="1939-11-01">01/11/1939</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h5">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h7">A NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTRE BULLETIN</ref>
+          </item>
+          <item>
+            <ref target="#h9">VISITE AU MINISTRE DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h10">LE 11 NOVEMBRE</ref>
+          </item>
+          <item>
+            <ref target="#h11">BIBLIOTHEQUE - LIVRE PARLE</ref>
+          </item>
+          <item>
+            <ref target="#h12">LES AVEUGLES DE GUERRE CANADIENS</ref>
+          </item>
+          <item>
+            <ref target="#h13">MORT DE WAGNER PRESIDENT DES AVEUGLES DE GUERRE POLONAIS</ref>
+          </item>
+          <item>
+            <ref target="#h14">LE PAIEMENT DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h15">CONTRIBUTION NATIONALE</ref>
+          </item>
+          <item>
+            <ref target="#h16">LES LOYERS</ref>
+          </item>
+          <item>
+            <ref target="#h17">EXEMPTION DE REQUISITION DES AUTOMOBILES</ref>
+          </item>
+          <item>
+            <ref target="#h18">DECLARATION DE CHANGEMENT D'ADRESSE</ref>
+          </item>
+          <item>
+            <ref target="#h19">A L'OFFICE. NATIONAL</ref>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h20">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h21">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h23">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h24">PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU 20 MAI
+                  1939</ref>
+              </item>
+              <item>
+                <ref target="#h25">PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU 24
+                  JUIN 1939</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h26">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h27">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h28">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">20e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">NOVEMBRE 1939</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>A nos camarades.</item>
+                    <item>Notre Bulletin.</item>
+                    <item>Visite au Ministre des Pensions.</item>
+                    <item>Le 11 Novembre.</item>
+                    <item>Bibliothèque.</item>
+                    <item>Livre parlé.</item>
+                    <item>Les Aveugles de Guerre Canadiens.</item>
+                    <item>Mort de Wagner, Président des Aveugles de Guerre Polonais.</item>
+                    <item>Le paiement des pensions.</item>
+                    <item>Contribution Nationale.</item>
+                    <item>Les loyers.</item>
+                    <item>Exemption de réquisition des automobiles.</item>
+                    <item>Déclaration de changement d'adresse.</item>
+                    <item>A l'Office National.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'administration du 20 mai
+                      1939.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'administration du 24 juin
+                      1939</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31 <lb/> Siège provisoire : FRANCEVILLE (Calvados)</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire ; \dagger M. Barthou,
+              ancien Président du Conseil ; M. le colonel Fabry, Député, ancien Ministre ; \dagger
+              M. le général Balfourier ; M. J. Ridgely-Carter ; M. Paul de Cassagnac, ancien Député
+              ; M. Maurice Donnay, de l'Académie Française ; M. Duco, Médecin-Inspecteur ; M.
+              Fribourg, Député ; Miss Alice Getty ; M. Justin Godart, ancien Ministre ; Miss Grace
+              Harper ; Miss Winifred Holt ; M<hi rend="superscript">me</hi> Léopold Kahn ; M. Krung
+              ; M. Lugol, ancien Sénateur ; \dagger M<hi rend="superscript">me</hi> la maréchale
+              Maunoury : M. Samuel Milbank ; M. Meyer, Conseiller d'Etat ; M. Henry Paté, Député ;
+              \dagger M<hi rend="superscript">e</hi> Henri Robert, de l'Académie française, ancien
+              Batonnier de l'Ordre des Avocats; M. le général Sainte-Claire-Deville ; \dagger M.
+              Vallery-Radot.</p>
+            <pb n="3"/>
+          </div>
+          <fw>20e ANNEE - N° 9 NOVEMBRE 1939</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">A NOS CAMARADES</head>
+            <p>Il y a vingt ans nous sortions de la guerre. Une même pensée nous animait tous alors
+              : travailler dans une atmosphère de paix définitive à nous relever rapidement des
+              ruines accumulées sur notre pays par quatre années de dévastation.</p>
+            <p>L'U.A.G. se créait. Les Aveugles de Guerre de France, pendant vingt ans, ont fourni
+              leur effort constructif dans cette idée de paix et de sécurité qu'ils espéraient
+              définitive.</p>
+            <p>Cependant, depuis quelque temps, le spectre de la guerre de nouveau apparaissait.
+              Depuis un an surtout il se précisait et nous le redoutions, tout en gardant l'espoir
+              que nos craintes seraient vaines.</p>
+            <p>Il n'en a pas été ainsi, les événements se sont précipités, nous soumettant à de
+              nouvelles épreuves pesant sur nos foyers, d'où déjà beaucoup d'entre nous ont vu
+              partir leurs fils, leurs frères, emportant avec eux notre pensée anxieuse qui les
+              suivra jusqu'à leur retour.</p>
+            <p>La France, au cours de ces semaines de mobilisation et de début de guerre, s'est
+              montrée comme toujours aux grandes heures de son histoire, unie, grande et forte. Elle
+              a donné au monde l'impression qu'elle avait gardé intactes ses vertus ancestrales,
+              gages certains de sa victoire.</p>
+            <p>Chaque Français fera son devoir. Les Aveugles de Guerre feront le leur,
+              individuellement et collectivement.</p>
+            <p>Le nouveau Ministre des Anciens Combattants et Pensionnés, M. René Besse, qui est un
+              des plus fervents amis de l'U.A.G., a fait un appel émouvant à la collaboration de
+              tous ses anciens frères d'armes. Nos camarades ont certainement entendu son allocution
+              radiodiffusée, que la Presse entière reproduisait les jours suivants.</p>
+            <p>L'U.A.G. a répondu, pour ne pas dire devancé cet appel, puisque, dès le vendredi 29
+              Septembre, nous apportions au Ministre un projet concret de collaboration.</p>
+            <p>Nous souhaitons ardemment, passionnément, que la blessure qui <pb n="4"/>
+              <note type="foliation">— 2 —</note> prive à jamais de la lumière soit épargnée à ceux
+              qui de nouveau combattent. Mais, si ce malheur les frappe, nous voulons que leur soit
+              évitée l'inquiétude, l'angoisse qui nous a étreints, devant nos espoirs de vie perdue,
+              de carrières fermées, de situations brisées.</p>
+            <p>Dans le dévouement de nos cceurs qui comprennent, ils trouveront chez leurs ainés
+              l'accueil plein d'affection qui les guidera, les aidera, les associant à la vie
+              nouvelle qui depuis vingt ans est la nôtre.</p>
+            <p>C'est ce que, en votre nom à tous, nous sommes allés dire à M. René Besse. Nous
+              développerons, au fur et à mesure qu'ils se préciseront, les projets que maintenant,
+              d'accord avec le Gouvernement, nous élaborons pour soutenir moralement d'abord, puis
+              assurer la rééducation et l'avenir des soldats aveugles de cette guerre. Nous sommes
+              certains que tous nos camarades nous approuveront et ne nous ménageront pas la
+              confiance qu'avec ccur et élan M. René Besse nous a accordée. A. Conan.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTRE BULLETIN</head>
+            <p>Une quinzaine de jours après l'installation de nos Bureaux à Franceville, une fois
+              terminé le gros remous provoqué par la mobilisation, nous reprenions contact avec tous
+              nos camarades en leur adressant un petit bulletin tiré par nos propres moyens. Il
+              s'agissait là de conserver intacts les liens qui nous unissent et, le 22 septembre,
+              partait à la poste de Franceville le dernier numéro de cette publication réduite où
+              nous donnions déjà quelques renseignements, en particulier au sujet du paiement des
+              pensions dans les nouveaux lieux de résidence.</p>
+            <p>Nous reprenons maintenant la publication régulière du Bulletin de l'U. A. G. qui,
+              nous l'espérons, parviendra aux camarades sans grand retard, malgré que de nombreux
+              changements d'adresse nous obligent à un travail supplémentaire, et nous sommes
+              persuadés que chaque mois ils reverront avec plaisir le format habituel de notre
+              bulletin. H. Amblard.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">VISITE AU MINISTRE DES
+              PENSIONS</head>
+            <p>Notre Président, dans l'intéressant article publié plus haut, indique dans Ǵuel
+              esprit M. le Ministre des Pensions a compris la collaboration que devait lui apporter
+              l'U. A. G. pour les nouveaux aveugles de guerre et quelle était la confiance qu'il
+              mettait dans notre Association.</p>
+            <p>Il sera bon, en effet, d'éviter bien des tâtonnements et bien des erreurs et c'est
+              pourquoi il fut entendu que la liaison entre les services du Ministère et l'U. A. G.
+              auraient plus de souplesse et de facilités.</p>
+            <p>C'était donc le vendredi 29 septembre que nous recommencions nos visites au Bureau du
+              Ministre des Pensions, dans une période de guerre que nous ne pensions pas revoir et,
+              détail piquant, nous sortions comme à l'ordinaire dans cette rue de Bellechasse, où il
+              est bien normal de causer entre soi de la visite que l'on vient de faire, quand,
+              quelques minutes après, retentirent les sirènes d'une alerte. Il était 11 \mathrm{~h}
+              .1 / 2 et nous fûmes fourrés dans une cave du boulevard Saint-Germain où, pendant
+              trois quarts d'heure, nous attendimes la fin de l'alerte. C'est donc dans une cave de
+              Paris que nous avons continué à discuter de nos intérêts. L'U. A. G. ne perd jamais
+              ses droits. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">LE 11 NOVEMBRE</head>
+            <p>Le mois qui va venir nous apportait une fête bien agréable au cour des anciens
+              combattants qui, le 11 Novembre, fétaient le jour où l'Armistice sonna. Hélas, la paix
+              de 1918 n'a pu atteindre sa majorité, un être anormal n'ayant pas voulu que nous
+              vivions à jamais des heures de calme et de tranquillité. Nous ne monterons pas cette
+              année à l'Arc de Triomphe et nous n'aurons pas ensuite notre réunion amicale où, dans
+              notre maison de famille de la rue Blanche, nous déjeunions, heureux de nous réunir en
+              ce jour de fête. Ce déjeuner, que nous avions organisé depuis deux ans seulement,
+              serait devenu rapidement une coutume et nous n'aurions pas conçu le 11 Novembre sans
+              ce repas fraternel.</p>
+            <p>Où que nous soyions en cet automne 1939, nous penserons aux <pb n="6"/>
+              <note type="foliation">— 4 —</note> Morts de la Grande Guerre, en espérant qu'il y en
+              ait bien peu dans la nouvelle. Puis, il y aura d'autres 11 Novembre; qu'ils soient
+              bien proches et qu'ils nous voient réunis à jamais dans la Paix. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">BIBLIOTHEQUE - LIVRE PARLE</head>
+            <p>Notre changement de résidence nous avait contraints à suspendre momentanément nos
+              services de bibliothèque et de discothèque, mais voici l'hiver qui aproche et, avec
+              ces longues soirées, les camarades ressentent à nouveau le besoin de lire des ouvrages
+              en Braille, ou bien encore d'écouter les disques du Livre Parlé.</p>
+            <p>Le service postal s'améliorant et acceptant les colis assez volumineux, nous avons
+              procédé à l'organisation de notre service de bibliothèque, et nous prions nos
+              camarades qui désirent des livres ou des disques d'écrire directement à M. Estrade, 49
+              rue Blanche, en mettant au coin de l'enveloppe "Bibliothèque» ou "Livre Parlé ». Ne
+              pas mentionner : "Union des Aveugles de Guerre », sans quoi la lettre,
+              automatiquement, serait dirigée sur Franceville, ce qui occasionnerait une perte de
+              temps.</p>
+            <p>Que nos camarades indiquent très clairement ce qu'ils désirent, même s'ils ont déjà
+              donné une liste d'ouvrages à leur envoyer.</p>
+            <p>Notre bibliothécaire a mis au courant M. Estrade du fonctionnement de ses services.
+              Il est indispensable pour gagner du temps, de rappeler: le numéro du livre, le titre
+              et le nom de l'auteur.</p>
+            <p>Pour le "Livre Parlé ", renvoyer également les disques au complet et demander
+              l'ouvrage désiré.</p>
+            <p>A noter que vient d'entrer dans nos rayons de discothèque: Le Gouffre, de Henry
+              Bordeaux, qui peut être dès à présent demandé.</p>
+            <p>Nous espérons que nos camarades seront satisfaits de cette organisation et insistons
+              pour que les lettres spéciales: "Bibliothèque " soient adressées à M. Estrade, 49, rue
+              Blanche, Paris (9r).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LES AVEUGLES DE GUERRE
+              CANADIENS</head>
+            <p>Notre Assemblée Générale avait décidé l'envoi en Amérique de délégués et le Conseil
+              d'Administration avait nommé son Président et son Secrétaire Général pour effectuer ce
+              voyage, qui aurait été très <pb n="7"/>
+              <note type="foliation">— 5 —</note> fructueux pour différentes études concernant les
+              aveugles et leurs rapports avec les Associations et (Euvres américaines, très en
+              avance pour tout ce qui concerne le bien des aveugles.</p>
+            <p>Au cours de ce voyage, les deux délégués auraient été reçus par le Président
+              Roosevelt, ce qui aurait été un grand honneur pour les aveugles de guerre français;
+              malheureusement, au moment de partir, les événements actuels se déclanchèrent.</p>
+            <p>Nos frères canadiens avaient leur réunion annuelle du 11 au 13 septembre, ce qui
+              coïncidait avec notre voyage, et nous avions été invités d'une façon particulière à y
+              assister. Cela aurait été pour nous une grande joie de représenter l'U. A. G. au
+              Canada; tout cela est à recommencer, mais nous devons penser à autre chose. Voici à ce
+              propos l'aimable lettre que nous adresse notre camarade, le Capitaine E. A. Baker,
+              Secrétaire Général des Aveugles de Guerre Canadiens, à la suite de notre dernière
+              lettre lui faisant part de notre impossibilité de répondre à son aimable invitation
+              :</p>
+            <p>" Mon Cher Monsieur Amblard,</p>
+            <p>"J'étais heureux de recevoir votre lettre qui me parvint le 11 sep"tembre. Cependant,
+              à cause de la déclaration de guerre, la réunion " de nos Aveugles de Guerre a été
+              annulée. " Néanmoins, je compte sur votre visite, plus tard, quand cela sera "
+              possible. En attendant, nous devons nous efforcer de rendre toujours " plus efficace
+              l'effort du Canada pour la guerre. Nous suivons " anxieusement chaque nouvelle
+              évolution des événements et toute " l'aide que pourront apporter nos hommes et nos
+              ressources est en " voie d'organisation. "En terminant, j'adresse à tous les membres
+              de votre Association " mes meilleurs vœux et vous prie de recevoir l'expression de mes
+              " sentiments les plus amicaux. "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">MORT DE WAGNER PRESIDENT DES
+              AVEUGLES DE GUERRE POLONAIS</head>
+            <p>Nous avons appris avec tristesse le déeès de notre camarade Wagner. Président des
+              Aveugles de Guerre Polonais, qui trouva la mort avec sa famille ces temps derniers à
+              Varsovie.</p>
+            <p>Wagner, qui était en outre Député au Parlement Polonais et Prési- <pb n="8"
+                break="no"/>
+              <note type="foliation">— 6 —</note> dent des Invalides de ce Pays, était un camarade
+              avec qui nous entretenions les plus amicales relations. Il avait fait, après la
+              guerre, une partie de sa rééducation en France et parlait très bien notre langue.</p>
+            <p>Au cours de ses nombreux voyages à Paris, il ne manquait jamais de nous faire une
+              visite, et nous avons eu souvent des causeries amicales avec lui rue Ballu et,
+              récemment, rue Blanche, où il était plusieurs fois venu et avait accepté nos
+              invitations à déjeuner dans notre Maison.</p>
+            <p>Après avoir donné ses yeux à sa Patrie, il paie de sa vie l'abominable invasion de
+              son Pays, et tous les aveugles de guerre français seront unanimes dans leur pensée
+              fraternelle pour notre regretté camarade. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LE PAIEMENT DES PENSIONS</head>
+            <p>Nous rappelons que nos camarades peuvent se faire payer leurs pensions et allocations
+              chez le pereepteur le plus proche de leur résidence, au cas où ils auraient changé de
+              domicile par suite des circonstances. La régularisation des fiches de paiement sera
+              faite par les Agents du Trésor.</p>
+            <p>Nous répétons cet avis, déjà publié dans notre dernier Bulletin, qui aurait pu ne pas
+              parvenir à certains camarades, beaucoup ayant changé d'adresse.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">CONTRIBUTION NATIONALE</head>
+            <p>Nos camarades ont certainement appris par la Presse, et nous le leur précisons, que
+              leurs pensions et allocations n'étaient pas soumises à la retenue de 4% opérée sur les
+              salaires, et à la contribution de 15% imposée aux hommes de 18 à 49 ans, instituée par
+              un décret paru au Journal Officiel du 9 septembre 1939.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LES LOYERS</head>
+            <p>Un décret, en date du 26 septembre, réglemente la législation des loyers en temps de
+              guerre.</p>
+            <p>Les mobilisés peuvent bénéficier d'une réduction de 3 / 4 du montant de leur loyer,
+              mais le rapport du présent décret indique que sont exceptés de cette disposition ceux
+              qui ont les moyens d'acquitter une fraction supérieure ou la totalité.</p>
+            <p>On voit donc par cela que tous les mobilisés ne bénéficieront pas des avantages
+              accordés par ce décret et, par conséquent, également les non mobilisés dont les
+              ressources ne sont pas changées.</p>
+            <p>Un juge pourra apprécier dans quelle mesure le propriétaire pourra être dispensé de
+              fournir tout ou partie des prestations dûes par lui (chauffage, eau chaude, ascenseur,
+              etc...) et si un accord amiable n'intervient pas, il fixera les exonérations qui
+              devront être accordées au locataire à qui tout ou partie des prestations ne seraient
+              pas fournies.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">EXEMPTION DE REQUISITION DES
+              AUTOMOBILES</head>
+            <p>Nous avons déjà publié avant les hostilités, une instruction ministérielle exemptant
+              de la réquisition les automobiles des grands mutilés. La dernière circulaire est du 27
+              avril 1939.</p>
+            <p>Après publication de cette information, nous avons donné toutes indications aux
+              camarades qui nous le demandaient, mais nous répétons que, pour être exempts de
+              réquisition, les aveugles de guerre doivent adresser une demande, accompagnée d'une
+              copie certifiée conforme de leur notification de pension, à M. le Général Commandant
+              l'Artillerie de la Région.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">DECLARATION DE CHANGEMENT
+              D'ADRESSE</head>
+            <p>On nous rappelle que les mutilés et réformés âgés de moins de 49 ans doivent déclarer
+              tout changement d'adresse à la Gendarmerie de leur nouveau domicile.</p>
+            <p>Nous pensions que les aveugles de guerre, définitivement rayés des cadres, seraient
+              dispensés de cette formalité, mais puisqu'on nous le demande !..</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">A L'OFFICE. NATIONAL</head>
+            <p>Un décret du 9 septembre 1939 étend aux victimes des présentes hostilités les
+              avantages et bénéfices que réserve l'Office National aux Combattants, Mutilés, Veuves
+              et Ascendants de la Guerre 1914-1918.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Naissances</head>
+                <p>Notre camarade et Madame Lafon, de Vitrac (Cantal) nous font part de la naissance
+                  de leur sixième enfant, Marcelle, née le 27 mai 1939.</p>
+                <p>Notre camarade et Madame Gerentès, de Saint-Julien-Chapteuil (Haute-Loire) nous
+                  font part de la naissance de leur troisième enfant, Jeannine, née le 3 juillet
+                  1939.</p>
+                <p>Notre camarade et Madame Arona Marigor, de Kaolac (Sénégal) nous font part de la
+                  naissance de leurs jumeaux, Mariana et Baudin, le 17 juillet 1939.</p>
+                <p>Notre camarade et Madame Coulard Georges, de Loué (Sarthe) nous font part de la
+                  naissance de leur fils Claude, né le 31 juillet 1939.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">Mariages</head>
+                <p>Notre calıarade Brébion, de Calais (Pas-de-Calais) nous fait part du mariage de
+                  son beau-fils avec <hi rend="superscript">M</hi>^{8 *} Marguerite Bulois, célébré
+                  le 22 juillet 1939.</p>
+                <p>Notre camarade Lemarchand André, de Petit-Couronne (Seine-Infé rieure) nous fait
+                  part du mariage de sa fille Denise avec M. Raymond Andrieu, célébré le 19
+                  août.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">Décès</head>
+                <p>Nous apprenons le décès de : Notre camarade Anthène Claude, de Vichy (Allier),
+                  décédé le 12 octobre à l'âge de 64 ans.</p>
+                <p>Né le 27 mai 1875 à Créchy (Allier), sergent au 104<hi rend="superscript">°</hi>
+                  Territorial, notre camarade fut blessé le 10 novembre 1915 en Champagne. Réformé à
+                  100%, article 10 , pour cécité, il était Officier de la Légion d'honneur et
+                  titulaire de la Médaille militaire.</p>
+                <p>Notre camarade Leclercq Fernand, de Reims (Marne), décédé le 10 octobre 1939, à
+                  l'âge de 58 ans.</p>
+                <p>Né le 23 décembre 1881 à Reims, soldat au 71<hi rend="superscript">°</hi>
+                  régiment d'Infanterie, notre camarade devint aveugle le 27 octobre 1915. Réformé à
+                  100% pour cécité, il laisse une veuve et un enfant.</p>
+                <p>Notre camarade Adam Léon, de Ry (Seine-Inférieure), décédé le 14 juillet 1939, à
+                  l'âge de 63 ans.</p>
+                <p>Né le 8 mai 1876 à Rouen, soldat au 456<hi rend="superscript">°</hi>
+                  d'Artillerie, notre camarade devint aveugle le 8 août 1918. Réformé à 100%,
+                  article 10 , pour cécité, il laisse une veuve et un enfant.</p>
+                <p>Notre camarade Guillard Armand, de Courtenay (Loiret), décédé le 17 octobre 1939,
+                  dans sa 49<hi rend="superscript">°</hi> année. Né le 26 février 1890 à
+                  St-Germain-des-Prés (Loiret), soldat au 6<hi rend="superscript">°</hi> R. I.,
+                  notre camarade devint aveugle le 1<hi rend="superscript">er</hi> août 1918.
+                  Réformé à 110%, articles 10 et 12 , titulaire de la Médaille militaire et de la
+                  Croix de guerre, il laisse une veuve et deux enfants.</p>
+                <p>Notre camarade Christophe Marie, de Vallauris (Alpes-Maritimes), décédé le 14
+                  octobre 1939, à l'âge de 48 ans.</p>
+                <p>Né le 15 avril 1891 à Rignovelle (Haute-Saône), soldat au 4<hi rend="superscript"
+                    >°</hi> Tirailleurs Indigènes, notre camarade fut blessé le 7 juillet 1916 à
+                  Requencourt (Somme). Réformé à 120%, articles 10 et 12 , pour cécité et blessures
+                  multiples, Officier de la Légion d'honneur et titulaire de la Médaille militaire,
+                  il laisse une veuve et deux enfants.</p>
+                <list>
+                  <item>du père de notre camarade Sérot Pierre, de Missillac (LoireInférieure),
+                    décédé le 22 juin à l'âge de 80 ans;</item>
+                  <item>de la mère de notre camarade Chaplais, de Thouaré (Loire-Inférieure),
+                    décédée le 8 juin 1939 à l'âge de 75 ans;</item>
+                  <item>de la mère de notre camarade Ducros, d'Arlane (Puy-de-Dôme), décédée le 29
+                    mai 1939, à l'âge de 70 ans;</item>
+                  <item>de la femme de notre camarade Verrier, de La Ferté-Bernard (Sarthe), décédée
+                    le 28 juin à l'âge de 50 ans;</item>
+                </list>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+                <list>
+                  <item>du beau-père de notre camarade Pouget, de Sens (Yonne), décédé en juin 1939,
+                    à l'âge de 75 ans;</item>
+                  <item>de la belle-mère de notre camarade Peltier Oscar, de Fresnoy-leGrand
+                    (Aisne), décédée le 23 juin 1939, à l'âge de 60 ans;</item>
+                  <item>du fils Louis, de notre camarade Péligry, de Saint-Etienne (Loire), décédé
+                    en juillet dernier;</item>
+                  <item>de la mère de notre camarade Emo, de Paris, décédée le 6 juillet 1939
+                    ;</item>
+                  <item>du père de notre camarade Lenglare, de Douvrin (Pas-de-Calais), décédé le 3
+                    septembre 1939 dans sa $73^{\text {e }}$ année;</item>
+                  <item>de la femme de notre camarade Arsac Félix, de Saint-Marcel-lesValence
+                    (Drôme), décédée le 27 septembre 1939 à l'âge de 49 ans;</item>
+                  <item>de la femme de notre camarade Colin Jules, de Port-sur-Saône (Haute-Saône),
+                    décédée le 29 septembre 1939 à l'âge de 56 ans;</item>
+                  <item>de la femme de notre camarade Coutarel Jean, de Cournon (Puy-de-Dôme),
+                    décédée le 16 août 1939 à l'âge de 47 ans;</item>
+                  <item>de la femme de notre camarade Landais Léopold, de La HutteCoulombiers
+                    (Orne), décédée le 17 octobre 1939, dans sa $44^{e}$ année.</item>
+                </list>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">PROCES-VERBAL DE LA REUNION
+                DU CONSEIL D'ADMINISTRATION DU 20 MAI 1939</head>
+              <p>La séance est ouverte à 14 heures 30 , sous la présidence de Conan. Sont présents:
+                Conan, Guillam, Amblard, L'Evesque, Bardoux, Bois, Céré-Labourdette, Courteix,
+                Evrat, Fauvel, Favret, Grillet, Lauté, Leveau, Malgat, Muller, Roy G.</p>
+              <p>Excusés: Bertrand, Bloncourt, Brusson, Cabasson, Derunder, Izaac (en mission),
+                Laffargue, Lagarde, Nicolaï, Noireaux, Robert M., Satgé, Scapini.</p>
+              <p>Ont donné leurs pouvoirs: à Amblard: Brusson, Nicolaï, Satgé; à Favret : Cabasson;
+                à Leveau: Bertrand; à Noireaux: Derunder. Assistaient également à la séance: MM. de
+                Traversay, Bloch et Iweins, membres du Comité d'Action; Les camarades: Berthet,
+                Mathieu, Thomas. 1<hi rend="superscript">°</hi> Procès-verbal de la réunion du
+                Conseil d'Administration du 13 mai 1939. - Adopté à l'unanimité. 2<hi
+                  rend="superscript">°</hi> Election complémentaire pour désigner deux membres du
+                Bureau. Votants: 30 . Ont obtenu: Izaac, 15 voix; Favret, 12; Muller, 12; Lauté, 6;
+                Leveau, 5 ; Noireaux, 2; Roy G., 2; Bardoux, 1; Bois, 1; Céré-Labourdette, 1;
+                Fauvel, 1; Grillet, 1.</p>
+              <p>Izaac est élu membre du Bureau. Favret et Muller étant ex cequo, Favret est nommé
+                par'le jeu du bénéfice de l'âge.</p>
+              <p>Le Président, en accueillant Favret au Bureau, exprime à Leveau, qui ne désirait
+                plus exercer ses fonctions de vice-président, ses remerciements pour le concours
+                loyal et dévoué qu'il n'a cessé d'apporter pendant les longs moments où il a
+                collaboré à la Direction de l'U. A. G.</p>
+              <p>Lecture est donnée de la demande d'adhésion de: Pichard (Jean), 34, rue
+                Guier-de-Los-Rios, Bordeaux (Gironde), 100%, article 10 , titre définitif, Carte du
+                combattant, bénéficiaire du statut.</p>
+              <p>Ce camarade remplissant les conditions est admis membre titulaire de l'U. A. G.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>Ce Conseil ayant eu pour but principal la nomination définitive des membres du
+                Bureau a dû être très rapproché du précédent. Les administrateurs profitent de cette
+                réunion pour échanger de nombreuses idées sur les points qui intéressent la marche
+                de l'Union, notamment les pensions.</p>
+              <p>La séance est levée à 16 heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">PROCES-VERBAL DE LA REUNION
+                DU CONSEIL D'ADMINISTRATION DU 24 JUIN 1939</head>
+              <p>La séance est ouverte à 14 heures 30 , sous la présidence d'Izaac. Sont présents:
+                Favret, Guillam, Izaac, Amblard, Bardoux, Bertrand, Bois, Brusson, Céré-Labourdette,
+                Courteix, Derunder, Evrat, Fauvel, Lauté, Leveau, Malgat, Muller, Nicolaï, Roy
+                G.</p>
+              <p>Excusés: Bloncourt, Cabasson, Conan (en mission), Grillet, Laffargue, Lagarde,
+                L'Evesque, Noireaux, Robert M., Satgé, Scapini.</p>
+              <p>Ont donné leurs pouvoirs: à Amblard: Laffargue, Lagarde, Noireaux, Robert M.,
+                Satgé. à Favret: Cabasson, Grillet. Assistaient également à la séance: M. de
+                Traversay, Président, et M. Iweins, membre du Comité d'Action, M. Oscar Bloch,
+                Trésorier-adjoint;</p>
+              <p>Les camarades: Gauch, Lardière, Mathieu, Olivier. Izaac excuse Conan qui est en
+                mission confédérale et est heureux de revoir M. de Traversay en meilleure santé.
+                  1<hi rend="superscript">°</hi> Le procès-verbal de la réunion du Conseil
+                d'Administration du 20 mai 1939 est adopté à l'unanimité. 2<hi rend="superscript"
+                  >°</hi> Les situations financières d'avril et mai 1939 sont adoptées à
+                l'unanimité. 3<hi rend="superscript">°</hi> Actions en cours. - Izaac et Amblard
+                mettent le Conseil au courant de l'action du Bureau pendant ce dernier mois, au
+                sujet du rajustement des pensions. Il donne des explications sur les démarches
+                entreprises.</p>
+              <p>Conformément aux décisions de l'Assemblée générale, les administrateurs, à la suite
+                de ces informations, demandent que nos pensions qui constituent notre unique
+                ressource, soient revalorisées par l'augmentation de notre allocation spéciale.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>Prennent la parole: Bois, Brusson, Céré, Fauvel, Favret, Leveau, Muller, Nicolaï,
+                Roy G.</p>
+              <p>Après entente entre tous ces camarades sur les moyens d'action, le Conseil, à
+                l'unanimité, charge son Bureau de poursuivre son effort en vue d'une amélioration de
+                notre allocation 5 bis.</p>
+              <p>Voyage en Amérique. - Le Secrétaire général parle ensuite de l'élaboration du
+                voyage en Amérique des délégués de l'Union.</p>
+              <p>Il expose les points suivants: 1<hi rend="superscript">°</hi> Réduction assez
+                faible consentie par la C ^{<hi rend="superscript">re</hi>} Transatlantique; 2<hi
+                  rend="superscript">°</hi> Lettres encourageantes de M. W. N. Cromwell et M. André
+                Maurois; 3<hi rend="superscript">°</hi> Rapports entamés avec les Associations ou
+                Euvres d'Aveugles en Amérique; 4<hi rend="superscript">°</hi> Prix des transports,
+                hôtels, etc... Les administrateurs s'intéressent à la question et demandent quelques
+                éclaircissements. Muller est d'avis qu'on ne ménage rien pour que la propagande soit
+                bien menée et pense que la délégation devrait être plus nombreuse; Céré-Labourdette
+                souhaiterait voir au moins trois délégués; d'autres administrateurs comme Bois,
+                Bertrand, Courteix, Fauvel, aimeraient aussi voir la délégation plus nombreuse, mais
+                se rendant compte des difficultés inévitablement rencontrées et surtout de la
+                répercussion financière, se prononcent pour le statu quo, demandant au Président et
+                au Secrétaire Général de travailler au mieux des intérêts de l'Union.</p>
+              <p>Le Secrétaire général fait ensuite au Conseil un exposé détaillé sur les
+                négociations engagées avec le Conseil d'Etat au sujet de nos statuts et de
+                l'administration de l'U.A.G.</p>
+              <p>De nombreuses précisions sont demandées par les Administrateurs qui suivent avec
+                grand intérêt cette question et chargent le Bureau de mener à bien les négociations
+                en cours.</p>
+              <p>4<hi rend="superscript">°</hi> Questions diverses:</p>
+              <p>A l'unanimité, le Conseil décide l'admission à l'U. A. G., en qualité de membre
+                titulaire, du camarade:</p>
+              <p>David Jean, rue de l'Abbé-Boyé, Lesparre (Gironde), 100%, article 10, titre
+                définitif, Carte du combattant, Statut. (Faisait déjà partie de l'U. A. G. comme
+                membre temporaire).</p>
+              <p>Legs Schollhammer. - Après avoir pris connaissance des dispositions testamentaires
+                de M. Maurice Schollhammer, demeurant en son vivant à Sarrebourg (Moselle), où il
+                est décédé le 15 juin 1939, par lesquelles il institue par testament olographe fait
+                à Avricourt en date du 13 juillet 1933, l'Union des Aveugles de Guerre légataire
+                universelle en toute propriété de tous les biens, meubles et immeubles composant sa
+                succession;</p>
+              <p>Le Conseil d'Administration: décide à l'unanimité d'accepter ces dispositions
+                testamentaires sous bénéfice d'inventaire et sous réserve de <pb n="17"/>
+                <note type="foliation">— 15 —</note> l'autorisation préfectorale et quant aux fonds
+                à provenir du dit legs, de les employer en secours immédiats aux aveugles de guerre,
+                conformément à l'article I des statuts de l'Association, donne tous pouvoirs à son
+                trésorier pour encaisser le legs au nom de l'Union des Aveugles de Guerre, prendre
+                tous engagements et faire le nécessaire.</p>
+              <p>Le Conseil, considérant les besoins urgents de sa Caisse-maladie et de sa Caisse de
+                Secours aux veuves, par suite du nombre croissant des décès des Aveugles de Guerre,
+                demande à M. le Préfet de la Seine, que les fonds provenant du Legs Homme accepté en
+                date du 18 décembre 1937, soient employés à des secours immédiats, conformément à
+                l'article I des statuts de l'Association.</p>
+              <p>Le remboursement des frais maladie au camarade S..., victime civile, est ratifié à
+                l'unanimité par le Conseil d'Administration.</p>
+              <p>Le Conseil ratifie ensuite le dépôt des valeurs suivantes effectué chez M.
+                Sargenton, agent de change, 26 avenue de l'Opéra, à Paris, pour être vendues par
+                celui-ci :</p>
+              <list>
+                <item>240 fr. — Rente — 3% — perpétuelle</item>
+                <item>345 fr. — — 4% — 1917</item>
+                <item>148 fr. — — 4% — 1918</item>
+                <item>562 fr. 50 — — 4 1/2% — 1932 A</item>
+                <item>1 bon — Département de l'Aisne — 7% — 1926</item>
+                <item>5 — Obligations Afrique Équatoriale Française — 4% — 1931</item>
+                <item>5 — Métallurgie sinistrée — 6% — </item>
+                <item>25 — Gouvernement Tunisien — 3% — 1892</item>
+                <item>21 — — 3% — 1902</item>
+                <item>13 — Ville de Paris — 4% — 1875</item>
+                <item>18 — — 4% — 1876</item>
+                <item>2 — — 5% — 1928</item>
+                <item>3 — — 4 1/2% — 1929</item>
+                <item>3 — Crédit Foncier communales — 2,60% — 1892</item>
+                <item>23 — — 3% — 1909</item>
+                <item>10 — — 3% — 1912</item>
+                <item>2 — — 2,60% — 1879</item>
+                <item>4 — P.-L.-M. anciennes — 3% — </item>
+                <item>47 — Est nouvelles — 3% — </item>
+                <item>5 — Alsace-Lorraine — 5% — 1921 A</item>
+                <item>2 — État — 4% — 1912</item>
+                <item>5 — État — 4% — 1921 A</item>
+                <item>23 — Force Motrice Haute-Durance — 5% — 1907</item>
+                <item>7 — Ruche Méridionale — 6% — 1921</item>
+                <item>9 — 250 Funding — 5% — 1933</item>
+                <item>1 — Royaume de Serbie — 5% — 1902</item>
+                <item>26 — Dette Turque (1re et 3e tranches) — 7 1/2% — 1933</item>
+                <item>8 — Foncières — 3 1/2% — 1913</item>
+                <item>480 — Couronnes de Rente Autrichienne — 4% — 1903</item>
+                <item>3 — Obligations Canal de Panama — — </item>
+              </list>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p><list>
+                  <item>1 Bon Exposition 1889</item>
+                  <item>30 Récépissés provisoires au Porteur d'obligations de l'Emprunt Ottoman 4 %
+                    1902 Douanes</item>
+                  <item>8 Récépissés provisoires au porteur, Emprunt Ottoman 4 % 1909</item>
+                  <item>50 Récépissés provisoires au porteur d'Obligations de l'Emprunt Ottoman
+                    Aleida Sanaa</item>
+                  <item>4 Récépissés provisoires au porteur, bons représentatifs des annuités
+                    arriérées de la Dette Ottomane série A</item>
+                  <item>9 Récépissés provisoires au porteur de Bons représentatifs des annuités
+                    arriérées de la Dette Ottomane série B</item>
+                  <item>2 Récépissés provisoires au porteur de Bons représentatifs des annuités
+                    arriérées de la Dette Ottomane série C</item>
+                  <item>3 Certificats quote part de la Transjordanie dans la Dette Publique Ottomane
+                    ensemble : £: 3, au porteur, remboursables en vingt semestrialités</item>
+                </list> L'ordre du jour étant épuisé, la séance est levée à 17 h .30 .</p>
+              <pb n="19"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire Scapini, Président honoraire Bourguignon, Secrétaire
+              général honoraire Favret, Secrétaire général honoraire Conan, Secrétaire général
+              honoraire Amblard, Secrétaire général honoraire</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">Conseil d'Administration</head>
+            <p>Président : Conan Vice-Présidents: Guillam, Izaac, Leveau Secrétaire général: Amblard
+              Trésorier : Gaston L'Evesque Membres: Bardoux, Bertrand, Bloncourt, Bois, Brusson,
+              Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Favret, Grillet,
+              Laffargue, Lagarde, Lauté, Malcat, Muller, Nicolai, Noireaux, Roy (Georges), Satgé,
+              Scapini</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">Comité d'Action</head>
+            <p>M <hi rend="superscript">lle</hi> Arbel, Vice-Présidente honoraire. Président : M. de
+              Traversay. Vice-Présidentes M<hi rend="superscript">me</hi> Contamin. M<hi
+                rend="superscript">me</hi> L'Evesque. M. Bloch, adjoint au Trésorier ; M. Iweins,
+              Secrétaire du Comité d'Action. M. Auterbe, Directeur à la Compagnie "L'Union". M<hi
+                rend="superscript">me</hi> du Bos; M<hi rend="superscript">me</hi> Broquin; M. de
+              Chaumont-Quitry ; M. Chepfer : Mme Chevalier ; M<hi rend="superscript">lle</hi>
+              Jalaguier ; M<hi rend="superscript">me</hi> Lévy-Weis ; M. Julien Mayer. Colonel de
+              Traversay.</p>
+            <pb n="20"/>
+          </div>
+        </div>
+        <fw>Gérant : DECOENE IMPRIMERIE CARON &amp; Cie, 34, RUE DEMOLOMBE CAEN</fw>
+      </div>
+
+    </body>
+  </text>
+</TEI>

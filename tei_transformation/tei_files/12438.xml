@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - Décembre 1945</title>
+        <author>Groupement National des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin d'information</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Pensions de guerre</title>
+        <title type="topic">Code de la famille</title>
+        <title type="topic">Reconstruction</title>
+        <title type="topic">Allocations familiales</title>
+        <title type="topic">Réquisitions de logements</title>
+        <title type="topic">Transports</title>
+        <title type="topic">Charbon</title>
+        <title type="topic">Vie associative</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>26,5 X 21 cm ; 7 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#allocation">Allocation</term>
+          <term ref="#reconstruction">Reconstruction</term>
+          <term ref="#logement">Logement</term>
+          <term ref="#charbon">Charbon</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+          <term ref="#code-de-la-famille">Code de la Famille</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Ce bulletin du Groupement National des Aveugles de Guerre (U.A.G.) informe ses membres
+          sur divers sujets d'intérêt, notamment les améliorations apportées aux pensions et
+          allocations suite à l'ordonnance d'octobre 1945, l'application du Code de la Famille, et
+          les démarches à suivre concernant la reconstruction des logements endommagés par la
+          guerre. Il aborde également des questions pratiques telles que les réquisitions de locaux,
+          les locations de places dans les gares, et l'attribution de charbon. Le bulletin contient
+          des informations sur la vie de l'association, incluant des annonces de naissances,
+          mariages, décès, et l'élection d'un membre à la Constituante.</p>
+      </abstract>
+      <creation>
+        <date when="1945-12-01">01/12/1945</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">SOUHAITS</ref>
+          </item>
+          <item>
+            <ref target="#h2">PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h3">PAIEMENT DES PENSIONS AU NOUVEAU TAUX</ref>
+          </item>
+          <item>
+            <ref target="#h4">CODE DE LA FAMILLE</ref>
+          </item>
+          <item>
+            <ref target="#h5">RECONSTRUCTION</ref>
+          </item>
+          <item>
+            <ref target="#h6">RÉQUISITIONS DE LOCAUX</ref>
+          </item>
+          <item>
+            <ref target="#h7">LOCATION DE PLACES DANS LES GARES</ref>
+          </item>
+          <item>
+            <ref target="#h8">CHARBON</ref>
+          </item>
+          <item>
+            <ref target="#h9">UNE ÉLECTION</ref>
+          </item>
+          <item>
+            <ref target="#h10">NÉCROLOGIE</ref>
+          </item>
+          <item>
+            <ref target="#h11">LES CARTES DE PRIORITÉ</ref>
+          </item>
+          <item>
+            <ref target="#h12">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h13">AVIS</ref>
+          </item>
+          <item>
+            <ref target="#h14">BIBLIOTHÉQUE</ref>
+          </item>
+          <item>
+            <ref target="#h15">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h16">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h17">DÉCÉS</ref>
+          </item>
+          <item>
+            <ref target="#h18">CHAMBRES DE L'UNION</ref>
+          </item>
+          <item>
+            <ref target="#h19">SOUSCRIPTION POUR LES SINISTRÉS</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw>UNION DES AVEUGLES DE GUERRE Groupement National des Aveugles de Guerre</fw>
+          <fw>SIEGE SOCIAL: 49, RUE BLANCHE, 49 PARIS (9) Reconnue d'Utilité Publique, Décret du 9
+            Avril 1921</fw>
+          <fw>TÉLÉPHONE : TRINITÉ 85-83 COMPTE CHÉGUES POSTAUX 160-31</fw>
+          <fw>Nombre d'Adhérents : 2.000</fw>
+          <fw>Décembre 1945</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">SOUHAITS</head>
+            <p>Que la nouvelle année apporte à nos Camarades, aux membres du Comité d'Action ainsi
+              qu'aux amis de l'U.A.G. tout le bonheur qu'ils peuvent souhaiter pour eux et pour leur
+              famille.</p>
+            <p>Les aveugles de guerre ont eu à se débattre pendant toute l'année passée avec des
+              difficultés matérielles, mais ils ont aujourd'hui la perspective d'une amélioration
+              prochaine de leur pension, de celle des yotives âgées et de la situation des enfants
+              devenus bénéficiaires du code de la famille.</p>
+            <p>Si les derniers combats ont laissé derrière eux de nouveaux aveugles, l'U.A.G. a déjà
+              pu leur tendre une main fraternelle et les aider dans leur rééducation.</p>
+            <p>Beaucoup de foyers ont encore été détruits en 1945 et un trop grand nombre de
+              familles de camarades ont subi des deuils irrémarables, mais ces sacrifices sont pas
+              été inutiles puisque le mois de mai dernier a apporté la libération définitive et la
+              Victoire.</p>
+            <p>Seuls les criminels de guerre et ceux qui les ont servilement suivis, peuvent trouver
+              néfaste l'année 1945. Après cette année douloureuse et magnifique, abordons la
+              nouvelle fraternellement unis et le cour plein d'espoir. Chaque français, dans la
+              mesure de ses moyens peut et doit aider la Patrie convalescente à retrouver sa force
+              et sa grandeur.</p>
+            <p>Souhaitons enfin que les conquêtes de la science ne servent plus, désormais, qu'à
+              assurer, dans la Paix, le bonheur de tous les hommes. H. I.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">PENSIONS</head>
+            <p>Nous nous sommes empressés, dès la parution des journaux officiels publiant un décret
+              qui nous accordait le rajustement de nos allocations, de porter à la connaissance de
+              nos camarades les principales lignes de ce décret qui nous a donné satisfaction à la
+              demande que nous avions formulée, à savoir : l'alignement au coefficient 3 du total
+              des sommes que nous percevions en 1939. Comme nous le disions, nous devons souhaiter
+              que la vie se stabilise afin que l'avantage substantiel de ces améliorations ne soient
+              pas détruits par une nouvelle hausse du coût de la vie.</p>
+            <p>Nous donnons ci-après l'essentiel de ce décret qui n'ajoutera rien à ce que nous
+              avons dit dans notre circulaire, mais qui constituera une note officielle pour nous
+              camarades qui souhaiteraient la posséder. «Ordonnance n <hi rend="superscript">°</hi>
+              45-2516 du 25 octobre 1945 portant majoration des pensions des lois des 31 mars « 1919
+              et 24 juin 1919 et des allocations ou majorations qui s'y ajoutent. «Le Gouvernement
+              provisoire de la République Française, sur le rapport...... «Ordonne : Article
+              Premier. - «La majoration allouée par le décret du 18 décembre 1937 aux bénéficiaires
+              «des allocations spéciales aux grands invalides instituées par la loi du 31 juillet
+              1920 et les textes subsé«quents, est fixée à 240% des taux en vigueur au 30 septembre
+              1937 ».</p>
+            <p>Article 2. - «La majoration allouée par les décrets des 18 décembre 1937 et 17 juin
+              1938 aux «bénéficiaires des allocations spéciales instituées par l'article 3 de la loi
+              du 22 mars 1935 modifiée et «et complétée par le décret du 17 juin 1938 est fixée à
+              390% des taux prévus audit article. Toutefois la «majoration allouée aux aveugles est
+              fixée à 38.000 francs. »</p>
+            <pb n="2"/>
+            <note type="foliation">— 2 —</note>
+            <p>Article 4. - L'avant dernier alinéa de l'article 4 de l'ordonnance du 29 décembre
+              1944 est «complété par le texte suivant : «Le montant des pensions allouées dans les
+              conditions fixées aux alinéas précédents est fixé à « 12.000 francs pour les veuves
+              non remariées, soit âgées de plus de soixante ans, soit infirmes ou atteintes «d'une
+              maladie incurable et non imposables à l'impôt général sur le revenu ou n'étant
+              assujetties audit «impôt que pour un revenu net ne dépassant pas 15.000 francs après
+              application de l'abattement à la base «et des déductions pour charges de famille.»</p>
+            <p>Article 6. - «Les victimes de guerre titulaires d'une pension de la loi du 31 mars
+              1919 d'un taux «égal ou supérieur à 85% ont droit aux allocations familiales et de
+              salaires unique suivant les modalités «et les tarifs prévus par le décret du 29
+              juillet 1939 et les textes qui l'ont complété ou modifié. «Pour les enfants résidant
+              sur un territoire où le décret du 29 juillet 1939 n'est pas applicable, les
+              «intéressés bénéficient du même régime de suppléments pour enfants que les
+              fonctionnaires métropolitains «en service sur ce territoire. «Toutefois, l'avantage
+              prévu par les deux alinéas précédents n'est accordé qu'au titre des seuls «enfants qui
+              ouvriraient droit aux majorations instituées par l'article 13 de la loi du 31 mars
+              1919, et si «le bénéficiaire était atteint d'une invalidité inférieure à 85%. «Sous
+              réserve des mesures transitoires prévues à l'article 8 de la présente ordonnance, les
+              disposi«tions de l'article 13 de la loi du 31 mars 1919 et celles de l'article 138 de
+              la loi de finances du 31 décembre «1921 accordent une majoration temporaire pour
+              enfants aux titulaires de l'allocation spéciale aux grands «invalides, cessent d'être
+              applicables aux bénéficiaires du présent article.»</p>
+            <p>Article 7. - «Les veuves et orphelins titulaires d'une pension de la loi du 31 mars
+              1919 ont droit «aux allocations familiales et de salaire unique suivant les modalités
+              et les tarifs prévus par le décret du « 29 juillet 1939 et les textes qui l'ont
+              complété ou modifié.»</p>
+            <p>Article 8. - Les dispositions des articles 5, 6 et 7 prendront effet du 1<hi
+                rend="superscript">er</hi> octobre 1945. «Cependant, jusqu'au 1er octobre 1946,
+              l'application des articles 6 et 7 ci-dessus ne pourra en aucun «cas, entraîner une
+              diminution des majorations perçues en exécution des articles 13 ou 19 de la loi du «
+              31 mars 1919 au titre d'enfants nés avant le 1er octobre 1945 et ces majorations
+              continueront provisoire«ment d'être servies si les intéressés y ont avantage.</p>
+            <p>En résumé, les augmentations d'allocations que nous avons indiquées, ainsi que
+              l'augmentation des pensions de veuves âgées de 60 ans ou malades prennent effet à
+              partir du 1 er août 1945. L'application du du Code de la Famille pour les enfants à
+              charge prévue par la loi du 31 mars 1919 prend effet à partir du 1 er octobre 1945.
+              Nous soulignons par conséquent, que les veuves de grands mutilés auront droit à une
+              majoration de pension, si elles sont âgées de 60 ans, ou infirmes, ou atteintes de
+              maladies incurables, à condition qu'elles ne soient pas imposables sur le revenu pour
+              une somme de 15.000 francs, compte tenu de l'abattement.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">PAIEMENT DES PENSIONS AU NOUVEAU
+              TAUX</head>
+            <p>L'établissement de fiches de paiement au nouveau taux est sans doute assez laborieux,
+              il nous est impossible de dire comment sera le règlement sur les nouvelles bases.
+              Cependant avec les Associations du Comité d'Entente, nous avons émis une protestation
+              pour que toute diligence soit apportée afin que nous puissions percevoir rapidement
+              les arrérages de nos pensions réajustées et le rappel qui nous est dû.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">CODE DE LA FAMILLE</head>
+            <p>Depuis longtemps nous réclamions le bénéfice de l'application aux aveugles de guerre
+              du code de la famille, en remplacement des majorations pour enfants, dérisoirement
+              insuffisantes. Cette réforme nous intéresse particulièrement puisqu'aucun aveugle de
+              guerre ne bénéficiait pour ses enfants des allocations familiales, l'exercice d'une
+              profession leur étant pratiquement interdit.</p>
+            <p>L'amélioration qui vient de nous être accordée s'appliquera à certains anciens qui
+              ont encore des jeunes enfants et aussi à nos nouveaux camarades qui ont constitué ou
+              constitueront un foyer. L'amélioration est donc d'importance et si elle comporte un
+              très léger désavantage pour une certaine catégorie, elle constitue par ailleurs, une
+              réforme très profonde dont nous devons nous réjouir. L'application cependant en sera
+              assez compliquée, car au lieu de percevoir des majorations dont le taux est unique
+              pour tous, nous bénéficierons d'allocations variables selon les départements, basées
+              sur le salaire moyen.</p>
+            <p>Tous ces calculs sont très compliqués. Nous devons attendre la parution des
+              instructions réglementant l'application de l'ordonnance du 25 octobre, et en
+              attendant, nos camarades pourront se renseigner dans leurs mairies, afin de savoir
+              quels sont les taux des allocations familiales et de salaire unique en vigueur dans
+              leurs communes. Il est bien entendu que ceci ne s'applique qu'aux enfants légitimes,
+              naturels reconnus, ou aux enfants adoptifs.</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">RECONSTRUCTION</head>
+            <p>Nous avons demandé au service de la reconstruction de bien vouloirj̣nous préciser
+              quelles étaient les démarches à faire pour bénéficier des ordonnances qui ont été
+              publiées relatives aux droits des sinistrés. Nous pensons que ces quelques
+              instructions intéresseront les camarades sinistrés et les guideront dans la manière
+              d'opérer pour constituer leurs dossiers et faire valoir leurs droits.</p>
+            <p>Paris, le 20 novembre 1945.</p>
+            <p>MINISTERE DE LA RECONSTRUCTION ET DE L'URBANISME 67, Rue de Lille Commissariat
+              Général aux Dommages de Guerre 28, Cours Albert-1er - Paris Référence à rappeler :
+              37204 / <hi rend="superscript">DH</hi> 3 Obiet: Réglement de la participation
+              financière de l'Etat.</p>
+            <p>Monsieur,</p>
+            <p>«J'ai l'honneur de vous accuser réception de votre lettre du 18 octobre 1945. «Je
+              vous informe qu'en application des dispositions de l'ordonnance 45.609 du 10 avril
+              1945, l'Etat « prend intégralement en charge les travaux de caractère provisoire
+              effectués pour éviter l'aggravation des «dégâts des immeubles partiellement endommagés
+              par suite d'actes de guerre. Sont considérés comme de «caractère provisoire, soit les
+              travaux pour lesquels sont utilisés des matériaux provisoires, soit les travaux «qui
+              devront être effectués à nouveau pour la remise en état définitive de l'immeuble
+              considéré. Le règle«ment peut en être effectué rapidement sur le vu des factures
+              présentées.</p>
+            <p>D'autre part, l'ensemble des dommages subis par les immeubles dont vos adhérents sont
+              pro«priétaires, doit faire l'objet, en ce qui concerne les travaux de caractère
+              définitif, de l'attribution d'une «participation financière de l'Etat fixée en
+              principe à $80 \%$, soit du montant des réparations normales, soit «du coût normal, de
+              reconstruction sous déduction de certains abattements, en raison notamment de
+              «l'ancienneté de l'immeuble. «Une avance substantielle peut être versée aux intéressés
+              dès l'ouverture des chantiers. Son verse«ment sera suivi d'acomptes successifs au fur
+              et à mesure de l'exécution des travaux pour faciliter le «règlement des entrepreneurs.
+              «Il appartient aux intéressés, dans les deux cas visés ci-dessus, de constituer leurs
+              dossiers entre les «mains du délégué départemental du lieu où se trouvent les
+              immeubles en cause. Mon représentant se «meltra à leur disposition pour leur donner
+              tous les renseignements complémentaires dont ils pourraient «avoir besoin et leur
+              fournira la liste des pièces et les imprimés nécessaires à la constitution de ces
+              «dossiers. «En tout état de cause, des dispositions récentes font obligation aux
+              sinistrés de souscrire une «déclaration avant le $1^{\text {er }}$ février 1946 à la
+              Mairie du lieu du sinistre. Des imprimés seront prochainement «mis à la disposition
+              des intéressés à cet effet. «Veuiller agréer, etc...». Le Sous-Directeur des Bâtiments
+              à Habitation signature: Illisible.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">RÉQUISITIONS DE LOCAUX</head>
+            <p>Nous vous donnons, ci-après, copie de lettre provenant du Ministère de la
+              Reconstruction et de l'Urbanisme adressée au Comité d'Entente en date du 29 novembre
+              1945 à la suite d'une démarche qu'il avait effectuée en faveur des grands mutilés :
+              «Vous avez bien voulu attirer mon attention sur la situation particulière des grands
+              invalides de «guerre dont l'état de santé nécessite certains ménagements et vous
+              m'avez demandé de dispenser les locaux «qu'ils occupent des réquisitions prévues par
+              l'ordonnance du 11 octobre 1945, instituant des mesures «exceptionnelles et
+              temporaires en vue de remédier à la crise du logement. «J'ai l'honneur de vous faire
+              connaitre que les intentions du Gouvernement ne sont nullement «d'appliquer sans
+              limitation le principe du logement d'office et de réquisitionner tous les locaux
+              insuffisam«ment occupés sans tenir compte des situations particulières. Mais, si les
+              instructions qu'il donnera dans «ce sens aux Services Municipaux du Logement ne
+              manqueront pas de le rappeler, il ne peut être question, «à peine d'amenuiser, sinon
+              d'annuler les résultats attendus de l'application de l'ordonnance de généraliser «les
+              dispenses, fut-ce même au profit de tous les grands invalides de guerre et des
+              catégories intéressantes «de citoyens qui me sont journellement signalées. Ce dont je
+              peux vous assurer, c'est que nous demanderons «aux Services du Logement comme aux
+              Préfets et aux Maires d'être compatissants et bienveillants et que «nous
+              interviendrons pour redresser leurs décisions si la chose nous apparaissait
+              nécessaire. «Veuillez agréer, etc...» signature : Illisible.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LOCATION DE PLACES DANS LES
+              GARES</head>
+            <p>A la suite de la réclamation d'un camarade nous sommes intervenus auprès de la
+              Direction des Chemins de fer dont nous avons reçu la réponse suivante:</p>
+            <p>Paris, le 19 novembre 1945.</p>
+            <p>SOCIETE NATIONALE DES CHEMINS DE FER FRANÇAIS</p>
+            <p>Le Directeur de l'Exploitation 18, rue de Dunkerque «Monsieur le Secrétaire Général,
+              «Par lettre en date du 29 octobre 1945, vous avez bien voulu me tenir au courant des
+              difficultés «éprouvées par M. S., aveugle de guerre, pour obtenir, en gare d'Arras, la
+              réservation gratuite de la «place destinée à son guide. «L'agent préposé à la location
+              des places, en gare d'Arras, avait perdu de vue les modalités de «location aux
+              mutilés, de sérieuses observations lui ont été adressées. «En outre, les instructions
+              concernant cette partie du service ont été rappelées à toutes les gares «intéressées,
+              afin que les difficultés que vous avez bien voulu me signaler ne se renouvellent plus.
+              «Veuillez agréer, etc...» Le Directeur: F. Neoric.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">CHARBON</head>
+            <p>Nous communiquons la lettre que nous avons reçue de l'Office de Répartition du
+              Charbon en date du 20 novembre 1945. «Comme suite à votre lettre du 6 novembre, j'ai
+              l'honneur de vous faire savoir que la réglementation «en vigueur prévoit bien que les
+              attributions exceptionnelles de charbon aux aveugles de guerre sont délivrées «sans
+              présentation d'un certificat médical. «J'attire à nouveau l'attention de mon Bureau
+              des Charbons pour rappeler ces instructions aux «mairies. «Veuillez agréer, etc...»
+              Pour le Répartiteur du Charbon : SIGNATURE : Illisible. Nous rappelons d'autre part,
+              que les suppléments qui devaient nous être accordés comme aux catégories E et V n'ont
+              pas encore été définis. Nous ne pouvons donc donner des renseignements à ce sujet pour
+              le moment.</p>
+            <p>Les démarches faites pour obtenir des suppléments de combustibles dans les localités
+              où la carte de charbon n'est pas en vigueur, n'ont pas donné de résultats. Seuls les
+              camarades demeurant dans les communes où la carte de charbon est instituée pourront
+              bénéficier de ces suppléments.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">UNE ÉLECTION</head>
+            <p>Nous avons appris avec plaisir l'élection à la Constituante de notre camarade
+              Bloncourt, membre de notre Conseil d'Administration qui était député de l'Aisne et qui
+              a été réélu dans sa circonscription. Nous lui adressons toutes nos félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">NÉCROLOGIE</head>
+            <p>Nous avons le regret d'annoncer à nos camarades, le décès de M. Oscar Bloch,
+              secrétaire de notre Comité d'action, survenu à Paris, le 12 octobre 1945. M. Bloch qui
+              pendant la guerre 14-18, avait rééduqué bon nombre de nos camarades, ne nous avait
+              jamais quittés et nous rendit de grands services chaque fois que nous faisions appel à
+              lui. Sa très grande obligeance avait conquis la reconnaissance de tous et nous
+              ressentons vivement la perte de cet ami de cour.</p>
+            <p>Le 27 octobre ont eu lieu les obsèques de Paul Decoene, décédé le 25 octobre dernier.
+              Decoene était entré au service de l'U.A.G. en qualité de comptable dès la fondation de
+              notre association et depuis lors n'avait c'ssé de la servir avec tout son dévouement.
+              Il connaissait tous les camarades et tous les rouages de l'Union. C'est donc une perte
+              très sensible que nous subissons; elle sera ressentie par tous les membres de
+              l'U.A.G.</p>
+            <p>Nous adressons à sa famille nos bien sincères condoléances pour le deuil qui l'a
+              frappée.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LES CARTES DE PRIORITÉ</head>
+            <p>Les cartes de priorité valables dans les transports en commun de la région parisienne
+              seront échangées en 1946, à partir du 7 janvier jusqu'au 2 mars à la Préfecture de
+              Police comme à l'ordinaire.</p>
+            <p>Présenter :</p>
+            <list>
+              <item>Livret de pension et brevet d'allocation 5 bis, ou brevet en tenant lieu.</item>
+              <item>Carte d'électeur.</item>
+              <item>Carte d'alimentation.</item>
+              <item>L'ancienne carte et une photographie.</item>
+            </list>
+            <p>Pour les articles 10, l'échange se fait pendant toute la période indiquée.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">COTISATIONS</head>
+            <p>Nous prions instamment tous nos camarades d'envoyer, s'ils ne l'ont déjà fait, leur
+              cotisation de 10 francs pour l'année 1946. Nous rappelons qu'il ne sera pas envoyé de
+              reçu.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">AVIS</head>
+            <p>Nous demandons à nos camarades qui adressent des chèques postaux à nos bureaux de
+              bien vouloir spécifier quel est le sort du versement ou du remboursement qu'ils
+              effectuent, surtout s'ils réunissent sur le même chèque plusieurs sommes afférentes à
+              des chapitres différents. Cela facilitera beaucoup le travail de notre
+              comptabilité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">BIBLIOTHÉQUE</head>
+            <p>Nous avertissons nos lecteurs que nous disposons actuellement d'un certain nombre de
+              volumes Braille, intégral et abrégé que nous possédons en double et qui pourraient
+              leur etre envoyés à titre gracieux. Ceux que cette offre intéresserait peuvent écrire
+              et nous leur adresserons la liste de ces ouvrages dans laquelle ils choisiront pour
+              nous indiquer par ordre de préférence ceux qu'ils désirent.</p>
+            <p>Nous rappelons que les colis de livres Braille et disques de 3 kilogs sont
+              autorisés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>Belgacem Snoussi, de Tunisie, sa fille Snoussi Fatma, le 18 octobre 1945. Crapez
+              Henri (1939-45) de Cannes (Alpes-Maritimes), sa fille Gisèle, le 22 octobre 1945.
+              Picot Georges, d'Yerville (Seine-Inférieure), sa fille Georgette, le 10 septembre
+              1945. Serre Léon, de Vannes (Morbihan), son petit-fils Pierre Gourtay, le 1er octobre
+              1945. Guillet Henri, de Nantes (Loire-Inférieure), son petit-fils Joël, le 22 octobre
+              1945. Dunan Alphonse, de Paris, son petit-fils Jean-Pierre, le 14 octobre 1945.
+              Thubert Abel, d'Auneau (Eure-et-Loir), Delafosse Gratien, de Crépy-en-Valois (Oise),
+              leurs petitsenfants: Etienne, le 27 février 1942, Béatrice, le 31 octobre 1945.</p>
+            <p>Delafosse Gratien, de Crépy-en-Valois (Oise), ses petits-fils: Jean-Michel, le 22 mai
+              1942, Philippe, le 29 septembre 1944.</p>
+            <p>Vanluggene Pierre, de Tourcoing (Nord) ses petits-enfants: Jacques, Michelle,
+              Francine, août 1945. Nous adressons nos félicitations aux heureux parents et nos vœux
+              de prospérité.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">MARIAGES</head>
+            <p>Les camarades suivants nous font part des célébrations de mariage : Leblond Auguste,
+              de Berck-Plage (Pas-de-Calais), avec Mme Pierrine Vizet, veuve de guerre 1914-18, le 8
+              décembre 1945.</p>
+            <p>Potereau Ludovic, de Saint-Jean-de-Monts (Vendée), son fils Rémi avec Mlle Maria
+              Payot, le 10 octobre 1945.</p>
+            <p>Freixes Sauveur, de Montpellier (Hérault), son fils Sauveur avec Mlle Suzanne Chuet,
+              le 8 octobre 1945. Dereaurain Léon, de Pont-Audemer (Eure), son fils Roland avec Mlle
+              Alice Cauvin, le 13 octobre 1945. Loizeau Alexandre, de Puyravault (Vendée), son fils
+              Adelbert avec Mlle Suzanne Morin, le 10 octobre 1945.</p>
+            <p>Castel François, de Sées (Orne), son fils Raymond avec Mlle Yvette Vivent, le 17
+              juillet 1945. Viguier Paul, de Laillaing (Nord), son fils Denis avec Mlle Solange
+              Baratte, le 29 octobre 1945. Delton Adrien, de Querbé, par Rieupeyroux (Aveyron), son
+              fils Fernand, le 8 novembre 1945. Carpentier Marceau, de Morchain (Somme), son fils
+              Guy avec Mlle Colette Chappier, octobre 1945. Liotr René, de Jarville (M.-et-M.) son
+              fils René avec Mlle Micheline Bozonnet, le 27 octobre 1945. Jamet René, de Baudreix,
+              par Nay (Basses-Pyrénées) son fils Gérard, brigadier-chef à la Division Leclerc (Croix
+              de Guerre) avec Mlle Lucette Briot, le 11 juillet 1945.</p>
+            <p>Hadot Gaston, de Versus (Marne), sa fille Solange avec M. Bernard Longeot, le 8
+              septembre 1945. Albespy Charles, de Nuces (Aveyron), sa fille Jeannette, le 29 octobre
+              1945. Baudoin Victor, de Deuil (Seine-et-Oise), sa fille Thérèse avec M. Maurice
+              Cornet, le 3 novembre 1945. Alaux Jean, d'Espalion (Aveyron), sa fille Anna avec M.
+              Marcel Lautard, le 27 octobre 1945. Blondeau Pierre, des Pedouzes d'Airan, par
+              Argences (Calvados), sa fille Monique avec M. François Lucas, de Couville, le 13
+              octobre 1945.</p>
+            <p>Hachez Eugène, de Montgeron (Seine-et-Oise), sa fille Andrée avec le fils Gérard de
+              notre camarade Louis Couurtemanche, de Connerré (Sarthe), le 17 novembre 1945.</p>
+            <p>Evrat Louis, de Thiais (Seine), sa fille Paulette avec M. Jean Bomé, le 17 novembre
+              1945. Gutollot Dominique, de Clermont-Ferrand (P.-de-D.), sa fille Paulette avec M.
+              Armand Roux, le 15 novembre 1945.</p>
+            <p>Colombel Maurice, de Neuilly Plaisance (Seine), sa fille 'Geneviève avec M. Jean
+              Coquet, le 24 novembre 1945.</p>
+            <p>Barbe Albert, de Boulogne-sur-Mer (Pas-de-Calais), sa fille Suzanne avec M. Louis
+              Boulogne, le 20 octobre 1945.</p>
+            <p>Vanluggene Pierre, de Tourcoing (Nord), sa fille Suzanne, 1944. Bathelier Félicien,
+              d'Orange (Vaucluse), sa belle-fille Jacqueline Oberti avec M. Henri Aubert, le 17
+              novembre 1945.</p>
+            <p>Nous adressons nos vœux de bonheur aux nouveaux mariés. ORDINATION: le fils Pierre de
+              notre camarade Pierre Vanluggene, de Tourcoing (Nord) ordonné prêtre le 8 juillet
+              1945, à Chevilly, dans l'Ordre des Pères du St-Esprit.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">DÉCÉS</head>
+            <p>Louis Darras, de Mayet (Sarthe), le 14 octobre 1945. Gabriel Daraspe, de Biarritz
+              (Basses-Pyrénées), le 14 octobre 1945. Joseph Peyron, de Toulon (Var) le 11 octobre
+              1945. Georges Grosbois, de Bourgneuf-Val-d'Or (S.-et-L.), le 13 novembre 1945. Pierre
+              Garnerie, de Gare-la-Porcherie (Haute-Vienne), le 7 octobre 1945. Jacques Cabrol, de
+              Sérignan (Hérault), le 27 novembre 1945. Léon Reulet, de Tarbes (Hautes-Pyrénées), le
+              2 décembre 1945. La femme de Louis Coué, de Paris, le 16 octobre 1945. La mère de
+              Alphonse Le Carret, de Locminé (Morbihan), le 9 octobre 1945. La petite-fille
+              Mauricette de Horace Lancon, de Lyon (Rhône) à l'âge de 13 ans, le 12 novembre 1945.
+              La femme de notre camarade Gaston Mauger, de Sainte-Maxime (Var), le 2 novembre 1945.
+              Nous adressons aux familles éprouvées nos plus vives condoléances.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+            <p>On demande un bobinaire à 2 ou 4 broches de préférence. Faire offre au camarade R.
+              Johannsen, 17, rue de Bellebat, Orléans (Loiret).</p>
+            <p>Notre jeune camarade Brabant, demeurant Cité à Gauche, ex-porte Baudemont, Arras
+              (Pas-de-Calais), serait désireux de se procurer une guillotine d'occasion. Se mettre
+              directement en relations avec l'intéressé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">CHAMBRES DE L'UNION</head>
+            <p>Nous prions instamment nos camarades qui désirent bénéficier d'une chambre dans notre
+              maison de la rue Blanche, de prévenir plusieurs jours à l'avance, étant donné le
+              nombre restreint de pièces dont nous disposons, par suite de la rééducation qui a lieu
+              en ce moment.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">SOUSCRIPTION POUR LES
+              SINISTRÉS</head>
+            <list>
+              <item>BRISSONNET ..... 100 »</item>
+              <item>MouGENEL ..... 300 »</item>
+              <item>PELLERIN Henri ..... 100 »</item>
+              <item>BENOIT ..... 10 »</item>
+              <item>OGE ..... 500 »</item>
+              <item>GUILLON ..... 100 »</item>
+              <item>LIO TE Rene ..... 165 »</item>
+              <item>SAMPARDON ..... 100 »</item>
+              <item>LE MENE ..... 100 »</item>
+              <item>BOUHALI ..... 100 »</item>
+              <item>TREMEGE ..... 43 70</item>
+              <item>ROSANT René ..... 100 »</item>
+              <item>VIANCE BROUSSAUDIER ..... 100 »</item>
+              <item>ARZAGOT ..... 100 »</item>
+              <item>ABOUDARHAM ..... 220 »</item>
+              <item>MASSE Georges ..... 50 »</item>
+              <item>BOITEL ..... 100 »</item>
+              <item>CHARDON ..... 300 »</item>
+              <item>PEROT Jean ..... 100 »</item>
+              <item>PEIGNE ..... 50 »</item>
+              <item>MARCHAND .... 1.000 »</item>
+              <item>TOTAL ..... 3.738 70</item>
+            </list>
+            <p>Portant le total de la souscription à 152.723 fr. 70.</p>
+            <pb n="8"/>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,989 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 38ème année 1959 n°139</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Cécité</title>
+        <title type="topic">Victimes de guerre</title>
+        <title type="topic">Droits sociaux</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Associations</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 23 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#revalorisation-de-la-cecite">Revalorisation de la cécité</term>
+          <term ref="#securite-sociale">Sécurité sociale</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde divers sujets d'intérêt pour
+          ses membres, notamment les vœux de l'organisation pour l'année à venir, les efforts pour
+          revaloriser la cécité devant le Parlement, et les déclarations d'autres organismes
+          d'anciens combattants. Il détaille également les conditions de remboursement de la double
+          cotisation à la Sécurité sociale, les activités de l'Office National des Anciens
+          Combattants, et inclut des informations sur les cotisations, les naissances, les décès, et
+          les promotions dans la Légion d'Honneur. Le bulletin contient aussi des informations sur
+          la bibliothèque de l'Union et les apports de ses sections.</p>
+      </abstract>
+      <creation>
+        <date when="1959-12-01">01/12/1959</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOS VŒUX</ref>
+          </item>
+          <item>
+            <ref target="#h5">LA REVALORISATION DE LA CÉCITÉ DEVANT LE PARLEMENT</ref>
+          </item>
+          <item>
+            <ref target="#h6">DÉCLARATION DES ORGANISMES D'ANCIENS COMBATTANTS ET VICTIMES DE
+              GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h7">DÉCLARATION des Organisations d'Anciens Combattants et Victimes de
+              Guerre à la suite de la Conférence de Presse du 10 novembre 1959 de Monsieur le
+              Président de la République Française en ce qui concerne la Retraite du
+              Combattant</ref>
+          </item>
+          <item>
+            <ref target="#h8">CONDITIONS DE REMBOURSEMENT DE LA DOUBLE COTISATION A LA SECURITE
+              SOCIALE</ref>
+          </item>
+          <item>
+            <ref target="#h9">A L'OFFICE NATIONAL DES ANCIENS COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h10">PAGE D'HISTOIRE</ref>
+          </item>
+          <item>
+            <ref target="#h11">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h12">DES MILLIERS DE DECORES</ref>
+          </item>
+          <item>
+            <ref target="#h13">BIBLIOTHÈQUE</ref>
+          </item>
+          <item>
+            <ref target="#h14">" LE LIVRE PARLÉ " PRIX LITTERAIRES 1959</ref>
+          </item>
+          <item>
+            <ref target="#h15">DANS NOS SECTIONS APPORT DE NOS SECTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h16">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h17">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h18">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h19">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h20">COTISATIONS reçues du 13 novembre au 30 novembre 1959 inclus</ref>
+            <list>
+              <item>
+                <ref target="#h21">COTISATIONS ORDINAIRES (200 francs)</ref>
+              </item>
+              <item>
+                <ref target="#h22">RACHATS DE COTISATION (2.000 francs)</ref>
+              </item>
+              <item>
+                <ref target="#h23">CAISSE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h24">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h25">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h27">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h28">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">39e Année. — N° 139</fw>
+          <fw type="header">
+            <hi rend="underline">DECEMBRE 1959</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Nos vœux.</item>
+                    <item>La revalorisation de la cécité devant le Parlement.</item>
+                    <item>Déclaration des organismes d'anciens combattants et victimes de
+                      guerre.</item>
+                    <item>Conditions de remboursement de la double cotisation à la Sécurité
+                      sociale.</item>
+                    <item>A l'Office national des Anciens Combattants.</item>
+                    <item>Page d'histoire.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Bibliothèque. Discothèque.</item>
+                    <item>Dans nos sections.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                    <item>Naissance. Décès.</item>
+                    <item>Cotisations.</item>
+                    <item>Caisse Prévoyance.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. AMBLARD. Vice-Présidents : H. GUESPEREAU, E. GUILLAM. Secrétaire
+              général : R. COUESNON. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, P. DERUNDER, P. DUC, A. FAUVEL, R. FAVRET, Y. GUIBERT, A. LAFFARGUE, D. LEVEAU,
+              G. MULLER, J. NICOLAI, G. OLIE, A. PAGENEL, C. PANTERNE, M. RAVELEAU, G. ROBIN, G ROY,
+              C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>39e Annee. - N° 139 DECEMBRE 1959</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOS VŒUX</head>
+            <p>Il m'est bien agréable, au nom du Bureau et du Conseil d'Administration de l'U.A.G.
+              d'adresser à nos camarades et à nos nombreux amis, nos vœux les plus ardents pour
+              l'année qui commence.</p>
+            <p>Que tous y voient, non pas une expression banale d'une vieille coutume, mais la
+              sincérité de notre pensée qui se tourne souvent vers nos camarades et leurs familles,
+              souhaitant que la vie ne leur apporte pas de gros soucis et surtout que leur santé ne
+              leur occasionne pas d'ennuis.</p>
+            <p>Nous avons aussi beaucoup d'amis, particulièrement au Comité d'Action, dont Mme la
+              Maréchale Juin assure une présidence amicale et efficace. Nous leur disons nos
+              souhaits sincères en même temps que notre gratitude, leur sympathie nous étant
+              extrêmement précieuse.</p>
+            <p>Quant à vous, chers camarades, je puis vous assurer que votre Bureau et votre Conseil
+              continueront, comme par le passé, à faire tout leur possible pour améliorer le sort
+              commun des aveugles de guerre.</p>
+            <p>Cette année, certes, ne nous a pas apporté de grands progrès. quelques promesses un
+              peu plus affirmées nous sont faites, mais il semble qu'à l'horizon, un espoir commence
+              à se dessiner. Nous ne pouvons pas préciser, bien entendu, l'époque des réalisations,
+              mais tous ensemble, dans cet esprit fraternel qui caractérise si bien notre
+              Association, nous travaillerons pour que les aveugles de guerre ait la vie la plus
+              agréable possible dans l'amitié et dans la paix.</p>
+            <p>H. AMBLARD.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">LA REVALORISATION DE LA CÉCITÉ
+              DEVANT LE PARLEMENT</head>
+            <p>Par voie de questions écrites, l'attention du Ministre des Anciens Combattants a été
+              attirée, grâce à MM. Devémy et Jacson.</p>
+            <p>Voici ce que le Journal Officiel du 7 novembre 1959 (page 2256) publie à ce sujet :
+              2458. - M. Jacson attire l'attention de M. le Ministre des Anciens Combattants sur la
+              situation défavorisée des aveugles et grands amputés de guerre (doubles amputés des
+              cuisses et des bras). En effet, cette catégorie particulièrement intéressante
+              d'anciens combattants touche des indemnités sur la base de 100%, tandis que des
+              invalidités de moindre importance sont rémunérées à un taux nettement supérieur. Il
+              lui demande s'il n'envisage pas de remédier à cette anomalic en accordant au moins aux
+              aveugles et grands amputés de guerre la parité avec les catégories d'invalides
+              actuellement les plus favorisés. (Question du 3 octobre 1959.)</p>
+            <p>Réponse. - La situation des aveugles de guerre - comme d'ailleurs celle des
+              bi-amputés - a retenu l'attention du Ministre des Anciens Combattants et Victimes de
+              Guerre, qui a fait procéder à des études en vue d'atténuer les effets du déclassement
+              dont ils sont l'objet. Le moyen le plus efficace pour y parvenir lui avait paru être
+              un aménagement de l'allocation <hi rend="superscript">n</hi>^{\circ} 8 qui eût permis
+              une revalorisation substantielle de leurs émoluments. Mais cette mesure, en raison des
+              impératifs budgétaires qui s'imposaient pour l'établissement du projet de loi de
+              finances pour 1960, n'a pu être retenue cette année. Toutefois, le Ministre des
+              Anciens Combattants et Victimes de Guerre ne manquera pas de la proposer à nouveau
+              lorsque la situation financière permettra d'en envisager la réalisation. 2488. - M.
+              Devemy expose à M. le Ministre des Anciens Combattants et Victimes de Guerre que,
+              depuis cent vingt-huit ans (barème d'invalidité de 1831), la cécité est estimée à
+              100%. Des invalidités de moindre importance ont vu leur taux augmenter dans des
+              proportions telles qu'aujourd'hui le taux de 100% pour la cécité ne représente
+              absolument plus rien. La loi du 31 décembre 1953, dite plan quadriennal (en accordant
+              un complément de pension dans le cas d'infirmités multiples dont l'une entraîne
+              l'invalidité absolue en sus de l'invalidité maximum, pour tenir compte de
+              l'invalidité), a permis de totaliser un nombre important de degrés complémentaires
+              pour un ensemble d'invalidités secondaires. Il lui demande s'il ne conviendrait pas
+              d'accorder aux aveugles de guerre certains avantages susceptibles d'améliorer leur
+              situation et si l'on ne pourrait pas, par <pb n="5"/>
+              <note type="foliation">— 5 —</note> exemple, envisager d'augmenter le nombre de points
+              correspondants à l'allocation <hi rend="superscript">n</hi>^{\circ} 8 accordée aux
+              aveugles et aux amputés des deux membres. (Question du 6 octobre 1959.)</p>
+            <p>Réponse. - La situation des aveugles de guerre - comme d'ailleurs celles des
+              bi-amputés - a retenu l'attention du Ministre des Anciens Combattants et Victimes de
+              Guerre qui a fait procéder à des études en vue d'atténuer les effets du déclassement
+              dont ils sont l'objet. Le moyen le plus efficace pour y parvenir lui avait paru être
+              un aménagement de l'allocation <hi rend="superscript">n</hi>^{\circ} 8 qui eût permis
+              une revalorisation substantielle de leurs émoluments. Mais cette mesure, en raison des
+              impératifs budgétaires qui s'imposaient pour l'établissement du projet de loi de
+              finances pour 1960 n'a pu être retenue cette année. Toutefois, le Ministre des Anciens
+              Combattants et Victimes de Guerre ne manquera pas de la proposer à nouveau lorsque la
+              situation financière permettra d'en envisager la réalisation.</p>
+            <p>Nous remercions MM. Devémy et Jacson d'être intervenus en faveur de la mise au point
+              de nos pensions, ce qui n'est qu'un acte de justice.</p>
+            <p>Une autre intervention de MM. Jacson et Devémy a eu lieu en faveur des veuves de
+              grands invalides, ce qui nous intéresse particulièrement.</p>
+            <p>Au Sénat, M. Louis Courroy déplore que la situation des personnes qui passèrent la
+              plus grande partie de leur vie aux côtés d'un grand blessé, soit aussi précaire.</p>
+            <p>Nous remercions très vivement ces parlementaires de leur sollicitude, persuadés
+              qu'avec nous, ils soutiendront nos intérêts jusqu'à complète satisfaction.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">DÉCLARATION DES ORGANISMES
+              D'ANCIENS COMBATTANTS ET VICTIMES DE GUERRE</head>
+            <p>Nous publions ci-après le texte d'une adresse que l'U.F.A.C., la Fédération Nationale
+              des Combattants Prisonniers de Guerre, la Fédération des Amicales Régimentaires et
+              d'Anciens Combattants, ont rédigée en commun.</p>
+            <p>Ce texte constitue une sorte de réplique ou, plutôt, un exposé des idées qui ont
+              occasionné la prise de position actuelle de ces groupements d'anciens combattants.</p>
+            <p>On connaît le différend qui a surgi lors de la suppression partielle de la retraite
+              du combattant, les polémiques qui s'ensuivirent et les divers communiqués qui, de part
+              et d'autres, tendaient à justifier les décisions prises.</p>
+            <p>De tout cela, nous dirons tout de suite que nous en avons ressenti une certaine
+              tristesse, estimant qu'il était absolument inutile d'opposer les anciens combattants
+              au Gouvernement et surtout au Président de la République, que tous souhaitent voir
+              continuer son cuvre de redressement. Nous sommes particulièrement à notre aise dans ce
+              débat, attendu que nos droits à la retraite n'ont pas été touchés, ce qui nous permet
+              d'apprécier la valeur des idées en présence.</p>
+            <p>Sans doute - et c'est là un avis assez général - cette retraite a été mal établie,
+              mais elle existe et a rendu déjà de sérieux services à des anciens combattants démunis
+              de ressources. Sans doute aussi, et nous le reconnaissons, il fallait restaurer le
+              crédit de la France, trouver de l'argent, afin que par de saines finances, comme
+              disait Poincaré, on puisse faire de la bonne politique en France. Mais, est-il
+              nécessaire pour cela de toucher aux droits des anciens combattants? L'économie
+              réalisée valait-elle la peine d'indisposer un grand nombre d'hommes qui, souvent, par
+              un raisonnement simpliste, se voyaient discuter leur valeur d'ancien combattant.</p>
+            <p>Nous pensons qu'il est grand temps que cesse cette mésentente, et de voir - comme il
+              est dit dans cette adresse - les anciens combattants à l'honneur, en pleine possession
+              de tous leurs droits, apporter leur concours loyal et désintéressé à l'œuvre de
+              redressement du pays, désirant que le Président de la République demeure l'arbitre
+              suprême des destinées de la patrie. Ce sont là d'excellents sentiments qui ne peuvent
+              manquer de toucher nos dirigeants qui, nous l'espérons, de leur côté sont prêts à
+              faire le geste nécessaire pour l'apaisement de tous.</p>
+            <p>Nous aussi, aveugles de guerre, avons des demandes à formuler. On nous a beaucoup
+              oubliés ces derniers temps. On commence à <pb n="7"/>
+              <note type="foliation">— 7 —</note> penser à nous et nous aimerions que, dans une
+              atmosphère rassérénée, puisse être accomplie, pour les grandes victimes de guerre,
+              l'œuvre de justice que personne ne conteste et qui nous est promise. H. A.</p>
+            <p>20 novembre 1959.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">DÉCLARATION des Organisations
+              d'Anciens Combattants et Victimes de Guerre à la suite de la Conférence de Presse du
+              10 novembre 1959 de Monsieur le Président de la République Française en ce qui
+              concerne la Retraite du Combattant</head>
+            <p>Les groupements ci-après :</p>
+            <list>
+              <item>L'Union Française des Associations de Combattants et Victimes de Guerre
+                (U.F.A.C.),</item>
+              <item>La Fédération Nationale des Combattants Prisonniers de Guerre
+                (F.N.C.P.G.),</item>
+              <item>La Fédération des Amicales Régimentaires et d'Anciens Combattants
+                (F.A.R.A.C.),</item>
+            </list>
+            <p>Après avoir pris connaissance des déclarations de M. le Président de la République
+              française, au cours de la conférence de presse qui eut lieu à la veille du quarante et
+              unième anniversaire de l'Armistice du 11 novembre 1918, au sujet de sa position à
+              l'égard des anciens combattants et victimes de guerre ;</p>
+            <p>Péniblement surpris et peinés du jugement sévère, basé sur des erreurs de fait et de
+              droit que contiennent ces déclarations, tant en ce qui concerne l'origine de la
+              retraite, les raisons et les conséquences de sa suppression que sur l'état d'esprit
+              qui anime les anciens combattants et victimes de guerre et ceux qui, investis de la
+              confiance de ces derniers, ont l'honneur de les représenter et de parler en leur nom
+              ;</p>
+            <p>Soulignent tout d'abord que les anciens combattants et victimes de guerre étaient, et
+              demeurent, prêts à apporter leur concours loyal et désintéressé à l'œuvre de
+              redressement du pays ;</p>
+            <p>Désireux de voir le Président de la République française demeurer l'arbitre suprême
+              bien informé et objectif dont les jugements impartiaux devraient s'imposer à l'opinion
+              publique.</p>
+            <p>Ils tiennent à rappeler que : 1<hi rend="superscript">°</hi> Le principe de la
+              retraite du combattant avait été proposé avant le décès de Georges Clemenceau, dont
+              les paroles et les écrits <pb n="8"/>
+              <note type="foliation">— 8 —</note> portaient en germe, avec la gratitude du pays, sa
+              traduction d'ordre matériel pour ceux qui, ayant combattu avec honneur, pouvaient être
+              récompensés par une dotation qui fut la retraite du combattant. Georges Clemenceau
+              n'avait apporté aucune limitation dans l'expression légale de sa promesse faite, non
+              pas, comme l'a cru M. le Président de la République, après la guerre, mais exactement
+              lors de sa prise du pouvoir, le 20 novembre 1917, lorsqu'il proclama : «Ils ont des
+              droits sur nous », en ajoutant d'ailleurs : «Nous leur devons tout sans aucune réserve
+              ».</p>
+            <p>Au surplus, le 11 novembre 1918, le Président Poincaré, parlant des combattants que
+              nous étions, s'écria : « La gloire de la France est faite de leur ardeur prolongée, de
+              "leur abnégation, de leurs souffrances et de leur sang." 2<hi rend="superscript"
+                >°</hi> "L'invention » de la retraite, pour reprendre l'expression de M. le
+              Président de la République, fut le résultat d'une longue gestation. En effet, depuis
+              1917, de très nombreuses propositions ou projets, sous des désignations diverses
+              (retraite du combattant, pension viagère, part des combattants, etc.) ont été soumises
+              au Parlement. Et, enfin, le Président Tardieu, si proche de la pensée de Georges
+              Clemenceau, présenta au Parlement un projet qui fut adopté le 16 avril 1930.</p>
+            <p>A la Chambre des Députés, lors de la séance du 11 mars 1930, il avait dit notamment :
+              « Il (le Gouvernement) se félicite - et la Chambre se félicitcra " avec lui - qu'il
+              ait été possible de donner ainsi aux anciens "combattants une expression concrète des
+              sentiments de la nation "à leur égard, sentiments qui sont faits de reconnaissance, de
+              respect " et d'affection "</p>
+            <p>Ultérieurement, il devait encore déclarer : "C'est une dette sacrée, c'est une juste
+              réparation et la reconnais«sance de préjudices subis et d'héroïsmes jamais égalés...
+              Je remer« cie le Parlement de l'avoir votée à l'unanimité. En aucun cas, dans "
+              l'avenir, un Ministre ou un Gouvernement ne pourra revenir sur " cette décision. Ce
+              serait une violation impensable d'un engagement " qui a été pris au nom de la
+              Nation... »</p>
+            <p>Cette retraite devint, après 1930, plus que ce que M. le Président de la République a
+              cru pouvoir appeler une « habitude ». Elle fut « la loi».</p>
+            <p>Maintenue sous le Gouvernement du Général de Gaulle en 1945 et 1946, elle fut
+              réaménagée pour prendre surtout sa valeur à l'égard des anciens combattants âgés de
+              plus de soixante-cinq ans.</p>
+            <p>Lorsqu'elle fut supprimée, en partie, par l'ordonnance du 30 décembre 1958, elle
+              était donc consacrée par la loi depuis vingtneuf ans et elle avait été servie à tous
+              pendant vingt-neuf ans.</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+            <p>Le fait de récompenser par une somme d'argent des services rendus, comme cela fut
+              fait dans le passé, pour de grands serviteurs de la France, n'a jamais porté atteinte
+              à leur honneur, ni à leur désintéressement. 3<hi rend="superscript">°</hi> Il n'est
+              pas exact de dire que la France est le seul pays qui ait créé des avantages spéciaux
+              pour les anciens combattants non titulaires d'une pension d'invalidité.</p>
+            <p>Citons, par exemple, les Etats-Unis d'Amérique qui, en mai 1925, ont constitué à leur
+              bénéfice, le «Bonus Bill »; l'Italie, sous forme d'assurance gratuite depuis 1917; la
+              Belgique qui, depuis le 1<hi rend="superscript">er</hi> juin 1919, leur sert une
+              retraite, doublée, il y a quelques années, de telle sorte qu'elle est actuellement
+              très supérieure à celle que perçoivent encore certains anciens combattants français.
+                4<hi rend="superscript">°</hi> Il n'est pas exact non plus de dire que pour le
+              relèvement des finances publiques des sacrifices aient été demandés à tous les
+              Français, et cela par catégorie.</p>
+            <p>L'ancien combattant est avant tout un citoyen et un contribuable. A ces deux titres,
+              il a participé au sacrifice général. Pourquoi le frapper une fois de plus par un
+              surimpôt parce que, ancien combattant, alors que bien des privilèges ont été maintenus
+              et qu'aucune reprise spéciale par catégorie n'a été infligée aux autres citoyens. 5<hi
+                rend="superscript">°</hi> Il n'est pas vrai, non plus de dire que le bénéfice acquis
+              au détriment de nos vieux camarades ait été spécialement affecté à d'autres vieux, les
+              «économiquement faibles», puisque, comme cela se devait, ces avantages ont été trouvés
+              dans les ressources du Budget général et par la création d'impôts nouveaux.</p>
+            <p>Nous constatons, d'autre part, que le chiffre de 7 milliards énoncé par M. le
+              Président de la République n'est pas en concordance avec la réduction indiquée dans le
+              Budget au chapitre de la Retraite du Combattant.</p>
+            <p>En terminant cette longue, mais nécessaire réponse, les organisations d'anciens
+              combattants tiennent à renouveler à M. le Président de la République l'expression de
+              leur respect et de leur désir de le voir présider avec bonheur aux hautes destinées de
+              l'Etat.</p>
+            <p>Mais elles lui demandent d'admettre que les organisations d'anciens combattants, dont
+              le patriotisme ne saurait être mis en doute, défendent avec la retraite le droit à
+              réparation de ceux qui ont souffert, ont combattu et dont la créance est aussi valable
+              que bien d'autres qui ont été récemment revalorisées.</p>
+            <p>Les anciens combattants et victimes de guerre n'ont pas attendu 1959 pour donner
+              l'exemple. Depuis plus de quarante ans, les anciens combattants et victimes de guerre,
+              ainsi que leurs organisations, par leur œuvres philanthropiques, leur action civique,
+              leur volonté d'union entre les Français, et de défense sur tous les plans <pb n="10"/>
+              <note type="foliation">— 10 —</note> des idéaux traditionnels de la France, ont
+              accumulé des trésors de dévouement de toutes sortes.</p>
+            <p>Les organisations d'anciens combattants et victimes de guerre demandent à M. le
+              Président de la République d'admettre qu'elles ne font que traduire les sentiments qui
+              montent vers elles de tous les villages, bourgs et villes de France et que, si les
+              dirigeants qui ont la lourde charge de traduire de tels sentiments n'étaient pas là,
+              d'autres se lèveraient, qui tiendraient, à leur place, le même langage avec, parfois,
+              plus de rudesse.</p>
+            <p>Ainsi firent hier et feront demain les conseils municipaux, les conseils généraux,
+              les orateurs unanimes de l'Assemblée Nationale et du Sénat.</p>
+            <p>Il ne s'agit pas, pour les « organisations » d'anciens combattants, de faire "
+              reculer le pouvoir », comme les combattants font reculer l'ennemi.</p>
+            <p>Le souci d'un combat d'ordre interne et d'un tel prestige n'anime ni leur cœur, ni
+              leur volonté.</p>
+            <p>Alors que tant d'autres problèmes dramatiques se posent à la Nation, il s'agit pour
+              eux d'unir tous les Français entre eux dans le respect de ce qui est justice et
+              vérité.</p>
+            <p>Il s'agit d'éviter de laisser à des citoyens qui n'ont point démérité de la Nation
+              l'amertume de se croire brimés et oubliés. "Il y a eu des fautes, n'y songeons plus
+              que pour les réparer », ainsi que l'a déclaré Georges Clemenceau dans son discours du
+              20 novembre 1917.</p>
+            <p>Tel est aussi l'appel déférent qu'en ce mois de novembre 1959 les organisations
+              d'anciens combattants, onblicuses des fautes commises, adressent aux plus hautes
+              instances de la Nation.</p>
+            <pb n="11"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">CONDITIONS DE REMBOURSEMENT DE LA
+              DOUBLE COTISATION A LA SECURITE SOCIALE</head>
+            <p>Comme complément à l'arrêté que nous avons fait paraître dans notre Bulletin
+              d'octobre, concernant le remboursement des trop perçus sur les cotisations de la
+              Sécurité sociale, nous sommes en mesure d'indiquer ce qui suit : 1<hi
+                rend="superscript">°</hi> Remboursement. - La demande de remboursement doit être
+              adressée à la Caisse primaire de Sécurité sociale de la résidence habituelle du
+              demandeur ou, pour ses ressortissants, à la Caisse nationale militaire de Sécurité
+              sociale, c'est-à-dire à l'organisme qui, dans la généralité des cas, a procédé à
+              l'immatriculation de l'intéressé au titre des articles 576 et suivants du Code de la
+              Sécurité sociale. 2<hi rend="superscript">°</hi> Délai de recevabilité de la demande.
+              - D'une manière générale, la demande de remboursement doit être présentée avant la fin
+              de l'année civile suivant l'année pendant laquelle ont été acquittées les cotisations
+              remboursables. Par exemple, le remboursement des cotisations excédentaires éventuelles
+              de l'année 1959 devra être sollicité avant l'expiration de l'année 1960.</p>
+            <p>Toutefois, à titre exceptionnel, et pour tenir compte du retard apporté à la
+              publication des dispositions réglementaires prévues par le décret n<hi
+                rend="superscript">°</hi> 57-290 du 9 mars 1957, les demandes de remboursement
+              présentées au titre de l'année 1957 seront recevables dans les mêmes conditions que
+              celles afférentes à l'année 1958, jusqu'à la fin de l'année 1959. 3<hi
+                rend="superscript">°</hi> Instruction de la demande. - A l'appui de sa demande, le
+              requérant doit produire des attestations émanant des comptables payeurs ou des
+              organismes qui effectuent le service de ses pensions et indiquant la nature de
+              celles-ci (pension de reversion, pension d'ancienneté, pension proportionnelle,
+              pension d'invalidité, etc.). 4<hi rend="superscript">°</hi> Date d'effet de
+              hemboursements. - La date d'entrée en vigueur des décrets <hi rend="superscript"
+                >n</hi>^{<hi rend="superscript">os</hi>} 57-289 et 57 - 290 du 9 mars 1957 a été
+              fixée au 1<hi rend="superscript">er</hi> janvier 1957. En conséquence, aucune demande
+              de remboursement au titre d'une période antérieure à cette date ne pourra être
+              retenue. 5<hi rend="superscript">°</hi> Application du taux réduit de cotisation. - Le
+              taux réduit de cotisation de 0,75 \% prévu en faveur des victimes de guerre
+              tributaires des articles 6 et 7 du décret <hi rend="superscript">n</hi>^{\circ} 51-318
+              du 28 février 1951, ne saurait être applicable aux intéressés qu'après vérification de
+              leur droit à ce taux.</p>
+            <p>Il appartient donc aux caisses d'exiger de toute personne invoquant ce droit, la
+              présentation de pièces justificatives établissant <pb n="12"/>
+              <note type="foliation">— 12 —</note> qu'elle se trouve effectivement dans l'une des
+              situations prévues aux articles 6 et 7 du décret du 28 février 1951.</p>
+            <p>En résumé, le camarade ayant cotisé deux fois, a droit au remboursement entre la
+              cotisation-plafond actuelle ( 11.550 francs) et les sommes qui lui ont été
+              effectivement retenues.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">A L'OFFICE NATIONAL DES ANCIENS
+              COMBATTANTS</head>
+            <p>Depuis le 9 juillet dernier, l'Office National des Anciens Combattants et Victimes de
+              la Guerre a repris ses travaux.</p>
+            <p>Le Conseil d'administration a été renouvelé, ne comprenant plus que dix-sept
+              administrateurs et autant de suppléants auxquels s'ajoutent les représentants des
+              grands ministères, alors que précédemment ce Conseil comprenait plus de cent membres.
+              C'était bien lourd, nous en convenons, pour travailler très utilement, quoique les
+              Commissions fassent le travail principal et nous pensons que, dorénavant, des
+              résultats plus positifs pourront être obtenus, particulièrement en matière
+              d'hébergement et de rééducation.</p>
+            <p>Dans sa réunion du 19 novembre, le Bureau a été constitué. Le président est M. le
+              Ministre des Anciens Combattants, M. Triboulet. Le premier vice-président est Henri
+              Amblard et le second, le Révérend Père Riquet.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">PAGE D'HISTOIRE</head>
+            <p>Les « Amis du Souvenir du Maréchal Foch » ont tenu, comme les années précédentes,
+              leur assemblée générale dans notre Salle des Fêtes du 24 novembre. Le général Weygand,
+              qui garde malgré son grand âge une activité remarquable, en est le président.</p>
+            <p>Les «Poilus de la Première » s'associent bien volontiers à la mission de ce Comité :
+              perpétuer la mémoire du grand chef qui commanda les armées alliées et remporta la
+              victoire en 1918, grâce à son génie militaire unanimement reconnu.</p>
+            <p>Un musée a été créé à Tarbes, dans la maison natale du Maréchal, un autre à Cassel,
+              où les combats victorieux d'Ypres et de l'Yser permirent de bloquer les armées
+              allemandes.</p>
+            <pb n="13"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LEGION D'HONNEUR</head>
+            <p>Nous sommes heureux d'apprendre les promotions dans l'ordre de la Légion d'Honneur de
+              nos camarades ci-après :</p>
+            <p><list>
+                <head>Au grade d'Officier :</head>
+                <item>Freybier Raoul. </item>
+                <item>Lemarie Georges ;</item>
+                <item>Maurin Raymond ;</item>
+                <item>Sampite Henri.</item>
+              </list> Nous leur adressons nos plus vives félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">DES MILLIERS DE DECORES</head>
+            <p>Il existe, à l'heure actuelle, 286.753 titulaires d'une décoration de la Légion
+              d'Honneur.</p>
+            <table>
+              <row>
+                <cell/>
+                <cell>Avec traitement</cell>
+                <cell>Sans traitement</cell>
+              </row>
+              <row>
+                <cell>Grand-Croix</cell>
+                <cell>65</cell>
+                <cell>66</cell>
+              </row>
+              <row>
+                <cell>Grand-Officiers</cell>
+                <cell>621</cell>
+                <cell>349</cell>
+              </row>
+              <row>
+                <cell>Commandeurs</cell>
+                <cell>4.529</cell>
+                <cell>3.262</cell>
+              </row>
+              <row>
+                <cell>Officiers</cell>
+                <cell>27.076</cell>
+                <cell>30.146</cell>
+              </row>
+              <row>
+                <cell>Chevaliers</cell>
+                <cell>133.967</cell>
+                <cell>85.672</cell>
+              </row>
+            </table>
+            <p>En ce qui concerne les médailles militaires, ils sont plus de 700.000 , soit, avec
+              traitement, 628.514 , sans traitement 74.306 . Le fait qu'un certain nombre de
+              traitements ne sont pas perçus par ceux qui devaient en bénéficier explique que les
+              dépenses réelles de la GrandeChancellerie se maintiennent depuis 1953 aux environs de
+              5 milliards de francs, alors que pour 1960 les dépenses théoriques devraient s'élever
+              à 6.8 milliards.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">BIBLIOTHÈQUE</head>
+            <table>
+              <head type="section" rend="align(center)">ROMANS</head>
+              <row>
+                <cell>86</cell>
+                <cell>Vilmorin (Geneviève de)</cell>
+                <cell>Yes Monsieur</cell>
+                <cell>5 Vol.</cell>
+                <cell>Intégral</cell>
+              </row>
+              <row>
+                <cell>237</cell>
+                <cell>Samain (Albert)</cell>
+                <cell>Contes</cell>
+                <cell>2 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+              <row>
+                <cell>110</cell>
+                <cell>Sauvage (Hippolyte)</cell>
+                <cell>Légendes recueillies en Basse Normandie</cell>
+                <cell>1 Vol.</cell>
+                <cell>Intégral</cell>
+              </row>
+            </table>
+            <table>
+              <head type="section" rend="align(center)">LITTÉRATURE</head>
+              <row>
+                <cell>1144</cell>
+                <cell>Pagnol (Marcel)</cell>
+                <cell>La Gloire de mon Père</cell>
+                <cell>6 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+            </table>
+            <table>
+              <head type="section" rend="align(center)">POÉSIE</head>
+              <row>
+                <cell>1250</cell>
+                <cell>Heredia (José María de)</cell>
+                <cell>Sonnets et Poèmes</cell>
+                <cell>1 Vol.</cell>
+                <cell>Intégral</cell>
+              </row>
+              <row>
+                <cell>1251</cell>
+                <cell>Samain (Albert)</cell>
+                <cell>Au Jardin de l'Infante. Le Chariot d'or (extraits)</cell>
+                <cell>1 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+              <row>
+                <cell>1252</cell>
+                <cell>Verlaine</cell>
+                <cell>Poèmes (dons du camarade René Roy)</cell>
+                <cell>5 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+            </table>
+            <table>
+              <head type="section" rend="align(center)">DROIT ET FINANCES</head>
+              <row>
+                <cell>2177</cell>
+                <cell>Tinbergen (J.)</cell>
+                <cell>Fondements mathématiques de la stabilisation du mouvement des affaires</cell>
+                <cell>4 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+              <row>
+                <cell>2191</cell>
+                <cell>Tinbergen (J.)</cell>
+                <cell>Une approximation économique des problèmes du cycle d'affaires</cell>
+                <cell>2 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+              <row>
+                <cell>2192</cell>
+                <cell>Tinbergen (J.)</cell>
+                <cell>Théorie du développement de l'économie à long terme</cell>
+                <cell>2 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+              <row>
+                <cell>2193</cell>
+                <cell>Mendershausen (Horst)</cell>
+                <cell>Examen annuel de la technique statistique. Méthodes de calcul et d'élimination
+                  des mouvements saisonniers variables (dons du camarade René Roy)</cell>
+                <cell>2 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+            </table>
+            <table>
+              <head type="section" rend="align(center)">GÉOGRAPHIE — VOYAGES</head>
+              <row>
+                <cell>3427</cell>
+                <cell>Monfreid (Henry de)</cell>
+                <cell>Vers les terres hostiles de l'Éthiopie</cell>
+                <cell>9 Vol.</cell>
+                <cell>Abrégé</cell>
+              </row>
+            </table>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">" LE LIVRE PARLÉ " PRIX
+              LITTERAIRES 1959</head>
+            <p>Pour répondre aux demandes qui nous sont formulées chaque année, concernant les prix
+              littéraires, nous envisageons d'éditer, courant décembre, sur disques et bandes
+              magnétiques, de larges extraits des ouvrages couronnés :</p>
+            <p>Le Prix Goncourt : Le Dernier des Justes (Schwartz-Bart). Le Prix Fémina : Au pied du
+              mur (Bernard Privat). Le Prix Interallié : Un Singe en hiver (Antoine Blondin).</p>
+            <p>Nos auditeurs auront ainsi rapidement un aperçu de ces cuvres, que nous nous
+              réserverons d'éditer par la suite in extenso, selon l'intérêt que ces extraits auront
+              suscité parmi notre public.</p>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">DANS NOS SECTIONS APPORT DE NOS
+              SECTIONS</head>
+            <p><list>
+                <item>Section d'Alger : Président Perdrisot — Fr. 36.000</item>
+                <item>Section régionale de Bordeaux : Président Almey — 28.250</item>
+                <item>Section du Morbihan : Président L. Serre — 50.000</item>
+                <item>Section départementale du Nord : Président Webber — 127.584</item>
+                <item>Section régionale de Provence : Président H. Mingaud — 55.329</item>
+                <item>Section de Haute-Garonne : Président F. Monnier — 55.000</item>
+              </list> Nous adressons aux Présidents et à leurs collaborateurs nos plus vifs
+              remerciements.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>Cloereg Victor, 8, rue du Jointo, Vannes (Morbihan). Lechoppier Maurice, Molagnies,
+              par Gournay-en-Bray (Seine- Maritime). Lemerle Alphonse, 10, place Fabret, Vanves
+              (Seine).</p>
+            <pb n="17"/>
+            <note type="foliation">— 17 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">NAISSANCES</head>
+            <p>Nous apprenons avec joie, la naissance de : Pascale, petite-fille de notre camarade
+              Justin Vernhes (décédé), de Campuac (Aveyron), septembre 1959.</p>
+            <p>Nous adressons aux parents nos bien vives félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : Boehringer Michel (39-45), de
+              Furdenheim (Bas-Rhin), le 5 novembre 1959.</p>
+            <p>Mustapha ben Mohamed Larnaout (14-18), de Kélibia (Tunisie), le 24 octobre 1959.</p>
+            <p>La femme de notre camarade Henri Cirapez (38 ans), Le Cannet (Alpes-Maritimes), le 23
+              novembre 1959.</p>
+            <p>Francis (38 ans), fils de notre camarade François Gambert, de Credin par Rohan
+              (Morbihan), novembre 1959.</p>
+            <p>Mme Saint-Marty, veuve de notre camarade décédé, de Sorèse (Tarn), le 27 novembre
+              1959.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="18"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">COTISATIONS</head>
+            <p>Afin d'éviter des erreurs, nous demandons instamment aux camarades de préciser sur
+              leurs règlements la destination exacte de leur envoi.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COTISATIONS reçues du 13 novembre
+              au 30 novembre 1959 inclus</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">COTISATIONS ORDINAIRES (200
+                francs)</head>
+              <p>Aernout Rémi, Arnold Georges. Barbier J.-Marcellin, Barbier Pierre, Beaubras Paul,
+                Beauchemin Paul, Berdou Albert, Bicheron Marius, Bloch Charles, Boche Florentin,
+                Bois Paul, Bompuis Marc, Boy Jacques, Brinon Raoul, Brioul Julien, Brossard Henri,
+                Bussonnais Louis.</p>
+              <p>Canler Jean, Causse Jean, Cavaillier Claude, Chanut Charles, Charlemagne Hubert,
+                Charrière Stéphane, Chemin Joseph, Chomarat Jean, Citerne David, Cohen Jacques,
+                Copier Raymond, Coquin André, Corlobe Armand, Coulard Georges.</p>
+              <p>Declercq Jules, Defaye Jean, Deguerville Louis, Demoya Honoré, Désert Gaétan,
+                Desseignes Charles, Devienne Jules, Devliegher Georges. Doré Léon, Douspis Pierre,
+                Druelle Edmond, Dubs Aloyse, Duhen Achille, Duplan Jean-Baptiste.</p>
+              <p>Faudot Louis, Fayolle Athanase, Finot Gaston, Fournier Urbain, François Maurice,
+                Fusilier Joseph.</p>
+              <p>Gable Alphonse, Garrec Jean, Gay Lucien, Gérard Paul, Gilles Raoul, Ginder Henry,
+                Godin Adrien, Grattepain Albert, Gravet Léon, Gresset Joseph, Gruner Jean, Guillam
+                Edmond, Guillermet Pierre ( 400 fr.).</p>
+              <p>Halter Georges, Hébert Georges, Hennebicq René, Houdayer Gaston.</p>
+              <p>Jeanniard Georges. Kerneis Pierre. Labau François, Lallemant Georges, Latrille
+                Jean-Marie, Lecocq André, Lefebvre Guy, Le Hetet Emile, Lemoine André, Le Pezron
+                François, Leriche Henri, Le Serrec Yves, Louette Charles ( 400 fr.).</p>
+              <pb n="19"/>
+              <note type="foliation">— 19 —</note>
+              <p>Marchal Charles, Marion Marcel, Marquet Louis, Marsal Lucien, Martin Jean-Victor,
+                Martin Henri, Martin Jean, Mas Elie, Masson François, Mauriceau Louis, Meyer Joseph,
+                Millet Aimé, Miremont Pierre, Montellier Francisque, Moreau Adolphe, Morel Serge,
+                Moricel Constant, Muller Emile.</p>
+              <p>Nicaud Achille. Ogeas Jean ( 400 fr.), Ottenwalter René. Paillisse Aimé, Pallier
+                Joseph, Papineau Marcel, Paradis Gabriel, Pèlerin Henri, Peltier Oscar, Phénix
+                André, Pisson Charles, Portebois Joseph, Potereau Jean, Prudhomme Alfred.</p>
+              <p>Quinet Maxence. Rabay Emile, Renauld Charles, Roy Jean, Roy Georges, Ruffenach
+                Xavier.</p>
+              <p>Salles Auguste, Salmon Victor, Saussotte Pierre, Scherrer Clément, Schoettel
+                Alexandre, Seingrist François, Simon François, Soulié Mourice, Şoulié Michel.</p>
+              <p>Ternisien Charles ( 400 fr.), Thoumelin Lucien, Toudic Jean. Vaxelaire Lucien,
+                Villain Daniel, Vincent Jules, Virot Georges. Waigel Albert.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">RACHATS DE COTISATION (2.000
+                francs)</head>
+              <p>Delamare Roger. Fiche René. Guillon Edouard.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">CAISSE PREVOYANCE</head>
+              <p>Alibert Fernand ( 475 fr.), Allemand Célestin ( 25 fr.). Beneat Yves ( 250 fr.),
+                Bicheron Marius ( 25 fr.), Bloch Charles ( 475 fr.), Bompuis Marc ( 500 fr.), Brioul
+                Julien ( 500 fr.).</p>
+              <p>Copier Raymond ( 325 fr.), Corlobe Armand ( 500 fr.), Curbières Célestin ( 25
+                fr.).</p>
+              <p>Deguerville Louis ( 250 fr.), Delamare Roger ( 325 fr.), Devienne Jules ( 250 fr.),
+                Duhen Achille ( 325 fr.).</p>
+              <p>Finot René ( 250 fr.).</p>
+              <pb n="20"/>
+              <note type="foliation">— 20 —</note>
+              <p>Gay Lucien (475 fr.), Gilles Raoul (475 fr.), Ginder Henry (500 fr.), Giroir Paul
+                (500 fr.), Gresset Joseph (25 fr.), Guespereau Henri (500 fr.), Guillam Edmond (250
+                fr.).</p>
+              <p>Hachez Eugène (25 fr.), Hennebieq René (500 fr.). Kerneis Pierre (475 fr.), Kribs
+                Victor (25 fr.). Lecocq André (250 fr.), Le Lann Français (1.000 fr.), Lenglare Léon
+                (475 fr.), Lutz Victor (250 fr.).</p>
+              <p>Marquet Louis (400 fr.), Marsal Lucien (500 fr.), Mas Elie (250 fr.), Miremont
+                Pierre (475 fr.), Moreau Adolphe (475 fr.).</p>
+              <p>Pallier Joseph (500 fr.). Renauld Charles (250 fr.), Roche Louis (250 fr.), Roy
+                Jean (500 fr.), Ruffenach Xavier (400 fr.).</p>
+              <p>Salles Auguste (250 fr.). Thoumelin Lucien (500 fr.). Villain Daniel (275 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Avec reconnaissance, nous recevons également des dons de la part des veuves de nos
+                camarades ; toutefois, nous leur rappelons qu'elles sont exemptes de toute
+                cotisation annuelle.</p>
+              <p>Aernout Rémi (800 fr.), Alibert Fernand (25 fr.), Allemand Célestin ( 475 fr.
+                ).</p>
+              <p>Barbier J.-Marcellin (300 fr.), Beaubras Paul (300 fr.), Berdou Albert (100 fr.),
+                Bicheron Marius ( 475 fr.), Boucher Emile ( 75 fr.), Vve Boulert (200 fr.), Boy
+                Jacques (300 fr.), Brinon Raoul (300 fr.), Brossard Henri (500 fr.), Vve Burgard
+                (500 fr.).</p>
+              <p>Caufer Jean (300 fr.), Causse Jean (500 fr.), Chanut Charles (1.000 fr.),
+                Charlemagne Hubert (300 fr.), Vve Chatonnier (200 fr.), Chemin Joseph ( 300 fr.),
+                Chomarat Jean ( 200 fr.), Coquin André ( 800 fr.), Curbières Célestin ( 475
+                fr.).</p>
+              <p>Declereq Jules ( 300 fr.), Deguerville Louis ( 150 fr.), Delamare Roger ( 1.000
+                fr.), Delfieux <hi rend="superscript">°</hi> Antonin ( 200 fr.), De Moya Honoré (
+                800 fr.), Devienne Jules ( 350 fr.), Devliegher Georges ( 300 fr.), Doré Léon ( 800
+                fr.), Douspis Pierre ( 300 fr.), Druelle Edmond ( 800 fr.). Vve Dubost Pierre ( 600
+                fr.), Dubs Aloyse ( 100 fr.), Duplan Jean-Baptiste ( 300 fr.).</p>
+              <p>Faudot Louis ( 1.300 fr.), Fayolle Athanase ( 800 fr.), Finot René ( 550 fr.),
+                François Maurice ( 300 fr.).</p>
+              <pb n="21"/>
+              <note type="foliation">— 21 —</note>
+              <p>Gable Alphonse ( 800 fr.), Garrec Jean ( 600 fr.), Gérard Paul ( 800 fr.), Gilles
+                Raoul ( 325 fr.), Ginder Henry ( 800 fr.), Gravet Léon ( 800 fr.), Guignard Pierre (
+                2.000 fr.), Guillermet Pierre ( 1.400 fr.).</p>
+              <p>Hachez Eugène ( 200 fr.), Houdayer Gaston ( 300 fr.). Kerncis Pierre ( 200 fr.),
+                Kribs Victor ( 975 fr.). Labau François ( 300 fr.), Latrille Jean-Marie ( 1.100
+                fr.), Lemoine André ( 300 fr.), Lenglare Léon ( 225 fr.), Le Pezron François ( 1.000
+                fr.), Leriche Henri ( 200 fr.), Le Serrec Yves ( 800 fr.), Lutz Victor ( 250
+                fr.).</p>
+              <p>Marchal Charles ( 500 fr.), Marion Mareel ( 500 fr.), Marquet Louis ( 80 fr.),
+                Marsal Lucien ( 300 fr.), Massé Jean ( 500 fr.), Masson François ( 500 fr.),
+                Miremont Pierre ( 125 fr.), Moreau Adolphe ( 25 fr.), Moricel Constant ( 800
+                fr.).</p>
+              <p>Ogeas Jean ( 600 fr.). Papineau Marcel ( 300 fr.), Paradis Gabriel ( 300 fr.),
+                Pèlerin Henri ( 300 fr.), Perroux Lucien ( 500 fr.), Phénix André ( 600 fr.), Pinçon
+                Louis ( 500 fr.).</p>
+              <p>Quinet Maxence ( 300 fr.). Renaud Charles ( 250 fr.), Roy Georges ( 400 fr.), Vve
+                Royer ( 500 fr.).</p>
+              <p>Salmon Victor ( 800 fr.), Sausotte Pierre ( 800 fr.), Scherrer Clément ( 250 fr.),
+                Sibiril Pierre ( 200 fr.).</p>
+              <p>Vve Théodule ( 300 fr.), Toudic Jean ( 300 fr.). Villain Daniel ( 525 fr.). Waigel
+                Albert ( 300 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Arnold Georges ( 800 fr.). Bertrand Gustave ( 500 fr.), Bloch Charles ( 175 fr.).
+                Causse Jean ( 500 fr.). Doré Léon ( 1.000 fr.), Duplan Jean-Baptiste ( 250 fr.).
+                François Maurice ( 200 fr.). Guillam Edmond ( 1.000 fr.). Hachez Eugène ( 500 fr.).
+                Jeanniard Georges ( 500 fr.). Lemoine André ( 500 fr.), Louette Charles ( 1.600
+                fr.), Louis Robert ( 500 fr.).</p>
+              <pb n="22"/>
+              <note type="foliation">— 22 —</note>
+              <p>Martin Jean ( 300 fr.), Miquellis Eugène (1.000 fr.). Pallier Joseph ( 150 fr.),
+                Potereau Jean ( 300 fr.). Roy Georges ( 400 fr.), Ruffenach Xavier ( 600 fr.).
+                Salles Auguste ( 1.000 fr.), Schoettel Alexandre ( 500 fr.), Soulié (Maurice), 400
+                fr.).</p>
+              <p>Virot Georges ( 800 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Bloch Charles ( 150 fr.). Caudron Georges ( 500 fr.). Duplan Jean-Baptiste ( 250
+                fr.). Lallemant Georges ( 200 fr.). Martin Henri ( 300 fr.). Pallier Joseph ( 150
+                fr.). Rouquette Pierre ( 200 fr.). Soulié Maurice ( 400 fr.). Nous sommes très
+                sensibles aux cotisations volontaires que certains camarades veulent bien nous
+                adresser ; leur geste de solidarité nous prouve leur sentiment d'attachement à
+                l'U.A.G. et nous les en remercions bien vivement.</p>
+              <pb n="23"/>
+              <note type="foliation">— 23 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">PETITES ANNONCES</head>
+            <p>«UN RISEVALTES»</p>
+            <p>Le meilleur des apéritifs Le plus reconstituant des vins doux naturels Livré
+              directement du producteur au consommateur Expédié en fûts, bonbonnes (consignés) ou en
+              bouteilles</p>
+            <p>Franco de port, exempt de toutes taxes S'adresser à M. Toutain, aveugle de guerre,
+              Briouze (Orne).</p>
+            <p>A VENDRE</p>
+            <p>Une guillotine, un couteau avec accessoires, bois de brosses chieudent. Ecrire à Mme
+              Horlon, chemin de Bonne-Dame, Braine (Aisne).</p>
+            <pb n="24"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Crésidents: le Maréchal et Mme la Maréchale JUIN. Vice-Président : M <hi
+                rend="superscript">°</hi> MASSON. Vice-Présidentes : Mmes CONTAMIN et DU BOS.
+              Secrétaire : M. COLLIER. Vice-Présidente honoraire : Mlle ARBEL. Trésorier honoraire :
+              M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M <hi rend="superscript">°</hi> BRULLIARD, MM. DE
+              CHAUMONT - QUITRY, CHEPFER, Mme COLLIER, <hi rend="superscript">D</hi>^{\prime}
+              COUTELA, Mme DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle LEDOUX, D' RICORD,
+              Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD, délégué au Mexique, le
+              Président de l'Association des Anciens Combattants Français en Argentine.</p>
+          </div>
+
+          <fw>Le Gerant : G. L'EVESQUE Imp. Dubois et Bauer - Paris</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

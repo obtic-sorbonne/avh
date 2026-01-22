@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 28ème année 1947, n°9</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Avantages sociaux</title>
+        <title type="topic">Distinctions honorifiques</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 12 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#comite-dentente">Comité d'Entente</term>
+          <term ref="#finistere">Finistère</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de novembre 1947 de l'Union des Aveugles de Guerre traite de plusieurs sujets
+          importants pour ses membres. Il rend compte des efforts déployés pour sensibiliser
+          l'opinion publique à la situation des aveugles de guerre, notamment à travers des articles
+          de presse et des réponses ministérielles. Le bulletin détaille également les actions du
+          Comité d'Entente auprès des pouvoirs publics pour améliorer les pensions et les avantages
+          sociaux des anciens combattants aveugles. Des informations pratiques sont fournies
+          concernant le Code de la Famille, les exonérations fiscales, et les traitements liés aux
+          décorations. Enfin, le bulletin inclut des nouvelles des sections départementales, des
+          petites annonces, et des listes de cotisations.</p>
+      </abstract>
+      <creation>
+        <date when="1947-09-01">01/09/1947</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h4">Les Aveugles de Guerre et l'Opinion Publique</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITE D'ENTENTE</ref>
+          </item>
+          <item>
+            <ref target="#h6">AUDIENCE DE MONSIEUR LE MINISTRE DES ANCIENS COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h7">CODE DE LA FAMILLE</ref>
+          </item>
+          <item>
+            <ref target="#h8">PENSION DE RETRAITE DES OFFICIERS</ref>
+          </item>
+          <item>
+            <ref target="#h9">EXONERATION DE LA COTE MOBILIERE ET IMPOT FONCIER</ref>
+          </item>
+          <item>
+            <ref target="#h10">CALENDRIERS</ref>
+          </item>
+          <item>
+            <ref target="#h11">DISTINCTIONS HONORIFIQUES</ref>
+          </item>
+          <item>
+            <ref target="#h12">AVIS IMPORTANT</ref>
+          </item>
+          <item>
+            <ref target="#h13">LEGION D'HONNEUR ET MEDAILLES MILITAIRES</ref>
+          </item>
+          <item>
+            <ref target="#h14">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h15">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h16">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h17">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h18">SECTION DEPARTEMENTALE DU FINISTERE REUNION DU 10 JUILLET
+                  1947</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h19">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h20">COTISATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h21">COTISATIONS VOLONTAIRES 1947</ref>
+              </item>
+              <item>
+                <ref target="#h22">COTISATIONS VOLONTAIRES POUR BIBLIOTHEQUE ET DISCOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h23">SOUSCRIPTION POUR LE TOMBEAU DU GENERAL GOURAUD</ref>
+          </item>
+          <item>
+            <ref target="#h24">Comité dAction</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">28e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">NOVEMBRE 1947</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Les Aveugles de Guerre et l'opinion publique.</item>
+                    <item>Comité d'Entente.</item>
+                    <item>Audience de M. le Ministre des Anciens Combattants.</item>
+                    <item>Code de la Famille. Pension de Retraite des Officiers.</item>
+                    <item>Exonération de la Cote Mobilière et Impôt Foncier.</item>
+                    <item>Calendriers.</item>
+                    <item>Distinctions Honorifiques.</item>
+                    <item>Avis important.</item>
+                    <item>Traitements des Légion d'Honneur et Médaille Militaire.</item>
+                    <item>Naissances - Mariages - Décès.</item>
+                    <item>Dans nos Sections. </item>
+                    <item>Petites Annonces.</item>
+                    <item>Cotisations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Conseil d'Administration</head>
+            <p>Président : H. IZAAC. Vice-Présidents : COUESNON, FAVRET, GUESPEREAU.</p>
+            <p>Secrétaire Général : AMBLARD. Trésorier : Gaston LEVESQUE. Membres : BERTRAND,
+              BLONCOURT, BODIN, BOIS, BRUSSON, CABASSON, CERELABOURDETTE, CHALENDAR, CONAN, CORNU,
+              DERUNDER, DUC, FAUVEL, GRILLET, GUILLAM, LAFFARGUE, LEVEAU, MULLER, NICOLAI, NOIREAUX,
+              ROBIN, ROY Georges, SIBIRIL, SATGE.</p>
+            <pb n="3"/>
+          </div>
+          <fw>28e ANNEE - N°9 NOVEMBRE 1947</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Les Aveugles de Guerre et
+              l'Opinion Publique</head>
+            <p>Un grand nombre de nos camarades a eu connaissance de l'excellent article que nos
+              Présidents du Comité d'Action de I'U.A.G., MM. J. et J. Tharaud ont publié dans le
+              Figaro du 5 septembre 1947.</p>
+            <p>Pour ceux qui ne l'ont pas lu, nous rappelons que nos amis, après avoir indiqué dans
+              des termes qui nous ont vivement touchés, comment se présentait notre maison de la rue
+              Blanche aux yeux des visiteurs qui la découvraient, évoquaient la situation des
+              aveugles en particulier et des grands mutilés en général, vis-à-vis de l'opinion
+              publique.</p>
+            <p>Un point d'amertume perçait en constatant un certain désintéressement chez le public,
+              qui autrefois ne nous avait pas ménagé sa sympathie. Ils soulignaient notre état de
+              non salariés, et considérant la véritable répercussion du coût de la vie sur nos
+              pensions qui ne peuvent suivre la hausse continuelle, ils en venaient à remarquer que
+              notre pouvoir d'achat était réduit considérablement. Une petite erreur d'impression a
+              fait dire que de ce fait notre pension était diminuée des deux-tiers, au lieu d'un
+              tiers, ce qui est tout juste la vérité.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Une réponse de M. Mittérand, Ministre des Anciens Combattants, fut publiée, peu de
+              temps après, dans le même journal. II n'y avait pas là d'attaque personnelle, mais
+              simplement une triste constatation des faits, et si nous n'avons aucun goût à voir
+              s'engager une polémique, nous pouvons dire que notre situation est loin d'être ce
+              qu'elle était avant-guerre, bien loin même ; c'est pourquoi, MM. J. et J. Tharaud ont
+              répliqué par un second article paru dans le Figaro du 9 octobre, où ils prenaient
+              parti nettement pour les grands mutilés.</p>
+            <p>Nous les remercions très vivement de cette affectueuse marque de sympathie, et nous
+              sommes heureux de voir les Présidents de notre Comité d'Action comprendre si justement
+              notre pénible condition. C'est là un témoignage de leur attachement à l'U.A.G., ce
+              dont nous leur sommes reconnaissants. H. AMBLARD.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITE D'ENTENTE</head>
+            <p>Le Comité d'Entente s'est réuni le 30 septembre 1947. Etaient présents: Bouré,
+              Delporte, Gauriault, Griffoux, Jugon, Nouveau, Régnier, Thibault.</p>
+            <p>Pour l'U.A.G.: Izaac et Amblard. Le Comité étudie les questions suivantes: PENSIONS.
+              - Le C.E. décide d'entreprendre une action énergique auprès des Pouvoirs Publics et de
+              réclamer une nouvelle étude de la situation par M. le Ministre des Anciens
+              Combattants.</p>
+            <p>Le Comité est d'accord pour exiger: 1<hi rend="superscript">°</hi> ) Une parité
+              complète et immédiate entre les coefficients de rajustement accordés quant à 1938 aux
+              pensionnés de guerre et aux diverses parties prenantes du budget de l'Etat:
+              fonctionnaires, retraités, accidentés du travail, parlementaires, etc... Izaac et
+              Amblard estiment même que le coefficient 10 serait nécessaire; 2<hi rend="superscript"
+                >°</hi> ) Le rattachement de nos pensions et allocations au traitement des
+              Conseillers d'Etat ou des fonctionnaires de l'Administration Centrale des Finances de
+              manière à faire bénéficier automatiquement nos dotations dans l'avenir d'un
+              pourcentage égal de rajustement chaque fois que ces traitements seront augmentés.</p>
+            <p>TRANSPORTS. - Le Comité effectuera de nouvelles démarches pour que soient attribuées
+              aux grands invalides de province les mêmes avantages qui sont consentis aux camarades
+              de la région parisienne sur les transports en commun de cette région comme cela est
+              fait pour les familles nombreuses.</p>
+            <p>STATUT. - Nouveau signale un arrêt du Conseil d'Etat concernant les difficultés
+              rencontrées par les camarades au sujet de l'attribution du statut de grand mutilé par
+              suite de la présomption d'origine. Une lettre sera adressée à ce sujet à M. le
+              Ministre des Anciens Combattants.</p>
+            <p>SECURITE SOCIALE. - Il est décidé de demander une audience à M. le Directeur de la
+              Sécurité Sociale en vue de connaître la suite donnée à la demande formulée par le
+              Comité et tendant à l'obtention du bénéfice des prestations en nature en cas de
+              maladie atteignant des grands invalides non salariés (maladies non couvertes par
+              l'article 64 de la loi du 31 mars 1919).</p>
+            <p>IMPOT FONCIER. - Une lettre sera adressée à M. le Directeur des Contributions
+              Directes pour qu'il rappelle à MM. les Controleurs que les grands invalides, non
+              imposables à l'impôt sur le revenu peuvent obtenir l'exonération de l'impôt foncier et
+              de la taxe mobilière.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">AUDIENCE DE MONSIEUR LE MINISTRE
+              DES ANCIENS COMBATTANTS</head>
+            <p>Le Comité d'Entente a été reçu par M. Mittérand, Ministre des Anciens Combattants, le
+              vendredi 10 'octobre, à 17 h .30 .</p>
+            <p>Etaient présents: Amblard, Bouré, Delporte, Gauriault, Nouveau, Régnier,
+              Thibault.</p>
+            <p>Le Comité d'Entente tient à exposer la triste situation des grands mutilés de guerre
+              pour lesquels le dernier rajustement de leurs pensions ne correspond plus aux besoins
+              actuels de la vie.</p>
+            <p>Il regrette que le coefficient 8 qu'il réclamait n'ait pas été accordé. Amblard fait
+              remarquer qu'il faudrait au moins le coefficient 10 à l'heure actuelle. Le Ministre se
+              montre disposé à examiner d'ici la fin de l'année, le moyen d'apporter une aide
+              supplémentaire aux mutilés.</p>
+            <p>Rappelant les derniers articles de presse parus au sujet des pensions, Amblard
+              déplore qu'un contact amical ne s'établisse entre le Ministre et le Comité
+              d'Entente.</p>
+            <p>Nouveau 'et Régnier font part à M. Mittérand du désir du Comité de voir rattacher les
+              pensions aux traitements des fonctionnaires des administrations centrales, ce qui
+              éviterait les pénibles démarches qui ont dû être effectuées pour le rajustement
+              dernier.</p>
+            <p>L'entretien fut cordial, et il est décidé qu'un communiqué sera publié dans la Presse
+              pour le sanctionner.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">CODE DE LA FAMILLE</head>
+            <p>Le Code de la Famille tant attendu est enfin applicable aux grands mutilés, non
+              salariés, comme annoncé précédemment.</p>
+            <p>Une nombreuse correspondance nous est parvenue à ce sujet, et nous rappe.ons à ce
+              propos à nos camarades qu'ils doivent demander avant tout les renseignements à leur
+              agent payeur, c'est-à-dire à leur Percepleur ou Trésorerie Générale pour les camarades
+              de province, et à la Palerie Générale de Paris, 18, rue Notre-Dame-des-Victoires, pour
+              ceux qui sont payés par cet organisme.</p>
+            <p>A dater du ler juillet 1946, le Code de la Famille étant appliqué intégralement, nos
+              camarades peuvent réclamer, à partir de cette date, les allocations prénatales, et
+              primes à la première naissance, et ensuite, s'ils ont au moins deux enfants, les
+              allocations familiaies pour tous les enfants à leur charge.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">PENSION DE RETRAITE DES
+              OFFICIERS</head>
+            <p>Le décret du 24 juillet 1947 relève provisoirement les pensions de retraite et
+              proportionnelles des articles 59 et 60 de la loi du 31 mars 1919, avec rappel du 1er
+              janvier 1947, en attendant la péréquation des pensions qui n'est pas encore
+              intervenue.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">EXONERATION DE LA COTE MOBILIERE
+              ET IMPOT FONCIER</head>
+            <p>Nous avons publié dans notre bulletin de décembre 1946 les textes de loi accordant
+              une exonération en matière d'impôts foncier et mobilier, pour les "économiquement
+              faibles".</p>
+            <p>Ces exonérations sont applicables aux non salariés, en vertu de la loi no 46-1.990 du
+              13 septembre 1946 (J.O. du 14 septembre 1946). Il importe de ne pas être soumis à
+              l'impôt sur le revenu, et de ne pas abriter sous son toit des personnes ne faisant pas
+              partie de la famille.</p>
+            <p>La demande d'exonération est à adresser au Contrôleur des Contributions qui,
+              généralement, donne satisfaction. En cas de contestation, présenter une réclamation au
+              Directeur des Contributions Directes du département.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">CALENDRIERS</head>
+            <p>Afln de procurer des ressources bien nécessaires en ce moment à notre Association,
+              nous avons édité, d'accord avec un imprimeur, un calendrier qui est vendu à notre
+              proft.</p>
+            <p>Nous prévenons nos camarades, au cas où des renseignements leur seraient demandés,
+              afin qu'ils puissent affirmer que cette édition doit nous rapporter un pourcentage
+              intéressant.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">DISTINCTIONS HONORIFIQUES</head>
+            <p>Notre camarade Evrat nous prie de faire connaitre aux lecteurs du bulletin qu'il
+              vient d'être nommé Commandeur de la Légion d'Honneur, par décret du 28 juillet, pour
+              faits de résistance. Il a eu également la Croix de Guerre avec palmes et la Médaille
+              de la Résistance (décret du 31 mars 1947).</p>
+            <p>Par ailleurs, Madame Evrat a obtenu la Médaille de la Hésistance avec rosette.</p>
+            <p>Sont promus au grade d'Officier dans l'Ordre de la Légion d'Honneur nos camarades
+              ci-après: <list>
+                <item>Pierre Marie Boezennec;</item>
+                <item>Emile Charles Grimm;</item>
+                <item>Jean-Marie Raffat. (Journal Officiel du 14 octobre 1947.) </item>
+              </list></p>
+            <p>Nous relevons dans le Journal Officiel du 8 octobre 1947 les nominations au grade de
+              Chevalier de la Légion d'Honneur de nos jeunes camarades dont les noms suivent:<list>
+                <item>Joseph Pérez;</item>
+                <item>Roland François Willay;</item>
+                <item>Georges Ghighi.</item>
+              </list></p>
+            <p>Nos félicitations aux nouveaux promus. Nous avons appris avec plaisir la nomination
+              au grade d'Officier de la Légion d'Honneur de notre ami Clémente, qui fut Commandeur
+              de l'American Legion à Paris et qui vint nous rendre visite souvent dans notre maison,
+              où il nous témoigna une véritable amitié.</p>
+            <p>Nous le félicitons vivement pour cette promotion.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">AVIS IMPORTANT</head>
+            <p>Malgré nos nombreuses demandes, nous constatons que certains de nos camarades
+              oublient encore de nous indiquer au dos des mandats qu'ils nous expédient la nature de
+              leur paiement. Nous les prions instamment de bien vouloir prendre note de spécifier à
+              chaque paiement l'affectation de celui-ci pour faciliter notre comptabilité, éviter
+              des erreurs et frais de correspondance.</p>
+            <p>Nous rappelons également que la cotisation est de: Frs. 50.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">LEGION D'HONNEUR ET MEDAILLES
+              MILITAIRES</head>
+            <p>Les traitements de ces décorations ont été relevés comme suit, à dater du ler juillet
+              1947: <list>
+                <item>Médaille Militaire ...................... 500 F.</item>
+                <item>Légion d'Honneur: <list>
+                    <item>Chevalier ............................. 750 F.</item>
+                    <item>Officier ............................... 1.500 F.</item>
+                    <item>Commandeur ......................... 3.000 F.</item>
+                    <item>Grand Officier ........................ 6.000 F.</item>
+                    <item>Grand'Croix .......................... 9.000 F.</item>
+                  </list></item>
+              </list></p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">NAISSANCES</head>
+            <p>La fille Josiane de notre camarade René Ferraris (39-45), de Nice (AlpesMaritimes),
+              le 15 septembre 1947.</p>
+            <p>La petite-fille Anne-Marie de notre camarade Charles Mattéi, de Bourg-laReine
+              (Seine), le 21 août 1947.</p>
+            <p>La petite-fille Christine de notre camarade Louis Desgrippes, de Marly-le-Roi
+              (Seine-et-Oise), le 27 septembre 1947.</p>
+            <p>La petite-fille Madeleine de notre camarade Antonin Bon, de Saint-Gênis-sur-Menthon
+              (Ain), le 21 juin 1947.</p>
+            <p>Le petit-fils Jean-Claude de notre camarade Louis Reinaud, de Braux (Côte d'Or), le
+              20 septembre 1947.</p>
+            <p>Nous adressons nos félicitations aux heureux parents.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">MARIAGES</head>
+            <p>Geneviève de Chatillon, fille de notre camarade H. de Chatillon, de Paris, avec M.
+              André Vimont, le 4 octobre 1947.</p>
+            <p>Hélène Girault, fille de notre camarade Edmond Girault, de Fonfreroux (Deux-Sèvres),
+              avec M. Hubert Larchier, le 2 octobre 1947.</p>
+            <p>Raymonde Savigny, fille de notre camarade Henri Savigny, de Droué (Loiret-Cher), avec
+              M. Paul Hameau, le 11 octobre 1947.</p>
+            <p>Pierre Martin, fils de notre camarade Jean Martin. de Saint-Etienne (Loire), avec
+              Mlle Vitto Ricotti, le 2 octobre 1947.</p>
+            <p>Julienne Vion, fille de notre camarade Claude Vion, de Saint-Martin-en-Bresse
+              (Saône-et-Loire), avec M. G. Chapusot, le 20 septembre 1947.</p>
+            <p>Nous adressons nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">DECES</head>
+            <p>Antoine Mege, de Tortebesse (Puy-de-Dôme), le 9 septembre 1947. Fernand Lenoir, de
+              Paris, le 24 septembre 1947. Marie-Léon Marguet, de Besançon (Doubs), le 27 septembre
+              1947. Léon George, de Nice (Alpes-Maritimes), le 30 septembre 1947. Edouard Hesnard,
+              Le Neubourg (Eure), le 4 octobre 1947. Paul Eugène, de La Bussière-Anost
+              (Saône-et-Loire), le 3 octobre 1947. Victor Chanial, de Langogne (Lozère), octobre
+              1947. Nous adressons aux familles éprouvées nos plus vives condoléances.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">SECTION DEPARTEMENTALE DU
+                FINISTERE REUNION DU 10 JUILLET 1947</head>
+              <p>La séance est ouverte, à 10 h .45 , sous la présidence de Guespereau, VicePrésident
+                de l'U.A.G.</p>
+              <p>Sont présents: Argouach, Bel'ec, Bernier, Bodénès, Bénéat, Bourlès, Castrec, Coat,
+                Doaré, Espiard, Fauvel, Grignon, Kerangall, Kerneis, Kerrien, Labat, Le Borgne
+                Laurent, Le Cocq, Le Lann, Quéffurust, Quéré, Riou, Sibiril, Beaugé.</p>
+              <p>Excuses: Bescond, Daniellou, Durand, Férec, Férézou, Gohiec, Gourion, Guil'ou,
+                Guillerm, Jung, Le Bis, Le Borgne J.-M., Le Géau, Le Méné, Le Pochat, Le Roux,
+                Masson, Moullec, Nicolas, Poirier, Quinquis, Stéphan, Thépault, Le Gall, Fiche.</p>
+              <p>Kaigre, Trésorier de la section départementale est également présent. Fauvel
+                souhaite la bienvenue aux camarades et les félicite d'être venus aussi nombreux.</p>
+              <p>Un souvenir ému est adressé à la mémoire du camarade Labbé de Melgven, dont
+                l'inhumation a eu lieu à Rosporden, le 5 mai. Fauvel et Fiche représentaient l'Union
+                des Aveugles de Guerre.</p>
+              <p>Guespereau salue les camarades au nom du Bureau et du Conseil d'Administration de
+                l'U.A.G., au milieu de l'attention générale, il indique tous les efforts accomplis
+                pour améliorer le sort des aveugles de guerre et marque sa satisfaction de se
+                trouver parmi les camarades du Finistère dont la départementale a toujours été si
+                vivante.</p>
+              <p>Fauvel remercie Guespereau qui est vivement applaudi par les assistants. Fauvel
+                indique les efforts accomplis par la départementale pour améliorer le bien-être de
+                ses membres; il est décidé que la Section fera tout son possib'e pour marquer aux
+                veuves de nos camarades la solidarité du groupement.</p>
+              <p>Kaigre donne la situation financière de la départemintale qui est très
+                satisfaisante.</p>
+              <p>Le Bureau est élu à mains levées, il est ainsi composé:</p>
+              <list>
+                <item>Président: Albert Fauvel;</item>
+                <item>Vice-Président:-Pierre Sibiril;</item>
+                <item>Secrétaire: Pierre Bescond;</item>
+                <item>Trésorier voyant: Kaigre;</item>
+                <item>Membres: Le Cocq, Kernèls, Labat, Fiche.</item>
+              </list>
+              <p>Sont désignés comme délégués de l'U.F.A.G.: Fauvel et Bescond. Délégué à la
+                Commission de Contrôle des effectifs de l'U.F.A.G.: Le Méné.</p>
+              <p>Des vœux furent adoptés pour la revalorisation des pensions, la reconstruction des
+                immeubles sinistrés, et les moyens de transports.</p>
+              <p>A midi trente, un déjeuner en commun réunit tous les assistants. Il fut très bien
+                servi "Aux Pigeons Blancs» et se termina, comme il se doit, par une spirituelle
+                allocution de Guespereau, un toast de Fauvel et les chansons de nos camarades, vieux
+                et jeunes.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">PETITES ANNONCES</head>
+            <p>Notre Camarade René Harrivelle, à La Gouesnière (Ille-et-Vilaine), serait désireux de
+              trouver une chambre à Paris pour son fils qui fait ses études de médecine. S'adresser
+              à lui directement pour toutes propositions.</p>
+            <p>Madame Tremont, au Vieux-Migennes, Migennes (Yonne), prendrait en pension un aveugle
+              de guerre. Bon ravitaillement.</p>
+            <p>Cherche à acheter une machine à tricoter "Dubied» de 70 cm ., jauge 32 ( 7 ou 8),
+              ainsi qu'une bobineuse. Ecrire au camarade J.-M.-G. Tabart, Le CapFerret
+              (Gironde).</p>
+            <p>Serais acheteur d'une guillotine pour brossier, occasion ou neuve. Faire offres à
+              Georges Lefebvre, 27, rue des Chenaux, Sceaux (Seine).</p>
+            <p>A VENDRE. - Bel accordéon à boutons (fabrication d'avant-guerre). Etat neuf,
+              chromatique, trois claviers, 31 notes, 16 basses, belle ébénisterie. S'adresser au
+              camarade R. Evette, 6. rue Surcouf Paris (7ème).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COTISATIONS</head>
+            <p>HUMEZ, RAYBAUT, LOHEZ, BERIGAUD, MOULIN Emile, NICOLAI J., BOIS, RAYNAL, CALLET,
+              LONNI, LE FLOCH, MONCEAUX, CASSAR, DONCHET, GALBOURDIN, JUNG, GARY, MAZE, GABLE, LE
+              GLEAU, LIENART, SEMIN.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">COTISATIONS VOLONTAIRES
+                1947</head>
+              <p>Nous rappelons à nos camarades qu'il n'est pas envoyé de quiltence pour les
+                cotisations, les noms des cotisants étant publié au Bulletin au fur et à mesure des
+                versements. <list>
+                  <item>LOHEZ ..... 50</item>
+                  <item>HAYBAUT ..... 100</item>
+                  <item>HAYNAL ..... 50</item>
+                  <item>CALLET ..... 50</item>
+                  <item>LONNI ..... 50</item>
+                  <item>CHAMEYRAT ..... 100</item>
+                  <item>VIVIN ..... 100</item>
+                  <item>GALBOURDIN ..... 50</item>
+                  <item>BOUCHAMA ..... 50</item>
+                  <item>GABLE ..... 25</item>
+                  <item>LE GLEAU ..... 60</item>
+                  <item>HERENG ..... 100</item>
+                  <item>LIENAHT ..... 50</item>
+                  <item>SEMIN ..... 50</item>
+                </list></p>
+              <p>Nous adressons nos sincères remerciements à nos camarades qui ont tenu à effectuer
+                un nouveau versement.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">COTISATIONS VOLONTAIRES POUR
+                BIBLIOTHEQUE ET DISCOTHEQUE</head>
+              <p><list>
+                  <item>LOHEZ ..... 150</item>
+                  <item>CHALENDAR ..... 400</item>
+                  <item>AUTHIE ..... 100</item>
+                  <item>BAUMES ..... 150</item>
+                </list> Merci à ces camarades.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">SOUSCRIPTION POUR LE TOMBEAU DU
+              GENERAL GOURAUD</head>
+            <list>
+              <item>Total des sommes précédemment reçues ..... 11.050</item>
+              <item>OLIVIER ..... 100</item>
+              <item>BLANC ..... 50</item>
+              <item>11.200</item>
+            </list>
+            <pb n="15"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Comité dAction</head>
+            <p>Présidents : MM. Jérôme et Jean THARAUD, de l'Académie Française. Vice-Président :
+                M<hi rend="superscript">e</hi> MASSON. Vice-Présidentes : Mme CONTAMIN. Mme du BOS.
+              Vice-Présidente Honoraire : Mlle ARBEL. Trésorier Honoraire : M. MAYER. Membres : M.
+              AGASSE, M. AUTERBE, M<hi rend="superscript">e</hi> BRULLIARD, M. de CHAUMONT-QUITRY,
+              M. COLLIER, M. le Docteur COUTELA. Mlle JALAGUIER.</p>
+            <pb n="16"/>
+          </div>
+        </div>
+        <fw>Le Gerant: L'EVESQUE. Imp. Frébinet, Paris.</fw>
+      </div>
+    </body>
+  </text>
+</TEI>

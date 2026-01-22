@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 16ème année 1934, n°10</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Handicap visuel</title>
+        <title type="topic">Statut des invalides</title>
+        <title type="topic">Association</title>
+        <title type="topic">Guerre 1914-1918</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de Guerre</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#statut">Statut</term>
+          <term ref="#maison">Maison</term>
+          <term ref="#louis-barthou">Louis Barthou</term>
+          <term ref="#roi-alexandre">Roi Alexandre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de plusieurs sujets
+          importants pour ses membres. Une grande partie est consacrée à la question du statut des
+          grands invalides, avec des discussions sur les commissions et les projets en cours. Le
+          bulletin informe également sur l'avancement de la construction de leur Maison à Paris. Un
+          hommage est rendu à Louis Barthou, ami de l'Union, et au Roi Alexandre de Yougoslavie,
+          tous deux assassinés. Des informations pratiques sont fournies, comme les dates des
+          réunions de la Familiale des Soldats Aveugles, la visite du Président des Aveugles de
+          Guerre Polonais, et des nouvelles de la Caisse Fraternelle. Enfin, le bulletin inclut des
+          rubriques nécrologiques, des annonces diverses et la composition du Conseil
+          d'Administration et du Comité d'Action.</p>
+      </abstract>
+      <creation>
+        <date when="1934-10-01">01/10/1934</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-17" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h6">LE STATUT DES GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTRE MAISON</ref>
+          </item>
+          <item>
+            <ref target="#h8">LE ROI ALEXANDRE DE YOUGOSLAVIE</ref>
+          </item>
+          <item>
+            <ref target="#h9">LOUIS BARTHOU</ref>
+          </item>
+          <item>
+            <ref target="#h10">COMMISSION DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h11">"La Familiale des Soldats Aveugles»</ref>
+          </item>
+          <item>
+            <ref target="#h12">Visite du Président des Aveugles de Guerre Polonais</ref>
+          </item>
+          <item>
+            <ref target="#h13">NÉCROLOGIE</ref>
+          </item>
+          <item>
+            <ref target="#h14">Chronique de l'U.A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h15">Caisse Fraternelle</ref>
+              </item>
+              <item>
+                <ref target="#h16">ENTRE-NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h17">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h19">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h20">PROCÈS-VERBAL de la Réunion du Conseil d'Administration du 30
+                  Juin 1934</ref>
+              </item>
+              <item>
+                <ref target="#h21">AVIS DIVERS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h22">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h23">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h24">COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">16e Année. — N° 10</fw>
+          <fw type="header">
+            <hi rend="underline">Octobre 1934</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le Statut des Grands Invalides.</item>
+                    <item>Notre Maison.</item>
+                    <item>Le Roi Alexandre de Yougoslavie.</item>
+                    <item>Louis Barthou.</item>
+                    <item>Réunion de la Commission des Pensions.</item>
+                    <item>La Familiale des Soldats Aveugles.</item>
+                    <item>Visite du Président des Aveugles de Guerre Polonais.</item>
+                    <item>Nécrologie.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'Administration du 30 juin
+                      1934.</item>
+                    <item>Avis divers.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert Lebrun, Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITÉ DE PATRONAGE</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire. \dagger M. Barthou,
+              de l'Académie Française, ancien Président du Conseil. M. le colonel Fabry, député,
+              ancien ministre; \dagger M. le général Balfournier; M. Brisac, préfet; M. J. Ridgely
+              Carter; M. Paul de Cassagnac, ancien député; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien ministre;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krua; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. Samuel Milbane; M. le docteur Morax; M. Meyer,
+              conseiller d'Etat; M. Henry Paté, député; M. Pierre Rameil, député;</p>
+            <p>Me Henri-Robert, de l'Académie française, ancien bâtonnier de l'Ordre des Avocats; M.
+              le général Sainte-Claire-Deville; \dagger M. Vallery-Radot; M. le professeur Walther,
+              membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LE STATUT DES GRANDS
+              INVALIDES</head>
+            <p>Nos camarades comprendront, et doivent s'y attendre d'ailleurs, que nous donnions en
+              ce moment la première place dans nos bulletins à la question du statut des grands
+              invalides.</p>
+            <p>Il nous aurait été agréable de donner cette fois-ci de longs commentaires sur le
+              projet, car nous pensions que dès la rentrée de septembre nos Commissions se
+              mettraient au travail pour avancer cette tâche qui, il faut le dire, est délicate et
+              quelquefois même compliquée.</p>
+            <p>La Sous-Commission, qui avait été nommée au sein même de la grande Commission, ne
+              s'est réunie que le lundi 1<hi rend="superscript">er</hi> octobre et c'est pourquoi,
+              ne nous étant remis véritablement au travail qu'à cette date, il nous est impossible
+              de donner des renseignements précis, d'abord par souci de déférence envers ceux qui
+              travaillent avec nous et ensuite parce qu'il faut attendre les avis définitifs de la
+              Commission au complet pour pouvoir en tirer d'utiles déductions.</p>
+            <p>Nous nous sommes cependant réunis entre mutilés, délégués de la Commission, et avons
+              pu nous mettre d'accord sur certains points que nous soutiendrons énergiquement. Il
+              nous a fallu reconnaître, d'autre part, que certains chapitres du statut, tel celui
+              des ayants-droit, rencontreraient de telles difficultés d'application qu'il sera sans
+              doute préférable d'en faire un second projet, réservant uniquement le premier au
+              bénéfice direct des camarades. Il ne faut pas oublier que maintenant le temps presse
+              et que, sachant ce que nous voulons, nous voudrions voir nos désirs être réalisés le
+              plus tôt possible. Peut-être pour simplifier, serons-nous obligés de ne pas poursuivre
+              certaines réformes prévues par le projet confédéral qui auraient échangé la manière de
+                <pb n="4"/>
+              <note type="foliation">— 2 —</note> calculer le taux de nos pensions. Nous devrons
+              peut-être recourir à une forme plus simple, mais ce qui nous importe avant tout est de
+              voir apporter aux grands mutilés de la guerre l'aide supplémentaire promise par M. le
+              Président du Conseil.</p>
+            <p>Nous pensons qu'à l'heure où les plus jeunes d'entre nous voient approcher cette
+              quarantaine, que beaucoup ont déjà dépassée, le moment est venu d'assurer aux grands
+              mutilés une existence à l'abri des soucis matériels. Nous avons, pour notre part,
+              montré une patience dont, nous l'espérons, il nous sera tenu compte et nous sommes
+              heureux qu'on veuille bien maintenant reconnaître la nécessité d'améliorer notre
+              situation.</p>
+            <p>Le Conseil d'administration de l'U.A.G., ayant examiné attentivement la question, a
+              fait confiance à ses délégués qui sentent tout le prix de l'honneur qui leur est fait
+              et aussi le poids de la tâche qui leur incombe. Ils feront, comme il leur a été
+              indiqué, tout ce qui dépendra d'eux pour que le résultat final soit conforme au désir
+              de leurs camarades. H. Amblard.</p>
+            <p>Nous n'avons pas encore publié la composition de la Commission chargée de préparer le
+              projet de statut des grands invalides. Elle a été ainsi désignée par décret en date du
+              4 juillet dernier :</p>
+            <p>Président :</p>
+            <p>M. Charles Valentino, conseiller d'Etat, directeur du Contentieux et des Services
+              médicaux.</p>
+            <p>Membres : MM. Thoumyre, sénateur, ancien ministre; Miellet, député, ancien ministre;
+              Dormann, député, ancien ministre; Salette, député; le docteur Balthazard, professeur à
+              la Faculté de Médecine de Paris, membre de l'Académie de Médecine;</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>le docteur Claude, professeur à la Faculté de Médecine de Paris, membre de l'Académie
+              de Médecine; le docteur Rathery, professeur à la Faculté de Médecine de Paris, membre
+              de l'Académie de Médecine; le docteur Proust, professeur à la Faculté de Médecine de
+              Paris, chirurgien des hôpitaux; le docteur Lemaitre, professeur à la Faculté de
+              Médecine de Paris, oto-rhino-laryngologiste des hôpitaux; le docteur Coutela,
+              ophtalmologiste des hôpitaux; le docteur Pilod, médecin lieutenant-colonel, professeur
+              au Val-de-Grâce; Amblard, Gauriault, Girard, Jourdan, Penquer, Pérès, Régnier, mutilés
+              de guerre; le Président de la Commision consultative médicale; le Chef des Services
+              médicaux au Ministère des Pensions; le Médecin chargé du Service des expertises
+              médicales au Ministère des Pensions; Un représentant du Ministère des Finances.
+              Suppléants : MM. Barat, Favret, Nouveau.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTRE MAISON</head>
+            <p>Pendant quelque temps, nous nous habituerons à trouver, en tête de nos chroniques,
+              deux titres concernant les questions qui sont actuellement à l'ordre du jour. Ils ne
+              seront pas variés : 1 " Statut des grands invalides, 2" notre Maison, mais
+              apporteront, nous l'espérons, des nouvelles qui intéresseront nos camarades.</p>
+            <p>Si cette question de la Maison qui nous passionna tous est fatalement reléguée au
+              second plan de nos préoccupations, par suite de l'intérêt que revêt l'étude du Statut,
+              elle n'en a pas moins conservé toute <pb n="6"/>
+              <note type="foliation">— 4 —</note> son importance et son caractère de grande utilité.
+              Nous avons dit que les démolisseurs avaient rasé le vieil immeuble de la rue Blanche,
+              laissant la place aux entrepreneurs qui commencent à couler leur béton armé, tout en
+              se servant des anciennes fondations, et l'on peut dire que les Aveugles de Guerre
+              combattent, eux aussi, le chômage en créant un important chantier dans le centre de
+              Paris.</p>
+            <p>Vers le 20 octobre, nous a-t-on dit, les assises remises à neuf commenceront à
+              émerger du sol et, progressivement, notre Maison s'élèvera aussi rapidement que le
+              temps le permettra. Espérons que des gelées précoces ne viendront pas retarder la
+              construction, afin qu'au début de 1935 puisse se faire l'aménagement intérieur. La
+              Commission de la Maison a, dans une troisième séance, terminé d'examiner les
+              soumissions faites par les entrepreneurs et a adjugé le reste des lots de travaux à
+              exécuter. Ce sera un plaisir pour nous d'en suivre les progrès qui nous seront
+              indiqués par nos guides. Nous en ferons part à nos camarades qui, de cette façon,
+              sauront à quel point en est la construction de notre Maison. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LE ROI ALEXANDRE DE
+              YOUGOSLAVIE</head>
+            <p>Notre pays vient d'être plongé dans une grande tristesse en apprenant l'assassinat du
+              Roi Alexandre de Yougoslavie et de M. Louis Barthou, notre Ministre des Affaires
+              Etrangères.</p>
+            <p>Nous voudrions marquer l'indignation qui nous a soulevés et qui a soulevé tous les
+              Français en retardant l'impression de ce bulletin pour mentionner ici la grande part
+              que nous prenons au tragique événement. Le Roi Alexandre avait été un combattant de la
+              grande guerre au cours de laquelle il avait montré un courage et une fidélité envers
+              notre pays, qualités que nous pouvons particulièrement apprécier.</p>
+            <p>Nous adressons à nos camarades anciens combattants yougoslaves l'expression de nos
+              sentiments attristés.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LOUIS BARTHOU</head>
+            <p>Louis Barthou, notre Ministre des Affaires Etrangères est, comme nous le savons tous,
+              tombé aux côtés du Roi Alexandre.</p>
+            <p>Si nous n'avons pas à considérer en lui l'homme politique, nous ne pouvons oublier
+              que Louis Barthou, dès la première heure, s'est occupé des Aveugles de Guerre en
+              collaborant avec Brieux au Permanent Blind.</p>
+            <p>Il y a peu de temps encore, sans aucune sollicitation de notre part, car la chose
+              n'était qu'entre Aveugles de Guerre, il nous adressait sa souscription pour le buste
+              de Brieux, nous montrant par là qu'il s'intéressait toujours à notre action.</p>
+            <p>Voici, du reste, quelques lignes que notre camarade Izaac, qui l'a bien connu aux
+              débuts de l'Union, nous adresse à ce sujet : "En apprenant l'attentat de Marseille,
+              tous les hommes d'honneur ont ressenti une vive indignation, et un sursaut de colère a
+              secoué tous les Français, respectueux des lois de l'hospitalité, une des premières et
+              des plus vieilles conquêtes de là civilisation sur la barbarie. Notre hôte de quelques
+              minutes était non seulement un ami de la France, mais un ancien combattant
+              authentique, défenseur opiniâtre de la Serbie aux heures tragiques que nous avons
+              vécues, et c'est pourquoi nous sommes plus que tous autres douloureusement émus par le
+              crime qui a privé la nation yougoslave de son roi Alexandre I { }^{<hi
+                rend="superscript">er</hi>}.</p>
+            <p>Près de lui, parmi les victimes françaises que nous avons à déplorer, se trouve Louis
+              Barthou, dont la perte nous est particulièrement cruelle car il fut un ami des
+              Aveugles de Guerre.</p>
+            <p>Bien que la presse ait publié de nombreux et très divers articles sur sa carrière
+              politique et sur son œuvre littéraire, et tout en nous gardant ici de juger l'une ou
+              l'autre, notre bulletin doit enregistrer les faits les plus saillants de la vie de
+              notre ami disparu.</p>
+            <p>Né à Oloron en 1862 d'une famille unanimement respectée, brillant élève du lycée de
+              Pau, Louis Barthou fit de sérieuses études de droit, et fut élu député dès l'âge de 27
+              ans. Républicain au sens qu'on donnait à ce mot vers 1889 , ses amis et ses
+              adversaires sont</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>d'accord pour reconnaître qu'il ne varia jamais dans ses opinions politiques. A noter
+              aussi qu'il fut toujours réélu dans la même circonscription, tant comme député que
+              comme sénateur.</p>
+            <p>Plusieurs fois ministre, et pour la première fois dès l'âge de 32 ans, il fut aussi
+              plusieurs fois Président du Conseil, notamment en 1913, au moment où les budgets
+              allemands de la Guerre et de la Marine prenant des proportions inquiétantes, il
+              demanda et obtint du Parlement français le vote de la loi de trois ans.</p>
+            <p>Sénateur après la guerre, il fut Président de la Commission des Réparations. Enfin au
+              lendemain du 6 février, M. Doumergue lui confia le portefeuille du ministère des
+              Affaires étrangères où la mort devait le frapper à son poste, le 9 octobre 1934.</p>
+            <p>Son activité politique s'alliait à une activité littéraire et artistique intense.
+              Bibliophile, collectionneur avisé, écrivain et historien, ses principaux ouvrages sont
+              : Mirabeau, Danton, Lamartine orateur, Les Amours d'un Poète. Il publiait des articles
+              aux Annales où son talent de conférencier et de causeur rassemblait des auditoires
+              nombreux et choisis. Il appartenait à l'Académie Française depuis 1918.</p>
+            <p>Il était depuis longtemps l'ami de Brieux, et lorsque celui-ci, après s'être penché
+              sur nos blessures, résolut de soulager, dans la mesure du possible, nos souffrances
+              physiques et morales, il trouva en Louis Barthou un appui spontané, auquel, depuis
+              lors, on ne fit jamais appel en vain. Il eut entre autres, une influence heureuse pour
+              nous aux Annales. Il intervint fort utilement au cours de pourparlers quelquefois
+              difficiles entre Brieux et les représentants du "Permanent Blind». Nos camarades de
+              l'Ecole de Neuilly se souviennent de quelques-unes de ses visites où, avec Brieux et
+              M. Justin Godard, il s'asseyait familièrement à notre table. Il encouragea la
+              formation de notre groupement et, ayant pleine confiance en nous, il inscrivit son nom
+              en tête de notre Comité de patronage. Les dirigeants de l'U.A.G. trouvèrent en lui un
+              appui sûr au Parlement, dans les premières et difficiles démarches qu'il leur fallut
+              faire à partir de 1920. Il approuva l'initiative du colonel Fabry relative à nos
+              pensions, et nous aida plus tard, avec M. Maurice Donnay, à convaincre le ministre des
+              Finances de la nécessité d'améliorer notre situation. Depuis lors, nous avons eu
+              souvent la preuve qu'il se tenait parfaitement au courant de la vie de notre
+              Union.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Les Aveugles de Guerre resteront reconnaissants à Louis Barthou de ce qu'il a fait
+              pour eux. Il l'a fait très discrètement et, disons-le, très naturellement, car il ne
+              faut pas oublier qu'il avait perdu un fils à la guerre.</p>
+            <p>Dans ce respectueux hommage à notre ami, je n'ai pas voulu mettre une note
+              personnelle. Je me permets cependant d'ajouter quelques mots qui expliqueront son
+              caractère à ceux qui n'ont pas eu l'occasion de l'approcher. Alors qu'il n'avait pas
+              dix ans, son esprit et son imagination d'enfant avaient été frappés par la grande
+              figure de Gambetta, qui, s'échappant en ballon de Paris investi, avait, énergique et
+              farouche, tenté l'impossible pour sauver la Patrie. Ces événements et ceux qui
+              suivirent laissèrent dans son âme une empreinte ineffaçable.</p>
+            <p>Ceux qui l'ont connu penseront comme moi, que Louis Barthou, Ministre des Affaires
+              Etrangères, ne pouvait souhaiter de plus belle mort que celle qui l'a frappé, puisque
+              à ses côtés, celui qui était notre hôte venait de tomber assassiné sur le sol de
+              France ». H. Izaac.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">COMMISSION DES PENSIONS</head>
+            <p>A l'issue du Conseil d'administration du 29 septembre, les administrateurs se sont
+              réunis en Commission des Pensions pour examiner la question du statut des grands
+              invalides.</p>
+            <p>Etaient présents : Scapini, Favret, Leveau, Noireaux, Amblard, L'Evesque, Bardoux,
+              Bertrand, Bois, Brusson, Céré-Labourdette, Conan, Courteix, Evrat, Fauvel, Guillam,
+              Laffargue, Lauté, Muller, Satgé.</p>
+            <p>Avaient écrit : Cabasson, Derunder, Lagarde, Robert (M.). S'étaient excusés :
+              Grillet, Izaac, Nicolaï, Malgat.</p>
+            <p>Le Secrétaire général fait un exposé de l'état à ce jour des travaux de la Commission
+              et de la Sous-Commission instituée au ministère pour l'élaboration du statut. Le
+              Président donne également quelques informations. Tous les administrateurs examinent
+              avec grande <pb n="10"/>
+              <note type="foliation">— 8 —</note> attention la question, et il est entendu que
+              devant certaines propositions restrictives de l'Administration, nous devrons faire
+              étendre le plus possible le bénéfice de ce statut et chercher le moyen de faire
+              obtenir, par les voies qui nous paraîtront les plus efficaces et aussi les plus
+              rapides, l'amélioration maximum qu'on estimera pouvoir atteindre.</p>
+            <p>Les administrateurs ne veulent pas lier leurs délégués par un vote quelconque et leur
+              donnent un large mandat de discussion au sein de la Commission afin qu'ils soutiennent
+              au mieux les intérêts de l'U. A. G.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">"La Familiale des Soldats
+              Aveugles»</head>
+            <p>Le Conseil d'administration de la "Familiale des Soldats Aveugles " informe les
+              camarades que les réunions de la saison 1934-1935 auront lieu aux dates ci-après dans
+              la Salle du Cercle Commercial Suisse, 10, rue des Messageries.</p>
+            <p>En 1934 : Les' dimanches 4 novembre et 9 décembre. En 1935 : Les dimanches 13
+              janvier, 10 février, 10 mars, 14 avril et 12 mai.</p>
+            <p>Les réunions auront lieu comme habituellement de 14 h .30 à 18 h .30 et comprendront
+              concert, goûter et sauterie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Visite du Président des Aveugles
+              de Guerre Polonais</head>
+            <p>Le lundi 1<hi rend="superscript">er</hi> octobre dernier, nous avons eu le plaisir
+              d'avoir la visite de notre camarade Wagner, Président des Aveugles de Guerre de
+              Pologne et député à la Chambre polonaise. Il nous a été agréable de nous entretenir
+              des questions concernant les Aveugles de Guerre de nos deux pays dont les Associations
+              sont en amicales relations.</p>
+            <p>Notre camarade Wagner nous prie d'adresser aux Aveugles de Guerre français ses
+              sentiments de camaraderie, ce que nous faisons en l'assurant de notre cordiale
+              amitié.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">NÉCROLOGIE</head>
+            <p>Nous avons appris le décès de Mme Jamet, femme du colonel Jamet, directeur de la
+              Société "Les Amis des Soldats Aveugles ". Nos camarades qui trouvent toujours auprès
+              du colonel Jamet le plus bienveillant accueil l'assurent de leur vive sympathie.</p>
+            <p>Les obsèques ont été célébrées le mardi 9 octobre en l'église NotreDame d'Auteuil, où
+              de nombreux Aveugles de Guerre étaient venus présenter leurs condoléances au colonel
+              Jamet.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">Chronique de l'U.A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Caisse Fraternelle</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 30 septembre 1934, une somme de 50.966 francs, se répartissant comme suit :</p>
+              <table>
+                <row>
+                  <cell>Allocations naissances</cell>
+                  <cell>900</cell>
+                  <cell>"</cell>
+                </row>
+                <row>
+                  <cell>Allocations décès et palmes.</cell>
+                  <cell>42.954</cell>
+                  <cell>"</cell>
+                </row>
+                <row>
+                  <cell>Allocations caisse-maladie</cell>
+                  <cell>7.112</cell>
+                  <cell>"</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 50.966 francs une somme de 24.200 francs pour prêts
+                maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 17 demandes dont 2 n'ont donné
+                lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">ENTRE-NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Naissances</head>
+                <p>Notre camarade et Mme Chagniaud, de Randan (Puy-de-Dôme), nous font part de la
+                  naissance de leur neuvième enfant, Marthe, née le 9 septembre 1934.</p>
+                <p>Notre camarade et Mme Salefranque, de Lees par Osse (BassesPyrénées), nous font
+                  part de la naissance de leur quatrième enfant, Marie-Thérèse, née le 27 août
+                  1934.</p>
+                <p>Notre camarade et Mme Magat, de Bordeaux (Gironde), nous font part de la
+                  naissance de leur petite fille, Germaine.</p>
+                <p>Notre camarade Le Floch (Félix), de Saint-Nicolas-du-Pélem (Cô-tes-du-Nord), nous
+                  font part de la naissance de leur fils Joseph, né le 16 août 1934.</p>
+                <p>Notre camarade et Mme Senoussi Belgacem, de Souk El Arba (Tunisie), nous font
+                  part de la naissance de leur fils Aziz, né le 20 septembre 1934.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Mariages</head>
+                <p>Notre camarade Albert Vidal, de Castres (Tarn), nous fait part du mariage de sa
+                  fille Marthe avec M. Etienne Miquel, célébré le 15 septembre 1934.</p>
+                <p>Notre camarade Jacques Cabrol, de Serignan (Hérault), nous fait part du mariage
+                  de sa fille Rose avec M. André Julien, célébré le 4 octobre 1934.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Décès</head>
+                <p>Nous apprenons le décès de : Notre camarade Marie (Emile), de Paris, décédé le 3
+                  septembre 1934, dans sa 47<hi rend="superscript">°</hi> année .</p>
+                <p>Né le 22 octobre 1887 à Saint-Germain-en-Laye (Seine-et-Oise), sergent au 364<hi
+                    rend="superscript">°</hi> régiment d'infanterie, blessé aux Eparges le 18
+                  octobre 1915, réformé à 190% pour cécité et amputation de la main gauche, Marie
+                  était officier de la Légion d'honneur et décoré de la Médaille Militaire et de la
+                  Croix de Guerre. Il laisse une veuve et un enfant.</p>
+                <p>Notre camarade Lévêque (Armand), de Beauvais-en-Paimpont (Ille-et-Vilaine),
+                  décédé le 17 septembre 1934, à l'âge de 51 ans.</p>
+                <p>Né le 3 mars 1883 à Paimpont (Ille-et-Vilaine), soldat au 102<hi
+                    rend="superscript">°</hi> régiment d'infanterie, notre camarade fut blessé le 26
+                  septembre 1914 à Marny (Marne). Réformé à 120% art. 10 et 12 pour cécité complète
+                  et trépanation. Levêque était chevalier de la Légion d'honneur et titulaire de la
+                  Croix de Guerre et de l. Médaille Militaire; il laisse une veuve et 5 enfants.</p>
+                <p>Notre camarade Houdry (Louis), d'Aubervilliers (Seine), décédé le 29 septembre
+                  1934, à l'âge de 43 ans.</p>
+                <p>Né le 26 juillet 1891, à La Courneuve, soldat au 29<hi rend="superscript">°</hi>
+                  d'artillerie, notre camarade fut blessé le 21 août 1916 à Asvillers (Somme).
+                  Réformé à 100% article 10 pour cécité, Houdry était chevalier de la Légion
+                  d'honneur et titulaire de la Médaille Militaire et de la Croix de Guerre. Il
+                  laisse une veuve.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+                <p>Du beau-père de notre camarade Le Viavant (Marc), de Vannes, décédé en septembre
+                  dernier à l'âge de 83 ans.</p>
+                <p>Du beau-père de notre camarade Moulin de Villers (Indre), décédé le 17 septembre
+                  à l'âge de 82 ans.</p>
+                <p>De la belle-mère de notre camarade Muller, de Neuilly (Seine), décédée le 21
+                  septembre 1934.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">PROCÈS-VERBAL de la Réunion
+                du Conseil d'Administration du 30 Juin 1934 </head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence de Scapini. Sont présents :
+                Scapini, Favret, Leveau, Noireaux, Amblard, L'Evesque, Bardoux, Bloncourt, Bois,
+                Brusson, Conan, Courteix, Evrat, Fauvel, Grillet, Guillam, Lagarde, Lauté, Malgat,
+                Roy (G.). M. de Traversay, Président du Comité d'Action, M. Bloch,
+                tré-sorier-adjoint, Mme du Bos, M. de Chaumont-Quitry, membres du Comité
+                d'Action.</p>
+              <p>Les camarades { }^{6} : Berthet, Briant, Hennebicq, Galis, Gouny, Nicolaï (P.),
+                Rousseau, Saillot.</p>
+              <p>Excusés : Bertrand, Cabasson. Céré-Labourdette, Derunder, Izaac, Muller, Nicolaï,
+                Robert (M.), Satgé.</p>
+              <p>Ont donné leurs pouvoirs : Au Président : Muller, Robert (M.). Au Secrétaire
+                général : Céré-Labourdette, Nicolaï, Satgé. A Favret : Cabasson. A Leveau :
+                Bertrand. A Noireaux : Derunder. N'a pas écrit : Laffargue. 1<hi rend="superscript"
+                  >°</hi> Après une légère modification demandée par Noireaux au <pb n="15"/>
+                <note type="foliation">— 13 —</note> sujet du choix des entrepreneurs pour la
+                construction de notre Maison, le procès-verbal de la séance du 2 juin 1934 est
+                adopté à l'unanimité.</p>
+              <p>2" La situation financière de mai 1934 est adoptée à l'unanimité. 3" Attitude de
+                l'U. A. G. au Conseil National de la Confédération.</p>
+              <p>Il est procédé à la lecture des lettres des administrateurs de province qui donnent
+                les avis suivants :</p>
+              <p>Bertrand, tout en faisant confiance au Gouvernement actuel, demande l'abstention
+                dans tout débat politique et fait confiance au délégué Amblard. - Derunder pense que
+                l'Union doit surveiller ses intérêts au sein de la Confédération, mais comme
+                Bertrand se réclame des statuts. - Céré-Labourdette est partisan de suivre l'U.F. et
+                l'U.N.C., si ces deux grandes Associations se mettent d'accord. Satgé fait confiance
+                à Amblard, le délégué de l'Union. - Nicolaï ne veut pas entraver l'action du
+                Gouvernement. - Robert (M.) est partisan que les anciens combattants prennent une
+                part active à l'action civique et politique et demande à Scapini de représenter
+                l'Union au prochain Conseil National. - Cabasson demande très nettement que l'on
+                s'abstienne dans tous les votes politiques. Il rappelle l'article 1<hi
+                  rend="superscript">er</hi> des statuts et dit que l'U.A.G. ne doit pas avoir
+                d'opinion politique. - Izaac demande que l'U.A.G. reste à la Confédération pour
+                sauvegarder nos droits matériels et qu'on donne au délégué normal Amblard la
+                directive de s'abstenir sur toute question qui risquerait de diviser les membres de
+                l'U.A.G.</p>
+              <p>Scapini prenant la parole indique alors quelle doit être, à son avis, l'attitude de
+                l'Union. Il pense que devant le problème posé le 8 juillet il est impossible,
+                quoiqu'on fasse, de ne pas adopter une attitude politique quelconque. S'il peut se
+                dégager une action ancien combattant, nous devons la suivre. En cas d'unanimité des
+                anciens combattants, l'U.A.G. a un rôle à jouer. Il propose de soutenir cette thèse
+                au Conseil National.</p>
+              <p>Fauvel est d'accord avec le Président pour tenter le rapprochement des A.C., mais
+                dit que Scapini, parce qu'il est homme politique, ne doit pas être notre délégué à
+                la Confédération.</p>
+              <p>Bois n'est pas d'avis que l'Union prenne une attitude politique, les Aveugles de
+                Guerre pouvant exprimer leur opinion en dehors de <pb n="16"/>
+                <note type="foliation">— 14 —</note> l'Union. - Brusson se déclare favorable à une
+                action pour le bien général du pays. - Courteix l'admet également, mais ne croit pas
+                au succès. - Bloncourt, qui fut toujours partisan d'une action des Aveugles de
+                Guerre dans le domaine civique et politique, propose qu'au Conseil National l'U.A.G.
+                demande la démission de Rivollet du ministère actuel. - Lauté appuie la suggestion
+                de Scapini. Conan intervient dans le même sens et attire l'attention des camarades
+                sur la situation économique. - Lagarde demande que le délégué de l'Union ne prenne
+                position qu'en cas d'entente complète des grandes Associations.</p>
+              <p>Leveau craint qu'après cela les moyens d'application soient difficiles à trouver.
+                Il ne se montre partisan de l'adhésion de l'Union au mouvement qu'à la condition que
+                toutes les Associations fusionnent en une seule. Amblard ne croit guère à une
+                entente durable. Au point de vue administratif, il demande au Conseil d'indiquer
+                s'il désigne son Président comme délégué afin de pouvoir faire établir une carte
+                d'entrée, le service d'ordre étant très strict au Conseil National.</p>
+              <p>Grillet n'est pas partisan d'une action politique et se déclare pour le maintien du
+                délégué actuel. Plusieurs camarades partagent cette dernière opinion. Scapini alors
+                ne demande pas de vote et fait savoir qu'il n'est plus candidat. - Roy (Georges)
+                demande que l'attitude de l'Union ne change pas, c'est-à-dire "pas de politique ». -
+                Favret intervient dans le même sens, donnant quelques exemples de l'action
+                passée.</p>
+              <p>Bloncourt dépose une motion : "Le Conseil d'administration de " l'U.A.G. donne
+                mandat à son délégué au Conseil National du " 8 juillet prochain, en présence de la
+                carence du Gouvernement " vis-à-vis des différentes conditions votées par le Conseil
+                National " de la Confédération, de décider le retrait du représentant de la
+                "Confédération au sein du Gouvernement, et passe à l'ordre du " jour. "</p>
+              <p>Ont voté pour : Bloncourt, Fauvel. Abstentions : Bois, Evrat. Les autres
+                administrateurs ayant voté contre, la motion est repoussée.</p>
+              <p>Bois dépose une motion ainsi conçue : "Considérant que les <pb n="17"/>
+                <note type="foliation">— 15 —</note> " administrateurs de l'Union ne peuvent se
+                mettre d'accord sur l'at" titude à observer au prochain Conseil National, le Conseil
+                donne " mandat à son délégué de s'abstenir sur toutes les questions poli" tiques qui
+                pourront être posées. "</p>
+              <p>Ont voté pour : Bois, Evrat, Grillet, Roy (G.). Abstentions : Amblard, Favret,
+                Leveau, L'Evesque, Malgat, Noireaux.</p>
+              <p>Lagarde proteste contre les abstentions sur ce sujet. Après plusieurs
+                délibérations, Scapini rouvre le vote sur la motion Bois ainsi conçue : "Vu
+                l'article 1<hi rend="superscript">er</hi> des statuts, et tenant compte " du vote
+                exprimé par l'Assemblée générale de 1928, le Conseil " donne mandat à son délégué de
+                s'abstenir sur toutes questions poli" tiques qui pourraient être posées à la
+                Confédération. "</p>
+              <p>Ont voté pour : Amblard, Bois, Evrat, Favret, Grillet, Leveau, L'Evesque, Malgat,
+                Noireaux, Roy (G.) (10).</p>
+              <p>Se sont abstenus : Scapini, Bardoux (2). Ont voté contre : Bloncourt, Brusson,
+                Conan, Fauvel, Guillam, Lagarde, Lauté (7).</p>
+              <p>Scapini explique qu'il s'est abstenu pour ne pas être en opposition avec le
+                Bureau.</p>
+              <p>Le compte rendu sténographique donnera d'une façon très complète tous les détails
+                de la séance à nos camarades qui pourront ainsi suivre cette importante question.
+                  4<hi rend="superscript">°</hi> Statut des grands invalides. - L'heure étant
+                avancée, plusieurs administrateurs ayant dû quitter la séance, le Secrétaire général
+                donne un compte rendu des démarches effectuées jusqu'à ce jour et qui ont abouti à
+                la visite faite à M. Doumergue où celui-ci a promis formellement de faire une
+                déclaration à la tribune de la Chambre, qui constituerait un engagement de sa
+                part.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 18 heures.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">AVIS DIVERS</head>
+              <p>Le camarade Léger rappelle à ses camarades qu'avec la technique moderne de la
+                radio, il faut se servir d'un poste puissant mais doux, au lieu d'un petit
+                poste'poussé à outrance et s'usant sans profit rapidement. C'est pour cette cause
+                qu'il a sorti son nouveau 8 lampes antifading, contrôle de silence avec réglage
+                automatique, contrôle de musicalité sur volteur de volteur. Une superbe ébénisterie,
+                une garantie illimitée, un prix très bas, voilà le 8 lampes Léger, livré par luimême
+                dans toute la France sans frais.</p>
+              <p>Demander renseignements à Radio Léger, 15, rue Jules-Verne, Paris (11").</p>
+              <p>++\mathrm{+}</p>
+              <p>Missionnaire, 7 ans d'Afrique, 11 ans de Chine, 2 ans d'Amérique, retiré en France,
+                serait désireux de rencontrer un Aveugle de Guerre avec lequel il vivrait.</p>
+              <p>Pour tous renseignements, s'adresser à M. Levesque, curé de Saint-Maclou (Eure), ou
+                au camarade Drapeau, 1 bis, rue Tandou, Paris (19').</p>
+              <p>++\mathrm{+}</p>
+              <p>Appareils et lampes T.S.F. Philips, remise importante aux membres de l'Union.
+                S'adresser au camarade Hennebicq, 4, rue Paul-Escudier, Paris (9'). Tél. Pigalle
+                67-28.</p>
+              <p>++\mathrm{+}</p>
+              <p>Notre camarade Georges Briffaut, rue du Docteur-Carrère, à Esternay (Marne), ayant
+                sa femme impotente, serait heureux de trouver une femme de ménage qui serait logée,
+                couchée, nourrie chez lui, et lui donnerait des soins, ainsi qu'à sa femme.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents : Favret, Leveau, Noireaux. Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Carasson, Céré-Labourdette, Conan, Courteix, Derunder, Evrat, Fauvel,
+              Grillet, Guillam, Izac, Lapfargue, Lagarde, Lauté, Malgat, Muller, Nicolai, Robert
+              (Maurice), Roy (Georges), Satgé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">COMITÉ D'ACTION</head>
+            <p>M. le baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Mme Contamin, Vice-Présidente; M. le colonel
+              de Traversay, Vice-président; M. Oscar Bloch, Secrétaire; M. Auterbe, Sous-Directeur à
+              la Compagnie «L'Union »; Mme du Bos; Mme Broquin; M. Marcel Bloor; M. le marquis de
+              Chaumont-Quitry; M. Cueffer; M. Pierre Chérot;</p>
+            <p>Mme Chevalier; Mme Francis de Croisset. Mlle Jalaguier; Mlle d'Herbemont; Mme Henri;
+              Mme Kalt; Mme L'Evesque; Mme Lévy-Weis; M. Mayer;</p>
+            <p>Mme Meyer; Mme Mue; M. Pascal</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+            <p>Impr. Dubois et Bauer, 14, r. Laffitte. - Paris 1934.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,587 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 21ème année 1939, n°10</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin mensuel</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Services sociaux</title>
+        <title type="topic">Seconde Guerre mondiale</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Invalidité</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#cartes-de-chemin-de-fer">Cartes de chemin de fer</term>
+          <term ref="#loterie-nationale">Loterie Nationale</term>
+          <term ref="#american-legion">American Legion</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) fournit des informations
+          sur la situation de l'association pendant la Seconde Guerre mondiale, soulignant son rôle
+          continu dans le soutien aux aveugles de guerre malgré les difficultés. Il aborde les
+          questions relatives aux pensions, aux services offerts (caisse fraternelle, bibliothèque,
+          etc.), et aux démarches administratives (renouvellement des cartes de chemin de fer). Le
+          bulletin contient également des nouvelles de la communauté, telles que les naissances, les
+          mariages et les décès, ainsi que des listes de donateurs et des informations sur la
+          gestion de l'association.</p>
+      </abstract>
+      <creation>
+        <date when="1939-12-01">01/12/1939</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h5">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTRE SITUATION</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOS PENSIONS ET LA GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h9">LES NOUVEAUX AVEUGLES</ref>
+          </item>
+          <item>
+            <ref target="#h10">A L'AMERICAN LEGION</ref>
+          </item>
+          <item>
+            <ref target="#h11">NOS SERVICES</ref>
+          </item>
+          <item>
+            <ref target="#h12">RENOUVELLEMENT DES CARTES DE CHEMIN DE FER</ref>
+          </item>
+          <item>
+            <ref target="#h13">CARTES DE PRIORITE</ref>
+          </item>
+
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h14">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h15">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h16">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h18">COTISATIONS 1940</ref>
+              </item>
+              <item>
+                <ref target="#h19">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h20">LISTE DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h21">DONS AVEC AFFECTATION SPECIALE POUR LA MAISON DES AVEUGLES DE
+                  GUERRE</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h22">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h23">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h24">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">20e Année. — N° 10</fw>
+          <fw type="header">
+            <hi rend="underline">DECEMBRE 1939</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Notre situation.</item>
+                    <item>Nos pensions et la Guerre.</item>
+                    <item>Les nouveaux Aveugles.</item>
+                    <item>A l'American Legion.</item>
+                    <item>Nos Services.</item>
+                    <item>Renouvellement des Cartes de Chemin de fer.</item>
+                    <item>Cartes de priorité.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Cotisations 1940.</item>
+                    <item>Avis divers.</item>
+                    <item>Liste des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE L'U.A.G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31 Siège provisoire : FRANCEVILLE (Calvados)</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire ; \dagger M. Barthou,
+              ancien Président du Conseil ; M. le colonel Fabry, Député, ancien Ministre ; \dagger
+              M. le général Balfourier ; M. J. Ridgely-Carter ; M. Paul de Cassagnac, ancien Député
+              ; M. Maurice Donnay, de l'Académie Française ; M. Duco, Médecin-Inspecteur; M.
+              Fribourg, Député ; Miss Alice Getty ; M. Justin Godart, ancien Ministre ;</p>
+            <p>Miss Grace Harper ; Miss Winifred Holt ; <hi rend="superscript">M</hi>^{<hi
+                rend="superscript">me</hi>} Léopold Kahn ; M. Krung ; M. Lugol, ancien Sénateur ;
+              \dagger <hi rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} la maréchale
+              Maunoury ; M. Samuel Milbank ; M. Meyer. Conseiller d'Etat; M. Henry Paté, Député ;
+              \dagger <hi rend="superscript">M</hi>^{<hi rend="superscript">e</hi>} Henri Robert, de
+              l'Académie française, ancien Batonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville ; \dagger M. Vallery-Radot.</p>
+            <pb n="3"/>
+          </div>
+          <fw>20e ANNEE - N°10 DECEMBRE 1939</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTRE SITUATION</head>
+            <p>La Guerre qui vient de commencer marque une étape dans notre vie commune et, sans
+              nous attarder à commenter les événements comme beaucoup le font sans d'ailleurs trop
+              savoir quoi dire, nous profiterons d'un répit forcé pour considérer le point où en est
+              notre "Union ".</p>
+            <p>A quelques mois près l'U. A. G., dont beaucoup de membres se connaissaient déjà bien
+              avant l'Armistice, a en ce mois de décembre vingt et un ans d'existence. Il n'est pas
+              nécessaire de rappeler tout ce qui a été fait pendant cette période, mais nous pouvons
+              constater que tout ce qui a été institué par nous demeure, malgré les heures que nous
+              traversons. Beaucoup de camarades ont eu recours à nous pour trouver un refuge à
+              Franceville, à Boulleville, ou même chez d'autres membres de l'U. A. G. Notre caisse
+              fraternelle fonctionne, distribuaut toujours des allocations importantes au moment des
+              décès, la caisse de prévoyance suit bien entendu son cours régulier, nous remboursons
+              partiellement les frais médicaux et pharmaceutiques, la bibliothèque et la discothèque
+              envoient aux camarades livres et disques. Et cependant tout cela, il faut le
+              constater, est fait par nous-mêmes selon notre devise, c'est-à-dire par nous qui n'y
+              voyons pas. Bien sûr, nous n'avons pas de mobilisés comme dans certaines Associations,
+              et pour cause, mais aussi nous n'avons pas de fonctionnaires chez nous qui puissent
+              nous aider efficacement dans les Administrations pour la défense de nos camarades.
+              Tout ce qui est à faire, nous ne pouvons l'exécuter seuls, nous devons toujours être
+              accompagnés et on se demande si vraiment ceux qui quoique blessés, ont le bonheur de
+              naviguer seuls dans la vie, se rendent compte de ce qu'est notre manque de liberté.
+              Vraiment, après ces vingt et un ans que nous venons de vivre, l'Union, il faut le
+              reconnaitre, aidée par de peu nombreux mais sincères amis, a volé de ses propres
+              ailes, rencontrant parfois chez ceux qui auraient dû le mieux nous comprendre un
+              manque de bienveillance, et devinant parfois aussi des sourires compatissants qui
+              n'avaient rien de bien courageux.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Mais notre Association, obligée comme bien d'autres à se replier un peu sur
+              elle-même, n'en conserve pas moins toute sa réelle valeur et malgré le très lourd
+              handicap dont ses membres sont affectés, devra garder la place qui dans le fond de
+              tout esprit intelligent lui a toujours été reconnue. H. Amblard.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOS PENSIONS ET LA GUERRE</head>
+            <p>A Franceville où nous sommes en ce moment, le pays ne s'est pas endormi comme tous
+              les hivers, les occupants de nombreuses villas y demeurant pendant les hostilités,
+              mais ce n'est évidemment pas l'animation que nous lui connaissons pendant la
+              saison.</p>
+            <p>Durant les belles soirées d'été, par les fenêtres grandes ouvertes de notre salle de
+              réunion, les passants se rendent compte de la gaieté qui règne chez nous mais, est-ce
+              manque de réflexion, est-ce stupidité, quelques remarques qui ne pouvaient nous faire
+              plaisir ont de temps en temps été faites et je songe à ce que de nombreux camarades
+              disaient ou écrivaient à propos de ces phrases aigres-douces prononcées par ceux qui
+              ne comprenaient pas. Il me semble qu'en ce moment on n'entend rien de semblable, car
+              c'est la guerre. Oui, la guerre rappelle à tous qu'il y a en ce moment des hommes
+              jeunes qui sont prêts à donner leur vie pour la Patrie et, si le hasard le veut, une
+              chose infiniment précicuse comme leurs yeux. Peut-être alors comprend-on mieux
+              pourquoi on nous a donné une pension. C'est bien un peu tard.</p>
+            <p>Les séjours intermittents que je fais à Franceville parmi mes camarades me
+              rappelaient toutes ces pensées quand on m'a lu un article de notre excellent camarade
+              Pineau, un des dévoués animateurs de l'U. F., qui a écrit dans un des derniers numéros
+              des Heures de la Guerre un article extrêmement saisissant sur le même sujet, où il
+              indiquait combien est payée une grave blessure, remarquant d'ailleurs que les
+              récriminations contre les pensions avaient cessé depuis la guerre.</p>
+            <p>Je n'insisterai donc pas, mais je me permettrai de conseiller à nos camarades, s'ils
+              ne l'ont déjà fait, de dire à ceux qui par des allusions plus ou moins blessantes leur
+              reprochaient leur pension : " si vous voulez une pension, c'est le moment, on en
+              distribue entre Rhin et Moselle, profitez-en !" H. Amblard.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LES NOUVEAUX AVEUGLES</head>
+            <p>Nous ne savons pas si la présente guerre nous vaudra peu ou beaucoup de nouveaux
+              aveugles, mais nous espérons fermement que peu de nouveaux combattants seront menacés
+              de cécité, le Commandement se montrant très ménager des vies humaines.</p>
+            <p>Quoiqu'il en soit, nous qui pendant la dernière guerre avons connu tant de
+              sollicitude, tant d'empressement, mais qui avons vu aussi tant d'erreurs se commettre,
+              avons le devoir impérieux d'éviter le retour de pareils errements. C'est un peu ce
+              sentiment qui anime en ce moment les anciens combattants désireux de réserver un
+              accueil amical à ceux qui viendront grossir leurs rangs, dans des formations
+              suffisamment charpentées pour les recevoir, afin qu'ils n'aient pas la tentation de
+              constituer des Groupements nouveaux.</p>
+            <p>En ce qui nous concerne, notre Association, qui a réuni pratiquement tous les
+              aveugles de guerre, ne faillira pas à sa tâche. Elle aura, s'il y a des jeunes,
+              quelque chose de tangible à leur offrir, un travail long et patient de plus de 20
+              années à leur présenter et des réalisations nouvelles dont ils pourront bénéficier.
+              L'U. A. G. ne craindra donc pas leur arrivée si elle se produit, mais elle devra faire
+              plus encore, elle devra s'occuper de leur état moral, de leurs possibilités de
+              réadaptation, car il ne faudrait pas que ces camarades nous disent ensuite : " vous ne
+              nous avez même pas appris à lire. " Mais ce reproche nous ne l'encourrerons pas, l'U.
+              A. G. qui ne s'est préoccupée d'autres ques-tions que celles concernant le bien des
+              aveugles de guerre, saura être le guide sûr de ceux qui pourront venir grossir nos
+              rangs. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">A L'AMERICAN LEGION</head>
+            <p>Le jeudi 23 novembre dernier était célébré en Amérique et par tout le monde où il y a
+              des Américains, le "Thanksgiving Day", qui est la grande fête d'action de grâce des
+              Etats-Unis.</p>
+            <p>Nos excellents camarades de l'American Legion de Paris fêtèrent comme d'habitude ce
+              jour de remerciements de leur Nation envers la Providence. Dans la grande salle du
+              Pershing Hall, où l'on s'en sou-</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>vient l'U. A. G. fut reçue en une brillante matinée, un déjeuner fut servi où à côté
+              des Commandeurs Aubrey et Clemente se trouvaient le Consul Général des Etats-Unis, le
+              Général Herbillon, le Directeur du Cabinet du Ministre des Anciens Combattants, le
+              Colonel Sheriff de la British Legion et nos camarades Pichot, Brousemiche et Rivollet.
+              Le Président et le Secrétaire Général de l'U. A. G. qui y furent invités apprécièrent
+              hautement cette marque de sympathie donnée par nos amis de l'American Legion qui ont
+              toujours témoigné à notre Association des sentiments de particulière amitié. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">NOS SERVICES</head>
+            <p>Les camarades qui se sont adressés à nous pour les divers services de l'Union ont pu
+              constater que malgré la guerre tout fonctionnait normalement.</p>
+            <p>Cependant le Bureau a dû envisager la situation qui nous était faite par suite des
+              difficultés de rentrées d'argent, spécialement celle de la Loterie Nationale, qui
+              s'est trouvée ces derniers temps très affectée par l'état actuel des choses, et les
+              dirigeants de l'Union ont dû se résigner à comprimer beaucoup les dépenses et à ne
+              conserver que celles qui étaient d'ordre indispensable. Beaucoup de chapitres ont donc
+              été largement réduits, ce qui n'affectera aucunement la marche de notre Association.
+              Les Administrateurs, avec le Bureau, se sont attachés à conserver à la Caisse
+              Fraternelle le plus d'efficacité possible ; c'est ainsi qu'il n'a rien été changé aux
+              allocations données à l'occasion du décès d'un camarade ; les allocations naissances
+              n'ont pas été non plus modifiées. Les remboursements des frais médicaux et
+              pharmaceutiques ont cependant été diminués de 50%, sauf pour certains cas
+              intéressants, comme les familles nombreuses, évacuations, etc... où le Bureau apprécie
+              les cas qui lui sont présentés. Les prêts maisons, un instant suspendus, reprendront
+              après examen très attentif des demandes, les services de la bibliothèque, du livre
+              parlé, ont repris leur marche normale et nos bureaux fonctionnent. Nous pensons que
+              nos camarades apprécieront le souci qu'ont eu leurs dirigeants, tout en conservant
+              notre œuvre d'entr'aide, de se montrer ménagers des ressources de l'Union en attendant
+              prudemment l'avenir qui, nous l'espérons, s'éclairera bientôt.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">RENOUVELLEMENT DES CARTES DE
+              CHEMIN DE FER</head>
+            <p>Nos cartes d'invalidité, qui sont valables pour une période de deux années, doivent
+              être renouvelées au cours de 1940.</p>
+            <p>Nous avons demandé à l'Office National si, en ces circonstances exceptionnelles, il
+              serait nécessaire de faire renouveler ces cartes. Il nous a été répondu que l'Office
+              National avait demandé à la S. N. C. F. de proroger la validité de nos cartes jusqu'au
+              31 décembre 1940. Malheureusement, la réponse n'a pu nous être donnée et nous ne
+              pouvons que conseiller, à ceux dont la carte de circulation doit être renouvelée en
+              janvier prochain, de se hâter d'adresser à leur Mairie une demande en renouvellement
+              de leur carte d'invalidité afin de ne pas se trouver en possession d'une carte
+              périmée. Nous espérons qu'ensuite des instructions seront données pour la prorogation
+              de nos cartes.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">CARTES DE PRIORITE</head>
+            <p>Nous informons nos camarades de la Région Parisienne que les cartes de priorité sur
+              les Transports en commun de la région parisienne devront être renouvelées pour 1940
+              dans les mêmes conditions que les années précédentes.</p>
+            <p>Pour ceux d'entre eux réfugiés en Province, le renouvellement ne pourra être obtenu
+              par correspondance.</p>
+            <p>Il sera nécessaire qu'ils fassent demander le renouvellement à la Préfecture de
+              Police par une personne de leur connaissance qui devra se présenter au guichet munie
+              du livret de pension, d'une quittance de loyer attestant un domicile à Paris ou dans
+              le département de la Seine et d'une photo d'identité. Ceux de nos camarades qui ne
+              voudraient pas confier à un tiers les pièces nécessaires, pourront obtenir le
+              renouvellement de leur carte en se présentant eux-mêmes, avec les mêmes pièces, lors
+              de leur premier passage à Paris, en cours d'année 1940.</p>
+            <pb n="8"/>
+            <pb n="9"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h15">Naissances</head>
+                <p>Notre camarade et Madame R. Vidal, de Revel (Haute-Garonne), nous font part de la
+                  naissance de leur fils Jean-Etienne, le 3 novembre 1939.</p>
+                <p>Notre camarade et Madame J. Roy, de Nice (Alpes-Maritimes), nous font part de la
+                  naissance de leur fils Jean-Pierre, le 4 novembre 1939.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos voux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h16">Mariages</head>
+                <p>Notre camarade Lafon Léon, de Lachamp-de-Saint-Cirgues (Corrèze), nous fait part
+                  du mariage de sa fillle Georgette avec M. Désiré Lesage, célébré le 2 septembre
+                  1939.</p>
+                <p>Notre camarade Leblond, de Berck-Plage (Pas-de-Calais), nous fait part du mariage
+                  de son fils Auguste-Albert, soldat au 1<hi rend="superscript">er</hi> R. L, avee
+                    <hi rend="superscript">M</hi>^{<hi rend="superscript">tre</hi>} Debout, célébré
+                  le 10 novembre 1939.</p>
+                <p>Notre camarade Bouisson, de Laurens (Hérault), nous fait part du mariage de son
+                  fils Emile avee <hi rend="superscript">M</hi>^{<hi rend="superscript">tre</hi>}
+                  Théron, célébré le 16 novembre 1939.</p>
+                <p>Notre camarade Niant, de Bergerac (Dordogne), nous fait part du mariage de son
+                  fils Jean, soldat actuellement au Front, avee <hi rend="superscript">M</hi>^{<hi
+                    rend="superscript">tre</hi>} Buhau, célébré le 15 novembre 1939.</p>
+                <p>Notre camarade Dupuy Marius, de Marseille (Bouches-du-Rhône), nous fait part du
+                  mariage de son fils Albert, actuellement aux Armées, avee <hi rend="superscript"
+                    >M</hi>^{<hi rend="superscript">tre</hi>} Oullié.</p>
+                <p>Notre camarade Izaac, Vice-Président de l'U. A. G., nous fait part du mariage de
+                  sa fille Henriette avec M. Agasse, licencié, actuellement aux Armées, célébré le
+                  11 novembre 1939.</p>
+                <pb n="10"/>
+                <note type="foliation">— 8 —</note>
+                <p>Notre camarade Mulsant, de Lyon (Rhône), nous fait part du mariage de sa fille
+                  Madeleine avec M. Georges Camisullis, célébré le 2 décembre 1939.</p>
+                <p>Nous adressons nos voux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Catherine Ernest, décédé le 22
+                  octobre 1939, à Longueville (Calvados), à l'âge de 48 ans.</p>
+                <p>Né le 28 février 1892, soldat au 287<hi rend="superscript">°</hi> d'Infanterie,
+                  notre camarade fut blessé le 27 août 1917 à Verdun. Réformé à 120% art. 10 et 12
+                  pour cécité complète et surdité, Officier de la Légion d'Honneur et titulaire de
+                  la Médaille Militaire, il laisse une veuve et un enfant.</p>
+                <p>De notre camarade Guthel Georges, décédé le 5 octobre 1939, à l'âge de 62
+                  ans.</p>
+                <p>Né le 14 mai 1877 à Arcenant (Côte-d'Or), soldat au 226<hi rend="superscript"
+                    >°</hi> R. I., notre camarade fut blessé le 26 janvier 1916 près de
+                  Neuville-SaintWaast. Réformé à 200% art. 10 et 12 pour cécité et blessures
+                  multiples, Officier de la Légion d'Honneur et titulaire de la Médaille Militaire,
+                  il laisse une veuve et trois enfants.</p>
+                <p>De notre camarade Lathuillé Pierre, décédé en novembre 1939, à l'âge de 52 ans, à
+                  l'Institut Notre-Dame, Saint-Sigismond par Albertville (Savoie).</p>
+                <p>Né le 20 février 1887, à Saint-Jean-de-Belleville (Savoie), notre camarade fut
+                  blessé le 5 mai 1915 à Metzeral (Alsace). Réformé à 100% art. 10 pour cécité, il
+                  était Chevalier de la Légion d'Honneur et titulaire de la Médaille Militaire.</p>
+                <p>De la femme de notre camarade Baumes, de Nîmes (Gard), décédée le 4 septembre
+                  1939 à Mâcon (Saône-et-Loire), et de sa fille, décédée le 9 septembre à
+                  Saint-Hilaire-du-Thouret (Isère).</p>
+                <p>De la femme de notre camarade A. Chautard, de Bandol-sur-Mer (Var), décédée le 30
+                  octobre 1939 à l'âge de 53 ans.</p>
+                <p>Du père de notre camarade Cardot, de Ronchamp (Haute-Saône), décédé le 7 octobre
+                  1939.</p>
+                <p>De la belle-mère de notre camarade Maguet, de Vichy (Allier), décédée le 2
+                  novembre 1939 à l'âge de 66 ans.</p>
+                <p>De la femme de notre camarade C. Carpentier, de Saacy-le-Grand (Oise), décédée le
+                  9 novembre 1939 à l'âge de 43 ans.</p>
+                <p>De la mère de notre camarade Kolb, de Neuilly-Plaisance, décédée le 9 novembre
+                  1939 à l'âge de 71 ans.</p>
+                <p>Nous adressons aux familles nos plus vives condoléanees.</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">COTISATIONS 1940</head>
+              <p>Cotisations volontaires. - Nous sommes heureux d'adresser ici nos sincères
+                remerciements à nos camarades qui ont tenu à effectuer un nouveau versement :</p>
+              <p>MM. Berain, 10 fr. ; Guermonprez, 50 fr. ; Boucq, 16 fr. ; Mary, 10 fr. ; Daurios,
+                10 fr. ; Nast, 5 fr. ; Hipolite, 10 fr. ; Capitaine, 10 fr. ; Aldeguer, 20 fr. ;
+                Raffestin, 10 fr. ; Abderahmann, 20 fr. ; Picaud, 10 fr. ; Invernizzi, 10 fr. ;
+                Choleau, 15 fr. ; Quittanson, 10 fr. ; Bompuis, 5 fr. ; Doré, 5 fr. ; Bouvet, 5 fr.
+                ; Leroy A., 20 fr. ; Warin, 5 fr. ; Malsert, 100 fr.</p>
+              <p>Cotisations. - MM. Bella, Calmès, Padellec, Pernoo, Galbourdin, Mary, Briez,
+                Fimbel, Guth, Nast, Roger, Chapouillié, Hipolite, Laignel, Favier C., Fraysse F.,
+                Courtemanche, Eckert, Capitaine, Debooserie, Daubersy, Féti, ue, Loizeau A., Obitz,
+                Pinaquy, Tilly, Gailly, Picaud, Bouillard, Choleau, Petit Adrien, Reynès L., Simon
+                P., Noirjean, Doré, Buckel, Devarrieux, Devienne, Dupuis J., Etienne, Houot, Michel
+                E., Pinasseau, Marion, Bouvet, Leroy A., Raynal, Corbel, Rondeau, Epstein, Warin,
+                Longeagne, Hadot, Duché, Dupuis Joseph (rachat), Gourdin, Colombat, Daurios, Mandet,
+                Barret, Lombard, Gallet, Poirson, Raffestin, Bompuis, Quittanson.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">AVIS DIVERS</head>
+              <p>Notre camarade NIANT rappelle à tous les membres de l'U. A. G. qu'il est à leur
+                disposition pour leur fournir des vins fins en fûts et en bouteilles, Bordeaux et
+                Bourgogne, ainsi que des Champagnes, Cognacs et Armagnacs. - Prix courant et
+                échantillons sur demande.</p>
+              <p>S'adresser directement à M. NIANT Simon, 71, rue du Pont-SaintJean, Bergerac
+                (Dordogne).</p>
+              <p>Une dame nous proposant aimablement de faire pour nous des transcriptions en
+                Braille, nous demandons à ceux de nos camarades, qui auraient un besoin sérieux de
+                faire copier un livre, de nous le faire savoir ou, qui mieux est, de nous en faire
+                parvenir l'édition en noir,</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">LISTE DE DONATEURS</head>
+              <p>M<hi rend="superscript">me</hi> Luck, Londres, 510 fr. ; Anonyme, 10 fr. ; <hi
+                  rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} Granet, 10 fr. ; M.
+                Sura (sur sa Médaille Militaire), 100 fr. ; <hi rend="superscript">M</hi>^{<hi
+                  rend="superscript">me</hi>} Berthe Brougnes (Buenos-Aires) (en mémoire de M. Louis
+                Sperat Brougnes), 300 fr. ; M. de Chailly, Paris, 50 fr. ; notre camarade Leriche
+                (pour le Livre Parlé), 20 fr. ; <hi rend="superscript">M</hi>^{<hi
+                  rend="superscript">me</hi>} Condamin, Nice, 24 fr. ; les fils de notre camarade
+                Colin Jules, 50 fr. ; <hi rend="superscript">M</hi>^{<hi rend="superscript">me</hi>}
+                Fischer, Paris, 11 fr. ; <hi rend="superscript">C</hi>^{<hi rend="superscript"
+                  >te</hi>} d'Assurances «La Nationale-Vie », 500 fr. ; C { }^{<hi
+                  rend="superscript">te</hi>} d'Assurances "La Nationale-Incendie », 500 fr. ; <hi
+                  rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} Ferrant,
+                Saint-Vinnemer, 10 fr. ; <hi rend="superscript">M</hi>^{<hi rend="superscript"
+                  >me</hi>} Theron, ChâteauThierry (Aisne), 25 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">DONS AVEC AFFECTATION
+                SPECIALE POUR LA MAISON DES AVEUGLES DE GUERRE</head>
+              <p>Commune d'Oued Athenia (Algérie), 89 fr. 70 ; <hi rend="superscript">M</hi>^{<hi
+                  rend="superscript">me</hi>} Veuve Raffray, Edon (Charente), 50 fr. ; <hi
+                  rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} Leclercq, Reims, 100
+                fr. ; notre camarade Reynès, 10 fr.</p>
+              <pb n="13"/>
+              <pb n="14"/>
+              <pb n="15"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire Scapini, Président honoraire Bourguignon, Secrétaire
+              général honoraire Favret, Secrétaire général honoraire Conan, Secrétaire général
+              honoraire Amblard, Secrétaire général honoraire</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">Conseil d'Administration</head>
+            <p>Président : Conan Vice-Présidents: Guillam, Izaac, Leveau Secrétaire général :
+              Amblard Trésorier : Gaston L'Evesque Membres: Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Favret,
+              Grillet, Laffargue, Lagarde, Lauté, Malcat, Muller, Nicolaï, Noireaux, Roy (Georges),
+              Satgé, Scapini</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Comité d'Action</head>
+            <p>M<hi rend="superscript">lle</hi> Arbel, Vice-Présidente honoraire.</p>
+            <p>Président : M. de Traversay. Vice-Présidentes M<hi rend="superscript">me</hi>
+              Contamin. M <hi rend="superscript">me</hi> L'Evesque. Secrétaires M. Bloch, adjoint au
+              Trésorier; M. Iweins, Secrétaire du Comité d'Action. M. Auterbe, Directeur à la Compa-
+              gnie "L'Union". M<hi rend="superscript">me</hi> du Bos: M<hi rend="superscript"
+                >me</hi> Broquin : M. de Chaumont-Quitry : M. Chepfer : M<hi rend="superscript"
+                >me</hi> Chevalier : M<hi rend="superscript">lle</hi> Jalaguier : M<hi
+                rend="superscript">me</hi> Lévy-Weis : M. Julien Mayer. Colonel de Traversay.</p>
+            <pb n="16"/>
+          </div>
+        </div>
+        <fw>Gérant : DECOENE. IMPRIMERIE CARON &amp; Cie, 34 RUE DEMOLOMBE, CAEN</fw>
+      </div>
+    </body>
+  </text>
+</TEI>

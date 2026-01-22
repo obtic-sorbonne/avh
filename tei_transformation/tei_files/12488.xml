@@ -1,0 +1,918 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 34ème année 1955 n°86</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions d'invalidité</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Bien-être social</title>
+        <title type="topic">Loisirs</title>
+        <title type="topic">Actualités associatives</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 21 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#maison-de-repos">Maison de repos</term>
+          <term ref="#carte-de-priorite">Carte de priorité</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#assurance">Assurance</term>
+          <term ref="#tele-club">Télé-club</term>
+          <term ref="#lecture">Lecture</term>
+          <term ref="#deces">Décès</term>
+          <term ref="#naissance">Naissance</term>
+          <term ref="#cotisation">Cotisation</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre informe ses membres sur divers
+          sujets d'intérêt, notamment les modifications apportées aux pensions d'invalidité et les
+          démarches à suivre pour en bénéficier pleinement. Il fournit des informations pratiques
+          sur les maisons de repos de l'Union, les cartes de priorité, et la carte du combattant. Le
+          bulletin met également en lumière les promotions à la Légion d'Honneur de certains membres
+          et présente les résultats de l'assurance groupe. Un projet de télé-club au sein de
+          l'U.A.G. est proposé, et des informations sont partagées sur les lectures par le disque.
+          Enfin, le bulletin inclut des nouvelles des sections, des mises à jour de l'annuaire, des
+          annonces de naissances et de décès, ainsi que des petites annonces.</p>
+      </abstract>
+      <creation>
+        <date when="1955-02-01">01/02/1955</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOS PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h5">QUESTIONNAIRE</ref>
+          </item>
+          <item>
+            <ref target="#h6">NOS MAISONS DE REPOS</ref>
+          </item>
+          <item>
+            <ref target="#h7">RENOUVELLEMENT DES CARTES DE PRIORITE DE LA REGION PARISIENNE</ref>
+          </item>
+          <item>
+            <ref target="#h8">PROLONGATION DE VALIDITE DE LA CARTE DU COMBATTANT</ref>
+          </item>
+          <item>
+            <ref target="#h9">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h10">ASSURANCE-GROUPE</ref>
+          </item>
+          <item>
+            <ref target="#h11">UN PROJET DE TELE-CLUB A L'U.A.G.</ref>
+          </item>
+          <item>
+            <ref target="#h12">LECTURES PAR LE DISQUE</ref>
+            <list>
+              <item>
+                <ref target="#h13">METHODE D'ANGLAIS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h14">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h15">SECTION DE MAINE-ET-LOIRE Réunion annuelle 26 octobre 1954</ref>
+              </item>
+              <item>
+                <ref target="#h16">APPORT DE NOS SECTIONS (Suite)</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h18">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h19">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h20">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h21">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h22">COTISATIONS ORDINAIRES ( 200 francs) Reçues du 17 décembre au 31
+              janvier inclus</ref>
+          </item>
+          <item>
+            <ref target="#h23">COTISATIONS CAISSE DE PREVOYANCE</ref>
+          </item>
+          <item>
+            <ref target="#h24">COTISATIONS VOLONTAIRES</ref>
+          </item>
+          <item>
+            <ref target="#h25">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h26">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h27">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">34e Année. — N° 86</fw>
+          <fw type="header">
+            <hi rend="underline">FEVRIER 1955</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Nos pensions.</item>
+                    <item>Nos maisons de repos.</item>
+                    <item>Cartes de priorité.</item>
+                    <item>Carte du Combattant.</item>
+                    <item>Légion d'Honneur.</item>
+                    <item>Assurance Groupe.</item>
+                    <item>Projet de Téléchub à l'U.A.G.</item>
+                    <item>Lectures par le disque.</item>
+                    <item>Naissances.</item>
+                    <item>Décès.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                    <item>Cotisations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. IZAAC. Vice-Présidents : H. GUESPEREAU, E. GUILLAM, G. MULLER.</p>
+            <p>Secrétaire Général : H. AMBLARD. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>MM. F. BERTRAND, P. BODIN, P. BOIS, J. BRUSSON, P. CATTAERT, J. CERE-LABOURDETTE, A.
+              CHALENDAR, E. CHAPAS, E. CORNU, R. COUESNON, P. DERUNDER, A. FAUVEL, R. FAVRET, Y.
+              GUIBERT, Y. JEZEQUEL, A. LAFFARGUE, D. LEVEAU, R. MATHIEU, J. NICOLAI, M. RAVELEAU, G.
+              ROBIN, G. ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>34e Annee. - No 86 FEVRIER 1955</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOS PENSIONS</head>
+            <p>La situation commence à se clarifier au sujet des différentes modifications qui sont
+              intervenues récemment dans le montant de nos pensions.</p>
+            <p>Nous avions beaucoup de textes, mais peu d'instructions pour les faire appliquer et
+              quelques points restaient encore obscurs quant au bénéfice que nous tirerons de
+              certaines améliorations.</p>
+            <p>Or, les nouveaux taux ont été publiés ; ils sont sensiblement les mêmes que ceux que,
+              de notre côté, nous avions calculés, l'Administration traduisant toujours au franc
+              inférieur les chiffres obtenus, mais dans l'ensemble, les nouvelles pensions qui nous
+              seront versées correspondent bien aux décisions prises par application de la loi du 31
+              décembre 1953.</p>
+            <p>Nous avons donc adressé un tableau des pensions valables à partir du 1<hi
+                rend="superscript">er</hi> mai 1954 et un autre à partir du 1<hi rend="superscript"
+                >er</hi> juillet, de la même année. Nos camarades qui l'ont reçu peuvent donc se
+              rendre compte de ce qu'ils auront à toucher désormais.</p>
+            <p>Nous faisons savoir à tous qu'il nous est malheureusement impossible de calculer les
+              rappels - comme quelques-uns nous le demandent - ce serait un travail énorme et,
+              d'autre part, bien des précisions ne nous sont pas données, ce qui procurerait une
+              correspondance que nous ne pouvons pas assurer.</p>
+            <p>La possibilité de dépasser le taux de 200% a intéressé bon nombre d'entre nous, car
+              les aveugles de guerre, en plus de leur cécité, ont parfois des blessures souvent
+              nombreuses, graves même, qui augmentent très sensiblement le taux de leur pension.
+              Nous avons envoyé beaucoup de formules pour ceux qui sont en droit de bénéficier de ce
+              qu'on appelle communément la « crevaison du plafond».</p>
+            <p>Plus nombreux encore, si possible, sont ceux qui ont demandé des <pb n="4"/>
+              <note type="foliation">— 4 —</note> questionnaires pour bénéficier des nouvelles
+              dispositions modifiant le guide-barême sur la défiguration. Presque tous les aveugles
+              sont en effet énuclées d'un œil ou de deux, ou ont les globes oculaires atrophiés.</p>
+            <p>Ceci donnera lieu à une révision de pension et nous rappelons que pour les deux cas
+              que nous venons de citer, il faudra procéder à une nouvelle liquidation et cela
+              nécessitera un échange de brevet ou notification.</p>
+            <p>Nous aurions voulu que soit décomptée séparément l'énucléation de chaque œil, ce qui
+              aurait comporté l'attribution d'un complément de pension par oil atteint, mais la
+              Direction des pensions comprend différemment l'application des nouvelles dispositions
+              et nous donnons ci-dessous copie de la lettre que M. le Directeur des Anciens
+              Combattants nous a adressée à ce sujet.</p>
+            <p>Direction des Pensions et des Services médicaux, 37, rue de Bellechasse, Paris
+                \left(7<hi rend="superscript">°</hi>\right).</p>
+            <p>Paris, le 5 janvier 1955. « Monsieur le Secrétaire Général, «Par lettre du 23
+              décembre 1954, vous avez bien voulu me deman« der des précisions sur un passage de la
+              circulaire \mathbf{n}^{\circ} 0361 C.S. du « 27 octobre 1954, relative aux modalités
+              d'application du décret du « 20 juillet 1954 portant modification du guide-barème des
+              invalidités. « Il s'agit du passage concernant la défiguration résultant de la «cécité
+              avec énucléation ou atrophie du globe oculaire. « Vous pensez que dans le cas de
+              cécité avec double énucléation « par exemple, le pourcentage d'invalidité afférent à
+              la défiguration « et le degré de l'invalidité globale peuvent être déterminés de la «
+              manière suivante : «Cécité 100% « Défiguration : « Pour énucléation de l'œil, droit
+              10+5.1,5 degré «Pour énucléation de l'œil gauche, 10+102 - «Soit au total 100 \%+4
+              degrés «J'ai l'honneur de vous faire connaître que les infirmités siégeant « sur la
+              face entraînent souvent, en plus d'une réduction de la capa« cité physique de celui
+              qui en est porteur, c'est-à-dire une invalidité «proprement dite, un préjudice
+              esthétique générateur de nombreux « inconvénients qui, pour être indemnisé au titre du
+              Code des Pen- <pb n="5" break="no"/>
+              <note type="foliation">— 5 —</note> « sions militaires d'invalidité a dû être traduit
+              également en degré « d'invalidité et considéré comme une infirmité distincte. « Mais
+              cette infirmité, constituée par la «défiguration» est tou« jours une infirmité unique.
+              «Elle est plus ou moins grave suivant l'ampleur et la multiplicité « des déformations
+              du visage. Mais il n'est pas possible de soutenir « qu'un même blessé soit atteint de
+              plusieurs défigurations, lorsque « diverses parties de son visage sont déformées à la
+              suite d'énucléa« tions, d'atrophie ou de cicatrices. «La défiguration est, en effet,
+              un état qui ne peut être évalué que « dans son ensemble, puisqu'elle traduit
+              l'altération de tout le visage, « que cette altération résulte d'une ou de plusieurs
+              déformations « particulières. « A tel aspect dégradé de la face correspond un degré
+              d'invalidité « propre. « Mais aucun texte législatif ou réglementaire n'autorise, pour
+              « apprécier ce degré d'invalidité de la défiguration, à décomposer « d'abord cette
+              infirmité en plusieurs éléments affectés chacun d'un « pourcentage d'invalidité
+              déterminé et à calculer ensuite l'invalidité « résultant de ces différents éléments
+              selon les règles de l'article L 14 « ou L 16 du Code en utilisant les suffixes de
+              majorations prévus « auxdits articles. Ces articles ne sont, en effet, applicables,
+              selon « leurs propres termes, que lorsqu'il s'agit de définir l'invalidité « globale
+              en cas d'infirmités multiples. Leurs règles ne peuvent être « suivies quand il s'agit
+              d'apprécier l'invalidité entraînée par une « infirmité prise isolément, telle que la
+              défiguration. «L'invalidité afférente à la défiguration comme celle résultant « des
+              autres infirmités distinctes doit être évaluée d'emblée et, pour « cela, il convient
+              de se reporter à la documentation iconographique « annexée au décret de 1925, compte
+              tenu des observations et du « tableau correctif insérés à la page 3 de la circulaire
+                <hi rend="superscript">n</hi>^{\circ} 0361 C.S. du « 27 octobre 1954. «Le décret n
+                <hi rend="superscript">°</hi> 54-755 du 20 juillet 1954, en fixant à 10% l'inva«
+              lidité résultant de l'infirmité défigurante constituée par une énucléa« tion ou une
+              atrophie de globe oculaire n'a fait qu'imposer un mini« mum d'invalidité en pareil
+              cas, il n'a pas modifié la manière dont « la défiguration devait être évaluée. Ce sont
+              les règles anciennes qui « continuent donc à s'appliquer en ce domaine, corrigées pour
+              tenir « compte uniquement de ce que les pourcentages précédemment appli« qués selon
+              les divers stades de défiguration doivent désormais être « plus élevés. «La
+              défiguration chez les aveugles ayant subi une double énucléa« tion doit donc être
+              appréciée selon ces dernières règles. « Il est évident que l'invalidité en résultant
+              sera toujours supé« rieure à 10%, minimum prévu pour une énucléation. Elle sera «
+              communément de 20%, mais pourra aussi, éventuellement, atteindre <pb n="6"/>
+              <note type="foliation">— 6 —</note> « un degré supérieur lorsque la dégradation du
+              visage provoquée par « la double énucléation en raison de certaines de ses
+              particularités « (cicatrices, etc.) est susceptible d'entraîner le classement de
+              l'intéressé dans une catégorie de défigurés devant bénéficier d'un taux « plus élevé.
+              «Espérant que vous trouverez dans ces quelques observations les « éclaircissements que
+              vous désirez, je vous prie, Monsieur le Secré* taire général, d'agréer l'expression de
+              mes sentiments dévoués et « amicaux. «Pour le Ministre des Anciens Combattants et «
+              Victimes de la Guerre et par son ordre, «le Directeur des Pensions et des Services «
+              Médicaux : «Signé : Siret. »</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">QUESTIONNAIRE</head>
+            <p>(à remplir et à retourner par les camarades désireux d'effectuer un séjour à
+              FRANCEVILLE, CARNOLÈS ou AMÉLIE-LES-BAINS)</p>
+            <p>Les camarades désireux de séjourner dans notre station de devront nous retourner ce
+              questionnaire avant le 21 mars, après l'avoir rempli et signé :</p>
+            <p>Nom : Prénoms : Adresse : (l'écrire lisiblement) Combien de personnes vous
+              accompagnent? AVIS IMPORTANT. - Le camarade ayant le droit d'amener avec lui sa femme
+              ou son guide a aussi la faculté d'avoir avec lui ses enfants. Indiquer donc d'une
+              façon précise si les enfants qu'ils désirent amener sont mineurs ou non, le sexe, si
+              ce sont les enfants ou petits-enfants.</p>
+            <p>Mentionner la période pendant laquelle vous désirez séjourner à (en cas
+              d'impossibilité d'attribution, indiquer une autre période)</p>
+            <p>Je déclare me conformer au règlement Signature : Le 1955.</p>
+            <p>Tout questionnaire qui ne mentionnera pas des réponses exactes aux questions posées
+              ci-dessus sera retourné à l'envoyeur.</p>
+            <pb n="8"/>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">NOS MAISONS DE REPOS</head>
+            <p>Le mois de février est celui où l'on songe à organiser ses vacances. C'est ce que
+              nous faisons pour nos centres de repos auxquels cette année s'ajoutera celui
+              d'Amélie-les-Bains.</p>
+            <p>Nos camarades trouveront le questionnaire habituel qu'ils voudront bien remplir d'une
+              façon très précise. Il est, en effet, indispensable que nous soyons renseignés très
+              exactement pour procéder à la répartition des appartements.</p>
+            <p>Ce questionnaire est valable pour les stations de Franceville, Carnolès et
+              Amélie-les-Bains, pour les mois de juillet, août ou septembre.</p>
+            <p>La date limite du retour de ce questionnaire est fixée au 21 MARS, afin que nous
+              puissions procéder au classement et à la répartition. Nous pourrons ainsi fixer nos
+              camarades aux environs de Pâques sur la possibilité qu'ils auront d'effectuer un
+              séjour dans nos maisons.</p>
+            <p>Le prix demandé est, nous le rappelons, de 150 francs par jour pour la location d'un
+              appartement. La moitié est payable au moment de l'acceptation de la demande.</p>
+            <p>En ce qui concerne Boulleville, cette station dépendant de l'Office National, nos
+              camarades doivent adresser leur demande directement à : M. Furgaux, directeur du Foyer
+              des Aveugles de Guerre, Boulleville (Eure).</p>
+            <p>Liste des camarades devant effectuer un séjour à Carnolès au mois de mars :</p>
+            <p>Henri Sampite. Emile Rouge. Marcel Catoire.</p>
+            <p>Daniel Hugues. Paul Barbet. Jacques Petit.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">RENOUVELLEMENT DES CARTES DE
+              PRIORITE DE LA REGION PARISIENNE</head>
+            <p>Nos camarades de la région parisienne peuvent, dès maintenant, se présenter à la
+              Préfecture de Police pour faire renouveler leur carte de priorité valable sur les
+              voitures de la Régie autonome des Transports parisiens.</p>
+            <p>Ils doivent se munir de : 1<hi rend="superscript">°</hi> Carnet de pension
+              d'invalidité ou titre provisoire d'attente, ou titre définitif ; 2<hi
+                rend="superscript">°</hi> Dernier coupon postal de paiement ou virement à un compte
+              chèque postal ; 3<hi rend="superscript">°</hi> Carte d'électeur ou feuille
+              d'imposition de l'année en cours ; 4<hi rend="superscript">°</hi> L'ancienne carte et
+              une photographie. A dater du 21 mars, les cartes de priorité du modèle 1955-1956
+              seront seules acceptées par la R.A.T.P.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">PROLONGATION DE VALIDITE DE LA
+              CARTE DU COMBATTANT</head>
+            <p>Un arrêté du Journal Officiel du 24 décembre 1954 prolonge de deux années la durée de
+              validité de la Carte du Combattant. "Art. 1<hi rend="superscript">er</hi>. - L'article
+              A 143 du Code des Pensions Militaires d'Invalidité et des Victimes de la Guerre est
+              modifié ainsi qu'il suit : « Art. A 143. - A titre exceptionnel, demeurent valables
+              jusqu'au 1<hi rend="superscript">er</hi> janvier 1957 les Cartes du Combattant du
+              modèle déterminé par l'article A 142 et ayant plus de cinq ans de date. »</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LEGION D'HONNEUR</head>
+            <p>Nous apprenons avec plaisir les promotions au grade d'officier dans l'Ordre de la
+              Légion d'Honneur des camarades ci-après :</p>
+            <p>Georges Arnold, Valentin Chotard, André de Bizemont, Charles Lohez, Léonce Roque.</p>
+            <p>Nous les félicitons tous très vivement.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">ASSURANCE-GROUPE</head>
+            <p>Comme chaque année à pareille époque nous informons les camarades adhérents à notre
+              Assurance-Groupe des résultats de l'année 1954.</p>
+            <p>Nous avons eu le regret, au cours de cette année, d'enregistrer le décès de onze
+              membres, dont les ayants droit ont perçu une somme globale de 3.400 .000 francs.</p>
+            <p>Le décompte des primes à payer pour 1955 s'établira donc en tenant compte de
+              l'incidence de ces règlements sur le total des primes encaissées et nous demandons à
+              nos camarades assurés d'attendre avec patience la formule habituelle de mandat que
+              nous ne manquerons pas de leur adresser.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">UN PROJET DE TELE-CLUB A
+              L'U.A.G.</head>
+            <p>Nous sommes sollicités par l'A.G.A. (l'Association Générale des Auditeurs de la
+              Radio-Télévision Française) de former au sein de l'U.A.G. un Télé-Club.</p>
+            <p>Les réunions du Club pourraient avoir lieu périodiquement dans notre grande salle de
+              la rue Blanche, autour d'un excellent récep. teur, pour entendre, discuter, critiquer
+              en commun certaines émissions et faire part à nos amis de l'A.G.A. de nos critiques et
+              suggestions qu'ils sont particulièrement disposés à faire aboutir. Ces réunions
+              pourraient être accompagnées de conférences par des personnes compétentes sur des
+              sujets intéressant les auditeurs en général.</p>
+            <p>Il est inutile de souligner l'intérêt que pourrait présenter ce TéléClub pour que les
+              émissions soient de mieux en mieux adaptées aux souhaits des aveugles, tant par le
+              choix des sujets que dans leurs modes de réalisation, et aussi pour veiller à ce que
+              l'extension toujours plus grande de la télévision ne parvienne pas à faire délaisser à
+              la longue les émissions de simple radiodiffusion, les seules qui nous intéressent
+              avant tout. Bien d'autres avantages d'ailleurs sont attachés aux Télé-Clubs :
+              réductions chez les fournisseurs, chasse aux parasites industriels, etc.</p>
+            <p>Bien entendu, pour qu'un tel Club soit intéressant, il est indispensable qu'il soit
+              fréquenté avec assez d'assiduité par un nombre suffisant de participants ; c'est
+              pourquoi, avant tout essai de réalisation, nous demandons à tous les camarades de la
+              région parisienne, d'abord désireux de fréquenter de telles réunions, de se faire
+              connaître à notre siège de la rue Blanche. Si les résultats sont encourageants, des
+              Télé-Clubs analogues pourraient, par la suite, se former dans les grands centres en
+              vue d'une action plus régionale.</p>
+            <p>Georges Muller.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LECTURES PAR LE DISQUE</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">METHODE D'ANGLAIS</head>
+              <p>A la demande de quelques jeunes camarades, nous venons de faire l'acquisition de La
+                Pratique de l'Anglais, par A. Chérel, Editions de la Méthode Assimil, 5 disques "
+                microsillon».</p>
+              <p>Cet ouvrage fait suite à L'Anglais sans peine, qui figure déjà dans notre
+                discothèque.</p>
+              <p>Signalons qu'un livre en noir, publié par la même maison, complète obligatoirement
+                ce cours d'anglais par le son.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">SECTION DE MAINE-ET-LOIRE
+                Réunion annuelle 26 octobre 1954</head>
+              <p>La Section de Maine-et-Loire de l'U.A.G., qui n'avait pu, pour des raisons
+                sérieuses de santé, tenir son Assemblée générale de printemps à Saumur, comme il
+                avait été décidé, avait convoqué ses membres à une réunion amicale à l'Hôtel de la «
+                Croix de Guerre », à Angers, le mardi 26 octobre. Un petit nombre seulement de
+                camarades avait répondu à l'appel, sept ayant été retenus par leur état de santé ou
+                celui de leur femme. La réunion n'en fut pas moins animée et très sympathique.</p>
+              <p>On aborda un peu toutes les questions d'intérêt général. On discuta de cas
+                particuliers. On constata avec reconnaissance l'effort précieux apporté par l'Union
+                aux veuves et aux camarades victimes de graves maladies, en souhaitant son
+                accroissement en raison du vieillissement de plus en plus sensible des camarades. On
+                s'attarda surtout sur le problème des veuves, que les pouvoirs publics persistent à
+                confondre avec les autres veuves de guerre alors que celles-ci ont pu, du vivant
+                même de leurs maris, se faire une situation ou une retraite. Les camarades
+                exprimèrent une fois de plus leur confiance et leur reconnaissance envers l'Union et
+                formulèrent le souhait que sa ténacité aboutisse à une reconsidération de la
+                question.</p>
+              <p>Un excellent déjeuner fut, après la réunion, la juste récompense de la fidélité des
+                membres présents.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">APPORT DE NOS SECTIONS
+                (Suite)</head>
+              <list>
+                <item>Section de la Côte-d'Or, Président Bellesceur 20.000</item>
+                <item>du Tarn-et-Garonne, Président Galis 17.000</item>
+                <item>du Morbihan, Président Mabon 2.290</item>
+                <item>de l'Isère, Président Jacquet 60.000</item>
+                <item>du Tarn, Président Satgé 70.804</item>
+                <item>de l'Auvergne, Président Pagenel 7.788</item>
+              </list>
+              <p>Nous remercions très vivement nos camarades présidents de sections de leur
+                contribution.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>Marcel Vigouroux, cité Castor, au Réuniat-Tréboul, Douarnenez (Finistère).</p>
+            <p>Jean Defranceschi, 35 et 37, rue de Versailles, Le Plessis-Robinson (Seine).</p>
+            <p>Ferdinand Santini, 7, rue Castel-Mourillon, Toulon (Var). Albert Ibrelisle, 9, rue Du
+              Guesclin, Tunis (Tunisie). Gabriel Olie, 71, avenue de Paris, Saint-Mandé (Seine).
+              René Houe, 50, rue Romain-Rolland, Les Lilas (Seine).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">NAISSANCES</head>
+            <p>Nous apprenons avec joie la naissance de : José, fils de notre camarade François
+              Alessandri (39-45), de Corse, le 26 octobre 1954.</p>
+            <p>Isabelle, fille de notre camarade Gabriel Olié (Indochine), de Saint-Mandé (Seine),
+              le 1<hi rend="superscript">er</hi> janvier 1955.</p>
+            <p>Marie-Françoise, petite-fille de notre camarade Georges Guillot, de Châtellerault, le
+              22 novembre 1954.</p>
+            <p>A nos camarades, nous adressons nos bien vives félicitations et nos vœux de
+              prospérité aux bébés.</p>
+            <p>Beaucoup d'entre nous se souviennent le séjour que firent dans notre maison de la rue
+              Blanche, David Ferguson, aveugle de guerre canadien, ainsi que sa femme Mrs Patricia
+              Ferguson.</p>
+            <p>Nous avons appris avec plaisir qu'ils venaient d'adopter une petite fille et nos amis
+              ajoutent que cette jeune enfant s'appelle PatriciaMarie (Patricia pour le Canada et
+              Marie pour la France).</p>
+            <p>C'est là une attention vraiment délicate qui nous touche tous, mais qui ne surprendra
+              pas ceux qui ont connu ces deux charmants Canadiens.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : André Tambutet (39-40), de Créteil
+              (Seine), le 20 janvier 1955. Charles Robin, Le Monastier (Lozère), septembre 1954, et
+              son épouse, en juin 1954.</p>
+            <p>La femme de notre camarade Lucien Levesque, de Savigny-sur-Orge (Seine-et-Oise), le
+              25 janvier 1955.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">PETITES ANNONCES</head>
+            <p>A VENDRE : Tandem neuf entièrement équipé. S'adresser G. Volat, 7, rue du
+              Bois-de-Chênes, Bry-sur-Marne (Seine).</p>
+            <p>OPTIQUE MEDICALE. L. Rosmino et Cie, 37, boulevard de Clichy, Paris ( 9<hi
+                rend="superscript">°</hi> ), consent une remise de 10% à tous les aveugles de
+              guerre, sur présentation de leur carte U.A.G. Métro : Pigalle ou Blanche.</p>
+            <p>Si vous buvez un apéritif : Buvez un Rives Saltes. Le vin de Rives Saltes est en
+              effet le meilleur et le moins cher de tous les apéritifs.</p>
+            <p>Le meilleur, car il est doux, agréable et reconstituant. Le moins cher, car Vin
+              garanti naturel et titrant 21 degrés, il n'a pas subi la nouvelle taxe imposée à tous
+              les apéritifs à base de vin et d'alcool.</p>
+            <p>Conditions spéciales pour les Aveugles de Guerre et membres de l'U.A.G. Est vendu en
+              casiers de 15 litres ou en fûts d'un minimum de 32 litres. Toutes taxes comprises,
+              franco domicile, emballages perdus, seuls les fûts sont repris au prix de facture.
+              Demander renseignements : camarade Toutain Paul, Aveugle de Guerre, représentant,
+              Briouze (Orne).</p>
+            <p>Offre du camarade A. Lacotas, représentant à Azerat (Dordogne). Bordeaux vieux A. C.,
+                11<hi rend="superscript">°</hi>, rouge ou blanc, le litre nu, congé compris, départ,
+              70 francs.</p>
+            <p>Liste complète des vins A. C., de l'Union Vinicole sur demande et échantillon
+              gratuit.</p>
+            <p>Pour apprécier les vins fins, il faut leur donner un minimum de temps de bouteilles;
+              pour les Bordeaux, de six mois à un an, et surtout ne jamais tirer au fût.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">COTISATIONS</head>
+            <p>Nous rappelons à nos camarades que la cotisation de membre de I'U.A.C. ( 200 fr.) est
+              payable le 1<hi rend="superscript">er</hi> janvier, pour l'année en cours.</p>
+            <p>De nombreux camarades ne se sont pas encore acquittés de ce paiement. Afin d'éviter
+              les frais d'un rappel individuel, nous demandons instamment à tous les retardataires
+              de régler les 200 francs que représentent la cotisation annuelle des membres de
+              l'U.A.C.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">COTISATIONS ORDINAIRES ( 200
+              francs) Reçues du 17 décembre au 31 janvier inclus</head>
+            <p>Adam Ernest, Alhony Ernest, Aldrin René, Alessandri François, Anquetil Pierre,
+              Ansanay Rioud, Armando Mario, Armet Joseph, Arnaud André, Arribat Léon, Aubin Paul,
+              Augé Jean, Atlani Lucien, Auliae Antoine, Avizou Elie, Ayma Albert.</p>
+            <p>Babel André, Babert Roger, Bac Isidore, Ballay Louis, Barbe Albert, Barbier Eugène,
+              Barde Cyprien, Bardonnet Marcel, Barthélemy Etienne, Barriol Gaston, Bathelier
+              Félicien, Baudin Pierre, Baudon Lucien, Beaumont René, Beauval Joseph, Becker
+              Augustin, Béguin Irénée, Belle Louis, Bendriès Paul, Benharoche Maurice, Bernard
+              Michel, Bernheim Georges, Bertrand Pierre, Bescond Pierre, Bétoux Maurice, Beucher
+              Adrien, Biblocque Paul, Bibois Jean, Birkner Joseph, de Bizemont André, Blayes Paul,
+              Blazyk Joseph, Bæhringer Michel, Bæhrer Charles, Bœuf André, Bœzennec Pierre, Bomy
+              Maurice, Bondon Gaston, Bordet Jean, Bordier Henri, Borel René, Bouche René,
+              Bouchepillon Prosper, Bouisson Denis, Boulander Auguste, Bouley Eugène, Bourdieu
+              Marius, Bourdon Louis, Bourlès Nicolas, Boutes Aimé, Boutier André, Boutloup Roger,
+              Bouvier Marcel Bouzit Belkacem, Bozec Joseph, Brassac Henri, Braud Maurice, Bridet
+              Francisque, Briel Eugène, Brottes Henri, Bruley Gabriel, Brumin Georges, Brunon
+              Victor, Buckel Georges, Buisson Louis, Buissonnière Jean, Buonsolazzi Pierre, Burlot
+              Henri, Burnier Jean-Claude, Buron Auguste, Busquet Pierre.</p>
+            <p>Cagneul François, Cailleau Alphonse, Canler Jean, Carpentier Emile, Casile Robert,
+              Cassan Valentin, Castagne Théodore, Catoire Marcel, Cayrel Joseph, Chagniaud Georges,
+              Chalas Raoul, Chambert Louis, Chapput Robert, Charriaut Marcel, Chastaing Adrien,
+              Chemin Joseph, Cheutet Jean, Choron Pierre, Chotard Valentin, Chouquet Eugène,
+              Chusseau Clément, Cladier Charles, Clément Pierre, Clément <pb n="17"/>
+              <note type="foliation">— 15 —</note> René, Cochain Jean, Colombel Maurice, Conan
+              Albert, Coniat Edouard, Copier Raymond, Corrazza Alexandre, Correger Abel, Corriol
+              Marius, Couesnon Ange, Coupez Henri, Coutarel Jean, Couteau Henri, Coutin Lucien,
+              Crépin Constant, Cuiot Paul.</p>
+            <p>Dargegen Xavier, Daridan Gaston, Darnaud-Guilhem, Daumas Pierre, Daurios Fernand,
+              Dautel Maurice, Mme Debeuns Andrée ( 400 fr.), Defour Louis, Defranceschi Jean,
+              Delahaie Emile, Delaplace Léon, Delattre Léon, Delcey François, Demontpion François,
+              Dentroux Joseph, Deplus Georges, Deprun Marcel, Descamp André, Dessaix François,
+              Dessartre Maurice, Devarrieux Emile, Dilinger Eugène, Distinguin Alphonse, Doare
+              Claude, Drouhin Ernest, Dubois Aimé, Duchesne Georges, Duclos Jules, Drion Georges,
+              Dubarry Serge, Dubreuil Olivier, Dufresne Charles, Dumontet Jean, Duplan Ferdinand,
+              Duplan Jean-Baptiste, Dupret Lucien, Dupuy Pierre, Duquenne Gaëtan, Durand Jean.</p>
+            <p>Escala Jacques, Evanno Alphonse, Evrard Auguste, Eychenne Etienne.</p>
+            <p>Fabre Antoine, Fauvergne Léon, Felgeirolles Henri, Félix Marius, Ferbos Paul,
+              Ferraris René, Feutre Louis, Figon Maurice, Fillère Félix, Fleury Julien, Fondement
+              Louis, Fontaine Georges, Forestier Jean, Fouasse Charles, Veuve François, Fraysse
+              Félix, Frazdi Rachid, Frécault Philippe, Frémiot Augustin.</p>
+            <p>Garibaldi Séraphin, Gatuing Bertrand, Gay Marc, Genieis Camille, Gentel Marcel,
+              Gérard Paul, Georges Aimé, Ghiste Gaston, Gilles Raoul, Gilles Robert, Ginestet
+              Gaston, Girard Jules, Gloaguen Pierre, Gohin Constant, Gomy Georges, Gorce Pierre,
+              Gondaillier Lucien, Goudal Jules, Gouy Pierre, Guignard Pierre, Guignon Frédéric,
+              Guillemin Gaston, Guillon Edouard, Guillouche Lucien, Guinot Jean, Guitton François,
+              Grabianski Michel, Granger Jean ( 400 fr.), Grignon Ernest, Grillet Aubert, Grimm
+              Emile, Guy Louis, Guyennet Joseph, Guyot André.</p>
+            <p>Haenel Geoffroy, Halter Georges, Hauser André, Hautin Henri, Henry Sébastien, Herb
+              Marcel, Hervoir Albéric, Hœrtel Henri, Houdre Raymond, Houé René, Houot Louis, Hubert
+              Georges, Huc Pierre, Humez Victor, Huot Marcel.</p>
+            <p>Ibrelisle Albert. Jacquart André, Jacquet Pierre, Janson Charles, Josset Alexis, Jung
+              Paul.</p>
+            <p>Kalfous Albert, Karli Charles, Khadraoui Cheich, Kniebihli Louis, Kuster
+              François.</p>
+            <p>Labatut Marcelin, Labonde Bernard, Lachatre Emile, Lacombe Joseph, Lafon Pierre,
+              Laforest Jean, Lajous Henri, Lalle René, Lallemant Georges, Lamaury Pierre, Lambert
+              Philippe, Lamy Ernest, Lannuzel Félix, Laporte Guy, Lassale Auguste, Laurent Etienne,
+              Lautwein Edouard, Lebard Jean, Le Borgne Jean, Lecardonnel Jean, Ledieu Louis,
+              Lefebvre Oscar, Le Floch Joseph, Lefrang André, <pb n="18"/>
+              <note type="foliation">— 16 —</note> Legrand Joseph, Legrand Léonce, Lehmann Marcel,
+              Lemaire Georges, Lemarie Georges, Lembeye Jean, Le Mené Joseph, Le Moal François,
+              Lemoine André, Lennox Louis, Leproust Emile, Leriche Henri, Leroux Emile, Le Roux
+              François, Le Teuff Julien, Levesque Lucien, Lévy Mimoun, Liagre Arthur, Lopital
+              Sébastien, Loucif Hacine, Luc Julien.</p>
+            <p>Maillet Pierre, Maison René, Mallol Noël, Malpel Henri, Malterre Maurice, Marion
+              Marcel, Marsal Lucien, Marsaleix Pierre, Marteau Guy, Mathey Emile, Martin Adrien,
+              Martin Jean, Martin Louis, Mas Elie, Massonnet Jean, Mathey Adolphe, Mathieu Paul,
+              Mathieu Robert, Matinaud Joseph, Maubert Alexandre, Mauduit Pierre, Mazaudier
+              François, Meunier Georges, Meyer Léon, Meyer Lucien, Mme Michel Denise, Michot
+              Alexandre, Miniér Georges, Minzior Laurent, Mirouze Jules, Mithouard Marcel, Mohamed
+              Ben El Mamounc, Moisan Mathurin, Moiraud Marius, Mombœuf Adrien, Montalan Auguste,
+              Montemont Jean, Montet Jean, Montorcier Antoine, Moquais Gustave, Morand Henri, Moret
+              Marcel, Morin Georges, Morin Henri, Morlet André, Moutic Raymond, Muller Albert,
+              Muller Emile, Munch Jules.</p>
+            <p>Neveux Gilbert, N'Doye Oumar, Niant Simon, Nicolaï Pierre, Nicolas Maurice, Niel
+              Jules, Noël Henri-Paul, Oliviero Gildas, Ollari Jean, Ottenwalter René.</p>
+            <p>Pacome Pierre, Pallier Joseph, Palmaro Louis, Papadopoulo Roland, Papin Elie,
+              Papineau Marcel, Paradis Gabriel, Paris Gustave, Parvillers Léopold, Pascal René,
+              Pauvert Pierre, Pernod René, Pernoo Albert, Péron Joseph, Perrais René, Perrotey Jean,
+              Perthuis Charles, Petit Alexandre, Petitdidier Auguste, Peyrefitte Léopold, Pialat
+              Pierre, Pic Julien, Picaud Louis, Pichonneau Charles, Picot Georges, Pifaudat Emile,
+              Planchon René, Ploy Pierre, Pluchot Antoine, Polette Louis, Porcheron Alphonse,
+              Putinier Jacques.</p>
+            <p>Raynal Pierre, Reboul Emile, Renard Emile, Renaud Charles, Renauld Charles, Reynes
+              Louis, Richard Henri, Rieux François, Riffaud Edouard, Rio Jean-Marie, Risser René,
+              Robineau Albert, Rochiccioli Jérôme, Rohken Frédéric, Roque Léonce, Rousse Clovis,
+              Rousselet Jean, Roy Georges, Ruiz Pierre, Ruppert Robert.</p>
+            <p>Salmon Maurice, Salvat Joseph, Sampite Henri, Sanchez Antoine, Santini Ferdinand,
+              Schneider François, Schneider Georges, Schott Alfred, Serdobbel Paul, Severac Auguste,
+              Sidos Meslier, Simon René, Simonet Auguste, Sindt François, Soquet Michel, Spelkens
+              Edouard, Spenle Robert, Stoldick Pierre.</p>
+            <p>Tailpied Marius, Tarraucle Raymond, Tarte Georges, Teillet Alphonse, Ternois Léon,
+              Terrier Henri, Thévenet Paul, Thibaut Léonce, Thomas Alexis, Thoumelin Lucien, Thury
+              Joanny, Tonnadre Jean, Topin Jules, Tourneux Maurice, Toutain Lucien, Touzet Joseph,
+              Truquin Etienne, Tuaillon René.</p>
+            <p>Uginet Léon.</p>
+            <pb n="19"/>
+            <note type="foliation">— 17 —</note>
+            <p>Vabois Jacques, Vachon Charles, Vallery René, Véron Louis, Vial Jean-Baptiste,
+              Vialatte Emile, Vichet Marius, Vidal AdolphePierre, Viel Léopold, Vilain Justin,
+              Villain Daniel, Vivin Albert.</p>
+            <p>Winnlen Eugène. Yvon Marcel. Zimmermann Louis. Rachats de cotisation: Backert
+              Auguste, Hénaux Célestin, Midenet Edouard.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">COTISATIONS CAISSE DE
+              PREVOYANCE</head>
+            <p>Nous rappelons à nos camarades adhérents à la Caisse de Prévoyance, que la cotisation
+              est payable d'avance pour l'année suivante, le 11 NOVEMBRE de chaque année.</p>
+            <p>Beaucoup d'adhérents à cette Caisse n'ont pas encore effectué leur versement. Nous
+              leur demandons de bien vouloir se mettre à jour dans le plus bref délai.</p>
+            <p>Anquetil Pierre ( 500 fr.), Arnaud André ( 500 fr.), Aubin Paul ( 500 fr.), Atlani
+              Lucien ( 275 fr.).</p>
+            <p>Ballay Louis ( 500 fr.), Barthélemy Etienne ( 500 fr.), Bathelier Félicien ( 500
+              fr.), Battesti Pierre ( 500 fr.), Baudon Lucien ( 500 fr.), Béguin Irénée ( 500 fr.),
+              Benéat Yves ( 500 fr.), Bordet Jean ( 325 fr.), Bouisson Denir ( 500 fr.), Brunin
+              Georges ( 500 fr.), Brunon Victor ( 500 fr.), Buckel Georges ( 500 fr.).</p>
+            <p>Cagneul François ( 500 fr.), Cance Jules ( 500 fr.), Cayrel Joseph ( 500 fr.),
+              Céré-Labourdette ( 500 fr.), Chagniaud Georges ( 500 fr.), Chelle Gilbert ( 500 fr.),
+              Cheutin Jules ( 500 fr.), Chotard Valentin ( 275 fr.), Chusseau Clément ( 500 fr.),
+              Cladier Charles ( 1.000 fr.), Clément Pierre ( 500 fr.), Conan Albert ( 500 fr.),
+              Copier Raymond ( 275 fr.), Corrazza Alexandre ( 500 fr.), Coupez Henri ( 500 fr.),
+              Courtas Emile ( 500 fr.), Couteau Henri ( 500 fr.), Curbières Célestin ( 500 fr.).</p>
+            <p>Daumas Pierre ( 500 fr.), Delahaie Emile ( 500 fr.), Deprun Marcel ( 275 fr.),
+              Dessartre Maurice ( 500 fr.), Devarrieux Emile ( 500 fr.), Dumontet Jean ( 500 fr.),
+              Duplan Ferdinand ( 500 fr.), Duplan JeanBaptiste ( 500 fr.), Dupuy Pierre ( 500
+              fr.).</p>
+            <p>Erb Jules ( 500 fr.). Fauvergue Léon ( 400 fr.), Feutre Louis ( 500 fr.),
+              Fleeniakoska René ( 500 fr.), Fondement Louis ( 500 fr.), Fraysse Félix ( 500
+              fr.).</p>
+            <p>Gambert François ( 500 fr.), Garceau Augustin ( 500 fr.), Gérard Paul ( 500 fr.),
+              Ghiste Gaston ( 400 fr.), Gilles Raoul ( 500 fr.), Gobillard Henri ( 500 fr.), Gohin
+              Constant ( 500 fr.), Guiton François ( 500 fr.), Grelier Pierre ( 500 fr.).</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+            <p>Hauser André (400 fr.), Hervoir Albéric (500 fr.), Holweck Georges (500 fr.), Houdre
+              Raymond (500 fr.), Houot Louis (500 fr.), Hugues Daniel (500 fr.).</p>
+            <p>Jacquet Pierre (500 fr.), Jammet Joseph (500 fr.), Josset Alexis (500 fr.), Jung Paul
+              (500 fr.).</p>
+            <p>Lacour Laurent (500 fr.), Lajous Henri (500 fr.), Lamy Ernest (500 fr.), Lapôtre Léon
+              (500 fr.), Larde Hippolyte (500 fr.), Ledieu Louis (500 fr.), Lefebvre Oscar (500
+              fr.), Legrand Léonce (500 fr.), Letellier Michel (500 fr.), Lévy Mimoun (500 fr.),
+              Louesdon Gabriel (500 fr.), Lucas Alphonse (500 fr.).</p>
+            <p>Maison René (500 fr.), Marion Marcel (500 fr.), Marsal Lucien (400 fr.), Martin Jean
+              (500 fr.), Martin Louis-Charles (500 fr.), Mas Elie (500 fr.), Matinaud Joseph (500
+              fr.), Maubert Alexandre (500 fr.), Moisan Mathurin (500 fr.), Momboeuf Adrien (500
+              fr.), Montalan Auguste (500 fr.), Moret Marcel (500 fr.).</p>
+            <p>Pallier Joseph (500 fr.), Palmaro Louis (500 fr.), Papineau Marcel (500 fr.), Paradis
+              Gabriel (500 fr.), Petitdidier Auguste (500 fr.), Pialat Pierre (500 fr.), Pichonneau
+              Charles (500 fr.), Prune Arthur (500 fr.).</p>
+            <p>Renard Emile (500 fr.), Renauld Charles (500 fr.), Reynes Louis (500 fr.),
+              Rochiccioli Jérôme (500 fr.), Rohken Frédéric (500 fr.), Roque Léonce (275 fr.),
+              Rouquette Pierre (500 fr.).</p>
+            <p>Séguy Antonin (500 fr.), Séverac Auguste (500 fr.), Stéphan Jean (500 fr.), Stoldick
+              Pierre (500 fr.).</p>
+            <p>Teillet Alphonse (500 fr.), Thibaut Léonce (500 fr.), Toutain Lucien (500 fr.),
+              Touzet Joseph (500 fr.).</p>
+            <p>Vallery René (500 fr.), Vallier Etienne (500 fr.), Vidal AdolphePierre (500 fr.),
+              Vidal Etienne (500 fr.), Vilain Justin (500 fr.), Villain Daniel (275 fr.), Villefayot
+              Léon (500 fr.), Vivin Albert (400 fr.).</p>
+            <p>Winnlen Eugène (500 fr.). Zimmermann Louis (500 fr.).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">COTISATIONS VOLONTAIRES</head>
+            <p>Adam Ernest (200 fr.), Aldrin René (300 fr.), Alessandri François (300 fr.), Alloi
+              Jean (200 fr.), Arlaud Louis (200 fr.), Armando Mario (300 fr.), Armet Joseph (300
+              fr.), Angé Jean (300 fr.), Atlani Lucien (25 fr.), Auliae Antoine (100 fr.).</p>
+            <p>Barbe Albert (300 fr.), Barday Claude (500 fr.), Barde Cyprien (300 fr.), Bardonnet
+              Marcel ( 300 <hi rend="superscript">fr</hi>_{4} ), Barthélemy Etienne ( 200 fr.),
+              Beaumont René ( 300 fr.), Becker Augustin ( 300 fr.), Benharoche Maurice ( 800 fr.),
+              Bernheim Georges ( 200 fr.), Bertau René (200 fr.), Betoux Maurice ( 300 fr.), Beucher
+              Adrien ( 300 fr.), Veuve Bève <pb n="21"/>
+              <note type="foliation">— 19 —</note> (200 fr.), Blayes Paul (300 fr.), Boehrer Charles
+              (300 fr.), Bœuf André (300 fr.), Bœzennec Pierre (800 fr.), Bondon Gaston (200 fr.),
+              Bordier Henri (300 fr.), Borel René (300 fr.), Bouche René (300 fr.), Boulanger
+              Auguste (200 fr.), Boutes Aimé (300 fr.), Boutier André (300 fr.), Bozec Joseph (300
+              fr.), Brassac Henri (100 fr.), Bridet Francisque (800 fr.), Brunin Georges (100 fr.),
+              Burlot Henri (100 fr.), Burnier Jean-Claude (100 fr.), Busquet Pierre (800 fr.).</p>
+            <p>Veuve Cabasson (500 fr.), Cado Pierre (250 fr.), Carpentier Emile (300 fr.), Casile
+              Robert (1.000 fr.), Veuve Castor (200 fr.), Catillon Georges (100 fr.), Catoire Marcel
+              (1.000 fr.), Chagniaud Georges (100 fr.), Chalas Raoul (300 fr.), Chanut Charles (100
+              fr.), Veuve Chapouillie (50 fr.), Chapput Robert (200 fr.), Chemin Joseph (300 fr.),
+              Cheutet Jean (600 fr.), Cheutin Jules (200 fr.), Chomarat Jean (870 fr.), Choron
+              Pierre (200 fr.), Chotard Valentin (100 fr.), Cladier Charles (300 fr.), Cochain Jean
+              (300 fr.), Copier Raymond (200 fr.), Corriol Marius (200 fr.), Coublucq Jean (200
+              fr.), Veuve Coulaud (200 fr)., Coulon Elie (1.000 fr.), Coutin Lucien (1.600 fr.),
+              Veuve Marcelin Croise (300 fr.).</p>
+            <p>Daurios Fernand (300 fr.), Dautel Maurice (100 fr.), Derour Louis (300 fr.),
+              Defranceschi Jean (300 fr.), Veuve Joseph Delacourt (500 fr.), Delahaie Emile (100
+              fr.), Delaplace Léon (300 fr.), Delattre Léon (1.800 fr.), Demontpion François (200
+              fr.), Dentroux Joseph (300 fr.), Veuve Deruyck (200 fr.), Descamp André (800 fr.),
+              Dessais François (300 fr.), Dessartre Maurice (300 fr.), Doare Claude (300 fr.), Doré
+              Léon (2.000 fr.), Veuve Douale (200 fr.), Dubois Aimé (300 fr.), Duchesne Georges (800
+              fr.), Veuve Douet (200 fr.), Drion Georges (50 fr.), Dubarry Serge (500 fr.), Dubreuil
+              Olivier (600 fr.), Veuve Duffaut (200 fr.), Duplan Baptiste (300 fr.), Dupuy Pierre
+              (200 fr.).</p>
+            <p>Erb Jules (200 fr.), Escala Jacques (800 fr.), Evanno Alphonse (800 fr.), Evrard
+              Auguste (300 fr.).</p>
+            <p>Veuve Fagnon Léon (200 fr.), Farrant Adrien (1.000 fr.), Figon Maurice (300 fr.),
+              Fillère Félix (100 fr.), Veuve Fontaine (200 fr.), Fouasse Charles (225 fr.), Veuve
+              Francart (200 fr.), Mme Veuve François (1.000 fr.), Frécault Philippe (100 fr.),
+              Freydier Raoul (300 fr.).</p>
+            <p>Gambert François (200 fr.), Garceau Augustin (500 fr.), Garibaldi Séraphin (200 fr.),
+              Veuve Gauchet (200 fr.), Mlle Gautier (200 fr.), Gay Marc (300 fr.), Gentel Marcel
+              (300 fr.), Gérard Paul (300 fr.), Veuve Gesta (100 fr.), Ginestet Gaston (100 fr.),
+              Gobillard Henri (200 fr.), Gohin Constant (200 fr.), Gomy Georges (300 fr.),
+              Goudaillier Lucien (200 fr.), Veuve Guenivet (50 fr.), Veuve Guérin (500 fr.),
+              Guillemin Gaston (300 fr.), Guillon Edouard (300 fr.), Granger Jean (1.100 fr.),
+              Grignon Ernest (100 fr.), Grimm Emile (800 fr.).</p>
+            <p>Hauser André (225 fr.), Veuve Hénaff (200 fr.), Henry Sébastien (300 fr.), Herb
+              Marcel (300 fr.), Veuve Hesnard (300 fr.), Heuillet Joseph (200 fr.), Holweck Georges
+              (200 fr.), Houdre Raymond (800 fr.), Hubert Georges (100 fr.), Huc Pierre (100
+              fr.).</p>
+            <pb n="22"/>
+            <note type="foliation">— 20 —</note>
+            <p>Ibrelisle Albert ( 800 fr .). Janson Charles ( 300 fr .), Veuve Jolis ( 200 fr .),
+              Jung Paul ( 100 fr .). Kalfous Albert ( 300 fr .). Lachatre Emile ( 500 fr .), Lafon
+              Pierre ( 300 fr .), Veuve Lallemant ( 200 fr.), Lamaury Pierre ( 200 fr.), Lamy Ernest
+              ( 100 fr .), Vve Lanne ( 100 fr.), Vve Lantres ( 300 fr.), Laporte Guy ( 800 fr.),
+              Lassalle Auguste ( 200 fr.), Laurent Etienne ( 300 fr.), Lecomte Fernand ( 300 fr.),
+              Legrand Léonce ( 50 fr .), Lehmann Marcel ( 100 fr .), Lemarie Georges ( 500 fr .),
+              Lemlieye Jean ( 300 fr .), Le Moal François ( 300 fr .), Lemoine André ( 400 fr .),
+              Lennox Louis ( 300 fr .), Leriche Henri ( 100 fr.), Veuve Le Roux ( 500 fr.),
+              Letellier Michel ( 200 fr.), Veuve Lévêque Jacques ( 300 fr .), Levesque Lucien ( 300
+              fr .), Lévy Mimoun ( 250 fr.), Lochet Roger ( 500 fr.), Loucif Hocine ( 100 fr .),
+              Louesdon Gabriel ( 200 fr.), Lutz Victor ( 1.000 fr.).</p>
+            <p>Veuve Magat ( 200 fr.), Mallol Noël ( 300 fr.), Marion Marcel ( 50 fr.), Marsal
+              Lucien ( 400 fr .), Marteau Guy ( 1.000 fr.), Mathey Emile ( 800 fr.). Martin Louis (
+              300 fr.), Vve Masson ( 200 fr.), Mathieu Robert ( 300 fr.), Maubert Alexandre ( 100
+              fr.), Mauduit Pierre ( 800 fr.), Mlle Maurer Madeleine ( 200 fr.), Veuve Ménager ( 200
+              fr .), Meyer Lucien ( 200 fr.), Mme Michel Denise ( 800 fr .), Veuve Michel ( 300
+              fr.), Montorcier Antoine ( 2.050 fr.), Moquais Gustave ( 50 fr .), Morin Henri ( 300
+              fr.), Morlet André ( 800 fr .), Neveux Gilbert ( 800 fr.), N'Doye Oumar ( 400 fr.),
+              Veuve G. Nicolas ( 500 fr.), Niel Jules ( 300 fr.).</p>
+            <p>Ollari Jean ( 100 fr.), Ottenwalter René ( 500 fr.). Pacome Pierre ( 300 fr.),
+              Papadopoulo Roland ( 100 fr.), Papineau Marcel ( 50 fr.), Passerat Joseph ( 700 fr.),
+              Pauvert Pierre ( 300 fr.), Pernoo Albert ( 400 fr.), Péron Joseph ( 50 fr.), Perthuis
+              Charles ( 300 fr.), Pialat Pierre ( 300 fr.), Pialoux Henri ( 200 fr.), Pinet Jean (
+              500 fr.), Planchon René ( 40 fr.), Pluchot Antoine ( 400 fr.), Putinier Jacques ( 300
+              fr.).</p>
+            <p>Veuve Raybaud ( 200 fr.), Raynal Pierre ( 300 fr.), Reboul Emile ( 300 fr.), Renauld
+              Charles ( 100 fr.), Revol Claudius ( 200 fr.), Reynes Louis ( 100 fr.), Richard Henri
+              ( 100 fr.), Robineau Albert ( 300 fr.), Rouquette Pierre ( 500 fr.), Rousse Clovis (
+              200 fr.), Roy Georges ( 100 fr.), Ruiz Pierre ( 200 fr.), Vve Sabin ( 200 fr.),
+              Sanchez Antoine ( 100 fr.), Sanguine Jean ( 200 fr.), Schneider Georges ( 300 fr.),
+              Simonet Auguste ( 300 fr.), Sindt François ( 300 fr.), Spelkens Edouard ( 1.800 fr.),
+              Spenle Robert ( 300 fr.), Tailpied Marius ( 500 fr.), Teillet Alphonse ( 500 fr.),
+              Terrier Henri ( 300 fr.), Thévenet Paul ( 300 fr.), Thury Joanny ( 500 fr.), Thiba
+              Ammed Ben Mohamed ( 500 fr.), Tonnadre Jean ( 300 fr.), Tourneux Maurice ( 500 fr.),
+              Tourneux Maurice ( 300 fr.).</p>
+            <p>Vabois Jacques ( 50 fr.), Vallier Etienne ( 300 fr.), Vidal AdolphePierre ( 300 fr.),
+              Vigny François ( 1.000 fr.), Vilain Justin ( 300 fr.), Voltz Louis ( 400 fr.).</p>
+            <p>Yvon Marcel ( 800 fr.).</p>
+            <pb n="23"/>
+            <note type="foliation">— 21 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">COTISATIONS VOLONTAIRES
+              DISCOTHEQUE</head>
+            <p>Aubin Paul ( 500 fr .). Bendries Paul ( 300 fr .), Bescond Pierre ( 300 fr .), De
+              Bizemont André ( 300 fr .), Blazyck Joseph ( 300 fr .).</p>
+            <p>Chalas Raoul ( 1.000 fr .), Colombel Maurice ( 500 fr .), Coupez Henri ( 500 fr
+              .).</p>
+            <p>Darnaud-Guilhem Jean (215 fr.), Dilinger Eugène (800 fr.), Distinguin Alphonse (
+              1.000 fr .).</p>
+            <p>Fauvergne Léon ( 500 fr .), Figon Maurice ( 500 fr .). Mlle Gantier ( 300 fr .), Gay
+              Marc ( 1.000 fr .), Gouy Pierre ( 1.800 fr .), Guignard Pierre ( 800 fr .), Grabianski
+              Michel ( 800 fr .), Grelier Pierre ( 500 fr .).</p>
+            <p>Houe René ( 300 fr .). Kalfous Albert ( 500 fr .). Lemoine André ( 400 fr .), Lévy
+              Mimoun ( 250 fr .). Maillet Pierre ( 300 fr .), Martin Jean ( 300 fr .), Morand Henri
+              ( 500 fr .), Munch Jules ( 300 fr .).</p>
+            <p>Noël Henri-Paul ( 300 fr .). Pallier Joseph ( 150 fr .), Paris Gustave ( 200 fr .),
+              Perck Valentin ( 500 fr .), Pernod René ( 500 fr .).</p>
+            <p>Revol Claudius ( 1.000 fr .), Ruiz Pierre ( 600 fr .), Ruppert Robert ( 300 fr
+              .).</p>
+            <p>Sampite Henri ( 250 fr .). Truquin Etienne ( 300 fr .). Villain Daniel ( 215 fr
+              .).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">COTISATIONS VOLONTAIRES
+              BIBLIOTHEQUE</head>
+            <p>Bondon Gaston ( 300 fr .). Casile Robert ( 300 fr .), Cornet Joseph ( 300 fr .).
+              Veuve François Dallet ( 1.000 fr .), Dupret Lucien ( 300 fr .). Erb Jules ( 300 fr .).
+              Guillam Edmond ( 1.000 fr .), Guillouche Lucien ( 300 fr .), Guyot André ( 300 fr
+              .).</p>
+            <p>Hénaux Célestin ( 500 fr .). Jean Pierre ( 200 fr .). Laforest Jean ( 300 fr .).
+              Mombœuf Adrien ( 300 fr .). Noël Henri-Paul ( 300 fr .). Pallier Joseph ( 150 fr .).
+              Sampite Henri ( 250 fr .), Spenle Robert ( 500 fr .). Nous sommes très sensibles aux
+              cotisations volontaires que certains camarades veulent bien nous adresser ; leur geste
+              de solidarité nous prouve leur sentiments d'attachement à l'U.A.G. et nous les en
+              remercions bien vivement.</p>
+            <pb n="24"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents : le Maréchal et Mme la Maréchale JUIN. Vice-Président : M* MASSON.
+              Vice-Présidentes : Mmes CONTAMIN et DU BOS. Secrétaire : M. COLLIER. Vice-Présidente
+              honoraire : Mlle ARBEL. Trésorier honoraire : M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, M* BRULLIARD, MM. DE CHAUMONTQUITRY, CHEPFER, CLAVERIE, Mme COLLIER,
+              D' COUTELA, Mme DIAN, Mlle FRON, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle
+              LEDOUX, D' RICORD, Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD,
+              délégué au Mexique, le Président de l'Association des Anciens Combattants Français en
+              Argentine.</p>
+          </div>
+
+          <fw>Le Gerant: G. L'EVESQUE Imp. Dubois et Bauer. - Paris</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

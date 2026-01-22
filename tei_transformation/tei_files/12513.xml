@@ -1,0 +1,825 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 36ème année 1957 n°113</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Droits des veuves</title>
+        <title type="topic">Bibliothèque Braille</title>
+        <title type="topic">Livre parlé</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Bien-être social</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15 cm ; 20 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#veuves">Veuves</term>
+          <term ref="#braille">Braille</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#securite-sociale">Securité sociale</term>
+          <term ref="#allocations">Allocations</term>
+          <term ref="#sections-locales">Sections locales</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel "Pour les Aveugles par les Aveugles" de l'Union des Aveugles de
+          Guerre informe ses membres sur divers sujets d'intérêt, notamment les pensions et les
+          droits des veuves, en particulier les taux de pension et les allocations spéciales
+          disponibles. Il met en avant les services offerts par l'Union, tels que la bibliothèque
+          Braille et le "Livre Parlé", et relate les succès de ses membres, notamment aux examens.
+          Le bulletin comprend également des nouvelles des sections locales, des annonces de
+          mariages, de naissances et de décès, ainsi que des petites annonces. Il rend compte des
+          efforts de l'Union pour défendre les intérêts de ses membres et améliorer leur
+          bien-être.</p>
+      </abstract>
+      <creation>
+        <date when="1957-07-01">01/07/1957</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOS PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h5">LES DROITS DES VEUVES</ref>
+          </item>
+          <item>
+            <ref target="#h6">DROIT A PENSION DES VEUVES ET VICTIMES CIVILES</ref>
+          </item>
+          <item>
+            <ref target="#h7">BIBLIOTHÈQUE</ref>
+            <list>
+              <item>
+                <ref target="#h8">ROMANS</ref>
+              </item>
+              <item>
+                <ref target="#h9">SCIENCES — MATHEMATIQUES</ref>
+              </item>
+              <item>
+                <ref target="#h10">ENSEIGNEMENT</ref>
+              </item>
+              <item>
+                <ref target="#h11">RETRANSCRIPTION</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h12">"LE LIVRE PARLÉ"</ref>
+            <list>
+              <item>
+                <ref target="#h13">APPAREILS D'ECOUTE DES DISQUES</ref>
+              </item>
+
+              <item>
+                <ref target="#h14">REMERCIEMENTS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h15">SUCCES AUX EXAMENS</ref>
+          </item>
+          <item>
+            <ref target="#h16">LA SAISON DES VACANCES</ref>
+          </item>
+          <item>
+            <ref target="#h17">A L'ATTENTION DES MASSEURS</ref>
+          </item>
+          <item>
+            <ref target="#h18">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h19">REUNION DE LA SECTION DU FINISTERE du 22 juin 1957 à
+                  Quimper</ref>
+              </item>
+              <item>
+                <ref target="#h20">SECTIONS DE LORRAINE, MEUSE, VOSGES</ref>
+              </item>
+              <item>
+                <ref target="#h21">SECTION REGIONALE DE LYON</ref>
+              </item>
+              <item>
+                <ref target="#h22">SECTION REGIONALE DE HAUT-RHIN, BAS-RHIN, MOSELLE</ref>
+              </item>
+              <item>
+                <ref target="#h23">REUNION ANNUELLE DE LA SECTION INTERDEPARTEMENTALE DU LOT ET DU
+                  LOT-ET-GARONNE</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h24">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h25">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h26">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h27">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h28">COTISATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h29">COTISATIONS ORDINAIRES (200 francs) reçues du 7 juin au 6 juillet
+                  inclus</ref>
+              </item>
+              <item>
+                <ref target="#h30">COTISATIONS CAISSE DE POEVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h31">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h32">COTISATION VOLONTAIRE BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h33">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h34">PETITES ANNONCES</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">36e Année. — N° 113</fw>
+          <fw type="header">
+            <hi rend="underline">JUILLET 1957</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Nos pensions.</item>
+                    <item>Les droits des veuves.</item>
+                    <item>Bibliothèque. Discothèque.</item>
+                    <item>Succès aux examens.</item>
+                    <item>Dans nos sections.</item>
+                    <item>Mariages. Naissances. Décès.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. IZAAC. Vice-Présidents : H. GUESPEREAU. E. GUILLAM, G. MULLER.</p>
+            <p>Secrétaire Général : H. AMBLARD. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>MM. P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, R. COUESNON, P. DERUNDER, A. FAUVEL, R. FAVRET, Y. GUIBERT, Y. JEZEQUEL, A.
+              LAFFARGUE, D. LEVEAU, R. MATHIEU, J. NICOLAI, A. PAGENEL, C. PANTERNE, M. RAVELEAU, G.
+              ROBIN, G. ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>36e Annee. - N° 113 JUILLET 1957</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOS PENSIONS</head>
+            <p>Dans les informations que nous donnons mensuellement à nos camarades, nous nous
+              efforçons de les tenir au courant des résultats obtenus, ou tout au moins du point où
+              en sont les démarches que nous devons faire pour la réalisation des principaux vœux
+              dont nous souhaitons un prompt aboutissement.</p>
+            <p>On sait depuis longtemps quels sont ces deux vœux : la revalorisation de la cécité et
+              l'amélioration du sort de nos veuves, et nous craindrions d'affronter des reproches
+              pour nos nombreuses répétitions si nous ne connaissions l'esprit de sagesse de nos
+              camarades.</p>
+            <p>Quand nous disons «sagesse», nous n'essayons pas du tout de les exhorter à une
+              patience qui parfois pourrait bien nous manquer à nous-mêmes. Ces tractations sont en
+              effet bien longues et nous pourrions nous demander pourquoi des questions aussi
+              simples ne devraient pas être résolues depuis longtemps.</p>
+            <p>L'une d'elles, la revalorisation de la cécité, faillit être l'objet d'un vote
+              favorable de la part de l'Assemblée Nationale au moment où la question de confiance
+              posée à propos du budget des Anciens Combattants ne recueillit que cinq voix de
+              majorité par le Gouvernement. Depuis lors, toutes les demandes furent remises en
+              question et l'on sait qu'une grande Ccmmission dite «des Vœux» s'est divisée en
+              sous-commissions ayant elles aussi des subdivisions.</p>
+            <p>Nous avons suivi assidûment le travail de la sous-commission des pensions et, si le
+              vœu qui tend à revaloriser la cécité est admis, il fallut des discussions courtoises
+              et serrées au sujet du second vœu, mais, avec des concessions mutuelles, nous
+              parvînmes à une entente. Les représentantes des Associations de Veuves ont montré <pb
+                n="4"/>
+              <note type="foliation">— 4 —</note> là un esprit compréhensif digne des anciens
+              combattants qu'elles pleurent et nous leur savons gré d'avoir saisi quel était le sort
+              particulier de nos compagnes.</p>
+            <p>Maintenant, qu'attendons-nous? - Tout d'abord qu'un nouveau Ministre ait pris place
+              rue de Bellechasse, qu'il se soit familiarisé avec les différents problèmes - et ils
+              sont nombreux qui sont proposés à son examen. Et puis, nous aurons surtout à
+              convaincre un Ministre des Finances qui, nous l'espérons, saura donner satisfaction au
+              moins aux catégories dont les demandes peuvent être réglées facilement.</p>
+            <p>La grande Commission des Vœux n'a pas encore rédigé son rapport. Les Sous-Commissions
+              vont se réunir le 10 juillet et ce sera la période des vacances. Il ne faut donc pas
+              compter avant la rentrée pour parler d'un démarrage sérieux; nous le regrettons, mais
+              nous ne nous fatiguons pas et nous ne nous décourageons pas non plus.</p>
+            <p>Nous pensons à celles qui attendent, dans la médiocrité où elles sont plongées, un
+              peu d'aisance leur rendant une vie possible. C'est là notre but et celui de tous nos
+              camarades et malgré les vicissitudes qu'une situation économique déréglée peut
+              engendrer, nous sommes persuadés que la France peut et doit faire l'effort nécessaire
+              en faveur des grandes victimes de la guerre. H. A.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">LES DROITS DES VEUVES</head>
+            <p>Notre dernière Assemblée générale a apporté, on le sait, le meilleur de son attention
+              sur le sort de nos veuves.</p>
+            <p>Nous désirons tous, en effet, que leur vie, déjà si triste, ne soit pas une vie de
+              misère et il a été remarqué que dans certains cas nos veuves ne connaissaient pas les
+              droits auxquels elles pouvaient prétendre.</p>
+            <p>Taux normal de pension (au-dessous de 60 ans)</p>
+            <p>Au 1<hi rend="superscript">er</hi> mai 1957 Fr. 150.822 Au 1<hi rend="superscript"
+                >er</hi> novembre 159.642</p>
+            <p>Les veuves âgées de plus de 60 ans, ou bien, infirmes ou atteintes d'une maladie
+              incurable, ou entraînant une incapacité permanente de travail, non imposables à
+              l'impôt général sur le revenu, ont droit à la pension au taux dit "exceptionnel » qui
+              est annuellement de : 201.096 fr. à partir du 1<hi rend="superscript">er</hi> mai 1957
+              ; 212.856 fr. à partir du 1<hi rend="superscript">er</hi> novembre 1957.</p>
+            <p>De ces sommes est déduite la cotisation à la Sécurité sociale. De plus, les veuves
+              âgées de 65 ans peuvent demander l'Allocation spéciale de vieillesse (Loi du 10
+              juillet 1952, art. 52), dont le montant annuel est de 34.400 francs.</p>
+            <p>Nous reproduisons ci-après l'article 52, modifié par la loi du 3 avril 1955 (J. O. du
+              4 avril 1955). " Article 52. - Par dérogation aux dispositions de l'alinéa 1<hi
+                rend="superscript">er</hi> de l'article 44, les veuves de guerre titulaire d'une
+              pension servie au titre de l'article L.51, premier alinéa, du Code des Pensions
+              Militaires d'Invalidité et des Victimes de la Guerre, peuvent prétendre au bénéfice de
+              l'allocation spéciale prévue à l'article 42, si elles ne relèvent ni d'une
+              organisation autonome d'allocation vieillesse, ni d'un régime de vieillesse de
+              Sécurité sociale et si le montant de leurs ressources n'excède par an le montant
+              annuel de la pension de veuve de soldat au taux spécial prévu à l'article L51, premier
+              alinéa susvisé, augmenté du montant de l'allocation spéciale ».</p>
+            <p>Pour prétendre à cette allocation, il est donc nécessaire que la veuve qui en ferait
+              la demande ne soit pas assujettie à l'impôt sur le revenu. Si elle possède, par
+              exemple, une petite maison de famille, évaluée à environ 25.000 francs par an, cette
+              somme serait consi- <pb n="6" break="no"/>
+              <note type="foliation">— 6 —</note> dérée comme un revenu si cette maison était louée.
+              Dans ce cas, l'allocation se trouverait réduite en proportion.</p>
+            <p>Les veuves qui seraient en droit de bénéficier de l'allocation spéciale de vieillesse
+              pourraient de même demander le bénéfice de l'allocation supplémentaire de vieillesse
+              instituée par la loi du 30 juin 1956 (Fonds national de Solidarité) dont le montant
+              est de 31.200 fr . par an, à partir de 65 ans.</p>
+            <p>Nous indiquons cependant que les arrérages servis au titre de l'allocation
+              supplémentaire peuvent être recouvrés sur la succession de l'allocataire lorsque
+              l'actif net est égal au moins à 2 millions de francs.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">DROIT A PENSION DES VEUVES ET
+              VICTIMES CIVILES</head>
+            <p>Ainsi qu'il a été indiqué en temps utile, il a été prévu par la loi du 31 décembre
+              1953, article 34, que les veuves des victimes civiles de guerre avaient droit à
+              pension, aux mêmes taux que ceux énoncés ci-dessus et dans les mêmes conditions.</p>
+            <p>Les veuves remariées avant 1941 continuent à percevoir la pension qui était en
+              vigueur à cette époque, c'est-à-dire, 848 francs par an.</p>
+            <p>Les veuves remariées après 1941 n'ont plus droit à pension. Les veuves remariées et
+              redevenues veuves reprennent leurs droits à compter du 1<hi rend="superscript">er</hi>
+              juillet 1956 en totalité.</p>
+            <p>Avant cette date, elles avaient le demi-taux depuis le 1<hi rend="superscript"
+                >er</hi> mai 1954 (Loi du 31 décembre 1953, article 21).</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">BIBLIOTHÈQUE</head>
+            <p>Nous avons le plaisir de prévenir nos lecteurs que le nouveau Catalogue Braille est
+              paru ; nous le tenons à leur disposition au prix de 100 francs.</p>
+            <p>Notre travail se trouverait simplifié si nos lecteurs voulaient bien, d'après ce
+              catalogue, nous adresser <hi rend="italic">une liste d'ouvrages</hi> suivant leur
+              préférence et s'ils utilisent également le Livre Parlé en tenant compte de ce qu'ils
+              auraient pu déjà entendre par ce moyen, de façon à ne pas risquer un double emploi, le
+              cas s'étant déjà produit.</p>
+            <p>Nous leur signalons, de plus, que nous avons fait imprimer séparément en deux
+              bulletins : 1° les ouvrages transcrits en Abrégé et Amplifié ; 2° ceux transcrits en
+              Braille Intégral ; qu'ils nous spécifient donc bien si c'est l'un ou l'autre qu'ils
+              désirent recevoir.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">ROMANS</head>
+              <list>
+                <item>85. — Delaunay (Gabriel).La Nuit sans Aube, 4 Vol. Abrégé.</item>
+                <item>212. — Simon (P.-Henri).Elsinfor, 9 Vol. Amplifié.</item>
+                <item>215. — Christie (Agatha).L'Affaire Prothero(policier), 12 Vol.
+                  Intégral.</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">SCIENCES —
+                MATHEMATIQUES</head>
+              <list>
+                <item>2440 — Fortier (Marcel).Le Roman de l'Énergie atomique, 3 Vol. Abrégé.</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">ENSEIGNEMENT</head>
+              <list>
+                <item>2226. — XXXX. Dictionnaire français-anglais, 2 Vol. Intégral.</item>
+                <item>2626. — XXXX. Dictionnaire anglais-français, 1 Vol. Intégral.</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">RETRANSCRIPTION</head>
+              <list>
+                <item>179. — Flaubert (Gustave).Madame Bovary, 12 Vol. Amplifié.</item>
+                <item>243. — Gide (André).Porte étroite, 5 Vol. Abrégé.</item>
+              </list>
+              <pb n="8"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">"LE LIVRE PARLÉ"</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">APPAREILS D'ECOUTE DES
+                DISQUES</head>
+              <p>Notre Association a fait, au cours des derniers mois, de gros efforts financiers
+                dans l'équipement du nouveau studio. Grâce à des machines d'enregistrement sur
+                disques de haute qualité, des perfectionnements considérables ont été obtenus dans
+                notre fabrication: amélioration très nette du son et durée doublée de l'audition (
+                27 minutes par face au lieu de 14).</p>
+              <p>Il va de soi que le sillonnage de nos nouvelles copies est très fin et implique un
+                soin accru dans le maniement. Nos expéditions sont effectuées désormais avec une
+                double pochette (papier cristal et papier kraft) et nous prions instamment les
+                usagers de nous les retourner avec cette double protection.</p>
+              <p>Autre recommandation importante : veiller à ce que l'aiguille du pick-up soit en
+                excellent état, une aiguille émoussée risquant de ne pas suivre le sillon et de
+                rayer gravement la plaque enregistrée.</p>
+              <p>Il serait souhaitable que, pour assurer la parfaite conservation de la discothèque,
+                parallèlement aux sacrifices pécuniaires de l'U.A.G., chaque auditeur s'équipe
+                lui-même avec un matériel d'écoute neuf ; il existe actuellement des appareils
+                (tourne-disques ou électrophones) à des prix relativement modiques, conçus
+                spécialement pour l'audition des récents "microsillons" du commerce et qui
+                assureraient une conservation parfaite de nos "livres parlés ". Signalons entre
+                autres les "Pathé-Marconi» derniers modèles ( 16,33,45,78 tours) pour lesquels nous
+                pouvons obtenir des réductions intéressantes aux camarades qui nous en feraient la
+                demande. Nous reviendrons sur cette importante question, dont dépend l'avenir de
+                notre "Livre Parlé ", dans les prochains bulletins de l'U.A.G.</p>
+              <pb n="9"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">REMERCIEMENTS</head>
+            <p>Je tiens à remercier très sincèrement tous les camarades qui m'ont fait confiance et
+              qui en votant pour moi, ont assuré mon élection au Conseil d'administration de
+              l'Union. Je remercie également tous mes bons amis qui ont soutenu si amicalement ma
+              candidature.</p>
+            <p>Je suis heureux et fier de pouvoir apporter ma modeste contribution aux efforts
+              déployés par l'équipe de camarades qui travaillent de tout leur coeur à rendre notre
+              chère Union toujours plus accueillante et familiale et qui luttent pour la défense de
+              nos intérêts matériels.</p>
+            <p>Merci encore pour la confiance qui m'a été témoignée, je m'efforcerai d'en être
+              digne.</p>
+            <p>PAGENEL.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">SUCCES AUX EXAMENS</head>
+            <p>Nous prenons plaisir à annoncer que notre jeune camarade Jean Seyssiecq a été reçu
+              aux épreuves des examens de massage, récompense méritée après deux années de travail
+              sérieux.</p>
+            <p>Nous enregistrons également avec joie le succès remporté (mention assez bien) par
+              notre camarade Marcel Prost qui vient de passer brillamment son quatrième Certificat
+              de Méthode Mathématique de la Physique (M.M.P.), lui accordant une licence
+              es-sciences.</p>
+            <p>Nous adressons nos très vives félicitations aux heureux lauréats.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LA SAISON DES VACANCES</head>
+            <p>Nous informons nos camarades que le RESTAURANT de la rue Blanche sera fermé DU 1<hi
+                rend="superscript">er</hi> AU 21 AOUT INCLUS, qui est la période légale des vacances
+              du personnel hôtelier.</p>
+            <p>Cependant, nous nous efforcerons d'assurer le service des chambres pour les CAMARADES
+              SEULEMENT. Vu le personnel réduit, il ne sera pas possible d'accueillir d'autres
+              personnes que les camarades qui auront l'amabilité de prévenir à temps de leur passage
+              dans la maison.</p>
+            <p>Les BUREAUX, y compris les services de la BIBLIOTHEQUE et du LIVRE PARLE, seront
+              fermés tout le mois d'AOUT.</p>
+            <p>Le SECRETARIAT ne sera donc assuré qu'à partir du 1<hi rend="superscript">er</hi>
+              SEPTEMBRE.</p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">A L'ATTENTION DES MASSEURS</head>
+            <p>Nous relevons dans le Journal Officiel du 11 juillet dernier une loi n<hi
+                rend="superscript">°</hi> 57-764 du 10 juillet 1957 modifiant le deuxième alinéa de
+              l'article L. 488 du Code de la Santé publique relatif aux Masseurs
+              Kinésithérapeutes.</p>
+            <p>Nous reproduisons ci-après l'article unique de cette loi. Article unique. - Le
+              deuxième alinéa de l'article L. 488 du Code de la Santé publique est modifié comme
+              suit : "Ce diplôme est délivré par équivalence aux personnes qui justifient, soit de
+              la possession de l'un des brevets ou diplôme d'Etat d'infirmier masseur ou d'infirmier
+              masseur aveugle, délivrés en application du décret du 27 juin 1922 ou du décret du 18
+              février 1938, soit de la possession du brevet d'Etat de masseur médical institué par
+              le décret du 9 février 1944, soit de la possession de l'autorisation définitive
+              d'exercer le massage médical, délivrée en application de l'article 8 de la loi du 15
+              janvier 1943. »</p>
+            <pb n="11"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">DANS NOS SECTIONS</head>
+            <p>L'Assemblée générale s'est préoccupée de la vie de nos sections et a envisagé le cas
+              où des camarades aimeraient à participer aux travaux de ces sections quoique
+              n'habitant pas le département dont la section est formée.</p>
+            <p>Il s'est agi particulièrement des camarades des départements de la Manche et des
+              Côtes-du-Nord qui ont près d'eux une section très vivante en Ille-et-Vilaine dont le
+              siège est à Rennes.</p>
+            <p>Le règlement de nos sections prévoit que pour des raisons de facilités de
+              communications, les camarades des départements voisins peuvent demander leur
+              affiliation à la Section du département limitrophe.</p>
+            <p>Nous engageons donc ceux d'entre nous qui demeurent dans la Manche ou dans les
+              Côtes-du-Nord et qui seraient susceptibles de se rendre assez facilement à Rennes,
+              d'entrer en communication avec le président, le professeur Antoine, 11, avenue
+              Aristide-Briand, Rennes, qui, certainement, les convoquera à l'occasion de la
+              prochaine réunion.</p>
+            <p>Nous faisons le même appel aux camarades du Doubs, du Jura, de l'Yonne, en un mot,
+              des départements voisins de la Côte-d'Or, où les dirigeants de la section seraient
+              enchantés de prendre comme adhérents les camarades des départements limitrophes.
+              Ecrire, pour cela, à André Hauser, 4, avenue Victor-Hugo, Dijon.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">REUNION DE LA SECTION DU
+                FINISTERE du 22 juin 1957 à Quimper</head>
+              <p>Les aveugles de guerre du Finistère se sont réunis samedi matin, salle Verdelet, à
+                Quimper.</p>
+              <p>Une centaine d'aveugles de guerre et de veuves d'aveugles assistaient à la réunion
+                : à la tribune, on remarquait : Muller, vice-président national de l'U.A.G. ;
+                Bescond, président départemental ; Kaigre, trésorier départemental ; Raveleau,
+                président du groupe de l'Ouest, et Floch, secrétaire général de l'Office des Anciens
+                Combattants.</p>
+              <p>Bescond ouvre la séance, salue les personalités présentes et l'assistance et
+                présente le rapport moral, dans lequel il rend notamment compte de l'activité de
+                l'U.A.G. sur le plan départemental et des</p>
+              <pb n="12"/>
+              <note type="foliation">— 12 —</note>
+              <p>suites qui ont été données aux vœux émis lors de la dernière assemblée
+                générale.</p>
+              <p>A l'issue du compte rendu financier présenté par M. Kaigre, Muller prend la parole
+                et rend compte de l'activité de l'U.A.G. sur le plan national. Il parle notamment
+                des maisons de repos, maisons de retraite et du livre parlé.</p>
+              <p>Après l'exposé de Muller, l'assemblée procède à un échange de vues.</p>
+              <p>L'Association des Aveugles de Guerre du Finistère demande : que cesse la campagne
+                de dénigrement lancée contre l'Office national et les offices départementaux des
+                Anciens Combattants et Victimes de la Guerre.</p>
+              <p>A l'issue de la séance, un repas réunissait les congressistes au restaurant La Tour
+                d'Auvergne, à Quimper.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">SECTIONS DE LORRAINE, MEUSE,
+                VOSGES</head>
+              <p>La Section de Lorraine a tenu son assemblée générale le dimanche 26 mai, à 10
+                heures du matin, à la Chambre de Commerce de Nancy, sous la présidence du délégué de
+                Paris, le vice-président Muller à qui Poirson souhaita la bienvenue au nom des
+                adhérents de son groupement.</p>
+              <p>Le président Poirson remercia ses camarades et leurs guides pour être venus à la
+                réunion annuelle et excusa ceux qui n'avaient pu venir pour causes diverses. Il
+                souhaita un prompt rétablissement aux malades, puis remercia les présidents des
+                différentes associations constituant le Comité d'Entente des plus grands Invalides
+                de Guerre.</p>
+              <p>Des remerciements furent également adressés à M. Henri Chepfer, que ne cesse
+                d'apporter à la section de Lorraine sa vive et généreuse sympathie.</p>
+              <p>Une minute de silence fut demandée à la mémoire du camarade Mampey décédé.</p>
+              <p>Le Président fit ensuite un tour d'horizon sur l'ensemble des activités de l'année
+                : Canne Blanche, pour laquelle il remercia les personnes qui lui ont apporté leur
+                concours. Il souligna les avantages accordés aux veuves au moment du décès, etc.</p>
+              <p>La lecture des rapports financier et moral fut donnée par M. Leclerc. Ces deux
+                rapports furent adoptés à l'unanimité.</p>
+              <p>Le Président donna ensuite la parole à Muller qui fournit des détails complets sur
+                les pensions des aveugles de guerre et de leurs veuves. Il donna des renseignements
+                sur le livre parlé, la bibliothèque Braille, les maisons de repos, etc.</p>
+              <p>Une motion de reconnaissance a été adressée à nos dirigeants de <pb n="13"/>
+                <note type="foliation">— 13 —</note> l'U.A.G. pour leurs efforts en faveur des
+                aveugles de guerre et de leurs guides.</p>
+              <p>Aucune démission n'étant parvenue, le Comité a été reconduit comme les années
+                précédentes.</p>
+              <p>La séance fut levée à 12 heures et tous les camarades présents se rendirent au
+                restaurant de l'Univers où un repas très amical les attendait, dans une ambiance de
+                franche gaieté.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">SECTION REGIONALE DE
+                LYON</head>
+              <p>Par suite de diverses circonstances des raisons de santé en particulier, la réunion
+                de la Section régionale de Lyon n'a pu trouver son importance habituelle.</p>
+              <p>Néanmoins, certains camarades de la région se sont retrouvés pour un banquet amical
+                le 23 juin dernier. Ils ont pu parler, comme à l'habitude, des affaires de l'Union,
+                de leurs affaires personnelles et surtout, jouir de cet esprit de camaraderie qu'ils
+                apprécient tant.</p>
+              <p>Après des échanges de vue, tous les camarades se sont donnés rendez-vous à l'année
+                prochaine pour que 1958 voit une réunion aussi brillante et importante que celle qui
+                se tient toujours dans cette belle section régionale.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">SECTION REGIONALE DE
+                HAUT-RHIN, BAS-RHIN, MOSELLE</head>
+              <p>Cette Section régionale a tenu, cette année, son assemblée générale à Metz
+                chef-lieu de la Moselle, dimanche 2 juin 1957. Quarantequatre camarades étaient
+                présents, accompagnés de leurs guides et des membres de leurs familles.</p>
+              <p>A 10 heures, le président Georges Freidinger ouvre la séance au Cinéma Royal, il
+                souhaite la bienvenue à toute l'assistance et félicite les camarades d'être venus en
+                grand nombre ; il fait un accueil particulier à M. Mondon, député-maire de Metz, et
+                à Guillam, vice-président de l'U.A.G. de Paris. Un prompt rétablissement est
+                souhaité à tous les camarades malades et une minute de silence est observée en
+                souvenir des camarades décédés depuis la dernière assemblée générale en 1956.</p>
+              <p>Le rapport moral et le rapport financier de l'exercice 1956 sont adoptés à
+                l'unanimité. Il en est de même pour les vœux émis depuis quelques années, mais dont
+                la réalisation reste toujours partielle.</p>
+              <pb n="14"/>
+              <note type="foliation">— 14 —</note>
+              <p>Le Comité sortant est réélu, à savoir : Président: G. Freidinger, Metz ;
+                vice-présidents: A. Backert, Ergersheim et L. Zimmermann, Mulhouse; secrétaires: A.
+                Muller, Colmar ; trésorier: Paul Backert, Strasbourg ; trésorier adjoint ; Fr.
+                Ullrich, Schiltigheim.</p>
+              <p>Des renseignements explicatifs au sujet des pensions et des veuves sont donnés par
+                le camarade Guillam, de Paris.</p>
+              <p>Puis, M. Mondon, député-maire, également appelé à d'autres manifestations, prit la
+                parole pour féliciter la Section régionale de sa bonne tenue et pour assurer son
+                appui aux revendications justes et équitables.</p>
+              <p>La séance est close à midi. A 12 h .30 , une gerbe est déposée au Monument aux
+                Morts, en présence des hautes autorités civiles et militaires et avec le concours de
+                la Musique de la Garnison de Metz.</p>
+              <p>Puis le cortège, musique en tête, se rendit à la gare de Metz où au salon
+                d'honneur, est servi un banquet de clôture de 120 couverts. Le champagne est offert
+                par la municipalité messine et les liqueurs par le Buffet de la Gare. Au dessert,
+                Freidinger, au nom de la Section régionale, remercie tous ceux qui ont contribué à
+                la réussite de cette journée de réconfort ; Guillam, au nom de l'U.A.G., apporte le
+                salut fraternel de tous les aveugles de guerre de France ; M. Roussel, secrétaire
+                général de la Préfecture, assure les aveugles de guerre de la sollicitude et de
+                l'appui des services préfectoraux. M. Paul Backert, trésorier de la Régionale et
+                fils de notre camarade Backert, aveugle et bi-manchot, fut décoré de la Croix de
+                Chevalier du Mérite social.</p>
+              <p>Vers 18 heures, la plupart des camarades prirent le train pour rentrer dans leurs
+                foyers et avec la ferme intention de se revoir l'année prochaine à Colmar.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">REUNION ANNUELLE DE LA
+                SECTION INTERDEPARTEMENTALE DU LOT ET DU LOT-ET-GARONNE</head>
+              <p>Les camarades de la section du Lot et du Lot-et-Garonne se sont réunis en Assemblée
+                Générale le 16 juin, sous la présidence de Galis.</p>
+              <p>Au début de la réunion le Président remercie le délégué Muller qui a bien voulu
+                accepter de venir représenter l'U.A.G. et lui souhaite la bienvenue au nom de la
+                section. Il félicite également les camarades et leurs compagnes, sans oublier les
+                veuves des camarades Marche et Chapouillé.</p>
+              <pb n="15"/>
+              <note type="foliation">— 15 —</note>
+              <p>Satgé et Almey n'avaient pu répondre à l'invitation. Il est donné lecture du
+                rapport moral de l'année écoulée au cours duquel les difficultés sur les Cannes
+                Blanches sont exposées ainsi que l'activité de la section.</p>
+              <p>Lecture du compte rendu financier. Le Président demande ensuite qu'il soit procédé
+                à l'élection du nouveau Président. Depuis deux ans, cette question n'a jamais été
+                résolue. Désireux que la section poursuive son activité, Galis s'était inquiété de
+                procurer un successeur à la section. Grâce au courage et aux bons sentiments du
+                camarade Gineste, ce remplacement a pu se faire sans difficulté et ce camarade fut
+                nommé par acclamations.</p>
+              <p>Après quelques questions diverses, la parole est donnée au camarade Muller. Il
+                passe en revue tous les problèmes de l'heure et souligne les difficultés que
+                rencontre le bureau de l'U.A.G. concernant les Venves et la revalorisation de la
+                cécité. Le dévouement du Président Izaac et l'activité d'Amblard en particulier sont
+                amplement commentés. Muller est écouté avec attention.</p>
+              <p>A l'issue de la réunion, les camarades se réunissent pour prendre le repas d'usage,
+                qui est apprécié par tous les convives. On fête la nomination de Gineste au poste de
+                Président, tandis que Galis est proclamé à l'unanimité Président d'Honneur. Très
+                touché de ce sentiment de reconnaissance, Galis demande aux camarades présents de se
+                grouper avec lui autour du nouveau Président et de répondre favorablement aux
+                convocations adressées par Gineste.</p>
+              <p>Lafon prend la parole pour expliquer son activité dans son département et dit ses
+                regrets de n'avoir pu mieux faire, tout en conservant l'espoir de réunir la section
+                dans le Lot un jour prochain.</p>
+              <p>Le nouveau Président Gineste affirme une fois de plus ses sentiments et sa
+                confiance en l'U.A.G. et promet à tous de faire son possible dans la tâche qui
+                l'attend.</p>
+              <pb n="16"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">MARIAGES</head>
+            <p>Nous apprenons le mariage de : Claudine, fille de notre camarade Marius TAILPIED, de
+              Carrouges (Orne), avec M. André Bourlier, le 6 juin 1957.</p>
+            <p>Marie, fille de notre camarade Benoit CHIMBERT, de Marseille (Bonches-du-Rhône), avec
+              M. Jean Piras, le 2 juillet 1957.</p>
+            <p>Suzanne, fille de notre camarade Jean-Marie BONNETAIN, de Caluire (Rhône), avec M.
+              Robert Vallier, le 6 juillet 1957.</p>
+            <p>Fernand, fils de notre camarade Eugène OGE, de Savigny-surOrge (Seine-et-Oise), avec
+              Mlle Josette Montagné, le 22 juin 1957.</p>
+            <p>Nous adressons nos vives félicitations à nos camarades et nos vœux de bonheur aux
+              jeunes époux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">NAISSANCES</head>
+            <p>Nous apprenons avec jois la naissance de : Olivier, fils de notre camarade Robert
+              CANIVET, de Paris, le 16 juin 1957.</p>
+            <p>Françoise, fille de notre camarade Philippe RANDAZZO, d'Amiens (Somme), le 23 juin
+              1957.</p>
+            <p>Dominique, le 4 décembre 1956 ; Martine, le 10 novembre 1955 ; Yolande, le 25
+              décembre 1957 ; Jean-Pierre, le 2 décembre 1956 ; Marie-Josée, le 10 février 1957 ;
+              Patricia le 12 septembre 1956 ; Francis, le 10 juin 1957 ; Philippe, le 29 juin 1957,
+              petits-enfants de notre camarade Georges CHAGNIAUD, de Clermont-Ferrand
+              (Puy-de-Dôme).</p>
+            <p>Nous adressons nos bien vives félicitations à nos camarades et nos vœux de prospérité
+              aux bébés.</p>
+            <pb n="17"/>
+            <note type="foliation">— 17 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : KROMER Louis (14-18), de Chaville
+              (Seine-et-Oise), le 10 juin 1957.</p>
+            <p>LANSQUENET Emile (14-18), de Cannes (Alpes-Maritimes), le 12 juin 1957.</p>
+            <p>CROUZILHAC Clément (14-18), de Murviel-les-Béziers (Hérault), le 16 juin 1957.</p>
+            <p>SECEH Romain (14-18), de Colombes (Seine), le 6 juillet 1957. La femme de notre
+              camarade Marie MEYER, de Doullens, le 7 février 1957.</p>
+            <p>Mme BERTRAND, veuve de notre camarade Fernand Bertrand, administrateur décédé, le 5
+              juillet 1956.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>SEYSSIECQ Jean, 42, rue Savary, Angers (Maine-et-Loire). COQUIN André, 7, rue
+              Othon-Friesz, Le Havre (Seine-Maritime). BEN HASSEN BEN MEIMOUNA, 5, rue
+              Rahba-Legenia, Café Mechemche, Sousse (Tunisie).</p>
+            <p>FRANC Joseph, Assat (Basses-Pyrénées).</p>
+            <pb n="18"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">COTISATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">COTISATIONS ORDINAIRES (200
+                francs) reçues du 7 juin au 6 juillet inclus</head>
+              <p>Agniel Albert, Barbe Albert, Barbier Pierre, Brice Marcel, Daridan Louis, Delcey
+                François, Delhez Jean, Delsol Thomas, Escoffier Lucien, Gallay Paul ( 500 fr.) ; Mme
+                Greff Joséphine, Hardoin André, Heuchert Bruno ( 400 fr.) ; Huc Pierre, Huet
+                François, Janton Lucien, Laporte Guy, Licntaud Louis ( 400 fr.) ; Mercier Louis,
+                Meunier Joseph, Noirot Maurice ( 600 fr.) ; Pelouin Henri, Perrin Antoine, Rabot
+                Claude, Remia Léon, Ristori Antoine, Saillour Yves,</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">COTISATIONS CAISSE DE
+                POEVOYANCE</head>
+              <p>Baarbe Albert ( 500 fr.), Barbier Pierre ( 400 fr.), Perret Claudius Touzet
+                Maurice. ( 500 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Agniel Albert ( 300 fr.), Arendt Lucien ( 500 fr.), Barbe Albert ( 300 fr.),
+                Barbier Pierre ( 100 fr.), Biourd Emile ( 200 fr.), Chupin Jean ( 300 fr.), Daridan
+                Louis ( 800 fr.), Delhez Jean ( 300 fr.), Delsol Thomas ( 300 fr.), Doutreuwe
+                François ( 500 fr.), Escoffier Lucien ( 300 fr.), Hardoin André ( 200 fr.), Ben
+                Hossine Meimouna ( 1,000 fr.), Huet François ( 300 fr.), Janton Lucien ( 200 fr.),
+                Lenfant Emile ( 325 fr.), Noirot Maurice ( 2,000 fr.), Pelouin Henri ( 800 fr.),
+                Perrin Antoine ( 800 fr.), Ristori Antoine ( 800 fr.), Vve Rolland Pierre ( 325
+                fr.), Vve Simion Lucien ( 300 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">COTISATION VOLONTAIRE
+                BIBLIOTHEQUE</head>
+              <p>Saillour Yves ( 200 fr.).</p>
+              <pb n="19"/>
+              <note type="foliation">— 19 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Combret Ernest ( 675 fr.), Guillam Edmond ( 1.000 fr.), Saillour Yves ( 200
+                fr.).</p>
+              <p>Nous sommes très sensibles aux cotisations volontaires que certains camarades
+                veulent bien nous adresser; leur geste de solidarité nous prouve leur sentiment
+                d'attachement à l'U.A.G. et nous les en remercions bien vivement.</p>
+              <pb n="20"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">PETITES ANNONCES</head>
+            <p>HOTES PAYANTS, FAMILLES OU PERSONNES SEULES : 800 fr. par jour et par personne.
+              Maison bord de mer. Ecrire Mme Le Mire, au Port, Notre-Dame-du-Guildo
+              (Côtes-du-Nord).</p>
+            <p>Si vous buvez un apéritif : buvez un Rives Saltes... Le vin de Rives Saltes est, en
+              effet, le meilleur et le moins cher de tous les apéritifs.</p>
+            <p>Le meilleur, car il est doux, agréable et reconstituant. Le moins cher, car Vin
+              garanti naturel et titrant à 21 degrés, il n'a pas subi la nouvelle taxe imposée à
+              tous les apéritifs à base de vin et d'alcool.</p>
+            <p>Conditions spéciales pour les Ajeugles de Guerre et Membres de l'U.A.G. Est vendu en
+              casiers de 15 litres ou en fûts d'un minimum de 32 litres. Toutes taxes comprises,
+              franco domicile, emballages perdus, seuls les fûts sont repris au prix de facture.
+              Demander renseignements : Camarade Toutain Paul, Aveugle de Guerre, représentant,
+              Briouze (Orne).</p>
+            <p>A VENDRE. - Machine à écrire portative Valise, marque Japy, neuve. Ecrire : L.-P.
+              Toutain, Briouze (Orne).</p>
+            <p>A VENDRE. - Maison Calvados, bord route nationale, 4 km de la mer, arrêt des cars.
+              Rez-de-chaussée : cuisine, arrière-cuisine, grande salle commune, salle à manger ;
+              premier étage : trois chambres cabinet de toilette, greniers ; grand jardin clôturé,
+              arbres fruitiers. Ecrire : U.A.G., qui transmettra.</p>
+            <p>PENSION DE FAMILLE. - Istas Mendia, chemin de Salon, Biarritz. Ecrire au camarade
+              ENVIN, tél. Biarritz 418-45.</p>
+            <p>DEMANDE personne sérieuse, âge 50 ans environ, pour tenir intérieur dame seule,
+              références exigées. Ecrire: Mme Bourdon, 54 bis, rue du Général-de-Gaulle, Clermont
+              (Oise), Tél. 52 et 57.</p>
+          </div>
+        </div>
+        <fw>Le Gerant: G. L'EVESQUE Imp. Dubois et Bauer. - Paris</fw>
+      </div>
+    </body>
+  </text>
+</TEI>

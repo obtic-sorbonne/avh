@@ -1,0 +1,898 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 13ème année 1931 n°8</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Franceville</title>
+        <title type="topic">Braille</title>
+        <title type="topic">Association</title>
+        <title type="topic">Solidarité</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 20 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#ministre-de-la-sante-publique">Ministre de la Santé Publique</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#gaz-lacrymogenes">Gaz lacrymogènes</term>
+          <term ref="#braille">Braille</term>
+          <term ref="#sainte-maxime">Sainte-Maxime</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre présente un compte rendu des
+          activités de l'association, incluant la visite du Ministre de la Santé Publique à leurs
+          maisons de Franceville. Il détaille les informations législatives concernant les pensions
+          et les décorations pour les anciens combattants, ainsi que des conseils pratiques sur les
+          transports et les séjours à Sainte-Maxime. Le bulletin contient également des rubriques
+          sociales telles que les naissances, mariages et décès parmi les membres, ainsi qu'une
+          liste des donateurs et des informations sur la Caisse Fraternelle. Un article est dédié à
+          l'invention de l'écriture Braille et à son inventeur original, Barbier de la Serre.</p>
+      </abstract>
+      <creation>
+        <date when="1931-09-01">01/09/1931</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Le Ministre de la Santé Publique visite nos Maisons de
+              Franceville</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h9">Légion d'Honneur</ref>
+              </item>
+              <item>
+                <ref target="#h10">Aux officiers réformés</ref>
+              </item>
+              <item>
+                <ref target="#h11">Pension des enfants incurables</ref>
+              </item>
+              <item>
+                <ref target="#h12">Avis relatif aux demandes de pension pour enfants</ref>
+              </item>
+              <item>
+                <ref target="#h13">Gaz lacrymogènes et troubles visuels</ref>
+              </item>
+              <item>
+                <ref target="#h14">"La Dette»</ref>
+              </item>
+              <item>
+                <ref target="#h15">L'hiver à Sainte-Maxime</ref>
+              </item>
+              <item>
+                <ref target="#h16">L'invention de l'écriture Braille</ref>
+              </item>
+              <item>
+                <ref target="#h17">Transports</ref>
+              </item>
+              <item>
+                <ref target="#h18">Chanson de Franceville</ref>
+              </item>
+              <item>
+                <ref target="#h19">Bibliographie</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h20">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h21">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h22">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h23">MAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">DÉCÉS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS POUR L'ANNÉE 1931</ref>
+              </item>
+              <item>
+                <ref target="#h28">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h29">Dons avec affectation spéciale pour la création de la "Maison des
+                  Aveugles de Guerre"</ref>
+              </item>
+              <item>
+                <ref target="#h30">Liste des Donateurs</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h31">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h32">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h33">COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">13e Année. — N° 8</fw>
+          <fw type="header">
+            <hi rend="underline">Aout-Septembre 1931</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le Ministre de la Santé Publique visite nos Maisons de Franceville.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Légion d'Honneur.</item>
+                    <item>Aux officiers réformés.</item>
+                    <item>Pension des enfants incurables.</item>
+                    <item>Avis relatif aux demandes de pension pour enfants.</item>
+                    <item>Gaz lacrymogènes et troubles visuels.</item>
+                    <item>"La Dette".</item>
+                    <item>L'hiver à Sainte-Maxime.</item>
+                    <item>L'invention de l'écriture Braille.</item>
+                    <item>Transports.</item>
+                    <item>Chanson de Franceville.</item>
+                    <item>Bibliographie.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Cotisations.</item>
+                    <item>Avis divers.</item>
+                    <item>Liste des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Bartbou, Ministre de la Justice; M. le colonel Fabry, ancien ministre des
+              Colonies; M. Brieux, de l'Académie Française, président honoraire; M. le général
+              Balfourier; M. Brisac, préfet; M. J. Ridgely Carter; M. Paul de Cassagnac, ancien
+              député; M. Maurice Donnay, de l'Académie Française; M. Duco, médecin-inspecteur; M.
+              Fribourg, député; Miss Alice GettY; M. Justin Godart, ancien ministre; Miss Grace
+              Harper; Miss Winifred Holt; Mme Léopold Karn; M. Krug; M. Lugol, sénateur: Mme la
+              maréchale Maunoury; M. Samuel Milbank; M. le docteur Morax; M. Meyer, conseiller
+              d'Etat; M. Henry Paté, député; M. Pierre Rameil, député; M* Henri-Robert, de
+              l'Académie Française, ancien bâtonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; M. Vallery-Radot; M. Constant Verlor, député; M. le professeur
+              Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Le Ministre de la Santé Publique
+              visite nos Maisons de Franceville</head>
+            <p>Cette année, la fin de juillet n'est pas très belle, ce qui n'empêche pas nos
+              pavillons de Franceville d'être tous occupés par nos camarades venus de différents
+              points de la France, pour passer un mois de vacances au bord de la mer.</p>
+            <p>Le dimanche 26 juillet, M. Blaisot, ministre de la Santé publique, est venu visiter
+              nos maisons de repos, mettant ainsi à exécution la promesse faite, lors du banquet
+              clôturant notre assemblée générale. Pour le bien recevoir, notre salle de réunion a
+              été décorée de drapeaux et de guirlandes de fleurs par les soins de M. et Mme Yvon,
+              nos dévoués gardiens, et dès cinq heures, de nombreux invités, habitants de Merville
+              et des environs, arrivent aux pavillons que, pour la plupart, ils ne connaissent pas.
+              C'est jour de courses à Franceville, il y a beaucoup de mouvement sur la route, malgré
+              une petite pluie fine qui ne cesse de tomber depuis le matin; heureusement, dans la
+              soirée le temps s'éclaircit et peu après 6 heures, la voiture de M. Blaisot s'arrête
+              devant notre portail. Le ministre est reçu par Amblard et Favret, membres du Bureau,
+              Bois et Courteix, administrateurs. Il tient d'abord à ce que tous nos camarades massés
+              à l'entrée de la propriété lui soient présentés, ayant un mot aimable pour les femmes
+              et les enfants des Aveugles de Guerre; on l'invite alors à faire le tour du
+              propriétaire, ce qui lui permet de se rendre compte de l'importance de nos maisons,
+              visitant ensuite un de nos logements au sujet duquel il nous adresse de grands
+              compliments; cette tournée faite, M. Blaisot est conduit à la salle de réunions où
+              l'attendent nos invités : M. le maire de Franceville, les conseillers municipaux, nos
+              invités, nos camarades et leur famille; à son entrée, un petit orchestre, composé de
+              notre trésorier Gaston L'Evesque au piano, nos camarades Molinier à l'accordéon et
+              Malingre à la batterie, exécute La Marseillaise.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>C'est sans doute peu protocolaire de jouer La Marseillaise à l'accordéon, surtout
+              pour recevoir un ministre, mais nous le recevons par nos propres moyens et cette
+              attention, au fond, a été très goûtée.</p>
+            <p>Le Secrétaire général de l'U. A. G. prend alors la parole et saluant le ministre de
+              la Santé publique lui dit combien les Aveugles de guerre sont heureux de le recevoir
+              chez eux, dans ce coin de Normandie, qu'il représente au Parlement; il excuse notre
+              président Scapini, retenu à Paris par les devoirs de sa charge, et brièvement rappelle
+              comment furent fondées nos maisons de repos de Franceville.</p>
+            <p>En 1921, sur un terrain donné par M. Vattier, nous devions édifier nos pavillons;
+              nous étions surtout riches d'espérance, mais la foi qui animait les Aveugles de guerre
+              leur donnait grande confiance; des bienfaiteurs vinrent à eux, permettant ainsi de
+              réaliser leur désir. Le Secrétaire général salue alors en la personne de M. de
+              Lavergne, maire de Merville-Franceville, les habitants de cet agréable pays, lui
+              disant combien les Aveugles de Guerre sont touchés de leur cordialité, soulignant le
+              bienfait physique et moral que leur procure le délicieux séjour de Franceville où il
+              ne manque que des canalisations d'eau pour remplacer les puits. Notre camarade termine
+              en remerciant le ministre de la marque de sympathie qu'il donne en ce jour aux
+              Aveugles de guerre qui garderont le souvenir de son aimable visite. M. de Lavergne, le
+              distingué maire de Franceville-Merville, dit alors le plaisir qu'il éprouve en rendant
+              visite aux membres de IU.A.G. Au nom de ses administrés, il nous assure de l'estime
+              des habitants de Franceville, exprime, comme nous, le désir de voir bientôt des
+              canalisations distribuer l'eau potable dans le pays. M. de Lavergne, dont l'élégante
+              parole nous fait comprendre toute la bienveillante attention dont nous sommes l'objet
+              dans le pays, est très applaudi par nos camarades. M. Blaisot nous parle alors, tour à
+              tour en qualité de ministre, en qualité de représentant du département et aussi en
+              camarade ancien combattant; il dit aux personnes présentes, notabilités de la région,
+              habitants de Franceville, ce que sont les Aveugles de guerre. Parlant de nous en
+              termes chaleureux, il désire que dans cette belle partie de la Normandie, nous soyons
+              considérés, aimés même. Nous avions déjà remarqué avec quel sens très juste M. Blaisot
+              avait compris le rôle admirable tenu par les dévouées compagnes des Aveugles de guerre
+              et il n'a pas manqué, en cette occasion, d'en faire ressortir toute la beauté. Nous
+              regrettons de ne pouvoir rapporter ici toutes les belles <pb n="5"/>
+              <note type="foliation">— 3 —</note> paroles que M. Blaisot a prononcées à leur
+              endroit, ainsi que les bons conseils donnés aux enfants de nos camarades; disons
+              seulement que son allocution pleine de cœur nous montra que nous avions en lui un ami
+              sincère et dévoué.</p>
+            <p>Heureuse journée, en somme, pour le bon renom de l'U. A. G.; non seulement à
+              Franceville, mais dans toute cette contrée normande où nous sommes de plus en plus
+              connus. Nous avons pignon sur rue à Franceville, il importe donc de conserver, là
+              comme ailleurs, notre standing, qui, ne l`oublions pas, est un facteur important dans
+              les actes de notre vie unioniste. Dans toutes ces circonstances, où comme dans
+              celle-ci notre association manifeste son activité, nous nous faisons de nombreux amis,
+              nous leur montrons ce que les Aveugles de guerre ont' réalisé, ce qu'ils sont capables
+              d'entreprendre, mettant ainsi en application leur devise : "Pour les Aveugles, par les
+              Aveugles. "</p>
+            <p>Amblard. Nous n'étonnerons pas nos camarades en leur disant que MM. de Traversay et
+              Gaston L'Evesque ont, avec leur dévouement habituel, contribué à la bonne organisation
+              de cette journée et nous ont beaucoup aidé à recevoir les personnes qui nous ont rendu
+              visite, parmi lesquelles nous citerons le docteur Cautru, M. Leric, la comtesse de
+              Villefranche, le général Gossart, M. Vattier, etc.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Légion d'Honneur</head>
+              <p>La Chambre, dans sa séance du 3 juillet dernier, a voté le projet suivant : "
+                Article premier. - Les militaires ou marins qui obtiendront soit la médaille
+                militaire, soit un grade dans l'ordre de la Légion d'honneur en raison de blessures
+                de guerre entraînant une invalidité définitive de 100%, seront nommés chevaliers de
+                la Légion d'honneur s'ils sont médaillés ou promus au grade supérieur dans l'ordre
+                de la Légion d'honneur s'ils sont légionnaires. Ces décorations seront accordées au
+                titre militaire avec traitement. "Les dispositions de l'alinéa précédent sont
+                applicables aux militaires et aux marins visés par les lois des 26 décembre 1923 et
+                23 mars 1928 devenus titulaires de la médaille militaire ou de la croix de chevalier
+                de la Légion d'honneur postérieurement à la promulgation desdites lois.
+                L'application de la présente disposition ne donnera lieu à aucun rappel de
+                traitement. " Article 2. - Les militaires ou marins titulaires d'une pension
+                d'invalidité définitive de 100% avec bénéfice des articles 10 ou 12 de la loi du 31
+                mars 1919, en raison de blessures de guerre, qui auront obtenu une distinction dans
+                la Légion d'honneur en application des dispositions de l'article premier ci-dessus,
+                ou des lois du 26 décembre 1923 et du 23 mars 1928 pourront, sur leur demande, et à
+                la condition d'avoir l'ancienneté de grade exigé par la loi du 7 juillet 1927, être
+                promus à un nouveau grade dans l'ordre, sans traitement, sous réserve que leur
+                candidature fera l'objet d'un examen particulier, tenant compte des conditions dans
+                lesquelles ils ont été blessés et des mutilations subies à la suite de ces
+                blessures. " En aucun cas, les militaires ou marins qui auront bénéficié ou <pb
+                  n="7"/>
+                <note type="foliation">— 5 —</note> bénéficieront des dispositions des lois du 30
+                mai 1923, modifiées par celles du 30 mars 1928, du 26 décembre 1923, du 23 mars
+                1928, ou de l'article premier ci-dessus, ne pourront, par application conjuguée de
+                ces textes, obtenir plus de trois récompenses (médaille militaire ou distinction
+                dans la Légion d'honneur). "</p>
+              <p>L'article 2 nous concernant plus spécialement est donc le commencement de
+                réalisation des démarches entreprises par M. Maurice Dormann.</p>
+              <p>Nous espérons que, dès la rentrée, le Sénat ratifiera par un vote ces dispositions
+                et nous tiendrons nos camarades au courant des démarches qu'il y aura lieu de faire
+                à ce moment.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Aux officiers
+                réformés</head>
+              <p>Loi modifiant la loi du 21 juillet 1927, complétant la loi du 26 décembre 1925
+                relative au dégagement et à l'aménagement des cadres de l'armée.</p>
+              <p>Article premier. - L'article 8 de la loi du 26 décembre 1925, modifié par la loi du
+                6 août 1926, par le décret du 13 novembre 1926 et par la loi du 21 juillet 1927, est
+                complété ainsi qu'il suit : "Les officiers invalides pour blessures ou infirmités
+                contractées au cours de la guerre 1914-1918, ou sur les théâtres d'opérations
+                extérieurs, au cours d'opérations de guerre, en possession de droits à une pension
+                définitive de 40% au moins de la loi du 31 mars 1919, ainsi que ceux en possession
+                de droits à une pension temporaire de la loi du 3 Imars 1919, mais dans laquelle
+                entre un élément d'invalidité définitif de 40% au moins et qui demanderont à être
+                admis à la retraite, y seront admis dans les conditions ci-après : " a) Si
+                l'intéressé détient son grade depuis quatre ans au moins, y compris, le cas échéant,
+                le temps passé dans ce grade à titre temporaire et le temps passé dans la position
+                de non-activité pour infirmités temporaires, il pourra, s'il n'a pas été l'objet de
+                sanctions disciplinaires graves, être promu au grade supérieur et admis à la
+                jouissance d'une pension déterminée d'après la solde afférente à ce grade. "Les
+                officiers titulaires d'une pension définitive de 60% au moins de la loi du 31 mars
+                1919, ou d'une pension temporaire dans laquelle <pb n="8"/>
+                <note type="foliation">— 6 —</note> entre un élément d'invalidité définitif de 60%
+                au moins, pourront, lorsqu'ils auront deux ans de grade, s'ils n'ont pas été l'objet
+                de sanctions disciplinaires graves, être admis au bénéfice des dispositions du
+                précédent alinéa; " b) Dans le cas contraire, l'officier sera admis à la jouissance
+                d'une pension calculée d'après la solde afférente à l'échelon le plus élevé dans le
+                grade qu'il détient et sans qu'il soit tenu compte de la solde moyenne de ses trois
+                dernières années d'activité. "</p>
+              <p>Article 2. - L'article 2 de la loi du 21 juillet 1927, complétant la loi du 26
+                décembre 1925, relative au dégagement et à l'aménagement des cadres de l'armée, est
+                abrogé.</p>
+              <p>La présente loi, délibérée et adoptée par le Sénat et par la Chambre des Députés,
+                sera exécutée comme loi de l'Etat.</p>
+              <p>Fait à Paris, le 29 juin 1931.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Pension des enfants
+                incurables</head>
+              <p>La loi du 25 juin 1931, modifiant les articles 13 et 20 de la loi du 31 mars 1919
+                permet de maintenir au delà de l'âge de 18 ans le bénéfice des majorations de
+                pension en faveur des enfants atteints d'une infirmité incurable, les mettant dans
+                l'impossibilité de gagner leur vie.</p>
+              <p>Le droit est ouvert aux enfants dont le père est titulaire d'une pension
+                d'invalidité, ainsi qu'aux orphelins susceptibles de bénéficier de ces majorations
+                avant l'âge de 18 ans. En aucun cas ils ne doivent être hospitalisés aux frais de
+                l'Etat.</p>
+              <p>Les modalités d'application de la loi qui est également applicable aux victimes
+                civiles font l'objet d'une instruction du ministre des Pensions insérée au Journal
+                Officiel du 14 août 1931.</p>
+              <p>Les demandes des intéressés doivent être adressées à l'intendant militaire chargé
+                des pensions dans leur département ou, en ce qui concerne les victimes civiles, au
+                préfet.</p>
+              <p>Pour tous renseignements, les pensionnés résidant dans la Seine sont priés de
+                s'adresser à la section départementale des pensions, 10, quai de la Râpée, à Paris
+                (XII <hi rend="superscript">°</hi> ), qui mettra à leur disposition les imprimés
+                nécessaires.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">Avis relatif aux demandes de
+                pension pour enfants</head>
+              <p>Le 19 mai 1931 le Conseil d'Etat a émis l'avis que la déchéance quinquennale est
+                opposable à une demande de majoration d'enfant formulée plus de cinq ans après
+                l'ouverture du droit.</p>
+              <p>Les pensionnés qui se trouvent encore dans les délais prévus pour obtenir une
+                majoration à laquelle ils ont droit et qui leur a été refusée antérieurement doivent
+                adresser leur demande à la direction de la Dette inscrite s'ils sont titulaires
+                d'une pension temporaire ou définitive concédée ou à la section départementale des
+                pensions de leur département s'ils sont en possession d'un titre d'allocation
+                provisoire d'attente.</p>
+              <p>Pour tous renseignements, les pensionnés résidant dans la Seine sont priés de
+                s'adresser à la section départementale des pensions, quai de la Râpée, à Paris (XII
+                { }^{e} ).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Gaz lacrymogènes et troubles
+                visuels</head>
+              <p>Un de nos camarades, M. Quidor, docteur es-sciences, poursuit actuellement des
+                recherches sur l'effet des gaz lacrymogènes.</p>
+              <p>Nous serions reconnaissants à nos camarades ayant subi les atteintes de ces gaz,
+                d'avoir l'obligeance de lire les quelques lignes communiquées par M. Quidor et de
+                répondre aux quelques questions qui suivent :</p>
+              <p>Les gaz lacrymogènes ou mieux les vapeurs lacrymogènes, employés contre nous
+                pendant les combats de 1915, avaient été auparavant expérimentés par les Allemands.
+                Tous les animaux soumis à l'action des gaz devinrent aveugles.</p>
+              <p>Désirant établir s'il existe ou non une relation entre l'action de ces gaz et
+                l'altération de la vision, nous prions ceux de nos camarades qui ont subi l'action
+                de ces gaz de répondre au questionnaire suivant et de nous le faire parvenir au
+                siège de l'Association.</p>
+              <p>QUESTIONNAIRE</p>
+              <p>1<hi rend="superscript">°</hi> Nom et adresse : 2<hi rend="superscript">°</hi>
+                Classe : 3<hi rend="superscript">°</hi> Votre vision était-elle normale en 1914.
+                Etes-vous myope ou presbyte ?</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>4<hi rend="superscript">°</hi> Où et quand avez-vous subi l'action des gaz
+                lacrymogènes ? 5<hi rend="superscript">°</hi> Aviez-vous un masque ? 6<hi
+                  rend="superscript">°</hi> Quand avez-vous constaté les premiers troubles visuels ?
+                  7<hi rend="superscript">°</hi> Indiquez la nature et l'évolution de ces troubles ?
+                  8<hi rend="superscript">°</hi>
+                <hi rend="superscript">Y</hi> a-t-il eu intervention chirurgicale ?</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">"La Dette»</head>
+              <p>La souscription "La Dette ", dont nous avons entretenu nos camarades, continue à
+                obtenir le meilleur accueil auprès du public.</p>
+              <p>Après une période de calme consécutive aux vacances, nous espérons que la vente des
+                billets reprendra avec plus d'intensité.</p>
+              <p>Nous remercions tous nos camarades qui ont bien voulu participer au placement de
+                ces billets et rappelons que nous tenons à la disposition des membres de l'U.A.G. et
+                de leurs amis carnets de tickets et affiches.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">L'hiver à
+                Sainte-Maxime</head>
+              <p>Nous rappelons à nos camarades que l'Union a loué, pour la période 1931-1932, deux
+                appartements à Sainte-Maxime (Var).</p>
+              <p>Prière d'envoyer les demandes le plus tôôt possible au siège de l'U.A.G:</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">L'invention de l'écriture
+                Braille</head>
+              <p>On nous communique la note suivante, publiée par M. Paul Rémy, dans L'Ami du
+                Peuple, en juillet dernier, et que nous portons à la connaissance de nos camarades
+                :</p>
+              <p>BARBIER DE LA SERRE, INVENTEUR DE L'ECRITURE POUR LES AVEUGLES</p>
+              <p>Braille ne fit que perfectionner son invention. On parle beaucoup des aveugles en
+                ce moment. Des philanthropes avisés et fort généreux ont décidé de créer à Paris un
+                "Conseil mon- <pb n="11" break="no"/>
+                <note type="foliation">— 9 —</note> dial pour le bien des aveugles ». Ce conseil
+                mondial a un fort beau programme. Non seulement il se propose de secourir les
+                détresses individuelles, mais encore, voyant plus haut et plus loin, il se donne
+                pour mission de relever le moral de l'aveugle, de lui rendre la joie de vivre en le
+                mettant à même de remplir un rôle social, en lui fournissant les moyens de cultiver
+                son intelligence par la lecture, la T.S.F., l'écriture, la musique, que sais-je?</p>
+              <p>L'une des premières préoccupations du conseil mondial sera d'unifier et de
+                perfectionner les méthodes et les instruments servant à l'écriture en Braille.</p>
+              <p>Des livres entiers sônt composés en Braille et les bienfaits de ce système de
+                notation sont tels que Braille est considéré comme l'un des plus grands bienfaiteurs
+                des aveugles.</p>
+              <p>Braille a deux monuments: l'un à l'Institution Nationale des Jeunes Aveugles de
+                Paris, l'autre à Coupvray (Seine-et-Marne), dans son pays natal. On a donné le nom
+                de Louis Braille à des rues, des écoles, des fondations.</p>
+              <p>Or, Louis Braille fut uniquement un adaptateur, un metteur au point. De grand
+                mérite, certes, mais qui n'inventa rien. Le créateur de l'écriture en relief est
+                Barbier de la Serre, que le grand public et les aveugles eux-mêmes ignorent
+                parfaitement.</p>
+              <p>Cette injustice de la postérité envers un grand inventeur méconnu a ému l'un des
+                rares aveugles qui savent ce qu'ils doivent à Barbier de la Serre. M. Paul Rémy a
+                fondé un comité Barbier de la Serre pour faire rendre justice à la mémoire du génial
+                devancier de Louis Braille.</p>
+              <p>Officier d'artillerie dans l'armée de Louis XVIII, Barbier de la Serre était un
+                esprit curieux qu'intéressait au plus haut point la grave question de l'éducation du
+                peuple.</p>
+              <p>Il estimait que la masse du peuple, forcément peu cultivée, n'avait nul besoin de
+                passer un temps précieux à essayer de connaître les difficultés considérables et les
+                bizarreries de la grammaire, et qu'il lui suffisait d'avoir une écriture
+                phonographique lui permettant de noter les mots selon leur prononciation. Il avait,
+                partant de ce principe, établi une notation phonographique composée de trente-six
+                signes représentant les sons principaux de la langue française.</p>
+              <p>Son invention n'ayant eu aucun succès, il imagina pour les aveugles ou les
+                personnes faibles de la vue une écriture formée de trente-six <pb n="12"/>
+                <note type="foliation">— 10 —</note> combinaisons de points saillants faits sur du
+                papier assez épais. Il appelait son système de notation: l'écriture nocturne. Le
+                directeur de l'Institution Royale des Jeunes Aveugles de Paris, M. Guillié,
+                accueillit favorablement l'inventeur et fit étudier l'alphabet Barbier de la Serre
+                par ses pensionnaires. L'un d'eux, qui avait alors seize ans, Louis Braille,
+                s'enthousiasma pour l'écriture en relief et ne tarda pas à y apporter d'ingénieux
+                perfectionnements. Les lettres de Barbier de la Serre comportaient douze points. Il
+                ramena ce chiffre à six. D'une seule pression de l'extrémité du doigt, l'aveugle
+                pouvait lire le caractère en son entier. En 1829, c'est-à-dire après quatre ans
+                d'études sur l'alphabet Barbier de la Serre, le jeune Louis Braille, sous les
+                auspices de son directeur, publia l'exposé de sa méthode. Loyalement, il rendit
+                hommage au véritable créateur de l'écriture en relief et ne cacha point que sa
+                méthode n'était qu'une amélioration de celle de Barbier de la Serre.</p>
+              <p>Malgré cet hommage, Barbier de la Serre fut assez mécontent de voir son invention
+                perfectionnée par un autre. Il modifia à son tour son écriture nocturne, mais ne
+                parvint jamais au succès. Déçu et malheureux, il mourut à Paris en 1840, sans savoir
+                l'immense service que son génie créateur allait rendre aux aveugles du monde entier,
+                car le "Braille ", lui aussi, après un brillant début, avait rencontré un courant
+                d'hostilité. Il ne fut employé officiellement que vers 1850.</p>
+              <p>Aujourd'hui, le nom de Braille est universellement connu; celui de Barbier de la
+                Serre universellement ignoré.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Transports</head>
+              <p>Notre camarade J. Mariani nous fait savoir qu'il a obtenu de M. le Directeur de la
+                Compagnie des Tramways Algérois une réduction de 50% et la gratuité pour le guide
+                des invalides réformés à 100%, bénéficiaires de l'article 10 , sur simple
+                présentation de la carte d'invalidité à double barre bleue.</p>
+              <p>Nous remercions vivement notre camarade d'avoir obtenu cet avantage qui rendra,
+                certainement, de grands services aux Aveugles de Guerre.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Chanson de
+                Franceville</head>
+              <p>par Albert Masselier (Lettre d'un séjournant à un camarade resté à Paris) Sur l'air
+                de : Une femme!...</p>
+              <p>I</p>
+              <p>Pour prendr' ses vacances, Dans la doulce France, Il n'est pas besoin De chercher
+                loin les meilleurs coins, Pays de Cocagne, Châteaux en Espagne... Car pas un endroit
+                Ne rivalise, selon moi, Avec un trou charmant - Un simple trou normand - Non loin de
+                Caen!</p>
+              <p>Si vous aimer les bains de mer En famille, venez, mon cher, A Franc'ville!... (bis)
+                En paix dans l'eau, vous barbotez; Sans chichis, vous galipettez, A Franc'ville!...
+                (bis) Vous fait's trotter vos p'tits lapins A travers les bois de sapins, A
+                Franc'ville!... Pour venir, vous avez l' tacot De Caen à Cabourg, ou l'auto Pour
+                Franc'ville!...</p>
+              <p>II</p>
+              <p>Pour se r'fair' la c'rise, Minc' de friandises! Pas moyen, mon bon, De bouder
+                contre son bidon!... Crevettes, friture Vivante... ou bien mûre, <pb n="14"/>
+                <note type="foliation">— 12 —</note> Gigot d' pré-salé, Sardin's fraich's... dans
+                l'huile empilé's, Légum's verts premier choix, Riz, nouilles, puré' d' pois. (Comme
+                chez soi...)</p>
+              <p>Vour allez goûter sur la dune D'un coup d' cidre, d'un' tarte aux prunes, A
+                Franc'ville!... (bis) Au cidre, pas mal de lascars Préfèrent la bière ou l' pinard,
+                A Franc'ville!... (bis) Vous boulottez machinal'ment... Vous sucez sans savoir
+                comment, A Franc'ville! Bref, on n' s'endort pas sur l' rôti, Car on revend de
+                l'appétit, A Franc'ville!</p>
+              <p>III</p>
+              <p>Et ce sont des fêtes A la bonn' franquette, Ebats sans façon En peignoir et même en
+                cal'çon; Et, joi's plus civiles, Tout comme à Deauville, Concerts, jeux, tangos Dans
+                notre propre Casino!... Quel séjour enchanté! Il suffit d'y goûter Pour
+                l'adopter...</p>
+              <p>Ne restez donc pas à Paris, Quand mer et soleil vous souir'nt A Franc'ville!...
+                (bis) Ret'nez votr' place à l'U.A.G. Qui ne demand' qu'à vous loger A
+                Franc'ville!... (bis) <pb n="15"/>
+                <note type="foliation">— 13 —</note> Bouclez vos mall's et rappliquez Au milieu d'
+                notr' band' de piqués A Franc'ville !... (bis) Et vous reviendrez l'an prochain
+                Chanter avec nous le refrain De Franc'ville. (bis) </p>
+              <p>(Chanson créée par l'auteur, au Casino de l'U.A.G., dans la nuit du 4 août 1931, ce
+                pour quoi : "Ni droits, ni privilèges réservés, en France, Auvergne, et autres pays!
+                ")</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">Bibliographie</head>
+              <p>Les Etablissements A. Larguier, 39, rue Emile-Jamais, Nîmes (Gard), nous font
+                savoir que la Revue Douce France a décidé d'abonner, à titre entièrement gracieux et
+                sans aucune espèce d'engagement, les cent premiers Aveugles de Guerre, lecteurs du
+                Bulletin Mensuel, qui leur enverront une demande.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi>
+                juillet et le 31 août, une somme de 11.675 francs, se répartissant comme suit :</p>
+              <p>Allocations naissances 2.100</p>
+              <p>Allocations veuves, enfants et couronnes.... 3.075 Secours 6.500</p>
+              <p>Il y a lieu d'ajouter, à ces 11.675 francs, une somme de 79.800 francs pour prêts
+                de maisons familiales et prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner dix-sept demandes de secours,
+                dont cinq n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">MAISSANCES</head>
+                <p>Notre camarade et Mme Thuilliez (Henri), de Paris, nous font part de la naissance
+                  de leur fils, Henri, né le 4 juillet 1931.</p>
+                <p>Notre camarade et Mme Le Floch, de Rostrenen (Côtes-duNord), nous font part de la
+                  naissance de leur fils, André.</p>
+                <p>Notre camarade et Mme Serot, de Severac (Loire-Inférieure), nous font part de la
+                  naissance de leur fille, Anne-Marie, née le 13 juillet 1931.</p>
+                <p>Notre camarade et Mme Lemarchand, de Petit-Couronné (SeineInférieure), nous font
+                  part de la naissance de leur quatrième enfant, Claude, né le 27 juillet 1931.</p>
+                <p>Notre camarade et Mme Loquin, de Saint-Romain-de-Colbosc (Seine-Inférieure), nous
+                  font part de la naissance de leur fils, Michel, né le 26 juillet 1931.</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+                <p>Notre camarade et Mme Beguin, de Paris, nous font part de la naissance de leur
+                  fils, André, né le 2 août 1931.</p>
+                <p>Notre camarade et Mme Guerin, de Metz, nous font part de la naissance de leur
+                  fille, Marie-France, née le 15 août 1931.</p>
+                <p>Notre camarade et Mme Tramoy, de Montceau-les-Mines (Saône-et-Loire), nous font
+                  part de la naissance de leur fille, Huguette, née le 8 août 1931.</p>
+                <p>Notre camarade et Mme Soulié, de Laroche (Corrèze), nous font part de la
+                  naissance de leur deuxième enfant, Jean-Marie, né le 28 mai 1931.</p>
+                <p>Notre camarade et Mme Anquetil, de Robinson (Seine), nous font part de la
+                  naissance de leur deuxième enfant, Marie-Thérèse, née le 31 juillet 1931.</p>
+                <p>Notre camarade et Mme Mariani, d'Alger, nous font part de la naissance de leur
+                  deuxième enfant, André-Paul, né le 4 août 1931.</p>
+                <p>Notre camarade et Mme Cointepas, d'Angers (Maine-et-Loire), nous font part de la
+                  naissance de leur deuxième enfant, Marie-Noëlle, née le 15 août 1931.</p>
+                <p>Notre camarade et Mme Patisson, de Saint-Jean-d'Ataux (Dordogne), nous font part
+                  de la naissance de leur troisième enfant, Paul, né le 22 août 1931.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">MARIAGES</head>
+                <p>Notre camarade Lafon (Jean), de Montauban (Tarn-et-Garonne), nous fait part de
+                  son mariage avec Mlle Marie Duclos, célébré le 1<hi rend="superscript">er</hi>
+                  juin 1931.</p>
+                <p>Notre camarade Draperi (Jean), de Nice, nous fait part de son mariage avec Mme
+                  Noémie Durand, célébré le 30 juin 1931.</p>
+                <p>Notre camarade Lapoule, de Clichy-la-Garenne, nous fait part de son mariage avec
+                  Mme Veuve Preteseille, célébré le 25 juillet.</p>
+                <p>Notre camarade Adrien, d'Aulnay-sous-Bois (Seine-et-Oise), nous fait part du
+                  mariage de sa fille Henriette avec M. Dugué, célébré le 8 août 1931.</p>
+                <p>Notre camarade Blondell, de Paris, nous fait part du mariage de sa fille Monda
+                  avec M. Etienne Chevalier, célébré le 17 août 1931, à Migné (Vienne).</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+                <pb n="18"/>
+                <note type="foliation">— 16 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">DÉCÉS</head>
+                <p>Nous apprenons le décès de nos camarades Jolis (Edmond) et Richard (Elie).</p>
+                <p>Jolis (Edmond), né le 12 août 1880, à Alison (Nord), a fait la guerre au 2<hi
+                    rend="superscript">°</hi> régiment d'artillerie lourde. Membre de l'Union depuis
+                  sa fondation, notre camarade est décédé le 30 juillet 1931, à Béthune, laissant
+                  une veuve et deux enfants.</p>
+                <p>Richard (Elie), né le 25 décembre 1896, à Bessèges (Gard), caporal au 3<hi
+                    rend="superscript">°</hi> zouaves. Il faisait partie de l'U.A.G. depuis 1921.
+                  Outre sa cécité, notre camarade était amputé de la cuisse gauche.</p>
+                <p>Il est décédé le 20 août 1931, à Vic-le-Fesq (Gard), après une courte maladie,
+                  laissant une veuve et deux jeunes enfants.</p>
+                <p>De la femme de notre camarade Cornel, de Von (Indre-et-Loire), décédée le 27
+                  juillet 1931.</p>
+                <p>De la femme de notre camarade Gohiec, de Concarneau (Finistère), décédée le 12
+                  août 1931.</p>
+                <p>Du fils de notre camarade Coat, de Landivisiau (Finistère), décédé le 20 mars
+                  1931, à l'âge de dix-spt jours.</p>
+                <p>Du fils de notre camarade Abderrhaman, de Laghouat (Algérie), décédé le 23
+                  juillet 1931.</p>
+                <p>Du père de notre camarade A. Laffargue, de Paris, dont les obsèques ont été
+                  célébrées, le 21 juillet 1931, à Bordeaux.</p>
+                <p>Du beau-père de notre éamarade Ceysson, de Gras (Ardèche), décédé le 20 juillet,
+                  à l'âge de soixante-six ans.</p>
+                <p>De la mère de notre camarade Moulin (Emile), de Villers (Indre), décédée le 29
+                  juillet, dans sa soixante et onzième année.</p>
+                <p>Du père de notre camarade Cabannot, de Pau (Basses-Pyrénées), décédé le 25
+                  juillet 1931, dans sa soixante-dix-septième année.</p>
+                <p>Du père de notre camarade Buy (Benoît), de Saint-Amour-Bellevenue
+                  (Saône-et-Loire), survenu le 14 juin 1931, à l'âge de quatre-vingt-deux ans.</p>
+                <p>Du beau-père de notre camarade Desbancs, de Poitiers (Vienne), survenu
+                  accidentellement le 30 mai 1931, à l'âge de soixante-treize ans.</p>
+                <p>Du père de notre camarade Desbancs, de Poitiers, décédé le 30 juillet, à l'âge de
+                  soixante-six ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="19"/>
+                <note type="foliation">— 17 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leur cotisation, ont tenu néanmoins à effectuer un
+                nouveau versement :</p>
+              <p>Ganneau, 10 francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS POUR L'ANNÉE
+                1931</head>
+              <p>Froget, Aumont, Vandevorde, Ristori, Guillaume, Ferrari, Meunier (J.), Flandre,
+                Archambault, Belgacen-ben-Senoussi, Potdevin, Peron, Le Bis, Marinèche, Prault,
+                Vendeville, Devidal, Kamfri Brahim, Lardet, Rolland, Joseph (E.), Wlending, Savigny,
+                Malgloire, Tanis, Duc, Berton, Durand (R.), Julia Verdure, Muller (J.), Carpentier,
+                Stolldick, Dulucq, Houpert (M.), Jonchier, Houdry, Salah ben Zerouk, Foucher,
+                Baizet, Gatuing, Tisserand (A.), Ceysson, Mauriceau, Aumasson, Lauro, Pialat, Le
+                Gentil, Draperi (J.), Niant, Sadik, Fitas, Bellenger, Lauté, Janneau, Maubert,
+                Vivin, Maurandy, Michalet, Renat, Lépine, Christophe, Lacambre, Arnault, Madeleine
+                Fanni, Aubin, Mangold, Lamy (E.), Molinas, Backert, Elheir, Seguin, Simion, Vidal
+                (E.), Albouy, Huton, Vandelin, Boyer (J.), Paris, Chavin, Ballay, Hubert (E.),
+                Grillet (L.), Monfort, Mauny, Guerry, Piette, Grelier, Dimitrieff, Coutarel,
+                Guilbot, Pichonneau, Michel (R.), Dumont (L.), Gedin, Benel, Renaux, Fabre (A.),
+                Pion, Monceau, David, Griziaux, Ternisien.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">AVIS DIVERS</head>
+              <p>Un de nos membres associés, M. E. Vuichard, à Salon (Bouches-du-Rhône), huiles,
+                savons, cafés, offre la représentation de sa maison à nos camarades. Les affaires se
+                traitent surtout par relations de parenté et d'amitié.</p>
+              <p>Le gain à réaliser est appréciable et les camarades trouveront dans cette
+                occupation un attrait réel.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+              <p>A vendre, avec grandes facilités de paiement : une maison en meulière, bâtie sur
+                cave, vaste hangar, bâtiment et grenier, vaste jardin, libre de suite. Eau,
+                électricité. Aucune réparation. Prix : 27.000 fr .</p>
+              <p>S'adresser au camarade Lambert, 15, rue de Belfort, Aulnay-sousBois
+                (Seine-et-Oise).</p>
+              <p>Aveugle de Guerre, 100%, article 10 , désirerait correspondre avec une dame de
+                trente-cinq à cinquante ans, en vue de reconstituer son foyer.</p>
+              <p>S'adresser au camarade Léon Marchal, route de Sablé, à Greze-en-Bouere
+                (Mayenne).</p>
+              <p>Gaillac mousseux champagnisé. Prix courant : Château Sainte-Cécile (carte blanche),
+                la bouteille, 8 francs; la demi-bouteille, 5 fr. 90.</p>
+              <p>Comte de Bordchamp (carte d'or) : la bouteille, 8 francs ; la demi-bouteille, 5 fr.
+                90.</p>
+              <p>Château Sainte-Cécile (grand rosé mousseux) : la bouteille, 8 fr. 50 ; la
+                demi-bouteille, 6 fr. 15.</p>
+              <p>Château Sainte-Cécile (cuvée réservée) : la bouteille, 9 francs; la demi-bouteille,
+                6 fr. 40.</p>
+              <p>Dans chaque qualité, livraison en sec, demi-sec ou doux, au gré du client.</p>
+              <p>Franco d'emballage gare départ, en caisses de 25 bouteilles. Droit de régie en
+                sus.</p>
+              <p>Supplément de 4 francs par emballage en caisse de 12 bouteilles ou 24
+                bouteilles.</p>
+              <p>Paiement en nos traites les 15 et fin de chaque mois. S'adresser au camarade Jules
+                Cancé, boulevard Gambetta, Gaillac (Tarn).</p>
+              <p>Chienne guide à vendre, dénommée Mirette, âgée de sept mois. Bonne garde la nuit,
+                au prix de 600 francs. Un mois à l'essai.</p>
+              <p>Pour tous renseignements complémentaires, s'adresser au camarade Fauconnet (Emile),
+                à Chenerailles (Creuse).</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Montres pour aveugles. Tarif actuel des prix : Qualité A : Montre nickel
+                savonnette, ancre 20 lignes, cadran spécial avec points pour aveugle : 95
+                francs.</p>
+              <p>Qualité B : Montre nickel, ancre 15 rubis, savonnette spiral Bréguet, 18 lignes,
+                cadran spécial avec points et bâtonnets pour aveugles : 170 francs.</p>
+              <p>Qualité B: Montre même mouvement et même cadran que la précédente, mais en argent,
+                3 cuvettes argent, décor riche, rayon Gloire, 18 lignes : 275 francs.</p>
+              <p>Garantie trois ans, sauf fracture. S'adresser à M. Arthur Caron, 66, rue de la
+                République, Montmorency (Seine-et-Oise).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Dons avec affectation
+                spéciale pour la création de la "Maison des Aveugles de Guerre"</head>
+              <p>Préfecture de Seine-et-Marne, 500 fr. - M. Roger Clinchant, à Paris, 100 fr. -
+                Ville de Huninge (Bas-Rhin), 30 fr. Mme Louise Pot, Le Cannet (Alpes-Maritimes), 500
+                fr. - Ville de Doué-la-Fontaine (Meurthe-et-Moselle), 50 fr. - Mme Theron, à
+                Château-Thierry, 25 fr. - Mme J.-R. Barbaud, à Paris, 50 fr. M. Leblond, à Metz, 612
+                r. 55. - Ville de Céret (Pyrénées-Orientales), 200 fr. - Ville de Constantine, 200
+                fr. - Préfecture des Hautes-Pyrénées, 100 fr. - Préfecture du Pas-de-Calais, 500 fr.
+                - Commune de Darney (Vosges), 25 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">Liste des Donateurs</head>
+              <p>Compagnie d'Assurances L'Union, à Paris, 500 fr. - Mme la marquise de Puivert,
+                Paris, 100 fr. - Mmes Chaudieu et Mmes Toudy, à La Garenne-Colombes, 20 fr. - M.
+                Vuichard, à Salon (Bouches-du-Rhône), 50 fr. - MM. Goellner et Hirsch, à Bischwiller
+                (Bas-Rhin), 25 fr. - M. et Mme Metayer, à Andrésy (Seine-et-Oise), en souvenir de
+                leur fils Robert, mort pour la France, <pb n="22"/>
+                <note type="foliation">— 20 —</note> 50 fr. - Produit d'une quête faite au mariage
+                des époux ScurolSancey, à Tecquepineux (Meurthe-et-Moselle), 51 fr. 05. M. Muller,
+                Is-sur-Tille (Côte-d'Or), 30 fr. - Une dame anonyme, 5.000 francs. - Produit d'une
+                quête faite au mariage de M. Camus avec Mlle Mauvelaers, à Longwy, 92 fr. - Mme
+                Contamin-Lyotard, à Tao (Nouvelle-Calédonie), 150 fr. - M. Blustlein, à Mulhouse
+                (Haut-Rhin), 2.000 fr. - Anonyme, 60 fr. - Association Cambodgienne des Anciens
+                Combattants, 500 fr. - Collecte faite au mariage des époux Ladent-Dubois, à Cambrai,
+                170 fr. - Mme Ringard, à Lyon, 50 fr. - Collecte faite à un mariage, 51 fr. 80. Mme
+                Pumpelly, à Paris, 50 fr. - Mme Levrier, à Charenton, 200 fr. - Collecte faite au
+                mariage des époux Buttgembach-Bidaine, à Longwy, 69 fr. 50. - Mme Mesnier, La
+                Rochelle, 20 fr. Anonyme (transmis par le consul de France à Séville), 2.222 fr. 23.
+                - Divers, 4.275 fr. 61.</p>
+              <pb n="23"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; Vice-Présidents: Favret, Lauté, Leveau. Secrétaire général:
+              Amblard. Trésorier: Gaston L'Evesque. Membres: Antoine, Arnault, Bardoux, Bertrand,
+              Bloncourt, Bois, Cabasson, Conan, Courteix, Derunder, Fauvel, Grillet, Guillam, Izaac,
+              Lappargue, Lagarde, Malgat, Muller, Nicolai, Noirraux, Petitjean, Robert (Maurice),
+              Roy (Georges), Satgé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le baron de Traversay, Président; Mlle
+              Abbel, Vice-Présidente; M. Oscar Bloch, Secrétaire adjoint; M. Máuterbe,
+              Sous-Directeur à la Compagnie "L'Union »; Mme du Bos; Mme Broquin; M. Chepper; M.
+              Pierre Chérot; Mme Chevalier; Mme Contamin; Mme Francis de Croisset; Mlle Jalaguier;
+              Mlle d'Herbemont; Mme Henri; Mme Kalt; Mme L'Evesque; Mme Lévy-Weiss; M. Mayer; Mme
+              Mayer ; Mme Mus; M. Pascal; M. le colonel de Traversay.</p>
+            <pb n="24"/>
+          </div>
+
+          <fw>Le Gérant : DECOENE. Imp. Dubois et Bauer, 34, r. Laffitte, Paris, 1931.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

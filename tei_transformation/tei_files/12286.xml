@@ -1,0 +1,1983 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 11ème année 1929 n°3</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin mensuel</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions de guerre</title>
+        <title type="topic">Invalides</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Politique sociale</title>
+        <title type="topic">Vacances</title>
+        <title type="topic">Législation</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 43 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#invalides-de-guerre">Invalides de guerre</term>
+          <term ref="#british-legion">British Legion</term>
+          <term ref="#yougoslavie">Yougoslavie</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#sainte-maxime">Sainte-Maxime</term>
+          <term ref="#lacanau">Lacanau</term>
+          <term ref="#vals">Vals</term>
+          <term ref="#ministere-des-pensions">Ministère des Pensions</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde divers sujets liés aux
+          anciens combattants aveugles et blessés aux yeux. Il inclut des articles sur les pensions
+          de guerre en Grande-Bretagne et les mesures prises pour les invalides en Yougoslavie. Le
+          bulletin informe également les membres de l'association sur les options de vacances
+          disponibles et publie une circulaire du Ministère des Pensions concernant les droits et
+          allocations. Des informations pratiques sur les cotisations, les assurances, la
+          bibliographie et les promotions sont également incluses.</p>
+      </abstract>
+      <creation>
+        <date when="1929-03-01">01/03/1929</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-17" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h6">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h7">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h8">La British Legion el les pensions de guerre</ref>
+          </item>
+          <item>
+            <ref target="#h9">Ce qui a été fait pour les invalides en Yougoslavie</ref>
+          </item>
+          <item>
+            <ref target="#h10">Nos vacances en 1929</ref>
+          </item>
+          <item>
+            <ref target="#h11">INDICATIONS MEDICALES DE LA CURE DE VALS</ref>
+          </item>
+          <item>
+            <ref target="#h12">Une circulaire du Ministère des Pensions</ref>
+            <list>
+              <item>
+                <ref target="#h13">Préambule</ref>
+              </item>
+              <item>
+                <ref target="#h14">TITRE Ier Allocation complémentaire aux ayants cause de
+                  militaires ou de marins de carrière, décédés avant le 17 avril 1924.</ref>
+                <list>
+                  <item>
+                    <ref target="#h15">Article premier Bénéficiarres de l'Allocation</ref>
+                  </item>
+                  <item>
+                    <ref target="#h16">Article 2 EXAMEN DES CONDITIONS PRÉVUES A L'ARTICLE PREMIER
+                      A. - Etre ayant cause de militaire de carrière.</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">Article 3 MODE DE LIQUIDATION DE L'ALLOCATION</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">Article 4 ATTRIBUTION DE L'ALLOCATION</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h19">TITRE II Ouverture d'un nouveau délai d'option en faveur de
+                  certaines catégories d'ayants cause de militaires et de fonctionnaires.</ref>
+                <list>
+                  <item>
+                    <ref target="#h20">Article 5 OBJET</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Article 6 BÉNÉFICIAIRES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Article 7 POINT DE DÉPART DE LA NOUVELLE PENSION ET DURÉE DU
+                      DÉLAI D'OPTION</ref>
+                  </item>
+                  <item>
+                    <ref target="#h23">Article 8 ATtribution du BÉnéfice de L'article 77 de la LOI
+                      DU 30 DÉCEMBRE 1928</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">Article 9 REMISE DES TITRES DE PENSION</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h25">TITRE III Réforme des taux de base des pensions de veuves et
+                  d'orphelins de la loi du 31 mars 1919</ref>
+                <list>
+                  <item>
+                    <ref target="#h26">Article 10 DISTINCTION ENTRE LES VEUVES REMARIÉES ET LES
+                      VEUVÉS NON REMARIÉES ET ENTRE LES ORPHELINS, SUIVANT QUE LE DROIT A PENSION
+                      EST ACQUIS OU NON AU TITRE DU REMARIAGE DE LEUR MÊRE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h27">Article 11 VEUVES NON REMARIÉES ET ORPHELINS TENANT LEUR
+                      DROIT D'UNE CIRCONSTANCE AUTRE QUE LE REMARIAGE DE LEUR MÊRE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h28">Article 12 VEUVES REMARIÉES ET ORPHELINS TENANT LEUR DROIT A
+                      PENSION DU REMARIAGE DE LEUR MÊRE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">Article 13 CONCURRENCE D'ORPHELINS D'UN PREMIER LIT AVEC UNE
+                      VEUVE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">Article 14 MODE D'APPLICATION DES DISPOSITIONS DES ARTICLES
+                      78 ET 79 DE LA LOI DU 30 DÉCEMBRE 1928 A. - Titulaires de pensions
+                      concédées.</ref>
+                  </item>
+                  <item>
+                    <ref target="#h31">Article 15 NATURE ET TAUX DE L'ALLOCATION</ref>
+                  </item>
+                  <item>
+                    <ref target="#h32">Article 16 ATTRIBUTION DE L'ALLOCATION N ° 6</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h33">TITRE V Prorogation des délais impartis par les lois des 9
+                  janvier 1926 et 26 mars 1927.</ref>
+                <list>
+                  <item>
+                    <ref target="#h34">Article 17 OBJET</ref>
+                  </item>
+                  <item>
+                    <ref target="#h35">Article 18 BÉNÉFICIAIRES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h36">Article 19 Victimes civiles, ayants cause de victimes civiles
+                      et ayants cause de militaires.</ref>
+                  </item>
+                </list>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h37">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h38">Assurances sur la vie</ref>
+              </item>
+              <item>
+                <ref target="#h39">Bibliographie</ref>
+              </item>
+              <item>
+                <ref target="#h40">Promotion dans la Légion d'honneur</ref>
+              </item>
+              <item>
+                <ref target="#h41">Nécrologie</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h42">La Page des Sans-Filistes</ref>
+            <list>
+              <item>
+                <ref target="#h43">COMPTE RENDU DE L'ASSEMBLEE GENERALE DE LA SECTION DES
+                  SANS-FILISTES, LE 2 MARS 1929</ref>
+              </item>
+              <item>
+                <ref target="#h44">LA LIGUE DES SANS-FILISTES DE FRANCE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h45">Chronique de l'U.A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h46">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h47">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h48">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h49">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h50">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h51">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h52">AVIS</ref>
+              </item>
+              <item>
+                <ref target="#h53">Liste des Donateurs</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h54">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h55">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h56">COMITE D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">11e Année. — N° 3</fw>
+          <fw type="header">
+            <hi rend="underline">Mars 1929</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>La British Legion et les pensions de guerre. - Ce qui a été fait pour les
+                      invalides en Yougoslavie. - Nos vacances en 1929. - Une circulaire du Ministre
+                      des Pensions.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Assurances sur la vie.</item>
+                    <item>Bibliographie.</item>
+                    <item>Promotion dans la Légion d'honneur.</item>
+                    <item>Nécrologie.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">La Page des
+                    Sans-Filistes</head>
+                  <list>
+                    <item>Procès-verbal de l'assemblée générale de la section des
+                      Sans-Filistes.</item>
+                    <item>La Ligue des Sans-Filistes de France.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h5">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Cotisations.</item>
+                    <item>Avis divers.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou, Ministre de la Justice; M. le colonel Fabry, ancien ministre des
+              Colonies; M. Brieux, de l'Académie Française, président honoraire; M. le général
+              Balfourier; M. Borrel, député, ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien ministre:</p>
+            <p>Miss Grace Harfer; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Ramell, député;</p>
+            <p>M* Henni-Robert, de l'Académie Frangaine, ancien bétonnier de Ordre des Avocats;
+              Général Sainte-Claire-Deville; M. Valery-Ridot; M. Constant Verlot, député; M. le
+              professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">La British Legion el les pensions
+              de guerre</head>
+            <p>Les lois qui, depuis la guerre, régissent les pensions, en GrandeBretagne,
+              constituent un progrès considérable si on les compare aux lois et règlements
+              d'autrefois.</p>
+            <p>Plusieurs faits en sont cause; voici les principaux : a) Notre population totale de
+              46 millions d'habitants a donné 6 millions de combattants, c'est-à-dire que chaque
+              famille, ou presque, avait un parent, au moins, dans l'armée, la marine ou l'aviation.
+              b) Pour la première fois dans l'histoire de la nation, les anciens combattants se sont
+              réunis en association pour défendre leurs intérêts. c) La guerre a considérablement
+              augmenté le coût de la vie.</p>
+            <p>Signalons, au nombre des avantages acquis: l'augmentation considérable du taux des
+              pensions; les pensions accordées aux femmes et aux enfants des mutilés; l'augmentation
+              des pensions des mutilés qui, avant la guerre, avaient des traitements dépassant une
+              certaine somme; des règlements spéciaux concernant l'éducation et les soins à donner
+              aux orphelins de guerre. Enfin, avant tout, la création d'une Cour d'Appel pouvant
+              révoquer les décisions du Ministère des Pensions, concernant les pensions.</p>
+            <p>Ce qu'il y a peut-être de plus remarquable dans tout ce programme, ce sont les
+              immenses services que de nombreux citoyens, faisant preuve du plus haut esprit social,
+              ont volontairement rendus aux victimes de la guerre. Au début de la guerre, le
+              Gouvernement se rendit compte, en effet, qu'un système de centralisation serait
+              incapable de faire face à l'examen des centaines de demandes : c'est dans ces
+              conditions qu'il créa des commissions appelées Local War Pensions Committee
+              (Commissions Régionales des Pensions de Guerre), composées uniquement de volontaires,
+              où il n'intervenait que pour fournir le personnel salarié chargé du travail de bureau.
+              Au mois de mars 1920, existaient 1.538 commissions et sous-commissions de ce genre
+              groupant près de 20.000 citoyens qui consacraient, volontairement et gratuitement,
+              leur temps à la cause des mutilés, des veuves et des ayants droit. A l'heure actuelle,
+              dix ans après l'Armistice, 161 commissions fonctionnent encore, qui occupent près de
+              3.500 travailleurs volontaires, membres, pour la plupart, de la British Legion ou de
+              la British Legion Auxiliary.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Il faut remarquer que les questions des pensions de guerre n'ont jamais été l'objet
+              de manœuvres politiques. Non seulement la British Legion elle-même se tient à l'écart
+              de toute politique, mais chacun l'imite en ce qui concerne les pensions: c'est ainsi
+              que les revendications des anciens combattants sont accueillies avec la même sympathie
+              par les gouvernements, à quelque parti qu'ils appartiennent. La British Legion
+              entretient des relations très cordiales avec tous les Ministères s'occupant des
+              victimes de la guerre, ce qui ne manque pas d'être fort utile aux mutilés.</p>
+            <p>La British Legion est encore très préoccupée par certains problèmes concernant les
+              pensions de guerre; le principal est peut-être celui des soins à donner aux orphelins.
+              En l'état actuel, ceux-ci ont droit à une pension jusqu'à l'âge de seize ans
+              seulement, toutefois l'orphelin atteint d'une infirmité, mentale ou physique, qui le
+              rend incapable de gagner sa vie, touche une pension jusqu'à l'âge de vint et un ans.
+              Nous considérons avec raison qu'il est illogique, et injuste, de fixer une limite
+              d'âge pour cette catégorie d'orphelins, limite après laquelle la pension tombe. Si le
+              père d'un de ces malheureux a donné sa vie pour la patrie, il est juste que celle-ci
+              assume les charges pat:rnelles. Or, il est évident que ce père n'aurait pas été assez
+              inhumain pour se désintéresser de son enfant infirme le jour où cet enfant aurait
+              atteint l'âge de sa majorité. La British Legion espère obtenir que les pensions en
+              question seront maintenues au delà de la limite d'áge actuellement fixée.</p>
+            <p>Le décret royal, qui autorise l'allocation de pensions, et en détermine le taux, fixe
+              un terme à la présentation des demandes. Ce terme expire sept ans après la
+              démobilisation du combattant. L'avis de la British Legion a toujours été que le
+              Gouvernement, qui a à sa disposition tous les moyens de contrôle - puisque c'est ay
+              Mutilé de prouver que son infirmité résulte de la guerre - n'a aucune raison de
+              maintenir cette limite : elle en demande donc la suppression et il est évident que
+              l'octroi, mérité, de pensions nouvelles peut résulter d'une pareille modification.</p>
+            <p>Or, le Gouvernement refuse la suppression : toutefois reconnaissant la justesse des
+              arguments de la British Legion, il a donné au Ministère des Pensions des instructions
+              spéciales afin que celui-ci examine les demandes tardives qui lui paraissent fondées.
+              Il faut reconnaitre que le Ministère des Pensions a tenu compte de l'autorisation qui
+              lui a été donnée, car 300 pensions, sollicitées après le délai, ont été, finalement,
+              accordées. Bien qu'appréciant comme il convient cette concession, la <pb n="5"/>
+              <note type="foliation">— 3 —</note> British Legion continue cependant à lutter pour
+              obtenir la suppression du délai et, à l'heure actuelle, elle prépare une demande
+              formelle, qu'elle compte soumettre au Gouvernement.</p>
+            <p>Durant les premières années qui suivirent l'armistice, les pensions étaient accordées
+              à titre temporaire; elles devaient être renouvelées, chaque année, après nouvel examen
+              médical. La British Legion avait alors longuement insisté pour obtenir l'abolition de
+              ces examens périodiques. Résultat de son insistance: un nouveau règlement parut en
+              1921, autorisant le Ministère à accorder des pensions définitives, c'est-à-dire à vie,
+              - mais cela ne pouvait avoir lieu que si le mutilé était atteint d'une infirmité
+              permanente, ne comportant ni amélioration ni aggravation possibles, et atteignant ou
+              dépassant 200 / 0. Un appel contre une décision pouvait être soumis au " Tribunal
+              Indépendant " dans un délai de un an. Or l'expérience nous a prouvé que, dans certains
+              cas, le diagnostic avait été mauvais et que l'état de l'invalide empirait sans cesse.
+              La British Legion avait à vaincre une grande difficulté, car la sentence, basée sur le
+              "Statut ", liait à la fois, et définitivement, le pensionné et le Ministère; la
+              pension ne pouvait être modifiée. Néanmoins, à la suite de longues négociations entre
+              la British Legion et le Gouvernement, le Ministère reçut enfin l'autorisation de faire
+              des concessions " au titre de sanctions spéciales ", et plus de 5.000 pensions furent
+              augmentées. Il est juste de dire, toutefois que, dans son ensemble, le système
+              fonctionne très bien, mais quelques lacunes existent encore; la Legion les a signalées
+              à l'attention du Gouvernement, et elle espère les voir combler. (Extrait de la "F. I.
+              D. A. C. ".) \infty</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Ce qui a été fait pour les
+              invalides en Yougoslavie</head>
+            <p>La défense des intérêts des invalides est confiée à une section spéciale du Ministère
+              de la Politique sociale.</p>
+            <p>Cette section exerce ses fonctions par l'intermédiaire des institutions locales qui,
+              dans les régions de l'ancienne Serbie et du Monténégro, s'occupent des invalides ainsi
+              que de la protection des enfants.</p>
+            <p>Avant la loi du 17 novembre 1925, des institutions spéciales s'intéressaient aux
+              invalides dans leurs régions respectives, préparaient les statistiques, recevaient les
+              demandes et les plaintes, s'occupaient des cures, de la rééducation, des placements,
+              distribuaient les titres de <pb n="6"/>
+              <note type="foliation">— 4 —</note> déplacement sans frais, maintenaient des rapports
+              avec les organisations des invalides.</p>
+            <p>A chaque institution de protection était adjoint un Tribunal des invalides, dont la
+              compétence, comme tribunal de première instance, s'étendait à toutes les questions
+              concernant les subventions aux invalides. Le droit à subvention était décidé, en
+              seconde et dernière instance, sur le territoire de l'ancienne Serbie et du Monténégro,
+              par le Tribunal Supérieur des Invalides.</p>
+            <p>La loi du 17 novembre 1925 annula toutes les prescriptions antérieures et établit un
+              règlement unique pour tout le pays. D'après cette loi, les droits à pension et à
+              subvention sont reconnus par les tribunaux de première instance (tribunaux de
+              districts, de départements, etc.) et en seconde, et dernière instance, par les
+              tribunaux supérieurs des invalides à Belgrade, Zagreb et Sarajevo.</p>
+            <p>Les sommes distribuées, à titre de pensions régulières d'invalidité, furent les
+              suivantes :</p>
+            <table>
+              <row>
+                <cell>1919-1920</cell>
+                <cell>Din.</cell>
+                <cell>350.000 .000</cell>
+              </row>
+              <row>
+                <cell>1920-1921</cell>
+                <cell/>
+                <cell>350.000 .000</cell>
+              </row>
+              <row>
+                <cell>1921-1922</cell>
+                <cell/>
+                <cell>350.000 .000</cell>
+              </row>
+              <row>
+                <cell>1922-1923</cell>
+                <cell/>
+                <cell>257.223 .584</cell>
+              </row>
+              <row>
+                <cell>1923-1924</cell>
+                <cell/>
+                <cell>257.223 .584</cell>
+              </row>
+              <row>
+                <cell>1924-1925</cell>
+                <cell/>
+                <cell>290.000 .000</cell>
+              </row>
+              <row>
+                <cell>1925-1926</cell>
+                <cell/>
+                <cell>280.000 .000</cell>
+              </row>
+              <row>
+                <cell>1926-1927</cell>
+                <cell/>
+                <cell>400.000 .000</cell>
+              </row>
+              <row>
+                <cell>1927-1928</cell>
+                <cell/>
+                <cell>320.000 .000</cell>
+              </row>
+              <row>
+                <cell>1928-1929</cell>
+                <cell/>
+                <cell>275.000 .000</cell>
+              </row>
+            </table>
+            <p>Il fut donc distribué au total: din. 3.129.447.168 à titre de pensions régulières. En
+              outre, il fut payé, pour couvrir les pensions arriérées, din. 100 millions depuis le
+                1<hi rend="superscript">er</hi> avril 1920 jusqu'au 1<hi rend="superscript">er</hi>
+              mai 1928. Le solde des pensions arriérées s'élève actuellement à : din. 192 millions.
+              Ce solde sera prélevé sur l'emprunt de la régie des monopoles dans le délai de deux
+              mois. Durant les trois premières années budgétaires, 11 millions de dinars furent
+              distribués aux invalides qui désiraient toucher une certaine somme en renonçant au
+              droit à pension. Dans le même but, une somme de 10 millions de dinars est prévue au
+              budget de l'année 1929-1930.</p>
+            <p>La section des invalides du ministère de la politique sociale fournit <pb n="7"/>
+              <note type="foliation">— 5 —</note> les renseignements suivants concernant les
+              invalides et leurs familles au 1<hi rend="superscript">er</hi> avril 1928 : Invalides
+              avec enfants ..... 26.538 Invalides sans enfant ..... 26.772 Veuves avec enfants .....
+              73.208 Veuves sans enfant ..... 45.332 Orphelins (de père et de mère) ..... 27.901
+              Frères et soeurs ..... 3.190 Parents (pères et mères) ..... 4.941 Pères seuls .....
+              5.550 Mères seules ..... 10.434</p>
+            <p>La section des invalides a distribué, à titre de dons, depuis l'an- née 1921 jusqu'à
+              1928, aux invalides et aux familles des combattants morts, des machines agricoles et
+              des machines à coudre pour un mon- tant total de: din. 8.527.446.</p>
+            <p>Il a été dépensé, pour cures dans des stations balnéaires, d'inva- lides et de
+              parents de combattants morts, de 1921 à 1928 : 8.332.722 dinars.</p>
+            <p>A titre d'aides imprévues, din. 9.881 .200 furent distribués durant la même période
+              aux invalides et à leurs familles.</p>
+            <p>Depuis la fin de la guerre libératrice jusqu'à présent, 4.160 inva- lides ont appris,
+              dans des écoles d'invalides, les métiers de tailleurs, menuisiers, maçons, forgerons,
+              teinturiers, etc. Outre ce nombre d'in- valides, beaucoup d'enfants infirmes furent
+              également instruits et peu- vent maintenant gagner leur vie.</p>
+            <p>Din. 10.300.000 furent distribués pour l'acquisition d'outils et d'instruments divers
+              et din. 4.924.000 furent émis à titre de prêts sans intérêts.</p>
+            <p>Il est utile de remarquer que la loi du 17 novembre 1925, actuel- lement en vigueur,
+              s'applique aux invalides, et à leurs ayants droit, de toutes les provinces du pays,
+              même à ceux qui ont pris part à la guerre dans les armées ennemies, ces derniers
+              jouissant des mêmes droits que les invalides serbes.</p>
+            <p>Extrait de la "F. I. D. A. C. "</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Nos vacances en 1929</head>
+            <p>Conformément à la décision de l'Assemblée générale du 2 décembre 1928, tendant à la
+              location de maisons éloignées de Franceville qui pourraient être mises à la
+              disposition des membres de l'U.A.G. dans d'autres régions que celle du Calvados, nous
+              avons fait le nécessaire pour que nos camarades du Centre et du Midi puissent
+              bénéficier d'une villégiature agréable dans les mêmes conditions que ceux qui se
+              rendent dans notre centre de repos de Franceville-Plage.</p>
+            <p>Cette année, du 1<hi rend="superscript">er</hi> juillet au 30 septembre, les membres
+              de l'U. A. G. pourront donc se rendre non seulement à Franceville, mais sur deux
+              autres plages et dans une station thermale au sujet desquelles nous croyons devoir
+              donner ci-dessous quelques renseignements de nature à déterminer leur choix.</p>
+            <p>Les camarades désireux de profiter des nouveaux centres de repos mis à leur
+              disposition en 1929 devront nous faire parvenir leur demande avant le 8 avril pour
+              permettre à la Commission des maisons de repos de procéder à la répartition des locaux
+              en temps utile. Ils devront nous faire savoir très exactement la période choisie par
+              eux et nous indiquer le nombre de leurs enfants.</p>
+            <p>Les agences de location, qui ont accepté de faire l'inventaire des appartements loués
+              par nous à l'arrivée et au départ de chaque camarade, n'ayant consenti à faire cette
+              opération qu'au début et à 1 fin de chaque mois, il a été décidé que les membres de
+              l'U. A. G., qui profiteront des villégiatures autres que celles de Franceville,
+              bénéficieront d'un séjour d'un mois. Ceux qui, conformément au règlement de
+              Franceville, ont déjà adressé leur demande de séjour dans notre centre du Calvados,
+              pourront, s'ils le désirent, opter pour un des nouveaux centres en nous faisant
+              connaître leur option à la date ci-dessus indiquée, c'est-à-dire avant le 8 avril
+              1929. Ceux qui désireraient se rendre ailleurs qu'à Franceville, au cas où
+              satisfaction ne pourrait leur être accordée, pour cette dernière région, devront nous
+              le faire savoir également en nous indiquant celle des autres régions qui aurait leur
+              préférence.</p>
+            <p>Quatre appartements ont été loués dans la région du sud-est à Sainte-Maxime (Var).
+              Cinq appartements dans la région du sud-ouest à Lacanau (Gironde) et une villa
+              comprenant trois appartements à Vals (Ardèche). Chacun de ces appartements comprend
+              des chambres à coucher, une salle à manger et une cuisine, ou une cuisine assez
+              spa-</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>cieuse pour permettre aux locataires de prendre leurs repas sans gêne. Le linge de
+              table, ainsi que les serviettes de toilette ne sont fournis nulle part et à Lacanau
+              les draps de lit doivent être également apportés par les locataires des villas.</p>
+            <p>Lacanau est situé sur l'océan, à 3 heures de Bordeaux. Une ligne départementale
+              partant de la gare de Bordeaux-Médoc Saint-Louis relie cette plage au chef-lieu de la
+              Gironde. La plage est agréable, tout en sable fin, l'approvisionnement y est
+              extrêmement facile; on y trouve tout ce dont on a besoin (boucherie, charcuterie,
+              boulangerie, pâtisserie, épicerie, bois, charbon, bureau de poste).</p>
+            <p>Sainte-Maxime. Moyens d'accès : gare chemin de fer de Provence, à 1.012 km . ( 19
+              heures) de Paris, 500 km . ( 11 heures) de Lyon; 789 km . ( 18 heures) de Bordeaux;
+              150 km . ( 5 h. 15) de Marseille; 22 km . de Saint-Raphaël; 55 km . de Hyères. Cars
+              automobiles de Saint-Raphaël à Sainte-Maxime, assurant la correspondance des trains
+              grande ligne Paris-Vintimille. Cars automobiles P.-L.-M. de Nice à Marseille par la
+              Corniche. Services de canots automobiles pour Saint-Tropez.</p>
+            <p>Renseignements généraux. Commune de 2.000 habitants. Postes, télégraphe, téléphone;
+              gaz, électricité; médecins, pharmaciens, marché journalier. Tous commerces. Bureau
+              municipal d'hygiène; eau potable; tout-à-l'égout. Cultes catholique et protestant.</p>
+            <p>Bâtie en plein midi, sur les bords du golfe de Saint-Tropez, abritée des vents par
+              les dernières ondulations de la chaîne des Maures, Sainte-Maxime est la station idéale
+              pour l'hivernant qui recherche la tranquillité et la liberté, qui sont le charme de la
+              campagne. Végétation luxuriante composée de palmiers, orangers, eucalyptus, pins
+              parasols, mimosas, oliviers, chênes-lièges et toutes plantes exotiques. Station
+              estivale de premier ordre sur le littoral des Maures, près du Golfe de Saint-Tropez.
+              Site incomparable. La brise de mer apporte au moment des fortes chaleurs une fraîcheur
+              bienfaisante. Température moyenne : 18^{\prime \prime} en automne, 10^{\prime \prime}
+              en hiver, 15^{\prime \prime} au printemps et 24^{\prime \prime} en été. Plage de sable
+              fin convenant spécialement aux enfants; petit port abrité.</p>
+            <p>Distractions : Casino (boule et baccara), dancings, cinéma, concerts, fêtes, gymkhana
+              automobile, régates (bateaux à voiles et à moteur), pêche, chasse, bains de mer,
+              canotage, golf de Beauvallon ( 9 trous). Courses à l'Hippodrome de la Foux, tennis,
+              Société nautique et Société de régates.</p>
+            <p>Spécialités : vins appréciés, pipes de bruyère.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>Voitures de louage : 1 fr. 25 le km.; autos : 1 fr. 50 le km. environ; bateaux à
+              voiles et à moteur.</p>
+            <p>En ce qui concerne Vals, notre camarade Robert (Maurice), membre du Conseil
+              d'administration nous fait parvenir des renseignements que nous communiquons
+              volontiers.</p>
+            <p>La villa Beaume est située dans le haut de Vals, à moins de cinq minutes du Casino.
+              Devant la villa un petit parc très ombragé, derrière une prairie de 80 mètres où les
+              enfants pourront prendre leurs ébats.</p>
+            <p>Il y a à Vals deux casinos avec troupe d'opéra, d'opérette et de comédie. Tous les
+              après-midi concert symphonique dans le parc, bal tous les jours. Autour de Vals, on
+              peut faire de très agréables promenades en autocar et passer de 300 à 1.200 mètres
+              d'altitude. Pour arriver à Vals, il est préférable d'emprunter les autocars de la
+              Compagnie P.-L.-M. qui met un service partant de Valence pour les camarades venant de
+              la direction de Paris-Lyon vers 9 heures du matin et arrivant à Vals à 11 heures. Il y
+              a deux autres services partant de Montélimar pour les camarades venant du Midi. Tous
+              les renseignements sont fournis dans les gares.</p>
+            <p>Certains commerçants feront des remises aux camarades. Robert nous signale qu'il est
+              à peu près persuadé d'obtenir de la direction des deux casinos des avantages spéciaux
+              pour les membres de I'U. A. G. et il a également fait des démarches auprès du docteur
+              R. Chabannes, ancien interne des hôpitaux de Lyon, auquel les camarades pourront
+              s'adresser de sa part pour des traitements éventuels. Nous publions du reste
+              ci-dessous une notice que le docteur Chabannes a bien voulu rédiger à l'intention des
+              membres de l'U. A. G.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">INDICATIONS MEDICALES DE LA CURE
+              DE VALS</head>
+            <p>par le docteur Chabannes, médecin consultant Il y a à Vals plusieurs sources dont la
+              composition varie surtout par la quantité de leurs éléments chimiques.</p>
+            <p>Ses éléments fondamentaux sont le bicarbonate de soude et le gaz acide carbonique.
+              Mais à côté de ces éléments, l'eau de Vals en renferme un grand nombre d'autres, tels
+              que de la lithine, du fer, de l'arsenic, du phosphate de soude, sans parler des
+              éléments que les procédés les plus minutieux d'analyse n'ont pas encore décelés, et
+              qui font des eaux minérales bues à la source même, de véritables "corps vivants ».</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+            <p>Suivant les doses du bicarbonate de soude contenues dans un litre d'eau, on a établi
+              une classification des sources en sources à minéralisation forte, moyenne et
+              faible.</p>
+            <p>Les sources faibles renferment de 1 à 3 grammes de bicarbonate de soude par litre;
+              les moyennes de 3 à 5 grammes, et les fortes de 5 grammes et au-dessus. Les sources
+              Précieuse et Constantine renferment, la première, 6 grammes, la seconde, 9 grammes de
+              matières alcalines.</p>
+            <p>C'est donc cette graduation, cette gamme de ses sources, qui fait l'originalité de
+              Vals, et lui donne toute sa valeur thérapeutique.</p>
+            <p>En dehors de ces sources qui ont toutes un élément commun et dominant, le bicarbonate
+              de soude, il en existe une autre, seule de son type à Vals, c'est la source Dominique,
+              dont la caractéristique est l'arséniate de fer. Elle ne contient pas de bicarbonate de
+              soude, ni d'acide carbonique. Sa composition se rapproche beaucoup de l'eau de La
+              Bourboule.</p>
+            <p>Quelles sont maintenant les maladies que l'on peut traiter à Vals? Ce sont surtout
+              les affections de l'estomac. Ses eaux à minéralisation faible conviennent surtout aux
+              dyspepsies hypopeptiques, c'est-à-dire par insuffisance de suc gastrique, avec
+              dilatation plus ou moins accentuée, paresse de la digestion, flatulence,
+              ballonnement...</p>
+            <p>Ses eaux moyennes et fortes conviennent plutôt aux dyspepsies hyperchlorhydriques ou
+              hypersthéniques, avec des douleurs parfois très vives survenant deux ou trois heures
+              après les repas, alors que l'estomac s'est déjà en partie vidé.</p>
+            <p>Mais il faut tenir le plus grand compte des dispositions individuelles, et considérer
+              comme schématiques simplement ces divisions et ces compartiments, et la richesse
+              hydrologique de Vals permet précisément d'adapter le traitement à chaque cas
+              individuel, pour ainsi dire.</p>
+            <p>Les sources à minéralisation moyenne et forte sont aussi employées avec succès dans
+              le traitement de la lithiase biliaire (coliques hépatiques), de la congestion du foie,
+              de la précirrhose, c'est-à-dire de cet état du foie qui précède la cirrhose
+              confirmée.</p>
+            <p>La lithiase rénale (coliques néphrétiques) est grandement améliorée enfin, et dès le
+                <hi rend="superscript">XVI</hi>^{<hi rend="superscript">e</hi>} siècle, les
+              graveleux se soignaient à Vals, et célébraient avec enthousiasme leur guérison.</p>
+            <p>En associant la cure par la source Dominique avec les eaux bicarbonatées sodiques
+              fortes, on réalise un traitement spécialement efficace du diabète sucré, et la
+              fidélité avec laquelle reviennent les diabétiques, pendant de longues années, témoigne
+              du bénéfice qu'ils en retirent de <pb n="12"/>
+              <note type="foliation">— 10 —</note> leur cure. La Dominique, par sa richesse en
+              arséniate de fer, ajoute au traitement alcalin, son action tonique et
+              reconstituante.</p>
+            <p>C'est à la Dominique également que s'adresseront ceux qui souffrent du paludisme. Non
+              pas qu'il faille demander à cette source la guérison des accès proprement dits; elle
+              n'est pas la rivale de la quinine. Mais elle sera d'une très grande utilité pour
+              combattre les accidents larvés, névralgies diverses, frissonnements, malaises divers
+              que connaissent bien les paludéens, même guéris de leurs accès, l'asthénie et l'anémie
+              consécutives.</p>
+            <p>Parallèlement à la cure de boisson, la principale, le baigneur à Vals suit aussi une
+              cure hydrothérapique externe, par les bains ou par les douches.</p>
+            <p>L'établissement hydrothérapique possède une double installation pour ces deux
+              traitements; les divers appareils de douches, froides, écossaises, tempérées, avec
+              leurs diverses modalités, bains de vapeur sont d'un fonctionnement parfait; un
+              personnel très compétent administre, sur ordonnance médicale, les douches et
+              massages.</p>
+            <p>Le bain est composé d'un tiers d'une source à minéralisation très forte et deux tiers
+              d'eau douce. C'est ainsi un véritable bain carbogazeux, avec ses propriétés
+              hypotensives et cardiaques bien établies.</p>
+            <p>A côté de ce bain, dit bain de Vals, on prend à l'établissement un bain dit "de
+              Dominique ", constitué par un mélange dans des proportions déterminées de boues de la
+              source Dominique, avec l'eau du bain de Vals. Ce bain a des propriétés toniques et
+              sédatives extrêmement précieuses; on l'appelle également "bain rouge ", à cause de la
+              couleur que lui communiquent les boues de la source Dominique.</p>
+            <p>Le gaz carbonique si abondamment fourni par les sources est capté et amené dans des
+              appareils inhalateurs, pour le traitement des voies respiratoires supérieures,
+              catarrhes bronchiques, emphysème pulmonaire.</p>
+            <p>On le voit, à côté de l'indication principale qui est remplie par la cure de boisson,
+              il est possible de soigner à Vals d'autres affections qui, évidemment, ne rentrent
+              pas, à proprement parler, dans sa spécialité, mais qui y trouvent cependant
+              d'importants moyens thérapeutiques.</p>
+            <p>Le climat à Vals ( 250 mètres d'altitude) tient le milieu entre le climat montagnard
+              des vallées cévenoles et le climat méditerranéen.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Une circulaire du Ministère des
+              Pensions</head>
+            <p>Le Journal Officiel du 12 février 1929 publie une instruction relative à
+              l'application des dispositions des articles 76 à 79,81,84,85 et 153 de la loi du 30
+              décembre 1928, portant fixation du budget général pour l'exercice 1929. Nous en
+              extrayons les passages suivants pouvant intéresser nos camarades ou leurs ayants
+              cause.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Préambule</head>
+              <p>Les articles 76 à 79,81,84,85 et 153 de la loi du 30 décembre 1928 portant fixation
+                du budget général pour l'exercice 1929 ont pour objet : a) L'attribution d'une
+                allocation rémunérant les services de leur mari ou de leur père, aux veuves et
+                orphelins de militaires ou marins de carrière décédés avant le 17 avril 1924 et dont
+                le décès n'a ouvert droit à leurs ayants cause qu'à une pension au taux du grade de
+                la loi du 31 mars 1919 (article 76); b) L'octroi de nouvelles facultés d'option aux
+                veuves ou orphelins de fonctionnaires civils et de militaires et marins de carrière
+                décédés avant le 17 avril 1924 qui, soit en application des lois des 14 mars 1915 et
+                15 janvier 1916 (ayants cause de fonctionnaires civils) soit en application de
+                l'article 60 de la loi du 31 mars 1919 (ayants cause de militaires et de marins de
+                carrière) avaient le choix entre deux pensions (pension civile exceptionnelle ou
+                pension militaire au taux du grade pour les premiers, pension mixte ou pension au
+                taux de grade pour les seconds) (article 77); c) La réforme des taux de base des
+                pensions attribuées au titre des lois des 31 mars 1919 et 24 juin 1919 aux veuves
+                non remariées et aux orphelins dont le droit à pension provient en ce qui concerne
+                les orphelins tenant leurs droits du décès de leur père, d'une cause autre que le
+                remariage de leur mère (articles 78 et 79); d) L'attribution d'une allocation
+                spéciale supplémentaire aux grands invalides titulaires de pensions au titre des
+                lois des 31 mars 1919 et 24 juin 1919 et bénéficiaires à la fois des articles 10 et
+                12 de la loi du 31 mars 1919 (article 81); e) Une prorogation nouvelle des délais
+                impartis par les lois des 9 janvier 1926 et 26 mars 1927 pour le dépôt des demandes
+                de pension au titre de la guerre 1914-1918 (article 85);</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>f) Une modification aux dispositions de l'article 41 de la loi du 14 avril 1924
+                (article 84); g) Une disposition relative à l'application des articles 68 et 69 de
+                la loi de finances du 27 décembre 1927 concernant les pensions fondées sur la durée
+                des services (article 153);</p>
+              <p>En outre, l'application des dispositions du paragraphe 3 de l'article 28 de la loi
+                du 31 mars 1919 modifié par l'article 53 de la loi du 9 décembre 1927 doit être mise
+                en concordance avec la disposition nouvelle de la loi du 30 décembre 1928 élevant à
+                10.000 francs la quotité non imposable à l'impôt général sur le revenu (article 2
+                ).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">TITRE Ier Allocation
+                complémentaire aux ayants cause de militaires ou de marins de carrière, décédés
+                avant le 17 avril 1924.</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h15">Article premier
+                  Bénéficiarres de l'Allocation</head>
+                <p>Pour pouvoir bénéficier de l'allocation nouvelle, créée par l'article 76 de la
+                  loi du 30 décembre 1928, cinq conditions doivent être remplies : a) Etre ayant
+                  cause de militaire ou de marin de carrière; b) Etre titulaire d'une pension au
+                  taux du grade de la loi du 31 mars 1919; c) Tenir ses droits du décès d'un
+                  militaire ou d'un marin de carrière, survenu avant le 17 avril 1924; d) Remplir la
+                  condition d'antériorité du mariage, relative à la reversion des pensions fondées
+                  sur la durée des services; e) Ne pas bénéficier d'une rémunération du chef des
+                  services du mari ou du père.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h16">Article 2 EXAMEN DES
+                  CONDITIONS PRÉVUES A L'ARTICLE PREMIER A. - Etre ayant cause de militaire de
+                  carrière.</head>
+                <p>Doivent être considérés comme militaires de carrière, les militaires qui auraient
+                  pu se réclamer légalement des dispositions des articles 59 et 60 de la loi du 31
+                  mars 1919, soit en application desdits articles (pour les militaires en service au
+                  2 août 1914 ou entre le 2 août 1914 et le 16 avril 1924), soit en application de
+                  la loi du 26 juillet 1923, attribuant aux militaires de carrière invalides d'avant
+                  guerre le bénéfice des articles 59 et 60 de la loi du 31 mars 1919.</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+                <p>Aux termes de la jurisprudence en vigueur antérieurement au 17 avril 1924 sont
+                  considérés comme bénéficiaires des articles 59 et 60 de la loi du 31 mars 1919: a)
+                  Les officiers appartenant aux cadres de l'armée active. Parmi ces derniers, il y a
+                  lieu de ranger les officiers en réserve spéciale; b) Les sous-officiers et hommes
+                  de troupe servant au titre d'un rengagement.</p>
+                <p>Les ayants cause bénéficiaires de l'allocation créée par l'article 76 de la loi
+                  du 30 décembre 1928 sont donc: a) Les ayants cause d'officiers de carrière décédés
+                  dans les conditions indiquées plus loin; b) Les ayants cause de sous-officiers et
+                  hommes de troupe rengagés décédés dans les mêmes conditions.</p>
+                <p>Par contre, sont exclus dudit bénéfice : a) Les ayants cause de militaires
+                  servant au titre d'un engagement pour une durée de service supérieure à celle
+                  imposée à leur classe de recrutement (décisions du Conseil d'Etat n <hi
+                    rend="superscript">°</hi> 79829 et 85846 des 20 juillet 1925 et 12 mars 1926. -
+                  Cas Combe et Paganel); b) Les ayants cause de militaires ayant servi au delà de la
+                  durée légale et ayant repris du service au cours de la guerre, mais auxquels la
+                  durée totale de leurs services n'eût pas permis de bénéficier des dispositions de
+                  l'article 2 de la loi du 16 avril 1920 (décision du Conseil d'Etat n <hi
+                    rend="superscript">°</hi> 78103 du 14 mai 1924. - Cas Battesti).</p>
+                <p>Nota. - 1<hi rend="superscript">°</hi> Les ayants cause de militaires de carrière
+                  bénéficiaires d'une pension au taux du grade de la loi du 31 mars 1919 en
+                  application des lois des 18 juillet 1922 et 22 juin 1927 peuvent se réclamer de
+                  l'article 76 de la loi du 30 décembre 1928; 2<hi rend="superscript">°</hi> Bien
+                  que l'article 76 ne vise expressément que les ayants cause de militaires ou marins
+                  de carrière, ledit article concerne également les ayants cause de fonctionnaires
+                  civils des Ministères de la Guerre et de la Marine soumis au régime des pensions
+                  militaires, lorsqu'ils sont titulaires d'une pension de l'article 14 de la loi du
+                  31 mars 1919 acquise au titre des services militaires de leur mari ou de leur
+                  père. (Application des dispositions de l'article 2 de la loi du 22 juin 1927). Les
+                  règles prévues par la présente instruction sont donc applicables à cette dernière
+                  catégorie d'ayants cause; 3<hi rend="superscript">°</hi> Les ayants cause de
+                  fonctionnaires coloniaux visés au dernier alinéa de l'article 76 de la loi du 30
+                  décembre 1928 relevant du Ministère des Colonies (voir préambule de l'instruction
+                    <hi rend="superscript">n</hi>^{\circ} 0297 / <hi rend="superscript">ad</hi> du
+                  10 décembre 1927), il appartient à ce département de fixer les <pb n="16"/>
+                  <note type="foliation">— 14 —</note> règles d'application dudit article en ce qui
+                  les concerne. Il n'en sera pas fait état au cours de la présente instruction.</p>
+                <p>B. - Etre titulaire d'une pension au taux du grade de la loi du 31 mars 1919.</p>
+                <p>Sont titulaires d'une pension au taux du grade de la loi du 31 mars 1919 les
+                  ayants cause de militaires décédés: a) Sur le champ de bataille, d'un accident
+                  éprouvé par le fait ou à l'occasion du service, des suites de blessures reçues à
+                  l'ennemi ou des suites d'accident éprouvé par le fait ou à l'occasion du
+                  service.</p>
+                <p>Dans ces deux dernières hypothèses, le décès du militaire peut avoir eu lieu en
+                  activité de service ou après retour dans ses foyers à la suite de mise à la
+                  retraite ou de mise en réforme. Il est rappelé à ce dernier sujet que les
+                  sous-officiers et hommes de troupe rengagés ne sont pas considérés comme
+                  bénéficiaires de l'article 59 de la loi du 31 mars 1919 lorsque, ayant droit à une
+                  pension d'invalidité, ils ont été réformés après départ volontaire du service
+                  (décision du Conseil d'Etat n <hi rend="superscript">°</hi> 86302 du 8 avril 1927,
+                  cas Bazitie) ou ont été classés dans le service auxiliaire (décision du Conseil
+                  d'Etat à 93986 du 11 mai 1927, cas Mac-Kierman). Il en résulte que les veuves de
+                  ces dernières catégories de militaires, titulaires d'une pension au taux du grade,
+                  ne peuvent bénéficier de la nouvelle allocation; b) De maladie ou des suites de
+                  maladie contractée en service commandé ou de maladie contractée ou aggravée par le
+                  fait ou à l'occasion du service. Le décès a pu avoir lieu alors que le militaire
+                  était en activité ou dans ses foyers; c) De toute autre cause que celle leur ayant
+                  ouvert droit à pension d'invalidité, quand ils sont décédés titulaires d'une
+                  pension basée sur un taux d'invalidité au moins égal à 600 / 0.</p>
+                <p>Pour les deux premières catégories, aucune condition de durée de service n'est
+                  imposée. Par contre, pour que les ayants cause de militaires de carrière
+                  titulaires d'une pension au taux de reversion du grade de la loi du 31 mars 1919
+                  puissent bénéficier de la nouvelle allocation, il faut, selon les termes mêmes du
+                  deuxième alinéa de l'article 76 de la loi du 30 décembre 1928, que le mari ou le
+                  père ait effectué au moins quinze ans de service effectif. Si une telle condition
+                  n'était pas exigée, les veuves de cette dernière catégorie se trouveraient
+                  avantagées sans raison par rapport aux ayants cause de militaires de carrière
+                  décédés après le 17 avril 1924 dans les mêmes conditions et dont les droits à <pb
+                    n="17"/>
+                  <note type="foliation">— 15 —</note> pension sont définis par l'article 36 (§ 3)
+                  du décret du 2 septembre 1924, portant application de la loi du 14 avril 1924.</p>
+                <p>C. - Décès antérieurs au 17 avril 1924.</p>
+                <p>Conformément aux dispositions du premier alinéa de l'article 76 de la loi du 30
+                  décembre 1928, les droits à pension des postulants ont dû s'ouvrir avant le 17
+                  avril 1924. Comme, d'autre part, les droits des intéressés se sont ouverts au
+                  décès du militaire ou du marin, il en résulte que la loi ne s'applique qu'aux
+                  veuves et orphelins dont le décès du mari ou du père est survenu avant le 17 avril
+                  1924.</p>
+                <p>L'indication de la date du décès portée sur la déclaration-questionnaire, modèle
+                    <hi rend="superscript">n</hi>^{\circ} 1, annexée à la présente instruction,
+                  suffira à elle seule à écarter les demandes de veuves ou d'orphelins de militaires
+                  ou de marins, dont le décès est survenu après le 16 avril 1924 et qui sont
+                  justiciables de la loi du 14 avril 1924.</p>
+                <p>D. - Condition d'antériorité du mariage.</p>
+                <p>Il existe des règles spéciales différentes concernant l'antériorité du mariage,
+                  suivant qu'il s'agit de pensions militaires, fondées uniquement sur le décès ou de
+                  pensions fondées sur la durée des services. Dans le premier cas, ce sont les
+                  règles prévues par l'article 14 de la loi du 31 mars 1919, modifié par la loi du
+                  23 mars 1928, qui sont applicables; dans le deuxième cas, ce sont les règles
+                  fixées par l'article 23 de la loi du 14 avril 1924 reproduisant les dispositions
+                  de la législation en vigueur antérieurement au 17 avril 1924 pour les ayants cause
+                  de militaires de carrière.</p>
+                <p>Pour l'attribution de l'allocation créée par l'article 76 de la loi du 30
+                  décembre 1928, qui doit être égale à 600 / 0 de la pension attribuée aux
+                  bénéficiaires de l'article 60 de la loi du 31 mars 1919, les règles d'antériorité
+                  du mariage sont les règles prévues par l'article 23 de la loi du 14 avril 1924, en
+                  ce qui concerne la reversion des pensions militaires fondées sur la durée des
+                  services.</p>
+                <p>Nota. - Le remariage des veuves n'est pas une cause de déchéance du droit à
+                  allocation pour les veuves qui, malgré ce remariage, n'auront pas perdu le droit à
+                  pension au titre de la loi du 31 mars 1919. E. - Ne pas bénéficier de rémunération
+                  du fait des services du mari.</p>
+                <p>Il faut entendre par cette condition que les intéressés ne bénéficient d'aucune
+                  pension fondée sur la durée des services du mari. Il ne sau- <pb n="18" break="no"/>
+                  <note type="foliation">— 16 —</note> rait être question, en effet, de comprendre
+                  sous le terme de rémunération des services du mari la concession d'un bureau de
+                  tabac ou la nomination à un emploi réservé. L'interdiction de cumul d'un bureau de
+                  tabac avec l'allocation de l'article 68 de la loi du 14 avril 1924 a en effet été
+                  levée par la loi du 10 mars 1925; elle n'existe pas d'autre part pour les
+                  bénéficiaires de pension fondée sur la durée des services. Par ailleurs, si les
+                  veuves des militaires de carrière dont s'agit ont pu obtenir un emploi réservé au
+                  titre de la loi du 30 janvier 1923, c'est au même titre que toutes les autres
+                  veuves de guerre à la suite d'un concours, et la rémunération qu'elles reçoivent
+                  de ce fait s'applique à leurs services propres et non à ceux de leur mari.</p>
+                <p>Se trouvent notamment exclues du bénéfice de l'allocation : a) Les veuves
+                  bénéficiaires de pensions mixtes; b) Les veuves d'anciens militaires de carrière
+                  devenus fonctionnaires civils et bénéficiant d'une pension civile; c) Les veuves
+                  de militaires de carrière pouvant prétendre au bénéfice des dispositions de
+                  l'article 77 de la loi du 30 décembre 1928.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Article 3 MODE DE
+                  LIQUIDATION DE L'ALLOCATION</head>
+                <p>L'article 76 précise que l'allocation sera calculée pour chaque année de service
+                  ou de campagne à raison de 600 / 0 de l'annuité correspondante attribuée aux
+                  ayants cause des militaires ou marins de même grade en possession de droits à
+                  pension mixte au titre de l'article 60 de la loi du 31 mars 1919 et calculée
+                  d'après les soldes en vigueur au 1<hi rend="superscript">er</hi> janvier 1928.</p>
+                <p>Il y a lieu, par suite, de liquider l'allocation suivant les règles suivantes :
+                  a) Services et campagnes. - Les services et campagnes à prendre en considération
+                  sont ceux valables pour la liquidation des pensions mixtes attribuées en
+                  application de l'article 60 de la loi du 31 mars 1919 aux veuves de militaires de
+                  carrière décédés avant le 17 avril 1924. Il ne peut être fait état en l'espèce des
+                  dispositions nouvelles prévues par la loi du 14 avril 1924. Il est rappelé que
+                  pour les ayants cause de militaires de carrière tués à l'ennemi ou décédés des
+                  suites de blessures reçues au cours de la guerre 1914-1918, le bénéfice de la
+                  double campagne ne cesse qu'un an après le jour où le militaire a été tué ou a
+                  reçu ses blessures (décision du Conseil d'Etat du 12 novembre 1927, n <hi
+                    rend="superscript">°</hi> 94776, cas veuve Dubujadoux). Les services et
+                  campagnes sont décomptés d'autre part dans la même limite que pour les veuves <pb
+                    n="19"/>
+                  <note type="foliation">— 17 —</note> bénéficiaires de l'article 60 de la loi du 31
+                  mars 1919, compte tenu pour les ayants cause de militaires de carrière ayant
+                  participé en qualité de combattant à la guerre 1914-1918, des dispositions de
+                  l'article 80 de la loi du 14 avril 1924; b) Solde moyenne. - La solde de base qui
+                  doit servir au calcul de l'allocation est la moyenne des soldes qu'aurait perçues
+                  le militaire pendant ses trois dernières années d'activité d'après les tarifs de
+                  solde et échelons de solde en vigueur au 1<hi rend="superscript">er</hi> janvier
+                  1928; c) Calcul de l'allocation. - L'allocation devant être égale à 600 / 0 de la
+                  pension fondée sur la durée des services qui serait servie à la veuve si les
+                  dispositions de l'article 60 de la loi du 31 mars 1919 étaient applicables et,
+                  d'autre part, la pension de veuve étant, dans ce cas, de 500 / 0 de celle du mari,
+                  il en résulte que l'allocation est égale à 0,50 \times 0,60=0,30 de la pension qui
+                  aurait été allouée au mari lui-même au titre de ses services et campagnes, soit en
+                  application de l'article 59, soit en application de l'article 60 de la loi du 31
+                  mars 1919 (pour les sous-officiers et hommes de troupe ayant effectué au moins
+                  quinze ans et moins de vingt-cinq ans de services).</p>
+                <p>Il sera donc procédé à la liquidation de la pension qu'aurait obtenue le mari, en
+                  application des règles de l'article 44 de la loi du 14 avril 1924, le minimum de
+                  la pension d'ancienneté à 25 annuités n'étant acquis qu'aux officiers des troupes
+                  coloniales comptant six ans de séjour aux colonies et qu'aux sous-officiers et
+                  hommes de troupe métropolitains et coloniaux. Le montant de l'allocation sera égal
+                  à 300 / 0 de ladite pension. Il sera fait application, le cas échéant, des
+                  dispositions de l'article 35 de la loi du 19 mars 1928. d) Point de départ de
+                  l'allocation. - Le point de départ de l'allocation est fixé au 1<hi
+                    rend="superscript">er</hi> janvier 1929. e) Concurrence de veuves et
+                  d'orphelins. - Dans les cas de l'espèce, l'allocation sera partagée entre la veuve
+                  et les orphelins comme il est procédé en matière de pension mixte entre les veuves
+                  et les orphelins de militaires décédés avant le 17 avril 1924. Les enfants
+                  naturels reconnus n'y ont pas droit comme n'ayant aucun droit à la rémunération
+                  des services de leur père sous la législation antérieure à la loi du 14 avril
+                  1924.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Article 4 ATTRIBUTION
+                  DE L'ALLOCATION</head>
+                <p>A. - Production de demandes par les intéressés.</p>
+                <p>Pour obtenir l'allocation complémentaire, les intéressés devront <pb n="20"/>
+                  <note type="foliation">— 18 —</note> produire une demande et l'adresser à
+                  l'intendant des Pensions du cheflieu du domicile du postulant.</p>
+                <p>A défaut de stipulations contraires dans le texte de l'article 76 de la loi du 30
+                  décembre 1928, les demandes devront être produites, à peine de déchéance, dans un
+                  délai de cinq ans à compter du 1<hi rend="superscript">er</hi> janvier 1929, date
+                  de la mise en application de la loi du 30 décembre 1928.</p>
+                <p>B. - Avances sur l'allocation.</p>
+                <p>Aucune avance ne sera consentie sur l'allocation complémentaire. Il est fait
+                  remarquer du reste que le dossier de la postulante étant complet au moment où une
+                  avance pourrait être consentie, le projet de liquidation sera soumis à ce moment
+                  aux revisions du Ministère des Finances et toute diligence sera apportée aux
+                  opérations de concession.</p>
+                <p>C. - Remise des titres.</p>
+                <p>Les titres d'allocation, d'un modèle spécial, et les lettres de notification de
+                  concession seront adressés aux intendants des pensions et remis aux intéressés,
+                  suivant les règles déjà appliquées en ce qui touche au bénéfice des dispositions
+                  de l'article 68 de la loi du 14 avril 1924. Comme aucune avance n'aura été payée,
+                  aucune pièce ne sera à joindre à l'envoi du livret d'allocation. Le payement des
+                  arrérages dus depuis le 1<hi rend="superscript">er</hi> janvier 1929 sera effectué
+                  par les comptables assignataires, suivant les instructions qui leur seront
+                  notifiées à ce sujet par le ministre des Finances.</p>
+                <p>D. - Règles de cumul.</p>
+                <p>L'allocation est soumise aux règles restrictives du cumul d'une pension et d'un
+                  traitement ou de deux pensions fondées sur la durée des services édictés par les
+                  articles 59 et 62 de la loi du 14 avril 1924 et l'article 66 de la loi du 27
+                  décembre 1927.</p>
+                <p>Nota. - Les veuves non remariées et les orphelins tenant leur droit à pension, au
+                  titre de la loi du 31 mars 1919, d'une circonstance autre que le remariage de leur
+                  mère peuvent prétendre, d'autre part, au relèvement du taux de base de leur
+                  pension au taux du grade de la loi du 31 mars 1919. Ils se conformeront, pour
+                  obtenir cet avantage, aux règles ci-après pour l'application des dispositions des
+                  articles 78 et 79 de la loi du 30 décembre 1928.</p>
+                <pb n="21"/>
+                <note type="foliation">— 19 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">TITRE II Ouverture d'un
+                nouveau délai d'option en faveur de certaines catégories d'ayants cause de
+                militaires et de fonctionnaires.</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Article 5 OBJET</head>
+                <p>L'objet de l'article 77 de la loi de finances du 30 décembre 1928 est de
+                  permettre: 1<hi rend="superscript">°</hi> Aux veuves et orphelins de militaires de
+                  carrière et aux veuves et orphelins de fonctionnaires décédés avant le 17 avril
+                  1924 d'obtenir la rémunération des services de leur mari ou de leur père, en
+                  conformité des lois antérieures dans le cas où ces pensionnés ont seulement obtenu
+                  la pension au taux du grade de la loi du 31 mars 1919; 2<hi rend="superscript"
+                    >°</hi> Aux veuves et orphelins de militaires de carrière et aux veuves de
+                  fonctionnaires civils titulaires d'une pension mixte ou d'une pension civile
+                  exceptionnelle d'opter pour la pension au taux du grade de la loi du 31 mars 1919.
+                  Il est fait observer que les veuves et orphelins ont rarement intérêt à exercer
+                  cette option.</p>
+                <p>Pour pouvoir bénéficier des dispositions de l'article 77 de la loi du 31 mars
+                  1919, deux conditions sont nécessaires: 1<hi rend="superscript">°</hi> Que le
+                  décès du mari ou du père soit antérieur au 17 avril 1924 (voir, à ce sujet, les
+                  considérations exposées au paragraphe C de l'article 2 de la présente
+                  instruction); 2<hi rend="superscript">°</hi> Que le décès du mari ou du père
+                  permette, sous la législation antérieure à la loi du 14 avril 1924, la
+                  rémunération de ses services ou l'attribution d'une pension civile exceptionnelle.
+                  L'article 6 qui suit indique les catégories de veuves et orphelins dont le décès
+                  de leur mari ou de leur père remplit cette condition.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Article 6
+                  BÉNÉFICIAIRES</head>
+                <p>A. - Ayants cause de militaires.</p>
+                <p>Ce sont les ayants cause de militaires ou de marins de carrière, titulaires de
+                  pension au taux du grade de la loi du 31 mars 1919, dont le mari ou le père est
+                  décédé avant le 17 avril 1924 dans des conditions de nature à ouvrir droit à une
+                  pension mixte de l'article 60 de</p>
+                <pb n="22"/>
+                <note type="foliation">— 20 —</note>
+                <p>la loi du 31 mars 1919 et auxquels des facultés d'option ont été ouvertes par:
+                    1<hi rend="superscript">°</hi> Les lois des 31 mars 1919 (art. 60), 25 mars 1920
+                  (art. 16) et 14 avril 1924 (art. 73), en ce qui concerne les ayants cause de
+                  militaires de carrière des catégories ci-après: a) Militaires de carrière en
+                  activité de service au 2 août 1914 et ayant accompli au moins vingt-cinq ans de
+                  service tant civil que militaire lors de leur décès; b) Retraités proportionnels
+                  au 2 août 1914 ayant repris du service pendant la guerre 1914-1918 (art. 7 de la
+                  loi du 16 avril 1920); c) Sous-officiers et hommes de troupe au 2 août 1914
+                  devenus officiers pendant la guerre, ayant accompli au moins quinze ans de service
+                  lors de leur décès et décédés avant le 16 avril 1921 (art. 3 et 7 de la loi du 16
+                  avril 1920); d) Sous-officiers et hommes de troupe au 2 août 1914 devenus
+                  officiers pendant la guerre et ayant accompli au moins quinze ans de service lors
+                  de leur admission à la retraite proportionnelle et dont la retraite a été
+                  prononcée avant le 16 avril 1921 au titre de l'article 3 de la loi du 16 avril
+                  1920; 2<hi rend="superscript">°</hi> Par la loi du 31 mars 1919 et l'article 13 de
+                  la loi du 22 juillet 1921 fixant le statut des officiers à titre temporaire, en ce
+                  qui concerne les ayants cause d'officiers à titre temporaire décédés entre le 22
+                  juillet 1921 et le 16 avril 1924 d'infirmités dues au service (guerre 1914-1918 ou
+                  service effectué après le 23 octobre 1919); 3<hi rend="superscript">°</hi> Par la
+                  loi du 26 juillet 1923, en ce qui concerne les ayants cause de militaires de
+                  carrière, ayant contracté leurs infirmités au service avant le 2 août 1914 et
+                  ayant effectué au moins vingt-cinq ans de service lors de leur radiation des
+                  contrôles (décès, retraite ou mise en réforme).</p>
+                <p>B. - Ayants cause de fonctionnaires.</p>
+                <p>Il s'agit d'ayants cause de fonctionnaires de l'Etat, des départements, des
+                  colonies, qui, mobilisés pendant la guerre 1914-1918, ont été tués à l'ennemi ou
+                  sont décédés avant le 17 avril 1924 des suites de blessures de guerre. Les ayants
+                  cause pouvaient, en application des lois des 14 mars 1915, 15 janvier 1916, 25
+                  mars 1920 (art. 16), 30 avril 1920 (art. 17) et 14 avril 1924 (art. 79), opter
+                  soit pour la pension militaire au taux fixé d'après le grade de leur mari ou pour
+                  la pension civile exceptionnelle prévue par la loi du 9 juin 1853 et par les
+                  articles 19 et 23 de la loi du 14 avril 1924.</p>
+                <pb n="23"/>
+                <note type="foliation">— 21 —</note>
+                <p>Ces ayants cause sont admis à opter à nouveau pour le régime qui leur est le plus
+                  favorable.</p>
+                <p>Nota. - Il est fait remarquer qu'en l'état actuel de la législation, les droits
+                  des veuves de fonctionnaires décédés avant le 17 avril 1924 des suites
+                  d'infirmités contractées au cours de la guerre 19141918 sont les suivants :</p>
+                <p>Le fonctionnaire avait effectué au moins vingt-cinq ans de services civils et
+                  militaires.</p>
+                <p>Cumul de la pension de reversion des services avec la pension au taux du grade de
+                  la loi du 31 mars 1919.</p>
+                <p>Le fonctionnaire avait effectué moins de vingt-cinq ans de services civils et
+                  militaires : 1<hi rend="superscript">°</hi> Décès dû à une blessure de guerre -
+                  option plus haut définie; 2<hi rend="superscript">°</hi> Décès dû à une maladie -
+                  pension de la loi du 31 mars 1919 au taux du grade.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">Article 7 POINT DE
+                  DÉPART DE LA NOUVELLE PENSION ET DURÉE DU DÉLAI D'OPTION</head>
+                <p>L'option doit être exercée avant le 1<hi rend="superscript">er</hi> janvier 1930;
+                  la nouvelle pension concédée aura pour point de départ le 1<hi rend="superscript"
+                    >er</hi> janvier 1929.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">Article 8 ATtribution
+                  du BÉnéfice de L'article 77 de la LOI DU 30 DÉCEMBRE 1928</head>
+                <p>A. - Ayants cause de militaires de carrière</p>
+                <p>Les ayants cause de militaires de carrière adresseront leur demande d'option
+                  (modèle <hi rend="superscript">n</hi>^{\circ} 2 ou <hi rend="superscript"
+                  >n</hi>^{\circ} 2 bis) à l'intendant des pensions du cheflieu de leur domicile. Ce
+                  fonctionnaire transmettra sans délai la demande à l'administration centrale
+                  (direction de la liquidation, 2<hi rend="superscript">e</hi> bureau) après y avoir
+                  apposé la date d'arrivée dans ses services afin de permettre de vérifier
+                  ultérieurement si la demande a été produite dans le délai prévu à l'article 7 qui
+                  précède.</p>
+                <p>B. - Ayants cause de fonctionnaires</p>
+                <p>Les ayants cause de fonctionnaires devront adresser leur demande de pension
+                  civile au ministère dont dépendait leur mari ou leur père lors de la cessation de
+                  ses services, auquel il appartiendra de réclamer <pb n="24"/>
+                  <note type="foliation">— 22 —</note> au ministère des pensions (direction de la
+                  liquidation, 4<hi rend="superscript">°</hi> bureau) communication du dossier de
+                  pension militaire de l'intéressé.</p>
+                <p>Les ayants cause de fonctionnaires dépendant du ministère de la guerre lors de la
+                  cessation de leurs services doivent adresser leur demande au ministère des
+                  pensions (direction de la liquidation, 4<hi rend="superscript">°</hi> bureau,
+                  pensions civiles). Si les ayants cause de fonctionnaires titulaires d'une pension
+                  civile, demandaient la pension de la loi du 31 mars 1919, leur option devrait être
+                  adressée non à leur ministère d'origine, mais au ministère des pensions dans les
+                  conditions prévues pour les ayants cause de militaires.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">Article 9 REMISE DES
+                  TITRES DE PENSION</head>
+                <p>Les titres de pension comportant liquidation par les soins du ministère des
+                  pensions, seront remis suivant les règles prévues par les instructions des 24
+                  janvier 1920 et 27 janvier 1923. Il y aura lieu, dans tous les cas, à
+                  établissement d'une feuille de décompte, puisqu'il s'agira, suivant le cas, soit
+                  d'une pension mixte, soit d'une pension au taux du grade. Au débit ne seront
+                  portées que les sommes perçues à dater du 1<hi rend="superscript">er</hi> janvier
+                  1929 sur les certificats d'inscription de pension détenus par les intéressés.</p>
+                <p>Au cas où le dossier financier ne serait pas détenu par l'intendant des pensions
+                  qui reçoit la demande du postulant, il appartient à ce fonctionnaire de demander
+                  audit postulant tous renseignements utiles lui permettant de réclamer le dossier
+                  financier au fonctionnaire de l'intendance qui le détient.</p>
+                <p>Nota. - Les veuves non remariées de militaires de carrière et les orphelins de
+                  militaires de carrière tenant leur droit à pension d'une cause autre que le
+                  remariage de leur mère, titulaires d'une pension au taux du grade de la loi du 31
+                  mars 1919 et bénéficiaires de l'article 77 de la loi du 30 décembre 1928, devront
+                  néanmoins demander l'application des dispositions de l'article 78 de ladite loi.
+                  Elles percevront ainsi, jusqu'à la remise de leurs titres de pension mixte, les
+                  arrérages de leur pension actuelle, dont le taux aura été mis en concordance avec
+                  les dispositions de l'article 78, indépendamment des suppléments spéciaux
+                  temporaires.</p>
+                <pb n="25"/>
+                <note type="foliation">— 23 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">TITRE III Réforme des taux
+                de base des pensions de veuves et d'orphelins de la loi du 31 mars 1919</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">Article 10 DISTINCTION
+                  ENTRE LES VEUVES REMARIÉES ET LES VEUVÉS NON REMARIÉES ET ENTRE LES ORPHELINS,
+                  SUIVANT QUE LE DROIT A PENSION EST ACQUIS OU NON AU TITRE DU REMARIAGE DE LEUR
+                  MÊRE</head>
+                <p>A dater du 1<hi rend="superscript">er</hi> janvier 1929, les taux de base de
+                  pension de veuve et d'orphelin diffèrent selon que la veuve est remariée ou non ou
+                  suivant que l'orphelin tient son droit à pension du remariage de sa mère ou de
+                  toute autre cause.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h27">Article 11 VEUVES NON
+                  REMARIÉES ET ORPHELINS TENANT LEUR DROIT D'UNE CIRCONSTANCE AUTRE QUE LE REMARIAGE
+                  DE LEUR MÊRE</head>
+                <p>A. - Taux de base.</p>
+                <p>Si le décès de l'ayant droit est imputable au service, c'est-à-dire si la pension
+                  est concédée au titre des alinéas 1<hi rend="superscript">°</hi> et 2<hi
+                    rend="superscript">°</hi> de l'article 14 de la loi du 31 mars 1919, modifié le
+                  23 mars 1928, le taux de la pension est fixé à la moitié de la pension allouée par
+                  les tarifs de la loi du 31 mars 1919 à un invalide de 1000 / 0 du même grade que
+                  le mari, c'est-à-dire, en fait, à la pension qui aurait été allouée à ce dernier
+                  s'il avait été atteint d'une invalidité de 500 / 0. a) Le même taux est alloué à
+                  titre exceptionnel à la veuve non remariée d'un militaire décédé titulaire d'une
+                  pension comportant le bénéfice de l'article 10 de la loi du 31 mars 1919 et dont
+                  le décès n'ouvre droit à pension de veuve qu'au taux de reversion au titre de
+                  l'article 14 de la loi précitée; b) Sauf dans l'hypothèse envisagée à l'alinéa qui
+                  précède, si le décès n'ouvre droit qu'à pension de veuve au taux de reversion, le
+                  taux de la pension est fixé au tiers de la pension allouée par les tarifs de la
+                  loi du 31 mars 1919 à un invalide de même grade que le mari ou le père et atteint
+                  d'une invalidité de 1000 / 0.</p>
+                <p>Dans les hypothèses envisagées aux paragraphes a et b qui précèdent, si les taux
+                  déterminés ainsi qu'il est indiqué sont inférieurs aux</p>
+                <pb n="26"/>
+                <note type="foliation">— 24 —</note>
+                <p>taux fixés par la loi du 31 mars 1919 pour la pension du taux exceptionnel, ce
+                  sont ces derniers qui sont alloués.</p>
+                <p>B. - Montant de la pension payable en 1929.</p>
+                <p>L'article 78 de la loi du 30 décembre 1928 prévoit que le montant de la pension
+                  payable en 1929 sera égal à l'ancienne pension augmentée de la moitié de la
+                  différence entre le taux défini ci-dessus et l'ancienne pension.</p>
+                <p>Le tableau n<hi rend="superscript">°</hi> 1 annexé à la présente instruction
+                  donne, pour chaque grade, le taux de base primitif de la loi du 31 mars 1919, le
+                  nouveau taux de base, le montant payable en 1929.</p>
+                <p>Nota. - 1<hi rend="superscript">°</hi> Les orphelins de militaires et de victimes
+                  civiles bénéficiant du taux ci-dessus indiqué sont ceux qui ne rentrent pas dans
+                  les catégories prévues à l'article 12 de la présente instruction: 2<hi
+                    rend="superscript">°</hi> Si une veuve, titulaire d'une pension concédée au taux
+                  susvisé, se remarie, elle n'a plus droit, à compter de son remariage, qu'à la
+                  pension attribuée aux veuves remariées. La régularisation de sa situation incombe,
+                  dans ce cas, au ministère des finances (direction de la dette inscrite, bureau de
+                  l'inscription); 3<hi rend="superscript">°</hi> Il n'est rien changé aux règles
+                  d'attribution des majorations pour enfants au titre de la loi du 31 mars 1919, le
+                  taux initial sur lequel est calculé le supplément spécial temporaire étant
+                  toujours de 300 francs.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">Article 12 VEUVES
+                  REMARIÉES ET ORPHELINS TENANT LEUR DROIT A PENSION DU REMARIAGE DE LEUR
+                  MÊRE</head>
+                <p>Les tarifs des pensions des intéressés restent ceux fixés par les tableaux 8 à 14
+                  inclus, annexés à la loi du 31 mars 1919.</p>
+                <p>Les orphelins auxquels lesdits taux sont applicables sont les suivants : a)
+                  Orphelins dont la mère est vivante, remariée à un étranger et a perdu la
+                  nationalité française, en application de la loi du 10 août 1927 ; b) Orphelins
+                  dont la mère est vivante, remariée avec un citoyen français et a opté pour la
+                  conversion de sa pension en un capital; c) Orphelins dont la mère est vivante,
+                  remariée avec un citoyen français et n'a pas été maintenue dans la tutelle desdits
+                  enfants;</p>
+                <pb n="27"/>
+                <note type="foliation">— 25 —</note>
+                <p>d) Orphelins dont la mère remariée n'est pas admise au bénéfice des lois
+                  prorogeant les délais pour les demandes de pensions d'invalidité.</p>
+                <p>Si la mère de ces orphelins décède avant qu'ils n'aient atteint l'áge de vingt et
+                  un ans, la pension à leur allouer à dater du lendemain du décès de leur mère est
+                  alors fixée d'après les tarifs applicables aux veuves non remariées. La
+                  régularisation de leur situation est faite par le ministère des finances (bureau
+                  de l'inscription) si une pension leur a déjà été concédée.</p>
+                <p>Nota. - Il est rappelé qu'en l'état actuel de la jurisprudence, les veuves
+                  remariées redevenues veuves, divorcées ou séparées de corps conservent toujours la
+                  qualité de veuve remariée et ne peuvent prétendre qu'aux taux des pensions
+                  allouées aux veuves remariées.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">Article 13 CONCURRENCE
+                  D'ORPHELINS D'UN PREMIER LIT AVEC UNE VEUVE</head>
+                <p>a) Concurrence d'orphelins d'un premier lit avec une veuve non remariée La
+                  pension prévue par l'article 19 nouveau de la loi du 31 mars 1919 pour la veuve
+                  non remariée est partagée entre les orphelins et la veuve, la pension de la veuve
+                  ne pouvant être inférieure à la pension allouée à la veuve non remariée d'un
+                  soldat décédé dans les mêmes conditions.</p>
+                <p>Il est alloué dans les deux branches, en sus de la pension principale, une
+                  majoration par enfant de moins de dix-huit ans. b) Concurrence d'orphelins d'un
+                  premier lit avec une veuve remariée. La pension des orphelins est déterminée
+                  d'après les règles prévues au paragraphe a du présent article. Celle de la veuve
+                  est égale à la moitié de la pension de veuve fixée par l'article 19 de la loi du
+                  31 mars 1919 pour la veuve remariée, le taux de cette pension ne pouvant être
+                  inférieur à la pension allouée à la veuve remariée d'un soldat décédé dans les
+                  mêmes conditions.</p>
+                <p>Le droit aux majorations pour enfants est acquis dans les conditions prévues au
+                  paragraphe a qui précède.</p>
+                <p>Dans l'un et l'autre cas, lorsque le droit à pension vient à faire défaut dans
+                  l'une des branches, la pension de la branche survivante ne s'accroit pas
+                  automatiquement de la part de l'autre branche. Il <pb n="28"/>
+                  <note type="foliation">— 26 —</note> est alors procédé à la régularisation de la
+                  situation des ayants cause survivants d'après les règles fixées par l'article 19
+                  de la loi, compte tenu, s'il s'agit d'une veuve, de son état civil (remariée ou
+                  non).</p>
+                <p>EXEMPLES</p>
+                <p>Premier exemple. Ayants cause d'un lieutenant, 2<hi rend="superscript">c</hi>
+                  échelon, mort des suites de blessures reçues à l'ennemi : 2 enfants d'un premier
+                  lit : vingt ans et dix-huit ans au 1<hi rend="superscript">er</hi> janvier 1929;
+                  veuve non remariée : 2 enfants âgés de quinze ans et de treize ans au 1<hi
+                    rend="superscript">er</hi> janvier 1929.</p>
+                <p>Droits des enfants : nouveau taux 963, montant payable en 1929, 932 francs, pas
+                  de majoration.</p>
+                <p>Droits de la mère : nouveau taux 963 porté à 1.200 francs, montant payable en
+                  1929, 1.000 francs; 2 majorations pour enfants.</p>
+                <p>Deuxième exemple</p>
+                <p>Ayants cause d'un adjudant décédé des suites de maladie : un orphelin d'un
+                  premier lit ( 20 ans), une veuve remariée avec deux enfants âgés respectivement de
+                  15 ans et de 13 ans au 1<hi rend="superscript">er</hi> janvier 1929.</p>
+                <p>Droits de l'orphelin du premier lit : 650 francs, montant payable en 1929 : 600
+                  francs.</p>
+                <p>Droits de la mère : 550 francs, portés à 800 francs; 2 majorations pour
+                  enfants.</p>
+                <p>Troisième exemple</p>
+                <p>Ayants cause d'un soldat dont le décès n'ouvre droit qu'à pension du taux de
+                  réversion, un orphelin d'un premier lit, âgé de dix-sept ans, une veuve remariée
+                  avec deux enfants (quinze ans et treize ans).</p>
+                <p>Droits de l'orphelin du premier lit: 400 francs, montant payable en 1929; 325
+                  francs, une majoration pour enfant.</p>
+                <p>Droits de la veuve: 250 francs portés à 500 francs, deux majorations pour
+                  enfants.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">Article 14 MODE
+                  D'APPLICATION DES DISPOSITIONS DES ARTICLES 78 ET 79 DE LA LOI DU 30 DÉCEMBRE 1928
+                  A. - Titulaires de pensions concédées.</head>
+                <p>La modification du taux de base des pensions concédées en faveur des veuves non
+                  remariées et orphelins sera effectuée par l'administration des finances par
+                  l'intermédiaire des comptables.</p>
+                <pb n="29"/>
+                <note type="foliation">— 27 —</note>
+                <p>B. - Titulaires de titres d'allocations provisoires d'attente.</p>
+                <p>Les intendants départementaux des pensions procéderont à l'échange des titres
+                  d'allocation provisoire d'attente détenus par les intéressés. Ces derniers seront
+                  remplacés par des titres établis, à dater du 1<hi rend="superscript">er</hi>
+                  janvier 1929, d'après les nouveaux droits des postulants. Cette opération
+                  d'échange se fera concurremment avec les opérations de rajustement après réception
+                  des instructions spéciales y relatives qui seront publiées ultérieurement.</p>
+                <p>Les veuves et orphelins joindront à leur demande d'échange de faire un certificat
+                  du modèle <hi rend="superscript">n</hi>^{\circ} 3 ou 3 bis annexé à la présente
+                  instruction.</p>
+                <p>Nota. - En principe, les ayants droit aux nouveaux taux sont ceux qui perçoivent
+                  régulièrement au 31 décembre 1928 le supplément de pension de 1120/0 prévu par la
+                  loi du 27 décembre 1927.</p>
+                <p>C. - Demandes de première instance.</p>
+                <p>Les demandes de pension de veuve au titre de la loi du 31 mars 1919 (pensions au
+                  taux du grade ou pensions mixtes) devront comprendre désormais un certificat du
+                  modèle <hi rend="superscript">n</hi>^{\circ} 3 ou 3 bis annexé à la présente
+                  instruction.</p>
+                <p>Le certificat modèle <hi rend="superscript">n</hi>^{\circ} 3 ne sera produit que
+                  si le délai de viduité prévu par l'article 228 du code civil et modifié par les
+                  lois des 9 décembre 1922 et 4 février 1928 est expiré.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h31">Article 15 NATURE ET
+                  TAUX DE L'ALLOCATION</head>
+                <p>L'article 81 de la loi de finances du 30 décembre 1928 crée une nouvelle
+                  allocation, dite allocation <hi rend="superscript">n</hi>^{\circ} 6, en faveur des
+                  grands invalides bénéficiaires des articles 10 et 12 de la loi du 31 mars 1919
+                  qui, actuellement, ne perçoivent que l'allocation <hi rend="superscript"
+                  >n</hi>^{\circ} 5 bis, comme les grands invalides bénéficiaires de l'article 10
+                  seulement. Le taux de cette allocation est proportionné au taux d'invalidité
+                  afférent à la suspension attribuée au titre de l'article 12; elle est calculée à
+                  raison de 500 fr . par degré d'invalidité supplémentaire prévu par ledit
+                  article.</p>
+                <p>En outre, pour les grands invalides bénéficiaires d'une surpension de 10 degrés
+                  et dont deux invalidités au moins sont de nature, prises chacune isolément, à leur
+                  assurer le bénéfice de l'article 10, l'allocation <hi rend="superscript"
+                  >n</hi>^{\circ} 6 est fixée à 12.500 francs.</p>
+                <p>L'allocation <hi rend="superscript">n</hi>^{\circ} 6 se cumule avec l'allocation
+                    <hi rend="superscript">n</hi>^{\circ} 5 bis.</p>
+                <pb n="30"/>
+                <note type="foliation">— 28 —</note>
+                <p>Les différents taux de l'allocation <hi rend="superscript">n</hi>^{\circ} 6 sont
+                  les suivants : Pensionnés à 1000 / 0, plus article 10 , plus 10 degrés, article 12
+                  , dont deux invalidités au moins considérées chacune isolément sont de nature à
+                  assurer le bénéfice de l'article 10 . . . . . . . 12.500 fr. Pensionné à 1000 / 0,
+                  plus article 10 , plus 10 degrés, article 125.000 Pensionné à 1000 / 0, plus
+                  article 10 , plus 9 degrés, article 124.500 Pensionné à 1000 / 0, plus article 10
+                  , plus 8 degrés, article 124.000 Pensionné à 1000 / 0, plus article 10 , plus 7
+                  degrés, article 123.500 Pensionné à 1000 / 0, plus article 10 , plus 6 degrés,
+                  article 123.000 Pensionné à 1000 / 0, plus article 10 , plus 5 degrés, article
+                  122.500 Pensionné à 1000 / 0, plus article 10 , plus 4 degrés, article 122.000
+                  Pensionné à 1000 / 0, plus article 10 , plus 3 degrés, article 121.500 Pensionné à
+                  1000 / 0, plus article 10 , plus 2 degrés, article 121.000 Pensionné à 1000 / 0,
+                  plus article 10 , plus 1 degré, article 125.000</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h32">Article 16 ATTRIBUTION
+                  DE L'ALLOCATION N <hi rend="superscript">°</hi> 6</head>
+                <p>Cette allocation étant distincte de l'allocation <hi rend="superscript"
+                  >n</hi>^{\circ} 5 bis avec laquelle elle se cumule, un livret spécial d'allocation
+                  aux grands invalides comportant ladite allocation sera établi en faveur des
+                  intéressés qui seront ainsi détenteurs de deux livrets d'allocation spéciale aux
+                  grands invalides, l'un pour l'allocation <hi rend="superscript">n</hi>^{\circ} 5
+                  bis, l'autre pour l'allocation <hi rend="superscript">n</hi>^{\circ} 6. Les deux
+                  livrets d'allocation spéciale porteront à la première page la mention de référence
+                  ci-après : "Ce livret est cumulable avec le livret <hi rend="superscript"
+                  >n</hi>^{\circ} \ldots " Il en sera de même pour les avis d'émission de ces
+                  livrets.</p>
+                <p>L'allocation <hi rend="superscript">n</hi>^{\circ} 6 sera attribuée aux invalides
+                  qui peuvent y prétendre à compter du 1<hi rend="superscript">er</hi> janvier 1929
+                  et dans les conditions fixées ci-après : <pb n="31"/>
+                  <note type="foliation">— 29 —</note> a) Titulaires d'un livret de pension ou d'un
+                  certificat d'inscription ancien modèle. - Les intéressés adresseront une demande à
+                  l'intendant des pensions du chef-lieu de leur domicile en y joignant la lettre de
+                  notification de concession de leur pension qui, en sa deuxième page, mentionne
+                  leur droit au bénéfice des articles 10 et 12 . Pour déterminer le taux de
+                  l'allocation <hi rend="superscript">n</hi>^{\circ} 6, il suffira de multiplier par
+                  500 fr . le chiffre de la centaine de francs attribués à titre de surpension en
+                  application de l'article 12 de la loi du 31 mars 1919. Les livrets d'allocation
+                    <hi rend="superscript">n</hi>^{\circ} 6 aux grands invalides seront adressés aux
+                  intéressés dans le plus bref délai possible et dans tous les cas avant le 15 mars
+                  1929 avec la lettre de notification de concession de pension communiquée, sous la
+                  réserve figurant au nota ci-après :</p>
+                <p>En ce qui concerne l'attribution de l'allocation de 12.500 francs, les intendants
+                  des pensions ne sont pas compétents pour déterminer le bien-fondé des demandes
+                  qu'ils reçoivent à cet effet des grands invalides bénéficiaires de l'article 10 et
+                  d'une surpension à 10 degrés.</p>
+                <p>Deux hypothèses peuvent être envisagées : a) Le droit au double bénéfice de
+                  l'article 10 de la loi du 31 mars 1919 résulte incontestablement d'une situation
+                  de fait (aveugles amputés de deux ou de plus de deux membres). La commission
+                  consultative médicale statue sur pièces. L'intendant des pensions établit alors le
+                  livret d'allocation <hi rend="superscript">n</hi>^{\circ} 6 au taux de 12.500
+                  francs; b) Le droit au double bénéfice de l'article 10 de la loi du 31 mars 1919
+                  ne résulte pas incontestablement d'une situation de fait.</p>
+                <p>Dans ce cas, la commission consultative médicale adresse au centre spécial de
+                  réforme compétent le dossier de l'intéressé, et donne l'ordre de faire examiner le
+                  postulant par une commission de réforme au point de vue du double droit au
+                  bénéfice de l'article 10 de la loi du 31 mars 1919.</p>
+                <p>Les expertises seront en principe effectuées à domicile, en raison même de l'état
+                  des pensionnés. Si l'avis de la commission consultative médicale est défavorable,
+                  et si le service du contentieux du Ministère des Pensions, auquel la demande et le
+                  dossier de l'intéressé sont transmis par la Commission consultative médicale,
+                  partage ledit avis, l'intendant des pensions adresse une copie de la décision au
+                  postulant, en lui faisant parvenir un livret d'allocation <hi rend="superscript"
+                    >n</hi>^{\circ} 6 au taux de 5.000 francs. Le pensionné peut, s'il s'estime
+                  lésé, attaquer la décision de rejet devant le tribunal des pensions, dans les
+                  conditions prévues à l'article 38 de la loi du 31 mars 1919. b) Titulaires de
+                  titres d'allocation provisoire d'attente. - Les <pb n="32"/>
+                  <note type="foliation">— 30 —</note> intéressés produiront une demande, en
+                  indiquant la date et le lieu de la commission de réforme à la suite des
+                  propositions de laquelle ils ont obtenu un titre d'allocation provisoire d'attente
+                  comportant le bénéfice des articles 10 et 12 de la loi du 31 mars 1919.</p>
+                <p>Les livrets d'allocation n<hi rend="superscript">°</hi> 6 seront établis dans les
+                  conditions indiquées au paragraphe a) ci-dessus pour les titulaires de pensions
+                  concédées et, en ce qui concerne les invalides proposés pour une pension
+                  temporaire, pour la durée de validité de la proposition. c) Postulants à pension
+                  présentés après réception de la présente instruction. - A l'avenir, les
+                  commissions de réforme devront, chaque fois qu'elles proposeront un postulant pour
+                  une pension de 1000 / 0 avec bénéfice de l'article 10 et une surpension de 10
+                  degrés, indiquer nettement si, en dehors de l'invalidité qui a donné droit au
+                  bénéfice de l'article 10, il en existe d'autres qui, prises isolément, seraient
+                  également de nature à assurer le même bénéfice et si, en conséquence, l'intéressé
+                  peut prétendre à l'allocation <hi rend="superscript">n</hi>^{\circ} 6 aux grands
+                  invalides sur le taux de 12.500 francs.</p>
+                <p>Les livrets d'allocation n<hi rend="superscript">°</hi> 6 au taux de 12.500
+                  francs seront établis au vu des propositions de la Commission de réforme.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">TITRE V Prorogation des
+                délais impartis par les lois des 9 janvier 1926 et 26 mars 1927.</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h34">Article 17 OBJET</head>
+                <p>L'article 85 de la loi de finances du 30 décembre 1928 a pour objet de proroger
+                  jusqu'au 31 décembre 1930 les nouveaux délais impartis par les lois des 9 janvier
+                  1926 et 26 mars 1927 pour la présentation des demandes de pension par les victimes
+                  de la guerre 1914-1918 et leurs ayants cause, à l'exclusion des veuves
+                  remariées.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h35">Article 18
+                  BÉNÉFICIAIRES</head>
+                <p>Les bénéficiaires de ces dispositions sont ceux prévus par les circulaires
+                  numéros 77 E. M. P. du 22 janvier 1926 ( \S A-1 { }^{<hi rend="superscript"
+                    >er</hi>} ) et 0222/Ad ( 85 E. M. P.) du 25 mai 1926 pour les postulants à
+                  pension d'invalidité au titre de la loi du 31 mars 1919 et par l'instruction <pb
+                    n="33"/>
+                  <note type="foliation">— 31 —</note> n<hi rend="superscript">°</hi> 0266 / Ad du
+                  31 mars 1927 pour les victimes civiles de la guerre et leurs ayants droit ainsi
+                  que pour les ayants droit de militaires.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h36">Article 19 Victimes
+                  civiles, ayants cause de victimes civiles et ayants cause de militaires.</head>
+                <p>Il est rappelé que: a) Les enfants des veuves remariées qui touchées par la
+                  forclusion, ne sont pas admises au bénéfice des lois du 26 mars 1927 et du 30
+                  décembre 1928 peuvent prétendre à pension. Le point de départ de cette pension est
+                  fixé au lendemain de la date du décès de leur père (avis de la section des
+                  finances du Conseil d'Etat n <hi rend="superscript">°</hi> 173057 du 21 mars
+                  1928), le taux est celui alloué aux enfants tenant leur droit à pension du
+                  remariage de leur mère. b) Les ayants cause d'anciens militaires décédés en
+                  possession d'une pension d'au moins 600 / 0 sans que le décès soit dû au service
+                  militaire peuvent se réclamer de la loi du 26 mars 1927. B. - Victimes civiles,
+                  ayants cause de victimes civiles et ayants cause de militaires.</p>
+                <p>Les demandes des postulants continueront à être instruites suivant les règles
+                  prévues par l'instruction <hi rend="superscript">n</hi>^{\circ} 0266/Ad du 31 mars
+                  1927, compte tenu des dispositions de la circulaire <hi rend="superscript"
+                  >n</hi>^{\circ} 0319/Ad du 28 mars 1928.</p>
+                <p>Il est rappelé que: a) Les enfants des veuves remariées qui, touchées par la
+                  forclusion, ne sont pas admises au bénéfice des lois du 26 mars 1927 et du 30
+                  décembre 1928, peuvent prétendre à pension. Le point de départ de cette pension
+                  est fixé au lendemain de la date du décès de leur père (avis de la section des
+                  finances du Conseil d'Etat n <hi rend="superscript">°</hi> 173057 du 21 mars
+                  1928); le taux est celui alloué aux enfants tenant leur droit à pension du
+                  remariage de leur mère; b) Les ayants cause d'anciens militaires décédés en
+                  possession d'une pension d'au moins 600 / 0 sans que le décès soit dû au service
+                  militaire peuvent se réclamer de la loi du 26 mars 1927.</p>
+                <p>Le Ministre des Pensions: Louis Antériou.</p>
+                <pb n="34"/>
+                <note type="foliation">— 32 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h38">Assurances sur la vie</head>
+              <p>Une dame qui, depuis 1915, s'est beaucoup intéressée aux Aveugles de Guerre nous
+                communique la note suivante : " Désireuse de permettre aux Aveugles de Guerre de
+                s'assurer dans des conditions avantageuses, la Mutuelle Générale Française Populaire
+                (Entreprise privée assujettie au contrôle de l'Etat), filiale du Groupe des
+                Mutuelles du Mans, le plus puissant groupe de mutuelles existant en France, envisage
+                d'examiner des propositions d'assurance sur la vie des membres de l'Association. Le
+                barème sera envoyé par retour du courrier à tous ceux que la proposition
+                intéressera. " De nombreuses combinaisons sont possibles suivant l'âge de l'assuré,
+                suivant le mode de versement et suivant la durée du contrat, dix ou quinze ans. "
+                Voici un exemple de ces assurances sur la vie, dont le capital est payable, soit au
+                décès de l'assuré, si ce décès survient avant le terme du contrat, soit au terme du
+                contrat, si l'assuré vit à cette époque. " Pour assurer un capital de 10.000 francs,
+                un camarade actuellement âgé de trente-six à quarante ans paiera par an, pour une
+                assurance mixte sur une tête de dix ans de durée, une somme de 977 fr. (neuf cent
+                soixante-dix-sept francs). " Mais, comme tout assuré de la Mutuelle Générale
+                Française Populaire, il a droit à la participation aux bénéfices à partir de
+                l'exercice dans lequel son contrat a trois ans de cours, et pour tous les exercices
+                suivants, aussi longtemps que la police est en vigueur. " Pour le même camarade,
+                souscrivant dans les mêmes conditions une assurance mixte de quinze ans de durée, la
+                somme annuelle à payer pour le même capital assuré ne serait plus que de 638 francs
+                (six cent trente-huit francs). " Toutes ces assurances seront souscrites sans examen
+                médical, mais si le décès se produit au cours de la première année d'assurance, la
+                Société n'est tenue qu'au remboursement des cotisations nettes versées, sans
+                intérêt; si le décès se produit dans le cours de la deuxième année d'assurance, la
+                Société paiera la moitié du capital assuré.</p>
+              <pb n="35"/>
+              <note type="foliation">— 33 —</note>
+              <p>" Toutefois si, pendant cette période, la mort est le résultat d'un accident
+                prouvé, la Société paiera le capital garanti. " Nous insistons sur cette
+                particularité qu'il s'agit d'une Société d'Assurances Mutuelles, c'est-à-dire que
+                ses assurés forment la Société, que celle-ci leur appartient et que tous les
+                bénéfices leur font donc retour. " Pour tous renseignements, s'adresser soit au
+                siège de la Mutuelle Générale Française Populaire, 16, rue d'Athènes, soit à Mme
+                Armand Cahen, 125, avenue de Versailles, Paris (16'). "</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h39">Bibliographie</head>
+              <p>Nous recevons la note suivante: Les Combattants dans la nation: Principes d'Action,
+                par Maurice de Barral, Préface de Marcel Bucard.</p>
+              <p>Le 11 novembre 1918, les combattants occupaient dans l'opinion publique, toute
+                frémissante encore de leurs sacrifices et de leur victoire, une place de premier
+                plan et l'on croyait qu'ils allaient être sur tous les plans (politique, économique,
+                social, etc.) les véritables animateurs de la reconstruction nationale.</p>
+              <p>Aujourd'hui, les mêmes combattants sont réduits au rôle de quémandeurs faméliques
+                et insatiables et sont considérés comme des "gêneurs ". Ils ne comptent pratiquement
+                pour rien dans le pays.</p>
+              <p>Cette situation, qui tient à de multiples causes, provient surtout de ce que les
+                combattants ont été systématiquement détournés depuis dix ans de toute velléité
+                d'action collective dans la vie nationale.</p>
+              <p>Il est tout juste temps de réagir vigoureusement si l'on ne veut pas que la
+                génération de la guerre n'enregistre sa lamentable et définitive faillite.</p>
+              <p>Mais pour y parvenir, il faut d'abord savoir très nettement d'où l'on part, puis de
+                quels instruments l'on veut se servir et, enfin, quel but précis on se propose
+                d'atteindre.</p>
+              <p>Tel est, précisément, le triple objet du livre de Maurice de Barral, qui ne va pas
+                manquer de susciter partout et, notamment, dans les milieux combattants, le plus vif
+                intérêt, car on sait quelle ardeur et quelle sincérité il apporte toujours à la
+                défense de ses idées.</p>
+              <p>Le plus grand mérite de l'étude de Maurice de Barral est d'être courte, claire et
+                précise.</p>
+              <p>Il sait exactement ce qu'il veut et, après avoir étudié avec soin, les <pb n="36"/>
+                <note type="foliation">— 34 —</note> divers éléments de tel ou tel problème, il
+                réussit toujours à proposer une solution concrète, compréhensible et pratique.</p>
+              <p>Le programme d'action par lequel il termine son livre constitue un magnifique point
+                de départ pour les travaux et l'action de l'équipe de combattants désintéressés,
+                honnêtes et énergiques, dont tous les camarades attendent impatiemment les
+                directives en vue du grand rassemblement national qui s'impose.</p>
+              <p>Les Etincelles, 26, rue de Bassano, Paris.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h40">Promotion dans la Légion
+                d'honneur</head>
+              <p>Par décret en date du 3 février 1929, M. Eugène Brieux, de l'Académie française, a
+                été promu grand officier de la Légion d'honneur au titre de l'Instruction publique.
+                Dès que nous avons appris la distinction dont était l'objet le président honoraire
+                de notre Comité de Patronage, nous nous sommes empressés de lui adresser nos
+                respectueuses félicitations au nom de l'U. A. G. et nous sommes heureux de
+                reproduire ici le texte de la lettre que nous avons reçue de lui : "Mon cher
+                camarade. Je vous prie de recevoir pour vous-même et " de transmettre aux membres de
+                l'U. A. G. l'expression attendrie " de ma reconnaissance pour la marque de
+                persistante sympathie qu'ils " me témoignent par leurs félicitations. "Je vous serre
+                cordialement la main. Brieux. "</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h41">Nécrologie</head>
+              <p>Le mercredi 27 février ont eu lieu, à Paris, les obsèques de M. Hincque, trésorier
+                de l'Euvre "Les Amis des Soldats Aveugles ». Une délégation de l'U. A. G. a assisté
+                à la cérémonie funèbre en l'Eglise Saint-Augustin.</p>
+              <p>Nous prions la famille du défunt et l'Euvre à laquelle il a collaboré avec tant de
+                dévouement, de trouver ici l'expression de nos sincères condoléances.</p>
+              <pb n="37"/>
+              <note type="foliation">— 35 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h42">La Page des Sans-Filistes</head>
+            <p>Neuvième liste d'adhésions. Millet (Aimé), 35, rue Jean-Macé, Poitiers (Vienne).
+              Parent (Emmanuel), Lugarde (Cantal).</p>
+            <p>La Maison A. Thiney, appareils de T. S. F., 102, rue Martre, Clichy (Seine), nous
+              prie d'informer nos camarades qu'elle consent à tous les aveugles de guerre une
+              réduction de 200 / 0 sur leurs achats.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h43">COMPTE RENDU DE L'ASSEMBLEE
+                GENERALE DE LA SECTION DES SANS-FILISTES, LE 2 MARS 1929</head>
+              <p>La séance est ouverte à 16 heures, sous la présidence de Gudefin, en l'absence de
+                Fauvel, président de la Section, qui s'était fait excuser.</p>
+              <p>Sont présents : Amblard, Bailly, Bertrand, Bloncourt, Bois, Briant, Cardot,
+                Courteix, Guyolot, Gudefin, Hourcade, Laffargue, L'Evesque, Noireaux, Rousseau
+                (Lucien), Saillot.</p>
+              <p>Bertrand, secrétaire de la Section, indique aux camarades que les statuts prévoyant
+                une Assemblée générale annuelle, les sans-filistes ont été convoqués par la voie du
+                Bulletin. Il regrette qu'ils ne soient pas venus plus nombreux à cette Assemblée. M.
+                L'Evesque informe les camarades de la création de la Ligue Nationale des
+                Sans-Filistes de France, dont le président d'honneur est le professeur Branly. Il
+                indique les buts de cette nouvelle Société et engage les membres de la Section à en
+                faire partie à titre individuel.</p>
+              <p>Bloncourt rappelle aux camarades les conditions dans lesquelles la Section des
+                Sans-Filistes fut créée et constate son manque de vie. Il estime qu'une nouvelle
+                organisation s'impose et qu'il serait bon que les camarades trouvent dans les
+                réunions du Radio Club un plus grand intérêt. On pourrait avoir recours, en ce qui
+                concerne la partie technique, à des personnalités compétentes.</p>
+              <p>Bertrand partage entièrement l'avis de Bloncourt et propose à l'Assemblée de faire
+                des démarches auprès des organisations existantes pour qu'un technicien ait la
+                direction de conférences et puisse donner</p>
+              <pb n="38"/>
+              <note type="foliation">— 36 —</note>
+              <p>aux sans-filistes toutes les indications utiles. Tous-les camarades présents
+                adoptent son point de vue.</p>
+              <p>En outre, Bertrand indique que la page des sans-filistes du Bulletin de l'U. A. G.
+                étant ouverte aux constructeurs désireux d'y faire de la publicité et qui nous
+                consentent des conditions spéciales, il serait souhaitable que les camarades, au
+                cours de nos réunions, puissent se rendre compte de la valeur des postes préconisés,
+                grâce à des démonstrations pratiques que ces constructeurs pourraient faire à l'U.
+                A. G.</p>
+              <p>Les camarades échangent ensuite leurs impressions au sujet des différents systèmes
+                de montage et les nouveaux appareils de transformateur de courant existant
+                actuellement sur le marché.</p>
+              <p>Aucune candidature n'ayant été présentée, le Bureau de la Section est renouvelé
+                provisoirement (Fauvel, président; Bertrand, secrétaire).</p>
+              <p>Une Assemblée générale extraordinaire doit avoir lieu avant les grandes vacances
+                pour se prononcer sur l'orientation définitive à donner à la section et sur ses
+                méthodes de travail.</p>
+              <p>Les camarades seront informés de la date de la prochaine réunion par la voie du
+                Bulletin.</p>
+              <p>La séance est levée à 17 \mathrm{~h}, 30.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h44">LA LIGUE DES SANS-FILISTES
+                DE FRANCE</head>
+              <p>Au moment où le Parlement va élaborer les statuts de la radiophonie, un Groupement
+                vient de se créer sous le nom de Ligue des SansFilistes de France.</p>
+              <p>Il se propose, entre autres buts, de tout mettre en cuvre pour permettre aux
+                usagers de la T. S. F. d'obtenir toutes les satisfactions auxquelles ils aspirent en
+                ce qui concerne notamment le régime des émissions.</p>
+              <p>Pour tous renseignements, s'adresser au secrétaire général-trésorier de la Ligue
+                des Sans-Filistes de France, Hôtel des Sociétés Savantes, 28, rue Serpente, Paris (
+                  6<hi rend="superscript">°</hi> ).</p>
+              <pb n="39"/>
+              <note type="foliation">— 37 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h45">Chronique de l'U.A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h46">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué entre le 1<hi rend="superscript">er</hi> et le
+                31 janvier 1929, une somme de 23.475 francs, se répartissant comme suit:</p>
+              <p>Naissances ...................... Fr. 4.300 Allocations veuves et enfants
+                ........... 18.175 Secours .............................. 1.000 Il y a lieu
+                d'ajouter à ces 23.475 francs, une somme de 30.000 francs pour prêts maisons.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner douze demandes de secours, dont
+                sept n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h47">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h48">NAISSANCES</head>
+                <p>Notre camarade et Mme Gatineau (Marcel), de Montourmais (Vendée), nous font part
+                  de la naissance de leur fils Albert, né le 20 janvier 1929.</p>
+                <p>Notre camarade et Mme Delplanque, de Chennevières (Seine-etOise), nous font part
+                  de la naissance de leur fille, Paulette, née le 17 janvier 1929.</p>
+                <p>Notre camarade et Mme Antoine Sicard, de Rieux-Minervois (Aude), nous font part
+                  de la naissance de leur fils, André, né le 24 janvier 1929.</p>
+                <p>Notre camarade et Mme Jean Isnardy, de Nice, nous font part de la naissance de
+                  leur fille, Rosemonde, née le 13 janvier 1929.</p>
+                <p>Notre camarade et Mme Cariou, de Paris, nous font part de la naissance de leur
+                  fils, Yves, né le 17 janvier 1929.</p>
+                <p>Notre camarade et Mme Marius Cluze, de Saint-Donnat (Drôme), nous font part de la
+                  naissance de leur fille, Monique, née le 6 février 1929.</p>
+                <p>Notre camarade et Mme Félix Veron, de Châtellerault (Vienne),</p>
+                <pb n="40"/>
+                <note type="foliation">— 38 —</note>
+                <p>nous font part de la naissance de leur fille, Hélène, née le 5 février 1929.</p>
+                <p>Notre camarade et Mme Michel Dubuisson, de Douai (Nord), nous font part de la
+                  naissance de leur fils, Pierre, né le 19 septembre 1928.</p>
+                <p>Notre camarade et Mme Jean Coutarel, de Lezoux (Puy-deDôme), nous font part de la
+                  naissance de leur fille Jeannine, née le 5 février 1929.</p>
+                <p>Notre camarade et Mme Le Cam, de Joinville-le-Pont (Seine), nous font part de la
+                  naissance de leur petit-fils, né le 12 février 1929.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h49">MARIAGES</head>
+                <p>Notre camarade Alibert (Fernand), dé Revel (Haute-Garonne), nous fait part de son
+                  mariage avec Mlle Marie Manibal, célébré le 17 janvier 1929.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h50">DÉCÈS</head>
+                <p>Nous apprenons le décès de : Notre camarade Ledain (Gustave), de Littry
+                  (Calvados), décédé le 17 février 1929, dans sa quarante-cinquième année.</p>
+                <p>Notre camarade Coinchelin (Justin), de Saint-Michel-sur-Meurthe (Vosges), décédé
+                  le 12 février 1929, dans sa cinquante-huitième année.</p>
+                <p>Notre camarade Chapuis (Auguste), de Saint-Julien-Chapteuil (Hte-Loire), décédé
+                  le 15 février 1929, à l'âge de quarante-cinq ans.</p>
+                <p>De la femme de notre camarade Saynmiard (Léon), de Reyrevigne (Loi), décédée le
+                  28 novembre 1928.</p>
+                <p>De la femme de notre camarade Eisel (Jean), d'Epone (Seine-etOise).</p>
+                <p>Du fils de notre camarade Dufourg (Jean), de Saint-Remy (Dordogne), décédé le 18
+                  décembre dernier, dans sa septième année.</p>
+                <p>De la fille de notre camarade Guerin (Gaston), de Metz, décédée à l'âge de neuf
+                  mois.</p>
+                <p>De la mère de notre camarade Chaumeton, de Rochefort (Puy-de-Dôme), décédée le 15
+                  février, dans sa soixante-dix-neuvième année.</p>
+                <p>Du père de notre camarade Rokhen, de Paris, décédé le 22 janvier 1929, à l'âge de
+                  soixante-seize ans.</p>
+                <pb n="41"/>
+                <note type="foliation">— 39 —</note>
+                <p>Du beau-père de notre camarade Baudoin, de Deuil (Seine-etOise), décédé le 30
+                  janvier 1929, dans sa soixante-sixième année.</p>
+                <p>Du beau-père de notre camarade Vochel (Fernand), d'Evreux (Eure), décédé le 25
+                  février 1929, à l'âge de soixante-sept ans.</p>
+                <p>Du père de notre camarade Houdri (Raymond), décédé le 25 février 1929, dans sa
+                  soixante-huitième année.</p>
+                <p>Du père de notre camarade Vella (Paolino), de Sousse (Tunisie), décédé le 2
+                  janvier, dans sa soixantième année.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h51">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leur cotisation, ont tenu néanmoins à effectuer un
+                nouveau versement:</p>
+              <p>Le Treust, 10 fr.; Laurent (A.), 15 fr.; Ouillet, 20 fr.; Santini, 10 fr .</p>
+              <p>Cotisations pour l'année 1929 envoyées à la date du 25 février : Bovis,
+                Plusquellec, Bequart, Cadière, Honoré (Ch.), Grillet (A.), Miremont, Feuilleul,
+                Briez, Moreau (A.), Mustapha, Lacroix, Martin (L.-A.), Barnabé (C.), Fleury (H.),
+                Nicomette, Trannoy (F.), Leveau (D.), Bur, Petitdidier, Boucher (E.), Chapouillé,
+                Bourret, Reboud, Mombeuf, Liabeuf, Lucas (G.), Castrec, Prevost (A.), Pelletier,
+                Bouix, Gromelle, Colombel, Bourdieu, Roy (R.), Morin, Berger, Cluzeleau, Cochereau,
+                Torrès, Bouton, Souty, Maison, Gauthier (R.), Petit (L.), Dubost (P.), Bardonnet,
+                Laugt, Lamaury, Couesnon (A.), Duforest, Rabel, Despinardes, Dehner, Richou, Legrand
+                (E.), Tauriac, Le Treust, Vidil, Fagnon, Tilly, Secch, Feugray, Gerard, Boyenval,
+                Madaire, Bouheret, Ecal, Eckert, Couteau (F.), Raphaël, Terras, Massaly, Albert
+                (H.), Godin, Coinchelin, Royneau, Chaumerac, Lerousseau, Nicolaï (J.), Lemaire (P.),
+                Jeannin, Rocchiccioli, Roche (A.), Charrière (S.), Delaunay (S.), Notelet, Cariou,
+                Lafay, Barlet, Gentilhomme, Laville, Hereng, Bloch, Reguilher, Gleye, Roger, Girard
+                (J.), Beaucourt, Chezeaud, Aucaigne, Palmaro, Heuzé (S.), Fouasse, Petrucci,
+                Bourreau, Laffargue, Evette, Baron (J.), Bertrand, Paulin, Berruel, Mlle Marin,
+                Fafet, Mme Richard-Haidon, Camerle, Berigaud, Ghaffi, Courtecuisse, Pasquier (A.),
+                Porcheron, Broutin, Félix (M.), Ferezou, Pri- <pb n="42" break="no"/>
+                <note type="foliation">— 40 —</note> gent, Duquenne, Citerne, Amant, Bertrand (P.),
+                Basile, Perot (J.), Lemaire (C.), Daridan, Laurent (A.), Barrat, Bruley, Blaise,
+                Lopital, Lemarchand, Perelle, Preot, Gros, Leroy (H.), Brunel (C.), Bompuis,
+                Héritier, Barthélemy, Plateau, Ménager (C.), Le Gentil, Bellevenue, Doguet, Lafon
+                (Léon), Coignoux, Montroty, Kermeïs, Monneret, Thèbes, Peil, Guilhot, Culot, Garnier
+                (A.), Bobon, Boudant, Hennebicq, Binio, Masselier, Royer (A.), Virot, Meyer (J.),
+                Lauté, Seguela, Fournier (C.), Lapebie (J.-B.), Ternois, Desert (G.), Roubaud,
+                Jacquet, Gallet, Torrebore, Payen, Viard, Ramadour, Feuillet, Garrec, Venier (P.),
+                Crozon, Erouart, Vve Monsard, La Porte, Raveleau, Blanchard, Fournier (V.), Jallot,
+                Hoppé, Philibert, Magnier, Evrat, Baron (J.), Ouillet, Vial (E.), Meyer (F.),
+                Millet, Guerrier, Vigny, Planquette, Vanluggène, Mattei, Saint-Gerand, Darnis,
+                Loizeau (A.), Massé (G.), Roche (L.), Cheutet, Chanial, Gouriou, Radet, Santini,
+                Raynaud, Verpoort, Cochet, Vilain, Lennoy, Heron, Fauvel, Médard, Depeige, Hautier,
+                Renaud (Ch.), Paillissé, Verrier, Lambert (R.), Lambert (P.), Guillemin (J.), Jolis,
+                Cayrel, Poirson, Chapeau, Lequenne, Bozellec, Paget, Bouchet (P.), Mariet, Doualé,
+                Gustin, Heroin, Amar, Leroux (E.), Boulesteix, Tramoy (L.), Lallemand, Trouillet,
+                Petit (A.), Valdant, Regnault, Pillon, Deniel, Gironnet, Leproust, Descormes,
+                Brunon, Rolland (D.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h52">AVIS</head>
+              <p>Notre camarade Louis Roche nous prie d'insérer la note suivante : Côte d'Azur,
+                Pension dirigée par infirmière diplômée pour enfants débiles, rachitiques,
+                scrofuleux. Soins maternels, bains de mer, bains de soleil, culture physique.</p>
+              <p>S'adresser au camarade Roche (Louis), Villa Cavasse, Golfe-Juan
+                (Alpes-Maritimes).</p>
+              <p>Notre camarade Albert Thebes, demeurant 2, rue Notre-Dame, Milly (Seine-et-Oise),
+                nous prie d'informer les camarades qu'il cherche une maison à louer de 4 pièces sur
+                sous-sol ou à défaut surélevée, comprenant, si possible, l'eau, le gaz ou
+                l'électricité, avec jardin et arbres fruitiers, entourée de murs, au prix de 1.500 à
+                2.000 francs.</p>
+              <p>Il désire également vendre une petite maison, 3 pièces, eau sur l'évier, beau
+                cellier, grand grenier, cour intérieure avec grange couverte, w.-c. cimentés, jolie
+                contrée, au centre de Milly (Seine-et-Oise).</p>
+              <pb n="43"/>
+              <note type="foliation">— 41 —</note>
+              <p>Prix à débattre aux environs de 12.000 francs. Facilités de paiement. S'adresser au
+                camarade Albert Thebes, 2, rue Notre-Dame, Milly (Seine-et-Oise).</p>
+              <p>A vendre, villa 4 pièces avec grand grenier, deux grandes remises, un jardin
+                attenant à la maison d'une superficie de 7 ares, un clos d'arbres fruitiers de 12
+                ares, une vigne de 12 ares en plein rapport, 100 ares de forêt. Cette propriété est
+                située à 3 kilomètres de Royan.</p>
+              <p>Pour tous renseignements, s'adresser au camarade Edmond Renaud, à Châtelard, par
+                Royan (Charente-Inférieure).</p>
+              <p>Notre camarade Lacotas, demeurent 5, rue Gerhardt, à Montpellier, nous prie
+                d'insérer la note suivante :</p>
+              <p>La vieille réputation des Etablissements Coste-Folcher s'affirme toujours davantage
+                par la régularité irréprochable de ses livraisons, à l'exécution desquelles ils
+                apportent des soins tout particuliers quand il s'agit de commandes des
+                camarades.</p>
+              <p>Prix au 1<hi rend="superscript">er</hi> février 1929. Barrique Demi-barrique
+                L'hectolitre</p>
+              <table>
+                <row>
+                  <cell>Vin rouge coteau, 8<hi rend="superscript">°</hi></cell>
+                  <cell>270</cell>
+                  <cell>290</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge coteau, 9<hi rend="superscript">°</hi></cell>
+                  <cell>280</cell>
+                  <cell>300</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge coteau supérieur, 10<hi rend="superscript">°</hi></cell>
+                  <cell>300</cell>
+                  <cell>320</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge coteau vieux, 9<hi rend="superscript">°</hi></cell>
+                  <cell>285</cell>
+                  <cell>305</cell>
+                </row>
+                <row>
+                  <cell>Vin rouge coteau supérieur vieux, 10<hi rend="superscript">°</hi></cell>
+                  <cell>320</cell>
+                  <cell>340</cell>
+                </row>
+                <row>
+                  <cell>Vin blanc sec, 9<hi rend="superscript">°</hi></cell>
+                  <cell>305</cell>
+                  <cell>325</cell>
+                </row>
+                <row>
+                  <cell>Vin blanc Picpoul, 10<hi rend="superscript">°</hi></cell>
+                  <cell>320</cell>
+                  <cell>340</cell>
+                </row>
+              </table>
+              <p>Ces prix à l'hectolitre, franco de port, de logement et de régie, gare
+                destinataire.</p>
+              <p>A vendre : machine à tricoter, longueur 0 \mathrm{~m} .70, jauge 7 , double rayeur,
+                8 cames, pouvant faire différents points fantaisie, montée sur bâti fonte, mouvement
+                balancier. Etat de neuf. Prix à débattre. S'adresser au camarade Aimé Graux, à
+                Auchy-les-Mines (Pas-deCalais).</p>
+              <pb n="44"/>
+              <note type="foliation">— 42 —</note>
+              <p>Nous sommes heureux d'informer nos camarades que M. P. Duphil, ancien combattant,
+                boucher, 3, rue des Martyrs, Paris (9), vendant de la viande de toute première
+                qualité, consent d'importantes réductions sur les prix aux Aveugles de Guerre qui se
+                fourniront chez lui.</p>
+              <p>A vendre: deux piéteuses, jauge 10, marque Dubied, bon état. Plusieurs autres
+                machines, largeur 0,80 .</p>
+              <p>S'adresser au camarade Martin (Paul), 10, rue de l'Union, La Courneuve (Seine).</p>
+              <p>A vendre: un accoupleur marque Le Maitre, état neuf, 150 fr. S'adresser au camarade
+                Fonchy, route de Quinsac, à Saint-Yrieix (Haute-Vienne).</p>
+              <p>Le camarade G. Vidry, de Nebian (Hérault), se met à la disposition des camarades
+                pour leur faire expédier des vins de premier choix degrés garantis. Expédition
+                directe du récoltant au consommateur.</p>
+              <p>Location à partir de Pâques pour la saison, prix modérés, chambres dans villas sur
+                plage bretonne, Carnac (Morbihan), plage de sable, sapins, toutes facilités pour
+                approvisionnements. Une villa comprend 4 chambres à coucher, salle à manger,
+                cuisine, jardin; l'autre : deux chambres à coucher, salle à manger, cuisine.
+                Conditions spéciales aux aveugles de guerre.</p>
+              <p>Pour tous renseignements, s'adresser à Mme Bossand, 22, rue de Douai, Paris.</p>
+              <pb n="45"/>
+              <note type="foliation">— 43 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h53">Liste des Donateurs</head>
+              <p>Mme J. Meyer, Béziers (Hérault), 50 fr. - Mlle Brochard, Paris, 10 fr. - Mme
+                Maugas, Luxembourg, 1.000 fr. - Mmes Toudy, Chaudière et Bernhardt, La
+                Garenne-Colombes, 25 fr. - M. le docteur Hébert, Paris, 100 fr. - M. Blanchard,
+                Paris, 10 fr. M. Calberac, Castres, 20 fr. - Notre camarade Georges Legrand, 30 fr.
+                - Colonel Igou, commandant le 121<hi rend="superscript">°</hi> d'infanterie,
+                Montluçon, 125 fr. - Le maire de Valentigney, Doubs, 196 fr. 60. - Mme Segalon,
+                Boulogne-sur-Seine, 20 fr. - M. Louis Rey, Le Muy (Var), 20 fr. - M. P. Vincent,
+                Arles-sur-Rhône, 150 fr. - Les Elèves du cours complémentaire de l'Ecole de filles,
+                18, rue Saint-Benoît, Paris, 20 fr. - Mme Schulmann, Paris, 20 fr. - Mme David,
+                Paris, 20 fr. - Mme Veuve Dardenne, Neuilly-sur-Seine, 10 fr. M. Léon Weil, Paris,
+                300 fr. - M. Waubert de Genlis, Paris, 500 fr. - M. Cogit, Paris, 50 fr. - M. Gaston
+                Cavalier, Nîmes (transmis par Les Annales), 10 fr. - Mme Preneux, Demi-Lune (Rhône),
+                25 fr. - Mlle Mary E. Bakewell, Sewickley (Pennsylvania), 637 fr. 25. - Anonyme
+                versé par M. de Traversay, 2.100 fr. - Mlle Bret, Charolle (Saône-et-Loire), 100 fr.
+                - M. Pierre Quine, Grasse (Alpes-Maritimes), 10 fr. - Lycée Lakanal, à Sceaux
+                (Seine), 100 fr. - M. Suleaux-Decaix-Lestocq, Monsures (Oise), 100 fr. Produit d'une
+                collecte faite à l'issue d'un mariage à la mairie de Vieu-ville-Le-Haye (M.-et-M.),
+                59 fr. 50. - Mme Eteve, à Paris, 20 fr. - Produit d'une quête faite le jour de
+                l'armistice, à Yunnanfou (Chine), 362 fr. 70. - Notre camarade Perot (Jean), à
+                Paris, 15 fr. - M. Bernard, Paris, 50 fr. - Lycée de Toulon (Var), 100 fr. Société
+                Avignonnaise d'Electricité, Avignon, 50 fr. - Mme J. Claude, Lenizeul (Haute-Marne),
+                5 fr. - La Loge le Centre des Amis à Paris, 1.000 fr. - M. Pierre Dieterlen,
+                Belfort, 20 fr. M. et Mme Boesiger, Lyon, 20 francs.</p>
+              <pb n="46"/>
+              <note type="foliation">— 44 —</note>
+              <fw type="footer">IMPRIMERIE DUBOIS &amp; BAUER 34, RUE LAFFITTE, PARIS (IX')</fw>
+              <pb n="47"/>
+              <note type="foliation">— 45 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h54">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h55">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents : Amblard, Favret, Noirraux. Secrétaire général
+              : Bloncourt. Trésorier : Gaston L'Evesque. Membres : Antoine, Arnault, Bardoux,
+              Bertrand, Bois, Cabasson, Coman, Courteix, Derunder, Fauvel, Grillet, Guillam, Izaac,
+              Lapfargue, Lagarde, Lallement, Lauté, Leveau, Malgat, Muller, Nuolai, Robert
+              (Maurice), Sator, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h56">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traverbat, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Oscar Bloch, Secrétaire adjoint; M. Auterbe, Actuaire
+              à la Compagnie «L'Union »; M. Marcel Bloch;</p>
+            <p>Mme Broquin; M. Cheffer; M. Pierre Chérot;</p>
+            <p>Mme Chevalier; Mme Contamin; Mlle Jalaguier; Baronne de Grottrube-Grtnantit; Mme
+              Henri; Mme Kalt; Mme L'Evesque; Mme Lévy-Weiss; M. Mayer.</p>
+            <p>Mme Meyrr; Mme Mus; M. Pascal; Dr Scrindar; Colonel de Traverbat.</p>
+            <pb n="48"/>
+            <note type="foliation">— 46 —</note>
+            <fw type="footer">Imprimerie Dubois et Bauer, 34, rue Laffitte, Paris 1929.</fw>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

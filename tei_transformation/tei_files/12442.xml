@@ -1,0 +1,815 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - Octobre 1946</title>
+        <author>Union des Aveugles de Guerre (U.A.G.)</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Législation sociale</title>
+        <title type="topic">Reconstruction d'après-guerre</title>
+        <title type="topic">Politique française</title>
+        <title type="topic">Sécurité française</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>26,5 X 21 cm ; 8 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#code-de-la-famille">Code de la Famille</term>
+          <term ref="#securite-francaise">Sécurité Française</term>
+          <term ref="#allemagne">Allemagne</term>
+          <term ref="#charbon">Charbon</term>
+          <term ref="#ravitaillement">Ravitaillement</term>
+          <term ref="#bibliotheque">Bibliothèque</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre (U.A.G.) relate les décès du Général
+          Gouraud et de Miss Getty, deux figures importantes pour l'organisation. Il détaille les
+          efforts de l'U.A.G. pour améliorer les pensions et les allocations des aveugles de guerre
+          face à l'augmentation du coût de la vie, ainsi que les discussions concernant le Code de
+          la Famille. Le document inclut également une résolution de l'U.F.A.C. sur la sécurité
+          française et l'avenir de l'Allemagne après la Seconde Guerre mondiale. Des informations
+          pratiques sont fournies concernant les promotions dans l'Ordre de la Légion d'Honneur, le
+          retour des corps des victimes de guerre, les allocations de charbon, les points de laine,
+          les réductions de tarifs de la Transatlantique, et les transferts de services de l'Office
+          départemental des Mutilés. Le bulletin contient également le procès-verbal du Conseil
+          d'Administration du 20 Juin 1946, des nouvelles des sections départementales, des offres
+          de vente, des informations sur la bibliothèque de l'U.A.G., et des annonces de naissances,
+          mariages et décès dans les familles des membres.</p>
+      </abstract>
+      <creation>
+        <date when="1946-10-01">01/10/1946</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">DECES DU GENERAL GOURAUD</ref>
+          </item>
+          <item>
+            <ref target="#h4">DECES DE MISS GETTY</ref>
+          </item>
+          <item>
+            <ref target="#h5">PENSIONS ET COUT DE LA VIE</ref>
+          </item>
+          <item>
+            <ref target="#h6">"SECURITE FRANCAISE"</ref>
+          </item>
+          <item>
+            <ref target="#h7">PROMOTIONS DANS L'ORDRE DE LA LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h8">TRAITEMENTS DE LA LEGION D'HONNEUR ET DE LA MEDAILLE MILITAIRE</ref>
+          </item>
+          <item>
+            <ref target="#h9">RETOUR EN FRANCE DES "MORTS A L'ENNEMI"</ref>
+          </item>
+          <item>
+            <ref target="#h10">CHARBON</ref>
+          </item>
+          <item>
+            <ref target="#h11">INDEMNITE FORFAITAIRE SUR LE (G)ARBON</ref>
+          </item>
+          <item>
+            <ref target="#h12">LES RATIONS SUPPLEMENTAIRES POUR LES GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h13">POINTS DE LAINE</ref>
+          </item>
+          <item>
+            <ref target="#h14">REDUCTIONS DE TARIF ACCORDEES PAR LA TRANSATLANTIQUE</ref>
+          </item>
+          <item>
+            <ref target="#h15">OFFICE DEPARTEMENTAL DES MUTILES DE LA SEINE</ref>
+          </item>
+          <item>
+            <ref target="#h16">DEMANDES DE CHAMBRES</ref>
+          </item>
+          <item>
+            <ref target="#h17">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION du 20 Juin
+              1946</ref>
+          </item>
+          <item>
+            <ref target="#h18">REUNION DE LA SECTION DE LA COTE-D'OR du 12 Avril 1946</ref>
+          </item>
+          <item>
+            <ref target="#h19">OFFRES</ref>
+          </item>
+          <item>
+            <ref target="#h20">BIBLIOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h21">LISTE DES LIVRES NOUVEAUX</ref>
+            <list>
+              <item>
+                <ref target="#h22">ROMANS</ref>
+              </item>
+              <item>
+                <ref target="#h23">HISTOIRE</ref>
+              </item>
+              <item>
+                <ref target="#h24">GUERRE</ref>
+              </item>
+              <item>
+                <ref target="#h25">SCIENCES. - MATHEMATIQUES</ref>
+              </item>
+              <item>
+                <ref target="#h26">ENSEIGNEMENT</ref>
+              </item>
+              <item>
+                <ref target="#h27">ANGLAIS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h28">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h29">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h30">DECES</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">
+            <hi rend="underline">OCTOBRE 1946</hi>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de <lb/>L'UNION
+              DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril
+              1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+            <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49,
+              RUE BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 —
+              Chèque postal 160-31</fw>
+            <div type="section">
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                <list>
+                  <item>Décès du Général Gouraud.</item>
+                  <item>Décès de Miss Getty.</item>
+                  <item>Pensions et Code de la Famille.</item>
+                  <item>Meeting du 5 Octobre 1946.</item>
+                  <item>Promotions dans l'Ordre de la Légion d'Honneur.</item>
+                  <item>Traitements Légion d'Honneur et Médaille Militaire.</item>
+                  <item>Retour en France des « Morts à l'ennemi. »</item>
+                  <item>Charbon.</item>
+                  <item>Ravitaillement : suppléments.</item>
+                  <item>Points de laine.</item>
+                  <item>Voie maritime : réduction de tarifs.</item>
+                  <item>Office départemental des Mutilés : transfert de services.</item>
+                  <item>Avis important : Chambres de l'U.A.G.</item>
+                  <item>Procès-verbal du Conseil d'Administration du 20 Juin 1946.</item>
+                  <item>Réunion de la Section de la Côte-d'Or du 12 Avril 1946.</item>
+                  <item>Bibliothèque.</item>
+                  <item>Avis divers.</item>
+                  <item>« Entre Nous 5.</item>
+                </list>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">DECES DU GENERAL GOURAUD</head>
+            <p>Encore un de nos grands amis qui disparaît. Le Général Gouraud, ce magnifique soldat,
+              si populaire et dont la manche vide attestait combien il était des nôtres, n'est
+              plus.</p>
+            <p>Qui de vous, mes Camarades, n'a pas connu le Général Gouraud, soit au Maroc, soit aux
+              Dardanelles, soit sur le front français, soit encore entre les deux guerres au cours
+              de manifestations ou de réunions organisées par l'U.A.G.</p>
+            <p>La France lui fit de touchantes funérailles et de nombreux anciens combattants
+              défilèrent devant le corps du général exposé dans une chapelle des Invalides.</p>
+            <p>Un délégué de l'U.A.G. et son drapeau représentaient la grande famille des Aveugles
+              de guerre qu'il affectionnait tout particulièrement.</p>
+            <p>Maintenant, selon sa volonté, le grand disparu repose au milieu de ses hommes, sur la
+              colline de Navarin, où les anciens combattants, ses frères d'armes, ne cesseront de
+              lui apporter l'hommage de leurs regrets affectueux.</p>
+            <pb n="2"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">DECES DE MISS GETTY</head>
+            <p>L'U.A.G. déplore le décès d'une Américaine extrêmement dévouée aux aveugles de guerre
+              français : Miss Getty qui, à la création de l'Union, accepta de faire partie de notre
+              Comité de Patronage. Elle rendit service d'ailleurs à l'ensemble des aveugles de
+              guerre français en créant l'Imprimerie de la Roue qui publia de nombreux ouvrages fort
+              intéressants.</p>
+            <p>Un grand nombre de Camarades se rappelleront avec émotion les réceptions que Miss
+              Getty organisait 75, Avenue des Champs-Elysées, où elle apparaisait, à la fois,
+              maîtresse de maison parfaite, intelligente et discrète, laissant les blessés causer
+              entre eux de leurs affaires et, en particulier, de cette grande affaire qui était leur
+              projet de groupement et qui aboutit un jour à la création de l'U.A.G.</p>
+            <p>Nous savons qu'elle aida de ses conseils, de son appui et souvent de son argent
+              certains d'entre nous qui, à cette époque, avaient une pension de 975 francs par
+              an.</p>
+            <p>Tous ceux qui l'ont connue, gardent en leur cœur une profonde gratitude à cette femme
+              de bien et l'U.A.G. toute entière honorera sa mémoire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PENSIONS ET COUT DE LA VIE</head>
+            <p>Nous avons obtenu du Ministère des Finances l'assurance que le taux des nouvelles
+              pensions, fixé par le «Journal Officiel» du 18 Septembre, serait payé dès le début de
+              Novembre. Pour ceux dont l'échéance de la pension venait avant cette date, un rappel
+              au nouveau taux, en ce qui concerne les allocations seulement, serait fait avant la
+              fin de l'année. Si le Ministre des Finances tient ses promesses, et nous pensons qu'il
+              le fera sauf événements imprévus (nouvelles grèves ou incendie du Louvre), nous ne
+              pourrons que le féliciter, car ce sera la première fois qu'un si c.art délai
+              s'écoulera entre la publication définitive des barêmes et l'application de la loi.</p>
+            <p>En ce qui concerne le Code de la Famille qui intéresse de si nombreux camarades qui
+              ne peuvent pas travailler, les difficultés d'application se sont montrées très
+              grandes. Il faut reconnaître en particulier qu'au moment où une circulaire était prête
+              à expédier en juin, on parlait sérieusement de l'augmentation du taux des
+              bénéficiaires du Code de la Famille, avec une application extrêmement complexe, selon
+              les communes. D'autre part, cette loi devait s'appliquer non seulement aux Grands
+              Invalides, mais à un grand nombre de veuves.</p>
+            <p>Pour ces motifs, nous n'avons pu obtenir du Ministre des Finances d'autre promesse
+              que la mise en application, à partir du 1<hi rend="superscript">er</hi> Février 1947,
+              avec rappel du 1<hi rend="superscript">er</hi> Octobre 1945. Jusque-là, tous nos
+              Camarades devront donc toucher les allocations pour enfants de la pension, telles
+              qu'elles sont prévues par loi de 1919 qui, entre parenthèses, n'ont pas été augmentées
+              par la loi du 9 Août dernier, en raison de l'application prochaine du Code de la
+              Famille.</p>
+            <p>Nos Camarades doivent se rendre compte que si en moins d'un an nous avons pu obtenir
+              des augmentations de pension, c'est que notre cause était juste. Cependant, depuis le
+              9 Août, la hausse des prix se faisant sentir sur certaines denrées essentielles à la
+              vie, nous ne pouvons pas faire autrement que d'être inquiets Vos Camarades de Paris
+              vont faire tous leurs efforts, avec l'U.F.A.C. notamment, pour que nos pensions
+              gardent à l'avenir une valeur suffisante en regard du coût de la vie. Le sort de
+              chacun de nous est tellement lié à celui de notre patrie, qu'en province, dans toutes
+              les communes de France, nous devons parler et agir dans la modeste sphère où nous
+              pouvons être influents, pour que des mesures soient enfin prises, et que nous ayons
+              une monnaie saine et stable.</p>
+            <p>Ne croyez pas que vous n'y pouvez rien. Un aveugle de guerre doit arriver à créer
+              autour de lui une atmosphère favorable à la reconstruction du pays, soit isolément,
+              soit dans nos sections départementales. Croyez bien qu'il n'y a pas de choses plus
+              urgentes, dans l'avenir immédiat, que la stabilité de la monnaie. H. I.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">"SECURITE FRANCAISE"</head>
+            <p>Le 5 Octobre, un grand meeting a été organisé par l'U.F.A.C. à la Salle Wagram, pour
+              la «Sécurité Française ».</p>
+            <p>Ont pris la parole à cette réunion : Engrand, Vincent, Morel, vice-président de
+              l'U.F.A.C.; Viala, président de l'U.F.A.C., et le Professeur Cassin, vice-p résident
+              du Conseil d'Etat et président d'honneur de l'U.F.A.C.</p>
+            <p>La résolution suivante a été votée à l'unanimité : «L'U.F.A.C., interprète de la
+              Génération du Feu qui, de 1914 à 1918 et de 1939 à 1945, a contribué à sauver la
+              Patrie ; «Consciente que la sécurité française est un des éléments essentiels de la
+              paix internationale à laquelle aspirent tous les peuples ;</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+            <p>«Considérant que l'Allemagne de Bismarck, de Guillaume II et d'Hitler a toujours été
+              l'animatrice des forces de guerre et la France la première victime de cette volonté
+              d'agression et d'hégémonie ; « Demande que des mesures soient prises pour mettre
+              l'Allemagne dans l'impossibilité matérielle et morale de perpétrer un nouveau conflit
+              dont le monde sortirait définitivement ruiné ; «L'U.F.A.C. se prononce donc : « a)
+              pour une occupation prolongée de l'Allemagne et un contrôle renforcé et mieux
+              coordonné de son évolution politique et économique ; «b) pour l'internationalisation
+              de la Ruhr, condition absolue du désarmement effectif du Reich ; «c) pour
+              l'incorporation de la Sarre dans le circuit politique et économique français, à titre
+              de première réparation, pour les incalculables dommages causés; «d) pour la
+              restitution à la France de tout ce qui lui a été volé et une répartition des charges
+              résultant de la guerre rigoureusement proportionnelle à l'importance des dommages
+              subis ; «Considérant que le désarmement matériel del'Allemagne doit s'effectuer dans
+              un monde duquel seront extirpées toutes les forces qui travaillent à jeter
+              périodiquement les peuples les uns contre les autres (trusts, cartels, pools), et dont
+              l'influence nocive a joué dans les acquittements scandaleux dont ont bénéricié, à
+              Nuremberg, leurs représentants allemands ; «Considérant que la suppression du
+              potentiel militaire allemand doit être accompagnée par l'élimination totale de
+              l'emprise prussienne sur le nouveau Reich, par la rééducation civique et morale du
+              peuple allemand, par la destruction de toutes les traces de nazisme ; «Considérant
+              enfin que toutes ces mesures se,aient insuffisantes si la démocratie se voyait
+              constamment menacée à l'intérieur et à l'extérieur des frontières des Etats par la
+              propagande et par la mise en application ouverte ou camouflée des doctrines fascistes;
+              qu'il n'est pas admissible que les puissances démocratiques victorieuses de
+              l'Allemagne hitlérienne, de l'Italie mussolinienne et du Japon militariste, laissent
+              subsister le foyer d'infection que constitue pour l'Europe démocratique l'Espagne
+              franquiste ; « Adjure les puissances victorieuses et l'Organisation des Nations Unies
+              de prendre d'urgence toutes décisions propres à assurer dans la justice,
+              l'établissement de la Paix; de démontrer par leur volonté d'entente, que la guerre
+              n'est pas inévitable, et contribuer ainsi à combattre la psychose de guerre à laquelle
+              les peuples sont en proie, et dont la disparition est la condition préliminaire et
+              essentielle de la pacification universelle ; «Affirme sa certitude qu'un grand pas
+              sera fait dans cette voie quand la sécurité française sera définitivement et
+              solidement assurée. "</p>
+            <p>Aussitôt après, les Anciens Combattants se sont groupés derrière leurs drapeaux, pour
+              aller déposer une couronne au tombeau du Soldat Inconnu.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">PROMOTIONS DANS L'ORDRE DE LA
+              LEGION D'HONNEUR</head>
+            <p>Au grade de Chevalier : GUILLOUCHE Lucien. Au grade d'Officier : DUC Pierre. GINDER
+              Henri. GUESPEREAU Henri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">TRAITEMENTS DE LA LEGION D'HONNEUR
+              ET DE LA MEDAILLE MILITAIRE</head>
+            <p>Nous pensions qu'un projet de loi déposé sur le Bureau de l'Assemblée Constituante,
+              tendant à une augmentation des traitements de la Légion d'Honneur et de la Médaille
+              Militaire, allait être voté, mais le Gouvernement a demandé que cette affaire soit
+              retirée de l'ordre du jour et reprise lorsque le budget de 1947 viendra en
+              discussion.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">RETOUR EN FRANCE DES "MORTS A
+              L'ENNEMI"</head>
+            <p>Dans une circulaire adressée aux Préfets, le Ministre des A. C. vient de faire
+              connaître les mesures qui marqueront le retour, à titre gratuit, des corps des
+              victimes de cette guerre. Pour faciliter et activer les opérations très délicates de
+              restitution aux familles, un recensement général va avoir lieu dans toute la France. A
+              cet effet, dans chaque mairie, seront mis, très prochainement, à la disposition de ces
+              familles, des formules de demandes qui devront parvenir au Ministère des Anciens
+              Combattants, avant le 30 Décembre.</p>
+            <p>Les corps des militaires morts pour la France dont le transfert n'aura pas été
+              sollicité seront inhumés dans des cimetières nationaux et les sépultures entretenues
+              aux frais de l'Etat, ainsi qu'il a été fait après la guerre 1914-1918. Des cimetières
+              militaires sont ainsi en cours d'installation en Italie et en Tunisie.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+            <p>La sépulture perpétuelle sera accordée dans les mêmes conditions aux victimes
+              civiles, mais seulement dans le cas où le décès aura résulté d'un acte volontaire
+              contre l'ennemi, de l'enlèvement ou de la déportation, avec mention « Mort pour la
+              France ». Tel, du moins, se présente le projet de loi qui sera soumis au vote de
+              l'Assemblée.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">CHARBON</head>
+            <p>Nous avons été reçus avec la plus grande bienveillance par M. le Répartiteur du
+              Charbon qui a promis au Comité d'Entente d'examiner la possibilité d'améliorer la
+              quantité de charbon allouée aux Grands Invalides, dans toutes les communes où le
+              charbon est distribué.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">INDEMNITE FORFAITAIRE SUR LE
+              (G)ARBON</head>
+            <p>Une indemnité forfaitaire de un franc par kilogramme de charbon sera accordée aux
+              titulaires des cartes de charbon des catégories ci-après :</p>
+            <p>Cartes de charbon domestique ; Cartes de cuisine ; Cartes des nouveaux-nés ; Cartes
+              des catégories J1 et V ; Cartes des Mutilés. Cette ristourne est destinée à compenser
+              la majoration de prix des charbons à usage domestique résultant de l'arrêté du 1<hi
+                rend="superscript">er</hi> Mars.</p>
+            <p>Nous engageons nos Carparades à conserver leurs factures des livraisons de charbon
+              effectuées depuis le 1<hi rend="superscript">er</hi> Mars 1946, et d'attendre les
+              instructions ministérielles que nous communiquerons, dès que nous les connaîtrons,
+              dans un prochain bulletin.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LES RATIONS SUPPLEMENTAIRES POUR
+              LES GRANDS INVALIDES</head>
+            <p>Le Comité d'Entente a signalé à M. le Ministre des Anciens Combattants, l'injuste
+              répartition des denrées supplémentaires allouées aux seuls invalides bénéficiaires de
+              l'article 10 ou de 6 degrés au moins de l'article 12, et demandé que ces produits
+              soient attribués à tous les grands mutilés bénéficiaires du statut des Grands Mutilés
+              ou Grands Invalides.</p>
+            <p>Le Ministre des Anciens Combattants est intervenu auprès des services du
+              Ravitaillement pour que tous les grands mutilés, bénéficiaires d'un article, réçoivent
+              les taux supplémentaires.</p>
+            <p>Si une solution favorable intervient, nos Canarades en seront informés par la voie du
+              bulletin.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">POINTS DE LAINE</head>
+            <p>Les Aveugles de Guerre peuvent demander au Préfet de leur département l'attribution
+              exceptionnelle de points de laine.</p>
+            <p>Un certificat médical doit être joint à la demande.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">REDUCTIONS DE TARIF ACCORDEES PAR
+              LA TRANSATLANTIQUE</head>
+            <p>La Compagnie Générale Transatlantique, 6, rue Auber, à Paris, consent aux mutilés de
+              guerre les réductions suivantes sur les lignes reliant la Métropole à la France
+              d'Outre-Mer (Antilles, Maroc, Algérie, Tunisie)) :</p>
+            <p>75 \% aux réformés à 100% article 10 , et 75% pour le guide.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">OFFICE DEPARTEMENTAL DES MUTILES
+              DE LA SEINE</head>
+            <p>Nous informons nos Camarades que certains services de l'Office départemental des
+              Mutilés, 105, rue Réaumur, ont été transférés : 1, place de Clichy, notamment ceux
+              concernant : la Rééducation ; la Carte du Combattant ; la Carte de Priorité ; et la
+              Carte de Chemin de Fer.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">DEMANDES DE CHAMBRES</head>
+            <p>Nous rappelons aux Camarades désireux de bénéficier d'une chambre à l'Union, qu'il
+              est indispensable de prévenir 15 jours à l'avance. Etant donné le peu de chambres
+              libres que laisse la rééducation, nous ne pouvons même pas assurer que chaque Camarade
+              aura satisfaction.</p>
+            <p>Il est bien entendu que la chambre est réservée uniquement au Camarade et à son guide
+              et, éventuellement, à ses enfants si ceux-ci l'accompagnent.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION du 20 Juin 1946</head>
+            <p>La séance est ouverte à 14 h .30 , sous la présidence d'Izaac. Etaient présents :
+              Amblard, Bloncourt, Bruss on, Céré, Chalendar, Couesnon, Duc, Favret, Fauvel, Grillet,
+              Guespereau, Laffargue, Leveau, L'Evesque, Muller, Nicolaï, Roy Georges, Satgé,
+              Sibiril.</p>
+            <p>Excusés : Bertrand, Bodin, Bois, Cabasson, Conan, Cornu, Derunder, Guillam, Noireaux,
+              Robin. Ont donné leurs pouvoirs : à Amblard : Bois, Derunder, Noireaux, Robin. à
+              Couesnon : Guillam. à Guespereau : Bodin. à Leveau : Bertrand. à Nicolaï : Cabasson.
+              Les procès-verbaux des Conseils des 25 et 28 Avril et celui de l'Assemblée générale,
+              sont adoptés à l'unanimité.</p>
+            <p>Situation financière d'Avril. - Lecture est donnée du rapport de Bois, président de
+              la Commission des Finances. Fauvel, Brusson, Chalendar et Nicolaï demandent des
+              explications et souhaitent que la situation soit désormais plus détaillée. Le
+              trésorier répond à leurs questions; tous reconnaissent que les comptes sont
+              régulièrement communiqués. La situation d'avril est adoptée à l'unanimité.</p>
+            <p>Pensions. - Izaac dit que le Bureau suit avec vigilance les directives de l'assemblée
+              générale. La question des pensions ayant le numéro un parmi toutes les autres, il
+              rappelle que nous ne pouvons nous désolidariser des autres mutilés. Il y a deux choses
+              : le relèvement des pensions en question depuis longtemps, puis l'amélioration
+              générale dont il a été parlé récemment. - Amblard rend compte du travail fait dans la
+              dernière séance du Comité d'Entente : 1<hi rend="superscript">°</hi> organisation
+              matérielle du meeting; 2<hi rend="superscript">°</hi> augmentation à demander aux
+              pouvoirs publics. Sur ce point, rien de précis ne peut encore être dit, car le
+              Ministre des Anciens Combattants n'est pas nommé. Il faudra, afin de maintenir la
+              situation des aveugles, demander que nous soit accordé le même pourcentage qui sera
+              consenti aux salariés, retraités, etc.... C'est dans cet esprit que devra s'orienter
+              le meeting, en déplorant qu'on n'ait pas fait diminuer le coût de la vie. Brusson
+              accepte ce point de vue, regrettant que l'U.F.A.C. et le Comité d'Entente soient en
+              retard. Nicolaï estime que nous devons demander le coefficient 5 pour les pensions
+              principales et que nos allocations reçoivent le pourcentage d'augmentation qui sera
+              accordé officiellement. Laffargue, ainsi que Favret, insistent pour que nous soyons
+              traités comme les fonctionnaires.</p>
+            <p>Fauvel établit une comparaison entre l'élévation des prix et celle des pensions et
+              voudrait que les pensions des retraités n'alourdissent pas le budget des pensions de
+              guerre. Izaac résume en disant que le rajustement des pensions principales doit être
+              opéré et qu'ensuite le même pourcentage que celui des salariés doit nous être accordé.
+              Bloncourt dit que certaines catégories de citoyens, dont les grands mutilés, ne
+              peuvent vivre avec ce qu'ils reçoivent, mais il est d'avis-aussi que le coût de la vie
+              doit être stabilisé et pense que le meeting doit fixer ces deux points. Leveau réclame
+              des mesures énergiques. Céré, Brusson et Fauvel développent les idées qui ont été
+              émises. Amblard dit que l'action à mener sera délicate. Duc met en garde contre une
+              augmentation mensuelle et uniforme de tous les salaires. Le Président met aux voix une
+              motion déposée par Nicolaï, ainsi conçue : « En présence des revalorisations qui se
+              préparent en faveur des salaires, traitements et retraites, le Conseil
+              d'Administration de l'U.A.G. invite son Bureau à prendre contact avec les
+              représentants de l'U.F.A.C. afin d'engager, en accord avec ceux-ci, une action tendant
+              à obtenir d'urgence : « 1. que la pension principale soit rajustée avec un coefficient
+              normal déjà réclamé depuis longtemps ; « 2. qu'en tout état de cause, l'ensemble des
+              pensions et allocations soit revalorisé dans les mêmes conditions que les salaires,
+              traitements et retraites, avec le même point de départ que ceux-ci ; « Le droit à
+              réparation étant pleinement reconnu et appliqué pour tous les dommages causés aux
+              biens matériels, il serait inconcevable que ceux-ci continuent à ne pas l'être dans
+              leur totalité pour ceux, autrement plus graves, causés aux personnes. Il est évident
+              que ces majorations réclamées seraient illusoires si le Gouvernement ne pratiquait pas
+              une politique vigoureuse de blocage des prix et assainissement de la monnaie.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+            <p>En bref, le Conseil d'Administration émet ardemment le vœu que l'U.F.A.C. engage en
+              la circonstance toute son autorité et tous les moyens dont elle dispose pour que toute
+              satisfaction soit donnée à l'ensemble des victimes de la guerre, et que celles-ci ne
+              soient plus considérées comme une catégorie de citoyens méprisables. »</p>
+            <p>La motion est adoptée à l'unanimité. Affaire Evrat. - Le Conseil prend connaissance
+              des conclusions de la Commission d'enquête nommée par l'Assemblée générale. La parole
+              est donnée à Evrat, présent, qui n'accepte pas un passage des conclusions. Guespereau
+              indique comment a travaillé la Commission. Les documents datent de janvier 1940, il
+              peut demeurer certaines imprécisions, néanmoins il en résulte que Muller et Evrat se
+              sont serré la main. Masselier, membre de la Commission, étant présent, est autorisé à
+              donner son opinion. Il estime qu'il y a : 1 . l'incident Evrat-Muller ; 2. la
+              responsabilité du Conseil. A ce propos, le Président fait remarquer que toute
+              formation humaine est faillible. Brusson dit qu'il faut se reporter en 1940 pour
+              comprendre les faits et souhaite l'entente des camarades. Bloncourt, qui n'a pas
+              approuvé la radiation, rappelle le climat de l'époque où des événements politiques
+              importants s'étaient produits. Il dit que le Conseil n'aurait pas dû prendre cette
+              décision. Muller croit que la poignée de mains qu'ils se sont donnée avec Evrat était
+              franche et loyale. Izaac pense que l'incident personnel est réglé; quant à la
+              responsabilité du Conseil, la question est à reprendre. Bloncourt fait remarquer que
+              le Conseil a pour tâche de prendre simplement acte des conclusions de la Commission.
+              Fauvel demande qu'on revoie l'affaire et Izaac que l'on discute à nouveau les
+              décisions de l'Assemblée.</p>
+            <p>Legs Streiff. - Le Conseil d'Administration, après avoir pris connaissance des
+              dispositions testamentaires de Mme veuve Joseph Streiff, née Leblond, demeurant en son
+              vivant, à Chaumont-en-Vexin (Oise), où elle est décédée le $1^{\text {er }}$ Mars
+              1946, judiciairement déposées au rang des minutes de $\mathrm{M}^{\mathrm{e}}$ Yves
+              Belhoste, notaire à Chaumont-en-Vexin, aux termes desquelles la défunte fait un legs
+              en faveur de l'Union des Aveugles de Guerre, décide à l'unanimité d'accepter, sous
+              bénéfice d'inventaire, ces dispositions testamentaires et donne tous pouvoirs à son
+              trésorier M. Gaston L'Evesque de prendre toutes dispositions utiles à la délivrance de
+              ce legs au profit du Groupement et d'utiliser les fonds en provenance aux besoins
+              immédiats auxquels l'Association doit faire face.</p>
+            <p>Admission de nouveaux Membres.</p>
+            <p>Membres titulaires définitifs :</p>
+            <p>DOUSPIS Pierre, Saint-Jean-la-Bussière (Rhône). LEONETOUT François, à Aureil
+              (Haute-Vienne). RABAY Emile, à Ambenay, par Rugles (Eure). FONTAINE Léon, 5, avenue de
+              Compiègne, Soissons (Aisne), (admis précédemment comme Membres provisoires).</p>
+            <p>Membres titulaires provisoires : ASBERT Stellio, à Vieilley (Doubs). AZEMA Joseph,
+              21, avenue Claude-Debussy, Alger (Algérie). BELLEMONT Maurice, 56, quai du Petit-Bail,
+              à Douai (Nord). DANIS Gilbert, 1, rue de la Carayrolles, Carmaux (Tarn). DELARUE
+              Engelbert, chez M. Dubois, au Fayel-Bocage, Jouy-s.-Thelle (Oise). HILT Lucien, 6, rue
+              de la Vigne, Scremange-Erzange (Moselle). HUGO Robert, 12, avenue Jean-Jaurès,
+              Colombes (Seine). GONZALES Thomas, 24, boulevard Auguste-Comte (Alger). MARCK René,
+              76, rue de l'Union, Argenteuil (Seine-et-Oise). NOIROT Maurice, villa Aloha, Les
+              Allées-de-Morlas, Pau (Basses-Pyrénées). POIRIER Louis, Crément-Scaer (Finistère).
+              VILLAIN Daniel, Sainte-Colombe, par Provins (Seine-et-Marne). Membres Associés :
+              FONTAINES Etienne, 15, rue Coste, Caluire (Rhône). MOULARD Kléber, 62, rue
+              Gilbert-Médéric, Le Perreux (Seine).</p>
+            <list>
+              <item>Le Président fait donner lecture d'une lettre des Aveugles de guerre allemands;
+                elle sera transmise sans commentaires aux Affaires Etrangères.</item>
+              <item>Le Conseil est mis au courant de la création entre toutes les Sociétés
+                d'aveugles, d'une coopérative d'achat de matières premières, brosserie, etc...
+                Favret est chargé de suivre la question. Il est également chargé du cas du camarade
+                Rémy.</item>
+              <item>Le Président dit quelques mots sur la dernière réunion du Comité
+                d'Action.</item>
+            </list>
+            <p>La séance est levée à 18 heures.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">REUNION DE LA SECTION DE LA
+              COTE-D'OR du 12 Avril 1946</head>
+            <p>La première réunion depuis 1939 des Aveugles de guerre bourguignons s'est tenue à
+              Dijon. Une douzaine de camarades et leur famille, sur les 17 aveugles que compte le
+              groupe local, se retrouvaient, avec quelle émotion et quel plaisir, à 10 heures, à
+              l'Hôtel des Sociẹtés.</p>
+            <p>Le Président Belleseur qui, depuis plus de 20 ans, consacre une activité inlassable
+              non seulement aux aveugles de guerre constitués en Amicale indépendante, mais comme
+              président du Comité d'Entente, sans compter de nombreuses autres Fédérations d'Anciens
+              Combattants ou de Mutilés, déclare la séance ouverte.</p>
+            <p>Il adresse un émouvant hommage et un fraternel souvenir aux camarades disparus ou,
+              frappés dans leur famille au cours des années d'oppression, et souhaite la bienvenue
+              aux jeunes qui viennent représenter la nouvelle génération du feu: Guespereau,
+              vice-président de l'Union, délégué de l'U.A.G.; Hauser, de Dijon et Muller Louis, de
+              Beaune.</p>
+            <p>Il demande ensuite de voter le principe du rattachement de l'Amicale bourguignonne en
+              section départementale de l'U.A.G. par esprit de solidarité et de camaraderie.
+              Quelques questions sont posées au sujet de la nomination de Hauser comme délégué,
+              ainsi que sur des détails d'ordre administratif. C'est le docteur Jullié qui trouve la
+              solution élégante pour le maintien d'Hauser au poste de délégué-secrétaire, et
+              Guespereau donne les explications demandées pour la partie administrative.</p>
+            <p>La motion de rattachement et de confiance à l'Union est alors adoptée à l'unanimité,
+              et l'on se dirige allègrement vers le restaurant du Chapeau Rouge, où un déjeuner
+              substantiel et convenablement arrosé malgré les restrictions, permit à la chaleur
+              communicative plus que de rigueur, d'exercer ses effets. Le professeur Boutaric et le
+              docteur Jullié, remarquables exemples de la valeur mise au service des œuvres
+              sociales, ne furent pas les derniers à animer cette réunion qui laisse bien augurer
+              des prochaines activités de la section côte doriènne.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">OFFRES</head>
+            <list>
+              <item>Le Camarade Léon LAPOTRE, de Jouet-sur-l'Aubois (Cher) fait savoir qu'il est
+                vendeur de Toile des Vosges fournie par Petitdidier, de Lyon.</item>
+              <item>A vendre : fauteuil roulant d'appartement, extensible, avec accessoires, marque
+                Dupont. Prix : 5.000 fr. S'adresser à notre Camarade Marcel CHARLAT, rue de la Gare,
+                à St-Pierre-les-Nemours (S.-et-M.), téléphone 128 à Nemours.</item>
+              <item>Veuve de Grand Invalide prendrait en pension toute l'année un ou deux grands
+                mutilés, pouvant se diriger seuls; belles chambres ensoleillées, bonne nourriture.
+                Repos, tranquillité. Prix de la pension : 250 fr. par jour. Pour tous renseignem,,
+                s'adresser directement : Mme Aimé LAMY, Hôtel de Montmerle, près de Treffort
+                (Ain).</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">BIBLIOTHEQUE</head>
+            <p>Nous publions ci-dessous la liste des ouvrages nouveaux que nous avons fait copier
+              pour les lecteurs de la bibliothèque et qui sont des à présent à leur disposition
+              :</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">LISTE DES LIVRES NOUVEAUX</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">ROMANS</head>
+              <p>
+                <table>
+                  <row>
+                    <cell>223</cell>
+                    <cell>ARNAC Marcel</cell>
+                    <cell>Le Brelan de Joie.</cell>
+                    <cell>4 Vol. Abrégé</cell>
+                  </row>
+                  <row>
+                    <cell>290</cell>
+                    <cell>CARCO Francis</cell>
+                    <cell>L'Homme de Minuit.</cell>
+                    <cell>5 Vol. Abrégé</cell>
+                  </row>
+                  <row>
+                    <cell>559</cell>
+                    <cell>BORY Jean</cell>
+                    <cell>Mon Village à l'heure allemande</cell>
+                    <cell>8 Vol. Amplifié</cell>
+                  </row>
+                  <row>
+                    <cell>506</cell>
+                    <cell>ROMAINS Jules</cell>
+                    <cell>Les Hommes de bonne volonté : 10 Vol. Abrégé — Tome 19.</cell>
+                    <cell>10 Vol. Abrégé</cell>
+                  </row>
+                  <row>
+                    <cell>506</cell>
+                    <cell>ROMAINS Jules</cell>
+                    <cell>Les Hommes de bonne volonté : 10 Vol. Abrégé — Tome 20</cell>
+                    <cell>10 Vol. Abrégé</cell>
+                  </row>
+                </table>
+              </p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">HISTOIRE</head>
+              <table>
+                <row>
+                  <cell>3206</cell>
+                  <cell>BAILLY Auguste</cell>
+                  <cell>Guillaume le Conquérant</cell>
+                  <cell>1 Vol. Amplifié</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">GUERRE</head>
+              <table>
+                <row>
+                  <cell>2365</cell>
+                  <cell>GALTIER-BOISSIERE</cell>
+                  <cell>Mon journal pendant l'occupation</cell>
+                  <cell>6 Vol. Abrégé</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">SCIENCES. -
+                MATHEMATIQUES</head>
+              <table>
+                <row>
+                  <cell>2409</cell>
+                  <cell>CARREL Alexis</cell>
+                  <cell>L'Homme, cet inconnu</cell>
+                  <cell>10 Vol. Abrégé</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">ENSEIGNEMENT</head>
+              <table>
+                <row>
+                  <cell>2625</cell>
+                  <cell>BOSSERT et BECK</cell>
+                  <cell>Grammaire élémentaire de la langue allemande</cell>
+                  <cell>4 Vol. Intégral</cell>
+                </row>
+              </table>
+              <pb n="8"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">ANGLAIS</head>
+              <table>
+                <row>
+                  <cell>4008</cell>
+                  <cell>KATE COVENTRY</cell>
+                  <cell>Autobiographie</cell>
+                  <cell>9 Vol. Intégral</cell>
+                </row>
+              </table>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>HASSEN BEN SALEM KRAIEM, de Téboulba (Tunisie), son fils Romdhane, le 20 Août 1946.
+              GUESPEREAU Henri (1939-45), de Paris, sa fille Anne, le 23 Septembre 1946. BOUHALI
+              Bernard (1939-45), de Rilleux (Ain), son fils Alain-Marc, le 27 Septembre 1946.
+              CAMILLERAPP Xavier (1939-45), de Paris, sa fille Brigitte, le 17 Septembre 1946.
+              DESSEIGNES Emile, de Vallon-en-Sully (Allier), sa petite-fille Dominique, le 24
+              Septembre 1946. FALAISE Paul, de Gargenville (Seine-et-Oise), sa petite-fille Yvette,
+              le 17 Juillet 1946. POTEREAU Ludovic, de St-Jean-de-Monts (Vendée), son petit-fils
+              Rémy, le 17 Octobre 1946. Nous adressons nos félicitations aux heureux parents et nos
+              vœux de prospérité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">MARIAGES</head>
+            <p>Les Camarades suivants nous font part des célébrations de mariage de : Notre Camarade
+              Paul BLAYES (1939-45), de Craissessac (Hérault), avec Mlle Jeanne FABRE, le 21
+              Septembre 1946.</p>
+            <p>Notre Camarade Robert VIAL (1939-45), chef de Bataillon de l'Infanterie Coloniale, de
+              Paris, avec Mlle Ghislaine Minette de Saint-Martin, le 12 Octobre 1946.</p>
+            <p>Notre Camarade Pierre OLIVIER, de Bordeaux (Gironde), avec Mlle Marie-Claire Libert,
+              le 3 Octobre 1946.</p>
+            <p>Notre Camarade Victor DETOC, de La Varenne-Saint-Hilaire (Seine), avec Mlle Maria
+              Guignet, le 14 Août 1946.</p>
+            <p>Notre Camarade Robert CANIVET (1939-45), de Paris, avec Mlle Jacqueline Girou, le 18
+              Juillet 1946.</p>
+            <p>Notre Camarade Pierre BUSQUET (1939-45), du Portel (Aude), avec Mlle Yvonne
+              Gheeraert, le 28 Septembre 1946.</p>
+            <p>La fille Germaine du Camarade LEBLOND, de Déville (Seine-Inf.), avec M. Louis Debié,
+              le 14 Septembre 1946.</p>
+            <p>La fille Geneviève du Camarade Etienne DUFAU, de Versailles (Seine-et-Oise), avec le
+              sous-lieutenant Bernard de la Follye de Joux, le 14 Septembre 1946.</p>
+            <p>La fille Jeanne du Camarade Budoc GOHIEC, de Concarneau (Finistère), avec M. Jean Le
+              Beux, le 28 Août 1946.</p>
+            <p>La fille Jacqueline du Camarade Marcel MARTIN, de Groslay (Seine-et-Oise), avec M.
+              André Hany, le 12 Octobre 1946.</p>
+            <p>La fille Augusta du Camarade Auguste LASSALLE, de Mézos (Landes), avec M. Emile
+              Bayle, le 17 Septembre 1946.</p>
+            <p>Le fils Claude du Camarade PANTERNE, de Tours (Indre-et-Loire), avec Mlle Juliette
+              Poirier, le 7 Octobre 1946.</p>
+            <p>Le fils Marcel du Camarade VALADEAU, de St-Junien (Haute-Vienne), avec Mlle Angèle
+              Bois, le 31 Août 1946.</p>
+            <p>Nous adressons nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">DECES</head>
+            <p>LIXON Arthur, de Lens (P.-de-C.), le 2 Septembre 1946.</p>
+            <p>LAURENT Alexandre, de Belz (Morbihan), Septembre 1946.</p>
+            <p>CIZERON Barthélémy, de Porzat-St-Héand (Loire), le 25 Août 1946.</p>
+            <p>CLERC André, de Bordeaux (Gironde), Septembre 1946. </p>
+            <p>BARGOIN, de Lyon (Rhône), le 24 Septembre 1946.</p>
+            <p>LEVEQUE Jacques, de Bréhat (Côtes-du-Nord), Octobre 1946.</p>
+            <p>La Mère du Camarade PASQUIER, de Vallon-en-Sully (Allier), le 27 Mai 1946. </p>
+            <p>Le Père du Camarade ROUQUETTE, de Juan-les-Pins (A.-Marit.), le 12 Septembre 1946. </p>
+            <p>Nous adressons aux familles éprouvées nos plus vives condoléances.</p>
+          </div>
+
+          <fw>Gérant : G. L'EVESQUE Imp. PIETRINI ROUEN 5466</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,967 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 20ème année 1938 n°10</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Statut des grands mutilés</title>
+        <title type="topic">Livre Parlé</title>
+        <title type="topic">Allemagne</title>
+        <title type="topic">Section de Prévoyance</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 20 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#association">Association</term>
+          <term ref="#statut">Statut</term>
+          <term ref="#livre-parle">Livre Parlé</term>
+          <term ref="#allemagne">Allemagne</term>
+          <term ref="#prevoyance">Prévoyance</term>
+          <term ref="#chemins-de-fer">Chemins de fer</term>
+          <term ref="#tarifs">Tarifs</term>
+          <term ref="#comite-dentente">Comité d'Entente</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre de novembre 1938 traite de
+          plusieurs sujets importants pour ses membres. Il rend compte des actions en cours, comme
+          la réunion du Comité d'Entente et l'audience auprès du Ministre des Pensions concernant le
+          statut des grands mutilés et les tarifs de chemins de fer. Le bulletin détaille également
+          le fonctionnement de la section de prévoyance de l'Union et présente des informations sur
+          le Livre Parlé. Une section est consacrée aux aveugles de guerre en Allemagne, offrant un
+          aperçu de leur organisation et de leurs conditions de vie. Enfin, le bulletin inclut des
+          chroniques de l'U.A.G., des avis divers, et des listes de donateurs, ainsi que des
+          informations sur les naissances, mariages et décès parmi les membres et leurs
+          familles.</p>
+      </abstract>
+      <creation>
+        <date when="1938-11-01">01/11/1938</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+
+          <item>
+            <ref target="#h5">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h6">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h7">Comité d'Action</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOVEMBRE</ref>
+          </item>
+          <item>
+            <ref target="#h9">L'ACTION EN COURS</ref>
+            <list>
+              <item>
+                <ref target="#h10">Réunion du Comité d'Entente du Mardi 25 Octobre 1938</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h11">LE STATUT DES GRANDS MUTILÉS</ref>
+          </item>
+          <item>
+            <ref target="#h12">TARIFS DES CHEMINS DE FER</ref>
+          </item>
+          <item>
+            <ref target="#h13">AUDIENCE DE M. LE MINISTRE DES PENSIONS LE 5 NOVEMBRE 1938</ref>
+          </item>
+          <item>
+            <ref target="#h14">NOTRE SECTION DE PRÉVOYANCE</ref>
+          </item>
+          <item>
+            <ref target="#h15">LE LIVRE PARLÉ</ref>
+            <list>
+              <item>
+                <ref target="#h16">Nouvelles conditions de paiement</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">CHEZ LES AVEUGLES DE GUERRE D'ALLEMAGNE</ref>
+          </item>
+          <item>
+            <ref target="#h18">CIRCULAIRE MINISTÉRIELLE AU SUJET DE LA CIRCULATION DU SANG</ref>
+          </item>
+          <item>
+            <ref target="#h19">NOS DÉLÉGATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h20">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h21">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h23">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h24">Procès-verbal de la Réunion du Conseil d'Administration du 25
+                  Juin 1938</ref>
+              </item>
+              <item>
+                <ref target="#h25">Réunion constitutive de la Régionale de l'Ouest du 25 Septembre
+                  1938</ref>
+              </item>
+              <item>
+                <ref target="#h26">Procès-verbal de la Réunion de la Départementale du Tarn le 9
+                  Octobre 1938</ref>
+              </item>
+              <item>
+                <ref target="#h27">Procès-verbal de la Réunion de Commission de la Régionale du Nord
+                  le 23 Octobre 1938</ref>
+              </item>
+              <item>
+                <ref target="#h28">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h29">LISTE DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h30">DONS AVEC AFFECTATION SPÉCIALE POUR LA MAISON DES AVEUGLES DE
+                  GUERRE</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h31">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h32">Comité de Patronage</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">20e Année. — N° 10</fw>
+          <fw type="header">
+            <hi rend="underline">NOVEMBRE 1938</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Novembre.</item>
+                    <item>L'action en cours : Réunion du Comité d'Entente, le 25 octobre
+                      1938.</item>
+                    <item>Le statut des Grands Mutilés.</item>
+                    <item>Tarifs de Chemins de Fer.</item>
+                    <item>Audience de M. le Ministre des Pensions le 5 novembre 1938.</item>
+                    <item>Notre Section de Prévoyance.</item>
+                    <item>Le Livre Parlé.</item>
+                    <item>Chez les Aveugles de Guerre d'Allemagne.</item>
+                    <item>Circulaire ministérielle au sujet de la circulation du sang.</item>
+                    <item>Lettre du camarade Dupuy.</item>
+                    <item>Nos délégations.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'Administration du 25 juin
+                      1938.</item>
+                    <item>Procès-verbaux de la réunion constitutive de la Régionale de l'Ouest le 25
+                      septembre 1938.</item>
+                    <item>Procès-verbal de la réunion de la Départementale du Tarn le 9 octobre
+                      1938.</item>
+                    <item>Procès-verbal de la réunion de la Régionale du Nord le 23 octobre
+                      1938.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Tableau d'Honneur</head>
+            <p>IzaAc, Président honoraire. Scapini, Président honoraire. Bourguignon, Secrétaire
+              général honoraire. Favret, Secrétaire général honoraire. Conan, Secrétaire général
+              honoraire. Amblard, Secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Conseil d'Administration</head>
+            <p>Président : Conan. Vice-Présidents : Guillam, Izaac, Leveau. Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Favret,
+              Grillet, Lappargue, Lagarde, Lauté, Malgat, Muller, Nicolai Noireaux, Robert
+              (Maurice), Roy (Georges), Satgé, Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Comité d'Action</head>
+            <p>Mlle Arbel, Vice-Présidente honoraire.</p>
+            <p>Président : M. de Traversay. Vice-Présidentes Mme Contamin. Mme L'Evesque. M. Bloch,
+              adjoint au Trésorier: Secrétaires M. Iweins, Secrétaire du Comité d'Action. M.
+              Auterbe, Sous-Directeur à la Compagnie «L'Union ». Mme du Bos: Mme Broquin: M. de
+              Chaumont-Quitry: M. Chepfer ; Mme Chevalier : Mlle Jalaguier Mme Lévy-Weis : M. Julien
+              Mayer ; Mme Meyer ; Colonel de Traversay.</p>
+            <pb n="3"/>
+          </div>
+          <fw>20° ANNEE - N° 10 NOVEMBRE 1938</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOVEMBRE</head>
+            <p>1<hi rend="superscript">er</hi> Novembre : première des dates importantes de la
+              saison d'hiver. Journée de recueillement suivie de si près par celle de l'anniversaire
+              de l'Armistice, qu'il semble vraiment que le destin se soit plu à associer le culte
+              des morts et celui du souvenir des grands sacrifices de la guerre.</p>
+            <p>Cette année, vingt ans après, la France entière célébrera avec une ferveur renouvelée
+              le souvenir de ses morts et celui de la grande tragédie. Nous nous reposerons du
+              labeur quotidien, pour revivre, pendant quelques heures, les temps héroïques et rendre
+              un fraternel hommage à ceux qui ne sont pas revenus.</p>
+            <p>Vingt ans. Une impression spéciale frappe notre esprit qui mesure le temps écoulé ; à
+              ces raisons du cœur et de la pensée, d'autres s'y ajoutent cette année; elles sont
+              dûes aux derniers événements qui faillirent marquer d'une façon si tragique la fin de
+              l'été.</p>
+            <p>Sur la terre entière, les dangers d'une nouvelle guerre ont plané, les peuples ont
+              frémi de crainte sous l'effroyable perspective. L'horreur du choc qui fut si près de
+              se produire pénétra profondément tous les esprits, la guerre fut évitée. Il semble
+              qu'un désir plus ardent de pieuse reconnaissance pour ceux qui ont sauvé
+              l'indépendance des peuples il y a vingt ans, soit resté au cœur de chacun. Il s'y
+              ajoute l'immense espoir que toutes les souffrances subies préserveront à jamais le
+              monde de pareille épreuve.</p>
+            <p>Au devoir d'hommage rendu à nos frères d'armes disparus s'associent de tout leur cœur
+              les Aveugles de guerre. Comme toute la foule, comme tous les autres groupements
+              d'anciens combattants, les aveugles de guerre savent, en de telles occasions, remplir
+              en même temps que leur devoir individuel, leur devoir collectif. A. CONAN.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">L'ACTION EN COURS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Réunion du Comité d'Entente
+                du Mardi 25 Octobre 1938</head>
+              <p>Le Comité d'Entente s'est réuni à 16 heures. Toutes les Associations sont
+                représentées. Pour l'U.A.G. : Conan, Amblard.</p>
+              <p>Le tour de présidence échoit à Nouveau qui est heureux de donner de meilleures
+                nouvelles de Régnier et au nom des camarades lui exprime ses souhaits de complet
+                rétablissement.</p>
+              <p>Mise au point des questions qui feront l'objet d'une audience que le Comité
+                demandera prochainement au Ministre des Pensions : 1<hi rend="superscript">°</hi>
+                Impotents fonctionnels; 2<hi rend="superscript">°</hi> Application du statut.
+                L'U.A.G. insiste pour que l'examen des dossiers soit activé ; 3<hi
+                  rend="superscript">°</hi> Rajustement des allocations; 4<hi rend="superscript"
+                  >°</hi> Modification de certains barêmes; 5<hi rend="superscript">°</hi> Réduction
+                sur les autocars remplaçant les chemins de fer. La question sera reprise pour que
+                les 75% de réduction ne soient pas réduits à 50 et même à 30%. L'U.A.G. insiste sur
+                la gratuité du voyage pour le guide ainsi que pour la suppression de la double
+                perception des droits de quai et de contrôle faite au détriment des aveugles. 6<hi
+                  rend="superscript">°</hi> Cérémonie du 11 Novembre - Emplacements réservés.</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LE STATUT DES GRANDS
+              MUTILÉS</head>
+            <p>Comme nos camarades viennent de le voir, l'application du décret concernant
+              l'extension' de la loi du 22 mars 1935 préoccupe beaucoup les dirigeants des grands
+              mutilés qui ont demandé à être reçus par M. le Ministre des Anciens Combattants.</p>
+            <p>Nous aimerions vivement que soit menée rapidement l'application des différentes
+              instructions qui ont suivi le décret -loi du 17 juin 1938, pour des cas qui, comme les
+              nôtres, ne demandent pas une grande étude. Tous les délégués désireraient, afin de
+              hâter l'obtention du statut, que des titres provisoires soient délivrés à nos
+              camarades. Nous ferons tous nos efforts pour que les différents cas concernant les
+              aveugles de guerre soient étudiés avec soin.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">TARIFS DES CHEMINS DE FER</head>
+            <p>Pendant les vacances, nous avons eu la désagréable surprise de subir une nouvelle
+              augmentation du tarif des chemins de fer. Nous ne voulons pas discuter la
+              justification de cette augmentation mais, où nous nous élevons, c'est sur
+              l'application à nos guides de la taxe dite «pour frais de gare et de contrôle». Nous
+              protestons énergiquement contre cette atteinte aux droits que nous avons acquis; nous
+              n'avons pas manqué et ne manquerons pas de faire des démarches afin que ne soit pas
+              entamée cette chose précieuse entre toutes qu'est la gratuité du transport de notre
+              tierce personne et nous ne manquerons pas non plus de faire remarquer que certaines
+              catégories, comme les retraités des réseaux et leurs familles, sont exemptes de cette
+              taxe.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">AUDIENCE DE M. LE MINISTRE DES
+              PENSIONS LE 5 NOVEMBRE 1938</head>
+            <p>Le Comité d'Entente a été reçu par M. le Ministre des Anciens Combattants le samedi 5
+              novembre à 12 heures.</p>
+            <p>Etaient présents pour l'U.A.G. : Conan, Amblard. La délégation a présenté au Ministre
+              les désiderata du Comité dont il est question plus haut. Elle a insisté
+              particulièrement pour que l'examen des demandes tendant à bénéficier de l'extension du
+              statut soit fait le plus rapidement possible, que des visites médicales soient évitées
+              et qu'en attendant la liquidation de ces nouvelles pensions, des titres provisoires
+              soient délivrés.</p>
+            <p>Le Ministre a promis de faire hâter par ses services l'exécution du décret
+              d'extension.</p>
+            <p>Toute la délégation n'a pas manqué d'attirer particulièrement l'attention de M.
+              Champetier de Ribes sur les conditions actuelles de vie et le rapport existant entre
+              nos pensions au moment où elles ont été rajustées en 1935 et le coût de la vie à
+              l'heure présente. Il a été fait ensuite allusion à de grandes anomalies existant dans
+              les barêmes, puis la délégation a abordé la question des autocars remplaçant les
+              lignes d'intérêt secondaire. Les délégués ont pu constater que, malgré les démarches,
+              rien n'avait été fait dans ce sens et le Ministre lui-même fait savoir que ses
+              interventions auprès du Ministre des Travaux Publics n'ont pas encore abouti. Sur nos
+              instances, il reprendra la question.</p>
+            <p>Nous critiquons alors vivement l'application de la taxe de gare et de contrôle et
+              protestons vigoureusement sur l'obligation qu'ont nos guides d'acquitter également
+              cette taxe. Nous indiquons qu'il nous est très désagréable d'avoir subi cette
+              augmentation et que nous reviendrons à la charge pour obtenir satisfaction.</p>
+            <p>La visite est terminée à 12 h .45. H. A.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">NOTRE SECTION DE
+              PRÉVOYANCE</head>
+            <p>Le Conseil d'Administration, qui s'est réuni le 15 octobre dernier, a enregistré avec
+              satisfaction les nombreuses adhésions parvenues à la Caisse de Prévoyance; elles se
+              montent, à l'heure actuelle, à plus de 1.100 .</p>
+            <p>La mise en recrutement des cotisations a été décidée et, depuis, de nombreux
+              versements arrivent à nos Bureaux, ce qui nous crée un assez fort surcroît de travail
+              que notre personnel, d'ailleurs, exécute avec bonne grâce et dévouement.</p>
+            <p>Le Conseil d'Administration a également revu le réglement et a apporté une
+              modification au texte envoyé à tous nos camarades en juillet dernier. Il s'agit des
+              adhérents qui, pour une raison quelconque, cesseront de cotiser à notre Section. Pour
+              ceux-là il est entendu qu'au moment de la cessation des paiements, les versements
+              seraient remboursés sans intérêt.</p>
+            <p>Voici du reste le texte qui a été adopté : «Si le camarade, au « moment de son décès,
+              n'est pas en règle avec la Caisse, l'U.A.G. « ne versera à la personne désignée que le
+              montant des cotisations « payées, sans tenir compte des intérêts. Sera considéré comme
+              n'étant « pas en règle avec la Caisse le camarade qui, après le 11 novembre, « n'aura
+              pas répondu à la demande de versement notifiée par lettre « recommandée avec avis de
+              réception».</p>
+            <p>Donc, à partir du 11 novembre, notre Section de Prévoyance va fonctionner et tous
+              ceux qui y ont adhéré auront acquis en cas de décès le droit à une somme de 10.000
+              francs, au profit de leur veuve ou de toute autre personne qu'ils auront désignée.
+              C'est là une sécurité que beaucoup ont appréciée et pour laquelle ils ont bien voulu
+              nous donner leur*approbation. H. A.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">LE LIVRE PARLÉ</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Nouvelles conditions de
+                paiement</head>
+              <p>Nous avons le plaisir de porter à votre connaissance les nouvelles dispositions que
+                le Conseil d'Administration de l'U.A.G. a prises au cours de la séance du 15
+                octobre, et fixant les conditions d'achat des appareils du Livre Parlé. Le Conseil a
+                pris ces dispositions pour répondre aux nombreuses demandes de nos camarades, afin
+                de leur éviter, du fait de la création de la Caisse de Prévoyance, un ensemble de
+                dépenses trop élevées et de ne pas déranger leur budget familial.</p>
+              <p>Les appareils du Livre Parlé sont mis à votre disposition aux conditions suivantes
+                : remboursement de 50 francs par trimestre pour les tourne-disques et de 75 francs
+                par trimestre pour les phonographes complets.</p>
+              <p>Nous rappelons que le prix de chaque appareil est de 550 francs pour les pick-up et
+                de 850 francs pour les phonographes, frais d'expédition en plus. Ces appareils étant
+                de très bonne qualité, ces prix sont inférieurs à leurs prix de revient réels en
+                fabrique, mais l'American Braille Press prend la différence à sa charge.</p>
+              <p>Après l'expérience acquise depuis près de deux ans, nous pouvons engager sans
+                crainte nos camarades à l'achat de ces appareils. Ils trouveront, avec le Livre
+                Parlé, un élément dont ceux qui ne l'ont pas encore pratiqué ne peuvent soupçonner
+                tous les bienfaits. Tous ceux qui en ont fait l'expérience ne cessent de nous
+                témoigner leur vive satisfaction. Pouvoir suivre sans effort des livres entiers,
+                enregistrés par des spécialistes, lecteurs éprouvés, qui donnent aux textes une
+                incomparable valeur, des heures de lecture assurées à son gré sans avoir besoin du
+                concours de personne, des livres, dont tant de nous sont depuis de longues années
+                souvent privés, voilà ce qui est maintenant à votre portée. Faites-en l'essai, vous
+                en serez heureux : de nombreux camarades ont bien voulu nous le dire en de
+                nombreuses lettres dont quelques-unes ont été publiées dans notre bulletin.</p>
+              <p>Nous rappelons les caractéristiques des deux appareils : Le premier, le
+                tourne-disques, s'adapte sur tous les appareils de T.S.F. possédant une prise de
+                pick-up. La qualité de la lecture augmente dans ce cas avec la qualité du récepteur
+                de T.S.F.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>Le second, le phonographe complet, a été créé pour ceux qui ne possèdent pas de
+                T.S.F. ou qui, en possédant, préfèrent avoir leur lecture indépendante. Pour l'un
+                comme pour l'autre, les manipulations en sont des plus simples et l'entretien très
+                facile. Ces appareils ont été étudiés spécialement pour le Livre Parlé, car les
+                disques y tournent à la cadence de 33 tours, mais par un simple changement
+                d'engrenage, on les fait passer de 33 à 78 tours, vitesse habituelle de tous les
+                phonographes; ils peuvent alors servir à l'audition de tous les disques du commerce,
+                musique, etc. Ces appareils sont donc, en même temps, d'ordre particulier et
+                familial.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">CHEZ LES AVEUGLES DE GUERRE
+              D'ALLEMAGNE</head>
+            <p>Dans un bulletin spécialement édité à l'occasion des cinq années de présidence
+              d'Adolf Hitler, l'organe de l'Association des Mutilés Allemands réserve une place
+              importante à un article sur les aveugles de guerre d'Allemagne.</p>
+            <p>Nous en résumons les pages essentielles qui pourront sans doute intéresser nos
+              camarades.</p>
+            <p>Dans cet article intitulé : «La confiance exceptionnelle des aveugles de guerre »,
+              l'auteur, après avoir rappelé qu'Adolf Hitler, ancien combattant, fut pendant quelque
+              temps lui-même aveugle de guerre, nous dit qu'il y a 3.500 aveugles de guerre
+              allemands.</p>
+            <p>Au sujet de leur Association, il est indiqué que dans la Maison des Aveugles de
+              Guerre d'Adolf Hitler on trouve :</p>
+            <list type="ordered">
+              <item>La partie commerciale où l'on est en rapports directs avec les supérieurs
+                capables d'employer ou de placer les aveugles de guerre selon leurs différentes
+                capacités;</item>
+              <item>La librairie des Aveugles de Guerre qui, avec ses quelques 8.600 volumes,
+                pourvoit à la culture et au délassement des lecteurs de Braille;</item>
+              <item>La succursale de la Fondation des Aveugles de Guerre qui rend possible
+                l'hébergement des aveugles et des leurs et qui demande une organisation spéciale de
+                l'Union;</item>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <item>Enfin, dans un bâtiment spécial, ceux qui pourvoient au travail des Aveugles de
+                Guerre qui, avec les dépendances d'Hambourg et de Weimar, comme avec celles de
+                Bayreuth, Dortmund, Halle, Munich, Stuttgart et Wurtsburg, achètent les matières
+                premières qui leur sont nécessaires et se chargent de la vente des objets
+                confectionnés.</item>
+            </list>
+            <p>Le travail donne à l'aveugle de guerre la foi en la vie, la conscience de soi, le
+              sentiment de faire partie du tout, le remplissage de ses heures sombres, la
+              possibilité de surmonter son destin et la réconciliation avec son triste sort.</p>
+            <p>Puis on donne les chiffres suivants relatifs au travail des aveugles de guerre :</p>
+            <table>
+              <row>
+                <cell>Artisans</cell>
+                <cell>478</cell>
+              </row>
+              <row>
+                <cell>Entrepreneurs</cell>
+                <cell>323</cell>
+              </row>
+              <row>
+                <cell>Travailleurs intellectuels</cell>
+                <cell>321</cell>
+              </row>
+              <row>
+                <cell>Travailleurs d'industrie</cell>
+                <cell>292</cell>
+              </row>
+              <row>
+                <cell>Dactylographes</cell>
+                <cell>212</cell>
+              </row>
+              <row>
+                <cell>Commerçants</cell>
+                <cell>200</cell>
+              </row>
+              <row>
+                <cell>Agriculteurs</cell>
+                <cell>139</cell>
+              </row>
+              <row>
+                <cell>Bureaucrates</cell>
+                <cell>94</cell>
+              </row>
+              <row>
+                <cell>Speakers</cell>
+                <cell>87</cell>
+              </row>
+              <row>
+                <cell>Masseurs</cell>
+                <cell>16</cell>
+              </row>
+            </table>
+            <p>Il est dit plus loin, au sujet des maisons de repos, qu'on doit assurer à l'aveugle
+              de guerre, à sa fidèle compagne et à ses enfants le séjour à l'air pur, les bains, les
+              soins, afin qu'ils se retrouvent sains et forts après le séjour dans une des jolies
+              maisons de Braulage, Swinemunde, Salzhausen, etc... où, dans l'ensemble, plus de 3.000
+              hôtes sont reçus chaque année.</p>
+            <p>L'Union des Aveugles de Guerre d'Allemagne indique qu'une de ses plus belles et plus
+              nobles réussites est la création et le maintien d'un domicile individuel pour chacun
+              de ses membres. Sur 3.500 aveugles de guerre, 2.376 possèdent un chez-soi
+              personnel.</p>
+            <p>On nous apprend aussi que plus de 1.800 aveugles de guerre ont un chien conducteur
+              qui est pour eux un ami.</p>
+            <p>Il apparaît enfin que cette grande Association de mutilés réserve une place d'honneur
+              aux aveugles de guerre.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">CIRCULAIRE MINISTÉRIELLE AU SUJET
+              DE LA CIRCULATION DU SANG</head>
+            <p>Circulaires n<hi rend="superscript">°</hi> 256 E.M.P. du 7 mai 1938. Le Ministre des
+              Anciens Combattants et Pensionnés, à MM. les Médecins-chefs des Centres de Réforme. «
+              Je recommande, lorsque des amputés sont soumis à expertise, de ne pas manquer, s'il
+              est constaté des troubles circulatoires, de rechercher les rapports éventuels entre
+              ces troubles et l'amputation. « Dans cette recherche, on sera guidé par les
+              considérations suivantes : « 1<hi rend="superscript">°</hi> Il n'est pas contesté que
+              des amputations peuvent se compliquer de troubles circulatoires; « 2<hi
+                rend="superscript">°</hi> Mais tous les troubles circulatoires survenant chez des
+              amputés ne sont pas forcément dûs à l'amputation; « 3<hi rend="superscript">°</hi>
+              Chaque cas d'espèce pose donc un problème pathogénique sur lequel la liberté de
+              l'expertise reste entière. « En conséquence, toutes les fois qu'un amputé invoquera
+              des troubles circulatoires, MM. les Médecins-chefs des Centres de Réforme et
+              Présidents de Commissions de Réforme veilleront à ce que le certificat d'expertise et
+              le procès-verbal de la Commission de Réforme fassent état des présentes
+              recommandations. «Quant à l'évaluation même des troubles circulatoires, il convient de
+              se référer au chapitre du guide-barème traitant de la circulation (cœur et aorte)
+              ».</p>
+            <p>Nos camarades penseront peut-être que cette circulaire n'intéresse que les amputés,
+              mais notre camarade Robert M., membre du Conseil d'Administration, a interrogé un
+              professeur de la Faculté de Médecine de Lyon qui lui a fait la réponse suivante : « Je
+              suis tout à fait « d'accord pour que les aveugles énuclés et les trépanés soient
+              compris « dans la catégorie dont il est question pour les grands invalides sur « votre
+              circulaire. Si j'étais à Paris, j'irais en parler de suite au «Ministère des Anciens
+              Combattants».</p>
+            <p>Il sera donc, dans les discussions futures, intéressant de s'appuyer sur des avis
+              aussi autorisés que celui-ci.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+            <p>Notre camarade Dupuy Marius, Président de la Section Départementale des
+              Bouches-du-Rhône, nous prie d'insérer la lettre suivante :</p>
+            <p>Monsieur le Président et Cher Camarade.</p>
+            <p>J'ai l'honneur et je suis heureux de vous transmettre l'expression des chaleureuses
+              et sincères félicitations que le Comité de la Section Départementale des
+              Bouches-du-Rhône vous adresse, en associant d'ailleurs dans le même sentiment de
+              fervente gratitude tous les membres du Bureau de l'U.A.G. et son personnel pour
+              l'initiative aussi avisée que généreuse qui vous a fait prendre, aux heures tragiques
+              des derniers jours de septembre, toutes les dispositions les plus utiles en vue
+              d'assurer à tous nos camarades Parisiens un exode facile et un refuge aussi
+              confortable que possible dans les Etablissements de Franceville et de Bouleville.</p>
+            <p>Vous avez ainsi, Monsieur le Président, avec le concours de vos fidèles et dévoués
+              collaborateurs, donné une nouvelle et précieuse preuve de l'esprit et des liens de
+              solidarité qui nous unissent tous, même dans les moments les plus critiques de la
+              vie.</p>
+            <p>Au nom de mes camarades et en mon nom personnel, merci du fond du coeur.</p>
+            <p>Dupuy,</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">NOS DÉLÉGATIONS</head>
+            <p>Le 16 octobre dernier, l'Amicale Franco-Belge des Croix de l'Yser a fait célébrer en
+              l'Eglise Saint-Louis des Invalides, à 10 h .45 , un service solennel à la mémoire de
+              S. M. Albert I { }^{<hi rend="superscript">er</hi>} et des militaires français et
+              belges tombés à l'Yser.</p>
+            <p>Une délégation de l'U.A.G. accompagnée du drapeau de notre Association, assistait à
+              cette cérémonie.</p>
+            <p>Une délégation de l'U.A.G. accompagnée du drapeau de notre Association prit part
+              également à la cérémonie de l'inauguration du Monument aux Mères Sublimes, le dimanche
+              23 octobre, à 15 heures, à la Porte d'Italie.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Naissances</head>
+                <p>Notre camarade et Madame Perret, de Saint-Bonnet-le-Courreau (Loire), nous font
+                  part de la naissance de leur septième enfant, Joseph, né le 21 août 1938.</p>
+                <p>Notre camarade Abderrahmann ben SaAd, de Lagouat (Algérie), nous fait part de la
+                  naissance de son 6^{e} enfant, Aïlha, né le 9 octobre 1938.</p>
+                <p>Notre camarade Lelee, d'Angers (Maine-et-Loire), nous fait part de la naissance
+                  de son petit-fils Yannick, né le 12 octobre 1938.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">Mariages</head>
+                <p>Notre camarade Lebon, de Charleville (Ardennes), nous fait part du mariage de sa
+                  fille avec M. Robinet, célébré le 22 septembre 1938.</p>
+                <p>Notre camarade Navarron, de Voirdière (Puy-de-Dôme), nous fait part du mariage de
+                  son fils avec Mlle Viale, célébré le 17 octobre 1938.</p>
+                <p>Notre camarade Bosquet, de La Vendelée (Manche), nous fait part du mariage de son
+                  fils avec Mlle Herman, célébré le 11 octobre 1938.</p>
+                <p>Notre camarade Vachon, de Lantigné (Rhône), nous fait part du mariage de son fils
+                  avec Mlle Lécot, célébré le 20 septembre 1938.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">Décès</head>
+                <p>Nous apprenons le décès :</p>
+                <list>
+                  <item>De notre camarade Michel Francis, de Bellevue, par Amillis (Seine-et-Marne),
+                    décédé le 11 octobre 1938, dans sa 55e année. Né le 12 janvier 1884 à Besançon
+                    (Doubs), soldat au 20<hi rend="superscript">e</hi> Train des Equipages, notre
+                    camarade devint aveugle le 16 septembre 1916. Réformé à 100% art. 10, pour
+                    cécité, il laisse une veuve et un enfant.</item>
+                  <item>De notre camarade Rouxel Ernest, de Pleslin (Côtes-du-Nord), décédé le 26
+                    octobre 1938, à l'âge de 43 ans. Né le 24 août 1895 au Hâvre, matelot gabier sur
+                    le Patrouilleur Linotte III, blessé au large de Bizerte le 13 septembre 1918,
+                    réformé à 100% art. 10, pour cécité, titulaire de la Médaille Militaire, il
+                    laisse une veuve et un enfant.</item>
+                  <item>De la mère de notre camarade Coupez, du Parc-Saint-Maur (Seine), décédée le
+                    7 octobre 1938 à l'âge de 71 ans.</item>
+                  <item>De la mère de notre camarade Fabre Irénée, de Clermontl'Hérault (Hérault)
+                    décédée le 2 septembre 1938 à l'âge de 79 ans.</item>
+                  <item>De la femme de notre camarade Ichtertz, de Rosheim (BasRhin), décédée le 20
+                    septembre 1938, à l'âge de 61 ans.</item>
+                  <item>De la mère de notre camarade Cheitin, de l'Epine-au-Bois (Aisne), décédée le
+                    10 août 1938, à l'âge de 75 ans.</item>
+                  <item>De la femme de notre camarade Tricaud, de Bellac (HauteVienne), décédée le
+                    28 octobre 1938, à l'âge de 45 ans.</item>
+                  <item>Du père de notre camarade Cohn, de Paris, décédé le 25 octobre 1938, à l'âge
+                    de 75 ans.</item>
+                  <item>Du fils de notre camarade Bideau Jean, d'Anglet (BassesPyrénées), décédé le
+                    27 octobre dans sa $29^{\text {e }}$ année.</item>
+                </list>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Procès-verbal de la Réunion
+                du Conseil d'Administration du 25 Juin 1938</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Conan. Sont présents :
+                Conan, Guillam, Izaac, Leveau, Amblard, L'Evesque, Bardoux, Bois, Brusson,
+                Céré-Labourdette, Courteix, Evrat, Fauvel, Favret, Grillet, Lagarde, Lauté, Malgat,
+                Nicolaï, Noireaux, Robert M., Roy G.</p>
+              <p>Excusés : Bertrand, Bloncourt, Cabasson, Derunder, Laffargue, Muller, Satgé,
+                Scapini.</p>
+              <p>Ont donné leurs pouvoirs : A Amblard : Satgé. A Fauret : Cabasson. A Lagarde :
+                Laffargue. A Leveau : Bertrand. A Noireaux : Derunder. Assistaient également à la
+                séance : M. de Traversay, Président, et M. Iweins, secrétaire du Comité d'Action; M.
+                Oscar Bloch, trésorier-adjoint;</p>
+              <p>Les camarades : Berthet, Chalendar, Olivier, Rousseau, Saillot.</p>
+              <list type="ordered">
+                <item>Le procès-verbal de la réunion du 21 mai 1938 est adopté à l'unanimité.</item>
+                <item>Situations financières d'avril et mai 1938 : adoptées à l'unanimité.</item>
+                <item>L'extension du statut des grands invalides venant d'être acquise par
+                  décret-loi, le Président rappelle le travail de l'U.A.G., du Comité d'Entente et
+                  l'aide précieuse de la Confédération. Le Conseil est heureux de ce résultat et
+                  attend l'exécution des dispositions de ce décret.</item>
+              </list>
+              <p>Le Conseil évoque ensuite la question des lignes de chemin de fer remplacées par
+                des autocars, qui fera l'objet de ses préoccupations afin d'obtenir un résultat
+                favorable.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <list type="ordered">
+                <item>Le vote du statut étant acquis, la réunion des administrateurs a surtout pour
+                  but d'examiner le projet d'assurance qui doit être mis au point. Izaac présente,
+                  au nom du Bureau, un projet définitif. Il rappelle les travaux des camarades
+                  L'Evesque, Lauté, Fauvel et Chalendar. Le projet ayant reçu l'approbation des
+                  services de notre ami M. Auterbe, qui l'a fait étudier, les administrateurs en
+                  examinent tous les détails et se mettent d'accord sur un échelonnement de
+                  versements fixés selon l'âge des camarades. Il est entendu qu'il sera demandé une
+                  cotisation annuelle de 275 francs jusqu'à 45 ans, 325 francs jusqu'à 50 ans, 400
+                  francs jusqu'à 55 ans et 500 francs au-dessus de 55 ans.</item>
+              </list>
+              <p>Tous les administrateurs expriment l'espoir que de très nombreux camarades
+                cotiseront à cette caisse de l'U.A.G. qui apportera une aide appréciable aux veuves
+                des aveugles de guerre.</p>
+              <p>Le questionnaire simple et clair qui sera envoyé à tous les camarades est étudié
+                par le Conseil qui chargera le Bureau de faire le nécessaire dans le plus bref
+                délai.</p>
+              <p>Lecture est donnée des demandes d'adhésion de : Bouvet Joseph, Route de Baugé,
+                Segré (Maine-et-Loire) : 120% art. 10 et 12 , titre définitif, carte du Combattant.
+                Bussonnais Louis, Clion (Indre) : 120% art. 10 et 12, titre définitif, carte du
+                Combattant. Etienbled Louis, 306, Avenue d'Argenteuil, Asnière (Seine) : 160% art.
+                10 et12, titre définitif, carté du Combattant. Fabre Joseph, 13, Cours de Vincennes,
+                Paris : 140% art. 10 et 12, titre définitif, carte du Combattant. Lachatre Emile,
+                Bois du Breuil, La Souterraine (Creuse) : 100% art. 10, titre définitif, carte du
+                Combattant. Maros François, Loupiac, par Cadillac (Gironde) : 130% art. 10 et 12,
+                titre définitif, carte du Combattant. Ces camarades remplissant les conditions, sont
+                admis à l'U.A.G. en qualité de membres titulaires. (Brusson ne sachant pas si ces
+                camarades appartiennent à des Associations spécialisées s'est abstenu).</p>
+              <p>Robert M. rappelle que la station de Saint-Didier est reconnue par la Commission de
+                l'article 64 pour être très salutaire aux aveugles fatigués et demande que soit
+                prise en considération la possibilité d'y faire soigner les camarades.</p>
+              <p>Le Conseil d'Administration de l'Union des Aveugles de Guerre confirme sa
+                délibération en date du 18 décembre 1937 par laquelle il a accepté à l'unanimité les
+                dispositions testamentaires de M. Paul <pb n="17"/>
+                <note type="foliation">— 15 —</note> Homme, en son vivant demeurant 57, rue Manin, à
+                Paris (19e), où il est décédé le 11 novembre 1937, instituant comme héritiers
+                universels les victimes de la guerre qui sont, d'une part, l'Union des Aveugles de
+                Guerre, 49, rue Blanche, à Paris et, d'autre part, l'Union des Gueules Cassées,
+                chacune pour moitié.</p>
+              <p>Les fonds à provenir de ce legs seront placés et les revenus employés conformément
+                aux statuts. Le Conseil d'Administration donne, à cet effet, tous pouvoirs à son
+                trésorier.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 h .30 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Réunion constitutive de la
+                Régionale de l'Ouest du 25 Septembre 1938</head>
+              <p>Sur l'initiative des camarades Ravaleau, Potereau et du Bureau de l'U.A.G., les
+                camarades des départements de la Vendée, de la Loire-Inférieure et des Deux-Sèvres
+                étaient convoqués le dimanche 25 septembre dans une des salles du restaurant Massé,
+                11, avenue Gambetta, à La Roche-sur-Yon, afin de procéder à la formation d'une
+                Section de ces départements.</p>
+              <p>La séance est ouverte à 10 h .30 sous la présidence du camarade Brusson, membre du
+                Conseil d'Administration de l'U.A.G.</p>
+              <p>Sont présents: Les camarades Charrier, Coignoux, Dallet, Dutaud, Epaud, Grellier,
+                Hillairet, Lainé, Lambert, Carudel, Potereau, Raveleau, Renaudineau, Teillet,
+                Souchard, Albert, Moquais, Gauchet, Gauthier et Arnoux (de La Rochelle).</p>
+              <p>Excusés : Arnaud, Croisé, Gaudin, Lesaffre, Chaplais, Clairet, Dubreuil.</p>
+              <p>Le camarade Raveleau prend la parole pour remercier les camarades qui, malgré les
+                difficultés présentes, sont venus apporter leur concours à la formation du
+                Groupement. Il passe la parole à Brusson qui excuse Conan, Président de l'U.A.G. de
+                n'avoir pu, avec les évéments actuels, venir lui-même présider cette première
+                réunion. Ayant mandat de le remplacer, il apporte aux camarades le salut fraternel
+                du Conseil d'Administration de l'U.A.G. et de son Bureau. En quelques mots, il
+                définit le rôle des Sections, entretenues des sentiments <pb n="18"/>
+                <note type="foliation">— 16 —</note> de camaraderie que doivent avoir les uns envers
+                les autres les Aveugles de Guerre, collaborant dans une liaison plus étroite au
+                travail commun de notre administration et demande aux camarades de répondre à
+                l'appel de la formation de la Section de Prévoyance. Il donne également quelques
+                renseignements au sujet des pensions en ce qui concerne les camarades jusqu'à
+                présent non-bénéficiaires du statut.</p>
+              <p>On passe ensuite à l'élection du Comité d'Administration : Président : Dallet. -
+                Secrétaire : Raveleau. - Vice-président : Potereau.</p>
+              <p>Le trésorier-voyant et le commissaire aux comptes seront présentés à la prochaine
+                réunion de la Section.</p>
+              <p>Membres du Comité d'Administration : Lambert, Moquais, Gourdin, Croisé.</p>
+              <p>A midi, un déjeuner de 44 couverts réunit les camarades et leurs familles au même
+                restaurant. Au dessert, lecture est donnée d'une dépêche de notre Président Conan
+                regrettant et s'excusant de n'avoir pu tenir sa promesse d'être parmi les camarades
+                de ce Groupement.</p>
+              <p>Brusson prend la parole pour remercier les femmes des camarades d'avoir bien voulu
+                accompagner leur mari, donnant elles-mêmes l'exemple du sang-froid dans les moments
+                actuels. Il passe la parole au camarade Dallet, président de la Section. Celui-ci
+                remercie les camarades de leur confiance, il lève son verre à leur santé et à celles
+                de leurs familles et forme le souhait que les difficultés présentes pour la paix
+                entre les peuples soient surmontées. Il boit à la prospérité de la Section et de
+                l'U.A.G.</p>
+              <p>Pour le Bureau de la Section. Raveleau.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Procès-verbal de la Réunion
+                de la Départementale du Tarn le 9 Octobre 1938</head>
+              <p>La séance est ouverte à 10 h .30 , à Albi, sous la Présidence du camarade Satgé,
+                président.</p>
+              <p>Sont présents : Blatgé, Cabrol, Cailleau, Cancé, Dardié, Geniès, Maury, Massot,
+                Montalan, Saint-Marty, Salesse, Satgé, Séverac et Vidal.</p>
+              <p>Excusés : Bonnet, Dupuy, Enjalbert et Huc. Lecture d'une lettre de M. Maraval,
+                délégué des « Amis des Soldats Aveugles » qui, se trouvant fatigué, s'excuse de ne
+                pouvoir assister à notre déjeuner.</p>
+              <p>Le Président remercie les camarades de la Section d'être venus assister à cette
+                réunion, témoignant ainsi leur fidélité au Groupement, les quelques excusés ayant un
+                véritable empêchement. Il souhaite ensuite la bienvenue au camarade et à Mme Amblard
+                et l'on passe à l'ordre du jour.</p>
+              <p>Lecture du procès-verbal de la dernière séance et du compte rendu financier de la
+                Départementale qui sont adoptés à l'unanimité.</p>
+              <p>Amblard donne des explications sur le fonctionnement et les avantages de la Section
+                de Prévoyance et engage les camarades à s'y faire inscrire sans retard. Il invite
+                les camarades à venir plus nombreux visiter notre Maison de la rue Blanche, ce qui
+                nous permettrait de mieux nous connaître et de resserrer les liens de
+                camaraderie.</p>
+              <p>Amblard indique les démarches faites pour la réalisation de l'extension du statut
+                et espère que, dans un temps très court, les camarades nouveaux bénéficiaires seront
+                en possession de leur livret.</p>
+              <p>Amblard répond ensuite aux questions particulières posées par quelques
+                camarades.</p>
+              <p>Le Président remercie Amblard des explications données et insiste auprès des
+                camarades non inscrits à la Section de Prévoyance afin que ces derniers y
+                souscrivent sans retard.</p>
+              <p>Le Bureau de la Départementale est ainsi formé : Satgé, Président; Saint-Marty,
+                Vice-président; Enjalbert, Secrétaire; Mme Satgé, Trésorière; Cailleau, Geniès,
+                Cancé et Montalan, Commissaires; Mme Saint-Marty, Commissaire aux comptes.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+              <p>Le déjeuner est servi dans la salle même de la réunion et, au dessert, le Président
+                remercie Amblard, le prie de transmettre le salut fraternel de la Départementale aux
+                camarades du Bureau et du Conseil d'Administration, l'assure des sentiments des
+                camarades du Tarn envers l'Union et lève son verre à la santé de tous, à la
+                prospérité de l'Union, de la Départementale, à la France et à la paix.</p>
+              <p>Le Président, G. Satgé.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Procès-verbal de la Réunion
+                de Commission de la Régionale du Nord le 23 Octobre 1938</head>
+              <p>La Régionale a tenu sa réunion annuelle le dimanche 23 octobre. Café du Lion Noir,
+                à Hazebrouck.</p>
+              <p>La réunion est ouverte à 11 heures, sous la présidence de Planquette. Les
+                commissaires sont présents, sauf Delaplace qui s'est excusé. Le camarade Béquart
+                assiste à la réunion.</p>
+              <p>Lecture du compte rendu de l'Assemblée annuelle du 20 mars qui est adopté.</p>
+              <p>La Commission enregistre avec satisfaction l'heureux aboutissement de nos
+                revendications concernant le statut des Grands Invalides et souhaite que son
+                application rapide permette enfin à tous les aveugles de guerre de se trouver sur un
+                pied de complète égalité.</p>
+              <p>Elle fait confiance au Conseil et au Bureau pour suivre de près la question d'un
+                nouveau réajustement si la question se trouve posée lors du vote du budget.</p>
+              <p>Il est donné connaissance des derniers renseignements parvenus au sujet de la
+                Caisse de Prévoyance et la Commission espère que la grande majorité des membres y
+                souscrira de suite.</p>
+              <p>Après un échange de vues sur les Maisons de repos et la coordination des
+                transports, la Commission fixe sa prochaine Assemblée annuelle au dimanche 19 mars à
+                Lille.</p>
+              <p>La séance est levée à midi trente. Le Secrétaire, Léon Muret.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">AVIS DIVERS</head>
+              <p>Aux amateurs d'apéritifs et vins de dessert : Grand cru Valmya, genre Porto,
+                Exposition Internationale 1938, vendu franco domicile : par 12 litres : 15 fr .50 ,
+                par 40 litres : 12 fr .50 .</p>
+              <p>S'adresser directement au camarade POLETTE, 42, rue de Dantzig, PARIS.</p>
+              <p>Veuve d'Aveugle de guerre, demande à prendre en pension des enfants, fillettes de
+                préférence, à partir de 3 ans.</p>
+              <p>Ecrire à Mme Vve SIMION, 18, place Vauban, Avallon (Yonne).</p>
+              <p>Notre camarade LEGER Antony, nous informe qu'il peut fournir à des prix très bas,
+                toutes garanties : Postes de T.S.F., Bicyclettes et Tandems, Machines à écrire, Vins
+                de Valmya.</p>
+              <p>S'adresser à M. Léger, 5, rue Rataud, Paris (5e).</p>
+              <p>Notre camarade PAGENEL Albert, 21, boulevard Jean-Jaurès, Clichy (Seine), nous fait
+                savoir qu'il serait acheteur d'une machine à écrire d'occasion, en bon état de
+                marche, clavier universel.</p>
+              <p>Lui écrire directement pour offre. A. LACOTAS : chez Les Producteurs de l'Hérault,
+                43, rue HenryRené, à Montpellier, vous offre ce jour, 1<hi rend="superscript"
+                  >er</hi> novembre 1938 :</p>
+              <p>Vin rouge 9<hi rend="superscript">°</hi> 5, récolte 1938: 275 fr. ; récolte 1937:
+                285 fr. l'hecto. Supérieur 10<hi rend="superscript">°</hi>, récolte 1938: 285 fr. ;
+                récolte 1937: 295 fr. l'hecto. Saint-Georges Extra-Vieux 11<hi rend="superscript"
+                  >°</hi>, récolte 1935: 325 fr. l'hecto. Ces prix s'entendent : à l'hectolitre, NU,
+                expédié en barriques de 220 litres environ. Supplément de 5 fr . par hectolitre pour
+                envoi en demi-barrique de 120 litres environ.</p>
+              <p>Logement : les fûts sont consignés et repris au même prix, rendus franco gare
+                Montpellier.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">LISTE DE DONATEURS</head>
+              <p>Protection et bonne santé de notre famille, 300 fr . - Mme Condamin, Nice, 18 fr. -
+                M. Mouillet, Pusey (Haute-Saône), 25 fr. - En mémoire de M. et Mme Donvillé, 50 fr.
+                - Mme Rumpelly, Paris, 55 fr. - Mme Costa, Ajaccio, 20 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">DONS AVEC AFFECTATION
+                SPÉCIALE POUR LA MAISON DES AVEUGLES DE GUERRE</head>
+              <p>Département des Hautes-Pyrénées, 72 fr. - M. Scaillerez, Saint-Valéry-sur-Somme, 10
+                fr. - Commune de Doué-la-Fontaine (Maine-et-Loire), 50 fr. - Ville de Paris, 810 fr.
+                - Anonyme, 11 fr. - Commune de Mauzé (Deux-Sèvres), 54 fr.</p>
+              <pb n="23"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">Président d'Honneur de l'Union
+              des Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier ; M. Brisac, Préfet; M. J. Ridgely-Carter ; M. Paul de
+              Cassagnac, ancien Député ; M. Maurice Donnay, de l'Académie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député ; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre ; Miss Grace Harper ; Miss Winifred Holt; Mme Léopold Kahn; M. Krug ; M.
+              Lugol, ancien Sénateur ; Mme la maréchale Maunoury; M. Samuel Milbank ; M. Meyer,
+              Conseiller d'Etat; M. Henry Paté, Député; \dagger M<hi rend="superscript">°</hi>
+              Henri-Robert, de l'Académie française, ancien Bâtonnier de l'Ordre des Avocats; M. le
+              général Sainte-Claire-Deville; \dagger M. Vallery-Radot.</p>
+            <pb n="24"/>
+          </div>
+          <fw>Gerant : DECOENE Imp. Maurice DAUER, 57, rue des Vinaigriers, Paris-x</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

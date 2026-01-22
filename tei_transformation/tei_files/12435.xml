@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - Avril 1945</title>
+        <author>Groupement National des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Légion d'Honneur</title>
+        <title type="topic">Entr'aide</title>
+        <title type="topic">Assemblée Générale</title>
+        <title type="topic">Bibliothèque</title>
+        <title type="topic">Annonces familiales</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>26,5 X 21 cm ; 6 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#solidarite">Solidarité</term>
+          <term ref="#france">France</term>
+          <term ref="#associations">Associations</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Ce bulletin de l'Union des Aveugles de Guerre (U.A.G.) couvre divers sujets d'intérêt
+          pour ses membres. Il annonce l'assemblée générale et discute des préoccupations concernant
+          les pensions et leur pouvoir d'achat face à l'augmentation du coût de la vie. Le document
+          aborde également les démarches entreprises pour rétablir les droits à la Légion d'Honneur
+          pour les mutilés. Un hommage est rendu à Maurice Donnay, un ami de l'organisation. Enfin,
+          le bulletin fournit des informations sur les événements familiaux (naissances, mariages,
+          décès) des membres et liste les nouveaux livres disponibles à la bibliothèque de
+          l'U.A.G.</p>
+      </abstract>
+      <creation>
+        <date when="1945-04-01">01/04/1945</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">NOTRE ASSEMBLÉE GÉNÉRALE DU 6 MAI</ref>
+          </item>
+          <item>
+            <ref target="#h2">A PROPOS DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h3">COMITÉ D'ENTENTE</ref>
+          </item>
+          <item>
+            <ref target="#h4">LA MORT DE MAURICE DONNAY</ref>
+          </item>
+          <item>
+            <ref target="#h5">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h6">SOUSCRIPTION EN FAVEUR DES SINISTRÉS (suite)</ref>
+          </item>
+          <item>
+            <ref target="#h7">BIBLIOTHĖQUE</ref>
+            <list>
+              <item>
+                <ref target="#h8">ROMANS</ref>
+              </item>
+              <item>
+                <ref target="#h9">THÉATRE</ref>
+              </item>
+              <item>
+                <ref target="#h10">DROIT ET FINANCES</ref>
+              </item>
+              <item>
+                <ref target="#h11">HISTOIRE</ref>
+              </item>
+              <item>
+                <ref target="#h12">GÉOGRAPHIE - VOYAGES</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h13">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h14">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h15">NÉCROLOGIE</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw>UNION AVEUGLES DE GUERRE Groupement National des Aveugles de Guerre</fw>
+          <fw>SIÈGE SOCIAL : 49, RUE BLANCHE, 49 PARIS ( 9 e ) Reconnue d'Utilite Publique, Décret
+            du 9 Avril 1921</fw>
+          <fw>TÉLÉPHONE: TRINITÉ 85-83 COMPTE CHÉQUES POSTAUX 160-31</fw>
+          <fw>Nombre d'Adhérents : 2.000</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">NOTRE ASSEMBLÉE GÉNÉRALE DU 6
+              MAI</head>
+            <p>En ce mois d'avril, la rapidité avec laquelle se déroulent les événements nous laisse
+              pressentir la fin prochaine du grand drame qui pendant plus de cinq ans étendit ses
+              souffrances et ses dévastations à travers le monde.</p>
+            <p>Nos pensées reconnaissantes suivent nos armées dans leur marche en avant, foulant
+              dans une brillante revanche le sol de l'ennemi héréditaire et c'est dans l'atmosphère
+              de la victoire finale que se tiendront, au début de mai, les séances de notre
+              Assemblée Générale.</p>
+            <p>Cinq années d'attente sous le dur ressort de l'épreuve ont imprégné nos âmes plus
+              fortement encore des sentiments d'union fraternelle et de confiance mutuelle dont
+              chacune de nos grandes réunions d'autrefois était le vivant témoignage.</p>
+            <p>C'est dans le rappel de nos deuils, de nos souffrances, de toutes les peines subies
+              par nos familles éprouvées et en présence de nos deux cents jeunes camarades de cette
+              guerre, blessés cruellement à leur tour au service de la Patrie, symbolisant l'étroite
+              fusion de nos deux générations du feu, que l'U.A.G., en face de ces douleurs
+              accumulées, dira ce que fut son œuvre d'entr'aide et de compréhension; mais c'est dans
+              la définition de son programme de demain qu'elle devra marquer la profondeur de ses
+              sentiments de solidarité, en même temps que son esprit d'action.</p>
+            <p>De graves problèmes se posent à elle, au milieu des inévitables difficultés
+              d'adaptation et de redressement économique de notre pays. L'U.A.G. doit veiller
+              d'abord au maintien de la valeur monétaire de nos pensions, base de la sécurité même
+              de nos foyers que nous avons parfois tant de peine à défendre, actuellement mal
+              réajustées et qui devront être établies sur un plan plus familial, souci auquel
+              s'ajoute la préoccupation constante du sort de nos veuves, de l'avenir de nos enfants
+              et de nos sinistrés.</p>
+            <p>Dans la voie de nos devoirs bien tracés, conscients de la tâche à la fois grande et
+              ardue qui nous attend, que notre Assemblée Générale soit l'exemple renouvelé de
+              l'union qui nous a permis, dans le passé, tant d'heureuses réalisations.</p>
+            <p>C'est dans cette union profonde des cœurs et des esprits que l'U.A.G. puisera
+              toujours le meilleur des forces qui lui sont indispensables.</p>
+            <p>Dans le retour à la vie libre et régulière de nos institutions, l'U.A.G. consacrera
+              dans le rayonnement de ses forces morales, dans sa dignité toujours maintenue, dans la
+              juste notion de ses droits et de ses devoirs, les</p>
+            <pb n="2"/>
+            <note type="foliation">— 2 —</note>
+            <p>liens fraternels qui unissent entre eux les aveugles de guerre de France pour que
+              soit plus grande encore l'estime de ceux qui les entourent, la considération et la
+              déférence des pouvoirs publics, sentiments dont dépend, pour une grande part, le
+              succès de nos légitimes revendications. A. Conan.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">A PROPOS DES PENSIONS</head>
+            <p>Nos pensions ont été l'objet d'une augmentation, que très sincèrement nous trouvions
+              appréciable, et qui pouvait nous faire espérer des possibilités de vie relativement
+              décente en cette époque où chacun comprend les nécessités d'existence.</p>
+            <p>Or, nous n'avons pas encore ressenti les effets de cette augmentation. Nos pensions
+              ne nous seront payées au nouveau taux qu'à partir de ce second trimestre en cours,
+              quand nous nous apercevrons avec angoisse que l'effet du réajustement est complètement
+              anihilé par le coût toujours croissant de la vie, et on est effrayé à la pensée que
+              trois mois ont suffi pour détruire presque totalement l'effort qui avait été fait en
+              notre faveur. Il y a là matière à des considérations attristantes sur le sort qui nous
+              sera réservé, si le prix des choses indispensables à l'existence des aveugles et de
+              leurs familles, qu'ils doivent souvent se procurer hors des marchés officiels, devait
+              continuer cette inquiétante marche ascendante.</p>
+            <p>Nous avons tenu nos camarades informés des démarches effectuées par le Comité
+              d'Entente des Grands Invalides auprès de M. Pleven, Ministre des Finances, et de M.
+              Parodi, Ministre du Travail. Nous avons demandé qu'une espèce de pécule soit constitué
+              pour nous, sous la forme d'un trimestre supplémentaire, ou à la rigueur d'un mois
+              double, comme cela avait été fait pour de neabreuses catégories de salariés, ce qui
+              aurait atténué en partie les grosses dépenses que nous avons dû engager pour affronter
+              le dur hiver qui vient de se terminer. Il est possible que nous ayons, mais un peu
+              tard, satisfaction sur ce dernier point, de toute façon, nous restons avec une pension
+              qui ne correspondra plus du tout à nos besoins si l'état des choses actuel ne se
+              stabilise pas. Quelques améliorations de détails intéressantes certes, mais ne
+              touchant que quelques catégories nous sont bien promises, l'ensemble n'en demeure pas
+              moins préoccupant.</p>
+            <p>Il y a là pour les dirigeants de l'U.A.G. des raisons de placer au premier rang de
+              leurs préoccupations, le souci de maintenir pour leurs camarades des droits à la vie
+              qui ont été fortement bousculés et diminués par des événements dont on ne peut nous
+              rendre responsables. Après tant d'années où on eut pû croire notre situation
+              définitivement fixée, il faut reprendre la lutte dans des conditions moins favorables
+              que précédemment pour que des grands blessés comme nous ne soient pas relégués parmi
+              les derniers de ceux auxquels la collectivité, nous le maintenons, a le devoir
+              d'assurer des moyens normaux d'existence. H. Amblard.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">COMITÉ D'ENTENTE</head>
+            <p>Réunion du 10 avril sous la présidence d'Amblard. Etaient présents : Nouveau,
+              Delporte, Régnier, Gauriault, Jourdain, Thibault, Bouré. Le Comité enregistre avec
+              satisfaction les ordonnances prises par M. de Menthon concernant la Légion d'Honneur.
+              Des démarches seront faites pour obtenir la reconstitution du Conseil de l'Ordre.</p>
+            <p>Le Comité se préoccupe de la situation au point de vue des pensions et décide de
+              demander une audience à M. Parodi.</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">LA MORT DE MAURICE DONNAY</head>
+            <p>Nous avons appris avec tristesse le décès de M. Maurice Donnay, membre de l'Académie
+              Française, qui fut un ami de la première heure des aveugles de guerre.</p>
+            <p>Ce délicat et pénétrant écrivain fut Président du Foyer du Soldat Aveugle, œuvre qui
+              aida beaucoup nos camarades à se réinstaller dans la vie, à une époque où nos pensions
+              étaient bien minimes.</p>
+            <p>La nature sensible de Maurice Donnay l'avait amené à nous apporter l'appui de sa
+              grande autorité et, avec Brieux, contribua beaucoup à l'émancipation des aveugles de
+              guerre que le grand public entourait de son affection, sans doute, mais comprenait
+              souvent très mal. Nous nous souvenons avec émotion des discours prononcés par ce grand
+              auteur lors de l'apposition d'une plaque commémorative sur la maison qu'Eugène Brieux
+              habita et à l'occasion de l'inauguration du buste de ce dernier, dans notre maison de
+              la rue Blanche.</p>
+            <p>Le monde des lettres françaises perd un de ses plus fins représentants et nous un
+              grand ami. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">LÉGION D'HONNEUR</head>
+            <p>Les lois du 16 août 1920 et 26 décembre 1925, qui accordaient la Légion d'Honneur aux
+              mutilés 100%, ainsi que celle du 2 janvier 1932 qui prévoyait une promotion dans
+              l'ordre en faveur des mutilés à 100%, bénéficiaires des articles 10 ou 12, avaient été
+              abrogées par les lois de l'Etat Français du 26 mars 1941 et 11 octobre 1941.</p>
+            <p>Il n'était prévu à ce moment que des récompenses pour faits de guerre, comme si des
+              blessures comme la nôtre provenaient d'actes de la vie civile.</p>
+            <p>L'émotion fut grande dans le milieu grands mutilés, et des démarches furent
+              entreprises par leurs représentants afin de faire établir les droits à la Légion
+              d'Honneur, car nous pensions qu'il serait injuste de voir nos nouveaux camarades
+              privés d'une distinction qui nous avait été accordée en 1921.</p>
+            <p>Récemment encore, le chef de Cabinet de M. le Ministre de la Guerre recevait une
+              délégation du Comité d'Entente, où Conan représentait l'U.A.G. Un accueil favorable
+              fut réservé à cette délégation, mais il restait encore à toucher le Ministre de la
+              Justice. M. de Menthon reçut les représentants du Comité d'Entente le 28 mars, où
+              Amblard représentait l'Union. M. le Garde des Sceaux comprit combien était
+              choquante-l'inégalité de traitement parmi les mutilés ayant les mêmes droits à une
+              distinction, et promit de rétablir la situation qui nous était faite avant-guerre.
+              Nous voyons avec plaisir que M. de Menthon a tenu parole en faisant signer une
+              ordonnance en date du 31 mars dernier, annulant les lois du gouvernement de Vichy qui
+              supprimaient la Légion d'Honneur pour nos camarades.</p>
+            <p>Nous sommes reconnaissants à M. le Ministre de la Justice d'avoir donné cette marque
+              de sympathie aux grands mutilés. Il ne reste plus qu'une formalité à accomplir pour
+              que les lois qui nous concernent puissent reprendre vigueur. Il est nécessaire, en
+              effet, que le Conseil de l'Ordre donne son avis pour les promotions, et le Conseil de
+              l'Ordre présentement n'existe plus. M. de Menthon nous a également assurés qu'il
+              allait demander la reconstitution de ce Conseil. Nous espérons que cela ne saurait
+              tarder, afin que nos camarades qui n'ont pas bénéficié des promotions puissent établir
+              une demande dans ce sens.</p>
+            <p>Nous pensons pouvoir donner ultérieurement des précisions à ce sujet, mais nous
+              sommes heureux de constater que cette satisfaction morale soit donnée aux grands
+              mutilés dont nous faisons partie.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">SOUSCRIPTION EN FAVEUR DES
+              SINISTRÉS (suite)</head>
+            <list>
+              <item>Total première liste 78.355 »</item>
+              <item>Sander (vetements, lainages, etc.)</item>
+              <item>Toudic ..... 200 »</item>
+              <item>Doutreuwe ..... 500 »</item>
+              <item>Masson J.-B. ..... 200 »</item>
+              <item>Hannequin ..... 500 »</item>
+              <item>Allemand ..... 500 »</item>
+              <item>Gaultier Rene ..... 1.000 »</item>
+              <item>Blanc A. ..... 500 »</item>
+              <item>Gravet ..... 300 »</item>
+              <item>Warin ..... 100 »</item>
+              <item>Verrier ..... 200 »</item>
+              <item>Correger ..... 100 »</item>
+              <item>Pelletier A. ..... 300 »</item>
+              <item>Morisot ..... 200 »</item>
+              <item>Salembier ..... 1.000 »</item>
+              <item>Ferrer ..... 170 »</item>
+              <item>Massaly ..... 200 »</item>
+              <item>Corazza ..... 100 »</item>
+              <item>Latouche (Mlle) ..... 500 »</item>
+              <item>Goudal ..... 200 »</item>
+              <item>Lefebvre Oscar ..... 100 »</item>
+              <item>Grosbois ..... 50 »</item>
+              <item>Courtemanche ..... 100 »</item>
+              <item>Sabin ..... 100 »</item>
+              <item>Luc Camille ..... 490 »</item>
+              <item>Mampey ..... 490 »</item>
+              <item>Dubos G. ..... 50 »</item>
+              <item>Dubreuil ..... 500 »</item>
+              <item>Faure ..... 200 »</item>
+              <item>Pierre Maurice ..... 200 »</item>
+              <item>Bailly ..... 100 »</item>
+              <item>Cailbault (Mme) ..... 200 »</item>
+              <item>Noireaux ..... 500 »</item>
+              <item>Moteau ..... 300 »</item>
+              <item>Bouchet G. ..... 100 »</item>
+              <item>Crapez ..... 200 »</item>
+              <item>Vayne ..... 500 »</item>
+            </list>
+            <list>
+              <item>Charriere J. ..... 50 »</item>
+              <item>Lambert L. ..... 500 »</item>
+              <item>Courty ..... 100 »</item>
+              <item>Parent E. (Mlle) ..... 500 »</item>
+              <item>Remy J. ..... 100 »</item>
+              <item>Giroir ..... 200 »</item>
+              <item>Duthoit ..... 150 »</item>
+              <item>Berard ..... 150 »</item>
+              <item>Lohez ..... 300 »</item>
+              <item>Marchand D. ..... 150 »</item>
+              <item>Trubert ..... 500 »</item>
+              <item>Bastion ..... 80 »</item>
+              <item>Briant ..... 250 »</item>
+              <item>Lenglare ..... 100 »</item>
+              <item>Millereau ..... 100 »</item>
+              <item>Guillien ..... 100 »</item>
+              <item>Pluchot ..... 100 »</item>
+              <item>Glorieux ..... 100 »</item>
+              <item>Forgues ..... 200 »</item>
+              <item>Roche A. ..... 50 »</item>
+              <item>Demaret ..... 100 »</item>
+              <item>Levy M. ..... 150 »</item>
+              <item>Thierry ..... 1.000 »</item>
+              <item>Rost ..... 500 »</item>
+              <item>Dufour L. ..... 500 »</item>
+              <item>Favereau ..... 100 »</item>
+              <item>Guillouche ..... 200 »</item>
+              <item>Leveque J. ..... 500 »</item>
+              <item>Chenenaille ..... 100 »</item>
+              <item>Pagenel ..... 500 »</item>
+              <item>Vidry ..... 100 »</item>
+              <item>Vanderstreenem ..... 200 »</item>
+              <item>Castor ..... 100 »</item>
+              <item>Barbier J.-M. ..... 500 »</item>
+              <item>Seguy ..... 200 »</item>
+              <item>Gallard ..… 100 »</item>
+              <item>Duflot ..... 100 »</item>
+              <item>Passenaud ..... 100 »</item>
+              <item>Lemarchand ..... 100 »</item>
+              <item>Jouguelaird ..... 100 »</item>
+            </list>
+            <list>
+              <item>Malaganne ..... 200 »</item>
+              <item>Horlon ..... 100 »</item>
+              <item>Cité des Aveugles de Guerre de Nice ..... 2.000 »</item>
+              <item>Lenfant ..... 200 »</item>
+              <item>Pasquel ..... 200 »</item>
+              <item>Tihon ..... 500 »</item>
+              <item>Juif ..... 250 »</item>
+              <item>Section Départementale du Tarn ..... 4.900 »</item>
+              <item>Boeri ..... 100 »</item>
+              <item>Duplan J. ..... 200 »</item>
+              <item>Gatillon ..... 100 »</item>
+              <item>Raybaud ..... 100 »</item>
+              <item>Moiroud ..... 100 »</item>
+              <item>Louesdon ..... 50 »</item>
+              <item>Teilhet T. ..... 200 »</item>
+              <item>Chabert J. ..... 300 »</item>
+              <item>Anquetil ..... 100 »</item>
+              <item>Thebault ..... 500 »</item>
+              <item>Roy Georges (Paris) ..... 300 »</item>
+              <item>Kerrien ..... 500 »</item>
+              <item>Bakour ..... 100 »</item>
+              <item>David E. ..... 1.000 »</item>
+              <item>Dunie ..... 100 »</item>
+              <item>Groussier ..... 200 »</item>
+              <item>Caudron ..... 300 »</item>
+              <item>Colas ..... 50 »</item>
+              <item>Lebrun S. ..... 100 »</item>
+              <item>Bourbon ..... 50 »</item>
+              <item>Maze ..... 100 »</item>
+              <item>Simonet ..... 1.000 »</item>
+              <item>Quere ..... 500 »</item>
+              <item>Gautier Robert ..... 100 »</item>
+              <item>Beaujon Pierre ..... 500 »</item>
+              <item>Flenialkoska ..... 200 »</item>
+              <item>Durand Ph. ..... 200 »</item>
+              <item>122.885 »</item>
+            </list>
+            <p>Erratum : Dans la précédente liste lire 1,000 francs au lieu de 100 francs pour le
+              don de M. Vairet.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">BIBLIOTHĖQUE</head>
+            <p>Nous vous donnons ci-après une liste des volumes que nous avons fait copier, afin de
+              combler des lacunes et aussi d'enrichir notre bibliothèque de livres nouveaux. Ces
+              livres étant tout neufs, nous prions les camarades de soigner les emballages quand ils
+              les retournent.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">ROMANS</head>
+              <table>
+                <row>
+                  <cell>3</cell>
+                  <cell>BALZAC (Honoré de)</cell>
+                  <cell>La Peau de Chagrin</cell>
+                  <cell>8 vol.</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>-</cell>
+                  <cell>Le Colonel Chabert</cell>
+                  <cell>3 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>12</cell>
+                  <cell>-</cell>
+                  <cell>Le Lys dans la Vallée</cell>
+                  <cell>10 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>47</cell>
+                  <cell>-</cell>
+                  <cell>Les Chouans</cell>
+                  <cell>14 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>582</cell>
+                  <cell>-</cell>
+                  <cell>La Cousine Bette</cell>
+                  <cell>18 -</cell>
+                  <cell>Ampl.</cell>
+                </row>
+                <row>
+                  <cell>407</cell>
+                  <cell>CAHUET (Albéric).</cell>
+                  <cell>Pontcarral</cell>
+                  <cell>8 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>371</cell>
+                  <cell>COLETTE</cell>
+                  <cell>La Paix chez les Bêtes</cell>
+                  <cell>3 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>61</cell>
+                  <cell>COURTELINE</cell>
+                  <cell>L'illustre Piégelé</cell>
+                  <cell>1 -</cell>
+                  <cell>Int.</cell>
+                </row>
+                <row>
+                  <cell>205</cell>
+                  <cell>DELARUE-MARDRUS</cell>
+                  <cell>La Mère et le Fils</cell>
+                  <cell>6 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>356</cell>
+                  <cell>DORGELES (Roland).</cell>
+                  <cell>Sous le casque blanc</cell>
+                  <cell>7 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>558</cell>
+                  <cell>FRISON-ROCHE</cell>
+                  <cell>Premier de cordée</cell>
+                  <cell>8 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>584</cell>
+                  <cell>MUNTHE (Axel).</cell>
+                  <cell>Le Livre de San Michele</cell>
+                  <cell>14 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>513</cell>
+                  <cell>PREVOST (Marcel)</cell>
+                  <cell>Monsieur et Madame Moloch</cell>
+                  <cell>8 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>213</cell>
+                  <cell>STERSTEVENS</cell>
+                  <cell>Les Corsaires du Roi</cell>
+                  <cell>6 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>255</cell>
+                  <cell>STEVENSON</cell>
+                  <cell>Le Maître de Ballentrae</cell>
+                  <cell>8 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">THÉATRE</head>
+              <table>
+                <row>
+                  <cell>1493</cell>
+                  <cell>ARMONT (Paul)</cell>
+                  <cell>Ces Messieurs de la Santé</cell>
+                  <cell>4 vol.</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>1437</cell>
+                  <cell>CORNEILLE</cell>
+                  <cell>Horace</cell>
+                  <cell>2 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>1492</cell>
+                  <cell>DEVAL (Jacques).</cell>
+                  <cell>Senor Bracoli</cell>
+                  <cell>4 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">DROIT ET FINANCES</head>
+              <table>
+                <row>
+                  <cell>2188</cell>
+                  <cell>LEGUEU (Fr.).</cell>
+                  <cell>Le déséquilibre financier</cell>
+                  <cell>4 vol.</cell>
+                  <cell>Ampl.</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">HISTOIRE</head>
+              <table>
+                <row>
+                  <cell>2209</cell>
+                  <cell>BAINVILLE (Jacques).</cell>
+                  <cell>L'Allemagne</cell>
+                  <cell>13 vol.</cell>
+                  <cell>Abr.</cell>
+                </row>
+                <row>
+                  <cell>3201</cell>
+                  <cell>ROZ (Firmin).</cell>
+                  <cell>Histoire des Etats-Unis</cell>
+                  <cell>15 -</cell>
+                  <cell>Abr.</cell>
+                </row>
+              </table>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">GÉOGRAPHIE - VOYAGES</head>
+              <table>
+                <row>
+                  <cell>3403</cell>
+                  <cell>LHOTE (Henri).</cell>
+                  <cell>Le Niger en kayak</cell>
+                  <cell>5 vol.</cell>
+                  <cell>Abr.</cell>
+                </row>
+              </table>
+              <pb n="6"/>
+              <note type="foliation">— 6 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>Emile Frère, de Rouen (Seine-Inférieure), sa fille Bernadette, le 5 février 1945.
+              Henri Saleilles (1939-40), de Saint-Aignan (Ardennes), son fils Claude, le 20 mars
+              1945. Valentin Chotard (1939-40), de Montaudin (Mayenne), sa fille Marie-France, le 26
+              mars 1945. Germain Piollet, de Nyons (Drôme), sa petite-fille Gabrielle-Margueritte,
+              le 16 février 1945. Jean Galis, de Tonneins (Lot-et-Garonne), son petit-fils
+              Bernard-François, le 16 février 1945. Henri Thu' lliez, de Paris, sa petite-fille
+              Marie-Christine, le 7 décembre 1944. Louis Petit, de Paris, sa petite-fille Madeleine,
+              le 25 février 1945. Charles Renaud, de Puy-Chemin (Charente-Maritime), son petit-fils
+              Michel, le 14 septembre 1943, et sa petite-fille Danielle, le 5 janvier 1945.</p>
+            <p>Maurice Colleuille, d'Aillevillers (Haute-Saône), sa petite-fille Michèle, le 2
+              janvier 1945. Georges Grosbois, à Bourgneuf-Val-d'Or (Saône-et-Loire), sa petite-fille
+              Danielle, le 15 mars 1945. Nous adressons nos félicitations aux heureux parents et nos
+              vœux de prospérité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">MARIAGES</head>
+            <p>Les camarades suivants nous font part des célébrations de mariage : Jules Villette,
+              de Aniche (Nord), avec Mme Lucienne Berthe, le 26 mars 1945. Gildas Oliviero
+              (1939-40), de Plescop (Morbihan), avec Mlle Anne Guého, le 10 avril 1945. Paul
+              Mathieu, à Eloyes-sous-le-Pont (Vosges), sa fille Odette, avec M. Henry Tené, en
+              novembre 1944. Charles Mattei, de Bourg-la-Reine (Seine), son fils Georges avec Mlle
+              Jacqueline Favot, le 22 mars 1945. Maurice Colleuille, d'Aillevillers (Haute-Saône),
+              son fils, avec Mlle Andrée Gavoille, le 27 novembre 1944. René Favret, de Paris, sa
+              fille Suzanne, avec M. Jean Delbes, le 3 avril 1945. Elie Clainville-Blongourt, de
+              Paris, son fils Jean, avec Mlle Sylviane Henriod, le 14 avril 1945. Louis Renaux, de
+              Paris, sa fille Geneviève, avec M. Marcel Brazier, le 10 avril 1945. Nous adressons
+              nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">NÉCROLOGIE</head>
+            <p>Victor Parent, de Saint-Nom-la-Bretèche (Seine-et-Oise), le 8 février 1945. Fernand
+              Brebion, de Coucy-le-Château (Aisne), le 26 février 1945. -Désiré Richaud, de la
+              Motte-du-Caire (Basses-Alpes), le 24 février 1945. Léon Delaguerrière, de
+              Romilly-sur-Andelle (Eure), le 26 février 1945. Edgar Ganneau, de Gy (Loir-et-Cher),
+              le 8 mars 1945. Félix Labeuf, de Cachan (Seine), et sa femme, décédés tous les deux
+              accidentellement, le 10 mars 1945. Jean Roche, de Saint-Martin-en-Coailleux (Loire),
+              le 20 mars 1945. Léon Papin, de Fontenay-sous-Bois (Seine), le 25 mars 1945. Numa
+              Chatonnier, de Clères (Seine-Inférieure), le 27 mars 1945. J.-B. Peligry, de
+              Saint-Etienne (Loire), le 17 mars 1945.</p>
+            <p>La femme de Alfred Arfuro, de Courée-en-Redon (Ille-et-Vilaine), en mars 1945. Le
+              fils, André, de Joseph Bellesqeur, de Dijon, mort pour la France en Normandie, le 9
+              août 1944. La mère de Jean Galis, de Tonneins (Lot-et-Garonne), le 12 janvier 1945. Le
+              père de Germain Falcou, de Plancoulon (Aude), le 6 août 1944. Le père et la mère de
+              Gustave Barbier, de Dijon (Côte-d'Or), au mois de mars 1945, par faits de guerre. La
+              mère de Joseph Le Dain, de Langonnet (Morbihan), le 28 février 1945. Nous adressons
+              aux familles éprouvées nos plus vives condoléances.</p>
+            <p>Cherchons poussette pour enfant; faire offre à A. Richard, 58, boulevard de Vitré,
+              Rennes. Veuve de camarade louerait dans sa maison deux pièces meublées et cuisine.
+              Ecrire à Mme Rispal, chemin de Crèvecœur, Montferrand (Puy-de-Dôme).</p>
+            <pb n="7"/>
+            <pb n="8"/>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

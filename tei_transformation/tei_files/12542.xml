@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 38ème année 1959 n°137</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Handicap visuel</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Guerre</title>
+        <title type="topic">Sécurité sociale</title>
+        <title type="topic">Allocations</title>
+        <title type="topic">Décès</title>
+        <title type="topic">Mariages</title>
+        <title type="topic">Naissances</title>
+        <title type="topic">Bibliothèque</title>
+        <title type="topic">Discothèque</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 18 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#ufac">UFAC</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#securite-sociale">Sécurité sociale</term>
+          <term ref="#jezequel">Jézéquel</term>
+          <term ref="#leon-serre">Léon Serre</term>
+          <term ref="#retraite-du-combattant">Retraite du combattant</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde divers sujets liés à la vie
+          de l'association et de ses membres. On y trouve un hommage à Yves Jézéquel, vice-président
+          de l'U.A.G., décédé, des informations sur l'assemblée générale de l'UFAC et une
+          manifestation, un communiqué du Ministère des Anciens Combattants, des détails sur le
+          remboursement de la double cotisation à la Sécurité sociale, des informations sur
+          l'assurance groupe et la caisse de prévoyance, ainsi que des nouvelles concernant la
+          bibliothèque et la discothèque de l'association. Le bulletin contient également des
+          annonces de naissances, mariages et décès, ainsi que des petites annonces.</p>
+      </abstract>
+      <creation>
+        <date when="1959-10-01">01/10/1959</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">JEZEQUEL N'EST PLUS</ref>
+          </item>
+          <item>
+            <ref target="#h5">UNE MESSE POUR NOS DISPARUS</ref>
+          </item>
+          <item>
+            <ref target="#h6">LA DECORATION DE LEON SERRE</ref>
+          </item>
+          <item>
+            <ref target="#h7">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h8">L'ASSEMBLEE GENERALE DE L'U.F.A.C.</ref>
+              </item>
+              <item>
+                <ref target="#h9">LA MANIFESTATION DE L'OPERA</ref>
+              </item>
+              <item>
+                <ref target="#h10">QUATRE MILLE DRAPEAUX</ref>
+              </item>
+              <item>
+                <ref target="#h11">COMMUNIQUE DU MINISTERE DES ANCIENS COMBATTANTS</ref>
+              </item>
+              <item>
+                <ref target="#h12">CONDITIONS DE REMBOURSEMENT DE LA DOUBLE COTISATION A LA SÉCURITÉ
+                  SOCIALE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h13">L'ESPRIT U.A.G.</ref>
+          </item>
+          <item>
+            <ref target="#h14">ASSURANCE GROUPE</ref>
+          </item>
+          <item>
+            <ref target="#h15">CAISSE DE PRÉVOYANCE</ref>
+          </item>
+          <item>
+            <ref target="#h16">BIBLIOTHÈQUE</ref>
+            <list>
+              <item>
+                <ref target="#h17">ROMANS</ref>
+              </item>
+              <item>
+                <ref target="#h18">GUERRE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h19">"LE LIVRE PARLÉ"</ref>
+          </item>
+          <item>
+            <ref target="#h20">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h21">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h22">DECES</ref>
+          </item>
+
+          <item>
+            <ref target="#h23">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h24">COTISATIONS reçues du 11 septembre au 6 octobre 1959 inclus.</ref>
+            <list>
+              <item>
+                <ref target="#h25">COTISATIONS ORDINAIRES ( 200 francs)</ref>
+              </item>
+              <item>
+                <ref target="#h26">CAISSE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h28">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h29">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h30">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h31">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">39e Année. — N° 137</fw>
+          <fw type="header">
+            <hi rend="underline">OCTOBRE 1959</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Jézéquel n'est plus.</item>
+                    <item>La décoration de Léon Serre.</item>
+                    <item>Informations : <list>
+                        <item>Assemblée générale UFAC.</item>
+                        <item>Manifestation.</item>
+                        <item>Quatre mille drapeaux !</item>
+                        <item>Communiqué du Ministère des A. C.</item>
+                        <item>Remboursement de la double cotisation à la Sécurité sociale.</item>
+                      </list></item>
+                    <item>L'esprit U.A.G.</item>
+                    <item>Assurance groupe.</item>
+                    <item>Caisse de prévoyance.</item>
+                    <item>Bibliothèque. Discothèque.</item>
+                    <item>Naissances. Mariages. Décès.</item>
+                    <item>Cotisations.</item>
+                    <item>Petites annonces.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. AMBLARD. Vice-Présidents : H. GUESPEREAU, E. GUILLAM, Y. JEZEQUEI. ;
+              Secrétaire général : R. COUESNON. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, P. DERUNDER, P. DUC, A. FAUVEL, R. FAVRET, Y. GUIBERT, A. LAFFARGUE, D. LEVEAU,
+              G. MULLER, J. NICOLAI, G. OLIE, A. PAGENEL, C. PANTERNE, M. RAVELEAU, G. ROBIN, G.
+              ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>39e Annee. - N° 137 OCTOBRE 1959</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">JEZEQUEL N'EST PLUS</head>
+            <p>C'est avec une grande tristesse que nous faisons part à nos camarades du décès d'Yves
+              Jézéquel, Vice-Président de notre association.</p>
+            <p>Tout le monde connaît la part active que notre ami avait prise à la défense des
+              intérêts de nos camarades, bien avant même qu'il ne soit administrateur de l'U.A.G. Il
+              était pour nous un conseiller très sûr et un défenseur fidèle.</p>
+            <p>Avec lui, nous avons fait adopter l'allocation 8, dur travail, auquel nous nous
+              sommes tous attelés. Rappelons aussi ses interventions au Sénat pour le bénéfice de la
+              Sécurité Sociale en faveur des veuves des grands invalides, puis le travail épineux
+              qu'il a fallu entreprendre pour améliorer le sort de nos camarades non statutaires. Sa
+              droiture, son affabilité l'avaient fait apprécier de tout le monde et, bien souvent,
+              lors des démarches que nous faisions ensemble, j'ai pu me rendre compte de la haute
+              estime dont il jouissait dans tous les milieux.</p>
+            <p>Son état de santé lui ayant donné quelques inquiétudes, il n'avait pas sollicité le
+              renouvellement de son mandat de sénateur qu'il avait exercé pendant deux législatures,
+              puis, le mal s'étant aggravé, il se retira en Bretagne, où sa fin rapide surprit tous
+              ses amis.</p>
+            <p>Ses obsèques eurent lieu au milieu d'une immense assistance, le 21 septembre dernier.
+              Une compagnie d'Infanterie rendait les honneurs. De nombreux anciens combattants
+              étaient venus de tous les coins du département pour saluer une dernière fois notre
+              camarade et notamment les aveugles de guerre : Leveau, Le Serrec, Collet, Beucher,
+              Glaziou ; Yann Hervé portait notre drapeau.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+            <p>Beaucoup de parlementaires, dont : MM. Pléven, Cornu, Bourdellès. M. le Préfet des
+              Côtes-du-Nord et le Sous-Préfet de Lannion étaient également présents. Toutes les
+              personnalités se mirent d'accord pour qu'un seul discours soit prononcé, celui du
+              Président de I'U.A.G. donnant ainsi une preuve d'estime à notre association.</p>
+            <p>Nous perdons un grand ami et c'est une raison de plus en gardant sa mémoire, de nous
+              resserrer toujours davantage dans un sentiment d'amitié qu'il avait pour nous
+              tous.</p>
+            <p>Il aimait beaucoup à se retrouver rue Blanche. Avec simplicité et dignité, il
+              partageait nos repas et s'intéressait à toutes les questions qui touchaient les
+              aveugles de guerre.</p>
+            <p>Nous ne manquerons jamais de rappeler le souvenir de ce grand aveugle de guerre et
+              une fois encore, nous exprimons à Madame Jézéquel et à son fils, nos sentiments les
+              plus respectueux.</p>
+            <p>H. AMBLARD.</p>
+            <p>Voici les paroles prononcées par votre Président avant l'inhumation :</p>
+            <p>Madame, Monsieur le Préfet, Monsieur le Président, Messieurs, Mes chers Camarades, Je
+              sais, Madame, combien peuvent être pénibles ces instants où, après de longs jours
+              passés à lutter contre un mal implacable, le repos vous est bien dû.</p>
+            <p>Mais nous, en ce pays de Lézardrieux, dans cette Bretagne, nous nous devons d'honorer
+              la noble figure de celui qui vient de nous quitter.</p>
+            <p>Yves Jézéquel était né à Lannion, terre du Trégor qu'il a tant aimée et dont
+              l'atmosphère n'a pas peu contribué à développer ses qualités foncières qui firent de
+              lui un grand Breton, un grand Français, car pour lui, la petite et la grande patrie se
+              confondaient en un seul idéal, qu'il a servi avec passion, à tous les instants de sa
+              vie.</p>
+            <p>Il commençait une carrière coloniale quand, en 1914, la guerre éclata. Il avait 24
+              ans. Il était en Afrique et avait pris part à la campagne de pacification et parlait
+              souvent avec attendrissement, des hommes noirs qu'il commandait.</p>
+            <p>Il aurait pu rester sur cette terre lointaine, où il aurait rendu les <pb n="5"/>
+              <note type="foliation">— 5 —</note> plus grands services, mais on se battait en
+              France. Il demanda à rejoindre le front et fut affecté au 33<hi rend="superscript"
+                >°</hi> d'Infanterie où, en qualité de lieutenant, il prit part aux durs combats de
+              la Somme et du Chemin des Dames. Ce fut là qu'en 1917 un obus le mit hors de combat :
+              il était aveugle.</p>
+            <p>Après une rééducation, au cours de laquelle beaucoup d'entre nous le connurent, il
+              revint en Bretagne, fonda un foyer et s'intéressa à la vie publique.</p>
+            <p>Evoquer sa vie de Conseiller municipal, de Maire de sa commune, c'est mentionner son
+              esprit civique ; puis de grands et terribles événements survinrent où les âmes les
+              mieux trempées furent souvent mises à rude épreuve. Yves Jézéquel montra alors la
+              grandeur de son patriotisme et on ne peut séparer dans notre mémoire toute sa famille
+              dont l'action résistante fut un exemple pour tous. Au centre de cette action était
+              l'âme du père - si douloureux que soit ces souvenirs, nous ne devons jamais manquer de
+              les évoquer et de rappeler le sacrifice de Yvon et celui de Simone.</p>
+            <p>Vous ne vous étiez pas trompé, Monsieur le Président Pléven, quand à ce moment, vous
+              avez encouragé Yves Jézéquel à prendre part à la vie publique. Surmontant son chagrin,
+              il trouva là une nouvelle occasion de "servir ». Maire de sa commune, Conseiller
+              général, puis Sénateur pendant deux législatures, il fut le seul aveugle de guerre qui
+              ait jamais siégé au Luxembourg, y démontrant que, malgré le dur handicap de la cécité,
+              on peut occuper une haute fonction et encore rendre de nombreux services à ses
+              camarades et à ses concitoyens.</p>
+            <p>Pitoyable à toutes les misères, à toutes les infortunes, il s'employait à les
+              adoucir, il cherchait à résoudre bien des problèmes qui lui étaient soumis, qu'ils
+              fussent d'ordre particulier ou collectif. Son cour généreux ne voyait que l'homme,
+              l'homme dans la détresse, qu'il voulait aider, conseiller, secourir. Vous l'avez vu à
+              l'œuvre, Messieurs, son dévouement à sa commune, à son département, à la Bretagne
+              qu'il aimait tant.</p>
+            <p>Vous comprendrez aussi que je pense à ce qu'il fut pour nous, ses camarades, dans
+              cette Union des Aveugles de Guerre. Il prenait part à nos travaux et combien il m'a
+              aidé et secondé pour améliorer le sort de nos Camarades, de nos Veuves, pour organiser
+              la délicate rééducation des nouveaux aveugles de guerre, œuvre à laquelle il vous
+              avait intéressé, Monsieur le Président Pléven.</p>
+            <p>Nous, ses compagnons, sommes peut-être mieux à même de comprendre le rôle qui fut le
+              vôtre, Madame, car nous avons besoin de nos compagnes - elles sont nos yeux - et après
+              avoir passé toute une vie aux côtés de cet homme exceptionnel, partageant ses joies et
+              ses souffrances, vous devez ressentir un affreux vide que l'affection de votre dernier
+              fils fera de son mieux pour combler.</p>
+            <p>Je sais, mon cher Alain, ce que vous perdez. Vous avez heureuse- <pb n="6" break="no"/>
+              <note type="foliation">— 6 —</note> ment donné à votre père une ultime joie par vos
+              récents succès. Vous avez un bien lourd héritage ; je sais que vous en serez
+              digne.</p>
+            <p>Quant à nous, nous pleurons un ami. Yves Jézéquel fut un homme d'une grande droiture
+              et d'une grande intégrité ; il doit être pour nous un modèle. Il a puisé dans
+              l'épreuve de nouvelles forces pour servir davantage et, en toute simplicité, il
+              s'éleva au sublime.</p>
+            <p>Nous resterons tous fidèles à sa mémoire et vous assurons, Madame, de garder
+              l'impérissable souvenir de celui qui fut un grand Breton et un grand Français.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">UNE MESSE POUR NOS DISPARUS</head>
+            <p>L'année dernière, à l'occasion de l'anniversaire de la mort de notre regretté
+              Président, le Commandant Izaac, nous avons fait dire une messe.</p>
+            <p>Cette année-ci, nous ferons de même, en confondant dans notre pensée tous les membres
+              de l'U.A.G. et tous les bienfaiteurs disparus.</p>
+            <p>Cette messe aura lieu en l'Eglise de la Trinité, le JEUDI 5 NOVEMBRE, à 11 h .30.</p>
+            <p>Avant la cérémonie, nous nous rendrons au Cimetière Montmartre, proche de l'U.A.G.,
+              afin de déposer des fleurs sur la tombe du Président Izaac.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LA DECORATION DE LEON SERRE</head>
+            <p>Nos camarades ont appris, par notre dernier Bulletin, l'élévation à la dignité de
+              Grand-Croix de la Légion d'Honneur, de Léon Serre, Président de notre Section du
+              Morbihan.</p>
+            <p>Nous avons dit combien nous étions heureux de voir un aveugle de guerre élevé à la
+              suprême dignité de cet ordre, combien nous étions contents de voir un de nos militants
+              ainsi récompensé et nous pouvons dire qu'il a bien répondu aux sentiments que nous
+              exprimons, en voulant nous démontrer son attachement à notre Association.</p>
+            <p>Il aurait pu se faire décorer devant le Front des Troupes, ou bien par le Président
+              de la République, à l'Elysée, mais il a préféré que cette cérémonie se passe d'une
+              façon intime, dans notre maison de la rue Blanche.</p>
+            <p>Il a donc demandé au Maréchal Juin de bien vouloir présider à cette cérémonie, ce que
+              notre Président du Comité d'Action fit, avec la bonne grâce et la grande sollicitude
+              que nous lui connaissons. Il était accompagné de Mme la Maréchale, toujours fidèle à
+              l'U.A.G.</p>
+            <p>Ce fut le mercredi 30 septembre que, dans mon bureau de Président, Serre, entouré de
+              sa famille, des camarades présents, reçut de la main du Maréchal Juin, les insignes de
+              Grand-Croix de la Légion d'Honneur. Parmi les membres de sa famille, se trouvait son
+              petit-fils, Enseigne de Vaisseau, qui devait partir sur le «Jeanne d'Arc»pour faire le
+              tour du monde, qui laisse tant de souvenirs chez nos jeunes officiers de marine.</p>
+            <p>Cérémonie intime, très touchante, qui marque combien l'esprit de l'U.A.G. est
+              toujours vivace et combien, même dans les plus grandes occasions, la famille des
+              aveugles de guerre est présente et unie. H. A.</p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">L'ASSEMBLEE GENERALE DE
+                L'U.F.A.C.</head>
+              <p>Les 3 et 4 octobre, à la Mairie du 14^{e} arrondissement de Paris, l'U.F.A.C. a
+                tenu son assemblée générale annuelle, sous la présidence de P. Manet.</p>
+              <p>Les commissions ont étudié les nombreuses questions qui leur étaient soumises,
+                elles ont rédigé ou renouvelé des vœux, lesquels ont été adoptés à la séance de
+                clôture.</p>
+              <p>Les délégués de l'U.A.G., à cette assemblée générale, étaient le Président Amblard
+                et le Secrétaire général Couesnon.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">LA MANIFESTATION DE
+                L'OPERA</head>
+              <p>Le Président et le Secrétaire général de l'U.A.G. et quelques camarades à titre
+                individuel ont pris part, par solidarité, le samedi 3 octobre à l'imposante
+                manifestation organisée par l'U.F.A.C. pour le rétablissement intégral de la
+                retraite du combattant.</p>
+              <p>Un immense cortège, rassemblant plus de 4.000 drapeaux et environ 70.000 anciens
+                combattants et victimes de guerre, a défilé dans un ordre et un calme parfaits de la
+                place de l'Opéra jusqu'aux Tuileries.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">QUATRE MILLE DRAPEAUX</head>
+              <p>La grande manifestation organisée par l'U.F.A.C. le 3 octobre dernier, s'est
+                déroulée dans le calme et la dignité. Toute la France est d'accord sur ce point.</p>
+              <p>Elle est d'accord aussi sur le nombre de quatre mille drapeaux qui ont défilé de
+                l'Opéra à l'Arc de Triomphe du Carrousel et tous les témoins nous ont fait part de
+                l'impression qu'ils avaient ressentie en contemplant, sous ce beau soleil d'automne,
+                l'ondulation de ces soies tricolores, formant un ensemble de couleurs qui jamais
+                encore n'avaient été vues.</p>
+              <p>Pourquoi ne pas le dire, j'ai personnellement regretté de ne pas avoir la joie de
+                contempler, moi aussi, ce fleuve d'azur et de pourpre qui coulait lentement,
+                spectacle inoubliable de l'avis de tous. C'est là la rançon de notre blessure, mais
+                si cette privation peut encore être comprise, son prix nous paraîtra moins amer. H.
+                A.</p>
+              <pb n="9"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">COMMUNIQUE DU MINISTERE DES
+                ANCIENS COMBATTANTS</head>
+              <p>« A l'issue du Conseil des Ministres qui s'est tenu le 23 septembre, le Cabinet du
+                Ministre des Anciens Combattants communique : « Etant donné le crédit limité obtenu
+                par le Ministre des Anciens Combattants, soit 2 milliards, la répartition que
+                celui-ci a fait adopter est la plus simple et la plus satisfaisante sur les
+                principes. « Actuellement les anciens combattants, invalides à 50%, perçoivent la
+                retraite au taux de 3.500 frs, de 60 à 65 ans et, à partir de cet âge, avec ceux qui
+                sont inscrits au Fonds de Solidarité, ils la perçoivent au taux de 14.000 francs. «
+                La mesure prévue au Budget consiste à étendre le taux de 3.500 francs aux quelque
+                500.000 anciens combattants, âgés de 65 ans, qui ne percevaient plus rien depuis
+                décembre 1958. « Ainsi, tout ancien combattant, âgé de plus de 65 ans, doit
+                percevoir la retraite, ou bien au taux de 14.000 frs (pour 800.000 d'entre eux) ou
+                bien au taux de 3.500 frs (pour les 500.000 visés par le nouveau texte). »</p>
+              <p>Comme complément à ce communiqué, une liste d'améliorations obtenues au Budget de
+                1960 n'intéressent pas directement les aveugles de guerre. Nous notons cependant une
+                disposition concernant les veuves de guerre chargées de famille qui bénéficieront de
+                cinq points pour chacun des deux premiers enfants à charge.</p>
+              <pb n="10"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">CONDITIONS DE REMBOURSEMENT
+                DE LA DOUBLE COTISATION A LA SÉCURITÉ SOCIALE</head>
+              <p>Nous donnons ci-après l'arrêté paru au « Journal Officiel » du 16 septembre
+                concernant le remboursement des cotisations versées en trop par les grands invalides
+                de guerre et les veuves de guerre bénéficiaires de plusieurs pensions entraînant
+                leur affiliation obligatoire à la Sécurité sociale. Ce texte est très complexe et
+                vise toutes les catégories d'assujettis :</p>
+              <p>Remboursement des cotisations versées en trop par les grands invalides de guerre et
+                les veuves de guerre bénéficiaires de plusieurs pensions entraînant leur affiliation
+                obligatoire à la Sécurité sociale.</p>
+              <p>Article premier. - Le présent arrêté a pour objet de préciser les conditions dans
+                lesquelles - lorsque le total des pensions allouées à une même personne, à la fois
+                au titre d'un régime spécial de Sécurité sociale et du Code des pensions militaires
+                d'invalidité, dépasse le plafond servant de base au calcul des cotisations de
+                Sécurité sociale - l'intéressé peut demander le remboursement de la part
+                excédentaire des cotisations qu'il a versées en vertu de l'article 6\left(\S 1<hi
+                  rend="superscript">er</hi>\right) du décret n<hi rend="superscript">°</hi> 51-318
+                du 28 février 1951 modifié.</p>
+              <p>Art. 2. - La demande de remboursement prévue à l'article premier du présent arrêté
+                est adressée à la Caisse primaire de Sécurité sociale de la résidence du demandeur
+                ou, pour ses ressortissants, à la Caisse nationale militaire de Sécurité
+                sociale.</p>
+              <p>Pour être recevable, la demande de remboursement doit être formulée avant
+                l'expiration de l'année civile suivant l'année pendant laquelle ont été acquittées
+                les cotisations dont le remboursement est demandé.</p>
+              <p>Un arrêté du ministre du Travail fixe le modèle de la demande de remboursement.</p>
+              <p>Art. 3. - Les assurés visés à l'article premier ci-dessus ont droit, s'il y a lieu,
+                au remboursement d'une somme égale à la différence existant entre le montant total
+                des cotisations versées au titre des arrérages de leurs pensions échus au cours
+                d'une année civile et le montant d'une cotisation calculée sur la totalité de ces
+                arrérages en fonction du taux de la cotisation et du plafond fixés par la
+                législation ou la réglementation propre au régime de Sécurité sociale auquel
+                incombe, en application de l'article 6, \S 2, du décret n<hi rend="superscript"
+                  >°</hi> 51-318 du 28 février 1951 modifié, la charge des prestations en nature de
+                l'assurance maladie.</p>
+              <pb n="11"/>
+              <note type="foliation">— 11 —</note>
+              <p>Art. 4. - Le remboursement est effectué par le régime de Sécurité sociale auquel
+                n'incombe pas la charge des prestations en nature de l'assurance maladie.</p>
+              <p>A l'appui de sa demande de remboursement, le requérant produit les pièces
+                justificatives faisant ressortir la nature des différentes pensions dont il est
+                bénéficiaire et le montant des arrérages de ces pensions échus au cours de l'année
+                civile considérée. Ces pièces lui sont restituées au moment du remboursement.</p>
+              <p>Art. 5. - Les dispositions du présent arrêté ne sont pas applicables aux
+                bénéficiaires des articles 576 et suivants du Code de la Sécurité sociale qui sont
+                titulaires d'une pension de vieillesse des assurances sociales leur ouvrant droit
+                aux prestations en nature de l'assurance maladie de même qu'aux personnes visées à
+                l'article 7 du décret n<hi rend="superscript">°</hi> 51-318 du 28 février 1951
+                modifié.</p>
+              <p>Les modalités d'application de cet arrêté, le modèle de demande à adresser et la
+                fixation de la rétroactivité devant faire l'objet d'un arrêté du Ministre du
+                Travail, il y a lieu d'attendre de nouvelles précisions avant d'adresser les
+                demandes de remboursement du trop perçu.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">L'ESPRIT U.A.G.</head>
+            <p>Certains camarades inscrits régulièrement dans leurs sections, n'assistent pas - sans
+              raison valable - aux assemblées locales et même ne répondent pas aux convocations qui
+              leur sont adressées.</p>
+            <p>Pourtant, ces camarades n'hésitent pas, à l'occasion, à nous demander directement un
+              prêt, un secours, une intervention. Bien que nos dossiers soient tenus à jour, nous
+              consultons fréquemment les présidents de sections dont le dévouement pour le bien de
+              tous n'est plus à démontrer.</p>
+            <p>De plus en plus, avant de statuer sur les demandes qui lui sont présentées, le Bureau
+              tiendra compte des avis de ses représentants en province dans les régions où il en
+              existe.</p>
+            <p>L'U.A.G. doit rester une grande famille homogène et il ne faut pas s'en souvenir
+              seulement dans les moments difficiles. R. C.</p>
+            <pb n="12"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">ASSURANCE GROUPE</head>
+            <p>Nous rappelons à nos camarades affiliés qu'aux termes du contrat souscrit à la
+              Compagnie «La Nationale», ils peuvent résilier leur assurance ou en réduire le montant
+              pour 1960, à condition de nous en informer avant le 1<hi rend="superscript">er</hi>
+              décembre prochain.</p>
+            <p>Cet avis n'a pas pour but de les y inciter, bien au contraire. En créant, voici déjà
+              huit ans, notre groupe, nous pensions au sort lamentable de la plupart de nos
+              compagnes survivantes et nous avions espoir qu'un relèvement de pension leur serait
+              accordé, elles le méritent tant. Hélas! en dépit d'incessantes démarches, la situation
+              ne s'est pas modifiée et, pour l'heure, la sécurité de notre foyer dépend de nos
+              propres efforts : épargne ou assurance.</p>
+            <p>Depuis le 1<hi rend="superscript">er</hi> janvier de cette année, notre groupe a eu
+              la douleur de perdre onze membres. A leurs ayants droit les capitaux assurés ont été
+              régulièrement versés. E. G.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">CAISSE DE PRÉVOYANCE</head>
+            <p>Nous rappelons à nos camarades adhérents à la Caisse de Prévoyance que les
+              cotisations pour l'année 1960 doivent être réglées le 11 Novembre au plus tard.</p>
+            <p>Ces cotisations, fixées à l'origine selon l'âge de l'adhérent, sont les suivantes
+              :</p>
+            <p><list>
+                <item>275 francs jusqu'à 45 ans.</item>
+                <item>325 francs de 45 à 50 ans.</item>
+                <item>400 francs de 50 à 55 ans.</item>
+                <item>500 francs après 55 ans.</item>
+              </list> jusqu'à concurrence d'un versement total limité depuis le premier versement à
+              8.700 francs.</p>
+            <p>Pour 1960, certains camarades arrivent au terme de leur versement et leur cotisation
+              se trouve fixée à :</p>
+            <p><list>
+                <item>25 francs pour ceux nés en 1895.</item>
+                <item>250 francs pour ceux nés en 1896.</item>
+                <item>475 francs pour ceux nés en 1897.</item>
+              </list> Ceux nés avant 1895 n'ont plus rien à verser. Ceux nés après 1897 doivent
+              cotiser normalement les 8.700 francs requis n'étant pas encore atteints.</p>
+            <p>Nous recommandons, de façon pressante, aux camarades de préciser le détail de leur
+              envoi lors de leurs règlements.</p>
+            <pb n="13"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">BIBLIOTHÈQUE</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">ROMANS</head>
+              <list>
+                <item>293 — Christie Agatha,Les Quatre 9 Vol. Intégral</item>
+                <item>670 — Greene Graham,Notre Agent à la Havane 8 — Amplifié</item>
+                <item>671 — Valloton Benjamin,Sur le Roc 7 — Intégral</item>
+                <item>672 — Buck Pearl,La Mère 8 — Abrégé</item>
+                <item>673 — Gide André,Corydon 3 — Abrégé</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">GUERRE</head>
+              <list>
+                <item>2388 — Juin Maréchal,Mémoires(Alger - Tunis - Rome) 9 Vol. Amplifié</item>
+              </list>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">"LE LIVRE PARLÉ"</head>
+            <p>DERNIERS OUVRAGES PARUS OU À PARAITRE</p>
+            <list>
+              <head>Collection : <hi rend="italic">Œuvres d'imagination</hi></head>
+              <item>RTF 570. — COLLINE (Jean Giono), lu par Jean Chevrier, sociétaire de la Comédie
+                Française 3 disques 33 tours.</item>
+              <item>RTF 581. — LE DESERT DE L'AMOUR (F. MAURIAC), lu par Jean Négroni 4 — 33
+                —.</item>
+              <item>RTF 583. — THOMAS L'IMPOSTEUR (J. COCTEAU, de l'Académie Française), lu par
+                André Falcon, Sociétaire de la Comédie Française 3 — 33 —.</item>
+              <item>RTF 584. — GIGI (COLETTE), lu par Danièle Delorme 2 — 33 —.</item>
+              <item>RTF 585. — CLAUDINE S'EN VA (COLETTE) lu par Odette Joyeux 4 — 33 —.</item>
+              <item>RTF 587. — LES SOUFFRANCES DU JEUNE WERTHER (GÊTE) lu par Jean Dessailly 4 — 33
+                —.</item>
+              <item>RTF 590. — L'ABBESSE DE CASTRO (STENDHAL) lu par Jean Piat, Sociétaire de la
+                Comédie Française 4 — 33 —.</item>
+              <item>RTF 592. — LA SYMPHONIE PASTORALE (André GIDE) lu par Jean Topart 3 — 33
+                —.</item>
+              <pb n="14"/>
+              <note type="foliation">— 14 —</note>
+              <item>RTF 593. — LE CONTRAT DE MARIAGE (H. de Balzac) lu par Jean Debucourt,
+                Sociétaire de la Comédie Française 4 — 33 —</item>
+              <item>RTF 595. — L'INNOCENT (Philippe Hériat) lu par l'auteur 5 — 33 —</item>
+              <item>RTF 597. — LA VALLEE HEUREUSE (Jules Roy) lu par André Valmy 4 — 33 —</item>
+            </list>
+            <list>
+              <head>Collection : Aventures et Voyages</head>
+              <item>P 565. — VU PAR UN AVEUGLE (VED MEHTA) lu par G.-L. Roux 10 — 33 —</item>
+              <item>RTF 582. — L'OR (Blaise Cendrars) lu par Jean Servais 4 — 33 —</item>
+              <item>RTF 588. — CARNETS DU VERTIGE (Louis Lachenal et F. Herzog) lu par Gérard Herzog
+                4 — 33 —</item>
+              <item>RTF 591. — LA VIE DE M. DUGUAY-TROUIN, lu par Yves Brainville 4 — 33 —</item>
+              <item>RTF 594. — LE TYPHON (Joseph Conrad) lu par Pierre Vaneck 4 — 33 —</item>
+            </list>
+            <list>
+              <head>Collection : Auteurs gais</head>
+              <item>RTF 569. — SABRES DE BOIS (Jacques Devail) lu par Robert Murceau 3 — 33 —</item>
+              <item>RTF 572. — LA PRINCESSE DE CHINE (René Clair) lu par Robert Murzean 2 — 33
+                —</item>
+              <item>RTF 574. — TARTARIN DE TARASCON (A. Daudet) lu par Henri Vilbert 4 — 33 —</item>
+              <item>RTF 575. — TARTARIN SUR LES ALPES (A. Daudet) lu par Henri Vilbert 4 — 33
+                —</item>
+              <item>RTF 580. — PIERROT, MON AMI (R. Queneau, de l'Académie Goncourt) lu par François
+                Périer 4 — 33 —</item>
+            </list>
+            <list>
+              <head>Collection Historique</head>
+              <item>P 568. — DE BELZEBUTH A LOUIS XVII (G. Lenotre) lu par Jeanne Sully, Sociétaire
+                de la Comédie Française 8 — 33 —</item>
+              <item>P 571. — LA VIE DE SIR ALEXANDER FLEMING (A. Maurois, de l'Académie Française)
+                lu par R. Baverey 6 — 16 —</item>
+            </list>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+            <list>
+              <head type="section" rend="align(center)">Collection scientifique</head>
+              <item>MAG 577. - AUX FRONTIERES DE L'ASTRONOMIE (Fred Hoyle) lu par Pierre Blet .....
+                17 bandes</item>
+            </list>
+            <list>
+              <head>Don du "Livre de l'Aveugle" — Collection protestante «La Cause»</head>
+              <item>CAU 566. - UNE NOBLE VIE : ABRAHAM LINCOLN, LE LIBERATEUR DES ESCLAVES (Yvonne
+                Pitrois) lu par Thérèse Barbey ..... 5 bandes</item>
+              <item>CAU 573. - EVANGILE SELON SAINT JEAN (version synodale), Les Plus Belles Pages
+                de l'Apocalypse, lu par Jeanne Sully, Sociétaire de la Comédie Française ..... 3
+                disques 33 tours</item>
+              <item>CAU 578. - ARDESCO (Roger Ferlet) lu par R. Baverey ..... 9 bandes</item>
+              <item>CAU 579. - LE DESERT CEVENOL (André Dumas) lu par Jeanne Sully, Sociétaire de la
+                Comédie Française ..... 6 bandes</item>
+            </list>
+            <list>
+              <head>Collection Théâtrale</head>
+              <item>RTF 586. - LA FOLLE DE CHAILLOT (J. Giraudoux) lu par Jacques Mauclair. 2
+                disques 33 tours</item>
+            </list>
+            <list>
+              <head>Collection Scientifique</head>
+              <item>MAG 567. - LA KINESITHERAPIE DANS LE TRAITEMENT DES ALGIES VERTEBRALES (Louis
+                Charriere) ..... 7 bandes</item>
+            </list>
+            <p>NOTE. - Nos auditeurs voudront bien remarquer que la plupart des ouvrages de cette
+              liste n'ont été reproduits que sur disques pressés 33 et 16 tours. Nous disposons d'un
+              nombre suffisant d'exemplaires pour nous éviter les frais d'une édition de ces œuvres
+              sur bandes magnétiques.</p>
+            <p>Nous signalons, en outre, que les ouvrages portant la référence RTF avant le numéro
+              d'ordre, peuvent être cédés aux Camarades (le disque Frs 700 ).</p>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">NAISSANCES</head>
+            <p>Nous apprenons avec plaisir la naissance de : Véronique, fille de notre camarade
+              Raymond Meseager, de Puymirol (Lot-et-Garonne), le 26 septembre 1959.</p>
+            <p>Françoise, petite-fille de notre camarade Chimbert, de Gémenos
+              (Bouches-du-Rhône).</p>
+            <p>Isabelle, petite-fille de notre camarade le Capitaine Distinguin, de Paris 16<hi
+                rend="superscript">e</hi>, le 25 août 1959.</p>
+            <p>Nous adressons nos bien vives félicitations à nos camarades et nos vœux de prospérité
+              aux bébés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">MARIAGES</head>
+            <p>Nous apprenons le mariage de : Notre Camarade André Goulaouic, de Saint-Malo
+              (Ille-et-Vilaine), avec Mlle Fernande Lecoq, le 26 septembre 1959.</p>
+            <p>Nous adressons nos bien vives félicitations à notre camarade.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : Conte Marcel (Indochine), de
+              Suresnes (Seine), le 9 septembre 1959. Agniel Albert (14-18), de Alès (Gard), le 27
+              avril 1959. Jézéquel Yves (14-18), de Lézardrieux (Côtes-du-Nord), le 18 septembre
+              1959.</p>
+            <p>Menetrey Emile (14-18), de Etival (Vosges), le 22 septembre 1959. Vidal (Albert)
+              (14-18), de Albi (Tarn), le 19 septembre 1959. Delannay Henri (14-18), de Malakoff
+              (Seine), le 28 septembre 1959. Barbier Eugène (14-18), de Saverne (Bas-Rhin), le 17
+              juillet 1959. Gatuing Gaston (14-18), de Bordeaux (Gironde). De Witte René (14-18), de
+              Tourcoing (Nord), le 1<hi rend="superscript">er</hi> octobre 1959. Nous adressons aux
+              familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="17"/>
+            <note type="foliation">— 17 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">COTISATIONS</head>
+            <p>Afin d'éviter des erreurs, nous demandons instamment aux camarades de préciser sur
+              leurs règlements la destination exacte de leur envoi.</p>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">COTISATIONS reçues du 11
+              septembre au 6 octobre 1959 inclus.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS ORDINAIRES ( 200
+                francs)</head>
+              <p>Alquie Jean ( 400 fr.). Boudault Pierre. Cladier Charles (1959-1960), Courtemanche
+                Louis. Galis Jean, Galbourdin Constant, Gomez André. Kalitka Raymond. Lamerand
+                Marcel, Lochet Roger ( 400 fr.). Masse Georges, Mathieu Claude, Maumont Baptiste,
+                Mesaros Vasile (1957-58-59). Prévost Gustave. Raschi Aimé ( 400 fr.). Tourneux
+                Maurice. Verdelet Henri, Valenoir Auguste (1960), Viguier Paul.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">CAISSE PREVOYANCE</head>
+              <p>Galis Jean. Lamerand Marcel. Prévost Gustave.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Avec reconnaissance, nous recevons également des dons de la part des veuves de nos
+                camarades ; toutefois, nous leur rappelons qu'elles sont exemptes de toute
+                cotisation annuelle.</p>
+              <pb n="18"/>
+              <note type="foliation">— 18 —</note>
+              <p>Alquie Germain ( 200 fr .). Barbe Albert (Vve) ( 1.000 fr .), Biray Marcel ( 300 fr
+                .). Cladier Charles ( 600 fr .). Cochon François ( 350 fr.). Delafosse Gratien ( 500
+                fr.). Galbourdin Constant ( 300 fr.), Gomez André (200 fr.). Johannsen Raymond (
+                2.000 fr.). Lamerand Marcel ( 1.000 fr.), Lochet Roger ( 100 fr .). Mansion Maurice
+                ( 500 fr.). Ollivier Marcel ( 300 fr.). Prévost Gustave ( 325 fr.). Raschi Aimé (
+                100 fr.). Tourneux Maurice ( 300 fr.), Tremege Emile ( 400 fr.). Valenoir Auguste (
+                500 fr.), Verdelet Henri ( 300 fr.), Viguier Paul ( 300 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Bonamy Eugène ( 500 fr.). Courtemanche Louis ( 400 fr.). Guillam Edmond ( 1.000
+                fr.). Kalitka Raymond ( 400 fr.). Lamerand Marcel ( 500 fr.). Mathieu Claude ( 800
+                fr.). Perek Valentin ( 100 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>André Victor ( 2.000 fr.). Bonamy Eugène ( 500 fr.). Courtemanche Louis ( 400 fr.).
+                Guillam Edmond ( 1.000 fr.). Kalitka Raymond ( 400 fr.).</p>
+              <p>Nous sommes très sensibles aux cotisations volontaires que certains camarades
+                veulent bien nous adresser; leur geste de solidarité nous prouve leur sentiment
+                d'attachement à l'U.A.G. et nous les en remercions bien vivement.</p>
+              <pb n="19"/>
+              <note type="foliation">— 19 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">PETITES ANNONCES</head>
+            <p>Feraï DON d'une chienne, 3 ans, grande taille, bonne pour la garde. Pour tous
+              détails, écrire à M. Roger LANCLADE, cultivateur à Vergoignan par Barcelone-du-Gers
+              (Gers).</p>
+            <p>«UN RIVESALTES»</p>
+            <p>Le meilleur des apéritifs Le plus reconstituant des vins doux naturels Livré
+              directement du producteur au consommateur Expédié en fûts, bonbonnes (consignés) ou en
+              bouteilles Franco de port, exempt de toutes taxes S'adresser à M. Toutain, aveugle de
+              guerre, Briouze (Orne)</p>
+            <p>Représentation tous Vins Fins : Bordeaux, Bourgogne, Alsace, Champagne, Mousseux,
+              etc., tarif sur demande à A. LACOTAS, Azerat (Dordogne).</p>
+            <p>Départ Bordeaux, demi-barrique de 112 litres environ (en quart, supplément de 150 frs
+              par fût), fût consigné à retourner franco à Bordeaux.</p>
+            <p>Bordeaux Vieux, 16.200 frs. Bordeaux Supérieur Vieux, 18.450 frs. Echantillons sur
+              demande.</p>
+            <pb n="20"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents : le Maréchal et Mme la Maréchale JUIN. Vice-Président : M { }^{e} MASSON.
+              Vice-Présidentes : Mmes CONTAMIN et DU BOS. Secrétaire : M. COLLIER. Vice-Présidente
+              honoraire : Mlle ARBEL. Trésorier honoraire : M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M<hi rend="superscript">e</hi> BRULLIARD, MM. DE
+              CHAUMONT-QUITRY, CHEPFER, Mme COLLIER, D<hi rend="superscript">r</hi> COUTELA, Mme
+              DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle LEDOUX, D<hi rend="superscript"
+                >r</hi> RICORD, Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD, délégué
+              au Mexique, le Président de l'Association des Anciens Combattants Français en
+              Argentine.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
