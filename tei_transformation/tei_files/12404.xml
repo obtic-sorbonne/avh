@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 21ème année 1940 n°4</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Première Guerre Mondiale</title>
+        <title type="topic">Seconde Guerre Mondiale</title>
+        <title type="topic">Actualités associatives</title>
+        <title type="topic">Edouard Branly</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">Guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 14 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#assemblee-generale">Assemblée Générale</term>
+          <term ref="#edouard-branly">Edouard Branly</term>
+          <term ref="#esprit-de-guerre">Esprit de Guerre</term>
+          <term ref="#cotisations">Cotisations</term>
+          <term ref="#sections">Sections</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre pour une date non spécifiée en 1940
+          couvre divers sujets d'intérêt pour ses membres. Il annonce l'assemblée générale, rend
+          hommage à Edouard Branly pour son rôle dans le développement de la T.S.F., et discute de
+          l'importance de maintenir un esprit de guerre. Le bulletin inclut des nouvelles de
+          l'association, telles que les naissances, mariages et décès, ainsi que des informations
+          sur les cotisations et les assemblées des sections régionales et départementales. Des avis
+          divers et une liste de donateurs sont également présents.</p>
+      </abstract>
+      <creation>
+        <date when="1940-04-01">01/04/1940</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-28" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-26" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h5">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTRE ASSEMBLEE GENERALE</ref>
+          </item>
+          <item>
+            <ref target="#h8">AVIS IMPORTANT</ref>
+          </item>
+          <item>
+            <ref target="#h9">LA MORT D'EDOUARD BRANLY ET LES AVEUGLES</ref>
+          </item>
+          <item>
+            <ref target="#h10">L'ESPRIT DE GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h11">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h12">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h13">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h14">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h15">COTISATIONS 1940</ref>
+              </item>
+              <item>
+                <ref target="#h16">ASSEMBLEES DE NOS SECTIONS</ref>
+                <list>
+                  <item>
+                    <ref target="#h17">Départementale de la Haute-Garonne</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">Départementale des Bouches-du-Rhône</ref>
+                  </item>
+                  <item>
+                    <ref target="#h19">Départementale des Alpes-Maritimes</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Départementale du Tarn</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Départementale de la Seine-Inférieure</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Groupement Régional du Nord</ref>
+                  </item>
+                  <item>
+                    <ref target="#h23">Régionale de l'Ouest</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">Régionale de Limoges</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">A la Départementale des Bouches-du-Rhône</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h26">PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU 9 MARS
+                  1940</ref>
+              </item>
+              <item>
+                <ref target="#h27">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h28">RECTIFICATION D'ADRESSE</ref>
+              </item>
+              <item>
+                <ref target="#h29">LISTE DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h30">DON AVEC AFFECTATION POUR LA " MAISON DES AVĘUGLES DE GUERRE
+                  "</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h31">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h32">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h33">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">21e Année. — N° 4</fw>
+          <fw type="header">
+            <hi rend="underline">AVRIL 1940</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Notre Assemblée Générale.</item>
+                    <item>AVIS IMPORTANT.</item>
+                    <item>La mort d'Edouard Branly et les Aveugles.</item>
+                    <item>L'esprit de guerre</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Cotisations 1940.</item>
+                    <item>Assemblées de nos Sections.</item>
+                    <item>A la Départementale des Bouches-du-Rhône.</item>
+                    <item>Procès-verbal de la réunion du C.A. du 9 mars 1940.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de donateurs</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31 Siège provisoire : FRANCEVILLE (Calvados)</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire ; \dagger M. Barthou,
+              ancien Président du Conseil ; M. le colonel Fabry, Député, ancien Ministre ; \dagger
+              M. le général Balfourier ; M. J. Ridgely-Carter ; M. Paul de Cassagnac, ancien Député
+              ; M. Maurice Donnay, de l'Académie Française ; M. Duco, Médecin-Inspecteur; M.
+              Fribourg, Député ; Miss Alice Getty ; M. Justin Godart, ancien Ministre ; Miss Grace
+              Harper ; Miss Winifred Holt ; Mme Léopold Kahn : M. Krung : M. Lugol, ancien Sénateur
+              ; \dagger <hi rend="superscript">M</hi>^{<hi rend="superscript">me</hi>} la maréchale
+              Maunoury ; M. Samuel Milbank ; M. Meyer, Conseiller d'Etat; M. Henry Paté, Député ;
+              \dagger <hi rend="superscript">M</hi>^{\circ} Henri Robert, de l'Académie française,
+              ancien Batonnier de l'Ordre des Avocats; M. le général Sainte-Claire-Deville ; \dagger
+              M. Vallery-Radot.</p>
+            <pb n="3"/>
+          </div>
+          <fw>21e ANNEE - N° 4 AVRIL 1940</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTRE ASSEMBLEE GENERALE</head>
+            <p>Notre Assemblée Générale se tiendra à Paris le 28 Avril prochain. Chaque membre de
+              notre Association a reçu à cet effet, sous enveloppe, les indications nécessaires,
+              ainsi que les bulletins de vote pour le renouvellement du tiers de notre Conseil
+              d'Administration.</p>
+            <p>Dans notre numéro de Février, nous avons publié, selon la coutume, notre rapport
+              moral et notre rapport financier. Chacun de nous aura pu les analyser à fond et se
+              trouvera à même d'exprimer ses sentiments d'une façon éclairée à notre, réunion
+              plénière du 28 Avril.</p>
+            <p>Ce sera notre 22<hi rend="superscript">me</hi> Assemblée Générale depuis la fondation
+              de l'U. A. G. L'année dernière, nous en célébrions le vingtième anniversaire. Si
+              l'atmosphère était déjà troublée et n'avait plus la sérénité des années précédentes,
+              nous symbolisions cependant, une fois de plus, l'épanouissement de l'U. A. G. en nous
+              remémorant la grande figure du Maréchal Maunoury et en associant, à l'hommage que nous
+              étions heureux de lui rendre, nos sentiments de reconnaissance envers tous ceux qui
+              ont participé à l'œuvre commune.</p>
+            <p>Tous, vous vous souvenez de l'éclat de cette cérémonie, que la présence des plus
+              hautes personnalités civiles et militaires avait rendu particulièrement brillante et
+              qui eut, au dehors, un heureux retentissement.</p>
+            <p>Nous avons publié, dans notre bulletin de Janvier, quelques-unes des lettres que nous
+              avions reçues au Nouvel An et nous avons pu juger, qu'à ces témoignages d'amitié,
+              s'ajoutait le souvenir resté très vif de cette cérémonie chez ceux qui y avaient
+              assisté et dont certains parmi eux sont aujourd'hui au commandement de nos armées.</p>
+            <p>Ces chefs, qui s'étaient associés à nous pour glorifier le passé en la personne du
+              Maréchal Maunoury, notre premier Président d'Honneur, songeaient aussi comme nous aux
+              grands devoirs qui attendraient chaque Français, si l'avenir précisait les craintes
+              qui étaient déjà dans les cours.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>L'épreuve est venue. Notre Assemblée se tiendra très simplement, eu présence de moins
+              de monde, dans un esprit en tous points conforme aux circonstances si graves que nous
+              traversons. Notre pensée se tournera pleine de sympathie vers ceux des nôtres appelés
+              pour la seconde fois en la personne de leurs fils à servir sous nos drapeaux, puis
+              vers tous ceux que la guerre a éloignés de leurs foyers. Nous y affirmerons notre
+              devoir de solidarité envers nós nouveaux camarades aveugles de guerre et notre
+              indéfectible confiance dans les destinées de notre Pays, que nous voulons servir, nous
+              aussi, au mieux et de tous nos efforts à travers noffe U. A. G. A. CONAN.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">AVIS IMPORTANT</head>
+            <p>Nous informons nos camarades que la réunion du samedi 27 avril, que nous avons
+              annoncée par erreur sur nos convocations comme devant avoir lieu à 9 heures du matin,
+              se tiendra à 14 h .15 de l'après-midi, la matinée du samedi étant en effet réservée
+              aux membres du Conseil d'administration.</p>
+            <p>Nos camarades comprendront que, dans les circonstances présentes, ceux qui se
+              déplaceront séjourneront à Paris moins longtemps que de coutume.</p>
+            <p>D'autre part, comme il ne saurait être question d'apporter pour le moment des
+              changements dans les diverses branches d'activité de notre Association, les
+              discussions qui ont lieu d'habitude dans les réunions préparatoires en seront d'autant
+              abrégées et les membres de l'Union auront le loisir, le samedi après-midi, en réunion
+              amicale, et le dimanche matin lors de l'Assemblée statutaire, de discuter de la marche
+              de notre Association, dont seule les intérêts principaux doivent être retenus.</p>
+            <p>La Flamme. - Nous rappelons également que le dimanche 28 avril à 18 h .30 , l'Union
+              ranimera la Flamme. Nos camarades présents à l'Assemblée pourront se rendre à l'Arc de
+              Triomphe à 18 heures. Réunion sur le terre-plein, côté Avenue Wagram.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LA MORT D'EDOUARD BRANLY ET LES
+              AVEUGLES</head>
+            <p>La nouvelle de la mort du grand savant Edouard Branly a retenti douloureusement, non
+              seulement/dans notre Pays mais dans le monde entier et, malgré les heures de guerre
+              que nous traversons, des funérailles nationales lui ont été faites.</p>
+            <p>Il n'est pas dans nos intentions d'apprécier ce que fut l'œuvre de ee grand physicien
+              et, afin d'éviter tout jugement que l'on pourrait croire un peu chauvin, nous
+              rappellerons seulement la dépêche que Marconi adressa, quand il fit sa grande
+              expérience de transmission entre Calais et Douvres, pour rendre hommage à Branly de sa
+              décoré verte à laquelle il devait en grande partie la réussite de cette application de
+              la T. S. F. où, avec son esprit inventif, il devait révolutionner le monde.</p>
+            <p>C'est justement cette T. S. F. qui nous intéresse particulièrement nous, aveugles,
+              qui vivons dans le domaine des sons et pour qui toute communication extérieure devient
+              infiniment précieuse. Quelle somme de reconnaissance ne devons-nous pas avoir envers
+              Branly qui fut à l'origine de cette merveilleuse invention. Les voyants ne se rendent
+              pas compte de ce qu'est pour nous, au lever du matin, le résumé des nouvelles des
+              journaux, des informations de toutes sortes et si, comme disait Lord Northeliffe : "
+              un journal qui n'est pas sur la table du breakfast est un journal mort ", le journal
+              de la radio est de la vie pour nous. La T. S. F. a pour les aveugles la valeur de
+              l'appareillage chez un autre mutilé et, si les Pouvoirs Pubiies ne l'ont pas compris,
+              ee que nous regrettons vivement, cela ne nous empêche pas de nous y intéresser
+              particulièrement, et c'est pourquoi nous tenons à adresser au grand Français Edouard
+              Branly l'hommage de notre admiration et de notre gratitude. H. AMBLARD.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">L'ESPRIT DE GUERRE</head>
+            <p>La guerre passe, cette guerre étrange à laquelle nous ne nous attendions pas et dont
+              le développement, quel qu'il soit, ne doit pas maintenant nous surprendre, mais au
+              contraire nous trouver prêts à riposter.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>Pour cela, nous devons nous préparer à toute éventualité et créer cet esprit de
+              guerre qui doit animer tous ceux qui, comme nous, à l'arrière, attendent en faisant de
+              leur mieux pour aider d'une façon quelconque à la victoire définitive. C'est le rôle
+              des Associations d'Anciens Combattants et, sans qu'il y paraisse, elles ont là
+              beaucoup à faire pour garder dans notre Pays cet esprit qui doit correspondre à celui
+              qui règne sur le Front des Armées. Tout, dans nos Associations, doit tendre à un seul
+              but, et toutes les restrictions que des Groupements s'imposent, tout ce qui pourrait
+              paraître une diminution d'activité, doit être compris des Anciens Combattants.</p>
+            <p>Dans notre U. A. G., cette diminution de vitalité peut être assez apparente, mais le
+              Conseil d'Administration et le Bureau ne se sont pas moins préoccupés des intérêts
+              vitaux de l'Association, et remettant à plus tard les détails, gardent fermement en
+              mains les destinées du Groupement.</p>
+            <p>Notre Maison ne fonctionne pas, mais la bibliothèque subsiste et l'Assemblée Générale
+              se tiendra rue Blanche. Nos Sections Régionales et Départementales ne recevront pas la
+              visite des délégués du Bureau de Paris qui assure chaque année la liaison, mais elles
+              tiendront quand même leurs Assemblées et les camarades se seront, comme d'habitude,
+              retrouvés. Rien, dans l'Association, n'est en fait diminué. La volonté d'aboutir à la
+              fin de ce conflit nous tient en éveil et l'U. A. G. sera prête au premier signal à
+              reprendre la vie ordinaire dans tous ses moindres détails, comme dans ses plus grandes
+              entreprises, ceci nous en sommes certains car nous avons et aurons eu l'esprit de
+              guerre, indispensable en ce moment. Le communiqué dit bien en effet : " rien à
+              signaler " mais, ce soir, le jour tombe là-bas dans l'Est, la nuit envahit le bois qui
+              se remplit de bruits mystérieux, alors la patrouille commence, des hommes jeunes et
+              vigoureux, les nerfs tendus, vont affronter l'ennemi, - nous avons connu ces moments,
+              - il y aura peutêtre des blessés, peut-être l'un d'entre eux aura donné sa vie, on
+              comptera peut-être aussi un nouvel aveugle de guerre. C'est à toutes ces choses que
+              nous devons penser, en gardant dans nos Associations l'esprit de concorde et de
+              détermination qui doit amener le Pays à une victoire définitive. H. AMBLARD.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h12">Naissances</head>
+                <p>Notre camarade et Madame Estienne, de Six-Fours-la-Plage (Var), nous font part de
+                  la naissance de leurs deux petits-fils Claude, nés le 12 Décembre 1939 et
+                  Jean-Claude, le 28 Février 1940.</p>
+                <p>Notre camarade Hassem Ben Salem'Kraiem, de Teboulba (Tunisie), nous fait part de
+                  la naissance de son neuvième enfant, Mustapha, le 5 Février 1940.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h13">Mariages</head>
+                <p>Notre camarade Cado, de Lanester (Morbihan), nous fait part du mariage de sa
+                  fille Mélanie avec M. Le Rouzic Joseph, célébré le 24 Juin 1939 et celui de sa
+                  fille Françoise avec M. Charles Le Berre, le 6 Janvier 1940 .</p>
+                <p>Notre camarade Le Goff, de Gourin (Morbihan), nous fait part du' mariage de son
+                  fils Pierre, actuellement aux Armées, avec Mademoiselle Anita Caugaut, célébré le
+                  6 Mars 1940.</p>
+                <p>Notre camarade Doudard, de Montertelot (Morbihan), nous fait part du mariage de
+                  sa fille Marguerite avec M. Pierre Perrichot, célébré le 25 Mars 1940.</p>
+                <p>Notre camarade Foubet Georges, de Yvrecheux (Somme), nous fait part du mariage de
+                  sa fille Andrée avec M. André Ritaine, actuellement caporal au 23<hi
+                    rend="superscript">me</hi> R. T. A., célébré le 24 Février 1940.</p>
+                <p>Madame Bidaud, veuve de notre camarade Bidaud, nous fait part du mariage de son
+                  fils Georges avec Mademoiselle Charpentier, célébré le 28 décembre 1939.</p>
+                <p>Nous adressons nos vœux de bouheur aux jeunes époux.</p>
+                <pb n="8"/>
+                <note type="foliation">— 6 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h14">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Simon Pierre, de Petit-Quevilly
+                  (Seine-Inf.), décédé le 20 Février 1940, à l'âge de 62 ans.</p>
+                <p>Né le 28 Juin 1878 à Grenville (Seine-Inf.), soldat au 1<hi rend="superscript"
+                    >er</hi> Régiment d'Artillerie à pied, notre camarade fut blessé en service
+                  commandé le 18 Octobre 1915. Réformé à 100% art. 10 pour cécité, il laisse trois
+                  petits enfants.</p>
+                <p>De notre camarade Thévenin Gilbert, de Saint-Léopardin-d'Augy (Allier), décédé le
+                  9 Mars 1940, à l'âge de 57 ans.</p>
+                <p>Né le 1<hi rend="superscript">er</hi> Décembre 1883, soldat au 13<hi
+                    rend="superscript">°</hi> Chasseurs Alpins, notre camarade était réformé à 190%
+                  art. 10 et 12 pour cécité et blessures multiples. Il laisse une veuve.</p>
+                <p>De notre camarade Bidaú Jean, de Cinq-Cantons-Auglet (BassesPyrénées), décédé le
+                  26 Mars 1940, à l'âge de 56 ans.</p>
+                <p>Né le 17 Avril 1884, soldat au 249<hi rend="superscript">°</hi> d'Infanterie,
+                  notre camarade fut blessé le 27 Mai 1916 à Ligny-en-Barrois. Réformé à 180% pour
+                  cécité et amputation du bras droit, Chevalier de la Légion d'Honneur et titulaire
+                  de la Croix de Guerre et de la Médaille Militaire, il laisse une veuve et trois
+                  enfants.</p>
+                <p>De la femme de notre camarade Bugnet, de Decines (Isère), décédée le 20 Décembre
+                  1939, à l'âge de 60 ans.</p>
+                <p>De la femme de notre camarade Lebrun Georges, de Massy (Seine-et-Oise), décédée
+                  le 11 Mars 1940, à l'âge de 47 ans.</p>
+                <p>Du père de notre camarade Ahmed ben Mohamed Tliba, de MenzelDjemil (Tunisie),
+                  décédé le 26 Février 1940, à l'âge de 90 ans.</p>
+                <p>De la mère de notre camarade Billoud, de Nice, décédée le 25 Janvier, dans sa
+                    85<hi rend="superscript">°</hi> année.</p>
+                <p>De la belle-mère de notre camarade Cado, de Lanester (Morbihan), décédée le 1<hi
+                    rend="superscript">er</hi> Février 1940.</p>
+                <p>Du beau-père de notre camarade Bazas Jean, de Sainte-Bazeille (Lot-et-Garonne),
+                  décédé le 14 Février 1940, à l'âge de 76 ans.</p>
+                <p>De la mère de notre camarade Soulié Michel, de La Draperie (Corrèze), décédée le
+                  14 Mars 1940, à l'âge de 80 ans.</p>
+                <p>Du père de notre camarade Verdier, de Montpellier (Hérault), décédé le 20 Mars
+                  1940, à l'âge de 75 ans.</p>
+                <p>Du beau-frère de notre camarade Desgrippes, de Marly-le-Roi (Seine-et-Oise),
+                  décédée le 12 Mars 1940, à l'âge de 42 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléanees.</p>
+                <pb n="9"/>
+                <note type="foliation">— 7 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">COTISATIONS 1940</head>
+              <p>Cotisations volontaires. - Nous sommes heureux d'adresser ici nos sincères
+                remerciements à nos camarades qui ont tenu à effectuer un nouveau versement :
+                Beaudufé, 10 fr .; Deschamps, 30 fr .; Correger, 10 fr. ; Duffant, 10 fr. ; Cluze,
+                10 fr. ; Moreau A., 10 fr. ; Delaunay H., 10 fr. ; Dupuy P., 10 fr. ; Derunder, 50
+                fr. ; Sauvage, 15 fr. ; Boudra, 10 fr. ; Bordier, 5 fr. ; Olivet, 10 fr. ; Camerle,
+                10 fr. ; Demontpion, 10 fr. ; Girou, 5 fr. ; Delahaie, 20 fr. ; Barde, 5 fr. ;
+                Coudrai, 5 fr. ; Ducornet, 5 fr. ; Renoux, 10 fr. ; Moret, 5 fr. ; Laurent E., 15
+                fr. ; Kerrien, 10 fr. ; Cressent, 5 fr. ; Cizeron, 5 fr. ; Feutré, 15 fr. ; Fourrer,
+                10 fr. ; Thiriet, 20 fr. ; Mauduit, 10 fr. ; Quehen, 10 fr. ; Goebel, 10 fr. ;
+                Josse, 5 fr. ; Goudailler, 10 fr. ; Guillien, 5 fr. ; "La Pauvre Misère ", 20 fr. ;
+                Delmas L., 10 fr. ; Peltier, 10 fr. ; Peligry, 5 fr.</p>
+              <p>Cotisations. - Meyer J., Beaudufé, Guenivet, Vasseur, Valdant, Deschamps, Correger,
+                Vilain, Debout, de Witte, Perrais, Cluze, Moreau A., Curé, Malesieux, Maumont,
+                Gerbelli, Garnier A., Rouhaud, Grimm, Layec, Lacotas, Viard-Gaudin, Jamet, Dunié,
+                Duffaut, Deboulet, Philippe, Martin G., Dessenne, Duerot, Dupuy P., Morand,
+                Belleret, Tauriac, Grosjean, Lerousseau, Leuzy, Cabrillac, Maros, Couesnon R.,
+                Seguela, Bouisson, Chabbert, Drion G., Karli, Prevost A., Lacombe, Johannsen,
+                Olivet, Bordier, Boudra, Sauvage, Fauque, Delaunay H., Pierre M., Tourneux R.,
+                Camerle, Flandre, Demontpion, Girou, Thomas, Delforge, Jeanmiard, Horlon, Lescalier,
+                Beguin, Arona Marigor, Douris, Delahaye, Guillenjouan, Portebois, Gentel, Fruit,
+                Auffret, Forgues, Burnier, Daridan, Julio, Barde, Lemarchand, Le Goff, Laclau,
+                Coudrai, Ducornet, Renoux, Suscillon, Mazeaud, Millereau, Moret, Brunet, Hautier,
+                Guillemin M., Laurent E., Kerrien, Villette, Levesque, Lappe, Bouix, Albert H.,
+                Vendeville, Honoré, Renauld, Lannes, Beucher, Lescadieu, George L., Spinetta, Renaud
+                C., Massot A., Cressent, de Chatillon, Cizeron, Poulain, Delage, Martin M., Affre,
+                Roussigné, Piette, Feutré, Gaultier, Gautier J., Morizet, Fourrer, Laloit, Thiriet,
+                Barbe, Le Bourlout, Polette, Prevel, Nicolas A., Gréard, Bayle, Chartier, Rouvreau
+                (rachat), Mauduit, Quehen, Dumontet, Charles G., Dumont, Gauchet, Courty, Kolb,
+                Bailly, Berthet, Goebel, Josse, Goudailler, Seebacher, Schneider, Briel, Garnaud,
+                Dupont J., Gravet, Barday (rachat), Lapotre, Gironnet, Féret, Juif, Popoff, Paradis,
+                Guillien, Lecandey, Bozellec, Chanteclair, Verdier, Blaise, Gautier A., Arnould E.,
+                Millet, Delmas L., Brossard, Crepin, Roche A., Parent A., Rousseau L., Mondoloni,
+                Peltier, Donizel, Houard, Bloch, Dubreuil, Feugray, Boyer P., Burgard, Guihard,
+                Pelegry, Lelée, Eiselé, Mangard, Besnard.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">ASSEMBLEES DE NOS
+                SECTIONS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Départementale de la
+                  Haute-Garonne</head>
+                <p>La Section de la Haute-Garonne s'est réunie en Assemblée annuelle le dimanche 7
+                  Avril, à 10 h . du matin, au Grand Café du Théâtre, 1, Place du Capitole, Toulouse
+                  (Haute-Garonne).</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Départementale des
+                  Bouches-du-Rhône</head>
+                <p>L'Assemblée annuelle de la Départementale des Bouches-du-Rhône s'est tenue le
+                  dimanche 7 Avril, à 10 h . du matin, au Grand Café Noailles, 1, Boulevard
+                  Dugommier, à Marseille.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Départementale des
+                  Alpes-Maritimes</head>
+                <p>La Départementale des Alpes-Maritimes tiendra son Assemblée annuelle le jeudi 11
+                  Avril prochain, à 14 h . 30 , Salle Brea, à Nice. En raison des événements il n'y
+                  aura pas cette année de Banquet.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Départementale du
+                  Tarn</head>
+                <p>La Départementale du Tarn informe les camarades de la Section que l'Assemblée
+                  annuelle aura lieu, à Albi, le dimanche 14 Avril prochain.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Départementale de la
+                  Seine-Inférieure</head>
+                <p>Les camarades de la Section sont avisés que la Départementale de la
+                  Seine-Inférieure tiendra son Assemblée annulle le dimanche 5 Mai, à Rouen.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">Groupement Régional du
+                  Nord</head>
+                <p>Le Secrétaire de la Section du Nord informe les camarades que l'Assemblée
+                  annuelle aura lieu le dimanche 5 Mai, à 14 heures précises, Salle du Conservatoire
+                  de Musique, Place du Concert, à Lille.</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+                <p>Cette réunion, qui suivra celle de Paris de huit jours, sera, de ce fait,
+                  d'information toute récente et présentera, dans les circonstances actuelles, un
+                  intérêt particulier, aussi le Comité espère-t-il que les camarades viendront
+                  nombreux.</p>
+                <p>Il n'a pu être envisagé cette année de déjeuner amical, à notre grand regret.</p>
+                <p>Léon MURET.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">Régionale de
+                  l'Ouest</head>
+                <p>Les camarades de la Loire-Inférieure, de la Vendée et des DeuxSèvres sont
+                  informés que la réunion de la Régionale de l'Ouest aura lieu à La Roche-sur-Yon,
+                  le dimanche 19 Mai. Une circulaire leur précisera en temps utile le lieu de la
+                  réunion, ainsi que l'heure qui sera subordonnée à l'heure d'arrivée des principaux
+                  trains.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">Régionale de
+                  Limoges</head>
+                <p>La Régionale de Limoges tiendra son Assemblée annuelle le 19 ou le 26 Mai
+                  prochain. La Section convoquera directement ses membres par circulaire.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">A la Départementale des
+                  Bouches-du-Rhône</head>
+                <p>La Départementale des Bouches-du-Rhône informe ses membres qu'une réunion
+                  anilicale a lieu le dernier samedi de chaque mois, de 15 heures à 18 heures, à son
+                  siège, Grand Café Noailles, 1, Boulevard Dugommier, Marseille, sauf pendant les
+                  mois de Juillet, Août et Septembre.</p>
+                <p>Les camarades de passage à Marseille sont cordialement invités à ces
+                  réunions.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">PROCES-VERBAL DE LA REUNION
+                DU CONSEIL D'ADMINISTRATION DU 9 MARS 1940</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Conan. Sont présents:
+                Conan, Favret, Guillam, Izaac, Amblard, L'Evesque, Bardoux, Bertrand, Bois, Brusson,
+                Céré-Labourdette, Courteix, <pb n="12"/>
+                <note type="foliation">— 10 —</note> Dallet, Derunder, Grillet, Lauté, Malgat,
+                Muller, Noireaux, Roy G., Satgé.</p>
+              <p>Excusés : Bloncourt, Cabasson, Fauvel, Laffargue, Leveau, Nicolaï, Scapini.</p>
+              <p>Ont donné leurs pouvoirs: au Président: Scapini ; au Secrétaire Général :
+                Laffargue, Nicolaï ; à Faüret : Cabasson. Assistaient également à la séance : MM.
+                Bloch et Iweins, membres du Comité d'Action.</p>
+              <p>En ouvrant la séance, le Président évoque les vides qui viennent de se creuser dans
+                nos rangs et rappelle que M. de Traversay était présent à notre dernière réunion. Il
+                adresse l'hommage ému du Conseil à sa famille, ainsi qu'à celle de notre camarade
+                Lagarde dont la disparition a été ressentie par tous.</p>
+              <p>Il fait part aussi aux administrateurs de la disparition de M. Wallut, qui fut un
+                fidèle bienfaiteur de l'Union.</p>
+              <p>Il souhaite ensuite la bienvenue à notre camarade Dallet qui siège pour la première
+                fois en qualité d'administrateur. Celui-ci, en quelques mots, exprime à ses
+                collègues du Conseil ses remerciements et leur fait part de son désir de collaborer
+                à l'action de l'U. A. G.</p>
+              <p>On passe ensuite à l'adoption du procès-verbal de la dernière séance. A ce propos,
+                Bloncourt demande une rectification au sujet de la radiation d'Evrat.</p>
+              <p>Il ne veut pas tenir compte des discussions d'ordre personnel, et ne retient que
+                l'attitude d'Evrat, indiquée par Muller à propos de la situation diplomatique et
+                militaire. Il est d'avis que, sur ce point particulier, une telle attitude soit
+                blâmée, mais ne s'associe pas à une mesure de radiation dans l'esprit où elle est
+                demandée.</p>
+              <p>Le procès-verbal est ensuite adopté à l'unanimité. Après quelques explications sur
+                les ressources de l'Union, la situation financière de Janvier est adoptée à
+                l'unanimité. 3) Election de deux administrateurs. - Le Conseil est appelé à élire
+                deux administrateurs en remplacement d'Evrat et de Lagarde.</p>
+              <p>La liste des candidats s'établissait de la façon suivante : Mathieu, Sibiril,
+                Eiselé, Olivier, Almey, Brebion, Mulsant, Couesnon, Philippe. Votants : 28. Ont
+                obtenu: Couesnon: 25 voix; Sibiril, 20 ; Mathieu, 7 ; Philippe, 3 ; Almey, 1.</p>
+              <p>Les camarades Couesnon et Sibiril ayant obtenu la majorité sont nommés membres du
+                Conseil d'Administration.</p>
+              <p>Allocations aux aveugles ayant eu leur pension supprimée. - Le Conseil renouvelle
+                l'allocation accordée l'année dernière aux aveugles ayant eu leur pension supprimée
+                : à Borie-François, Aulnay-sous-Bois (S.-et-O.) ......... 1.000 fr. à Frammery Paul,
+                Bomy (P.-de-C.), 2 enfants mineurs 1.200 fr.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+              <p>à Fargeot Raymond (bi-manchot) . . . . . . . . . . . . . . . . . . 4.000 fr.
+                Lecture est donnée des demandes d'adhésion de : Chanteclair Louis, 14 bis, rue aux
+                Fées, Langres (Haute-Marne), 100% art. 10, titre définitif, Carte du Combattant,
+                Statut.</p>
+              <p>Popoff Stephan, Lotissement «Les Muriers», Allauch (B.-du-Rh.), 100% art. 10, titre
+                provisoire, Carte du Combattant, Statut.</p>
+              <p>Ces camarades remplissant les conditions sont admis à l'U. A. G., le premier en
+                qualité de membre titulaire, le deuxième comme membre temporaire.</p>
+              <p>Le Conseil est appelé à accepter le legs particulier qui nous est fait par Wallut,
+                un de nos fidèles bienfaiteurs.</p>
+              <p>Après après avoir pris connaissance des dispositions testamentaires de M. Raymond
+                Wallut, demeurant en son vivant à Bruyères-le-Châtel (S.-et-O.), où il est décédé le
+                28 janvier 1940, par lesquelles il lègue par testament olographe fait à
+                Bruyères-le-Châtel le 29 mai 1935, aux Aveugles de Guerre, Président M. Scapini,
+                député, 25, rue Ballu, une somme de 50.000 francs, nette de tous frais.</p>
+              <p>Le Conseil d'Administration décide à l'unanimité d'accepter ces dispositions
+                testamentaires sous bénéfice d'inventaire et sous réserve de l'autorisation
+                préfectorale et, quant aux fonds à provenir du dit legs, de les employer en secours
+                immédiats aux Aveugles de Guerre, conformément à l'art. 1<hi rend="superscript"
+                  >er</hi> des Statuts de l'Association, donner tous pouvoirs à son Trésorier pour
+                encaisser le legs au nom de l'Union des Aveugles de Guerre, prendre tous engagements
+                et faire le nécessaire.</p>
+              <p>Assemblée Générale. - Le Bureau désirerait tenir cette année son Assemblée Générale
+                statutaire. Il ne saurait être question de donner un éclat particulier à cette
+                réunion ni de tenir plusieurs Commissions les discussions de voux devant cette année
+                être évitées.</p>
+              <p>Il est proposé d'avoir une réunion amicale le samedi 27 Avril et de tenir
+                l'Assemblée statutaire le dimanche 28 Avril, à 9 h .15 du matin.</p>
+              <p>Le Conseil partage cette manière de voir. Dallet demande à ce propos si les
+                Sections doivent se réunir comme d'habitude avant l'Assemblée ou, n'ayant pas à
+                émettre des voux, après l'Assemblée Générale, afin de faire un compte rendu aux
+                camarades.</p>
+              <p>Il est décidé qu'une circulaire sera envoyée aux Présidents de Sections, leur
+                laissant toute latitude pour l'organisation de leur réunion annuelle. Il est entendu
+                également qu'en principe les membres du Bureau ne se rendront pas dans les
+                Assemblées de Province.</p>
+              <p>Izaac demande qu'après l'Assemblée, le Conseil d'Administration élise immédiatement
+                son Bureau ; ceci éviterait la réunion d'un Conseil quinze jours après et donnerait
+                de suite les pouvoirs au Bureau.</p>
+              <p>Cette suggestion est acceptée. Il est demandé que, dans le cas où les
+                Administrateurs de Province ne pourraient assister à l'Assemblée, ils puissent voter
+                par correspondance. Le Conseil approuve cette façon de procéder à l'unanimité, sauf
+                Muller.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>Le Président fait devant le Conseil un exposé des relations extérieures de l'Union.
+                Il rappelle d'abord la motion du Conseil de l'U.A.G. en date du 13 Janvier dernier,
+                tendant à la conciliation entre les Anciens Combattants, l'accueil fait par l'U. F.,
+                les accusés de réception de l'U. N. C. et de la Confédération ; tous les documents
+                pouvant éclairer les Administrateurs sont lus.</p>
+              <p>Il résulte que, ne trouvant pas l'esprit de conciliation espéré, le Bureau a
+                démissionné de la Confédération, comme le dernier Conseil lui en avait donné le
+                pouvoir. L'Union restera à l'écart des discussions qui pourront survenir.</p>
+              <p>Le Conseil approuve l'action du Bureau. Il est procédé au tirage au sort des noms
+                des candidats au renouvellement partiel du Conseil d'Administration afin d'établir
+                le Bulletin de vote.</p>
+              <p>La liste est ainsi constituée : Philippe, Scapini, Couesnon, Conan, Fiselé, Dallet,
+                Mulsant, Laffargue, Almey, Courteix, Sibiril, Brusson, Mathieu, Lefebvre G., Nicolaï
+                J., Satgé, Brébion, Olivier.</p>
+              <p>Le Bureau informe le Conseil de ce qui a été fait pour connaître les quelques
+                nouveaux. Averugles de Guerre, être en contact avec eux et exercer l'action morale
+                de l'Union. Les Administrateurs sont d'avis que notre Association marque un intérêt
+                particulier pour les jeunes camarades, et votent un crédit de 15.000 fr . pour les
+                premières dépenses permettant d'assurer avec eux quelques relations amicales.</p>
+              <p>On acceptera les nouveaux blessés à l'Union à titre provisoire. Il est parlé de la
+                rééducation. Les Administrateurs sont d'accord avec le Bureau pour que le siège de
+                l'Union soit transféré, en cas de nécessité, dans un centre important où il puisse
+                fonctionner avec grandes facilités et efficacité. Un crédit de 50.000 fr. est prévu.
+                pour ce fonctionnement.</p>
+              <p>Le Secrétaire Général indique quelle est la situation des camarades à Boulleville,
+                cet Etablissement étant menacé de fermeture temporaire. Le Bureau fera une démarche
+                à l'Office.</p>
+              <p>Le Comité d'Accueil et d'Action des Anciens Combattants de Paris et du Département
+                de la Seine, qui s'occupe des permissionnaires, ayant sollicité l'Union, le Conseil
+                vote à ce Comité une souscription de 2.000 francs.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 18 heures.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">AVIS DIVERS</head>
+              <p>Serais acheteur Vélocar d'occasion modèle confort. Faire offre au camarade BELlERET
+                Louis, COSSONAIS, BES-SAIS-LE-FROMENTAL (Cher). A. LACOTAS, chez A. BALLANS &amp;
+                C°, 132, Quai des Chartrons, BORDEAUX (Gironde), fait offre : <list>
+                  <head>Bordeaux rouges:</head>
+                  <item>Château Millets Portets 1937, le litre.................. 5 fr. 50</item>
+                  <item>Château du Gazin Fronsac 1937, le litre.............. 6 fr. 25</item>
+                  <item>Château Ferrandat Saint-Emilion 1937, le litre........ 6 fr. 25</item>
+                  <item>Château Grand Puy Lacoste Pauillac 1937.............. 8 fr. an</item>
+                </list>
+                <list>
+                  <head>Bordeaux blancs:</head>
+                  <item>Château Millet Portets (Graves) 1934 (exceptionnel) à. 6 fr. 25</item>
+                  <item>Château Clarens Cadillac 1934 (moelleux)............ 6 fr. 25</item>
+                  <item>Cru de Saint-Jean Barsac 1934 (liquoreux).......... 9 fr. 75</item>
+                </list> Ces prix au litre nu, départ Bordeaux. Expéditions en fûts consignés :
+                barriques, demis, quarts ou huitièmes.</p>
+              <p>Echantillons sur demande.</p>
+              <p>Pour trousseaux, achats toile et lingerie, notre camarade PETITDIDIER nous informe
+                qu'il livrera aux meilleures conditions le beau linge des Vosges, garanti blanchi
+                sur pré. Livraison franco 5% d'escompte. Demander échantillons. S'adresser
+                directement à M. PETITDIDIER, 118, rue Marietton, LYON (Rhône).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">RECTIFICATION
+                D'ADRESSE</head>
+              <p>MALGAT, 5, rue Dulaure, Paris ( 20<hi rend="superscript">°</hi> ).</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">LISTE DE DONATEURS</head>
+              <p>M<hi rend="superscript">me</hi> Fischer, Paris, 10 fr. ; M<hi rend="superscript"
+                  >me</hi> Barbezier, Poussan (Hérault), 30 fr. ; M<hi rend="superscript">me</hi>
+                Gaulon, Paris, 2.000 fr. ; M. Simon Zagdoun, Le Caire, 200 fr. ; M<hi
+                  rend="superscript">tre</hi> de Freycinet, Paris, 100 fr. ; M. Varin, Guethary
+                (BassesPyrénées), 20 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">DON AVEC AFFECTATION POUR LA
+                " MAISON DES AVĘUGLES DE GUERRE "</head>
+              <p>Notre camarade Courty, 50 fr.</p>
+              <pb n="17"/>
+              <pb n="18"/>
+              <pb n="19"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire Scapini, Président honoraire Bourgurgnon, Secrétaire
+              général honoraire Favret, Secrétaire général honoraire Conan, Secrétaire général
+              honoraire Amblard, Secrétaire général honoraire</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">Conseil d'Administration</head>
+            <p>Président : Conan Vice-Présidents: Favret, Guillam, Izaac Secrétaire général: Amblard
+              Trésorier: Gaston L'Evesque</p>
+            <p>Membres: Bardoux, Bertrand, Bloncourt, Bois, Brusson, Cabasson, Céré-Labourdette,
+              Couesnon, Courteix, Dallet, Defrindér, Fauvel, Grillet, Laffargue, Lauté, Leveau,
+              Malgat, Muller, Nicolai, Noireaux, Roy (Georges), Satgé, Scapini, Sibiril.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">Comité d'Action</head>
+            <p>M<hi rend="superscript">the</hi> Arbel, Vice-Présidente honoraire. \dagger Président:
+              M. de Traversay. Vice-Présidentes <hi rend="superscript">M</hi><hi rend="superscript"
+                >ann</hi> Contamin. <hi rend="superscript">M</hi><hi rend="superscript">ann</hi>
+              L'Evesque. M. Bloch, adjoint au Trésorier. M. Iweins, Secrétaire du Comité d'Action.
+              M. Auterbe, Directeur à la Compa- gnie "L'Union ". M<hi rend="superscript">tun</hi> du
+              Bos; M<hi rend="superscript">can</hi> Broquin ; M. de Chaumont-Quitry ; M. Chepfer ;
+              Mion Chevalier ; M<hi rend="superscript">the</hi> Jalaguier ; M<hi rend="superscript"
+                >tun</hi> Lévy-Weis ; M. Julien Mayer. Colonel de Traversay.</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+
+          <fw>Gérant: DECOENE:. IMPRIMERIE CARON &amp; Cie, 34. RUE DEMOLOMBE, CAEN</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
