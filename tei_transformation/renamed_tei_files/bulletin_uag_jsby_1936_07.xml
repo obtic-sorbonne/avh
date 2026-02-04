@@ -1,0 +1,922 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 18ème année 1936, n°7</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Assurances</title>
+        <title type="topic">Solidarité</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 23 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#blesses-aux-yeux">Blessés aux yeux</term>
+          <term ref="#secours">Secours</term>
+          <term ref="#association">Association</term>
+          <term ref="#bulletin">Bulletin</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre fournit des informations détaillées
+          sur les activités de l'organisation, y compris la formation du bureau, les vacances, les
+          remerciements des aveugles de guerre étrangers suite à l'inauguration de la Maison de
+          l'U.A.G., et les démarches entreprises concernant les pensions et les assurances. Il
+          inclut également une chronique de l'U.A.G. avec des informations sur la caisse
+          fraternelle, les naissances, les mariages, les décès, les cotisations, la liste des
+          membres n'ayant pas participé au vote du conseil d'administration, et le procès-verbal de
+          la réunion du conseil du 6 juin 1936. Des informations sur les postes de T.S.F. sont
+          également incluses.</p>
+      </abstract>
+      <creation>
+        <date when="1936-07-01">01/07/1936</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h6">FORMATION DU BUREAU DE L'U.A.G.</ref>
+          </item>
+          <item>
+            <ref target="#h7">VACANCES</ref>
+          </item>
+          <item>
+            <ref target="#h8">REMERCIEMENTS DES AVEUGLES DE GUERRE ÉTRANGERS</ref>
+            <list>
+              <item>
+                <ref target="#h9">Dr EHLERS, délégué des Aveugles de Guerre allemands</ref>
+              </item>
+              <item>
+                <ref target="#h10">M. Eric BALL, délégué des Aveugles de Guerre anglais</ref>
+              </item>
+              <item>
+                <ref target="#h11">M. TOGNONI, délégué de l'Association Nationale des Mutilés et
+                  Invalides de Guerre</ref>
+              </item>
+              <item>
+                <ref target="#h12">M. MARTINA, Conseiller d'Etat, Président de la Maison du Travail
+                  pour ies Aveuoles de Guerre</ref>
+              </item>
+              <item>
+                <ref target="#h13">M. HOLLMANN, délégué des Aveugles de Guerre Tchécoslovaques</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h14">DÉLÉGATION</ref>
+          </item>
+          <item>
+            <ref target="#h15">SUPPRESSION DU DÉCRET DU 16 JUILLET 1935 IMPOSANT LES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h16">ASSURANCES</ref>
+          </item>
+          <item>
+            <ref target="#h17">UNE DÉCORATION</ref>
+          </item>
+          <item>
+            <ref target="#h18">LETTRE DE BEDA</ref>
+          </item>
+          <item>
+            <ref target="#h19">T.S.F.</ref>
+          </item>
+          <item>
+            <ref target="#h20">Chronique de l'U.A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h21">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h22">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h23">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS POUR L'ANNÉE 1936</ref>
+              </item>
+              <item>
+                <ref target="#h28">LISTE DES CAMARADES N'AYANT PAS PRIS PART AU VOTE POUR LE
+                  RENOUVELLEMENT DU CONSEIL D'ADMINISTRATION</ref>
+              </item>
+              <item>
+                <ref target="#h29">PROCÈS-VERBAL DE LA RÉUNION DU CONSEIL D'ADMINISTRATION DU 6 JUIN
+                  1936</ref>
+              </item>
+              <item>
+                <ref target="#h30">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h31">LISTE DES DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h32">Dons avec affectation spéciale pour la Maison des Aveugles de
+                  Guerre</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h33">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h34">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h35">Comite d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">18e Année. — N° 7</fw>
+          <fw type="header">
+            <hi rend="underline">JUILLET 1936</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Formation du Bureau de l'U.A.G.</item>
+                    <item>Vacances.</item>
+                    <item>Remerciements des Aveugles de Guerre Étrangers.</item>
+                    <item>Délégation.</item>
+                    <item>Suppression du décret du 16 juillet 1935 imposant nos pensions.</item>
+                    <item>Assurances.</item>
+                    <item>Une décoration.</item>
+                    <item>Lettre de Beda.</item>
+                    <item>T.S.F. (Avis de la S.S.B.M.)</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre Nous.</item>
+                    <item>Cotisations 1936.</item>
+                    <item>Liste des camarades n'ayant pas pris part au vote pour le renouvellement
+                      du Conseil d'Administration.</item>
+                    <item>Procès-verbal de la réunion du Conseil du 6 juin 1936.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de Donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier; M. Brisac, Préjet; M. J. Ridgely-Carter; M. Paul de Cassagnac,
+              ancien Député; M. Maurice Donnay, de l'Académie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              ancien Sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer, Conseiller
+              d'Etat; M. Henry Paté, Député; \dagger M<hi rend="superscript">e</hi> Henri-Robert, de
+              l'Académie française, ancien Bâtonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; \dagger M. Vallery-Radot;</p>
+            <pb n="3"/>
+          </div>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE N° 7 - JUILLET 1936</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">FORMATION DU BUREAU DE
+              L'U.A.G.</head>
+            <p>Au cours de la séance du Conseil d'Administration du 20 juin 1936, le Bureau de
+              l'U.A.G. a été constitué ainsi qu'il suit :</p>
+            <p>Président: Scapini. Vice-Présidents: Bois, Conan, Lauté. Secrétaire Général : Favret.
+              Trésorier : L'Evesque (élu par l'Assemblée Générale).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">VACANCES</head>
+            <p>En raison de la période des vacances, nos camarades sont instamment priés de
+              n'adresser au Bureau de l'U.A.G. pendant le mois d'août que des lettres ou demandes
+              présentant un caractère de réelle urgence.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Je n'ai pu, mes chers camarades, remercier individuellement tous ceux d'entre vous
+              qui m'ont adressé leurs félicitations à l'occasion de ma reprise des fonctions de
+              secrétaire général.</p>
+            <p>Je profite de la voie du bulletin pour le faire très amicalement. Soyez persuadés que
+              vos encouragements me sont infiniment précieux et que la lourde tâche dont j'ai assumé
+              la charge, après de pressantes sollicitations, me semblera plus légère si je me sens
+              entouré de la bienveillante sympathie dont vous m'avez déjà donné tant de preuves. Je
+              ferai tous mes efforts, afin que le brillant résultat obtenu par mes dévoués
+              prédécesseurs, à qui j'adresse ici mes bien affectueuses félicitations, conserve tout
+              son éclat.</p>
+            <p>En collaboration constante avec votre Conseil d'Administration, votre Bureau
+              s'efforcera d'obtenir réparation de la grande injustice qui, en privant de ressources
+              indispensables une partie de nos camarades, préoccupe particulièrement nos
+              consciences.</p>
+            <p>Une lourde responsabilité incombe à votre Conseil d'Administration, celle d'animer,
+              de rendre vivante notre chère maison, afin de permettre à ceux d'entre nous,
+              susceptibles d'y vivre ou d'y séjourner, d'y trouver tout l'accueil et la chaleur
+              intimes d'un grand foyer familial.</p>
+            <p>Je vous demande d'encourager votre Conseil, de le soutenir de votre sympathie et de
+              lui communiquer vos suggestions. Restez en relations proches et cordiales avec lui:
+              plus nous serons unis, plus nous serons forts.</p>
+            <p>Les camarades désireux de me rencontrer me trouveront à l'Union les lundi, mercredi
+              et samedi, de 9 heures à midi, où ils pourront m'entretenir des sujets les
+              intéressant. R. FAVRET.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">REMERCIEMENTS DES AVEUGLES DE
+              GUERRE ÉTRANGERS</head>
+            <p>Les aveugles de guerre étrangers que nous avions invités à l'inauguration de notre
+              Maison et à notre Banquet, rentrés dans leurs pays respectifs, nous ont adressé des
+              lettres nous remerciant de l'accueil qu'ils ont reçu à l'Union de Aveugles de
+              Guerre.</p>
+            <p>Nous sommes persuadés que nos camarades seront heureux de constater à la lecture de
+              ces lettres les sentiments d'amitié qui nous unissent aux aveugles étrangers avec
+              lesquels nous entretenons de cordiales relations.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Dr EHLERS, délégué des
+                Aveugles de Guerre allemands</head>
+              <p>(Lettre transmise par M. Bloch) Ayant abandonné depuis plusieurs jours le sol
+                hospitalier de la France, et de retour chez moi, je cherche les mots traduisant avec
+                sincérité nos remerciements que nous vous adressons de tout cœur.</p>
+              <p>Animé d'un vif sentiment de camaraderie, vous vous êtes occupé de nous sans arrêt,
+                d'une façon si amicale, si hospitalière, avec un tel désintéressement que, grâce à
+                votre amabilité et à votre bienveillance, notre séjour à Paris constituera pour nous
+                un souvenir agréable et inoubliable.</p>
+              <p>Je me permets de vous transmettre enfin, au nom de M. le Docteur Dieck et de ma
+                femme nos remerciements sincères et cordiaux.</p>
+              <p>Ces remerciements s'adressent en même temps à M. le Président Scapini et à tous nos
+                camarades aveugles de guerre de France qui ont bien voulu nous inviter à
+                l'inauguration de leur maison, veuillez, je vous prie, être l'interprète de nos
+                sentiments.</p>
+              <p>Les jours passés à Paris sont inoubliables pour moi ; j'ai rapporté l'impression,
+                la conviction et je la propagerai ici, que la rencontre des aveugles de guerre des
+                différentes nations est utile au bien et au bonheur de notre commune destinée et
+                qu'elle hâte l'avènement de la paix entre les peuples.</p>
+              <p>Des heures de camaraderie vécues en commun, de ces entretiens personnels et sans
+                caractère officiel, je crois pouvoir conclure que nous <pb n="6"/>
+                <note type="foliation">— 4 —</note> nous sommes vraiment sentis plus près les uns
+                des autres; la grande amabilité des femmes de nos camarades nous a causé le plus vif
+                plaisir et nous incite à penser à tous moments à votre beau pays.</p>
+              <p>J'espère que vous avez bien supporté les fatigues de ces dures journées, que vous
+                êtes en bonne santé.</p>
+              <p>Je forme le vœu que les relations se maintiennent entre nous et que notre rencontre
+                de quelques jours se renouvelle.</p>
+              <p>En vous remerciant encore une fois pour votre exquise hospitalité, restant votre
+                obligé, je vous adresse mes vœux de sincère camaraderie.</p>
+              <p>Votre dévoué, Dr Ehlers.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">M. Eric BALL, délégué des
+                Aveugles de Guerre anglais</head>
+              <p>(Lettre transmise par M. Amblard) Le premier de mes devoirs qui m'est aussi un
+                plaisir, à mon retour à Londres est d'écrire pour remercier l'U.A.G. de la très
+                aimable hospitalité qui m'a été réservée pendant mon séjour à Paris la semaine
+                dernière.</p>
+              <p>J'ai été très heureux d'aller vous voir et je conserverai toujours le meilleur des
+                souvenirs des cérémonies auxquelles j'ai eu le privilège d'assister en tant que
+                représentant de St-Dunstan's et de la bienvenue amicale que tous m'avez donnée.</p>
+              <p>Permettez-moi de vous remercier personnellement ainsi que Mme Amblard pour vos
+                nombreuses amabilités et d'exprimer l'espoir de vous rencontrer à Londres lors de
+                votre prochain passage dans cette ville.</p>
+              <p>Avec mes meilleurs souhaits, Sincèrement vôtre, Signé : Eric Ball.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">M. TOGNONI, délégué de
+                l'Association Nationale des Mutilés et Invalides de Guerre</head>
+              <p>(Adressée au Président de l'U.A.G.) Je désire vous renouveler encore mes plus
+                cordiaux remerciements <pb n="7"/>
+                <note type="foliation">— 5 —</note> pour le si aimable accueil que vous avez bien
+                voulu me réserver à l'occasion de mon séjour à Paris.</p>
+              <p>Je vous assure que j'ai été très honoré d'avoir pu représenter, comme m'en avait
+                chargé Carlo Del Croix, les Aveugles de Guerre Italiens à l'inauguration solennelle
+                de la splendide Maison que vous avez voulu fair ériger pour le repos de nos
+                valeureux Camarades Français.</p>
+              <p>La noble activité que vous, Illustre Camarade, avez dépensé et dépensez en faveur
+                de vos compagnons aveugles a suscité en moi une admiration profonde et émue.</p>
+              <p>Je veux espérer qu'il nous sera donné, très prochainement, la joie de vous avoir,
+                Illustre Camarade, comme notre hôte honoré à Rome, et de pouvoir vous prouver à
+                nouveau cet esprit de sincère camaraderie dont les Aveugles de Guerre Italiens se
+                sentent liés à leurs valeureux frères Aveugles de Guerre Français.</p>
+              <p>Viendrez-vous à Rome pour le 4 novembre? En vous priant de transmettre mes plus
+                respectueux hommages à Mme Scapini, je vous prie, Illustre Camarade, de vouloir
+                accepter ma plus cordiale poignée de mains.</p>
+              <p>Votre bien attaché, Signé : ToGNONI.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">M. MARTINA, Conseiller
+                d'Etat, Président de la Maison du Travail pour ies Aveuoles de Guerre</head>
+              <p>Italiens (Adressée au Président de l'U.A.G.) Veuillez accepter, monsieur le
+                Président, les vifs et respectueux remerciements de cette Institution, ainsi que les
+                miens personnels, pour l'aimable accueil que vous et vos valeureux camarades avez
+                bien voulu me réserver à l'occasion des cérémonies d'inauguration de la Maison des
+                Aveugles de Guerre de Paris.</p>
+              <p>De cet affectueux accueil et de l'exquise hospitalité que vous nous avez offerte,
+                nous garderons un cher et ineffaçable souvenir.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>Le Président de l'Association Nationale des Mutilés d'Italie, On. Carlo Delcroix a
+                l'intention d'inviter, en novembre prochain les Délégations étrangères pour
+                l'inauguration de l'agrandissement de la Maison Mère des Mutilés de Rome.</p>
+              <p>Nous sommes donc heureux de pouvoir, en novembre, vous rendre, ainsi qu'à vos
+                nobles et chers camarades français, les marques de sympathie que nous avons reçues
+                de vous à Paris.</p>
+              <p>Veuillez recevoir également nos vives et profondes félicitations pour la superbe
+                réussite des cérémonies d'inauguration du nouvel Etablissement qui a couronné vos
+                nobles efforts en faveur des Aveugles de Guerre et qui représente une œuvre
+                admirable, tant au point de vue architectural qu'en ce qui concerne le réconfort
+                apporté aux glorieux camarades Aveugles de Guerre de France.</p>
+              <p>Veuillez accepter, monsieur le Président, l'expression de la gratitude et des
+                sentiments dévoués des Aveugles de Guerre de cette Institution et les miens
+                personnels.</p>
+              <p>Le Président, Consciller d'Etat : Signé : Dr G. Martina.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">M. HOLLMANN, délégué des
+                Aveugles de Guerre Tchécoslovaques</head>
+              <p>(Transmise par M. Amblard) Rentré à Prague, j'ai été malade pendant deux semaines
+                et n'ai pu pour cette raison vous écrire qu'aujourd'hui. Je vous prie de bien
+                vouloir m'en excuser.</p>
+              <p>Je vous remercie encore une fois, mon cher Camarade, en mon nom personnel et en
+                celui de M. Sneiberg, du bon accueil qui nous a été réservé par l'Union des Aveugles
+                de Guerre.</p>
+              <p>J'ai reçu il y a quelques jours quelques photographies de l'inauguration de votre
+                belle maison; j'en ai été très touché et vous en remercie vivement.</p>
+              <p>Nous avons gardé un bon souvenir de notre séjour à Paris et en vous priant de
+                transmettre mes compliments très distingués à Mme Amblard, je vous prie de croire,
+                mon cher Camarade, à l'assurance de mes sentiments les plus cordiaux.</p>
+              <p>Signé : Hollmann.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">DÉLÉGATION</head>
+            <p>La Sous-Commission de la Confédération, conduite par son secrétaire général, M.
+              Rivollet, accompagné d'une délégation de l'Union des Aveugles de Guerre (Scapini,
+              Bois, Lauté, Amblard, Favret), a été reçue par M. Rivière, Ministre des Pensions, le
+              24 juin 1926.</p>
+            <p>Scapini, au nom de l'U.A.G., a demandé au Ministre que tous les aveugles de guerre,
+              pensionnés en vertu des lois du 31 mars et 24 juin 1919, bénéficient du statut. Il a
+              signalé à M. Rivière que cette extension du statut en faveur d'environ 200 aveugles de
+              guerre, qui en sont actuellement exclus, ne coûterait au Trésor qu'une somme
+              approximative de deux millions.</p>
+            <p>La délégation a entretenu également le Ministre des Pensions de la situation des
+              bénéficiaires de l'article 69, exclus eux aussi du bénéfice du statut.</p>
+            <p>Le Secrétaire Général de la Confédération a appuyé auprès du Ministre et auprès des
+              membres de la Sous-Commission la demande présentée par l'Union.</p>
+            <p>La délégation de l'U.A.G. a en outre demandé à M. Rivière d'examiner avec la plus
+              grande bienveillance les dossiers des aveugles de guerre soumis à la révision. Le
+              Ministre a assuré la délégation de toute sa sympathie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">SUPPRESSION DU DÉCRET DU 16
+              JUILLET 1935 IMPOSANT LES PENSIONS</head>
+            <p>Une loi en date du 17 juin 1936 abroge les dispositions du décret du 16 juillet 1935
+              concernant l'imposition des pensions de la loi du 31 mars 1919, de la retraite du
+              combattant et des rentes viagères et allocations temporaires accordées aux victimes
+              d'accidents du travail.</p>
+            <p>Article premier. - Sont abrogées les dispositions du décret du 16 juillet 1935
+              supprimant diverses exonérations aux impôts directs sur les revenus.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>Art. 2. - Sont rétablies dans leur teneur antérieure aux modifications apportées par
+              le décret visé à l'article précédent, les dispositions des articles 61(1<hi
+                rend="superscript">°</hi>, 2<hi rend="superscript">°</hi>. et .3<hi
+                rend="superscript">°</hi>) ; 65 (alinéa 3) ; 110(1<hi rend="superscript"
+                >°</hi>) du code général des impôts directs.</p>
+            <p>Art. 3. - Les dispositions précédentes auront leur effet à compter du 1<hi
+                rend="superscript">er</hi> janvier 1936.</p>
+            <p>Nous informons donc nos camarades qu'en vertu de cette nouvelle loi, ils n'auront
+              plus désormais à faire figurer dans leur déclaration d'impôt le montant de leur
+              pension, et de la retraite du combattant.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">ASSURANCES</head>
+            <p>Nous informons nos camarades que la Commission, nommée par le Conseil en vue
+              d'étudier les possibilités de sauvegarder l'avenir des veuves de nos camarades par une
+              assurance, a commencé ses travaux.</p>
+            <p>Nous mettons les membres de l'U.A.G. en garde contre les démarches de certains
+              courtiers d'assurances qui se présentent au nom de notre Association et leur rappelons
+              que notre Groupement n'a jamais autorisé aucun agent d'assurance à se recommander de
+              l'Union des Aveugles de Guerre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">UNE DÉCORATION</head>
+            <p>Nous sommes heureux de porter à la connaissance de nos camarades que notre camarade
+              Mulsant François, Président de notre Groupement de la Région de Lyon, a obtenu la
+              croix de combattant volontaire, par décision de M. le Ministre de la Marine, en date
+              du 18 mai dernier.</p>
+            <p>Nous félicitons bien vivement notre camarade de la distinction dont il vient d'être
+              l'objet.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">LETTRE DE BEDA</head>
+            <p>Notre camarade Beda, de Villeneuve-sur-Bellot (S.-et-M.), nous demande d'insérer la
+              lettre suivante :</p>
+            <p>" Mes chers Camarades,</p>
+            <p>" J'ai le grand plaisir de venir, par l'entremise de ce bulletin, remercier très
+              vivement les nombreux camarades ayant appris le 24 mai en cours d'Assemblée Générale
+              ma cruelle indisposition et qui m'ont exprimé par lettre toute leur sympathie et leurs
+              souhaits de prompt et complet rétablissement. " Je puis maintenant les rassurer sur
+              mon état de santé si fortement ébranlé par cette congestion cérébrale, ces lettres
+              ayant été tellement nombreuses que je m'excuse de n'avoir pu y répondre
+              individuellement. Les sentiments d'affection qu'elles contenaient toutes m'ont
+              profondément touché, à la fois qu'elles m'ont été d'un précieux réconfort; à tous
+              leurs auteurs, je dis : merci. "P. BEDA. "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">T.S.F.</head>
+            <p>La "S.S.B.M. " nous demande de porter à la connaissance de nos camarades la note
+              suivante: "Pour la période des vacances, les Etablissements Telemax, fournisseurs du
+              Bureau des Aveugles de la S.S.B.M. (Croix Rouge Française) pour les postes de T.S.F.,
+              ont créé un appareil transportable, particulièrement approprié aux voyages en raison
+              de sa légèreté ayant, sous un volume réduit, tous les derniers perfectionnements de la
+              technique actuelle : c'est un poste 5 lampes, super-hétérodyne, marchant sur tous
+              courants (alternatif, continu 110 et 220 volts). Deux gammes d'ondes 200 à 600 m . et
+              800 à 2.000 m ., type 56. "Livré dans une mallette gainée, à intérieur molletonné,
+              permettant le transport facile et sans risque, pointé en braille à la demande des
+              aveugles, au prix net de 490 francs, mallette comprise.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+            <p>"Ce modèle ne fait pas double emploi avec le type 65, 3 gammes d'ondes, toujours en
+              faveur dans la clientèle des aveugles de guerre, qui est livré pointé en braille, au
+              prix net de 800 francs. Il est moins transportable que le précédent, mais son
+              rendement, sa sonorité et sa puissance sont supérieurs. " La S.S.B.M. se charge des
+              frais de transport et accorde une aide, à déduire des prix ci-dessus indiqués : " 1"
+              de 100 francs pour le type 56, ce qui le ramène à 390 fr. ; " 2" de 200 francs pour le
+              type 65 , ce qui le ramène à 600 fr. ; " Adresser toutes les demandes directement à la
+              S. S. B. M., 21, rue François-I<hi rend="superscript">er</hi>, Paris. "</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">Chronique de l'U.A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué entre le 1<hi rend="superscript">er</hi> et le
+                30 juin une somme de 25.540 francs, se répartissant comme suit :</p>
+              <p><list>
+                  <item>Allocations naissances — 2.400 fr.</item>
+                  <item>Allocations décès — 6.360 fr.</item>
+                  <item>Allocations caisse-maladie — 16.780 fr.</item>
+                </list> Il y a lieu d'ajouter à ces 25.540 francs une somme de 52.200 fr . pour
+                prêts maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 22 demandes, dont 5 n'ont donné
+                lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">Naissances</head>
+                <p>Notre camarade et Mme Moricel, de Le Pertre (I.-et-V.), nous font part de la
+                  naissance de leur troisième enfant, Yvonne, née le 12 juin 1936.</p>
+                <p>Notre camarade et Mme Passebon, de Bonneuil (Deux-Sèvres), nous font part de la
+                  naissance de leur cinquième enfant, Henriette, née le 14 juin 1936.</p>
+                <p>Notre camarade et Mme Bitsch (Joseph), de Belfort, nous font part de la naissance
+                  de leur quatrième enfant, Michel, né le 9 juin 1936.</p>
+                <p>Notre camarade et Mme Berrié (Célestin), de Castelsarrasin (T.-et-G.), nous font
+                  pari de la naissance de leur cinquième enfant, Monique, née le 15 juin 1936.</p>
+                <p>Notre camarade et Mme Batot de Herbaville, Saint-Michel-surMeurthe (Vosges), nous
+                  font part de la naissance de leur fils, Jacques, né le 16 mai 1936.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+                <p>Notre camarade et Mme Arliac, d'Argentat, nous font part de la naissance de leur
+                  cinquième enfant, René, né le 22 juin 1936.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">Mariages</head>
+                <p>Notre camarade Decogné (Louis), de Neobecq (Indre), nous fait part de son mariage
+                  avec Mlle Juliette Méjoint, célébré le 2 juillet 1936.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">Décès</head>
+                <p>Nous apprenons le décès de : ANotre camarade Royer (André-Joseph), de
+                  Margny-les-Compiègne (Oise), décédé le 26 juin 1936, à l'âge de 45 ans.</p>
+                <p>Né le 15 avril 1891 à Alaincourt (Aisne), soldat au 42<hi rend="superscript"
+                    >°</hi> Régiment d'Artillerie, notre camarade fut blessé le 7 juillet 1916 au
+                  Ravin de la Mort; réformé à 200% art. 10 et 12 pour cécité complète, amputation du
+                  bras gauche et blessures multiples, Officier de la Légion d'honneur et titulaire
+                  de la Médaille Militaire, il laisse une veuve et un enfant.</p>
+                <p>De notre camarade Cariou (Yves), décédé le 3 avril 1936, à l'âge de 50 ans.</p>
+                <p>Né le 24 janvier 1886, à Quemeneven (Finistère), sergent au 2<hi
+                    rend="superscript">°</hi> Régiment d'Infanterie Coloniale, notre camarade fut
+                  blessé le 28 septembre 1915, à Souain. Réformé à 120%, art. 10 et 12 , pour cécité
+                  complète et blessures multiples, Officier de la Légion d'honneur, titulaire de la
+                  Médaille Militaire, il laisse une veuve et trois enfants.</p>
+                <p>De la femme de notre camarade Holzem, de Clichy (Seine), décédée le 18 juin 1936,
+                  à l'âge de 46 ans.</p>
+                <p>De la belle-mère de notre camarade Duchamp, de Lesbœufs, par Combles (Somme),
+                  décédé à l'âge de 81 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                ont tenu à effectuer un nouveau versement :</p>
+              <p>David (E.), 5 fr.; Carpentier (C.), 10 fr.; Marrot (J.), 5 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS POUR L'ANNÉE
+                1936</head>
+              <p>Valade, Gautier (R.), Dussaud, Vincendo, Lauté, Labatut, Nottin, Odoul, Veau, Luc
+                (C.), Mauny, David (E.), Hesnard, Devliegher, Godard, Glorian, Vincent (G.), Fleury,
+                Marouzet, Besnard, Goosens, Barbette (S.), Vitré, Saynmiard, Gelin, Fereyre,
+                Ceysson, Henriet, Guérin (G.), Grand (J.), Fessard, Roy (J.), Davaillon, Lecaudey,
+                Juillard, Bosquet, Baudin, Bourotte, Benoit (J.), Serdobell, Ursat, Carpentier (C.),
+                Riffelmacher, Merlet, Daviau, Ott, Senechal, Meynardie, Carudel, Chavin, Levesque,
+                Loizeau (A.), Lagarde (P.), Braun, Aubin, Passenaud, Nicolet, Bathelier, Manche,
+                Delattre, Labre, Lebourg, Niant, Boissard, Malgoire, Doudard, Bugnet, Moussay,
+                Borla, Tanis, Lannes, Lapébie (E.), Aubry, Auclair, Marguet, Becker (J.), Rols,
+                Cordon, Tourneux, Goudal, Jonchier, Abraham, Margat, Michot, Marchand (D.),
+                Wendling, Giorgetti, Reynès (G.), Lathuile, Foucher, Faudot, Millepied, Degueuse,
+                Lieutaud, Pialat, Buissonnière, Renat, Delourmel, Poezevara, Caron (O.), Moisan,
+                Oudinot, Bled, Mautemps, Daridan, Lacoste (J.), Muller (G.), Mege, Flandre, Touzet
+                (F.), Lafaye, Madeleine, Rouméas, Focé, Lafaille, Gibert, Robineau, Pichonneau,
+                Ferrari, Mercier (R.), Hipolite, Marrot (J.), Sabier, Ristori, Chassagny, Deldora,
+                Petit (J.-E.), Mirouze, Dimitrieff, Vaudelin, Kamfri Brahim, Lauro, Viel, Fondement,
+                Lépine, Marinèche, Houpert (M.), Richard (H.), Baizet, Prault, Batôt, Leblond (A.),
+                Billoud, Rathery, Favre, La Porte, Georges (A.), Lefèvre (E.), Leveau (R.), Goussin,
+                Gary, Arnault, Nazaire, Huet (H.), Chatin, Daumas, Barette, Piette, Plenacoste,
+                Martin (C.), El Kheir Hamza, Devidal, Barriol, Molinas, Ragon, Peron, de
+                Fontenilles, Debeaurain, Laloit, Garnerie, Durand (R.).</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">LISTE DES CAMARADES N'AYANT
+                PAS PRIS PART AU VOTE POUR LE RENOUVELLEMENT DU CONSEIL D'ADMINISTRATION</head>
+              <p>Conformément à une décision prise au cours de notre dernière Assemblée Générale,
+                nous publions ci-dessous la liste des membres de l'U.A.G. n'ayant pas pris part au
+                vote pour le renouvellement du Conseil d'Administration.</p>
+              <p>Nous informons en outre nos camarades qu'un certain nombre de bulletins nous sont
+                parvenus trop tard pour le dépouillement.</p>
+              <p>Abeilhe (Paul). Aboudarham (Henri). Addallah ben Ali ben Attig. Albouy (Ernest).
+                Aldéguer (Joseph). Ali ben Mohamed Trabelsi. Alison (Elie). Allegrini (Louis).
+                Alvergne (Jules). Amar (Joseph). Andrieu (Pierre). Angoyat (Fernand). Anson
+                (Eugène). Archambault (Louis). Arendt (Lucien). Arnaud (Antoine). Arnould (Emile).
+                Arona (Marigor). Artus (Jean). Aubert (Sauveur). Aubin (Paul). Augé (Jean). Aumasson
+                (Léon). Bac (Isidore). Baizet (Pierre). Balester (Jean-B.). Ballay (Louis).</p>
+              <p>Baranger (Daniel). Barbette (Louis). Bardet (Ernest). Barlet (Raymond). Baudon
+                (Louis). Bayle (Maurice). Bazas (Jean). Beauquesne (Henri). Béguin (Irénée).
+                Belgacem ben Mohamed ben El Hadj Salah. Bellesœur (Joseph). Belliot (Charles).
+                Belmontet (Joseph). Benoit (Jean). Bentejac (Bernard). Bergadieu (François).
+                Bérigaud (Jean). Berruel (Louis). Berton (Roger). Betoux (Maurice). Beucher
+                (Alphonse). Bibois (Jean). Bignon (Georges). Biourd (Emile). Bitsch (Joseph).
+                Blanchon (Louis).</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Bloch Charles. Bluteau (Auguste). Bocquet (Maurice). Boillot (Paul). Boissard
+                (Pierre). Bouché (René). Boulert (Romain). Bourguignon (Octave). Boursceiller
+                (Fernand). Bousquet (Joseph). Boutaric (Auguste). Brahim ben Almed ben Amor. Brailly
+                (Pierre). Brevet (André). Briel (Eugène). Brun (Georges). Buckel (Georges). Braun
+                (Jules). Breton (Etienne). Burnier (Jean). Cabrillac (Henri). Cantarel (Firmin).
+                Capelle (Julien). Cardaliaguet (Louis). Caron (Ovide). Caron (Germain). Carpentier
+                (Emile). Castagné (Théodore). Castel (François). Cattaert (Paul). Champonnier
+                (Octave). Chanial (Victor). Chaplais (Louis). Chardon (René). Chasselade (Joseph).
+                Chaumerac (Albert). Chavin (Jules). Chesneau (Louis).</p>
+              <p>Citron (Pierre). Clairotte (Daniel). Clément (Pierre). Clerc (André). Cloup
+                (Roger). Cluze (Antoine). Coignoux (Hippolyte). Colleuile (M.). Comble (Paul). Comte
+                (Auguste). Constantin (Paul). Cornet (Joseph). Coudrai (Jules). Coulaud (Nestor).
+                Courtier (Emile). Danger (Henri). Dargegen (Xavier). Daridan (Louis). Davaillon
+                (Emile). Daviau (Alphonse). Daviaud (Henri). David (Joseph). David (Léopold).
+                Debeaurain (Emile). Déglise (Frédéric). Dehner (Robert). Delage (Gaston). Delforge
+                (Antoine). Delfosse (Lucien). Delhez (Jean). Delhommais (René). Demontpion (Fr.).
+                Desangles (Aimé). Désert (Gaëtan). Desjardins (Paul). Dessis (Léon). Detœuf
+                (Joseph). Devienne (Jules).</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Devliegher (Georges). Dimitrieff. Douale (Léon). Doudard (Joseph). Douillet
+                (Alphonse). de Dreuille (Léon). Dubois (Gustave). Dubuisson (Michel). Duc (Jean).
+                Dufau (André). Dulucq (Jean). Dumont (Maurice). Durand (René). Dury (Henri). Dussaud
+                (Isnel). Duvallet (Charles). Duvigneau (Henri). El Kheir Ben Hamza. Envin (Gustave).
+                Estorges (J.-B.). Evette (Raphaël). Falcou (Germain). Faucon (Louis). Favier
+                (Camille). Ferrari (Louis). Finot (Gaston). Fitas (Boubeckeur). Flandre (Marceau).
+                Fleury (Henri). Fournier (Charles). Franc (Joseph). François (Elie). Felgeirolles
+                (Henri). Fourrer (François). Gable (Alponse). Garcin (Marie). Garnerie (Pierre).
+                Gary (Firmin).</p>
+              <p>Gatineau (Marcel). Gaultier (René). Gautier (René). Gautier (René). Gautier
+                (Louis). Gauthier (Julien). Gedin (Donnat). Gélin (Jules). Ghalli ben Mohamed.
+                Gloaguen. Gobillard. Godard. Goessens (Bernard). Gohin (Constant). Golhaardt
+                (Albin). Gorce (Pierre). Goudal (Jules). Goujon (René). Goulet (Louis). Goumy
+                (Adrien). Goussin (J.-B.). Granger (Jean). Gravet (Léon). Grienemberger (Henri).
+                Grillet (Aubert). Guérin (Gaston). Guevello (Jean). Guibert (Yvan). Guignon
+                (Frédéric). Guilbot (Eugène). Guillam (Edmond). Guillemin (Marcel). Guillien (Paul).
+                Guis (Antonin). Guiton (François). Haguerelle (Raymond). Hamon (Victor). Harrivelle
+                (René).</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Harter (Paul). Hébert (Georges). Hermann (Lucien). Hilaire (Gustave). Icard
+                (Victorin). Jabouille (Charles). Jaffré (Pierre). Jauretche (Pierre). Jézéquel
+                (Yves). Jonchier (Claude). Josse (Vincent). Joubrel (Joseph). Juhel (Emile).
+                Juillard (Maurice). Junot (Joseph). Kerrien (Jean). Kromer (Louis). Labat (Jean).
+                Labbé (Barthélemy). Lachaize (Gaston). Laclau (Joseph). La Coste de Fontenilles.
+                Lafaille (Henri). Lafaye (Marcel). Lais (Eugène). Laligue (Antoine). Lallement
+                (Henri). Lalœuf (Lucien). Laloit (Léopold). Lamy (Emest). Langeard (Albert). Lannes
+                (Edouard). Lantres (Jean). Lapébie (Ernest). Laporte (Ernest). La Porte (Emile).
+                Lardet (Pierre). Launay (Raphaël).</p>
+              <p>Laurent (Alexandre). Lauro (Thomas). Le Bars (François). Le Bis (Clet). Le Blanc
+                (Alfred). Leboindre (Robert). Le Carbonnel (Jean). Ledernez (Ernest). Ledig (Louis).
+                Lefebvre (Georges). Le Mire (Ernest). Lemordant. Le Poul (Yves). Le Nahuec (Jean).
+                Lennoz. Lépine. Leproust. Le Saffre (Alfred). Lesage (Jean). Le Sin (Jean). Le
+                Viavant (Marc). Lévié (Marcel). Loizeau (Alexandre). Lorrain (Georges). Luc
+                (Julien). Luchel (Emmanuel). Madaire (Albert). Manche (Emile). Maison (René).
+                Mangold (Georges). Marchadour (Jean). Marchand (Florentin). Marcq (Arthur). Margat
+                (Clément). Marlin (Emile). Martin (Ernest). Martin (Louis-Charles). Martin
+                (Charles).</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+              <p>Martin (Fernand). Martineau (Jean). Massart (Eugène). Masselin (André). Mathey
+                (Adolphe). Mathieu (Henri). Maubert (Alexandre). Maurandy (Charles). Mayeu (Bertin),
+                Mège (Antoine). Melin (François). Ménétrez (Emile). Merlet (François). Meunier
+                (Maxime). Meyer (Marie). Michaud (Lucien). Michel (Eugène). Michot (Lucien). Mohamed
+                ben Ammar ben Amora. Mohamed ben Khalifa Latrache. Mohamed ben Salah ben Hadj ben
+                Hachi. Molinas (Régis). Monnin (Louis). Monsch (Lucien). Montfort (François).
+                Morizet (Charles). Mousty (Jean). Muller (Jean). Murcia (José). Nègre (Louis).
+                Nicolet (Jean). Odoul (André). Oullet (Joseph). Padellec (Hippolyte) Papin (Léon).
+                Paradis (Gabriel).</p>
+              <p>Parent (Victor). Pasquet (Jean). Passeñaud (Georges). Pelletin (Henri). Pellier
+                (Albert). Perrichon (Clerc). Perroux (Lucien). Petit (Adrien). Peuchamiel (Léon).
+                Peyrebrune (J.-B.). Philibert (François). Pialat (Pierre). Piette (Georges).
+                Pletinckx (Philip). Pot (Edouard). Pouget (René). Poulain (Emile). Poussard (Moïse).
+                Préot (Alfred). Prévost (Léopold). Ragon (Auguste). Rambeau (Alfred). Rateau
+                (André). Renat (Alain). Reuchet (Henri). Reyne (Jean). Richard (Henri). Riffaud
+                (Edouard). Riffelmacher (Henri). Rispal (Jean). Rivelois (Jules). Robin (Charles).
+                Rocchiciolli (Jérôme). Roi (Joseph). Rolland (Emile). Rouquette (Pierre). Rouse
+                (Clovis). Roy (Jean).</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Roybin (Benoît). Royer (Michel). Royneau (Alfred). Rozycki (François). Rubin
+                (Joseph). Rufflé (Ernest). Saint-Agathe (Louis). Saint-Martin (Jean). Salen ben Ali
+                ben Bakoulti. Sautter (Marcel). Saynmiard (Emile). Sicard (Antoine). Simon
+                (François). Simon (Pierre). Spinetta (Claude). Stéphan (J.-Louis). Stoll (Emile).
+                Suscillon (Alfred). Talmard (Jean). Tauriac (Calixte). Tavernier (Benoit). Tessier
+                (Elie). Tisserand (Aristide). Tissier (Antoine).</p>
+              <p>Tornier (Léopold). Tourneux (René). Touzet (Félix). Tronche (Joseph). Turban
+                (Auguste). Ursat (Marcellin). Van Audenaerde. Vandeworde (Julien). Vaudelin
+                (Claudius). Veau (Victor). Veillard (Georges). Vénier (Pierre). Vennier (Jacques).
+                Verdelet (Henri). Vernhes (Justin). Vialatoux (Ed.). Videmont (Auguste). Viel
+                (Léopold). Vigouroux (Auguste). Vigny (François). Vilain (Justin). Villefayet
+                (Léon). Vincendo (René). Wlending (Valentin).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">PROCÈS-VERBAL DE LA RÉUNION
+                DU CONSEIL D'ADMINISTRATION DU 6 JUIN 1936</head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence d'Izaac, doyen d'âge.</p>
+              <p>Sont présents: Amblard, Bardoux, Bertrand, Bois, Brusson, CéréLabourdette, Conan,
+                Courteix, Evrat, Fauvel, Favret, Grillet, Guillam, Izaac, Lauté, Leveau, L'Evesque,
+                Malgat, Muller, Roy (G.).</p>
+              <p>Excusés: Bloncourt, Cabasson, Derunder, Laffargue, Lagarde, Nicolaï, Noireaux,
+                Robert (M.), Satgé, Scapini.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>Ont donné leurs pouvoirs:</p>
+              <p>A Amblard: Nicolaï, Noireaux. A Favret: Cabasson, Laffargue. A Noireaux : Derunder.
+                Assistaient également à la séance: M. de Traversay, M. Bloch, M. de
+                Chaumont-Quitry.</p>
+              <p>Les camarades Briant, Chaillou, Courtas, Delafosse, Hennebicq, Hourcade, Kromer,
+                Rousseau, Saillot. 1<hi rend="superscript">°</hi> Procès-verbal de la réunion du
+                Conseil d'Administration du 25 avril 1936, adopté à l'unanimité; 2<hi
+                  rend="superscript">°</hi> Procès-verbal de l'Assemblée générale plénière du 24 mai
+                ; adopté à l'unanimité. 3<hi rend="superscript">°</hi> Situations financières
+                d'avril 1936 ; adoptées à l'unanimité. Lecture est donnée d'une lettre de Noireaux
+                félicitant le Bureau, la Commission de la Maison, et en particulier Amblard.</p>
+              <p>Le Conseil s'associe à ces félicitations. 4<hi rend="superscript">°</hi> Election
+                du Bureau. Avant le dépouillement du scrutin, Izaac déclare qu'il n'est pas candidat
+                au Bureau, son nom ayant figuré sur la liste par oubli de sa part. Amblard fait
+                savoir au Conseil qu'il vient de recevoir une communication téléphonique de
+                Bloncourt, l'informant que lui non plus n'était pas candidat et s'excusant de
+                n'avoir pu voter, ses obligations l'ayant empêché de rentrer pendant un long moment
+                à son domicile.</p>
+              <p>Le Secrétaire général indique que Lauté a également fait acte de non-candidature
+                par une lettre parvenue trop tard au Bureau.</p>
+              <p>De nombreux administrateurs critiquent la manière de proposer les candidatures pour
+                l'élection du Bureau. Plusieurs suggestions sont faites et Izaac estime qu'il serait
+                bon de les soumettre à titre d'indication aux collègues de Province, la question
+                n'étant pas à l'ordre du jour.</p>
+              <p>Une première proposition, tendant à revenir à la manière de votation du début,
+                c'est-à-dire choisir les membres du Bureau dans toute la liste des administrateurs
+                est mise aux voix. Elle réunit en sa faveur <pb n="23"/>
+                <note type="foliation">— 21 —</note> 14 voix. Cinq camarades ont voté contre :
+                Bertrand, Conan, Evrat, Lauté, Leveau, et une abstention : Céré-Labourdette.</p>
+              <p>Une deuxième proposition, demandant qu'il soit fait acte de candidature, réunit 11
+                voix pour et 9 voix contre.</p>
+              <p>Enfin Courteix et Evrat, considérant que plusieurs camarades réuniront des voix
+                alors qu'ils ne sont pas candidats, demande qu'avant le dépouillement qui va avoir
+                lieu, le vote soit annulé. Cette proposition mise aux voix est repoussée. Ont voté
+                pour : Courteix, Evrat.</p>
+              <p>Izaac fait procéder au dépouillement du scrutin qui donne les résultats suivants :
+                sur 29 votants, ont obtenu: Izaac, 23 voix; Scapini, 23 ; Bloncourt, 12; Lauté, 11;
+                Bois, 9; Muller, 9; Bardoux, 8; Roy (G.), 6 ; Fauvel, 4 ; Nicolaï, 3 ; Robert (M.),
+                2. (Un certain nombre de voix diverses se sont portées sur des noms de camarades non
+                candidats.)</p>
+              <p>Izaac, Lauté, Bois et L'Evesque, se réunissent et font savoir ensuite au Conseil
+                qu'ils forment un Bureau provisoire et tiendront séance le lundi suivant pour
+                prendre des dispositions afin de former le Bureau. Ils demandent à Amblard de
+                continuer provisoirement ses fonctions de secrétaire général. Le Conseil accepte ces
+                décisions. 5<hi rend="superscript">°</hi> Election du Comité d'Action. Le Comité
+                d'Action est réélu. Après discussion, il est entendu que le Bureau sera désigné dans
+                une séance ultérieure.</p>
+              <p>Lecture est donnée des demandes d'adhésion de : Chatin (Joseph), Wisches
+                (Bas-Rhin), 100% article 10 , titre définitif, carte du combattant; Lathuile
+                (Pierre), Institution Notre-Dame, Saint-Sigismond, par Albertville (Savoie), 100%
+                article 10 , titre définitif, carte du combattant. Ces camarades remplissant les
+                conditions sont admis en qualité de membres titulaires de l'U.A.G.</p>
+              <p>A propos du Legs Blancheland qui avait été accepté par un Conseil précédent,
+                Amblard fait part au Conseil des derniers renseignements <pb n="24"/>
+                <note type="foliation">— 22 —</note> reçus par l'intermédiaire du notaire, d'où il
+                résulte qu'à la suite de la liquidation de ce legs il ne resterait aucun actif.</p>
+              <p>Le Conseil décide de ne pas revendiquer ce legs. Le Conseil d'Administration de
+                l'U.A.G, donne pleins pouvoirs à son trésorier, M. Gaston L'Evesque, ou à son défaut
+                à M. Oscar Bloch, trésorier-adjoint, à l'effet de toucher le remboursement de tous
+                titres amortis, effectuer tous emplois et remplois soit de fonds ayant nature de
+                capitaux, soit de fonds ayant nature de revenus, donner tous ordres de Bourse à cet
+                égard, signer toutes souscriptions.</p>
+              <p>La séance est levée à 17 h .45 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">AVIS DIVERS</head>
+              <p>A louer à Montrouge pavillon comprenant, au rez-de-chaussée, 2 pièces et une
+                cuisine; au 1<hi rend="superscript">er</hi> étage ; 3 pièces; eau, gaz, électricité,
+                tout à l'égout. Sous-sol clair et cave, Petit jardin.</p>
+              <p>S'adresser au camarade Sautou, 4, rue du Loing, Paris (14). +++ Notre camarade
+                Niant (Simon), ancien propriétaire vigneron, se met à la disposition des camarades
+                pour leur faire envoyer des vins de la région de Bergerac-Bordeaux, vin ordinaires
+                et supérieurs aux meilleures conditions.</p>
+              <p>Se mettre directement en rapports avec M. Niant, 71, rue du Pont-Saint-Jean,
+                Bergerac (Dordogne).</p>
+              <p>+++</p>
+              <p>A vendre à l'amiable, maison au bord de la Sarthe, sept pièces, eau, électricité,
+                belle servitude ; grand jardin avec eau et vigne, le tout état de neuf.</p>
+              <p>S'adresser à Mme Veuve Boudeville, à Cheffes-sur-Sarthe (Maine-et-Loire).</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">LISTE DES DONATEURS</head>
+              <p>Mme Fischer, Louveciennes (S.-et-O.), 10 fr. - Mme Cayrefurcq, Paris, 20 fr. -
+                Protection et bonne santé de notre famille : 300 fr. - Anonyme, 314 fr. - Crédit
+                Foncier de France, 1.000 fr. - Divers, 336 fr. 80.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">Dons avec affectation
+                spéciale pour la Maison des Aveugles de Guerre</head>
+              <p>M. Bouillon, Poitiers, 10 fr. - Mme Lemoine, Paris, 100 fr. Chambre des notaires de
+                Meaux, 60 fr. - M. de Fourtou, Paris, 100 fr. - Commune de Fontoy (Moselle), 44 fr.
+                50.</p>
+            </div>
+          </div>
+          <fw>Le Gérant: DECOENE IMP. DUBOIS &amp; BAUER 34, rue Laffitte - Paris-9e</fw>
+          <pb n="26"/>
+          <pb n="27"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Bourguignon, Secrétaire général honoraire. Favret,
+              Secrétaire général honoraire. Conan, Secrétaire général honoraire. Amblard, Secrétaire
+              général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">Conseil d'Administration</head>
+            <p>Président : SCAPINI. Vice-Présidents: Bois, Conan, Lauté. Secrétaire général :
+              Favret. Trésorier : Gaston L'Evesque. Membres : Amblard, Bardoux, Bertrand,
+              Biconcourt, Brusson, Cabasson, Céré-Labourbette, Courteix, Defunder, Evrat, Fauvel,
+              Grillet, Guillam, Izaac, Lapfargue, Lagarde, Leveau, Malgat, Muller, Nicolat,
+              Noireaux, Robert (Maurice), Roy (Georges), Satgé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">Comite d'Action</head>
+            <p>M. le baron de Traversay.</p>
+            <p>Mlle Arbel, Vice-Présidente honoraire; Mme L'Evesque, M. Iweins; M. Oscar Bloch. M.
+              Auterbe, Sous-Directeur à la Compagnie L'Union; Mme du Bos; Mme Broquin; M. de
+              Chaumont-Quitry; M. Chepfer; M. Pierre Chérot; Mme Chovalier; Mme Contamin. Mme
+              Francis de Croisset; Mlle Jalaguier; Mlle d'Herbemont; Mme Henri; Mme Kalt; Mme
+              Lévy-Weis; M. Mayer; Mme Meyer; Mme Mus; M. Pascal. Colonel de Traversay.</p>
+            <pb n="28"/>
+          </div>
+          <fw>Imp. Dubois et Bauer, 34, r. Laffitte, Paris. - 1936.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

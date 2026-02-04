@@ -1,0 +1,873 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 28ème année 1947, n°1</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Rééducation</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Secours</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 20 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">UAG</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#reeducation">Rééducation</term>
+          <term ref="#maison-des-aveugles-de-guerre">Maison des Aveugles de Guerre</term>
+          <term ref="#helen-keller">Helen Keller</term>
+          <term ref="#allocations">Allocations</term>
+          <term ref="#assemblee-generale">Assemblée Générale</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre de janvier 1947 aborde plusieurs sujets
+          d'intérêt pour ses membres. Il annonce la réouverture de la Maison des Aveugles de Guerre
+          avec les tarifs des repas et des chambres. Il rend compte de la visite de Miss Helen
+          Keller et publie ses paroles. Le bulletin détaille également les distinctions honorifiques
+          reçues par certains membres et informe sur la situation des veuves concernant l'allocation
+          aux vieux travailleurs. Il inclut le procès-verbal de la séance du Conseil
+          d'Administration du 17 octobre 1946, les comptes-rendus des assemblées générales de la
+          Seine-Inférieure et du Finistère, des petits avis, et des informations sur les
+          cotisations. Enfin, il contient une liste des nouveaux livres disponibles à la
+          bibliothèque.</p>
+      </abstract>
+      <creation>
+        <date when="1947-01-01">01/01/1947</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h4">AVIS IMPORTANT</ref>
+          </item>
+          <item>
+            <ref target="#h5">REOUVERTURE DE LA MAISON DES AVEUGLES DE GUERRE</ref>
+            <list>
+              <item>
+                <ref target="#h6">RESTAURANT</ref>
+              </item>
+              <item>
+                <ref target="#h7">CHAMBRES</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h8">MISS Helen KELLER</ref>
+          </item>
+          <item>
+            <ref target="#h9">DISTINCTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h10">SITUATION DE NOS VEUVES AU REGARD DE L'ALLOCATION AUX VIEUX
+              TRAVAILLEURS</ref>
+          </item>
+          <item>
+            <ref target="#h11">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION DU 17 OCTOBRE
+              1946</ref>
+          </item>
+          <item>
+            <ref target="#h12">Membres Titulaires définitifs :</ref>
+          </item>
+          <item>
+            <ref target="#h13">LISTE DES LIVRES NOUVEAUX</ref>
+          </item>
+          <item>
+            <ref target="#h14">COMPTE-RENDU de L'ASSEMBLEE GENERALE de la Section Départementale de
+              la SEINE-INFERIEURE DU 30 JUIN 1946</ref>
+          </item>
+          <item>
+            <ref target="#h15">COMPTE-RENDU de L'ASSEMBLEE GENERALE DE LA DEPARTEMENTALE DU
+              FINISTERE QUI S'EST TENUE le 11 SEPTEMBRE, A LANDERNEAU</ref>
+          </item>
+          <item>
+            <ref target="#h16">PETITS AVIS</ref>
+            <list>
+              <item>
+                <ref target="#h17">L'ASSEMBLEE GENERALE 1947</ref>
+              </item>
+              <item>
+                <ref target="#h18">COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h19">AVIS INTERESSANT LES CAMARADES DU DEPARTEMENT DE LA SEINE ET CEUX
+                  HABITANT LES COMMUNES DE SEINE-et-OISE DESSERVIES PAR LA T.C.R.P.</ref>
+              </item>
+              <item>
+                <ref target="#h20">SUPPLEMENTS ALIMENTAIRES</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h21">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h22">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h23">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h24">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">28e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">JANVIER 1947</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>1. Avis important.</item>
+                    <item>2. Réouverture de la Maison des Aveugles de Guerre.</item>
+                    <item>3. Miss Helen Keller.</item>
+                    <item>4. Distinctions.</item>
+                    <item>5. Situation de nos veuves au regard de l'allocation aux * Vieux».</item>
+                    <item>6. Procès - verbal de la Séance du Conseil d'Administration du 17 Octobre
+                      1946.</item>
+                    <item>7. Bibliothèque.</item>
+                    <item>8. Compte-rendu de l'Assemblée Générale de la Section Départementale de la
+                      Seine-Inférieure.</item>
+                    <item>9. Compte-rendu de l'Assemblée Générale de la Section Départementale du
+                      Finistère.</item>
+                    <item>10. Petits Avis.</item>
+                    <item>11. Naissances ; Mariages; Décès.</item>
+                    <item>12. A retourner d'urgence à l'U. A. G.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Conseil d'Administration</head>
+            <p>Président : H. IZAAC. Vice-Présidents : COUESNON, FAVRET, GUESPEREAU. Secrétaire
+              Général : AMBLARD. Trésorier : Gaston L'EVESQUE. Membres : BERTRAND, BLONCOURT, BODIN,
+              BOIS, BRUSSON, CABASSON, CERE-LABOURDETTE, CHALENDAR, CONAN, CORNU, DERUNDER, DUC,
+              FAUVEL, GRILLET, GUILLAM, LAFFARGUE, LEVEAU, MULLER, NICOLAI, NOIREAUX, ROBIN, ROY
+              Georges, SIBIRIL, SATGE.</p>
+            <pb n="3"/>
+          </div>
+          <fw>28° ANNÉE. - N°1 JANVIER 1947</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">AVIS IMPORTANT</head>
+            <p>Voulez-vous que l'U. A. G. continue à défendre efficacement vos droits et vos
+              intérêts?</p>
+            <p>Si OUI, vous remplirez la dernière page de ce Bulletin, vous la détacherez, et vous
+              la renverrez d'urgence, avec votre signature, 49, rue Blanche, à Paris.</p>
+            <p>Si chaque aveugle de guerre décide qu'il choisit l'U. A. G. pour le contrôle des
+              effectifs demandés par l'Union Française des Anciens Combattants (U. F. A. C.), votre
+              Conseil d'Administration et votre Bureau pourront continuer à parler aux Pouvoirs
+              Publics au nom de la quasi-totalité de ceux qui ont perdu la vue du fait des guerres
+              1914-18 et 1939-46.</p>
+            <p>La règle, conforme aux statuts et au règlement intérieur de l'U. F.A.C., est que tout
+              ancien combattant ou victime de la guerre peut adhérer à une ou plusieurs Associations
+              de son choix. Par exemple, un de nos Camarades peut appartenir, outre l'U.A.G., à l' «
+              Union Fédérale » ou à l' « Association Républicaine des Anciens Combattants », etc...
+              Bien entendu, il faut être admis dans ces Associations et y payer des cotisations.</p>
+            <p>Toutefois, comme l'ancien combattant ou victime de la guerre ne doit être compté
+              qu'une seule fois dans l'effectif total de l'U. F. A. C., il faut qu'il désigne
+              l'Association principale à laquelle il compte réellement en effectif.</p>
+            <p>C'est cet effectif qui doit être soumis aux Commissions de Contrôle de l'U. F. A.
+              C.</p>
+            <p>Je sais que le plus grand nombre des Camarades va répondre immédiatement, mais je
+              sais aussi qu'un certain nombre de paresseux ou de négligents tarderaient à nous
+              répondre si leur attention n'était pas attirée sur l'importance capitale de la réponse
+              précise que nous leur demandons.</p>
+            <p>Nous prions tous les Présidents de Régionales et Départementales d'aider activement
+              le Siège Social dans cette circonstance. Nous remercions d'ailleurs ceux qui ont déjà
+              commencé et presque terminé ce travail. H. IZAAC.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">REOUVERTURE DE LA MAISON DES
+              AVEUGLES DE GUERRE</head>
+            <p>Nous confirmons la nouvelle déjà connue de tous nos Camarades qui ont reçu notre
+              circulaire du 20 Décembre, annonçant la réouverture, pour le 13 Janvier 1947, de notre
+              Hôtel et Restaurant.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h6">RESTAURANT</head>
+              <p>Les repas seront servis à : 12 heures, pour le déjeuner ; 10 heures, pour le dîner.
+                Le Bar sera fermé de 14 heures à 17 heures. Le déjeuner comprendra : Hors-d'Guvre,
+                Viande, Légumes, Fromage ou dessert, Café, au prix de 80 francs. Diner : Potage, 2
+                légumes, Fromage ou dessert, au prix de 60 francs. Petit déjeuner : Café, pain. au
+                prix de 10 francs. (Service compris) Le vin ou la bière seront en supplément des
+                prix ci-dessus. Etant donnée l'initiative du Gouvernement Blum, l'U. A. G.
+                appliquera une réduction de 5% sur les notes d'hôtel.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">CHAMBRES</head>
+              <p>Les prix des chambres sont les suivants : 75 francs par jour pour une chambre à un
+                lit ; 90 francs par jour pour une chambre à deux lits. (Service compris) Le
+                sédentaire isolé qui prendra tous ses repas à l'U. A. G. paiera une pension
+                mensuelle de 6.750 francs (service compris).</p>
+              <p>Les Camarades demeurant dans des communes où les cartes de viande ne sont plus en
+                vigueur, voudront bien se munir d'un certificat de leur Mairie pour attestation,
+                faute de quoi, la Mairie du IX' refuserait de délivrer des bons de viande pendant
+                leur séjour dans la capitale. Nous les remercions par avance.</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">MISS Helen KELLER</head>
+            <p>Nos Camarades savent que Miss Helen Keller a visité notre Maison des Aveugles de
+              Guerre, le 12 Novembre dernier. Nous donnons ci-après le texte des paroles qu'elle a
+              prononcées à cette occasion : « C'est pour moi un instant inoubliable de me trouver en
+              votre présence. En plus de la chaleureuse admiration que je ressens pour vous dans mon
+              cœur, il y a la force que vous me donnez par la noblesse de votre force d'âme dans le
+              magnifique combat que vous avez mené pour la libération du monde. « L'énergie dont
+              vous faites preuve pour surmonter votre handicap, et vous en servir comme moyen
+              d'accomplissement, est un gage émouvant d'autres victoires à venir. Souvenez-vous que
+              chaque obstacle que vous surmontez inspire les âmes défaillantes; elles vous suivront
+              ensuite avec une confiance renouvelée. Nous, qui sommes handicapés, savons que la
+              persévérance vers un but déterminé, afin d'atteindre le maximum possible en notre
+              pouvoir, est plus puissante que n'importe quelle autre force. Vous, et moi, savons
+              bien qu'il est très pénible de prêter beaucoup d'attention aux détails nécessaires
+              pour surmonter nos difficultés, mais je sens en vous l'ambition de vouloir vous élever
+              au-dessus de cruelles circonstances; la volonté et la certitude que vous gagnerez la
+              bataille vous seront, en outre, des facteurs précieux dans votre rééducation ».</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">DISTINCTIONS</head>
+            <p>Parmi les récompenses obtenues pendant la guerre 39-46 par nos Camarades, nous
+              relevons tout spécialement le nom de Elie BLONCOURT, Administrateur de l'U. A. G.,,
+              promu au grade de Commandeur dans l'ordre national de la Légion d'Honneur.</p>
+            <p>Ont été également promus : Au grade d'Officier : HAUSER André, Secrétaire de la
+              Départementale de la Côte-d'Or. Au grade de Chevalier : CHALAS Raoul, PION Roger,
+              SINSOULIEU Fernand. Nous adressons à nos Camarades nos plus vives félicitations.</p>
+            <p>Nous sommes heureux également d'apprendre que notre excellent Camarade Alfred LOISEAU
+              a obtenu la Médaille de la Résistance, par décret du 13 Octobre 1946, et que son fils
+              René a reçu la Croix de Guerre et la King's Medal.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>Quant à sa femme, elle fait l'objet de la citation suivante, comportant l'attribution
+              de la Croix de Guerre 1939-1945, avec Etoile de Bronze :</p>
+            <p>Décision n° 333$.</p>
+            <p>Le Ministre des Armées, Edmond Michelet, cite à l'ordre de la Brigade :</p>
+            <p>LOISEAU Suzanne, F. F. C.</p>
+            <p>Courageuse Française, femme d'un grand mutilé de la guerre 1914-1918, n'a pas hésité
+              à se lancer, dès 1940, dans la Résistance active à l'occupant. S'est signalée par
+              l'aide continuelle qu'elle a fournie, en collaboration avec son mari et son fils, à
+              plusieurs centaines de prisonniers évadés et des réfractaires du S. T. O.</p>
+            <p>Agent du Réseau Shelburn depuis 1943, a hébergé un agent britannique et un officier
+              russe, évadés après condamnation à mort. Au Printemps 1944, a hébergé sept aviateurs
+              anglo-américains pris en charge par le Réseau.</p>
+            <p>S'est toujours dépensée avec un sang-froid exceptionnel et un dévouement inlassable
+              pour l'accomplissement des missions dont le Réseau l'avait chargée.</p>
+            <p>Fait à Paris, le 1<hi rend="superscript">er</hi> Décembre 1946.</p>
+            <p>Signé : Michelet ».</p>
+            <p>Nous félicitons chaleureusement cette famille qui s'est distinguée aussi
+              brillamment.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">SITUATION DE NOS VEUVES AU REGARD
+              DE L'ALLOCATION AUX VIEUX TRAVAILLEURS</head>
+            <p>Renseignement pris au Ministère du Travail, nous communiquons ci-après un extrait de
+              la lettre que nous avons reçue en date du 30 Décembre dernier, donnant toutes
+              précisions se rapportant à la législation relative à 1<hi rend="superscript">′</hi> *
+              Allocation aux Vieux », et pouvant s'appliquer aux veuves de nos Camarades. «La loi du
+              13 Septembre 1946 a institué, au profit des personnes âgées ne disposant pas de
+              ressources suffisantes, une allocation temporaire de 700 francs par mois.</p>
+            <p>Cette allocation est payable en deux fractions : la première se rapportant à la
+              période du 1er Septembre au 30 Novembre 1946, la deuxième se rapportant à la période
+              du 1^er Décembre 1946 au 31 Mars 1947.</p>
+            <p>Les requérants doivent être de nationalité française, résider sur le territoire de la
+              France métropolitaine, ne pas bénéficier d'une pension au titre d'une législation de
+              Sécurité Sociale, ni d'une allocation aux vieux travailleurs salariés, être âgés de 65
+              ans (ou de 60 à 65 ans en cas d'inaptitude au travail), avant le 1<hi
+                rend="superscript">er</hi> Septembre 1946, pour pouvoir prétendre aux deux fractions
+              de l'allocation temporaire, <pb n="7"/>
+              <note type="foliation">— 5 —</note> ou avant le 1<hi rend="superscript">er</hi>
+              Décembre 1946, pour pouvoir prétendre à la deuxième fraction. En outre, l'allocation
+              temporaire n'est due que si le total de cette allocation et des ressources
+              personnelles de l'intéressé, de quelque nature qu'elles soient, n'excédent pas 45.000
+              fr. par an.</p>
+            <p>Les pensions attribuées en application de la loi du 31 Mars 1919, ne font pas
+              obstacle à l'attribution de l'allocation et rentrent seulement en compte dans le total
+              des ressources.</p>
+            <p>L'allocation temporaire sera payée à compter du v Décembre 1946, pour la première
+              fraction, et du 1er Avril 1947 pour la seconde, sur présentation du dossier
+              régulièrement constitué à la perception de la résidence du requérant. A la demande
+              établie sur formule réglementaire, devront être joints un extrait de l'acte de
+              naissance et, éventuellement, une pièce constatant la naturalisation, ainsi qu'un
+              certificat de domicile au 1er Janvier 1946.</p>
+            <p>Les bénéficiaires de l'allocation temporaire obtiendront, à compter du 1er Avril
+              1947, l' « Allocation aux Vieux » dont le taux sera calculé sur les mêmes bases et
+              augmenté, éventuellement, des mêmes avantages complémentaires que l'allocation aux
+              vieux travailleurs salariés.</p>
+            <p>Il appartient donc aux intéressés de demander immédiatement l'allocation temporaire,
+              à l'aide des imprimés mis à la disposition des requérants dans les Mairies, les
+              Directions Régionales et les Caisses de Sécurité Sociale. L'allocation temporaire sera
+              payée par les soins du percepteur, sur présentation de la demande, accompagnée des
+              pièces justificatives cxigées, et sans intervention des services de la Sécurité
+              Sociale, sauf en cas de refus de paiement des percepteurs, ou en cas d'inaptitude au
+              travail, entre 60 et 65 ans $»$.</p>
+            <p>Nous invitons donc les veuves de nos Camarades, remplissant les conditions voulues, à
+              faire les démarches nécessaires, dans le sens indiqué dans le texte, en vue de
+              bénéficier de cette allocation, dite des «Vieux».</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION DU 17 OCTOBRE 1946</head>
+            <p>La séance est ouverte à 14 h .30 , sous la présidence d'Izaac. Etaient présents:
+              Bertrand, Bloncourt, Boain, Bois, Brusson, Cabasson, Céré-Labourdette, Chalendar,
+              Conan, Cornu, Couesnon, Derunder, Duc, Favret, Fauvel, Grillet, Guespereau, Guillam,
+              Laitargue, Leveau, L'Evesque, Muller, Nicolaï, Noireaux, Robin, Roy Georges, Sibiril,
+              Satgé.</p>
+            <p>Excusé : Amblard. Assistaient à la séance : Dutaud, Planquette, Saillot. Le Président
+              félicite Duc et Guespereau pour leur promotion dans l'ordre de la Légion
+              d'Honneur.</p>
+            <p>Le procès-verbal du Conseil du 20 Juin dernier est adopté à l'unanimité.</p>
+            <p>Noireaux désirerait que les Présidents des Départementales ou Régionales adressent,
+              en fin d'année, un résumé de leur activité.</p>
+            <p>Situations financières de Juin, Juillet et Août. - Lecture est donnéé du rapport de
+              Bois, président de la Commission des finances. Bois ajoute un rapport verbal, au nom
+              de la Commission, au sujet de la situation financière d'Août. Sur observation de
+              Guillam, L'Evesque supprimera les centimes dans les comptes, chaque fois que cela sera
+              possible. Fauvel demande que les cotisations des Membres bienfaiteurs ou donateurs
+              soient mises à part dans le chapitre des cotisations. Les trois situations sont
+              adoptées à l'unanimité.</p>
+            <p>Favret rend compte que, selon les directives de l'Assemblée générale et le mandat du
+              Conseil d'Administration précédent, 666 actions ont été prises pour la création du
+              Comité Central pour les Aveugles Travailleurs. Après quelques remarques faites par
+              Cornu, Satgé et Brusson, le Conseil prend acte d'un versement de 49.950 francs,
+              représentant le quart de la souscription.</p>
+            <p>Pensions. - Le Président fait un exposé des principales démarches et péripéties qui
+              ont abouti à l'augmentation des pensions de la loi du 9 Août 1946, dont les barèmes,
+              d'ailleurs, n'ont paru au «Journal Officiel» que le 18 Septembre, quelques
+              modifications ayant été encore apportées ultérieurement à l'occasion du collectif. Le
+              Ministère des Finances a promis que le nouveau taux et le rappel seraient payés à
+              partir du 1er Novembre. Un rappel, en ce qui concerne les allocations aux Grands
+              Invalides seulement, sera fait avant le 1er Janvier, pour les Camarades, dont
+              l'échéance de la pension tombait avant le 1er Novembre. L'U. A. G. ne perd pas de vue
+              la possibilité d'une amélioration de la pension des Camarades qui n'ont pas le Statut.
+              En ce qui concerne le Code de la Famille, les Camarades recevront des questionnaires
+              lors des échéances, entre le 1er Novembre et le 1er Février, et ces majorations pour
+              enfants seront payées, avec rappel du 1er Octobre 1945, à partir du 1er Février
+              1947.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Le Conseil est mis au courant de ce que le Bureau a appris sur l'activité de deux
+              groupements : l'Union des Aveugles de la Résistance et le Comité d'Entente des
+              Associations d'Anciens Combattants des deux fronts. Ayant entendu quelques
+              explications supplémentaires de Bloncourt, le Bureau est chargé de continuer à
+              observer l'action de ces deux groupements.</p>
+            <p>Il est rendu compte du meeting du 5 Octobre, organisé par l'U. F. A. C., ayant pour
+              objet la «Sécurité Française».</p>
+            <p>Rééducation. - En ce qui concerne la rééducation, conformément à la décision de
+              l'Assemblée Génerale, l'Ecole, 49, rue Blanche, sera fermée fin décembre. A ce moment,
+              il restera sur le territoire métropolitain un très petit nombre d'aveugles non
+              rééduqués. La rééducation des Alsaciens-Lorrains est commencée à Illzach (BasRhin), en
+              accord avec l'Office National, l'U. A. G. et notre représentant régional, Freidinger.
+              Couesnon donne des détails sur la dernière session de la rééducation de la rue
+              Blanche, qui est satisfaisante en tous points. Conan et Leveau suggèrent d'organiser,
+              au besoin, la rééducation à domicile, en Braille et machine à écrire, pour certains
+              aveugles.</p>
+            <p>Utilisation de la Maison à partir du 1<hi rend="superscript">er</hi> Janvier 1947. -
+              Un échange de vues a lieu entre tous les Administrateurs à ce sujet. A l'unanimité, le
+              Conseil donne mandat à son Bureau de lui présenter, à la prochaine réunion, une étude
+              précise de la question, étant entendu que les chambres devront être utilisées, d'une
+              part, par des Camarades isolés sédentaires, d'autre part, par des Camarades de
+              passage, avec leur guide. Le restaurant serait ouvert aux isolés sédentaires et à tous
+              les Camarades accompagnés.</p>
+            <p>Affaire Rémy. - Lecture est donnée du rapport d'enquête établi par Favret. Après
+              discussion, la résolution suivante est adoptée à l'unanimité : " Le Conseil
+              d'Administration, dans sa séance du 17 Octobre, considérant : " Que le Juge
+              d'Instruction de Chaumont a rendu une ordonnance de non-lieu le 16 Mai 1945 ; " Que
+              Rémy certifie, sur l'honneur, n'avoir jamais parlé à la "Rose des Vents»; " Que les
+              témoignages Evrat, Médard, Rochelet ne sont pas suffisants pour établir une preuve
+              formelle ; "Passe à l'ordre du jour».</p>
+            <p>Affaire Evrat. - Le Président, après avoir fait remarquer que les Camarades ont reçu
+              communication d'une lettre de Masselier, de deux lettres d'Evrat, ainsi que d'une
+              lettre de Conan, fait donner lecture de celle écrite par Muller. De l'ensemble de ces
+              lettres, il résulte :</p>
+            <p>1.) Qu'une mise au point sera à faire entre le Bureau de l'U. A. G. et Evrat, au
+              sujet du compte-rendu analytique de la dernière Assemblée Générale et le compte-rendu
+              sténographique ;</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>2.) Que Muller, Conan et Scapini sont l'objet d'une demande d'épuration de la part
+              d'Evrat.</p>
+            <p>En ce qui concerne l'Affaire Evrat-Muller, aucun fait nouveau n'est intervenu depuis
+              le Conseil du 20 Juin qui avait pris acte, à l'unanimité, des conclusions du rapport
+              de la Commission d'Enquête établi par Guespereau, Masselier et Mulsant. D'autre part,
+              aucun acte de collaboration n'ayant jamais été relevé contre Muller, le Président pose
+              la question suivante :</p>
+            <p>Muller est-il hors de cause au point de vue collaboration ? Le Conseil répond OUI, à
+              l'unanimité. 3.) Evrat, dans ses lettres, rend plus spécialement Conan, président de
+              l'U. A. G., responsable, tout au moins en partie, de sa déportation.</p>
+            <p>Après discussion, la motion suivante est présentée : Conan est-il nommément
+              responsable de l'envoi d'Evrat en déportatioon?</p>
+            <p>A l'unanimité, le Conseil vote NON. Au sujet du non-retour de captivité du fils
+              d'Evrat, après discussion, la question suivante est posée :</p>
+            <p>Conan est-il responsable du non-retour de captivité du fils d'Evrat?</p>
+            <p>Le Conseil répond NON, à l'unanimité. Evrat, appuyant sa demande d'épuration du fait
+              que Conan a porté la francisque, Conan s'explique. Une discussion s'engage, au cours
+              de laquelle il est également question de la remise d'une épée d'honneur à Scapini.
+              Bloncourt, Fauvel et Robin déposent la motion suivante : «Le Conseil d'Administration
+              estime que le port de la francisque par Conan doit entrainer une sanction contre
+              lui».</p>
+            <p>Le Président met aux voix, par appel nominal, la réponse OUI impliquant l'adoption de
+              la motion. Le résultat du vote est le suivant:</p>
+            <p>6 OUI : Bertrand, Bloncourt, Bois, Fauvel, Noireaux, Robin. 11 NON : Bodin, Brusson,
+              Cabasson, Chalendar, Cornu, Duc, Guespereau, Laffargue, L'Evesque, Nicolaï,
+              Sibiril.</p>
+            <p>8 ABSTENTIONS : Céré, Couesnon, Derunder, Favret, Grillet, Izaac, Leveau, Roy G.</p>
+            <p>4 Administrateurs étaient absents au moment du vote : Amblard, Guillam, Muller,
+              Satgé.</p>
+            <p>Conan n'a pas pris part au vote. La motion est repoussée. Etant donnée l'heure
+              tardive, le Président met en délibération les questions importantes suivantes : --
+              Admission de nouveaux Membres. - Sont admis, à l'unanimité, par le Conseil, comme
+              :</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Membres Titulaires définitifs
+              :</head>
+            <p>DOYE Oumar, 17, rue André-Lebon, Saint-Louis (Sénégal). GUILLEMIN Gaston, Ratte, près
+              Louhans (Saône-et-Loire). MINZIOR Laurent, 14, rue du Couvent, Sarre-Union (Bas-Rhin).
+              TABART Jean-Marie, Hôtel Sainte-Suzanne, avenue Peyramal. Lourdes (Hautes-Pyrénées).
+              Membres Titulaires provisoires : AYACHE Joseph, 3, place de la Lyre, Alger (Algérie).
+              BARBAUX Auguste, 14, rue Daru, Paris. BIZOUARN Louis, 58, boulev. Jacques-Cartier,
+              Rennes (I.-et-V). BOIN André, 2, rue Renan, Tours (I.-et-L.). DAUTREY René, cité
+              Guilleminot, baraquement II, Dunkerque. DIAGNE Paul, Leval, par Aulnoy (Nord). EVANNO
+              Alphonse, Bourg-Médréac (I.-et-V.). GLAZIOU Yves, 6, rue de Kergomar, Lannion
+              (Côtes-du-Nord). LOZANO Jean-Pierre. 41, rue de Chalons, Fère-Champenoise (Marne).
+              MARTIN Roger, 7, rue Jules-Barbier, Saint-Raphaël. MULLER Emile, Greining n<hi
+                rend="superscript">°</hi>13, Poste-Frisming (Moselle). POUILLE Maurice, 70, rue
+              d'Ignauval, Sainte-Adresse (SeineInférieure). SALAUN Victor, Hôtel des Invalides, 6,
+              boulevard des Invalides, Paris. TONADRE Jean, Aiguillon (Lot-et-Garonne). VILLETTE
+              Robert, Guignicourt (Aisne). Membres Associés : BOMBEKE Etienne, 148, rue Saint-Denis,
+              Paris. NICOLLE Joseph, Saint-Sauveur-Lendelin (Manche).</p>
+            <p>Legs Mandet. - Le Conseil d'Administration, dans sa séance du 17 Octobre 1946, après
+              avoir pris connaissance des pourparlers engagés entre M<hi rend="superscript">e</hi>
+              Aulagnier, notaire à Ambert, chargé de la liquidation de la succession du Camarade
+              Mandet, M<hi rend="superscript">e</hi> Berthier, avoué à Roanne, représentant des
+              époux Laporte, et l'Union des Aveugles de Guerre, ratifie, tel qu'il lui est présenté,
+              l'acte de transaction intervenu entre les parties intéressées pour un réglement
+              équitable de cette succession, et, en décidant d'annexer à la présente délibération
+              une copie in-extenso certifiée conforme de cet acte, donne tous pouvoirs à son
+              trésorier, M. G. L'Evesque, pour prendre, au nom de l'Union des Aveugles de Guerre,
+              tous engagements, et, en général, pour faire le nécessaire en vue d'un réalisation
+              rapide des dispositions testamentaires du Camarade Mandet.</p>
+            <p>Legs Maret. - Le Conseil d'Administration, dans sa séance du 17 Octobre 1946, après
+              avoir pris connaissance de l'étude faite par son Trésorier des conditions dans
+              lesquelles il était possible de conci- <pb n="12"/>
+              <note type="foliation">— 10 —</note> lier les intérêts des propriétaires indivis de la
+              villa «Le Farfadet », à La Baule, décide de différer la vente de cette maisoon
+              jusqu'au décès du dernier survivant de M. et Mme Champain, co-propriétaires de ladite
+              maison, et donne tous pouvoirs à son trésorier, M. G. L'Evesque, susceptibles de lui
+              permettre de prendre les mesures utiles en vue de l'exécution de cette décision.</p>
+            <p>Un Camarade non sinistré ayant demandé un prêt pour achat de maison, le Conseil
+              d'Administration, conformément aux directives données par la dernière Assemblée
+              Général,e, confirme que, tout au moins pour l'exercice en cours, les prêts-maisons
+              doivent être réservés aux sinistrés qui en feront la demande.</p>
+            <p>Fehse, désirant être Membre de l'U. A. G., le Conseil est favorable à sa demande,
+              sous réserve qu'il envoie au Bureau les pièces nécessaires pour la constitution de son
+              dossier.</p>
+            <p>La discussion et les résolutions à prendre au sujet de la demande d'Evrat concernant
+              Scapini, sont renvoyées à la séance du prochain Conseil d'Administration.</p>
+            <p>La séance est levée à 19 heures.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">LISTE DES LIVRES NOUVEAUX</head>
+            <list>
+              <head type="section" rend="align(center)">ROMANS</head>
+              <item>506 ROMAINS Jules : Les Hommes de bonne- 9 Vol. Abrégé volonté (tome 21)</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">PHILOSOPHIE - RELIGIONS</head>
+              <item>2105 R.-P. RIQUET : Sermons de Carême 1946 de Notre-Dame 3 Vol. Abrégé</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">OUVRAGES EN INTEGRAL RETRANSCRITS EN
+                AMPLIFIE ROMANS</head>
+              <item>3397 GERBAULT Alain : Seul à travers l'Atlantique 3 Vol. Ampl.</item>
+              <item>3398 GERBAULT Alain : A la poursuite du Soleil 4 Vol. Ampl.</item>
+              <item>3399 GERBAULT Alain : Sur la Route du Retour 5 Vol. Ampl.</item>
+              <item>271 MAUROIS André : Les Silences du Colonel Bramble 4 Vol. Ampl.</item>
+            </list>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">COMPTE-RENDU de L'ASSEMBLEE
+              GENERALE de la Section Départementale de la SEINE-INFERIEURE DU 30 JUIN 1946</head>
+            <p>La séance est ouverte à 10 h .15 , sous la présidence de Angot, président.</p>
+            <p>Sont présents : Angot, président; Le Marchand, vice-président; Girou, Frère, Ferret,
+              membres du Conseil d'Administration; Bavent, Varnier, membres voyants; Belleriger,
+              Montellier, Delamare, Dupuy, Neveu, Fontaine, Mauconduit, Feugray.</p>
+            <p>Assistaient à la séance : Mmes Cagnard, Talleur, Adam et Verwoort, veuves de nos
+              Camarades; M. Buisson.</p>
+            <p>Excusés : Boulenger, secrétaire; Hédouin, Cressent, Pouille, Viel, Picot, Rost,
+              Houard, Motte, Gareaud, Bachelet, Prével, Alix.</p>
+            <p>En ouvrant la séance, Angot présente les jeunes Camarades et leur souhaite la
+              bienvenue, leur demandant de suivre les traces de leurs ainés, en travaillant de tout
+              cœur au bien commun pour que la Section soit toujours une grande famille. Il expose,
+              en quelques mots, la situation actuelle qui rend encore impossible le déplacement de
+              certains Camarades.</p>
+            <p>Il donne lecture du rapport moral de 1945, relatant succinctement tout ce qui s'est
+              passé depuis six ans, la Section n'ayant pu faire d'Assemblée générale pendant cette
+              période de guerre. En terminant, il demande de rendre hommage aux Camarades décédés,
+              en observant une minute de silence.</p>
+            <p>Le Camarade Couesnon a été délégué pour représenter le Bureau de Paris. Le Président
+              lui a donné la parole.</p>
+            <p>Couesnon apporte le salut de l'U. A. G., du Président Izaac et des Membres du Conseil
+              d'Administration. Il fait ensuite un long exposé sur les pensions et l'U. F. A. C. Il
+              indique toutes les décisions prises au cours de la dernière Assemblée générale. Angot
+              le remercie pour les renseignements intéressants qu'il a bien voulu fournir. M.
+              Varnier donne connaissance du rapport financier arrêté au 31 Décembre 1945. Le
+              Président remercie M. Varnier, dont le rapport est adopté à l'unanimité.</p>
+            <p>Il est donné lecture des vœux présentés par l'U. F. A. C. Angot fait savoir qu'il
+              assistera à l'Assemblée générale, le 7 Juillet.</p>
+            <p>Fontaine demande que les réductions sur les transports locaux soient les mêmes sur
+              tout le territoire. Le Président lui fait réponse. Girou réclame les mêmes avantages
+              que ceux accordés dans le département de la Seine, en ce qui concerne le chauffage. Le
+              Président présentera la demande.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+            <p>Il est procédé à la formation du Bureau et au renouvellement du Conseil
+              d'Administration.</p>
+            <p>Ont été élus : Angot, Lemarchand, Dupuis, Mauconduit, Delamare, Frère, Fontaine et
+              Féret, porte-drapeau.</p>
+            <p>La séance est levée à 13 heures. Jeunes et vieux se sont séparés, après un repas pris
+              en commun, heureux d'avoir fait plus ample connaissance, et des remerciements sont
+              adressés à M. et Mme Brabant, que ont mis gracieusement une salle à la disposition des
+              Camarades.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">COMPTE-RENDU de L'ASSEMBLEE
+              GENERALE DE LA DEPARTEMENTALE DU FINISTERE QUI S'EST TENUE le 11 SEPTEMBRE, A
+              LANDERNEAU</head>
+            <p>Sont présents: Le Cocq, Labat, Quéférus, Bourlès, Le Lann, Bellec, Quéré, Coat,
+              Kerrien, Fauvel, Le Mène, Quinquis, Bescond, Fiche, Thépaut, Sibiril.</p>
+            <p>Excusés : Jung, Kerangal, Kerneïs, Turban, Douare, Férézou, Pochat, Espiar, Leborgne
+              J.</p>
+            <p>Le Cocq suvre la séance à 11 heures, et dit toute sa joie de nous trouver à nouveau
+              réunis, après les années cruelles que nous avons passées. Cette Assemblée étant la
+              première depuis la libération.</p>
+            <p>Puis, il demande aux Camarades de se lever et d'observer une minute de silence à la
+              mémoire des Camarades et Enfants de Camarades décédés depuis notre Assemblée Générale
+              de 1939.</p>
+            <p>Lecture est donnée du compte-rendu de l'Assemblée Générale de 1939. Adopté.</p>
+            <p>Kaigre, trésorier, donne lecture du compte-rendu financier, qui est adopté.</p>
+            <p>Le Cocq présente le Camarade Couesnon, vice-président de l'U. A. G., qui a été
+              désigné par le Bureau de Paris pour le représenter près de nous.</p>
+            <p>Couesnon présente les souhaits de l'U. A. G., et fait un long exposé sur le
+              rajustement des pensions, le fonctionnement de la Maison, la rééducation, de la mise
+              hors d'eau de la Maison de Repos de Franceville.</p>
+            <p>Couesnon continue son exposé sur la Caisse maladie, la Caisse de secours au décès, la
+              Caisse de prévoyance et des prêts pour construction.</p>
+            <p>Quinquis demande quelques précisions sur les Allocations familiales.</p>
+            <p>Bescond demande si l'U. A. G. ne pourrait relever notableınent le prêt pour
+              reconstruction et construction. Un échange de vues a lieu et un vœu est émis.</p>
+            <p>Une discussion a lieu ensuite, concernant le Statut. Un vœu est émis.</p>
+            <p>Lecture est donnée du nouveau règlement des Groupements départementaux.</p>
+            <p>Le règlement spécifiant que, seule, la Départementale représente l'U. A. G. dans le
+              département, Sibiril proteste contre l'emploi, par Fauvel, de circulaires à l'en-tête
+              de l'U.A.G., puis contre l'article qu'il a fait paraître dans le "Télégramme" du 19
+              Mars, où il demande que les dons lui soient adressés ou virés.</p>
+            <p>Fauvel répond qu'il ne s'est pas servi de circulaires à en-tête de la Départementale,
+              mais de l'U. A. G.</p>
+            <pb n="17"/>
+            <note type="foliation">— 15 —</note>
+            <p>Pour ce qui est de se faire adresser les dons ou de rechercher dés Membres
+              bienfaiteurs, il l'a fait en complet accord avec Amblard.</p>
+            <p>Les Administrateurs sortants sont réélus, la candidature de Fiche est sollicitée pour
+              compléter le Conseil. La demande d'admission de Fiche étant encore en instance à l'U.
+              A. G., il est décidé d'attendre pour l'admettre comme Administrateur, et demander à
+              l'U. A. G. d'étudier son cas.</p>
+            <p>Les Membres sortants du Bureau n'étant pas candidats, Fauvel est nommé président, et
+              Bescond, secrétaire. Kaigre est trésorier.</p>
+            <p>Fauvel demande à Sibiril de prendre la vice-présidence, car il se pourrait qu'il
+              quitte le département.</p>
+            <p>Membres : Labat, Kerneïs, Le Cocq, Fiche. Fauvel et Bescond sont désignés pour
+              représenter le Groupement à l'U. F. A. C., Le Mène à la Commission des Conflits.</p>
+            <p>Vœux. - Les Aveugles de Guerre du Finistère, réunis en Assemblée générale, le 11
+              Septembre, à Landerneau, demandent : « Au Bureau de l'U. A. G. d'étudier s'il n'y
+              aurait pas possibilité de relever le prêt pour reconstruction et construction. » « Les
+              Aveugles de Guerre du Finistère, réunis en Assemblée générale, le 11 Septembre,
+              demandent : « La suppression des délais, ou tout au moins la prorogation des délais, à
+              la durée légale des hostilités, pour faire sa demande pour l'obtention du Statut.
+              »</p>
+            <p>A midi et demi, l'on se retrouve à nouveau réunis à l'Hôtel de Bretagne, où un repas
+              en commun est servi.</p>
+            <pb n="18"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">PETITS AVIS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">L'ASSEMBLEE GENERALE
+                1947</head>
+              <p>Le Conseil d'Administration du 18 Décembre 1946, a fixé la date de notre prochaine
+                Assemblée Générale au 27 Avril prochain.</p>
+              <p>Notre Association aura l'honneur de ranimer la Flamme, sous l'Arc de Triomphe, le
+                Vendredi 25 Avril.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">COTISATIONS</head>
+              <p>Les Camarades qui ne se sont pas encore acquittés de leur cotisation pour l'année
+                1946, sont priés de le faire le plus rapidement possible. Ceux d'entre nous qui ne
+                se seront pas mis en règle avant le 1<hi rend="superscript">er</hi> MARS 1947,
+                recevront un avis de recouvrement à leurs frais. Pour 1946, le prix de la cotisation
+                était de 10 francs.</p>
+              <p>Une fois de plus, nous indiquons que celle de 1947 a été portée à 50 francs par la
+                dernière Assemblée générale.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">AVIS INTERESSANT LES
+                CAMARADES DU DEPARTEMENT DE LA SEINE ET CEUX HABITANT LES COMMUNES DE SEINE-et-OISE
+                DESSERVIES PAR LA T.C.R.P.</head>
+              <p>A dater du 3 Mars 1947, les réseaux métropolitains n'accepteront plus au contrôle
+                que les cartes de priorité du modèle 1947. Après cette date, les cartes non
+                échangées qui seront présentées au contrôle, seront confisquées.</p>
+              <p>L'échange des cartes se fera du 7 Janvier au 1<hi rend="superscript">er</hi> Mars,
+                à la Préfecture de Police (bureau 199 ter, 1<hi rend="superscript">er</hi> étage,
+                escalier E), en semaine seulement, de 9 heures du matin à 18 heures.</p>
+              <p>Les pièces d'identité à produire sont les suivantes : 1.) Carnet de pension
+                d'invalidité ou brevet d'allocation provisoire d'attente, ou brevet de pension
+                définitive ; 2.) Dernier coupon postal de paiement ou de virement à un compte
+                courant chèque postal. (Pour les Camarades ayant un compte en banque, une
+                attestation de paiement du bureau payeur, ou de la Paierie Générale) ; 3.) Carte
+                d'alimentation, carte d'électeur, ou feuille d'imposition de l'année en cours.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">SUPPLEMENTS
+                ALIMENTAIRES</head>
+              <p>Nous sommes heureux de pouvoir informer nos Camarades titulaires du Statut, au
+                titre du décret du 17 Juin 1938, qu'ils pourront prétendre, à dater du 1<hi
+                  rend="superscript">er</hi> Mars 1947, aux mêmes suppléments alimentaires dont
+                bénéficient déjà nos Camarades ayant le Statut au titre de la loi du 22 Mars
+                1935.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Pour plus de précisions, nous communiquons ci-après le texte de la lettre qui a été
+                envoyée par le Sous-Secrétariat d'Etat au Commerce et à la Distribution, le 2
+                Janvier 1947, à MM. les Préfets, pour application des nouvelles dispositions, sous
+                la référence : 1216 RDR 2. « a). Détermination des Bénéficiaires. - A compter du
+                  1<hi rend="superscript">er</hi> Mars 1947, sont admis à percevoir les suppléments
+                ci-dessous mentionnés, sous réserve qu'ils ne soient pas titulaires du régime numéro
+                4 , les mutilés qui sont à la fois : « 1.) Titulaires de l'appellation « Grand
+                Mutilé de Guerre », par application de l'article 1<hi rend="superscript">er</hi> de
+                la loi du 22 Mars 1935 : « ou titulaires de l'appellation « Grand Invalide»; 2.)
+                Soit bénéficiaires des dispositions de l'article 10 de la loi du 31 Mars 1919 ».</p>
+              <p>Nos Camarades non bénéficiaires du Statut peuvent donc profiter pareillement de ces
+                légers avantages. «b) Taux des Suppléments. - Les bénéficiaires percevront les
+                suppléments mensuels suivants : Sucre, 250 gr.; Pâtes alimentaires, 500 gr.; Vin, 6
+                litres. «c) Modalités de délivrance. - Ces suppléments seront délivrés
+                bi-mestriellement aux intéressés, sous forme de tickets spéciaux, par les Services
+                municipaux du Ravitaillement général. «d) Pièces justificatives. - Les intéressés
+                devront déposer, à la Mairie qui leur délivre leurs titres d'alimentation normaux,
+                un certificat qui leur sera adressé, une fois pour toutes, par l'Intendant
+                départemental des Pensions. La Mairie devra conserver ce certificat, et pourra
+                dresser une liste des ayants-droit, auxquels elle remettra les titres
+                supplémentaires à la fin de chaque bimestre, en même temps que les autres titres
+                d'alimentation : elle portera sur la quatrième page de la carte d'alimentation, la
+                mention « Grand Mutilé de guerre » ou « Grand Invalide». «Les Mairies devront
+                veiller à ce que les intéressés ne soient pas déjà bénéficiaires, soit du régime
+                numéro 4 , soit des suppléments prévus pour les sanatoria et préventoria agréés,
+                soumis à la loi du 7 Septembre 1919. « En cas de changement de résidence, les
+                intéressés demanderont la restitution du certificat de l'Intendant départemental des
+                Pensiona et percevront les suppléments dans les conditions ci-dessus précisées
+                auprès de leur nouvelle Mairie, après y avoir déposi ledit certificat».</p>
+              <p>Nous nous excusons auprès de nos Camarades du retard apporté à l'envoi du Bulletin
+                de Décembre, des circonstances indépendantes de notre volonté nous ayant empêché de
+                le faire parvenir en temps voulu :</p>
+              <p>Grève des imprimeurs à Rouen ;</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+              <p>Coupures de courant dans les ateliers ; Fermeture obligatoire de l'Imprimerie
+                pendant 12 jours, pour les fêtes de Noël et du Jour de l'An.</p>
+              <p>Nous demandons à nos Camarades, et plus spécialement aux Présidents de Sections, de
+                bien vouloir nous communiquer leur numéro de compte chèque postal, pour éviter à
+                l'U. A. G. des frais de mandat.</p>
+              <p>VINS ROUGES. - Corbière Haut-Roussillon, extra, 11 degrés, 115 francs le litre;
+                Corbière Supérieur, 12 degrés, 120 francs le litre, par fûts de 60 litres
+                minimum.</p>
+              <p>S'adresser au Camarade Simon NIANT, 71, rue du Pont-SaintJean, Bergerac
+                (Dordogne).</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>BEZARD Henri, de Langeais (I.-et-L.), son fils Michel (cinquième enfant), le 1<hi
+                rend="superscript">er</hi> Décembre 1946.</p>
+            <p>CERDAN Robert (1939-46), d'Oran, son fils Alain, le 6 Décembre 1946.</p>
+            <p>GABAS François (1939-46), de Marignac (Haute-Garonne), son fils André-Charles, le 7
+              Septembre 1946.</p>
+            <p>GRATTEPAIN Albert, de Cannes (Alpes-Maritimes), son fils Guy, le 25 Décembre
+              1946.</p>
+            <p>BEAUDUFE Simon, de Payzac (Dordogne), son petit-fils Gérard, le 29 Juillet 1946.</p>
+            <p>CHAPOUILLE Joseph, de Casteljaloux (L.-et-C.), sa petite-fille Maryse, Décembre
+              1946.</p>
+            <p>HADOT Gaston, de Vertus (Marne), son petit-fils Jean-Pôl, le 18 Septembre 1946.</p>
+            <p>MOREAU Adolphe, de Bry-sur-Marne (Seine), son petit-fils Bernard, le 17 Novembre
+              1946.</p>
+            <p>HILLAIRET Louis, de Château-d'Olonne (Vendée), son petitfils Robert, le 24 Août
+              1946.</p>
+            <p>ANDRIEU Emile, de Nuces (Aveyron), son petit-fils Georges, le 26 Novembre 1946.</p>
+            <p>Nous adressons nos félicitations aux heureux Parents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">MARIAGES</head>
+            <p>Les Camarades suivants nous font part des célébrations de mariage de :</p>
+            <p>Notre Camarade Robert SCHAMBION, de Strasbourg (Bas-Rhin), avec Mile Friedel Malaise,
+              Novembre 1946.</p>
+            <p>Notre Camarade Jean-Marie ERHARD (1939-46), de Pierrevillers (Moselle), avec Mile
+              Marianne Dupont, le 7 Décembre 1946.</p>
+            <p>Le fils Jean du Camarade Pierre CHORON, de Bessenay (Rhône), avec Mlle Marcelle
+              Martin, le 26 Octobre 1946.</p>
+            <p>Le fils Paul du Camarade Richard SABIER, de Deuil (S.-et-O.), avec Mlle Micheline
+              Redon, le 11 Décembre 1946.</p>
+            <p>Le fils Jean-Pierre du Camarade Alexandre CORAZZA, de Marseille (B.-du-R.), avec
+              Mille Jacqueline Sarda, le 19 Octobre 1946.</p>
+            <p>Le fils Joseph du Camarade Paul VIGUIER, de Lallaing (Nord); avec Mlle Françoise
+              Porte, le 18 Décembre 1946.</p>
+            <pb n="22"/>
+            <note type="foliation">— 20 —</note>
+            <p>Le fils Michel du Camarade SEROT, de Missillac (Loire-Inf.), avec Mlle Jeannette Le
+              Toumdin, le 23 Novembre 1946.</p>
+            <p>Le fils René du Camarade Alfred LOISEAU, de Levallois-Perret (Seine), avec Mlle
+              Geneviève Charpentier, le 28 Décembre 1946.</p>
+            <p>La fille Lily du Camarade Alexandre CORAZZA, de Marseille (B.-du-R.), avec M. Max
+              Esçalon, le 15 Mars 1944.</p>
+            <p>La fille Jeanne-Louise, avec M. Henri Miossec, et la fille Pauline, avec M. François
+              Créach, du Camarade Guillaume ARGOUACH, de Kerranprenost-en-Plouénan (Finistère).</p>
+            <p>Nous adressons nos vœux de bonheur aux nouveaux Mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">DECES</head>
+            <p>JABOUILLE Charles, de St-Yriex-la-Montagne (Creuse), le 30 Novembre 1946.</p>
+            <p>ESTIENNE Auguste, d'Avignon (Vaucluse), le 10 Décembre 1946. SOUCHARD Henri, de
+              Breuil-Barret (Vendée), le 3 Janvier 1947. La femme du Camarade Jacques ECKERT, de
+              Wissembourg (BasRhin), le 25 Novembre 1946.</p>
+            <p>La mère du Camarade Léon DOUALE, de Béthune (P.-de-C.), le 5 Décembre 1946.</p>
+            <p>Nous adressons aux Familles éprouvées nos plus vives condoléances.</p>
+            <pb n="23"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Comité d'Action</head>
+            <p>Présidents : MM. Jérôme et Jean THARAUD, de l'Académie Française.</p>
+            <p>Vice-Présidente : Mme CONTAMIN. Vice-Présidente Honoraire : Mlle ARBRL. Trésorier
+              Honoraire : M. MAYER. Membres : M. AGASSE, M. AUTERBE,</p>
+            <p>Mme du BOS, , M<hi rend="superscript">°</hi> BRULLIARD, M. de CHAUMONT-QUITRY, M.
+              COLLIER, <hi rend="superscript">°</hi></p>
+            <p>Ml le Docteur COUTELA, Mlle JALAGUIER, M<hi rend="superscript">°</hi> MASSON.</p>
+            <pb n="24"/>
+          </div>
+
+          <fw>Le Gérant : L'EVESQUE. Imp. Piétrini, Rouen</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

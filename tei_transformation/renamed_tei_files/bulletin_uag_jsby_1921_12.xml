@@ -1,0 +1,1789 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 3ème année 1921, n°12</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Soins médicaux</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 32 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#association">Association</term>
+          <term ref="#assemblee-generale">Assemblée Générale</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le document est un bulletin de l'Union des Aveugles de Guerre, fournissant des
+          informations sur l'organisation et les activités de l'union. Il détaille la composition du
+          comité de patronage, incluant des personnalités politiques, militaires et académiques,
+          ainsi que le conseil d'administration. Un compte rendu de l'assemblée générale du 11
+          décembre 1921 est inclus, résumant les discussions et les décisions prises concernant les
+          pensions, les soins médicaux, les transports et les opportunités de travail pour les
+          aveugles de guerre. Le bulletin met également en avant les efforts de l'union pour
+          améliorer la situation matérielle et morale de ses membres, ainsi que son rôle de défense
+          de leurs droits auprès des pouvoirs publics.</p>
+      </abstract>
+      <creation>
+        <date when="1921-12-01">01/12/1921</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-03" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-02" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item><ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des</ref></item>
+          <item><ref target="#h2">COMITÉ DE PATRONAGE</ref></item>
+          <item><ref target="#h3">CONSEIL D'ADMINISTRATION</ref></item>
+          <item><ref target="#h4">COMPTE RENDU de l'Assemblée Générale du</ref></item>
+
+          <item>
+            <ref target="#h5">RAPPORT SUR L'EXERCICE 1921</ref>
+            <list>
+              <item><ref target="#h6">A) Question des Pensions</ref></item>
+              <item><ref target="#h7">B) Soins médicaux et pharmaceutiques</ref></item>
+            </list>
+          </item>
+
+          <item><ref target="#h8">TRANSPORTS</ref></item>
+          <item><ref target="#h9">LEGION D'HONNEUR</ref></item>
+          <item><ref target="#h10">ACTIVITE DES AVEUGLES DE GUERRE</ref></item>
+
+          <item>
+            <ref target="#h11">ROLE MORAL DE L' « U. A. G. »</ref>
+            <list>
+              <item><ref target="#h12">Bulletin</ref></item>
+              <item><ref target="#h13">Caisse fraternelle</ref></item>
+              <item><ref target="#h14">Franceville</ref></item>
+              <item><ref target="#h15">Maison de l'Aveugle</ref></item>
+              <item><ref target="#h16">Conclusion</ref></item>
+            </list>
+          </item>
+
+          <item><ref target="#h17">RAPPORT FINANCIER DU CONSEIL D'ADMINISTRATION</ref></item>
+          <item><ref target="#h18">RAPPORT DES COMMISSAIRES AUX COMPTES 1920-1921</ref></item>
+
+          <item>
+            <ref target="#h19">PROJET DE BUDGET POUR L'EXERCICE</ref>
+          </item>
+
+          <item><ref target="#h20">COMPTE RENDU DES PENSIONS</ref></item>
+          <item><ref target="#h21">MODIFICATIONS DES STATUTS</ref></item>
+
+          <item>
+            <ref target="#h22">RÈGLEMENT INTÉRIEUR</ref>
+            <list>
+              <item><ref target="#h23">Comité de patronage</ref></item>
+              <item><ref target="#h24">Comité d'Action</ref></item>
+              <item><ref target="#h25">Assemblée générale</ref></item>
+              <item><ref target="#h26">Conseil d'administration</ref></item>
+              <item><ref target="#h27">Bureau</ref></item>
+              <item><ref target="#h28">Comités d'Etude</ref></item>
+              <item><ref target="#h29">Commissions</ref></item>
+              <item><ref target="#h30">Ordre des assemblées</ref></item>
+              <item><ref target="#h31">Président</ref></item>
+              <item><ref target="#h32">Vice-président</ref></item>
+              <item><ref target="#h33">Secrétaire général</ref></item>
+              <item><ref target="#h34">Caisse fraternelle</ref></item>
+              <item><ref target="#h35">Bulletin</ref></item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h36">COMPTE RENDU AU SUJET DU PAIEMENT DES</ref>
+            <list>
+              <item><ref target="#h37">Maison de l'Aveugle, Maison de Repos</ref></item>
+              <item><ref target="#h38">Vote</ref></item>
+              <item><ref target="#h39">Ratification et résultats des</ref></item>
+              <item><ref target="#h40">Nomination des Commissaires aux</ref></item>
+              <item><ref target="#h41">Nomination des délégués pour la</ref></item>
+            </list>
+          </item>
+
+          <item><ref target="#h42">COMITÉ D'ACTION</ref></item>
+          <item><ref target="#h43">COMITÉ D'AIDE</ref></item>
+          <item><ref target="#h44">LISTE DES DONATEURS</ref></item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">3e Année. — N° 12</fw>
+          <fw type="header">
+            <hi rend="underline">Décembre 1921</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <p>Compte-rendu de l'Assemblée Générale du 11 novembre 1921</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 38, rue
+            du Mont-Thabor, PARIS (1<hi rend="superscript">er</hi>) <lb/> TÉLÉPH. : Central 44-88 —
+            Chèque postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR<lb/> de
+              l'Union des Aveugles de Guerre</head>
+            <p>M. A. MILLERAND, ancien Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. le général Maunoury, président ; M. Barthou, ministre de la Guerre ; M. Bricux, de
+              l'Académie Française, président honoraire de l'U. A. G.; M. le général Balfourré,
+              président de l'Association Valentin Haüy ; M. Borrel, député, ancien sous-secrétaire
+              d'Etat ;</p>
+            <p>Mme Marthe Brandès présidente de l'Abri du Soldat Aveugle ; M. Brisac, préfet ; M. J.
+              Ridgely Carter, secrétaire général du Comité Franco-Américain pour les aveugles de
+              guerre ; M. Paul de Cassagnac, dépuié ;</p>
+            <p>M. Maurice Donnay, de l'Académie Française, président de «Pour le Foyer du Soldat
+              Aveugle »; M. Ducu, médecin-inspecteur ; M. le colonel Fabry député ; M. Fribourg,
+              député ;</p>
+            <p>Miss Alice Getty, directrice-fondatrice de l'imprimerie pour les aveugles de guerre
+              «La Roue»; M. Justin Godart, ancien sous-secrétaire d'Etat au service de santé, député
+              de Lyon ; M. le comte de Grammont, président de l' "Aide aux Soldats Aveugles»;</p>
+            <p>Miss Grass Harper représentante de la Croix-Rouge américaine ; Miss Winifred Holt,
+              présidente du Comité Franco-Américain pour les aveugles de guerre ; Mme Léopold Kahn,
+              présidente, fondatrice de l'Ecole de massage des soldats aveugles ; Mme Géo Kessler,
+              présidente du « Permanent Blind Relief War Fund incorporated »; M. Krug ; M. Lugol,
+              député ; M. E. Meyer, conseiller d'Etat ; M. le docteur Morax, président de la Société
+              "Les Ateliers d'Aveugles»; M. Henry Paté, député ; M. Pierre Rameil, député ; M.
+              Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; M. Vallon, Inspecteur général
+              des Services extérieurs du ministère des Pensions; M. Vallery-Radot, président
+              honoraire de la Société «Les Amis des Soldats Aveugles»; M. Constant Verlot, député,
+              président de la Conférence des Cuvres d'Aveugles ; M. le Professeur Walther, membre de
+              l'Académie de médecine.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>MM. Butzel, Albert, Amar, Antoine, Arnault, Bardoux, Bois, Bourguignon, Bertrand,
+              Chautard, Delage, Dufour, Durat, Favret, Goubin, Gudéfin, Isaac, Lapfargue, Lagarde,
+              Lallement, Leloup, Leveque, Noibeaux, Rolert(Maurice), Roy (Georges), Sainte-Rose,
+              Scapini, Sigault, Toudouli,</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">COMPTE RENDU<lb/> de l'Assemblée
+              Générale du 11 Décembre 1921</head>
+            <p>La séance est ouverte à 14 h . 1 / 2, sous la présidence de Gudefin. Sont présents :
+              Membres du Comité d'action : Mlle Arbel, M. de Traversay, vice-présidents; M. Bloch,
+              secrétaire adjoint;</p>
+            <p>Mlle Jalaguier, Mme Lévy-Weiss, M. Meynadier. Membres du Conseil d'administration :
+              M. Boetzel, trésorier;</p>
+            <p>MM. Roy (Georges), Gudefin, Bois, vice-présidents; M. Laffargue, secrétaire
+              général;</p>
+            <p>MM. Amar, Arnault, Bardoux, Bertrand (Fernand), Chautard, Dufourc (Pierre), Ecal,
+              Favret, Izaac, Lagarde, Noireaux, Toudouri.</p>
+            <p>Les camarades : Cladier, Cassar, Vidémont, Morand, Le Lann, Dupont, Falaise, Lecomte
+              (Louis), Mansuy, Héritier, Guth, Papa, Mazeaud, Chauvel, Prune, Bailly, Le Stang,
+              Hannequin, Charrière (J.-S.), Sursin, Léger (Robert), Guittard, Drapeau (Henri),
+              Boursellier, Boidin, Théret, Jolis (Edmond), Vaxelaire, Juhel, Nicolas (François),
+              Potereau, Hourcade, Ramelot, Durat, Fautsch, Langel, Becker, Lemaire (Louis), Vivot,
+              Rosant, Petrucci, Nadon, Massé (Georges), Guilpain, Briand, Noel (Henri), Montgermont,
+              Beauval, Terras, Ramspacher, Freidinger, Chardon, Chanudet, Malgat, Mulsant,
+              Bloncourt, Zunino, Seguin, Drion, Pillon, Véron, Leblond, Robert (Maurice), Heuzé,
+              Machavoine, Couesnon, Besson, Cochon, Saillot, Bony, Sautou (Thierry), Storme,
+              Mougenel, Lallemant, Masson (Y.), Crété, Codhant, Martin (Paul), Roy (Jean),
+              Delaplace, Toutain, Brunet, Biray, Guibaud, Caudron, Pavil, Padellec, Flecniaskoska,
+              Dubos (Gaston), Hutinet, Jouguelaird, Mattei, Hipolite, Gentilhomme, Gresset,
+              Bruckmann, Michon, Albespy, Grand, Jannin (Léon), Thibaut, Leblond (Auguste), Lamy,
+              Berthet, Gilles, Hervoir, Cardot, Pot, Lelarge, Sklarg, Malgat, Dunand, Charpentier
+              (Eugène), Nicolaï, Virot, Roulet, Labarre, Savignat, Chaumérac, Fillion, Feuilleul,
+              Boukir, Grillet, Benoit, Cochet, Gohiec, Christophe, Faille, Pélissier, Cariou,
+              Donzelot, Lemée, Ducornet, Fouillard, Clemencel, Riou, Amblard, Ecal, Desgrippes,
+              Montfaucon, Colombel, Rain, Le Gouar, Rousseau (Lucien), Poezévara, Tourneux,
+              Vandromme, Delage, Robillard, Caron (Ovide), Lemaire (Georges), Cressent (Jules),
+              Desroseaux, Boucher (Emile), Bignon, Sainte-Rose, Mombœui, <pb n="4"/>
+              <note type="foliation">— 2 —</note> Hérouar, Loiseau, Peuchaniel, Boudant, Bourlot,
+              Leboindre, Gazel, Gros (François), Legris, Cohen, Guilbot, Delafosse, Detor, Mauret,
+              Devienne, Bloch, Parlant, Grousier, Lambert (Roger), Odoul, Balester, Bonnecuelle,
+              Seceh, Coutteau, Marteau, Galas, Portebois, Fermon, Vauthier, Pinacqui, Bonnardin,
+              Girouard, Arnaud (André), Prévost (Gustave), Pagel, Jannin, François (Maurice),
+              Teillet.</p>
+            <p>Le Président informe l'Assemblée que le Général Maunoury ne peut assister à notre
+              réunion. Actuellement souffrant, il ne peut faire le voyage de sa résidence à la
+              campagne jusqu'à Paris. L'Union en a été prévenue par le télégramme suivant : «
+              Imposible me rendre dimanche réunion U. A. G. - Regrets. «Signé : Général Maunoury. »
+              Le Président forme des vœux, auxquels s'associe l'Assemblée pour le prompt
+              rétablissement du Général Maunoury.</p>
+            <p>Gudefin excuse ensuite notre cher Président, Goubin, qui n'a pu se rendre aujourd'hui
+              parmi nous; la santé des siens lui cause depuis quelques mois des inquiétudes qui ne
+              lui permettent pas la moindre absence.</p>
+            <p>Le Président passant à l'ordre du jour fait donner lecture par M. Bloch, secrétaire
+              général adjoint, du rapport présenté par le Conseil d'administration.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">RAPPORT SUR L'EXERCICE 1921</head>
+            <p>Le rapport de votre Conseil d'administration pour l'exercice 1921 ne peut commencer
+              que par des remerciments à M. Alexandre Millerand, Président de la République, qui a
+              bien voulu donner son haut patronage à notre Groupement.</p>
+            <p>Le Général Maunoury a fait, dans le courant de l'année, une démarche auprès du chef
+              de l'Etat, et lui a expliqué le but de l'Union, comment nous voulons vivre en
+              réunissant tout ce qui nous reste d'activité et d'énergie.</p>
+            <p>Nous présentons également ici nos sentiments de gratitude à tous ceux qui sont venus
+              à notre aide pendant l'année qui vient de s'écouler et dont beaucoup nous sont fidèles
+              depuis le premier jour de nos blessures.</p>
+            <p>Nos remerciments vont tout spécialement aux Membres du Comité de Patronage, du Comité
+              d'Action, ainsi qu'aux Membres de ce Comité d'Aide qui est venu spontanément nous
+              offrir son appui sur l'instigation de son infatigable Présidente, Mme Louis Deschamps,
+              une amie sincère de tous les aveugles de guerre alliés et plus particulièrement des
+              aveugles français.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Nous allons étudier maintenant les diverses questions dont nous avons eu à nous
+              occuper au cours de l'exercice, et vous montrer l'action de l'Union vis-à-vis des
+              pouvoirs publics et les efforts des Membres du Conseil et du bureau.</p>
+            <p>La première question, celle qui nous intéresse le plus, est celle des Pensions :</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h6">A) Question des
+                Pensions</head>
+              <p>1<hi rend="superscript">°</hi> Pension pour l'aveugle lui-même. Après la loi du
+                mois d'août 1920, portant le chiffre des pensions à un minimum de 6.000 francs, nous
+                avons pu constater que les carnets complémentaires ont été délivrés avec rapidité.
+                Un très petit nombre de camarades ont attendu plus de trois mois la délivrance de
+                ces fameux carnets, et nous pouvons en toute sincérité nous féliciter de l'activité
+                qu'a montrée en cette matière M. l'intendant Zaigue.</p>
+              <p>Par contre, nous n'apprendrons rien aux camarades en leur disant que la liquidation
+                des pensions a été beaucoup plus pénible à réaliser. Nous avons signalé, l'année
+                dernière, 1.006 camarades qui n'avaient obtenu aucune liquidation. Après d'assez
+                nombreuses correspondances pour chacun de ces pensionnés entre le ministère des
+                Pensions, les sous-intendants, l'« U. A. G. ) et les intéressés, un grand nombre de
+                titres définitifs ont été délivrés relativement vite. Mais il restait encore des
+                titres provisoires modèles B ou P et des titres définitifs tout prêts dont la
+                liquidation était faite, mais qui, ne satisfaisant pas exactement beaucoup d'entre
+                nous, étaient refusés par les destinataires, Après des démarches nombreuses auprès
+                du ministère des Pensions, nous avons conseillé aux camarades d'accepter au moins
+                une première liquidation, bien qu'elle comportât une somme moindre que celle
+                réellement due à l'intéressé. La cause de ces complications tenait surtout à la
+                multiplicité des lois et des règlements publiés entre le 2 août 1914 et la loi
+                d'août 1920. Quelques camarades avaient été convoqués successivement dans cette
+                période devant trois, quatre et même cinq Commissions de réforme. Il y avait eu des
+                sous-estimations pour les blessures multiples et pour les majorations d'enfant, dont
+                nous ne parlerons pas pour le moment. Toutes ces pièces formaient des dossiers
+                volumineux; quelques-unes avaient été demandées en double et en triple, et des
+                erreurs de bureau s'étaient produites. Enfin, après accord du ministère des Pensions
+                avec l'intéressé, de nouvelles erreurs se produisaient dans les derniers papiers
+                permettant de passer à la caisse, seule chose ayant de l'intérêt pour nous, les
+                blessés. L' "U. A. G. ) a donc dû très souvent intervenir pour des cas particuliers
+                auprès du ministère des Finances et de ses agents. Les trésoriers payeurs généraux
+                nous ont toujours répondu aimablement; parfois, grâce à nos indications, ils ont
+                débrouillé une situation compliquée, mais nous ne serions peut-être pas encore
+                sortis aujourd'hui pour quelques camarades du dédale administratif, si nous n'avions
+                trouvé un appui sérieux et efficace auprès des capitaines <pb n="6"/>
+                <note type="foliation">— 4 —</note> Lardy et Marot, du groupement des officiers
+                mutilés. Ces anciens camarades de combat ont droit à nos plus vifs
+                remerciements.</p>
+              <p>Que reste-t-il donc aujourd'hui comme liquidation en cours? 1<hi rend="superscript"
+                  >°</hi> Quelques cas rares de liquidations en retard; 2<hi rend="superscript"
+                  >°</hi> Des liquidations nouvelles provenant des Commissions de réforme récentes
+                passées en 1921; 3<hi rend="superscript">°</hi> Une trentaine de cas douteux pour
+                lesquels le ministre luimême doit prendre une décision à leur égard, et, si elle ne
+                leur est pas favorable, ils n'auront d'autre recours que l'appel devant les
+                tribunaux des pensions.</p>
+              <p>Mais la pension pour l'aveugle lui-même est-elle suffisante pour permettre à un
+                grand invalide blessé en défendant sa patrie de vivre convenablement. Nous avions
+                tous cru que la somme de 6.000 francs allouée par la dernière loi d'août 1920 aurait
+                suffi à l'aveugle simple et sans charges. L'expérience a démontré le contraire. Il
+                est inutile ici d'exposer en détail toutes les raisons d'impossibilité pour un
+                aveugle de guerre de vivre décemment avec une pension de 500 francs par mois. Même
+                s'il n'a aucune charge, il n'est pas seul : pour n'être pas absolument malheureux,
+                l'aveugle a besoin constamment d'une personne qu'il doit payer s'il veut conserver
+                un peu de cette liberté à laquelle l'homme tient avant tout. D'autre part, si la
+                personne qui vit près de lui est sa femme, elle est trop occupée par la vie
+                matérielle et morale de son mari pour pouvoir vaquer à d'autres occupations comme le
+                fait la femme d'un voyant.</p>
+              <p>Dès le mois de mai 1921, les camarades protestaient contre l'insuffisance de la
+                pension. Quelques aveugles se réunissaient et agissaient énergiquement dans le but
+                d'obtenir une augmentation de pension. Le Conseil ne s'était pas non plus
+                désintéressé de cette question et avait envisagé, également au mois de mai, la
+                possibilité d'obtenir des pouvoirs publics un effort nouveau pour améliorer la
+                situation matérielle de l'aveugle. Une Commission des pensions fut nommée, composée
+                de membres du Conseil et de camarades partisans énergiques de l'augmentation de la
+                pension. Cette Commission a reçu pleins pouvoirs du Conseil en vue d'obtenir la
+                pension la plus élevée possible. L'ordre du jour de cette assemblée comporte le
+                compte rendu des démarches faites et des résultats obtenus jusqu'ici. 2<hi
+                  rend="superscript">°</hi> Allocations pour les enfants. Les allocations, en ce qui
+                concerne les enfants des aveugles de guerre, ont été obtenues avec assez de
+                facilité.</p>
+              <p>Certes, quelques-uns d'entre nous ont dit avoir envoyé jusqu'à sept fois des
+                certificats de vie du même enfant à divers bureaux. Actuellement, nous avons
+                satisfaction selon les lois en vigueur, c'est-à-dire que l'aveugle de guerre touche
+                en réalité 200 francs pour chaque enfant âgé de moins de dix-huit ans.
+                L'administration a eu beau nous expliquer que nous continuions à toucher 300 francs,
+                en passant à la caisse, nous nous sommes aperçus du contraire. Sur ce <pb n="7"/>
+                <note type="foliation">— 5 —</note> point comme sur les blessures multiples, votre
+                Conseil avait un mandat impératif de la dernière assemblée générale, et le rapport
+                spécial relatif aux pensions nous démontrera tout à l'heure comment nos désirs
+                légitimes sont satisfaits.</p>
+              <p>Dans le courant de l'année, une délégation a fait des démarches auprès du ministre
+                de l'Instruction publique et auprès de quelques parlementaires, dans le but
+                d'obtenir que les enfants des aveugles de guerre soient traités sur le même pied
+                d'égalité, c'est-à-dire qu'ils puissent être inscrits tous pupilles de la nation,
+                qu'ils soient ou non nés dix mois après la cessation des hostilités. Ces démarches
+                n'ont pas encore abouti à un résultat pratique. 3<hi rend="superscript">°</hi>
+                Pension des veuves. Notre Union ne se contente pas de s'occuper de ses membres; elle
+                étend son action aux veuves et aux enfants de nos camarades décédés. Nous avons déjà
+                pu obtenir pour ces veuves quelques titres définitifs, et beaucoup plus de titres
+                provisoires. Enfin, nos bureaux interviennent pour le paiement des arrérages non
+                payés par suite du décès du titulaire. Nous pensons que l'assemblée générale
+                approuvera complètement cette intervention des bureaux dans ces liquidations en
+                faveur des veuves et des orphelins de ses camarades, liquidations dont le nombre ne
+                peut que croître chaque année.</p>
+              <p>Là encore l'action de l'Union doit se faire sentir pour les deux raisons suivantes
+                : d'abord le délai du mariage fixé à deux ans au plus après la réforme ou la
+                cessation des hostilités pour ouvrir droit à la pension de veuve est trop court.
+                Songeons que nous avons de jeunes camarades déjà réformés qui ont à peine vingt-deux
+                ans. S'ils viennent à se marier, leurs veuves sont exclues à l'avance du droit à
+                pension. Ensuite, le taux de cette pension paraît faible. La femme qui s'est dévouée
+                à la vie d'un grand invalide n'a pu, pour ce motif, se créer une situation
+                commerciale, ni économiser sur son travail, parce qu'elle n'a pu réellement
+                travailler. 4<hi rend="superscript">°</hi> Pensions d'ascendants. A l'assemblée
+                générale du 13 février 1921, nous étions déjà d'accord sur ce point qu'un vieux
+                père, une vieille mère, des grandsparents constituent une véritable charge, même
+                lorsqu'on est un grand invalide de guerre. Rien n'a été obtenu jusqu'ici, et
+                l'action de l'Union doit poursuivre énergiquement le but désiré.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">B) Soins médicaux et
+                pharmaceutiques<lb/> Hospitalisation</head>
+              <p>L'article 64 de la loi des pensions de 1919 est resté presque partout lettre morte
+                jusqu'au premier semestre 1921. Logés exactement à la même enseigne que les moyens
+                et les petits invalides, un trop grand nombre d'entre nous ont dû payer des visites
+                médicales et des frais de déplacement. Le Bureau de l'Union n'a pour ainsi dire pas
+                reçu de réclamations au sujet de la non application de la loi <pb n="8"/>
+                <note type="foliation">— 6 —</note> pour les soins pharmaceutiques, c'est à croire
+                que les pharmaciens ont été de meilleure composition avec l'Etat que les
+                médecins.</p>
+              <p>Nous devons cependant dire, à l'honneur des médecins, que beaucoup d'entre nous ont
+                trouvé auprès d'eux un appui complet, sans qu'il ait été question du fameux carnet
+                de l'article 64. En passant, nous devons remercier tous les médecins oculistes
+                auxquels les aveugles se sont adressés directement, et particulièrement M. le
+                professeur Morax, auquel l'Union a envoyé plusieurs de ses membres, et qui ont été
+                reçus comme au premier jour de nos blessures. Remercions également MM. les docteurs
+                Belloteau, Fernand et Maurice Dognon, Durezelle, Forget et Roy, qui ont organisé à
+                Angoulême un service médical complet pour les camarades du département de la
+                Charente.</p>
+              <p>L'application de l'article 64 paraît être entré dans une voix beaucoup plus
+                normale; du moins, les bureaux de l'Union ne reçoivent guère plus de réclamations à
+                ce sujet depuis quelque temps.</p>
+              <p>Mais pour nous se pose le problème plus difficile de l'hospitalisation. Certains
+                d'entre nous négligent souvent les formalités administratives et ont de ce fait
+                donné du travail à nos bureaux pour régulariser leur situation dans un hôpital qui
+                les avait acceptés à titre provisoire. Peut-on dire qu'il y ait vraiment faute chez
+                un aveugle de guerre dont la femme est souvent ignorante des choses administratives
+                malgré la lecture de nos bulletins ? Son mari est anémié au dernier degré par une
+                maladie de poitrine ou encore par suite de trépanation, et se trouve dans un état
+                mental anormal.</p>
+              <p>Quelle que soit la bonne organisation des divers hôpitaux, nous sentons qu'il y a
+                là une situation très pénible pour celui qui, outre les blessures multiples, est
+                aveugle. Le problème se posera d'une façon analogue au moment de la vieillesse de
+                certains d'entre nous qui se trouveront sans famille. Votre Conseil pense qu'il y a
+                peutêtre là une protection à établir sous une forme plus précise que l'intervention
+                de notre groupement dans chaque cas particulier.</p>
+              <p>Question difficile et que nous ne pourrons résoudre vraisemblablement qu'avec des
+                concours financiers puissants et sans doute avec l'intervention de l'Etat.</p>
+              <p>L'Hôtel des Invalides, malgré tous ses bienfaits, ne nous paraît pas réaliser
+                aujourd'hui tout ce que nous désirons, pas plus que les hôpitaux des divers centres
+                de province.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">TRANSPORTS</head>
+            <p>Depuis deux ans, l'assemblée générale demandait à votre Conseil d'obtenir ceci :
+              l'aveugle et son guide doivent voyager sur les chemins de fer avec un seul quart de
+              place.</p>
+            <p>Nous avons la joie d'avoir obtenu satisfaction entière depuis la loi du 12 novembre
+              1921. Dès maintenant, nous pouvons voyager <pb n="9"/>
+              <note type="foliation">— 7 —</note> en toutes classes en payant un seul quart pour
+              nous et notre guide, ce quart calculé s'il y a lieu sur les billets d'aller et
+              retour.</p>
+            <p>En ce qui concerne les Compagnies de transports en commun, quelques réductions ont
+              été accordées sur certains chemins de fer départementaux ou tramways communaux. Il y a
+              là une action à poursuivre pour les membres de l' «U. A. G. ) habitant ces localités,
+              en prenant pour exemple ce qui se passe dans les départements ou dans les villes qui
+              ont déjà obtenu la réduction du tarif. L'Union a saisi antérieurement l'Office
+              National des Mutilés et tous les préfets; elle ne peut rien faire de plus, sauf
+              intervenir sur une demande précise des camarades de certaines localités.</p>
+            <p>Espérons également que dans un avenir prochain la carte à double barre bleue
+              permettra à chaque aveugle de guerre de jouir de la réduction de tarif telle qu'elle
+              existe dans le lieu où il se trouve. Il est inadmissible qu'un aveugle de guerre se
+              trouvant dans un lieu quelconque en France ne jouisse pas des avantages que ses
+              camarades ont déjà dans ces lieux. Remarquons que les bureaux de l'Union ont dû
+              demander fréquemment des réductions de tarif pour les aveugles de guerre désirant
+              voyager en Angleterre, en Belgique, en Italie, et que par esprit de solidarité ils ont
+              également demandé aux Compagnies de chemins de fer français des réductions de tarif
+              pour les aveugles de guerre belges, italiens et roumains. Dans ces conditions, il
+              semblerait logique que la carte unique dont nous parlions tout à l'heure soit valable
+              pour les pays alliés, autrement dit que, par exemple, les aveugles de guerre français
+              soient traités en Belgique comme les aveugles de guerre belges, et réciproquement.
+              C'est là pour nous une petite question, car nous ne voyageons pas très souvent à
+              l'étranger, mais elle n'est pas cependant tout à fait négligeable.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LEGION D'HONNEUR</head>
+            <p>Tous les membres savent ce qui a été fait au sujet de la Légion d'honneur dans le
+              courant de l'année et comment l'administration a été leste à faire paraitre au Journal
+              Officiel des noms qui auraient dû s'y trouver depuis le mois d'août 1920. Au I<hi
+                rend="superscript">er</hi> décembre 1921, les deux tiers des camarades que nous
+              avons signalés aux ministères intéressés avaient paru à l'Officiel. Il reste à obtenir
+              une chose, c'est que le Parlement par une loi spéciale, nous donne cette décoration à
+              titre militaire, car nous avons bien été blessés au service de la patrie. C'est
+              l'opinion clairement formulée par M. le député Miellet à la séance de la Chambre du
+                I<hi rend="superscript">er</hi> décembre, à la suite de conversations répétées que
+              ce député avait eues avec un de nos camarades. Nous ne nommerons pas cet aveugle de
+              guerre dans notre rapport annuel, puisqu'il est entendu que chacun travaille pour tous
+              avec l'esprit d'entr'aide qui est à la base même de notre Union. L'action énergique se
+              poursuit auprès des pouvoirs publics.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">ACTIVITE DES AVEUGLES DE
+              GUERRE</head>
+            <p>Maintenant que nous venons d'exposer notre principale action auprès des pouvoirs
+              publics, et d'indiquer les nombreux points qu'il reste à établir, votre Conseil doit
+              vous entretenir de l'activité des aveugles de guerre. Tout d'abord, le principe
+              suivant doit être formulé : l'aveugle de guerre qui a une incapacité physique d'au
+              moins 100% ne doit pas être obligé de travailler pour vivre, mais s'il a quelques
+              moyens physiques, lui permettant une activité, cette activité doit être favorisée par
+              la société.</p>
+            <p>Très peu de camarades peuvent avoir une occupation régulière et continue, mais
+              presque tous nous sommes susceptibles d'une certaine activité, cela dépend de
+              l'énergie qui nous reste, de l'intensité des crises physiques qui continuent à
+              traverser notre existence de blessés, enfin de la situation plus ou moins favorable du
+              milieu extérieur dans lequel nous vivons. L'énergie, un très grand nombre d'entre nous
+              ont su la conserver, et il n'y a rien d'étonnant en cela. N'étions-nous pas des
+              combattants de la dernière guerre; c'est-à-dire ceux parmi les éléments de la nation
+              qui avaient en 1914, le plus de valeur?</p>
+            <p>Nous désirons tous avoir une activité, car nous considérons que l'inaction complète
+              est pire que la mort. Combien avons-nous connu de camarades qui s'étaient laissés
+              aller un instant au découragement se lasser rapidement d'une vie qui leur semblait
+              inutile et pesante? Evidemment, nos blessures nous font souvent souffrir, et nous
+              gênent dans notre activité : retour de souffrance à la tête ou aux membres touchés par
+              d'autres blessures, souffrances physiques dues à une vie beaucoup plus sédentaire que
+              jadis et qui, de ce fait, amène des troubles dans notre santé. Que tous nos camarades
+              sachent qu'un mal terrible menace ceux d'entre nous qui ne mènent pas une vie très
+              hygiénique et qui ne font pas effort pour assurer le bon fonctionnement de leurs
+              organes. Ce mal terrible, c'est la turberculose, qui envahirait fatalement les plus
+              sains d'entre nous si nous nous laissions aller à une existence de mollesse et
+              d'inaction. Nous donnons cet avis sincère parce que, malheureusement, quelques
+              camarades sont déjà devenus la proie de la tuberculose. Que chacun de nous rassemble
+              donc son courage et son énergie et occupe son corps, soit par le travail, soit par les
+              exercices de gymnastique ou les exercices sportifs qui lui sont encore accessibles. Le
+              travail a d'ailleurs une influence morale considérable, mais, pour être actif, encore
+              faut-il que cette activité nous soit possible.</p>
+            <p>La dernière assemblée générale a voté un budget spécial pour l'organisation du
+              travail, voulant indiquer par là qu'elle se rend compte que l'aveugle absolument isolé
+              arriverait très difficilement à exercer son activité.</p>
+            <p>Mais, cette année, une crise a sévi sur tous les travailleurs français, nous pouvons
+              dire sur les travailleurs du monde entier, et <pb n="11"/>
+              <note type="foliation">— 9 —</note> l'aveugle nécessairement travailleur, beaucoup
+              plus faible que le clairvoyant, en a subi forcément le contre-coup. Ceux qui avaient
+              été rééduqués dans une profession manuelle ont eu la plus grande difficulté à vendre
+              leurs produits fabriqués. Ceux qui avaient essayé de trouver une activité dans des
+              métiers plus intellectuels, comme dactylographes, téléphonistes, représentants de
+              commerce, n'ont pu se placer ou trouver un emploi nouveau ou réussir dans leurs
+              affaires. Le prix des matières premières a subi des fluctuations invraisemblables, et
+              les cuvres d'aveugles s'occupant du travail ont sans doute été désorientées par ces
+              fluctuations des prix, car nos camarades ont parfois trouvé dans le commerce des
+              offres plus favorables que celles qui étaient consenties par les entrepôts destinés
+              spécialement aux aveugles. Votre Conseil a essayé de faire un sérieux effort, et pour
+              cela il a répandu un très grand nombre de tracts; il a participé à une exposition de
+              produits fabriqués, à Nancy; sur la demande de quelques aveugles, il a pris place à la
+              dernière Foire de Paris, dans laquelle on pouvait voir quelques camarâdes travaillant
+              sous les yeux du public à titre de démonstration. Pour faciliter l'achat de matières
+              premières, le Conseil a décidé de mettre 25.000 francs à la disposition de groupements
+              susceptibles de soumissionner dans des adjudications importantes offrant des garanties
+              du remboursement de l'avance.</p>
+            <p>Votre Conseil a tenté une expérience dans la région parisienne, avec l'idée de
+              l'étendre à toutes les provinces si cette expérience réussissait. Les aveugles de la
+              région parisienne ont été invités à se réunir par corporations. Nos camarades ont lu
+              quelques comptes rendus de ces réunions dans le Bulletin. Les brossiers et les
+              tricoteurs ont fait des efforts pour essayer d'organiser le travail. Ces efforts n'ont
+              pour ainsi dire donné jusqu'ici aucun résultat apparent. Les brossiers paraissent
+              cependant sur le point de récolter les fruits de leur persévérance, bien que rien de
+              définitif ne soit encore intervenu. Disons en passant que, grâce à la générosité de
+              Mme Kessler, un professeur de tricotage s'est occupé de la rééducation des camarades
+              de province et de Paris, et les tricoteurs n'ont eu qu'à se louer de cette
+              initiative.</p>
+            <p>Que Mme Kessler reçoive à nouveau nos remerciements. Les masseurs, eux, forment un
+              groupement qui s'étend à toute la France, et nous sommes convaincus que les échanges
+              d'idées qui ont eu lieu dans les réunions mensuelles, ainsi que l'action des
+              commissaires, n'a pas été inutile. Les difficultés mêmes qu'ils ont rencontrées leur
+              ont démontré la nécessité qu'il y avait pour eux de rester groupés. Ce grand mot :
+              organisation du travail, a fait sourire bien des personnes s'occupant des aveugles.
+              Quelques-unes se sont rappelées que cette même expression avait été employée en France
+              en 1848, et n'avait abouti qu'à des choses décevantes. Faut-il penser que dans notre
+              petite sphère, il en sera de même et qu'il faut abandonner notre projet? Votre Conseil
+              ne le croit pas. Si peu qu'il ait été fait, il a été fait quelque chose.
+              Malheureusement, nous ne sommes pas assez riches, car il faut de l'argent pour
+              s'occuper de 2.200 aveugles.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+            <p>Comme notre rapport financier l'indique, la plus grande partie des sommes que nous
+              avons dans notre caisse a reçu une affectation spéciale par la volonté des donateurs,
+              et votre Conseil est tenu de se conformer à ces volontés. Avec des ressources
+              suffisantes, nul d'entre nous, quand il le pourrait, ne resterait sans exercer son
+              activité, activité qui amènerait plus de bienfait moral que d'améliorations
+              matérielles dans sa vie.</p>
+            <p>Soyons tenaces dans nos idées quand elles nous paraissent justes. Le devoir de votre
+              Conseil à venir sera d'augmenter la puissance de votre Union pour pouvoir résoudre
+              efficacement la question du problème du travail. Celui de chacun des membres sera de
+              rester énergique, d'ailleurs comme nous l'avons été au front et depuis la
+              démobilisation.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">ROLE MORAL DE L' « U. A. G.
+              »</head>
+            <p>Le rôle moral de l'Union ne s'est pas amoindri au cours de l'année 1921. Pour ne pas
+              revenir inutilement sur des idées longuement exprimées dans les rapports des années
+              précédentes, nous allons passer rapidement en revue les principaux résultats du
+              dernier exercice.</p>
+            <p>Les relations entre les membres de l'Union et la rue du MontThabor ont été aussi
+              nombreuses que l'an dernier, et cependant, pour plus de la moitié d'entre nous, les
+              questions de pensions étaient réglées. Le service juridique a dû fonctionner bien plus
+              activement que l'an passé. Nous devons renouveler nos sentiments de gratitude à M<hi
+                rend="superscript">e</hi> Henri Robert et M<hi rend="superscript">e</hi> Chérot.
+              Devant l'augmentation des demandes relatives aux loyers, nous avons accepté avec joie
+              le concours d'un camarade récemment inscrit au Barreau de Paris. M<hi
+                rend="superscript">e</hi> Marcel Bloch a bien voulu également donner gracieusement
+              ses conseils à quelques membres de l' "U. A. G. ". Nous adressons en outre nos
+              remerciements à M<hi rend="superscript">e</hi> Castagnet pour les consultations
+              générales qu'il nous a si aimablement données, enfin à M<hi rend="superscript">e</hi>
+              Burthe, devenu notre notaire sans même vouloir accepter une place dans un de nos
+              Comités d'action ou de patronage.</p>
+            <p>Les bureaux ont dépensé la somme de 8.770 fr. 15 pour frais de correspondance (plus
+              de 20.000 lettres). Notons en passant que quelques camarades, selon le désir exprimé à
+              ce sujet par la dernière assemblée générale, joignent parfois des timbres pour la
+              réponse. Nous souhaitons que cette manière de faire se généralise.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">Bulletin</head>
+              <p>Le Bulletin est resté ce qu'il était : un lien indispensable entre nous, l'organe
+                qui relie l'aveugle du plus petit village avec tous ses camarades répartis sur le
+                territoire national.</p>
+              <p>Notre Bulletin n'est pas parfait, et certains ne ménagent pas leurs critiques. Ces
+                critiques sont et seront toujours les bienvenues. Chaque année nous essayerons de le
+                rédiger mieux et d'intéresser les camarades. Remarquons cependant qu'au mois d'août,
+                lorsque notre Bul- <pb n="13" break="no"/>
+                <note type="foliation">— 11 —</note> letin a paru avec du retard, les bureaux ont
+                reçu une avalanche de réclamations, montrant que, tout en critiquant le Bulletin,
+                les camarades prennent un grand intérêt à sa lecture.</p>
+              <p>Nous remercions MM. Dubois et Bauer qui prennent toujours à leur charge une partie
+                des frais d'impression. Leur effort s'exerce pour nous depuis trois ans, et
+                l'assemblée applaudira certainement à leur nouveau titre de membres d'honneur que
+                ces amis fidèles ont tant mérité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Caisse fraternelle</head>
+              <p>Au début de l'exercice écoulé, le Conseil, croyant tous les camarades alignés au
+                moins à 6.000 francs, avait diminué le budget de la caisse fraternelle. Mais il a
+                fallu déchanter devant les retards apportés à la liquidation d'un trop grand nombre
+                de pensions.</p>
+              <p>Nos camarades verront dans le rapport financier que la somme des allocations
+                distribuées par la Caisse fraternelle est presque aussi élevée que l'an dernier.</p>
+              <p>Citons une somme de 10.161 fr. 30 envoyée aux aveugles les plus éprouvés des
+                régions libérées. La caisse a donné, d'autre part, à l'occasion des décès des
+                camarades, une somme de 7.500 francs; à l'occasion des mariages, 12.800 francs; pour
+                les naissances, 12.060 francs; enfin 11.543 fr. 65 ont été accordés sur demandes des
+                intéressés. La Caisse fraternelle a dépensé la somme totale de 62.064 fr. 95.</p>
+              <p>Nous croyons utile de rappeler que le Comité de Caisse fraternelle est composé de
+                trois aveugles de guerre, renouvelés tous les trimestres.</p>
+              <p>Ce Comité offre donc toute garantie d'équité. Il juge de l'urgence des demandes.
+                Dans le dernier exercice, il a refusé 153 allocations.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Franceville</head>
+              <p>Nos camarades savent que M. Wattier a mis à la disposition de l'Union un terrain
+                situé près de Cabourg, au bord de la mer. Ce terrain nous restera si nous avons
+                construit un bâtiment définitif en 1923. Votre Conseil croit que ce bâtiment
+                pourrait servir de lieu de repos et de convalescence pour les aveugles et leur
+                famille.</p>
+              <p>Cette création serait donc d'intérêt général. Nous pourrions y aller en cas de
+                nécessité ou pour prendre un repos au bord de la mer, sans que cela nous coûtât
+                individuellement très cher. En tout cas, votre Conseil a voulu tenter l'expérience
+                en petit, en mettant quatre locaux provisoires à la disposition de ses membres. Le
+                succès a été très grand. Les bureaux n'ont reçu que des lettres de félicitations et
+                d'encouragement à continuer l'œuvre entreprise. Ce projet, qui peut paraître sans
+                grand intérêt pour beaucoup d'entre nous, semble donc utile. Tel qui croit n'avoir
+                jamais à en bénéficier sera peut-être très heureux demain d'y trouver un moyen peu
+                coûteux de faire un séjour répara- <pb n="14" break="no"/>
+                <note type="foliation">— 12 —</note> teur au bord de la mer avec sa famille. Votre
+                Conseil poursuivra donc cette idée avec prudence : les sommes données avec
+                affectation spéciale seront seules utilisées jusqu'à nouvel ordre.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Maison de l'Aveugle</head>
+              <p>Le projet de Franceville ne gène en rien celui de la Maison de l'Aveugle. Pour
+                celui-ci, disons tout de suite que notre reconnaissance doit aller au Comité d'Aide,
+                qui s'en occupe très activement. Rappelons ici très rapidement ce que pourrait être
+                cette maison centrale de l'aveugle de guerre.</p>
+              <p>Les aveugles de guerre, en se groupant en 1918, ont, par ce fait même, eu un siège
+                social qui est leur maison commune.</p>
+              <p>Ceux qui viennent visiter le siège social actuel, 38 , rue du MontThabor, peuvent
+                se rendre compte de la grande prétention contenue dans ces mots : "Maison Commune »,
+                notre siège social étant tout à fait insuffisant pour satisfaire aux besoins
+                croissants de notre groupement.</p>
+              <p>Notre petit appartement, tout à fait insalubre, est loin de répondre aux nécessités
+                actuelles.</p>
+              <p>La Maison de l'Aveugle de Guerre doit être située à Paris, à proximité d'une
+                station de Métro, le plus près possible d'un nœud de communications important.</p>
+              <p>Il serait préférable qu'elle soit au centre de Paris. Il y aurait avantage à ce
+                qu'elle se présente sous la forme d'un petit hôtel avec jardin; mais, si les
+                conditions financières ne peuvent être réalisées, il faudra bien se contenter, au
+                moins à titre transitoire, d'un appartement.</p>
+              <p>Le siège social devrait comprendre les locaux suivants : Un vestibule, pièces pour
+                bureaux : direction, comptabilité, renseignements, dactylographes, archives; salles
+                pour les réunions du Conseil ou Commissions d'études, pour les consultations
+                médicales; magasins de vente, en une ou plusieurs pièces, comprenant les
+                échantillons de tous-les produits fabriqués par les aveugles ; atelier de
+                perfectionnement et d'études; cinq et six chambres pour aveugles provinciaux de
+                passage.</p>
+              <p>Dans ce siège social agrandi nous serions parfaitement chez nous pour nous
+                renseigner, demander ou trouver un guide, préparer notre travail, faciliter son
+                écoulement, et en général discuter entre camarades de nos propres affaires, dans des
+                locaux agréablement aménagés. L'expérience montre qu'il n'y a que très rarement plus
+                de cinq ou six camarades de province de passage à Paris. Ils y trouveraient là des
+                chambres pour quelques jours et bien chez eux, au centre de tous renseignements dont
+                ils pourraient avoir besoin.</p>
+              <p>Cette maison n'est pas encore dans notre esprit une maison de retraite. Mais elle
+                en serait le point de départ. Un jour viendra, et ce <pb n="15"/>
+                <note type="foliation">— 13 —</note> jour est proche, où nos camarades isolés dans
+                la vie seraient heureux de trouver une maison qui les accueille avec tous les égards
+                auxquels ils ont droit. Une telle maison de retraite ne devrait recevoir que des
+                aveugles de guerre et non d'autres mutilés. Il est possible que l'Etat entende notre
+                voix et crée une sorte d'annexe aux Invalides spécialement pour nous. Il serait
+                mieux sans doute d'être seulement aidés par l'Etat pour organiser une maison de ce
+                genre. Cette dernière solution aurait l'avantage de maintenir aux aveugles
+                l'allocation de tierce personne ainsi que les allocations prévues au décret du 5
+                août 1920, qui lui sont retirées en cas d'hospitalisation.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Conclusion</head>
+              <p>L'Union est encore très jeune, nous avons tout juste trois ans, et les pouvoirs
+                publics viennent à peine de constater le sérieux de notre existence en nous
+                reconnaissant d'utilité publique; mais si jeune qu'elle soit, votre Union a la
+                prétention d'avoir rendu plus de services que quiconque aux aveugles de guerre.</p>
+              <p>Nous ne sommes pas une œuvre, car chez nous chacun peut dire ce qu'il veut. C'est
+                un bien inestimable. Certes, il y a quelques inconvénients à cette liberté d'allure
+                et de langage. Nous ne sommes pas toujours exactement du même avis, nos discussions
+                sont parfois vives. Chacun défend avec passion, mais avec sincérité, une idée qu'il
+                croit juste, et cela ne va pas, il faut bien le dire, sans nuire un moment à la
+                bonne marche de nos intérêts, mais animés tous de l'idée de participer au bien
+                commun, la raison finit par triompher et rallier tous les suffrages. Au début, des
+                voyants ont observé notre groupement avec beaucoup de sympathie sans doute mais avec
+                étonnement et scepticisme; beaucoup n'ont vu là qu'un jeu de grands enfants malades
+                qu'il fallait laisser faire; aujourd'hui la guerre est déjà loin, et bien souvent
+                les voyants nous jugent avec moins d'indulgence ; quelquesuns sont même sévères. Il
+                en est qui pensent que notre groupement n'est pas loin de se dissoudre; ils
+                commettent une erreur profonde. L'aveugle est impulsif, ce qui est regrettable; mais
+                le bon sens finit toujours par triompher chez lui, car il trouve presque malgré lui
+                de longues heures de solitude parfaite où il peut réfléchir. Les voyants qui, au
+                fond, sont pour nous des amis véritables s'apercevront que notre volonté de traiter
+                nos affaires nous-mêmes est encore plus forte aujourd'hui qu'il y a trois ans.
+                Néanmoins, tenons compte des avis qu'ils nous donnent, que nos discussions si vives
+                qu'elles soient ne tournent jamais au désordre. Donnons cet exemple, qui sera
+                peut-être unique parmi toutes les Associations de France, à savoir : que les
+                questions de personnes soient inexistantes. Si nous avons des preuves certaines que
+                l'un de nous n'est pas loyal ou travaille uniquement en vue de son intérêt
+                personnel, ne craignons pas de lui dire son fait; reti-rons-lui notre confiance, au
+                besoin expulsons-le de notre groupement, mais ne cédons pas immédiatement aux
+                racontars qui prennent leur <pb n="16"/>
+                <note type="foliation">— 14 —</note> source on ne sait jamais exactement où, et qui
+                sont amplifiés en parvenant à nos oreilles après être passés par des bouches
+                peut-être bien intentionnées, mais qui n'ont d'autre qualité que d'être de jolies
+                bouches. Et puisque nous savons que le premier de nos défauts est la méfiance, comme
+                les auteurs les plus autorisés le font ressortir dans leurs ouvrages, triomphons de
+                nous-mêmes et soyons confiants les uns dans les autres. Soyons confiants, non pas
+                comme des imbéciles, mais comme d'anciens camarades de combat que des souvenirs
+                ineffaçables ont fait des frères jusqu'à la fin de leur vie.</p>
+              <p>Si ce sentiment nous guide toujours, notre Union sera chaque jour plus parfaite,
+                elle deviendra assez puissante pour que la situation matérielle et morale de chacun
+                de nous soit aussi heureuse que nos blessures nous le permettent.</p>
+              <p>Le président. - La parole est à M. Boetzel, qui va vous présenter les comptes de
+                l'exercice écoulé.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">RAPPORT FINANCIER DU CONSEIL
+              D'ADMINISTRATION DE L'U. A. G. POUR L'EXERCICE 1920-1921</head>
+            <p>Mesdames, Messieurs, Conformément à l'article 9 des statuts, nous venons vous
+              présenter la situation financière de l'"U. A. G." au I" décembre 1921, telle qu'elle
+              résulte des écritures et des opérations effectuées depuis l'année dernière : Le solde
+              au I" décembre 1920 s'élevait à. . . . . . . . . . Fr. 423.92922</p>
+            <p>Au cours de l'année, l'"U. A. G." a reçu : <list>
+                <item>Subventions 6.000 "</item>
+                <item>Comité d'Aide (présidente : Mme Deschamps) 178.96250</item>
+                <item>Bienfaiteurs 4.500 "</item>
+                <item>Donateurs 82.84836</item>
+                <item>Associés 5.11040</item>
+                <item>Adhérents 10.185 "</item>
+                <item>Rachats de cotisations 4.815 "</item>
+                <item>Franceville 2.50665</item>
+                <item>Intérêts et agios. 25.93516</item>
+                <item>Total 744.79229</item>
+                <item>Dépenses 189.84620</item>
+                <item>Solde au I" décembre 1921 554.94609</item>
+              </list></p>
+            <pb n="17"/>
+            <note type="foliation">— 15 —</note>
+            <p>Les dépenses se répartissent de la façon suivante : <list>
+                <item>Loyer Fr. 5.319 50</item>
+                <item>Abonnement au téléphone et provision 753 11</item>
+                <item>Chauffage et éclairage 1.512 20</item>
+                <item>Personnel 31.717 11</item>
+                <item>Bulletin 18.073 30</item>
+                <item>Impôts locatifs 500 85</item>
+                <item>Propagande 11.842 50</item>
+                <item>Caisse fraternelle 62.064 95</item>
+                <item>Correspondance 8.770 15</item>
+                <item>Aménagement, fournitures et entretien des bureaux 2.369 70</item>
+                <item>Courses, camionnages et frais de déplacement 1.827 90</item>
+                <item>Palme au Soldat Inconnu 500 50</item>
+                <item>Organisation du travail 7.805 11</item>
+                <item>Exposition de tableaux de fleurs 15.271 55</item>
+                <item>10 % à l'Abri du Soldat Aveugle sur le produit de l'exposition 14.093
+                  11</item>
+                <item>Installation Franceville 5.840 20</item>
+                <item>Timbres d'acquit, frais de recouvrement, colis, pourboires, abonnement aux
+                  journaux, etc. 1.578 90</item>
+                <item>Total 189.846 20</item>
+              </list></p>
+            <p>D'où il résulte un solde à l'actif de l' « U. A. G. » de 554.946 fr. 09. Ce solde est
+              en excédent sur celui de l'exercice 1920 de 131.016 fr. 87.</p>
+            <p>Nous tenons à vous faire remarquer que notre Union n'a pas la disposition pleine et
+              entière du solde ressortant de notre situation financière, en raison soit des
+              engagements pris par elle, soit de l'affectation donnée aux dons par les donateurs
+              eux-mêmes.</p>
+            <p>C'est ainsi que se trouvent immobilisées les sommes suivantes : <list>
+                <item>Publication du Bulletin Fr. 342.851 44</item>
+                <item>Don de Mme Kahn au profit des élèves de son Ecole de massage 16.694 56</item>
+                <item>Maison de l'Aveugle 139.597 95</item>
+                <item>Franceville 2.506 65</item>
+                <item>Total 501.550 60</item>
+                <item>De sorte que l' « U. A. G. » ne dispose librement que d'une somme de 53.295
+                  49</item>
+              </list> à laquelle viennent s'ajouter naturellement les cotisations et dons divers
+              reçus au cours de l'année sans affectation spéciale</p>
+            <pb n="18"/>
+            <note type="foliation">— 16 —</note>
+            <p>Parmi les dons importants faits à l' « U. A. G. " pendant l'exercice 1920-1921, il y
+              a lieu de signaler : <list>
+                <item>OEuvre anglo-franco-mauricienne Fr. 15.000 "</item>
+                <item>Dons transmis par M. le maréchal Foch 11.890 40</item>
+                <item>Secours National 10.000 "</item>
+                <item>Comité des Fêtes à Santa Fé 6.000 "</item>
+                <item>Ministère de l'Intérieur 5.000 "</item>
+              </list></p>
+            <p>Qu'il me soit permis d'adresser en votre nom mes remerciements à toutes ces personnes
+              ou collectivités qui ont compris le but que l'« U. A. G. » poursuit et qui mettent
+              leur bourse et leur cœur à la disposition entière du groupement.</p>
+            <p>Je ne doute pas non plus que vous m'approuverez pleinement en me faisant votre
+              interprète pour adresser à Mme Deschamps l'hommage de notre très vive reconnaissance
+              pour le zèle et l'activité qu'elle ne cesse de déployer en vue de la création de la
+              Maison de l'Aveugle. Mme Deschamps ne veut pas connaître le mot « impossible », elle
+              ne craint aucune difficuté, aucune démarche; le résultat de l’exposition des fleurs
+              dont elle s’est occupée avec un dévouement inlassable est la plus belle récompense
+              qu'elle ait pu espérer. Depuis cette époque, grâce à ses nombreuses relations dans le
+              monde entier, des dons ne cessent de nous parvenir de tous les pays, et le jour n'est
+              peut-être pas loin où nous pourrons enfin réaliser notre rêve de la Maison de
+              l'Aveugle.</p>
+            <p>Je manquerais à tous mes devoirs si je n'insistais pas également sur le dévouement de
+              vos camarades que vous avez appelés au Conseil d'administration. Je les vois souvent à
+              l'œuvre et je me plais à recon- naître que si des idées opposées se rencontrent
+              quelquefois, elles ne sont jamais émises avec parti pris, mais seulement avec l'idée
+              de bien servir la cause de l'aveugle, et de la discussion qui s'élève, quelquefois
+              âpre, mais toujours courtoise, sortent les décisions les plus favorables, que tous
+              approuvent, oubliant leurs idées personnelles pour ne voir que le bien commun et
+              l’union nécessaire, indispensable, je dirai même sacré de tous les aveugles de
+              guerre.</p>
+            <p>Signé : BOÉTZEL.</p>
+            <p>M. Bloch donne lecture du rapport des commissaires aux comptes.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">RAPPORT DES COMMISSAIRES AUX
+              COMPTES de l’Exercice 1920-1921</head>
+            <p>Messieurs, Vous nous avez fait l'honneur de nous désigner dans votre der- nière
+              assemblée générale comme commissaires aux comptes de votre Union.</p>
+            <pb n="19"/>
+            <note type="foliation">— 17 —</note>
+            <p>Après vérification du bilan et examen de ses divers chapitres, tant aux recettes
+              qu'aux dépenses, ordonnancées par votre Conseil d'administration, constatant la
+              régularité des écritures qui vous ont été soumises, nous nous proposons l'adoption du
+              rapport financier tel qu'il vous est soumis par le Conseil d'administration.</p>
+            <p>Paris, le 8 décembre 1921. Les Commissaires aux Comptes, Signé : Mayer et Bloch. Le
+              président : "La discussion est ouverte sur le rapport. " La parole est à Mougenel.
+              Mougenel signale la part active qu'a eue le camarade Marie lorsqu'il s'agissait
+              d'obtenir satisfaction sur les chemins de fer, et il s'étonne qu'on ne mentionne point
+              les démarches qu'il fait pour la Légion d'honneur à titre militaire. Il regrette
+              l'absence de ce camarade, retenu à la Chambre par une séance extraordinaire.</p>
+            <p>Le président: " Je suis heureux que vous ayez prononcé le nom de notre camarade
+              Marie, car cela me permet de lui adresser tous mes remerciements pour son esprit de
+              solidarité et le dévouement qu'il témoigne à la cause des aveugles. ")</p>
+            <p>Mougenel regrette que Marie, qui avait posé sa candidature au Conseil, n'ait pas été
+              mieux connu des camarades. Les renseignements fournis sur son compte ont été
+              insuffisants.</p>
+            <p>Izaac : " Si le nom du camarade Marie n'a pas été mentionné sur le rapport, c'est
+              simplement parce que nous avons voulu nous conformer à la très heureuse habitude que
+              nous avons de ne jamais prononcer dans nos comptes rendus officiels des noms de
+              camarades qui ont pu nous prêter leur concours. Cela ne doit du reste pas empêcher
+              l'assemblée d'adresser ses chaleureux remerciements à Marie, et par avance je m'y
+              associe de tout cœur. Mougenel aurait tort de croire à une hostilité de la part du
+              Conseil contre Marie. Nous l'apprécions tous au contraire, et avec Mougenel nous
+              regrettons qu'il n'ait pas été mieux connu, en province particulièrement. »</p>
+            <p>Robert : "Que l'on nomme Marie en remplacement d'un membre démissionnaire. "</p>
+            <p>Malgat proteste contre le fonctionnement défectueux de l'article 64; il cite des
+              exemples personnels tendant à démontrer que le "carnet " qui devrait donner droit aux
+              soins gratuits ne sert en réalité à rien.</p>
+            <p>Izaac: " Il est possible que le carnet n'ait aucune valeur dans certaines régions où
+              les médecins n'ont pu tomber d'accord avec l'Etat, mais il n'en reste pas moins vrai
+              qu'il est parfois accepté et permet aux camarades d'obtenir gratuitement les soins que
+              nécessite leur état. Je tiens à confirmer l'exactitude du rapport lorsqu'il affirme
+              que les bureaux de l'Union ont reçu ces temps derniers très peu de réclamations à ce
+              sujet. Peut-être les camarades se sont-ils fatigués de vaines <pb n="20"/>
+              <note type="foliation">— 18 —</note> protestations; quoi qu'il en soit, la question
+              est à reprendre et le Conseil doit l'étudier avec soin. )</p>
+            <p>Masson signale son cas personnel : il s'est vu refuser l'hospitalisation au
+              Val-de-Grâce sur la présentation de son carnet, et l'administration hospitalière lui a
+              demandé une pièce émanant de sa mairie, si bien que de démarche en démarche son mal
+              s'est aggravé. Il n'a eu d'autre solution que de se faire soigner par un médecin
+              honoré par lui.</p>
+            <p>Le président elót la discussion et demande que l'on procède au vote au moyen de
+              jetons.</p>
+            <p>L'assemblée demande le vote à main levée. Le rapport est adopté à l'unanimité, moins
+              une voix contre et une abstention.</p>
+            <p>Le projet financier est ensuite adopté à l'unanimité, ainsi que le rapport des
+              commissaires aux comptes.</p>
+            <p>Le trésorier présente une proposition de budget pour l'exercice 1921-1922.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">PROJET DE BUDGET POUR L'EXERCICE
+              1921-1922</head>
+            <table>
+              <head rend="align(center)">Recettes</head>
+              <row>
+                <cell>Cotisations d'aveugles</cell>
+                <cell>..... Fr.</cell>
+                <cell>10.000</cell>
+              </row>
+              <row>
+                <cell>Cotisations membres honoraires et associés. </cell>
+                <cell>..... </cell>
+                <cell>20.000</cell>
+              </row>
+              <row>
+                <cell>Dons</cell>
+                <cell>..... </cell>
+                <cell>54.000</cell>
+              </row>
+              <row>
+                <cell>Subvention prévue </cell>
+                <cell>.....</cell>
+                <cell>6.000</cell>
+              </row>
+              <row>
+                <cell>Intérêt de l'argent placé</cell>
+                <cell>.....</cell>
+                <cell>20.000</cell>
+              </row>
+              <row>
+                <cell>Total </cell>
+                <cell>..... </cell>
+                <cell>110.000</cell>
+              </row>
+            </table>
+            <table>
+              <head rend="align(center)">Dépenses</head>
+              <row>
+                <cell>Loyer</cell>
+                <cell>..... </cell>
+                <cell>Fr. 6.000</cell>
+              </row>
+              <row>
+                <cell>Abonnement au téléphone et provisions</cell>
+                <cell>..... </cell>
+                <cell>900</cell>
+              </row>
+              <row>
+                <cell>Chauffage et éclairage</cell>
+                <cell>.....</cell>
+                <cell>2.000</cell>
+              </row>
+              <row>
+                <cell>Impôts</cell>
+                <cell>.....</cell>
+                <cell>500</cell>
+              </row>
+              <row>
+                <cell>Timbres d'acquit</cell>
+                <cell>.....</cell>
+                <cell>500</cell>
+              </row>
+              <row>
+                <cell>Personnel</cell>
+                <cell>.....</cell>
+                <cell>30.000</cell>
+              </row>
+              <row>
+                <cell>Propagande</cell>
+                <cell> .....</cell>
+                <cell>2.000</cell>
+              </row>
+              <row>
+                <cell>Correspondances</cell>
+                <cell>.....</cell>
+                <cell>6.000</cell>
+              </row>
+              <row>
+                <cell>Caisse fraternelle</cell>
+                <cell>.....</cell>
+                <cell>30.000</cell>
+              </row>
+              <row>
+                <cell>Bulletins</cell>
+                <cell> .....</cell>
+                <cell>18.000</cell>
+              </row>
+              <row>
+                <cell>Organisation du travail </cell>
+                <cell>.....</cell>
+                <cell> 10.000</cell>
+              </row>
+              <row>
+                <cell>Courses, frais de déplacements </cell>
+                <cell>..... </cell>
+                <cell>1.200</cell>
+              </row>
+              <row>
+                <cell>Abonnement, fournitures et entretien des bureaux</cell>
+                <cell>..... </cell>
+                <cell>2.000</cell>
+              </row>
+              <row>
+                <cell>Divers </cell>
+                <cell>..... </cell>
+                <cell>900</cell>
+              </row>
+              <row>
+                <cell>Total </cell>
+                <cell>..... </cell>
+                <cell>110.000</cell>
+              </row>
+            </table>
+            <pb n="21"/>
+            <note type="foliation">— 19 —</note>
+            <p>Le projet est adopté sans observation à l'unanimité. L'ordre du jour appelle
+              l'approbation d'un legs consenti à l'Union. Nous demandons à l'assemblée l'approbation
+              du legs de 8.899 fr. 15 qui nous a été fait par feu Mlle Joséphine Virieu par les
+              soins de son légataire universel, M. F. Thorrand, 17, rue Besançon, Tunis.</p>
+            <p>Adopté à l'unanimité. Lecture est donnée du compte rendu sur les pensions.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COMPTE RENDU DES PENSIONS</head>
+            <p>L'assemblée générale du 13 février dernier avait donné pour mission précise au
+              Conseil d'administration d'obtenir des pouvoirs publics des mesures plus équitables en
+              ce qui concerne : 1<hi rend="superscript">°</hi> Les blessures multiples; 2<hi
+                rend="superscript">°</hi> Les allocations pour enfants; 3<hi rend="superscript"
+                >°</hi> Le cumul de la pension d'ancienneté et de la pension d'invalidité pour les
+              militaires de carrière tombant sous le coup des articles 59 et 60 de la loi; 4<hi
+                rend="superscript">°</hi> Le maintien du principe de l'échelonnement par grade dont
+              bénéficient du reste toutes les catégories de mutilés, à l'exception des 100% article
+              10 .</p>
+            <p>Le Conseil d'administration avait déjà senti la nécessité de faire rectifier
+              l'application des mesures prévues au décret du 5 août 1920, et il avait nommé une
+              Commission qui s'est rendue en janvier auprès du ministre des Pensions pour attirer
+              l'attention du ministre sur ces divers points.</p>
+            <p>Forte du vote de l'assemblée générale de février, l'Union poursuivit plus activement
+              son action; dès le mois de mars, le ministre des Pensions et le ministre des Finances
+              furent saisis à nouveau des revendications légitimes de nos camarades demandant la
+              modification de certaines mesures peu équitables et même choquantes prévues au décret
+              du 5 août 1920 .</p>
+            <p>Le 21 mai, le bureau de l'Union était saisi par le secrétaire général de la
+              possibilité d'une augmentation de pension pour l'aveugle simple et sans charges. Cette
+              conviction était basée sur des conversations privées avec des parlementaires au
+              Congrès des Mutilés de Nancy.</p>
+            <p>Le projet. About, au moins en ce qui concernait les grands invalides, paraissait
+              donner satisfaction sur les quatre points demandés et envisageait même une légère
+              augmentation de pension.</p>
+            <p>Le Conseil d'administration, dans sa séance tenue le 29 mai, après avoir entendu la
+              proposition du bureau et les explications du secrétaire général, autorisait ce dernier
+              à poursuivre les démarches en vue d'une augmentation.</p>
+            <p>Dans la séance du bureau qui suivit, le secrétaire général rendit compte qu'après
+              pourparlers avec M. About le chiffre de la pension <pb n="22"/>
+              <note type="foliation">— 20 —</note> pour les invalides 100 % article 10 pourrait être
+              sensiblement augmenté sur le chiffre primitivement fixé par lui.</p>
+            <p>Le II juin, le Conseil d'administration décidait de poursuivre la réalisation des
+              quatre points fixés par l'assemblée générale parallèlement avec l'action entamée pour
+              soutenir le projet About en ce qui concernait les grands invalides, de manière, en cas
+              d'échec pour l'augmentation demandée, d'obtenir au moins satisfaction sur les quatre
+              points, conformément aux vœux précis de l'assemblée générale.</p>
+            <p>Une Commission de six administrateurs travailla dans le but de s'entendre avec les
+              diverses associations de mutilés et s'assurer de leur appui. Des démarches furent
+              immédiatement entreprises dans ce sens, et toutes les Unions de mutilés, consultées,
+              furent entièrement d'accord avec nous en ce qui concerne les quatre points.</p>
+            <p>Dans la séance du 9 juillet, le secrétaire général saisit le Conseil d'un fait
+              nouveau : un groupe de camarades désiraient voir l'Union entreprendre des démarches
+              pour obtenir une sensible augmentation de pension ; il rendit compte qu'il avait déjà
+              mis ses camarades it' courant de ce que l'Union avait déjà entrepris dans ce sens et
+              de ce que nous pouvions espérer ; mais ces derniers estimèrent les chiffres
+              insuffisants et demandèrent que le Conseil se prononçât pour une augmentation plus
+              forte et entreprit immédiatement une action pressante dans ce but.</p>
+            <p>Après discussion, le Conseil donnait sa confiance entière à une nouvelle Commission,
+              composée de quatre membres du Conseil et de trois membres pris dans le groupement de
+              camarades partisans d'un effort plus grand. Cette Commission fut chargée de poursuivre
+              l'amélioration des pensions, la plus élevée possible, tout en conservant toujours les
+              quatre points. Elle se réunissait immédiatement et fixait les bases de son action;
+              elle faisait des démarches auprès du colonel Fabry, ardent partisan des pensions
+              convenables aux grands mutilés, et ce dernier lui promit son entier appui. On entra
+              ainsi dans la période des vacances sans pouvoir toucher d'autres parlementaires.</p>
+            <p>Dès le début d'octobre, une délégation de la Commission a été reçue par le ministre
+              des Pensions, qui nous promit son appui comme il en est rendu compte dans le
+              procès-verbal de la séance du 15 octobre.</p>
+            <p>En novembre, une délégation était convoquée par le colonel Fabry, qui nous informait
+              que le groupement des députés mutilés s'était prononcé en faveur du principe d'une
+              augmentation et l'avait délégué pour entrer en pourparlers à ce sujet avec la
+              Commission des Finances. Entre temps, de nombreux rapports furent envoyés de divers
+              côtés, et en particulier à la Commission des Finances avant qu'elle ne fût saisie
+              officiellement par le colonel Fabry. De nombreuses réponses favorables nous sont
+              parvenues, et nous avons la certitude absolue que le Parlement nous accordera
+              satisfaction. Le Conseil d'administration vous demande de lui faire confiance pour
+              mener à bonne fin cette question.</p>
+            <pb n="23"/>
+            <note type="foliation">— 21 —</note>
+            <p>L'assemblée accueille cette lecture par des applaudissements nourris.</p>
+            <p>Boetzel : "Vos applaudissements particulièrement marqués au nom du colonel Fabry sont
+              les meilleurs remerciements que nous puissions adresser à cet ardent défenseur des
+              aveugles; voici du reste en quels termes il intervenait en votre faveur à la séance de
+              la Chambre du I" décembre (J. O. du 2 décembre) : "M. Fabry. - Sur ce chapitre 7 qui
+              concerne les allocations spéciales supplémentaires aux grands invalides, le groupe des
+              députés mutilés de la Chambre m'avait donné mission de présenter un amendement tendant
+              à relever le crédit du chapitre de 80 à 100 millions. Je ne voudrais pas qu'une
+              confusion s'établisse avant la discussion de la loi de finances, et que les grands
+              invalides intéressés puissent croire que leurs intérêts ne seront pas défendus. " Il
+              s'agit, en réalité, de préciser et d'améliorer dans la loi des finances, au moyen d'un
+              article additionnel, l'application d'une mesure que vous avez décidée en 1920 et qui a
+              consisté à accorder à ces grands invalides des allocations spéciales. "Ces allocations
+              spéciales, pour lesquelles les crédits nécessaires avaient été insérés dans la loi du
+              31 juillet 1920, ont été ensuite attribuées par décret par le ministère des Pensions,
+              le 5 août 1920. Ce décret établissait plusieurs allocations, dénommées allocations
+                N<hi rend="superscript">°</hi>I, N<hi rend="superscript">°</hi>2, N<hi
+                rend="superscript">°</hi>3, N<hi rend="superscript">°</hi>4 et N<hi
+                rend="superscript">°</hi>5. " Je retiens votre attention sur l'allocation N<hi
+                rend="superscript">°</hi>5, qui était de beaucoup la plus intéressante, puisqu'elle
+              s'appliquait directement aux plus grands des grands mutilés, c'est-à-dire aux
+              pensionnés de 100% régis par les articles 10 ou 12 de la loi. Ces pensionnés sont ceux
+              classés au-dessus de 100% pour cause de blessures multiples nécessitant pour certains
+              d'entre eux l'aide constante d'une tierce personne. "L'attribution de cette allocation
+              supplémentaire N<hi rend="superscript">°</hi>5 a soulevé dans la pratique de très
+              nombreuses réclamations. "Ces réclamations - je ne veux pas entrer dans le détail pour
+              ne pas abuser en ce moment de l'attention de la Chambre - ont donné naissance à des
+              propositions rectificatives que, d'accord avec le groupe des mutilés et chargé par lui
+              de conduire la négociation avec la Commission des Finances, j'ai portées à M. le
+              rapporteur général de la Commission des finances, M. Bokanowski. "J'ai trouvé à cette
+              occasion, auprès de lui, le même accueil favorable que j'avais trouvé auprès de M.
+              Charles Dumont, il y a deux ans, lorsque nous avions pris l'initiative de la création
+              de ces allocations spéciales. "La question n'a pu encore être examinée, ni par la
+              Commission des Finances, ni par M. le ministre des Finances, ni par M. le ministre des
+              Pensions. "Je ne doute pas que les justes revendications des grands blessés <pb n="24"/>
+              <note type="foliation">— 22 —</note> de guerre, sur lesquelles aucune économie n'est
+              possible, ne trouvent l'accueil le plus favorable, aussi bien auprès de la Commission
+              des Finances qu'auprès du Gouvernement. « Mon intervention, ce soir, a pour but
+              simplement de préciser ce point, que si à l'instant même je ne présente pas un
+              amendement tendant au relèvement de ces crédits, c'est parce que la décision n'est pas
+              intervenue en Commission sur l'article additionnel à insérer dans la loi de finances
+              et que nous ne nous sommes pas encore mis d'accord sur tous les points d'application
+              avec le Gouvernement. Il doit néanmoins être bien entendu qu'au moment de la
+              discussion, dans la loi de finances, de l'article additionnel auquel j'ai fait
+              allusion - et nous nous mettrons d'accord, je n'en doute pas, sur le texte de cet
+              article, - les crédits nécessaires à son application seront introduits dans la loi de
+              finances par le Gouvernement au Sénat, ou par la Chambre lorsque le budget reviendra
+              du Sénat. « C'est uniquement pour réserver ces droits et pour donner tout apaisement
+              aux grands mutilés que j'ai pris la parole. " Je demande à la Commission des Finances
+              de me dire si cette procédure est régulière et si nous ne nous heurterons pas ensuite
+              à une fin de non recevoir. ))</p>
+            <p>L'assemblée applaudit à cette lecture et adresse ses meilleurs remerciements au
+              colonel Fabry.</p>
+            <p>Le président donne la parole à Lambert, délégué des Victimes civiles de la
+              guerre.</p>
+            <p>Ce dernier signale la misérable situation de ses camarades, victimes civiles de la
+              guerre, et prie le Conseil de lui dire quelles démarches on a pu faire en leur
+              faveur.</p>
+            <p>Izaac : "Les victimes civiles de la guerre ont toute notre sympathie et nos démarches
+              pour eux ont été actives et nombreuses, mais nous nous sommes heurtés aux plus graves
+              difficultés et aux circonstances les plus défavorables. L'instruction des pensions des
+              victimes civiles a été transférée du ministère de l'Intérieur au ministère des
+              Pensions. Depuis le mois d'avril, les victimes civiles de la guerre sont considérées
+              par nous comme des camarades, et dans la séance d'aujourd'hui l'ordre du jour va
+              appeler une proposition de modification aux statuts émanant de votre Conseil pour que
+              ces camarades puissent être admis au sein de l'Union. »</p>
+            <p>L'assemblée accueille les explications d'Izaac par de vigoureux applaudissements.</p>
+            <p>Lambert proteste et demande qu'on venille bien lui dire exactement ce que l'on a
+              fait.</p>
+            <p>Izaac : « Non seulement des démarches ont été faites, mais elles n'ont pas toujours
+              été vaines, puisque nous connaissons des victimes civiles alignées à 6.000 francs.
+              )"</p>
+            <p>Lambert se refuse d'y croire.</p>
+            <pb n="25"/>
+            <note type="foliation">— 23 —</note>
+            <p>Izaac : " Il y en a au moins une : une femme, Mme Lamy. )» Lambert : "La preuve? )"
+              Izaac: "Passez aux bureaux de l'Union et l'on vous donnera la preuve de cette
+              assertion. ))</p>
+            <p>Le président prie l'assemblée de revenir à la discussion des pensions et accorde la
+              parole à Toutain.</p>
+            <p>Toutain : « La question des pensions est pour nous pleine d'intérêt, et je remercie
+              le Conseil de ses démarches et de son activité. Il est difficile de fixer un chiffre
+              minimum, le principe de demander beaucoup pour obtenir moins peut être utile parfois,
+              mais présente souvent aussi de graves inconvénients. "L'Etat a su non seulement
+              classer les mutilés en catégories selon l'importance de leur invalidité, mais encore
+              il a marqué une distinction très nette entre les très grands invalides et les autres
+              mutilés. Profitons du principe de ce classement pour poursuivre avec vigueur
+              l'obtention de la pension que nous demandons. " Ne perdons pas aussi de vue la pension
+              des veuves et des ascendants, question sur laquelle il existe déjà un vou de
+              l'assemblée der. mère; poursuivons la prompte réalisation des pensions des veuves
+              comme celle des ascendants. " Pour nos veuves en particulier, on ne peut admettre que
+              l'Etat puisse les laisser à notre mort avec la modique pension de 500 francs. Des
+              femmes de fonctionnaires ont à la mort de leur mari une somme égale à la moitié de la
+              pension de ces derniers, pourquoi nos veuves ne jouiraient-elles pas à notre mort
+              d'une pension égale à la moitié du chiffre de la pension du simple soldat, soit 1.200
+              francs? L'assemblée doit émettre le vou de l'augmentation du taux de la pension de
+              reversion. »</p>
+            <p>Gudefin s'associe de tout cœur au vou du camarade Toutain. Lagarde : « Il y a
+              quelques années, M. le député Rameil déposa un projet de loi concernant cette
+              question. Il serait peut-être bon de revoir M. Rameil pour le prier de revenir sur
+              cette affaire et de lui signaler en outre la situation faite à nos camarades
+              célibataires désirant se marier. La loi du 31 mars 1919 priverait leur veuve de toute
+              pension. ))</p>
+            <p>Lambert insiste à nouveau et constate avec regret que ses camarades ont été licenciés
+              des maisons de rééducation, sans que l'on se soucie de la situation nouvelle et
+              difficile que cela leur crée.</p>
+            <p>Bois: "Le camarade Lambert commet une erreur de fait. Le Conseil d'administration de
+              l'Union a été saisi de la situation qui allait être faite aux camarades en raison de
+              la fermeture de Reuilly. Le Conseil avait décidé d'intervenir en faveur de ses
+              camarades, lorsque ces derniers, spontanément, lui déclarèrent qu'il n'y avait pas
+              lieu à intervention, chacun d'entre eux s'étant organisé; il ne restait en réalité
+              qu'un seul camarade à l'école, et l'on ne pouvait raisonnable- <pb n="26" break="no"/>
+              <note type="foliation">— 24 —</note> ment exiger qu'un centre de rééducation restât
+              ouvert pour un seul membre. ))</p>
+            <p>Boudant fait remarquer que l'école, fermée pour les aveugles, est cependant ouverte
+              pour le personnel.</p>
+            <p>Bois : " Si le fait est exact, c'est évidemment regrettable, et je remercie le
+              camarade Boudant d'avoir attiré l'attention de l'assemblée sur ce point; je me permets
+              cependant de faire observer qu'il s'agit là de bruits qui courent, mais qu'aucune
+              précision n'est apportée. ") Il se promet de vérifier l'exactitude des faits
+              signalés.</p>
+            <p>Izaac demande qu'on revienne à la question des pensions. Fillion: "Un aveugle devenu
+              veuf se remariant, sa nouvelle femme aura-t-elle droit à la pension de reversibilité?
+              ))</p>
+            <p>Izaac : " Actuellement non. " Boucher ne s'explique pas pourquoi certains camarades
+              bi-manchots sont les uns chevaliers de la Légion d'honneur, les autres officiers.</p>
+            <p>Le président: " Si les uns sont officiers, c'est tout simplement parce qu'ils étaient
+              chevaliers antérieurement au décret du 5 août. "L'ordre du jour appelle la proposition
+              de modifications aux statuts. ))</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">MODIFICATIONS DES STATUTS</head>
+            <p>Pour mettre en concordance nos statuts et le vote de l'assemblée générale de l'an
+              dernier, votre Conseil vous demande deux votes de pure forme. Il est dans l'obligation
+              de vous demander ces deux votes, car l' "U. A. G. ") n'est pas soumise aux mêmes lois
+              depuis avril dernier en raison de la reconnaissance d'utilité publique.</p>
+            <p>La première modification permettra d'accepter légalement parmi nous les quelques
+              victimes du fait de la guerré et non mobilisées sous les drapeaux, complètement
+              aveugles.</p>
+            <p>La deuxième modification a pour but de confirmer le montant de nos cotisations ( 5
+              francs pour les titulaires et 15 francs pour les membres associés).</p>
+            <p>En dehors de ces deux modifications, votre Conseil vous en propose une troisième
+              correspondant à une idée nouvelle, qui a été exprimée dans le cours de cette année par
+              de nombreux membres de l' "U. A. G. ). Il s'agirait de tenir compte du vote des
+              camarades de province à l'assemblée générale. Cela a lieu déjà pour les élections. Il
+              semble très équitable que les camarades de province puissent exprimer leurs volontés
+              sans être obligés de venir à Paris. C'est ainsi que cela se passe dans certaines
+              grandes sociétés dont les membres sont répartis sur tout le territoire, comme le
+              Touring Club par exemple.</p>
+            <pb n="27"/>
+            <note type="foliation">— 25 —</note>
+            <p>Conclusion : nous proposons les modifications suivantes : « Article 3 des statuts,
+              après la phrase : «Les collectivités peuvent aussi participer à l'œuvre de
+              l'Association », ajouter : «Les personnes de nationalité française qui ont perdu
+              complètement la vue du fait de la guerre peuvent être admises comme membres de
+              l'Union. »</p>
+            <p>Remplacer la phrase : «La cotisation annuelle minimum est de 3 francs pour les
+              membres titulaires, de 10 francs pour les membres souscripteurs », par: «La cotisation
+              annuelle minimum est de 5 francs pour les membres titulaires et de 15 francs pour les
+              membres souscripteurs. »</p>
+            <p>Article 8, dans la phrase : «Le vote par correspondance est admis pour les élections
+              », rayer les mots : pour les élections.</p>
+            <p>Toutain remarque avec regret que nulle part il n'est plus question de groupements
+              régionaux dont l'assemblée dernière avait longuement discuté. Il est personnellement
+              président d'un groupement départemental de l'Orne et représente plus de 200 camarades
+              provinciaux; il y a, selon lui, un effort à tenter dans ce sens. L'organisation des
+              groupements régionaux présenterait l'avantage d'établir des relations plus faciles et
+              plus suivies. Ces camarades pourraient se réunir, émettre des vœux et envoyer des
+              délégués à l'assemblée générale.</p>
+            <p>Izaac: « Toutain rappelle un problème vraiment intéressant, et le Conseil n'a
+              point-délaissé cette question, mais elle est en réalité très complexe, et nous n'avons
+              pu nous mettre d'accord sur les moyens de réalisation. Le vote que nous demandons à
+              l'assemblée ne saurait nuire à l'étude et à la formation des groupements régionaux et
+              permettrait en attendant une consultation plus équitable et plus générale des membres
+              de l'Union. »</p>
+            <p>L'ensemble des modifications ci-dessus est accepté à l'unanimité. Lecture est donnée
+              de la proposition de règlement intérieur ciaprès :</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">RÈGLEMENT INTÉRIEUR</head>
+            <p>Lecture va vous être faite d'un règlement intérieur précisant certains points de
+              détails qu'il est inutile de mettre dans les statuts, et pour ce motif plus faciles à
+              modifier ultérieurement en cas de nécessité.</p>
+            <p>A ce propos nous vous demandons de réunir notre assemblée générale dorénavant le II
+              novembre ou le dimanche qui suivra le II novembre. Des camarades ont demandé, en
+              effet, que la date de l'assemblée soit avancée. Mais alors nous demanderions pour l'an
+              prochain l'autorisation de clore notre exercice au I<hi rend="superscript">er</hi>
+              septembre. Le bureau ferait ainsi des économies en adressant directement le rapport
+              moral et financier définitif à tous ses membres sans être obligé d'envoyer
+              préalablement des projets de rapports.</p>
+            <pb n="28"/>
+            <note type="foliation">— 26 —</note>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Comité de patronage</head>
+              <p>Toute question concernant le Comité de Patronage est soumise par le président du
+                Conseil d'administration au président du Comité de Patronage, qui décide des mesures
+                à prendre.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Comité d'Action</head>
+              <p>Le Comité d'Action se réunit sur convocation de son président. Il examine toutes
+                les questions qui lui sont soumises par le Conseil d'administration. Après
+                délibération, il agit dans le sens qui a été indiqué par la majorité. Il fait part
+                au Conseil d'administration de toutes les mesures d'ordre général qui pourraient
+                être favorables au groupement ou améliorer la situation matérielle et morale des
+                aveugles de guerre. Il est tenu procès-verbal des séances du Comité d'Action.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Assemblée générale</head>
+              <p>a) Convocations.</p>
+              <p>Les convocations pour une assemblée générale sont faites par voix du Bulletin deux
+                mois au moins avant la réunion de cette assemblée. b) Ordre du jour.</p>
+              <p>L'ordre du jour est définitivement arrêté un mois avant l'assemblée générale et
+                publié au Bulletin. c) Pouvoirs.</p>
+              <p>Les membres de province, empêchés d'assister à l'assemblée générale, peuvent
+                envoyer leur vote par correspondance, de manière que ce vote parvienne au siège
+                social quatre jours pleins avant l'assemblée générale. Ces votes sont classés par
+                les membres du Comité d'Action; il en est tenu compte à l'assemblée générale.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Conseil
+                d'administration</head>
+              <p>a) Elections.</p>
+              <p>Chaque année, un Bulletin de vote contenant le nom des candidats au Conseil
+                d'administration est envoyé à chaque membre titulaire, selon un ordre tiré au sort.
+                La ratification des administrateurs appelés par le Conseil d'administration en cours
+                d'exercice se fait à la majorité simple.</p>
+              <p>b) Convocations.</p>
+              <p>Les convocations pour le Conseil d'administration doivent parvenir six jours pleins
+                avant la date de sa réunion. Il y est adjoint l'ordre du jour arrêté par le
+                président, le compte rendu financier mensuel, ainsi qu'une note complémentaire
+                adressée spécialement aux membres de province sous la responsabilité du secrétaire
+                général. Tout membre de l'Union peut assister au Conseil d'administration ; les
+                membres du Comité d'Action seuls ont voix consultative.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Bureau</head>
+              <p>Les administrateurs désignent, outre le trésorier, les cinq administrateurs qui
+                composeront le bureau, à la majorité simple. Les élus <pb n="29"/>
+                <note type="foliation">— 27 —</note> répartissent entre eux les fonctions de
+                président, vice-président et secrétaire général.</p>
+              <p>Le président, le secrétaire général et le trésorier font partie de droit de toute
+                Commission ou Comité d'Etude, où ils ont une voix délibérative lorsqu'ils assistent
+                aux réunions.</p>
+              <p>Le bureau se réunit au moins une fois par mois, et chaque fois que le président le
+                juge nécessaire ; il délibère sur toutes les questions pour lesquelles le Conseil a
+                donné des directives. Son rôle est spécialement de chercher les moyens d'exécution.
+                Les six membres du bureau seuls prennent part aux délibérations.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Comités d'Etude</head>
+              <p>Les Comités d'Etude peuvent rédiger des vœux qu'ils transmettent au secrétaire
+                général.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Commissions</head>
+              <p>Les membres désignés pour les Commissions sont seuls admis à délibérer. Les
+                Commissions issues du Conseil lui transmettent obligatoirement un rapport par
+                l'intermédiaire du secrétaire général.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">Ordre des assemblées</head>
+              <p>Qu'il s'agisse de l'assemblée générale, du Conseil d'administration, du bureau, du
+                Comité d'Etude, le président reste seul responsable de l'ordre et de la direction
+                des débats. Si un membre trouble systématiquement la discussion, le président
+                suspend la séance. Le membre responsable du désordre ne peut plus être admis
+                qu'après consultation des membres présents.</p>
+              <p>Tout membre désigné pour faire partie du Conseil du bureau, d'un Comité d'Etude,
+                d'une Commission, est considéré comme démissionnaire après trois absences
+                consécutives sans excuse. Les administrateurs de province ont le devoir de
+                correspondre avec le siège social dans la durée qui s'écoule entre la convocation de
+                trois Conseils.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">Président</head>
+              <p>Le président règle, d'accord avec le trésorier et le secrétaire général, toutes les
+                questions de détails en se conformant aux décisions du Conseil et du bureau. Il peut
+                déléguer au Secrétaire général des pouvoirs pour ordonnancer une somme ne dépassant
+                pas 300 francs. Il prend toute initiative favorable à l'intérêt des aveugles de
+                guerre et du groupement qui ne serait pas contraire aux décisions du Conseil
+                d'administration. Il ne peut s'absenter sans s'assurer qu'un viceprésident le
+                remplacera dans ses fonctions.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">Vice-président</head>
+              <p>Les vice-présidents assistent obligatoirement aux séances du bureau; l'un d'eux
+                peut être désigné par le Président pour le remplacer provisoirement dans ses
+                fonctions.</p>
+              <pb n="30"/>
+              <note type="foliation">— 28 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">Secrétaire général</head>
+              <p>Le secrétaire général assure l'exécution des décisions du Conseil et du bureau;
+                d'accord avec le président, il prend toute initiative favorable aux aveugles de
+                guerre et à leur groupement.</p>
+              <p>Il est responsable de la publication mensuelle et régulière du Bulletin, ainsi que
+                de la rédaction de tous les articles d'ordre général.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">Caisse fraternelle</head>
+              <p>La Commission de Caisse fraternelle comprend trois membres titulaires renouvelés
+                trimestriellement. Elle s'inspire des directives que lui a données le Conseil
+                d'administration et se conforme strictement à ses décisions en ce qui concerne ses
+                pouvoirs financiers.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">Bulletin</head>
+              <p>Le Bulletin mensuel, outre les articles d'ordre général, publie les incidents
+                survenus dans la vie familiale des membres de l'Union, à la demande de ceux-ci.
+                Toutes les lettres de camarades sont également publiées sur quelque sujet que ce
+                soit, sauf sur des questions politiques ou religieuses. Le Secrétaire Général peut
+                ne pas publier une lettre qu'il juge nuisible à l'intérêt des aveugles. Si l'auteur
+                insiste pour que la publication en soit faite, le cas est soumis au Conseil
+                d'administration.</p>
+              <p>Bloncourt. - Voulez-vous m'indiquer comment se fait le remplacement des
+                administrateurs sortants?</p>
+              <p>Gudefin. - Le Conseil est composé de 30 membres renouvelables par un tiers tous les
+                ans. Chaque année, il y a to candidats sortants rééligibles.</p>
+              <p>Bloncourt a remarqué parmi les candidats le nom de camarades élus au cours de
+                l'année écoulée.</p>
+              <p>Le Président. - Effectivement, les pouvoirs des camarades élus par le Conseil, en
+                remplacement des administrateurs démissionnaires, ne prennent fin qu'à l'expiration
+                du mandat des membres qu'ils ont remplacés.</p>
+              <p>Bloncourt. - On a fait, évidemment, cette année, un effort pour une meilleure
+                présentation des candidats sollicitant nos suffrages; mais le moyen ou le mode
+                adopté est-il vraiment satisfaisant? Je préférerais voir sur le Bulletin, au lieu
+                des qualités et professions qui, en somme, m'importent peu, un programme qui
+                indiquerait les idées du futur administrateur et intéresserait certainement les
+                camarades.</p>
+              <p>Boetzel. - Le choix est facile lorsqu'il s'agit de la candidature d'administrateurs
+                sortants. Chacun peut, en effet, en lisant régulièrement dans le Bulletin les
+                procès-verbaux des Conseils d'administration, apprécier l'activité et la valeur de
+                chaque administrateur. Quant aux nouveaux candidats, il leur est difficile d'établir
+                par avance un nouveau programme détaillé, car le premier soin doit être de se <pb
+                  n="31"/>
+                <note type="foliation">— 29 —</note> conformer aux vœux émis par l'Assemblée: ils ne
+                peuvent que travailler dans ce sens.</p>
+              <p>Izaac. - Je me range entièrement aux idées de Bloncourt. Hourcade. - Pourquoi les
+                camarades présents aux séances du Conseil n'ont-ils pas voix consultative?</p>
+              <p>Izaac. - Ils n'ont pas voix consultative, conformément aux statuts. De plus, c'est
+                tout à fait logique : le Conseil doit pouvoir délibérer sans aucune entrave ; il a
+                une très grosse responsabilité devant vous, et les interventions étrangères ne
+                peuvent le plus souvent que gêner les débats. Il est cependant bien entendu que le
+                Conseil ne demande qu'à s'éclairer chaque fois qu'il le juge à propos et un camarade
+                peut toujours être entendu sur une question qu'il connaîtrait particulièrement.</p>
+              <p>Toutain se demande s'il n'y aurait pas lieu de faire, à côté du Bulletin en noir,
+                une publication en Braille des parties essentielles de ce même Bulletin.</p>
+              <p>Izaac. - Hourcade a déjà posé la question l'an dernier : elle doit rester à
+                l'étude.</p>
+              <p>Le règlement intérieur est adopté à l'unanimité. Compte rendu au sujet des
+                cotisations :</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h36">COMPTE RENDU AU SUJET DU PAIEMENT
+              DES COTISATIONS</head>
+            <p>L'an dernier, l'Assemblée générale avait tenu à savoir si les cotisations des membres
+              titulaires étaient régulièrement payées.</p>
+            <p>Nous apportons, cette année, des chiffres répondant à cette question :</p>
+            <p>Au I<hi rend="superscript">er</hi> décembre 1921, 221 cotisations ont été rachetées,
+              c'est-à-dire 221 camarades sont en règle pour toujours avec la caisse de l'Union.</p>
+            <p>En dehors de ces 221, les aveugles de guerre ont payé leur cotisation annuelle, sauf
+              62 .</p>
+            <p>Comme nous restons 2.209 membres titulaires, c'est-à-dire 2.209 aveugles complets, on
+              voit que la proportion de non paiement des cotisations est très faible : 3%
+              environ.</p>
+            <p>Votre Conseil se félicite du résultat obtenu, qui démontre que presque unanimement,
+              les aveugles ont compris sur quelle base notre Union était fondée.</p>
+            <p>Néanmoins, que faut-il penser des 62 aveugles qui n'ont pas payé leur cotisation?
+              L'article 4 de nos statuts est formel à ce sujet et permet à votre Conseil de décider
+              la radiation pour non paiement de cotisation.</p>
+            <p>Mais avant de se prononcer, votre Conseil préfère soumettre la question à l'Assemblée
+              générale, car, parmi les 62 membres n'ayant <pb n="32"/>
+              <note type="foliation">— 30 —</note> pas payé, il s'en trouve 45 dont la bonne volonté
+              est évidente et qui sont dans une situation difficile à une époque où la pension est
+              insuffisante, surtout pour ceux qui ont des enfants. Ces 45 camarades doivent payer
+              leur cotisation ultérieurement.</p>
+            <p>Par contre, il se trouve 17 camarades ayant catégoriquement refusé de payer leur
+              cotisation sans vouloir donner aucune explication. Or, si on consulte nos registres de
+              comptabilité, ces 17 camarades n'ont pas payé non plus leur cotisation en 1920, nous
+              faisons l'Assemblée générale juge de la question. Que veut-elle décider à leur
+              égard?</p>
+            <p>Grillet : « Il ne faudrait pas cependant que les camarades se laissent aller à de
+              telles négligénces; l'habitude de ne point payer leur cotisation et de demander tout
+              de même des secours à la Caisse Fraternelle. »</p>
+            <p>Amar : « Je fais partie de la Commission de Caisse Fraternelle; jamais le secours
+              n'est accordé sans que la Commission ne retienne la cotisation en retard, s'il y a
+              lieu. »</p>
+            <p>Chauvel prie l'assemblée de bien se souvenir qu'elle demande la radiation de tout
+              camarade qui refuserait, sur un dernier avertissement, de payer sa cotisation. Il faut
+              penser, en effet, que les statuts permettent à ces camarades de porter la question
+              devant l'assemblée.</p>
+            <p>Le président : « L'assemblée prend acte des paroles du camarade Chauvel. »</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h37">Maison de l'Aveugle, Maison
+                de Repos, Maison de Retraite</head>
+              <p>L'ordre du jour appelle la Maison de l'Aveugle, la Maison de repos, la Maison de
+                retraite. Il est évidemment inutile de rappeler aux camarades ce que nous entendons
+                par Maison de l'aveugle. De nombreux documents l'ont minutieusement expliqué en
+                détail et la dernière Assemblée générale en a, du reste, déjà consacré le principe
+                par son vote qui faisait confiance au Conseil pour l'étude et la réalisation de
+                cette question.</p>
+              <p>Cet agrandissement du siège social avec les divers services qu'il comporte est
+                peut-être sur le point d'être réalisé, grâce au concours de notre Comité d'Aide.</p>
+              <p>Certes, il ne faut pas s'illusionner, et de nombreuses difficultés nous attendent
+                encore, mais nous demandons à l'Assemblée de nous continuer sa confiance pour
+                parfaire cette entreprise.</p>
+              <p>La Maison de Repos? Il n'est pas un camarade non plus qui, par la lecture du
+                Bulletin, n'ait appris la tentative faite par le Conseil d'administration pour créer
+                à Franceville une station de repos sur un terrain qui nous a été donné à la
+                condition d'y construire quelque chose de stable. Nous y avons installé des locaux
+                provisoires dont le succès a été si grand auprès des camarades que le meilleur éloge
+                que l'on puisse en faire est de prier les membres de cette Assemblée de se souvenir
+                des extraits de lettres enthousiastes des camarades publiés dans notre Bulletin.</p>
+              <pb n="33"/>
+              <note type="foliation">— 31 —</note>
+              <p>A la condition expresse de n'affecter à cette entreprise que les sommes
+                spécialement données dans ce but, votre Conseil estime que ce serait faire cuvre
+                utile et d'intérêt général pour tous les camarades que de donner suite à cette idée
+                heureuse qui permettrait aux camarades qui le désireraient de faire un séjour
+                vivifiant et réparateur au bord de la mer avec leur famille, et cela sans dépense
+                vraiment sérieuse. Cette idée correspond à un besoin qui ne peut aller, du reste,
+                qu'en grandissant avec les facilités de voyage que nous avons aujourd'hui obtenues
+                sur les chemins de fer.</p>
+              <p>La Maison de Retraite? Votre Conseil a le grave devoir de soumettre à votre
+                discussion une idée qui n'est certes pas nouvelle, mais dont la réalisation ne nous
+                paraissait pas jusqu'ici nécessaire.</p>
+              <p>Malheureusement, chaque jour le nombre des camarades isolés va grandissant, malgré
+                le mariage des plus jeunes d'entre nous. L'un perd sa femme, ses parents ; tel autre
+                divorce ; celui-ci, qui s'accommodait de l'isolement du célibat, se fatigue et
+                s'ennuie ; celui-là devenu infirme ne peut désormais rester seul.</p>
+              <p>Ces multiples raisons ont fait penser à votre Conseil d'Administration que le
+                moment était venu de soumettre à votre discussion et à votre approbation l'idée
+                d'une maison de retraite. Cela lui a paru d'autant plus nécessaire qu'il s'agit
+                d'une cuvre qui demanderait peut-être plusieurs années avant que sa réalisation soit
+                possible ; il nous faudra en effet de nombreux concours financiers et même,
+                pensons-nous, l'aide de l'Etat. Nous demandons à l'Assemblée d'en accepter le
+                principe et d'en poser les bases.</p>
+              <p>Toutain approuve pleinement le principe de la Maison de Repos, mais il demande que
+                pour l'avenir on fasse un tour de priorité pour les convalescents, les familles
+                nombreuses et même les camarades de Paris, souvent confinés dans des locaux
+                insalubres.</p>
+              <p>Boetzel : « Je suis heureux de constater que la plupart des idées émises par le
+                camarade Toutain coïncident avec les désirs du Conseil pour l'avènir. »</p>
+              <p>Izaac fait observer au sujet de la Maison de Retraite qu'on ne peut pas aujourd'hui
+                discuter longuement sur cette question qui n'est pas mûre. L'Hôtel des Invalides ne
+                paraissant pas plaire à la plupart d'entre nous, il y aurait lieu vraisemblablement
+                de créer une organisation à Paris et en province.</p>
+              <p>Robert signale la réorganisation éventuelle des Quinze-Vingts, où les camarades
+                pourraient être admis.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h38">Vote</head>
+              <p>Maison de l'Aveugle : Adopté à l'unanimité.</p>
+              <p>Maison de Repos : Adopté à l'unanimité.</p>
+              <p>Maison de Retraite : Adopté à l'unanimité.</p>
+              <pb n="34"/>
+              <note type="foliation">— 32 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h39">Ratification et résultats
+                des élections</head>
+              <table>
+                <row>
+                  <cell>Favret</cell>
+                  <cell>1.247</cell>
+                  <cell>voix</cell>
+                  <cell>Saillot</cell>
+                  <cell>505</cell>
+                  <cell>voix</cell>
+                </row>
+                <row>
+                  <cell>Laffargue</cell>
+                  <cell>1.040</cell>
+                  <cell>-</cell>
+                  <cell>Courteix</cell>
+                  <cell>408</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Arnault</cell>
+                  <cell>970</cell>
+                  <cell>-</cell>
+                  <cell>Marie</cell>
+                  <cell>383</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Levêque</cell>
+                  <cell>933</cell>
+                  <cell>-</cell>
+                  <cell>Bonnardin</cell>
+                  <cell>348</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>il'oudouri</cell>
+                  <cell>911</cell>
+                  <cell>-</cell>
+                  <cell>Heuze</cell>
+                  <cell>315</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Scapini</cell>
+                  <cell>800</cell>
+                  <cell>-</cell>
+                  <cell>Guilbot</cell>
+                  <cell>294</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Robert</cell>
+                  <cell>790</cell>
+                  <cell>-</cell>
+                  <cell>Odoul</cell>
+                  <cell>285</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Durat</cell>
+                  <cell>651</cell>
+                  <cell>-</cell>
+                  <cell>Munch</cell>
+                  <cell>272</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Lagarde</cell>
+                  <cell>633</cell>
+                  <cell>-</cell>
+                  <cell>Nicolai</cell>
+                  <cell>269</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Saint-Rose</cell>
+                  <cell>578</cell>
+                  <cell>-</cell>
+                  <cell>Epstein</cell>
+                  <cell>250</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Chautard</cell>
+                  <cell>547</cell>
+                  <cell>-</cell>
+                  <cell>Boucher</cell>
+                  <cell>198</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Webber</cell>
+                  <cell>535</cell>
+                  <cell>-</cell>
+                  <cell>Michel</cell>
+                  <cell>179</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Ecal</cell>
+                  <cell>535</cell>
+                  <cell>-</cell>
+                  <cell>Balester</cell>
+                  <cell>156</cell>
+                  <cell>-</cell>
+                </row>
+                <row>
+                  <cell>Juhel</cell>
+                  <cell>531</cell>
+                  <cell>-</cell>
+                  <cell>Derunder</cell>
+                  <cell>126</cell>
+                  <cell>-</cell>
+                </row>
+              </table>
+              <p>Bruckmann regrette que le camarade Marie n'ait pas été suffisamment connu pour que
+                les élections aient lieu.</p>
+              <p>Bourlot : « Pourquoi a-t-on mis sur le bulletin de vote, à côté du nom de certains
+                camarades, la mention : Membre de la Commission des Pensions? Est-ce pour faire
+                pression sur les camarades? ))</p>
+              <p>Boetzel : « Il est tout naturel que les camarades membres du Conseil qui ont une
+                activité heureuse pour l'Union le fassent connaître s'ils le désirent à leurs
+                camarades. Cela correspond du reste à l'opinion de l'assemblée, qui a émis tout à
+                l'heure un avis favorable en ce sens. </p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h40">Nomination des Commissaires
+                aux Comptes</head>
+              <p>Le président adresse ses remerciements aux Commissaires aux Comptes élus l'an
+                dernier. Il exprime son désir qu'il leur soit demandé d'accepter à nouveau le
+                renouvellement de leur mandat.</p>
+              <p>Sont nommés Commissaires aux Comptes à l'unanimité : MM. Mayer et Bloch.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h41">Nomination des délégués pour
+                la modification aux statuts</head>
+              <p>Les camarades Grillet et Le Gouar ont accepté. Vote à l'unanimité. Grillet demande
+                que le Conseil s'occupe de la question des transports en commun.</p>
+              <p>Le président: « Je manquerais à tous mes devoirs si, avant de clore cette séance,
+                je n'adressais à M. le Recteur de l'Université de Paris nos plus chaleureux
+                remerciements pour avoir bien voulu nous accorder l'hospitalité dans cette illustre
+                maison. "Je tiens également à vous remercier, mes chers camarades, de l'attention
+                que vous avez bien voulu prêter à la lecture des rapports ou propositions de votre
+                Conseil. Le bon sens et la raison n'ont cessé de présider à nos débats, et c'est le
+                plus grand éloge que l'on puisse faire de notre esprit de camaraderie et de
+                solidarité. )"</p>
+              <p>La séance est levée à 17 h .45 .</p>
+              <pb n="35"/>
+              <note type="foliation">— 33 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h42">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, sénateur, ancien ministre, président ; Mlle Arbel,
+              vice-présidente ; M. Gourdon, vice-président : M. le baron de Traversay,
+              vice-président ; M. Bloch, secrétaire ; M. l'Evesque, trésorier adjoint ; M. Auterbe,
+              actuaire à la Compagnie l' « Union»;</p>
+            <p>Mme Boylesve ; Mme Broquin ; M. Pierre Cherot ;</p>
+            <p>Mme Chevalier ; Mme Contamin ; M. Dubranle, inspecteur des Ecoles de Rééducation; M.
+              de Fleurieu ;</p>
+            <p>Mlle L. Ghys ; Mme Hebmann ; Mlle Jalaguier ; Mme Lévy-Weiss ; M. Mayer ;</p>
+            <p>Mme Meyer, secrétaire générale du Livre de l'Aveugle ; M. Meynadier ; M. Pichon,
+              ancien secrétaire général de la Présidence de la République ; M. Roux, directeur
+              honoraire du ministère de l'Intérieur, directeur de la Société "Les Amis des Soldats
+              aveugles». M. Joseph Roux, directeur du Travail de la Législation ouvrière et des
+              Assurances sociales au commissariat général de la République (Strasbourg) ; D.
+              Schneider.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h43">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente; Mme Leyoues; Mme Le Trocquer; Mme L'Hopiteau; Mme Le
+              Breton; Mme Marthe Brandès, présidente de l'Abri du Soldat Aveugle.</p>
+            <pb n="36"/>
+            <note type="foliation">— 34 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h44">LISTE DES DONATEURS</head>
+            <p>Les lecteurs de la Biltothèque de la rue Titon, à Paris.. 10555 Mme Irma Boquet,
+              Genève ..... 10 ) Subvention du Conseil municipal de la Seine ..... 1.000 ) Anonyme
+              transmis par le Courrier du Centre, Limoges ..... 50 ) Mme Henry Dufresne,
+              Neuilly-sur-Seine ..... 20 ) Mlle Danon, Paris, transmis par les Annales. ..... 25 )
+              Mme Ripeloux, Princeton, New-York, U. S. A. ..... 13986 M. Duchâteau, Paris ..... 20 )
+              Une Beauceronne ..... 50 ) Mme Claude Martin, Chambéry (Savoie) ..... 100 )</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

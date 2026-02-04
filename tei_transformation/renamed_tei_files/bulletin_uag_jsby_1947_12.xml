@@ -1,0 +1,974 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 28ème année 1947, n°10</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Pensions de guerre</title>
+        <title type="topic">Allocations</title>
+        <title type="topic">Union des Aveugles de Guerre</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Services sociaux</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#allocations-familiales">Allocations familiales</term>
+          <term ref="#code-de-la-famille">Code de la Famille</term>
+          <term ref="#armistice">Armistice</term>
+          <term ref="#comite-dentente">Comité d'Entente</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#bibliotheque">Bibliothèque</term>
+          <term ref="#telephone">Téléphone</term>
+          <term ref="#val-de-grace">Val-de-Grâce</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin traite des préoccupations de l'Union des Aveugles de Guerre concernant la
+          situation des anciens combattants aveugles, notamment en matière de pensions et
+          d'allocations. Il relate les démarches entreprises auprès des pouvoirs publics pour
+          améliorer leur situation. Le bulletin couvre également les événements commémoratifs, les
+          réunions du conseil d'administration, les activités de la bibliothèque, et les services
+          offerts aux membres, tels que les abonnements téléphoniques à tarif réduit. Des
+          informations sur les naissances, mariages et décès parmi les membres sont également
+          incluses, ainsi que des petites annonces et des listes de cotisations.</p>
+      </abstract>
+      <creation>
+        <date when="1947-12-01">01/12/1947</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">LE 11 NOVEMBRE</ref>
+          </item>
+          <item>
+            <ref target="#h4">LE 11 NOVEMBRE A L'U.A.G.</ref>
+          </item>
+          <item>
+            <ref target="#h5">VINGT ANS APRES</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITE D'ENTENTE Réunion du 29 Octobre 1947</ref>
+          </item>
+          <item>
+            <ref target="#h7">AUDIENCE DE M. FORCINAL</ref>
+          </item>
+          <item>
+            <ref target="#h8">LE CODE DE LA FAMILLE</ref>
+          </item>
+          <item>
+            <ref target="#h9">ABONNEMENT ET COMMUNICATIONS TELEPHONIQUES</ref>
+          </item>
+          <item>
+            <ref target="#h10">INAUGURATION D'UN FOYER AU VAL-DE-GRACE</ref>
+          </item>
+          <item>
+            <ref target="#h11">DISTINCTION</ref>
+          </item>
+          <item>
+            <ref target="#h12">LA GREFFE DE LA CORNEE</ref>
+          </item>
+          <item>
+            <ref target="#h13">ELECTIONS MUNICIPALES</ref>
+          </item>
+          <item>
+            <ref target="#h14">A NOS CAMARADES DE LA PREMIERE D. F. L.</ref>
+          </item>
+          <item>
+            <ref target="#h15">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION DU 13 JUIN
+              1947</ref>
+          </item>
+          <item>
+            <ref target="#h16">BIBLIOTHEQUE LISTE DES LIVRES NOUVEAUX</ref>
+          </item>
+          <item>
+            <ref target="#h17">"LES LECTURES PAR LE DISQUE"</ref>
+            <list>
+              <item>
+                <ref target="#h18">Appareils de reproduction sonore:</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h19">COTISATIONS VOLONTAIRES POUR BIBLIOTHEQUE ET DISCOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h20">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h21">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h22">RACHATS DE COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h23">COTISATIONS VOLONTAIRES 1947</ref>
+          </item>
+          <item>
+            <ref target="#h24">SOUSCRIPTION POUR LE TOMBEAU DU GENERAL GOURAUD</ref>
+          </item>
+          <item>
+            <ref target="#h25">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h26">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h27">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h28">Comité dAction</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">28e Année. — N° 10</fw>
+          <fw type="header">
+            <hi rend="underline">DECEMBRE 1947</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>M. Vincent AURIOL et les Anciens Combattants</item>
+                    <item>Le 11 Novembre</item>
+                    <item>Le 11 Novembre de l'U.A.G.</item>
+                    <item>20 Ans après</item>
+                    <item>Comité d'Entente</item>
+                    <item>Audience de M. FORCINAL</item>
+                    <item>Code de la Famille.</item>
+                    <item>Téléphone.</item>
+                    <item>Foyer au Val-de-Grâce</item>
+                    <item>Distinction.</item>
+                    <item>Greffe de la Cornée</item>
+                    <item>Elections Municipales.</item>
+                    <item>Procès-verbal du Conseil d'Administration du 13 juin 1947</item>
+                    <item>Bibliothùque - Discothèque</item>
+                    <item>Cotisations.</item>
+                    <item>Naissances - Mariages - Décès</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <note type="foliation">— 2 —</note>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">LE 11 NOVEMBRE</head>
+            <p>Le 11 novembre dernier, nous n'étions pas, à 11 heures, auprès de la dalle de
+              l'Inconnu à l'Arc de Triomphe, comme nous avions I'habitude de le faire tous les
+              ans.</p>
+            <p>Les raisons en ont été exposées dans la presse, et cette défection, dont pour la
+              première fois nous prenions la responsabilité, nous fut pénible et revêtait même un
+              caractère douloureux. Nous tenions, autrefois, à ces 11 heures qui, le 11 novembre
+              1918, sonnaient pour nous la Paix et la gloire, et nous avons bien hésité avant de
+              nous décider à rompre, pour une fois, cette pieuse tradition, afin de marquer aux
+              Pouvoirs Publics un mécontentement profond.</p>
+            <p>Pourquoi nous contraindre à prendre de telles décisions, alors que nous ne demandions
+              qu'à collaborer avec le Gouvernement quel qu'il soit, mais faut-il encore que notre
+              situation soit véritablement comprise en haut lieu. Or, nous avions bien été obligés
+              de constater qu'un détachement de plus en plus net se faisait sentir dans les sphères
+              dirigeantes en ce qui concerne les mutilés et anciens combattants, ce qui, d'ailleurs,
+              avait suggéré aux Présidents de notre Comité d'Action, nos amis J. et J. Tharaud, les
+              articles généreux parus dans le " Figaro ".</p>
+            <p>C'est une grave erreur pour le Pays que d'oublier ses fidèles serviteurs et nous
+              voulons espérer que nous n'aurons pas à renouveler notre geste du 11 novembre.</p>
+            <p>Après avoir monté les Champs-Elysées et nous être inclinés devant la dalle sacrée,
+              c'est dans la Salle Wagram que nous nous sommes retrouvés pour célébrer ce jour qui
+              est celui des Anciens Combattants et qui doit rappeler dans l'esprit de nos
+              dirigeants, comme dans celui de tous les Français, les droits qu'ont les Anciens
+              Combattants, et particulièrement les victimes de la guerre, à une existence digne de
+              leur passé de gloire.</p>
+            <p>H. AMBLARD.</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">LE 11 NOVEMBRE A L'U.A.G.</head>
+            <p>La fête de l'Armistice du 11 novembre a été moins joyeuse en 1947 qu'elle aurait pu
+              l'être.</p>
+            <p>Dans la région parisienne, l'U.A.G. s'est conformée, sans joie mais avec discipline,
+              aux décisions du Conseil d'Administration de I'U.F.A.C.</p>
+            <p>Après la réunion de la Salle Wagram, un grand nombre de camarades se sont retrouvés,
+              un peu nerveux, pas très contents, dans notre maison, 49, rue Blanche. Cependant, chez
+              les Anciens, le souvenir de cette magnifique journée du 11 novembre 1918 a fini par
+              emporter tout ce que le début de celle-ci pouvait avoir d'amertume.</p>
+            <p>Après un déjeuner en commun, peu à peu les aveugles de guerre et leurs guides, sont
+              redevenus joyeux, comme il convient de l'être ce jour-là. Les Jeunes, comme les
+              Anciens ont chanté et à leurs voix se sont mêlées des voix fraîches de quelques guides
+              féminins. Les plus experts dans l'art de raconter de joyeuses histoires ont fait rire
+              toute l'assistance. Quelques-uns ont demandé que, l'année prochaine, soit organisé un
+              bal dans l'après-midi, espérons que le Bureau pourra réaliser ce vœu.</p>
+            <p>C'est avec une réelle émotion que Jeunes et Anciens se sont séparés après avoir, une
+              dernière fois, chanté la Marseillaise. H. I.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">VINGT ANS APRES</head>
+            <p>Le 11 novembre 1927, après la traditionnelle cérémonie de l'Armistice, à l'Arc de
+              Triomphe, nous étions très nombreux à prendre la route de Versailles pour participer
+              aux Etats-Généraux de la France meurtrie qui devaient se tenir, trois jours durant,
+              dans la Salle du Congrès du Palais des Rois.</p>
+            <p>Une grande espérance était née dans le monde combattant, qui, à cette époque,
+              représentait la véritable force du Pays et qui devait affirmer sa volonté de voir la
+              France conduite par des hommes s'inspirant des sacrifices consentis par la génération
+              du feu.</p>
+            <p>La Confédération des Anciens Combattants naquît alors, et vécut tant bien que mal
+              jusqu'en 39, où elle ne résista pas aux assauts d'esprits divisés et inquiets qui
+              n'avaient su accomplir le rassemblement des forces combattantes.</p>
+            <p>Après ces années d'occupation et de misère, l'U.F.A.C. a réuni les représentants des
+              deux générations de combattants. Nous souhaitons que leur union soit forie et féconde
+              et nous permette d'atteindre les buts qui nous sont chers: le bien-être des victimes
+              de la guerre et la paix dans le Pays. H. A.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITE D'ENTENTE Réunion du 29
+              Octobre 1947</head>
+            <p>Présidence : Bouré. Etaient présents: Amblard, Delporte, Gauriault, Griffoux, Izaac,
+              Jugon, Nouveau, Régnier, Thibault.</p>
+            <p>Etienne Nouveau fait connaitre les démarches qu'il a entreprises avec le Bureau de
+              l'U.F.A.C. pour essayer d'obtenir de M. Ramadier le maintien d'un Ministère des
+              Anciens Combattants et Victimes de la Guerre, ayant à sa tête un ancien combattant
+              connaissant particulièrement bien les questions concernant les anciens combattants et
+              victimes des deux guerres.</p>
+            <p>Il indique également les décisions prises par l'U.F.A.C. notamment au sujet des
+              manifestations du 11 novembre.</p>
+            <p>Le Comité étudie la tactique à employer pour obtenir le plus tot possible une loi
+              permettant d'abord de rajuster les pensions et allocations selon un coefficient égal à
+              celui des parties prenantes de l'Etat les plus favorisées, ensuite de prévoir pour
+              l'avenir un taux de revalorisation qui correspondrait automatiquement à celui dont les
+              fonctionnaires pourraient bénéficier ultérieurement.</p>
+            <p>Un échange de vue a lieu au sujet de la question des prestations de maladie et longue
+              maladie dont ne peuvent, actuellement, bénéficier les grands invalides non salariés
+              pour les affections qui ne sont pas imputables aux infirmités de guerre.</p>
+            <p>Une action intense va être entreprise pour que les grands invalides soient protégés
+              par la Sécurité Sociale dans le cas où la maladie dont ils peuvent être atteints n'est
+              pas en rapport avec leur invalidité de guerre.</p>
+            <p>Par suite du mauvais acheminement de la correspondance dû aux circonstances
+              actuelles, nous prions nos Camarades de nous excuser du retard qui pourrait être
+              apporté à répondre à leurs demandes.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">AUDIENCE DE M. FORCINAL</head>
+            <p>Le Comité d'Entente des Grands Invalides de Guerre a été reçu le jeudi 6 novembre par
+              M. Albert Forcinal, Secrétaire d'Etat aux Anciens Combattants.</p>
+            <p>Assistaient à l'audience: Amblard, Bouré, Delporte, Gauriault, Izaac, Jugon, Nouveau,
+              Régnier et Thibault.</p>
+            <p>Etienne Nouveau, Secrétaire Général du Comité d'Entente, présente les compliments des
+              Associations de Grands Invalides au camarade Forcinal, combattant des deux guerres,
+              qui représente les deux générations du feu auprès du Gouvernement.</p>
+            <p>Le Secrétaire d'Etat répond et se déclare très cordialement en eommunion d'idées avec
+              ses camarades. Il manifeste l'intention d'être vraiment le représentant et le
+              défenseur des droits des anciens combattants et victimes de guerre.</p>
+            <p>La délégation signale la situation précaire et digne d'intérêt des grands invalides
+              de guerre de 1914-1918 et de 1939-1945, particulièrement à cette époque de montée
+              continuelle du prix des denrées essentielles et au seuld d'un hiver qui s'annonce
+              difficile.</p>
+            <p>Le Comité demande une revalorisation immédiate, à partir du 1<hi rend="superscript"
+                >er</hi> octobre 1947, basée sur un coefficient d'augmentation égal à celui des
+              fonctionnaires et autres parties prenantes du pays.</p>
+            <p>D'autre part, le Comité insiste vivement pour qu'un article soit Inclus dans la
+              prochaine loi de finances prévoyant pour l'avenir le rajustement automatique des
+              pensions et allocations des victimes des deux guerres chaque fois que seront rajustés
+              les fonctionnaires en général, et les Conseillers d'Etat en particulier. Les deux
+              coefficients d'augmentation seraient équivalents dans tous les cas. M. Forcinal fait
+              connaitre les démarches qu'il a faites, depuis sa prise de pouvoirs, auprès du
+              Gouvernement, pour obtenir une revalorisation des pensions de guerre.</p>
+            <p>Il signale que le Gouvernement n'envisage un nouveau rajustement qu'à partir du 1<hi
+                rend="superscript">er</hi> janvier 1948.</p>
+            <p>La délégation insiste de nouveau pour que soit fixée la date de départ au 1<hi
+                rend="superscript">er</hi> octobre 1947 en raison des délais importants (atteignant
+              six mois pour quelques-uns des pensionnés de guerre) qui séparent la mise en
+              application des rajustements et le paiement des nouveaux taux .</p>
+            <p>Le Secrétaire d'Etat reconnait la grande valeur des arguments qui lui sont présentés
+              et promet de s'efforcer d'obtenir un rappel à partir du 1<hi rend="superscript"
+                >er</hi> octobre.</p>
+            <p>En ce qui concerne la parité demandée avec les fonctionnaires et notamment avec les
+              Conseillers d'Etat, il se déclare entièrement d'accord et fera l'impossible pour
+              obtenir le synchronisme recherché qui éviterait pour l'avenir les démarches
+              humiliantes que doivent accomplir périodiquement les représentants des victimes de
+              guerre pour assurer une vie décente à leurs camarades.</p>
+            <p>La délégation a remis également au Secrétaire d'Etat des notes concernant les
+              revendications suivantes :</p>
+            <list>
+              <item>Exonération à prévoir dans les projets fiscaux en gestation en faveur des grands
+                mutilés notamment en ce qui concerne certains signes extérieurs dits de richesse,
+                mais qui ne répondent en réalité qu'aux besoins créés par l'infirmité (automobiles,
+                domestiques, locaux à la campagne, etc.) ;</item>
+              <pb n="7"/>
+              <note type="foliation">— 7 —</note>
+              <item>Retour aux avantages accordés par les lois antérieures aux locataires et aux
+                propriétaires mutilés ou ayants droit de Morts pour la France. En fin d'entretien,
+                qui a duré plus d'une heure, dans une atmosphère très cordiale, la délégation a
+                vivement remercié M. Forcinal de son aimable accueil et de ses intentions
+                bienveillantes à l'égard des grandes victimes des deux guerres.</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LE CODE DE LA FAMILLE</head>
+            <p>Le Code de la Famille est entrée en application, et déjà dans certaines régions,
+              plusieurs de nos camarades ont enfin touché les allocations auxquelles ils avaient
+              droit depuis octobre 1945.</p>
+            <p>Nous espérons vivement que le règlement de ces arriérés se fera dans toutes nos
+              régions et que par la suite, nous toucherons les allocations familiales et primes de
+              salaire unique, comme tous les Français.</p>
+            <p>Nous rappelons encore quelques caractéristiques principales du Code de la
+              Famille:</p>
+            <p>Pour toucher les allocations familiales, il est nécessaire, à partir du 1<hi
+                rend="superscript">er</hi> juillet 1946 d'avoir deux enfants à charge, alors qu'un
+              suffit pour donner droit à l'allocation de salaire unique.</p>
+            <p>Nous rappelons aussi que nous avons maintenant droit aux allocations pré-natales. Si
+              la déclaration est faite dans les trois mois de la grossesse, le droit est ouvert pour
+              les 9 mois qui ont précédé la naissance. Se conformer aux visites et s'adresser aux
+              Trésoriers payeurs généraux.</p>
+            <p>A partir du 1<hi rend="superscript">er</hi> juillet 1946, les grands invalides non
+              salariés peuvent demander l'allocation de maternité. Elle est servie si la naissance a
+              lieu alors que la mère n'a pas atteint 25 ans ou si la naissance a lieu dans les deux
+              ans qui ont suivi la célébration du mariage lorsque la mère a plus de 25 ans lors de
+              la naissance.</p>
+            <p>Autres naissances: Si la naissance a lieu dans les trois ans qui ont suivi la
+              première maternité, même si celle-ci est antérieure au 1<hi rend="superscript">er</hi>
+              juillet 1946.</p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">ABONNEMENT ET COMMUNICATIONS
+              TELEPHONIQUES</head>
+            <p>Le téléphone est pour beaucoup d'entre-nous chose infiniment précieuse, car non
+              seulement il nous évite d'écrire certaines lettres urgentes, mais il nous permet
+              d'avoir une réponse rapide, sans qu'il soit besoin pour nous d'avoir recours à une
+              tierce personne. C'est vraiment là un de ces pas que nous tendons à faire vers une
+              récupération de liberté tant recherchée. M. Mandel, Ministre des P.T.T. en 1935, avait
+              fort bien compris cela, et cet homme intelligent avait accordé aux aveugles de guerre
+              une réduction de 50 p. 100 sur l'abonnement, et 50 p. 100 sur le montant des
+              communications dans certaines localités, où un minimum était exigible dans l'ancien
+              régime des abonnements.</p>
+            <p>Or, par suite des modifications dans l'organisation du téléphone, cette réduction de
+              50 p. 100 sur les communications a été contestée, et nous étions même menacés de la
+              voir supprimée. Avec le Président de l'U.A.G., nous nous sommes rendus au Ministère
+              des P.T.T. où M. le Secrétaire Général a bien voulu écouter l'exposé que nous lui
+              avons fait sur l'utilité du téléphone, pour nous qui vivons dans le domaine des sons.
+              De nouveaux textes vont être élaborés, et non seulement la réduction de 50 p. 100 nous
+              sera conservée, mais dans beaucoup de localités, une réduction de 50 p. 100 nous sera
+              consentie sur un nombre déterminé de communications qui nous sera fixé
+              ultérieurement.</p>
+            <p>Nous remercions dès à présent M. le Secrétaire Général du Ministère des P.T.T., et
+              dès que nous aurons les renseignements définitifs, nous ne manquerons pas de les
+              transmettre à nos camarades.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">INAUGURATION D'UN FOYER AU
+              VAL-DE-GRACE</head>
+            <p>Le Médecin-Chef du Val-de-Grâce nous a invités, le 14 novembre, à l'inauguration d'un
+              foyer créé pour les blessés de l'hôpital militaire.</p>
+            <p>Madame Vincent Auriol, toujours discrètement dévouée à la cause des victimes de
+              guerre, honorait de sa présence cette fête intime.</p>
+            <p>Une partie artistique était organisée par M. Edmond Bloch, de l'A.G.M.G., avec le
+              concours bénévole de grands artistes, anciens combattants, tel que Baugé ou amies de
+              ceux-ci, comme Mado Robin et Marie Dubas. Cette représentation a enchanté nos jeunes
+              camarades.</p>
+            <p>Nous sommes très heureux pour eux de l'ouverture de ce foyer, en souhaitant toutefois
+              que le nombre des nouveaux blessés d'Indochine et d'ailleurs, tende le plus rapidement
+              possible vers zéro.</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">DISTINCTION</head>
+            <p>Nous avons appris la promotion de notre camarade Rochelet au grade d'Officier dans
+              l'Ordre de la Légion d'Honneur (J.O. du 10 juillet 1947), et nous l'en félicitons
+              vivement.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LA GREFFE DE LA CORNEE</head>
+            <p>Le Docteur Coutela nous fait connaitre qu'un décret est paru, en date du 26 septembre
+              dernier, qui autorise le prélèvement précoce permettant la greffe de la cornée dans
+              des conditions satisfaisantes.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">ELECTIONS MUNICIPALES</head>
+            <p>Nous avons appris avec plaisir les élections ci-après parmi nos camarades :</p>
+            <list>
+              <item>Jézéquel, élu maire de Lézardrieux ;</item>
+              <item>Guespereau, élu conseiller municipal de Guerchy (Yonne) ;</item>
+              <item>Hauser, élu conseiller municipal de Dijon (Côte-d'Or) ;</item>
+              <item>François Cochon, élu conseiller municipal de Chérizy (Pas-deCalais) ;</item>
+              <item>Mariani, élu conseiller municipal à Alger ;</item>
+              <item>Patissou, élu conseiller municipal à Saint-Jean-d'Ataux (Dordogne).</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">A NOS CAMARADES DE LA PREMIERE D.
+              F. L.</head>
+            <p>Nous demandons à nos jeunes camarades ayant appartenu à la Ire D.F.L. de bien vouloir
+              se faire connaitre à l'Union, en donnant leurs nom, adresse et affectation.</p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION DU 13 JUIN 1947</head>
+            <p>La séance est ouverte à 14 h .30 , sous la présidence d'Izaac. Etaient présents:
+              Amblard, Bloncourt, Brusson, Bois, Céré, Cornu, Couesnon, Duc, Favret, Guespereau,
+              Izaac, Laffargue, l'Evesque, Muller, Noireaux, Robin, Roy Georges, Satgé, Sibiril.</p>
+            <p>Sa sont excusés et ont donné leurs pouvoirs: Bertrand à Amblard, Cabasson à Favret,
+              Chalendar à Izaac, Conan à Sibiril, Derunder à Noireaux, Fauvel, Guillam, Leveau et
+              Nicolaï à Laffargue.</p>
+            <p>Absents : Bodin et Grillet. Assistaient à la séance : Le camarade Le Guen. Le
+              procès-verbal de la séance du 24 avril est adopté à l'unanimité. A propos du
+              procès-verbal du 27 avril, il est donné lecture d'une lettre de Madame Contamin
+              remerciant le Conseil de l'avoir nommé membre d'honneur.</p>
+            <p>Procès-verbal de l'Assemblée Générale plénière. Lettre de Nicolaï demandant certaines
+              rectifications à propos de ses interventions. Le Conseil examine les documents et
+              estime que la publication du compte rendu sténographique donnera satisfaction à
+              Nicolaï.</p>
+            <p>Le procès-verbal est adopté à l'unanimité. Situation financière. - Lecture du rapport
+              de Bois, Président de la Commission des Finances, qui propose l'adoption de la
+              situation et souligne l'activité des sections du Finistère et de l'Isère qui ont
+              envoyé des sommes intéressantes à notre caisse.</p>
+            <p>Izaac rappelle aussi que le Président de la section du Tarn a contribué d'une façon
+              effective au ravitaillement de la maison.</p>
+            <p>La situation financière est adoptée. Pensions. - Le Président mentionne les trois
+              manifestations qui ont déjà eu lieu pour le rajustement des pensions, fait le point
+              des pourparlers et état des promesses faites par les ministres pour le rajustement des
+              allocations des grands invalides lesquelles, pense-t-il, seront portées au coefficient
+              6 1/2. Ayant moins de renseignements pour les pensions, le Président dit que
+              nous persistons à demander 8 pour les allocations et 5 pour les pensions. Il parle
+              enfin de la manifestation qui aura lieu le soir même.</p>
+            <p>Muller n'y est pas opposé mais demande si c'est opportun pour nous. Bloncourt se
+              déclare partisan de la manifestation, ne peut admettre que certains citoyens
+              obtiennent satisfaction en se croisant les bras, alors que nous sommes obligés de
+              faire des manifestations.</p>
+            <p>Robin, sans se désintéresser de tous les mutilés, estime que les 100 p. 100 devraient
+              être groupés à part.</p>
+            <p>Favret a participé aux manifestations précédentes, mais aujourd'hui les aveugles
+              étant mêlés aux autres mutilés capables de travailler, il <pb n="11"/>
+              <note type="foliation">— 11 —</note> juge ne pas devoir se rendre au rendez-vous. Il
+              fait remarquer qu'à l'Opéra nous étions une centaine d'aveugles, mais qu'il n'y avait
+              que trois nouveaux et le regrette.</p>
+            <p>Laffargue fait remarquer que les petites retraites ont été portées au coefficient 6,8
+              , les bénéficiaires ne produisant pas plus que nous, il estime que c'est un point de
+              comparaison très utile que nous devons faire valoir.</p>
+            <p>Brusson pense qu'en ce moment on doit soutenir tous les mutilés. Bois met en relief
+              nos difficultés pour participer à ces manifestations qui ont lieu tard et immobilisent
+              nos femmes et leur imposent une grosse fatigue. Il s'élèvent aussi contre la non
+              application du Code de la Famille.</p>
+            <p>Amblard résume les diverses démarches à la Chambre et auprès des différents
+              ministères. Les déclarations n'ont pas été précises, cependant d'après l'ensemble des
+              crédits, on pourrait espérer obtenir 6 1/2 sur les allocations.</p>
+            <p>Izaac ne pense pas que les chiffres soient notablement modifiés et Laffargue dit
+              qu'il serait bon que le Président soit à la manifestation pour nous représenter.</p>
+            <p>Céré réclame le reclassement des mutilés. Amblard assure que maintenant 100 p. 100
+              pour la cécité n'est plus en harmonie avec les barèmes.</p>
+            <p>Comité Central pour les Aveugles Travailleurs. - Couesnon fait un exposé détaillé sur
+              la dernière réunion du Comité Central des Aveugles Travailleurs où il a représenté
+              l'U.A.G. avec Amblard.</p>
+            <p>Satgé trouve que ce Comité ne rend pas aux camarades les services attendus.</p>
+            <p>Couesnon indique les nouvelles mesures prises. Tous les administrateurs désirent que
+              les camarades soient mieux aidés par ce Comité, où nous avons versé une somme
+              importante.</p>
+            <p>Amblard met le Conseil au courant de la création d'une nouvelle émission pour les
+              aveugles. Il a participé à la réunion constitutive, et on s'efforcera de faire une
+              émission digne et intéressante à la rentrée d'octobre.</p>
+            <p>Nouvelles adhésions.</p>
+            <p>Membres titulaires définitifs : Bernier André, Le Ruguel-en-Roscoff (Finistère).
+              Ghiat Boudjéma, 122, rue de Lyon, Alger (Algérie). Membre associé devenant membre
+              titulaire définitif: Fournier Edouard, 61, rue Principale, Wimille (Pas-de-Calais).
+              Membres titulaires provisoires : Becker Augustin, Dely-Ibrahim, Alger (Algérie). Blum
+              Gaston, 33 bis, quai Neuf, Orléans (Loiret). Santini Ferdinand, Bâtiment B, avenue de
+              la Victoire, Toulon (Var). Membre associé devenant membre titulaire provisoire :
+              Robert Pierre, 19, rue Paul-Déroulède, Asnières (Seine). Membres associés : Battistini
+              Jean, 14, rue Daru, Paris.</p>
+            <pb n="12"/>
+            <note type="foliation">— 12 —</note>
+            <p>Montellier Francisque, Saint-Nicolas-d'Aliermont (Seine-Inférieure). Yvon Marcel,
+              Baraquement n <hi rend="superscript">°</hi> 2, Croix-de-l'Espérance, Saint-Malo
+              (Ille-et-Vilaine).</p>
+            <p>Legs Kisielnicki. - Après avoir pris connaissance des dispositions testamentaires de
+              Mademoiselle Hélène Kisielnicki, en son vivant demeurant à Nice, 96, avenue des
+              Arènes-de-Cimiez, décédée le 30 décembre 1941, par lesquelles elle lègue par testament
+              et codicilles olographes en date des 20 octobre 1933 et 29 mars 1938, à l'Union des
+              Aveugles de Guerre, une somme de cinq mille francs, le Conseil d'Administration décide
+              à l'unanimité d'accepter ces dispositions testamentaires, et donne tous pouvoirs à son
+              Trésorier, M. Gaston l'Evesque pour encaisser cette somme au nom de l'Union des
+              Aveugles de Guerre, prendre tous engagements et faire le nécessaire.</p>
+            <p>La séance est levée à 16 h .45.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">BIBLIOTHEQUE LISTE DES LIVRES
+              NOUVEAUX</head>
+            <list>
+              <head type="section" rend="align(center)">Romans :</head>
+              <item>95. Peyre Joseph, Mont Everest ( 7 vol. amplifié).</item>
+              <item>368. Barrès Maurice, Du sang, de la volupté et de la mort ( 7 vol.
+                abrégé).</item>
+              <item>506. Romains Jules, Les Hommes de bonne volonté, tome 25 ( 9 vol.
+                abrégé).</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">Poésie :</head>
+              <item>1.247. Verlaine, Theuriet, Comtesse de Noailles, etc., Recueil de poésies
+                modernes ( 1 vol. abrégé).</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">Guerre 39-45 :</head>
+              <item>2.369. Bidou Henri, La Bataille de France (mai-juin 40) (4 vol. abrégé).</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">Géographie - Voyages :</head>
+              <item>3.360. Saint-Exupéry, Terre des Hommes ( 4 vol. amplifié).</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">Ouvrages en langue étrangère :</head>
+              <item>Anglais.<list>
+                  <item>4.009. W. Irving, Rip van Winckle (1 vol. intégral).</item>
+                  <item>4.010. X..., Anecdotes of dogs ( 1 vol. intégral).</item>
+                  <item>4.011. Hilda Bradfield, Short Stories for Adult Learners (1 vol.
+                    intégral).</item>
+                  <item>4.012. Stanley Weyman, From the Memoirs of a Minister of France (1 vol.
+                    intégral).</item>
+                </list></item>
+              <item>Italien : <list>
+                  <item>4.150. Renato Fucini, Le Veglie di Neri (Histoires italiennes) (6 vol.
+                    intégral).</item>
+                </list></item>
+            </list>
+            <pb n="13"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">"LES LECTURES PAR LE
+              DISQUE"</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Appareils de reproduction
+                sonore:</head>
+              <p>Ainsi que nous l'avons annoncé dans un précédent bulletin, nous avons pu recevoir
+                de Suisse un certain nombre de moteurs spéciaux 33-78 tours, destinés à l'équipement
+                des appareils d'écoute des "Lectures par le Disque".</p>
+              <p>Nous venons de passer commande pour une nouvelle série de mallettes qui nous seront
+                livrées au début de l'année prochaine et que nous mettons en vente dès maintenant au
+                prix de 8.000 francs.</p>
+              <p>Ce prix, bien que très élevé pour le budget de beaucoup de Camarades, reste très
+                inférieur au prix pratiqué dans le commerce pour ce genre d'appareil dont nous vous
+                rappelons les caractéristiques :</p>
+              <p>Coffret-mallette avec poignée : longueur 45 cm ., largeur 40 cm ., hauteur 24 cm .,
+                moteur marque "Thorens", 2 vitesses, permettant l'écoute des disques de musique à 78
+                tours ainsi que des disques parlés à 33 tours, pick-up léger marque "Thorens",
+                amplificateur 3 lampes, hautparleur.</p>
+              <p>Les Camarades qui nous en avaient fait la demande ont été prévenus
+                individuellement. Il nous reste quelques appareils disponibles: les Camarades
+                intéressés sont priés de nous adresser leur demande d'urgence.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">COTISATIONS VOLONTAIRES POUR
+              BIBLIOTHEQUE ET DISCOTHEQUE</head>
+            <table>
+              <row>
+                <cell>Viguier</cell>
+                <cell>200 "</cell>
+                <cell>Bois</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Dufour</cell>
+                <cell>100 "</cell>
+                <cell>Toulain</cell>
+                <cell>200 "</cell>
+              </row>
+              <row>
+                <cell>Cornu</cell>
+                <cell>225 "</cell>
+                <cell>Epaud</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Céré-Labourdette</cell>
+                <cell>100 "</cell>
+                <cell>Champey</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Briffaut</cell>
+                <cell>57 "</cell>
+                <cell>Morisot</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Bompuis</cell>
+                <cell>100 "</cell>
+                <cell>Debooserie</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Courtemanche</cell>
+                <cell>150 "</cell>
+                <cell>Chimbert</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Daigremont</cell>
+                <cell>100 "</cell>
+                <cell>Pelissier</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Gérard</cell>
+                <cell>100 "</cell>
+                <cell>Goussé</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Arnoux</cell>
+                <cell>200 "</cell>
+                <cell>Lelarge</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Bloch</cell>
+                <cell>100 "</cell>
+                <cell>Simon</cell>
+                <cell>110 "</cell>
+              </row>
+              <row>
+                <cell>Saleilles</cell>
+                <cell>175 "</cell>
+                <cell>Angot</cell>
+                <cell>200 "</cell>
+              </row>
+              <row>
+                <cell>Blanchet</cell>
+                <cell>500 "</cell>
+                <cell>Fauvergue</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Parent</cell>
+                <cell>200 "</cell>
+                <cell/>
+                <cell/>
+              </row>
+            </table>
+            <p>Merci à ces Camarades.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">PETITES ANNONCES</head>
+            <p>Désirerais me rendre acquéreur d'un accoupleur, état neuf ou d'occasion, avec ou sans
+              vélos. S'adresser directement à Adrien Bayol, au Pas par Druelle (Aveyron). Cherche en
+              location petite maison à la campagne avec jardin, minimum 3 pièces, avec électricité,
+              eau dans la maison ou à proximité. N'importe quelle région sauf Nord et Est. Faire
+              propositions au Camarade Deprun, 26, rue de Strasbourg, à Rosny-sous-Bois (Seine).
+              Notre Camarade C. Delanerie recommande chaleureusement Madame Blanquier, 37, rue
+              Bassano, Paris ( 8<hi rend="superscript">°</hi> ), comme dame de compagnie-secrétaire.
+              Prendrais toute l'année en pension, aveugle de guerre, 300 frs par jour, dans
+              propriété Cote-d'Or, S'adresser à Madame G. Edouard, PulignyMontrachet (Cote-d'Or).
+              Prendrais en pension, aveugle, bonne nourriture et chauffage assurés. Ecrire Madame
+              Bousteau, à Sepeaux (Yonne). Famille habitant la Suisse Normande prendrait en pension
+              un aveugle de guerre désireux de passer un mois à la campagne. Bonne nourriture
+              assurée. Ecrire à M. Champs, La Vallée-de-Croisilles par Thury-Harcourt (Calvados).
+              Prendrais en pension aveugle de guerre dans maison confortable à la campagne. Ecrire à
+              Madame veuve Fréminet, Puligny-Montrachet (Coted'Or).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">COTISATIONS</head>
+            <p>LAPOULE, VIGUIER, SIMON, BOUDAULT, RAFFAT, AUBERT, JAMET, BOMPUIS, DELAUNAY,
+              VERDELET, COURTEMANCHE, LE BLANC, HEUZE, TREMEGE, FRAYSSE, DAIGREMONT, BAILLY,
+              LOISEAU, ARNOUX, CADOT, PAPADOPULO, VIOLET, SCHOETTEL, BLOCH, BURON, SALEILLES,
+              BLANCHET, LEVEAU, CAUDRON, CHAMPAGNON, PHILIPPE, GAUTHIER, SAMUEL, VANLEGGENE, SARIN,
+              MARTIN, GUILLOUCHE, VIALATTE, RIOU, DUPUY, MONNERET, CHAMPONNIER, MOREAU, NAST,
+              ARHURO, MARTIN, SENDRAL, ABDELKADER, PHENIX, MABON, BERTRAND, TAHALLAIT, LABORIE,
+              TURRAT, DELHOMME, GAUTIER A., LADREY, PERNOD, GAUTIER R., BIGNON, POUGEADE, MONTEMONT,
+              ROYERVAL, GOHIEC, LUCAS, PINAQUY, ALIX, CHAPOUILLEE, PATISSON, BOULERT, BOULESTEIX,
+              CLUZELOU, COLIN, ARNAUD, BENOIT, ANQUETIL, REMIA, BRAUN, BARRAT, MARIGNIER, BRINON,
+              CULLET, HATET, BONAMY, DURAND Ph., PODEVIN, LELARGE, DEMALAINE, VACHON, DE DIEGO,
+              ARDHUIN, MARTIN, MASSE, DECLERE, MORIZET, COUPEZ, TERNISIEN, ROST, JEANNIN,
+              DEGUERVILLE, WARIN, PLATEAU, HOUPERT, DUFLOT, BLANPAIN, CHANUT, LEVASSEUR, ROHART,
+              BASTION, BOUILLARD, CHANTECLAIR, MOLINIE, ALBERT, BOUVAL, JULIO, GARNIER, VASSEUR,
+              BELLEC, ROGET, PORTEBOIS, LABBE, GOUNY, FERET, ROYNEAU, ESTORGES, CORBEL, MARTIN,
+              CHEREC, NOIRJEAN, PILLON, FRAISSE, LE HETET, TISSIER, LEVY, CHARLES, PERRIN,
+              BARTHELEMY, ANSON, NOTELET, BUCKEL, NICOLE, GUIDER, BOUCHEPILLON, SENECHAL, KHIDAS,
+              PAILLISSE, DEPEIGE, <pb n="15"/>
+              <note type="foliation">— 15 —</note> PETIT, COURTY, BOITEL, FAGNON, PONS, SOQUET,
+              LATOUCHE, GOURIOU, LAMBERT, DAURIOS, TRAMOY, LEONETOUT, FELIX M., PELERIN, RODET,
+              LANCIAUX, GRATTEPAIN, VERNHES, LEUZY, FAUVERGUE.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">RACHATS DE COTISATIONS</head>
+            <list>
+              <item>Carrier ..... 500 »</item>
+              <item>Cornu ..... 500 »</item>
+              <item>Ray ..... 500 »</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23"> COTISATIONS VOLONTAIRES
+              1947</head>
+            <p>Nous rappelons à nos Camarades qu'il n'est pas envoyé de quittance pour les
+              cotisations, les noms des cotisants étant publiés au Bulletin au fur et à mesure des
+              versements.</p>
+            <table>
+              <row>
+                <cell>Hereng</cell>
+                <cell>100 "</cell>
+                <cell>Constantin</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Viguier</cell>
+                <cell>50 "</cell>
+                <cell>Lelarge</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Papadopulo</cell>
+                <cell>50 "</cell>
+                <cell>Lançon</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Riou</cell>
+                <cell>25 "</cell>
+                <cell>Vachon</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Dupuy</cell>
+                <cell>50 "</cell>
+                <cell>Morizet</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Berain</cell>
+                <cell>100 "</cell>
+                <cell>Coupez</cell>
+                <cell>100 "</cell>
+              </row>
+              <row>
+                <cell>Debooserie</cell>
+                <cell>50 "</cell>
+                <cell>Blanpain</cell>
+                <cell>200 "</cell>
+              </row>
+              <row>
+                <cell>Pougeade</cell>
+                <cell>50 "</cell>
+                <cell>Pillon</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Boucq</cell>
+                <cell>10 "</cell>
+                <cell>Fraisse</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Vial</cell>
+                <cell>50 "</cell>
+                <cell>Nicolle</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Boitel</cell>
+                <cell>50 "</cell>
+                <cell>Anson</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Patisson</cell>
+                <cell>50 "</cell>
+                <cell>Guider</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Chaplain</cell>
+                <cell>75 "</cell>
+                <cell>Guyot</cell>
+                <cell>50 "</cell>
+              </row>
+              <row>
+                <cell>Colin</cell>
+                <cell>100 "</cell>
+                <cell>Lambert</cell>
+                <cell>125 "</cell>
+              </row>
+              <row>
+                <cell>Braun</cell>
+                <cell>50 "</cell>
+                <cell>Daurios</cell>
+                <cell>150 "</cell>
+              </row>
+              <row>
+                <cell>Barrat</cell>
+                <cell>50 "</cell>
+                <cell>Leuzy</cell>
+                <cell>50 "</cell>
+              </row>
+            </table>
+            <p>Nous adressons nos sincères remerclements à nos Camarades qui ont tenu à effectuer un
+              nouveau versement.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">SOUSCRIPTION POUR LE TOMBEAU DU
+              GENERAL GOURAUD</head>
+            <list>
+              <item>Total des sommes précédemment reçues — 11.200 "</item>
+              <item>Briez — 100 "</item>
+              <item>Bompuis — 100 "</item>
+              <item>Daigremont — 100 "</item>
+              <item>Cousenon — 50 "</item>
+              <item>Gohiec — 50 "</item>
+              <item>Marignier — 50 "</item>
+              <item>Podevin — 50 "</item>
+              <item>Duflot — 50 "</item>
+              <item>Simon — 100 "</item>
+              <item>Estorges — 50 "</item>
+              <item>Leuzy — 50 "</item>
+              <item>Total . . . . . . . 11.950 "</item>
+            </list>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">NAISSANCES</head>
+            <p>Le fils Bagdade de notre Camarade Khadraoui, de Lourmel (Algérie), le 5 novembre
+              1947. La petite-fille Claire-Marie de notre Camarade Garceau, de Nevers (Nièvre), le
+              31 octobre 1947. Le petit-fils Jean de notre Camarade Mattei, de Bourg-la-Reine
+              (Seine), le 13 octobre 1947. La petite-fille Marie-Françoise de notre Camarade Rouge,
+              de Saint-Etienne (Loire), le 5 octobre 1947.</p>
+            <p>Nous adressons nos félicitations aux heureux parents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">MARIAGES</head>
+            <p>Notre Camarade Lucien Meyer (39-45), de Balbronn (Bas-Rhin), avec Mlle Marie Grauss,
+              le 20 septembre 1947. Notre Camarade Guy Hoffmann (39-45), de Paris, avec Mlle G.
+              Roland, le 10 novembre 1947. Le fils Xavier de notre Camarade François Rineau, de
+              Gétigné (LoireInférieure), avec Mlle Louisette Bauduy, le 22 octobre 1947. Le fils
+              Albert de notre Camarade Bayol, avec la fille de notre Camarade Reynes, le 4 septembre
+              1947. Le fils Marc de notre Camarade Louis Renaux, de Paris (Secrétaire Général de
+              l'Association Valentin Hauy), avec Mlle Françoise Hollande, le 5 novembre 1947.</p>
+            <p>Nous adressons nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">DECES</head>
+            <p>Louis Delorme, de Fleury-la-Montagne (Saône-et-Loire), le 22 octobre 1947. Camille
+              Mangin, de Lunéville (Meurthe-et-Moselle), le 18 juillet 1947. Pierre Poezevers, de
+              Vernon (Eure), le 12 novembre 1947. Louis Boulanger, d'Abbeville (Somme), le 5
+              novembre 1947. La femme de notre Camarade François Cagneul, de Saint-Aubin-du-Cormjer
+              (Ille-et-Vilaine), le 8 octobre 1947. La femme de notre Camarade G. Gillot, de Onnaing
+              (Nord), le 17 octobre 1947.</p>
+            <p>La mère de notre Camarade Hebréard, de Nice (Alpes-Maritimes), le 12 octobre 1947. Le
+              père de notre Camarade Pierre Bodin, de Blois (Loir-et-Cher), le 19 octobre 1947.</p>
+            <p>Nous adressons aux familles éprouvées nos plus vives condoléances.</p>
+            <pb n="17"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">Comité dAction</head>
+            <p>Présidents : MM. Jérôme et Jean THARAUD, de l'Académie Française. Vice-Président :
+                M<hi rend="superscript">e</hi> MASSON. Vice-Présidentes : Mme CONTAMIN, Mme du BOS.
+              Vice-Présidente Honoraite : Mlle ARBEL. Trésorier Honoraite : M. MAYER. Membres : M.
+              AGASSE, M. AUTERBE, M<hi rend="superscript">e</hi> BRULLIARD, M. de CHAUMONT-QUITRY,
+              M. COLLIER, M. le Docteur COUTELA, Mlle JALAGUIER.</p>
+            <pb n="18"/>
+          </div>
+
+          <fw>Le Gerant: L'EVESQUE. Imp. Frébinet, Paris.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

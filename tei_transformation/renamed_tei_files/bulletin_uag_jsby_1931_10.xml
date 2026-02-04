@@ -1,0 +1,975 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 13ème année 1931 n°9</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Association d'anciens combattants</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">Congrès</title>
+        <title type="topic">Informations aux membres</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 20 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#ciamac">C.I.A.M.A.C.</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#masseurs">Masseurs</term>
+          <term ref="#sanatorium">Sanatorium</term>
+          <term ref="#tsf">T.S.F.</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre fournit des informations détaillées
+          sur les activités de l'organisation, y compris les congrès, les informations aux membres,
+          la chronique de l'U.A.G. (caisse fraternelle, entre nous, cotisations, procès-verbaux), et
+          les notes et informations diverses (masseurs, sanatorium, la Familiale des Soldats
+          Aveugles, remerciements, T.S.F., délégations). Il inclut également des informations sur
+          les naissances, mariages et décès parmi les membres et leurs familles. Le bulletin
+          contient des procès-verbaux des réunions du conseil d'administration et des assemblées
+          générales des sections départementales.</p>
+      </abstract>
+      <creation>
+        <date when="1931-10-01">01/10/1931</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">LE 7 CONGRÈS DE LA "C.I.A.M.A.C."</ref>
+          </item>
+          <item>
+            <ref target="#h8">A SAINTE-MAXIME</ref>
+          </item>
+          <item>
+            <ref target="#h9">Echos de Franceville</ref>
+          </item>
+          <item>
+            <ref target="#h10">Lettre de Lolotte à son petit ami Totor resté pour cause à Paris
+              cette année</ref>
+          </item>
+          <item>
+            <ref target="#h11">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h12">Aux Masseurs</ref>
+              </item>
+              <item>
+                <ref target="#h13">Sanatorium d'"Aide et Protection"</ref>
+              </item>
+              <item>
+                <ref target="#h14">La Familiale des Soldats Aveugles</ref>
+              </item>
+              <item>
+                <ref target="#h15">Aux Camarades de la Région d'Alger</ref>
+              </item>
+              <item>
+                <ref target="#h16">Remerciements</ref>
+              </item>
+              <item>
+                <ref target="#h17">T. S. F.</ref>
+              </item>
+              <item>
+                <ref target="#h18">Nos Délégations</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h19">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h20">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h21">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h22">MAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h23">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h25">COTISATIONS POUR L'ANNÉE 1931</ref>
+              </item>
+              <item>
+                <ref target="#h26">Procrès-verbal de la séance du Conseil d'Administration du 27
+                  Juin 1931</ref>
+              </item>
+              <item>
+                <ref target="#h27">Proces-verbal de l'assemblée générale de la Section
+                  Départementale du Finistère, le 9 Juillet 1931</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">RAPPORT MORAL</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h29">Aux Camarades du Groupement Régional de Limoges</ref>
+              </item>
+              <item>
+                <ref target="#h30">Proces-verbal de la réunion du Comilé de la Régionale du Nord du
+                  13 Seplembre 1931</ref>
+              </item>
+              <item>
+                <ref target="#h31">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h32">Liste des Donateurs</ref>
+              </item>
+              <item>
+                <ref target="#h33">Dons avec affectation spéciale pour la création de la "Maison des
+                  Aveugles de Guerre"</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h34">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h35">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h36">COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">13e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">Octobre 1931</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le 7<hi rend="superscript">e</hi> Congrès de la "C. I. A. M. A.
+                      C.".</item>
+                    <item>A Sainte-Maxime.</item>
+                    <item>Échos de Franceville.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Aux Masseurs.</item>
+                    <item>Sanatorium d' "Aide et Protection".</item>
+                    <item>La Familiale des Soldats Aveugles.</item>
+                    <item>Aux Camarades de la Région d'Alger.</item>
+                    <item>Remerciements.</item>
+                    <item>T. S. F.</item>
+                    <item>Nos Délégations.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Cotisations.</item>
+                    <item>Procès-verbal de la séance du Conseil d'Administration du 27 juin
+                      1931.</item>
+                    <item>Procès-verbal de l'assemblée générale de la Section Départementale du
+                      Finistère du 9 juillet 1931.</item>
+                    <item>Aux Camarades du Groupement Régional de Limoges.</item>
+                    <item>Procès-verbal de la réunion du Comité de la Régionale du Nord du 13
+                      septembre 1931.</item>
+                    <item>Avis divers.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou, Ministre de la Justice; M. le colonel Fabry, ancien ministre des
+              Colonies; M. Brieux, de l'Académie Française, président honoraire; M. le général
+              Balfourier; M. Brisac, préfet; M. J. Ridgely Carter; M. Paul de Cassagnac, ancien
+              député; M. Maurice Donnay, de l'Académie Française; M. Duco, médecin-inspecteur; M.
+              Fribourg, député; Miss Alice Getty; M. Justin Godart, ancien ministre; Miss Grace
+              Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol, sénateur: Mme la
+              maréchale Mausoury; M. Samuel Milbank; M. le docteur Morax; M. Meyer, conseiller
+              d'Etat; M. Henry Paté, député; M. Pierre Rambil, député; Me Henri-Robert, de
+              l'Académie Française, ancien bâtonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; M. Vallery-Radot; M. Constant Verlot, député; M. le professeur
+              Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LE 7 CONGRÈS DE LA
+              "C.I.A.M.A.C."</head>
+            <p>Au cours de la 7<hi rend="superscript">e</hi> assemblée de la "C.I.A.M.A.C. " qui
+              s'est tenue à Prague les 31 juillet, 1<hi rend="superscript">er</hi> et 2 août, la
+              section des Aveugles de Guerre a adopté la résolution suivante que nous portons à la
+              connaissance de nos camarades : "La Conférence annuelle de la "CIAMAC " a adopté, au
+              cours de ses sessions précédentes, des résolutions affirmant qu'une réparation du
+              préjudice économique et une compensation du dommage physique subis par les Aveugles de
+              guerre s'imposent tout particulièrement et que ces deux conditions ne peuvent être
+              remplies que par l'attribution d'indemnités suffisantes, par une organisation
+              rationnelle des possibilités d'emploi et par l'admission au bénéfice des mesures
+              spéciales propres à atténuer les conséquences de la cécité.</p>
+            <p>Reconnaissant à nouveau la nĕcessité de réserver aux Aveugles un traitement
+              particulier, la Conférence confirme les principes énoncés à ce sujet dans la
+              résolution adoptée par la VII<hi rend="superscript">e</hi> Conférence annuelle.</p>
+            <p>Elle regrette de devoir constater que les revendications justifiées des Aveugles de
+              guerre n'ont pas encore été réalisées dans leur ensemble et que divers Etats ont même
+              diminué, ces derniers temps, les mesures de protection et de prévoyance qu'ils avaient
+              prises en faveur des Aveugles de guerre.</p>
+            <p>La Conférence proteste contre le fait que divers Etats ont cherché à compenser les
+              difficultés financières causées par la crise économique mondiale en diminuant les
+              pensions accordées aux victimes de la guerre. En raison de leur diminution de leur
+              force de résistance, les grands blessés et en tout premier lieu les Aveugles de guerre
+              souffrent d'une façon toute particulière des conséquences de la crise économique
+              mondiale, de sorte qu'il serait nécessaire d'augmenter la protection qui leur est
+              accordée.</p>
+            <p>La Conférence adresse un appel à tous les gouvernements pour abolir les réductions de
+              pensions d'allocations, auxquelles ils avaient <pb n="4"/>
+              <note type="foliation">— 2 —</note> eu recours, elle demande que les revendications
+              des Aveugles de guerre qui n'auraient pas encore reçu satisfaction, soient réalisées
+              dans leur ensemble.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">A SAINTE-MAXIME</head>
+            <p>Par un soir de cet été pluvieux que nous venons de subir, le train nous avait emporté
+              vers le Midi, vers ce pays où, disait-on, le soleil n'avait cessé de briller, ce que
+              nous avions peine à croire tant étaient froides et humides toutes les choses. Au
+              départ, la pluie fouettait les glaces de notre compartiment et, après quelques
+              cigarettes fumées dans le couloir, mon ami et moi, nous sommes installés sans entrain
+              pour essayer de dormir.</p>
+            <p>Cependant, au réveil, nous nous retrouvons dans une autre atmosphère, je sens un
+              chaud rayon de soleil m'effleurer, nous arrivons en Provence et le beau temps annoncé
+              n'est donc pas une galéjade. Il y a eu une tornade la veille sur Toulon et en
+              débarquant à Saint-Raphaël nous ressentons les derniers effets d'un mistral qui va
+              bientôt s'apaiser.</p>
+            <p>A peine arrivé à Sainte-Maxime, délicieux village niché au fond du golfe de
+              Saint-Tropez où la mer est calme comme un beau lac, j'ai déjà envie de prendre un
+              bain, rien qu'à entendre le clapotis de cette eau qui vient mourir en un léger
+              frisson. Je me rends sur la plage où je retrouve un camarade de rééducation. Il est là
+              pour un mois avec sa femme et son fils que j'avais connu haut comme une botte et qui
+              est maintenant un garçon d'une dizaine d'années, nageant, sautant dans un petit
+              bateau, profitant bien de ce séjour à Sainte-Maxime. C'est la fête du pays, beaucoup
+              d'hommes sont attablés, parlant, discutant; j'aime à écouter leur savoureux accent si
+              sonore, si plein de vie. Tout vibre dans ce pays où l'on se sent heureux de vivre,
+              même l'air qui nous entoure, même les pins sous lesquels nous venons de nous asseoir.
+              Mon jeune ami ne cesse d'admirer la profondeur du bleu de la mer; je m'associe à son
+              enthousiasme, mais à la fin cela m'agace, je voudrais, moi aussi, m'emplir les yeux de
+              ce beau ciel. Je propose alors d'aller nous baigner, et les légers vêtements d'été
+              sont rapidement abandonnés sur la place qui est proche. L'entrée dans cette eau idéale
+              de fraicheur est un délice, et ie suis mon compagnon qui, de temps en temps, m'appelle
+              pour me donner la direction. Nous nageons vers un <pb n="5"/>
+              <note type="foliation">— 3 —</note> radéau, plongeoir amarré assez avant dans la mer,
+              en face du Casino. Nous y reprenons haleine, nous abandonnant à la chaude morsure du
+              soleil brûlant notre peau nue.</p>
+            <p>Mais je veux profiter davantage encore de ce bleu intense que, tout à l'heure, je
+              croyais ne pouvoir posséder, et je plonge dans cette mer qui m'enveloppe en une large
+              caresse. J'avance vers <hi rend="superscript">°</hi> le large, je suis libre, libre
+              enfin, personne pour me donner la main, seule la voix amie qui, devant moi, me crie :
+              par ici, et je fonce vers elle, ivre de joie, jouissant pleinement de ce bain idéal
+              sous le ciel de Provence.</p>
+            <p>Henri Amblard.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Echos de Franceville</head>
+            <p>Les camarades qui ont déjà fait un séjour à Franceville savent que notre
+              établissement de vacances se compose de 4 pavillons A, B, C et D.</p>
+            <p>Les trois derniers ont été construits pour loger des ménages avec ou sans
+              enfants.</p>
+            <p>Le pavillon A avait été prévu pour les célibataires. Il comprend au rez-de-chaussée
+              le logement du gardien, la réserve du mobilier de secours et une salle commune. Au
+              premier étage, dix pièces, dont cinq donnent par une porte sur le balcon de devant et
+              cinq sur le balcon de derrière.</p>
+            <p>Nos rares camarades célibataires ne venant pas à Franceville, des portes de
+              communication ont été percées pour faire de ces dix chambres cinq logements de deux
+              pièces, chambre et cuisine, attribués en principe aux camarades mariés sans enfants.
+              Rien n'empêche cependant de mettre un lit de secours dans la cuisine, aussi les
+              candidats avec enfants. se faisant de plus en plus nombreux, il en est résulté que le
+              pavillon A, toujours appelé par tradition pavillon des célibataires, se trouve être
+              occupé dans la deuxième quinzaine d'août de cette année par cinq ménages ayant chacun
+              deux enfants, et comme le service des eaux célestes ignorait le chômage, les dix
+              gosses (des célibataires) usaient largement pour leurs jeux des deux balcons couverts,
+              tandis que les autres se morfondaient dans les appartements des trois autres
+              pavillons.</p>
+            <p>Les explications ci-dessus étaient nécessaires pour faire bien goûter <pb n="6"/>
+              <note type="foliation">— 4 —</note> aux lecteurs, qui n'ont pas encore séjourné à
+              Franceville, toute la saveur de la petite lettre suivante que nous avons interceptée,
+              grâce à un heureux hasard, au sujet duquel on nous permettra de ne pas nous
+              étendre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Lettre de Lolotte à son petit ami
+              Totor resté pour cause à Paris cette année</head>
+            <p>Quel dommage que toi encore tu sois pas ici mon Totor, vu qu'on t'achète un petit
+              frère car papa, maman, moi, Dédé, v'là qu'on est au pavillon des célibataires. Tu sais
+              qu'on donne ce nom-là aux messieurs du pavillon A et que c'est un grade militaire.
+              Quel bonheur, mon Totor aimé, que petit père il soit nommé célibataire. Dans les
+              pavillons B, C, D, les mères vous font tous rentrer quand il pleût. C'est bien de la
+              misère. Comme on les lorgnait, l'année dernière, les deux beaux balcons couverts des
+              célibataires! Les dix gosses qui sont avec moi, on est là comme de vrais rois. Aussi
+              bien devant que derrière, la pluie, le vent, qu'est-ce que cela fait. Ils sont à nous
+              les balcons des célibataires. On joue à papa et maman; mon mari, c'est un adjudant et
+              c'est moi qu'est la cantinière. Mémaine qui a deux poupées, son homme, on peut bien
+              l'appeler célibataire, car pour qu'un papa ait ce droit, d'après une nouvelle loi,
+              suffit pas qu'ils aient fait la guerre.</p>
+            <p>Faut avoir au moins deux bébés pour être admis dans l'ordre des célibataires. Sûr que
+              tu dois être content, puisqu'à ce que m'a dit maman, tu l'as maintenant ton p'tit
+              frère. Y a chance qu'à l'autre été, ton père aussi f'ra partie des célibataires.</p>
+            <p>Ta Lolotte qui te bise bien fort et qui t'aim'ra jusqu'à la mort. P.-S. - Quand nous
+              aurons vu M. le Maire, faut q'nous ayons deux bébés pour qu'un jour tu sois décoré "
+              célibataire ". P. C. C. Albert Masselier. N.-B. - Nous nous en voudrions de ne pas
+              révéler notre remarque qu'on peut chanter cette lettre sur l'air de la "Lettre d'un
+              gabier " de Théodore Botrel.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">Aux Masseurs</head>
+              <p>Nous recevons de notre camarade Petitjean la lettre suivante, qu'il nous demande
+                d'insérer : " Mon cher camarade, " Je viens faire appel à votre obligeance pour vous
+                demander d'insérer dans le plus prochain bulletin la note suivante relative aux
+                Ayeugles de guerre, masseurs dans les hôpitaux militaires : "En 1926, quelques
+                Aveugles de guerre, masseurs dans les hôpitaux militaires, m'ont fait part de leur
+                situation et de leurs désirs. Ces camarades employés dans les services civils de la
+                guerre sont tous détenteurs du diplôme d'Etat d'infirmier-masseur et malgré ce
+                titre, les services administratifs qui régissent leurs fonctions les ont classé dans
+                le groupe 4 (catégorie des chauffeurs, matelassiers, etc.). C'était, de l'avis des
+                intéressés, un préjudice moral, autant que matériel, que de ne pas considérer leur
+                valeur professionnelle et leur titre et il était tout naturel qu'ayant la
+                possibilité d'intervenir en leur faveur, je n'entreprenne pas des démarches auprès
+                des services compétents, pour que satisfaction soit donnée à cette catégorie de
+                camarades ayant refait leur vie dans d'aussi louables conditions. Je ne veux pas
+                donner plus d'importance qu'il n'en faut, mais il a fallu une certaine témérité et
+                de nombreuses démarches ou interventions pour obtenir satisfaction. " Je viens de
+                recevoir une lettre du ministre de la Guerre, dont je suis heureux de communiquer le
+                contenu aux intéressés par la voie de notre Bulletin : " Vous avez signalé à mon
+                attention la situation des Aveugles de " guerre employés en qualité de masseurs dans
+                les hôpitaux militaires " relativement à leur classement dans le bordereau des
+                salaires. " J'ai l'honneur de vous faire connaître qu'après un examen bien" veillant
+                de la situation digne d'intérêt du personnel en cause, des <pb n="8"/>
+                <note type="foliation">— 6 —</note> " instructions ont été données pour que les
+                ouvriers masseurs, actuel" lement en fonctions dans les établissements du service de
+                santé, soient " classés au groupe A2. "Veuillez agréer, Monsieur, l'assurance de ma
+                considération distinguée ". "Signé : Illisible." P. S. - Je viens d'avoir
+                connaissance de la circulaire adressée par le ministre de la Guerre aux
+                établissements hospitaliers militaires et il résulte que le reclassement est fixé à
+                partir du 1<hi rend="superscript">er</hi> avril dernier.</p>
+              <p>Veuillez croire, mon cher camarade, à l'expression de mes sentiments amicalement
+                dévoués. G. Petitjean.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Sanatorium d'"Aide et
+                Protection"</head>
+              <p>L'Association " Aide et Protection " nous informe qu'elle vient de créer un
+                sanatorium à Neufmoutiers-en-Brie, par Tournan (Seine-et-Marne).</p>
+              <p>Cet établissement, situé à 40 kilomètres de Paris, et placé au milieu d'un superbe
+                parc de 35 hectares, reçoit dès maintenant et dans d'excellentes conditions les
+                camarades atteints de tuberculose.</p>
+              <p>Le prix de la pension est de 27 francs par jour, nourriture, soins médicaux et
+                blanchissage compris. "Aide et Protection " met cet établissement à la disposition
+                de nos camarades et est heureuse de pouvoir nous être utile en la circonstance.</p>
+              <p>Les demandes d'admission doivent être adressées au siège social, 23, rue Tiphaine,
+                à Paris ( 15<hi rend="superscript">°</hi> ).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">La Familiale des Soldats
+                Aveugles</head>
+              <p>Le Conseil d'administration de la "Familiale des Soldats Aveugles " informe les
+                camarades que les réunions de la saison 19311932 auront lieu aux dates indiquées
+                ci-après dans le local de la Société de Photographie, 51, rue de Clichy.</p>
+              <p>En 1931. Les dimanches 8 novembre et 6 décembre.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>En 1932. Les dimanches 3 janvier, 7 février, 6 mars, 3 avril, 1<hi
+                  rend="superscript">er</hi> mai et 5 juin.</p>
+              <p>Les réunions auront lieu, comme d'habitude, de 14 h .30 à 18 h .30 et comprendront
+                : concert, goûter et sauterie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Aux Camarades de la Région
+                d'Alger</head>
+              <p>Notre camarade Mariani, villa Marguerite, boulevard de l'Orangerie, Alger, nous
+                demande de prier les Aveugles de guerre de sa région, désireux de posséder une canne
+                blanche, de lui adresser leur demande en y joignant une copie de leur livret de
+                pension. M. Mariani a été élu président du Comité Départemental d'Alger pour la
+                répartition de la canne blanche.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Remerciements</head>
+              <p>Nous sommes heureux d'informer nos camarades que la maison L. H. Théodet, 110, rue
+                Saint-Honoré, Paris, a gracieusement offert, par l'entremise de notre Comité
+                d'action, une nouvelle installation de téléphone intérieur des bureaux de notre
+                Association.</p>
+              <p>Nous adressons nos plus vifs remerciements à M. Théodet, ancien combattant, d'avoir
+                bien voulu ainsi témoigner sa sympathie à l'U.A.G.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">T. S. F.</head>
+              <p>Notre camarade Guilboi nous demande d'insérer la note suivante : " Construisant des
+                appareils de T.S.F. depuis bientôt dix ans et me tenant constamment au courant des
+                découvertes et des améliorations apportées dans la technique de la radio, j'ai,
+                cette année, mis au point un merveilleux appareil récepteur à cinq lampes,
+                fonctionnant totalement sur le secteur alternatif. La puissance et la sensibilité de
+                cet appareil sont remarquables et ceci sans que la pureté des réceptions en soit en
+                rien altérée. Son encombrement est minime, puisque tout le système de redressement
+                et de filtrage est monté dans le coffret même contenant les organes du poste. Son
+                réglage est fort simple et un aveugle peut faire défiler à sa guise la cinquantaine
+                de postes européens qu'il <pb n="10"/>
+                <note type="foliation">— 8 —</note> permet de recevoir, en fort diffuseur sur un
+                petit cadre qu'il n'y a pas lieu d'orienter, ce qui ne nuit en rien à la sélectivité
+                du poste qui, à Paris, peut recevoir Daventry et Koenigswurthausen sans être gêné ni
+                par la Tour ni par Radio-Paris. Son prix, pour mes camarades aveugles est modique,
+                vu tous ses avantages, puisque je leur envoie franco de port et d'emballage avec son
+                cadre et un puissant diffuseur monté avec moteur quatre pôles, marque Power Tone,
+                réglable, soit en ordre de marche pour deux mille six cents francs ( 2.600 francs).
+                Le même avec haut-parleur dynamique, puissant et sensible, pouvant diffuser les
+                réceptions en plein air ou dans une grande salle, trois mille deux cents francs (
+                3.200 francs).</p>
+              <p>Phonographes électriques et pick-up, installations de dancing, cinés, etc., etc.
+                Prix sur devis. "</p>
+              <p>Eugène Guilbot, 7, rue Théophile-Gautier, Neuilly-sur-Seine.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Nos Délégations</head>
+              <p>Le samedi 20 septembre eurent lieu en l'église de Notre-Dame les obsèques de Le
+                Brix et Mesmin. Plusieurs de nos camarades, accompagnés du drapeau de notre
+                Association, représentaient l'U. A. G. à cette cérémonie.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué entre le 1<hi rend="superscript">er</hi> et 30
+                septembre une somme de 9.215 francs, se répartissant comme suit: <list>
+                  <item>Allocations naissances 4.200</item>
+                  <item>Allocations veuves, enfants et couronnes 4.030</item>
+                  <item>Secours 985</item>
+                </list> Il y a lieu d'ajouter à ces 9.215 rancs, une somme de 31.300 fr. pour prêts
+                de maisons familiales et prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 5 demandes de secours, dont 3
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">MAISSANCES</head>
+                <p>Notre camarade et Mme Teilhet, de Saint-Bazile-de-Laroche (Corrèze), nous font
+                  part de la naissance de leur deuxième enfant, Roger, né le 20 août 1931.</p>
+                <p>Notre camarade et Mme Goulet, de la Guerche (Sarthe), nous font part de la
+                  naissance de leur fille Marcelle, née le 31 juillet 1931.</p>
+                <p>Notre camarade et Mme Bouchet (Guillaume), de Juillac (Corrèze), nous font part
+                  de la naissance de leur deuxième enfant, Yveline, née le 1<hi rend="superscript"
+                    >er</hi> août 1931.</p>
+                <p>Notre camarade et Mme Corlobe, de Kerpunce-en-Crac'h (Morbihan), nous font part
+                  de la naissance de leur troisième enfant, Joseph, né le 26 juillet 1931.</p>
+                <p>Notre camarade et Mme Granger (Jean), de Neuilly, nous font part de la naissance
+                  de leur fille, Marcelle, née le 11 septembre.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+                <p>Notre camarade et Mme Ritz, de Villebon-sur-Yvette (Seine-etOise), nous font part
+                  de la naissance de leur fils Robert, né le 13 septembre 1931.</p>
+                <p>Notre camarade et Mme Dupont, de Fontenay-en-Parisis (Seine-et-Oise), nous font
+                  part de la naissance de leur fille Paulette, née le 18 août 1931.</p>
+                <p>Notre camarade et Mme Mimoun Levy, de Tlemcen, nous font part de la naissance de
+                  leur sixième enfant, né le 23 septembre 1931.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">MARIAGES</head>
+                <p>Notre camarade Guittard, de Paris, nous fait part de son mariage avec Mlle
+                  Marguerite Andersen, célébré le 3 septembre 1931.</p>
+                <p>Notre camarade Webber, de Hazebrouck (Nord), nous fait part de son mariage avec
+                  Mme Vve Webber, célébré le 5 septembre.</p>
+                <p>Notre camarade Teissier (Emile), de Taulignan (Drôme), nous fait part de son
+                  mariage avec Mme Jeanne Emerit, célébré le 27 juin 1931.</p>
+                <p>Notre camarade Gautier (Robert), de Chartres (Eure-et-Loir), nous fait part du
+                  mariage de sa fille Simone avec M. Peutal, célébré le 7 septembre 1931.</p>
+                <p>Notre camarade Delhomme, de Poitiers (Vienne), nous fait part du mariage de sa
+                  belle-fille Jeanne Rat, avec M. Roger Trick, célébré le 17 septembre 1931.</p>
+                <p>Notre camarade Mariet, de Saint-Pol-sur-Ternoise (Pas-de-Calais), nous fait part
+                  du mariage de sa fille avec M. Deruelle, célébré le 12 septembre 1931.</p>
+                <p>Nous adressons nos sincères félicitations et nos vœux de bonheur aux jeunes
+                  époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">DÉCÈS</head>
+                <p>Nous apprenons le décès de nos camarades : Duval (Paul), né le 3 septembre 1887,
+                  à Maulevrier (Séne-Inférieure), faisait partie des équipages de la flotte.</p>
+                <p>Blessé le 22 mai 1916, à Douaumont, outre sa cécité, notre cama- <pb n="13"
+                    break="no"/>
+                  <note type="foliation">— 11 —</note> rade était amputé de l'avant-bras droit.
+                  Célibataire, membre de l'Union depuis 1920, Duval est décédé le 16 septembre 1931,
+                  à Sainte-Gertrude, par Caudebec (Seine-Inférieure).</p>
+                <p>Marcangeli (Joseph-Antoine), né le 11 février 1880, à Rezza (Corse), adjudant au
+                    23<hi rend="superscript">°</hi> colonial, fut blessé le 4 novembre 1914, à
+                  Ypres. Réformé à 200% pour blessures multiples, il était certainement parmi les
+                  plus défigurés de notre Association. Célibataire, Marcangeli était membre de
+                  l'Union depuis 1920. Il est décédé le 30 août 1931, au Val de Grâce.</p>
+                <p>Ces deux camarades étaient titulaires de la médaille militaire et chevaliers de
+                  la Légion d'honneur.</p>
+                <p>Du père de notre camarade Padois, de la Flèche (Sarthe), décédé le 29 août dans
+                  sa 68<hi rend="superscript">°</hi> année.</p>
+                <p>Du père de notre camarade Flandias, de Domaize (Puy-de-Dôme), décédé le 13
+                  septembre 1931, à l'âge de 72 ans.</p>
+                <p>De la mère de notre camarade Montaulieu, de Tarnos (Gironde), décédée le 18 août
+                  1931, à l'âge de 76 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS POUR L'ANNÉE
+                1931</head>
+              <p>Lambert (R.), Pierre (M.), Bourotte, Cadé, Cordon, Odoul, Alquier (L.), Delhez,
+                Favier, Haguerelle, Hamon, Langeard, Tavernier, Vennier, Tauzia, Pavin, Meynadie,
+                Decours, Chasselade, Aubry, Desangles, Bocquet, Talmard, Pouget, Comte, Muller
+                Bousquet Meyer, Godard, Pierre (L.), Decagny, Parisot, Cardaliaguet, Lapébie,
+                Arnaud, de Fontenilles, Chomarat, Massard, Bouet, Claudion, Duvallet, Giorgetti,
+                Conan, Audibert.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Procrès-verbal de la séance
+                du Conseil d'Administration du 27 Juin 1931</head>
+              <p>A la suite de la réunion des administrateurs et présidents des Sections, eut lieu
+                une réunion du Conseil pour l'expédition des affaires courantes.</p>
+              <p>La séance est ouverte à 16 heures, sous la présidence de Favret. Sont présents :
+                Amblard, Favret, Lauté, Leveau, L'Evesque, Scapini, Bardoux, <pb n="14"/>
+                <note type="foliation">— 12 —</note> Bloncourt, Bois, Courteix, Derunder, Fauvel,
+                Guillam, Izaac, Laffargue, Lagarde, Malgat, Muller, Robert Maurice, Petitjean, Roy
+                (G.), Satgé. M. le baron de Traversay, président du Comité d'Action. M. Bloch,
+                trésorier adjoint.</p>
+              <p>Les délégués des Sections Régionales et Départementales : Baumès (Régionale de
+                l'Est), Brusson (Bordeaux), Cagnard (SeineInférieure), Calmès (Haute-Garonne),
+                Gaetti (Alpes-Maritimes); Le Cocq (Finistère), Mulsant (Rhône), Planquette
+                (Nord).</p>
+              <p>Les camarades : Bailly, Cardot, Chaillou, Chauvel, Davin, Evrat, Hourcade,
+                Guyollot, Gudelin, Hennebicq, Mauger, Nicolaï (Pierre), Rousseau, Rochelet.</p>
+              <p>Ont donné leurs pouvoirs: Au président: Antoine, Arnault, Noireaux. A Favret:
+                Cabasson, Grillet. A Lauté : Conan. A Conan (ou en son absence, à Lauté) : Guillam.
+                  1<hi rend="superscript">°</hi> Procès-verbal de la séance du Conseil
+                d'administration du 11 avril 1931.</p>
+              <p>Adopté à l'uanimité. 2<hi rend="superscript">°</hi> Situation financière du mois de
+                mai 1931. Adoptée à l'unanimité. 3<hi rend="superscript">°</hi> Le Conseil, à
+                l'uanimité, prend la délibération suivante : " Le Conseil d'administration de
+                l'Union des Aveugles de Guerre donne pleins pouvoirs à M. Gaston L'Evesque, son
+                trésorier, ou à son défaut à M. Oscar Bloch, trésorier adjoint, à l'effet de toucher
+                le remboursement de tous titres amortis, effectuer tous emplois et remplois, soit de
+                fonds ayant nature de capitaux, soit de fonds ayant nature de revenus, donner tous
+                ordres de Bourse à cet égard, signer toutes souscriptions. »</p>
+              <p>4" Le Conseil d'administration de l'Union des Aveugles de Guerre, après avoir pris
+                connaissance des dispositions testamentaires en date des 9 juillet 1925, 21 janvier
+                1930 et 28 juillet 1930; de Mme Veuve de Rotschild, décédée le 9 avril 1931, en son
+                domicile, 42, avenue de Friedland, par lesquelles elle lègue à l'U.A.G. une somme de
+                20.000 francs, accepte à l'unanimité ces dispositions testamentaires et donne tous
+                pouvoirs au trésorier de ladite Société pour encaisser ce legs en son nom, prendre
+                tous engagements et faire le nécessaire.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+              <p>Le secrétaire général donne connaissance au Conseil d'une lettre de la Société des
+                Amis des Soldats Aveugles, qui a été avisée par M<hi rend="superscript">e</hi>
+                Benoist, notaire honoraire à Paris, légataire universel et exécuteur testamentaire
+                de M. Darracq (Pierre, Alexandre), officier de la Légion d'honneur, en son vivant
+                ancien industriel, domicilié à Monte-Carlo, où il est décédé, le 11 février 1931,
+                faisant savoir que ledit M. Darracq, dans son testament olographe, en date du 10
+                octobre 1928, et dénosé au rang des minutes de M<hi rend="superscript">e</hi> Eymin,
+                notaire à Monaco, le 27 février 1931, a pris notamment la disposition suivante : "
+                Je lègue à la Société des Soldats Aveugles de la Guerre, la somme de cinquante mille
+                francs en espèces. "</p>
+              <p>Ce testament stipule que tous les legs seront délivrés francs et quittes de tous
+                frais et droits.</p>
+              <p>En conséquence, le Conseil, considérant que l'U. A. G. est fondée à se prétendre
+                bénéficiaire de ce legs, autorise, sous réserve de l'approbation administrative à
+                obtenir, l'aceptation du legs particulier fait par ledit M. Darracq dans les termes
+                sus-rappelés.</p>
+              <p>Il donne tous pouvoirs à M. Gaston L'Evesque, trésorier de l'Union des Aveugles de
+                Guerre à l'effet de déposer toutes demandes nécessaires, soit au nom de l'Union des
+                Aveugles de Guerre seule, soit conjoiniement avec l'Association Les Amis des Soldats
+                Aveugles, dans les proportic as et sous les conditions qu'ils aviseront.</p>
+              <p>Il accepte à l'unanimité ces dispositions testamentaires et donne tous pouvoirs à
+                son trésorier pour encaisser ce legs en son nom, prendre tous engagements et faire
+                le nécessaire.</p>
+              <p>Lecture est donnée d'une lettre du directeur de la Société des Amis des Soldats
+                Aveugles demandant de porter à la connaissance du Conseil d'administration de
+                l'U.A.G. la décision prise par eux de rayer de leurs listes plusieurs Aveugles de
+                Guerre n'ayant pas remboursé à la Société des Amis des prêts à eux consentis.</p>
+              <p>Cette lettre, lue en séance du Conseil, devant nécessairement être publiée au
+                compte rendu sténographique, Bloncourt demande que les noms des Aveugles de Guerre
+                désignés ne soient pas publiés et que seules les initiales soient mentionnées. Le
+                Conseil n'est pas de cet avis et se prononce pour la publication des noms dans le
+                compte rendu sténographique. Ont voté contre: Bloncourt et Petitjean.</p>
+              <p>Favret fait part au Conseil de l'invitation de la C.I.A.M.A.C. à participer à son
+                Congrès de 1931, qui se tiendra à Prague, les 31 juillet, 1<hi rend="superscript"
+                  >er</hi>, 2 et 3 août. Le Conseil n'est pas d'avis d'envoyer un <pb n="16"/>
+                <note type="foliation">— 14 —</note> délégué à Prague, à l'exception de Bloncourt,
+                Bois, Fauvel et Petitjean.</p>
+              <p>Le Conseil prononce la réintégration du camarade Redonnet (J.-M.), qui n'avait pas
+                donné signe de vie depuis 1924 et qui demande à être admis à nouveau à l'U.A.G.</p>
+              <p>Lecture est donnée des demandes d'adhésion de : Boyer (Edmond), 41, rue Hoche,
+                Montreuil-sous-Bois (Seine), 100%, article 10 , titre définitif. Carte du
+                Combattant.</p>
+              <p>Renard (Emile, Albert), Colombes (Seine), 100%, article 10, titre définitif. Carte
+                du Combattant. (Etait antérieurement possesseur d'un titre provisoire et avait été
+                admis membre temporaire de l'U.A.G.)</p>
+              <p>Labatut (Marcelin, Célestin), 35, rue Victor-Hugo, Pamiers, 170%, articles 10 et 12
+                . Victime civile.</p>
+              <p>A l'unanimité, le Conseil vote l'admission de Boyer et Renard en qualité de membres
+                titulaires et de Labatut en qualité de victime civile.</p>
+              <p>Le Conseil, à l'unanimité, accorde l'allocation de 300 francs à un camarade,
+                victime civile, à l'occasion de la naissance d'un enfant.</p>
+              <p>Le secrétaire général expose brièvement notre situation à la Confédération
+                Nationale. Plusieurs camarades prennent la parole à ce sujet, mais l'heure étant
+                avancée, la discussion de la question est remise à un Conseil prochain.</p>
+              <p>La séance est levée à dix-huit heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Proces-verbal de l'assemblée
+                générale de la Section Départementale du Finistère, le 9 Juillet 1931</head>
+              <p>Sont présents : Le Cocq, Déniel, Le Lann, Kernéis, Férézou, Barbier, Masson,
+                Kerrien, Bouguen, Jung, Coat, Le Borgne (L.), Quéré, Prigent, Verdelet, Stéphan,
+                Bénéat, Sibiril, et Kaigre, trésorier.</p>
+              <p>Excusés : Daniellou, Lavolé, Le Borgne (J.), Garrec, Kergangal. Pouvoirs à Le Cocq:
+                Kérangal. Pouvoirs à Sibiril : Daniellou, Garrec, Lavolé, Le Borgne (J.). Le Cocq,
+                président, ouvre la séance à 10 h. 30. Il dit le plaisir qu'il a tous les ans de
+                trouver les camarades nombreux à notre assem- <pb n="17" break="no"/>
+                <note type="foliation">— 15 —</note> blée départementale; puis il adresse ses
+                souhaits de bienvenue au camarade Verdelet, des Côtes-du-Nord, qui assiste, pour la
+                première fois, à notre assemblée et qui demande à faire partie de notre Section.</p>
+              <p>L'assmblée est favorable à l'admission de Verdelet; mais Verdelet devra faire sa
+                demande à l'U.A.G. avant d'être admis définitivement.</p>
+              <p>Le président porte à la connaissance de l'assemblée le deuil qui a frappé notre
+                Section, depuis notre assemblée dernière, par le décès de deux de nos camarades.</p>
+              <p>Le président donne la parole au secrétaire pour la lecture du rapport moral qui est
+                adopté à l'unanimité.</p>
+              <p>Puis, au trésorier, pour le compte rendu financier, qui est adopté à
+                l'unanimité.</p>
+              <p>Lecture est faite ensuite du nouveau règlement intérieur des groupements régionaux
+                et sections départementales.</p>
+              <p>Le président donne des explications sur ce nouveau règlement intérieur des
+                groupements régionaux et sections départementales, à l'élaboration duquel il a
+                assisté à l'U.A.G., le 27 juin, à la réunion du Conseil des présidents des
+                Groupements Régionaux et Départementaux.</p>
+              <p>L'assemblée approuve l'ensemble du nouveau règlement. Puis l'ordre du jour appelle
+                l'élection du Conseil d'administration.</p>
+              <p>Sont élus: Le Cocq, Bénéat, Stéphan, Verdelet, Sibiril et Kaigre, trésorier.</p>
+              <p>L'assemblée charge le Bureau de chercher un commissaire aux comptes, car, depuis le
+                décès du commandant Mongin, il n'a pas été pourvu à son remplacement.</p>
+              <p>L'ordre du jour arrivant ensuite aux vœux, l'assemblée fait confiance au C.A. de
+                l'U.A.G. pour faire aboutir les vœux déjà émis et inscrits à son cahier de
+                revendications.</p>
+              <p>Lecture est donnée d'un télégramme d'Amblard, secrétaire général de l'U.A.G.,
+                regrettant de ne pouvoir assister à notre assemblée.</p>
+              <p>En fin de séance, le Conseil nomme son Bureau, qui se compose comme les années
+                précédentes.</p>
+              <p>Président, Le Cocq; secrétaire, Sibiril; trésorier, Kaigre. L'on se trouve, de
+                nouveau, réunis à midi à l'Hôtel de Bretagne. Le menu est excellent. Au cours du
+                repas, lecture est donnée d'un télégramme de Kromer.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Puis, au café, les chanteurs et monologuistes se font entendre. Après le repas,
+                l'on danse jusqu'à l'heure des trains ramenant chacun chez soi, et l'on se donne
+                rendez-vous à l'année prochaine.</p>
+
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">RAPPORT MORAL</head>
+                <p>Comme les années précédentes, notre section collabora avec les autres
+                  Associations de victimes de la guerre et anciens combattants à l'organisation de
+                  la fête du 11 novembre.</p>
+                <p>Les membres habitant Brest prirent part au cortège et le président déposa une
+                  gerbe au monument des morts pour la patrie.</p>
+                <p>Invité par la municipalité de Saint-Marc à l'inauguration du monument aux morts
+                  de la commune, qui avait lieu l'après-midi du 11 novembre, le Bureau représenta la
+                  Section.</p>
+                <p>Nos relations avec les autres Associations d'anciens combattants sont des plus
+                  cordiales.</p>
+                <p>Invités par l'U.N.C. à ses Congrès départementaux, Le Cocq représenta la Section
+                  au Congrès de Plabennec et Sibiril au Congrès de Châteaulin.</p>
+                <p>Kromer fut délégué à l'asemblée générale de l'U.A.G. Le Cocq représenta la
+                  Section à la réunion du C.A. de l'U.A.G., le 27 juin, réunion à laquelle étaient
+                  convoqués les présidents des Groupements Régionaux et Sections Départementales
+                  pour l'élaboration d'un nouveau règlement intérieur.</p>
+                <p>En janvier, sur l'initiative de la Départementale de la Seine-Inférieure et après
+                  un avis favorable de l'U.A.G., nous avons écrit à tous les parlementaires du
+                  département pour leur demander d'appuyer de leur vote le projet de loi accordant
+                  la reversion aux veuves de nos camarades mariés après 1921.</p>
+                <p>Dix députés et un sénateur nous promirent leurs concours pour faire aboutir notre
+                  revendication.</p>
+                <p>Les correspondances entre les membres de la Section et le Bureau ont été peu
+                  nombreuses.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Aux Camarades du Groupement
+                Régional de Limoges</head>
+              <p>Notre réunion annuelle du mois d'octobre est reportée aux deux mois qui précéderont
+                l'assemblée générale, ceci conformément au nouveau projet de règlement sur les
+                Groupements Régionaux ou Départementaux.</p>
+              <p>Le Président: LaGARDE.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">Proces-verbal de la réunion
+                du Comilé de la Régionale du Nord du 13 Seplembre 1931</head>
+              <p>Après avoir entendu la messe solennelle, dite à l'intention des membres du
+                Groupement décédés depuis sa fondation, les camarades Planquette, Boé, Delaplace,
+                Weber, Lequenne, Charles (Henri), Guermonprez, Théret, Cysseau, Vandersirenen,
+                Vanluggène, Beykart et Piatt, trésorier, se sont rendus à la Mairie de Cassel, où
+                ils furent reçus par M. Masselis, maire, entouré des membres du Conseil municipal,
+                auxquels s'étaient joints MM. Tack, président des Amis de Cassel, et Descamps,
+                secrétaire de la Fédération des Mutilés de Cassel. Après avoir entendu l'allocution
+                prononcée par M. le Maire et les souhaits de bienvenue de M. Tack, Planquette les
+                remercie de l'accueil chaleureux dont ses camarades et lui ont été l'objet. Le
+                groupe se rendit alors au monument des enfants de Cassel morts pour la France et à
+                la statue du maréchal Foch, où une gerbe de fleurs fut déposée.</p>
+              <p>A la suite de ces différentes cérémonies, les camarades se rendirent dans une salle
+                de la mairie mise obligeamment à leur disposition par l'administration municipale et
+                où eut lieu la réunion de Commission, sous la présidence de Planqueite. Etaient
+                présents, tous les camarades susnommés. S'étaient excusés: Bridoux, Dertader.</p>
+              <p>S'adressant à ses camarades, Planquetie remercie la Municipalité de Cassel d'avoir
+                gracieusement mis un local à la disposition du groupe. Il rappelle ensuite la part
+                prise par MM. Bollaert et Tack dans l'organisation de la cérémonie et, au nom de ses
+                camarades, leur adresse ses sincères remerciements. En témoignage de sympathie, les
+                camarades présents décident d'envoyer un télégramme de condoléances à M. Bollaert,
+                qui vient d'avoir la douleur de perdre son épouse.</p>
+              <p>Planquette exprime ses regrets de l'absence des camarades Derunder, vice-président,
+                et Muret, secrétaire. Le secrétaire faisant défaut, il ne peut être donné lecture du
+                procès-verbal de la dernière réunion et la discussion sur le règlement intérieur des
+                sections est ajournée.</p>
+              <p>Sur la demande de Delaplace, la Commission prie le Conseil d'administration de
+                l'U.A.G. de ne pas perdre de vue la question d'augmentation des pensions et
+                d'intervenir énergiquement auprès des Pouvoirs publics. M. Planquette demande que le
+                rapport du docteur Lallement qui tend à faire reconnaitre toutes les maladies
+                consécutives aux blessures, <pb n="20"/>
+                <note type="foliation">— 18 —</note> sans savoir s'il y a corrélation entre les
+                blessures et la maladie, soit soumis à l'Académie de Médecine. Planquette rappelle
+                les décrets du 28 février 1925 sur la défiguration, du 8 septembre 1928 sur les
+                affections du nez, de la bouche et des oreilles et du 22 février 1929 sur les
+                blessés crâniens et invite les camarades susceptibles de bénéficier des avantages de
+                ces décrets à demander à comparaíre devant une Commission de Réforme.</p>
+              <p>Guermonprez demande que la Légion d'honneur soit accordée aux anciens combattants
+                titulaires de la Médaille militaire.</p>
+              <p>Boé fait part de la mort du camarade Joly et, à ce propos, il souhaite qu'en cas de
+                décès d'un camarade, sa veuve veuille bien prévenir le Bureau, ainsi que les
+                Aveugles les plus proches du domicile du défunt de manière à former une délégation
+                représentant le Groupement.</p>
+              <p>Pour des raisons d'économic, Planquette demande que l'indemnité de déplacement
+                allouée aux membres de la Commission soit réduite à 15 francs.</p>
+              <p>Planquette demande aux camarades ne se rendant pas aux assemblées de Paris de faire
+                confiance à leur délégué et autant que possible lui envoyer leurs pouvoirs.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 12 h .45.</p>
+              <p>Avis du Secrétaire.</p>
+              <p>Ce dernier, empêché au dernier moment, exprime ses regrets de n'avoir pu assister à
+                la réunion. Il fera paraître une note dans le Bulletin confirmant la date de notre
+                assemblée régionale, fixée en principe au dimanche 13 mars 1932.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">AVIS DIVERS</head>
+              <p>Notre camarade Adolphe Moreau, rue Franchetti, à Bry-surMarne (Seine), nous demande
+                de porter à la connaissance de ses camarades que sa femme, Mme Moreau, brodeuse
+                d'art en tapisserie (petit point, point gros, point des Gobelins, point croisé,
+                point d'Aubusson, point de Beauvais, tapisserie pour l'église, l'ameublement et
+                décoration), prendrait commandes à faire à domicile.</p>
+              <p>Pour tous renseignements, s'adresser à M. Adolphe Moreau.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Gaillac mousseux champagnisé. Prix courant : Château Sainte-Cécile (carte blanche),
+                la bouteille, 8 francs; la demi-bouteille, 5 fr. 90.</p>
+              <p>Comte de Bordchamp (carte d'or) : la bouteille, 8 francs ; la demi-bouteille, 5 fr.
+                90.</p>
+              <p>Château Sainte-Cécile (grand rosé mousseux) : la bouteille 8 fr. 50 ; la
+                demi-bouteille, 6 fr. 15.</p>
+              <p>Château Sainte-Cécile (cuvée réservée) : la bouteille, 9 francs; la demi-bouteille,
+                6 fr. 40.</p>
+              <p>Dans chaque qualité, livraison en sec, demi-sec ou doux, au gré du client.</p>
+              <p>Franco d'emballage gare départ, en caisses de 25 bouteilles. Droit de régie en
+                sus.</p>
+              <p>Supplément de 4 francs par emballage en caisse de 12 bouteilles ou 24
+                bouteilles.</p>
+              <p>Paiement en nos traites, les 15 et fin de chaque mois. S'adresser au camarade Jules
+                Cancé, boulevard Gambetta, Gaillac (Tarn).</p>
+              <p>Montres pour aveugles. Tarif actuel des prix : Qualité A: Montre nickel savonnette,
+                ancre 20 lignes, cadran spécial avec points pour aveugle : 95 francs.</p>
+              <p>Qualité B : Montre nickel, ancre 15 rubis, savonnette spiral Bréguet, 18 lignes,
+                cadran spécial avec points et bâtonnets pour aveugles : 170 francs.</p>
+              <p>Qualité B : Montre même mouvement et même cadran que la précédente, mais en argent,
+                3 cuvettes argent, décor riche, rayon Gloire, 18 lignes : 275 francs.</p>
+              <p>Garantie trois ans, sauf fracture. S'adresser à M. Arthur Caron, 66, rue de la
+                République, Montmorency (Seine-et-Oise).</p>
+              <p>Un de nos membres associés, M. E. Vuichard, à Salon (Bouches-du-Rhône), huiles,
+                savons, cafés, offre la représentation de sa maison à nos camarades. Les affaires se
+                traitent surtout par relations de parenté et d'amitié.</p>
+              <p>Le gain à réaliser est appréciable et les camarades trouveront dans cette
+                occupation un attrait réel.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>A vendre : manches à balais 1 m. 30 \times 25, hôte ou sapin ou bouleau. Le cent :
+                80 francs.</p>
+              <p>S'adresser au camarade Marchand, Le Breil-sur-Mérize (Sarthe).</p>
+              <p>A vendre : Machine à écrire Underwood, état de neuf. S'adresser au camarade Capet
+                (Paul), Saint-Laurent-les-Eglises (Haute-Vienne).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">Liste des Donateurs</head>
+              <p>Anonyme Z..., 10.000 francs. - Produits d'une quête faite au mariage de M. Rosière
+                avec Mlle Remy, à Herserange, 44 fr. 50. Comité de vigilance des départements
+                dévastés à Cambrai, 1.000 fr. - M. R. Helft, à Paris, 100 fr. - M. Riciardo-Giro, à
+                Homécourt (M.-et-M.), à l'occasion du mariage de son fils César avec Mlle Mengin, 50
+                fr. - Mme Guérin, Châtillon-sous-Bagneux, 50 fr. - Protection et bonne santé de
+                notre famille, 300 fr . - M. et Mme PinMorra, à Vichy, à l'occasion de leur mariage,
+                50 fr . - Mlle Marie Brossaud, à Pornic (Loire-Inférieure), 200 fr. - Divers, 886
+                fr. 10.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">Dons avec affectation
+                spéciale pour la création de la "Maison des Aveugles de Guerre"</head>
+              <p>Commune de Saint-Bonnet-de-Joux (Saône-et-Loire), 100 fr. Commune de
+                Provenchère-sur-Fave (Vosges), 20 fr. - Mme de la Vergne, Paris, 1.000 fr. - Ville
+                de Chauny (Aisne), 100 fr.</p>
+            </div>
+          </div>
+          <fw>Imprimerie "Dubois et Bauer. 34, rue Laffitte, Paris - 9e</fw>
+          <pb n="23"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; Vice-Présidents: Favret, Lauté, Leveau. Secrétaire général:
+              Amblard. Trésorier: Gaston L'Evesque. Membres: Antoine, Arnault, Bardoux, Bertrand,
+              Bloncourt, Bois, Cabasson, Conan, Courteix, Derunder, Fauvel, Grillet, Guillam, Izaac,
+              Lappargue, Lagarde, Malgat, Muller, Nicolai, Noireaux, Petitjean, Robert (Maurice),
+              Roy (Georges), Satgé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h36">COMITÉ D'ACTION</head>
+            <p>François-Marsal, Président d'honneur; M. le baron de Traversay, Président; Mlle
+              Arbel, Vice-Présidente; M. Oscar Bloch, Secrétaire; M. Auterbe, Sous-Directeur à la
+              Compagnie a L'Union »; Mme du Bos; Mme Broquin; M. Marcel Bloch; d. Chepper; M. Pierre
+              Chérot; Mme Chevalier; Mme Contamin; Mme Francis de Croisset; Mlle Jalaguier; Mlle
+              d'Ilerbemont; Mme llenri; Mme Kalt; Mme L'Evesque; Mme l.Éry-Weiss; M. Mayer; Mme
+              Mayer; Mme Mus; M. l'ascal, M. le colonel de Traversay.</p>
+            <pb n="24"/>
+          </div>
+          <fw>Le Gerant : DECOENE. Imp. Dubois et Bauer, 54, r. Laffitte, Paris. 1931.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

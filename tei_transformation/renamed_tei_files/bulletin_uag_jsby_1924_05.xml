@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 6ème année 1924, n°5</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Informations administratives</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#blesses-aux-yeux">Blessés aux yeux</term>
+          <term ref="#militaires">Militaires</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#naissances">Naissances</term>
+          <term ref="#mariages">Mariages</term>
+          <term ref="#deces">Décès</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde divers sujets d'intérêt pour
+          ses membres, notamment les pensions et les allocations, les modifications administratives
+          concernant les carnets, et des informations sur les activités de l'Union. Il inclut
+          également des chroniques relatant des naissances, des mariages et des décès au sein de la
+          communauté, ainsi que des procès-verbaux des réunions du conseil d'administration et des
+          comptes rendus de réunions de masseurs. Des informations sur la Légion d'Honneur et des
+          listes de camarades sont également présentes.</p>
+      </abstract>
+      <creation>
+        <date when="1924-05-01">01/05/1924</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-08" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-08" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aueugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">AVIS TRÈS IMPORTANT</ref>
+          </item>
+          <item>
+            <ref target="#h4">LES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h5">CHANGEMENT DE CARNETS</ref>
+          </item>
+          <item>
+            <ref target="#h6">POUR LES MILITAIRES DE CARRIÈRE</ref>
+          </item>
+          <item>
+            <ref target="#h7">TITRE VI Dispositions concernant les retraites déjà concédées</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h9">BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h10">AVIS AUX CAMARADES AMATEURS DE TERRAIN A FRANCEVILLE</ref>
+              </item>
+            </list>
+          </item>
+
+          <item><ref target="#h22">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h11">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h12">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h13">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h14">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h15">Procès-verbal de la séance du Conseil d'administration du 8 Mars
+                  1924</ref>
+              </item>
+              <item>
+                <ref target="#h16">COMPTE RENDU DE LA REUNION DES MASSEURS du mercredi 2 avril
+                  1924</ref>
+              </item>
+              <item>
+                <ref target="#h17">LÉGION D'HONNEUR</ref>
+              </item>
+              <item>
+                <ref target="#h18">Liste des Aveugles de Guerre du département de la
+                  Seine-Inférieure</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h19">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h20">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h21">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">6e Année. — N° 5</fw>
+          <fw type="header">
+            <hi rend="underline">Mai 1924</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Les Pensions.</item>
+                    <item>Changement de carnets.</item>
+                    <item>Pour les militaires de carrière.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)">Notes et Informations</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la séance du Conseil d'Administration du 8 mars
+                      1924.</item>
+                    <item>Compte rendu de la réunion des masseurs du 2 avril 1924.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Listes de camarades.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aueugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ministre des Colonies ; M. Brieux, de l'Académie
+              Française, président honorair M. le général Balfourif ; M. Borrel, député, ancien
+              sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter. M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé. député de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ;
+              Mme Géo Kessler ; M. Krug ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Pate, député ; M. Pierre Rameil, député ;</p>
+            <p>M・ Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; Général
+              Sainte-Claire-Deville; M. Vallery-Radot; M. Constant Verlot, député ; M. le Professeur
+              Walther, membre de l'Académie de Médecine</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">AVIS TRÈS IMPORTANT</head>
+            <p>Tous les anciens militaires de carrière (officiers, sous-officiers, caporaux et
+              soldats) sont instamment priés de nous envoyer d'urgence leurs nom et adresse actuelle
+              pour communication très importante à leur faire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">LES PENSIONS</head>
+            <p>Tous les camarades apprendront avec satisfaction qu'enfin le but est atteint. Les
+              Chambres, dans leurs séances des 4 et 13 avril, ont voté la loi augmentant de 2.000
+              francs l'allocation spéciale aux Grands Invalides. Quel soupir de soulagement va
+              s'exhaler de toutes les poitrines! Un tout petit peu de bonheur monnayé à ajouter à
+              l'ordinaire.</p>
+            <p>Si la tâche était difficile, quel admirable exemple de discipline ont donné les
+              Aveugles de Guerre; carte blanche au Conseil, et le Conseil carte blanche au Bureau,
+              pour obtenir les résultats.</p>
+            <p>Aucune discussion oiseuse n'est venue apporter d'entraves aux démarches entreprises
+              dans le but commun. On nous a fait confiance et nous sommes heureux d'avoir pu nous en
+              montrer dignes.</p>
+            <p>Est-ce à dire que la tâche est terminée? Certes non. L'Assemblée générale a laissé au
+              Conseil le soin de tenter la réalisation d'un certain nombre de vœux nous intéressant
+              tous : allocation aux ascendants, reversibilité de pension aux Veuves, Pupilles de la
+              Nation, Décorations, Transports, etc., etc.</p>
+            <p>Délivré du lourd fardeau dont le soin l'absorbait, le Conseil va pouvoir s'atteler et
+              orienter tous ses efforts pour qu'un certain nombre de ces vœux deviennent des
+              réalités. Nul doute qu'étant donné la confiance que lui ont montrée les camarades et
+              les facilités de travail qu'ils lui ont laissées dans la dernière quéstion : celle des
+              pensions, il puisse en réaliser quelques-uns.</p>
+            <p>C'est dans cet esprit et riche d'espérance, que, d'un pas léger, le Conseil va
+              entreprendre les nouvelles démarches.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">CHANGEMENT DE CARNETS</head>
+            <p>Les sous-intendants militaires réclameront aux intéressés les carnets d'allocations 5
+              bis, pour l'échanger contre un carnet établi au nouveau taux.</p>
+            <p>Les camarades qui, à la date du 15 juin, n'auront reçu aucune circulaire, devront
+              envoyer leur carnet d'allocation 5 bis, sous pli recommandé avec avis de réception à
+              leur Sous-Intendance. Bien entendu, il faudra noter le numéro de l'ancien carnet en
+              cas de perte dans les bureaux.</p>
+            <p>Il est entendu qu'on touchera sur la base de 5.000 francs du 1<hi rend="superscript"
+                >er</hi> avril au 1<hi rend="superscript">er</hi> mai 1924, et sur la base de 7.000
+              francs du 1<hi rend="superscript">er</hi> mai 1924 jusqu'à la fin du trimestre.</p>
+            <p>Nous tenons ici à remercier M. le Ministre des Pensions, M. l'Intendant Zaigue et le
+              commandant Lardy, qui font toute diligence pour que - les carnets soient entre les
+              mains des bénéficiaires avant le 1<hi rend="superscript">er</hi> juillet prochain.</p>
+            <p>Si, à cette date, des retards s'étaient produits pour quelques camarades, nous leur
+              demandons de bien vouloir signaler leur cas au Bureau de l'U. A. G.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">POUR LES MILITAIRES DE
+              CARRIÈRE</head>
+            <p>Le Journal Officiel du 15 avril publie le décret du 14 avril relatif aux pensions
+              civiles et militaires.</p>
+            <p>Nous publions ci-après quelques articles de cette loi qui peuvent intéresser un
+              certain nombre de nos camarades officiers et hommes de troupe de carrière, leurs
+              veuves ou leurs orphelins.</p>
+            <p>L'application de cette loi devra être assurée par un décret d'administration publique
+              qui devra être pris avant le mois d'octobre 1924.</p>
+            <p>Art. 32. - Les services civils entrent en compte pour l'établissement du droit à
+              pension militaire.</p>
+            <p>Art. 62. - En aucun cas, et pour quelque cause que ce soit, une veuve ne pourra
+              cumuler sur sa tête deux pensions de réversion au titre de la présente loi. Il en est
+              de même des orphelins.</p>
+            <p>Art. 68. - Les veuves pourvues d'un emploi public ou d'un bureau de tabac de 1<hi
+                rend="superscript">er</hi> classe, en raison des services rendus par leur mari,
+              devront opter entre le maintien de l'emploi ou du bureau de tabac et l'allocation
+              annuelle prévue par le présent article.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>ART. 73. - Les militaires visés par les articles 59 et 60 de la loi du 31 mars 1919,
+              les veuves et les orphelins visés par l'article 60 de la même loi pourront présenter
+              une nouvelle option qui portera effet du jour de la promulgation de la loi.</p>
+            <p>ART. 79. - Les fonctionnaires et employés civils, anciens combattants, jouiront, pour
+              la retraite, des avantages suivants : 1<hi rend="superscript">°</hi> Ils pourront
+              obtenir une mise à la retraite anticipée. L'âge et la durée des services à partir
+              desquels cette demande sera recevable seront ceux appliqués aux autres bénéficiaires
+              de la loi de leur catégorie, déduction faite d'un nombre d'années égal à la moitié des
+              années de services accomplies pendant la campagne 1914-1919; 2<hi rend="superscript"
+                >°</hi> Si, par suite de l'exercice de leurs fonctions, les infirmités ou maladies
+              contractées dans la zone des armées pendant la guerre 19141919 par les bénéficiaires
+              de la présente loi, viennent à s'aggraver au point de les mettre dans l'impossibilité
+              de continuer leurs fonctions, ils pourront, par extension des dispositions de
+              l'article 21, obtenir une pension exceptionnelle, quels que soient leur âge et la
+              durée de leur activité.</p>
+            <p>Le taux de cette pension est celui prévu par ledit article 21, accru de la
+              liquidation des bénéfices de campagnes; 3<hi rend="superscript">°</hi> Ils peuvent
+              invoquer le bénéfice de l'article 14 de la présente loi ; 4<hi rend="superscript"
+                >°</hi> Le droit à la revision ou à la constitution des pensions conformément aux
+              dispositions du présent article est ouvert : a) Aux titulaires de pensions déjà
+              liquidées ou à leurs ayants droit ; b) Aux ayants droit de fonctionnaires décédés
+              avant la promulgation de la présente loi.</p>
+            <p>Nous attirons tout spécialement l'attention de nos camarades sur les numéros suivants
+              qui sont applicables dès à présent.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h7">TITRE VI Dispositions
+              concernant les retraites déjà concédées</head>
+            <p>Art. 92. - A dater de la promulgation de la présente loi, les fonctionnaires et
+              employés de l'Etat, les militaires, marins et assimilés, titulaires de pensions de
+              retraite, ainsi que leurs ayants cause, obtiendront un relèvement de leurs pensions
+              dans les conditions indiquées aux articles ci-après :</p>
+            <p>ART. 93. - La pension principale des retraités visés au précédent article sera
+              affectée tout d'abord du coefficient suivant :</p>
+            <p>Coefficient 3, jusqu'à 900 francs.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>Coefficient 2,5 pour les pensions comprises entre 901 et 1.500 fr . Coefficient 2,25
+              pour les pensions comprises entre 1.501 et 2.500 . Coefficient 2 pour les pensions
+              comprises entre 2.501 et 6.000 . Pour les pensions supérieures à 6.000 francs, la
+              première fraction de 6.000 francs sera seule affectée du coefficient 2 .</p>
+            <p>Le chiffre produit par l'application de ces coefficients sera majoré, le cas échéant,
+              de telle sorte que la pension soit au moins égale à une pension de la catégorie
+              inférieure affectée d'un coefficient plus élevé.</p>
+            <p>Quand plusieurs pensions sont fixées sur la même tête, le coefficient est déterminé
+              d'après le total des pensions.</p>
+            <p>Il ne sera pas fait état, pour l'application de ces coefficients, de l'indemnité
+              temporaire de cherté de vie allouée par la loi du 12 avril 1922, ni de tous
+              suppléments, majorations ou compléments de pension acquis par application de la loi du
+              25 mars 1920.</p>
+            <p>Art. 94. - Il sera procédé ensuite à la revision de leur retraite d'après le décompte
+              des services établi lors de la liquidation initiale et sur la base des traitements et
+              soldes afférents au jour de la promulgation de la présente loi, aux grades et emplois
+              occupés pendant les trois dernières années de la carrière.</p>
+            <p>La retraite, ainsi revisée, remplacera, si elle est supérieure, la pension affectée
+              du coefficient prévu à l'article précédent.</p>
+            <p>Pour les grades et les emplois qui auraient été supprimés, des décrets en Conseil
+              d'Etat, rendus dans les deux mois de la mise en vigueur de la présente loi, règleront,
+              pour chaque administration, leur assimilation avec les grades et les emplois
+              actuellement existants.</p>
+            <p>Dans les cas où il serait impossible de retrouver ou de reconstituer les états de
+              services des intéressés, cette impossibilité matérielle serait constatée par la
+              section des finances du Conseil d'Etat, qui déterminerait, par toutes méthodes
+              appropriées, la catégorie de la nouvelle retraite.</p>
+            <p>Art. 95. - Le supplément de pension attribué par application des dispositions qui
+              précèdent, remplacera l'indemnité de cherté de vie allouée par la loi du 12 avril
+              1922, qui cessera d'être servie aux bénéficiaires de ces dispositions. Toutefois, les
+              titulaires de pension qui bénéficiaient de cette indemnité avant la promulgation de la
+              présente loi et pour lesquels la pension augmentée du supplément n'atteindrait pas le
+              montant de leur ancienne pension augmentée de l'indemnité, recevront un complément de
+              pension suffisant pour que leur situation actuelle ne soit pas modifiée.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTES &amp; INFORMATIONS</head>
+            <p>Le Centre d'Appareillage de Saint-Maurice est transféré à Paris. Le Centre
+              d'appareillage de Saint-Maurice est transféré 139, rue de Bercy (Métro Bercy). Il
+              fonctionne à cette nouvelle adresse depuis le 2 mai.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">BIBLIOTHEQUE</head>
+              <p>De la Société d'Impression et de Reliure du Livre de l'Aveugle : Livres parus :
+                Alain : La Visite au musicien, 1<hi rend="superscript">er</hi> volume. Balzac :
+                Chef-d'œuvre inconnu. Benoit : L'Atlantide, 7 vol. abrégé. Carton de Wiart : La Cité
+                ardente, 9 vol. Duchêne : Au pas lent des caravanes, abrégé. Duvême : Brindelle
+                Pacha et C<hi rend="superscript">°</hi>, tomes I, II, III. Hugo : Ruy Blas, 5 vol.
+                Lavisse : Histoire de France, 3 vol. Matter : Mademoiselle Fleurette, tomes I, II,
+                III, IV. Renan : Souvenirs d'enfance et de jeunesse, 4 vol. Shakespeare: La Nuit des
+                rois, 3 vol. Truy (Gustave) : Le Guide de la Menuiserie pratique, 1 vol. Seignobos :
+                Scènes de l'Histoire nationale, 1<hi rend="superscript">er</hi> vol. Wells : La
+                Guerre des mondes, 6 vol. Wells : Les premiers hommes dans la lune, 5 vol. XXX... :
+                La Sainte Communion, 3 vol. Livres sous presse : D'Annunzio : Les victoires mutilées
+                (suite). Estaunié : Les choses voient, 9 vol. abrégé. Shakespeare : Hamlet. Vautel :
+                Mon curé chez les riches, 6 vol.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>Nous adressons aujourd'hui un complêment de catalogue de notre Bibliothèque
+                Braille.</p>
+              <p>La presque totalité des volumes qui le composent nous a été offerte par le "Livre
+                de l'Aveugle ".</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">AVIS AUX CAMARADES AMATEURS
+                DE TERRAIN A FRANCEVILLE</head>
+              <p>J'informe mes camarades que j'ai à vendre un lot de terrain d'une superficie de 500
+                mètres, à un prix très intéressant. Pour tous renseignements, s'adresser à M. Sursin
+                Pierre, 27, rue de Saint-Mandé, à Charenton (Seine).</p>
+              <p>Pour cause de faible santé, le brossier Ray, à Villemotier, par Verjon (près gare
+                Le Moulin-des-Ponts) (Ain), céderait à un camarade de l'Union, pour 350 francs
+                seulement, un tandem pour hommes, bel émail et nickel, roue libre neuve, moyeux
+                Diamant, deux freins sur jantes acier, pneus renforcés en très bon état. M. R.
+                Gautheron, 15, faubourg Montmartre, à Paris, nous prie d'informer les camarades
+                qu'il se tient à leur disposition pour faire des réparations à leur machine à écrire
+                à des prix tout à fait avantageux.</p>
+              <p>Le camarade Saint Marty Jean, à Enclas-Graissens, par SaintFélix (Haute-Garonne),
+                serait désireux de faire profiter un camarade d'un accoupleur "Card», qu'il
+                laisserait à très bon compte. M. et Mme Husson, au Petit-Château, maison Lefort, à
+                Auly (Nord), seraient heureux d'avoir un Aveugle de guerre comme pensionnaire
+                moyennant 5.500 francs par an.</p>
+              <p>Les camarades que cette offre intéresserait sont priés de s'adresser directement à
+                M. et Mme Husson.</p>
+              <p>Le camarade brossier qui a fait paraître une annonce dans le Bulletin de février
+                relative à un étau à vendre, état neuf, avec frein automatique, <pb n="9"/>
+                <note type="foliation">— 7 —</note> pouvant servir pour la plupart des brosses, est
+                prié de faire connaître son nom et son adresse au bureau de l'Union.</p>
+              <p>A vendre : Une machine à tricoter, marque Dubied, à double rayeur, largeur
+                soixante, jauge trente-six, avec trépied et bobinoir à main, tout à l'état de neuf.
+                S'adresser à M. Monbœuf, au Got-deDirac, par Garat (Charente).</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h12">NAISSANCES</head>
+                <p>Notre camarade et Mme Thepenier, à Châtillon-en-Bazois (Nièvre), nous font part
+                  de la naissance de leur fille, Renée, née le 4 mars 1924.</p>
+                <p>Notre camarade et Mme Rivemale (Joseph), à Pouzolles (Hérault), nous font part de
+                  la naissance de leur fils, Jean.</p>
+                <p>Notre camarade et Mme Lambert (Philippe), à Saint-Sorlin-enValloire, par Valence
+                  (Drôme), nous font part de la naissance de leur fils, René-Etienne, le 18 mars
+                  1924.</p>
+                <p>Notre camarade et Mme Lebrun, à Paris, nous font part de la naissance de leur
+                  fils, Antoine-René, né le 22 février 1924.</p>
+                <p>Notre camarade et Mme Mimoun (Lévy), à Tlemcen, nous font part de la naissance de
+                  leur fille, Suzanne, née le 15 mars 1924.</p>
+                <p>Notre camarade et Mme Laporte (Ernest), à Oradour (Cantal), nous font part de la
+                  naissance de leur fille, Albertine.</p>
+                <p>Notre camarade et Mme Tourneux, à Levallois-Perret (Seine), nous font part de la
+                  naissance de leur fille, Jeannine, née le 21 mars 1924.</p>
+                <p>Notre camarade et Mme Bakour, à Haroue (M.-et-M.), nous font part de la naissance
+                  de leur fils, Pierre, né le 11 mars 1924.</p>
+                <p>Notre camarade et Mme Molinié (Bernard), à Lassay (Mayenne), nous font part de la
+                  naissance de leur fille, Marguerite, née le 9 février 1924.</p>
+                <p>Notre camarade et Mme Vial (Jean), à La Ricamarie (Loire), nous font part de la
+                  naissance de leur fils, Bonicart-Marius, né le 26 mars 1924.</p>
+                <p>Notre camarade et Mme Watier (Edouard), à Boissy-en-Brie, par Ozoir-Ferrière,
+                  nous font part de la naissance de leur fille, Solange, née le 26 mars 1924.</p>
+                <p>Notre camarade et Mme Laine (Georges-Marcel), à Savignes-surLathan
+                  (Indre-et-Loire), nous font part de la naissance de leur fils, Pierre-Georges, né
+                  le 26 mars 1924.</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+                <p>Notre camarade et Mme Gueguen (François), à Kergilbert, près Mail-Carhaix
+                  (Côtes-du-Nord), nous font part de la naissance de leur fille, Marie-Marcelle, née
+                  le 30 mars 1924.</p>
+                <p>Notre camarade et Mme Agnus (Alfred), à Beauceron (commune de Poncin), par
+                  Neuville-sur-Ain, nous font part de la naissance de leur fils, René-Jules, né le
+                  13 mars.</p>
+                <p>Notre camarade et Mme Daumas (Pierre), à La Forge, par SaintMathieu
+                  (Haute-Vienne), nous font part de la naissance de leur fils, André, né le 5 avril
+                  1924.</p>
+                <p>Notre camarade et Mme Derunder (Paul), 122, rue Leavers, à Calais, nous font part
+                  de la naissance de leur fille, Andrée, née le 5 avril 1924.</p>
+                <p>Notre camarade et Mme Corazza (Alexandre), 9, rue de l'Ecole, à
+                  Mazargues-Marseille (Bouches-du-Rhône), nous font part de la naissance de leur
+                  fils, Jean-Pierre-Georges, né le 2 avril 1924.</p>
+                <p>Notre camarade et Mme Lallemant (Georges), 5, square du Croisic, à Paris, nous
+                  font part de la naissance de leur fille, Marie-Madeleine.</p>
+                <p>Notre camarade et Mme Touzet (Joseph), à Forgevieille (Creuse), nous font part de
+                  la naissance de leur fille, Aimée-Aurélie, née le 3 avril 1924.</p>
+                <p>Notre camarade et Mme Binio (Pierre), rue des Forges, à Ploërmel (Morbihan), nous
+                  font part de la naissance de leur fille, Renée, née le 31 mars 1924.</p>
+                <p>Notre camarade et Mme Lévêque, (Armand), à Beauvais-Paimpont (Ille-et-Vilaine),
+                  nous font part de la naissance de leur fils, ArmandMarie, né le 30 mars 1924.</p>
+                <p>Notre camarade et Mme Gérentes (Jacques-Jean), à Saint-JulienChapteuil
+                  (Haute-Loire), nous font part de la naissance de leur fille, Alice-Augusta née le
+                  27 janvier 1924.</p>
+                <p>Notre camarade et Mme Mazeaud (Georges), 43, avenue d'Echenilly, à Saint-André
+                  (Aube), nous font part de la naissance de leur fils, Roger-Lucien, né le 3 avril
+                  1924.</p>
+                <p>Notre camarade et Mme Hédouin, à Acqueville, par Néville (SeineInférieure), nous
+                  font part de la naissance de leur fille, Simone-LouiseMarie, née le 14 avril
+                  1924.</p>
+                <p>Nous adressons nos bien sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h13">MARIAGES</head>
+                <p>Notre camarade Boulanger (Camille), à Vallerois-le-Bois (HauteSaône), nous fait
+                  part de son mariage avec Mme veuve César, qui a été célébré, le 26 janvier
+                  dernier, à Villeurbanne (Rhône).</p>
+                <p>Notre camarade Prigent (Jean-Marie), au Dirou-en-Guisseny (Finistère), nous fait
+                  part de son mariage avec Mlle Querre (Eugénie), qui a été célébré le 20 février
+                  dernier.</p>
+                <p>Notre camarade Barde (Cyprien) nous fait part de son mariage avec Mlle Tessner
+                  (Renée), qui a été célébré le 14 avril dernier, à Nancy.</p>
+                <p>Notre camarade Biard (Louis), faubourg d'Avexi, à Graçay (Cher), nous fait part
+                  du mariage de sa fille.</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h14">DÉCÈS</head>
+                <p>Nous venons d'apprendre le décès de M. Vallon, membre de notre Comité de
+                  Patronage.</p>
+                <p>Dès la formation de notre Société, en 1918, il nous consacra la meilleure part de
+                  son activité et ne cessa de nous aider en toutes circonstances, soit à l'Office
+                  National des Mutilés, où il occupait le poste de secrétaire général, soit, plus
+                  tard, comme inspecteur général du ministère de la Guerre et des Pensions.</p>
+                <p>Nous présentons à toute sa famille l'expression de nos sentiments de vive
+                  condoléance.</p>
+                <p>Nous apprenons le décès : De notre camarade Nicard, à Saint-Julien-le-Petit; De
+                  notre camarade Coulomb (Joseph), à Argon (Bouches-duRhône);</p>
+                <p>De la belle-mère de notre camarade Pasquier, à Levens (AlpesMaritimes);</p>
+                <p>De la mère de notre camarade Serre (Léon), âgée de 73 ans; Du père de notre
+                  camarade Layer (Pierre), à Monterblanc, par Elvan (Morbihan), le 20 mars 1924, à
+                  l'âge de 73 ans;</p>
+                <p>De la fille Renée-Gabrielle de notre camarade Redonnel (Jean); De la fille Odette
+                  de notre camarade Marchal (Charles), le 23 mars dernier, à l'âge de 4 mois;</p>
+                <p>De la mère de notre camarade Guesnier (A.), 18, rue de la Providence, à Laval
+                  (Mayenne), le 29 mars dernier;</p>
+                <p>De la femme de notre camarade Albert (Victor), à Saint-Hilaire-des-Loges
+                  (Vendée);</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+                <p>Du fils de notre camarade Frère (Emile), brossier, à Sommery (Seine-Inférieure),
+                  le 11 avril dernier;</p>
+                <p>De la fille de notre camarade Charrier (Paul), à Mortagne-surSèvres (Vendée), le
+                  21 janvier dernier, à l'age de 21 mois.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Procès-verbal de la séance
+                du Conseil d'administration du 8 Mars 1924</head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence de Scapini. Sont présents:
+                L'Evesque (Gaston), Scapini, Bois, Grillet, Dufourc, Favret, Amar, Arnault, Bardoux,
+                Bertrand, Courteix, Durat, Goubin, Gudelin, Heuze, Izaac, Laffargue, Laute, Leveau,
+                Malgat, Noireaux, Sainte-Rose.</p>
+              <p>Les administrateurs Antoine, Derunder, Lagarde, Lallement, Leloup, Robert,
+                Toudouri, ont écrit. Lallement a envoyé ses pouvoirs à Izaac, Robert et Lagarde ont
+                envoyé leurs pouvoirs à Laffargue.</p>
+              <p>Assistent à la séance : M. de Traversay, président du Comité d'action; les
+                camarades : Boidin, Briant, Cassart, Conan, Chauvel, Guillam, Saillot, Sursin.</p>
+              <p>1<hi rend="superscript">°</hi> Lecture du procès-verbal de la dernière séance.</p>
+              <p>Procès-verbal adopté à l'unanimité.</p>
+              <p>2<hi rend="superscript">°</hi> Situation financière de février.</p>
+              <p>Durat demande si le Groupement des Officiers Mutilés a versé à l'U. A. G. les
+                sommes lui revenant sur les deux fêtes organisées l'année dernière au profit des
+                deux groupements.</p>
+              <p>Le Secrétaire général répond affirmativement et avise le Conseil que l'Union a
+                encaissé, en février, 16.000 francs pour les deux fêtes.</p>
+              <p>La situation financière de février est adoptée à l'unanimité.</p>
+              <p>3<hi rend="superscript">°</hi> Pensions.</p>
+              <p>Lecture des lettres des administrateurs Antoine, Derunder, Lallement, Leloup,
+                Robert, Toudouri, qui sont tous partisans d'une action énergique du Bureau auprès
+                des pouvoirs publics avant l'adoption de tout autre mesure. A titre consultatif, la
+                lettre de Cagnard, délégué de la départementale de la Seine-Inférieure, est lue. Il
+                envisage l'action concertée de toutes les régionales et départementales.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>Après avoir entendu les explications fournies par le Bureau au sujet des pensions,
+                le Conseil, lui faisant pleine confiance, passe à l'ordre du jour.</p>
+              <p>4<hi rend="superscript">°</hi> Augmentation de l'indemnité de déplacement aux
+                délégués des Groupements régionaux et des Sections départementales.</p>
+              <p>Lecture des lettres des administrateurs: Antoine, Derunder, Lallement, Toudouri,
+                qui sont d'avis de porter à 25 francs l'indemnité journalière à accorder aux
+                délégués provinciaux lorsqu'ils sont régulièrement convoqués.</p>
+              <p>A titre consultatif, lecture de la lettre de Cagnard (délégué de la
+                Seine-Inférieure), qui demande une augmentation, et de celle d'Estienne (président
+                du Groupement régional de la Côte d'Azur), qui demande une indemnité de 35 francs
+                par jour.</p>
+              <p>Après discussion entre les administrateurs, le Président met aux voix la motion
+                suivante : " Le Conseil d'administration décide que l'indemnité journalière "
+                accordée aux délégués des Groupements régionaux et Sections départementales, pour
+                assister à une séance du Conseil d'administration, " lorsqu'ils sont régulièrement
+                convoqués, soit provisoirement portée de " 15 à 25 francs pour les camarades qui ne
+                bénéficieraient pas d'une " chambre du Siège social. Dans le cas de ces réunions
+                extraordinaires, " les administrateurs résidant en province toucheront la même
+                indem" nité. "</p>
+              <p>Cette motion est adoptée par 18 voix contre 3.</p>
+              <p>5<hi rend="superscript">°</hi> Création d'un Groupement régional ayant pour siège
+                Toulouse.</p>
+              <p>Lecture de la lettre de Toudouri, qui demande que le Bureau soit représenté aux
+                réunions constitutives des Groupements régionaux ou Sections départementales.</p>
+              <p>Le Conseil décide que le Bureau interviendra auprès des camarades des départements
+                limitrophes du Tarn, pour qu'ils se groupent en sections départementales, dans le
+                but de former ultérieurement une Régionale ayant pour siège Toulouse.</p>
+              <p>6<hi rend="superscript">°</hi> Legs de Mme Louise-Valérie Fuchs, veuve de M. Amand
+                Lecomte.</p>
+              <p>L'ordre du jour appelle l'approbation d'un legs consenti par Mme Louise-Valérie
+                Fuchs, veuve de M. Amand Lecomte, décédée le 24 janvier 1924.</p>
+              <p>Le Conseil d'administration accepte purement et simplement ce legs, <pb n="15"/>
+                <note type="foliation">— 13 —</note> qui se monte à 10.000 francs, et donne tous
+                pouvoirs au Trésorier de l'Union des Aveugles de Guerre pour l'encaisser au nom de
+                la Société, prendre tout engagement et faire le nécessaire.</p>
+              <p>7<hi rend="superscript">°</hi> Qustions diverses.</p>
+              <p>Comptes rendus des réunions des sections départementales et groupements
+                régionaux.</p>
+              <p>Ces comptes rendus sont publiés dans le Bulletin de mars. Fête de la Légion
+                d'Honneur. Concert donné à Enghien. Le Conseil ratifie l'initiative prise par le
+                Bureau d'organiser un bal au Palais de la Légion d'Honneur, mis gracieusement à
+                notre disposition par le Grand Chancelier de l'Ordre.</p>
+              <p>Cette fête aura lieu le 17 mai, sous le haut patronage de M. Millerand et des
+                maréchaux de France.</p>
+              <p>Le Conseil ratifie également l'autorisation donnée par le Bureau à Laute, pour
+                l'organisation de la fête, qui a lieu depuis trois années, à Enghien, au profit de
+                l'Union.</p>
+              <p>L'ordre du jour est épuisé. La séance est levée à 17 h .25 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">COMPTE RENDU DE LA REUNION
+                DES MASSEURS du mercredi 2 avril 1924</head>
+              <p>La séance est ouverte à 15 heures. Sont présents : les camarades Cardot, Mauger,
+                Riou et Tihon, commissaires, et Favret.</p>
+              <p>Riou et Tihon rendent compte des dernières démarches qu'ils ont faites auprès de
+                MM. Frantz Reichel et Themar, au sujet des Olympiades. Ils se sont heurtés à un
+                refus. Le Comité Olympique n'engage aucun masseur pour les athlètes français, qui
+                seront traités par les masseurs des clubs auxquels ils appartiennent. Une dernière
+                démarche sera tentée auprès de M. Frantz Reichel par les quatre commissaires, qui
+                prient le camarade Favret, secrétaire général, de se joindre à eux.</p>
+              <p>Lecture est faite : 1<hi rend="superscript">°</hi> De la lettre du 31 mars reçue à
+                l'Euvre des Masseurs Aveugles et contenant l'extrait du procès-verbal de la réunion
+                du Comité de cette œuvre en date du 8 février ; 2<hi rend="superscript">°</hi> De la
+                lettre que les commissaires adressent à M. Paul Strauss, ancien ministre de
+                l'Hygiène et de la Prévoyance sociale;</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>3<hi rend="superscript">°</hi> De la lettre que les commissaires adressent à M.
+                Daniel Vincent, ministre du Travail et de l'Hygiène sociale.</p>
+              <p>Le camarade Favret apprend aux commissaires que quarante-cinq dossiers ont été
+                adressés au ministère compétent, le 26 mars, en vue de l'obtention du diplôme
+                d'Etat.</p>
+              <p>L'assemblée générale est fixée au samedi 26 avril 1924, à 20 h .30 , et une
+                circulaire a été adressée en temps opportun aux camarades pour les y convoquer.</p>
+              <p>La séance est levée à 17 heures.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">LÉGION D'HONNEUR</head>
+              <p>Par décret du 8 avril 1924 (Journal Officiel du dimanche 13 avril 1924), sont
+                promus dans l'Ordre national de la Légion d'honneur : 'Au grade d'officier : Gesta
+                (Marcel-Armand-Léon), ex-soldat au 6<hi rend="superscript">°</hi> Groupe
+                d'Artillerie d'Afrique.</p>
+              <p>Roy (René-François-Joseph), sous-lieutenant au 24<hi rend="superscript">°</hi> rég.
+                d'Artillerie de campagne, retraité pour blessures de guerre.</p>
+              <p>Au grade de chevalier : Benharoche (Moïse), ex-sergent au 51<hi rend="superscript"
+                  >°</hi> rég. d'Infanterie. Bonnardin (Benoit), ex-caporal au 408<hi
+                  rend="superscript">°</hi> rég. d'Infanterie. Collanges (Antoine-Emile), ex-caporal
+                au 9<hi rend="superscript">°</hi> rég. de marche de Zouaves.</p>
+              <p>Denos (Jean-Baptiste), ex-soldat au 53<hi rend="superscript">°</hi> bataillon de
+                Chasseurs. Fabre (Antoine-Augustin), ex-soldat au 22<hi rend="superscript">°</hi>
+                rég. d'Inf. coloniale. Houpert (Paul), ex-soldat au 13<hi rend="superscript">°</hi>
+                rég. d'Infanterie. Karli (Charles), dit Pinaud, ex-soldat au 11<hi
+                  rend="superscript">°</hi> rég. d'Art. de camp. Lacourt (Laurent-Joséphin),
+                ex-soldat au 248<hi rend="superscript">°</hi> rég. d'Infanterie. Meunier
+                (Maxime-Aimable-Désiré), ex-soldat au 101<hi rend="superscript">°</hi> rég. d'Inf.
+                Ploy (Pierre-François), ex-soldat au 42<hi rend="superscript">°</hi> rég.
+                d'Infanterie. Potdevin (Louis), ex-soldat au 29<hi rend="superscript">°</hi> rég.
+                d'Infanterie.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Liste des Aveugles de Guerre
+                du département de la Seine-Inférieure</head>
+              <p>Abraham (Pierre), à Anneville-sur-Sic, par Longueville (S.-Inf.). Angot
+                (Alphonse-Gustave), route de la Gare, à Saint-Romain-deCollose.</p>
+              <p>Baralle (Gustave), à Fauville-en-Caux. Bayle (Maurice-Léon-Henri), 23, rue du
+                Val-d'Eauplet, à Rouen. Bellanger (Emile-Edouard), 66, rue de la République, à
+                Elbeuf. Berrod (François), à La Remuée, canton de Saint-Romain-deCollose.</p>
+              <p>Blondel (Séverin-Louis), à Ocqueville, par Neville. Bunel (Georges), 49, rue de la
+                Cuvée-Verte, à Sanvic. Cagnard (Maxime-Ernest), 16, impasse du Clos-Thirel, à Rouen.
+                Capelle (Eugène), 77, rue Gambetta, à Deville-les-Rouen. Chatonnier-Numa (Augustin),
+                à Friche-Mesnil, par Clères. Cressent (Jules), rue de l'Isle, à Eu. Danger
+                (Joseph-Eugène), à Alberville-la-Manuel, par Veulettes. Delpech (Roland-Louis), rue
+                du Château-d'Eau, à Dieppe. Devarrieux (Emile-Honoré), 36, rue Deshais, à Oissel.
+                Dupuy (Joseph), route de Saint-Valéry, à Doudeville. Durand, 22, rue Saint-Lô, à
+                Rouen. Duval (Paul-Raoul-Pierre), à Sainte-Gertrude, canton de Caudebec.</p>
+              <p>Feret (Marcel), 67, impasse Sevestre, à Sotteville-les-Rouen. Fessard (Gilbert),
+                "Villa des Fleurs ", rue d'Eu, à Dieppe. Frère (Emile), à Sommery. Gille
+                (Raphaël-François, à Clion, par Saint-Aubin. Giroux (Auguste-Georges), 10, rue
+                d'Alsace-Lorraine, à Lillebonne.</p>
+              <p>Godard (Robert), 11, rue Etroite, à Rouen. Landais, 1 bis, rue du Val-d'Eauplet, à
+                Rouen. Leblond (Auguste), 28, Cotte du Mont-aux-Malades, à Deville-les-Rouen.</p>
+              <p>Lecomte (Gaston), 25, cours de la République, Le Havre. Lecourt
+                (Maurice-Louis-Alphonse), 8, rue du Havre, à Yvetot. Lemarchand (André), route
+                Nationale, à Petit-Couronné. Leroy (Marcel), à Fécamp, cité Herbert, route de
+                Valmont. Lesade (Marcel), à Luneray. Lucas (Alphonse), à Breauté. Massat (Eugène),
+                chez Mme Launay, 30, rue du Canon, Le Havre.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Mauconduit (Joseph), 8, place Carnot, à Bolbec. Noel (Eugène-Arthur, à
+                Notre-Dame-d'Aliermont. Petit (Joseph), rue Vilaine, à Bosc-les-Hard. Picot
+                (Georges-Alfred), à Grenonville, par Motteville. Prevel (Louis-Eugène), 2, rue
+                Beauverger, Le Havre. Quesne-Bienvenu, à Mesnil-sous-Junièges. Simon
+                (Alfred-Pierre), sentier Picard, Petit-Quevilly, près Rouen. Talleur (Léopold), à
+                Fauville. Toutain (Lucien), 65, route du Havre, à Maranne. Verdure (Jean),
+                Saint-Aubin-Epinay, par Darnetal. Verwort (Jean), 3, impasse Marguerite, Le Havre.
+                Viel, à Toussaint, par Colleville. Vincent (Gustave-Louis), 3, rue Trouville, à
+                Sanoie, près Le Havre.</p>
+              <p>Vochelet (Narcisse), 2, rue de la Marinière, à Rouen. Liste des Averigles de Guerre
+                du département de la Somme Beauval (Joseph), à Vignacourt. Bellettre (Léon), à
+                L'Heure, par Abbeville. Boquet (Robert), à Ailly-sur-Noye. Boulanger (Louis), 42,
+                rue Millevoye, à Abbeville. Boyenval (Fleury), à Chully, par Chaulnes. Carpentier
+                (Marceau), à Morchain, par Nesle. Gilbert-Chelle, 45, route de Paris, à Amiens.
+                Deguerville (Louis), à Chépy-Valines. Dubos (Gaston), à Vauchelles, par Abbeville.
+                Duchamp (Jules-Eugène), à Lesboufs, par Combles. Flandre (Marceau), 59, rue du Don,
+                à Amiens. Foubet (Julien), à Yvrencheux, par Saint-Riquier. Gallet-WaAst, rue de
+                Beauval, à Candas. Grispoire (Achille), rue Pasteur, à Hollencourt, canton d'Allery.
+                Hennion (Gabriel), 15, passage des Cordeliers, Amiens. Herbet (Fernand), à Huppy.
+                Lhorloge (Henri), à Remiencourt, par Ailly-sur-Noye. Meyer (Marie), 13, rue de la
+                République, à Ailly-sur-Noye. Parvillers (Léopold), à Flixecourt, 21, rue Gambetta.
+                Pellier (Albert), 1, rue d'Austerlitz, à Flixecourt. (A suivre) Le Gérant:
+                Drogons.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; Vice-Présidents: Bois, Dufourc, Grillett. Secrétaire général :
+              Favret. Trésolier: Gaston L'Evesgue. Membres: Amar, Antoine, Arnault, Bardoux,
+              Bertrand, Courteix, Derunder, Durat, Fauvel, Goubin, Gudefin, Heuze, Isaac, Lapfargue,
+              Lagarde, Lallemenf, Laute, Leveau, Leloup, Malgat, Noireaux, Robert (Maurice),
+              SainteRose, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. de Fleurieu, Trésorier adjoint; M. Auterbe, Actuaire à la Compagnie «
+              L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Bovlesve. Mme Broquin. M. Chepfer. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Finles de Rééducatitn.</p>
+            <p>Mlle Jalaguier. Mme Henri. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. Mme Mus. M. Joseph Roux. M. Sollar.</p>
+            <p>D' Schneider. Mme Valton Mme Yves</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">Liste des Donateurs</head>
+            <p>M. et Mme Boulet, à Neuilly-sur-Seine ..... 50.000 " Le Gouverneur des Etablissements
+              Français dans l'Inde ..... 31.58285 M. Gabriel Nasra, ingénieur à Tanta (Egypte) .....
+              40 " Union des Femmes de France (Comité de Barcelone). ..... 1.000 " Les Elèves de
+              l'école communale de filles à la Glacière Mérignac (Gironde) ..... 20 " Association
+              Française de Bienfaisance à Tientsin ..... 200 " Mlle de Salemfels, Paris ..... 20 "
+              Mme Levy-Weis, à Paris. ..... 100 " Mme Ulmo, à Doulaincourt (Haute-Marne) ..... 50 "
+              Mme Lang-Verte, à Rouen ..... 10 " M. Jules Fagard, à Paris ..... 500 " Mme Adam
+              Stephan, Melun ..... 500 " "Protection et bonne santé de notre famille " ..... 300 "
+              M. le Docteur Hébert, Paris ..... 100 " Mme B. Clément, à Paris ..... 50 " Lycée
+              Kléber, à Strasbourg ..... 100 " M. J. de Kermaingant, à Paris. ..... 200 " Institut
+              Pelman, à Paris ..... 20 " Les Sous-Officiers de la Garnison de Mailly-Militaire
+              (Aube) ..... 6560 Mme Guenser, Metz (Moselle) ..... 20 " M. Scheidecker, à Muttersholz
+              ..... 47 " M. et Mme Blanchard, à Paris ..... 10 " Mme de Silva, à Paris. ..... 5 "
+              Mme Laloue, à Paris. ..... 100 " Mme Cogit, à Paris ..... 70 " Bonne action. Versée
+              par M. Siebold-Dousinelle, la somme de ..... 400 " montant d'une restitution anonyme
+              et de cinq années d'intérêts avec la stipulation (si les ayants droit ne peuvent être
+              atteints), prière d'en verser les fonds aux Aveugles de guerre.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

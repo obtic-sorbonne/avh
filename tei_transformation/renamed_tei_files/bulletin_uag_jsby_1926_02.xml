@@ -1,0 +1,884 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 8ème année 1926, n°2</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin mensuel</title>
+        <title type="topic">Pensions de guerre</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Association</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Secours</title>
+        <title type="topic">Administration</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#pension">pension</term>
+          <term ref="#aveugle">aveugle</term>
+          <term ref="#guerre">guerre</term>
+          <term ref="#cotisation">cotisation</term>
+          <term ref="#naissance">naissance</term>
+          <term ref="#deces">décès</term>
+          <term ref="#mariage">mariage</term>
+          <term ref="#conseil-dadministration">conseil d'administration</term>
+          <term ref="#invalidite">invalidité</term>
+          <term ref="#victimes-de-guerre">victimes de guerre</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de divers sujets d'intérêt
+          pour ses membres, notamment la question de la stabilité des pensions face aux fluctuations
+          des changes, les cotisations des membres, et les informations générales concernant
+          l'association. Il présente également la chronique de l'U.A.G., incluant des nouvelles sur
+          la Caisse Fraternelle, des annonces de naissances, mariages et décès parmi les membres et
+          leurs familles. Le document contient aussi le procès-verbal de la réunion du Conseil
+          d'Administration du 19 décembre 1925, abordant des sujets tels que l'élection d'un
+          vice-président et la création de titres honoraires.</p>
+      </abstract>
+      <creation>
+        <date when="1926-02-01">01/02/1926</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-10" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Comment assurer la stabilité de nos Pensions?</ref>
+          </item>
+          <item>
+            <ref target="#h8">Programme du Ministre des Pensions</ref>
+          </item>
+          <item>
+            <ref target="#h9">UN HOMMAGE AUX COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h10">LA TACHE DU MINISTERE DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h11">LA LOI DES PENSIONS DOIT RESTER INTANGIBLE</ref>
+          </item>
+          <item>
+            <ref target="#h12">LES PRISONNIERS DE GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h13">LES BAREMES D'INVALIDITE</ref>
+          </item>
+          <item>
+            <ref target="#h14">LES ORPHELINS, LES ASCENDANTS, LES VEUVES</ref>
+          </item>
+          <item>
+            <ref target="#h15">LES VEUVES REMARIEES DOIVENT CONSERVER LEUR PENSION</ref>
+          </item>
+          <item>
+            <ref target="#h16">LES FEMMES D'ALIENES</ref>
+          </item>
+          <item>
+            <ref target="#h17">LA PROROGATION DES DELAIS</ref>
+          </item>
+          <item>
+            <ref target="#h18">LES TRIBUNAUX DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h19">LES MORTS</ref>
+          </item>
+          <item>
+            <ref target="#h20">UN AUTRE CHAMP D'ACTIVITE</ref>
+          </item>
+          <item>
+            <ref target="#h21">L'HYGIENE</ref>
+          </item>
+          <item>
+            <ref target="#h22">Suppression du Délai de cinq ans</ref>
+          </item>
+          <item>
+            <ref target="#h23">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h24">PAIEMENT DES COTISATIONS</ref>
+              </item>
+              <item>
+                <ref target="#h25">AVIS AUX PENSIONNES DE GUERRE</ref>
+              </item>
+              <item>
+                <ref target="#h26">DU CAMARADE LACOTAS :</ref>
+              </item>
+              <item>
+                <ref target="#h27">HUILES</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h28">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h29">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h30">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h31">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h32">MARIAGE</ref>
+                  </item>
+                  <item>
+                    <ref target="#h33">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h34">Procès-Verbal de la réunion du Conseil d'Administration du 19
+                  Décembre 1925</ref>
+              </item>
+              <item>
+                <ref target="#h35">LEGION D'HONNEUR</ref>
+              </item>
+              <item>
+                <ref target="#h36">QUESTIONNAIRE A REMPLIR ET A RETOURNER PAR LES CAMARADES DESIREUX
+                  DE FAIRE UN SEJOUR A FRANCEVILLE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h37">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h38">COMITE D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h39">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">8e Année. — N° 2</fw>
+          <fw type="header">
+            <hi rend="underline">Février 1926</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Remerciements.</item>
+                    <item>Comment assurer la stabilité de nos pensions ?</item>
+                    <item>Programme du Ministère des Pensions.</item>
+                    <item>Suppression du délai de cinq ans.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Notes et Informations</head>
+                  <list>
+                    <item>Cotisations.</item>
+                    <item>Avis aux pensionnés de guerre.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal du Conseil d'administration du 19 décembre.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Questionnaire Franceville.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou: M. le colonel Fabry, ancien ministre des Colonies; M. Buleux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Ridgely Carter; M. Paul de Gassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Gettis; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper; Miss Winifred Holt; Mme Léopold Kahn; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Rameil, député;</p>
+            <p>M<hi rend="superscript">e</hi> Henri-Robert, de l'Académie Française, ancien
+              bâtonnier de l'Ordre des Avocats; Général Sainte-Claire-Deville; M. Vallert-Radot; M.
+              Constant Verlot, député; M. le Professeur Walther, membre de l'Académie de
+              Médecine.</p>
+            <pb n="3"/>
+            <p>Dans l'impossibilité de répondre individuellement à tous les weux qui nous sont
+              adressés par nos amis et camarades, nous les prions de trouver ici l'expression de nos
+              plus sifs remerciements.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Comment assurer la stabilité de
+              nos Pensions?</head>
+            <p>Il est une considération qui domine tout le problème de la sécurité des
+              pensionnés.</p>
+            <p>Les fluctuations des changes ont la répercussion directe suivante : le jour de
+              l'échéance de la pension, elle n'a plus la puissance d'achat qu'elle avait au jour de
+              sa concession.</p>
+            <p>C'est à ce mal qu'il convient d'apporter un remède. Entre les moyens qui
+              permettraient de stabiliser la pension par rapport au change, c'est-à-dire au coût de
+              la vie, il en est un qui pourrait être pris en considération,</p>
+            <p>Lors du dernier emprunt, les souscripteurs se sont vus garantir le principal et
+              l'intérêt de leur prêt sur la base de X... francs pour une livre sterling. Lorsque fut
+              voté le réajustement des pensions, la pensée du législateur était de réaliser la
+              parité entre la pension concédée et le coût de la vie. Le coût de la vie correspondait
+              à une valeur déterminée de la livre sterling. On peut donc dire qu'à cette époque, une
+              pension de X... francs correspondait à la puissance d'achat de X... livres. Pourquoi
+              ne pas décider que la puissance d'achat de la pension devant être invariable, elle
+              serait payée conformément au mode de paiement prévu dans les conditions de
+              souscription du dernier emprunt franc-or?</p>
+            <p>Un exemple pour concrétiser notre pensée : Admettons qu'à l'époque où fut voté notre
+              réajustement, la livre ait valu 105 francs; un pensionné de 105 francs touchait 105
+              francs, et cette somme correspondait à la puissance d'achat d'une livre. Aujourd'hui
+              que la livre est à 130 francs, le pensionné devrait toucher <pb n="4"/>
+              <note type="foliation">— 2 —</note> 130 francs, puisque la puissance d'achat de la
+              livre n'a pas varié, mais que celle du franc a baissé.</p>
+            <p>En ce qui nous concerne, le problème est vital, et nos pensions qui constituent nos
+              seules ressources ne peuvent pas courir d'aléa aussi grave, car la sécurité que l'on a
+              entendu nous assurer n'est plus, en vertu des considérations ci-dessus exposées, qu'un
+              vain mot.</p>
+            <p>Il faut donc que le Gouvernement, comprenant la gravité du problème (et notre action
+              sera dirigée dans ce sens), étudie les moyens de remédier à un état de choses qui nous
+              est gravement préjudiciable.</p>
+            <p>Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Programme du Ministre des
+              Pensions</head>
+            <p>Au banquet qui a clôturé les travaux du Congrès de la F. N. A. P. G., le nouveau
+              ministre des Pensions, M. Jourdain, a prononcé un discours fort important dans lequel
+              il a exposé son programme.</p>
+            <p>Nous croyons utile de reproduire les principaux passages de ce discours, susceptibles
+              d'intéresser les camarades.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">UN HOMMAGE AUX COMBATTANTS</head>
+            <p>" Il est toujours difficile de succéder à quelqu'un et la tâche est ici
+              particulièrement malaisée; je crois avoir compris, que plus qu'à tout autre, il m'est
+              interdit d'y faillir. J'essayerai et, si vous voulez m'aider, je gage de réussir, non
+              point à effacer le souvenir que vous laisse en partant M. le ministre Antériou, mais
+              du moins, et dans une certaine mesure, à atténuer vos regrets. "Mais faites-moi la
+              grâce de croire qu'il n'était besoin ni de cette inquiétude, ni de cette émulation
+              pour me faire comprendre la gravité de la tâche que le sort m'a confiée; et c'est avec
+              une émotion sincère que j'ai accepté l'honneur d'assurer, à mon poste, le respect de
+              vos droits sacrés. " J'éprouve au milieu de vous, glorieuse phalange des grandes
+              victimes d'une guerre atroce, la gêne d'un sort meilleur; mais gardez-vous de croire
+              que cette timidité soit de nature à méloigner de vous; et puisque vous êtes ici, tous,
+              les admirables et dévoués représentants de <pb n="5"/>
+              <note type="foliation">— 3 —</note> ceux qui ont souffert et qui souffrent encore,
+              dites-leur qu'un ministre qui n'a pas partagé vos souffrances de mutilés, s'incline,
+              pour cette raison même, avec plus de respect ef d'affectueuse reconnaissance, devant
+              leurs misères passées ou présentes. "Et puis, Messieurs, mon coeur a d'autres raisons
+              pour vous garantir de mon dévouement. J'appartiens à cette terre d'Alsace qui fut,
+              avec la liberté, le prix de vos sacrifices. A ce titre, ma dette est plus grande
+              encore envers vous; j'ai tiré un plus grand profit de votre dévouement, et si la
+              nation tout entière a contracté une obligation juridique dont vous proclamez, à juste
+              titre, le principe intangible, cette obligation s'aggrave, pour nous Alsaciens, d'une
+              dette de cœur que, moins que tout autre, je ne saurai oublier. "Mais il ne suffit
+              point de connaître mes sentiments à votre égard, dont vous ne pourriez d'ailleurs pas
+              douter, et je sais que vous attendez de moi, mieux que l'assurance d'une gratitude. Je
+              ne tromperai pas votre attente, et je compte vous expliquer très simplement comment je
+              comprends mon rôle et comment j'exécuterai la mission qui m'est confiée.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">LA TACHE DU MINISTERE DES
+              PENSIONS</head>
+            <p>"Je considère que le ministre des Pensions doit poursuivre deux buts distincts,
+              quoique intimement liés. Le premier, vous le connaissez tous, consiste à poursuivre la
+              liquidation des pensions de guerre dans un meilleur aménagement des dispositions
+              législatives, et dans un perpétuel perfectionnement des applications matérielles de la
+              loi. "Le second est plus vaste, moins défini, plus lointain; mais ni sa difficulté, ni
+              sa grandeur n'arrêteront mes desseins ; il consiste à poursuivre une œuvre sociale de
+              renaissance au profit de ceux qui, après avoir tout donné à la cause commune, ont
+              droit, plus que tous autres, à une vie meilleure. "Deux voies distinctes, mais
+              parallèles, ai-je dit, la première, admirablement tracée, déjà libérée des principaux
+              obstacles, s'achemine très vite à la conclusion définitive d'une liquidation purement
+              comptable. La seconde n'est encore qu'un sentier où la marche doit être lente et
+              prudente. Le chemin sera long et difficile, mais guidés par une énergie confiante,
+              nous le verrons s'élargir et nous conduire peu à peu vers un bien-être social auquel
+              vous avez droit. "Tels sont, Messieurs, les deux ordres d'aspiration qui guideront mes
+              actes, et mon attitude, et telles seront aujourd'hui les deux parties de mon
+              discours.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LA LOI DES PENSIONS DOIT RESTER
+              INTANGIBLE</head>
+            <p>"Au point de vue de la liquidation pure et simple, quelle est ma tâche; quels sont
+              les problèmes que nous devons affronter ensemble, et quelles solutions devons-nous
+              leur donner ? " Avant que d'entreprendre l'examen des principales questions qui me
+              préoccupent, je vous dois une déclaration; elle n'a rien d'original et, pour avoir été
+              si souvent proclamée, elle est devenue une sorte de lieu commun; mais elle n'a rien
+              perdu pour cela de sa force et de son importance. " Je veux que soit jalousement gardé
+              le respect des dispositions fondamentales de la loi du 31 mars 1919 et ce souci
+              restera toujours inscrit au frontispice de mon programme. " Je n'ai pas, en effet, la
+              prétention absurde de ceux qui, pour marquer, veulent innover à tout prix. Dans le
+              cadre des mesures en vigueur, il reste pour notre activité un champ suffisamment
+              vaste, sans qu'il soit besoin de courir de nouvelles aventures. " Cette loi du 31 mars
+              1919, vous l'avez dénommée votre charte; cette appellation justifiée lui confère un
+              caractère d'intangibilité, qui s'impose désormais à tous les imprudents qui seraient
+              tentés de chercher le mieux aux dépens du bien. "La raboteuse est un instrument
+              dangereux », a-t-on dit, et nulle image ne recommande mieux la prudence particulière
+              que nous devons apporter à toute mesure qui, de près ou de loin, est susceptible
+              d'atteindre et d'affecter les principes définitifs de votre charte.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LES PRISONNIERS DE GUERRE</head>
+            <p>"La loi du 13 juillet 1925 a donné satisfaction à votre principale et juste
+              revendication : il vous reste à obtenir le remboursement des avoirs en monnaies
+              étrangères, la restitution des objets saisis en captivité; vous avez, sur ces points,
+              des droits indiscutés dont nous voulons faciliter l'exercice. " Par ailleurs, on m'a
+              soumis l'idée de la création d'une médaille des prisonniers de guerre évadés; jamais
+              insigne ne consacrera mieux le patriotisme ardent et la volonté héroïque.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">LES BAREMES D'INVALIDITE</head>
+            <p>" Nulle question ne m`est apparue aussi complexe et aussi délicate que celle de la
+              fixation des barèmes d'invalidité ; elle présente en même temps une exceptionnelle
+              gravité, puisqu'elle constitue la base</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+            <p>de calcul de vos droits, et que la moindre erreur, soit dans l'ordre médical, soit
+              dans l'ordre psychologique, est susceptible de créer une multiplicité de cas navrants.
+              "Notre effort doit tendre à surveiller journellement l'application des barèmes et à
+              recevoir scrupuleusement les suggestions de l'expérience.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LES ORPHELINS, LES ASCENDANTS,
+              LES VEUVES</head>
+            <p>"Il existe toute une autre catégorie de victimes que l'on n'a jamais oubliées, mais
+              dont le malheureux sort appelle sans cesse notre scrupuleuse attention et vous vous
+              honorez grandement, Messieurs, en plaçant au premier plan de vos préoccupations, les
+              enfants, les veuves, les parents de vos camarades morts au champ d'honneur. "Beaucoup
+              a été fait pour eux, mais il reste beaucoup à faire. Une anomalie singulière,
+              provenant de la survivance d'une vieille législation, veut que l'enfant légitime ne
+              possède un droit à réparation qu'en représentation des droits de sa mère; l'enfant
+              naturel possède, au contraire, un droit propre à la pension. Il y a là une situation
+              choquante qui ne peut être maintenue; l'enfant légitime ne saurait être moins bien
+              traité que l'enfant naturel. "Quant aux droits des ascendants, encore qu'ils soient
+              absolument incontestés, ils mériteraient peut-être d'être concédés dans des conditions
+              plus équitables; là encore, je n'ignore pas que la question mérite d'être
+              scrupuleusement étudiée, et j'accueillerai favorablement toutes les suggestions qui me
+              seront apportées sur ce point.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">LES VEUVES REMARIEES DOIVENT
+              CONSERVER LEUR PENSION</head>
+            <p>"Enfin, Messieurs, on s'est trop passionné sur la question de la suppression de la
+              pension aux veuves remariées, pour que je n'aie pas le désir sincère de mettre
+              heureusement fin à cette atmosphère de gêne qui règne autour de ce problème. Mes
+              intentions sont très nettes sur ce point; d'abord, je n'aurais pas admis que, sous
+              forme d'un expédient d'économie inséré dans une loi de finances, on risque de porter
+              atteinte à vos droits; pour le surplus, je suis partisan, sans réserves, du maintien
+              de la pension aux veuves remariées. Il existe, à mon sens, des raisons d'ordre moral
+              et social qui commandent cette opinion, et il est permis de croire que la mesure
+              proposée entraînerait des conséquences faciles à prévoir et des plus regrettables.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LES FEMMES D'ALIENES</head>
+            <p>"Au chapitre des veuves, volontairement, je veux retenir la situation malheureuse des
+              femmes d'aliénés; ne sont-elles pas des veuves, elles aussi ? Leur cause a été
+              soutenue dernièrement par de généreux apôtres; leur souci sera le mien; une
+              Ccommission fonctionne déjà à laquelle siègent, avec nous, les représentants de
+              l'Hygiène et de la Justice. Son but est d'examiner le régime fait actuellement aux
+              aliénés de guerre; elle devra connaître en même temps du sort des femmes d'aliénés, et
+              je suis décidé à donner toute mon attention à ces travaux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">LA PROROGATION DES DELAIS</head>
+            <p>"C'est d'abord la question des prorogations des délais. Sur ce point, j'aurai sans
+              doute l'heureux privilège de recueillir les fruits d'un effort auquel je suis
+              étranger; le projet de loi tendant à la suppression des délais de demande et de
+              révision a été voté par la Chembre, vous le savez, le 12 février 1925. Il faut qu'il
+              obtienne le plus rapidement possible le vote du Sénat, j'en ai reçu dernièrement
+              l'assurance, et je compte vous apprendre bientôt l'heureux aboutissement de cette
+              juste proposition.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">LES TRIBUNAUX DES PENSIONS</head>
+            <p>" Il reste un point sur lequel j'ai le devoir de m'expliquer, c'est le Tribunal des
+              Pensions. Il a prêté à certaines critiques et tout permet de penser que ces critiques
+              ne disparaîtront qu'avec lui ; il ne saurait échapper au sort inéluctable qui dresse
+              toujours dans une certaine animosité les justiciables contre le juge. " Loin de moi la
+              pensée d'absoudre toutes les erreurs et de méconnaître toutes les imperfections. " Je
+              concède que le mécanisme appelle des perfectionnements, soit dans sa composition, soit
+              dans ses méthodes ; un projet de loi a été déposé tendant à augmenter le nombre des
+              audiences et la composition des tribunaux, dans certains départements, il y aura lieu
+              de créer des sections supplémentaires. Ainsi seront évitées les lenteurs de procédure
+              et, du même coup, les multiples incidents qui, si futiles soient-ils, énervent et
+              démoralisent...</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">LES MORTS</head>
+            <p>" Le ministre des Pensions assume encore une charge d'une gra vité émouvante : la
+              garde de nos morts. Il semble que dans cette mis-</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>sion sacrée, nul ne doive pouvoir faillir à son devoir ; et si, en fait, la dignité
+              de cette tâche fut quelque instant oubliée, je puis dire aujourd'hui que grâce à
+              l'effort remarquable d'un service parfaitement dirigé, l'organisation de nos.
+              cimetières nationaux ne souffre aucune critique. Les regroupements sont virtuellement
+              achevés et, dans un délai très court, le nouveau cimetière de Sarrebourg aura
+              pieusement recueilli les corps de tous les braves qui sont morts en Allemagne.
+              "Certes, une ambition est permise ; la terre est froide et sans ornement où reposent
+              tous nos amis. Nous aurons à rechercher les possibilités de donner plus d'éclat à leur
+              suprême demeure, afin que soit plus solennellement perpétré le souvenir de leur
+              sacrifice.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">UN AUTRE CHAMP D'ACTIVITE</head>
+            <p>" Je crois avoir pesé tous les points principaux qui constituent à mon sens la
+              première partie de mon programme et vous avez aperçu que je suis resté dans le cadre
+              des destinations premières de ce ministère qui a été institué comme une sorte de
+              liquidateur de vos droits. Ce rôle purement administratif et comptable était grand ;
+              il reste forcément limité. "Mais d'autres buts sont apparus, chaque jour plus
+              impérieux, qui grandissent singulièrement à mes yeux le rôle de l'organisme
+              gouvernemental que je suis appelé à diriger. " Je suis un liquidateur, sans doute,
+              mais ne dois-je pas être aussi un tuteur? "Quand j'aurai liquidé vos pensions,
+              aurai-je donc payé vos misères et terminé ma tâche sur ce geste sommaire ? "Le mot
+              "réparation ", quand il s'applique à vos sacrifices, ne peut pas être seulement le
+              synonyme de "paiement". Je veux lui attribuer une signification plus complète, plus
+              grande. Quand le pays vous a appelés après la guerre et qu'il vous a payé ce bras,
+              cette jambe, au taux d'un barème, il n'était pas quitte ! " Il n'était pas quitte
+              envers vous, parce qu'il est des souffrances qui ne peuvent jamais être mises en
+              équation avec des sommes d'argent. " Il n'était pas quitte envers lui-même parce que
+              la présence, au sein d'une nation, de millions d'individus plus ou moins diminués
+              physiquement ou moralement crée inévitablement des problèmes sociaux đè travail,
+              d'hygiène et de prévoyance, auxquels il ne peut pas rester étranger.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>" Cette idée est apparue au contact même des réalités malheureuses, mais elle
+              existait déjà en germe dans la législation créée depuis la guerre en votre faveur.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">L'HYGIENE</head>
+            <p>"C'est ainsi que l'article 64 reconnaît des soins aux victimes de la guerre ; à la
+              lettre, il dit seulement que vous seront payés les frais médicaux et pharmaceutiques.
+              Mais que fera le tuberculeux, que fera l'incurable, lorsqu'il aura été gavé de remèdes
+              et de soins ? où trai-nera-t-il son amertume et son désespoir ? " Avec vous tous, je
+              songe tristement à tous ces malheureux, à tous ces grands malades, à tous ces grands
+              mutilés, à qui la pension pernet de manger et de respirer, mais pas de " vivre ". Et
+              je me dis que, dans cet article 64 , j'ai le droit de prendre l'idée étroite et de lui
+              donner un essor ; j'ai le devoir de dire que le ministère des Pensions doit être la
+              maison tutrice qui s'efforcera d'aborder hardiment tous les problèmes qui touchent à
+              la santé des victimes de la guerre. " Asiles d'incurables, sanatoria, colonies
+              d'implaçables..., champ trop vaste, sans doute, pour une réalisation immédiate, mais
+              tâches admirables pour lesquelles le gouvernement trouvera peut-être l'aide et le
+              concours de bien des initiatives privées... )"</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">Suppression du Délai de cinq
+              ans</head>
+            <p>Avant de se séparer, les députés ont adopté les dispositions votées par le Sénat.
+              Voici le texte de la loi nouvelle :</p>
+            <p>Art. 1<hi rend="superscript">er</hi> - Il est ouvert un délai supplémentaire jusqu'au
+              31 décembre 1928 pour la présentation, au titre de la loi du 31 mars 1919, des
+              demandes de pension d'invalidité, lorsque les infirmités invoquées sont imputables au
+              service accompli pendant la guerre 19141918, à charge pour les intéressés de faire,
+              par tous moyens, la preuve de cette imputabilité. En cas d'aggravation d'infirmités
+              imputables à la guerre 1914-1918, aucune limitation de délai n'est imposée pour les
+              demandes en revision de pension formulées au titre de l'article 68 de la loi du 31
+              mars 1919.</p>
+            <p>Art. 2. - Les veuves remariées ne pourront tirer aucun droit à pension du bénéfice
+              des dispositions de l'article 1<hi rend="superscript">er</hi>.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">PAIEMENT DES
+                COTISATIONS</head>
+              <p>(Rappel de la décision de l'Assemblée générale.) L'Assemblée générale décide que
+                les cotisations non payées avant le 1<hi rend="superscript">er</hi> juillet soient
+                encaissées par la poste, que les frais de cet encaissement soient supportés par les
+                intéressés, que l'article 4 des statuts soit appliqué automatiquement aux Aveugles
+                de Guerre qui refuseraient de payer ce remboursement sans excuse valable.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">AVIS AUX PENSIONNES DE
+                GUERRE</head>
+              <p>Un décret du 15 décembre 1925 proroge, jusqu'au 31 décembre 1926, les dispositions
+                des décrets antérieurs, accordant la franchise postale à la correspondance adressée,
+                par les pensionnés, aux sections départementales des pensions.</p>
+              <p>En conséquence, jusqu'au 31 décembre 1926, il ne sera pas nécessaire, pour lesdits
+                pensionnés, d'affranchir les lettres ordinaires (c'est-à-dire à l'exclusion des
+                lettres recommandées, pneumatiques, etc...), qu'ils enverront à ces organes. Il est
+                rappelé qu'il est, toutefois, indispensable que l'adresse soit mise très
+                exactement.</p>
+              <p>Pour le département de la Seine, l'adresse à observer est la suivante :</p>
+              <p>Section Départementale des Pensions, 10, quai de la Rapée, PARIS (12').</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">DU CAMARADE LACOTAS :</head>
+              <p>Grands vins de table (Coste-Folcher), Montpellier. Pièce Demi-pièce</p>
+              <p>Vin rouge coteau, nouveau, 9<hi rend="superscript">°</hi>............ 375 Vin rouge
+                coteau, supérieur, nouveau, 10<hi rend="superscript">°</hi>. 385 Vin rouge coteau,
+                supérieur, vieux, 10<hi rend="superscript">°</hi>  390210 Vin blanc picpoul,
+                vieux, 10<hi rend="superscript">°</hi>    440235</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+              <p>Ces prix s'entendent à la pièce de 220 litres, ou à la demi-pièce de 110 litres,
+                franco de port, de régie et de logement, gare destinataire.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">HUILES</head>
+              <p>Table surfine : 7,75 . Olive, garantie pure extra : 10 . Ces prix rendus franco de
+                port et d'emballage pour commandes de 10 litres. Majoration de 0 fr .25 au litre
+                pour envoi de 5 litres. A. Lacotas, 5, rue Gerhardt, Montpellier.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fratemelle a distribué entre le 15 décembre et le 15 janvier, une
+                somme de 7.450 francs, se répartissant comme suit : Naissances ..... 2.400 Décès et
+                couronnes ..... 4.200 Secours ..... 250 Pensions rejetées ..... 600 Il y a lieu
+                d'ajouter à ces 7.450 francs, une somme de 5.000 francs pour prêts de maisons.</p>
+              <p>La Commission de Caisse Fratemelle a eu à examiner six demandes de secours dont
+                trois n'ont donné lieu, pour motifs divers, à aucun secours.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h31">NAISSANCES</head>
+                <p>Notre camarade et Mme Harivelle, de Caen (Calvados), nous font part de la
+                  naissance de leur troisième enfant, Odette, née le 15 novembre 1925.</p>
+                <p>Notre camarade et Mme Zimmernann, de Mulhouse (Haut-Rhin), nous font part de la
+                  naissance de leur fils, René, né le 25 novembre 1925.</p>
+                <p>Notre camarade et Mme Ferezou, de Tregarvan (Finistère), nous font part de la
+                  naissance de leur fille, Jeanne, née le 29 novembre 1925.</p>
+                <p>Notre camarade et Mme Chavastelon (Antoine), de La Vialle (Corrèze), nous font
+                  part de la naissance de leur troisième enfant, Fernande, née le 8 décembre
+                  1925.</p>
+                <p>Notre cemarade et Mme Abserahman Ben Saad, de Laghouat (Alger), nous font part de
+                  la naissance de leur sixième enfant, Kheira, née le 15 décembre 1925.</p>
+                <p>Notre camarade et Mme Bouton, de Lucenay (Rhône), nous font</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+                <p>part de la naissance de leur troisième fils, Claudius, né le 18 décembre
+                  1925.</p>
+                <p>Notre camarade et Mme Hassen Ben Salem Kraim, de Téboulba, nous font part de la
+                  naissance de leur quatrième enfant, Salha, née le 5 décembre 1925.</p>
+                <p>Notre canarade et Mme Deboulet, de Auxelles-Haut (HautRhin), nous font part de la
+                  naissance de leur fils Roger, né le 18 décembre 1925.</p>
+                <p>Notre camarade et Mme Gergaud, de Pornichet (Loire-Inférieure), nous font part de
+                  la naissance de leur fille, Manuella, née le 20 décembre 1925.</p>
+                <p>Notre camarade et Mme Le Mire, de Le Guildo (Côtes-du-Nord), nous font part de la
+                  naissance de leur quatrième enfant, Michel, né le 22 novembre 1925.</p>
+                <p>Notre camarade et Mme Curbières, de Pamiers (Ariège), nous font part de la
+                  naissance de leur troisième enfant, Robert, né le 24 décembre 1925.</p>
+                <p>Notre camarade et Mme Framery, de Bony (Pas-de-Calais), nous font part de la
+                  naissance de leur fille, Madeleine, née le 28 décembre 1925.</p>
+                <p>Notre camarade et Mme Remond, de Braux, par Pont-Royal (Côte-d'Or), nous font
+                  part de la naissance de leur fille, Lucia, née le 25 décembre 1925.</p>
+                <p>Notre camarade et Mme Girault, de Saint-Denis-d'Orgues (Sarthe), nous font part
+                  de la naissance de leur fille, Madeleine, née le 30 décembre 1925.</p>
+                <p>Notre camarade et Mme Gillet, de Gièvres (Loir-et-Cher), nous font part de la
+                  naissance de leur fils, Robert, né le 7 décembre 1925.</p>
+                <p>Notre camarade et Mme Roumeas, de Saint-Jean-de-Muzols (Ardèche), nous font part
+                  de la naissance de leur fille, Paulette-Henriette, née le 22 décembre 1925.</p>
+                <p>Notre camarade et Mme Branger de Courtenay (Loiret), nous font part de la
+                  naissance de leur fille, Annette, née le 6 janvier 1926.</p>
+                <p>Notre camarade et Mme Burnier, de Magland (Haute-Savoie), nous font part de la
+                  naissance de leur fille, Marie-Louise, née le 28 décembre 1925.</p>
+                <p>Notre camarade et Mme Maumont, de Saint-Pardoux-Corbier (Corrèze), nous font part
+                  de la naissance de leur fils, Jean, né le 22 décembre 1925.</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+                <p>Notre camarade et Mme Paget, de Morbier, nous font part de la naissance de leur
+                  fils, né le 14 janvier 1926.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h32">MARIAGE</head>
+                <p>Notre camarade et Mme Terrier, de Paris, nous font part du mariage de leur fille,
+                  avec notre camarade Passenaud, qui a été célébré le 17 octobre 1925.</p>
+                <p>Nous adressons nos meilleurs vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h33">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Pichard (Auguste), décédé le 26
+                  décembre 1925, à l'âge de quarante-quatre ans.</p>
+                <p>De notre camarade Morlet (Gabriel), décédé le 14 janvier 1926, à l'âge de
+                  quarante-trois ans.</p>
+                <p>De la femme dè notre camarade Vernhe, décédée le 12 décembre 1925, à
+                  cinquante-deux ans.</p>
+                <p>De la femme de notre camarade Le Sin, de l'île d'Ouessant (Finistère), décédée à
+                  l'âge de trente-trois ans.</p>
+                <p>De la femme de notre camarade Le Floch, de Rostrenem (Côtes-du-Nord), décédée le
+                  5 janvier 1926.</p>
+                <p>La naissance et le décès de la fille de notre camarade Coudrai, de Le Buisson, le
+                  27 décembre 1925.</p>
+                <p>Du fils de notre camarade Jouguelaird, d'Alfortville (Seine), décédé le 24
+                  décembre 1925, à l'âge de dix-neuf ans.</p>
+                <p>De la mère de notre camarade Boeri, de Corse, décédée le 29 novembre 1925, à
+                  l'âge de quatre-vingts ans.</p>
+                <p>Du père de notre camarade Gauch, décédé le 31 août 1925. Du frère de notre
+                  camarade Bourret, de Vedène (Vaucluse), décédé le 30 décembre 1925, à l'âge de
+                  vingt-six ans.</p>
+                <p>De la belle-mère de notre camarade Chesneau, décédée le 29 novembre 1925.</p>
+                <p>De la belle-mère de notre camarade Guihard, décédée le 9 janvier 1925, à
+                  soixante-quinze ans.</p>
+                <p>Du beau-père de notre camarade Buchmuller, décédé le 11 décembre 1925, à l'âge de
+                  soixante-douze ans.</p>
+                <p>Du beau-père de notre camarade Julie, décédé le 25 décembre 1925, à l'âge de
+                  soixante-quinze ans.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">Procès-Verbal de la réunion
+                du Conseil d'Administration du 19 Décembre 1925</head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence de Scapini. Sont présents :
+                L'Evesque (Gaston), Grillet, Courteix, Gonan, Arnault, Bardoux, Bertrand, Bois,
+                Dufourc, Favret, Laffargue, Lauté, Malgat, Nicolaï, Noireaux, Virot.</p>
+              <p>Assistent à la séance : MM. de Traversay, président du Comité d'action ; les
+                cannarades Saillot et Gudefin.</p>
+              <p>Ont écrit : Izaac, Lallement, Leloup, Toudouri, qui donnent leurs pouvoirs au
+                président ; Robert (Maurice), Cabasson, qui donnent leurs pouvoirs à Favret ;
+                Derunder, qui donne ses pouvoirs à Noireaux ; Lagarde qui donne ses pouvoirs à
+                Laffargue.</p>
+              <p>Excusés : Bloncourt, qui donne ses pouvoirs au secrétaire général ; Goubin,
+                pouvoirs au président ; Amar, pouvoirs à Lauté. 1<hi rend="superscript">°</hi>
+                Lecture du procès-verbal de la dernière séance. Adopté à l'unanimité. 2<hi
+                  rend="superscript">°</hi> Lecture de la situation financière. Adopté à
+                l'unanimité. 3<hi rend="superscript">°</hi> Election d'un troisième vice-président.
+                MM. L'Evesque et de Traversay procèdent au dépouillement du scrutin.</p>
+              <p>Suffrages exprimés : 29 . Bois : 2 voix; Dufourc: 1 voix; Favret : 1 voix; Lauté :
+                4 voix ; Noireaux : 20 voix.</p>
+              <p>Noireaux est élu vice-président. 4<hi rend="superscript">°</hi> Création des titres
+                de présidents et de secrétaires généraux honoraires.</p>
+              <p>Le Président. - Dans la note du secrétariat, nous avons formé le projet de créer
+                des présidents et secrétaires généraux honoraires, et cela afin de remercier les
+                camarades qui ont occupé les fonctions de secrétaire général ou de président
+                précédemnnent. Ces derniers ont donné beaucoup de leur temps à l'Union, malgré leurs
+                occupations personnelles, il convient de leur prouver notre gratitude et nous
+                n'avons, je crois, que ce seul moyen.</p>
+              <p>En outre, les camarades étant très au courant du fonctionnement de notre Union, ce
+                titre officiel leur permettra de faire des démarches à l'extérieur. Il ne marque
+                donc pas de ce fait une inactivité, contrairement à ce qu'on pourrait croire.</p>
+              <p>Lecture des avis dès administrateurs de province à ce sujet.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Après discussion, le bureau dépose la motion suivante ainsi conçue : Le Conseil
+                d'administration décide, afin d'exprimer au nom de l'Union sa reconnaissance aux
+                camarades qui se sont spécialement dévoués et distingués dans les fonctions de
+                président ou de secrétaire général du Groupement, de leur donner les titres de
+                président honoraire et de secrétaire général honoraire.</p>
+              <p>Le titre de président ou de secrétaire général honoraire pourra être attribué de la
+                façon suivante :</p>
+              <p>Un groupe d'administrateurs qui devra comprendre au moins dix membres du Conseil
+                d'administration saisira le Bureau d'une demande d'attribution du titre. Le Bureau
+                portera cette demande à l'ordre du jour du prochain Conseil qui statuera.</p>
+              <p>Le titre ne pourra être accordé que si l'administrateur qui fait l'objet de la
+                demande est resté en fonctions pendant un laps de temps d'au moins un an, ou bien
+                s'il a rendu des services exceptionnels.</p>
+              <p>Cette motion est adoptée par 16 voix contre 6.3 abstentions. 5<hi
+                  rend="superscript">°</hi> Réintégration d'un membre titulaire. Lecture des avis
+                des administrateurs de province. Après avoir pris connaissance des explications
+                fournies par le camarade Hutin, le Conseil décide sa réintégration à l'unanimité.
+                  6<hi rend="superscript">°</hi> Questions diverses. Admission des camarades :
+                Bluteau, 1900 / 0, art. 10. Pension temporaire. Courtin, 1000 / 0, art. 10. Pension
+                définitive. Fauvergue, victime civile de la guerre, 1000 / 0, art. 10. Pension
+                définitive.</p>
+              <p>Projet de représentation du Roi David. Le secrétaire général rappelle aux
+                administrateurs que Mme Chevalier organise une représentation du Roi David, à la
+                Salle Gaveau, qui doit avoir lieu le 14 février, en soirée.</p>
+              <p>Le succès remporté l'année dernière déjà nous permet d'espérer une brillante
+                recette.</p>
+              <p>Les administrateurs remercient Mme Chevalier et lui font confiance ainsi qu'au
+                Bureau pour mener l'affaire à bien.</p>
+              <p>Nomination d'un administrateur pour les élections en vue du renouvellement du
+                Conseil supérieur de l'Office national des Pupilles de la Nation.</p>
+              <p>A l'unanimité, Bois est désigné. La séance est levée à 17 h .30 .</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">LEGION D'HONNEUR</head>
+              <p>Par décret en date du 23 décembre 1925, a été nommé au grade de commandeur dans
+                l'Ordre national de la Légion d'honneur :</p>
+              <p>Pour prendre rang du 23 septembre 1925 : Serre (Pierre-Léon), capitaine au 60<hi
+                  rend="superscript">°</hi> régiment d'infanterie, retraité pour blessure de guerre.
+                Par décret en date du 13 janvier 1926, a été nommé au grade de chevalier dans
+                l'Ordre national de la Légion d'honneur :</p>
+              <p>Pour prendre rang du 16 août 1920 : Dumont (Alexis-François), ex-soldat du 315<hi
+                  rend="superscript">°</hi> régiment d'infanterie. Fautsch (René), ex-soldat du
+                  500<hi rend="superscript">°</hi> régiment d'artillerie d'assaut.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">QUESTIONNAIRE A REMPLIR ET A
+                RETOURNER PAR LES CAMARADES DESIREUX DE FAIRE UN SEJOUR A FRANCEVILLE</head>
+              <p>Les camarades désireux de bénéficier d'un séjour à Franceville retourneront, avant
+                le 15 mars, le questionnaire ci-dessous après l'avoir rempli et signé :</p>
+              <p>Nom Prénoms Adresse (l'écrire lisiblement)</p>
+              <p>Combien de vos enfants vous accompagnent? Indiquez la ou les périodes pendant
+                laquelle ou lesquelles vous désirez bénéficier du séjour.</p>
+              <p>Je déclare me conformer au règlement de Franceville. Le 1926.</p>
+              <p>Signature :</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; vice-présidents : Courtreix, Grillet, Noireaux. Secrétaire
+              général : Conan. Trésorier: Gaston L'Evesque. Membres : Amar, Antoine, Arnault,
+              Bardoux, Bertrand, Bloncourt, Bois, Derunder, Dufourc, Fauvel, Favret, Goubin, Izaac,
+              Laffargue, Lagarde, Lallement, Lauté, Leloup, Malgat, Nicolai, Robert (Maurice),
+              Toudouri, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur: M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. Auterbe, Actuaire à la Compagnie « L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broquin. M. Chepper. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Durranie, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaguier. Baronne de Grotthuss-Gernandt. Mme Henni. Mme Kalt. Mme L'Evesque.
+              Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal.</p>
+            <p>Dr Schneider.</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Liste des Donateurs</head>
+            <p>Mme Bourdon, à Lesmont (Aube), 50 fr. - M. Perrier (Benoît), à Nîmes (Gard), 20 fr. -
+              M. J. Combès, à Dannemoine (Yonne), 100 fr . - Protection et bonne santé de toute la
+              famille, 300 fr . Mme d'Hastingue et ses élèves, 6, rue Laborde, Paris, 30 fr. Mmes
+              Toudy, La Garenne-Colombes, 15 fr. - M. Ruben Helft, à Paris, 100 fr. - Mme Sens, à
+              Marseille, 100 fr. - M. Henri Larchevéque, Marseille, 25 fr. - M. Georges Mayer,
+              Paris, 50 fr. Mme Vuillamier-Canel, à Montbéliard (Doubs), 10 fr. - Association
+              Française de Bienfaisance, à Tientsen (Chine), 500 fr. - M. Fernand Peltzer, ministre
+              de Belgique à Berne, 1.000 fr. - Les élèves de l'Ecole de Garçons de Merignac-La
+              Glacière (Gironde), 10 fr. M. Gentilhomme, Fontenay-sous-Bois, 100 fr. - Mlle E.
+              Dobède, à Nice, 100 fr. - Anonyme, n <hi rend="superscript">°</hi> 21.374,100 <hi
+                rend="superscript">fr</hi>. - Mme Vve Limousin, Tolosa (Espagne), 200 fr. - M.
+              Auguste Holstein, Pékin (Chine), 100 fr. - M. Henri Théron, Château-Thierry (Aisne),
+              25 fr. - Mme Cornud Peschier, à Vallon (Ardèche), 300 fr. - Mme Ludmie Reynolds, à
+              Saint-Jean-de-Luz, 2.000 fr. - M. Pagès, à Paris, 40 fr. - Mlle Gibert, institutrice,
+              à Claye-Souilly (Seine-et-Marne), 50 fr. - M. Roger Bernard, à Paris, 100 fr. - Mme B.
+              Meyer, à Béziers (Hérault), 50 fr. - M. L. François, Institut La Claire, à Morteau
+              (Doubs), 25 fr. - M. Francis Tattegrain, à Senlis (Oise), 50 fr. - Lycée Lakanal, à
+              Sceaux (Seine), 100 fr. - M. Jean Charlot, à Paris, 150 fr. - Les Elèves de l'Ecole
+              des Filles, 2, rue Roussel, à La Garenne-Colombes, 70 fr. - M. et Mme Léon Goudot, à
+              Strasbourg, 200 fr. - Mlles Flandin, à Marseille, 25 fr. - Mme L. Domec, à Paris, 50
+              fr. - M. Milani, à Courbevoie, 500 fr. M. Chabaud, à Dellys (Algérie), 20 fr. - Mme de
+              Poulpiquet de Brescanvel, à Dinan (Côtes-du-Nord), 30 fr. - M. et Mme Végrassat,
+              Mont-Saint-Père (Aisne), 50 fr. - Mme Royer-Lavigne, à Paris, transmis par Les
+              Annales, 64 fr. - Mme Teilh, à Loudun (Vienne), 20 fr .</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

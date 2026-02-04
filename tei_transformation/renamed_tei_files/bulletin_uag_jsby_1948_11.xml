@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 28ème année 1948 n°18</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Rassemblement international</title>
+        <title type="topic">Union des Aveugles de Guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 32 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#reparation">Réparation</term>
+          <term ref="#indemnites">Indemnités</term>
+          <term ref="#reclassement">Reclassement</term>
+          <term ref="#paix">Paix</term>
+          <term ref="#nations-unies">Nations Unies</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de novembre 1948 de l'Union des Aveugles de Guerre aborde plusieurs sujets
+          d'intérêt pour ses membres. Il rend compte du Rassemblement International des Anciens
+          Combattants, des discussions concernant les pensions et le rapport constant avec les
+          traitements des fonctionnaires, ainsi que des démarches entreprises auprès des autorités
+          pour améliorer la situation des anciens combattants aveugles. Le bulletin inclut également
+          des informations pratiques concernant le téléphone, l'impôt automobile, et les services
+          offerts par l'Union, tels que la bibliothèque. Enfin, il contient des nouvelles des
+          membres, notamment les naissances, mariages et décès, ainsi que la liste des
+          cotisations.</p>
+      </abstract>
+      <creation>
+        <date when="1948-11-01">01/11/1948</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h4">Rassemblement International des Anciens Combattants</ref>
+            <list>
+              <item>
+                <ref target="#h5">Résolution</ref>
+              </item>
+              <item>
+                <ref target="#h6">Recommandation</ref>
+              </item>
+              <item>
+                <ref target="#h7">Première motion</ref>
+              </item>
+              <item>
+                <ref target="#h8">Deuxième motion</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h9">PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h10">BAREME DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h11">RAPPORT CONSTANT ENTRE LES PENSIONS DE GUERRE ET LES TRAITEMENTS DES
+              FONCTIONNAIRES</ref>
+          </item>
+          <item>
+            <ref target="#h12">COMITE D'ENTENTE</ref>
+          </item>
+          <item>
+            <ref target="#h13">AUDIENCE DE M. LE MINISTRE DES ANCIENS COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h14">TELEPHONE</ref>
+          </item>
+          <item>
+            <ref target="#h15">CORRESPONDANCE</ref>
+          </item>
+          <item>
+            <ref target="#h16">IMPOT AUTOMOBILE</ref>
+          </item>
+          <item>
+            <ref target="#h17">NECROLOGIE</ref>
+          </item>
+          <item>
+            <ref target="#h18">DISTINCTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h19">"LES PROPOS DU MOIS"</ref>
+          </item>
+          <item>
+            <ref target="#h20">BIBLIOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h23">PETITE ANNONCE</ref>
+          </item>
+          <item>
+            <ref target="#h24">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h25">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h26">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h27">LISTE DES CAMARADES AYANT PAYE LEUR CAISSE PREVOYANCE 48-49</ref>
+          </item>
+          <item>
+            <ref target="#h28">COTISATIONS VOLONTAIRES 1948</ref>
+          </item>
+          <item>
+            <ref target="#h29">COTISATIONS VOLONTAIRES «BIBLIOTHEQUE»</ref>
+          </item>
+          <item>
+            <ref target="#h30">COTISATIONS VOLONTAIRES «DISCOTHEQUE»</ref>
+          </item>
+          <item>
+            <ref target="#h31">COTISATIONS ORDINAIRES 1948 (50 frs)</ref>
+          </item>
+          <item>
+            <ref target="#h32">COTISATIONS ORDINAIRES 1949 (200 frs)</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">28e Année. — N° 18</fw>
+          <fw type="header">
+            <hi rend="underline">Novembre 1948</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Rassemblement International des Anciens Combattants.</item>
+                    <item>Pensions et Rapport constant.</item>
+                    <item>Comité d'Entente. </item>
+                    <item>Audience de M. le Ministre des Anciens Combattants.</item>
+                    <item>Téléphone.</item>
+                    <item>Correspondance.</item>
+                    <item>Impôt automobile.</item>
+                    <item>Nécrologie. </item>
+                    <item>Les Propos du mois. </item>
+                    <item>Bibliothèque.</item>
+                    <item> Naissances - Mariages - Décès.</item>
+                    <item>Cotisations diverses.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Conseil d'Administration</head>
+            <p>Président : H. IZAAC. Vice-Présidents : COUESNON, FAVRET, GUESPEREAU. Secrétaire
+              Général : AMBLARD. Trésorier : Gaston L'EVESQUE. Membres : BERTRAND, BLONCOURT, BODIN,
+              BOIS, BRUSSON, CABASSON, CERELABOURDETTE, CHALENDAR, CHAPAS, CORNU, DERUNDER, DUC,
+              FAUVEL, GRILLET, GUILLAM, LAFFARGUE, LEVEAU, MULLER, NICOLAI, NOIREAUX, ROBIN, ROY
+              Georges, SIBIRIL, SATGE.</p>
+            <pb n="3"/>
+          </div>
+          <fw>28e Année. N° 18 Novembre 1948</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Rassemblement International des
+              Anciens Combattants</head>
+            <p>L'U.F.A.C. prenant l'initiative d'un rassemblement international des Anciens
+              Combattants, a organisé du 5 au 8 octobre un Congrès préparatoire des représentants
+              d'Associations appartenant aux Nations Unies.</p>
+            <p>Avalent répondu: Afrique du Sud, Belgique, Brésil, Etats-Unis, Norvège, Pays-Bas et
+              Pologne.</p>
+            <p>L'American Legion et la British Legion avaient décidé d'envoyer un délégué comme
+              observateur.</p>
+            <p>Les séances de travail les plus intéressantes ont étudié la situation matérielle des
+              Anciens Combattants et Victimes de guerre dans les diverses nations représentées et
+              d'autre part, le principe et les moyens les plus efficaces pour que la voix des A. C.
+              de tout pays se fasse entendre dès qu'il s'agit d'organisation de la paix.</p>
+            <p>Les délégués ont été reçus par M. le Président de la République, M. le Ministre des
+              Anciens Combattants, le Bureau du Conseil Municipal de Paris, et aussi par M. le
+              Président actuel de l'O.N.U. Ils ont été saluer à l'Arc de Triomphe le Soldat Inconnu,
+              et au Mont Valérien les représentants symboliques de la Résistance française.</p>
+            <p>Le Congrès a abouti à des conclusions pratiques, organisant, à titre provisoire, une
+              Association permanente des A. C. dont notre excellent camarade Morel a été nommé
+              Président, notre ami Viala désirant continuer à se consacrer entièrement à la
+              Présidence de l'U.F.A.C.</p>
+            <p>L'U.A.G. se réjouit d'avoir vu sa maison, 49, rue Blanche, être le siège de ce
+              premier rassemblement, servant ainsi de berceau à cette belle et grande idée de
+              l'Union de tous les Anciens Combattants pour peser de toute sa force dans
+              l'organisation de la paix qu'ils ont à cour de voir se réaliser sur des bases justes
+              et largement humaines. H. I.</p>
+            <p>Voici les résolutions votées, comme conclusion, par ce Congrès:</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h5">Résolution</head>
+              <p>La conférence préparatoire du Rassemblement International des Anciens Combattants,
+                qui s'est tenue à Paris, du 5 au 8 octobre 1948, tient à marquer sa volonté unanime
+                d'affirmer à travers le monde le principe intangible du droit à réparation, au
+                travail et aux soins pour tous ceux qui ont accompli leur devoir en combattant pour
+                leur patrie pendant la guerre.</p>
+              <p>A l'unanimité de ses membres, la conférence précise : 1<hi rend="superscript"
+                  >°</hi> Que les pensions et indemnités servies aux victimes de la guerre et aux
+                anciens combattants ont nettement un caractère de réparation: 2<hi
+                  rend="superscript">°</hi> Qu'elles doivent bénéficier d'une immunisation complète
+                au regard des lois fiscales et de sécurité sociale, et ne doivent pas entrer en
+                ligne de compte dans le calcul des ressources (pensions de retraite militaires et
+                civiles, allocations de guerre) : <pb n="4"/>
+                <note type="foliation">— 2 —</note> 3<hi rend="superscript">°</hi> Que des textes
+                législatifs doivent imposer le reclassement social des victimes de guerre sur le
+                marché du travail, en ce qui concerne aussi bien les emplois publics que privés, et
+                veiller à leur application.</p>
+              <p>La conférence estime donc indispensable de poursuivre dans une commission
+                internationale d'experts et de techniciens l'étude de ces droits en vue de
+                rassembler et de diffuser parmi les Associations nationales du monde entier les
+                renseignements susceptibles de permettre aux victimes de la guerre, aux combattants
+                avec ou sans uniforme, aux veuves, aux orphelins, aux enfants et aux ascendants
+                d'établir ces droits sur des bases aussi rapprochées que possible et de chercher à
+                dégager les points précis sur lesquels elles pourraient être internationalisées.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h6">Recommandation</head>
+              <p>Le Rassemblement International des Anciens Combattants, réuni du 5 au 8 octobre
+                1948, à Paris, recommande à son Comité exécutif de rechercher les moyens de
+                sauvegarder les droits des Anciens Combattants et Victimes de guerre ayant coopéré à
+                la lutte pour la liberté aux côtés des armées des nations unies et qui, pour des
+                raisons honorables, sont obligés de vivre dans un pays étranger.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">Première motion</head>
+              <p>Le Rassemblement International préparatoire des Anciens Combattants, réuni du 5 au
+                8 octobre 1948, à Paris,</p>
+              <p>Considérant que les hommes qui ont le plus souffert de la guerre dans leur chair et
+                dans leurs biens sont particulièrement qualifiés pour rechercher et trouver entre
+                les nations un terrain d'entente capable de sauver l'humanité,</p>
+              <p>Considérant qu'on doit combattre l'idée de la fatalité de la guerre, les solutions
+                de force et de violence ne pouvant résoudre aucun problème, et contenant en
+                elles-mêmes les germes de nouveaux conflits, proclame : a) Sa détermination de
+                défendre son idéal de paix dans la liberté et le respect de la dignité humaine,
+                conformément aux grands principes énoncés dans la Charte des Nations Unies; b) Son
+                désir de soutenir et de renforcer l'action et l'autorité de l'Organisation des
+                Nations Unies;</p>
+              <p>Et décide à cet effet de mettre à la disposition des Nations Unies, dans les
+                conditions prévues par la Charte, une représentation des A. C. dans les divers
+                organismes des Nations Unies, en vue de contribuer, en toute indépendance, à l'ouvre
+                générale d'organisation de la paix, conformément au désir exprimé par le président
+                de l'Assemblée générale de 1948 de l'O.N.U.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">Deuxième motion</head>
+              <p>Le Rassemblement International préparatoire des A. C., réuni à Paris, du 5 au 8
+                octobre 1948,</p>
+              <p>Satisfait de l'esprit de camaraderie et de compréhension réciproque qui a dominé
+                ses travaux, de la libre confronfation des idées et des premiers résultats
+                obtenus,</p>
+              <p>Exprime sa volonté de poursuivre tous les efforts nécessaires en vue de compléter
+                et d'élargir le Rassemblement International des A. C. en ne faisant appel, pour le
+                moment, qu'aux Associations d'A. C. des pays appartenant à l'O.N.U., animées des
+                sentiments exprimés dans la motion générale et résolues à apporter leur
+                collaboration loyale à la réalisation d'un même idéal de just'ce et de paix,</p>
+              <p>Et donne pleins pouvoirs à cet effet au Comité exécutif provisoire désigné par le
+                Congrès en vue de la préparation du prochain Rassemblement International des A.
+                C.</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">PENSIONS</head>
+            <p>Le «Journal Officiel» du 12 octobre 1948 publie enfin les nouveaux tarifs de pension
+              dont le relèvement a été voté le 14 septembre 1948.</p>
+            <p>Cette augmentation, comme nous l'avions annoncé, prendra effet à partir du 1<hi
+                rend="superscript">er</hi> juillet dernier, mais vu le retard apporté à la signature
+              du décret, il est à craindre que le paiement de ces augmentations ne soit effectué
+              dans un délai assez long. Cependant, après renseignements demandés au Ministre, il
+              nous a été dit qu'il serait fait diligence pour hâter le paiement des allocations.
+              Nous espérons donc que cette partie importante de nos ressources nous sera versée le
+              plus rapidement possible, avec le rappel qui nous est dû.</p>
+            <p>Malgré les promesses qui nous avaient été faites aux Finances, aucune amélioration
+              n'a été apportée au sort de nos camarades qui ne bénéficient pas du Statut. Nous avons
+              donc demandé, d'une façon pressante, à M. le Ministre des A. C., lors de l'audience du
+              vendredi 15 octobre, de faire activer le vote du projet de loi déposé sur le bureau de
+              la Chambre, qui doit accorder satisfaction à nos camarades. Nous reviendrons encore
+              sur cette question dont nous reconnaissons toute la gravité.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">BAREME DES PENSIONS</head>
+            <p>Loi du 14 septembre 1948, applicable à partir du 1<hi rend="superscript">er</hi>
+              juillet 1948 (J. O. du 12 octobre 1948)</p>
+            <list>
+              <item>100 % + art. 10 + statut .................................. 54.875 173.000
+                116.000 - 343.875</item>
+              <item>- - - + 1° l:l.I't. 12 .................. 57.162 173.000 116.000 5.400
+                351.562</item>
+              <item>- - - + 2° .................. 59.450 - -10.800 359.250</item>
+              <item>- - - + 3° ..... . ............ 61.737 - - 16.200 366.937</item>
+              <item>- - - + 4° .................. 64.025 - - 21.600 374.625</item>
+              <item>- - - + 5° .................. 66.312 - - 27.000 382.312</item>
+              <item>- - - + 6° .................. 68.600 - - 32.400 390.000</item>
+              <item>- - - + 7° ................ 70.887. - - 37.800 397.687</item>
+              <item>- - - + 8° .................. 73.175 - - 43.200 405.375</item>
+              <item>- - - + 9° .................. 75.462 - - 48.600 413.062</item>
+              <item>- - - + 10° .................. 77.750 - - 54.000 420.750</item>
+              <item>- double art. 10 - + 10° .................. 77.750 - - 135.000 501.750</item>
+            </list>
+            <p>Les camarades non bénéficiaires du Statut doivent soustraire la somme de 116.000 frs,
+              montant de cette allocation.</p>
+            <p>Le taux de pension des veuves est porté à : 25.200 frs au-dessous de 60 ans; 33.600
+              frs au-dessus de 60 ans.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">RAPPORT CONSTANT ENTRE LES
+              PENSIONS DE GUERRE ET LES TRAITEMENTS DES FONCTIONNAIRES</head>
+            <p>On se rappelle que l'article 11 de la loi n<hi rend="superscript">°</hi> 48-337 du 27
+              février 1948 disposait que : " Il sera établi, avant le 31 juillet 1948 par règlement
+              d'administration publique, un rapport constant entre les taux des pensions militaires
+              d'invalidité et des victimes de la guerre et les taux des traitements bruts des
+              fonctionnaires."</p>
+            <p>Un projet de décret a été établi et doit être maintenant à l'examen du Conseil
+              d'Etat. Ce décret permettrait de réaliser ce qu'on a appelé "l'accrochage",
+              c'est-à-dire la fixation permanente de nos pensions par rapport aux traitements des
+              fonctionnaires. La question était délicate quant à l'application, cependant on y est
+              parvenu, en prenant comme base la pension d'un mutilé à 100%, et par rapport à cette
+              pension il a été prévu des indices, ce qui institue l'établissement d'un certain
+              nombre de points, comme en bien des cas en matière de salaires.</p>
+            <p>Nous voulons espérer que le Conseil d'Etat donnera son approbation pour qu'ensuite
+              l'Assemblée Nationale puisse se saisir du projet.</p>
+            <p>En attendant le résultat de tous ces travaux que nous suivons avec intérêt, nous
+              donnons le texte du projet de décret :</p>
+            <p>Article premier. - Pour l'application de l'article 11 de la loi du 27 février 1948,
+              le rapport constant sera établi en prenant pour base le traitement d'une catégorie de
+              fonctionnaires dont le traitement brut, augmenté des indemnités assimilables comparé
+              avec la pension d'un invalide de guerre à 100%, y compris l'allocation n<hi
+                rend="superscript">°</hi> 4 aux grands invalides et l'allocation aux grands mutilés
+              correspondant à son taux d'invalidité, donnait, à la date du 30 septembre 1937, le
+              rapport le plus voisin de 1.</p>
+            <p>Le rapport déterminé selon le paragraphe qui précède entre le traitement et la
+              pension définis au même paragraphe sera rétabli et maintenu à partir du 1<hi
+                rend="superscript">er</hi> janvier 1948.</p>
+            <p>Art. 2. - Le coefficient de majoration calculé pour l'établissement du rapport prévu
+              à l'article premier ci-dessus sera appliqué à la date du 1<hi rend="superscript"
+                >er</hi> janvier 1948 à toutes les pensions militaires d'invalidité et de victimes
+              de la guerre y compris les majorations et allocations accessoires en vigueur le 30
+              septembre 1937.</p>
+            <p>Au montant de la pension ainsi obtenu s'ajouteront les majorations de pension ou
+              d'allocations accessoires intervenues postérieurement au 30 septembre 1937 et n'ayant
+              pas le caractère d'une revalorisation du pouvoir d'achat des pensionnés.</p>
+            <p>Art. 3. - Toutes modifications apportées postérieurement au 1<hi rend="superscript"
+                >er</hi> janvier 1948 au traitement brut des fonctionnaires, aux indemnités autres
+              que des allocations à caractère familial et résidentiel, tendant à renforcer le
+              pouvoir d'achat de la totalité des émoluments versés aux fonctionnaires, soit sous
+              forme d'augmentation d'indemnités existantes, soit sous forme d'indemnités nouvelles
+              quels qu'en soient leurs noms, entraineront pour</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>les pensions désignées à l'article 2 des modifications d'égale importance, avec même
+              date d'effet.</p>
+            <p>Art. 4. - Des décrets pris sur le rapport du Ministre des A. C. et V. G. et du
+              Ministre chargé des Finances, qui seront publiés dans le délai d'un mois suivant la
+              promulgation de la loi portant ouverture des crédits nécessaires, fixeront, après
+              arrondissement, les nouveaux taux de pensions résultant des dispositions des articles
+              premier et 3 du présent décret.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">COMITE D'ENTENTE</head>
+            <p>Le Comité d'Entente s'est réuni le mercredi 13 octobre. Etaient présents: Amblard,
+              Bourré, Delporte, Gauriault, Jugon, Nouveau, Régnier, Santouil et Thibault.</p>
+            <p>L'audience qui doit être accordée par le Ministre des Pensions le vendredi suivant
+              fait l'objet d'un échange de vue.</p>
+            <p>Les délégués examinent ensuite la situation financière des associations et
+              recherchent le moyen de procurer des ressources à leurs caisses respectives.</p>
+            <p>Plusieurs projets sont présentés; ils seront très étudiés et revus pour
+              application.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">AUDIENCE DE M. LE MINISTRE DES
+              ANCIENS COMBATTANTS</head>
+            <p>M. Betholaud, Ministre des Anciens Combattants, a reçu le Comité d'Entente le
+              vendredi 15 octobre dernier.</p>
+            <p>Etaient présents: Amblard, Bourré, Delporte, Gauriault, Izaac, Jugon, Nouveau,
+              Thépault.</p>
+            <p>Nouveau présente le Comité d'Entente à M. le Ministre, qui assure les délégués de son
+              entière sollicitude.</p>
+            <p>Il est exposé au Ministre les diverses questions ci-après : Rapport constant des
+              pensions avec les traitements des fonctionnaires.</p>
+            <p>Le Ministre va suivre la question de près et présentera le projet à la Chambre, dès
+              qu'il aura été étudié par le Conscil d'Etat ;</p>
+            <list>
+              <item>L'abrogation des lois de Vichy est évoquée ;</item>
+              <item>Les délégués de l'U.A.G. demandent que le Statut soit accordé à tous leurs
+                camarades, ce qui est noté par M. Betholaud ;</item>
+              <item>Des réductions sur les transports en avion sont demandées, mais le Ministre
+                craint qu'il ne soit pas fait droit à cette deman:́e, vu la situation des Compagnies
+                d'aviation.</item>
+            </list>
+            <p>L'audience qui s'est déroulée dans une atmosphère de cordial:té, s'est terminée à 10
+              h. 45.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">TELEPHONE</head>
+            <p>En décembre dernier, nous avons tenu nos camarades au courant des démarches que nous
+              avons faites auprès du Secrétaire général du Ministère des P.T.T., afin de faire
+              rétablir une réduction de 50% sur les abonnements, qui était contestée à nos
+              camarades, dans certains départements.</p>
+            <p>Des modifications techniques dans l'exploitation rendaient - disaiton - difficile le
+              maintien des réductions telles qu'elles étaient pratiquées, et nous nous trouvions
+              menacés de la suppression complète de la réduction sur les conversations.</p>
+            <p>Après examen de notre demande, il nous fut promis qu'un texte serait publié dans la
+              loi de Finances qui donnerait satisfaction à un plus grand nombre d'aveugles que
+              précédemment, par suite de la généralisation du contrôle par compteur. Les
+              bénéficiaires se trouvant plus nombreux, la quantité de conversations à demi-tarif
+              seraient de ce fait uniformisées à un chiffre moyen. C'est ainsi que les camarades des
+              grands centres perdent dans la nouvelle réglementation ; par contre, beaucoup d'autres
+              vont pouvoir profiter des avantages de la réduction consentie sur l'abonnement ainsi
+              que de la réduction sur 40 taxes par mois sur les communications locales, ou imputées
+              au compteur.</p>
+            <p>Pour être certain de la bonne application de ces nouvelles dispositions, nos
+              camarades auront intérêt, en cas de doute, à s'adresser à leur bureau de poste, ou à
+              la direction des téléphones de leur département, afin de connaitre quel est le genre
+              de communications pour lesquelles ils peuvent prétendre à réduction. Nous ne saurions
+              les renseigner sur ce point particulier. Ils pourront se réclamer du décret dont la
+              teneur suit :</p>
+            <p>Décret n<hi rend="superscript">°</hi> 48-1.422 du 16 septembre 1948</p>
+            <p>Art. 15. - Les dispositions de l'article 94 de la loi des Finances du 16 avril 1930
+              sont remplacées par les suivantes : "Sont réduites de 50% en faveur des invalides
+              désignés ci-après qui ont souscrit, pour leur usage personnel, un abonnement principal
+              au téléphone : " a) La redevance d'abonnement ; " b) Les taxes dues au titre des
+              communications locales ou imputées au compteur, à concurrence de 40 taxes de base par
+              mois. "Les présentes dispositions s'appliquent exclusivement: " 1<hi
+                rend="superscript">°</hi> Aux invalides de guerre, cumulant le bénéfice des articles
+              10 et 12 de la loi du 31 mars 1919 et dont les invalidités supplémentaires sont
+              évaluées à dix pour le calcul du complément de pension prévu à l'article 12 de ladite
+              loi; " 2<hi rend="superscript">°</hi> Aux aveugles de guerre bénéficiaires de
+              l'article 10 de la loi du 31 mars 1919."</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">CORRESPONDANCE</head>
+            <p>Nous rappelons à nos camarades que pour éviter des frais de timbres et de
+              correspondance, nous accuserons réception des diverses cotisations par la voie du
+              bulletin.</p>
+            <p>D'autre part, nous demandons à nouveau de bien vouloir nous joindre un timbre pour la
+              réponse aux différentes questions qui nous seront posées.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">IMPOT AUTOMOBILE</head>
+            <p>Après intervention du Comité d'Entente, l'article 13 de la loi du 24 septembre 1948
+              comporte désormais le paragraphe suivant: "Les pensionnés de guerre bénéficiaires du
+              statut des grands invalides et titulaires de la carte d'invalidité portant au verso la
+              mention : "Station debout pénible", seront exonérés du droit de timbre pour la voiture
+              servant à leur usage personnel."</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">NECROLOGIE</head>
+            <p>Nous avons à déplorer la mort de Georges André-Fribourg, Président de la Société des
+              Médaillés militaires, ancien Combattant et mutilé de la guerre 14-18, ayant appartenu
+              brillamment à la Résistance pendant la dernière guerre.</p>
+            <p>Il avait été député pendant une session de la Chambre après la guerre 14-18 et ne
+              s'était pas représenté, voulant se consacrer entièrement à ses travaux d'historien et
+              de patriote éclairé, recherchant la sécurité française en même temps que
+              l'organ'sation d'une juste paix internationale.</p>
+            <p>Membre du Bureau de l'U.F.A.C., c'était un très ancien ami de l'U.A.G., étant venu à
+              nos premières réunions lorsque notre siège social se trouvait rue du Mont-Thabor.</p>
+            <p>Les plus jeunes d'entre-nous qui ne l'ont pas connu, ont pu, encore au mois de
+              septembre, entendre sa voix claire et parfois mordante, traitant en T.S.F. certains
+              points d'histoire récents.</p>
+            <p>Nous exprimons à Madame Georges André-Fribourg et sa famille, ainsi qu'à tous nos
+              camarades Médaillés militaires; nos plus sincères sentiments de condoléances. H.
+              I.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">DISTINCTIONS</head>
+            <p>Nous sommes heureux d'apprendre la promotion au grade d'Officier dans l'Ordre de la
+              Légion d'Honneur de notre camarade François Rieux, d'Avignon. (J. O. du 9 octobre
+              1948.)</p>
+            <p>Toutes nos félicitations.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">"LES PROPOS DU MOIS"</head>
+            <p>Un grand nombre de nos camarades ont lu, avec intérêt, le périodique Braille intitulé
+              "Les Propos du Mois", que présidait avec autorité M. Duhamel, de l'Académie
+              Française.</p>
+            <p>Depuis 1917, "Les Propos du Mois" nous ont apporté régulièrement des articles sur
+              toutes les manifestations littéraires du moment, donnant des avis éclairés sur les
+              livres nouveaux qui étaient en publication. "Les Propos du Mois" viennent de cesser
+              leur activité et ont pensé à l'U.A.G., ce qui représente surtout pour nous une grosse
+              valeur morale en reconnaissant l'Union comme le successeur de cette œuvre si
+              intéressante. Nous serons dignes de cette marque d'intérêt, et nous tenons à dire aux
+              membres du Comité des "Propos du Mois", tout spécialement à Madame Anspach, notre
+              reconnaissance pour la bienveillance qui nous a été témoignée en cette
+              circonstance.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">BIBLIOTHEQUE</head>
+            <p>Le "Livre de l'Aveugle" nous a fait à nouveau un don d'ouvrages pour la bibliothèque
+              Braille, nous l'en remercions vivement.</p>
+            <list>
+              <head rend="align(center)">ROMANS</head>
+              <item>No 201 Walling R. Le Financier Bardolph 6 vol. abr.</item>
+              <item>No 391 Gray Oscar L'Enigme de Bagschott (roman policier) 9 vol. abr.</item>
+              <item>No 588 Galsworthy J. Forsyte Saga (4 t.) (prix Nobel 1932) 40 vol. abr.</item>
+              <item>No 589 Bromfield L. Mrs. Parkington 13 vol. abr.</item>
+            </list>
+            <list>
+              <head rend="align(center)">LITTERATURE</head>
+              <item>No 1.132. Lamure Pierre : Thomas A. Edison (biographie) (2 vol. abr.).</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">PETITE ANNONCE</head>
+            <p>A VENDRE : Couleau de brossier, état neuf. Prix 10.000 frs. Frais de transport à la
+              charge du client. S'adresser au camarade Delahaie, ruelle Tramblin, Nogent-le-Retrou
+              (E.-et-L.).</p>
+            <p>Notre camarade Charles Satgé, 43, Foirail du Castel-Vieil, à Albi, désirerait se
+              procurer pour sa départementale des noix, noisettes, amandes. Il serait reconnaissant
+              aux camarades qui pourraient lui fournir des adresses de vendeurs.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">NAISSANCES</head>
+            <p>Le fils Gilbert de notre camarade Ollviero (39-45), de Plescop (Morbihan), le 30 août
+              1948. La fille Brigitte de notre camarade H. Crapez (39-45), de Cannes, le 18
+              septembre 1948. La fille Josette de notre camarade Borsani (39-45), de Nice, le 16
+              septembre 1948.</p>
+            <p>La fille Marie-Suzel de notre camarade Cornu (39-40), d'Evreux, le 28 septembre 1948.
+              Le petit-fils Philippe de notre camarade Mulsant, de Caluire (Rhône), le 27 août 1948.
+              Le petit-fils Jean-Jacques Michel de notre camarade Faucon, de MoulinNeuf (Dordogne).
+              La petite-fille Monique de notre camarade Grossemy, d'Arras, le 3 octobre 1948.</p>
+            <p>La petite-fille Marie-Hélène de notre camarade Benoît, de Chandolas (Ardèche), le 24
+              août 1948.</p>
+            <p>Nous adressons nos félicitations aux heureux parents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">MARIAGES</head>
+            <p>Notre camarade C. Lienart, de la Bassée (Nord), le 12 juin 1948. Le fils François de
+              notre camarade Cagneul, de Saint-Aubin-du-Cormier (Ille-et-Vilaine), avec Mlle
+              Vojleck, en septembre 1948. La fille Andrée de notre camarade Fourment, de Toulouse,
+              avec M. R. Escudié, le 21 septembre 1948. Le fils François de notre camarade J. Coal,
+              avec Mlle J. Viry, le 25 aout 1948.</p>
+            <p>La fille Chérifa de notre camarade Ahmed ben Mohamed Tliba, avec M. Mohamed ben Salah
+              ben Mohamed Tliba, le 25 septembre 1948.</p>
+            <p>Tous nos vœux de bonheur aux nouveaux mariés.</p>
+            <p>Notre camarade Benoît, de Chandolas (Ardèche), nous fait part de la nomination de son
+              fils Georges comme sous-diacre, en juillet dernier.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">DECES</head>
+            <p>Notre camarade Horace de Chatillon, de Paris, le 1<hi rend="superscript">er</hi>
+              octobre 1948. Notre camarade Auguste Marcellin, de Saint-Malo-de-Beignon (Morbihan),
+              le 7 octobre 1948. Notre camarade B. Gohiec, de Concarneau (Finistère), le 7 octobre
+              1948. La fille Brigitte de notre camarade H. Crapez (39-45), de Cannes, fin septembre
+              1948. La belle-mère de notre camarade P. Sursin, le 27 septembre 1948. Nous adressons
+              nos sincères condoléances aux familles éprouvées.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">LISTE DES CAMARADES AYANT PAYE
+              LEUR CAISSE PREVOYANCE 48-49</head>
+            <p>Angot Alphonse, 500 ; Arhuro Alfred, 500 ; Bakour Ismail, 400 ; Ballay Louis, 500 ;
+              Barbe Albert, 400 ; Becker René, 500 ; Boillot Emile, 500 ; Boudra Jean, 500 ; Cardot
+              Désiré, 500 ; Champagnon Henri, 400 ; Chaplain André, 400 ; Corbbet Armand, 325 ;
+              Coutier, 275 ; Delhomme Armand, 500 ; Deveze Gédéon, 500 ; Dumontet Jean, 500 ; Dupuis
+              René, 500 ; Gable Alphonse, 325 ; Galbourdin Constant, 500 ; Garnier Auguste, 500 ;
+              Gabel Paul, 500 ; Harter Paul, 500 ; Holveck Georges, 500 ; Houard Fernand, 500 ;
+              Lacomblez, 325 ; Lambert Ludovic, 500 ; Laügt Jean, 500 ; Lebrun Georges, 400 ;
+              Lefebvre Georges, 500 ; Marouzet Léon, 400 ; Mathey Adolphe, 400 ; Monceaux Louis, 500
+              ; Morizet Charles, 500 ; Nehou Louis, 400 ; Pelerin Henri, 500 ; Pichonneau Charles,
+              500 ; Pierre Maurice, 400 ; Riau Joseph, 500 ; Ritz Eugène, 400 ; Serre Léon, 500 ;
+              Simon Joseph, 500 ; Watt dit Valentin Joseph, 500 ; Sander Robert, 275 ; Ghiste
+              Gaston, 275 ; Piera Baptiste, 275 ; Briez, 500 ; Couesnon R., 400 ; Serieys, 500 ;
+              Parent, 500 ; Rost, 500 ; Deprun, 275 ; Michon, 500 ; Gaultier René, 500 ; Goussé, 500
+              ; Valdant, 500 ; Caudron, 400 ; Vaxelaire, 500 ; Sibiril, 500 ; Mezières, 400 ;
+              Courtas, 325 ; Masselier, 500 ; Grillon, 400 ; Bois, 500 ; Leveau Désiré, 400 ; Seceh,
+              500 ; Le Serrec, 500 ; Boudault, 500 ; Rain, 500 ; Desgrippes, 500 ; Dufourc Jean, 500
+              ; Satgé, 500 ; Enjalbert, 400 ; Cadot, 500 ; Arnoux Fernand, 400 ; Brusson, 500.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">COTISATIONS VOLONTAIRES
+              1948</head>
+            <p>Vidry, 50 ; Chaplain, 50 ; Barbe, 50 ; Gable, 50 ; Nicolle J., 50 ; Niant, 100 ;
+              Martin M., 500 ; Anonyme, 500 ; Tonon, 15 ; Le Guen, 76,50 ; Barbier, 50 ; Ploy, 50 ;
+              Dubos, 35 ; Simon J., 50 ; Gable, 175 ; Pirlo, 100 ; Colas, 150 ; Rimont, 80 ; Le
+              Serrec, 100 ; Lemée, 100.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">COTISATIONS VOLONTAIRES
+              «BIBLIOTHEQUE»</head>
+            <p>Thuilliez, 100 ; Serre, 150 ; Lebrun G., 100 ; Riau, 200 ; Fabrègues, 50 ; Valdant,
+              50 ; Charlat, 100.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">COTISATIONS VOLONTAIRES
+              «DISCOTHEQUE»</head>
+            <p>Duc, 1.000 ; Blanchet, 500.</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">COTISATIONS ORDINAIRES 1948 (50
+              frs)</head>
+            <p>Mathieu P., Barbe A., Rouméas, Noël, Gable, Nicolle (46-47), Níant, Charmillon,
+              Kuster, Bollemont, Glaziou, Simon J., Ballay, Briaudet, Gaultier R., Bouet (47),
+              Bourcellier, Masselier, Simon F., Louyer, Seceh.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">COTISATIONS ORDINAIRES 1949 (200
+              frs)</head>
+            <p>Vidry, Harter, Pichonneau, Laügt, Ritz, Pelerin, Pierre M., Morizet, Marouzet,
+              Lefevre G., Ahuro, Simon J., Ballay, Champagnon, Houard, Serre, Becker, Lebrun G.,
+              Sander, Prud'homme, Le Beuvant, Fraisse, Bellenger, Capitaine, Briaudet, Rost, Deprun,
+              Pierre, Gaultier R., Valdant, Caudron, Bouet, Vaxelaire, Sibiril, Ballay, Masselier,
+              Grillon, Bois, Simon F., Leveau Désiré, Louyer, Seceh, Arnold, Le Serréc, Boudault,
+              Rain, Blanchet, Satgé, Enjalbert, Cadot, Arnoux, Brusson.</p>
+            <pb n="15"/>
+            <pb n="16"/>
+          </div>
+          <fw>Le Géant: L'EVESQUE. Imp. Frébinet. Paris.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

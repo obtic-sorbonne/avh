@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 17ème année 1935, n°3</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Handicap visuel</title>
+        <title type="topic">Droits des mutilés de guerre</title>
+        <title type="topic">Statut des Grands Mutilés</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 24 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+          <term ref="#statut-des-grands-mutiles">Statut des Grands Mutilés</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#assemblee-generale">Assemblée Générale</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) se concentre sur
+          l'avancement du Statut des Grands Mutilés, détaillant les démarches entreprises auprès des
+          sénateurs et des ministres pour inclure les blessés en service commandé et éviter des
+          restrictions sur les pensions. Il relate les audiences avec les représentants du
+          gouvernement et les sénateurs, les réunions des commissions, et l'assemblée générale de
+          l'association. Le bulletin inclut également des informations sur les activités de la
+          Caisse Fraternelle, les naissances, mariages et décès des membres, ainsi que des nouvelles
+          concernant la Maison des Aveugles de Guerre et des événements comme le Sweepstake
+          Luxembourgeois et la cérémonie de la Flamme.</p>
+      </abstract>
+      <creation>
+        <date when="1935-03-01">01/03/1935</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-19" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-18" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h6">LE STATUT DES GRANDS MUTILÉS</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTRE ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h8">L'Assemblée Générale de 1935</ref>
+          </item>
+          <item>
+            <ref target="#h9">Notre Maison</ref>
+          </item>
+          <item>
+            <ref target="#h10">Le Président des Aveugles de Guerre Italiens à Paris</ref>
+          </item>
+          <item>
+            <ref target="#h11">Le Sweepstake Luxembourgeois (TROISIÈME TRANCHE)</ref>
+          </item>
+          <item>
+            <ref target="#h12">"La Flamme"</ref>
+          </item>
+          <item>
+            <ref target="#h13">Légion d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h14">Souscription pour le buste BRIEUX</ref>
+          </item>
+          <item>
+            <ref target="#h15">Société de Secours aux Blessés Militaires</ref>
+          </item>
+          <item>
+            <ref target="#h16">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h17">Caisse Fraternelle</ref>
+              </item>
+
+              <item>
+                <ref target="#h18">ENTRE-NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h22">Cotisations Volontaires</ref>
+              </item>
+              <item>
+                <ref target="#h23">Cotisations pour l'Année 1935</ref>
+              </item>
+              <item>
+                <ref target="#h24">PROCES-VERBAL de l'Assemblée Générale de la Section des
+                  Bouches-du-Rhône</ref>
+              </item>
+              <item>
+                <ref target="#h25">Régionale de Limoges</ref>
+              </item>
+              <item>
+                <ref target="#h26">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h27">Liste des Donateurs</ref>
+              </item>
+              <item>
+                <ref target="#h28">Dons avec affectation spéciale pour la « Maison des Aveugles de
+                  Guerre»</ref>
+              </item>
+              <item>
+                <ref target="#h29">LE STATUT DES GRANDS MUTILÉS</ref>
+              </item>
+            </list>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">17e Année. — N° 3</fw>
+          <fw type="header">
+            <hi rend="underline">Mars 1935</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le Statut des Grands Mutilés.</item>
+                    <item>Notre Action.</item>
+                    <item>L'Assemblée Générale.</item>
+                    <item>Notre Maison.</item>
+                    <item>Le Président des Aveugles de Guerre Italiens à Paris.</item>
+                    <item>Le Sweepstake Luxembourgeois.</item>
+                    <item>La Flamme.</item>
+                    <item>Légion d'Honneur.</item>
+                    <item>Souscription pour le buste Brieux.</item>
+                    <item>S. S. B. M.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre Nous.</item>
+                    <item>Cotisations pour l'année 1935.</item>
+                    <item>Procès-verbal de l'Assemblée Générale de la Section des Bouches-du-Rhône,
+                      le 23 Février 1935.</item>
+                    <item>Aux Camarades de la Régionale de Limoges.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de donateurs.</item>
+                    <item>Le Statut des Grands Mutilés: Dernière heure.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert Lebrun, Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITÉ DE PATRONAGE</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire. \dagger M. Barthou,
+              de l'Académie Française, ancien Président du Conseil M. le colonel Fabry, député,
+              ancien ministre; \dagger M. le général Balfourier; M. Brisac, préfet; M. J. Ridgely
+              Carter; M. Paul de Cassagnac, ancien député; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien ministre ;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krua; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. Samuel Milbank; M. le docteur Morax; M. Meyer,
+              conseiller d'Etat; M. Henry Paté, député; M. Pierre Rameil, député;</p>
+            <p>M* Henri-Robert, de l'Académie française, ancien bâtonnier de l'Ordre des Avocats; d.
+              le général Sainte-Claire-Deville; \dagger M. Vallery-Radot; M. le professeur Walther,
+              membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LE STATUT DES GRANDS
+              MUTILÉS</head>
+            <p>Nous sommes arrivés à la période que nous pourrions qualifier de décisive pour
+              l'aboutissement du Statut des Grands Mutilés que nous attendons depuis longtemps. Tous
+              nos camarades ont suivi les diverses évolutions du projet qui se trouve maintenant à
+              la veille d'être discuté au Sénat, et c'est pourquoi nous ne parlerons que des
+              derniers examens dont il a été l'objet devant la Commission des Finances de la Haute
+              Assemblée.</p>
+            <p>Cette Commission, qui au moment où le projet lui fut soumis voulait à peine lui
+              donner suite, a définitivement adopté la somme de 180 millions représentant le coût du
+              projet. Mais en adoptant ainsi le texte initial du Gouvernement, certaines lacunes
+              subsistent. D'abord les blessés en service commandé en seraient toujours exclus et
+              puis les quelques améliorations apportées par la Chambre, relatives aux victimes
+              civiles, à la date d'entrée en jouissance, ne seraient pas maintenues. Mais pour la
+              première question, qui nous préoccupe d'ailleurs grandement, nous ne nous montrerons
+              pas pessimistes, car nous avons trouvé auprès du groupe des sénateurs anciens
+              combattants, que préside notre camarade Thoumyre, un accueil très fraternel, une
+              compréhension très nette de la question. Ce dernier, ainsi que le docteur Gallet, les
+              sénateurs Rogé, Taurines et autres anciens combattants ont entrepris une vive campagne
+              auprès de leurs collègues pour faire admettre nos camarades blessés en service
+              commandé au bénéfice du Statut et nous avons constaté déjà l'heureux effet de leurs
+              démarches, même auprès de certains membres de la Commission des Finances du Sénat.</p>
+            <p>D'autre part, nous avons adressé à tous les sénateurs et députés une lettre attirant
+              leur attention sur ce sujet et leur avons soumis une liste de cas tellement frappants
+              de nos camarades blessés en accomplissant un ordre, que nous sommes persuadés voir
+              réparer une erreur qui ne doit pas subsister dans le projet qui nous intéresse. M. le
+              Ministre des Pensions, qui ne peut que soutenir un projet gouvernemental, a cependant
+              bien voulu nous promettre de faire état des pourcentages de <pb n="4"/>
+              <note type="foliation">— 2 —</note> blessés, qui l'ont amené à chiffrer le projet, et
+              parmi lesquels se trouvent aussi bien blessés de guerre que blessés en service
+              commandé. De ce côté encore, nous escomptons un appui important, car nous ne voudrions
+              pas avoir à faire certains rapprochements qui montreraient que des combattants,
+              blessés en faisant leur devoir, sont moins bien traités chez nous qu'en pays
+              voisin.</p>
+            <p>La Commission des Finances du Sénat a repris à son compte l'article 4 bis institué
+              par la Chambre, qui refuse le bénéfice du Statut aux grands mutilés titulaires d'un
+              emploi public ou d'un emploi réservé. Cette disposition ne nous intéresse évidemment
+              pas directement, car malheureusement les emplois réservés ne sont pas pour nous, mais
+              par camaraderie nous nous joignons très sincèrement aux autres grands mutilés pour que
+              cette restriction ne soit pas maintenue.</p>
+            <p>Il reste alors la question du plafond. Cette nouveauté nous fut présentée un jour en
+              nous disant qu'il fallait établir des plafonds aux pensions d'invalidité. Nous nous
+              sommes demandé quelle pouvait être la signification et la portée de cette demande et
+              tous ceux qui croient s'y connaître un peu en matière de pension sont restés comme
+              nous sans trouver de réponse à cette curieuse prétention. En effet, ou bien on établit
+              un plafond maximum en indiquant qu'en aucune façon la pension totale d'un invalide de
+              guerre ne pourra dépasser une somme X - et là nous sommes tranquilles, car dans bien
+              des pays voisins les maxima sont supérieurs à ce que nous obtiendrons - ou alors il
+              faut adopter des plafonds par catégories. Or, nous ferons remarquer très simplement
+              que les plafonds par catégories sont déterminés par les barèmes eux-mêmes, auxquels
+              s'ajoute, sans cumul, l'allocation qui sera attribuée par le Statut. Nous devons dire
+              que notre camarade Régnier et nous-même avans fait toutes ces remarques, aussi bien au
+              ministre des Pensions qu'aux sénateurs anciens combattants qui ont fort bien compris
+              la justesse de nos observations. Naus avons, du reste, adressé un texte, dont nous
+              vous donnons dans nos informations la teneur, qui précise là-dessus notre pensée.</p>
+            <p>Nous avons fait bien des pas, bien des démarches, toujours de concert avec nos
+              camarades délégués des autres Associations avec lesquels nous défendons fermement nos
+              intérêts. Nous aurons peut-être encore des interventions à faire, mais nous croyons
+              n'être plus loin du but. Nous ne poussons pas de grandes clameurs et ne désirons pas
+              employer un vocabulaire violent où se mêlent l'indignation et la pro- <pb n="5"
+                break="no"/>
+              <note type="foliation">— 3 —</note> testation, mais nous tenons à dire que nous
+              mènerons jusqu'au bout, d'accord avec nos camarades grands mutilés, l'action
+              nécessaire à l'aboutissement de ce Statut.</p>
+            <p>Nous croyons que le Sénat a bien compris la justesse de notre demande et qu'il
+              apportera l'amélioration nécessaire qui aurait dû être donnée depuis longtemps aux
+              grands mutilés qui ne doivent plus attendre. H. Amblard.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTRE ACTION</head>
+            <p>Nous venons d'indiquer le point où se trouve la question du Statut au moment où nous
+              composons notre Bulletin, et afin de renseigner encore plus utilement nos camarades,
+              nous reprenons comme nous l'avons fait dans notre compte rendu sténographique du 30
+              juin dernier la relation des démarches entreprises à ce sujet et nous publions
+              ci-après un bref compte rendu des principales audiences auxquelles les délégués de
+              l'U.A.G. ont participé depuis le 2 février, date de notre dernier Conseil.</p>
+            <p>Lundi 4 février 1935 : audience de M. le Ministre des Pensions. - Le ministre reçoit
+              les représentants des Associations (Amblard pour l'U.A.G., Nouveau pour la Fédération
+              des Amputés, Régnier et Gauriault pour les Grands Invalides, etc.).</p>
+            <p>Rivollet nous fait connaître les impressions de M. Babaud-Lacroze, rapporteur à la
+              Commission des Finances du Sénat, et les réserves que celui-ci compte faire devant la
+              Commission. Les réserves porteront sur le financement, les nouvelles catégories
+              incluses, les blessés en service commandé, etc. Il nous est indiqué que le rapport ne
+              pourra être présenté à cette Commission avant le mercredi 13.</p>
+            <p>Les représentants publient un communiqué et demandent à Rivollet de parler du Statut
+              au Conseil des Ministres du lendemain, ce qui a été fait, le communiqué du Conseil des
+              Ministres le mentionnant.</p>
+            <p>Jeudi 7 février. - Les délégués des Associations ont été reçus par les sénateurs
+              anciens cambattants. Etaient présents pour l'U.A.G. : Amblard et Leveau.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>Le communiqué suivant a été publié : " Les délégués des Fédérations de Grands
+              Invalides de Guerre, " conduits par M. Pierens, secrétaire général par intérim de la
+              Confé"dération Nationale des Anciens Combattants et Victimes de la "Guerre, ont été
+              reçus, le 7 février, par le groupe des sénateurs " anciens combattants présidé par M.
+              Robert Thoumyre. "L'entretien qui a porté sur le Statut des Grands Invalides a été "
+              très cordial et le groupe a assuré la délégation de sa volonté de " faire aboutir le
+              projet à bref délai. "</p>
+            <p>Nous ajouterons qu'au cours de l'entretien, Régnier et Nouveau ont donné à certains
+              sénateurs des arguments pour l'application du Statut. Amblard insistant sur le cas des
+              blessés en service commandé, fait savoir que bien des camarades qui sont dans cette
+              situation ne veulent pas porter leurs décorations par déception.</p>
+            <p>Le 8 février. - Audience de M. Babaud-Lacroze, rapporteur du projet près de la
+              Commission des Finances du Sénat.</p>
+            <p>Sont présents les représentants des Associations. Pour l'U.A.G. : Amblard et
+              Leveau.</p>
+            <p>Le communiqué suivant est publié : "M. Babaud-Lacroze, rap" porteur de la question à
+              la Commission des Finances du Sénat, a " reçu les délégués des grands mutilés. M.
+              Babaud-Lacroze a précisé " les différents points qui ont retenu particulièrement son
+              attention et " qui ont attiré les observations du ministre des Finances. La délé"
+              gation a développé les arguments qui justifient le vote du projet tel " qu'il est
+              actuellement soumis à la Commission des Finances. Le rap" porteur a pris note de ces
+              arguments et a promis de faire toute dili" gence pour le dépôt de son rapport. "</p>
+            <p>Jeudi 14 février, à 11 h. 30. - Audience de M. le Ministre des Pensions. Présents :
+              Amblard, Régnier, Gauriault, Nouveau, Delporte, Jourdan, Girard. Pour la Confédération
+              : Pierens, de Barral, Volvey.</p>
+            <p>Le ministre met la délégation au courant de la séance de la Commission du Sénat qui
+              eut lieu la veille où M. Babaud-Lacroze rapporta la question. Il nous est dit que
+              l'atmosphère ne fut pas très favorable; nous en avons confirmation par le communiqué
+              du Gouvernement paru <pb n="7"/>
+              <note type="foliation">— 5 —</note> ce jour. On nous rapporte que seuls MM.
+              Babaud-Lacroze et Abel Gardey se montrèrent nos défenseurs. Les objections présentées
+              concernèrent : la technique du financement, l'addition dans le projet de nouvelles
+              parties prenantes, le paiement par paliers, les pensionnaires des Invalides, etc.</p>
+            <p>Nous faisons remarquer, une fois de plus, que les blessés en service commandé étaient
+              compris dans le chiffrage. Le ministre répond que pour cette catégorie il espère avoir
+              gain de cause. Il nous signale le mauvais effet produit auprès de la Commission des
+              Finances du Sénat d'une part par les lettres de mutilés qui ne sont pas ou qui ne
+              croient pas être compris dans le Statut, d'autre part le fâcheux effet des articles
+              écrits par des camarades qui estiment que ce projet n'est qu'un premier pas.</p>
+            <p>Le mercredi suivant, les ministres des Finances et des Pensions seront entendus par
+              la Commission. Rivollet pense qu'on reviendra au projet gouvernemental, le seul,
+              dit-il, qu'il puisse soutenir. Nous insistons pour que M. Flandin lui-même défende le
+              projet devant la Commission le mercredi 20. Un communiqué est publié.</p>
+            <p>Dimanche 17 février, 10 heures, Salle du "Petit Journal ». Meeting des Amputés de la
+              Région Parisienne.</p>
+            <p>Nouveau fait à ses camarades un exposé très complet et très objectif de la question.
+              Il termine en affirmant la volonté des amputés de manifester, s'il le faut, pour
+              obtenir satisfaction.</p>
+            <p>Amblard, pour l'U.A.G., tient à dire que le point douloureux des blessés en service
+              commandé, qui sont déjà chiffrés dans le projet, a été rappelé maintes fois au cours
+              des démarches. A une question posée par un camarade dans la salle, il répond que sa
+              présence a une signification de solidarité et que si, après les délibérations du Sénat
+              il estime que satisfaction ne nous était pas donnée, il se joindra aux Amputés.</p>
+            <p>Régnier, ensuite, parle dans le même sens. Après les séances tenues par la Commission
+              des Finances du Sénat, le mercredi 20 et le jeudi 21 février, au cours desquelles ont
+              été entendus MM. Rivollet et Germain-Martin, le ministre des Pensions reçoit les
+              délégués des grands mutilés : Nouveau, Amblard, Régnier, Girard, etc. Il les met au
+              courant des délibérations de cette Commis- <pb n="8" break="no"/>
+              <note type="foliation">— 6 —</note> sion, au cours de laquelle l'article 4 bis du
+              projet fut rétabli (fonctionnaires) et où il fut aussi demandé que soit établi un
+              plafond pour les pensions des grands mutilés. A cette question, Régnier et Amblard
+              déclarent que le plafond s'établit de lui-même par les barèmes actuels; ils ne
+              comprennent pas la demande de la Commission. Le ministre partage leur opinion, mais
+              doit déposer un texte.</p>
+            <p>Le communiqué suivant est publié : "Une délégation des Fédérations des Grands
+              Invalides de "Guerre, conduite par M. A. Piérens, secrétaire général par intérim " de
+              la Confédération Nationale des Anciens Combattants et Victimes de la Guerre, a été
+              reçue par M. Rivollet, ministre des "Pensions. " Très émue par le communiqué de la
+              Commission des Finances " du Sénat qui prétend exclure du bénéfice des allocations
+              prévues par " le projet de Statut des Grands Invalides les titulaires actuels d'une "
+              fonction publique ou d'un emploi réservé, la délégation a protesté " contre une mesure
+              contraire au principe même du droit à réparation. " Elle a déclaré que tous les grands
+              invalides se solidarisaient avec " leurs camarades fonctionnaires qui ont pour la
+              plupart une situation " des plus modestes. "Quant aux "plafonds " dont parle le
+              communiqué, les grands " invalides ont tenu à préciser que la question était déjà
+              résolue par le " projet gouvernemental lui-même et ils se sont élevés avec vigueur "
+              contre toute restriction édictée à l'égard des victimes de la guerre " les plus
+              douloureusement atteintes. "</p>
+            <p>A la suite de cette entrevue, les délégués se mettent d'accord pour adresser le texte
+              suivant au ministre : "En aucun cas le montant total des émoluments résultant de "
+              l'application du présent Statut ne pourra, pour chaque intéressé, " dépasser les
+              sommes qu'ils perçoit au titre de la loi du 31 mars " 1919, des lois subséquentes et
+              des barèmes y annexés, majorées en " vertu des dispositions de la présente loi, dont
+              les allocations prévues " à l'article 3 ne se cumulent pas entre elles. "</p>
+            <p>Vendredi 1<hi rend="superscript">er</hi> mars. - Audience des sénateurs anciens
+              combattants. Sous la présidence de M . Thoumyre, les sénateurs anciens combattants se
+              sont réunis nombreux pour recevoir les délégués des Associations.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Etaient présents : Piérens, représentant la Confédération, Amblard, Nouveau, Régnier,
+              Lamont, etc.</p>
+            <p>Tout le projet est passé en revue avec grande attention et l'article 1<hi
+                rend="superscript">er</hi> fait l'objet d'une revision approfondie. M. Thoumyre
+              expose à ses collègues tous les arguments qu'il compte employer pour faire admettre
+              les blessés en service commandé. MM. Gallet, Rogé, Taurines et tout le groupe l'appuie
+              dans ce sens. Les exemples que nous avons fournis paraissent utiles.</p>
+            <p>Le groupe se montre également favorable aux blessés civils. A propos du plafond que
+              la Commission des Finances désirait établir pour les fortes pensions, Régnier et
+              Amblard indiquent l'inconsistance de cette proposition.</p>
+            <p>Les délégués demandent que le projet soit voté le plus tôt possible et remercient le
+              groupe des sénateurs anciens combattants.</p>
+            <p>A la suite de l'envoi de notre circulaire que nous avons fait aux sénateurs et aux
+              députés, leur indiquant la nécessité d'incorporer les blessés en service commandé, un
+              grand nombre d'entre eux ont bien voulu nous faire savoir que les exemples typiques
+              que nous leur avions signalés les avaient intéressés et convaincus.</p>
+            <p>Nous vous donnons ci-après les noms des parlementaires qui, à ce jour, ont bien voulu
+              nous répondre et nous sommes certains, que même sans nous adresser de réponse,
+              l'unanimité a compris notre demande.</p>
+            <p>Parmi les sénateurs : MM. Auray, Armand Calmel, Charles Dumont, A. Gianotti, de
+              Grandmaison, André Morizet, Mounié, E. Néron, Raoul Péret, Georges Portmann, A.
+              Renaudot.</p>
+            <p>Parmi les députés : MM. Albertin, Bertrand d'Aramon, Bau-douin-Bugnet, Emile
+              Brachard, de Chammard, Georges Chauvin, P. Delcourt, de Diesbach, René Dommange,
+              Pétrus Faure, Henri Fiori, Henri Franklin-Bouillon, Frossard, Gentin, Louis Guillon,
+              L. L'Heveder, R. Jardinier, Lafont, G. Lasserre, André Liautey, E. Malric, Pierre
+              Mendès-France, Ernest Outrey, Patenôtre-Desnoyers, Emile Perrein, Camille Planche,
+              Paul Rives, Maurice Rolland, Emmanuel Roy, L. Salles, Joseph Serda, Edouard Soulier,
+              M. Tailliandier, E. Taudière, Joseph Vidal.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>M. de Saint-Just, au nom de la Fédération Républicaine, nous promet l'appui de ce
+              groupe. M. Renaud Jean, au nom de la Fraction Communiste, donne son adhésion, ainsi
+              que celle de ses collègues : Capron, Clamamus, Dewez, Midol, Monjauvis, Ramette, Péri,
+              Thorez.</p>
+            <p>Parmi les réponses reçues, notre camarade Rogé, sénateur de Meurthe-et-Moselle, nous
+              a adressé l'aimable lettre suivante qui marque un point de vue d'ordre général sur la
+              question : " Mon cher Amblard, " J'ai bien reçu votre circulaire du 14 courant et je
+              vous remercie vivement des renseignements qu'elle contient et que je compte bien
+              utiliser lors de la discussion du projet de Statut des Grands Invalides pour obtenir
+              que le bénéfice en soit étendu à nos camarades blessés en service commandé. " Les
+              quelques exemples que vous indiquez sont particulièrement suggestifs et j'espère
+              qu'ils contribueront à ramener le Sénat à une plus saine appréciation de la situation.
+              " Nous aurons toutefois fort à faire pour réagir contre les atteintes répétées qui
+              sont portées à notre charte de 1919 et au principe même du droit à réparation, avec
+              quelquefois, malheureusement, la complicité consciente ou inconsciente de certains de
+              nos camarades. " Je vous prie de croire, etc. "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">L'Assemblée Générale de
+              1935</head>
+            <p>Nous vous avons fait savoir, dans notre dernier Bulletin, que le Conseil
+              d'administration avait fixé la date de notre Assemblée générale au dimanche 7
+              avril.</p>
+            <p>Nous donnons ici les lieux et heures des réunions des Commissions et de l'Assemblée
+              plénière :</p>
+            <p>Vendredi 5 avril, à 9 heures, au siège social de notre Association, 25 rue Ballu :
+              Commission des Pensions. Rapporteur : Favret.</p>
+            <p>A 14 h. 15, Salle des Fêtes de la Maison des Mutilés, 7, rue des <pb n="11"/>
+              <note type="foliation">— 9 —</note> Minimes (entrée par la rue de Béarn) : Commission
+              des Services Intérieurs. Rapporteur : Amblard.</p>
+            <p>Commission de la Maison des Aveugles de Guerre. Rapporteurs : Bois et Fauvel.</p>
+            <p>Samedi 6 avril, à 9 heures, au siège social de l'U.A.G., 25, rue Ballu :</p>
+            <p>Commission d'Action Sociale. Rapporteur : Lauté. Commission de Propagande. Rapporteur
+              : Muller. Commission des Questions Diverses. Rapporteur : Leveau. A 14 h. 15, Salle
+              des Fêtes de la Maison des Mutilés, 7, rue des Minimes, Paris (entrée rue de Béarn)
+              :</p>
+            <p>Commission du Budget. Rapporteur : Noireaux. Récapitulation des vœux émis par les
+              diverses Commissions. Dimanche 7 avril, à 9 h. 15, Salle des Fêtes de la Maison des
+              Mutilés, 7, rue des Minimes : Assemblée générale annuelle.</p>
+            <p>A 12 h .30 , aura lieu un banquet amical auquel tous nos camarades sont cordialement
+              conviés d'assister.</p>
+            <p>Nous ne sommes pas certains, cette année, de pouvoir l'organiser dans les Salons de
+              l'Hôtel Lutetia, comme nous en avions pris l'habitude, mais nous assurons nos
+              camarades de retenir, pour ce déjeuner, auquel beaucoup d'entre nous ont plaisir à
+              participer, les salons d'un hôtel où ils auront pleine satisfaction.</p>
+            <p>Nous donnerons, dans la lettre de convocations qui sera adressée comme d'habitude à
+              chacun de nos camarades, tous les renseignements sur le lieu, le prix du banquet,
+              ainsi que le menu qui sera arrêté. Nous les prions de nous envoyer, au reçu de ces
+              instructions, leur adhésion pour le banquet en même temps que le montant des couverts
+              qu'ils auront retenus.</p>
+            <p>Nous recommandons aux camarades qui désirent se trouver ensemble à une même table
+              d'en aviser le Comité d'Action de l'U.A.G., 25, rue Ballu, Paris.</p>
+            <p>Le Conseil d'administration du 9 mars doit établir le bulletin de vote en faisant
+              tirer au sort les noms des camarades inscrits.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+            <p>Voici, par ordre alphabétique, les candidatures reçues à ce jour: Amblard, Bloncourt,
+              Cabasson, Chanudet, Chaumerac, Céré-Labourdette, Dallet (François), Eiselé, Favret,
+              Finet, Gagnard, Gailly, Izaac, Leveau, L'Evesque, Malgat, Malingre, Mauger, Mulsant,
+              Roy (G.), Vernet.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Notre Maison</head>
+            <p>Etat d'avancement des travaux au 28 février 1935 Le gros œuvre est terminé, ainsi que
+              les toitures-terrasses. Le mauvais temps persistant a retardé la mise en état
+              d'étanchéité qui sera entreprise dès la première période de temps propice.</p>
+            <p>A l'intérieur, toutes les distributions sont en place et les cloisonnements sont en
+              cours d'exécution.</p>
+            <p>Les ouvertures extérieures (menuiserie métallique) sont sur le point d'être terminées
+              en atelier et leur pose est imminente.</p>
+            <p>Malgré le mauvais temps, un gros effort a été fait pour la bonne marche des
+              travaux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Le Président des Aveugles de
+              Guerre Italiens à Paris</head>
+            <p>Le Président de nos camarades italiens, M. Carlo Delcroix, député à la Chambre
+              italienne, a passé quelques jours dans notre capitale, à la fin du mois de février,
+              pour rendre les visites qu'il avait reçues en Italie de la part des anciens
+              combattants français.</p>
+            <p>A cette occasion, le ministre des Pensions, notre camarade Rivollet, lui a remis les
+              insignes de commandeur de la Légion d'honneur.</p>
+            <p>Nous sommes très heureux de savoir que Carlo Delcroix, Aveugle de Guerre italien,
+              amputé des deux mains, a été ainsi honoré par notre pays, lui qui a été blessé dans
+              des circonstances tragiques, ainsi que la presse l'a rappelé. Il avait voulu se rendre
+              seul à l'endroit où l'un de ses camarades venait d'être atteint par une grenade, près
+              d'un dépôt de munitions. S'étant approché pour le relever, il fut à son tour frappé
+                <pb n="13"/>
+              <note type="foliation">— 11 —</note> par une grenade qui se trouvait sous le corps de
+              l'infortuné et qui n'avait pas explosé. Sans être blessé du fait de l'ennemi, il fut
+              ainsi victime de son dévouement.</p>
+            <p>Nous adressons nos vives félicitations au Président des Aveugles de Guerre Italiens
+              pour la distinction dont il vient d'être l'objet.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Le Sweepstake Luxembourgeois
+              (TROISIÈME TRANCHE)</head>
+            <p>La troisième tranche du Sweepstake Luxembourgeois, qui est émise en ce moment dans le
+              public, a été autorisée par M. Marcel Régnier, ministre de l'Intérieur, lors d'une
+              visite que les représentants des Associations bénéficiaires de ce Sweepstake lui ont
+              faite dans le courant du mois dernier.</p>
+            <p>Par la suite, un communiqué du Conseil des Ministres visant les loteries étrangères
+              avait rendu quelque peu perplexe nos amis et camarades, mais nous tenons à leur dire
+              que cette troisième tranche du Sweepstake Luxembourgeois n'est nullement visée par le
+              communiqué en question. Par conséquent, nos camarades pourront trouver des billets à
+              notre siège, 25 , rue Ballu, jusque dans les premiers jours de mars.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">"La Flamme"</head>
+            <p>Nous rappelons que l'U.A.G. doit ranimer la Flamme, le 30 avril prochain.</p>
+            <p>Le rendez-vous est fixé Métro Etoile (côté avenue Wagram), à 18 h .10 , et nous
+              engageons nos camarades à participer en grand nombre à cette cérémonie.</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">Légion d'Honneur</head>
+            <p>Au Journal Officiel du 24 février 1935, publiant le décret du 16 février, sont promus
+              au grade d'officier dans l'Ordre National de la Légion d'honneur : Arona Marigor, dit
+              N'Guere Moussa, ancien soldat au 24<hi rend="superscript">°</hi> Rég. d'Infanterie
+              Coloniale. Bertrand (Marcellin, Louis), ancien soldat au 27<hi rend="superscript"
+                >°</hi> Bataillon de Chasseurs à pied. Chabert (Joseph, Lazare), ancien soldat au
+                6<hi rend="superscript">°</hi> Rég. d'Infanterie Coloniale. Deldon (Marius, Joseph,
+              Louis), ancien soldat au 55<hi rend="superscript">°</hi> Rég. d'Inf. Feschet (Eugène
+              Séverin), ancien soldat au 7<hi rend="superscript">°</hi> Bataillon de Chasseurs à
+              pied. Houdre (Raymond, Charles), ancien soldat au 331<hi rend="superscript">°</hi>
+              Rég. d'Inf. Le Guen (Raymond, Charles), ancien soldat au 4<hi rend="superscript"
+                >°</hi> Rég. d'Infanterie. Masson (Yves), ancien soldat au 48<hi rend="superscript"
+                >°</hi> Régiment d'Infanterie. Quittanson (Jean, Marie), ancien soldat au 13<hi
+                rend="superscript">°</hi> Bataillon de Chasseurs à pied.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">Souscription pour le buste
+              BRIEUX</head>
+            <p>Nous publions ci-après la treizième liste des souscriptions reçues : Simon (J.), 10
+              fr. - Raffray, 20 fr. - Tourneux (R.), 10 fr. - Dufourg, 10 fr. - Moreau (A.), 10 fr.
+              - Khiddas, 10 fr. Langel, 10 fr. - Une amie suisse, 244 fr. - Martin (L.), 10 fr. Pey,
+              10 fr. - Lebon, 10 fr.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">Société de Secours aux Blessés
+              Militaires</head>
+            <p>La S.S.B.M. nous informe qu'elle procure aux Aveugles de Guerre à des conditions
+              intéressantes : 1<hi rend="superscript">°</hi> Un phonographe, bonne sonorité,
+              fonctionnement parfait, présenté en valise et accompagné d'une mallette contenant huit
+              disques, d'une valeur de 15 francs pièce, à choisir d'après liste envoyée sur
+              demande.</p>
+            <p>Prix net : 300 francs. 2<hi rend="superscript">°</hi> Un poste de T.S.F. "Telemax ",
+              cinq lampes, secteur alternatif, 110-240 volts, dispositif antifading, cadran mixte
+              visuel et Braille, haut-parleur électrodynamique, bouton tonalité.</p>
+            <p>Prix spécial: 750 francs. 3<hi rend="superscript">°</hi> Un poste T.S.F., sept
+              lampes, mêmes caractéristiques que le précédent.</p>
+            <p>Prix spécial : 1.050 francs. Sur ces prix, la S.S.B.M. participe, pour une somme de
+              200 fr . sur les appareils de T.S.F. et 180 francs sur les phonographes, à condition
+              toutefois que les camarades n'en aient encore jamais bénéficié.</p>
+            <p>Les Aveugles désireux de bénéficier des avantages consentis devront adresser leur
+              demande au Bureau des Aveugles de la S.S. B.M., 21, rue François-I<hi rend="superscript">er</hi>, Paris ( 8<hi rend="superscript">°</hi> ), en y joignant
+              un mandat correspondant au prix de l'appareil choisi, déduction faite de la somme
+              allouée. (Indiquer la gare où doit être faite l'expédition.)</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Caisse Fraternelle</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 28 février, une somme de 27.050 francs, se répartissant comme suit :</p>
+              <p>Allocations naissances. . . . . . . . . . . . . . . . . 900 Allocations décès et
+                palmes.............. 6.400 Allocations Caisse Maladie.............. 9.750 Il y a
+                lieu d'ajouter à ces 27.050 francs une somme de 20.000 francs pour prêts maisons
+                familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner vingt et une demandes dont
+                trois n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">ENTRE-NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Naissances</head>
+                <p>Notre camarade et Mme Jaffré (Pierre), de Marseille, nous font part de la
+                  naissance de leur troisième enfant, Paulette, née le 15 janvier 1935.</p>
+                <p>Notre camarade et Mme Camuset, de Chargey-les-Gray (HauteSaône), nous font part
+                  de la naissance de leur cinquième enfant, Robert, né le 29 janvier 1935.</p>
+                <p>Notre camarade et Mme Maumont, de Saint-Pardoux-Corbier (Corrèze), nous font part
+                  de la naissance de leur quatrième enfant, Josette, née le 10 février 1935.</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+                <p>Notre camarade et Mme Prigent, de Lesneven (Finistère), nous font part de la
+                  naissance de leur fils, Michel, né le 28 janvier 1935.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Mariages</head>
+                <p>Notre camarade André Garnaud, de Paris, nous fait part du mariage de sa fille
+                  Andrée avec M. Marcel Picard., célébré le 16 février 1935 .</p>
+                <p>Notre camarade Picaud, à La Baule (Loire-Inférieure), nous fait part de son
+                  mariage avec Mme Veuve Baudouin, le 23 février 1935.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Dolo (Léon), de Loudéac
+                  (Côtes-du-Nord), décédé le 21 janvier 1935, à l'âge de quarante-quatre ans.</p>
+                <p>Né le 2 mars 1891, à Plémet (Côtes-du-Nord), soldat au 30 Régiment d'Artillerie,
+                  notre camarade fut blessé, le 17 septembre 1915, à Sillery (Somme). Réformé à
+                  200%, articles 10 et 12 , pour cécité complète et blessures multiples, officier de
+                  la Légion d'honneur, titulaire de la Médaille militaire, notre camarade laisse une
+                  veuve et un enfant.</p>
+                <p>De notre camarade Olivier (Henri, Marius), de Roquefort-laBédoule
+                  (Bouches-du-Rhône), décédé le 31 janvier 1935, à l'âge de cinquante-cinq ans.</p>
+                <p>Né le 26 mai 1880, à Aubagne, soldat au 112<hi rend="superscript">e</hi> Régiment
+                  d'Infanterie, Olivier fut blessé au Bois de la Grurie, le 26 juin 1915. Réformé à
+                  110%, articles 10 et 12 , pour cécité complète et blessure <pb n="18"/>
+                  <note type="foliation">— 16 —</note> à la main droite, chevalier de la Légion
+                  d'honneur, titulaire de la Médaille militaire et de la Croix de Guerre, notre
+                  camarade laisse une veuve.</p>
+                <p>De notre camarade Delrieu (Pierre) de Lespinasse-Molière, par Cadouin (Dordogne),
+                  décédé le 5 février 1935.</p>
+                <p>Né le 15 juin 1885, à Molières, soldat au 209<hi rend="superscript">°</hi>
+                  d'Infanterie, Delrieu fut blessé au Bois-Sabot (Marne), le 27 novembre 1914.
+                  Réformé à 100%, article 10 , pour cécité complète, chevalier de la Légion
+                  d'honneur, titulaire de la Médaille militaire, notre camarade laisse trois
+                  fillettes.</p>
+                <p>Du fils de notre camarade Frère, de Rouen (Seine-Inférieure), décédé le 20
+                  janvier 1935, à l'âge de treize ans.</p>
+                <p>De la mère de notre camarade Théodule, de Montpellier (Hérault), décédée le 17
+                  janvier, à l'âge de quatre-vingt-cinq ans.</p>
+                <p>Nous adressons aux parents nos plus sincères condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">Cotisations
+                Volontaires</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                ont tenu à effectuer un nouveau versement : Soubiel, 5 fr. - Margault, 5 fr. -
+                Tourrès, 10 fr. - Lucas (G.), 10 fr. Gréard, 5 fr. - Defours, 5 fr. - Houdre, 10 fr.
+                - Simon (J.), 10 fr. - Junqua, 10 fr. - Coudrai, 5 fr. - Vial (E.), 15 fr. Duchamp,
+                5 fr. - Motte, 5 fr. - Catillon (G.), 15 fr. - Tremeau, 10 fr. - Malinge, 10 fr. -
+                Vuotto, 5 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Cotisations pour l'Année
+                1935</head>
+              <p>Coat, Rollet, Bicheron, Laboulais, Capet, Castor, Fagnon, Soubié, Charpentier,
+                Berigaud, Gautier (P.), Deniel, Mariet, Lemaire (G.), Tarte, Adam (E.), Barbier
+                (J.-M.), Herouin, Margault, Garcelon, Delafosse (G.), Feuilleul, Desgrippes,
+                Lehouck, Donchet, <pb n="19"/>
+                <note type="foliation">— 17 —</note> Meunier (M.), Maumont, Alloi, Valdant, Tourrès,
+                Bazas, Lucas (G.), Lappe, Alquié (G.), Betremieux, Chauvel, Fauvel, Bouillard,
+                Ducornet, Grillet (L.), Potency Debout, Ragereau, Barnabé (C.), Landais (J.),
+                Miniou, Favereau, Croisé, Gréard, Vella, Scotto, Forgues, Louesdon, Gauchet, Vernhes
+                (J.), Bouisson, Bibois, Morand, Defours, Michel (A.), Millepied, Delacourt,
+                Montcharmont, Raffestin, Dulucq, Boureau, Erouart, Bouréon, Dubos (P.), Piot, Ecal,
+                Reyné, Mitault, Delille, Chouquet, Houdré, Buteau, Simon (J.), Simon (P.), Quinet,
+                Massaly, Le Gouar, Millien, Reguilhem, Chenenaille, Caillaux, Potereau, Jeanmiard,
+                Sabin, Larher, Vialatoux, Bertau, Duffaut, Guenivet, de Chatillon, Bloch, Couteau,
+                Sciellour, Clément (P.), Brassac, Ramadour, Guinet (L.), Bistch, Bousquet, Tourneur
+                (R.), Thiriet, Dufourg, Meslin, Coulaud, Chabbert (H.), Loulergue, Gable, Delacroix,
+                Desmats, Lamy (A.), Brebion, Robin (V.), Equerre, Salvat, Bondon, Bouchet (G.),
+                Justin, Isnardy, Leveau (R.), Dupuis (J.), Sellos, Molinier (A.), Fonchy, Gaconnier,
+                Guegan, Thiberge, Charles (G.), Mercier (R.), Petit (Adrien), Danger (H.), Gillot,
+                Colleuille, Duverger, Boo, Delplanque, Corbel, Malingre, Chaumerac, Coudrai,
+                Lecaudey, Bignon (G.), Mondoloni, Guihard, Guilbert, Giloux, Kuster, Moreau (A.),
+                Pernoo, Menetrey, Pagès, Guillenjouan, Estorges, Charriaut, Dupuy (M.), L'Hermitte,
+                Leroy (M.), Peligry, Pouy, Rouxel, Petit (Joseph), Grattepain, Boulert, Odoul, Levy,
+                Mayet, Fouillet, Vial (E.), Roussigné, Laurent (F.), Blin, Chancé, Gustin, Khidas,
+                Sursin (P.), Delforge, Martin (J.), Rignault, Marin, Plateau, Lambert (P.), Fouasse,
+                Berdon, Huppé, Heuzé (H.), Pichenot, Lebarbier, Dumontet, Reulet, Calmès, Braun,
+                Lansquenet, Barbier (J.), Rain, Sarret, Gril, Castel (H.), Cordier, Seceh, Acart,
+                Guyennet, Dufau (E.), Fevelat, Evette, Layec, Arzagot, Finance, Chabert (J.),
+                Turcat, Lecomte (L.), Moulin (E.), Casdagne, Devarrieux, Herbet, Chastaing, Duchamp,
+                Langel, Chagniaud, Suscillon, Badel, Théodule, Rubin, Vendeville, Hocq, Mathieu,
+                Gouny, Hervoir, Blanc (A.), Lallemant (J.), Arnaud (A.), Vincendo, Boudault, Dupont
+                (J.), Molinié (B.), Briel, Courtecuisse, Motte, Lefebvre (J.), Chaplain, Lelarge,
+                Charrier, Deglise, Peyron, Peigné, Charles (H.), Bouchet (R.), Lescalier, Barret,
+                Chaigneau, Ramspacher, Girard (Jules), Lafaye, Graux, Moulin (A.), Royer, Gaetti,
+                Catillon (G.), Rambeau, Domenger, Tauriac, Demalaine, Fleury (H.), Dubois (A.),
+                Marrot (J.), Toudic, Cariou, Renauld, <pb n="20"/>
+                <note type="foliation">— 18 —</note> Malinge, Lacombe, Massot-Pellet, Cressent,
+                Mathey, Vallery, Rabel, Barbet, Pennequin, Depeige, Vuotto, Serret, Grimaldi,
+                Quidor, Gautier (J.), Gravet, Bentejac, Héron, Pluchot, Magnin, Pinasseau, Leroux
+                (E.), Malgat, Barday, Picaud, Véron (L.), Becker, Lennoz, Dozinel, Boitel, Pierre
+                (M.), Henry (P.), Blanc (A.), Trotel, Grosjean, Thibaut, Cizeron, Boudra, Grossemy,
+                Huc, Matinaud, Meunier (J.), Vial (J.), Martin (L.), Parent (A.), Vaxelaire.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">PROCES-VERBAL de l'Assemblée
+                Générale de la Section des Bouches-du-Rhône</head>
+              <p>La Section des Bouches-du-Rhône a tenu son Assemblée générale annuelle, le samedi
+                23 février 1935, en la Maison de la Mutualité, à Marseille. La séance était présidée
+                par Mme Barthe, présidente d'honneur de la Section, assistée de notre camarade
+                Amblard, secrétaire général de l'U.A.G., délégué de l'Union.</p>
+              <p>Sont présents, les camarades : Bicheron, Berla, Broutin, Cabasson, Chabert,
+                Chatillon, Chaullier, Corazza, Debatisse, Dupuy, Fargier, Fauchier, Lieutaud,
+                Liotaud, Maille, Michel (Eugène), Pellegrin, Rieu et Scotto. Excusés, les camarades
+                : Capitaine, Cholau, Michel (Félix) et Raybaud.</p>
+              <p>Le camarade Cabasson, président de la Section, ouvre la séance à 15 heures. Après
+                avoir salué la mémoire du camarade Ollivier, récemment décédé, il remercie les
+                camarades présents d'avoir répondu en aussi grand nombre à l'appel de la Section. Il
+                salue, au nom de tous, Mme Barthe et l'assure de la respectueuse sympathie de tous
+                les camarades de la Section auxquels elle se dévoue depuis 1915. Aux
+                applaudissements de l'assistance, Mme Barthe est réélue présidente d'honneur pour
+                l'exercice 1935-1936.</p>
+              <p>Le Président adresse ses salutations et ses souhaits de bienvenue à Mme Amblard et
+                à notre dévoué secrétaire général qu'il présente à l'Assemblée.</p>
+              <p>Mme Barthe remercie en quelques paroles émouvantes les camarades présents et les
+                assure de son constant dévouement. A son tour, <pb n="21"/>
+                <note type="foliation">— 19 —</note> Amblard apporte à la Section le salut du Bureau
+                et du Conseil de l'U.A.G. et remercie les camarades de leur cordial accueil.</p>
+              <p>L'ordre du jour appelle la lecture de la situation financière de la Section arrêtée
+                avec un soîde en caisse de 197 francs. La situation est approuvée à l'unanimité. Le
+                Président remercie le trésorier, M. Cumella, et le commissaire aux comptes, M.
+                Suzanne, de leur précieuse collaboration et demande à l'Assemblée de bien vouloir
+                renouveler le mandat des deux membres voyants de notre Conseil pour 19351936. Ces
+                propositions sont approuvées par l'Assemblée.</p>
+              <p>Sur la demande du camarade Maille, le Président fait un bref exposé de l'action de
+                la Section depuis sa création et il est ensuite procédé à l'élection du nouveau
+                Conseil. Votants: 19. Ont obtenu: Cabasson, 19; Chatillon, 18; Corazza, 18; Dupuy,
+                18; Fauchier, 18; Liotaud, 17; Michel (Eugène), 14; Maille, 7; Debatisse, 2;
+                Chabert, I. Sont élus, les camarades : Cabasson, Chatillon, Corazza, Dupuy,
+                Fauchier, Liotaud et Michel (Eugène).</p>
+              <p>L'ordre du jour appelant ensuite l'examen de l'action de l'U.A.G., pendant l'année
+                écoulée, le Président demande aux camarades s'ils veulent entendre la lecture des
+                rapports moral et financier de l'Union. Sur la réponse négative de l'Assemblée, qui
+                a déjà pris connaissance de ces rapports dans notre Bulletin, la parole est donnée à
+                notre camarade Amblard. Celui-ci fait un exposé détaillé des questions importantes
+                qui ont sollicité l'attention du Bureau au cours de l'année écoulée. Il s'attache
+                particulièrement à présenter un historique complet des négociations menées par
+                l'U.A.G. pour obtenir le vote du Statut des Grands Mutilés. Il dit les nombreuses
+                difficultés qu'il fallut vaincre au sein de la Commission ministérielle, devant les
+                Commissions de la Chambre, en séance publique du Parlement, ainsi que l'état actuel
+                des pourparlers engagés avec les Commissions du Sénat. Amblard répond obligeamment
+                aux diverses demandes d'explications complémentaires qui lui sont faites par divers
+                camarades parmi lesquels Chatillon, Corazza, Dupuy, Fargier, Liotaud, Maille et
+                Michel (Eugène). En conclusion de ce débat, l'Assemblée adopte les vœux présentés
+                par les camarades Cholau, Corazza, Michel (Eugène).</p>
+              <p>En réponse à une demande de renseignements adressée par le camarade Michel
+                (Eugène), le Président donne lecture d'une note de la Municipalité de Nice
+                concernant la création, dans cette ville, d'une maison de retraite pour grands
+                mutilés.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>L'ordre du jour étant épuisé, le Président remercie tous les camarades présents et
+                prie Mme Barthe de vouloir bien transmettre l'expression de notre gratitude au Grand
+                Conseil de la Mutualité qui nous a si obligeamment prêté sa salle de réunion.</p>
+              <p>La séance est levée à 17 h .45 . A l'issue de la réunion, le Conseil procède à
+                l'élection de son Bureau.</p>
+              <p>Ont obtenu : Cabasson, 7 voix; Corazza, 4; Dupuy, 4; Michel (Eug.), 3; Liotaux, 2;
+                Chatillon, 1 voix.</p>
+              <p>Le nouveau Bureau est donc ainsi constitué : président: Cabasson; vice-président :
+                Dupuy; secrétaire : Corazza; trésorier voyant : M. Cumulla.</p>
+              <p>Le Président : M. Cabasson.</p>
+              <p>Le Secrétaire : A. Corazza.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Régionale de Limoges</head>
+              <p>La date de la réunion du Groupement de Limoges avait été fixée au dimanche 7 avril.
+                Cette date ayant été choisie après coup pour l'Assemblée générale de l'Union, nous
+                avons décidé, avec le camarade Sigault, de remettre la réunion au mois
+                d'octobre.</p>
+              <p>En effet, une réunion pendant la période hivernale est peu propice en raison du
+                mauvais temps. Beaucoup de camarades sont obligés de quitter leur domicile de très
+                bonne heure, ce qui n'est pas toujours agréable et il en résulte trop d'absences. A
+                la réunion du mois d'octobre, nous fixerons ensemble la date de la réunion
+                suivante.</p>
+              <p>Le Président de la Régionale : LAGARDE.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">AVIS DIVERS</head>
+              <p>A vendre : Un piano quart de queue lbach, marque allemande, cordes croisées, grand
+                cadre fer 88 notes, très beau meuble moderne en acajou verni. Prix: 7.000
+                francs.</p>
+              <p>S'adresser au camarade Hervoir, 67, boulevard de Reuilly, Paris (12).</p>
+              <p>Madame Levy Weis, membre de notre Comité d'Action, nous demande de faire savoir aux
+                membres de l'U.A.G. qu'elle attire l'attention des camarades sur les différents
+                centres de repos et camps de vacances créés à la mer, à la campagne et en montagne
+                pour les enfants des deux sexes, de 7 à 18 ans.</p>
+              <p>Pour tous renseignements, s'adresser à Mme Levy-Weis, 22, rue Octave-Feuillet,
+                Paris (16).</p>
+              <p>++%</p>
+              <p>Serais acheteur vélo-car en bon état, dans de bonnes conditions. Faire offre au
+                camarade Lambert, 15, rue de Belfort, Aulnay-sousBois (Seine-et-Oise).</p>
+              <p>++%</p>
+              <p>Montres pour aveugles. Tarif actuel des prix : Qualité A. Montre nickel,
+                savonnette, ancre 20 lignes, cadran spécial avec points pour aveugles : 90
+                francs.</p>
+              <p>Qualité A. La même montre grandeur 16 lignes : 102 francs. Qualité B. Montre
+                nickel, ancre 15 rubis, savonnette, spirale Bréguet, 18 lignes, cadran spécial avec
+                points et bâtonnets pour aveugles : 160 francs.</p>
+              <p>Qualité B. Montre même mouvement et même cadran que la précédente, mais en argent,
+                trois cuvettes argent, décor riche, rayon Gloire, 18 lignes : 260 francs.</p>
+              <p>Garantie trois ans, sauf fracture. S'adresser à M. Arthur Caron, 66, rue de la
+                République, Montmorency (Seine-et-Oise). Téléphone: Enghien 371.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+              <p>Les Etablissements Blosa, de Boulogne-sur-Seine, offrent aux Aveugles de Guerre la
+                représentation de leurs produits d'entretien ménager, les assurant d'une remise
+                intéressante.</p>
+              <p>Pour tous renseignements, s'adresser directement aux Etablissements Blosa, 34, rue
+                Thiers, à Boulogne-sur-Seine.</p>
+              <p>++%</p>
+              <p>Appareils et lampes de T.S.F. Philips, remise importante aux membres de
+                l'Union.</p>
+              <p>S'adresser au camarade Hennebicq, 4, rue Paul-Escudier, Paris (9'). Téléphone:
+                Pigalle 67-28.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Liste des Donateurs</head>
+              <p>Ecole Normale d'Institutrices, Digne, 10 fr. - Mme Coquerelle, Epinay-sur-Seine (en
+                souvenir de son fils "Mort pour la France »), 100 fr. - Mme Condamin, Nice, 6 fr. -
+                Mme Kahn, Paris, 20 fr. - M. Coatedoat, Alger, 20 fr. - Notre camarade Thiriet, 10
+                fr. - Mme Gendrot, Aulnay-sous-Bois, 50 fr. - Mme Granier, Crépy-en-Valois (Oise)
+                (transmis par Les Annales), 25 fr. - Mme Blayac, Levallois-Perret, 100 fr. - Lycée
+                Lakanal, Sceaux (Seine), 100 fr. - M. Simon Zagdoun, Le Caire (Egypte), 196 fr. -
+                Mme Allegret, Paris, 25 fr. - La Famille de M. Charles Viennet, Béziers (Hérault),
+                200 fr. - Mme Lévy-Weis, Paris, 100 fr. - Produit d'une quête faite au mariage des
+                époux Bonhôte-Claude, à Viéville (Meurthe-et-Moselle), 45 fr. - Divers, 2.790 fr.
+                99.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Dons avec affectation
+                spéciale pour la « Maison des Aveugles de Guerre»</head>
+              <p>Notre camarade Lappe, 10 fr. - Notre camarade Raffray, 30 fr. - Commune de
+                Saint-Rémy (Vosges), 10 fr.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+              <p>DERNIERE HEURE</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">LE STATUT DES GRANDS
+                MUTILÉS</head>
+              <p>Nous avons assisté hier, 12 mars, au Sénat, à la discussion du projet de statut des
+                Grands Mutilés qui, sur les points importants, nous donne satisfaction.</p>
+              <p>Au moment de renvoyer les épreuves de notre bulletin à l'impression, nous nous
+                empressons de donner les renseignements principaux à nos camarades, nous réservant
+                d'indiquer tous les détails dans notre Bulletin.</p>
+              <p>Il ressort du vote du Sénat : 1<hi rend="superscript">°</hi> que nos camarades
+                blessés en service commandé, titulaires de la carte du combattant, sont compris dans
+                le bénéfice du statut au même titre que les blessés de guerre, ce qui est une
+                amélioration; 2<hi rend="superscript">°</hi> que le plafond, que la Commission des
+                Finances voulait établir et qui lésait les plus atteints d'entre nous, n'a pas été
+                adopté à la suite des interventions des sénateurs Thoumyre, Rogé, Taurines, etc. Le
+                tableau des allocations dites "dotation" n'a pas été modifié, donc un Aveugle de
+                Guerre, blessé de guerre ou blessé en service commandé, recevra en sus de la pension
+                et des majorations ou allocations qu'il perçoit, une dotation de 9.800 francs par
+                an, à partir du 1<hi rend="superscript">er</hi> janvier 1936, le paiement à partir
+                du 1<hi rend="superscript">er</hi> janvier 1935 n'étant fait que sur la base de
+                50%.</p>
+              <p>Nous sommes persuadés que la Chambre des Députés adoptera toutes ces dispositions
+                qui apporteront une amélioration à la situation de beaucoup d'entre nous. Nous
+                parlerons dans notre prochain bulletin des camarades qui, malheureusement, ne
+                profitent pas de ce statut.</p>
+              <p>Voici les deux articles qui intéressent spécialement les Aveugles de Guerre. "
+                Article premier. - Sont au regard de la présente loi, qualifiés grands mutilés de
+                guerre, les pensionnés titulaires de la carte " du combattant qui, par suite de
+                blessures de guerre, sont amputés, " aveugles, paraplégiques, blessés crâniens avec
+                épilepsie; équivalents " épileptiques ou aliénation mentale ou qui, par blessure de
+                guerre, " sont atteints d'une infirmité entraînant à elle seule un degré d'inva"
+                lidité d'au moins 85%. "Bénéficient également des dispositions de la présente loi et
+                sous</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+              <p>" les mêmes conditions, les pensionnés titulaires de la carte du com" battants qui
+                ont été blessés en service commandé. " " Article 3. - Dotation pour l'Aveugle de
+                Guerre : 9.800 fr. Nous ferons remarquer également que la proposition tendant à
+                exclure du bénéfice du statut les grands mutilés fonctionnaires a été disjointe.</p>
+              <fw type="footer">IMPRIMERIE DUBOIS &amp; BAUER 34, RUE LAFFITTE P'ARIS (IX) --1935-- Le
+                Gérant : Decoène</fw>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

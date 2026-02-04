@@ -1,0 +1,2260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 19ème année 1937, n°10</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Pensions de guerre</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Livre Parlé</title>
+        <title type="topic">Inventions pour aveugles</title>
+        <title type="topic">Droits des invalides</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 27 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#livre-parle">Livre Parlé</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#reajustement">Réajustement</term>
+          <term ref="#statut">Statut</term>
+          <term ref="#comite-dentente">Comité d'Entente</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) aborde plusieurs sujets
+          cruciaux pour ses membres. Il détaille les actions en cours concernant le rajustement des
+          pensions et les négociations avec les ministères concernés. Le document rend compte des
+          démarches entreprises par le Comité d'Entente des Associations de Grands Invalides auprès
+          de divers ministres et commissions parlementaires. Il présente également des informations
+          sur le Livre Parlé, des inventions pratiques pour les aveugles, et les activités de la
+          Caisse Fraternelle de l'U.A.G. Enfin, il inclut des chroniques de l'association, des avis
+          aux pensionnés de guerre, et des informations sur le conseil juridique offert aux
+          membres.</p>
+      </abstract>
+      <creation>
+        <date when="1937-11-01">01/11/1937</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-28" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-26" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h5">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h7">LES PENSIONS</ref>
+            <list>
+              <item>
+                <ref target="#h8">Le rajustement</ref>
+              </item>
+              <item>
+                <ref target="#h9">L'action en cours</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h10">COMPTE-RENDU DE NOS DIFFÉRENTES DÉMARCHES</ref>
+          </item>
+          <item>
+            <ref target="#h11">La Confédération Nationale des Anciens Combattants et Victimes de la
+              Guerre nous prie d'insérer le communiqué suivant :</ref>
+          </item>
+          <item>
+            <ref target="#h12">LE COMITÉ D'ENTENTE</ref>
+          </item>
+          <item>
+            <ref target="#h13">RÉUNION DU COMITÉ D'ENTENTE</ref>
+          </item>
+          <item>
+            <ref target="#h14">VISITE DU PRÉSIDENT DES AVEUGLES DE GUERRE YOUGOSLAVES</ref>
+          </item>
+          <item>
+            <ref target="#h15">INVENTIONS ET PROCÉDÉS PRATIQUES A L'USAGE DES AVEUGLES</ref>
+          </item>
+          <item>
+            <ref target="#h16">LE LIVRE PARLÉ</ref>
+            <list>
+              <item>
+                <ref target="#h17">Règlement</ref>
+              </item>
+              <item>
+                <ref target="#h18">Notice pour adapter le phonographe aux différents voltages
+                  (courant alternatif) 50 périodes</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h19">LOTERIE NATIONALE</ref>
+          </item>
+          <item>
+            <ref target="#h20">AVIS AUX PENSIONNÉS DE GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h21">NOTRE CONSEIL JURIDIQUE</ref>
+          </item>
+          <item>
+            <ref target="#h22">Chronique de l'U.A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h23">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h24">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h25">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h26">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h27">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h28">PROCÈS-VERBAL DE LA RÉUNION DU CONSEIL D'ADMINISTRATION DU 3
+                  JUILLET 1937</ref>
+              </item>
+              <item>
+                <ref target="#h29">COMPTE RENDU DE L'ASSEMBLÉE ANNUELLE DE LA DÉPARTEMENTALE DU
+                  FINISTÈRE le 8 Juillet 1937</ref>
+              </item>
+              <item>
+                <ref target="#h30">PROCÈS-VERBAL DE LA DÉPARTEMENTALE DU TARN LE 3 OCTOBRE 1937, A
+                  CASTRES</ref>
+              </item>
+              <item>
+                <ref target="#h31">PROCÈS-VERBAL DE LA RÉUNION DU COMITÉ D'ADMINISTRATION DU
+                  GROUPEMENT DE LA RÉGION DU NORD LE 3 OCTOBRE 1937</ref>
+              </item>
+              <item>
+                <ref target="#h32">PROCÈS-VERBAL DE LA RÉUNION DU COMITÉ D'ADMINISTRATION DE LA
+                  SECTION DU GERS ET HAUTES-PYRÉNÉES, LE 24 OCTOBRE 1937</ref>
+              </item>
+              <item>
+                <ref target="#h33">COMPTE RENDU DE LA RÉUNION DU COMITÉ D'ADMINISTRATION DU 3
+                  OCTOBRE DE LA SECTION DE LA SEINE-INFÉRIEURE</ref>
+              </item>
+              <item>
+                <ref target="#h34">SECTION DE LA SEINE-INFÉRIEURE COMPTE RENDU de l'ASSEMBLÉE
+                  EXTRAORDINAIRE du 3 Octobre 1937</ref>
+              </item>
+              <item>
+                <ref target="#h35">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h36">LISTE DES DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h37">DONS AVEC AFFECTATION SPÉCIALE POUR LA "MAISON DES AVEUGLES DE
+                  GUERRE"</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h38">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h39">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h40">Comité d'Action</ref>
+          </item>
+          <item>
+            <ref target="#h41">Compte-Rendu Sténographique de la Réunion du Conseil du 20 Novembre
+              1937</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">19e Année. — N° 10</fw>
+          <fw type="header">
+            <hi rend="underline">NOVEMBRE 1937</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Les pensions : rajustement, action en cours.</item>
+                    <item>Le Comité d'Entente.</item>
+                    <item>Visite du Président des Aveugles de Guerre Yougoslaves.</item>
+                    <item>Inventions et procédés pratiques à l'usage des aveugles.</item>
+                    <item>Le Livre Parlé : Règlement, Notice pour adapter le phonographe aux
+                      différents voltages.</item>
+                    <item>Loterie Nationale.</item>
+                    <item>Avis aux pensionnés de guerre.</item>
+                    <item>Notre Conseil juridique.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'administration du 3 juillet
+                      1937.</item>
+                    <item>Compte rendu de l'Assemblée annuelle de la Départementale du Finistère, le
+                      8 juillet.</item>
+                    <item>Procès-verbal de l'Assemblée de la Départementale du Tarn, le 3
+                      octobre.</item>
+                    <item>Procès-verbal de la réunion de la Régionale du Nord, le 3 octobre.</item>
+                    <item>Procès-verbal de la réunion de la Section Gers et Hautes-Pyrénées, le 24
+                      octobre.</item>
+                    <item>Compte rendu de la réunion de la Départementale de la Seine-Inférieure, le
+                      3 octobre.</item>
+                    <item>Compte rendu de l'Assemblée extraordinaire de la Seine-Inférieure, le 3
+                      octobre 1937.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Francaise, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier; M. Brisac, Préjet; M. J. Ridgely-Carter; M. Paul de Cassagnac,
+              ancien Député; M. Maurice Donnay, de l'Acadé. mie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              ancien Sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer, Conseiller
+              d'Etat; M. Henry Paté, Député; \dagger M<hi rend="superscript">°</hi> Henri-Robert, de
+              l'Académie française, ancien Batonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; \dagger M. Vallery-Radot;</p>
+            <pb n="3"/>
+          </div>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE N° 10 - NOVEMBRE 1937</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LES PENSIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">Le rajustement</head>
+              <p>Les jours passent avec une telle rapidité qu'il nous est difficile de nous
+                entretenir comme nous le désirerions avec nos camarades du sujet d'actualité, à
+                savoir, d'une part, du taux de nos pensions et, d'autre part, du coût de la vie.</p>
+              <p>Il est évident que, le r<hi rend="superscript">er</hi> janvier 1936 , nos pensions
+                avaient un pouvoir d'achat bien supérieur à celui d'aujourd'hui, mais ce n'est pas
+                ici la place de se demander quel système il eût mieux valu, déflation ou
+                dévaluation, ou peut-être encore mieux, les deux. Ce qui est certain, c'est que la
+                vie est plus chère, sensiblement plus chère, et qu'en toute justice, et sans nous
+                livrer à des études de statistique, on peut démontrer aisément que nos pensions ont
+                besoin d'une revalorisation ou, plus exactement, d'être augmentées.</p>
+              <p>Ces pensions d'aveugles, que l'U.A.G. s'était donné pour principale tâche de porter
+                à un taux raisonnable, ont été, on s'en souvient, toujours améliorées par le moyen
+                de l'augmentation de l'allocation 5 bis, action toujours menée par nous, et l'on se
+                souviendra aussi que, par nous également, fut accordée cette allocation, importante
+                mais combien juste, à nos camarades bimanchots, qui fut ensuite étendue au double
+                article ro.</p>
+              <p>Puis, en 1935, ce fut le vote du Statut, où la demande présentée par les Aveugles
+                de Guerre fut prise en considération, immédiatement et avec sympathie, par la
+                Commission et les Pouvoirs publics. A ce moment-là, nous pensions être arrivés
+                presque au bout de nos peines, car il ne restait plus qu'un nombre restreint de nos
+                camarades exclus du bénéfice du Statut que nous espérions un jour très prochain voir
+                incorporer dans la catégorie des bénéficiaires.</p>
+              <p>Or, la hausse du coût de la vie est venue remettre toute la question des pensions à
+                l'ordre du jour et, s'il est reconnu par M. Chautemps lui-même qu'un rajustement de
+                nos pensions se trouve justifié, il reste à savoir dans quelle proportion il sera
+                fait. C'est ce que nous allons indiquer à nos camarades en leur rendant compte de
+                l'action menée jusqu'à ce jour par leurs représentants.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">L'action en cours</head>
+              <p>Nous donnons ci-après le compte rendu des audiences que, depuis un mois, les
+                représentants des Associations ont obtenues des différents ministres directement
+                intéressés à la cause que nous défendons. Ce sont en effet les associations se
+                trouvant naturelle.</p>
+              <pb n="4"/>
+              <note type="foliation">— 2 —</note>
+              <p>ment catégorisées en associations de grands invalides, par suite de leur
+                composition, leurs membres bénéficiant des allocations dites de grands invalides,
+                qui en ce moment démarchent de concert en un Comité d'Entente dont nous avions
+                annoncé la réalisation et qui, constitué dès la rentrée, a nommé un de ses camarades
+                qui doit, pour l'année, se charger d'assurer le secrétariat. Bien entendu, tous ces
+                délégués se mettent d'accord dans des réunions préparatoires afin que le point de
+                vue soutenu représente bien l'avis général ; nous y défendons nos besoins
+                particuliers et les harmonisons avec ceux des autres mutilés.</p>
+              <p>Où en sommes-nous donc ? La lecture des quelques petits comptes rendus des
+                démarches que nous publions plus loin vous en donnera un aperçu. Nous pouvons
+                résumer la question ainsi : M. le Président du Conseil ayant compris la nécessité
+                d'un rajustement pour les grands invalides, nous a conseillé d'aller voir M. le
+                ministre des Finances, qui, lui, ne veut pas prendre part à la répartition des
+                crédits dont il disposera en faveur des mutilés. Donc, après plusieurs visites à MM.
+                William Bertrand et Valière, où nous avons tenu à nous assurer des sympathies, nous
+                avons vu notre Ministre à nous, M. Rivière, avec qui la conversation est entrée plus
+                profondément dans le sujet.</p>
+              <p>Nous comprenons l'embarras du ministre des Pensions, qui désire veiller sur tous
+                les mutilés et anciens combattants, mais nous nous assurerons qu'une réparation
+                raisonnable sera accordée aux aveugles de guerre, proportionnellement aux crédits
+                mis à la disposition du ministre des Pensions par les Finances. C'est du reste la
+                Chambre qui doit arbitrer le débat, en prenant ses responsabilités, quand elle
+                décidera de dégager les crédits pour notre catégorie. A ce moment, nous défendrons
+                le point de vue de l'U.A.G. qui, nous le répétons, est d'obtenir, en même temps
+                qu'un rajustement sensible de nos pensions et allocations, l'extension promise du
+                statut des grands mutilés. H. A.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">COMPTE-RENDU DE NOS DIFFÉRENTES
+              DÉMARCHES</head>
+            <p>Le mardi 12 octobre 1937, les représentants des Associations de Grands Invalides se
+              sont rendus à l'Hôtel Matignon, à la présidence du Conseil.</p>
+            <p>Pour l'U.A.G. : Conan et Amblard. En plus des autres représentants, deux délégués de
+              la Confédération étaient également présents.</p>
+            <p>Il fut exposé à M. Chautemps que les Grands Invalides, devant <pb n="5"/>
+              <note type="foliation">— 3 —</note> la montée incessante du coût de la vie, avaient
+              attendu jusqu'à ce jour pour formuler une demande de rajustement qui devenait
+              nécessaire. On fit également connaître notre désir de voir aboutir le projet
+              d'extension du statut, en même temps qu'une revalorisation des pensions et
+              allocations.</p>
+            <p>Le Président du Conseil nous assura immédiatement de son désir de voir une
+              amélioration nous être apportée et s'adressant aux représentants de la Confédération,
+              fit comprendre que des augmentations massives pour tous les créanciers de l'Etat
+              compromettraient le redressement financier qu'il s'est donné à tâche de poursuivre. En
+              conséquence, il ne cacha pas sa préférence pour faire un effort au profit des grands
+              invalides.</p>
+            <p>Ceci posé, la question est alors d'ordre financier. M. Chautemps nous proposa de voir
+              le ministre afin de mettre sur pied un projet qu'au besoin il accepterait
+              d'arbitrer.</p>
+            <p>Le lundi 18 octobre 1937, audience de M. Bonnet, ministre des Finances.</p>
+            <p>Conan et Amblard représentaient l'U.A.G. Il est rappelé au ministre des Finances que
+              la visite qui lui est faite a été conseillée par M. Chautemps.</p>
+            <p>Il est exposé à M. Bonnet que, tout en soutenant la demande de rajustement général
+              présentée par la Confédération, les grands invalides demandent qu'une situation
+              particulière leur soit faite. Ils demandent également l'extension du statut. M. Bonnet
+              fait savoir qu'il dégagera une certaine somme dont le montant sera publié le
+              lendemain, qu'il n'a pas d'éléments techniques et qu'il appartient au gouvernement et
+              non à lui de faire une répartition.</p>
+            <p>Beauregard, au nom de la Confédération, se déclare d'accord avec les Grands
+              Invalides.</p>
+            <p>Le lundi 25 octobre 1937, démarche auprès de M. Valière, président de la Commission
+              des Finances de la Chambre.</p>
+            <p>Etait présent pour l'U.A.G. : Amblard. Il est rappelé l'entrevue accordée par M.
+              Bonnet. Exposé de la situation fait par Nouveau. M. Valière nous parle des excédents
+              et des déficits budgétaires et dit que le gouvernement doit prendre sa responsabilité.
+              Il nous assure de la sympathie de la Commission et examinera avec bienveillance les
+              projets qui lui seront soumis par le gouvernement.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>Amblard demande que la Commission accueille également dans le même esprit la demande
+              d'extension du statut. M. Valière ne connaît pas la question, Amblard l'expose.</p>
+            <p>Aperçu sur la situation financière. M. Valière nous conseille de voir M. Thomas,
+              rapporteur du budget des pensions.</p>
+            <p>Le mardi 26 octobre, M. William Bertrand, sous-secrétaire d'Etat à la Présidence du
+              Conseil, a reçu les représentants des Associations de grands mutilés à l'Hôtel
+              Matignon.</p>
+            <p>Pour l'U.A.G., étaient présents: Conan et Amblard. Cette audience avait pour but de
+              rendre compte à M. le Président du Conseil, par l'entremise de M. William Bertrand,
+              des différentes démarches déjà entreprises par le Comité des Grands Mutilés.</p>
+            <p>Il fut précisé à ce moment que le ministre des Finances avait mis à la disposition du
+              gouvernement 1.380 millions, mais que la répartition n'était pas encore faite.</p>
+            <p>Tout l'exposé de la question fut fait à M. William Bertrand, qui réserva le meilleur
+              accueil à la délégation en conseillant de voir maintenant M. Rivière et promit de
+              rapporter notre visite à M. Chautemps.</p>
+            <p>Le vendredi 29 octobre, à 11 h. 3o, M. Rivière, ministre des Pensions, a reçu les
+              Grands Invalides.</p>
+            <p>Pour l'U.A.G., étaient présents : Conan et Amblard. Le ministre est mis au courant
+              par les délégués des démarches faites jusqu'à ce jour.</p>
+            <p>Il est précisé, qu'en même temps que la demande de rajustement formulée par la
+              Confédération, les Grands Invalides désirent voir leur situation particulière
+              considérée d'une façon spéciale et présentent la demande d'extension du statut.</p>
+            <p>Les grands mutilés craignent que les sommes qui seront mises à leur disposition
+              soient insuffisantes pour assurer un rajustement sérieux.</p>
+            <p>Le ministre qui, par suite d'un voyage à l'étranger n'a pu discuter des chiffres mis
+              à sa disposition, ne peut se prononcer sûrement, mais fait savoir qu'il désire suivre
+              la Confédération dans sa demande de rajustement général.</p>
+            <p>Les besoins des grands mutilés sont exposés une fois de plus et les représentants de
+              l'U.A.G. défendent le point de vue des aveugles. Alors, M. Rivière fait savoir qu'il
+              demandera une augmentation suffisante des crédits qui seront mis à sa disposition,
+              mais tient à dire qu'il est le ministre de tous les mutilés et anciens
+              combattants.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+            <p>Le vendredi 29 octobre, à 15 heures, démarche du Comité d'Entente auprès de M.
+              Thomas, rapporteur du budget des Pensions.</p>
+            <p>Etaient présents pour l'U.A.G. : Conan, Leveau. Un exposé de la situation
+              particulière des grands invalides est fait à M. Thomas.</p>
+            <p>Toutes les Associations : 1<hi rend="superscript">°</hi> Sont d'accord avec la
+              Confédération en ce qui concerne la demande de réajustement général des pensions; 2<hi
+                rend="superscript">°</hi> Demandent un traitement tout à fait spécial pour le
+              réajustement de leurs allocations de grands invalides; 3<hi rend="superscript">°</hi>
+              Demandent que l'extension du statut marche de pair avec les deux premières
+              revendications. M. Thomas est d'accord, en principe, mais ne peut rien promettre tant
+              qu'il ne sera pas saisi officiellement du chiffre accordé à ce sujet par le ministre
+              des Finances.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">La Confédération Nationale des
+              Anciens Combattants et Victimes de la Guerre nous prie d'insérer le communiqué suivant
+              :</head>
+            <p>Le Conseil d'administration de la Confédération Nationale des Anciens Combattants et
+              Victimes de la Guerre,</p>
+            <p>Après avoir pris connaissance des délibérations du récent Conseil des Ministres
+              concernant le rajustement des pensions de guerre,</p>
+            <p>Prend acte du premier effort accompli, Mais constate que le montant du crédit prévu,
+              s'il était confirmé officiellement, ne permettrait pas d'opérer un rajustement général
+              en rapport avec l'augmentation du coût de la vie.</p>
+            <p>Rappelant que dans les circonstances graves traversées par le pays, les Anciens
+              Combattants ont fait preuve de la plus grande abnégation, le Conseil d'administration
+              n'entend pas que cette attitude soit interprétée comme une marque de faiblesse.</p>
+            <p>Il décide en conséquence : 1<hi rend="superscript">°</hi> D'insister à nouveau auprès
+              du gouvernement pour que les crédits envisagés soient notablement relevés ; 2<hi
+                rend="superscript">°</hi> D'intensifier son action auprès des Commissions et des
+              groupes parlementaires pour que satisfaction soit donnée aux légitimes revendications
+              des Anciens Combattants et Victimes de la Guerre.</p>
+            <p>Résolu à poursuivre sans défaillance son action pour le rajustement des pensions de
+              toutes les victimes de la guerre et de la retraite du combattant, le Conseil
+              d'administration de la Confédération Nationale adresse à tous les Anciens Combattants
+              et Victimes de la Guerre un appel pressant pour qu'ils conservent le calme et la
+              dignité qui constituent leur force et doivent servir d'exemple à la nation
+              française.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LE COMITÉ D'ENTENTE</head>
+            <p>Notre Assemblée générale dernière avait voté le principe de l'adhésion de l'U.A.G. au
+              Comité d'Entente des Associations de Grands Invalides.</p>
+            <p>Après quelques mises au point sur le règlement et les bonnes relations des
+              associations le composant, il a été définitivement constitué et comprend :</p>
+            <p>La Fédération Nationale des Amputés de Guerre de France, l'Union des Aveugles de
+              Guerre, l'Union des Blessés de la Face, la Fédération Nationale des Grands Blessés et
+              Mutilés atteints d'infirmités multiples, la Fédération Nationale des Trépanés et
+              Blessés de la Tête, la Fédération Nationale des Plus Grands Invalides de Guerre.</p>
+            <p>Pour l'année en cours, notre camarade Régnier, président de la Fédération des plus
+              Grands Invalides a été chargée d'assurer le secrétariat, ce dont il s'acquitte avec
+              bonne grâce.</p>
+            <p>Ce Comité se réunit fréquemment afin de travailler en commun pour l'aboutissement de
+              nos revendications, aussi dans les comptes rendus très succincts que nous avons
+              publiés, nous n'avons pas cru utile de mentionner les associations présentes avec nous
+              au cours des différentes démarches, car elles sont toujours représentées par un ou
+              deux de leurs délégués.</p>
+            <p>Le Comité d'Entente, pour marquer son avènement, se réunit en un déjeuner amical avec
+              quelques parlementaires et amis de marque le 18 novembre. Ce déjeuner aura lieu dans
+              notre salle à manger de la rue Blanche, pour affirmer le caractère " grand mutilé " de
+              ce Comité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">RÉUNION DU COMITÉ
+              D'ENTENTE</head>
+            <p>Le Comité d'Entente s'est réuni le 4 novembre à 17 heures. Pour l'U.A.G., étaient
+              présents : Conan et Amblard. Après l'adoption du dernier procès-verbal, la situation
+              est examinée.</p>
+            <p>Au nom de l'U.A.G., les délégués déposent un projet qui sert de base de
+              discussion.</p>
+            <p>Examen à fond de la question : plusieurs points importants sont arrêtés. Il est
+              décidé de revoir M. Chautemps, Régnier fera le nécessaire.</p>
+            <p>La séance est levée à 19 h .15 .</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">VISITE DU PRÉSIDENT DES AVEUGLES
+              DE GUERRE YOUGOSLAVES</head>
+            <p>Nous avons eu le plaisir, le 14 octobre dernier, de recevoir dans notre Maison, en un
+              déjeuner fraternel, le colonel de Lovritch, président des Aveugles de Guerre
+              Yougoslaves.</p>
+            <p>De passage à Paris, notre camarade et Mme de Lovritch furent reçus par le Bureau. A
+              la fin du déjeuner, aux quelques paroles de bienvenues adressées par notre Président,
+              le colonel de Lovritch répondit, au nom des Aveugles de Guerre Yougoslaves, par des
+              mots aimables tout empreints de cordialité.</p>
+            <p>De nombreux camarades étaient présents dans notre salle à manger et apprécièrent les
+              sentiments de camaraderie et de fidélité de cet ami de la France qui, en plus de son
+              activité pour les mutilés yougoslaves, s'occupe des Aveugles de Guerre de la
+              Petite-Entente.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">INVENTIONS ET PROCÉDÉS PRATIQUES
+              A L'USAGE DES AVEUGLES</head>
+            <p>Dessins géométriques en relief</p>
+            <p>Depuis bien longtemps cette question me préoccupait, et je ne crois pas qu'il existe
+              encore actuellement un procédé pratique permettant à un aveugle d'exécuter lui-même
+              des dessins géométriques en relief, qu'il puisse percevoir immédiatement au toucher au
+              fur et à mesure de leur tracé. En effet, si à la rigueur l'aveugle peut tracer des
+              lignes à l'aide du poinçon et de la tablette Braille, le relief apparaissant au verso
+              de la feuille, il ne peut contrôler son travail, peut difficilement donner une
+              longueur précise à cette ligne, et encore plus difficilement ajouter d'autres lignes à
+              celle-ci pour former une figure géométrique quelconque. Ce problème me revenait
+              souvent à l'esprit, car personnellement j'aurais aimé pouvoir établir directement
+              quelques plans de maisons, de jar dins, etc... Or brusquement une solution fort simple
+              me vint à l'idée, je la réalisai de suite avec des moyens de fortune dans le détail
+              desquels je ne crois pas utile de m'étendre longuement. Ce qu'il importe de vous faire
+              savoir, c'est que les expériences auxquelles je me suis livré m'ont pleinement
+              satisfait, et que je suis désormais certain de pouvoir réaliser le rêve de bon nombre
+              d'entre nous. Voici avec autant de précision que possible l'appareil à construire
+              :</p>
+            <p>Prendre une planche à dessin ordinaire de 30 cm . de large sur 40 cm . de haut, ces
+              dimensions étant proportionnées à celles d'une <pb n="10"/>
+              <note type="foliation">— 8 —</note> grande feuille de papier Braille afin que cette
+              dernière soit placée facilement dans différents sens selon les besoins du dessin à
+              effectuer. <hi rend="superscript">°</hi> Etablir au quart de la hauteur et dans le
+              sens de la largeur de la planche une ligne droite constituée par des pointes
+              légèrement coniques et arrondies en leur sommet, conserver un intervalle régulier
+              entre chacune d'elles, en veillant à ce que le poinçon creux puisse s'emboîter
+              facilement sur ces pointes. La hauteur desdites pointes devra être calculée très
+              exactement de façon à ce qu'elles forment un relief suffisant sur le papier sans
+              toutefois le percer au moment où l'aveugle, plaçant sa feuille au-dessus de la ligne
+              saillante, viendra appuyer le creux de son poinçon sur les différentes pointes
+              destinées à constituer la ligne qu'il désire tracer sur son papier. Le creux du
+              poinçon, qui devra épouser la forme des pointes saillantes, possèdera un bord
+              légèrement arrondi ou aplati, mais surtout non tranchant; 9<hi rend="superscript"
+                >°</hi> Etablir une ligne droite saillante dans le même sens que la précédente vers
+              le milieu de la hauteur de la planche à dessin, à l'aide cette fois d'un fil
+              métallique non lisse si possible, et surtout très bien tendu. Dans ce cas on tracera
+              une ligne droite sur le papier, non plus avec un poinçon creux, mais avec une sorte de
+              minuscule truelle légèrement relevée au bout pour ne pas couper le papier, et ayant
+              une gouttière longitudinale, laquelle s'emboîtera et glissera le long du fil
+              métallique de façon à former une ligne saillante sur le recto de la feuille de
+              papier.</p>
+            <p>Je dois dire que dans mes expériences je me suis servi d'un poinçon creux en bois, et
+              d'un poinçon à gouttière en fanon de baleine, ce qui m'a donné d'excellents résultats;
+              il est d'ailleurs possible que d'autres matières puissent rendre les mêmes services ;
+                3<hi rend="superscript">°</hi> Placer enfin non loin du bord inférieur de la planche
+              à dessin deux bornes mobiles pouvant s'écarter ou se rapprocher à volonté dans une
+              glissière transversale. Ces bornes devront présenter le plus petit volume possible,
+              pour ne pas trop gêner l'application de la feuille de papier sur la planche à dessiner
+              ; elles seront traversées par un trou qui livrera passage à un fil d'acier non lisse
+              et très flexible. L'épaisseur de ce fil métallique, comme le précédent dont je viens
+              de parler plus haut, devra être calculée pour fournir un relief à peu près égal à
+              celui des pointes saillantes indiquées en premier lieu. Les bornes ainsi que le fil
+              métallique qui les traverse devront pouvoir s'immobiliser à l'aide d'un écrou de
+              serrage placé sous la planche à dessin.</p>
+            <p>Examinons maintenant comment on devra se servir pratiquement de cet appareil :</p>
+            <p>J'ai un petit dessin géométrique à tracer, je me sers de la ligne n<hi
+                rend="superscript">°</hi>1, avec pointes et poinçon creux, je trace des lignes
+              conformément aux dimensions demandées à l'aide d'instruments de mesure <pb n="11"/>
+              <note type="foliation">— 9 —</note> gradués existant déjà ou faciles à confectionner.
+              J'emploie une petite équerre ordinaire pour établir les lignes perpendiculaires à
+              celle que je viens de tracer, ou je me sers d'un rapporteur gradué quand il ne s'agit
+              pas d'angles droits.</p>
+            <p>Si j'ai une ligne assez longue à tracer, j'emploie la ligne saillante n<hi
+                rend="superscript">°</hi>2 avec le poinçon à gouttière, qui me permet un tr.::ail
+              plus rapide.</p>
+            <p>Si je dois dessiner un demi-cercle, j'écarte les deux bornes se trouvant en bas de ma
+              planche à dessin, de façon à obtenir le diamètre indiqué ; du centre de ce diamètre,
+              je mesure en hauteur un rayon lui correspondant; j'ai immobilisé l'une des bornes, je
+              tire le fil d'acier dans l'autre jusqu'à ce que la flexion du fil métallique
+              corresponde à la hauteur du rayon et j'immobilise alors définitivement cette deuxième
+              borne. C'est alors qu'avec le poinçon à gouttière je puis suivre le contour du fil
+              métallique, en ayant soin évidemment de ne pas le déplacer, pour obtenir en relief un
+              demi-cercle convenable sur la feuille de papier ; ceci peut s'obtenir facilement avec
+              un peu d'habileté. Si je veux faire un cercle complet, je retourne ma feuille et je
+              répète le travail que je viens de faire dans l'autre sens.</p>
+            <p>Je peux tracer des ogives de la même façon en diminuant à mon gré la hauteur de mon
+              arc de cercle.</p>
+            <p>Je suis convaincu que tout ceci est pleinement réalisable, sans entraîner je crois à
+              de trop grandes dépenses, et comme ce procédé répond à un plus grand besoin que la
+              tablette à jouer au bridge dont j'ai fait un exposé dans un précédent bulletin, je ne
+              doute pas qu'il fera l'objet d'une étude très sérieuse pour le plus grand bien de tous
+              les aveugles que cette question est susceptible d'intéresser. D. Leveau.</p>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LE LIVRE PARLÉ</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Règlement</head>
+              <p>1° Le "Livre Parlé " est réservé exclusivement aux personnes reconnues comme
+                aveugles et fournissant à cet effet tous documents ou certificats médicaux
+                nécessaires; 2<hi rend="superscript">°</hi> Seuls les aveugles possesseurs d'un
+                appareil standard adopté et approuvé par le Comité Français du Livre Parlé pourront
+                recevoir des disques du Livre Parlé ; 3<hi rend="superscript">°</hi> Le service du
+                Livre Parlé est gratuit; 4<hi rend="superscript">°</hi> Les demandes de disques du
+                Livre Parlé doivent être adressées à l'une des associations composant le Comité
+                Français du Livre <pb n="12"/>
+                <note type="foliation">— 10 —</note> Parlé pour les Aveugles tel qu'il est spécifié
+                aux statuts: l'Association Valentin Haüy et la Fédération Nationale des Aveugles
+                Civils établissant leurs relations avec les aveugles civils et l'Union des Aveugles
+                de Guerre avec les aveugles de guerre; un même aveugle ne pouvant se faire inscrire
+                à plusieurs discothèques à la fois ; 5<hi rend="superscript">°</hi> Le port de
+                retour est à la charge de l'emprunteur. Afin de bénéficier du tarif de faveur
+                spécialement consenti par le ministre des P.T.T., les emprunteurs devront retourner
+                leurs disques dans l'emballage qu'ils auront reçu et se servir de l'étiquette
+                contenue dans la boîte en carton. Le tarif postal consenti pour le Livre Parlé est
+                le même que pour le Braille (France et colonies seulement); 6<hi rend="superscript"
+                  >°</hi> Les lecteurs ne pourront emprunter qu'un seul livre complet à la fois. Ils
+                devront le renvoyer dans un délai de quinze jours ; 7<hi rend="superscript">°</hi>
+                Tout changement d'adresse devra être notifié immédiatement à l'Association à
+                laquelle l'intéressé s'adresse. 8<hi rend="superscript">°</hi> L'emprunteur est
+                personnellement et financièrement responsable des disques qui lui sont confiés ;
+                  9<hi rend="superscript">°</hi>. Avoir soin de toujours remettre les disques dans
+                leur pochette en papier et les placer à plat dans leur boîte en carton, cela
+                contrairement aux disques du commerce, qui doivent être gardés verticalement ; 10<hi
+                  rend="superscript">°</hi> N'employer strictement que les aiguilles adoptées par le
+                Comité et qui accompagnent chaque envoi ; 11<hi rend="superscript">°</hi> Les
+                emprunteurs du Livre Parlé s'engagent formellement à ne pas permettre à une personne
+                voyante de se servir des disques qui leur ont été prêtés ; 12<hi rend="superscript"
+                  >°</hi> Le Comité Français du Livre Parlé se réserve le droit de suspendre l'envoi
+                de disques à toute personne qui ne se conformerait pas strictement à ce règlement.
+                La décision du Comité est sans appel. N. B. - Ayant constaté à différentes reprises
+                que bien des camarades affranchissent le retour des disques à un tarif très
+                supérieur à celui consenti par l'Administration des P.T.T., nous attirons
+                particulièrement l'attention de tous sur l'affranchissement indiqué cidessous,
+                actuellement en vigueur, aussi bien pour le Braille que pour le "Livre Parlé ".</p>
+              <p>Jusqu'à 500 grammes : o fr. 02 ; au-dessus de 500 grammes : o fr. o5 par fraction
+                de 500 gr.</p>
+              <p>Poids maximum : 3 kilos Pour le "Livre Parlé ", ne retourner qu'une boîte de
+                disques à la fois.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Notice pour adapter le
+                phonographe aux différents voltages (courant alternatif) 50 périodes</head>
+              <p>Il est nécessaire de placer la barrette mobile du transformateur servant de fusible
+                sur le chiffre correspondant au voltage. Le transformateur est marqué :
+                110,130,220,240.</p>
+              <p>D'autre part, il faut ajuster la flèche du moteur pour correspondre au voltage
+                utilisé. Cette flèche est située sous le plateau, elle se déplace sur un cadran
+                marqué : 110-120,120-150,200-250.</p>
+              <p>On éprouve parfois de la difficulté à enlever le plateau. Il faut d'abord pousser
+                l'axe à fond, comme si l'appareil devait tourner à soixante-dix-huit tours, retirer
+                ensuite le petit ressort qui maintient le plateau, surtout ne pas forcer. Si le
+                plateau résiste, taper doucement sur l'axe avec un morceau de bois. Le plateau
+                sortira facilement.</p>
+              <p>Quand il s'agit d'un tourne-disque, les mêmes opérations doivent être faites.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">LOTERIE NATIONALE</head>
+            <p>La Confédération Nationale des Anciens Combattants et Victimes de la Guerre, en plein
+              accord avec l'Association des "Gueules Cassées ", a décidé d'intervenir énergiquement
+              auprès des ministres de l'Intérieur et des Finances pour que dorénavant ils
+              interdisent tout système tendant, sous une forme quelconque, à attribuer des primes
+              aux fractions émises de billets de la Loterie Nationale.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">AVIS AUX PENSIONNÉS DE
+              GUERRE</head>
+            <p>Un décret du 26 septembre 1937, inséré au Journal Officiel du 28 septembre 1937,
+              proroge jusqu'au 31 décembre 1938 les dispositions des décrets antérieurs accordant la
+              franchise postale à la correspondance adressée par les Victimes de Guerre aux Sections
+              départementales des Pensions.</p>
+            <p>En conséquence, jusqu'à la date du 31 décembre 1938 précitée, il ne sera pas
+              nécessaire d'affranchir les lettres ordinaires (c'est-àdire à l'exclusion des lettres
+              recommandées, pneumatiques, etc...) envoyées par les Victimes de Guerre à ces organes,
+              mais il est indispensable que l'adresse soit mise très exactement.</p>
+            <p>Bien mentionner : Section Départementale des Pensions de... (département, puis mettre
+              l'adresse). (Pour la Seine : 10, quai de la Rapée, Paris-17<hi rend="superscript"
+                >e</hi>.)</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">NOTRE CONSEIL JURIDIQUE</head>
+            <p>Nous sommes heureux de faire savoir à nos camarades que M<hi rend="superscript"
+                >e</hi> Hugonnet, avocat à la Cour de Paris, qui nous conseille utilement pour la
+              bonne marche de notre Association, se tient à la disposition de nos camarades au cas
+              of ils auraient besoin de consulter un avocat.</p>
+            <p>Nous prions les membres de l'U.A.G. qui désirent faire appel aux conseils éclairés de
+                M<hi rend="superscript">e</hi> Hugonnet, de nous en faire part, afin que nous les
+              mettions en rapports avec lui.</p>
+            <p>Nous saisissons cette occasion pour remercier M<hi rend="superscript">e</hi> Hugonnet
+              de la bienveillante sympathie qu'il témoigne à l'U.A.G. et à ses membres.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">Chronique de l'U.A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 31 octobre, une somme de 29.888 francs, se répartissant comme suit : <list>
+                  <head>Francs</head>
+                  <item>Allocations naissances ...................................... 900</item>
+                  <item>Allocations décès .......................................... 14.100</item>
+                  <item>Allocations Caisse Maladie ................................ 12.688</item>
+                  <item>Allocations aux aveugles ayant eu leur pension supprimée. 2.200</item>
+                </list> La Commission de Caisse Fraternelle a eu à examiner vingt-trois demandes,
+                dont deux n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">Naissances</head>
+                <p>Notre camarade Launay (Raphaël), de Lignon-de-Briouze (Orne), nous fait part de
+                  la naissance de son fils, Edmond, né le 7 octobre 1937 .</p>
+                <p>Notre camarade Dunand (Alphonse), de Paris, nous fait part de la naissance de sa
+                  petite-fille, Christiane, née le 15 juillet 1937.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">Mariages</head>
+                <p>Notre camarade Souchard (Henri), de Breuil-Barret (Vendée), nous fait part du
+                  mariage de son fils Marcel, avec Mlle Hélène Cant, célébré le 7 septembre 1937
+                  .</p>
+                <p>Notre camarade Rochelet (Pierre), de Deuil (Seine-et-Oise), nous fait part de son
+                  mariage avec Mme Veuve Babin, célébré le 9 octobre 1937 .</p>
+                <p>Notre camarade Marsal (Lucien), de Longeville-les-Metz (Moselle), nous fait part
+                  de son mariage avec Mlle Andrée Le François, célébré le 10 juillet 1937 .</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+                <p>Notre camarade Peil (Nicolas), de Longeville-les-Saint-Avold (Moselle), nous fait
+                  part de son mariage avec Mlle Marie Bastien, célébré le 25 octobre 1937 .</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h27">Décès</head>
+                <p>Nous apprenons le décès de :</p>
+                <p>Notre camarade Julia (Joseph), de Perpignan (PyrénéesOrientales), décédé le 21
+                  août 1937, à l'âge de soixante ans.</p>
+                <p>Né le 1<hi rend="superscript">er</hi> novembre 1877 , à Perpignan, maréchal des
+                  logis au 10<hi rend="superscript">°</hi> régiment d'artillerie, notre camarade
+                  devint aveugle le 15 mai 1916. Réformé à 100%, article 10 , pour cécité, il laisse
+                  une veuve.</p>
+                <p>Notre camarade Pautel (Joseph), de Locminé (Morbihan), décédé le 8 octobre 1937 ,
+                  à l'âge de quarante-huit ans.</p>
+                <p>Né le 6 juin 1889 , à La Prenessaye (Morbihan), soldat au 1<hi rend="superscript"
+                    >er</hi> régiment de légion étrangère, blessé le 13 septembre 1918, au Moulin
+                  Laffaut, notre camarade fut réformé à 100%, article 10 , pour cécité complète.
+                  Officier de la Légion d'honneur, titulaire de la Croix de guerre et de la Médaille
+                  militaire, il laisse une veuve et deux enfants.</p>
+                <p>Notre camarade Belkacemi Rabah Ben Noni, de Cheffia (Bône-Algérie), décédé le
+                    1<hi rend="superscript">er</hi> octobre, à l'âge de quarante-quatre ans.</p>
+                <p>Soldat au 3<hi rend="superscript">e</hi> tirailleurs, Belgacemi fut blessé en mai
+                  1917, près de Reims. Réformé à 180%, articles 10 et 12 , pour cécité et amputation
+                  du bras droit, chevalier de la Légion d'honneur et titulaire de la Médaille
+                  militaire, il laisse une veuve et trois enfants.</p>
+                <p>De la belle-mère de notre camarade Marcellin Croisé-Riolon, de La
+                  Chapelle-Saint-Laurent (Deux-Sèvres), décédée le 26 septembre 1937 , dans sa
+                  soixante-quatrième année.</p>
+                <p>Du père de notre camarade Millet (Aimé), de Poitiers (Vienne), décédé le 1<hi
+                    rend="superscript">er</hi> octobre, à l'âge de quatre-vingt-quatre ans.</p>
+                <p>De la sour de notre camarade Becker, de Paris, décédée le 17 août, à l'âge de
+                  quarante-six ans.</p>
+                <p>De la fille de notre camarade Pinaquy (Clément), du Perreux, décédée le 15
+                  octobre, dans sa vingt-sepième année.</p>
+                <p>Du fils de notre camarade Dupeu (Marcel), de Vierzon (Cher), décédé le 16 octobre
+                  1937 , à l'âge de vingt-sept ans.</p>
+                <p>Du père de notre camarade Rascle (Edouard), de SaintEtienne (Loire), décédé en
+                  octobre 1937, à l'âge de soixante et onze ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">PROCÈS-VERBAL DE LA RÉUNION
+                DU CONSEIL D'ADMINISTRATION DU 3 JUILLET 1937</head>
+              <p>La séance est ouverte à 15 heures, sous la présidence de Conan. Sont présents :
+                Conan, Izaac, Leveau,- L'Evesque, Bardoux, Bois, Brusson, Céré-Labourdette,
+                Courteix, Evrat, Favret, Grillet, Laffargue, Lauté, Malgat, Nicolaï, Noireaux, Roy
+                (Georges), Satgé.</p>
+              <p>Excusés : Amblard, Bertrand, Bloncourt, Cabasson, Derunder, Guillam, Lagarde,
+                Robert (Maurice), Scapini.</p>
+              <p>Ont donné leurs pouvoirs : Au Président : Guillam (en mission), Fauvel. A Favret :
+                Cabasson. A Laffargue : Lagarde. A Leveau : Amblard. A Noireaux : Derunder.
+                Assistaient également à la séance : M. Oscar Bloch, M. de Chaumont-Quitry, M. de
+                Traversay.</p>
+              <p>Les camarades : Mathieu, Lañgt. A l'ouverture de la séance, le Trésorier communique
+                des nouvelles sur l'état de santé du camarade Robert (Maurice), qu'il a eues
+                indirectement. Le Conseil vote des vœux bien sincères pour son entier
+                rétablissement. 1<hi rend="superscript">°</hi> Procès-verbaux des réunions des 22 et
+                29 mai 1937 : Adoptés à l'unanimité. 2<hi rend="superscript">°</hi> Situations
+                financières d'avril et de mai 1937 : Adoptées à l'unanimité. Le Président met le
+                Conseil au courant d'une proposition faite par Mme K..., qui désirerait acquérir une
+                propriété pour nous la céder à titre gratuit, sous conditions que nous l'utilisions
+                dès à présent. Guillam est actuellement sur place pour étudier la question.</p>
+              <p>Le Conseil fait confiance au Bureau pour accepter cette donation, s'il estime la
+                réalisation possible et avantageuse. 3<hi rend="superscript">°</hi> Election du
+                Comité d'Action. Vingt-neuf administrateurs ont pris part au vote. Les candidats
+                présentés par le Bureau ont été élus à la majorité absolue. Les personnes dont les
+                noms suivent ont été chargées de former le Bureau de ce Comité : M. Bloch, Mme
+                Contamin, M. Iweins, Mme L'Evesque, M. de Traversay. Ceux-ci se réuniront
+                ultérieurement pour se répartir les fonctions de Président, Vice-Président et
+                Secrétaires.</p>
+              <p>Le Président, au nom du Conseil, remercie tous les membres du Comité d'Action pour
+                le dévouement dont ils n'ont cessé de faire preuve à notre égard.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>M. Bloch, en qualité de doyen d'âge, répond qu'il est touché de la confiance ainsi
+                exprimée vis-à-vis du Comité d'Action, et assure le Conseil qu'il peut compter sur
+                l'entière collaboration de tous. 4<hi rend="superscript">°</hi> Questions diverses.
+                Lecture est donnée des demandes d'adhésion de : Guilin (Ernest), 7, place d'Armes, à
+                Saint-Affrique (Aveyron), 110 %, articles 10 et 12, titre définitif. Carte du
+                combattant. Rivemale (Joseph), à Pouzolles (Hérault), 100 %, article 10, titre
+                définitif. Carte du combattant (membre provisoire depuis 1921). Quéménelir
+                (Georges), 14, rue Daru, à Paris, 100 %, article 10, titre provisoire. Carte du
+                combattant. Ces camarades remplissant les conditions sont admis, Guillin et
+                Rivemale, en qualité de membres titulaires, et Quéméneur, en qualité de membre
+                temporaire.</p>
+              <p>A propos de ces adhésions, Brusson demande quelle est la situation de ces camarades
+                vis-à-vis des avantages que l'Union réserve à ses membres titulaires d'après la
+                décision de notre dernière Assemblée générale. Le Président répond que ceux-ci
+                profitent de tous les avantages prévus par nos règlements, à la condition toutefois
+                qu'ils appartiennent à l'Union depuis un an. Exception sera faite, à partir de 1937
+                , pour l'allocation spéciale accordée aux veuves, l'Assemblée générale ayant donné
+                mission au Conseil d'étudier, au cours du présent exercice, des dispositions
+                spéciales sur ce point.</p>
+              <p>Le Président fait un rapide examen concernant les démarches qui se poursuivent pour
+                l'extension du Statut en faveur de nos camarades non bénéficiaires ; il indique que
+                le Ministère des Pensions, s'appuyant sur des statistiques qui nous paraissent
+                erronées, estime de 1.000 à 1.100 le nombre des non bénéficiaires du Statut. D'après
+                nos propres recherches, il semblerait que ce chiffre puisse, sans exagération, être
+                diminué au moins de moitié.</p>
+              <p>Izaac pense qu'on pourrait obtenir quelques précisions en nous adressant au
+                sous-intendant militaire afin de connaître le nombre de ceux qui ont obtenu la
+                dernière majoration de 1.000 francs sur leur carnet de l'allocation 5 bis, cette
+                majoration ayant été exclusivement réservée aux Averigles de Guerre 100 %, article
+                10. 1</p>
+              <p>Après un échange de vue général sur cette question, où chacun apporte des
+                suggestions, le Président fait connaître qu'il s'est réuni récemment avec les
+                délégués des Associations intéressées à l'extension du Statut et qu'une prochaine
+                démarche a été envisagée auprès du ministre des Pensions à ce sujet.</p>
+              <p>Il ajoute que la question du rajustement des pensions a également fait l'objet d'un
+                examen de la part du Comité d'Entente et qu'une attitude commune pourra être prise
+                selon les circonstances.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Sur la proposition du Bureau, le Conseil accorde une subvention de 200 francs à M.
+                Cousin, aveugle civil, inventeur d'une planchette permettant la réalisation de
+                dessins en reliefs. Ceci, à titre d'encouragement et pour l'aider à poursuivre ses
+                recherches en vue d'un perfectionnement ncessaire.</p>
+              <p>Plusieurs camarades séjournant à Franceville ayant demandé qu'un tourne-disques
+                soit installé dans notre maison de repos afin que nos camarades puissent profiter de
+                l'audition du Livre Parlé, le Conseil, à titre d'essai et de propagande, accepte de
+                confier un appareil à notre gardien qui en aura seul la responsabilité.</p>
+              <p>Communication est ensuite donnée d'une lettre de Bocquet, au sujet de la
+                rééducation générale de nos camarades.</p>
+              <p>Le Conseil est saisi d'un certain nombre d'invitations émanent de divers
+                Groupements de Mutilés et Anciens Combattants pour assister au banquet de clôture de
+                leurs Congrès. Ont accepté de représenter l'Union :</p>
+              <p>Bois, à l'Union des Blessés de la Face à Moussy-le-Vieux, le i juillet, et à la
+                Fédération des Anciens Prisonniers de Guerre, le ro juillet.</p>
+              <p>Céré-Labourdette, à l'Association Générale des Mutilés de la Guerre, le II
+                juillet.</p>
+              <p>Malgat, à la Fédération Nationale des Trépanés et Blessés de la Tête, le II
+                juillet.</p>
+              <p>Satgé, à l'Union Nationale des Mutilés, Réformés et Anciens Combattants, le 19
+                juillet.</p>
+              <p>Sur proposition d'Evrat, le Conseil décide de faire représenter l'Union aux
+                obsèques de nos camarades par une délégation constituée des membres de notre
+                Association se trouvant dans un certain périmètre du lieu du décès, en avisant
+                ceux-ci dès que nous en avons connaissance.</p>
+              <p>On procède ensuite à un examen général, concernant le fonctionnement de notre hôtel
+                et de ses annexes.</p>
+              <p>Et la séance est levée à 17 heures.</p>
+              <p>Nota. - Comme pour les deux précédentes réunions du Conseil, qui avaient pour
+                principal objet l'élection du Bureau, cette séance ayant été à peu près consacrée
+                entièrement à l'élection du Comité d'Action, ainsi qu'à la ratification de
+                procès-verbaux et de situations financières, le Conseil décide de ne pas publier de
+                sténographique, mais de détailler un peu plus que d'ordinaire le procèsverbal de
+                cette réunion.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">COMPTE RENDU DE L'ASSEMBLÉE
+                ANNUELLE DE LA DÉPARTEMENTALE DU FINISTÈRE le 8 Juillet 1937</head>
+              <p>La séance est ouverte à to h. 15, à la Mairie de Landerneau. Sont présents : Le
+                Cocq, Labar, Déniel, Kromer, Prigent, Jung, Bellec, Quéré, Argouach, Le Borgne (L.),
+                Kerrien, Kerangal, Kerneïs, Le Lann, Bénéat, Sibiril, membres de la Section.</p>
+              <p>Le Président Conan représentait l'U.A.G. Assistaient également à la réunion :
+                Amblard, Bertrand, Fauvel, Mézières.</p>
+              <p>Pouvoirs au Président Le Cocq : Coat, Castel, Masson, Stephan (J.-L.), Le Borgne
+                (J.).</p>
+              <p>A l'ouverture de la séance, à 10 h . 45 , le premier adjoint au maire de
+                Landerneau, M. Raux, vient saluer le Président au nom de M. J.-L. Roland,
+                député-maire.</p>
+              <p>Puis le Président Le Cocq demande aux camarades de se lever et d'observer une
+                minute de silence à la mémoire des camarades Lavolé, Le Sin et Kerhuel, décédés
+                depuis notre dernière réunion.</p>
+              <p>Le Cocq dit que nous avons, cette année, le plaisir d'avoir comme délégué de
+                l'U.A.G. le Président Conan et demande aux camarades de placer l'Assemblée sous sa
+                présidence.</p>
+              <p>Le Secrétaire donne lecture du procès-verbal de l'Assemblée de 1936, qui est adopté
+                à l'unanimité.</p>
+              <p>Bénéat demande qu'une palme soit en permanence à Brest pour être déposée par les
+                camarades assistant aux obsèques d'un membre de la Section.</p>
+              <p>Une discussion s'engage, à laquelle prennent part Sibiril et Le Cocq, qui
+                s'absentent l'un et l'autre assez fréquemment, particulièrement pendant les grandes
+                vacances; ils ne peuvent donc se charger d'avoir chez eux cette palme.</p>
+              <p>Kaigre, trésorier, propose alors que l'on dépose chez lui cette palme; il n'y aura
+                qu'à lui télégraphier ou lui téléphoner, 76 , rue Jean-Jaurès, dès le décès d'un
+                camarade et il la fera parvenir immédiatement.</p>
+              <p>Kaigre, trésorier, et Piton, commissaire aux comptes, donnent lecture du rapport
+                financier, qui est adopté à l'unanimité, après félicitations adressées par
+                l'Assemblée à Kaigre et Piton pour leur dévouement et leurs efforts à faire
+                prospérer la Section au point de vue financier.</p>
+              <p>Aucun vœu n'étant déposé, l'Assemblée demande à Conan de donner des explications
+                sur la marche de l'Union.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Conan fait un exposé détaillé sur la marche de l'Union et sur les dernières
+                démarches faites pour faire obtenir le Statut des Grands Inyalides aux exclus.</p>
+              <p>Amblard donne des renseignements sur le fonctionnement de notre Maison de la rue
+                Blanche.</p>
+              <p>Sur proposition de Kromer, l'Assemblée adresse ses félicitations à Conan, Amblard,
+                au Bureau et au Conseil de l'U.A.G., pour la bonne marche de notre Association.</p>
+              <p>Le Bureau de la Départementale informe également Conan qu'un assureur a visité les
+                camarades du département.</p>
+              <p>Conan fait savoir que l'Union n'a jamais chargé personne d'aller offrir des
+                assurances de sa part à ses membres et les met en garde contre tous les démarcheurs
+                qui abusent de la bonne foi des camarades.</p>
+              <p>Le Conseil d'administration du Comité est réélu. Le Cocq conserve la présidence et
+                Sibiril le Secrétariat. Membres élus : Prigent, Labat, Kernéïs ; Trésorier : Kaigre;
+                Commissaire aux comptes : Piton.</p>
+              <p>Avant de lever la séance, Le Cocq, au nom de l'Assemblée, adresse ses remerciements
+                à Conan et à Mme Conan, qui n'ont pas craint de faire un si long voyage pour être
+                aujourd'hui parmi nous.</p>
+              <p>Le Cocq adresse aussi ses remerciements à Amblard, Fauvel, Bertrand et Mézières
+                qui, passant leurs vacances en Bretagne, sont venus se joindre à leurs camarades du
+                Finistère.</p>
+              <p>A midi, on se retrouve à nouveau réunis à l'Hôtel de Bretagne où est servi un
+                excellent repas en commun.</p>
+              <p>Au café, Le Cocq renouvelle ses remerciements à Mme et à M. Conan et à tous les
+                camarades qui, depuis quinze ans, assistent régulièrement à notre Assemblée.</p>
+              <p>Conan dit tout le plaisir qu'il a à se trouver aujourd'hui parmi ses camarades du
+                Finistère, plus particulièrement, puisqu'il est aussi Breton.</p>
+              <p>Chanteuses et chanteurs se font ensuite entendre, puis la jeunesse danse.</p>
+              <p>L'on se quitte à l'heure des trains en se donnant rendez-vous à l'année
+                prochaine.</p>
+              <p>Le Secrétaire : Sibiril.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">PROCÈS-VERBAL DE LA
+                DÉPARTEMENTALE DU TARN LE 3 OCTOBRE 1937, A CASTRES</head>
+              <p>La séance est ouverte à 10 h .30 sous la présidence du camarade Satgé,
+                président.</p>
+              <p>Sont présents, les camarades : Blatgé, Bonnet, Cabrol, Cailleau, Cancé, Enjalbert,
+                Geniès, Maury, Massot, Montalan, Saint-Marty, Salesse, Satgé, Séverac.</p>
+              <p>Excusés : Dardié, Germa, Huc, Vidal. Absents : Carrié, Dupuy. Le camarade Conan,
+                président de l'U.A.G., assiste à la séance, Satgé souhaite la bienvenue à Madame et
+                au camarade Conan, leur dit la gratitude des Aveugles de Guerre du Tarn et les
+                remercie de leur présence. Conan remercie les camarades et les assure de son entier
+                dévouement à la cause de l'Union.</p>
+              <p>L'ordre du jour appelle la lecture du procès-verbal de la dernière séance et de la
+                situation financière de la Départementale, qui sont adoptés.</p>
+              <p>Conan prend la parole pour expliquer aux camarades les démarches faites par le
+                Bureau pour l'extension du statut et les entrevues en perspective pour
+                l'augmentation des pensions. Quelques camarades interviennent pour exprimer leur
+                crainte, mais Conan les rassure en leur indiquant que l'extension du statut est liée
+                à l'augmentation des pensions.</p>
+              <p>Les camarades ayant visité ou séjourné dans notre Maison de la rue Blanche se
+                déclarent tous satisfaits du confort des chambres, du restaurant et du bar.</p>
+              <p>Le Bureau sortant est réélu, à savoir: Satgé président, SaintMarty vice-président,
+                Enjalbert secrétaire, Cailleau, Geniès, Cancé et Montalan sommissaires, Mme Satgé
+                trésorière et Mme Saint-Marty commissaire aux comptes. M. Maraval, délégué des Amis
+                des Soldats Aveugles, assiste au déjeuner qui est servi dans la salle même de la
+                réunion. Au dessert, Satgé dit à M. Maraval la joie de tous les camarades de le
+                savoir aujourd'hui à nos côtés. Il le remercie d'être pour nous le fidèle interprète
+                de nos doléances auprès des "Amis" et le prie de transmettre à ces derniers
+                l'expression de notre profonde gratitude pour l'aide morale et matérielle qu'ils ne
+                cessent de nous apporter en toutes circonstances.</p>
+              <p>S'adressant à Conan, Satgé lui dit la satisfaction des camarades du Tarn d'avoir le
+                Président de l'U.A.G. à leur assemblée et l'assure de la confiance de tous en
+                l'Union.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+              <p>Il le prie de transmettre au Bureau et au Conseil d'administration le salut
+                fraternel de la Départementale, adresse ensuite quelques paroles aimables à Mme
+                Conan, qui n'a pas craint les fatigues d'un long voyage pour accompagner notre
+                Président.</p>
+              <p>Il remercie les camarades de leur présence, témoignant ainsi de leur attachement à
+                l'Union et lève son verre aux Amis, à leur délégué, à notre Union, à Madame et au
+                camarade Conan, à nous tous et à la santé de ceux qui nous sont chers.</p>
+              <p>Conan, prenant ensuite la parole, remercie les Amis et leur délégué de l'intérêt
+                qu'ils apportent aux Aveugles de Guerre, il remercie les camarades de la chaleureuse
+                réception dont Mme Conan et lui ont été l'objet et les assure de son attachement à
+                l'Union.</p>
+              <p>Il lève son verre et boit aux Amis, à leur délégué, à la prospérité de l'Union, à
+                la santé de nos compagnes et à celle des camarades. M. Maraval, en termes émus,
+                remercie ses amis les Aveugles de Guerre du Tarn de bien vouloir l'inviter à leur
+                banquet, lui procurant ainsi l'avantage de pouvoir s'entretenir un moment avec
+                chacun d'eux, nous assure de l'aide des Amis, de son entier dévouement, et boit à la
+                santé de Madame et du Président Conan, de notre belle Union et de ses chers amis les
+                Aveugles de Guerre et de leur famille.</p>
+              <p>Après le déjeuner, M. Maraval et le Président Conan s'entretiennent amicalement
+                avec les camarades, et la réunion prend fin vers 16 heures.</p>
+              <p>Le Secrétaire : Enjalbert.</p>
+              <p>Le Président : Satgé.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">PROCÈS-VERBAL DE LA RÉUNION
+                DU COMITÉ D'ADMINISTRATION DU GROUPEMENT DE LA RÉGION DU NORD LE 3 OCTOBRE
+                1937</head>
+              <p>La Commission a tenu sa réunion le dimanche 3 octobre, Café du Lion-Noir, à
+                Hazebrouck.</p>
+              <p>La séance est ouverte à 11 heures par Plaquette, entouré de toute la Commission et
+                du camarade Béquart.</p>
+              <p>Lecture du compte-rendu de l'Assemblée annuelle du 21 mars, qui est adopté.</p>
+              <p>La discussion s'engage sur le projet de réajustement de nos pensions, devenu urgent
+                par suite de l'augmentation croissante du coût de la vie et de la diminution du
+                pouvoir d'achat des pensions. La Commission donne mandat au Conseil et au Bureau
+                d'entreprendre de suite toutes démarches ayant pour but de relever le taux de nos
+                pensions et allocations, et ceci d'accord d'une part avec la Confédération et,
+                d'autre part, avec les Associations de Grands Invalides.</p>
+              <p>Le point de départ du rajustement devrait être le même que celui de l'augmentation
+                des traitements des fonctionnaires, c'est-à-dire le 1<hi rend="superscript">er</hi>
+                octobre.</p>
+              <p>La Commission espère également que le Bureau ne perd pas de vue la question
+                toujours en suspens du statut des mutilés et souhaite que ce dernier aboutisse
+                rapidement afin de donner satisfaction au plus grand nombre possible de camarades
+                encore exclus.</p>
+              <p>Plusieurs délégués ayant bénéficié d'un logement à Malo ont reçu les doléances
+                d'une propriétaire concernant le mauvais état des lieux à la suite du séjour d'un
+                camarade. La réclamation suivra son cours mais la Commission demande que des
+                sanctions très sévères soient prises envers les camarades fautifs et souhaite qu'un
+                nouvel avis paru dans le bulletin rappelle aux camarades les obligations qu'ils
+                contractent en se rendant dans les maisons de repos.</p>
+              <p>Sur la proposition de Brebion, la Commission demande au Bureau d'étudier la
+                possibilité de donner un jeton de présence aux camarades assistant aux réunions de
+                commissions préparatoires et à l'Assemblée, ceci à titre d'encouragement.</p>
+              <p>Plusieurs autres vœux de caractère trop général ne sont pas retenus pour le moment
+                et seront repris plus tard. La Commission proposera à l'Assemblée de porter à 20
+                franc les frais de déplacement des délégués pour la réunion des Commissions. Elle
+                fixe au dimanche 20 mars son Assemblée annuelle. Des avis paraîtront sur le bulletin
+                en temps utile.</p>
+              <p>La séance est levée à midi et demie. Le Secrétaire : Léon Muret.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">PROCÈS-VERBAL DE LA RÉUNION
+                DU COMITÉ D'ADMINISTRATION DE LA SECTION DU GERS ET HAUTES-PYRÉNÉES, LE 24 OCTOBRE
+                1937</head>
+              <p>La séance est ouverte à 15 heures au siège de la Section. Sont présents :
+                Çhalendar, Ducos, Massé, Lajouanne, Tauziet. Excusé : Duffaut. Chalendar fait
+                l'éloge funèbre du camarade Michou, décédé depuis la semaine réunion, et au nom du
+                Comité renouvelle ses condoléances à Mme Michou et à sa famille.</p>
+              <p>Le Comité est mis au courant de la marche de la Section et de celle de l'U.A.G.
+                jusqu'à ce jour et discute des questions concernant l'extension du statut,
+                l'augmentation des pensions des bi-manchots, des enfants des Aveugles de Guerre. Il
+                examine aussi l'aide à apporter aux veuves et la question des décorations.</p>
+              <p>Le Bureau de la Section renouvelle sa confiance au Bureau et au Conseil de
+                l'U.A.G.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée. Le Président: Chalendar. Le
+                Secrétaire : Massé.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">COMPTE RENDU DE LA RÉUNION
+                DU COMITÉ D'ADMINISTRATION DU 3 OCTOBRE DE LA SECTION DE LA SEINE-INFÉRIEURE</head>
+              <p>La séance est ouverte sous la présidence du camarade Angot, viceprésident.</p>
+              <p>Sont présents : Angot, vice-président ; Eiselé, secrétaire ; Varnier, trésorier;
+                Bavant, commissaire aux comptes; Boulanger, secrétaire voyant ; Lemarchand, Prevel,
+                Dupont, Frère, membres du Conseil.</p>
+              <p>Excusé : Abraham. Angot rappelle que le but de cette réunion est de nommer un
+                Président en remplacement du camarade Cagnard, décédé, et demande de bien vouloir
+                procéder au scrutin.</p>
+              <p>Eiselé propose que Angot, vice-président, soit nommé Président à main levée. Le
+                Conseil se rallie à cette proposition et le camarade Angot est nommé Président.</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+              <p>Le Président Angot demande à Lemarchand de bien vouloir être candidat à la fonction
+                de vice-président. Celui-ci ayant accepté, le Conseil votant à main levée, le nomme
+                vice-président. Lemarchand remercie et déclare qu'il donnera tout son effort pour
+                appuyer l'action du Président ; il compte sur l'aide de tous les camarades de la
+                région rouennaise pour l'aider dans sa tâche.</p>
+              <p>La séance est levée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">SECTION DE LA
+                SEINE-INFÉRIEURE COMPTE RENDU de l'ASSEMBLÉE EXTRAORDINAIRE du 3 Octobre 1937</head>
+              <p>La séance est ouverte à 9 h .30 , sous la présidence du camarade Angot,
+                vice-président.</p>
+              <p>Sont présents : Eiselé, secrétaire ; Lemarchand, Dupont, Prevel, Frère, Bellenger,
+                Dupuis, Feugray, Leroy Albert, Lesade, Picot, Wervoort, Bachelet, Buisson, Petit
+                Adrien, Godard, Simon.</p>
+              <p>Se sont excusés en envoyant leurs pouvoirs : Mauconduit, Lecointe, Houard, Viel,
+                Abraham, Adam, Vincent, Lucas, Giroux, Berrod, Rost, Quesne, Bienvenu, Leroy
+                Marcel.</p>
+              <p>Excusés n'ayant pas donné de pouvoir : Toutain, Motte. Absents non excusés:
+                Chatonnier, Cressent, Gille, Fessard, Hedouin, Landais, Leblond, Loquin, Noel, Petit
+                Joseph, Vaxelaire, Montford, Gareaud.</p>
+              <p>Le Président rappelle la perte immense qu'a causé à la Section la mort inattendue
+                du Président Cagnard.</p>
+              <p>Cagnard s'était donné corps et âme à la Section ; ses camarades aveugles, leurs
+                veuves, leurs orphelins, faisaient l'objet de ses préoccupations constantes ;
+                ceux-là seuls qui étaient les témoins de son activité pourraient dire les démarches
+                faites, les efforts incessants déployés par lui. La Section, c'était sa vie.</p>
+              <p>Aussi, est-ce avec un sentiment de profonde tristesse que le Président demande à
+                l'Assemblée de rendre hommage à la mémoire de son regretté Président en observant
+                une minute de silence.</p>
+              <p>Le Président rappelle ensuite le but de l'Assemblée, qui est de nommer un membre du
+                Comité d'Administration en remplacement du camarade Cagnard; il indique que le
+                camarade Giroux est candidat et demande si d'autres candidatures se posent.</p>
+              <p>Le camarade Petit Adrien pose sa candidature et il est procédé au vote.</p>
+              <pb n="27"/>
+              <note type="foliation">— 25 —</note>
+              <p>Le résultat est le suivant : <list>
+                  <item>Giroux 22 voix</item>
+                  <item>Petit 6 voix</item>
+                  <item>Simon 1 voix</item>
+                </list></p>
+              <p>Le camarade Giroux est proclamé élu. Le Président déclare suspendue la séance pour
+                permettre au Comité d'Administration de compléter le Bureau.</p>
+              <p>A la reprise, le Président proclame les résultats : Le Conseil d'administration a
+                nommé : Président, le camarade Angot ; Vice-Président, le camarade Lemarchand.</p>
+              <p>Le Président indique que la souscription pour la couronne a laissé un reliquat et
+                qu'il compte utiliser cette somme pour mettre une plaque sur la tombe du Président
+                Cagnard.</p>
+              <p>La séance est levée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">AVIS DIVERS</head>
+              <p>Vins recommandés, traités entièrement par la méthode champenoise :</p>
+              <p>Le Grand Saumur 4 étoiles : la bouteille, 13 francs; i étoile : la bouteille, II
+                francs.</p>
+              <p>Rouges et rosés : Red Sparkling Saumur, très corsé, la bouteille, II francs; Noble
+                Rosé, OEil-de-Perdrix, II francs.</p>
+              <p>Vouvray, réserve de la Maison : la bouteille, II francs. Grands Vins Mousseux très
+                bon choix : Prince de Galles Carte d'Or : la bouteille, 9 fr. 50 ; Duc d'Horfranc,
+                Carte d'Or : la bouteille, 8 fr. 50 ; Royal Yacht Club, Carte d'Or : la bouteille, 7
+                fr. 50.</p>
+              <p>Paiement par traite 60 jours de la livraison. Expédition par caisse de 25 ou 30
+                bouteilles sur gare départ, droits de régie en sus.</p>
+              <p>Pour deux demi-bouteilles, 2 fr. 50 en sus du prix d'une bouteille.</p>
+              <p>Supplément de 2 francs par caisse pour petits emballages. Pour commandes, écrire à
+                M. D. Leveau, 48 , rue du Pré-SaintGervais, à Pantin (Seine).</p>
+              <p>Le fils de notre camarade Thiriet Isidore, âgé de dix-sept ans, ayant obtenu son
+                diplôme de jardinier et de viticulteur, désirerait une place d'aide-jardinier.
+                S'adresser à M. Thiriet Isidore, à Jarmeuil, par Pouxeux (Vosges).</p>
+              <pb n="28"/>
+              <note type="foliation">— 26 —</note>
+              <p>Aspirateurs toutes marques, remis intégralement à neuf. Garantis un an. A partir de
+                275 francs.</p>
+              <p>Appareils de T.S.F. haute qualité, quinze ans de références. S'adresser au camarade
+                Fauvel, i, rue des Jardins, à Asnières (Seine).</p>
+              <p>Bien préciser la nature du courant, continu ou alternatif, et le voltage.</p>
+              <p>Aux amateurs de champagne, notre camarade Malgat propose un champagne excellent,
+                cuvée réservée, délimitation 1908, provenance directe du propriétaire récoltant, à
+                II francs la bouteille, franco de port et d'emballage, à domicile pour Paris et
+                banlieue, et à 11 fr. 25 la bouteille pour la province. Ces prix s'entendent par
+                caisse de 25 bouteilles.</p>
+              <p>S'adresser directement à M. Malgat, 28 bis, rue du Chemin-deFer, à Villemomble
+                (Seine). Téléphone Le Raincy 785.</p>
+              <p>Notre camarade Niant Simon, ancien propriétaire vigneron, se met à la disposition
+                de ses camarades pour leur faire envoyer des vins aux meilleures conditions.</p>
+              <p>Vins blancs Montbazillac et Bergerac, vins rouges Saint-Emilion, Bergerac,
+                Pecharmont.</p>
+              <p>Se mettre directement en rapports avec M. Niant, 71, rue du Pont-Saint-Jean, à
+                Bergerac (Dordogne). A. Lacotas, 21, rue de l'Argenterie, Montpellier (Hérault),
+                demande aux camarades désireux d'acheter des vins de table, qu'il garantit
+                absolument parfaits, de s'adresser à lui pour l'exécution de leurs ordres, qui
+                seront faits par les soins des producteurs de l'Hérault.</p>
+              <p>Tarif à ce jour : Vin rouge 9<hi rend="superscript">°</hi> 5,2 fr. 55 ; vin rouge
+                  10<hi rend="superscript">°</hi>, 2 fr. 60 ; vin blanc 10<hi rend="superscript"
+                  >°</hi>, 2 fr. 85 .</p>
+              <p>Ces prix s'entenent au litre nu. Vins expédiés en barrique de 220 litres environ,
+                majoration de o fr. o5 au litre pour envois en demi-barrique. Franco de port et de
+                régie sur gare destinataire. Logement : les futs sont consignés et repris au même
+                prix, rendus franco Montpellier.</p>
+              <p>S'adresser directement au camarade Lacotas, 21, rue de l'Argenterie, Montpellier
+                (Hérault).</p>
+              <p>Pour trousseaux, achats de toile et lingerie, notre camarade Petitdidier nous
+                informe qu'il livrera aux meilleures conditions le beau linge des Vosges, garanti
+                blanchi sur pré.</p>
+              <pb n="29"/>
+              <note type="foliation">— 27 —</note>
+              <p>Livraison franco et 5% d'escompte. Demander échantillons. S'adresser directement à
+                M. Petitdidier, 118, rue Marietton, Lyon (Rhône).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">LISTE DES DONATEURS</head>
+              <p>Mme Fischer, Bruxelles, io fr. - Lycée Thiers, Marseille, 120 fr. - Mme Condamin,
+                Nice, 6 fr. - M. Jéan Charlot, Paris, 200 fr. Une Bourguignonne, 25 fr. - Mme
+                Bouton, Thonon-les-Bains, 20 fr. - M. Hertzberger, Rotterdam (Hollande), 15.000 fr.
+                - M. Delanne, Remaucourt (Ardennes), 20 fr. - Divers, 526 fr. 50.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h37">DONS AVEC AFFECTATION
+                SPÉCIALE POUR LA "MAISON DES AVEUGLES DE GUERRE"</head>
+              <p>Notre camarade François Rieux, io fr. - Mme d'Halloy, Paris, 10 fr. - Commune de
+                Vielmur (Tarn), 17 fr. 70. - Mme et M. Emile Kahn, Paris, 200 fr. - Commune de
+                Doué-la-Fontaine (M.-et-L.), 45 fr.</p>
+            </div>
+          </div>
+          <fw>Le Gérant : DÉCOÈNE Imp. Dubois et Bauer, 34. rue Lafitte, Paris. 1937</fw>
+          <pb n="30"/>
+          <pb n="31"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Scapini, Président honoraire. Bourguignon, Secrétaire
+              général honoraire. Fayret, Secrétaire général honoraire. Coman, Secrelaire général
+              honoraire. Amblard, Secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Conseil d'Administration</head>
+            <p>Président : Conan, Vice-Présidents : Guillam, Izaac, Leveau. Secrétaire général :
+              Amblard. Trésorier : Gaston J.'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courtrix, Derunder, Evrat, Fauvel, Fayret,
+              Grillet, Laffargue, Lagarde, Lauté, Malgat, Muller, Nicolat, Noireaux, Robert
+              (Maurice), Rot (Georges), Satgé, Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h40">Comité d'Action</head>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Président : M. de Traversay; Vice-Présidentes
+              Mme Contamin. Mme L'Evesque. M. Bloch, adjoint au Trésorier; Secrétaires M. Iweins,
+              Secrétaire du Comité d'Action; M. Auterbe, Sous-Directeur à la Compagnie "L'Union";
+              Mme du Bos; Mme Broquin; M. de Chaumont-Quilry; M. Chepfer; Mme Chevalier; Mlle
+              Jalaguier; Mme Lévy-Weis; M. Mayer; Mme Meyer; Colonel de Traversay.</p>
+            <pb n="32"/>
+          </div>
+          <fw>Garson: DBCOENE. Imp. Dubois et Bauer, 54, rue Laffitte, Paris, 1937</fw>
+          <pb n="33"/>
+          <div>
+            <fw>UNION DES AVEUGLES DE GUERRE GROUPEMENT NATIONAL DES AVEUGLES DE GUERRE Reconnu
+              d'utilité Publique par Décret du 9 Avril 1921</fw>
+            <head type="section" rend="align(center)" xml:id="h1">Compte Rendu Sténographique DE LA
+              Réunion du Conseil d'Administration DU 20 NOVEMBRE 1937</head>
+            <fw>SIÈGE SOCIAL : 49, RUE BLANCHE — PARIS (9°) Téléphone : TRINITÉ 85-83 Chèque Postal
+              : 160.31</fw>
+            <pb n="34"/>
+            <pb n="35"/>
+            <div type="section">
+              <head type="section" rend="align(center)" xml:id="h41">Compte-Rendu Sténographique de
+                la Réunion du Conseil du 20 Novembre 1937</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Conan, Sont présents :
+                Conan, Guillam, Izaac, Leveau, Amblard, L'Evesque, Bardoux, Bertrand, Bois, Brusson,
+                Céré-Labourdette, Courteix, Evrat, Favret, Grillet, Lagarde, Lauté, Malgat, Nicolaï,
+                Noireaux, Roy G., Satgé.</p>
+              <p>Excusés : Bloncourt, Cabasson, Derunder, Fauvel, Laffargue, Muller, Robert M.,
+                Scapini.</p>
+              <p>Ont donné leurs pouvoirs : à AMBLARD : Fauvel, Laffargue, Muller ; à FAVRET :
+                Cabasson ; à NOIREAUX : Derunder. Assistaient également à la séance : M. de
+                Traversay, Président et M. Iweins, Secrétaire du Comité d'Action : M. Bloch,
+                Trésorier-adjoint;</p>
+              <p>Les camarades : Berthet, Chalendar, Chauvel, Courtas, Detoc, Laboulais, Lepesteur,
+                Marche, Mathieu, Nicolaï Pierre, Planquette, Rochelet, Saillot.</p>
+              <p>Conan. - L'odre du jour appelle la lecture du procès-verbal de la réunion du
+                Conseil du 9 octobre 1937.</p>
+              <p>Les administrateurs ayant tous reçu ce procès-verbal, désirez-vous qu'on en donne
+                lecture, ou quelqu'un a-t-il des observations à présenter? Personne ne demande la
+                parole?</p>
+              <p>Qui vote contre? - Personne. Abstentions? - Personne.</p>
+              <pb n="36"/>
+              <note type="foliation">— 2 —</note>
+              <p>Le procès-verbal du 9 octobre est adopté à l'unanimité.</p>
+              <p>L'Evesque. - L'ordre du jour appelle maintenant l'examen des situations financières
+                de septembre et octobre 1937.</p>
+              <p>Conan. - Nous allons, si vous le voulez bien, prendre ces situations mois par
+                mois.</p>
+              <p>Qui demande la parole sur la première situation, celle de septembre? Grillet. - A
+                la lecture de la situation financière, je me suis aperçu qu'en ce qui concerne le
+                fonctionnement de la Maison, le chapitre bar était chaque mois en déficit ; je pense
+                que c'est à cause des achats. Je ne critique pas, je demande simplement des
+                explications.</p>
+              <p>Conan. - Il est très difficile en réalité d'évaluer les affaires du bar; ce qui est
+                certain, c'est que le bar est toujours en profit puisqu'il y a une majoration sur le
+                prix d'achat, il ne peut être déficitaire, seulement les sorties peuvent ne pas être
+                suffisantes pour couvrir les achats. Il faudra voir ceci au bilan annuel. Le déficit
+                provient du vin qui est compris dans les recettes du restaurant.</p>
+              <p>Favret. - Chaque mois, il y aura des interpellations, des questions seront posées
+                au Bureau au sujet du bar et du restaurant. Il serait bon, je crois, que nos
+                camarades attendent d'avoir en mains le bilan pour faire leurs observations. Il est
+                très difficile, en cours d'année, de savoir si le restaurant ou le bar vont
+                rapporter. Si le mois prochain, par exemple, le bar a un déficit de 500 ou 1.000
+                francs, le mois suivant il peut récupérer ces 500 ou 1.000 francs et il serait sage
+                d'attendre la fin de l'année pour en discuter.</p>
+              <p>Conan. - C'est la première année d'exercice réel du bar et du restaurant; à la fin
+                de l'année, on fera la balance de ces comptes et on saura exactement où on en est. A
+                la Commission des Finances où nous en avons discuté, il est apparu qu'il n'y avait
+                pas de déficit sur le restaurant.</p>
+              <p>Favret. - Je suis d'accord. Il est certain qu'à partir de janvier prochain, il y
+                aura peut-être des améliorations à apporter, des aménagements nouveaux dans les
+                comptes.</p>
+              <p>Conan. - Des dispositions nouvelles basées sur l'expérience.</p>
+              <pb n="37"/>
+              <note type="foliation">— 3 —</note>
+              <p>Favret. - C'est pour cela que je demandais à nos camarades de ne pas charger les
+                séances du Conseil par des discussions.</p>
+              <p>Conan. - Les camarades demandent des apaisements sur ce sujet ; il est bon qu'on
+                puisse leur donner quelques détails.</p>
+              <p>Malgat. - Pour la question du blanchissage, je voulais demander si les frais
+                service hôtel et service restaurant marchent de pair. Je voudrais éclairer les
+                camarades en leur disant que les passagers ici paient leur blanchissage; de ce fait
+                la note est moins élevée.</p>
+              <p>Amblard. - C'est une question de comptabilité ; vous avez de grosses dépenses, dont
+                vous avez la balance par certains remboursements portés au crédit.</p>
+              <p>Malgat. - En ce qui concerne le gaz, les démarches ont elles été faites pour
+                obtenir un tarif dégressif?</p>
+              <p>Amblard. - Hier encore, nous avons eu la visite d'un ingénieur du gaz; nous sommes
+                justement tombés sur un spécialiste des fourneaux de restaurant. Nous allons donc
+                avoir un tarif dégressif qui, au dessus de 2.000 mètres de consommation, nous
+                coûtera 0 fr .70 au lieu de 1 fr .25 . Ensuite, nous avons demandé à l'ingénieur du
+                gaz de s'entremettre avec la Société qui représente le fournisseur, d'examiner ce
+                fourneau afin de le rendre d'un maniement plus souple.</p>
+              <p>S'il y avait besoin d'un changement, on étudierait la question avec la Commission
+                de gestion.</p>
+              <p>Courtex. - An sujet de ce qu'a demandé le camarade Grillet, concernant le déficit
+                qui apparaît dans la gestion du bar, il faut tenir compte que les achats de vin sont
+                inscrits dans les dépenses du bar, alors que les recettes sont inscrites au chapitre
+                restaurant, donnant ainsi l'impression que le bar se trouve en déficit. Ce déficit
+                semble d'autant plus grand que les camarades ont été très nombreux cet été dans
+                notre Maison et que de ce fait la consommation du vin a été plus importante. Il ne
+                faut d'ailleurs pas se plaindre de cette affluence qui a permis aux camarades de se
+                retrouver et de mieux connaître la Maison.</p>
+              <pb n="38"/>
+              <note type="foliation">— 4 —</note>
+              <p>Conan. - Il y aurait quantité de remarques à faire dans ce même sens, ainsi au
+                chapitre nourriture, vous avez 30.000 francs de recettes contre 28.000 francs de
+                sorties et il y a à tenir compte que la nourriture du personnel est incluse dans ces
+                chiffres. Le Conseil ne pourra donc être complètement éclairé qu'en fin d'année
+                après une étude sérieuse de la question.</p>
+              <p>Evrat. - En ce qui concerne l'entretien, je désirerais être renseigné sur le point
+                suivant: Il y a 2.000 francs environ d'entretien tous les mois, est-ce que le
+                personnel est compris dans ce chapitre ou ne s'agit-il là uniquement que de
+                marchandises?</p>
+              <p>Amblard. - Pour le moment en ce qui concerne l'entretien, il y a une question de
+                mise au point; il y a quelques achats importants à faire pour compléter
+                l'organisation du service. En outre, il y a l'achat des produits d'entretien, le
+                remplacement d'ampoules électriques, de vaisselle, etc... Tout ceci n'entre
+                évidemment pas dans la valeur de l'immeuble. Il n'en est pas de même si vous faites
+                par exemple une dépense de 50.000 francs pour une amélioration d'ordre général, car
+                à ce moment là votre maison subit une plus-value, que vous pouvez d'ailleurs
+                compenser ensuite par un amortissement.</p>
+              <p>Au chapitre entretien, figurait également une dépense pour le nettoyage des
+                carreaux, lequel était assuré par une entreprise particulière. Nous avons supprimé
+                cette dépense, grâce à une réorganisation dans le service de notre personnel :
+                celui-ci pourra désormais se charger de cet entretien.</p>
+              <p>Brusson. - Au dernier Conseil, vous nous avez dit que l'Office National des Mutilés
+                devait se réunir ce mois-ci et que nous serions fixés sur les sommes promises pour
+                la transformation de notre Maison.</p>
+              <p>Conan. - Izaac faisant partie du Conseil de l'Office National, je lui passe la
+                parole pour vous répondre.</p>
+              <p>Izaac. - L'Office National a un Conseil d'Administration qui est très ancien et qui
+                va être renouvelé. Jusqu'à présent, malgré tous les rapports favorables des
+                Commissions et des architectes, la question <pb n="39"/>
+                <note type="foliation">— 5 —</note> ne lui a pas été soumise définitivement ; c'est
+                le nouveau Conseil qui devra la traiter. Mon impression personnelle est que
+                l'atmosphère nous est plutôt favorable.</p>
+              <p>Amblard. - Un expert financier est venu nous visiter, puis un architecte qui a
+                examiné attentivement notre Maison. Il s'est rendu compte du bien fondé de notre
+                demande.</p>
+              <p>Izaac. - Dans un autre ordre d'idées, l'Office National avait promis à L'U.A.G. une
+                certaine somme pour nous dédommager des frais occasionnés pour la maquette que nous
+                avons établie en vue de notre participation à l'Exposition. Je ne sais pas si c'est
+                définitif, mais en principe la Commission permanente a décidé qu'elle n'accorderait
+                qu'une subvention de 50%. On a l'impression qu'une ère d'économies semble s'ouvrir;
+                néanmoins, je suis persuadé que, dans l'ensemble, nous aurons satisfaction, mais
+                peut-être envisagera-t-on le paiement par tranches.</p>
+              <p>Conan. - Ils nous l'ont dit en effet, mais l'essentiel c'est qu'ils donnent suite à
+                notre demande.</p>
+              <p>Je vais, si vous le voulez bien, mettre la situation financière de septembre aux
+                voix.</p>
+              <p>Qui vote contre? Personne - Abstentions? Personne. La situation de septembre est
+                adoptée à l'unanimité. Quelqu'un demande-t-il la parole sur la situation d'Octobre?
+                Roy G. - Il y a, au chapitre Loterie Nationale, une rentrée d'un peu plus de 260.000
+                francs, j'aimerais savoir ce que devient la question des lots non réclamés.</p>
+              <p>Conan. - Ceci représente les rentrées des six dernières tranches, la question des
+                lots non réclamés est encore réservée. Il y a eu une réunion aux Gueules Cassées, et
+                ce jour là Amblard était présent.</p>
+              <p>Amblard. - Faisant partie du groupement des Sociétés depuis environ un an, il nous
+                a été indiqué que les lots non réclamés pouvaient être répartis entre celles-ci,
+                mais avant de nous en faire connaître <pb n="40"/>
+                <note type="foliation">— 6 —</note> l'importance, on nous a informés que le
+                secrétaire général de la Loterie Nationale, poussé probablement par des groupements
+                financiers, avait exigé de la part des organismes émetteurs comme les Gueules
+                Cassées, une caution qui devait être au montant des billets prélevés à la loterie.
+                Les Gueules Cassées ont accepté de déposer leur portefeuille comme caution et ont
+                demandé aux Sociétés participantes de joindre à ce portefeuille le montant des lots
+                non réclamés revenant à chacune d'elles. Les billets seront en partie garantis et en
+                partie achetés avec ces dépôts, par la suite, les lots non réclamés pourront être
+                partagés.</p>
+              <p>Il aurait été plus agréable d'avoir l'argent ici car nous aurions pu en tirer un
+                intérêt, mais enfin, il nous reste toujours acquis et on nous en indiquera un jour
+                le montant.</p>
+              <p>Amblard. - Les Gueules Cassées nous disent qu'ils donnent des délais extrêmement
+                larges pour le retrait des lots, contrairement à ce qui se fait officiellement, ce
+                qui apporte un retard dans la clôture définitive de leurs écritures.</p>
+              <p>Favret. - En octobre 1936, quand nous avons passé un contrat avec les Gueules
+                Cassées, il était bien entendu que les lots non réclamés seraient répartis entre les
+                Associations adhérentes. Le Bureau a bien fait de rappeler aux Gueules Cassées
+                qu'ils avaient de l'argent à nous verser pour les lots non réclamés.</p>
+              <p>Conan. - Personne ne demande plus la parole sur la situation financière d'octobre.
+                Je la mets aux voix.</p>
+              <p>Qui vote contre ? Personne - Abstentions ? Personne. Adopté à l'unanimité. L'ordre
+                du jour appelle maintenant la question des pensions. L'Evesque. - Voici ce que dit
+                Derunder à ce sujet : «J'adresse mes sincères remerciements à notre Bureau pour le
+                travail accompli et lui fais confiance pour mener à bien cette délicate question
+                ».</p>
+              <p>Conan. - A la dernière séance, nous en étions je crois au point suivant: nous
+                avions été reçus par le Ministre, nous avions sollicité auprès du Président du
+                Conseil une audience qui devait avoir lieu le mardi, suivant la réunion du Conseil.
+                Nous avons informé les administrateurs de cette entrevue en leur envoyant le
+                procès-verbal.</p>
+              <pb n="41"/>
+              <note type="foliation">— 7 —</note>
+              <p>Le Président du Conseil nous a très bien accueillis, il a parfaitement compris les
+                revendications des grands mutilés, et a dit: «l'effort que « le Gouvernement pourra
+                faire sera forcément limité : dans cette « répartition les grands mutilés doivent
+                avoir un régime de faveur, « voyez maintenant le Ministre des Finances, mettez-vous
+                d'accord « avec lui, si malgré les bonnes volontés réciproques vous n'arrivez « pas
+                à un accord satisfaisant, venez me retrouver, j'arbitrerai le « conflit».</p>
+              <p>Nous n'avons pas revu depuis le Président du Conseil, son arbitrage sera demandé au
+                cours des négociations prochaines si c'est nécessaire.</p>
+              <p>La thèse du Ministre des Finances s'est posée sur un terrain tout à fait différent.
+                Il ne s'est pas compromis. Il a dit : «Je dispose d'un milliard et demi environ, je
+                donne cette somme au Gouvernement, à charge par lui de la répartir suivant les
+                besoins de chaque Ministère et dans chaque Ministère de faire également les
+                répartitions nécessaires. »</p>
+              <p>Nous ne pouvons plus intervenir nous-mêmes auprès du Ministre des Finances quant à
+                la répartition de ces sommes, le champ d'action est restreint et doit se passer
+                entre le Ministre des Pensions et la Présidence du Conseil si c'est nécessaire.</p>
+              <p>Nous avons été reçus par le Ministre des Pensions à son retour d'un voyage en
+                Orient, nous avons vu M. Valière, Président de la Commission des Finances, puis M.
+                Thomas, rapporteur du budget des Pensions à la Commission des Finances. Celui-ci
+                nous a dit ceci : «Cette question ne viendra pas forcément en même temps que la
+                discussion du budget des Pensions, le rajustement est une autre chose, cela fera
+                l'objet d'un projet de loi spécial ; ne vous alarmez pas si le budget des Pensions
+                passe avant. »Dans cette discussion, il ne s'est pas prononcé beaucoup, il a pris
+                acte de nos revendications; nous lui avons exposé le problème, il l'a inscrit.</p>
+              <p>En l'absence du Président du Conseil, nous avons eu une audience avec M. William
+                Bertrand, à la Présidence du Conseil; il nous a confirmé les dispositions du
+                Président. Les choses en sont restées là.</p>
+              <p>Nous avons été reçus ensuite par le Ministre des Pensions qui nous a confirmé
+                quelque chose qu'on savait déjà. Il nous a dit : «Il <pb n="42"/>
+                <note type="foliation">— 8 —</note> y a la doctrine des grands mutilés, à laquelle
+                s'oppose ou s'adjoint une autre doctrine, celle de la Confédération; je ne peux pas
+                m'écarter de la doctrine confédérale ».</p>
+              <p>Nous avons eu l'occasion, les jours suivants, de constater que la Confédération
+                avait incontestablement marqué des points auprès du Gouvernement.</p>
+              <p>Nous en avons discuté, nous avons suivi les choses de très près et avons dit : « Il
+                faut tenir compte de cet état de choses, il faut s'entendre avec la Confédération
+                ».</p>
+              <p>La Commission des revendications matérielles a été réunie, nous nous sommes
+                entretenus des problèmes qui nous intéressent. Nous étions les seuls parmi les
+                grands mutilés à être présents. A la Commission des revendications matérielles, le
+                principe de rajustement sur un pourcentage commun uniforme, s'appliquant aussi bien
+                aux allocations qu'aux pensions a été adopté à l'unanimité. A ceci, j'ai fait les
+                réserves suivantes : j'ai dit qu'évidemment, c'était une solution idéale, à laquelle
+                nous devions nous rallier, sous cette réserve que le Gouvernement, mettant à la
+                disposition des anciens combattants, des sommes suffisantes, nous obtenions un
+                pourcentage élevé ou suffisant pour tous. Si ce pourcentage s'établit à un taux de
+                3,4 ou 5%, nous disons que c'est insuffisant pour nous et nous demandons à la
+                Confédération de faire une exception et de nous laisser le bénéfice d'un pourcentage
+                plus élevé en ce qui concerne nos allocations.</p>
+              <p>Le Comité d'Entente avait demandé une somme fixe pour tous les mutilés de 85 à 95%,
+                puis une autre somme fixe pour les 95% et au delà, sans tenir compte des catégories
+                existantes. Il n'y avait rien, par exemple, de particulier pour l'article 10. Ce
+                projet coûtait extrêmement cher, il nécessitait 400 millions. Avec le système du
+                pourcentage en admettant une seconde qu'on obtienne un pourcentage élevé, nous
+                arrivons à des résultats sensiblement équivalents, mais l'ensemble du crédit
+                passerait de 400 millions à 100 millions, cela deviendrait donc beaucoup plus
+                réalisable. Le Comité d'Entente en a discuté et finalement s'est rallié au système
+                du pourcentage. Je trouve que c'est appréciable, car, avec le système ancien, on
+                était certains d'avoir la Confédération contre nous.</p>
+              <pb n="43"/>
+              <note type="foliation">— 9 —</note>
+              <p>La Confédération, vous l'avez peut-être vu dans les journaux, a été reçue par la
+                Commision des Pensions et a demandé officiellement le rajustement sur la base de 10%
+                pour toutes les pensions et allocations, cela ferait pour nous 3.300 fr ., point de
+                départ. Nous ne savons pas, à l'heure actuelle, si nous en arriverons là.</p>
+              <p>Jeudi dernier, des camarades qui se trouvaient ici, ont entendu le représentant du
+                Ministre des Pensions, M. Houdry, sous-chef de cabinet, qui avait été délégué par le
+                Ministre à la réunion du Comité d'Entente. M. Houdry nous a annoncé que le Ministre
+                des Pensions se ralliait, malgré tout, à une distinction à faire entre les
+                allocations et les pensions. C'est important et cela prouve que le Président du
+                Conseil ne nous a pas lâchés non plus.</p>
+              <p>Il faut s'entendre avec la Confédération; dans le cas où elle n'obtiendrait pas les
+                crédits nécessaires, il faudrait lui demander de faire quelque chose pour nous. Je
+                crois que la discussion ne viendra pas devant les Chambres avant trois semaines;
+                d'ici là, les questions peuvent évoluer.</p>
+              <p>Roy G. - N'avait-il pas été dit que la question viendrait avant?</p>
+              <p>Bardoux. - Dans un journal, on parlait de 45 millions pour les Grands
+                Invalides.</p>
+              <p>Conan. - A l'Union, nous avons fait tout notre possible pour défendre notre point
+                de vue et pour conquérir les positions et points d'appui nécessaires dans cette
+                discussion. Cela nous a conduit à un système de propagande ; nous avons voulu avoir
+                les meilleures relations de tous côtés, avec la Confédération, avec les Associations
+                puissantes dans la Confédération, auprès des Ministres. C'est pourquoi nous avons
+                reçu à l'Union, successivement, le Bureau de l'Union Fédérale et aujourd'hui,
+                Cassin, qui n'était pas présent l'autre fois. Avec Cassin, d'autres personnalités
+                devaient venir, entr'autres M. Rogé, représentant des anciens combattants au Sénat;
+                elles n'ont malheureusement pas été disponibles.</p>
+              <pb n="44"/>
+              <note type="foliation">— 10 —</note>
+              <p>Les camarades qui se trouvaient présents lorsque le Comité d'Entente était là ont
+                pu entendre l'exposé fait par Régnier. Il a dit que le Comité d'Entente réclamait un
+                pourcentage de 30% pour le rajustement de nos allocations; ceci a fait quelque bruit
+                dans la presse, paraît-il.</p>
+              <p>Favret. - Je viens d'écouter l'exposé clair que nous a fait notre camarade Conan.
+                Je désirerais cependant quelques précisions sur certains points : il existe à la
+                Confédération Nationale une Commission des revendications matérielles. Depuis
+                quelque temps s'est constitué, à côté, un Comité d'Entente des Grands Invalides. Je
+                suis très étonné d'apprendre que l'Union était seule représentée, lors d'une séance
+                de la Commission des Revendications, pourtant, le Comité d'Entente devait prendre
+                position en accord avec l'Union, et je désirerais savoir s'il avait mandaté notre
+                camarade Conan pour le représenter à cette réunion où il se trouvait seul.</p>
+              <p>Conan. - Nous n'avons pas, à cette Commission, à être mandatés par les autres,
+                parce que chaque Association a son représentant.</p>
+              <p>Favret. - N'oublions pas que la Confédération est un groupement très puissant. Si,
+                d'autre part, il a été créé un Comité d'Entente, c'est pour que les Associations se
+                mettent bien d'accord, et je m'étonne que le Comité d'Entente se soit permis de
+                lancer ce chiffre de 30%. Ce n'est pas en agissant ainsi qu'on arrivera à convaincre
+                les Pouvoirs Publics, je n'ai pas de conseil à vous donner, j'ai entière confiance,
+                mais tout de même, il serait bon de rappeler à certains membres du Comité d'Entente
+                que, puisqu'il a été créé un Comité, il doit y avoir une discipline. On ne doit pas
+                lancer un chiffre de 30% sans qu'il y ait eu accord préalable entre les Associations
+                constituant le Comité d'Entente.</p>
+              <p>Courteix. - Je suis au grand regret de ne pas être de l'avis du camarade Favret. Je
+                ne suis pas un partisan du Comité d'Entente, <pb n="45"/>
+                <note type="foliation">— 11 —</note> mais la vie ayant augmenté de 40%, il ne me
+                paraît pas exagéré de demander un rajustement de 30%, le seul grief à retenir est
+                qu'il n'y ait pas eu accord préalable entre tous les membres du Comité
+                d'Entente.</p>
+              <p>Conan. - Depuis le début, nous avons demandé au Comité d'Entente de chiffrer tout
+                de suite la demande, et jusqu'à la dernière minute, cela n'a pas été fait.</p>
+              <p>Le Comité d'Entente demandait tout d'abord, pour nous, 3.000 fr .; j'ai moi-même
+                demandé que ce chiffre soit porté à 5.000 fr ., finalement, personne n'a voulu
+                prendre de dispositions bien précises. Or, nous sommes partisans d'appliquer un
+                pourcentage, mais on sait très bien que le chiffre de 30%, bien que justifié, n'a
+                aucune chance d'être pris en considération.</p>
+              <p>Grillet. - Puisque vous devez avoir une entente complète, je pense que, depuis
+                jeudi dernier, vous avez eu l'occasion de vous rencontrer et de vous expliquer.</p>
+              <p>Conan. - C'est jeudi prochain que nous nous réunirons. Nous avons eu aujourd'hui
+                des échos de l'effet produit par la déclaration faite au cours de la réception du
+                Comité d'Entente ; cela peut risquer de compromettre les négociations en cours. Il
+                faut partir d'un chiffre raisonnable et ne pas en démordre.</p>
+              <p>Brusson. - Vous nous avez dit, je crois, tout à l'heure, que le réajustement ne
+                viendrait qu'après le vote du budget.</p>
+              <p>Conan. - A vrai dire, on n'est pas très fixé sur le moment de cette discussion,
+                puisque certains prétendent qu'elle doit avoir lieu avant le vote du budget
+                général.</p>
+              <p>Brusson. - Je me permettrai d'attirer votre attention sur un point : vous nous avez
+                fait rentrer à la Confédération en nous assurant que celle-ci était un groupement
+                puissant et que, si nous avions des intérêts à défendre, nous nous ferions plus
+                facilement entendre au sein de la Commission des revendications matérielles.</p>
+              <pb n="46"/>
+              <note type="foliation">— 12 —</note>
+              <p>J'espère que la Confédération nous défendra. J'avais personnellement quelques
+                appréhensions et craignais qu'elle ne puisse nous défendre comme nous le désirions.
+                A côté de cela, vous avez créé un Comité d'Entente et, aujourd'hui, les événements
+                vous démontrent qu'on y lance des chiffres sur lesquels vous ne vous êtes pas mis
+                d'accord.</p>
+              <p>Il y a dix ans, j'avais déposé sur votre Bureau un vœu en faveur des veuves de nos
+                camarades. Ne croyez-vous pas que le moment est venu d'en saisir la Commission des
+                revendications matérielles de la Confédération?</p>
+              <p>Evrat. - Le 31 octobre, il y a eu un grand meeting ; j'ai reçu une convocation de
+                la Fédération des Trépanés, d'autres camarades en ont eu de la Fédération des
+                Amputés, mais je n'ai pas été avisé par l'U.A.G. Je me demande si vous étiez
+                d'accord pour l'organisation de cette manifestation?</p>
+              <p>Conan. - Les Amputés ont pris sur eux de faire un meeting dans la salle du Petit
+                Journal. Ils nous ont invités à y assister ; cela a peut-être été fait un peu vite.
+                Ils avaient également une autre raison parce qu'il y avait une dissidence dans leur
+                Groupement. Ils nous ont dit « vous nous ferez plaisir en venant», mais nous n'avons
+                jamais été chargés, ni nous ni d'autres Associations, de faire appel à nos
+                adhérents.</p>
+              <p>Evrat. - Est-ce que l'Union des Aveugles de Guerre était représentée?</p>
+              <p>Amblard. - Non, je n'ai pas pu m'y rendre. En qualité de militant, par politesse,
+                j'y serais allé, mais il était difficile de mêler notre Groupement à une question
+                dont nous n'avions pas été prévenus.</p>
+              <p>Lagarde. - Une chose à peu près certaine, c'est que la Confédération Nationale
+                demande un réajustement général des pensions et allocations à 10%. Or, je crois
+                qu'on n'obtiendra pas ce pourcentage, puisqu'un crédit de 400 millions est prévu par
+                le Gouvernement pour un budget de 7 milliards, ce qui représente seulement un peu
+                plus de <pb n="47"/>
+                <note type="foliation">— 13 —</note> 5%. Nous sommes donc très loin des 30%. Un
+                réajustement à 5% représente pour nous une augmentation de 1.650 fr . Je dis que nos
+                dirigeants, en particulier Conan et Amblard, doivent tenir compte de ce fait. Je
+                crois que l'ensemble des allocations aux grands invalides figure dans le budget pour
+                570 millions; si nous obtenions 10% pour tout le monde, cela serait très bien, mais
+                j'en doute.</p>
+              <p>Ne pourrait-on essayer d'obtenir un pourcentage spécial sur ces 570 millions, ce
+                qui ferait, à 20%, par exemple, un crédit de 114 millions. Si la Confédération
+                voulait marcher sur ces bases et prétendre à un réajustement global de 30%, cela
+                entraînerait à une demande de crédit supplémentaire dépassant 2 milliards. Je ne
+                vous donne pas d'ordre formel, nous sommes en train d'étudier la question, je vous
+                fais des suggestions.</p>
+              <p>Conan. - Nous avons appuyé sur le système du pourcentage qui est plus équitable.
+                Nous avons l'impression, Amblard et moi, que le Gouvernement ménagera les
+                allocations des grands invalides. En cas de conflit, le Président du Conseil
+                arbitrerait.</p>
+              <p>La Confédération demande 700 millions, ou plutôt, elle ne réclame qu'un supplément
+                de 400 millions au budget et 300 millions par emprunt à la Caisse des Pensions. Il
+                n'est pas dit que cela ne passera pas à la Chambre.</p>
+              <p>Le Gouvernement n'est pas très partisan du réajustement de la retraite du
+                combattant ; il trouve que cela ne jouerait pas d'une façon efficace et le Sénat, de
+                son côté, est nettement hostile en ce qui concerne le réajustement automatique de la
+                retraite du combattant et des petites pensions.</p>
+              <p>Lagarde. - Je voudrais dire un mot sur la question de la retraite du combattant. Au
+                cours de deux réunions ayant eu lieu dans mon département, j'ai fait adopter un vœu
+                tendant à ce que les pensions de retraite de 500 fr . et 1.200 fr . ne soient pas
+                augmentées, vu la faible importance de cette augmentation. Parmi ceux qui ont fait
+                la <pb n="48"/>
+                <note type="foliation">— 14 —</note> guerre, il n'y a pas beaucoup de capitalistes,
+                la majorité est surtout représentée par des ouvriers, il n'y a pas tellement de
+                carrières libérales. A mon avis, il n'y a pas beaucoup d'anciens combattants âgés de
+                plus de 60 ans, et quels sont ceux qui auraient le plus besoin de la retraite? Ce
+                sont les plus vieux. Ce n'est pas quand il a 60 ans que l'ouvrier gagne le plus; le
+                patron utilisera plutôt un homme de trente ans qu'un de soixante. On pourrait, à mon
+                sens, émettre un vœu prévoyant trois "échelons : de 50 à 55 ans, la retraite
+                resterait à 500 fr ., sans majoration ; de 55 à 60 ans, à 1.200 fr . sans majoration
+                ; les crédits non affectés pourraient servir à porter à 1.800 fr . la retraite de
+                ceux qui ont plus de 60 ans.</p>
+              <p>La Confédération, en demandant le réajustement pour tous, procure un avantage bien
+                minime pour certains, tels les bénéficiaires de la retraite du combattant, qui
+                toucheraient 10% sur 500 fr ., soit 50 fr .</p>
+              <p>Conan. - La retraite du combattant est inscrite au prochain budget pour 1.750
+                millions, avec un réajustement de 10%. Cela coûterait 175 millions et, cependant,
+                chacun des bénéficiaires toucherait peu de chose.</p>
+              <p>Malgat. - D'après la Confédération, tous les mutilés doivent bénéficier d'un
+                réajustement égal. Parmi eux, certains sont fonctionnaires et bénéficient déjà
+                d'emplois réservés. Il s'agit de savoir s'ils pourront cumuler les deux
+                réajustements.</p>
+              <p>Conan. - Cela regarde le Gouvernement qui s'en rend parfaitement compte.</p>
+              <p>Nicolai. - Je reviens sur la proposition faite par Lagarde, non pas en ce qui
+                concerne la retraite du combattant, mais sur les allocations. Vous aurez à en
+                discuter avec le Comité d'Entente et la Confédération. Il serait peut-être bon,
+                s'ils voulaient s'entêter à rester sur le 10% ou sur un régime commun, de céder un
+                certain pourcentage sur les pensions et de se montrer intransigeants pour
+                l'allocation: adjoindre au pourcentage accordé pour l'allocation le pourcentage qui
+                serait diminué sur la pension.</p>
+              <pb n="49"/>
+              <note type="foliation">— 15 —</note>
+              <p>Conan. - Si on obtient 5% de réajustement, ce sera sur l'ensemble de nos pensions
+                et allocations.</p>
+              <p>Nicolai. - C'est justement ce que je ne voudrais pas. Si la Confédération
+                acceptait, par exemple, un réajustement de 7%, nous pourrions suggérer d'abandonner
+                3% sur la pension principale et de nous accorder 13% sur les allocations.</p>
+              <p>Conan. - Au point de vue pratique, cela, on ne l'obtiendra pas, d'autant plus que,
+                dans ce cas, cela ne ferait pas, pour le Trésor, une grosse récupération sur nos
+                pensions.</p>
+              <p>Nicolai. - Si, au lieu d'accorder 10% sur l'ensemble des pensions, ils donnaient
+                par exemple 7 ou 6%, cela serait une très forte récupération. Ce que nous
+                abandonnerions sur nos pensions, reporté sur l'allocation, ce serait 40 millions à
+                ajouter au bénéfice des allocations, ce serait très peu pour le Gouvernement. Je
+                prends, par exemple, le chiffre de 4% que vous pourriez abandonner sur notre pension
+                principale, en demandant qu'il soit reporté en bénéfice sur les allocations
+                rajustées alors à 14%. Maintien, de ce fait, de la catégorisation en n'affectant pas
+                le crédit.</p>
+              <p>Conan. - Je crois qu'il faut donner une certaine satisfaction à la Confédération;
+                il faut accepter le principe du réajustement général, avec cette exception que, du
+                moment que le taux est insuffisant pour nous, on augmente le taux relativement à
+                l'allocation.</p>
+              <p>Supposons, par exemple, que la Confédération demande 15% de réajustement général;
+                le Gouvernement n'accepte de ne donner que 7%; ce réajustement serait valable pour
+                notre pension et nous demanderions que les 15% soient maintenus pour nos
+                allocations.</p>
+              <p>Nicolai. - Je demande que, sur l'allocation, vous soyez fermes, que vous ne
+                descendiez pas.</p>
+              <p>Cere. - Ceci pourrait peut-être se réaliser sur l'allocation. Vous vous souvenez
+                certainement, au Gouvernement Poincaré, lorsque <pb n="50"/>
+                <note type="foliation">— 16 —</note> Chéron était aux Finances, la Confédération
+                demandait une augmentation de 1,32 sur nos pensions et Scapini, à ce moment-là,
+                avait fait obtenir le rajustement à 2%, ce qui avait fait 5.000 fr . pour les
+                article 10. Il y a des précédents, cela s'est fait, ce n'est pas une innovation.</p>
+              <p>Conan. - Il ne faut pas se désintéresser complètement, non plus, du sort des autres
+                et il nous faut l'appui de la Confédération. Celle-ci a tout de même marqué des
+                points avec le Ministre des Pensions. Le Ministre est bien disposé à faire un régime
+                de faveur pour nous, il ne faut pas l'indisposer. Il y a la question du statut qui
+                se greffe. Le Gouvernement a porté la somme globale de 300 à 400 millions, non
+                compris le statut. Je crois qu'il réalisera le statut d'un seul coup, en entier.
+                J'ai demandé à M. Houdry si le Gouvernement accepterait le projet élaboré par la
+                Commission interministérielle ; il a dit : «Ce n'est pas tout à fait ce projet,
+                cependant il s'en rapproche beaucoup ». En ce qui nous concerne, nous, il n'y aurait
+                pas de trop gros écarts. Ce projet sera discuté en dehors du réajustement et avant ;
+                par conséquent, cela n'émarge pas sur les 400 millions qui nous sont donnés. Or,
+                dans toutes nos démarches avec le Comité d'Entente, on a soutenu le statut. Nous
+                avons relancé la Confédération le jour où nous étions seuls à la Commission des
+                Revendications matérielles. Elle nous a appuyés et, quand le Président du Conseil a
+                dit : «J'accepte l'extension du statut », il en a fait part à la Confédération qui
+                nous en a informés. Vous voyez qu'il ne faut pas négliger la Confédération.</p>
+              <p>Dans l'extension du statut, il y a trois amendements, dont un nous regarde; il
+                n'intéresse qu'une dizaine de camarades ici, c'est l'article 69 qui n'est pas trop
+                solide, la Confédération le soutiendra. Cela donne à réfléchir.</p>
+              <p>IzaAc. - Je crois que nous devons voir Bloncourt prochainement pour un petit
+                supplément concernant quelques camarades ne ressortissant pas de l'article 69.</p>
+              <p>Conan. - Bloncourt a déjà reçu les renseignements, il se tient en contact étroit
+                avec nous; du reste, il fait partie de la Commission des Pensions de la Chambre.</p>
+              <pb n="51"/>
+              <note type="foliation">— 17 —</note>
+              <p>Grillet. - Je pense qu'il est bien entendu que, dans l'augmentation des
+                allocations, le statut est compris, parce qu'à un moment, on avait parlé de
+                dotation.</p>
+              <p>Conan. - Les camarades qui bénéficieront de cette extention bénéficieront
+                automatiquement du réajustement.</p>
+              <p>Amblard. - Le statut ne s'appelle pas dotation.</p>
+              <p>Grillet. - Il faut bien s'entendre, il faut que le pourcentage porte sur tout
+                l'ensemble de la pension, y compris le statut.</p>
+              <p>Conan. - Nous avons fait valoir que le prix de la vie avait changé depuis 1935,
+                époque où on avait établi pour nous un classement social dans le Pays.</p>
+              <p>Brusson. - La Commission des Finances de la Chambre ayant examiné et voté le
+                budget, a-t-elle prévu dans son vote les crédits nécessaires au statut?</p>
+              <p>Conan. - Le statut est un nouveau projet de loi.</p>
+              <p>Brusson. - Viendra-t-il en discussion au moment de la loi de finances?</p>
+              <p>Conan. - On nous dit qu'il serait discuté avant le budget. A propos du statut, vous
+                savez qu'un certain nombre de camarades qui n'en bénéficiaient pas ont constitué un
+                Groupement dont Béda est à la tête. Or, ce Groupement s'est mis en action de son
+                côté pour essayer d'obtenir du Gouvernement l'extension du statut. J'ai reçu, un
+                soir, un coup de téléphone de Béda, au cours duquel il m'a dit qu'il avait écrit au
+                Président de la République, au Ministre des Pensions, à un certain nombre de
+                personnalités, à la Presse. Je lui ai demandé de me communiquer le texte de ces
+                lettres, mais il ne l'a pas fait. Or, quelques jours après, il me demandait de
+                l'accompagner à une audience qu'il avait sollicitée du Président du Conseil et qu'il
+                n'a, du reste, pas obtenue. J'ai répondu qu'il ne m'était pas possible d'accompagner
+                un Groupement qui n'était pas l'U.A.G. elle-même, que nous avions suffisam- <pb
+                  n="52" break="no"/>
+                <note type="foliation">— 18 —</note> ment conscience de prendre en mains les
+                intérêts des exclus et j'ai fait remarquer à Béda qu'il aurait dû nous mettre au
+                courant de ses intentions. Je dois dire que c'est à l'Union qu'il a envoyé des
+                circulaires et réuni des camarades ; nous pensons, au Bureau, que tant que des
+                camarades auront ces façons d'agir, nous ne pouvons être solidaires de leurs
+                démarches.</p>
+              <p>Au sujet du Comité d'Entente et de nos relations générales d'anciens combattants,
+                nous avons demandé à la Confédération de nous accorder un siège permanent à son
+                Conseil. Nos camarades du Comité d'Entente ont approuvé notre demande. Nous sommes
+                allés trouver le Bureau de la Confédération, Rivollet nous a reçus et a accepté de
+                défendre notre cause. Depuis, il nous a fait savoir que le Bureau de la
+                Confédération acceptait à l'unanimité notre demande et la présentait à sa Commission
+                plénière. Pour obtenir ceci, il est juste de dire que nous avons eu des influences
+                favorables. Je vous ai dit que nous avions reçu le Bureau de l'U.F.; nous avons reçu
+                également celui du Comité d'Entente. La première invitation était faite par l'Union,
+                celle du Comité d'Entente n'avait pas le même caractère, c'est ce Comité qui avait
+                pris l'initiative de lancer des invitations. Nous avons pensé qu'il était bon de
+                leur proposer le restaurant de notre Maison et le repas a eu lieu dans notre salle à
+                manger.</p>
+              <p>Brusson. - Vous nous avez fait part, tout à l'heure de certains faits qui se sont
+                passés ici. J'ai en effet appris que des camarades s'étaient réunis dans la Maison
+                pour taper des lettres à la machine et les avaient envoyées à certaines
+                personnalités. Je trouve tout naturel que des camarades fassent tous leurs efforts
+                pour obtenir le statut, mais j'estime qu'il devraient au moins tenir le Bureau au
+                courant. Du moment qu'ils agissent ainsi, c'est qu'ils n'ont pas confiance en
+                nous.</p>
+              <p>L'Evesque. - L'ordre du jour appelle maintenant la fixation de la date de notre
+                prochaine Assemblée Générale. Cabasson, Derunder et Fauvel nous ont écrit qu'ils
+                acceptaient la date proposée du 8 mai.</p>
+              <p>Amblard. - Pâques se trouve, cette année, le 17 avril; l'Assemblée Générale devant
+                avoir lieu en mai, le 1<hi rend="superscript">er</hi> mai est un dimanche, aussi
+                nous avons pensé vous proposer le dimanche suivant : 8 mai.</p>
+              <pb n="53"/>
+              <note type="foliation">— 19 —</note>
+              <p>Conan. - Je mets aux voix la date du 8 mai. Qui vote contre? Personne. Abstentions?
+                Personne. Adopté à l'unanimité.</p>
+              <p>L'Evesque. - Je vais à présent vous donner lecture des avis des administrateurs de
+                Province, relativement à la question de l'allocation à attribuer à nos veuves :</p>
+              <p>Cabasson. - Je me rallierais volontiers à la deuxième proposition, vœu Chalendar,
+                amendé par le Bureau, cette solution me paraissant plus équitable ; cependant, je
+                crains fort que l'idée, parfaite en soi, ne rallie qu'un nombre infime de
+                participants et ne charge notre organisme d'un surcroit de travail.</p>
+              <p>J'aimerais donc, si cette solution était adoptée par le Conseil, que, préalablement
+                à toute mise en train de ce nouveau service, une enquête soit faite par la voie de
+                notre bulletin, pour connaître aussi exactement que possible, le nombre éventuel des
+                participants et, si le quorum ne pouvait être atteint, nous adopterions alors la
+                dernière solution proposée par le Bureau. Il serait nécessaire, dans ce dernier cas,
+                de connaître si la caisse de l'Union pourrait faire face à ce surcroît de
+                dépenses.</p>
+              <p>Fauvel. - Allocations aux veuves : d'accord avec la proposition du Bureau.</p>
+              <p>Derunder. - Cette question très intéressante méritant une étude approfondie et ne
+                pouvant être résolue en une séance, je fais confiance en la sagesse de notre
+                Conseil.</p>
+              <p>Conan. - Je passe la parole à Guillam qui est rapporteur de la question.</p>
+              <p>Guillam. - La première solution est exactement ce qu'avait demandé Chalendar; la
+                deuxième permettrait de réaliser avec un peu plus de justice le vœu de la Régionale
+                du Gers. En examinant celle-ci, le <pb n="54"/>
+                <note type="foliation">— 20 —</note> Bureau a pensé qu'en mettant les choses au
+                mieux, on pourrait verser à la veuve, au décès de chaque adhérent, une somme de 250
+                fr . De plus, nous avions à étudier un vœu de l'Assemblée Générale envisageant le
+                doublement de l'allocation de 50 francs versée à la veuve par année de présence à
+                l'Union du membre titulaire décédé. Nous sommes d'avis que la situation financière
+                de l'Union permet de proposer la réalisation de ce vœu pour la prochaine Assemblée
+                Générale. Le maximum de cette allocation, qui pouvait atteindre 1.000 fr ., se
+                trouverait ainsi portée à 2.000 fr . Outre cette mesure, et tenant compte des
+                difficultés actuelles de la vie, le Bureau vous propose d'accorder à la veuve une
+                allocation exceptionnelle, une fois versée, de 500 francs, et ce, pour une période
+                de trois ans à dater de la prochaine Assemblée Générale. En supposant une soixante
+                de décès par an pendant cette période, la dépense à envisager serait de 9.000
+                francs.</p>
+              <p>On disait tout à l'heure que la question des veuves était celle qui nous
+                préoccupait le plus. Au décès d'un camarade, l'Union verse actuellement environ
+                5.000 fr .; nous proposons, en somme, de verser, en plus de cette allocation, 1.000
+                fr . un an après le décès du camarade et l'année suivante, une dernière fois 500
+                francs.</p>
+              <p>Conan. - Notre camarade Chalendar est là, parmi nous. Comme il avait été l'auteur
+                de cette proposition, êtes-vous d'avis de lui donner la parole?</p>
+              <p>Auparavant, je dois dire qu'il y a un mouvement nouveau en faveur des veuves. La
+                Commission qui s'occupe de cette question au sein de la Confédération, fait preuve
+                d'une certaine activité. Nous avons demandé qu'un représentant de l'Union puisse
+                participer à ses travaux.</p>
+              <p>Chalendar. - Les propositions du Bureau de l'Union ne correspondent pas au but
+                recherché par le vœu de notre Régionale. Nous visions surtout une aide immédiate,
+                car, au moment du décès de son mari, la veuve se trouve dans un passage critique,
+                tant au point de <pb n="55"/>
+                <note type="foliation">— 21 —</note> vue moral que matériel. Elle doit envisager les
+                droits de succession au moment même où la maladie a entraîné des frais élevés. Si
+                elle n'a pas d'argent, elle est obligée de vendre des titres, etc...</p>
+              <p>Guillam. - L'Union fait déjà un gros effort, puisqu'au décès d'un camarade, sa
+                veuve reçoit 5.000 fr . environ.</p>
+              <p>Chalendar. - Le geste fait par l'Union est très bien, mais je voudrais demander aux
+                camarades de faire un geste correspondant. Nous sommes 2.000 adhérents ; si chacun
+                versait 5 fr . au décès d'un camarade, actuellement, sa veuve toucherait 10.000 fr .
+                de plus.</p>
+              <p>Courteix. - Mais, que toucherait alors la veuve du dernier camarade?</p>
+              <p>Chalendar. - Au lieu de verser la totalité des cotisations reçues, l'Union pourrait
+                verser 4 fr . et prélever 1 fr . sur chaque cotisation pour constituer un fonds de
+                réserve. On n'aurait qu'à ajouter la différence pour que chaque veuve reçoive une
+                somme égale. On peut remarquer, d'autre part, que les deniers de l'Union n'ont
+                jamais diminué depuis vingt ans qu'elle existe, bien au contraire.</p>
+              <p>Evrat. - Maintenant, les projets que nous allons étudier n'empêcheront pas de
+                poursuivre l'examen d'une proposition que doit nous faire une Compagnie
+                d'assurances; celle-ci permettrait d'assurer nos camarades, quel que soit leur âge
+                et leur blessure, moyennant le versement d'une prime immédiate. En ce qui concerne
+                le vœu Chalendar, je le repousse pour ma part, car les camarades jeunes verseraient
+                pendant dix, quinze ou vingt ans. Tous les ans, il y a une moyenne de 45 à 50
+                camarades qui décèdent et les veuves des derniers camarades ne toucheraient rien à
+                leur décès.</p>
+              <p>Amblard. - J'ai, en effet, reçu quelqu'un de la part de notre camarade Evrat, au
+                sujet d'une proposition d'assurances en faveur des membres de notre Union. Je l'ai
+                aussitôt adressée à nos camarades <pb n="56"/>
+                <note type="foliation">— 22 —</note> Lauté et L'Evesque pour étude. Je tiens donc à
+                rassurer Evrat.; même si nous votons quelque chose aujourd'hui, cela ne nous
+                empêchera pas d'étudier son affaire et de la présenter ensuite au Conseil
+                d'Administration.</p>
+              <p>Malgat. - Le vœu Chalendar est louable au point de vue philantropique, mais
+                irréalisable, car le nombre des décès ira tous les ans en augmentant; ceci
+                obligerait nos camarades à verser une cotisation volontaire d'au moins 200 fr. par
+                an, ce que la moitié des membres de l'U.A.G ne ferait probablement pas. Je me rallie
+                donc à la proposition du Bureau.</p>
+              <p>Bardoux. - Si, en plus de notre action collective, nous demandons une aide
+                individuelle au moment du décès d'un de nos camarades, j'estime que cela n'engagera
+                pas le Gouvernement à faire son devoir vis à vis de nos veuves qui, depuis vingt
+                ans, n'ont pas été l'objet d'une grande sollicitude de sa part. Du côté travail
+                administratif, l'adoption du vœu nécessiterait une comptabilité spéciale et je
+                trouve que nos Bureaux ont assez à faire comme cela. Certains camarades accepteront
+                de verser une cotisation, mais paieront trois fois sur quatre, et d'autres
+                oublieront complètement. Si donc cette question pouvait être réglée au moyen d'une
+                assurance, cela me semblerait plus logique.</p>
+              <p>Evrat. - Ne pourrait-on créer une caisse de solidarité ? Nous pourrions organiser
+                des fêtes dans notre Maison, avec des entrées payantes, et les sommes ainsi
+                recueillies seraient versées aux veuves.</p>
+              <p>Bardoux. - Si nous voulons créer une caisse de solidarité, il faut demander à
+                l'Assemblée Générale le versement d'une cotisation supplémentaire.</p>
+              <p>Laute. - Le projet exposé par Guillam présente un certain point de ralliement avec
+                l'idée manifestée par Chalendar. Vous prévoyez un versement pour les veuves de 2.250
+                fr. par 1.000 camarades adhérents à votre caisse spéciale. Il y a un inconvénient,
+                c'est que celui qui décé- <pb n="57" break="no"/>
+                <note type="foliation">— 23 —</note> dera tardivement pourra avoir effectivement
+                versé cette somme à la Caisse d'entr'aide de l'Union. On pourrait d'ailleurs décider
+                qu'à partir du moment où un camarade aurait versé 2.250 fr . de cotisations, il
+                n'aurait plus à faire d'autres versements de 5 fr ., la différence étant supportée
+                par l'Union.</p>
+              <p>Il y a la question des intérêts; le fonds de réserve porterait intérêts composés et
+                pourrait venir en compensation de la charge que prendrait l'Union à partir du moment
+                où le camarade aurait versé 2.250 fr . Mais on peut objecter que la veuve d'un
+                camarade qui aura versé pendant vingt ans ne profitera que d'un capital de 2.250 fr
+                ; or, 250 fr de versements annuels effectués dans certaines Compagnies d'Assurances
+                pourraient rapporter un capital aliéné d'environ 9.000 fr . Il y a donc une sérieuse
+                nuance entre le capital de 2.250 fr . proposé et celui de 9.000 fr . pouvant
+                résulter de versements identiques.</p>
+              <p>Brusson. - C'est avec plaisir que j'ai entendu tout à l'heure notre camarade
+                Guillam dire qu'on nous présenterait un nouveau projet de l'Union, tendant à
+                favoriser davantage les veuves de nos camarades.</p>
+              <p>Je suis, certes, très heureux, mais quoi que puisse faire l'U.A.G., je reste
+                persuadé que cela ne vaudra jamais un relèvement de 1.000 fr ., par exemple, de la
+                pension que l'Etat sert aux veuves. Or, l'occasion se présente justement pour nous
+                dans le réajustement actuel des pensions : puisque nous faisons partie de la
+                Commission des Revendications matérielles de Confédération, ne pourrait-on demander,
+                cette année, une mesure toute spéciale en faveur des veuves, même si notre propre
+                réajustement devait en subir les conséquences?</p>
+              <p>Conan. - Noûs étions prêts à nous rallier à tout projet quii, dans le réajustement,
+                favoriserait les veuves, mais nous ne pouvons le faire seuls. Il ne faut pas oublier
+                que le budget des veuves est de plus d'un milliard et demi ; pour l'améliorer tant
+                soit peu, il faudrait des crédits très importants, c'est là la difficulté. Les
+                camarades ne connaissent pas la répartition du budget ; j'ai appris qu'il était de
+                1.600 millions pour les veuves, alors que nous, nous n'émargeons que pour 570
+                millions.</p>
+              <p>Brusson. - Le Gouvernement est bien disposé à faire vis-à-vis de nous, grands
+                mutilés, une certaine différence !... Si la Confédération <pb n="58"/>
+                <note type="foliation">— 24 —</note> était d'accord avec nous, pourquoi le
+                Gouvernement ne consentirait-il pas à faire aussi une différence pour nos
+                veuves?</p>
+              <p>Conan. - En réalité, la question des veuves pourrait se diviser en deux parties :
+                  1<hi rend="superscript">°</hi> le réajustement des pensions, comme pour tout le
+                monde; 2<hi rend="superscript">°</hi> une augmentation tout à fait spéciale en leur
+                faveur.</p>
+              <p>IzaAc. - L'Assemblée Générale dernière nous a chargés de répandre cette idée de
+                favoriser plus spécialement nos veuves, qui n'ont pu bénéficier d'emplois réservés
+                et sont, de ce fait, dans une situation défavorable par rapport aux autres
+                veuves.</p>
+              <p>Evidemment, pour nous, un tel point de vue nous semble très normal, mais il est
+                bien difficile de le faire comprendre à l'extérieur. Pour moi, j'ai combattu, dans
+                certaines Associations, l'idée d'augmenter également la pension des ascendants. Je
+                trouve équitable qu'on augmente les veuves qui, en perdant leur mari, perdent
+                également leur gagne-pain, surtout lorsqu'elles arrivent à un certain âge.
+                L'ascendant lui, en principe, doit vivre par lui-même; il n'a pas à recourir à ses
+                enfants quand il est vieux. C'est sur les veuves, je crois, que tout l'effort doit
+                être porté. L'idée est en marche, j'avais indiqué qu'au moment du réajustement on
+                pourrait en parler.</p>
+              <p>Brusson. - Qui ne risque rien n'a rien ; nous avons bien lutté pour nous-mêmes,
+                pourquoi ne lutterions-nous pas pour nos compagnes?</p>
+              <p>IzaAc. - Personnellement, je n'y vois pas d'inconvénient, mais il faut laisser à
+                notre Président et à notre Secrétaire Général le soin d'en parler le moment
+                opportun.</p>
+              <p>Bois. - En ce qui concerne le projet Chalendar, il ne faut pas oublier que nous
+                avons eu parfois des difficultés à recouvrer des sommes qui nous sont dûes; je crois
+                que ces mêmes difficultés pourraient se présenter lorsqu'il s'agirait du
+                recouvrement des cotisations devant alimenter la caisse des veuves au décès de nos
+                camarades. Chalendar <pb n="59"/>
+                <note type="foliation">— 25 —</note> a eu une très bonne idée, je l'en félicite,
+                mais je demanderais au Conseil, après les paroles d'Amblard et de Lauté, de faire
+                confiance à nos camarades du Bureau.</p>
+              <p>Nous avons la bonne fortune d'avoir des techniciens en la matière, qu'ils nous
+                présentent un projet que nous pourrons étudier.</p>
+              <p>Amblard. - Il serait bon d'indiquer à nos camarades les raisons qui ont amené le
+                Bureau à leur soumettre ce projet. En passant, je tiens à faire remarquer que le
+                camarade Evrat s'est occupé de la question avec désintéressement : un de ses amis
+                doit nous envoyer un projet d'assurance qui sera examiné par nos camarades, ici;
+                nous verrons s'il est acceptable. De toute façon, notre projet ne gêne en rien cette
+                proposition toute différente. Nous voudrions, en somme, qu'à compter de l'année
+                prochaine, les veuves de nos camarades, ayant vingt ans de présence, touchent 1.000
+                fr . de plus. Le Bureau vous propose de ne donner ce supplément que l'année suivant
+                le décès du camarade. Ce n'est pas pour ennuyer la veuve, bien au contraire; il se
+                peut que cette veuve, à ce moment-là, dans un mouvement sentimental, soit entraînée
+                à faire des frais un peu conséquents pour les funérailles de son mari et je crois
+                que c'est une garantie pour elle si, au lieu de donner de suite l'augmentation
+                proposée, nous ne la lui donnons qu'un an après. Pendant un an, cette veuve a des
+                droits à l'Union; elle y reste attachée et nous veillons sur elle.</p>
+              <p>La seconde solution part de l'idée qu'ont les camarades de voir la situation des
+                veuves améliorées. Le Bureau s'en est occupé, il désire grandement que leur pension
+                soit notablement augmentée, ce serait plus important que tout le reste.</p>
+              <p>Que pouvons-nous faire pour l'instant? Le Bureau estime qu'actuellement, la veuve
+                la plus méritante est la veuve du moment, non pas que celles qui sont veuves depuis
+                dix ans ne soient pas méritantes, mais celle d'aujourd'hui est une femme de 45 à 50
+                ans qui n'a plus d'espoir de se refaire une nouvelle situation. De plus, son mari
+                avait jusque là une pension relativement réduite; je sais bien qu'avec les <pb
+                  n="60"/>
+                <note type="foliation">— 26 —</note> effets bienfaisants du statut la situation est
+                un peu meilleure maintenant, mais la mort du camarade est quelque chose de terrible
+                dans un foyer où les économies n'ont pas pu se réaliser.</p>
+              <p>Nous demandons également à nos camarades de voter une autre mesure, qui sera
+                applicable pendant trois ans, et qui consisterait à accorder à la veuve, deux ans
+                après le décès de son mari, une autre somme de 500 fr . Si la pension des veuves
+                était augmentée, nous n'aurions plus de raisons, par la suite, de continuer ce
+                dernier versement, à moins que nous ne puissions le faire, ce qui serait de grand
+                cœur. C'est ainsi que, pendant deux ans, l'Union continuerait cette espèce de garde
+                auprès des veuves, et c'est la raison pour laquelle le Bureau vous fait la
+                proposition actuelle.</p>
+              <p>Courteix. - J'accepte volontiers et je souscris de grand cœur à la proposition du
+                Bureau, mais j'aimerais une précision supplémentaire. Si, toutefois, les Pouvoirs
+                Publics n'amélioraient pas les conditions de vie de nos veuves, j'espère que l'Union
+                continuerait à verser les. 2.500 fr. supplémentaires. Il faut prendre des
+                engagements, mais pas à la légère.</p>
+              <p>Conan. - Si le Bureau vous fait cette proposition, c'est qu'il pense que la
+                situation de l'Union le permet actuellement.</p>
+              <p>Amblard. - 500 francs, une fois donnés par l'Union, n'équivalent certes pas aux
+                avantages qu'apporterait un supplément de pension accordé par l'Etat.</p>
+              <p>Courteix. - J'ai cru comprendre que vous verseriez cette allocation de 500 fr .
+                pendant trois ans.</p>
+              <p>Conan. - Après cette période de trois ans, le Conseil jugera des disposibilités de
+                l'Union.</p>
+              <pb n="61"/>
+              <note type="foliation">— 27 —</note>
+              <p>Evrat. - Au cas où la veuve viendrait à décéder aussitôt après son mari, s'il reste
+                des enfants en bas-âge, qui bénéficierait de l'allocation prévue?</p>
+              <p>IzaAc. - C'est la personne désignée sur la fiche de caisse mutuelle.</p>
+              <p>Courteix. - Evrat a raison de poser cette question. Du moment que vous votez
+                quelque chose en faveur des veuves, logiquement, les ayants-droit en sont
+                exclus.</p>
+              <p>Conan. - On pourrait peut-être indiquer dans le texte : «Les veuves ou les
+                orphelins âgés de moins de 21 ans ».</p>
+              <p>Evrat. - Il semble normal que la somme destinée à la veuve doive revenir aux
+                enfants.</p>
+              <p>Brusson. - Puisqu'il y a un projet d'assurance en préparation, je demande à
+                Chalendar de retirer sa proposition.</p>
+              <p>Nicolai. - Qu'on vote sur le projet Chalendar et qu'on ne revienne plus sur cette
+                question.</p>
+              <p>Chalendar. - Je retire mon projet sous réserve d'étude d'assurance, mais que cette
+                assurance prenne l'engagement formel de payer aussitôt le décès et non pas un ou
+                deux ans après. Actuellement, quand il y a contestation entre l'assuré et la
+                Compagnie, pour le certificat de décès ne se rapportant pas au contrat, l'assurance
+                fait des difficultés pour payer.</p>
+              <p>Laute. - Pour éviter toutes difficultés pouvant surgir, il faudrait que notre
+                Groupement soit désigné comme bénéficiaire de l'assurance contractée. De cette
+                façon, l'organisme paierait immédiatement et l'Union se substituerait à la caisse
+                d'assurance en cas de retard.</p>
+              <pb n="62"/>
+              <note type="foliation">— 28 —</note>
+              <p>Chalendar. - Dans ces conditions, je suis d'accord et je retire le projet que
+                j'avais présenté.</p>
+              <p>Courteix. - Vous avez pas mal de camarades faisant partie de l'Union, célibataires
+                ou veufs, qui vivent avec quelqu'un. Cette question est à trancher; comment est-elle
+                envisagée puisqu'en fait, ils ne laissent pas de veuve à leur décès?</p>
+              <p>Conan. - Nous pouvons vous faire donner lecture du projet présenté.</p>
+              <p>L'Evesque. - Voici le texte proposé : « A partir de 1938, l'allocation de 50 fr.
+                par année de présence à « l'Union, du camarade, versée lors de son décès à son ayant
+                droit. « sera complétée par une seconde annuité de 50 fr . par année de préesence,
+                dont le montant total ne pourra dépasser 1.000 fr. Cette « seconde allocation ne
+                serait versée qu'un an après le décès du « camarade...</p>
+              <p>Amblard. - Cela c'est définitif. Un camarade décède, par exemple, l'année
+                prochaine, il a vingt ans de présence à l'Union, sa veuve touchera 5.000 fr. et,
+                l'année suivante, 1.000 fr.; cela n'est pas limitatif.</p>
+              <p>L'Evesque. - ...« De plus, à titre tout à fait exceptionnel, et pour «permettre
+                d'attendre l'amélioration du sort des veuves, tenant compte « des difficultés
+                actuelles de la vie, il sera veîsé une seule fois à la «veuve d'un camarade, deux
+                ans après le décès de ce dernier, une «allocation unique de 500 fr. Cette dernière
+                mesure ne sera appli« cable que pendant trois ans seulement à dater de l'Assemblée
+                «Générale».</p>
+              <p>Laute. - Le texte proposé est très bien au point de vue de la préoccupation du sort
+                de nos veuves, seulement cela implique un engagement de 6.000 fr . Je voterai ce
+                projet, bien entendu, cependant, je <pb n="63"/>
+                <note type="foliation">— 29 —</note> demanderai au Bureau de bien vouloir faire les
+                calculs utiles pour savoir quelles réserves mathématiques sont nécessaires pour
+                assurer le versement de cette allocation, afin de mieux connaître la répercussion
+                finañcière de cette mesure. Il faut prévoir un fonds de roulement en tenant compte
+                de l'esprit de l'Assemblée Générale de l'année dernière qui avait justement voté une
+                dotation de cinq millions dans ce sens. Cette dotation étant à peine suffisante pour
+                les allocations de 5.000 fr ., à plus forte raison il faut l'augmenter sensiblement
+                si nous passons de 5.000 à 6.000 fr . Dans l'avenir, il y aurait, au point de vue
+                financier, plus d'intérêt à assurer quelque chose en dehors de l'Union; cela serait
+                plus profitable à nos intérêts, d'autant plus que de nouvelles dévaluations peuvent
+                encore survenir.</p>
+              <p>Conan. - Je mets aux voix la première partie du projet. Qui vote contre? Personne.
+                Abstentions? Personne. Adopté.</p>
+              <p>Examinons maintenant la deuxième partie.</p>
+              <p>Grillet. - Vous avez dit tout à l'heure, je crois, que pour les 500 fr ., vous ne
+                vous engageriez que pour trois ans. Dans le texte vous dites : «...pour permettre
+                d'attendre l'amélioration du sort des veuves...», n'est-ce pas un engagement? Dans
+                trois ans, si malheureusement, le sort des veuves n'est pas assuré, on pourra vous
+                rappeler que vous avez indiqué cette phrase dans le règlement.</p>
+              <p>Amblard. - Même si l'augmentation de la pension des veuves n'est que de 6%, cela
+                représentera 150 fr . par an. Ce n'est pas avec 500 fr . qu'on leur donnera qu'on
+                pourra leur constituer une rente de 150 fr . L'amélioration est donc à peu près
+                certaine.</p>
+              <p>Avec ce projet, pendant les trois années qui suivront notre prochaine Assemblée
+                Générale, nous verserons 500 fr . à la veuve d'un camarade, deux ans après le décès
+                de celui-ci. Exemple : un camarade vient à décéder trois ans après notre Assemblée
+                Générale, sa veuve bénéficiera de l'allocation de 500 fr . deux ans plus tard. Si on
+                venait à nous proposer un système d'assurance qui nous semble vraiment plus
+                avantageux, soit par l'intermédiaire de l'ami de notre camarade Evrat ou par toute
+                autre personne, le Conseil en serait saisi et nous pourrions toujours modifier les
+                dispositions actuelles.</p>
+              <pb n="64"/>
+              <note type="foliation">— 30 —</note>
+              <p>Laute. - En somme, les 500 fr . qu'on accorderait pendant cette période de trois
+                années, s'ajoutant à l'allocation basée sur le temps de présence à l'U.A.G. du
+                camarade décédé, apporteraient à la veuve une aide immédiate déjà appréciable.</p>
+              <p>Grillet. - Je vous rappelle que dans votre texte, vous indiquez : «...en attendant
+                l'amélioration...», et s'il n'y en a pas dans un ou deux ans?</p>
+              <p>Conan. - Admettez que, dans un an ou deux, nous obtenions une amélioration de
+                pension en faveur de nos veuves, le texte que nous vous proposons aujourd'hui nous
+                permettra alors d'apporter une modification à notre intervention.</p>
+              <p>Nicolai. - On pourrait indiquer : la veuve « ou l'ayant-droit».</p>
+              <p>Conan. - Cette disposition est instituée pour la veuve qui ne peut pas gagner sa
+                vie ou la gagnera difficilement; si vous l'accordez également à un tiers, vous
+                risquez de tomber sur quelqu'un qui n'en a pas les mêmes besoins.</p>
+              <p>Courteix. - La pensée de Nicolaï envisage certainement le cas d'un camarade vivant
+                avec quelqu'un sans être marié légitimement. D'après votre proposition, cette
+                personne n'y aurait pas droit.</p>
+              <p>Izanc. - La première allocation-décès de 300 fr . avait été destinée à la personne
+                désignée par le camarade, que nous considérions comme l'ayant-droit. Ici, il y a un
+                cas particulier. Il s'agit, en effet, de femmes vivant avec les aveugles de guerre
+                et qu'on appelle généralement des veuves. Tout à l'heure, on faisait remarquer à la
+                Caisse Fraternelle que celle qui n'était pas légalement la veuve était néanmoins
+                considérée comme telle; ce qu'il ne faudrait peut-être pas, c'est ajouter : «ou
+                l'ayant-droit», car vous pouvez tomber sur un enfant de 30 ans qui n'a pas besoin de
+                ces 500 francs.</p>
+              <pb n="65"/>
+              <note type="foliation">— 31 —</note>
+              <p>Il faut laisser à la Caisse Fraternelle le soin d'examiner les cas
+                particuliers.</p>
+              <p>Cere. - Nous n'avons qu'à demander à la Caisse Fraternelle d'appliquer le règlement
+                dans son esprit.</p>
+              <p>Courteix. - Ainsi, je suis d'accord.</p>
+              <p>Amblard. - Nous ajouterons donc au texte : «La Caisse Fraternelle sera chargée de
+                veiller à l'application du dernier alinéa ».</p>
+              <p>Conan. - Qui vote contre la deuxième partie du projet? Personne. Abstentions?
+                Personne. Adopté à l'unanimité.</p>
+              <p>Evrat. - Je vous demande de retenir la deuxième question que je vous ai posée et de
+                mettre à l'étude la création d'une caisse de solidarité pour les veuves.</p>
+              <p>L'Evesque. - Voici la proposition qui vous est faite à la suite du désir exprimé
+                par l'Assemblée Générale : «Considérant que l'Union des Aveugles de Guerre a
+                maintenant «vingt ans d'existence et que l'avoir qu'elle a recueilli est dû, en «
+                grande partie, au groupement de la presque totalité de ses membres «depuis sa
+                fondation, «Considérant d'autre part que ceux-ci, aveugles depuis vingt ans « ou
+                plus ont, en quelque sorte, un droit de priorité sur les nouveaux «adhérents dont la
+                cécité est récente par suite d'aggravation de bles«sure ou de maladie contractée en
+                service. «L'Assemblée Générale, en conformité avec sa décision de prin«cipe du 9 mai
+                1937, décide définitivement, qu'à compter de la date «précitée, les nouveaux
+                adhérents continueront à bénéficier de tous «les avantages réservés par l'U.A.G. à
+                ses membres titulaires après «un an de présence, à l'exception de
+                l'allocation-décès.</p>
+              <pb n="66"/>
+              <note type="foliation">— 32 —</note>
+              <p>« Il sera attribué à leur veuve ou à la personne désignée sur leur « bulletin
+                d'adhésion, ainsi qu'aux orphelins, par année de présence, «le vingtième de
+                l'allocation maximum».</p>
+              <p>Derunder nous donne l'avis suivant sur cette question : « J'accepte le texte
+                proposé par notre Bureau concernant les nouveaux membres de notre Union ».</p>
+              <p>Amblard. - Nous avons établi le texte en harmonie avec ce qui avait été décidé
+                précédemment.</p>
+              <p>Conan. - Cela représente en somme 300 fr. par année de présence pour les nouveaux
+                membres titulaires de l'Union.</p>
+              <p>Brusson. - Ne pourrait-on porter cette somme à 500 francs ?</p>
+              <p>Conan. - Je crois que nous devons faire très attention. Le nombre des aggravés
+                semble augmenter dans des proportions importantes. Nous avons d'ailleurs demandé à
+                ce propos au Ministère des Pensions d'établir une statistique des aggravés par
+                catégorie.</p>
+              <p>Qui votre contre la proposition? - Personne. Abstentions? Personne. Adopté à
+                l'unanimité.</p>
+              <p>L'Evesque. - Nous passons maintenant aux questions diverses. Nous avons reçu les
+                demandes d'adhésion de :</p>
+              <p>LEFEVRE (Stéphane-Armand), 42, boulevard du Temple, Paris. 100% art. 10, titre
+                provisoire, Carte du Combattant.</p>
+              <p>MANIGAULT (Léon), 18, rue du Goulet, Aubervilliers (Seine). 100% art. 10, titre
+                provisoire, Carte du Combattant.</p>
+              <pb n="67"/>
+              <note type="foliation">— 33 —</note>
+              <p>Conan. - Ces camarades remplissant les conditions pour être membres temporaires de
+                l'U.A.G., qui votre contre leur admission? Personne.</p>
+              <p>Abstentions? - Personne. Adopté.</p>
+              <p>L'Evesque. - Nous vous demandons à présent d'adopter les deux délibérations
+                suivantes concernant les Legs Guieu et Harlé :</p>
+              <p>Legs Guieu. - « Après avoir pris connaissance des dispositions « testamentaires en
+                date du 27 juin 1929 de Mme Léchelle, Henriette« Louise, épouse de M. Guieu,
+                Frédéric-Laurent, avec lequel elle de« meurait à Oran, place Sébastopol, n <hi
+                  rend="superscript">°</hi> 10, où elle est décédée le 28 « juin 1931, par
+                lesquelles elle lègue à la mort de son mari, sur ses « biens personnels et sur ceux
+                revenant de sa part de communauté, une « somme de dix mille francs (10.000) aux
+                Aveugles de Guerre, « Le Conseil d'Administration de l'Union des Aveugles de Guerre
+                « accepte à l'unanimité ces dispositions testamentaires et donne tous « pouvoirs à
+                son trésorier pour encaisser le legs au nom de ladite Asso« ciation, prendre tous
+                engagements et faire le nécessaire. »</p>
+              <p>Legs Harlé. - « Après avoir pris connaissance des dispositions « testamentaires en
+                date du 1<hi rend="superscript">er</hi> mai 1929, de Mme Edmée-Alexandrine « Beuve,
+                veuve de M. Charles-Alexandre Harlé, décédée le 10 septembre 1937, en son domicile à
+                Paris, 11, rue Chardon-Lagache, par « lesquelles elle institue sa légataire
+                universelle l'Administration de « l'Assistance Publique, avenue Victoria, à Paris, à
+                charge par elle de « pourvoir aux frais de sépulture et d'entretien de sa tombe, un
+                legs « particulier étant fait hors part aux petits malades de Berck, le reste « de
+                l'avoir de Mme Harlé devra être partagé en trois parties égales : « 1<hi
+                  rend="superscript">°</hi> Les Aveugles de Guerre de la rue Ballu, « 2<hi
+                  rend="superscript">°</hi> Les Orphelins d'Auteuil, 40, rue Lafontaine, « 3<hi
+                  rend="superscript">°</hi> La Société Centrale de Sauvetage des Naufragés, 1, rue
+                de « Bourgogne, « Le Conseil d'Administration de l'Union des Aveugles de Guerre «
+                accepte à l'unanimité ces dispositions testamentaires et donne tous <pb n="68"/>
+                <note type="foliation">— 34 —</note> « pouvoirs à son trésorier pour encaisser le
+                legs au nom de ladite « Association, prendre tous engagements et faire le
+                nécessaire. »</p>
+              <p>Conan. - Je mets ces délibérations aux voix. Qui vote contre? Personne.</p>
+              <p>Abstentions? - Personne. Adopté à l'unanimité.</p>
+              <p>Brusson. - Une autre question : j'ai constaté à La Rochelle pour la Journée des
+                Cannes Blanches, qu'on se servait de notre nom pour quêter sur la voie publique. Des
+                troncs portaient la mention : «Pour les aveugles de guerre ». Ils ont été ensuite
+                retirés, mais l'intention avait été marquée. C'est évidemment regrettable car les
+                aveugles civils ont besoin d'être aidés, mais ils devraient éviter de tels
+                faits.</p>
+              <p>Conan. - Nous avons été sollicités pour participer à la manifestation de la
+                «Journée des Cannes Blanches». Cette manifestation était réservée au bénéfice de la
+                Fédération Nationale des Aveugles Civils, on n'avait donc pas le droit de se servir
+                de notre nom.</p>
+              <p>Amblard. - A ce même moment on nous avait signalé qu'il y avait des vendeurs
+                d'insignes pour les anciens combattants et pour les aveugles de guerre. Nous avions
+                immédiatement préparé un communiqué de protestation pour la presse et la radio, mais
+                sur le point de l'expédier nous apprenions qu'on organisait la « Journée des Cannes
+                Blanches », aussi n'avons-nous pas adressé notre communiqué afin de ne pas nuire au
+                succès de cette journée intéressant les aveugles civils.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 h .30 .</p>
+              <pb n="69"/>
+              <pb n="70"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

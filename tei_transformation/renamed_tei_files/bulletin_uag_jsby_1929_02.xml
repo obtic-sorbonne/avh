@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 11ème année 1929 n°2</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Invalides de guerre</title>
+        <title type="topic">Législation sociale</title>
+        <title type="topic">Logement</title>
+        <title type="topic">Retraites</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Actualités</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 24 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#loi-loucheur">Loi Loucheur</term>
+          <term ref="#mutuelles-retraites">Mutuelles-Retraites</term>
+          <term ref="#confederation-nationale">Confédération Nationale</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#logement-social">Logement social</term>
+          <term ref="#bulletin-mensuel">Bulletin mensuel</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) traite de plusieurs sujets
+          d'intérêt pour ses membres. Il examine la loi Loucheur et ses implications pour les grands
+          invalides, notamment en ce qui concerne l'accès au logement. Il détaille également les
+          avantages offerts aux anciens combattants par les mutuelles-retraites. Le bulletin rend
+          compte des activités de la Confédération Nationale, incluant les discussions et décisions
+          prises lors des réunions du conseil d'administration. Des informations pratiques sont
+          fournies aux lecteurs concernant les cartes de priorité pour les transports en commun et
+          les services de la bibliothèque. Enfin, le bulletin inclut des chroniques sur la vie de
+          l'U.A.G., avec des annonces de naissances, mariages et décès parmi ses membres.</p>
+      </abstract>
+      <creation>
+        <date when="1929-02-01">01/02/1929</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-17" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h7">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h8">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h9">LA LOI LOUCHEUR et les grands invalides</ref>
+          </item>
+          <item>
+            <ref target="#h10">A propos des Mutuelles-Retraites</ref>
+          </item>
+          <item>
+            <ref target="#h11">A la Confédération Nationale</ref>
+          </item>
+          <item>
+            <ref target="#h12">LA DEMISSION DE MAURICE RANDOUX</ref>
+          </item>
+          <item>
+            <ref target="#h13">Le Jardin des Pensées</ref>
+          </item>
+          <item>
+            <ref target="#h14">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h15">Aux Lecteurs du "Bulletin"</ref>
+              </item>
+              <item>
+                <ref target="#h16">Renouvellement des cartes de priorité pour les usagers de la
+                  S.T.C.R.P.</ref>
+              </item>
+              <item>
+                <ref target="#h17">Bibliothèque</ref>
+              </item>
+              <item>
+                <ref target="#h18">Société d'impression et de reliure du livre pour les
+                  aveugles</ref>
+              </item>
+              <item>
+                <ref target="#h19">LA FLEUR AU FUSIL</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h20">La Page des Sans-Filistes</ref>
+            <list>
+              <item>
+                <ref target="#h21">ASSEMBLEE GENERALE DE LA SECTION DES SANS-FILISTES</ref>
+              </item>
+            </list>
+          </item>
+          <item><ref target="#h1">Chronique de l'U. A. G.</ref><list>
+              <item>
+                <ref target="#h22">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h23">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS POUR L'ANNEE 1929 ENVOYEES A LA DATE DU 20 JANVIER
+                  1929</ref>
+              </item>
+              <item>
+                <ref target="#h28">Procès-Verbal de la Séance du Conseil d'Administration du 12
+                  JANVIER 1929</ref>
+              </item>
+              <item>
+                <ref target="#h29">ERRATUM</ref>
+              </item>
+              <item>
+                <ref target="#h30">AVIS</ref>
+              </item>
+              <item>
+                <ref target="#h31">Liste des Donateurs</ref>
+              </item>
+            </list></item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">11e Année. — N° 2</fw>
+          <fw type="header">
+            <hi rend="underline">Février 1929</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>La loi Loucheur et les grands invalides. - A propos des
+                      MutuellesRetraites. - La Confédération Nationale. - Le Jardin des
+                      Pensées.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Informations</head>
+                  <list>
+                    <item>Aux lecteurs du "Bulletin".</item>
+                    <item>Pour les usagers de la S. T.C.R.P.</item>
+                    <item>Bibliothèque.</item>
+                    <item>Société d'impression et de reliure du livre pour les aveugles.</item>
+                    <item>La fleur au fusil.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h5">La Page des
+                  Sans-Filistes</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h6">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Cotisations.</item>
+                    <item>Procès-verbal de la séance du Conseil d'administration du 12 janvier
+                      1929.</item>
+                    <item>Erratum.</item>
+                    <item>Avis divers.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou, Ministre de la Justice; M. le colonel Farry, ancien ministre des
+              Colonies; M. Brieux, de l'Académie Française, président honoraire; M. le général
+              Balfourier; M. Borrel, député, ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien ministre;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Mobrax; M. Meyer, conseiller d'Etat; M.
+              Henry Paté, député; M. Pierre Ramill, député;</p>
+            <p>M* Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre des Avocats;
+              Général Sainte-Claire-Deville; M. Valzery-Radot; M. Constant Vrrlot, député; M. le
+              professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LA LOI LOUCHEUR et les grands
+              invalides</head>
+            <p>Dans notre Bulletin de septembre 1928, nous avons publié plusieurs articles de la loi
+              du 13 juillet demier, connue sous le nom de " loi Loucheur " et qui organise tout un
+              système de prêts et de subventions tendant à faciliter la construction ou
+              l'acquisition d'habitations à bon marché et à loyers moyens.</p>
+            <p>Contrairement aux lois antérieures ayant le même objet, la loi du 13 juillet 1928,
+              ainsi que nous l'avons déjà dit, a réservé certains avantages aux pensionnés de
+              guerre. Rappelons-en les principaux :</p>
+            <p>Pour les pensionnés ayant au moins 600 / 0, dispense de tout apport; de plus, une
+              subvention de 5.000 francs leur est allouée et elle est augmentée de 2.500 francs par
+              100 / 0 d'invalidité, sans que le montant de cette subvention puisse, toutefois,
+              dépasser 15.000 fr .</p>
+            <p>Ainsi, un aveugle de guerre désireux d'acquérir ou de faire construire une habitation
+              à bon marché de 39.300 francs (maximum des prêts consentis) recevrait une subvention
+              de 15.000 francs, qui viendrait en déduction du prêt dont il serait bénéficiaire. De
+              la part du législateur de 1928, il y a eu donc, en faveur des grands invalides, une
+              bienveillance qui est, certes, louable. Mais la loi, cependant, ne répond pas encore
+              entièrement aux exigences de la situation.</p>
+            <p>La loi Loucheur joue, en effet, dans le cadre de la loi de 1922 portant codification
+              des lois sur les habitations à bon marché et aux termes de celle-là, les bénéficiaires
+              de prêts doivent contracter à la Caisse Nationale une assurance-vie ou une assurance
+              temporaire en garantie des prêts consentis. Or, l'expérience a prouvé que la Caisse
+              Nationale refuse d'assurer les grandes invalides et ils se trouvent ainsi hors la loi.
+              Les avantages dont nous venons de parler sont refusés, en fait, à ceux qui en ont le
+              plus besoin.</p>
+            <p>Nous avons fait remarquer cette anomalie, pour ne pas dire plus, à M. le Ministre du
+              Travail, de l'Hygiène, de l'Assistance et de la Prévoyance sociale, au cours d'un
+              entretien que nous avons eu avec lui. M. Loucheur, reconnaissant l'attitude prise par
+              la Caisse Nationale et l'absence de tout texte lui imposant une attitude différente,
+              estimait que la difficulté pouvait être surmontée, grâce aux dispositions de l'article
+              48 de la loi du 5 décembre 1922, ainsi libellé : <pb n="4"/>
+              <note type="foliation">— 2 —</note> "En ce qui concerne les contrats d'assurance
+              temporaire, que les emprunteurs hypothécaires doivent passer avec la Caisse Nationale
+              d'assurances, en cas de décès, contormément à l'article 45 , le proposant sera soumis
+              à la visite du médecin désigné par elle. " Toutefois, il en sera dispensé lorsqu'il
+              aura, deux ans au moins avant l'acquisition de la maison, du champ ou du jardin,
+              formulé une demande d'assurance et opéré à la Caisse Nationale un versement égal à 10
+              / 0 du capital à garantir, sans que la somme versée puisse être inférieure à 10
+              francs. La souscription de la police devra être effectuée dans un délai d'une année
+              après l'expiration de la période de deux ans visée ci-dessus et la somme versée
+              viendra en déduction de la prime unique. Si la police n'est pas souscrite dans le
+              délai fixé, le versement restera acquis à la Caisse Nationale. "</p>
+            <p>En vertu du deuxième paragraphe de cet article, le bénéficiaire du prêt peut être
+              dispensé de la visite du médecin, mais rien n'oblige les Sociétés d'habitations à bon
+              marché de réaliser la combinaison envisagée par le ministre et qui est la suivante :
+              louer pendant deux ans, au grand invalide non assuré par la Caisse Nationale, la
+              maison construite à son intention, moyennant une majoration d'environ 360 francs par
+              an et permettre ainsi à l'intéressé de devenir au bout de deux ou trois ans
+              propriétaire de la maison.</p>
+            <p>Cette solution ne règle donc pas la question, pas plus que ne l'avaient réglée les
+              dispositions des décrets des 21 mars et 3 septembre 1921, autorisant la Caisse
+              Nationale, en cas de non admission d'un proposant, à faire reposer l'assurance sur la
+              tête de son conjoint ou d'un tiers s'engageant solidairement au remboursement du prêt.
+              En effet, l'assurance ne peut être reportée sur la tête d'un conjoint que si celui-ci
+              justifie d'un salaire suffisant, et comment les épouses des grands invalides
+              pourraient-elles remplir cette dernière condition puisque leur présence à leur foyer
+              est pour elles une nécessité évidente.</p>
+            <p>Le ministre a compris ce que nous lui avons exposé et pour que ne soit pas commise, à
+              notre égard, l'injustice que le législateur n'a certainement pas voulue, M. Loucheur
+              nous a promis de faire aboutir, au plus tôt, un projet destiné à combler les lacunes
+              de la législation en vigueur. Nous mettrons tout en œuvre pour que soit réalisée cette
+              promesse, que M. Loucheur confirmait par écrit en ces termes: "Cette <pb n="5"/>
+              <note type="foliation">— 3 —</note> prochainement à une solution qui leur donnera
+              satisfaction. " Et ce sera justice.</p>
+            <p>Elie Clainville-Bloncourt.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">A propos des
+              Mutuelles-Retraites</head>
+            <p>L'Etat vient d'accorder, dans sa dernière loi de finances, de tels avantages aux
+              anciens combattants participant aux Sociétés de mutuelles-retraites, qu'il ne nous est
+              pas permis de les laisser ignorer à ceux d'entre nous dont l'attention n'aurait pas
+              été attirée par le bref énoncé d'un journal officiel ou autre.</p>
+            <p>D'ailleurs, un certain nombre de lettres parvenues au Bureau de l'U. A. G., à ce
+              sujet, démontrent clairement que quelques-uns de nos camarades se sont déjà fortement
+              intéressés à cette question.</p>
+            <p>La loi du 4 août 1923 accordait aux anciens combattants et victimes de la guerre
+              mutualistes, une bonification de 250 / 0 sur les versements effectués en vue de la
+              constitution d'une retraite avec possibilité d'en percevoir les arrérages après dix
+              ans de versement, au lieu des quinze années exiœés des mutualistes non combattants. En
+              raison de la loi du 1<hi rend="superscript">er</hi> avril 1898, le montant de la
+              retraite ne pouvait dépasser 1.080 francs.</p>
+            <p>Par les articles 126 et 127 de la loi de finances de 1928. l'Etat accorde à ceux-là
+              même ou'il favorisait par la loi du 4 août 1923, des avantages bien plus grands
+              encore; jugez-en :</p>
+            <p>Article 26. - Le paragraphe 2 de l'article 5 de la loi du 28 décembre 1928 est
+              complété par la disposition suivante : " Toutefois, la subvention d'Etat du quart des
+              recettes statutaires " sera maintenue jusqu'à concurrence des versements nécessaires à
+              la " constitution d'une pension de retraite de 6.000 francs au profit des "
+              organisations bénéficiant des dispositions de la loi du 4 août 1923. "</p>
+            <p>Article 127. - Les anciens combattants et victimes de guerre bénéficiant de la loi du
+              4 août 1923, âgés de plus de cinquante ans lors de la promulgation de la loi, qui sont
+              déjà inscrits dans les Sociétés mutuelles de retraites percevant la subvention prévue
+              à ladite loi ou qui s'y feront inscrire dans la suite, jouissent des avantages
+              ci-dessous énumérés : " La durée des versements nécessaires à la constitution d'une
+                <pb n="6"/>
+              <note type="foliation">— 4 —</note> " retraite est, pour eux, diminuée et la
+              subvention d'Etat annuelle " majorée, conformément au barème suivant: "Pour les
+              sociétaires âgés de 50 à 51 ans révolus, 9 ans de ver" sements, 300 / 0 de subvention
+              de l'Etat; " 52 à 53 ans, 8 ans, 350 / 0; " 54 à 55 ans, 7 ans, 400 / 0; " 56 à 57
+              ans, 6 ans, 450 / 0; " 58 à 59 ans, 5 ans, 500 / 0; " 60 ans et au-dessus, 4 ans, 600
+              / 0. "Ces dispositions sont rétroactivement applicables aux anciens " combattants et
+              victimes de la guerre cotisant pour la retraite dans " les Sociétés de secours mutuels
+              constituées conformément à la loi du " 4 août 1925, soit à compter du jour de leur
+              entrée dans la Société " s'ils avaient déjà 50 ans à cette époque, soit à dater du
+              jour où ils " ont atteint cet âge s'ils y sont parvenus avant la promulgation de "
+              ladite loi. "</p>
+            <p>Ainsi, la loi accorde la même bonification de 250 / 0 pour des versements permettant
+              de se créer une retraite de 6.000 francs. Mais, surtout, elle permet à tous les
+              anciens combattants et victimes de la guerre, même ceux avant dépassé 60 ans, de
+              bénéficier également. et cela dans la courte limite de quatre ans, d'une retraite dont
+              l'Etat majorera les versements de 600 / 0; n'est-ce pas magnifique?</p>
+            <p>Il faut nous féliciter de cet heureux résultat, et nous pensons que de nombreux
+              camarades voudront profiter de tels avantages.</p>
+            <p>Remarque. - Nous tenons à préciser que les versements de certaines
+              mutuelles-retraites sont facultativement à capital aliéné ou réservé, étant bien
+              entendu que sous le régime du capital réservé, seules les cotisations sont
+              remboursables en cas de décès à l'exclusion des subventions de l'Etat et des
+              ressources extraordinaires dont bénéficient les retraites. R. FAVRET.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">A la Confédération
+              Nationale</head>
+            <p>Le Conseil d'administration du 12 janvier. Le Conseil d'administration de la
+              Confédération Nationale s'est réuni, le 12 janvier, à 17 heures, au siège social, 123,
+              rue de Grenelle.</p>
+            <p>Etaient présents: Mmes Cassou, Callarec et Maire; Randoux, <pb n="7"/>
+              <note type="foliation">— 5 —</note> Rossignol, Beauregard, Barbasch, Screve, Granier,
+              Scapini, Goudaert, Aubertin, Humbert, Isaac, Rouast, Viala, Jost, Nicolai, Micheau,
+              Chatenet, Arnould, Bernard, Jean Goy, de Pontalba, Morin, Cassin, Patou, Veze,
+              Perdoux, Courtel, Charron, Manil.</p>
+            <p>Excusés : Mairhoffer, Secret, Rogé, Brousmiche. Chatenet avait été désigné comme
+              président de séance. Le Conseil a institué une longue discussion sur les circonstances
+              qui ont accompagné le vote du dernier rajustement des pensions à la Chambre des
+              députés. Après les exposés de Randoux et de Rossignol, de nombreux administrateurs
+              sont intervenus dans le débat, en particulier Mmes Cassou et Callarec, Barbasch,
+              Cassin, Arnould, Aubertin, Charron, Viala, Granier, Micheau, Screve. Des explications
+              détaillées furent fournies notamment par Rossignol, Scapini et Jean Goy qui avaient
+              été personnellement mis en cause:</p>
+            <p>A la suite de ce débat, l'ordre du jour suivant a été présenté au Conseil par
+              plusieurs administrateurs:</p>
+            <p>Le Conseil d'administration, Après avoir longuement délibéré sur les événements qui
+              ont précédé, accompagné et suivi le vote du Parlement sur le rajustement partiel des
+              pensions;</p>
+            <p>Et après avoir observé qu'un grand nombre de malentendus successifs a seul causé la
+              déception consécutive à ce vote, d'ailleurs provisoire quant à ses effets;</p>
+            <p>Dit que des explications données par tous, il résulte que la bonne foi et la bonne
+              volonté de personne ne peuvent être mises en discussion;</p>
+            <p>Approuve les efforts du bureau, en particulier de son secrétaire général adjoint, et
+              des parlementaires membres du Conseil d'administration;</p>
+            <p>Décide qu'à l'avenir une liaison étroite et ordonnée avec les parlementaires de tous
+              les partis sera établie et suivie.</p>
+            <p>Le vote par division est ordonné. Le paragraphe suivant est mis aux voix : " Après
+              avoir longuement délibéré sur les événements qui ont précédé, accompagné et suivi le
+              vote du Parlement sur le rajustement partiel des pensions, " Et après avoir observé
+              qu'un grand nombre de malentendus successifs a seul causé la déception consécutive à
+              ce vote, d'ailleurs provisoire quant à ses effets;</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>" Dit que des explications données par tous, il résulte que la bonne foi et la bonne
+              volonté de personne ne peuvent être mises en discussion. "</p>
+            <p>Adopté à l'unanimité, sauf Barbasch, qui vote contre.</p>
+            <p>Le paragraphe suivant est mis aux voix : " Approuve les efforts du bureau et en
+              particulier de son secrétaire général adjoint. "</p>
+            <p>Ont voté pour : Rossignol, Jost, Nicolaï, Arnould, Rouast, Izaac, Charron, Scapini,
+              Jean Goy, Morin, Veze, Goudaert, Aubertin, de Pontalba, Beauregard.</p>
+            <p>Ont voté contre : Viala, Mme Callarec, Mme Maire, Courtel, Barbasch, Micheau,
+              Perdoux, Manil, Bernard, Patou.</p>
+            <p>Se sont abstenus : Mme Cassou, Randoux, Granier, Screve.</p>
+            <p>Le paragraphe suivant est mis aux voix : "Et des parlementaires membres du Conseil
+              d'administration. " Adopté par 15 voix contre 10 et 4 abstentions. Ont voté pour :
+              Rossignol, Jost, Nicolaï, Jean Goy, Scapini, Morin, Aubertin, Beauregard, Manil,
+              Izaac, Charron, Veze, Goudaert, de Pontalba.</p>
+            <p>Ont voté contre : Arnould, Courtel, Mme Callarec, Mme Maire, Micheau, Rouast,
+              Perdoux, Screve, Patou, Viala, Barbasch.</p>
+            <p>Se sont abstenus : Granier, Bernard, Mme Cassou, Brandoux.</p>
+            <p>Le paragraphe suivant est mis aux voix : " Décide qu'à l'avenir une liaison étroite
+              et ordonnée avec tous les parlementaires de tous les partis sera établie et suivie.
+              "</p>
+            <p>Adopté à l'unanimité.</p>
+            <p>L'ensemble est ensuite mis aux voix. Il est adopté par 16 voix, les autres
+              administrateurs s'abstenant.</p>
+            <p>Ont voté pour : Rossignol, Jost, Nicolaï, Arnould, Mme Maire, Rouast, Izaac.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Charron, Scapini, Jean Goy, Veze, Morin, Goudaert, Aubertin, de Pontalba,
+              Beauregard.</p>
+            <p>Le président de séance s'est abstenu dans ces différents votes de par ses fonctions.
+              Léon Viala déclare avoir voulu voter contre sur l'ensemble.</p>
+            <p>Enfin, le Conseil décide à mains levées, par 19 voix, que le scrutin sera publié.</p>
+            <p>Randoux ayant à nouveau confirmé sa démission, le Conseil examine la question de la
+              réorganisation du bureau. Chatenet, au nom de tous, remercie Randoux des efforts qu'il
+              a fournis malgré ses charges professionnelles. Screve demande que la date du Conseil
+              National soit avancée et que le bureau actuel reste jusque-là en fonctions. Le Conseil
+              adopte cette dernière solution tout en maintenant la date du Conseil National au 10
+              mars 1929.</p>
+            <p>Le Conseil, après l'examen des différentes questions d'ordre intérieur, a délibéré
+              sur l'exécution de certains points du programme d'action de la Confédération. Des
+              mesures ont été prises en ce qui concerne la retraite du combattant, la loi sur les
+              loyers, les habitations à bon marché, et d'autres questions.</p>
+            <p>En ce qui touche les modifications à apporter aux statuts de la Confédération, le
+              Conseil a décidé de se réunir le 10 février pour une séance qui sera spécialement
+              réservée à cette question et à celle de l'action civique. Il a renvoyé également à
+              cette date l'exposé de Chatenet sur le mouvement à entreprendre contre la dépression
+              de la moralité et fixé les termes du questionnaire sur l'action civique qui devra être
+              adressé à toutes les associations adhérentes.</p>
+            <p>La séance est levée à minuit trente. Le Conseil d'administration a enfin décidé qu'un
+              Bulletin mensuel serait envoyé par le Secrétariat de la Confédération à toutes les
+              Associations adhérentes afin d'assurer une liaison régulière dans l'intervalle des
+              Conseils Nationaux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LA DEMISSION DE MAURICE
+              RANDOUX</head>
+            <p>Notre camarade Randoux vient de donner sa démission aux membres du Conseil
+              d'administration qui l'avaient élu à l'unanimité, le 11 mars 1928. Il l'a fait dans
+              les termes suivants:</p>
+            <p>Mon cher camarade, J'ai l'honneur de vous rappeler qu'à l'issue du Conseil National
+                <pb n="10"/>
+              <note type="foliation">— 8 —</note> du 25 novembre dernier, je vous ai annoncé ma
+              volonté formelle de démissionner, et je vous ai donné lecture de la lettre suivante
+              :</p>
+            <p>" Mes chers camarades,</p>
+            <p>" J'ai l'honneur de vous remettre ma démission des fonctions " auxquelles vous avez
+              bien voulu m'appeler à l'unanimité le 11 mars " dernier, alors que j'étais absent. "
+              Dès le 14 mars, je vous envoyais ma démission, basée sur des " raison d'ordre matériel
+              : je vous démontrais alors que mes occupa"tions professionnelles particulièrement
+              absorbantes, m'empêchaient " d'assumer une charge nouvelle. J'ai pu, grâce à des
+              collaborations " amicales qui me furent offertes et qui me permirent de mener à bien "
+              certains travaux de librairie, revenir sur ma décision et m'occuper " autant que je le
+              pouvais des intérêts de la Confédération Nationale. " Malheureusement, mes occupations
+              professionnelles proprement " dites, loin de s'alléger, deviennent de plus en plus
+              lourdes. Elles " sont telles actuellement qu'il m'est impossible d'assumer la responsi
+              sabilité matérielle, et morale surtout, de la direction de la Confédération Nationale.
+              " Il faut que l'homme qui se trouve à la tête d'une organisation" aussi complexe
+              puisse disposer de son temps au moment où il a " besoin de le faire. Or, cela ne m'est
+              pas possible. Il est telles " démarches, interventions, décisions, qu'un secrétaire
+              général doit " accomplir ou prendre, et qui, dans les conditions où je suis placé, "
+              me sont interdites. " Je vous prie d'agréer, mes chers camarades, l'assurance de " ma
+              bien cordiale sympathie. "</p>
+            <p>A la demande des membres du Conseil d'administration présents, qui m'ont prié de
+              vouloir bien conserver le poste auquel ils m'avaient appelé le 11 mars dernier pendant
+              un mois encore, c'est-à-dire jusqu'au moment où la question du rajustement serait
+              résolue, j'ai accepté de rester provisoirement en fonctions.</p>
+            <p>Je vous ai donc demandé de bien vouloir vous réunir le 12 janvier, au siège social,
+              pour y procéder à l'élection d'un nouveau secrétaire général.</p>
+            <p>Je vous prie d'agréer, mon cher camarade, l'assurance de mes sentiments de bien
+              cordiale sympathie.</p>
+            <p>Le Secrétaire général : Signé : M. Randoux.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+            <p>Nous avons reçu la lettre suivante, que nous publions volontiers, et nos camarades ne
+              manqueront pas d'apprécier les sentiments généreux qu'elle exprime : " Permettez à une
+              grand'mère de vous envoyer un petit poème " qu'elle a fait, il y a plusieurs années,
+              en pensant aux intellectuels " aveugles de guerre (1925). " Elle n'avait osé vous
+              l'envoyer...; aujourd'hui, elle le retrouve " et le glisse modestement parmi les dons
+              que Noël apportera à votre " Association; il sera le plus humble sans doute !... " Ne
+              voyez que l'intention émue et dévouée et veuillez croire, " Monsieur le Président, à
+              mes sentiments les plus distingués. " Marguerite Ferré, " 1, rue du Moulin, Fresnes
+              (Seine). "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">Le Jardin des Pensées</head>
+            <p>C'est un jardin, quelie merveille. Un jardin plein de fleurs vermeilles Où descendent
+              parfois les Dieux... Pour parler bas à notre oreille, Près des bordures et corbeilles
+              Ils viennent, d'invisibles Cieux!... On y trouve maintes allées, Fleurant la rose et
+              t'azalée, Et, frais boutons prêts à s'ouvrir, Des fleurs de velours et de soie Qui
+              mettent l'âme tout en joie, Mais... qu'il faut savoir décousvrir. Pour s'y reposer, à
+              toute heure, S'il n'aime la vie intérieure, Nul n'en connaitra le chemin... Mais vous,
+              savants, et vous poètes, Vous avez la clef toujours prête Pour ouvrir le secret
+              jardin! <pb n="12"/>
+              <note type="foliation">— 10 —</note> L'âme y fait divines récoltes, Elle y apaise ses
+              récoltes. Car les fruits qu'on y peut cueillir Sont une sûre panacée Quand notre force
+              est menacée Ils empêchent de défaillir. Vous dont les prunelles sont mortes Allez-y
+              seuls, oui, sans escortes, Car vous possédez la clef d'or! Et dès que la porte est
+              ouverte, Jeunes savants, d'un pas aierte, Vous courez dans le beau décor!</p>
+            <p>Pour cueillir les fleurs les plus belles, Faire des gerbes immortelles, Vous
+              connaissez tous les détours, Du grand jardin dont les ombrages Abritent les savants,
+              les sages, Leur prêtant utile secours.</p>
+            <p>Là, vous percevez la lumière! Pour que vous ne heurtiez pas la pierre Il n'est nul
+              besoin de bâton Et, dans le mystérieux site Où vous trouvez la réussite Vous n'êtes
+              jamais à tâtons. Car, sur vos pruneiles blessées, Dans le beau jardin des pensées
+              Descend un feu brillant et pur! Il ne peut savoir le profane Combien léger et
+              diaphane, Et lumineux est votre azur!... Oubliant la lumière blonde Qui caresse la
+              terre et l'onde, Vous avez donné votre amour A celle, plus pure et subtile <pb n="13"/>
+              <note type="foliation">— 11 —</note> Qui, dans ces régions tranquilles, Se décousre à
+              vous chaque jour.</p>
+            <p>Les fruits qu'en secret y mûrissent Sont savoureux, souvent guérissent, Trésor du
+              merveilleux jardin! Toujours ils donnent de la force, Car, brin d'herbe, fleurs,
+              fruits, écorce, Tout y reçoit l'influx divin! Marguerite FERRÉ, 1925.</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Aux Lecteurs du
+                "Bulletin"</head>
+              <p>Notre dernière Assemblée générale a adopté, à l'unanimité, les conclusions des
+                rapporteurs de la troisième Commission tendant à la transformation du Bulletin de
+                l'U. A. G. en journal, afin d'assurer, par ce moyen, la parution régulière de notre
+                organe mensuel.</p>
+              <p>Nos camarades ont pu être donc surpris de recevoir encore, le mois dernier, un
+                Bulletin qui est même parvenu entre leurs mains avec un sensible retard et qui, de
+                plus, portait à la fois les dates de décembre 1928 et janvier 1929. Au reste, voici
+                un nouveau Bulletin et, cette fois, leur étonnement sera peut-être encore plus
+                grand.</p>
+              <p>L'explication que nous vous devons est très simple. Nous continuerons de faire
+                paraître notre organe mensuel sous la forme du Bulletin, parce qu'un examen plus
+                approfondi des chiffres représentant la dépense à laquelle nous serions astreints,
+                si nous devions faire imprimer un journal exclusivement réservé aux Aveugles de
+                Guerre et continuer l'impression du Bulletin à l'usage des voyants, auxquels nous le
+                servons, nous a montré que cette double publication grèverait lourdement le budget
+                de notre Association. Du reste, la transformation envisagée résultait surtout du
+                souci que nous avions de communiquer à nos camarades des nouvelles relativement
+                fraîches au moment où ils en prendraient connaissance et de les communiquer à des
+                dates régulières.</p>
+              <p>Cette double préoccupation va être satisfaite, grâce à l'extrême obligeance de M.
+                Bauer qui, désireux de prouver aux Aveugles de Guerre la fidélité de ses sentiments
+                à leur égard et la constance de l'agissante sympathie qu'il leur a témoignée dès la
+                fondation de l'U. A. G., en imprimant le Bulletin à des conditions particulièrement
+                avantageuses, nous a promis de faire, au besoin, un effort pour que satisfaction
+                entière nous soit désormais accordée. Nous ne pouvons donc que renouveler à M. Bauer
+                nos très sincères remerciements et nous sommes persuadés que, grâce à sa
+                bienveillance, les membres de l'U. A. G. ne regretteront pas le journal qui leur
+                avait été promis.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">Renouvellement des cartes de
+                priorité pour les usagers de la S.T.C.R.P.</head>
+              <p>Nous rappelons à nos camarades que le renouvellement des cartes de priorité, pour
+                l'année 1929, se terminera le 15 février. Les titulaires de la carte devront se
+                présenter, avant cette date, à la Préfecture de Police, Service des cartes de
+                priorité, munis de leur de 1928 et d'une photographie d'identité, pour recevoir leur
+                carte de 1929.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">Biblictbèque</head>
+              <p>Pour nous éviter une correspondance assez importante, nous serions reconnaissants
+                aux camarades qui nous ont emprunté des livres, s'ils voulaient bien nous les
+                retourner dès qu'ils en auront terminé la lecture.</p>
+              <p>Nous rappelons que le délai de prêt est de un mois et que les lecteurs demandant
+                les mêmes livres sont nombreux, tant pour le Braille que pour les ouvrages en
+                noir.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Société d'impression et de
+                reliure du livre pour les aveugles</head>
+              <p>BULLETIN BIBLIOGRAPHIQUE</p>
+              <p>Janvier 1929. Livres parus: Bernardin de Saint-Pierre : Paul et Virginie. BrunHes
+                (Jean) : Géographie, cours moyen: L'Europe et les grands pays du monde. Un volume.
+                Cresson (André) : La position actuelle des problèmes philosophiques. Rostand
+                (Edmond), Cyrano de Bergerac. Cinq volumes. Stahl (P.-J.) : Les quatre filles du
+                Docteur Marsch. Imitation de Jésus-Christ. Traduction de l'abbé de Lamennais. Six
+                volumes ab. La Roue. Ordo Missae à l'usage des prêtres aveugles en latin, comprenant
+                les fêtes principales de l'année. Un volume et 32 fascicules. La Roue. Géographie,
+                cours supérieur, par une réunion de professeurs: Asie, Afrique, Amérique,
+                Océanie.</p>
+              <p>Livres sous presse: FOIGNET: Economie politique, édition récente, 3 parties 28 ab.
+                La Roue. FOIGNET: Histoire du Droit français. Seize volumes, ab. La Roue.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>Soume-Tcheng : Autour de la Révolution chinoise. Adresser les demandes à la S. I.
+                R. L. A., 8, rue RobertEstienne, Paris ( 8<hi rend="superscript">°</hi> ).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">LA FLEUR AU FUSIL</head>
+              <p>Les Editions Baudinière, Librairie Transcontinentale, 27 bis, rue du Moulin-Vert,
+                Paris, viennent d'éditer La Fleur au Fusil, de Jean Galtier-Boissière.</p>
+              <p>Du Feu de Barbusse au Gaspard de Benjamin, tous les livres de guerre ont tenté de
+                fixer la vraie psychologie du soldat, sans y réussir parfaitement. Les Suppliciés de
+                Naegelen ont typé le "poilu ». Jean Galtier-Boissière, inventoriant ses plus
+                lointains souvenirs, ressuscite, avec une surprenante vigueur, le "pioupiou " d'août
+                1914, égaré dans les premiers combats et qu'on retrouve plus grand, plus émouvant,
+                en ces pages criantes de vérité.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">La Page des Sans-Filistes</head>
+            <p>Huitième liste d'adhésions. Larré, 14, rue Margaux, Bordeaux. Peuchamiel (Léon), La
+              Chapelle-Gacelin, par La Gacilly (Morbihan). Perroux (Lucien), Fillinges, par Bonne
+              (Haute-Savoie). Vernet (G.), Châteauneuf-sur-Sarthe (Maine-et-Loire).</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">ASSEMBLEE GENERALE DE LA
+                SECTION DES SANS-FILISTES</head>
+              <p>Conformément à l'article 4 du règlement de la Section des SansFilistes de l'U. A.
+                G., les membres faisant partie de la Section sont priés de vouloir bien assister à
+                l'Assemblée générale qui aura lieu, le samedi 2 mars 1929, à 15 heures, au siège
+                social de l'U. A. G., 25 , rue Ballu, à Paris. Le présent avis tient lieu de
+                convocation.</p>
+              <p>Au cours de cette réunion, les membres de la Section seront appelés à constituer
+                leur Bureau pour 1929.</p>
+              <p>Nous pensons que les adhérents viendront nombreux à cette première Assemblée
+                générale.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">NAISSANCES</head>
+                <p>Notre camarade et Mme Ristori (Antoine), de Piazzole, par Scata (Corse), nous
+                  font part de la naissance de leur fils Pierre, né le 25 mai 1928.</p>
+                <p>Notre camarade et Mme Girard (Auguste), de La Guerche (Ille-et-Vilaine), nous
+                  font part de la naissance de leur quatrième enfant, Louis, né le 11 décembre
+                  1928.</p>
+                <p>Notre camarade et Mme Perroux (Lucien), de Fillinges (HauteSavoie), nous font
+                  part de la naissance de leur fille, Marie-Rose, née le 15 décembre 1928.</p>
+                <p>Notre camarade et Mme Buy (Benoît), de Saint-Amour-Bellevue (Saône-et-Loire),
+                  nous font part de la naissance de leur fils, Lucien, né le 13 décembre 1928.</p>
+                <p>Notre camarade et Mme Soubien (Ernest), de Taillebois (Orne), nous font part de
+                  la naissance de leur fille, Denise, née le 18 décembre 1928.</p>
+                <p>Notre camarade et Mme Duflot (Léon), de Sainte-Olle (Pas-deCalais), nous font
+                  part de la naissance de leur fille, Christiane, née le 12 février 1928.</p>
+                <p>Notre camarade et Mme Dupont (Eugène), de Saint-Romain-deColbosc
+                  (Seine-Inférieure), nous font part de la naissance de leur fille, Renée, née le 5
+                  janvier 1929.</p>
+                <p>Notre camarade et Mme Coat (Jacques), de Saint-Servais (Finistère), nous font
+                  part de la naissance de leur cinquième enfant, Joseph, né le 5 janvier 1929.</p>
+                <p>Notre camarade et Mme Senoussi Belgacem, de Souk-El-Arba (Tunisie), nous font
+                  part de la naissance de leur fille, Mabroucka, née le 30 novembre 1928.</p>
+                <p>Notre camarade et Mme Louis Fondement, nous font part de la naissance de leur
+                  cinquième enfant, Roger-Louis, né le 9 janvier 1929.</p>
+                <p>Notre camarade et Mme Cartoux (Elie), de Vogué (Ardèche), nous font part de la
+                  naissance de leur fils, Jean, né le 9 janvier 1929.</p>
+                <p>Notre camarade et Mme Correger (Abel), de Larroque (Hautes-</p>
+                <pb n="19"/>
+                <note type="foliation">— 17 —</note>
+                <p>Pyrénées), nous font part de la naissance de leur fils Jean, né le 9 janvier
+                  1929.</p>
+                <p>Notre camarade et Mme Huet (Francis), de Châteaugiron (Ille-etVilaine), nous font
+                  part de la naissance de leur fille, Jeanine, née le 13 janvier 1929.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">MARIAGES</head>
+                <p>Notre camarade Masselin, de Bourth (Eure), nous fait part de son mariage avec
+                  Mlle G. Olivier, célébré le 24 décembre 1928.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">DÉCÈS</head>
+                <p>Nous apprenons le décès de : Notre camarade Jannin (Léon), de Gennevilliers
+                  (Seine), décédé le 25 décembre 1928, dans sa trente-troisième année.</p>
+                <p>De notre camarade Le Bihan (Michel), de Saint-Symphorien-surCaise (Rhône), décédé
+                  le 20 décembre, à l'âge de vingt-quatre ans.</p>
+                <p>De notre camarade Ricard (Pierre), de Soulac-sur-Mer (Gironde), décédé le 8
+                  décembre, à l'âge de quarante ans.</p>
+                <p>De notre camarade Koeberle (Eugène), de Conches (Eure), décédé le 18 décembre, à
+                  l'âge de trente-deux ans.</p>
+                <p>De notre camarade Monsard, d'Arzon (Morbihan), décédé le 15 janvier, à l'âge de
+                  cinquante-trois ans.</p>
+                <p>De la naissance et du décès du fils de notre camarade Passerat, de Laives
+                  (Saône-et-Loire).</p>
+                <p>Du fils de la veuve de notre camarade Jannin, de Gennevilliers, décédé le 7
+                  janvier, dans sa troisième année.</p>
+                <p>Du beau-père de notre camarade Rouhaud, de Sainte-Ferréole, (Corrèze), décédé à
+                  l'âge de soixante-dix-neuf ans.</p>
+                <p>Du père de notre camarade Léon Duflot, de Sainte-Olle (Pas-deCalais), décédé le
+                  20 novembre, à l'âge de soixante-seize ans.</p>
+                <p>De la mère de notre camarade Dufau, de Lignerolles (Allier), décédée le 1<hi
+                    rend="superscript">er</hi> anvier 1929, dans sa soixante-dix-neuvième anné.e</p>
+                <p>Du père de notre camarade George (Léon), de Nice, survenu le 11 janvier, à l'âge
+                  de soixante-dix-neuf ans.</p>
+                <p>De la sour de notre camarade Tauziet, de Condom (Gers), décédée à l'âge de
+                  vingt-huit ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="20"/>
+                <note type="foliation">— 18 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leur cotisation, ont tenu néanmoins à effectuer un
+                nouveau versement :</p>
+              <p>Devèze, 10 fr.; Pluquin, 20 fr.; Boulanger, 20 fr.; F. Marchand, 50 fr.;
+                Abderahmann, 20 fr.; Vochel, 15 fr.; Gardette, 10 fr.; Barday, 10 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS POUR L'ANNEE
+                1929 ENVOYEES A LA DATE DU 20 JANVIER 1929</head>
+              <p>Vidry, Lagarde, Deibel, Raffat (B.), Pasquier (A.) (rachat), Eckert, Alliès,
+                Clément (René), Tihon, Vial (Jean), Rémia, Cohen, Holveck, Capelle (J.), Conan,
+                Guyennet, Miot, Serre, Podevin (F.), Heuzé, Lecardonnel, Bretin, Guillot, Lemaître,
+                Noirjean, Lambert (L.), Somprou, Morizet, Donzelot, Verdelet, Marcangeli, Jung,
+                Beauval, Masson (J.-B.), Corazza, Latrille, Boé, Le Borgne, Chatillon, Vochel,
+                Margault, Pasco, Sursin, Nottin, Piollet, Laloeuf, Millepied, Fonchy, Boulert,
+                Lecocq (A.), Kromer, Sibiril, Vaxellaire, Agutte, Amblard, Thomas, Dysserinck,
+                Gailly, Dupuy (M.), Pruvot, Donadieu, Lambert (E.), Padellec, Rost, Jeames,
+                Constantin, Rouvreau, Toutain (L.), Rollet, Marlin, Larré, Peuchamiel, Guignon,
+                Affre, Pannetrat, Sausotte, Khelifa-Feghoul, Colombat, Ducouret, Belliot, Fautsch,
+                Ballu, Delpech, Vernet, Hocq, Perroux (rachat), Vve Anatole, Baptiste, Maurel,
+                Bertoni, Viault, Benoit, Rouxel, Thibault, Jeandin, Duchamp, Cluze, Obitz, Seury,
+                Dahout, Favret, Garcelon, Capitaine, Boche, Delacroix, Lacazotte, Noël (H.), Béraud,
+                Chabbert, Fraisse, Dufau (E.), Authié, Leroy (A.), Izem*bard, Arnould, Charles (H.),
+                Storme, Bailly, Epstein, Bardoux, Goubin, Nicaud, Pichonneau, Janson, Sicard,
+                Domenger, Gardette, de Budt, Bonnecuelle, Loulergue, Chellé (rachat), Cognard, Guy,
+                Durand (H.), André (A.), Arnoux, Coué, Chouquet, Bouillard, Rain, Dimitrieff, Dumont
+                (A.), Barnabé (C.), Banyuls, Crouzilhac, Malavault (rachat), Clémencel, Rosso,
+                Brinon, Chaigneau, Sigault, Girard (A.), Henaff, Bourbon, Ducrot, Viguier,
+                Maillasson, Raybaud, Thibault, Fabre (Irénée), Calmès, Drapeau, Guittard, Peltier,
+                Mercadier, Padaillé, Ristori, Marigor, Mougenel, Briant, Vayne, Correger, Debatisse,
+                Bordier, Tauziet, Marignier, Prevel, Codhant, Boucq, Prudhomme, Malingre, Boudra,
+                Brusson, Guitteny, Giroir,</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Pernoo, Delafosse, Pélissier, Coat, Guillobé, de Rupé, Dury, Delacourt, Herbet,
+                Montcharmont, Sabin, Dessenne, Orcel, Sourissaud, Vivin.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Procès-Verbal de la Séance
+                du Conseil d'Administration du 12 JANVIER 1929</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Scapini. Sont présents:
+                Scapini, Favret, Amblard, Noireaux, Bloncourt, L'Evesque, Bardoux, Bertrand, Bois,
+                Conan, Courteix, Grillet, Guillam, Laffargue, Lauté, Leveau, Malgat, Muller,
+                Nicolaï, Virot. M. de Traversay, président du Comité d'action.</p>
+              <p>Les camarades Bailly, Chaillou, Céré-Labourdette, Epstein, Gudefin, Hugueny,
+                Mathieu, Mercier, Nicolaï (Pierre), Pardanaud, Parent, Rousseau, Roy (Georges),
+                Saillot, Sursin, Vaxelaire.</p>
+              <p>Ont donné leurs pouvoirs: Au président: Lallement. A Favret: Cabasson, Virot. A
+                Noireaux : Derunder. A Bloncourt : Satgé. A Leveau: Lagarde. 1<hi rend="superscript"
+                  >°</hi> Procès-verbal de la séance du Conseil d'administration du 15 décembre.</p>
+              <p>Adopté à l'unanimité. 2<hi rend="superscript">°</hi> Situation financière du mois
+                de décembre 1928. Adoptée à l'unanimité. 3<hi rend="superscript">°</hi> M.
+                L'Evesque, membre de la Commission d'Enquête nommée par décision de l'Assemblée
+                générale du 2 décembre, devant s'absenter au cours de la séance, le Conseil décide
+                d'examiner tout de suite les conclusions de la Commission d'Enquête dont lecture lui
+                est donnée.</p>
+              <p>Après quelques observations présentées par plusieurs administrateurs, notamment par
+                Laffargue, Nicolaï, Bois, et après avis des membres de la Commission d'Enquête, le
+                Conseil, à l'unanimité, approuve les conclusions ci-après : "Après avoir pris
+                connaissance du rapport Nicolaï-Laffargue, après avoir entendu tous les Aveugles
+                désirant déposer au sujet de ce rapport, la Commission - retenant certains incidents
+                regrettables et considérant que l'U. A. G. ne peut s'ingérer dans l'administration
+                  <pb n="22"/>
+                <note type="foliation">— 20 —</note> d'une œuvre indépendante, reconnaissant les
+                grands serviços qu'a pu rendre, que rend encore l'Euvre du Phare de France en se
+                consacrant à la rééducation des Aveugles de Guerre, - estime que tous les efforts de
+                l'Union doivent tendre à la réalisation d'une "Maison de Retraite" qui complétera
+                l'œuvre de rééducation. " (Bloch, L'Evesque, Izaac, Favret, Bloncourt.) Le Conseil
+                décide alors de constituer une Commission spéciale chargée de l'examen des moyens
+                propres à la réalisation d'une Maison de Retraite et cette Commission est ainsi
+                constituée :</p>
+              <p>Laffargue, Nicolaï, Bois, Courteix, Malgat. Appelé à se prononcer sur l'insertion,
+                dans le Bulletin, d'une lettre adressée par le camarade Jeansoulé à tous les
+                administrateurs, le Conseil décide de ne pas publier cette lettre, étant donné
+                qu'elle ne constitue qu'une réponse au rapport de Nicolaï et de Laffargue, présenté
+                à la Troisième Commission qui a précédé l'Assemblée générale et que ce rapport n'a
+                point été publié.</p>
+              <p>Scapini, obligé de s'absenter avant la fin de la séance, demande au Conseil de
+                vouloir bien suspendre ses travaux pour lui permettre de lui faire une communication
+                hors séance.</p>
+              <p>La séance est reprise à 16 h .30 . Le Conseil entend la lecture d'un projet de
+                règlement des Commissions présenté par Muller. Il entend également la lecture des
+                propositions du Bureau, tendant à ce que le Règlement intérieur, adopté à
+                l'unanimité par l'Assemblée générale du 2 décembre, soit maintenu avec, toutefois,
+                certaines modifications aux articles 4,5 et 10 relatifs aux Commissions.</p>
+              <p>Après une discussion, à laquelle prennent part, notamment, Muller, Courteix et
+                Lauté, les propositions ci-après du Bureau sont adoptées à l'unanimité, moins une
+                voix, celle de Courteix, en ce qui concerne l'article 4 :</p>
+              <p>Art. 4. - Les membres du Bureau, ainsi que les président et secrétaires généraux
+                honoraires, font partie de droit de toutes les Commissions où ils ont une voix
+                délibérative. Le Bureau se réunit une fois par semaine et chaque fois que le
+                président le juge nécessaire; il délibère sur toutes les questions pour lesquelles
+                le Conseil a donné des directives. Son rôle est spécialement de chercher les moyens
+                d'exécution. Les six membres du Bureau, seuls, prennent part aux délibérations.</p>
+              <p>Art. 5. - Les membres faisant partie des Commissions sont seuls admis à délibérer.
+                Chaque Commission élit un président, choisi parmi <pb n="23"/>
+                <note type="foliation">— 21 —</note> ses membres. Les Commissions, issues du
+                Conseil, transmettent obligatoirement au Bureau de l'Union, et par l'intermédiaire
+                de leurs présidents, un rapport sur les questions soumises à leur examen par le
+                Bureau.</p>
+              <p>Art. 10. - Chaque année, le Conseil d'administration désigne les différentes
+                Commissions chargées de l'examen des principales questions susceptibles de retenir
+                l'attention de l'Union et en fixe la composition pour l'année. Elles se réunissent
+                sur convocation de leurs présidents respectifs et peuvent être également réunies à
+                la demande du Bureau. 5<hi rend="superscript">°</hi> A la suite de l'adoption des
+                propositions du Bureau, en vertu desquelles les membres du Bureau font, désormais,
+                partie de droit de toutes les Commissions, en même temps que les président et
+                secrétaires généraux honoraires, le Conseil fixe définitivement, de la façon
+                suivante, la composition des Commissions pour l'année 1929:</p>
+              <p>Commission Prêts et Caisse Fratemelle : Bois, Courteix, Leveau, Virot.</p>
+              <p>Commission de Finances : Lauté, Laffargue, Muller, Nicolaï, M. Bloch.</p>
+              <p>Commission des Maisons de Repos: Courteix, Grillet, Leveau, Malgat.</p>
+              <p>Commission de Propagande : Lauté, Laffargue, Muller, Nicolaï. Commission des
+                Pensions: Bardoux, Guillam, Grillet, Laffargue, Lauté. 6<hi rend="superscript"
+                  >°</hi> Lecture est donnée du projet de règlement de la Caisse spéciale instituée
+                pour le remboursement des frais médicaux et pharmaceutiques aux membres titulaires
+                de l'U. A. G., projet présenté par le Bureau, conformément à la décision du Conseil
+                d'administration du 15 décembre dernier.</p>
+              <p>Après lecture d'un amendement de Guillam, tendant à ce que le remboursement des
+                frais médicaux et pharmaceutiques n'ait lieu que si les dépenses engagées sont d'au
+                moins 200 francs et que les notes d'honoraires acquittées parviennent à la
+                Commission de Caisse Fraternelle, dans un délai maximum de un an, plusieurs
+                observations sont présentées, notamment par Muller et par Bois, mais il est à ce
+                moment 18 heures et la plupart des administrateurs ayant quitté la séance, il est
+                décidé de renvoyer l'examen de cette question, ainsi que les deux autres inscrites à
+                l'ordre du jour, à la prochaine réunion du Conseil d'administration, et la séance
+                est levée.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">ERRATUM</head>
+              <p>Dans le procès-verbal de la réunion du Conseil d'administration du 15 décembre
+                1928, qui a paru au Bulletin de janvier 1929, page 35, lire au paragraphe 4 ,
+                relatif à l'élection des membres du Bureau: Favret, 24 voix, au lieu de Favret, 21
+                voix.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">AVIS</head>
+              <p>A vendre: deux piéteuses, jauge 10, marque Dubied, bon état. Plusieurs autres
+                machines, largeur 80.</p>
+              <p>S'adresser au camarade Martin (Paul), 10, rue de l'Union, La Courneuve (Seine).</p>
+              <p>Le camarade Dufau, de Lignerolles (Allier), nous informe qu'il est acheteur d'une
+                surjeteuse. Prière de lui faire offre.</p>
+              <p>Le camarade Lepesteur, de Maisy (Calvados), informe ses camarades qu'il peut leur
+                livrer de très bons cidres aux conditions ci-après :</p>
+              <p>Cidre, bonne qualité : 1 fr. 60 le litre. Cidre pur jus: 1 fr. 90 le litre. Ces
+                prix s'entendent par barrique de 215 litres, franco gare, port, régie, logement.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">Liste des Donateurs</head>
+              <p>Mme la générale Matton, Neuilly-sur-Seine, 200 fr. - M. Scheidecker, Muttersholz
+                (Bas-Rhin), 40 fr. - M. J. de Kermangant, Paris, 200 fr. - Mme Bourdon, Lesmont
+                (Aube), 50 fr. - Les lecteurs de la Bibliothèque, rue Titon, Paris, 50 fr. - Mme
+                Charles Peugeot, Paris (affectation Maisons de Repos, Franceville), 200 fr. - Les
+                Camarades français de la Grande Guerre, résidant au Siam, 1.338 fr. 75. - Mme
+                Barnet-Lyon, à La Haye (Hollande), 100 fr. - M. Chabaud, Dellys (Algérie), 20 fr. -
+                Mme Eichens, Beaumesnil (Eure), 30 fr. - M. J. Combés, Dannemoine (Yonne), 200 fr. -
+                Mme Gallardo, Buenos-Aires (République Argentine), 1.000 fr. - M. Rémy Delaroière,
+                Saultain (Nord), 100 fr. - M. A. Cottin, Paris, 50 fr. - Mme Zula-Crosse, Paris, 100
+                fr. - M. Villevieille, Meudon (Seine-et-Oise), 20 fr. - Lycée Malherbe, Caen, 100
+                fr. - Les Elèves de l'Ecole de Filles, rue Roussel, La GarenneColombes, 140 fr. -
+                Mme de Poulpiquet de Brescanvel, Dinan (Côtes-du-Nord), 50 fr. - M. A. Laurent,
+                Bruxelles, 100 fr. Compagnie d'Assurances "La Nationale-Incendie ", 500 fr. M.
+                Hellinck, Bruxelles, 500 fr. - Mme Sens, à Marseille, 100 fr. - Mme da Silva, Paris,
+                5 fr. - Mlle Scheurer, Paris (affectation Maisons de Repos. Franceville, 200 fr. -
+                Mlles Flandin, Marseille, 25 fr. - Mlle Cornud-Peschier, Vallon (Ardèche), 575 fr.
+                Etablissements E. Revillon, Paris, 20 fr. - Mlle de Freycinet, Paris, 100 fr. - M.
+                et Mme Bimbenet, Saint-Mandé, 100 fr. - Anonyme, n <hi rend="superscript">°</hi>
+                29279, 100 fr. - Anonyme, n <hi rend="superscript">°</hi> 29280, 100 fr. M. Pages,
+                Paris, 50 fr. - Mme Romezin, Valence (Drôme), 30 fr. - Mlle Dranssin, Valence
+                (Drôme), 10 fr. - Mlle Gibert, institutrice, Claye-Souilly, 50 fr. - M. Caldevilla,
+                Mulhouse, 20 fr. Mme Delanne, Giey-sur-Aujon (Haute-Mame), 20 fr. M. Heloing,
+                Buenos-Aires, 500 fr. - Mme Lebossé, Sainte-Adresse (Seine-Inférieure), 25 fr. -
+                Baron de Flaghac, Paris, 10 fr. Mme Lemaire, Cambrai, 20 fr. - Mme Mus, directrice
+                de l'Ecole Primaire Supérieure de Filles, Hanoï, 1.000 fr. - M. A. Olivier,</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+              <p>Paris, 50 fr. - Mlle Caillon, Sellières (Jura), 20 fr. - Mme Louise Peuiles,
+                Pamiers (Ariège), 20 fr. - M. Fernand Peltzer, ministre de Belgique, Berne, 1.000
+                fr. - M. Lipot, Bouvincourt (Somme), 100 fr . M. F. Pernod, à Libos
+                (Lot-et-Garonne), indiqué dans notre Bullețin du mois dernier comme donateur ( 50 fr
+                .) a versé 100 fr .</p>
+              <pb n="27"/>
+              <note type="foliation">— 25 —</note>
+              <fw type="footer">Imprimerie Dubois et Bauer, 34, rue Laffitte, Paris 1929.</fw>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

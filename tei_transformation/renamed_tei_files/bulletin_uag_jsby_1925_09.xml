@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 7ème année 1925, n°9</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Orphelins de guerre</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Aide sociale</title>
+        <title type="topic">Assemblée générale</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>22,5 X 15,5 cm ; 12 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#orphelins">Orphelins</term>
+          <term ref="#assemblee-generale">Assemblée générale</term>
+          <term ref="#caisse-fraternelle">Caisse fraternelle</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#accidents-du-travail">Accidents du travail</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de l'actualité de
+          l'association et des sujets d'intérêt pour ses membres. Il inclut des informations sur
+          l'assemblée générale à venir, des discussions sur la situation des orphelins de guerre,
+          des détails sur le paiement des pensions réajustées, et des nouvelles de la caisse
+          fraternelle. Le bulletin contient également des informations pratiques telles que les
+          voyages aux tombes et les montres pour aveugles, ainsi que des annonces de naissances,
+          mariages et décès parmi les membres de l'association.</p>
+      </abstract>
+      <creation>
+        <date when="1925-09-01">01/09/1925</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-09" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-09" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Assemblée Générale de 1925</ref>
+            <list>
+              <item>
+                <ref target="#h8">LISTE DES CANDIDATS ADMINISTRATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h9">A RATIFIER</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h10">Les orphelins de guerre combattants</ref>
+          </item>
+          <item>
+            <ref target="#h11">Les voyages aux tombes</ref>
+          </item>
+          <item>
+            <ref target="#h12">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h13">Le paiement de la pension réajustée</ref>
+              </item>
+              <item>
+                <ref target="#h14">VOIR</ref>
+              </item>
+              <item>
+                <ref target="#h15">AUX MILITAIRES DE CARRIERE bénéficiaires de l'article 10 de la
+                  loi du 31 mars 1919</ref>
+              </item>
+              <item>
+                <ref target="#h16">MONTRES POUR AVEUGLES</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h18">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h19">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h20">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h23">SECTION DÉPARTEMENTALE DE LA SEINE-INFÉRIEURE</ref>
+              </item>
+              <item>
+                <ref target="#h24">LEGION D'HONNEUR</ref>
+              </item>
+              <item>
+                <ref target="#h25">AVIS IMPORTANT</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h26">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h27">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h28">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">7e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">Septembre 1925</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Assemblée générale.</item>
+                    <item>Liste des candidats administrateurs.</item>
+                    <item>Les orphelins de guerre combattants.</item>
+                    <item>Les voyages aux tombes.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Notes et Informations</head>
+                  <list>
+                    <item>Le paiement de la pension réajustée.</item>
+                    <item>Voir.</item>
+                    <item>Aux militaires de carrière.</item>
+                    <item>Montres pour aveugles.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Compte rendu de la Section départementale de la Seine-Inférieure.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Avis important.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, ancien Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Brikux, de
+              l'Académie Française, président honoraire; M. le général Balfourie; M. Borrel, dépuxé,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie
+              Française ; M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty ; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ; Mme Géo Kessler ; M. Krug
+              ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député; M. Pierre Rameil, député ;</p>
+            <p>M* Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre des Avocats;
+              Général Sainte-Claire-Deville ; M. Vallery-Radot ; M. Consant Verlot, député; M. le
+              Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Assemblée Générale de 1925</head>
+            <p>Dans notre prochain Bulletin, le Conseil d'administration vous présentera son rapport
+              moral et le trésorier son rapport financier.</p>
+            <p>Nous vous rappelons les différentes Commissions devant précéder l'Assemblée générale
+              et chargées d'étudier, de discuter les différentes questions portées à l'ordre du jour
+              de notre grande réunion, qui auront lieu à l'Union des Aveugles de Guerre.</p>
+            <p>Nous ne saurions trop insister auprès des camarades qui auraient des objections à
+              formuler, des avis à donner, des questions à poser, de le faire devant ces Commissions
+              pour simplifier le plus possible et rendre plus nette et plus précise notre réunion
+              annuelle. 1<hi rend="superscript">°</hi> Le vendredi 13 novembre : Première Commission
+              : de 9 h. à 10 h. 15. Relations extérieures (Office National des Combattants,
+              Associations de Mutilés, Euvres s'occupant des Aveugles de Guerre), Propagande,
+              Aveugles sans pension.</p>
+            <p>Rapporteur : Scapini. Deuxième Commission : de 10 h .30 à 11 h .30. Pupilles de la
+              Nation. Article 64 de la loi du 31 mars 1919, Transports.</p>
+            <p>Rapporteur : Gudefin. Troisième Commission : de 14 heures à 18 heures. Fonctionnement
+              du Siège social et de la Maison de Franceville, Groupements régionaux, Sections
+              départementales.</p>
+            <p>Rapporteur : Favret. 2<hi rend="superscript">°</hi> Le samedi 14 novembre : Quatrième
+              Commission : de 9 heures à 11 heures. Pension des veuves, des femmes d'aliénés, des
+              ascendants. Rapporteur : Favret. Enfin ce samedi, de 14 h .30 à 17 heures,
+              présentation des vœux préparés dans les Commissions précédentes.</p>
+            <p>Les camarades qui désireraient faire connaître, par correspondance, leur opinion sur
+              les questions à étudier par les Commissions sont priés de ne pas attendre au dernier
+              moment et de faire une lettre séparée pour chacune des questions qu'ils
+              traiteront.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">LISTE DES CANDIDATS
+                ADMINISTRATEURS</head>
+              <p>Antoine (Louis) (administrateur sortant), né le 23 novembre 1888 à Mirecourt
+                (Vosges), domicilié 10, quai Richemont, Rennes (Ille-et-Vilaine). Bloncourt
+                (Elie-Clainville), né le 5 mai 1896 à Basse-Terre (Guadeloupe), domicilié 44, rue
+                des Boulangers, Paris. Cabasson (Maurice) (administrateur sortant), nommé
+                administrateur par le Conseil d'administration du 13 juin 1925, en remplacement de
+                Leveau, démissionnaire; né le 31 janvier 1892 à Marseille, domicilié 29, chemin des
+                Chartreux, Marseille (Bouches-duRhône). Cardot (Désiré), né le 4 janvier 1893 à Lure
+                (Haute-Saône), domicilié 86, rue des Pyrénées, Paris. Dubois (Charles), né le 1<hi
+                  rend="superscript">er</hi> octobre à Paris, domicilié 24, avenue des Peupliers, à
+                Neuilly-Plaisance (Seine-et-Oise). Dufourc (Pierre) (administrateur sortant), né le
+                20 avril 1899 à Auch (Gers), domicilié 11, rue de Maistre, Paris. Favret (René)
+                (administrateur sortant), né le 18 janvier 1884 à Paris, domicilié 37, rue des
+                Belles-Feuilles, Paris. Goubin (Eugène) (administrateur sortant), né le 2 janvier
+                1879 à Jouy-sur-Morin (Seine-et-Marne), domicilié à Les Loges-de-Barris-Carroix, par
+                Nangis (Seine-et-Marne). Izaac (Henri) (administrateur sortant), né le 10 juin 1881
+                à Pau (Basses-Pyrénées), domicilié 81, rue Lavalète à Angoulême (Charente).
+                Lallement (Henri) (administrateur sortant), né le 8 janvier 1881 à Oran (Algérie),
+                domicilié 33, boulevard Carnot, à Cannes (AlpesMaritimes). L'Evesque (Gaston)
+                (trésorier sortant), né le 23 juin 1887 à Cor-meilles-en-Parisis (Seine-et-Oise),
+                domicilié 24, rue Mogador, Paris. Malgat (Gaston) (administrateur sortant), né le 7
+                novembre 1888 à Auxerre (Yonne), domicilié 28 bis, rue du Chemin-de-Fer, à
+                Villemomble (Seine). Malingre (Hippolyte), né le 21 juillet à Boulogne-sur-Seine,
+                domicilié à Serris (Seine-et-Marne). Martin (Paul), né le 23 décembre 1883 à
+                Catillon (Nord), domicilié 10, rue de l'Union à La Courneuve (Seine).</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">A RATIFIER</head>
+              <p>VIrot (Georges), né le 6 octobre 1885 à Bourgneuf-Val-d'Or (Saône-et-Loire),
+                domicilié 14, rue Daru, Paris.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Les orphelins de guerre
+              combattants</head>
+            <p>Des foyers sont à nouveau éprouvés, des mères pleurent leur fils, des femmes leur
+              mari, des enfants leur père.</p>
+            <p>Nous connaissons trop l'horreur des champs de bataille pour ne pas partager
+              l'angoisse de nos jeunes camarades qui se battent au Maroc. Le pays sait très bien
+              qu'il peut compter sur eux comme il a pu compter sur leurs aînés, "Français " n'est-il
+              pas synonyme de " courageux "?</p>
+            <p>Tous les Français doivent faire leur devoir et tous les vrais Français ont à cœur de
+              le faire. Mais il est une catégorie de jeunes gens dont la vie est sacrée : ce sont
+              les orphelins de guerre, ceux qui, au foyer, ont remplacé leur père tombé, il n'y a
+              pas bien longtemps, au champ d'honneur.</p>
+            <p>Comment peut-on concevoir cette situation cruelle qu'après avoir perdu le père de ses
+              enfants une mère perde une seconde fois son soutien, car elles sont nombreuses celles
+              qui sont restées fidèles au glorieux vainqueur et qui ont placé dans la vie de leur
+              fils tout l'espoir d'une vie meilleure et plus calme après l'accomplissement de leur
+              double tâche de mère et de chef de foyer.</p>
+            <p>De nombreuses démarches ont été faites par le Comité d'Entente des Grandes
+              Associations auprès du ministre de la Guerre pour que soient épargnés ces fils, sur
+              lesquels reposent tant d'espérance. Cette reouête a été accueillie avec bienveillance.
+              M. Painlevé a bien voulu déclarer "qu'il avait déjà décidé que les soldats avant eu
+              deux frères tués à l'ennemi ne seraient pas envoyés au Maroc. Ou'il faisait examiner
+              s'il est possible de prendre une mesure semblable pour les orphelins de guerre n.</p>
+            <p>A l'heure actuelle, aucune solution satisfaisante n'a été obtenue et les orphelins
+              pour lesquels a été demandé un régime, non de faveur</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>mais d'équité, sont trop nombreux, dit-on, car la France a besoin de ses jeunes
+              soldats.</p>
+            <p>Aujourd'hui, après avoir connu le départ non suivi de retour de leur mari, certaines
+              mères connaissent le départ de leur fils, rendu encore plus pénible par la question
+              angoissante qu'elles se posent : "Subi-ra-t-il le sort de son père ? " Il est
+              indispensable que les pouvoirs publics mettent fin à cette pénible situation.</p>
+            <p>Favret.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Les voyages aux tombes</head>
+            <p>Il nous paraît utile de rappeler aux familles des morts et disparus les avantages qui
+              leur sont accordés pour faire un voyage au front.</p>
+            <p>L'article 10 de la loi du 29 octobre 1921 précise quels sont les droits des veuves,
+              ascendants et descendants des militaires morts pour la France.</p>
+            <p>Deux cas sont à envisager : 1<hi rend="superscript">°</hi> Le corps est inhumé dans
+              un cimetière du front; 2<hi rend="superscript">°</hi> Le militaire fut porté disparu.
+              Pour se rendre sur la tombe des militaires inhumés dans un cimetière du front, les
+              veuves, ascendants et descendants du premier et du second degré ont droit, une fois
+              par an, à un permis de 2<hi rend="superscript">°</hi> classe leur permettant
+              d'accomplir gratuitement le voyage du lieu de leur résidence à celui de l'inhumation
+              faite par l'autorité militaire.</p>
+            <p>Le même avantage est accordé à ces parents lorsque le militaire est disparu. Dans ce
+              cas, le permis est délivré pour se rendre à l'ossuaire militaire le plus rapproché du
+              lieu indiqué par le jugement déclaratif de décès.</p>
+            <p>Pour obtenir ce permis, les familles doivent en faire la demande au directeur de la
+              Compagnie des chemins de fer du grand réseau qui dessert la gare de leur domicile. A
+              cette demande, il convient de joindre un certificat de décès ou de disparition du
+              militaire et une justification du degré de parenté; ces pièces sont délivrées par la
+              mairie.</p>
+            <p>Lorsque les bénéficiaires de ces dispositions sont empêchés, ils peuvent faire
+              profiter de leur titre, à leur place, un des proches parents <pb n="7"/>
+              <note type="foliation">— 5 —</note> du défunt: frère, soeur, oncle, tante, neveu ou
+              nièce. Ils doivent le spécifier dans leur demande, qui est accompagnée d'un certificat
+              du maire établissant que le bénéficiaire est empêché et faisant connaître le nom du
+              remplaçant.</p>
+            <p>Si les parents, la veuve ou les enfants ne sont plus vivants, le permis qui leur
+              revenait peut être cédé au frère ou à la soeur aînée, lesquels peuvent en faire
+              bénéficier à leur place un autre frère ou une autre soeur du militaire mort ou
+              disparu.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Le paiement de la pension
+                réajustée</head>
+              <p>Titulaires d'une pension d'invalidité et d'une rente d'accident du travail</p>
+              <p>Dans tous les cas de mort ou d'incapacité couverts par la loi sur les accidents du
+                travail, si la rente est inférieure à la pension militaire, les accidentés ou leurs
+                ayants droit reçoivent de l'Etat, à titre de pension, la différence entre la rente
+                accident de travail et la pension militaire, soit la totalité de la pension
+                militaire. C'est le cas de quelques Aveugles de guerre.</p>
+              <p>Le supplément de 80% et le rappel porteront non sur la fraction de pension excédant
+                le montant de la rente accident, mais sur la totalité de la pension comprenant rente
+                et versement de l'Etat.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">VOIR</head>
+              <p>Nous avons communiqué au docteur Bonnefon la liste des camarades désireux de le
+                consulter. L'éminent oculiste vient de nous aviser qu'il se tiendra à la disposition
+                des Aveugles de Guerre à partir du 1<hi rend="superscript">er</hi> octobre prochain,
+                à Bordeaux, clinique Condillac, 33, rue Condillac.</p>
+              <p>Les intéressés pourront se rendre auprès du docteur sans demander de rendez-vous, à
+                condition de ne pas venir un samedi.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">AUX MILITAIRES DE CARRIERE
+                bénéficiaires de l'article 10 de la loi du 31 mars 1919</head>
+              <p>Nous reproduisons ci-dessous copie de la lettre du capitaine Versini : " Je
+                m'empresse de vous communiquer la bonne nouvelle que j'ai reçue ce matin et qui m'a
+                été envoyée par M. Chareyre, maître des requêtes au Conseil d'Etat, en vous priant
+                de bien vouloir la faire connaître aux camarades intéressés.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>«Par arrêt du 3 août 1923, le Conseil d'Etat a rejeté comme non recevable, parce
+                que formé irrégulièrement, le recours du ministre des Pensions. L'arrêt de la Cour
+                régionale des pensions de Lyon rendu en votre faveur le 13 juillet 1923 portera donc
+                son plein et entier effet. Vous pouvez tenir cela pour officiel. »</p>
+              <p>Il résulte de cet arrêt du Conseil d'Etat que les intéressés, les militaires de
+                carrière titulaires d'une pension mixte et bénéficiaires de l'article 10 de la loi
+                du 31 mars 1919, peuvent demander la revision de leur pension en ce qui concerne
+                l'application de l'article 10. L'allocation accordée en vertu de cet article doit
+                être calculée sur l'ensemble de la pension mixte et non seulement sur la pension
+                d'invalidité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">MONTRES POUR AVEUGLES</head>
+              <p>M. A. Caron, autrefois 43, rue d'Hauteville, à Paris, actuellement à
+                Enghien-les-Bains (Seine-et-Oise), 17, rue Blanche, nous informe qu'il continue à
+                tenir à la disposition des Aveugles de Guerre des montres à ancre avec cadran
+                "Braille» au prix de 55 francs.</p>
+              <p>Le comte Antoine de la Rochefoucauld, à Menilles (Eure), désire mettre gratuitement
+                à la disposition d'un Aveugle de Guerre marié et ayant des enfants, une petite
+                maison de campagne composée de deux grandes pièces et nombreuses dépendances, sise à
+                Menilles (Eure). Les camarades intéressés par cette offre généreuse sont priés de
+                s'adresser directement à M. de la Rochefoucauld.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 16 juillet et le 15 août 1925, une
+                somme de 4.050 francs, se répartissant comme suit:</p>
+              <table>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell>2.200</cell>
+                </row>
+                <row>
+                  <cell>Secours</cell>
+                  <cell>1.700</cell>
+                </row>
+                <row>
+                  <cell>Décès (couronnes)</cell>
+                  <cell>150</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 4.050 francs, une somme de 7.300 francs pour prêts
+                d'honneur et de constructions de maisons.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 14 demandes de secours sur
+                lesquelles 6 n'ont donné lieu, pour motifs divers, à aucun secours.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">NAISSANCES</head>
+                <p>Notre camarade et Mme Barbier (Jean), de Plougouven (Finistère), nous font part
+                  de la naissance de leur sixième enfant, André, né le 14 février 1925.</p>
+                <p>Notre camarade et Mme Vion, de Saint-Martin-en-Bresse (Saône-et-Loire), nous font
+                  part de la naissance de leur fille, Juliette, née le 12 juin 1925.</p>
+                <p>Notre camarade et Mme Souverain (Etienne), de Neuilly-Plaisance (Seine-et-Oise),
+                  nous font part de la naissance de leur fils René, né le 16 juillet 1925.</p>
+                <p>Notre camarade et Mme Dessis, de Rion-des-Landes (Landes), nous font part de la
+                  naissance de leur fils Alphonse, né le 21 mars 1925.</p>
+                <p>Notre camarade et Mme Dahout, de Chooz (Ardennes), nous font part de la naissance
+                  de leur fille Thérèse, née le 23 juillet 1925.</p>
+                <p>Notre camarade et Mme Moteau, de Méobecq (Indre), nous font part de la naissance
+                  de leur fille Paulette, née le 24 juillet 1925.</p>
+                <p>Notre camarade et Mme Chachet (Joseph), de Lyon (Rhône), <pb n="11"/>
+                  <note type="foliation">— 9 —</note> nous font part de la naissance de leur fille
+                  Andrée, née le 8 juillet 1925.</p>
+                <p>Notre camarade et Mme Sénéchal (François), de Boulogne-surMer (Pas-de-Calais),
+                  nous font part de la naissance de leur fille Jacqueline, née le 27 juillet
+                  1925.</p>
+                <p>Notre camarade et Mme Guy (Henri), de Grignoncourt (Vosges), nous font part de la
+                  naissance de leur fille Andrée, née le 17 juillet 1925.</p>
+                <p>Notre camarade et Mme Cartoux (Elie), de Vogue (Ardèche), nous font part de la
+                  naissance de leur fille Geneviève, née le 9 août 1925.</p>
+                <p>Notre camarade et Mme Berrod, de Colbosc (Seine-Inférieure), nous font part de la
+                  naissance de leur deuxième fille Françoise, née le 15 juillet.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">MARIAGES</head>
+                <p>Notre camarade Salembier, d'Angers (Maine-et-Loire), nous fait part de son
+                  mariage.</p>
+                <p>Notre camarade Chanson (Gabriel), de Velars (Côte-d'Or), nous fait part de son
+                  mariage avec Mlle Allalinarde, qui a été célébré le 23 juillet 1925.</p>
+                <p>Notre camarade Piot nous fait part du mariage de sa fille avec M. Georges
+                  Boumandil, qui a été célébré le 6 août 1925.</p>
+                <p>Nous adressons aux jeunes époux nos meilleurs vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">DÉCÈS</head>
+                <p>Nous apprenons le décès : De la mère de notre camarade Nicolas, d'Eaubonne,
+                  survenu le 15 juillet.</p>
+                <p>De la fille de notre camarade Fondeville, décédée à l'âge de 7 ans 1 / 2, le 19
+                  juillet 1925.</p>
+                <p>Du heau-nère de notre camarade Remy (Tules), de Oudincourt (Haute-Marne), survenu
+                  le 29 juillet, à l'âge de 60 ans.</p>
+                <p>De la fille de notre camarade Menuet, de Saint-Malo (Ille-etVilaine) décédée à
+                  l'âge de 10 ans.</p>
+                <p>Du fils de notre camarade Gauch, de Cannes (Alpes-Maritimes), décédé à 9
+                  mois.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+                <p>Du fils de notre camarade Carlier, de Soissons (Aisne), décédé le 9 août, à l'âge
+                  de 21 ans.</p>
+                <p>Du fils de notre camarade Betremieux, de Hasnon (Nord), décédé le 7 août, à 19
+                  mois.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">SECTION DÉPARTEMENTALE DE LA
+                SEINE-INFÉRIEURE</head>
+              <p>Procès-verbal de la réun'on du 28 Juin 1925</p>
+              <p>La séance est ouverte à 10 heures précises du matin, sous la présidence du camarade
+                Godard, en l'absence de M. le commandant Grosnier, président d'honneur, oui s'est
+                excusé retenu par des engagements antérieurs, ainsi que M. Boulanger,
+                secrétaire.</p>
+              <p>Sont présents les camarades : Cagnard, Lemarchand, Anqot, Abraham, Brevel. Rost,
+                Talleur, Verdure, Landais, Viel, Frère, Varnier, trésorier, et Foure, commissaire
+                aux Comptes.</p>
+              <p>Se sont excusés. les camarades : Picot, de Grémoville: Chatonnier, de Frichemesnil;
+                Gille, de Cléon; Leroy, de Fécamp; Vochelet, de Dieppe: Capelle, de Déville; Lesade,
+                de Lunerav; Mauconduit, de Bolbec; Durand, de Rouen; Duval, de Mallévier; Girou, de
+                Lillebonne; Baralle, à Ivry; Vincent, de Sanvic; Dupuis, de Doudeville, tous les
+                camarades délèguent leur pouvoir au président Godard; le camarade Ferre qui donne
+                son pouvoir au camarade Cagnard.</p>
+              <p>Le Président fait donner lecture de la correspondance qu'il a reçue, telle celle du
+                camarade Abraham Pierre oui fait part de son mariage, du camarade Lesade, annoncant
+                une septième naissance dans sa famille, du camarade Lemarchand, annonçant également
+                la naissance d'un deuxième enfant.</p>
+              <p>Les membres présents adressent leurs félicitations à leurs camarades.</p>
+              <p>Il est ensuite donné lecture des circulaires des 5 et 23 juin, ainsi que d'une
+                lettre du 4 mars du siège de l'U. A. G. annoncant l'envoi d'un guide-main Pascal qui
+                est soumis aux camarades présents, avec facilité de pouvoir l'utiliser.</p>
+              <p>Il est distribué des exemnlaires du règlement intérieur pour les régions et les
+                départements de l'U. A. G.</p>
+              <p>Lors de la présentation des excuses du camarade Baralle, actuellement à Ivry
+                (Nord), les camarades présents font observer qu'il y aurait <pb n="13"/>
+                <note type="foliation">— 11 —</note> utilité à signaler au siège central ce
+                changement de résidence et de faire part à ce camarade qu'il ne peut plus faire
+                partie de la Section Départementale de la Seine-Inférieure.</p>
+              <p>Le Trésorier donne lecture de la situation financière dont l'actif s'élève au 15
+                juin à la somme de 3.216 fr. 06.</p>
+              <p>En conformité du règlement intérieur de mars 1925, dont il est parlé plus haut, le
+                président procède à l'élection complémentaire du Comité Régional
+                d'Administration.</p>
+              <p>Les camarades Rost, Abraham, Angot et Prevel sont désignés comme membres
+                supplémentaires.</p>
+              <p>Il est ensuite question de la nomination d'un délégué à la prochaine Assemblée
+                générale qui doit avoir lieu à Paris en novembre. Le camarade Cagnard est désigné à
+                l'unanimité et les frais de déplacement usuels lui sont accordés.</p>
+              <p>Sur une observation du camarade Cagnard relative au prêt pouvant être consenti aux
+                membres de l'U. A. G., les membres présents émettent le vœu suivant : " Que le
+                montant de la somme pouvant être mise à la disposition " des membres de l'U. A. G.,
+                tout en ne pouvant être supérieur à " cinq mille francs, soit accordé en son entier
+                aux camarades qui en " feraient la demande, avec justifications et que le délai de
+                rembour" sement soit prolongé. »</p>
+              <p>Le Président donne connaissance à l'Assemblée d'un projet tendant à accorder une
+                indemnité supplémentaire à la veuve des camarades lors de leur décès. Après
+                explication, l'Assemblée émet le vœu suivant : " Demande que l'allocation accordée à
+                la veuve lors du décès " d'un camarade soit porté à 1.200 francs, et d'y ajouter une
+                indem" nité supplémentaire de 100 francs par enfant âgé de moins de dix" huit ans.
+                »</p>
+              <p>Le Président fait savoir qu'il a reçu le 24 juin, de la Préfecture de la
+                Seine-Inférieure, une communication pour l'élection d'un membre au Comité
+                départemental des Mutilés et Réformés de la guerre, laquelle doit avoir lieu le
+                dimanche 12 juillet 1925.</p>
+              <p>Cette communication parvenant par anticipation à la réunion de ce jour, le camarade
+                Godard informe les membres de la Section départementale qu'après autorisation du
+                Conseil d'administration, il a déposé sa candidature le 27 juin, délai imparti.</p>
+              <p>Ratification est faite de la décision du Bureau.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>Le Président informe les camarades présents que la prochaine réunion aura lieu en
+                septembre 1925.</p>
+              <p>L'ordre du jour étant épuisé, et les membres présents ne demandant plus la parole,
+                la séance plénière est levée à 11 h .10 du matin.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">LEGION D'HONNEUR</head>
+              <p>Par décret du 2 juillet 1925, pour prendre rang du 11 août 1924, a été nommé au
+                grade de Chevalier de la Légion d'honneur :</p>
+              <p>Cachet (Joseph), ex-soldat du 158<hi rend="superscript">°</hi> régiment
+                d'infanterie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">AVIS IMPORTANT</head>
+              <p>Aux camarades des départements de la Charente-Inférieure, de la Dordogne, des
+                Landes, des Hautes-Pyrénées, des Basses-Pyrénées et de la Gironde.</p>
+              <p>L'Assemblée annuelle de la Section régionale de Bordeaux aura lieu, le lundi 5
+                octobre, salle de l'Athénée, à 14 heures précises.</p>
+              <p>ORDRE DU JOUR :</p>
+              <p>1<hi rend="superscript">°</hi> Rapports moral et financier de la Régionale ; 2<hi
+                  rend="superscript">°</hi> Nouveaux statuts des Sections; 3<hi rend="superscript"
+                  >°</hi> Rapports moral et financier de l'U. A. G. ; 4<hi rend="superscript">°</hi>
+                Etude de ces rapports et des vœux présentés devant les Commissions ; 5<hi
+                  rend="superscript">°</hi> Nomination d'un délégué.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents: Courteix, Grillet, NicolaI. Secrétaire général
+              : Faybet. Trésorier : Gaston L'Evesque. Membres : Amar, Antoine, Arnault, Bardoux,
+              Bertrand, Bois, Carasson, Conan, Derunder, Dufourc, Fauvel, Goubin, Gudefin, Izaac,
+              Laffargue. Lagarde, Lallement, Lauté, Leloup, Malgat, Noireaux, Robert (Maurice),
+              Toudouni, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur ; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint ; M. Auterbe, Actuaire à la Compagnie «L'Union»; M. Marcel Bloch.</p>
+            <p>Mme Broguin. M. Chepfer. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation</p>
+            <p>Mlle Jalaguier. Mme Henri. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal. M. Joseph Roux. M. Sollar.</p>
+            <p>D' Schneider.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">Liste des Donateurs</head>
+            <p>M. G. Scheideker, à Muttersholz (Bas-Rhin), 55 francs. M. Zoler, à Paris, 100 francs.
+              - Les Maîtresses et les Elèver de l'Ecole de Jeunes Filles Saint-Roch, à Toulon, 25
+              francs. - Anonyme, n <hi rend="superscript">°</hi> 20.767, 10 francs. - Mme Arthur
+              Luck, à Londres, 300 francs. - M. Ducasse, à Paris, 100 francs. - M. Romans, Charols
+              (Drôme), 20 francs. - M. Léopold Lévy, Paris, 100 francs. - Le Personnel de l'Ecole du
+              Jardin de ville de Grenoble, 20 francs. Mme Baudonnet, à Guithary (Basses-Pyrénées),
+              25 francs. Mme Quirière, à Evreux (Eure), 25 francs. - Les Elèves de l'Ecole de
+              Filles, Cours Julien, Marseille, 30 francs. - Société La Sidi Brahim du Canton de
+              Longwy, 2.031 fr. 55. - M. Héloing, à Buenos-Aires, 500 francs. - Anonyme n <hi
+                rend="superscript">°</hi> 20.896, 200 francs. Les Elèves de l'Ecole de Filles à
+              Schremange (Moselle), 10 francs. - Ecole de Filles du Cours Jaurès, à Grenoble, 49
+              francs. M. Jean de Kermoingant, Paris, 200 francs. - Les Elèves du Cours
+              complémentaire de l'Ecole de Filles, 23, rue Geoffroy-l`Asnier, Paris, 20 francs. - Un
+              lecteur de l'Intransigeant, 20 francs.</p>
+            <p>Erratum. - Bulletin d'août : Mme de la Chapelle, Château de Gelis, par Limoux (Aude),
+              2.000 francs et non 200 francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

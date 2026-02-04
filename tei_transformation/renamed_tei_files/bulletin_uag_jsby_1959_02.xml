@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 38ème année 1959 n°130</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Retraite du combattant</title>
+        <title type="topic">Association d'anciens combattants</title>
+        <title type="topic">Ministère des Anciens Combattants</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 22 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#retraite">Retraite</term>
+          <term ref="#triboulet">Triboulet</term>
+          <term ref="#assurance">Assurance</term>
+          <term ref="#cotisations">Cotisations</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde les préoccupations des
+          anciens combattants concernant la stabilité de leur retraite et les menaces de
+          suppressions potentielles. Il relate également les actualités concernant le Ministère des
+          Anciens Combattants, notamment la nomination de M. Triboulet et les audiences
+          ministérielles. Le document détaille les activités de l'association, les informations sur
+          l'assurance-groupe, les contributions des sections départementales, ainsi que les
+          mariages, naissances et décès parmi les membres. Enfin, il fournit des informations
+          pratiques concernant les vacances dans les maisons de repos, les tarifs postaux pour le
+          braille, et les cotisations.</p>
+      </abstract>
+      <creation>
+        <date when="1959-02-01">01/02/1959</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">PROCHE AVENIR</ref>
+          </item>
+          <item>
+            <ref target="#h5">UN PREMIER RÉSULTAT</ref>
+          </item>
+          <item>
+            <ref target="#h6">M. TRIBOULET, MINISTRE DES ANCIENS COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h7">AUDIENCE MINISTERIELLE</ref>
+          </item>
+          <item>
+            <ref target="#h8">RETRAITE DU COMBATTANT</ref>
+          </item>
+          <item>
+            <ref target="#h9">RAPPORT CONSTANT</ref>
+          </item>
+          <item>
+            <ref target="#h10">REORGANISATION DE L'OFFICE NATIONAL DES ANCIENS COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h11">LE BANQUET DU COMITÉ D'ENTENTE</ref>
+          </item>
+          <item>
+            <ref target="#h12">A L'ATTENTION DE NOS CAMARADES SOURDS OU AMPUTÉS</ref>
+          </item>
+          <item>
+            <ref target="#h13">TARIFS POSTAUX</ref>
+          </item>
+          <item>
+            <ref target="#h14">POUR LES VACANCES</ref>
+          </item>
+          <item>
+            <ref target="#h15">AVANT LE 15 MARS PROCHAIN</ref>
+          </item>
+          <item>
+            <ref target="#h16">DEMANDE DE SÉJOUR</ref>
+          </item>
+          <item>
+            <ref target="#h17">NOTRE ASSURANCE-GROUPE</ref>
+          </item>
+          <item>
+            <ref target="#h18">APPORT DE NOS SECTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h19">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h20">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h21">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h22">SECTION DU NORD</ref>
+          </item>
+          <item>
+            <ref target="#h23">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h24">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h25">COTISATIONS reçues du 7 janvier 1959 au 4 février inclus</ref>
+            <list>
+              <item>
+                <ref target="#h26">COTISATIONS ORDINAIRES ( 200 francs)</ref>
+              </item>
+              <item>
+                <ref target="#h27">RACHAT DE COTISATION</ref>
+              </item>
+              <item>
+                <ref target="#h28">COTISATIONS CAISSE DE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h29">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h30">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h31">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h32">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h33">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">38e Année. — N° 130</fw>
+          <fw type="header">
+            <hi rend="underline">FEVRIER 1959</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Proche avenir.</item>
+                    <item>Un premier résultat.</item>
+                    <item>M. Triboulet, ministre des Anciens Combattants et Victimes de
+                      Guerre.</item>
+                    <item>Audience ministérielle.</item>
+                    <item>Retraite du combattant.</item>
+                    <item>Rapport constant.</item>
+                    <item>Réorganisation de l'Office national.</item>
+                    <item>A l'attention de nos camarades sourds ou amputés.</item>
+                    <item>Pour les vacances.</item>
+                    <item>Un repas organisé par le Comité d'Entente.</item>
+                    <item>Assurance-Groupe.</item>
+                    <item>Apport de nos sections.</item>
+                    <item>Mariages.</item>
+                    <item>Naissances.</item>
+                    <item>Décès.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                    <item>Cotisations.</item>
+                    <item>Petites annonces.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président: H. AMBLARD. Vice-Présidents: R. FAVRET, H. GUESPEREAU, E. GUILLAM.
+              Secrétaire général : R. COUESNON. Trésorier: G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, P. DERUNDER, P. DUC, A. FAUVEL, Y. GUIBERT, Y. JEZEQUEL, A. LAFFARGUE, D.
+              LEVEAU, G. MULLER, J. NICOLAI, G. OLIE, A. PAGENEL, C. PANTERNE, M. RAVELEAU, G.
+              ROBIN, G. ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>38e Annee. - N° 130 FEVRIER 1959</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PROCHE AVENIR</head>
+            <p>L'année 1959 a commencé pour les Anciens Combattants dans une atmosphère assez
+              confuse qui nous amène à nous poser bien des questions.</p>
+            <p>Il est certain que nous nous réjouissons tous de voir notre pays enfin doté d'un
+              système stable, qui ne peut être que salutaire pour la marche de nos affaires. On se
+              rend compte du retentissement qu'à l'étranger, ce redressement, bien dans notre
+              manière, a produit d'heureux effets, mais comme dans toutes grandes choses il y a des
+              imperfections. On ne peut nier que les anciens combattants ne furent pas le point de
+              mire de ceux qui tentaient de réaliser des économies à tout prix.</p>
+            <p>L'émotion causée dans nos rangs par la menace de la suppression de la retraite du
+              combattant pour un bon nombre, en est la preuve et les aveugles de guerre diront
+              simplement qu'il est pour le moins inélégant de supprimer cette maigre retraite à
+              certains hommes dont la condition modeste est souvent le résultat d'un séjour plus ou
+              moins prolongé dans les tranchées. Il y a là une légèreté vis-à-vis d'engagements pris
+              solennellement. Il faudrait bien qu'une fois pour toutes il soit entendu qu'on
+              respecte les droits acquis, d'une génération d'hommes qui s'amenuisent de jour en
+              jour.</p>
+            <p>Hier encore, un grand quotidien du soir annonçait, avec un point d'interrogation, une
+              révision du rapport constant. Renseignements pris, ceci ne nous concerne pas, mais que
+              signifient tous ces articles?</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+            <p>Non seulement nous n'attendons pas de diminution en ce qui nous concerne, mais nous
+              étions fondés, sur les promesses faites, voir une mise au point d'une situation trop
+              longtemps négligée. Ceci devait faire partie d'un programme bien restreint de
+              redressement indispensable pour lequel nous aurons à plaider, démarcher et
+              convaincre.</p>
+            <p>Nous ne perdons pas courage, loin de là, car nous sentons avec nous la masse de nos
+              camarades, qui toute entière nous fait confiance et nous engage à aller de
+              l'avant.</p>
+            <p>Il est indispensable que nous demeurions tels que nous sommes, extrêmement unis, ne
+              pensant qu'à notre association et à nos camarades qui attendent de nous que leur soit
+              consenti un peu plus de justice. Aucune considération particulière ne doit nous
+              effleurer et nous continuerons comme par le passé, à songer aux aveugles de guerre, à
+              celles que nos camarades ont laissées en nous quittant prématurément et nous aurons
+              ainsi accompli la volonté unanime de tous les membres de notre bien bonne association.
+              H. AMBLARD.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">UN PREMIER RÉSULTAT</head>
+            <p>Une profonde inquiétude s'est emparée, au début de l'année, du monde ancien
+              combattant.</p>
+            <p>Pressé par le temps et par les circonstances, le Gouvernement a pris des décisions
+              hâtives, promulgué des ordonnances qui portent atteinte et préjudice à des droits
+              reconnus par la loi.</p>
+            <p>Le bruit avait couru avec insistance que dans le nouveau Gouvernement qui devait se
+              former après l'élection du Président de la République, il n'y aurait plus place pour
+              un Ministère des Anciens Combattants et chacun de se demander où allaient échouer les
+              divers services qui ont la charge de nos intérêts.</p>
+            <p>Or, nous avons le plaisir de constater que notre ministère a été maintenu. La voix de
+              ceux qui se sont battus et qui combattent encore sera, nous l'espérons, directement
+              entendue.</p>
+            <p>C'est un acte de justice, un premier succès, que nous enregistrons avec satisfaction.
+              R. C.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">M. TRIBOULET, MINISTRE DES ANCIENS
+              COMBATTANTS</head>
+            <p>CURRICULUM VITAE DE M. RAYMOND TRIBOULET, communiqué par le Ministère des Anciens
+              Combattants</p>
+            <p>Né le 3 octobre 1906, M. Raymond Triboulet est licencié en droit et lettres.</p>
+            <p>Elève officier de réserve à Saint-Cyr, il sort deuxième de sa promotion. M. Raymond
+              Triboulet, en 1928, après son mariage, se consacre à la direction d'une exploitation
+              agricole. Il s'intéresse dès lors de très près à tous les problèmes agricoles et écrit
+              sur ce sujet dans plusieurs journaux et revues.</p>
+            <p>Dès la déclaration de guerre en 1939, M. Raymond Triboulet rejoint comme lieutenant
+              le 208<hi rend="superscript">°</hi> régiment d'infanterie. Il se distingue dans les
+              combats très durs livrés par cette unité au cours de l'offensive allemande du 10 mai
+              1940 et fait l'objet d'une citation à l'ordre du régiment.</p>
+            <p>Fait prisonnier le 18 juin 1940, il est libéré comme grand malade le 13 février
+              1941.</p>
+            <p>Dès son retour, M. Raymond Triboulet prend contact avec les organisations de
+              résistance. En novembre 1941, il établit une liaison <pb n="6"/>
+              <note type="foliation">— 6 —</note> clandestine entre le Calvados et Paris et organise
+              un réseau de renseignements sur la côte de la Manche en liaison étroite avec le réseau
+              "Alliance» et «Ceux de la Résistance».</p>
+            <p>En avril 1944, il est nommé secrétaire du Comité départemental de la Libération. Le 7
+              juin 1944, aussitôt après le débarquement, il s'efforce, aidé par M. Maurice Schumann,
+              de faire reconnaître l'autorité nouvelle de la résistance auprès du quartier général
+              britannique,</p>
+            <p>Après le passage du général de Gaulle à Bayeux, il est nommé, le 15 juin, premier
+              sous-préfet de la France libérée.</p>
+            <p>En avril 1945, il fonde le Comité du Débarquement qui est placé sous sa présidence et
+              sous le haut patronage des trois ambassadeurs alliés, ainsi que des personnalités
+              françaises les plus marquantes ayant débarqué en juin 1944 sur les côtes de
+              France.</p>
+            <p>Ce comité est à l'origine de la loi du 21 mai 1947 assurant la célébration des fêtes
+              commémoratives du débarquement et perpétue le souvenir d'un des plus grands événements
+              de l'Histoire en créant des musées et des monuments commémoratifs. M. Raymond
+              Triboulet demeure sous-préfet de Bayeux jusqu'en 1946, où il prend les fonctions
+              d'inspecteur régional du Gouvernement militaire de Rhénanie.</p>
+            <p>Elu député du Calvados le 10 novembre 1946, il est brillamment confirmé dans son
+              mandat à l'Assemblée Nationale le 17 juin 1951 comme tête de liste du R.P.F. Il
+              devient, le 29 juin 1954, président de son groupe.</p>
+            <p>Comme rapporteur de la Commission de la Défense nationale, il est un des principaux
+              responsables de l'échec de la C.E.D. M. Raymond Triboulet avait fondé, dès 1947, le
+              Groupe fédéraliste européen du Parlement; il fut membre suppléant de l'Assemblée
+              consultative du Conseil de l'Europe, puis membre de l'Assemblée commune de la
+              C.E.C.A.</p>
+            <p>En janvier 1955, il devient ministre des Anciens Combattants dans le cabinet Edgar
+              Faure : il démissionne en octobre pour combattre l'abandon du Maroc.</p>
+            <p>En plein reflux du gaullisme, il est néanmoins réélu le 2 janvier 1956 à la tête de
+              la liste des républicains sociaux.</p>
+            <p>Porté aussitôt par ses collègues à la présidence du groupe, il mène les derniers
+              combats entre le "système » agonisant ; c'est à lui que revient l'honneur, au cours de
+              la séance historique du 16 mai 1958, de défendre le général de Gaulle et de provoquer
+              le retournement de l'Assemblée Nationale.</p>
+            <p>Il est désigné par l'Assemblée Nationale comme l'un des trenteneuf membres du Comité
+              consultatif qui a étudié la nouvelle constitution.</p>
+            <p>Le 20 avril 1958, il avait été élu conseiller général du canton de
+              Tilly-sur-Seulles.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+            <p>Ecrivain de talent, M. Raymond Thiboulet a fait paraître en 1939 un essai intitulé
+              Les Billets du Négus; en 1951, un second ouvrage Sens dessus dessous et, il y a
+              quelques mois, un pamphlet politique Des Vessies pour des lanternes. Il est membre de
+              l'Association des Ecrivains Combattants.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">AUDIENCE MINISTERIELLE</head>
+            <p>Le Comité d'Entente groupant les associations des plus grands invalides a été reçu en
+              audience le 22 janvier par le nouveau ministre des Anciens Combattants, M. Raymond
+              Thiboulet.</p>
+            <p>Tous les vœux et toutes les questions en suspens intéressant les grands mutilés ont
+              été exposés minutieusement au ministre. M. Thiboulet, qui reste notre défenseur auprès
+              du gouvernement a assuré le Comité d'Entente de sa sympathie et de son bienveillant
+              appui.</p>
+            <p>Amblard et Couesnon représentaient l'U.A.G.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">RETRAITE DU COMBATTANT</head>
+            <p>Le Ministre des Anciens Combattants et Victimes de Guerre communique : « A la suite
+              d'un accord avec M. le Ministre des Finances et des Affaires économiques, des
+              instructions particulières vont être données aux comptables payeurs, en vue du
+              paiement rapide des sommes dues au titre de la retraite du combattant. «Les anciens
+              combattants bénéficiaires, soit du Fonds national de Solidarité, soit d'une pension
+              d'invalidité de 50% au moins, peuvent percevoir leurs arrérages à la date d'échéance,
+              en justifiant au comptable payeur qu'ils bénéficient de l'un ou l'autre de ces
+              avantages. « Les anciens combattants qui n'entrent pas dans l'une des catégories
+              susvisées, percevront prochainement les sommes qui leur sont dues jusqu'au 31 décembre
+              1958 au titre du régime antérieur à l'ordonnance du 30 décembre 1958. « Il est rappelé
+              que les bénéficiaires de la retraite du combattant sur la base de l'indice de pension
+              33, ont droit, à compter du 1<hi rend="superscript">er</hi> novembre 1958, à un rappel
+              d'augmentation par suite de la fixation à 418 francs de la valeur du point d'indice.
+              Les instructions précitées donneront toutes indications utiles aux comptables pour le
+              paiement de ce rappel. » </p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+            <p>Nous informons les camarades dépendant de la Paierie générale de la Seine qu'ils
+              peuvent retirer dès maintenant une formule, 1, rue de la Banque, Paris (2e), laquelle
+              devra être remplie et retournée affranchie à la Paierie générale de la Seine, 18, rue
+              Notre-Dame-des-Victoires.</p>
+            <p>Le contrôle des renseignements fournis nécessitera des délais assez longs et nous
+              demandons à nos camarades d'être patients.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">RAPPORT CONSTANT</head>
+            <p>Les traitements de fonctionnaires ayant été augmentés de 4 % à partir du 1er FEVRIER
+              1959, par application du rapport constant, la valeur du point a été fixée à cette même
+              date à 435 francs.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">REORGANISATION DE L'OFFICE
+              NATIONAL DES ANCIENS COMBATTANTS</head>
+            <p>Par décret en date du 7 janvier 1959, la composition du Conseil d'administration de
+              l'Office national présidé par le ministre des Anciens Combattants ou son représentant,
+              comprendra désormais trente-deux membres.</p>
+            <p>Dix-sept de ces membres seront désignés par le ministre sur proposition des
+              organisations dont ils relèvent.</p>
+            <p>Des modifications importantes ont été également apportées au fonctionnement des
+              offices départementaux qui perdent une partie de leurs prérogatives.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LE BANQUET DU COMITÉ
+              D'ENTENTE</head>
+            <p>Pour commémorer l'anniversaire de la promulgation de la loi du 22 mars 1935 (statut
+              du G.M.), le Comité d'Entente des plus Grands Invalides organise à la Salle de la
+              Mutualité, 24, rue Saint-Victor, à Paris (5e), un meeting le DIMANCHE 22 MARS, à 9 h.
+              30, sous la présidence de M. Triboulet, ministre des Anciens Combattants, qui sera
+              suivi d'un banquet, à 13 heures, au même endroit.</p>
+            <p>Le prix du repas est de 1.850 francs par personne, tout compris.</p>
+            <p>Les inscriptions devront nous parvenir AVANT LE 28 FEVRIER , dernier délai.</p>
+            <p>Vous voudrez bien adresser le montant de votre participation par virement postal à
+              notre C.C.P. Paris 160-31, EN PRECISANT AU DOS DU MANDAT « Banquet du 22 mars 1959
+              ».</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">A L'ATTENTION DE NOS CAMARADES
+              SOURDS OU AMPUTÉS</head>
+            <p>Le Ministère des Anciens Combattants nous adresse, à toutes fins utiles,
+              l'information suivante : « M. Triboulet, ministre des Anciens Combattants et Victimes
+              de Guerre, désireux de faciliter le renouvellement des appareils de correction
+              auditive, a décidé que les sourds de guerre pourront désormais obtenir auprès du
+              Centre d'Appareillage dont ils relèvent, sur demande motivée et sans formalité,
+              l'attribution d'appareils à transistors, dans tous les cas où ils auront utilisé leur
+              appareil à lampes pendant une période atteignant ou se rapprochant, à quelques mois
+              près, de la durée réglementaire fixée à cinq années. « Les sourds de guerre ne se
+              trouvant pas dans cette situation peuvent bénéficier de la même mesure, après examen
+              individuel de leur demande et sur autorisation spéciale, selon la méthode employée
+              jusqu'à présent, en règle générale.</p>
+            <p>Une deuxième décision concerne les amputés de guerre du membre inférieur : fondée sur
+              les constatations faites pendant la période d'essai, elle autorise, à partir du 1<hi
+                rend="superscript">er</hi> janvier 1959, l'attribution annuelle de trois gaines
+              «DAW» au lieu de deux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">TARIFS POSTAUX</head>
+            <p>Les fidèles usagers du Braille ont certainement appris que depuis le début de
+              l'année, nous avons le loisir de correspondre en Braille sans aucun affranchissement
+              postal.</p>
+            <p>Il en est de même pour nos expéditions de livres et de disques qui se font désormais
+              gratuitement.</p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">POUR LES VACANCES</head>
+            <p>Nous prions nos camarades qui désirent effectuer un séjour dans nos maisons de repos
+              de CARNOLES, AMELIE ou FRANCEVILLE pendant les mois de juillet, août ou septembre, de
+              bien vouloir nous adresser</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">AVANT LE 15 MARS PROCHAIN</head>
+            <p>le questionnaire ci-joint. Une Commission instituée au sein de notre Conseil
+              d'administration examinera et classera les demandes selon la durée des séjours
+              antérieurs. Toutefois, une priorité sera donnée aux camarades ayant des enfants en âge
+              scolaire.</p>
+            <pb n="11"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">DEMANDE DE SÉJOUR</head>
+            <p>(A REMPLIR ET A NOUS ADRESSER AVANT LE 15 MARS, DERNIER DELAI)</p>
+            <p>AMELIE-LES-BAINS - CARNOLES - FRANCEVILLE EN JUILLET - AOUT - SEPTEMBRE</p>
+            <p>Rayerles localités et mois non demandés. Les locations sont faites du 2 au 30 ou 31
+              de chaque mois, les chevauchements sur deux mois n'étant pas possibles.</p>
+            <p>NOM Prénoms Adresse Accompagné de : (Indiquer le degré de parenté, l'âge et le sexe
+              des enfants mineurs.) Le camarade peut être accompagné de sa femme ou de son guide et
+              de ses enfants. La priorité est réservée aux enfants mineurs ou non mariés. Pour les
+              enfants mariés, accompagnant le camarade, l'acceptation est conditionnée aux
+              possibilités de logement.</p>
+            <p>Le Je déclare me conformer au règlement. Signature :</p>
+            <pb n="12"/>
+            <pb n="13"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">NOTRE ASSURANCE-GROUPE</head>
+            <p>Cette assurance, qui est entrée dans sa huitième année le 1<hi rend="superscript"
+                >er</hi> janvier dernier, continue de procurer fidèlement aux personnes désignées
+              par nos camarades disparus en cours d'exercice le secours financier pour lequel ils
+              s'étaient sagement garantis. L'année s'est terminée avec des résultats relativement
+              satisfaisants.</p>
+            <p>Six adhérents à notre groupe sont décédés en 1958, chiffre toujours trop élevé à
+              notre gré ; aux familles atteintes par le malheur, il a été versé, en conformité du
+              contrat, une somme globale de 2.100 .000 francs.</p>
+            <p>Pour 1959, nous restons 268 camarades assurés et les capitaux garantis s'élèvent à un
+              total de 97.600 .000 francs.</p>
+            <p>Vous avez reçu une formule de chèque postal accompagnée d'une lettre circulaire vous
+              demandant d'acquitter la prime afférente au semestre en cours. Nous espérons que vous
+              l'avez fait diligemment en utilisant uniquement la formule de chèque.</p>
+            <p>Les heureux résultats de l'exercice 1958 ont permis à notre assureur, la compagnie La
+              Nationale, de nous ristourner une somme de 1.084.494 francs au titre de part
+              bénéficiaire. Cette somme a été déduite du montant des primes des deux semestres de
+              1959; de ce fait, les versements qui vous sont demandés sont inférieurs de 27,51 % au
+              barème légal.</p>
+            <p>Et maintenant, longue vie à nos adhérents, afin que l'an prochain nous puissions
+              présenter des résultats aussi satisfaisants. E. G. P.S. - Pour l'instant, il n'est pas
+              possible d'inscrire de nouveaux adhérents ni d'augmenter les contrats souscrits.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">APPORT DE NOS SECTIONS</head>
+            <p><list>
+                <item>Section départementale du Gers et Hautes-Pyrénées — Président : Chalendar —
+                  Fr. 25.000</item>
+                <item>Section du Pas-de-Calais — Président : Derunder — 2.500</item>
+                <item>Section Tarn — Président : Satgé — 8.900</item>
+              </list> Nous adressons aux présidents et à leurs collaborateurs nos plusvifs
+              remerciements pour leur activité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">MARIAGES</head>
+            <p>Nous apprenons le mariage de notre camarade : Dargegen Xavier, de Erstein (Bas-Rhin),
+              avec Mme Elise Steiner,le 5 juillet 1958. Hélène, fille de notre camarade Lévy Mimoun,
+              de Tlemeen, avecM. Claude Soutif, le 5 janvier 1959. Danièle, fille de notre camarade
+              Pons René, de Sète (Hérault),avec M. Henri Briant, le 6 février 1959. Nous adressons
+              nos bien vives félicitations à nos camarades et nosvoux de bonheur aux jeunes
+              époux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">NAISSANCES</head>
+            <p>Nous apprenons la naissance de : Gilles, petit-fils de notre camarade Cance Jules, de
+              Gournay-sur-Marne (Seine-et-Oise), le 1<hi rend="superscript">er</hi> janvier 1959.
+              Hervé, petit-fils de notre camarade Garros Pierre, de Toulouse (Haute-Garonne), le 28
+              décembre 1958. Philippe, petit-fils de notre camarade François Delcey, de
+              Lon-sle-Saunier (Jura), le 11 janvier 1959. Philippe, petit-fils de notre camarade
+              Lecomte Fernand, de Hérin (Nord), le 16 décembre 1958. Nous adressons nos bien vives
+              félicitations à nos camarades etnos voux de prospérité aux bébés.</p>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : Cailleau Gaston (14-18), de Castres
+              (Tarn), le 7 janvier 1959. Aubert Sauveur (14-18), de Perpignan (Pyrénées-Orientales),
+              le 3 janvier 1959.</p>
+            <p>Debeaurain Emile (14-18), de Pont-Audemer (Eure), le 24 janvier 1959.</p>
+            <p>Jung Paul (14-18), de Plouescoat (Finistère), le 7 janvier 1959. Cornet Joseph
+              (14-18), de Loches (Indre-et-Loire), janvier 1959. Guiton François (14-18), de
+              Champtoceaux (Maine-et-Loire), le 29 janvier 1959.</p>
+            <p>La femme de notre camarade Preot Alfred, de Cézy (Yonne), le 31 décembre 1958.</p>
+            <p>La mère de notre camarade Baud-Grasset Joseph, de Bogève (Haute-Savoie), le 4 octobre
+              1958.</p>
+            <p>Mme Léger, veuve de notre camarade, de Merville-Franceville (Calvados), le 27 janvier
+              1959.</p>
+            <p>Le beau-père de notre camarade Guillon Edouard, de Nanterre (Seine), décembre
+              1958.</p>
+            <p>Mlle Fany Fouillond, infirmière à l'école de rééducation de Dijon, le 22 janvier
+              1959.</p>
+            <p>Nous adressons aux familles éprouvées, notre affectueuse sympathie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">SECTION DU NORD</head>
+            <p>Notre Section du Nord a à déplorer la perte de son trésorier, M. Jules Rinjonneau,
+              fidèle et dévoué ami des aveugles de guerre et qui a rendu de nombreux services à la
+              section.</p>
+            <p>Nous redisons à la famille du disparu notre bien vive sympathie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>Barbier Eugène, Hôpital civil, Saverne (Bas-Rhin). Bouleis Lucien, 20 bis, avenue
+              Henri-Jullien, Nantes (LoireAtlantique).</p>
+            <p>Munoz Lucien, 29, chemin de Cabestany, Perpignan (PyrénéesOrientales).</p>
+            <p>Roger Maurice, rue du Maréchal-Leclerc, Auneau (Eure-et-Loire). Thubeuf Henri, chez
+              Mme Isnard, traverse Bonnet, Plateau de la Viste, Marseille- 15<hi rend="superscript"
+                >°</hi> (Bouches-du-Rhône).</p>
+            <p>Tonet Henri, dit Amel, 75, boulevard Charles-Livon, Marseille (Bouches-du-Rhône).</p>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">COTISATIONS</head>
+            <p>Afin d'éviter des erreurs, nous demandons instamment aux camarades de préciser sur
+              leurs règlements la destination exacte de leur envoi.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">COTISATIONS reçues du 7 janvier
+              1959 au 4 février inclus</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS ORDINAIRES ( 200
+                francs)</head>
+              <p>Adam Joseph, Agniel Albert, Aldrin René-Henri, Amann Bernard, Armando Marie, Armet
+                Joseph, Arnault Roger, Aubin Paul, Aufraise Adrien, Auliac Antoine, Avizou Elie,
+                Ayache Joseph, Ayma Albert.</p>
+              <p>Babel André, Babert Roger, Bac Isidore, Barbette Louis, Barnabé Claude, Batot
+                Onésime, Battistini Jean, Beauvais Raymond, Beauval Joseph, Béchet Hubert, Bendries
+                Paul, Benharoche Maurice, Beucher Adrien, Biblocque Paul, Birkner Joseph, Biro
+                Tigor, Blanc Antoine, Blaszyk Joseph, Blayes Paul, Mme Bloncourt Irène, Bobon
+                Victor, Boche Joseph, Bochrer Charles, Bon Antonin, Bonde Daniel, Bondonnat Eugène,
+                Bordier Henri, Bouchet Georges, Bouisson Denis, Boulanger Auguste, Boulanger
+                Camille, Bouleis Lucien, Bouley Eugène, Bouresy René, Bourguignon Octave, Boutin
+                Pierre, Bouval Louis, Bozec Joseph, Brassac Henri, Brice Marcel, Brunin Georges,
+                Brunon Victor, de Budt Gustave, Burnier Jean.</p>
+              <p>Calvez Laurent, Casile Robert, Cassan Valentin, Cassat Gustave, Castagne Théodore,
+                Catoire Marcel, Cavanez Jean, Cayrel Joseph, Charles Henri, Charpentier André,
+                Chastaing Adrien, Cheutet Jean, Choron Pierre, Citeau Jean, Clairotte Daniel,
+                Clément Pierre-Henri, Com Pierre, Contoux François, Cormerais Claude, Courtand
+                Georges, Culot Paul, Cuniasse Paul, Cuny Jules.</p>
+              <p>Daigremont Octave, Dargegen Xavier, Dauchez Louis, Daumas Pierre, Dautel Maurice,
+                David Marcel, David Joseph-Edouard, Dejean de Saint-Marcel, Delahaye Robert,
+                Delepierre Théophile, Deletre Georges, Demaret Jules, Demontpion François, Deniau
+                Raymond, Dentroux Joseph, Descourrière Julien Deslandes Pierre, Dessartre Maurice,
+                Diaz Henri, Dillinger Eugène, Domalain Roger, Doumerch Léopold, Draperi Jacques,
+                Dubois Aimé, Dufresne Charles, Dunie Pierre, Duplan Ferdinand, Dupond Léon, Dupont
+                Eugène, Durand Jean-Marie.</p>
+              <pb n="17"/>
+              <note type="foliation">— 17 —</note>
+              <p>Egretier Jean-Ulysse, Escoffier Lucien, Evrard Auguste, Eycheune Etienne, Ezard
+                René.</p>
+              <p>Favier Frédéric, Fehse Maxime, Felgerolles Henri, Félix Mariue, Ferbos Paul, Fernen
+                Ahmed ben Boudjema, Ferraris René, Feuillet Antoine, Feuillet Jules, Fillere Félix,
+                Fillonneau Victor, Fleury Julien, Fondement Louis, Fouasse Charles, Frazdi Rachid,
+                Fréeault Philippe, Frémiot Augustin.</p>
+              <p>Galis Jean, Gallet André, Gassmann Paul, Gatuing Bertrand-Jean, Gay Marc, Genieis
+                Camille, Ghiat Boudjema, Gilles Robert, Ginestet Gaston, Girault Raymond, Glaziou
+                Yves, Gohin Constant, Gomy Georges, Gonzales Thomas, Gorce Pierre, Goudaillier
+                Lucien, Goudal Jules, Gouy Pierre, Grizard Gilbert, Grosso Raymond, Gruner Jean,
+                Guignot Gustave, Guillouche Lucien, Guilhenjouan Jean, Guinet Léon, Guy Louis,
+                Guyennet Joseph, Guyot André.</p>
+              <p>Haenel Geoffroy, Hardoin André, Henry Lucien, Henry Sébastien, Hervé Yann, Hervoir
+                Albert, Hoertel Henri, Houdre Raymond, Hone René, Hubert Georges, Hunez Victor, Huot
+                Marcel, Hutin Lucien, Huyeng Henri.</p>
+              <p>Janson Charles, Jegu Jean, Jouan François, Jouen Albert, Juif Georges.</p>
+              <p>Kalfous Albert, Kerrien François, Kniebihli Louis. Laborie Gabriel, Lafon Pierre,
+                Lalle René, Lambert Philippe, Lardinais Claude, Le Barz Emile, Lehmann Marcel,
+                Lemarie Georges, Lemerle Alphonse, Lenoir Robert, Le Roux Jean, Lesure Maurice, Le
+                Treust Pierre, Lientand Louis, Louchet Joseph, Louyer Henri.</p>
+              <p>Mahé Christian, Maillet Pierre, Mainguy Joseph, Maison René, Malterre Maurice,
+                Manach Jean, Marcelot Noémy, Mardon Maurice, Marquet Louis, Marrannes André, Martin
+                Georges, Martin Henri, Mathey Adolphe, Mathieu Paul, Mathieu Camille, Mauduit
+                Pierre, Maurandy Charles, Maurin Raymond, Maunier Joseph, Meyer Lucien, Meyer Léon,
+                Meyer Marie, Michel Adolphe, Mme Michel Denise, Michot Alexandre, Minier Georges,
+                Minzior Laurent, Miquelis Eugène, Mithouard Marcel, Mittelhauser Eugène, Moequais
+                Gustave, Morin Georges, Morisot André, Morlet André, Mouisset Antoine, Moulet
+                Charles, Montic Raymond, Muller Albert, Muller Georges, Muller Louis, Munoz
+                Lucien.</p>
+              <p>Nadon Henri, Neveux Gilbert, Nicolas Maurice, Niess Richard. Ochoki Vladimir,
+                Ollari Jean, Ollivier Marcel, Ottenwalter René. Palmaro Louis, Pénart Michel,
+                Pennequin Emile, Péri Jean, Perthuis Charles, Petit Alexandre, Peton Pierre,
+                Peyrefitte Léopold, Pic Julien, Pierson Eugène, Pluchot Antoine, Porcheron Alphonse,
+                Prévost Eugène, Prieur Michel.</p>
+              <p>Quemencur Georges. Rancurel Henri-Maurice, Randazzo Philippe, Raynal Joseph, Raynal
+                Pierre, Recégat Paul, Richard Henri, Mme Richez Haidon, Riffaud Edouard, Ritz
+                Eugène, Robert Henri, Rohken Frédéric, <pb n="18"/>
+                <note type="foliation">— 18 —</note> Roillet Jean, Roque Léonce, Rosse Alfred, Ruf
+                François, Ruppert Robert.</p>
+              <p>Sabiani Xavier, Sansot Louis, Savean Louis, Schneider André, Schott Alfred,
+                Serdobbel Paul, Séverae Auguste, Simon René, Soquet Michel, Spelkens Edouard,
+                Stoldick Pierre.</p>
+              <p>Teissier Henri, Thil-Antoine, Thingault Pierre, Thubeuf Henri, Tonet dit Amel
+                Henri, Tonnadre Jean, Touzet Joseph, Trabouillet Bernard, Trog André, Tuaillon
+                René.</p>
+              <p>Van Audenaerde Fernand, Vavasseur André, Véron Louis, Vichet Marius, Vidal Adolphe,
+                Vray Louis.</p>
+              <p>Wagner Rémy, Welter Joseph. Yvon Marcel.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">RACHAT DE COTISATION</head>
+              <p>Barbier Eugène ( 2.000 fr .). Salmon Maurice ( 2.000 fr .).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">COTISATIONS CAISSE DE
+                PREVOYANCE</head>
+              <p>Brunin Georges ( 75 fr.). Daumas Pierre ( 500 fr.), Delahaye Robert ( 275 fr.),
+                Deslandes Pierre ( 400 fr.), Dessartre Maurice ( 500 fr.).</p>
+              <p>Galis Jean ( 500 fr.), Gohin Constant, Guilhenjouan Jean ( 500 fr.). Hervoir Albert
+                ( 500 fr.), Houdre Raymond ( 75 fr.). Le Treust Pierre ( 500 fr.). Marquet Louis (
+                400 fr.). Nottin Georges ( 500 fr.). Quemeneur Georges ( 500 fr.). Ritz Eugène ( 500
+                fr.), Rohken Frédéric ( 75 fr.), Roquet Léonce ( 325 fr.), Rosant René ( 500
+                fr.).</p>
+              <p>Stoldiek Pierre ( 500 fr.). Vavasseur André ( 75 fr.), Villefayot Léon ( 300
+                fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Avec reconnaissance, nous recevons également des dons de la part des veuves de nos
+                camarades ; toutefois, nous leur rappelons qu'elles sont exemptes de toute
+                cotisation annuelle.</p>
+              <p>Aheilhe Paul ( 500 fr.), Agniel Albert ( 300 fr.), Aldrin René-Henri ( 300 fr.),
+                Amann Bernard ( 300 fr.), Armando Marie ( 800 fr.), Armet Joseph ( 300 fr.), Ayaehe
+                Joseph ( 800 fr.), Ayma Albert ( 300 fr.).</p>
+              <pb n="19"/>
+              <note type="foliation">— 19 —</note>
+              <p>Vve Badel Pierre ( 300 fr.), Barnabé Claude ( 300 fr.), Batot Onésime ( 200 fr.),
+                Battistini Jean ( 800 fr.), Vve Baudin ( 500 fr.), Bechet Hubert ( 200 fr.),
+                Benharoche Maurice ( 1.300 fr.), Beucher Adrien ( 300 fr.), Biblocque Paul ( 100
+                fr.), Biro Tigor ( 800 fr.), Blanc Antoine ( 200 fr.), Blayes Paul ( 300 fr.), Mme
+                Bloncourt Irène ( 200 fr.), Boehrer Charles ( 800 fr.), Bouchet Georges ( 300 fr.),
+                Boulanger Auguste ( 300 fr.), Bouley Eugène ( 800 fr.), Bouresy René ( 300 fr.),
+                Bourguignon Octave ( 300 fr.), Boutin Pierre ( 800 fr.), Vve Boyer ( 500 fr.), Bozec
+                Joseph ( 300 fr.), Brassac Henri ( 300 fr.), Brice Marcel ( 300 fr.), Vve Broutin (
+                300 fr.), Brunin Georges ( 300 fr.), Brunon Victor ( 300 fr.), Burnier Jean ( 100
+                fr.).</p>
+              <p>Cado Pierre ( 500 fr.), Calvez Laurent ( 800 fr.), Casile Robert ( 300 fr.), Vve
+                Castor ( 200 fr.), Catillon Georges ( 200 fr.), Catoire Marcel ( 1.000 fr.), Cayrel
+                Joseph ( 300 fr.), Chastaing Adrien ( 300 fr.), Cheutet Jean ( 800 fr.), Choron
+                Pierre ( 300 fr.), Citeau Jean ( 300 fr.), Com Pierre ( 200 fr.), Vve Coniat ( 200
+                fr.), Cormerais Claude ( 300 fr.), Cuniasse Paul ( 300 fr.), Cuny Jules ( 300
+                fr.).</p>
+              <p>Daigremont Octave ( 300 fr.), Dargegen Xavier ( 100 fr.), DarnaudGuilhem Jean ( 200
+                fr.), Dauchez Louis ( 100 fr.), David Marcel ( 800 fr.), David Joseph ( 800 fr.),
+                Vve Deboulet Henri ( 200 fr.), Dejean de Saint-Marcel ( 800 fr.), Delahaye Robert (
+                25 fr.), Delepierre Théophile ( 300 fr.), Delètre Georges ( 800 fr.), Demontpion (
+                200 fr.), Deniau Raymond ( 800 fr.), Dentroux Joseph ( 1.350 fr.), Descourrière
+                Jules ( 800 fr.), Deslandes Pierre ( 100 fr.), Dessartre Maurice ( 1.300 fr.), Diaz
+                Henri ( 300 fr.), Vve de Diégo ( 100 fr.), Dillinger Eugène ( 800 fr.), Domalain
+                Roger ( 300 fr.), Dubois Aimé ( 800 fr.), Dubos Gaston ( 500 fr.), Dunié Pierre (
+                300 fr.), Duplan Ferdinand ( 500 fr.), Durand Jean-Marie ( 150 fr.).</p>
+              <p>Escoffier Lucien ( 300 fr.), Evrard Auguste ( 1.300 fr.), Ezard René ( 50 fr.).</p>
+              <p>Vve Falaise ( 300 fr.), Fehse Maxime ( 100 fr.), Fernen Ahmed ben Boudjema ( 300
+                fr.), Fillère Félix ( 100 fr.), Fillouneau Victor ( 100 fr.), Frécault Philippe (
+                200 fr.), Freydier Raoul ( 500 fr.).</p>
+              <p>Galis Jean ( 300 fr.), Gambert François ( 400 fr.), Gassemann Paul ( 800 fr.), Vve
+                Gautier Paul ( 200 fr.), Vve Gautier René ( 300 fr.), Gay Marc ( 800 fr.), Ghiat
+                Boudjema ( 200 fr.), Gilgenkrantz ( 300 fr.), Ginestet Gaston ( 300 fr.), Girault
+                Raymond ( 300 fr.), Vve Girault Edmond ( 200 fr.), Gohin Constant ( 725 fr.), Gomy
+                Georges ( 800 fr.), Gorce Pierre ( 100 fr.), Goudaillier Lucien ( 250 fr.), Gouy
+                Pierre ( 300 fr.), Grisard Gilbert ( 300 fr.), Grosso Raymond ( 300 fr.), Guignot
+                Gustave ( 100 fr.), Guillouche Lucien ( 300 fr.), Guinet Léon ( 500 fr.), Guy Louis
+                ( 200 fr.), Guyot André ( 300 fr.).</p>
+              <p>Hardoin André ( 800 fr.), Mme Hellec ( 500 fr.), Vve Hénaff ( 250 fr.), Henry
+                Sébastien ( 800 fr.), Hervé Yann ( 800 fr.), Vve Heuze ( 200 fr.), Houdre Raymond (
+                1.250 fr.), Houe René ( 50 fr.), Hubert Georges ( 300 fr.), Huyeng Henri ( 300
+                fr.).</p>
+              <pb n="20"/>
+              <note type="foliation">— 20 —</note>
+              <p>Janzon Charles ( 300 fr .), Jean Pierre ( 200 fr .), Jegu Jean ( 800 fr .), Juif
+                Georges ( 200 fr.).</p>
+              <p>Kalfous ( 300 fr.), Kerrien François ( 200 fr.). Vve Labat ( 500 fr.), Lafon Pierre
+                ( 1.050 fr.), Vve Lanuc Jean (200 fr.), Lardinais Claude ( 300 fr.), Vve Lassierra
+                Robert ( 300 fr.), Lecomte Fernand ( 500 fr.), Lehmann Marcel ( 300 fr.), Vve Lelée
+                Emile ( 150 fr.), Lemarie Georges ( 800 fr.), Lenoir Robert ( 800 fr.), Lesure
+                Maurice ( 100 fr.), Vve Letellier Michel ( 100 fr.), Le Treust Pierre ( 300 fr.),
+                Louchet Joseph ( 300 fr.), Louyer Henri ( 300 fr.).</p>
+              <p>Vve Magat ( 200 fr.), Mahé Christian ( 300 fr.), Mainguy Joseph ( 2.200 fr.),
+                Manach Jean ( 1.000 fr.), Marcelot Noémy ( 300 fr.), Marquet Louis ( 400 fr.),
+                Martin Henri ( 100 fr.), Vve Masson J.-B. ( 500 fr.), Mathieu Camille ( 1.800 fr.),
+                Mauduit Pierre ( 800 fr.), Vve Maurice Jean ( 1.000 fr.), Maurin Raymond ( 300 fr.),
+                Vve Ménager ( 200 fr.), Vve Meunier ( 300 fr.), Meunier Joseph ( 2.000 fr.), Meyer
+                Lucien ( 300 fr.), Mme Michel Denise ( 800 fr.), Pichot Alexandre ( 300 fr.), Minier
+                Georges ( 200 fr.), Minzior Laurent ( 300 fr.), Miquelis Eugène ( 800 fr.), Mocquais
+                Gustave ( 50 fr.), Monsch Lucien ( 500 fr.), Vve Moret Marcel ( 200 fr.), Morin
+                Georges ( 300 fr.), Morlet André ( 800 fr.), Moulet Charles ( 300 fr.), Moutic
+                Raymond ( 400 fr.), Muller Louis ( 300 fr.).</p>
+              <p>Nadon ( 300 fr.), Neveux Gilbert ( 800 fr.). Ollari Jean ( 300 fr.), Ottenwalter (
+                1.000 fr.). Vve Pacome ( 500 fr.), Pennequin Emile ( 100 fr.), Péri Jean ( 300 fr.),
+                Perthuis Charles ( 300 fr.), Peton Pierre ( 100 fr.), Pinet Jean ( 500 fr.), Pluchot
+                Antoine ( 400 fr.).</p>
+              <p>Vve Quehen ( 200 fr.). Rancurel Henri-Maurice ( 300 fr.), Randazzo Philippe ( 300
+                fr.), Vve Raybaud ( 300 fr.), Raynal Joseph ( 100 fr.), Raynal Pierre ( 800 fr.),
+                Richard Henri ( 100 fr.), Mme Richez-Haidon ( 800 fr.), Robert Henri ( 800 fr.),
+                Roque Léonce ( 475 fr.), Rosant René ( 300 fr.), Rosse Alfred ( 200 fr.), Rottée
+                Paul ( 1.000 fr.), Rousseau Raymond ( 1.000 fr.), Ruf François ( 800 fr.).</p>
+              <p>Vve Sabin ( 200 fr.), Sanguine Jean ( 200 fr.), Savean Louis ( 300 fr.), Schott
+                Alfred ( 500 fr.), Spelkens Edouard ( 800 fr.), Stoldick Pierre ( 300 fr.).</p>
+              <p>Thingault Pierre ( 800 fr.), Thomas Alix ( 200 fr.), Thubeuf Henri ( 100 fr.),
+                Tonet dit Amel Henri ( 2.000 fr.), Tonnadre Jean ( 300 fr.), Touzet Joseph ( 300
+                fr.), Trabouillet Bernard ( 300 fr.), Vve Trémeau ( 250 fr.).</p>
+              <p>Vve Valadeau ( 300 fr.), Vve Vaquet ( 500 fr.), Vavasseur André ( 725 fr.), Vve
+                Vial Fernand ( 300 fr.), Villefayot Léon ( 200 fr.).</p>
+              <p>Wagner Rémy ( 300 fr.), Wolff Paul ( 500 fr.). Yvon Marcel ( 800 fr.).</p>
+              <pb n="21"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Bondonnat Eugène ( 300 fr .), de Budt Gustave ( 500 fr .), Vve Dallet ( 1.000 fr
+                .), Doumerch Léopold ( 800 fr .). Gilles Robert ( 500 fr .), Guyennet Joseph ( 300
+                fr .). Jean Pierre ( 200 fr .). Morisot André ( 400 fr .), Munoz Lucien ( 400 fr .).
+                Péri Jean ( 500 fr .), Randazzo Philippe ( 250 fr .), Recegat Paul ( 800 fr .).
+                Vidal Adolphe ( 500 fr .).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Arnault Roger ( 300 fr .), Aubin Paul ( 1.000 fr .). Bendries Paul ( 300 fr .),
+                Blaszyk Joseph ( 300 fr .), Blayes Paul ( 1.000 fr .), Boche Joseph ( 500 fr .), de
+                Budt Gustave ( 500 fr .).</p>
+              <p>Charles Henri ( 500 fr .), Clairotte Daniel ( 500 fr .), Cormerais Claude ( 500 fr
+                .).</p>
+              <p>Daigremont Octave ( 1.000 fr .), Demaret Jules ( 300 fr .). Gay Mare ( 500 fr .),
+                Gilgenkrantz ( 200 fr .), Gilles Robert ( 500 fr .), Guillam Edmond ( 1.000 fr
+                .).</p>
+              <p>Houe René ( 300 fr .). Kalfous Albert ( 500 fr .). Lehmann Marcel ( 500 fr .).
+                Maillet Pierre ( 300 fr .), Morisot André ( 400 fr .), Moulet Charles ( 400 fr .),
+                Munoz Lucien ( 400 fr .).</p>
+              <p>Rancurel Henri-Maurice ( 1.000 fr .), Randazzo ( 250 fr .), Ruppert Robert ( 800 fr
+                .).</p>
+              <p>Thiberge Gustave ( 100 fr .), Thil Antoine ( 300 fr .). Vidal Adolphe ( 500 fr
+                .).</p>
+              <p>Nous sommes très sensibles aux cotisations volontaires que certains camarades
+                veulent bien nous adresser ; leur geste de solidarité nous prouve leur sentiment
+                d'attachement à l'U.A.G. et nous les en remercions bien vivement.</p>
+              <pb n="22"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">PETITES ANNONCES</head>
+            <p>« UN RISEVALTES »</p>
+            <p>Le meilleur des apéritifs Le plus reconstituant des vins doux naturels Livré
+              directement du producteur au consommateur Expédié en fûts, bonbonnes (consignés) ou en
+              bouteilles Franco de port, exempt de toutes taxes S'adresser à M. Toutain, aveugle de
+              guerre, Briouze (Orne).</p>
+            <p>Représentation vins fins toutes régions LACOTAS, Azerat (Dordogne) Vins rouges
+              d'appellation contrôlée, pris départ Saint-Emilion, toutes taxes comprises, en fûts de
+              55 litres, à réexpédier franco.</p>
+            <p>Bergerac : le litre nu, 158 francs. Bordeaux : le litre nu, 203 francs. Réduction de
+              4 francs au litre pour expédition en demi-barrique de 112 litres environ. (Ces prix
+              fin janvier 1959.)</p>
+            <p>PRENDRAIT EN PENSION aveugle de guerre. Pour renseignements, s'adresser à Mme
+              Moulard, veuve d'aveugle de guerre, chez Mme Aimé, 1, rue de l'Horloge, Vernon
+              (Eure).</p>
+            <pb n="23"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents : le Maréchal et Mme la Maréchale JUIN. Vice-Président : M <hi
+                rend="superscript">°</hi> MASSON. Vice-Présidentes : Mmes CONTAMIN et DU BOS.
+              Secrétaire : M. COLLIER. Vice-Présidente honoraire : Mlle ARBEL. Trésorier honoraire :
+              M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M <hi rend="superscript">°</hi> BRULLIARD, MM. DE
+              CHAUMONT-QUITRY, CHEPFER, Mme COLLIER, D<hi rend="superscript">r</hi> COUTELA, Mme
+              DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle LEDOUX, D' RICORD, Mmes ROUX,
+              TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD, délégué au Mexique, le Président de
+              l'Association des Anciens Combattants Français en Argentine.</p>
+            <pb n="24"/>
+          </div>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

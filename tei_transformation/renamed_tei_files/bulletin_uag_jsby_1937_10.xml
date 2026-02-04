@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 19ème année 1937, n°9</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Association</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Actualités</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">Maison des Aveugles de Guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 8 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#anciens-combattants">anciens combattants</term>
+          <term ref="#invalidite">invalidité</term>
+          <term ref="#paris">Paris</term>
+          <term ref="#alsace-lorraine">Alsace-Lorraine</term>
+          <term ref="#pensions">pensions</term>
+          <term ref="#cout-de-la-vie">coût de la vie</term>
+          <term ref="#maison-des-aveugles">Maison des Aveugles</term>
+          <term ref="#voyages-collectifs">voyages collectifs</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin détaille les activités de l'Union des Aveugles de Guerre, notamment l'accueil
+          des camarades alsaciens-lorrains à Paris, les concerts organisés pour les membres, et les
+          démarches entreprises concernant les pensions et le coût de la vie. Il inclut des
+          chroniques sur la Caisse Fraternelle, des nouvelles des membres (naissances, mariages,
+          décès), des informations pratiques sur la Maison de l'Union, et des petites annonces. Le
+          bulletin met également en avant des inventions utiles aux aveugles et une liste des
+          donateurs.</p>
+      </abstract>
+      <creation>
+        <date when="1937-10-01">01/10/1937</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h4">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h6">A Paris</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOS CAMARADES ALSACIENS-LORRAINS A PARIS</ref>
+          </item>
+          <item>
+            <ref target="#h8">LA MAISON DES AVEUGLES DE GUERRE ET LES VOYAGES COLLECTIFS</ref>
+          </item>
+          <item>
+            <ref target="#h9">LES PENSIONS ET LE COUT DE LA VIE</ref>
+          </item>
+          <item>
+            <ref target="#h10">NOS CONCERTS</ref>
+          </item>
+          <item>
+            <ref target="#h11">ATTENTION !</ref>
+          </item>
+          <item>
+            <ref target="#h12">CHANGEMENT D'ADRESSE</ref>
+          </item>
+          <item>
+            <ref target="#h13">PETITES INVENTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h14">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h15">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h16">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h17">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h19">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h20">NOTRE MAISON</ref>
+              </item>
+              <item>
+                <ref target="#h21">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h22">DONS AVEC AFFECTATION SPÉCIALE POUR LA "MAISON DES AVEUGLES DE
+                  GUERRE"</ref>
+              </item>
+              <item>
+                <ref target="#h23">LISTE DES DONATEURS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h25">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h26">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">19e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">OCTOBRE 1937</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>A Paris.</item>
+                    <item>Nos camarades Alsaciens-Lorrains à Paris.</item>
+                    <item>Les pensions et le coût de la vie.</item>
+                    <item>Nos concerts.</item>
+                    <item>Attention.</item>
+                    <item>Changement d'adresse.</item>
+                    <item>Petites inventions.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre-Nous.</item>
+                    <item>Dans notre Maison.</item>
+                    <item>Avis divers.</item>
+                    <item>Liste des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Comité de Patronage</head>
+            <p>\dagger M. Bricux, de l'Académie Fran. çaise, Président honoraire; \dagger M.
+              Barthou, ancien Président du Conseil; M. le colonel Fabry, Député, an. aien Ministre;
+              \dagger M. le général Balfourier; M. Brisac, Préffet; M. J. Ridgely-Carter; M. Paul de
+              Cassagnac, ancien Député; M. Maurice Donnay, de l'Acadé. mie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien Minis. tre;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol, ancien
+              Sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer, Conseiller d'Etat; M. Henry
+              Paté, Député; \dagger <hi rend="superscript">M</hi><hi rend="superscript">e</hi>
+              Henri-Robert, de l'Académie française, ancien Bationnier de l'Ordre des Avocats; M. le
+              général Sainte-Claire-Deville; \dagger M. Vallery-Radot;</p>
+            <pb n="3"/>
+          </div>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE N° 9 OCTOBRE 1937</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">A Paris</head>
+            <p>Quand Janine s'éveilla ce matin-là, elle secoua sa tête encore un peu alourdie par le
+              sommeil profond de la nuit et ouvrit des yeux étonnés sur les choses qui
+              l'entouraient. Mais, de suite, l'ordre se fit dans ses idées, et elle sauta vivement à
+              terre pour aller coller son nez à la vitre de la petite chambre qu'elle occupait. Elle
+              regarda pendant un moment un jardin entouré de maisons qu'elle ne connaissait pas et
+              elle se rappela que la veille, arrivée après la nuit tombée, elle était venue là se
+              reposer des fatigues d'un long voyage.</p>
+            <p>Elle était à Paris. A cette pensée son cceur de seize ans se gonfla de joie, et la
+              réalisation enfin arrivée de ce rêve longtemps caressć l'emplit d'un immense plaisir.
+              Paris, dont on parlait souvent avec les camarades de classe, Paris qui attire les
+              visiteurs des quatre coins du monde allait être à elle; c'était comme une conquête;
+              elle alla promptement s'apprêter pour descendre en compagnie de ses parents, prendre
+              son petit déjeuner dans cette maison déjà bruissante de vie. Songeait-elle à ce
+              moment, cette jeune fille, pourquoi elle était dans cette grande maison neuve si bien
+              agencée ? Réalisait-elle que tout cela était parce qu'un beau jour son père, encore
+              jeune alors, était tombé donnant ses yeux pour la défense de son pays? Sans doute que
+              non. Dans sa hâte de connaître tout de suite cette grande ville, elle ne réfléchissait
+              pas à ce qu'il avait fallu de volonté et d'esprit d'entente pour que des hommes comme
+              son père aient pu grouper autour d'eux assez de sympathie, de concours, pour
+              construire ce foyer qui lui donnait une facilité exceptionnelle pour visiter à son
+              aise et les monuments et les musées, et surtout cette Exposition unique dont on
+              parlera encore longtemps une fois rentré chez soî.</p>
+            <p>Mais tôt ou tard elle y songera et sera bien reconnaissante à son père de l'avoir
+              menée un jour à Paris, où dans la splendeur de cette belle fin d'été elle avait vu des
+              choses qu'on ne reverra peut-être pas. H. A.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOS CAMARADES ALSACIENS-LORRAINS A
+              PARIS</head>
+            <p>Pendant trois jours, nos camarades d'Alsace et de Lorraine sont venus séjourner dans
+              notre Maison et cela a été une grande joie pour nous de voir les aveugles de guerre
+              des départements recouvrés user de leur Maison tout comme les camarades des autres
+              provinces.</p>
+            <p>Le soir de l'arrivée, les adhérents de l'Union de la Région Parisienne s'étaient
+              joints à eux pour assister à une petite fête donnée dans notre grande salle, où le
+              chansonnier Chepfer, d'ailleurs membre de notre Comité d'Action, a ravi l'assistance
+              avec ses chansons et monologues.</p>
+            <p>Le beau temps a favorisé le séjour de nos camarades alsacienslorrains et nous
+              espérons que cet exemple de visiter notre Maison par groupe régional sera imité par
+              des camarades d'autres sections désirant effectuer un agréable et gai séjour à
+              Paris.</p>
+            <p>Notre camarade Freidinger nous prie d'insérer l'article suivant:</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LA MAISON DES AVEUGLES DE GUERRE
+              ET LES VOYAGES COLLECTIFS</head>
+            <p>Par la présente je vais tâcher de donner un aperçu bref et objectif de la visite à
+              Paris des aveugles de guerre de l'Alsace et de la Lorraine.</p>
+            <p>Pour faire connaître à mes camarades aveugles de guerre et à leurs familles, et en
+              particulier à ceux de nos départements recouvrés, les beautés et l'activité de Paris,
+              l'Exposition Internationale et surtout la Maison de l'Union des Aveugles de Guerre,
+              j'ai organisé un voyage collectif; le succès fut complet.</p>
+            <p>La direction de l'U.A.G. se montrait très favorable à mon projet et, pour ne pas
+              déraiger le bon fonctionnement de la Maison même, les chambres nécessaires furent
+              demandées deux mois et demi à l'avance. Le nombre des participants était de soixante
+              et vingt-six chambres de la Maison furent occupées.</p>
+            <p>21 septembre: Arrivée à Paris; bon et cordial accueil dans la Maison de l'Union ;
+              petite soirée artistique suivie d'une sauterie; les auditeurs pouvaient applaudir
+              entre autres le célèbre chansonnier lorrain Georges Schepfer. Nombreux étaient les
+              camarades parisiens qui témoignaient ainsi leur sympathie et leur amitié.</p>
+            <p>22 septembre: Visite de Paris. La petite caravane se mit en deux autccars et la
+              grande capitale fut sillonnée du nord au sud, de l'est</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>à l'ouest. Quelle joie parmi les participants de pouvoir admirer aisément et
+              confortablement les grands boulevards et avenues, les belles places et les monuments
+              célèbres, les magnifiques magasins et les grands bâtiments nationaux et
+              historiques.</p>
+            <p>A dix-sept heures, obéissant au devoir national et au devoir d'anciens combattants,
+              une superbe gerbe de fleurs fut déposée sur " la tombe du Soldat Inconnu " sous l'Are
+              de Triomphe; ce geste symbolique fut accompli par une charmante jeune alsacienne en
+              costume national. :3 septembre: Visite de l'Exposition Internationale. Après avoir
+              visité quelques pavillons internationaux, toute la caravane se trouvait, à onze heures
+              et demie, au pavillon de l'Alsace où un vin d'honneur a été offert gracieusement,
+              suivi d'un bon repas en plein air au restaurant "A la Cigogne"; tous les convives
+              faisaient nonneur aux mets succulents et au bon vin d'Alsace.</p>
+            <p>Puis la visite des pavillons de la France d'outre-mer, des pavillons des provinces
+              françaises. Pour compléter la journée, un tour fut fait sur les petits bateaux sur la
+              Seine, permettant d'admirer l'ensemble de l'Exposition. Ce tour en bateau avait grand
+              succès auprès des femmes des camarades, dont beaucoup étaient pour la première fois
+              sur un bateau. :4 septembre: Quartier libre dans la matinée pour permettre de faire
+              une sortie et des achats individuels. Départ à treize heures de la maison de
+              l'U.A.G.</p>
+            <p>Ces trois jours passèrent trop vite; mais tout participant emportait le meilleur
+              souvenir. Partout régnait une franche et cordiale gaîté et une bonne et sincère
+              camaraderie; la Maison, 49, rue Blanche, retentissait de rires et de chants joyeux.
+              Chacun prit la résolution de repasser à Paris et de revoir la Maison de l'Union.</p>
+            <p>J'adresse ici les remerciements les plus vifs à notre Président, camarade Conan, et à
+              notre Secrétaire général, camarade Amblard, et à tous ceux qui par leur action aimable
+              et sincère ont su conquérir, comme par enchantement, le cour et la confiance de tous
+              les camarades. Merci à tous.</p>
+            <p>Je forme le vou que les camarades d'autres régions organisent également des voyages
+              collectifs pour Paris. Il est tellement amusant et tellement joyeux de voyager en
+              groupes; cela donne de la gaîté et de la confiance. Et cela entraînerait beaucoup de
+              camarades à venir à Paris et à visiter notre Maison 49, rue Blanche et à profiter
+              ainsi des bienfaits de notre chère Union. G. Freidinger.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LES PENSIONS ET LE COUT DE LA
+              VIE</head>
+            <p>Les représentants des Associations des Grands Invalides se sont réunis le jeudi 30
+              septembre pour examiner la situation matérielle des grands mutilés par suite du
+              renchérissement constant du coût de la vie. Il a été reconnu que des démarches
+              immédiates devaient être entreprises pour améliorer le sort des créanciers privilégiés
+              de la nation.</p>
+            <p>Les Associations soutiendront sur le même plan la demande d'extension du statut. Les
+              entrevues nécessaires sont demandées aux divers ministres compétents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">NOS CONCERTS</head>
+            <p>Nos camarades ont apprécié les concerts qui furent donnés certains après-midi de
+              dimanches dans notre Salle des Fêtes de la rue Blanche, ce qui nous a encouragé à
+              recommencer cette année ces agréables réunions.</p>
+            <p>Nous avons l'intention d'organiser la premières de celles-ci dans la seconde
+              quinzaine du mois de novembre et essaierons de la faire radio-diffuser.</p>
+            <p>Si l'organisation de ces concerts nous permet de le faire savoir à temps à nos
+              adhérents par la voix du bulletin, nous n'y manquerons certainement pas, mais au cas
+              où nous nous trouverions dans l'impossibilité de le faire, nous prions nos camarades
+              qui, bien que n'habitant pas la région parisienne, sont susceptibles de se rendre à
+              Paris pour assister à ces réunions, de nous donner à l'avance leurs noms afin que nous
+              ne manquions pas de les informer de la date du prochain concert.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">ATTENTION !</head>
+            <p>Nous rappelons à nouveau à nos camarades que l'Union n'a jamais autorisé des
+              représentants ou placiers à se présenter de notre part auprès des camarades.</p>
+            <p>On nous signale encore que des démarcheurs se disent envoyés par l'U.A.G. pour faire
+              souscrire à nos adhérents, soit des contrats d'assurance, soit une commande pour un
+              encadrement de leurs croix et médailles. Nous répétons que nous n'avons délégué nos
+              pouvoirs à personne. Que les camarades soient prudents et qu'ils se renseignent
+              d'abord à l'Union s'ils reçoivent une visite de notre part.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">CHANGEMENT D'ADRESSE</head>
+            <p>Amblard (Henri), ií, avenue des Pavillons (villa des Ternes), Paris (17<hi
+                rend="superscript">°</hi>).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">PETITES INVENTIONS</head>
+            <p>1<hi rend="superscript">°</hi> Le Camarade Bocquet nous communique : Comment remplir
+              son briquet avec une seule main Si fumer est facile, remplir son briquet l'est moins.
+              Mais en cherchant un peu, beaucoup de difficultés que l'on croyait insurmontables
+              disparaissent. Vous achetez dans un bazar un de ces bouchons traversés de part en part
+              par un tube métallique très fin. Vous le mettez sur la bouteille. Vous entevez le
+              bouchon de votre briquet et vous coiffez avec le petit tube jusqu'à ce que le coton
+              l'arrête. Il ne vous reste plus qu'à saisir en même temps avec la main le briquet et
+              le goulot de la bouteille, renverser le tout pendant quelques secondes puis retourner
+              et vous aurez la satisfaction d'avoir mis de l'essence sans en renverser une seule
+              goutte sur le plancher et sans avoir dérangé personne.</p>
+            <p>Maurice Bocquet, ingénieur. 2<hi rend="superscript">°</hi> La Compagnie des Compteurs
+              a présenté deux thermomètres pour aveugles, l'un pour la conduite d'une couveuse
+              artificielle, l'autre, de dimension ordinaire, permettant d'apprécier la température
+              d'un milieu ambiant quelconque.</p>
+            <p>Ces deux appareils ne diffèrent que par leur encombrement. Description. - Ils
+              comportent : 1<hi rend="superscript">°</hi> Un corps thermométrique. 2<hi
+                rend="superscript">°</hi> Une connexion permettant de transmettre à une aiguille
+              mobile sur un cadran divisé en degrés centigrades, les variations de volume du corps
+              thermométrique. 3<hi rend="superscript">°</hi> Une boîte support enveloppe, contenant
+              les divers organes, dont une des faces porte le cadran divisé.</p>
+            <p>Le corps thermométrique consiste en un tube de cuivre mince et de section elliptique
+              très aplatie, enroulé en forme d'anneau et fermant hermétiquement à ses deux
+              extrémités, après introduction à une basse température d'un liquide ne changeant pas
+              d'état entre les deux limites extrêmes de température -10<hi rend="superscript">°</hi>
+              et +50<hi rend="superscript">°</hi>.</p>
+            <p>L'une des extrémités de cet anneau est fixée à la boîte enveloppe; l'autre, sous
+              l'influence des variations de température, subit des déplacements linéaires qui sont
+              transmis à l'aiguille par une connexion appropriée.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>Connexion. - Elle comprend : une bielle articulée, d'une part, à l'extrémité mobile
+              de l'anneau, et, d'autre part, à l'extrémité d'un balancier pouvant osciller autour
+              d'un axe fixe, axe d'un arc denté faisant corps avec le balancier; enfin, cet arc
+              denté donne à un pignon calé sur l'arbre porte-aiguille, un mouvement angulaire
+              amplifié pouvant atteindre un tour complet du cadran pour une différence de
+              température de -10<hi rend="superscript">°</hi> à +50<hi rend="superscript"
+              >°</hi>.</p>
+            <p>L'une des faces de la boîte porte un cadran émaillé divisé en 60 parties égales et
+              chiffrées de -10<hi rend="superscript">°</hi> à +50<hi rend="superscript">°</hi>; en
+              regard de chaque division et sur son pourtour, un trait en creux perceptible au
+              toucher et devant lequel se déplacera l'extrémité de l'aiguille indicatrice du degré ;
+              l'aveugle, pour apprécier le degré, fera glisser son index le long des traits et
+              l'arrêtera sur celui en regard de l'aiguille, trait dont il n'aura plus qu'à
+              déterminer le numéro.</p>
+            <p>Pour lui faciliter cette opération, toutes les cinq divisions, les traits sont
+              remplacés par des ergots; en outre, un anneau support, placé sur le pourtour de la
+              boîte vis-à-vis le n<hi rend="superscript">°</hi>3 <hi rend="superscript">o</hi>, lui
+              permettra de donner au cadran, à chaque expérience, la même orientation, c'est-à-dire
+              le zéro en haut et le 30 en bas, le sens des degrés croissants étant de gauche à
+              droite comme celui des aiguilles d'une montre. P.S. - Pour le thermomètre avec
+              aiguille libre, le zéro en bas et le 30 en haut.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le I<hi rend="superscript">er</hi> et
+                le 30 septembre 1937, une somme de 5.907 francs, se répartissant comme suit : <table>
+                  <row>
+                    <cell>Allocations</cell>
+                    <cell>naissances ....................</cell>
+                    <cell>900</cell>
+                  </row>
+                  <row>
+                    <cell/>
+                    <cell>Caisse Maladie ..............</cell>
+                    <cell>4.507</cell>
+                  </row>
+                  <row>
+                    <cell/>
+                    <cell>aux camarades ayant eu leur pension supprimée</cell>
+                    <cell>500</cell>
+                  </row>
+                </table></p>
+              <p>Il y a d'ajouter, à ces 5.907 francs, une somme de 13.900 francs pour prêts maisons
+                familiales et pour prêts exceptionnels.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Naissances</head>
+                <p>Notre camarade Soulié (Michel), de Saint-Cernin, par Larche, nous fait part de la
+                  naissance de son fils Yves-Noël (quatrième enfant), le 1<hi rend="superscript"
+                    >er</hi> août 1937 .</p>
+                <pb n="9"/>
+                <note type="foliation">— 7 —</note>
+                <p>Notre camarade J.-B. Viard, de Beaufort-sur-Doron (Savoie), nous fait part de la
+                  naissance de son fils Yves-Maxime (septième enfant), le 31 août 1937 .</p>
+                <p>Notre camarade J. Jannot, de Paris, nous fait part de la naissance de sa fille
+                  Cliristiane (deuxième enfant), le 21 août 1937.</p>
+                <p>Notre camarade Vivin, de Metz, nous fait part de la naissance de son fils
+                  Philippe-Georges, le 16 septembre 1937.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos voux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Mariages</head>
+                <p>Notre camarade L. Warin, de Agon (Manche), nous fait part de son mariage avec Mme
+                  Veuve Théobaldène Neert, qui a eu lieu le 7 septembre 1937 .</p>
+                <p>Notre camarade Jean Cullet, de Rocheville-le-Cannet (AlpesMaritimes), nous fait
+                  part de son mariage avec Mme Hélène-Marie Berthet, célébré le 3 avril 1937 .</p>
+                <p>Mme Veuve Barbier, de Plougouren, nous fait part du mariage de son fils Yves avec
+                  Mlle Jeanne Le Moullec, célébré le 21 août 1937 .</p>
+                <p>Notre camarade A. Teillet, de Chaize-le-Vicomte (Vendée), nous fait part du
+                  mariage de son fils Henri avec Mlle Léontine Arrivé, célébré le 7 septembre 1937
+                  .</p>
+                <p>Notre camarade Ed. Boitel, nous fait part de son mariage avec Mme Amélie Vardon,
+                  célébré à Breteuil, le 21 septembre 1937.</p>
+                <p>Nous adressons nos voux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Décès</head>
+                <p>Nous apprenons le décès : Du père de notre camarade Gaston Jamet, décédé dans sa
+                  soixante et onzième année, le 7 septembre 1937.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">NOTRE MAISON</head>
+              <p>Nous prions nos camarades qui doivent se rendre à la maison de la rue Blanche pour
+                y effectuer un séjour, de bien vouloir prendre leurs dispositions pour que leur
+                arrivée ne dépasse pas environ 22 h .30 .</p>
+              <p>La réception d'un nouvel hôte nécessite l'attente d'un gardien pour un seul
+                camarade et la prolonger tard dans la nuit complique le service.</p>
+              <p>Il reste bien entendu qu'une fois habitué à la Maison, le camarade peut rentrer
+                quand bon lui semble.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">AVIS DIVERS</head>
+              <p>Erratum.</p>
+              <p>La Familiale des Soldats Aveugles nous informe que sa réunion de novembre prochain
+                a été annoncée, par erreur, dans notre précédent Bulletin, pour le 28 , alors
+                qu'elle est fixée au vingt et un.</p>
+              <p>Le camarade Polette propose son apéritif Valmya Porto au prix de 12 fr. 50 par 10
+                litres et 1 /́ francs par 5 litres. Franco domicile.</p>
+              <p>Notre camarade demande également représentants. Bonnes conditions, vente très
+                facile.</p>
+              <p>S'adresser à M. Polette, 12, rue Dantzig, Paris (15). M. et Mme Larrival,
+                orthopédistes, possédant à Tarbes un villa très aéré, ensoleillée, avec jardin,
+                prendraient en pension un mutilé ou un Aveugle de Guerre.</p>
+              <p>S'adresser directement aux intéressés à l'adresse suivante : 10, avenue du
+                Maréchal-Joffre, Tarbes (Basses-Pyrénées).</p>
+              <p>Pour trousseaux, achats de toile et lingerie, notre camarade Petitdidier nous
+                informe qu'il livrera aux meilleures conditions le beau linge des Vosges, garanti
+                blanchi sur pré.</p>
+              <p>Livraison franco et 5% d'escompte. Demander échantillons. S'adresser directement à
+                M. Petitdidier, 118, rue Marietton, Lyon (Rhône).</p>
+              <p>Aux amateurs de champagne, notre camarade Malgat propose un champagne excellent,
+                cuvée réservée, délimitation 1908, provenance directe du propriétaire récoltant, à
+                11 francs la bouteille, franco de port et d'emballage à domicile pour Paris et
+                banlieue, et à 11 fr. 25 la bouteille pour la province. Ces prix s'entendent par
+                caisse de 25 bouteilles.</p>
+              <p>S'adresser directement à M. Malgat, 28 bis, rue du Chemins-deFer, Villemomble
+                (Seine). Téléphone : Le Rainey 785.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">DONS AVEC AFFECTATION
+                SPÉCIALE POUR LA "MAISON DES AVEUGLES DE GUERRE"</head>
+              <p>Notre camarade Lemoz, 20 francs. - Subvention département du Pas-de-Calais, 150
+                francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">LISTE DES DONATEURS</head>
+              <p>Mme Condamin, Nice, 6 fr. - Mlle Brossard, Pornic (Loire-Inférieure), 166 fr. -
+                Protection et bonne santé de notre famille, 300 fr.</p>
+              <pb n="11"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Scapini, Président honoraire. Bourguignon, Secrétaire
+              général honoraire. Fayret, Secrétaire général honoraire. Conan, Secrétaire général
+              honoraire. Amblard, Secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">Conseil d'Administration</head>
+            <p>Président : Conan. Vice-Présidents : Guillam, Izaac, Leveau. Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Fayret,
+              Grillet, Lappargue, Lagarde, Lauté, Malgat, Muller, Nicolaï, Noireaux, Robert
+              (Maurice), Roy (Georges), Satgé, Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">Comité d'Action</head>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Président : M. de Traversay; Vice-Présidentes
+              Mme Contamin. Mme L'Evesque. Secrétaires M. Bloch, adjoint au Trésorier; M. Iweins,
+              Secrétaire du Comité d'Action M. Auterbe, Sous-Directeur à la Compagnie a L'Union
+              B;</p>
+            <p>Mme du Bos; Mme Broquin; M. de Chaumont-Quilry; M. Chepfer; Mme Chevalier; Mlle
+              Jalaguier; Mme Lévy-Weis; M. Mayer; Mme Meyer; Colonel de Traversay.</p>
+            <pb n="12"/>
+          </div>
+        </div>
+        <fw>Gerant: DECOENE Imp. Dubois et Bauer. 34, rue Laffitte. Paris. 1937.</fw>
+      </div>
+    </body>
+  </text>
+</TEI>

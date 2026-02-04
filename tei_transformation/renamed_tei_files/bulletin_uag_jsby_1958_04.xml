@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 37ème année 1958 n°121</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Union des Aveugles de Guerre</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Livres parlés</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">Invalidité</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 18 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#uag">UAG</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#ufac">UFAC</term>
+          <term ref="#assemblee-generale">Assemblée générale</term>
+          <term ref="#cotisations">Cotisations</term>
+          <term ref="#livre-parle">Livre parlé</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+        </keywords>
+        <classCode scheme="DDC">362.41 (Handicap visuel - Associations)</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre informe ses membres sur les
+          activités de l'association, les démarches entreprises pour améliorer les pensions des
+          anciens combattants aveugles, et les événements sociaux organisés. Il contient des
+          rapports sur les réunions des sections régionales, des informations sur les nouveaux
+          livres parlés disponibles, ainsi que des rubriques nécrologiques, de mariages et de
+          naissances. Le bulletin détaille également les cotisations des membres et les
+          contributions volontaires à diverses initiatives de l'association.</p>
+      </abstract>
+      <creation>
+        <date when="1958-04-01">01/04/1958</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">VEILLE D'ASSEMBLÉE</ref>
+          </item>
+          <item>
+            <ref target="#h5">A L'U.F.A.C.</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMMENT CALCULER VOTRE PENSION</ref>
+          </item>
+          <item>
+            <ref target="#h7">MI-CARÊME</ref>
+          </item>
+          <item>
+            <ref target="#h8">« LE LIVRE PARLÉ» DERNIERS OUVRAGES PARUS OU A PARAITRE</ref>
+          </item>
+          <item>
+            <ref target="#h9">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h10">REUNION ANNUELLE DE LA REGIONALE DU MAINE ASSEMBLEE GENERALE DU
+                  SAMEDI 1er MARS 1958</ref>
+              </item>
+              <item>
+                <ref target="#h11">SECTION REGIONALE DE PROVENCE REUNION ANNUELLE DU 9 MARS
+                  1958</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h12">DISTINCTION</ref>
+          </item>
+          <item>
+            <ref target="#h13">SECTION DE LA SEINE-MARITIME</ref>
+          </item>
+          <item>
+            <ref target="#h14">APPORT DE NOS SECTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h15">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h16">MARIAGE</ref>
+          </item>
+          <item>
+            <ref target="#h17">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h18">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h19">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h20">COTISATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h21">COTISATIONS ORDINAIRES ( 200 francs) reçues du 1er mars au 25
+                  mars 1958</ref>
+              </item>
+              <item>
+                <ref target="#h22">RACHATS DE COTISATION</ref>
+              </item>
+              <item>
+                <ref target="#h23">COTISATIONS CAISSE DE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h24">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h25">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h27">PETITE ANNONCE</ref>
+          </item>
+          <item>
+            <ref target="#h28">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">37e Année. — N° 121</fw>
+          <fw type="header">
+            <hi rend="underline">AVRIL 1958</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Veille d'assemblée.</item>
+                    <item> A I'U.F.A.C.</item>
+                    <item>Comment calculer votre pension. </item>
+                    <item>Mi-Carême. </item>
+                    <item>"Le livre parlé.</item>
+                    <item>Dans nos sections. </item>
+                    <item>Pour tenir l'annuaire à jour. </item>
+                    <item>Mariages. Naissances. Décès.</item>
+                    <item>Cotisations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. AMBLARD. Vice-Présidents : R. COUESNON, H. GUESPEREAU, G. MULLER.</p>
+            <p>Secrétaire Général : E. GUILLAM. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>MM. P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, R. COUESNON, P. DERUNDER, A. FAUVEL, R. FAVRET, Y. GUIBERT, Y. JEZEQUEL, A.
+              LAFFARGUE, D. LEVEAU, R. MATHIEU, J. NICOLAI, G. OLIE, A. PAGENEL, C. PANTERNE, M.
+              RAVELEAU, G. ROBIN, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>37e Annee. - N° 121 AVRIL 1958</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">VEILLE D'ASSEMBLÉE</head>
+            <p>Les aveugles de guerre vont se réunir en assemblée générale le 26 ayril.</p>
+            <p>Il nous aurait été bien agréable de pouvoir, avec eux, nous réjouir d'une heureuse
+              issue des démarches entreprises au cours de l'année qui vient de s'écouler.</p>
+            <p>Rien n'est encore décidé et bien peu nous est promis. Cependant, nous ne nous
+              décourageons aucunement et jusqu'au bout nous protesterons contre l'injustice qui nous
+              est faite au regard de l'indemnisation de notre cécité.</p>
+            <p>Il est inadmissible que cette invalidité reste évaluée à 100%. Tout le monde le
+              comprend, personne ne le conteste, mais la situation économique - dit-on - ne permet
+              pas, pour le moment de régler ce problème.</p>
+            <p>Nous faisons remarquer que nous disparaissons à une cadence qui s'accentue et que de
+              réelles économies sont faites par suite du décès d'un grand nombre de camarades. Le
+              budget des Anciens Combattants va se discuter dans quelques jours à l'Assemblée
+              Nationale et quand paraîtront ces lignes, le sort en sera jeté. Nous avons tenté les
+              plus ultimes démarches, afin que soit tout de même amorcé ce plan par un acte de
+              justice d'indispensable réparation. Il n'est pas possible qu'on ne trouve pas les
+              crédits nécessaires pour redresser une erreur et nous voulons croire que dans quelques
+              jours au Palais Bourbon des voix s'élèveront pour faire connaître que la sollicitude
+              dont on nous parle tant n'est pas uniquement constituée par des paroles, mais par des
+              actes qui permettront aux aveugles de guerre vieillissant de terminer leur existence
+              dans des conditions de décence dignes de ceux qui n'ont rien marchandé quand tout leur
+              fut demandé. H. Amblard.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">A L'U.F.A.C.</head>
+            <p>Le Conseil d'Administration de l'Union Francaise des Associations d'Anciens
+              Combattants s'est réuni le samedi 22 et le dimanche 23 mars, dans notre salle, rue
+              Blanche,</p>
+            <p>Toutes les grandes associations qui représentent les mutilés, les anciens
+              combattants, les veuves, les résistants, les déportés, tout ce que la France compte de
+              mandants valablement élus pour dire que le salut de la France et sa liberté furent
+              acquis par d'énormes sacrifices, se trouvaient assemblés rue Blanche.</p>
+            <p>Des rapports sur la défense des droits et les relations internationales, retinrent
+              l'attention de l'assistance.</p>
+            <p>En ce qui nous concerne, une protestation solennelle fut faite pour que le
+              Gouvernement tint davantage compte des intérêts matériels des anciens combattants et
+              victimes de la guerre.</p>
+            <p>Le Bureau de l'U.F.A.C. a maintenant un nouveau président en la personne de notre
+              camarade Paul Manet, de la Fédération Nationale des Combattants Républicains, et un
+              nouveau secrétaire général, Cast, des Cheminots Anciens Combattants. Nous les saluons
+              amicalement et sommes persuadés qu'ils feront de leur mieux pour accomplir cette tâche
+              difficile qui est de mener l'U.F.A.C.</p>
+            <p>Nous ne saurions laisser passer ce dernier Conseil d'Administration sans adresser au
+              président démissionnaire, notre ami Pierret-Gérard, nos sentiments d'amitié.</p>
+            <p>Pierret-Gérard, professeur à Nancy, a vu, par suite de la distance qu'il avait
+              souvent à parcourir pour atteindre Paris, sa tâche compliquée et s'est fatigué au
+              service de nos camarades. Ses conseils étaient toujours très écoutés, surtout dans les
+              réunions internationales. Nous lui souhaitons d'abord un bon repos et sommes certains
+              qu'il apportera toujours à la cause combattante son dévouement éclairé.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMMENT CALCULER VOTRE
+              PENSION</head>
+            <p>Nous vous rappelons que nous avons publié dans nos précédents bulletins la valeur du
+              point pour le calcul de nos pensions au cours de 1958, valeur qui est à multiplier par
+              le nombre de points auquel votre invalidité vous donne droit.</p>
+            <p>Afin de vous permettre de connaitre votre nombre de points, nous crovons utile de
+              vous redonner les renseignements ci-après :</p>
+            <p>Pour une pension de soldat 100%, artice 18 , et statut des Grands Mutilés : 3.279
+              points.</p>
+            <p>Ajouter 70 points par degré supplémentaire. Pour les non-bénéficiaires du statut, il
+              convient de retrancher du total : 614 points.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">MI-CARÊME</head>
+            <p>...Et dans une farandole folle, entrainant les moins de dix ans jusqu'aux plus de
+              soixante, toute l'assistance partit à la recherche de la Mi-Carême 59. C'est ainsi que
+              s'est terminée notre fête du jeudi de Mi-Carême, donnée dans notre salle de réunion,
+              rue Blanche.</p>
+            <p>Une neige fondante tombait, mais malgré ce mauvais temps, de nombreux camarades
+              étaient venus de tous les coins de Paris, ou d'une lointaine banlieue, amenant leurs
+              enfants et petits-enfants.</p>
+            <p>Tous les travestis mériteraient d'être cités, aussi recueillirent-ils de chalcureux
+              applaudissemens, lors de leur défilé et nous félicitons les parents d'être demeurés
+              fidèles à cette gracieuse tradition.</p>
+            <p>Durant quatre heures, grands et petits dansèrent avec entrain, et bienvenue fut la
+              coupure d'un excellent goûter offert à ce petit monde.</p>
+            <p>Nous complimenterons, en terminant, l'orchestre et aussi le meneur de jeu, notre
+              collaborateur Lolom, qui se surpasse chaque année dans son art d'amuser les
+              enfants.</p>
+            <p>Ed. Guillam.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">« LE LIVRE PARLÉ» DERNIERS
+              OUVRAGES PARUS OU A PARAITRE</head>
+            <list>
+              <head>COLLECTION : Oeuvre d'imagination.</head>
+              <item>S/MAG 469 Au risque de se perdre (C. Hulme) 12 disques 12 bandes</item>
+              <item>S/MAG 473 I. – Le Roi de Fer (Les Rois maudits, M. Druon) 9 disques 9
+                bandes</item>
+              <item>S/MAG 483 II. – La Reine étranglée 7 disques 7 bandes</item>
+              <item>S/MAG 498 III. – Les Poisons de la Couronne 7 disques 7 bandes</item>
+              <item>S/MAG 476 Laurette ou le Cachet Rouge (A. de Vigny) 2 disques 1 bandes</item>
+              <item>S/MAG 481 Rue du Havre (P. Guimard) — Prix Interallié 1957 4 disques 4
+                bandes</item>
+              <item>S/MAG 482 La Fin d’une liaison (G. Green) 12 disques 12 bandes</item>
+              <item>S/MAG 490 Les Chouans (Balzac) 12 disques 12 bandes</item>
+              <item>S/MAG 493 La Cousine Rachel (D. du Maurier) 13 disques 13 bandes</item>
+              <item>S/MAG 471 J.-K. Huysmans et ses amis (G. Chastel) 15 disques 15 bandes</item>
+            </list>
+            <list>
+              <head>Collection historique</head>
+              <item>S/MAG 474 L’Homme qui n’existait pas (E. Montagu) 4 disques 4 bandes</item>
+              <item>S/MAG 477 Le Loup et le Léopard. I. – Mustapha Kemal ou la Mort d’un Empire
+                (Benoist-Méchin) 15 disques 15 bandes</item>
+              <item>S/MAG 484 Les Civilisations de la Préhistoire (G. von Natzmer) 7 disques 7
+                bandes</item>
+              <item>S/MAG 486 Les Libertadors (J. Descola) 17 disques 17 bandes</item>
+              <item>S/MAG 492 De Sable et d’Or (J. Peyre) 4 disques 4 bandes</item>
+            </list>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+            <list>
+              <head>COLLECTION : Aventures et Voyages</head>
+              <item>S/MAG 472 L'Aventure et ses Terre-Neuves (Lieutenant Blanghard) 10 disques 10
+                bandes</item>
+              <item>S/MAG 485 D'un Japon secret (P. Mousset) 9 disques 9 bandes</item>
+              <item>S/MAG 491 Mari, une ville perdue (A. Parrot) 5 disques 5 bandes</item>
+            </list>
+            <list>
+              <head>COLLECTION : Le Roman Policier</head>
+              <item>S/MAG 468 Poison d'Avril (L.-C. Thomas) 5 disques 5 bandes</item>
+              <item>S/MAG 479 La Canadienne assassinée (A. Lanoux) 5 disques 5 bandes</item>
+              <item>S/MAG 488 Les Inconnus dans la Maison (G. Simenon) 6 disques 6 bandes</item>
+            </list>
+            <list>
+              <head>COLLECTION : Auteurs gais</head>
+              <item>S/MAG 475 La Gloire de mon Père. Tome I : Souvenirs d'enfance (M. Pagnol) 5
+                disques 5 bandes</item>
+            </list>
+            <list>
+              <head>COLLECTION SCIENTIFIQUE</head>
+              <item>S/MAG 470 La Technique ostéopathique (E. Wanono) 3 disques 3 bandes</item>
+              <item>S/MAG 480 Manuel de Massage (M. Bolgey) 8 disques 8 bandes</item>
+              <item>S/MAG 487 Anatomie et Physiologie à l'usage des infirmières (Dr R. Carillon) 8
+                disques 8 bandes</item>
+            </list>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">REUNION ANNUELLE DE LA
+                REGIONALE DU MAINE ASSEMBLEE GENERALE DU SAMEDI 1<hi rend="superscript">er</hi> MARS
+                1958</head>
+              <p>Les membres de la Régionale se sont réunis en assemblée générale au Mans, Café
+                Moderne, à 10 heures, sous la présidence de Guillam, secrétaire général.</p>
+              <p>Etaient présents : Bignon, Bœuf, Buron, Bouttier, Charles, Coulard, Courtemanche,
+                Gilles, Girard, Lavie, Leroux, Marchand, Maubert, Munch, Padois Pérelle, Prune,
+                Thiberge.</p>
+              <p>Excusés: Goulet, Leproust, Moreau, Paulin, Verrier, Chotard, Chemin.</p>
+              <p>N'ont pas répondu: Girault, Grisard, Goussé, Molinié, Mousay, Mme Loquin.</p>
+              <p>La séance est ouverte à 10 h. 30. Charles, président de la Section, souhaite la
+                bienvenue aux personnalités présentes: Guillam, secrétaire général et Madame; M.
+                Gallot, directeur du Service interdépartemental des Pensions; Mlle Regouin,
+                secrétaire général de l'Office départemental des Anciens Combattants; M. Vergniole,
+                président de l'CEuvre Sarthoise; Mlle David, vice-présidente de la même œuvre. M.
+                Langevin, souffrant, s'était excusé.</p>
+              <p>Une minute de silence est observée à la mémoire du Président Izaac et du camarade
+                Farcy, membre de la Régionale, décédé le 29 avril dernier.</p>
+              <p>Un rapide exposé sur l'activité de la Régionale pendant l'exercice écoulé est fait
+                par le Président de section.</p>
+              <p>Au cours de la discussion engagée sur les moyens de maintenir les possibilités
+                financières nécessaires à l'existence de la Régionale, le secrétaire de la section,
+                Courtemanche, propose qu'une cotisation volontaire de 500 francs par an soit
+                demandée à ses membres. Cette proposition est adoptée à l'unanimité. Une cotisation
+                supplémentaire de 200 francs sera demandée aux camarades pour alimenter la caisse
+                décès.</p>
+              <pb n="9"/>
+              <note type="foliation">— 9 —</note>
+              <p>La participation de la Régionale aux Journées de Solidarité est examinée. Le
+                vice-président, Bignon, demande que la cotisation de 1.000 francs, fixée par une
+                assemblée antérieure, soit abandonnée, pour permettre à chaque camarade de verser
+                suivant son bon plaisir. Le camarade Maubert, doyen, verse immédiatement pour ces
+                prochaines journées une somme de 2.000 francs. Le Président le remercie très
+                vivement pour ce geste spontané.</p>
+              <p>Le compte rendu financier est présenté par la trésorière et adopté à
+                l'unanimité.</p>
+              <p>La parole est donnée à M. Gallot, qui exprime sa satisfaction de se retrouver parmi
+                les aveugles de guerre et les assure de son dévouement et de sa sollicitude. Il
+                donne des renseignements sur le fonctionnement de ses services et répond aux
+                questions particulières qui lui sont posées.</p>
+              <p>Mlle Regouin dit aux membres de la Régionale qu'ils trouveront toujours
+                empressement et sollicitude dans ses bureaux qui s'efforceront de donner les
+                renseignements demandés. M. Vergniole remercie également l'assemblée et dit sa joie
+                de se retrouver avec ses amis et camarades de la Sarthe.</p>
+              <p>Le secrétaire général Guillam, à son tour, prend la parole et fait part du plaisir
+                qu'il éprouve d'être au milieu de ses camarades. Il leur transmet le bon souvenir du
+                président Amblard.</p>
+              <p>Après un tour d'horizon dans le domaine des espoirs et réalisations au cours de
+                l'année 1957, tant sur le plan des pensions qu'à l'intérieur de l'Association, il
+                souligne l'utilité de réunions semblables à celle qui se déroule en ce moment et
+                répond aux questions qui lui sont posées par les camarades.</p>
+              <p>Le vote a lieu ensuite pour le renouvellement du Conseil d'Administration qui est
+                composé comme suit :</p>
+              <p>Président : Charles. Vice-présidents : Chotard et Bignon. Secrétaire :
+                Courtemanche. Trésorière : Mme Charles. Commissaire aux comptes : Mme Bignon.
+                Membres: Coulard, Marchand, Paulin, Pérelle, Thiberge, Moreau, Gilles.</p>
+              <p>La séance est levée à 12 h .30 et les participants se dirigent vers le Restaurant
+                Droguet, où un amical repas les attend. La bonne humeur et la gaieté règnent parmi
+                les convives. L'heure de la séparation sonne trop tôt au gré de tous, qui se
+                promettent de se retrouver l'an prochain.</p>
+              <pb n="10"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">SECTION REGIONALE DE
+                PROVENCE REUNION ANNUELLE DU 9 MARS 1958</head>
+              <p>Les membres de la Section de Provence se sont réunis en assemblée générale, le
+                dimanche 9 mars 1958, à 10 h .15 , dans les Salons Colbert, sous la présidence
+                d'honneur du camarade Amblard, président de l'U.A.G.</p>
+              <p>Président de séance : Chimbert. Etaient présents : Appiano, Bieheron, Chabert,
+                Chimbert, Corazza, Deluy, Dupuy, Garibaldi, Lassalle, Liotaud, Nicolaï, Mingaud,
+                Ollivier, Popoff, Rieu, Sanchez, Scotto et Vial.</p>
+              <p>Curcy, auditeur. Pour le Vaucluse : Casiles et Mercier. Le camarade Liotaud est
+                délégué de la région d'Aix. Le camarade Mercier est délégué pour le Vaucluse.</p>
+              <p>Pour le Var : Campé, Perrin et Raphel. Excusés : Aubin, Arnold, Broutin, Chaullier,
+                Donadieu, Fossatti, Gravet, Jandot, Lozano, Maunier, Petit, Rancurel, Rieux.</p>
+              <p>Comme chaque année, la réunion débute par un hommage aux camarades décédés en 1957.
+                Le Président rappelle le souvenir du Commandant Izaac et celui de Bathelier
+                d'Orange. Une minute de silence est observée.</p>
+              <p>Ensuite, le Président souhaite la bienvenue à Mme Amblard et au Président de
+                l'U.A.G. qui, en raison de la grève des chemins de fer, sont venus en avion pour
+                être présents au rendez-vous avec Marseille.</p>
+              <p>Des remerciements sont adressés aux camarades présents à la réunion et en
+                particulier à ceux qui arrivent des départements du Var et du Vaucluse.</p>
+              <p>Chimbert précise que les camarades excusés sont tous des camarades qui ont exprimé
+                verbalement ou par lettre leur regret de ne pouvoir être présents.</p>
+              <p>Les guides ont leur part de remerciements en raison de leur constance et de leur
+                dévouement.</p>
+              <p>Lecture est donnée des situations financières et du dernier compte rendu
+                d'assemblée générale qui sont adoptés à l'unanimité.</p>
+              <pb n="11"/>
+              <note type="foliation">— 11 —</note>
+              <p>Chimbert donne connaissance de l'activité de la section. Il souligne la cordialité
+                de nos rapports avec les services administratifs. Il signale notre bonne
+                collaboration avec le Comité d'Entente et l'U.F.A.C. qui ont chacun un délégué de la
+                section; ces délégués, Corazza et Bicheron, assistent couramment aux réunions et
+                nous tiennent au courant des débats.</p>
+              <p>Un membre de la section, Popoff, a assisté au meeting du 15 février de Paris.</p>
+              <p>La parole est ensuite donnée au Président de l'U.A.G. qui fait un tour d'horizon
+                sur l'activité de notre association. Il souligne les démarches et les interventions
+                du Bureau en faveur de notre rajustement de pension et de la majoration du taux de
+                pension de nos veuves.</p>
+              <p>L'Assemblée remercie Amblard et vote à l'unanimité une motion de confiance à
+                l'égard des dirigeants de l'U.A.G.</p>
+              <p>On passe au renouvellement du Bureau. Chimbert signale que le camarade Lassalle
+                désire se retirer pour raisons de santé ; Lassalle a toujours participé activement à
+                la bonne marche de la section et son départ est unanimement regretté. Le camarade
+                Mingaud est alors désigné pour le remplacer et le Comité d'Administration comprend
+                les camarades suivants : Bicheron, Chimbert, Corazza, Garibaldi, Lozano, Mingaud,
+                Popoff.</p>
+              <p>La séance est levée et suivie d'un banquet très animé.</p>
+              <p>L'Assemblée générale de la Section de Provence a été précédée par une cérémonie
+                intime : la remise de la médaille de la Reconnaissance française à Mme Liotaud,
+                d'Aix-en-Provence. Amblard, en félicitant la nouvelle décorée, souligne que cette
+                manifestation honorait tous les guides d'aveugles de guerre en raison de la
+                permanence de leur dévouement.</p>
+              <p>Toutes nos félicitations à la nouvelle promue.</p>
+              <pb n="12"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">DISTINCTION</head>
+            <p>Mme Liotaud, épouse de notre camarade Jean-Baptiste Liotaud, a été récemment à
+              l'honneur, la médaille de la Reconnaissance française lui ayant été décernée.</p>
+            <p>Amblard, venu présider la réunion annuelle de la Section de Provence, fut heureux de
+              remettre cet insigne si bien mérité à Mme Liotaud, au cours d'une cérémonie émouvante
+              qui précéda l'Assemblée.</p>
+            <p>Nous renouvelons à Mme Liotaud nos bien vives félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">SECTION DE LA
+              SEINE-MARITIME</head>
+            <p>Le 8 mars dernier, au cours d'une belle cérémonie, à l'Hôtel de Ville de Rouen, notre
+              camarade Camilerapp, lieutenant d'artillerie, ancien élève de l'Ecole Polytechnique, a
+              reçu la cravate de Commandeur de la Légion d'honneur, des mains de M. le Général
+              Ancelme.</p>
+            <p>C'est toujours une joie pour l'U.A.G. de voir récompenser les mérites de l'un des
+              siens; aussi, sommes-nous heureux de féliciter le dévoué Président de notre Régionale
+              normande.</p>
+            <p>Le Préfet de Seine-Maritime, le Maire de Rouen, le Président de l'U.F.A.C.
+              départementale, de nombreuses personnalités et beaucoup de camarades honoraient de
+              leur présence cette fête du monde combattant, à laquelle notre Bureau de Paris s'était
+              fait représenter par son Secrétaire général.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">APPORT DE NOS SECTIONS</head>
+            <p>Section de l'Aveyron. - Président Albespy . . . . . . . . . . . . . . 25.000 Section
+              Lot et Lot-et-Garonne. - Président Gineste . . . . . . . 50.000 Nous exprimons aux
+              Présidents et à leurs collaborateurs, nos vifs remerciements pour l'activité
+              déployée.</p>
+            <pb n="13"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>Ferré Pierre, Puits Rochais, Château-d'Olonne (Vendée). Larde Hippolyte, 48, rue
+              Ramponeau, Paris ( 20<hi rend="superscript">°</hi> ). Gouy Bernard, 37, avenue de la
+              République, Villeneuve-le-Roi (Seine-et-Oise).</p>
+            <p>Draperi Jacques, 44, avenue Bellevue, Nice (Alpes-Maritimes). Duprat André, Pavillon
+              « Jamaïque », quartier du Gond. Dax (Landes).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">MARIAGE</head>
+            <p>Nous apprenons avec joie le mariage de : Simone, fille de notre camarade Jean-Pierre
+              Lozano, de Marseille (Bouches-du-Rhône), avec M. René Rosso, le 11 mars 1958.</p>
+            <p>Nous adressons nos vives félicitations à notre camarade et nos vœux de bonheur aux
+              jeunes époux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">NAISSANCES</head>
+            <p>Nous apprenons la naissance de : Kamel, fils de notre camarade Ghali ben Mohamed, de
+              Teboulba (Tunisie), le 27 janvier 1958.</p>
+            <p>Denis, petit-fils de notre camarade Constant Moricel, de le Pertre (Ille-et-Vilaine),
+              mars 1958.</p>
+            <p>Nous adressons nos bien vives félicitations à nos camarades et nos vœux de prospérité
+              aux bébés.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">DECES</head>
+            <p>C'est avec regret que nous venons d'apprendre le décès de Mme Quénu, mère de Mme
+              Contamin, Vice-Présidente de notre Comité d'Action.</p>
+            <p>Mme Quénu était la femme du Professeur Edouard Quénu, que bon nombre de nos camarades
+              ont connu au Val-de-Grâce pendant la première guerre, alors qu'il leur prodiguait ses
+              soins éclairés.</p>
+            <p>Malgré son grand âge, jusqu'à ces derniers jours, Mme Quénu s'intéressait toujours à
+              la marche de notre Association, et nous exprimons à Mme Contamin et à sa famille notre
+              très respectueuse sympathie pour le deuil qui les frappe.</p>
+            <p>Nous avons à déplorer le décès de nos camarades : Auclair Auguste (14-18), de
+              Saint-Marcel (Indre), le 9 mars 1958. Defours Auguste (14-18), de Tence (Haute-Loire),
+              le 17 février 1958.</p>
+            <p>Meunier Georges (14-18), de Wargnies-le-Grand (Nord), le 24 février 1958.</p>
+            <p>Occis Emile (14-18), d'Amiens (Somme), le 16 mars 1958. Guth Désiré (14-18), de
+              Ferney-Voltaire (Ain), le 21 mars 1958.</p>
+            <p>Lassalle Auguste (14-18), de Mézos (Landes), le 14 mars 1958.</p>
+            <p>Grimm Emile (14-18), de Conflans-sur-Seine (Marne), le 18 mars 1958.</p>
+            <p>Baron Pierre (Indochine), de Bourg-Barré (Ille-et-Vilaine), le 20 mars 1958.</p>
+            <p>Evelyne, fille de notre camarade Louis Roche, de Vallauris (Alpes-Maritimes), à l'âge
+              de 26 ans, le 6 mars 1958.</p>
+            <p>Le père de notre camarade Alfred Grasso, de Casablanca (Maroc), le 22 février
+              1958.</p>
+            <p>Le beau-père de notre camarade Joseph Azéma, de Maisons-Alfort (Seine), le 6 mars
+              1958.</p>
+            <p>La belle-mère de notre camarade Lucien Baudon, de Vaulandry (Maine-et-Loire), le 8
+              mars 1958.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">COTISATIONS</head>
+            <p>Afin d'éviter des erreurs, nous demandons instamment aux camarades de préciser sur
+              leurs règlements la destination exacte de leur envoi.</p>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COTISATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">COTISATIONS ORDINAIRES ( 200
+                francs) reçues du 1<hi rend="superscript">er</hi> mars au 25 mars 1958</head>
+              <p>Abraham Georges, Adam Joseph, Arnaud Antoine. Baizet Pierre, Bardetis Pierre ( 400
+                fr.), Baud-Grasset Joseph, Biblocque Paul, Blanc Antoine, Bombeke Etienne, Bondonnat
+                Eugène, Bosval Georges, Brailly Pierre ( 400 fr.), Braun Auguste, Bucaille Michel (
+                800 fr.).</p>
+              <p>Cerdan Robert, Charriaut Emmanuel, Cladier Charles ( 400 fr.), Cormerais Claude,
+                Chouquet Eugène, Chouviat Edouard.</p>
+              <p>Debeuns (Mme André) ( 400 fr.), Delhez Jean, Desert Gaétan, Diverres Louis, Draperi
+                Jacques.</p>
+              <p>Envin Gustave ( 600 fr.). Félix Marius, Férec Jean-Louis ( 800 fr.), Fernen Ahmed
+                Ben Boudjema, Fillonneau Victor, Froget Gustave, Fontaine Georges, Fournier
+                Charles.</p>
+              <p>Gallemand Georges ( 800 fr.), Garros Marcel, Gédin-Donnat ( 800 fr.), Ghiat
+                Boudjéma, Gouy Pierre, Guérin Raymond, Gueytte André ( 600 fr.), Guis Antonin.</p>
+              <p>Hamon Victor ( 800 fr.), Heurtin André, Hoegli Louis, Houdayer Gaston.</p>
+              <p>Isnardy Jean. Le Rascle Claude ( 400 fr.), Loizeau Alexandre ( 800 fr.), Louette
+                Charles.</p>
+              <p>Mallol Noël, Malo Jean ( 600 fr.), Marie Simon, Martinet Pierre, Matta Joseph ( 800
+                fr.), Mauret Basile ( 600 fr.), Messager Raymond, Meyer Jean, Moisan Albert ( 400
+                fr.), Moisset Jean-Marie, Moreau Georges, Muller André ( 600 fr.).</p>
+              <p>Navarron Blaise, Nayl Jean-Baptiste, N'Doye Oumar ( 600 fr.), Noël Eugène.</p>
+              <pb n="16"/>
+              <note type="foliation">— 16 —</note>
+              <p>Ogeas Jean (800 fr.). Pelouin Henri, Perthuis Charles, Petit Joseph, Planchon René,
+                Popoff Stéphan.</p>
+              <p>Ranc Cyprien, Mme Richez-Haidon, Rouméas Henri, Ruiz Pierre. Savean Louis, Savigny
+                Henri, Schwoerer Raymond (800 fr.), Seyssiecq Jean, Sinsoulieu Fernand, Soulié
+                Marcel.</p>
+              <p>Tauzia Joseph, Mme Telliez. Vigouroux Marcel (600 fr.). Wagner Rémy, Welter
+                Joseph.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">RACHATS DE COTISATION</head>
+              <p>Beauvisage Marius (2.000 fr.), Boitier Jean-Claude (2.000 fr.). Doussot Georges
+                (2.000 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">COTISATIONS CAISSE DE
+                PREVOYANCE</head>
+              <p>Arbaizar Louis (5.075 fr.). Blanc Antoine (300 fr.). Dupouts Jean-Baptiste (225
+                fr.). Isnardy Jean (500 fr.). Martinet Pierre (500 fr.). Riou Gaston (1.425 fr.).
+                Sinsoulieu Fernand (275 fr.). Verdon Roger (275 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Baizet Pierre (100 fr.), Baud-Grasset Joseph (300 fr.), Bernheim Georges (450 fr.),
+                Blanc Antoine (400 fr.), Boitier Jean-Claude (200 fr.), Bombeke Etienne (800 fr.),
+                Bosval Georges (100 fr.), Vve Bouchet (200 fr.), Brailly Pierre (100 fr.).</p>
+              <p>Carpentier Marceau (500 fr.), Cerdan Robert (300 fr.), Cladier SOMMER — Aveugles
+                Pflltet,e6,,)tDâèfl — — — — — Charles (600 fr.), Cormerais Claude (300 fr.),
+                Chouviat Edouard (300 fr.).</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Vve Deboulet Henri (200 fr.), Delhez Jean (300 fr.). Férec Jean-Louis ( 100 fr.),
+                Fernen Ahmed Ben Boudjéma (200 fr.), Fournier Charles ( 300 fr .), Vve Fournier (
+                200 fr .).</p>
+              <p>Gallemand Georges ( 200 fr.), Garros Marcel ( 300 fr.), Gouy Pierre ( 300 fr.),
+                Gueytte André ( 400 fr.), Vve Guillemin Marcel ( 500 fr.), Guis Antonin ( 100
+                fr.).</p>
+              <p>Hamon Victor ( 200 fr.), Vve Hesnard ( 200 fr.), Hoegli Louis (200 fr.).</p>
+              <p>Isnardy Jean ( 100 fr.). Lambert (Veuve), (200 fr.). Marie Simone ( 1.000 fr.), Vve
+                Marrot ( 300 fr.), Martinet Pierre ( 300 fr.), Matta Joseph ( 200 fr.), Mauret
+                Basile ( 400 fr.), Meyer Jean (200 fr.), Moisset Jean-Marie ( 100 fr.), Monier Henri
+                ( 500 fr.).</p>
+              <p>Navarron Blaise ( 50 fr.), Noël Eugène ( 50 fr.). Ogeas Jean ( 1.200 fr.). Pelouin
+                Henri ( 800 fr.), Perthuis Charles ( 300 fr.), Petit Joseph ( 300 fr.), Popoff
+                Stéphan ( 200 fr.).</p>
+              <p>Richez-Haidon (Mme) ( 800 fr.), Rouméas Henri ( 100 fr.), Ruiz Pierre ( 300
+                fr.).</p>
+              <p>Savean Louis ( 200 fr.), Savigny Henri ( 50 fr.), Schwoerer Raymond ( 200 fr.),
+                Sinsoulieu Fernand ( 500 fr.).</p>
+              <p>Tauzia Joseph ( 300 fr.), Ahmed Ben Mohamed Tliba ( 500 fr.). Valadeau (Veuve) (
+                200 fr.), Verdon Roger ( 100 fr.), Vve Vernet ( 300 fr.).</p>
+              <p>Wagner Rémy ( 300 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Briez Marcel ( 450 fr.), Buonsolazzi Pierre ( 1.000 fr.). Couesnon René ( 500 fr.).
+                Doussot Georges ( 1.000 fr.). Hauser André ( 1.000 fr.). Messager Raymond ( 400
+                fr.). Ruiz Pierre ( 500 fr.).</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Charlat Marcel ( 1.000 fr.), Couesnon René ( 500 fr.). Messager Raymond ( 400 fr.).
+                Phénix André ( 500 fr.). « Nous sommes très sensibles aux cotisations volontaires
+                que certains camarades veulent bien nous adresser; leur geste de solidarité nous
+                prouve leur sentiment d'attachement à l'U.A.G. et nous les en remercions bien
+                vivement. »</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">PETITE ANNONCE</head>
+            <p>A VENDRE. - Matériel de brossier : couteau, guillotine. Etat neuf. Ecrire au camarade
+              Grabianski, 1, rue de Fromonceau, Chaintreauville par Nemours (Seine-etMarne).</p>
+            <pb n="19"/>
+            <note type="foliation">— 17 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents : le Maréchal et Mme la Maréchale JUIN. Vice-Président : M<hi
+                rend="superscript">e</hi> MASSON. Vice-Présidentes : Mmes CONTAMIN et DU BOS.
+              Secrétaire : M. COLLIER. Vice-Présidente honoraire : Mlle ARBEL. Trésorier honoraire :
+              M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M<hi rend="superscript">e</hi> BRULLIARD, MM. DE
+              CHAUMONT-QUITRY, CHEPFER, Mme COLLIER, D<hi rend="superscript">r</hi> COUTELA, Mme
+              DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle LEDOUX, D<hi rend="superscript"
+                >r</hi> RICORD, Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD, délégué
+              au Mexique, le Président de l'Association des Anciens Combattants Français en
+              Argentine.</p>
+            <pb n="20"/>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

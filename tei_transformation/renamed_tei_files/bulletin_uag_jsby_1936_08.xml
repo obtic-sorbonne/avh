@@ -1,0 +1,913 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 18ème année 1936, n°8</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Livre sonore</title>
+        <title type="topic">Union des Aveugles de Guerre</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Guerre 1914-1918</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 20 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#combattants">Combattants</term>
+          <term ref="#livre-sonore">Livre sonore</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#verdun">Verdun</term>
+          <term ref="#esperanto">Espéranto</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de plusieurs sujets
+          importants pour ses membres. Il annonce la perte d'un grand ami de l'Union, le docteur
+          Gallet, et aborde la question des impôts sur les pensions, les grands invalides, et les
+          prélèvements sur les pensions. Le bulletin présente également le "Livre Sonore" comme une
+          nouvelle ressource pour les aveugles, et discute du renouvellement des cartes de
+          combattant. Enfin, il inclut des informations sur la Caisse Fraternelle, des naissances,
+          mariages, décès, cotisations, et les procès-verbaux des réunions du Conseil
+          d'Administration.</p>
+      </abstract>
+      <creation>
+        <date when="1936-08-01">01/08/1936</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h6">L'UNION DES AVEUGLES DE GUERRE "PERD UN GRAND AMI"</ref>
+          </item>
+          <item>
+            <ref target="#h7">VACANCES</ref>
+          </item>
+          <item>
+            <ref target="#h8">LE LIVRE SONORE</ref>
+          </item>
+          <item>
+            <ref target="#h9">IMPOTS SUR LES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h10">GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h11">LES PRÉLÈVEMENTS</ref>
+          </item>
+          <item>
+            <ref target="#h12">Le Renouvellement des Cartes de Combattant</ref>
+          </item>
+          <item>
+            <ref target="#h13">VERDUN</ref>
+          </item>
+          <item>
+            <ref target="#h14">LETTRE DE MASSELIER</ref>
+          </item>
+          <item>
+            <ref target="#h15">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h16">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h17">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h18">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h22">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h23">COTISATIONS POUR L'ANNÉE 1936</ref>
+              </item>
+              <item>
+                <ref target="#h24">Procès-verbal de la réunion du Conseil d'Administration du 20
+                  Juin 1936</ref>
+              </item>
+              <item>
+                <ref target="#h25">Procès-verbal de la réunion du Conseil d'Administration de la
+                  Section départementale des Aveugles de Guerre de la Seine-Inférieure, le 26
+                  Juillet 1936</ref>
+              </item>
+              <item>
+                <ref target="#h26">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h27">Montres pour Aveugles</ref>
+              </item>
+              <item>
+                <ref target="#h28">DÉLÉGATION</ref>
+              </item>
+              <item>
+                <ref target="#h29">Dons avec affectation spéciale pour la Maison des Aveugles de
+                  Guerre</ref>
+              </item>
+              <item>
+                <ref target="#h30">LISTE DES DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h31">LA FAMILIALE DES SOLDATS AVEUGLES</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h32">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h33">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h34">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">18e Année. — N° 8</fw>
+          <fw type="header">
+            <hi rend="underline">AOUT-SEPTEMBRE 1936</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>L'"Union des Aveugles de Guerre" perd un grand ami.</item>
+                    <item>Vacances.</item>
+                    <item>Le Livre sonore.</item>
+                    <item>Impôts sur les pensions.</item>
+                    <item>Grands invalides.</item>
+                    <item>Les Prélèvements.</item>
+                    <item>Le renouvellement des cartes du Combattant.</item>
+                    <item>Verdun.</item>
+                    <item>Lettre de Masselier.</item>
+                    <item>Légion d'honneur.</item>
+                  </list>
+                </div>
+                <div type="section">
+                  <div type="section">
+                    <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                      G.</head>
+                    <list>
+                      <item>Caisse fraternelle.</item>
+                      <item>Entre Nous.</item>
+                      <item>Cotisations 1936.</item>
+                      <item>Procès-verbal de la réunion du Conseil d'Administration du 20 Juin
+                        1936.</item>
+                      <item>Procès-verbal de la réunion du Conseil d'Administration de la Section
+                        Départementale de la Seine-Inférieure, le 26 Juillet 1936.</item>
+                      <item>Avis divers.</item>
+                      <item>Listes de Donateurs.</item>
+                      <item>La Familiale des Soldats Aveugles.</item>
+                    </list>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier; M. Brisac, Préfet; M. J. Ridgely-Carter; M. Paul de Cassagnac,
+              ancien Député; M. Maurice Donnay, de l'Académie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              ancien Sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer, Conseiller
+              d'Etat; M. Henry Paté, Député; \dagger M<hi rend="superscript">e</hi> Henri-Robert, de
+              l'Académie française, ancien Batonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; \dagger M. Vallery-Radot;</p>
+            <pb n="3"/>
+          </div>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE - N° 8 - AOUT-SEPTEMBRE 1936</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">L'UNION DES AVEUGLES DE GUERRE
+              "PERD UN GRAND AMI"</head>
+            <p>Le docteur Gallet, sénateur de la Haute-Savoie, ancien ministre des Pensions,
+              président de l'Office National des Mutilés et Anciens Combattants, est mort le 1<hi
+                rend="superscript">er</hi> septembre.</p>
+            <p>L'ancien ministre a succombé à la Clinique générale d'Annecy aux suites d'une
+              opération de l'appendicite, compliquée de péritonite. M. Claudius Gallet était né le
+              12 novembre 1874, à Annecy. Docteur en médecine, il fut élu conseiller municipal de sa
+              ville natale en 1909. Médecin major pendant la guerre, blessé grièvement, il avait
+              gagné au front son quatrième galon, avait été décoré de la Légion d'honneur et de la
+              Croix de guerre.</p>
+            <p>Elu sénateur de la Haute-Savoie en 1920 et toujours réélu depuis, M. Gallet était, en
+              outre, conseiller général d'Annecy.</p>
+            <p>Ministre des Pensions, M. Gallet avait été appelé à présider, en 1932, le Conseil
+              d'administration de l'Office National des Mutilés et, à ce titre, il avait toujours
+              témoigné une grande sympathie à l'égard des Aveugles de Guerre.</p>
+            <p>Le docteur Gallet prenait part à toutes nos manifestations et ainsi suivait de très
+              près la vie de l'Union. Cette année encore, il assistait à l'inauguration de notre
+              Maison de la rue Blanche.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">VACANCES</head>
+            <p>Après quelques semaines, ceux d'entre nous qui avaient quitté leurs occupations et
+              leur milieu habituel, afin de permettre à leurs enfants surmenés par les études, à
+              leurs femmes fatiguées par les soucis quotidiens, de prendre un repos bien mérité,
+              regagnent leurs pénates et chacun, abandonnant la mer, la montagne, ou tout simplement
+              le grand calme des champs, songe à reprendre sa vie normale avec, semble-t-il, une
+              provision renouvelée de courage et d'optimisme.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Votre Bureau, pendant cette période de vacances, n'en n'a pas moins expédié les
+              affaires courantes et a fait une démarche importante auprès de M. le Président du
+              Conseil afin de lui signaler la pénible situation des camarades frappés par la
+              revision des pensions. M. le Président du Conseil, vivement ému par cet exposé, a
+              donné l'assurance qu'il étudierait avec M. le Ministre des Pensions les moyens
+              susceptibles de venir en aide à nos infortunés camarades.</p>
+            <p>René Favret.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LE LIVRE SONORE</head>
+            <p>Après d'autres aveugles étrangers, les Aveugles de Guerre français vont connaître le
+              "Livre Sonore».</p>
+            <p>En Angleterre et en Amérique, particulièrement, le "Livre Sonore " est mis, depuis
+              quelques mois déjà, à la disposition de nos camarades de ces pays. Est-ce qu'en France
+              l'U.A.G. se désintéressait de la question? Loin de là et, depuis plusieurs années,
+              nous étions à l'affût de tout ce qui se faisait dans le monde en ce sens.</p>
+            <p>Le " ruban sonore " avait, à un moment, retenu notre attention. Nous pensions que,
+              malgré quelques imperfections du début, cela représentait l'avenir. Le "ruban sonore»
+              a disparu de la circulation.</p>
+            <p>En Angleterre et aux Etats-Unis, on a recerché le moyen de reproduire les livres sur
+              des disques en faisant tourner ces disques moins vite que les disques ordinaires. Les
+              résultats ont été bons et des discothèques ont été créées dans ces deux pays. Les
+              pouvoirs publics ont favorisé ces créations par de larges subventions et de grandes
+              facilités de postage. (Les Etats-Unis et le Canada ont assuré gratuitement le port des
+              disques réservés aux aveugles.)</p>
+            <p>Cependant, dans ces pays, on se heurtait encore à un écueil qui paraissait difficile
+              à résoudre : les disques étaient en cire et, par suite, fragiles.</p>
+            <p>Grâce aux recherches effectuées par l' "American Braille Press ", nous possédons
+              actuellement, en France, des disques incassables et très légers dont la sonorité est
+              parfaite et le "Livre Sonore " existe comme ont pu le constater les camarades qui
+              assistaient à la démonstration faite en notre Maison la veille de l'Assemblée
+              générale.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>Deux livres sont, dès à présent, édités et seront prochainement à la disposition de
+              nos camarades. L'A.B.P. doit, à partir du mois de septembre, en éditer un tous les
+              mois. D'autre part, notre Union éditera, à son compte, de nouveaux volumes selon la
+              demande de nos camarades.</p>
+            <p>Nos camarades qui possèdent déjà un poste de T.S.F. auront à se procurer un
+              tourne-disque qui se branchera sur la prise pick-up de leur appareil et qui sera muni
+              d'un moteur spécial. Le prix de cet appareil, monté par la Maison Thorens, est
+              exceptionnellement de 450 francs, au lieu de 700 francs, son prix dans le
+              commerce.</p>
+            <p>Les camarades qui désireraient s'en rendre acquéreurs sont priés de le faire savoir
+              au plus tôt à l'U.A.G.</p>
+            <p>Ceux qui possèdent déjà un phono électrique n'auront qu'à faire changer le moteur
+              tourne-disque. La dépense sera d'environ 130 francs. Tous renseignements seront
+              fournis par l'U.A.G.</p>
+            <p>Ces moteurs spéciaux permettent également d'écouter les disques ordinaires.</p>
+            <p>Ceux de nos camarades qui sont fournis de courant continu, au lieu de courant
+              alternatif, devront nous demander conseil en nous indiquant s'ils possèdent déjà un
+              appareil de T.S.F. et si ces appareils ont une prise de pick-up. L'audition est un peu
+              moins bonne sur courant continu mais cependant très acceptable.</p>
+            <p>Un livre ordinaire comprend environ douze à quinze disques et le poids total de ces
+              disques, emballages compris, ne dépassera pas 1.500 grammes. Nous allons nous efforcer
+              d'obtenir du Service des P.T.T. le tarif le plus modéré possible pour leur
+              transport.</p>
+            <p>Nous sommes persuadés que cette innovation apportera à nos camarades une distraction
+              nouvelle et nous leur demandons : 1<hi rend="superscript">°</hi> De nous faire savoir
+              de suite s'ils seraient acheteurs du tournedisques. 2<hi rend="superscript">°</hi>
+              Quels seraient les livres qu'ils désireraient voir transcrire sur disques?</p>
+            <p>La création d'une discothèque étant une œuvre de longue haleine, nous demandons à nos
+              camarades d'être patients, car il ne nous sera pas possible de servir tout le monde à
+              la fois. Cependant, pour mener à bien cette entreprise, il est nécessaire que nous
+              sachions de suite le nombre de camarades que la question intéresse.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">IMPOTS SUR LES PENSIONS</head>
+            <p>Le 17 juin 1936 a paru, au Journal Officiel, la loi abrogeant le décret du 16 juillet
+              1935 assimilant les pensions de guerre et la retraite du combattant à des revenus
+              astreints à l'impôt.</p>
+            <p>Plusieurs d'entre nous ont certainement reçu leur feuille d'impôts dans laquelle
+              figurent ces revenus.</p>
+            <p>Ceux de nos camarades qui se trouvent dans ce cas, signaleront le fait au contrôleur
+              des Contributions directes dont ils dépendent et celui-ci accordera le dégrèvement
+              d'office, dès que les instructions administratives lui seront parvenues à ce
+              sujet.</p>
+            <p>Une démarche a été faite par la Confédération Nationale et, le 4 juillet 1936, une
+              circulaire a été adressée, par le directeur général des Contributions, afin de
+              prescrire à ses agents d'allouer les dégrèvements auxquels les mutilés ont droit.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">GRANDS INVALIDES</head>
+            <p>Une proposition de résolution a été votée par la Chambre, le 7 août 1936, demandant
+              au Gouvernement de déposer à la rentrée un projet de loi élargissant l'application du
+              Statut des Grands Invalides.</p>
+            <p>Le ministre des Pensions, à la suite de ce vote, va constituer une Commission chargée
+              de mettre sur pied un texte.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LES PRÉLÈVEMENTS</head>
+            <p>La période de vacances que nous traversons en ce moment va se terminer et, dès la
+              rentrée, nos parlementaires vont s'occuper de la suppression des prélèvements qui
+              atteignaient nos pensions et la retraite du combattant.</p>
+            <p>Les travaux de la Commission d'étude de la Caisse des Pensions vouchent à leur fin et
+              dès que le ministre des Finances sera saisi du résultat des travaux de cette
+              Commission, la décision sera proche.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+            <p>Mais que la Caisse des Pensions soit ou non instituée, les décretslois seront
+              abrogés. Des promesses formelles ont été faites à ce sujet par le Gouvernement, nul
+              doute qu'il ne les tienne.</p>
+            <p>Encore un peu de patience et nous nous verrons rétablis dans tous nos droits.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Le Renouvellement des Cartes de
+              Combattant</head>
+            <p>L'attention du ministre des Pensions ayant été attirée sur les inconvénients des
+              retards qui se produisent dans le renouvellement des cartes du combattant, le ministre
+              des Pensions, en plein accord avec M. Vincent Auriol, ministre des Finances, vient de
+              prendre la décision suivante :</p>
+            <p>En échange de la carte remise pour renouvellement, les intéressés recevront un
+              certificat provisoire, ne préjugeant pas du droit à la carte dont une vérification
+              décidera, mais permettant au titulaire, en attendant la décision définitive,
+              d'encaisser les arrérages de la retraite ou de la pension dont il bénéficie.</p>
+            <p>Cette mesure va mettre fin à une situation qui causait un gros préjudice à de
+              nombreux camarades.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">VERDUN</head>
+            <p>A l'issue de la cérémonie du rassemblement des anciens combattants à Verdun, le
+              Journal des Mutilés et Réformés a demandé à quelques anciens combattants de bien
+              vouloir leur donner leurs impressions.</p>
+            <p>Nous extrayons du Journal des Mutilés, une lettre de notre camarade Favret à ce sujet
+              : " Monsieur le Rédacteur en chef, " Ayant eu l'honneur d'être appelé à remplir la
+              mission d'escorter " le flambeau symbolique, les impressions que j'ai pu ressentir
+              sont for" cément limitées, mais tellement profondes que je tiens à vous les com- <pb
+                n="8" break="no"/>
+              <note type="foliation">— 6 —</note> " muniquer, particulièrement celles concernant la
+              cérémonie de " l'ossuaire. "Lorsque, accompagnant le flambeau, notre petit groupe de
+              muti" lés traversa la large pelouse conduisant à l'escalier du monument, un " tel
+              silence s'épandit sur le champ des morts, un tel recueillement res" pectueux entoura
+              notre lent cortège que, le cœur étreint d'une " angoisse sans nom, j'aurais voulu
+              crier à tous ces morts auxquels " s'adressait un si fervent hommage : " Voyez, mes
+              frères, nous ne vous oublions pas, votre souvenir est " toujours vivant auprès de
+              nous, nous venons ici pour vous le jurer. " Malgré mes yeux clos, je vous revois tels
+              que je vous ai connus, " forts, souriants, puis meurtris et agonisants dans la douleur
+              et ma " pensée, jointe à celle de tous ces pèlerins, s'élève et vous promet "
+              solennellement, en souvenir de ces douleurs et de cette agonie, de " tout tenter afin
+              que de pareils crimes deviennent impossibles à jamais. " Puis ce fut le moment
+              poignant de l'appel à la Paix du monde ! " Cette voix d'enfant si tendre, si frêle au
+              milieu de la nuit !!!! " Puisse-t-elle résonner, cette voix, jusque dans le cœur de
+              ceux qui " seraient tentés d'oublier, jusque dans celui de ceux qui seraient encore "
+              susceptibles de déchaîner, malgré les morts, un tel fléau, une telle "épouvante. "</p>
+            <p>René Favret.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LETTRE DE MASSELIER</head>
+            <p>Notre camarade Masselier nous prie d'insérer la note suivante : L'Association
+              Française des Espérantistes Aveugles (F.A.B.E.), sous la présidence d'honneur de M.
+              l'intendant général Louis Bastion, président de l'Association Espérantiste
+              Universelle, groupe les espérantistes aveugles et typhlophiles dans le seul but de
+              faciliter l'étude et l'utilisation de l'espéranto par tous les aveugles.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Par son initiative, des cours sont déjà professés en divers endroits en utilisant un
+              manuel imprimé en braille (cinq francs) et en noir (deux francs), Notions élémentaires
+              d'espéranto, par Cart et Robert, en vente à l'Association Valentin-Hauy, 9, rue Duroc,
+              Paris (7).</p>
+            <p>Citons notamment les cours d'espéranto professés à voyants et aveugles par M. Robert
+              (tous les sacedis de 17 à 18 heures, à l'Association Valentin-Hauy, Paris) et par M.
+              Curnelle (tous les dimanches matin de 9 h .15 à 9 h .45 à Radio-P.T.T.-Nord).</p>
+            <p>Des démarches sont entreprises en vue de rendre accessible aux aveugles le cours
+              d'espéranto professé par M. Rousseau (tous les mercredis de 14 heures à 14 h .15 à
+              Paris-P.T.T., relayé par plusieurs stations d'Etat).</p>
+            <p>Les membres actifs de F.A.B.E. (cotisations 10 fr ., donnant droit mensuellement à
+              Espéranto Ligilo) sont accueillis sans autre cotisation comme membres actifs par les
+              nombreux groupes régionaux et locaux de la S.E.P.E. (Société Française pour la
+              Propagation de l'Espéranto, section de l'Association Universelle).</p>
+            <p>Pour tous autres renseignements (cours par correspondance, etc...), s'adresser au
+              secrétaire général de F.A.B.E., Albert Masselier, Aveugles de Guerre, 49, boulevard
+              Fichot, Neuilly-Plaisance (Seine-etOise). Tél. 294.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">LÉGION D'HONNEUR</head>
+            <p>Au Journal Officiel du 13 août 1936, publiant le décret du 1<hi rend="superscript"
+                >er</hi> août 1936, sont promus au grade d'officier :</p>
+            <p>Anthène (Claude), ancien sergent du 104 R. I. Territorial. Baranger (Daniel), ancien
+              brigadier du 52<hi rend="superscript">°</hi> Régiment d'Artillerie de Campagne.</p>
+            <p>Martin (Paul-Noël), ancien soldat du 276<hi rend="superscript">°</hi> R. I.
+              Plénacoste (Jean-Baptiste), ancien soldat du 142<hi rend="superscript">°</hi> R.
+              I.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi>
+                juillet et le 31 août, une somme de 24.320 fr. se répartissant comme suit :</p>
+              <list>
+                <item>Allocations naissances ..... 600 "</item>
+                <item>Allocations décès et palmes ..... 18.350 "</item>
+                <item>Allocation caisse maladie ..... 3.570 "</item>
+                <item>Allocations diverses ..... 1.800 "</item>
+              </list>
+              <p>Il y a lieu d'ajouter à ces 24.320 francs une somme de 36.400 francs pour prêts
+                maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner douze demandes, dont deux n'ont
+                donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Naissances</head>
+                <p>Notre camarade et Mme Pannetrat, de Chaumont, nous font part de la naissance de
+                  leur petit-fils.</p>
+                <p>Notre camarade et Mme Fitas-Boubekeur, de Cassaigne (Oran), nous font part de la
+                  naissance de leur fils Abdelkader, né le 25 juin 1936.</p>
+                <p>Notre camarade et Mme Paul Webber, d'Hazebrouck (Nord), nous font part de la
+                  naissance de leur fille Marie-Rose, née le 13 juillet 1936.</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+                <p>Notre camarade et Mme Pennequin, de Roeulx (Nord), nous font part de la naissance
+                  de leur deuxième enfant, Gérard, né le 3 août 1936.</p>
+                <p>Notre camarade et Mme Lafon, du Mas-de-Vitral (Cantal), nous font part de la
+                  naissance de leur cinquième enfant, Georgette, née le 25 juin 1936.</p>
+                <p>Notre camarade Niant, de Bergerac (Dordogne), nous fait part de la naissance de
+                  son petit-fils, Michel, né le 24 août 1936.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Mariages</head>
+                <p>Notre camarade Dupuis (René), de Paris, nous fait part du mariage de son fils
+                  Jean, avec Mlle Simone Pairard, célébré le 2 juillet 1936.</p>
+                <p>Notre camarade Vin (Pierre), de Vinneuf (Yonne), nous fait part de son mariage
+                  avec Mme Veuve Moisson, célébré le 27 juin 1936.</p>
+                <p>Notre camarade Chaudron (Jules), de Paris, nous fait part du mariage de sa fille
+                  avec M. Victor Lelogeais, célébré le 4 juillet 1936.</p>
+                <p>Notre camarade Estienne, de Six-Fours-la-Plage (Var), nous fait part du mariage
+                  de sa fille Marie-Thérèse, avec M. Boutin (Eugène), célébré le 29 août.</p>
+                <p>Notre camarade Marot, de Casteljaloux, nous fait part du mariage de sa fille
+                  Yvette, avec M. Riccardo, célébré le 1<hi rend="superscript">er</hi> août.</p>
+                <p>Notre camarade Delacroix, de Beauvais (Oise), nous fait part du mariage de sa
+                  fille Georgette, avec M. Albert Gaucherelle, célébré le 31 août 1936.</p>
+                <p>Notre camarade Baldy, de Mechemont (Lot), nous fait part du mariage de son fils
+                  Marcel, avec Mlle Hélène Penchenat, célébré le 22 août 1936.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Décès</head>
+                <p>Nous apprenons le décès tragique de Guy de Traversay, fils du colonel de
+                  Traversay, membre du Comité d'action, et neveu de M. de Traversay, président du
+                  Comité d'action.</p>
+                <p>Les Aveugles de Guerre s'associent au deuil cruel frappant la famille de nos amis
+                  et nous leur adressons nos sincères condoléances.</p>
+                <p>Nous apprenons le décès de : Notre camarade Dupuy (Paul), de Saint-Junien
+                  (Haute-Vienne), décédé le 21 juillet 1936, à l'âge de quarante ans.</p>
+                <p>Né le 3 juillet 1896, à Brigueil (Charente), soldat au 63<hi rend="superscript"
+                    >°</hi> régiment d'infanterie, notre camarade fut blessé le 6 août 1918, près de
+                  Reims (Champagne). Réformé à 100%, article 10 , pour cécité complète, officier de
+                  la Légion d'honneur et titulaire de la Médaille militaire, il laisse une
+                  veuve.</p>
+                <p>Notre camarade Gasse (Edmond), de Vesly (Eure), décédé le 23 juillet 1936, à
+                  l'âge de quarante-neuf ans.</p>
+                <p>Né le 15 novembre 1887, à Vesly (Eure), soldat au 1<hi rend="superscript">er</hi>
+                  régiment de Génie, notre camarade fut blessé, le 9 juillet 1915, à Vauquois.
+                  Réformé à 100%, article 10 , pour cécité complète, chevalier de la Légion
+                  d'honneur et titulaire de la Médaille militaire, il laisse une femme et deux
+                  enfants.</p>
+                <p>Notre camarade Digne (Marius), de Toulon (Var), décédé le 30 juillet, à l'âge de
+                  cinquante-quatre ans.</p>
+                <p>Né le 1<hi rend="superscript">er</hi> mai 1882, à Hyères (Var), sergent fourrier
+                  au 312<hi rend="superscript">e</hi> régiment d'Infanterie, notre camarade fut
+                  blessé, le 1<hi rend="superscript">er</hi> février 1916, à Jolival
+                  (Meurthe-et-Moselle). Réformé à 200%, articles 10 et 12 , pour cécité complète,
+                  amputation de l'avant-bras gauche et blessures multiples, titulaire de la Médaille
+                  militaire et de la Croix de guerre (étoile et palme), Digne laisse une veuve et un
+                  enfant.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+                <p>Notre camarade Bartier (Albert-Charles), de Saint-Quentin (Aisne), décédé le 5
+                  août 1936, dans sa soixante-neuvième année.</p>
+                <p>Né le 7 décembre 1867, à Maubeuge, soldat au 4<hi rend="superscript">e</hi> Territorial, notre camarade
+                  fut malade en captivité et devint aveugle. Réformé à 100%, article 10 , pour
+                  cécité, il laisse une veuve et un enfant.</p>
+                <p>Notre camarade Talleur (Léopold), d'Yvetot (Seine-Inférieure), délédé le 12 juin
+                  1936, à l'âge de quarante-trois ans.</p>
+                <p>Né le 13 décembre 1893, à Hattenville (Seine-Inférieure), maîtreouvrier au 3<hi
+                    rend="superscript">°</hi> Génie, notre camarade fut blessé, le 21 juillet 1918,
+                  à Billy-sur-Ourcq. Réformé 100%, article 10 , pour perte de la vue, officier de la
+                  Légion d'honneur et titulaire de la Médaille militaire, il laisse une veuve et
+                  cinq enfants.</p>
+                <p>Notre camarade Henry (Paul), de Laveline-devant-Bruyères (Vosges), décédé le 17
+                  août 1936, à l'âge de quarante-sept ans.</p>
+                <p>Né le 12 décembre 1889, à Gerlepal (Vosges), soldat au 50<hi rend="superscript"
+                    >°</hi> Bataillon de Chasseurs à pied, notre camarade fut blessé, le 16 octobre
+                  1915, au Bois Zéphyrin (Meurthe-et-Moselle). Réformé à 100%, article 10 , pour
+                  cécité complète, officier de la Légion d'honneur et titulaire de la Médaille
+                  militaire, il laisse une veuve et un enfant.</p>
+                <p>Notre camarade Touzet (Félix), d'Authon-du-Perche (Eure-etLoir), décédé le 7
+                  juillet 1936, à l'âge de cinquante-trois ans.</p>
+                <p>Né le 10 août 1884, à Prissac (Indre), soldat au 49<hi rend="superscript">°</hi>
+                  R. I., notre camarade fut blessé, le 17 juin 1915, à Neuville-Saint-Waast. Réformé
+                  à 100%, article 10 , pour cécité complète, chevalier de la Légion d'honneur,
+                  Médaille militaire, Croix de guerre, il laisse une veuve et un enfant.</p>
+                <p>Notre camarade Dury (Henri), de Beaumont-en-Auge (Calvados), décédé le 17 août
+                  1936, à l'âge de soixante-quatre ans.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+                <p>Né le 23 mai 1872, à Bône (Algérie), soldat à la 21<hi rend="superscript">°</hi>
+                  Section C.O.A., réformé à 100%, article 10 , pour cécité complète, il laisse une
+                  veuve.</p>
+                <p>Notre camarade Petrucci (François), de Paris, décédé le 5 juillet 1936, à l'âge
+                  de soixante-quatre ans.</p>
+                <p>Né le 20 avril 1872, à Lavaloggia (Corse), gendarme à la 11<hi rend="superscript"
+                    >°</hi> Légion, à Bastia, il fut réformé à 100%, article 10 , pour cécité. Il
+                  laisse une veuve et un enfant.</p>
+                <p>Notre camarade Maupetit (Pierre), de Coulanges-les-Nevers (Nièvre), décédé le 15
+                  juin 1936, à l'âge de soixante ans.</p>
+                <p>Né le 22 août 1876, à Ougny (Nièvre), soldat au 64<hi rend="superscript">°</hi>
+                  R. I. Territorial, réformé à 100%, article 10 , pour cécité, il laisse une
+                  veuve.</p>
+                <p>De la belle-mère de notre camarade Mougenel, des Lilas (Seine), décédée le 30
+                  juin 1936, à l'âge de soixante-douze ans.</p>
+                <p>De la belle-mère de notre camarade Cornet, de Paris, décédée le 5 juillet, dans
+                  sa soixante-douzième année.</p>
+                <p>De la femme de notre camarade Fauchier, de Marseille (Bouches-du-Rhône), décédée
+                  le 4 juillet.</p>
+                <p>Du frère de notre camarade Lajouanne, de Tarbes, décédé à l'âge de soixante-deux
+                  ans, et de ses beaux-frères Marmouzet (Auguste) et Lagleyze (J.-M.), décédés à
+                  l'âge de cinquante-six ans.</p>
+                <p>De la belle-mère de notre camarade Marot, de Saurat (Ariège), décédée en juillet
+                  1936.</p>
+                <p>De la femme de notre camarade Milhas (Abel), d'Auch (Gers), décédée le 9 juillet
+                  1936.</p>
+                <p>Du beau-frère de notre camarade Chabbert, de Bize (Aude), décédé à l'âge de
+                  soixante-dix-sept ans.</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+                <p>De la belle-mère de notre camarade Bastion, de Montrottier (Rhône), décédée le 15
+                  août.</p>
+                <p>Du beau-frère de notre camarade Serot, de Missillac (Loire-Inférieure), décédé le
+                  16 août, à soixante-dix-huit ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                ont tenu à effectuer un nouveau versement :</p>
+              <p>Delacourt, 11 fr. -Mampey, 10 fr. - Lucas, 10 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">COTISATIONS POUR L'ANNÉE
+                1936</head>
+              <p>Seguin, Tisserand (V.), Petit (A.), Dargegen, Guis, Guillo, Laligue, Laird,
+                Desigaud, Pennequin, Houard, Bertrand (P.), Le Bis, Montet, Delhomais, Aumasson,
+                Michel (R.), Guillaume, Coutarel, Albouy, Gloaguen, Vandewoorde, Mauriceau, Paris,
+                Brailly, Belmontet, Renaud (E.), Savigny, Robin (C.), Musner, Felgeirolles, Dehlez,
+                Nicomette, Tauzia, Chasselade, Dupont, Mampey, Bouet, Anquetil, Ternisien, Morlet,
+                Le Mire, Draperi (Jean), Maurandy.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Procès-verbal de la réunion
+                du Conseil d'Administration du 20 Juin 1936</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Scapini. Sont présents:
+                Scapini, Bois, Lauté, L'Evesque, Amblard, Bardoux, Brusson, Céré-Labourdette, Conan,
+                Courteix, Evrat, Fauvel, Favret, Guillam, Laffargue, Leveau, Malgat, Muller, Roy
+                (G.).</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>Excusés : Bertrand, Bloncourt, Cabasson, Derunder, Grillet, Izaac, Lagarde,
+                Nicolaï, Noireaux, Robert (M.), Satgé.</p>
+              <p>Ont donné leurs pouvoirs : A Scapini : Robert (M.). A Amblard : Noireaux, Satgé. A
+                Favret: Cabasson, Grillet. A Leveau : Bertrand. A Noireaux : Derunder. Assistaient
+                également à la séance : M. Bloch, trésorier adjoint. Les camarades: Berthet, Briant,
+                Cohn, Hennebicq, Rousseau, Saillot. 1<hi rend="superscript">°</hi> Procès-verbal de
+                la réunion du Conseil du 6 juin 1936. Sous réserve d'une légère modification
+                demandée par Courteix et d'une addition demandée par Noireaux, le procès-verbal est
+                adopté à l'unanimité. 2<hi rend="superscript">°</hi> Election de deux membres du
+                Bureau. Lecture est donnée de deux lettres de Leveau et Noireaux expliquant leur
+                non-participation au vote.</p>
+              <p>Avant le dépouillement du scrutin, une discussion s'engage à laquelle prennent part
+                un certain nombre d'administrateurs.</p>
+              <p>Scapini fait procéder à l'ouverture des enveloppes pour l'élection du Bureau.
+                Vingt-huit bulletins ont été reçus, parmi lesquels un bulletin blanc et un bulletin
+                nul.</p>
+              <p>Le résultat s'établit ainsi : Conan, 19 voix ; Favret, 19 voix ; Céré, 9 voix; voix
+                diverses, 3.</p>
+              <p>Conan et Favret sont invités à prendre place au Bureau, qui est constitué comme
+                suit : président, Scapini; vice-présidents, Bois, Conan, Lauté; secrétaire général,
+                Favret; trésorier, L'Evesque (élu par l'Assemblée générale).</p>
+              <p>Scapini remercie et félicite l'ancien Bureau et adresse ses souhaits de bienvenue
+                aux nouveaux élus.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>A l'unanimité, le titre de secrétaire général honoraire est attribué à notre
+                camarade Amblard. 3<hi rend="superscript">°</hi> Election du Comité d'action.
+                Lecture est donnée de la lettre de démission de M. de Traversay. Après examen par le
+                Conseil, la motion suivante est déposée et adoptée à l'unanimité, moins une
+                abstention : "Le Conseil d'administration exprime à M. de Traversay ses " vifs
+                regrets de sa lettre de démission, sa vive reconnaissance pour " tous les services
+                qu'il a rendus à l'Union depuis sa création et lui " demande de vouloir bien revenir
+                sur sa décision. Il remercie égale" ment le Comité d'Action, et en particulier Mme
+                Chevalier qui, cette " année notamment, a assumé une tâche écrasante. "</p>
+              <p>Sur demande du Président, M. de Traversay accepte de retirer sa démission et il est
+                procédé ensuite à l'élection des membres du Bureau du Comité d'action.</p>
+              <p>Sont élus: M. de Traversay, M. Bloch, Mme L'Evesque, M. Iweins.</p>
+              <p>Il est entendu que les membres du Bureau de ce Comité se répartiront les fonctions.
+                  4<hi rend="superscript">°</hi> Nomination des Commissions. Les Commissions sont
+                ainsi constituées: Commission des Prêts et de Caisse Fraternelle: Evrat, Guillam,
+                Leveau, Malgat.</p>
+              <p>Commission des Finances : Izaac, Amblard, Céré, Courteix, Leveau, M. de Traversay,
+                M. Bloch.</p>
+              <p>Commission des Maisons de Repos: Izaac, Amblard, Courteix, Evrat, Grillet, Malgat,
+                Roy</p>
+              <p>Délégués à la Propagande: Amblard, Guillam. Commission de Gestion de la Maison des
+                Aveugles : Amblard, Bardoux, Fauvel.</p>
+              <p>Commission d'Etudes (Mutuelle, Veuves) : Lauté, Leveau, L'Evesque, Muller.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Commission Technique (Bibliothèque, Livre Sonore) : Amblard, Céré, Fauvel, Izaac,
+                Leveau, Mullet, Mme Chevalier.</p>
+              <p>Commission de la Maison des Aveugles de Guerre : Céré, Courteix, Malgat, Satgé, M.
+                de Traversay.</p>
+              <p>Questions diverses:</p>
+              <p>Lecture est donnée des demandes d'adhésion de : Barriol (Jean), Intres (Ardèche).
+                110%, articles 10 et 12, titre provisoire, carte du combattant. Huet (Henri), 32,
+                boulevard d'Ormesson, Enghien-les-Bains (Seine-et-Oise), 100%, article 10 , titre
+                provisoire, carte du combattant. Nazaire (Fernand), 23 bis, boulevard d'Artillerie,
+                Toulouse (HauteGaronne), 100%, article 10 , titre provisoire, carte du combattant.
+                Ces camarades, remplissant les conditions, sont admis en qualité de membres
+                temporaire à l'U.A.G.</p>
+              <p>L'allocation de 300 francs attribuée à l'occasion de la naissance d'un enfant est
+                accordée aux camarades <hi rend="superscript">R</hi> .. et <hi rend="superscript"
+                  >V</hi> .. , victimes civiles.</p>
+              <p>Legs Costallat. - Après avoir pris connaissance des dispositions testamentaires, en
+                date du 11 mars 1935, de Mlle Arthémise, dite Jeanne Costallat, demeurant à
+                Neuilly-sur-Seine, 28, avenue de Neuilly, et décédée dans la même ville, 29,
+                boulevard Victor-Hugo, le 25 mai 1936, par lesquelles elle institue ses légataires
+                universelles, conjointement pour le tout et divisément chacune pour moitié : 1<hi
+                  rend="superscript">°</hi> L'Union des Aveugles de Guerre, dont le siège est à
+                Paris, 25, rue Ballu; 2<hi rend="superscript">°</hi> La Société des "Gueules Cassées
+                " (Union des Blessés de la Face), dont le siège est à Paris, 20, rue
+                d'Aguesseau,</p>
+              <p>Pour recueillir chacune par moitié la totalité des biens, meubles et immeubles
+                composant sa succession.</p>
+              <p>Le Conseil d'administration de l'Union des Aveugles de Guerre accepte à
+                l'unanimité, sous bénéfice d'inventaire, ces dispositions testamentaires et donne
+                tous pouvoirs à son trésorier pour encaisser le legs au nom de ladite Société,
+                prendre tous engagements et faire le nécessaire.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Legs Goldenberg. - Après avoir pris connaissance des dispositions testamentaires,
+                en date du 20 novembre 1935, de Mme Samuel Goldenberg, demeurant à Paris, 30, avenue
+                Marceau, où elle est décédée, le 27 novembre 1935, par lesquelles elle institue sa
+                légataire universelle la "Cité des Aveugles de Nice " pour les trois huitièmes de sa
+                fortune, conjointement avec "Le Flambeau Franco-Américain de Nice " et l' "Asile de
+                Nuit de Nice " pour les cinq autres huitièmes. "Considérant que tous les Aveugles de
+                Guerre de la Cité sont membres de l'Union des Aveugles de Guerre, "Le Conseil
+                d'administration de l'Union des Aveugles de Guerre " accepte, sous bénéfice
+                d'inventaire, ces dispositions testamentaires, " à charge de répartir la totalité de
+                la somme recueillie entre tous les " Aveugles de Guerre de la Cité et donne tous
+                pouvoirs à son trésorier pour encaisser le legs au nom de ladite Société, prendre
+                tous " engagements et faire le nécessaire. "</p>
+              <p>Le Conseil d'administration, ayant pris connaissance des dispositions
+                testamentaires de Mme K..., demeurant en Saône-et-Loire, a décidé de les accepter
+                sous réserve des modifications imposées par l'article 19 de nos statuts.</p>
+              <p>Lecture est donnée d'une lettre de Derunder demandant au Bureau de faire des
+                démarches pour l'abrogation des décrets-lois visant les anciens combattants.</p>
+              <p>La séance est levée à 17 h .30 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Procès-verbal de la réunion
+                du Conseil d'Administration de la Section départementale des Aveugles de Guerre de
+                la Seine-Inférieure, le 26 Juillet 1936</head>
+              <p>Le Conseil d'administration, réuni en ce jour du 26 juillet 1936, après avoir
+                examiné les résultats obtenus aux Commissions préparatoires et à l'Assemblée
+                générale du 24 mai, au sujet des deux vœux présentés par la Section de la
+                Seine-Inférieure, remercie le Conseil d'administration de l'U.A.G. et tous les
+                camarades présents, d'avoir <pb n="20"/>
+                <note type="foliation">— 18 —</note> bien voulu prendre les vingt-quatre camarades
+                sans pension en tutelle par l'U.A.G. dans le but principal de leur apporter un appui
+                moral, ct nous, Section Départementale de la Seine-Inférieure, nous faisons
+                confiance à la bonne camaraderie de l'Union et sur la générosité du Conseil
+                d'administration de l'U.A.G. pour leur venir en aide chaque année.</p>
+              <p>Nous remercions également et faisons confiance au Conseil d'administration tout
+                entier et à la Commission désignée pour mettre au point le vœu concernant nos
+                veuves, c'est-à-dire l'assurance contractée par l'U.A.G. pour leur assurer une rente
+                annuelle remplaçant l'indemnité de décès, et prions ladite Commission de bien
+                vouloir activer le plus possible les démarches pour faire aboutir cette
+                assurance.</p>
+              <p>Confiants dans la bonne volonté de tous les membres du Conseil d'administration de
+                l'U.A.G., pour le Conseil d'administration de la Section Départementale de la
+                Seine-Inférieure :</p>
+              <p>Le Président : CAGNARD.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">AVIS DIVERS</head>
+              <p>Notre camarade Niant (Simon), ancien propriétaire vigneron, se met à la disposition
+                des camarades pour leur faire envoyer des vins de la région de Bergerac-Bordeaux,
+                vins ordinaires et supérieurs aux meilleures conditions.</p>
+              <p>Se mettre directement en rapports avec M. Niant, 71, rue du Pont-Saint-Jean,
+                Bergerac (Dordogne).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Montres pour Aveugles</head>
+              <p>M. Camille Mercier, 6, rue d'Helvétie, à Morteau (Doubs), fabricant de montres,
+                nous informe qu'il peut fournir des montres savonnettes pour aveugles, avec
+                mouvement ancre très soigné, 15 rubis, spiral Bréguet, de toute première qualité, en
+                métal chromé, au prix de 70 francs.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Les camarades intéressés par cette offre sont priés de passer leur commande
+                directement.</p>
+              <p>Mme Cognet, de la Roue, propriétaire du Château de la Griffonnière, à
+                Bage-le-Chatel (Ain), nous informe qu'elle recevrait dans sa propriété les camarades
+                désireux de faire un séjour à la campagne, ou d'y vivre.</p>
+              <p>Ils seraient assurés des soins les plus dévoués. Pour les conditions et
+                renseignements complémentaires, s'adresser directement.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">DÉLÉGATION</head>
+              <p>Le drapeau de l'Union, entouré d'une délégation d'Aveugles de Guerre, a accompagné
+                les Associations belges, chargées de ranimer la Flamme du Souvenir, sur la Tombe du
+                Soldat Inconnu, le mardi 21 juillet.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Dons avec affectation
+                spéciale pour la Maison des Aveugles de Guerre</head>
+              <p>M. Benarbia, La Croix-Mare (Seine-Inférieure, 20 fr. Anonyme, 50 fr. - Ville du
+                Creusot (Saône-et-Loire), 180 fr. Les Elèves de la Classe des Mathématiques du Lycée
+                Henri-IV à Paris, 4.076 fr. - Commune d'Oued-Athenia (Algérie), 67 fr. Mme Barbe,
+                Paris, 20 fr. - M. Roman, Cléon-d'Andran, 20 fr. - Mme Chastelain, de Thérouanne,
+                300 fr. - Ville de Versailles (Seine-et-Oise), 179 fr. 50 .- Commune d'Auray
+                (Morbihan), 44 fr. - Notre camarade Reynes (L.), 7 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">LISTE DES DONATEURS</head>
+              <p>Mme Julien, à Nantes, 10 fr. - Mme Pottier, 15 fr. Mme Arthur Luck, à Londres, 510
+                fr. - Lycée Thiers, à Marseille, <pb n="22"/>
+                <note type="foliation">— 20 —</note> 120 fr. - Société Dolfus-Mieg, à Mulhouse, 200
+                fr. - M. Gallemard, à Pontoise, 25 fr . - Produit d'une collecte faite à l'occasion
+                des Fêtes de l'Armistice par la Colonie Franco-Annamite de Yunnanfou, 2.331 fr. 70.
+                - Mme Buffenz, à Paris, 100 fr. - Nouveau Cercle à Paris, 50 fr. - Mme Berthe
+                Brougnes, à Buenos-Aires, en mémoire de M. Louis Spérat-Brougnes, 300 fr. - Mme
+                Mesnier, La Rochelle, 20 fr. - Mme Fischer, à Louveciennes, 10 fr. Mme Condamin,
+                Nice, 18 fr. - Compagnie Assurances Yorkshire, à Paris, 200 fr. - Divers, 1.567 fr.
+                87.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">LA FAMILIALE DES SOLDATS
+                AVEUGLES</head>
+              <p>Le Conseil d'administration de La Familiale des Soldats Aveugles informe les
+                camarades que les réunions de la saison 1936-1937 auront lieu, aux dates ci-après,
+                dans la Salle des Fêtes du Cercle Commercial Suisse, 10, rue des Messageries :</p>
+              <p>En 1936 : dimanches 25 octobre, 6 décembre. En 1937 : dimanches 3 janvier, 7
+                février, 7 mars, 4 avril et 2 mai. Les réunions auront lieu comme d'habitude, de 14
+                h .30 à 18 h .30 , et comprendront : concert, goûter et sauterie.</p>
+              <pb n="23"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Bourguignon, Secrétaire général honoraire. Favret,
+              Secrétaire général honoraire. Conan, Secrétaire général honoraire. Amblard, Secrétaire
+              général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">Conseil d'Administration</head>
+            <p>Président : SCAPINI. Vice-Présidents : Bois, Conan, Lauté, Secrétaire général :
+              Favret. Trésorier : Gaston L'Evesque. Membres : Amblard, Bardoux, Bertrand, Bloncourt,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Grillet,
+              Guillam, Izaac, Laffargue, Lagarde, Leveau, Malgat, Muller, Nicolai, Noireaux, Robert
+              (Maurice), Roy (Georges), Satgé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">Comité d'Action</head>
+            <p>M. le baron de Traversay. Mlle Arbel, Vice-Présidente honoraire; Mme L'Evesque, M.
+              Iweins; M. Oscar Bloch. M. Auterbe, Sous-Directeur à la Compagnie L'Union; Mme du Bos;
+              Mme Broquin; M. de Chaumont-Quitry; M. Chepfer; M. Pierre Chérot; Mme Contamin. Mme
+              Francis de Croisset; Mlle Jalaguier; Mlle d'Herbemont; Mme Henri; Mme Kalt; Mme
+              Lévy-Weis; M. Mayer; Mme Meyer; Mme Mus; M. Pascal. Mme Chevalier;</p>
+            <pb n="24"/>
+          </div>
+        </div>
+        <fw>Imp. Dubois et Bauer, 54, r. Laffitte, Paris. - 1936.</fw>
+      </div>
+
+    </body>
+  </text>
+</TEI>

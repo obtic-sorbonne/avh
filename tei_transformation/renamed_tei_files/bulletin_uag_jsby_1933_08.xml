@@ -1,0 +1,1067 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 15ème année 1933 n°8</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Informations</title>
+        <title type="topic">Décorations</title>
+        <title type="topic">Caisse Fraternelle</title>
+        <title type="topic">Nécrologie</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#combattants">Combattants</term>
+          <term ref="#union">Union</term>
+          <term ref="#association">Association</term>
+          <term ref="#bulletin">Bulletin</term>
+          <term ref="#decoration">Décoration</term>
+          <term ref="#carte-de-combattant">Carte de combattant</term>
+          <term ref="#caisse-fraternelle">Caisse fraternelle</term>
+          <term ref="#loterie-nationale">Loterie Nationale</term>
+          <term ref="#tsf">T.S.F.</term>
+          <term ref="#finistere">Finistère</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre fournit des informations variées à
+          ses membres. Il inclut des annonces de décorations honorifiques, des instructions pour le
+          renouvellement de la carte de combattant, des nouvelles concernant les membres
+          (naissances, mariages, décès), des informations sur les activités de l'association (caisse
+          fraternelle, cotisations), des renseignements pratiques (séjours à Sainte-Maxime, loterie
+          nationale, T.S.F.) et le procès-verbal de l'assemblée générale d'une section
+          départementale. Le bulletin met en avant le soutien et la solidarité au sein de
+          l'Union.</p>
+      </abstract>
+      <creation>
+        <date when="1933-08-01">01/08/1933</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">UNE DÉCORATION</ref>
+          </item>
+          <item>
+            <ref target="#h8">Renouvellement de la Carte du Combattant</ref>
+          </item>
+          <item>
+            <ref target="#h9">NOTES ET INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h10">A Sainte-Maxime</ref>
+              </item>
+              <item>
+                <ref target="#h11">Légion d'honneur</ref>
+              </item>
+              <item>
+                <ref target="#h12">Un Diplôme</ref>
+              </item>
+              <item>
+                <ref target="#h13">Une machine à faire les brosses</ref>
+              </item>
+              <item>
+                <ref target="#h14">Loterie Nationale</ref>
+              </item>
+              <item>
+                <ref target="#h15">Nécrologie</ref>
+              </item>
+              <item>
+                <ref target="#h16">T. S. F.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">Chronique de l'U.A. C.</ref>
+            <list>
+              <item>
+                <ref target="#h18">Caisse Fraternelle</ref>
+              </item>
+              <item>
+                <ref target="#h19">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h20">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h23">Cotisations volontaires</ref>
+              </item>
+              <item>
+                <ref target="#h24">Cotisations pour l'année 1933</ref>
+              </item>
+              <item>
+                <ref target="#h25">Assemblée Générale de la section départementale du Finistère du 6
+                  Juillet 1933</ref></item>
+
+              <item>
+                <ref target="#h26">SECTION DEPARTEMENTALE DU FINISTERE</ref>
+              </item>
+              <item>
+                <ref target="#h27">AU MONUMENT AUX MORTS POUR LA PATRIE</ref>
+              </item>
+              <item>
+                <ref target="#h28">Avis divers</ref>
+              </item>
+              <item>
+                <ref target="#h29">Liste des Donateurs</ref>
+              </item>
+              <item>
+                <ref target="#h30">Dons avec affectation spéciale pour la création de la "Maison des
+                  Aveugles de Guerre"</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h31">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h32">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h33">COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">15e Année. — N° 8</fw>
+          <fw type="header">
+            <hi rend="underline">Août-Septembre 1933</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Une décoration.</item>
+                    <item>Renouvellement de la Carte de Combattant.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>A Sainte-Maxime.</item>
+                    <item>Légion d'Honneur.</item>
+                    <item>Un Diplôme.</item>
+                    <item>Une machine à faire les brosses.</item>
+                    <item>Loterie Nationale.</item>
+                    <item>Nécrologie.</item>
+                    <item>T.S.F.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Cotisations.</item>
+                    <item>Procès-verbal de l'Assemblée Générale de la Section Départementale du
+                      Finistère, le 6 juillet 1933.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert Lebrun, Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>\dagger M. Eugène Brieux, de l'Académie Française, Président honoraire. M. Barthou,
+              de l'Académie Française, ancien Président du Conseil M. le colonel Fabry, ancien
+              ministre. \dagger M. le général Balfourier; M. Brisac, préfet; M. J. Ridgely Carter;
+              M. Paul de Cassagnac, ancien député; M. Maurice Donnay, de l'Académie Française; M.
+              Duco, médecin-inspecteur; M. Fribourg, député; Miss Alice Getty; M. Justin Godart,
+              ancien ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M.
+              Lugol, sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. le docteur Morax; M.
+              Meyer, conseiller d'Etat; M. Henry Paté, député; M. Pierre Ramill, député; Me
+              Henri-Robbrr, de l'Académie française, ancien bâtonnier de l'Ordre des Avocats; M. le
+              général Sainte-Claire-Deville; \dagger M. Vallery-Radot; M. le professeur Walther,
+              membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">UNE DÉCORATION</head>
+            <p>Le Journal Officiel du 29 juillet dernier nous a porté, ce jour-là, une bonne
+              nouvelle, car dans l'aridité de ce quotidien extrêmement sérieux, apparaissait, comme
+              une fleur d'été, un ruban rouge qui nous faisait particulièrement plaisir : c'était la
+              nomination de notre ami Gaston L'Evesque au grade de chevalier de la Légion
+              d'honneur.</p>
+            <p>Nous n'adresserons pas à notre trésorier les banales félicitations d'usage, mais lui
+              dirons tout simplement toute la joie que nous a causé cette distinction méritée ! M.
+              L'Evesque, en effet, est avec nous depuis de longues années et tous ceux qui l'ont vu
+              à l'œuvre savent quel est son dévouement à notre cause.</p>
+            <p>Dès l'année 1920, le regretté Boetzel, qui était un trésorier averti, avait demandé à
+              M. L'Evesque de le seconder et, à sa mort, survenue en 1922, le trésorier adjoint
+              devenait notre trésorier.</p>
+            <p>Depuis lors, il n'a cessé de nous prodiguer ni son temps ni sa peine et nous sommes
+              bien contents de constater la reconnaissance des Pouvoirs publics à un de nos bons
+              amis !</p>
+            <p>L'Union des Aveugles de Guerre, qui a pour devise: "Pour les Aveugles, par les
+              Aveugles ", et qui tient à cette devise, est en effet administrée par les Aveugles,
+              mais, cependant, il lui faut l'aide de clairvoyants, comme individuellement, nous
+              avons besoin de la présence d'yeux attentifs auprès de nous.</p>
+            <p>L'Union a heureusement quelques personnes voyantes qui veillent sur elle avec
+              sollicitude et si ces personnes ne sont pas très nombreuses, elles connaissent du
+              moins quels sont nos besoins et savent de quelle manière nous devons être aidés.</p>
+            <p>Nous sommes donc heureux que M. le Ministre des Pensions ait donné à un de nos amis
+              ce témoignage de sympathie que nous considérons également comme une marque de
+              bienveillance pour notre Association. C'est pourquoi nous nous réjouissons
+              aujourd'hui, comme nous nous félicitions il y a quelques années, de voir M. de
+              Traversay, cet ami de la première heure, recevoir la même distinction.</p>
+            <p>Le Bureau et le Conseil d'administration de l'U.A.G. disent à Gaston L'Evesque toute
+              leur joie et nous sommes certains que les Aveugles de Guerre la partageront. H. A.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Renouvellement de la Carte du
+              Combattant</head>
+            <p>Le secrétaire général par intérim du Comité Départemental des Mutilés Combattants et
+              Victimes de la Guerre de la Seine, notre camarade Payen, nous adresse au sujet du
+              renouvellement de la carte du combattant les instructions suivantes auxquelles nous
+              prions nos camarades de se conformer scrupuleusement.</p>
+            <p>Il est bien entendu que ces instructions sont également valables pour les Aveugles de
+              Guerre de province, qui devront s'adresser au Comité des Mutilés siégeant au chef-lieu
+              de leur département.</p>
+            <p>L'arrêté ministériel du 3 juillet 1933, publié au Journal Officiel du 12 du même
+              mois, prévoit que le renouvellement des cartes du combattant, dont la durée de
+              validité avait été fixée à cinq années, doit être effectué à compter du mois d'août et
+              détermine le modèle du nouveau document à délivrer.</p>
+            <p>En ce qui concerne les cartes qui ont été délivrées au cours de l'année 1928, et dont
+              certaines se trouvent déjà avoir plus de cinq années de date, et devraient en
+              conséquence être considérées comme périmées, leur validité en est exceptionnellement
+              et uniformément prolongée jusqu'au 31 décembre prochain.</p>
+            <p>Le travail de renouvellement incombe au Comité départemental qui a établi la première
+              carte. C'est donc à lui que doivent s'adresser les intéressés, même s'ils ont depuis
+              cette époque changé de département.</p>
+            <p>Les opérations de renouvellement des cartes délivrées par le Comité de la Seine
+              constitueront pour ses Services, un travail considérable, qui doit, par ailleurs, être
+              effectué sans personnel nouveau.</p>
+            <p>Il importe donc de l'organiser par étapes et de telle façon que les formalités soient
+              réduites au strict minimum, tant pour les intéressés euxmêmes, que pour les services
+              administratifs du Comité et des mairies.</p>
+            <p>Dans la première phase de renouvellement, comprise entre le mois d'août et le 31
+              décembre 1933, seront seulement renouvelées les cartes délivrées avant le 31 décembre
+              1928, et parmi ces cartes, en premier <pb n="5"/>
+              <note type="foliation">— 3 —</note> lieu, celles des titulaires que leur âge fait
+              bénéficier de la retraite du combattant.</p>
+            <p>Pour obtenir le renouvellement de leur carte, les intéressés devront remplir une
+              formule spéciale (du modèle joint), qu'ils trouveront soit à la mairie de leur
+              arrondissement, soit au siège social des Associations de Victimes de la Guerre et
+              d'Anciens Combattants, soit enfin au siège du Comité, 7, rue des Minimes.</p>
+            <p>Il y a lieu de signaler d'une façon toute particulière, l'importance qui s'attache à
+              ce que les renseignements demandés sur la formule en question soient fournis avec la
+              plus grande précision.</p>
+            <p>Cette formule remplie convenablem nt devra être adressée au Comité Départemental, 7,
+              rue des Minimes, soit directement par le demandeur, soit par l'intermédiaire de la
+              mairie ou des associations.</p>
+            <p>Il devra être annexé à la demande deux photographies d'identité, format réglementaire
+              ( 3 cm . sur 4 cm .), tirées à une époque récente et portant au verso le nom et
+              l'adresse du demandeur.</p>
+            <p>Il est spécifié formellement qu'étant donné le caractère de pièce d'identité
+              officielle qui est conféré à la carte du combattant, aucune photographie ne répondant
+              pas strictement aux prescriptions ci-dessus mentionnées ne sera acceptée par le
+              Comité.</p>
+            <p>Après avoir formulé la demande de renouvellement, les intéressés devront attendre que
+              des avis communiqués dans la presse et adressés également aux mairies et aux
+              Associations de Victimes de la Guerre et d'Anciens Combattants, les invitent à aller
+              retirer leur nouvelle carte au Comité.</p>
+            <p>A cette époque, c'est-à-dire fin novembre ou courant décembre, il leur suffira de se
+              présenter au siège du Comité, 7, rue des Minimes, pour obtenir la nouvelle carte
+              contre la remise de l'ancienne.</p>
+            <p>Il est instamment recommandé aux intéressés de s'en tenir strictement aux présentes
+              indications. Aucune carte ne sera délivrée avant l'époque ci-dessus indiquée, aucune
+              réponse ne pourra être faite aux correspondances adressées à ce sujet au service.</p>
+            <p>Le nécessaire sera fait pour que, malgré le surcroît de travail occasionné par le
+              renouvellement, tous les titulaires des cartes délivrées en 1928 soient, dès le 1<hi
+                rend="superscript">er</hi> janvier 1934, en possession du nouveau document.</p>
+            <p>En ce qui concerne le renouvellement des cartes établies en 1929, des instructions
+              seront données ultérieurement.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">NOTES ET INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">A Sainte-Maxime</head>
+              <p>L'Eclaireur de Nice du 30 juillet dernier, en publiant la liste de nos camarades
+                qui doivent séjourner cet été à Sainte-Maxime, signale à ses lecteurs l'existence du
+                "Manestou " de la façon suivante :</p>
+              <p>Le "Manestou ", c'est le nom de la villa que M. Ernest Gimbert a cédé à l'Union des
+                Aveugles de Guerre pour en faire une de leurs maisons de repos. "L'Union des
+                Aveugles de Guerre, dont le siège social est à Paris, 25, rue Ballu, a à sa
+                disposition six stations où elle envoie les Aveugles de Guerre passer leurs vacances
+                en compagnie de leurs femmes et enfants. " Ces stations sont par ordre de faveur
+                demandée par les intéressés : Franceville-Plage (Calvados), Sainte-Maxime,
+                Malo-les-Bains, Lacanau, Vals, et, depuis cette année, Vichy. Elles représentent,
+                nous ont dit ces victimes de la grande guerre, les milieux où leurs enfants, leurs
+                femmes et eux-mêmes sont entourés d'une atmosphère d'affectueuse sympathie. Là les
+                enfants des Aveugles de Guerre ont des amis avec lesquels ils grandiront et
+                garderont du sacrifice de leurs pères tout le respect et la considération qui leur
+                sont dus. " Sainte-Maxime, après Franceville, est la station la plus demandée par
+                les membres de l'Association, parce qu'on s'y sent vivre dans une ambiance chaude
+                d'affection et vivifiante d'air réconfortant. " Nous croyons qu'il est dans
+                l'intention de M. E. Gimbert d'agrandir le "Manestou ", afin de pouvoir y loger deux
+                nouvelles familles d'Aveugles de Guerre. "</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Légion d'honneur</head>
+              <p>Dans le Journal Officiel du 29 juillet, nous avons relevé en même temps que la
+                nomination de notre ami L'Evesque, au grade de chevalier, l'élévation du colonel
+                Picot à la dignité de grand-officier de la Légion d'honneur.</p>
+              <p>Nous avons été très heureux de voir cette grande distinction décer- <pb n="7"/>
+                <note type="foliation">— 5 —</note> née au président de l'Association des Gueules
+                Cassées, qui n'a cessé de témoigner à l'Union des Aveugles de Guerre sa vive
+                affection.</p>
+              <p>Nous adressons ici, au colonel Picot, les plus sincères félicitations de tous les
+                Aveugles de Guerre.</p>
+              <p>Nous avons également noté, avec plaisir, la nomination de Mme Meyer, présidente du
+                Livre de l'Aveugle, au grade de chevalier de la Légion d'honneur.</p>
+              <p>Nous félicitons très vivement l'animatrice de cette œuvre utile.</p>
+              <p>Au Journal Officiel du 29 juillet, publiant le décret du 27 juillet, est promu au
+                grade d'Officier : Petitjean (Georges-Eugène-Alfred) (au titre de
+                président-fondateur de l'Amicale des Aveugles de Guerre de l'Est).</p>
+              <p>Au Journal Officiel du 13 juillet, publiant le décret du 7 juillet, sont promus au
+                grade de Chevalier, au titre de mutilés réformés à 100%, nos camarades : Taillepied
+                (Paul-Ernest), ancien soldat au 113<hi rend="superscript">°</hi> Régiment d'Inf.
+                (pour prendre rang à dater du 24 juillet 1922). Grosdidier (Victor-Camille), ancien
+                caporal au 131<hi rend="superscript">°</hi> Rég. d'Infant. (pour prendre rang à
+                dater du 28 octobre 1922).</p>
+              <p>Sont promus Officiers au titre de mutilés réformés à 100%, article 10 :</p>
+              <p>Au Journal Officiel du 27 juillet, publiant le décret du 17 juillet, nos camarades
+                : Aubaizar (Louis-Adolphe), ancien soldat au 176<hi rend="superscript">°</hi> Rég.
+                d'Inf. Bellevenue (Paul-Edgar-Aimé), ancien caporal au 3<hi rend="superscript"
+                  >°</hi> Rég. de Zouaves. Chalendar (Adrien-Julien), ancien sergent au 12<hi
+                  rend="superscript">°</hi> Bataillon de Chasseurs à pied, <pb n="8"/>
+                <note type="foliation">— 6 —</note> Cohen (Jacques), matricule 22934, ancien soldat
+                au 1<hi rend="superscript">er</hi> Régiment Etranger. Cullet (Jean-François), ancien
+                caporal au 143<hi rend="superscript">°</hi> Rég. d'Inf. Dentroux
+                (Joseph-Antoine-Maurice), ancien soldat au 299<hi rend="superscript">°</hi> Rég.
+                d'Infanterie. Daraspe (Pierre-Gabriel), ancien soldat au 32<hi rend="superscript"
+                  >°</hi> Rég. d'Inf. Duffaut (Pascal-Henri), ancien soldat au 88<hi
+                  rend="superscript">°</hi> Rég. d'Infanterie. Gary (Firmin-Jules), ancien soldat au
+                  342<hi rend="superscript">°</hi> Rég. d'Inf. Gurttard (Gabriel-Emile), ancien
+                soldat au 59<hi rend="superscript">°</hi> Rég. d'Artillerie de campagne. Hutinet
+                (Albert-Lucien), ancien soldat au 160<hi rend="superscript">°</hi> Rég. d'Inf.
+                Izembard (Ernest), ancien soldat au 11<hi rend="superscript">°</hi> Rég. de
+                Cuirassiers. Lanciaux (Jean-Baptiste), ancien soldat au 54<hi rend="superscript"
+                  >°</hi> Rég. d'Inf. Lapotre (Léon-Guillaume), ancien soldat au 56<hi
+                  rend="superscript">°</hi> Rég. d'Inf. Leblond (Maurice-Eugène), ancien soldat au
+                  355<hi rend="superscript">°</hi> Rég. d'Inf. Lemerle (Alphonse-Amédée), ancien
+                soldat au 24<hi rend="superscript">°</hi> Rég. d'Inf. Manche (Emile-Joseph), ancien
+                soldat au 1<hi rend="superscript">er</hi> Rég. de Zouaves. Marchan (Simon), ancien
+                sergent au 49<hi rend="superscript">°</hi> Rég. d'Inf. Minier (Georges-André),
+                ancien soldat au 168<hi rend="superscript">°</hi> Rég. d'Inf. Petitdidier
+                (Auguste-Théodore), ancien soldat au 5<hi rend="superscript">°</hi> Bataillon de
+                Chasseurs à pied. Poubane (Pierre-Louis-Joseph), ancien soldat au 70<hi
+                  rend="superscript">°</hi> Rég. d'Inf. Sibiril (Pierre-Marie), ancien caporal au
+                  12<hi rend="superscript">°</hi> Rég. d'Inf. Col. Stephan (Jean-Louis), ancien
+                soldat au 118<hi rend="superscript">°</hi> Rég. d'Inf. Weber (Paul-Louis-Benjamin),
+                ancien soldat au 287<hi rend="superscript">°</hi> Rég. d'Inf.</p>
+              <p>Au Journal Officiel du 6 août, publiant le décret du 28 juillet, nos camarades :
+                Blondell (Emile), ancien soldat au 1<hi rend="superscript">er</hi> Rég. Etranger.
+                Cancé (Jules-Louis), ancien soldat au 215<hi rend="superscript">°</hi> Rég. d'Inf.
+                Chaillou (Paul), ancien soldat au 100<hi rend="superscript">°</hi> Rég. d'Inf.
+                Douris (Etienne-Maurice-Marceau), ancien soldat au 23<hi rend="superscript">°</hi>
+                Rég. d'Inf. Félix (Marius-Louis), ancien caporal au 11<hi rend="superscript">°</hi>
+                Rég. d'Inf. Flaudias (Jean-Antoine), ancien soldat au 13<hi rend="superscript"
+                  >°</hi> Bataillon de Chasseurs à pied. Gatillon (Eugène), ancien soldat au 68<hi
+                  rend="superscript">°</hi> Rég. d'Inf. Gilles (Raoul-Jules-Gustave), ancien soldat
+                au 503<hi rend="superscript">°</hi> Rég. de Chars d'assaut.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>Gréard (Henri-Charles-Achille), ancien soldat au 317<hi rend="superscript">°</hi>
+                Rég. d'Inf. Letellier (Michel-Gabriel), ancien soldat au 366<hi rend="superscript"
+                  >°</hi> Rég. d'Inf. Liabueuf (Félix-Auguste), ancien soldat au 158<hi
+                  rend="superscript">°</hi> Rég. d'Inf. Morand (Henri-Félix-Ernest), ancien soldat
+                au 104<hi rend="superscript">°</hi> Rég. d'Inf. Riou (Elie-Joseph-Jean), ancien
+                sergent au 8<hi rend="superscript">°</hi> Rég. d'Inf. Coloniale. Théodule
+                (Paul-Léon-Victorin), ancien soldat au 416<hi rend="superscript">°</hi> Rég.
+                d'Inf.</p>
+              <p>Au Journal Officiel du 6 septembre, publiant le décret du 25 août, nos camarades :
+                Andrieu (Pierre-Jean-Marie), ancien soldat au 417<hi rend="superscript">°</hi> R. I.
+                Audibert (Augustin-Marius), ancien caporal au 8<hi rend="superscript">°</hi> R. I.
+                Coloniale. Auffret (Joseph-Marie), ancien sergent au 7<hi rend="superscript">°</hi>
+                R. I. Coloniale. Baizet (Pierre), ancien soldat au 114<hi rend="superscript">°</hi>
+                Bataillon de Chass. à pied. Bellenger (Emile-Edouard), ancien soldat au 129<hi
+                  rend="superscript">°</hi> R. I. Brissonet (Louis-Maurice), ancien soldat au 292<hi
+                  rend="superscript">°</hi> R. I. Cantarel (Firmin), ancien sergent au 268<hi
+                  rend="superscript">°</hi> R. I. Capet (Paul), ancien soldat au 172<hi
+                  rend="superscript">°</hi> R. I. Daumas (Pierre), ancien soldat au 107<hi
+                  rend="superscript">°</hi> R. I. Delafosse (Gratien-Paul), ancien soldat au 161<hi
+                  rend="superscript">°</hi> R. I. Doiteau (Joseph-Paul), ancien soldat au 29<hi
+                  rend="superscript">°</hi> Bat. de Chass. à pied. Dubos (Pierre), ancien caporal au
+                  63<hi rend="superscript">°</hi> R. I. Duche (Jules-Gaston), ancien soldat au
+                  154<hi rend="superscript">°</hi> R. I. Dufau (André-Xavier), ancien soldat au
+                  12<hi rend="superscript">°</hi> Bat. de Chass. Alpins. Dufourg (Jean), ancien
+                soldat au 108<hi rend="superscript">°</hi> R. I. Fillion (Ernest-Alphonse), ancien
+                soldat au 313<hi rend="superscript">°</hi> R. I. Gatuing (Bertrand-Jean-Gaston),
+                ancien soldat au 14<hi rend="superscript">°</hi> Rég. d'Art. Godefroy
+                (Albert-Auguste), ancien soldat au 236<hi rend="superscript">°</hi> R. I. Gueguen
+                (François-Marie), ancien soldat au 1<hi rend="superscript">er</hi> Rég. Inf.
+                Coloniale. Hannequin (Jules-André-Léon), ancien soldat au 13<hi rend="superscript"
+                  >°</hi> R. I. Henry (Paul-Joseph-Aimé), ancien soldat au 10<hi rend="superscript"
+                  >°</hi> Bat. de Chass. à pied. Lacourt (Laurent-Joséphin), ancien soldat au 248<hi
+                  rend="superscript">°</hi> R. I. Lagarde (Osmin), ancien adjudant au 126<hi
+                  rend="superscript">°</hi> R. I. Lansquenet (Emile-Marie), ancien sergent au 95<hi
+                  rend="superscript">°</hi> R. I. Lappe (Pierre-Constant), ancien soldat au 5<hi
+                  rend="superscript">°</hi> Rég. Art. de Camp. Le Bars (François-Marie), ancien
+                soldat au 94<hi rend="superscript">°</hi> R. I. Le Floch (Félix-Marie), ancien
+                soldat au 47<hi rend="superscript">°</hi> R. I. <pb n="10"/>
+                <note type="foliation">— 8 —</note> Leroy (Julien-Gustave), ancien soldat au 4<hi
+                  rend="superscript">°</hi> Rég. de Zouaves. Le Teuff (Julien), ancien soldat au
+                  317<hi rend="superscript">°</hi> R. I. Malesieux (Auguste-Victor), ancien soldat
+                au 71<hi rend="superscript">°</hi> R. I. Marignier (Benoît-Marius), ancien soldat au
+                  350<hi rend="superscript">°</hi> R. I. Massot-Pellet (Joseph), ancien soldat au
+                  140<hi rend="superscript">°</hi> R. I. Miremont (Pierre), ancien soldat au 201<hi
+                  rend="superscript">°</hi> R. I. Moreau (Adolphe-Auguste), ancien caporal au 112<hi
+                  rend="superscript">°</hi> R. I. Pagand (Jean), ancien soldat au 121<hi
+                  rend="superscript">°</hi> R. I. Peligry (Jean-Baptiste-Antoine), ancien caporal au
+                  6<hi rend="superscript">°</hi> R. I. Colon. Petit (André-Auguste), ancien soldat
+                au 120<hi rend="superscript">°</hi> R. I. Picot (Georges-Alfred), ancien soldat au
+                  74<hi rend="superscript">°</hi> R. I. Prigent (Jean-Marie), ancien soldat au
+                  177<hi rend="superscript">°</hi> R. d'Art. de tranchées. Raybaud
+                (Charles-Marius-Honoré-Jacques), ancien soldat au 163<hi rend="superscript">°</hi>
+                R. I.</p>
+              <p>Rochet (Philippe), ancien soldat au 107<hi rend="superscript">°</hi> Bat. de Chass.
+                à pied. Thevenard (Gustave-Pierre), ancien caporal au 13<hi rend="superscript"
+                  >°</hi> R. I. Toutain (Lucien-Eugène), ancien soldat au 74<hi rend="superscript"
+                  >°</hi> R. I. Venries (Paul), ancien soldat au 83<hi rend="superscript">°</hi> R.
+                I. Vidal (Etienne), ancien soldat au 133<hi rend="superscript">°</hi> R. I. Vidil
+                (Victor-Jules-Léon), ancien aspirant au 239<hi rend="superscript">°</hi> R. I.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">Un Diplôme</head>
+              <p>Nous sommes heureux de porter à la connaissance de nos camarades que, lors des
+                Comices Agricoles de l'Yonne, le 18 juin 1933, notre camarade G. Lefebvre, de La
+                Hai-Paillerine, par Subligny (Yonne), a obtenu un diplôme avec médaille d'argent
+                pour l'exposition de sa brosserie.</p>
+              <p>Nous lui adressons nos plus vives félicitations.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Une machine à faire les
+                brosses</head>
+              <p>Notre camarade Doguet qui, pour cause de maladie, a dû abandonner la brosserie,
+                nous informe qu'il a inventé une machine avec laquelle il n'y a plus besoin de tirer
+                sur la brosse, la pincée de chien- <pb n="11" break="no"/>
+                <note type="foliation">— 9 —</note> dent rentrant au moyen de levier, donnant un
+                travail plus fourni et plus soigné.</p>
+              <p>Les brossiers, que la question intéresse, peuvent s'adresser à notre camarade
+                Doguet, rue des Moulins, à Rémalard (Orne), qui tient à leur disposition des
+                photographies de cette machine, moyennant l'envoi d'une somme de 2 fr. 50 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Loterie Nationale</head>
+              <p>La loi de Finances du 51 mai a institué, comme chacun le sait, une loterie
+                nationale dont les billets sont, dès à présent, mis en vente.</p>
+              <p>Nous informons nos camarades qui désireraient se procurer un ou plusieurs billets
+                que nous en tenons quelques-uns à leur disposition. Le prix de chaque billet est
+                fixé à 100 francs. Chaque camarade désirant en acheter devra nous faire parvenir la
+                somme de 100 francs par billet, plus 1 fr. 75 pour frais d'envoi sous pli
+                recommandé.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Nécrologie</head>
+              <p>Nous avons appris la mort de M. le professeur Quénu qui pendant la guerre donna ses
+                soins dévoués à un grand nombre de nos camarades.</p>
+              <p>Il était le père de Mme Contamin, vice-présidente de notre Comité d'Action, qui,
+                depuis la fondation de l'Union, nous a témoigné un grand attachement.</p>
+              <p>Nous prions Mme Contamin, ainsi que sa famille, d'agréer les vives condoléances des
+                membres de l'U. A. G.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">T. S. F.</head>
+              <p>La Maison Philips nous informe qu'elle se trouve dans l'obligation de réduire
+                encore de 5% la remise qu'elle consentait aux membres de l'U. A. G. pour l'achat des
+                postes de sa fabrication.</p>
+              <p>Il est rappelé à nos camarades qu'ils ne doivent en aucun cas s'adresser aux agents
+                de la Société Philips s'ils désirent bénéficier de la remise que consent encore
+                cette maison.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+              <p>Prière d'adresser les demandes de renseignements et les commandes à l'U. A. G.</p>
+              <p>Nos camaraades séjournant cet été à Franceville ont pu se servir d'un appareil de
+                T.S.F. mis à notre disposition par la maison "Au Pigeon Voyageur ".</p>
+              <p>Nous remercions MM. les Directeurs de cette firme de leur aimable attention et
+                indiquons aux membres de l'U. A. G. qu'ils trouveront "Au Pigeon Voyageur ", 252
+                bis, boulevard Saint-Germain, le meilleur accueil et des réductions intéressantes
+                pour les acquisitions de postes récepteurs qu'ils désireraient faire.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">Chronique de l'U.A. C.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Caisse Fraternelle</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi>
+                juillet et le 31 août, la somme de 43.680 francs, se répartissant comme suit :</p>
+              <p><list>
+                  <item>Allocations naissances — 3.900</item>
+                  <item>Allocations décès — 27.255</item>
+                  <item>Allocations caisse maladie — 12.525</item>
+                </list> Il y a lieu d'ajouter à ces 43.680 francs, une somme de 97.800 francs pour
+                prêts de maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner vingt-neuf demandes, dont cinq
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Naissances</head>
+                <p>Notre camarade et Mme Richaud, de La Motte-du-Caire (BassesAlpes), nous font part
+                  de la naissance de leur quatrième enfant, Louisette, née le 19 mai 1933.</p>
+                <p>Notre camarade et Mme Flandre, d'Amiens (Somme), nous font part de la naissance
+                  de leur quatrième enfant, René, né le 4 juillet 1933.</p>
+                <p>Notre camarade et Mme Muller, de Neuilly-sur-Seine, nous font part de la
+                  naissance de leur fils, Francis, né le 29 mai 1933.</p>
+                <p>Notre camarade et Mme Pennequin, de Roeulx, nous font part de la naissance de
+                  leur fille, Christiane, née le 5 juillet 1933.</p>
+                <p>Notre camarade et Mme Anquetil, du Plessis-Robinson, nous font part de la
+                  naissance de leur troisième enfant, Henri-Marcel, né le 17 juillet 1933.</p>
+                <p>Notre camarade et Mme Munnier, de Burelles (Aisne), nous font <pb n="14"/>
+                  <note type="foliation">— 12 —</note> part de la naissance de leur cinquième
+                  enfant, Colette, née le 9 juillet 1933.</p>
+                <p>Notre camarade et Mme Dimitrieff, d'Ampus (Var), nous font part de la naissance
+                  de leur septième enfant, Jeanine, née le 23 juillet 1933.</p>
+                <p>Notre camarade et Mme Chabbert (Henri), de Bize (Aude), nous font part de la
+                  naissance de leur quatrième enfant, Claude, né le 25 juillet 1933.</p>
+                <p>Notre camarade et Mme Gedin, de Trinité (Martinique), nous font part de la
+                  naissance de leur quatrième enfant, Alfred, né le 11 juillet 1933.</p>
+                <p>Notre camarade et Mme Bugnet, de Trept (Isère), nous font part de la naissance de
+                  leur huitième enfant, Raymonde, née le 1<hi rend="superscript">er</hi> août.</p>
+                <p>Notre camarade et Mme Monnerie, de Saint-Aubin (Eure), nous font part de la
+                  naissance de leur fils, Léonce, né le 22 juillet.</p>
+                <p>Notre camarade et Mme Serdobel, de Coudekerque-Branche (Nord), nous font part de
+                  la naissance de leur quatrième enfant, Paulette, née le 4 août 1933.</p>
+                <p>Notre camarade et Mme Corlobé, de Kerpuns-en-Crach (Morbihan), nous font part de
+                  la naissance de leur quatrième enfant, Claire, née le 31 juillet 1933.</p>
+                <p>Notre camarade Launay (Eugène), de Souday (Loir-et-Cher), nous fait part de la
+                  naissance de sa petite fille Marianne, née le 7 août 1933.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Mariages</head>
+                <p>Notre camarade Jeames (Joseph), de Cadenet (Vaucluse), nous fait part de son
+                  mariage avec Mme Yvonne Cartier-Souge, qui a été célébré le 1<hi
+                    rend="superscript">er</hi> juillet 1933.</p>
+                <p>Notre camarade Magat, de Bordeaux, nous fait part du mariage de sa fille
+                  Henriette avec M. Denis Sempé, le 8 juillet 1933.</p>
+                <p>Notre camarade Potdevin, de Saint-Aubin-les-Forges (Nièvre), nous fait part du
+                  mariage de son fils Emile, célébré le 8 juillet.</p>
+                <p>Notre camarade E. Bouisson nous fait part du mariage de sa fille Denise avec M.
+                  Eugène Guy, célébré le 29 juillet, à Laurens (Hérault).</p>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+                <p>Notre camarade G. Drion, de Paris, nous fait part de son mariage avec Mlle
+                  Marguerite Tribouillard, célébré le 18 juillet 1933.</p>
+                <p>Notre camarade Cabannot, de Pau (Basses-Pyrénées), nous fait part de son mariage
+                  avec Mlle Paule Lassalle, célébré le 29 juillet.</p>
+                <p>Notre camarade Leloup, de Vesoul (Haute-Saône), nous fait part du mariage de sa
+                  fille Suzanne avec M. Maurice Galland, célébré le 8 août 1933.</p>
+                <p>Notre camarade Gicquel, des Forges (Morbihan), nous fait part du mariage de son
+                  fils Léon avec Mlle Alice Dravers.</p>
+                <p>Notre camarade Charlat, de Nemours (Seine-et-Marne), nous fait part du mariage de
+                  sa nièce, Denise Charlat, avec M. Henri François, célébré le 31 août.</p>
+                <p>Notre camarade Estienne, de Six-Fours-la-Plage (Var), nous fait part du mariage
+                  de son fils Louis avec Mlle Odette Rigaud, célébré le 24 août.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Gérard (Edouard), de Thiebeaumenil
+                  (Meur-the-et-Moselle), décédé le 16 juillet 1933, à l'âge de 47 ans.</p>
+                <p>Né à Thiébauménil le 3 décembre 1886, notre camarade faisait partie du 167<hi
+                    rend="superscript">°</hi> R. I. et fut blessé le 21 janvier 1915 au Bois Le
+                  Prêtre. Réformé à 100%, article 10 , officier de la Légion d'honneur, il laisse
+                  une veuve et un enfant.</p>
+                <p>De notre camarade Bonnecuelle (Fernand), de Paris, décédé le 21 juillet 1933, à
+                  l'âge de 58 ans.</p>
+                <p>Né à Brousseral (Haute-Marne), le 6 août 1875, notre camarade faisait partie du
+                    29<hi rend="superscript">°</hi> territorial et fut blessé le 10 juin 1918 à
+                  Marquelly (Oise). Réformé à 140%, articles 10 et 12 , officier de la Légion
+                  d'honneur, il laisse une veuve.</p>
+                <p>De notre camarade Bréval (Eugène), de Cormeilles (Eure), décédé le 25 juillet
+                  1933, à l'âge de 50 ans.</p>
+                <p>Né à Cormeilles (Eure), le 6 juillet 1874, notre camarade faisait partie du 17<hi
+                    rend="superscript">°</hi> territorial et fut blessé le 18 septembre 1915 en
+                  Champagne. Réformé à 100%, article 10 , officier de la Légion d'honneur, il laisse
+                  une veuve et deux enfants.</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+                <p>De notre camarade Papa (Marc), de Nice (Alpes-Maritimes), décédé le 7 août 1933,
+                  à l'âge de 48 ans.</p>
+                <p>Né à Rossa (Suisse), le 27 janvier 1885, notre camarade faisait partie du 1<hi
+                    rend="superscript">er</hi> Etranger et fut blessé le 7 octobre 1915, à Sonain.
+                  Réformé à 150%, articles 10 et 12 , officier de la Légion d'honneur, il laisse une
+                  veuve.</p>
+                <p>De notre camarade Rolland (Daniel), de Montargis (Loiret), décédé le 11 août
+                  1933, à l'âge de 49 ans.</p>
+                <p>Né à Betz (Indre-et-Loire), le 13 juillet 1884, notre camarade faisait partie du
+                    68<hi rend="superscript">°</hi> R. I. et fut blessé le 30 avril 1916 à la Cote
+                  304 (Verdun). Réformé à 100%, article 10 . Officier de la Légion d'honneur, il
+                  laisse une veuve et deux enfants.</p>
+                <p>De notre camarade Cartereau (Eugène), de Epigné-sur-Dène (Indre-et-Loire), décédé
+                  le 14 juillet 1933, à l'âge de 56 ans.</p>
+                <p>Né à Marrag (Indre-et-Loire), le 8 novembre 1877, notre camarade faisait partie
+                  du 70<hi rend="superscript">°</hi> Territorial et fut blessé le 12 septembre 1916
+                  à Plessis-le-Roi (Somme). Réformé à 100%, article 10 , il laisse une veuve et
+                  trois enfants.</p>
+                <p>De notre camarade Bony (Firmin), de Paris, décédé le 15 août 1933, à l'âge de 43
+                  ans.</p>
+                <p>Né le 29 novembre 1890 à Epernay (Marne), notre camarade faisait partie du 4<hi
+                    rend="superscript">°</hi> Zouaves et fut blessé le 16 septembre 1914, à
+                  Charlepont (Oise). Réformé à 100%, article 10 , officier de la Légion d'honneur,
+                  il laisse une veuve et deux enfants.</p>
+                <p>De notre camarade Bertrand (Léon), de Lucon (Vendée), décédé le 29 août 1933, à
+                  l'âge de 48 ans.</p>
+                <p>Né à Poitiers (Vienne), le 27 juillet 1885, notre camarade faisait partie du
+                    325<hi rend="superscript">°</hi> R. I. et fut évacué pour gaz en février 1916,
+                  de Jeandelicourt (Meurthe-et-Moselle). Réformé à 100%, article 10 , il laisse une
+                  veuve et deux enfants.</p>
+                <p>De la femme de notre camarade Toutain (Paul), de Briouze (Orne), décédée le 11
+                  juillet 1933, à l'âge de 57 ans.</p>
+                <p>De la femme de notre camarade Lauté (Robert), d'Enghien-lesBains (Seine), décédée
+                  le 3 septembre 1933, dans sa 40<hi rend="superscript">°</hi> année.</p>
+                <p>Du fils de notre camarade Guerrier, de Montluel (Ain), décédé fin juillet dans sa
+                    11<hi rend="superscript">e</hi> année.</p>
+                <p>De la fille de notre camarade Mimoun Levy, de Tlemcen (Algérie), décédée le 9
+                  juillet 1333, à l'âge de 7 mois.</p>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+                <p>De la naissance et du décès du fils de notre camarade Chouquet, d'Alger, survenu
+                  le 1<hi rend="superscript">er</hi> juin 1933.</p>
+                <p>De la fille de notre camarade Lotte, de Haubourdin (Nord), décédée le 21 août
+                  dans sa 21<hi rend="superscript">°</hi> année.</p>
+                <p>De la mère de notre camarade Rohken, d'Orgeval (Seine-et-Oise), décédée le 27
+                  juillet 1933, à l'âge de 70 ans.</p>
+                <p>Du père de notre camarade Gallo, de Maussane (Bouches-duRhône), décédé le 29
+                  juillet.</p>
+                <p>Du beau-père de notre camarade Leveau, de Pantin, décédé le 11 juillet 1933, dans
+                  sa 71<hi rend="superscript">°</hi> année.</p>
+                <p>De la belle-mère de notre camarade Brechon (Joseph), de Poitiers (Vienne),
+                  survenu en juillet 1933.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Cotisations
+                volontaires</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leur cotisation, ont tenu, néanmoins, à effectuer un
+                nouveau versement :</p>
+              <p>Ganneau, 10 fr.; Flandias, 10 fr.; Léger (Jules), 7 fr.; Abderhamann, 10
+                francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Cotisations pour l'année
+                1933</head>
+              <p>Mangold, Lieutaud, Kamfri Brahim, Ganneau, Finot, Comte, Martinet, Raffray,
+                Devillers, Toupenet, Cabannot, Malinge, Maille, Duchatel, Dimitrieff, Amault, Paris,
+                Savigny, Ursat, Navarron, Ballay, Rolland, Bouet, Jeandin, Lapébie, Jaffré,
+                Christophe, Liotaud, Giorgetti, Foucher, Dolmière, Abderhamann, Le Bis.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Assemblée Générale de la
+                section départementale du Finistère du 6 Juillet 1933</head>
+              <p>Sont présents : Bellec, Barbier, Kerrien, Le Borgne, Laurent, Jung, Bénéat,
+                Prigent, Coat, Argouach, Kérangal, Kerneîs, Férézou, Déniel, Le Cocq, Sibiril,
+                Kaigre, Piton.</p>
+              <p>Excusés et pouvoirs : Au Président : Masson, Quéré, Gohiec, Nicolas (F.). Au
+                Secrétaire : Kerhuel, Lavolé, Stéphan (J.-P.), Le Borgne (J.-M.), Guillou, Kromer,
+                Bouguen, Gouriou, Castel.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Le Cocq, président, ouvre la séance à 10 h .30 . Il remercie les camarades présents
+                et leur dit toute sa joie de les retrouver tous les ans, fidèles, à notre Assemblée
+                annuelle.</p>
+              <p>Le Cocq dit aussi son vif contentement de voir l'U. A. G., notre Groupement
+                national, représenté à notre Assemblée par son Secrétaire général, notre camarade
+                Amblard.</p>
+              <p>Notre Section fêtant cette année son 10<hi rend="superscript">°</hi> anniversaire,
+                nous avions invité au banquet clôturant notre Assemblée les Présidents des
+                Associations amies qui, pendant ces dix années, nous ont témoigné leur sympathie et
+                bonne amitié.</p>
+              <p>Le Cocq passe en revue l'action de notre Section depuis sa fondation (mars 1923) et
+                indique qu'après la réunion nous irons déposer une gerbe au Monument des Morts de la
+                Grande Guerre.</p>
+              <p>Le Cocq demande à Amblard, en sa qualité de Secrétaire général et délégué de
+                l'Union, de bien vouloir accepter la présidence.</p>
+              <p>Celui-ci désirerait que cette réunion gardât son caractère régional, mais devant
+                l'insistance de Le Cocq accepte la présidence.</p>
+              <p>Après la lecture du rapport moral, celui-ci est adopté à l'unanimité.</p>
+              <p>Puis le Trésorier donne lecture du rapport financier qui est également voté à
+                l'unanimité.</p>
+              <p>Le Commissaire aux comptes fait savoir qu'il a vérifié la comptabilité et proclame
+                l'exactitude des comptes.</p>
+              <p>Amblard remercie le Trésorier et le Commissaire aux comptes de leur collaboration
+                et leur dévouement à la Départementale.</p>
+              <p>L'ordre du jour appelant l'examen des vœux, un seul est présenté :</p>
+              <p>Vœu :</p>
+              <p>"Les membres de la Départementale du Finistère, réunis en Assemblée générale,
+                demandent que pour l'obtention des chambres au siège de l'Union, la priorité soit
+                accordée aux camarades ayant le moins séjourné dans une des maisons de l'Union
+                (Maison de Paris et de repos). "</p>
+              <p>Nomination du Comité d'administration : Sont nommés administrateurs : Bénéat,
+                Prigent, Kerneïs, Le Cocq, Sibiril.</p>
+              <p>Trésorier : Kaigre. Commissaire aux comptes : Piton. Le Cocq est réélu Président et
+                Sibiril Secrétaire. L'ordre du jour étant terminé, Amblard prend la parole. Il donne
+                  <pb n="19"/>
+                <note type="foliation">— 17 —</note> les renseignements sur la création de la Maison
+                de l'Aveugle et indique où en sont les démarches relatives à sa réalisation.</p>
+              <p>Puis il continue son exposé en précisant les améliorations apportées au
+                fonctionnement de la Caisse Maladie, Caisse de secours-décès, Caisse de Prêts
+                maisons, etc., etc.</p>
+              <p>Au sujet des pensions, demande le maintien des droits acquis. Amblard termine en
+                remerciant la Départementale de son invitation; félicite les camarades de leur
+                esprit unioniste et de leur attachement à leur Groupement National de l'U.A.G.</p>
+              <p>RAPPORT MORAL</p>
+              <p>Dans notre Rapport moral, nous vous racontons tous les ans à peu près la même chose
+                : Que notre Groupement a participé à l'organisation de la fête du 11 novembre.</p>
+              <p>Cette année encore l'U.N.C. nous avait invité au banquet clôturant notre dixième
+                anniversaire. Votre Conseil d'administration décida d'inviter au banquet qui clôture
+                notre Assemblée générale les présidents des Associations de Mutilés et Anciens
+                Combattants qui, depuis que notre Groupement existe, nous ont invité à leur Congrès
+                ou autres manifestations : U.N.C., A.F.M., Anciens du 19<hi rend="superscript"
+                  >°</hi>, ainsi que le délégué des Amis des Soldats Aveugles pour le Nord du
+                Finistère.</p>
+              <p>Notre Section naquit en mars 1923. Dans notre première réunion, nous décidions
+                d'intervenir près du Conseil Général pour que dans les transports régionaux soit
+                accordée la gratuité au guide accompagnant un Aveugle, comme sur les grands
+                réseaux.</p>
+              <p>Trois mois plus tard, satisfaction nous était accordée; nous n'aurions à payer
+                qu'une demi-place comme les autres mutilés, le guide bénéficiant de la gratuité
+                comme sur les grands réseaux.</p>
+              <p>L'année suivante, la Compagnie des Vapeurs Brestois accordait la gratuité à
+                l'Aveugle, etc., etc.</p>
+              <p>Nous avons aussi à noter avec satisfaction que le nombre des camarades assistant
+                régulièrement à notre Assemblée a été en s'accroissant, témoignant ainsi l'intérêt
+                qu'ils portent à leur Groupement et le plaisir qu'ils ont à se retrouver une fois
+                par an.</p>
+              <p>L'Office Départemental des Mutilés nous a toujours témoigné la plus grande
+                sympathie.</p>
+              <p>Depuis 1923, notre Départementale a été représentée par son <pb n="20"/>
+                <note type="foliation">— 18 —</note> président ou un membre du Conseil
+                d'administration à toutes les assemblées générales et à quelques réunions du Conseil
+                de l'U.A.G.</p>
+              <p>Nous pouvons nous croire satisfaits d'avoir assuré, pendant les dix années qui
+                viennent de s'écouler, les liens de camaraderie qui unissent la grande famille des
+                Aveugles de Guerre du département.</p>
+              <p>Là est notre but et nous nous efforcerons, comme par le passé, de continuer dans
+                cette voie pour le plus grand bien de notre Groupement national, l'Union des
+                Aveugles de Guerre.</p>
+              <p>A midi, un banquet est servi à l'Hôtel de Bretagne. Pendant le repas règnent la
+                plus grande camaraderie et la plus grande animation.</p>
+              <p>Le banquet terminé, Le Cocq, président de la Départementale, prend le premier la
+                parole et dit qu'à l'occasion du dixième anniversaire de notre Départementale, il
+                est heureux de remercier les camarades : Desroches, président de l'U.N.C. du
+                Département; Olivon, président de la Fraternelle des Mutilés de Brest U.F.; Omnès,
+                des Anciens du 19<hi rend="superscript">°</hi> d'Infanterie, et dit combien il est
+                heureux de voir ici les représentants des Anciens Combattants.</p>
+              <p>Il remercie encore les camarades Kaigre, Piton, notre trésorier et commissaire aux
+                comptes, puis le camarade Grall, sur lesquels nous pouvons toujours compter.</p>
+              <p>Souhaitons d'être à nouveau réunis pour notre vingtième anniversaire.</p>
+              <p>Puis Le Cocq fait donner lecture une lettre du colonel de Reals, s'excusant de ne
+                pouvoir être présent à cette réunion étant pris par des engagements antérieurs.</p>
+              <p>En terminant Le Cocq remercie le camarade Amblard et salue Mme Amblard, qui n'ont
+                pas hésité à faire le voyage de Paris à Brest pour nous apporter le salut de la
+                totalité des Aveugles de Guerre.</p>
+              <p>Omnès, représentant l'Amicale des Anciens du 19<hi rend="superscript">°</hi>
+                d'Infanterie, prend ensuite la parole : " Je vous apporte, dit-il, les excuses de M.
+                Cordon, président, qui n'a pu être parmi vous étant pris par ses occupations
+                journalières. "Le 19<hi rend="superscript">°</hi> est touché de l'invitation venant
+                des Aveugles de Guerre. C'est un devoir de cultiver les souvenirs, et nous ne devons
+                pas y manquer; gardons aussi le souvenir de nos morts, et après eux, vous êtes les
+                premiers qui doivent avoir tous les droits.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>" Je vous apporte aussi le salut des Officiers de Réserve de Brest et soyez assurés
+                que nous serons toujours près de vous. "</p>
+              <p>Prenant ensuite la parole, Olivon dit : "Représentant l'U. F. de Brest, je suis
+                touché de me trouver aujourd'hui parmi vous, les plus grands invalides de la guerre.
+                Je lève mon verre à la prospérité de votre Association, l'une des plus importantes,
+                quoique, fort heureusement, vous ne soyez pas nombreux! »</p>
+              <p>Prenant à son tour la parole, Desroches dit : "C'est avec émotion que je viens vous
+                apporter le salut des 15.000 anciens combattants de l'U.N.C. du Finistère, aussi des
+                850.000 anciens combattants de notre Association comme membres du Conseil
+                d'administration. Vous êtes ceux qui doivent marcher en tête. L'amitié que vous
+                trouvez, dans votre Association, vous permet de vivre allégrement les jours que vous
+                avez à vivre. Si nous avions un exemple à prendre, c'est sur vous que nous le
+                prendrions. " Entre anciens combattants, nous savons ce que c'est que la guerre.
+                Cette union entre Aveugles de Guerre, je la souhaite entre anciens combattants. Que
+                ce soit un exemple fécond. "Je bois à vos familles, à la santé de tous les Aveugles
+                de Guerre, représentés ici par votre secrétaire général. »</p>
+              <p>Amblard, clôturant la série des discours, apporte à ses camarades le salut
+                fraternel du Conseil d'administration de l'U.A.G. Il tient à souligner la bonne
+                direction de la Section du Finistère : " Nous devons, dit-il, féliciter les
+                camarades Le Cocq et Sibiril qui ont resserré les liens toujours plus étroits entre
+                les camarades du département et ont su trouver la sympathie des Associations des
+                Anciens Combattants qui les entourent. »</p>
+              <p>Puis viennent ensuite les chansons et monologues où quelques camarades se font
+                applaudir, tout particulièrement Barbier dans ses chansons en breton.</p>
+              <p>Kaigre au piano, accompagné de Piton au violon, font valser les danseuses et
+                danseurs jusqu'à l'heure des trains. On se quitte très heureux de la bonne journée
+                passée ensemble en se donnant rendez-vous à l'année prochaine!</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">SECTION DEPARTEMENTALE DU
+                FINISTERE</head>
+              <table>
+                <head type="section" rend="align(center)">Exercice 1932-1933</head>
+                <row>
+                  <cell/>
+                  <cell>Recettes</cell>
+                  <cell>Dépenses</cell>
+                </row>
+                <row>
+                  <cell>En caisse au 31 juin.</cell>
+                  <cell>3.36835</cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell>Déplacements des administrateurs.</cell>
+                  <cell/>
+                  <cell>110 "</cell>
+                </row>
+                <row>
+                  <cell>Photographies</cell>
+                  <cell/>
+                  <cell>32 "</cell>
+                </row>
+                <row>
+                  <cell>Gerbe, le 11 novembre, au Monument aux Morts</cell>
+                  <cell/>
+                  <cell>35 "</cell>
+                </row>
+                <row>
+                  <cell>Subvention du département.</cell>
+                  <cell>70 "</cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell>Intérêts</cell>
+                  <cell>10850</cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell>Frais de Secrétariat</cell>
+                  <cell/>
+                  <cell>4075</cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell>3.54785</cell>
+                  <cell>21775</cell>
+                </row>
+                <row>
+                  <cell>En caisse à ce jour</cell>
+                  <cell>3.32910</cell>
+                  <cell/>
+                </row>
+              </table>
+              <p>Brest, le 30 juin 1933. Le Trésorier : Kaigre. Vu : Le Commissaire aux comptes.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">AU MONUMENT AUX MORTS POUR
+                LA PATRIE</head>
+              <p>A notre manifestation du souvenir, le maire de Landerneau, absent, s'était fait
+                représenter par son adjoint, qui nous attendait à l'entrée du cimetière, ainsi que
+                le capitaine commandant le détachement d'infanterie caserné à Landerneau.</p>
+              <p>Le Cocq dépose une gerbe au monument et une minute de silence est observée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Avis divers</head>
+              <p>Notre camarade Sénéchal nous fait savoir qu'il désire acheter d'occasion une
+                machine à écrire le Braille, en bon état, système American Braille Press.</p>
+              <p>Faire offre au camarade Sénéchal, rue de l'Avenir, Outreau (Pas-de-Calais).</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+              <p>Mme Bonnecuelle, veuve de notre camarade, désirerait faite profiter un Aveugle de
+                Guerre du couteau de brossier appartenant à son mari.</p>
+              <p>S'adresser à Mme Bonnecuelle, 37, rue de Reuilly, Paris (12).</p>
+              <p>A vendre, paille pour rempaillage de chaises, 2 francs le kilo. Ecrire au camarade
+                Chapouillé, Casteljaloux (Lot-et-Garonne).</p>
+              <p>A vendre : Une machine Dubied rectiligne, 50 cm ., jauge 7. Une Machine Dubied
+                rectiligne, 60 cm ., jauge 7, avec super 4 et double rayeurs, ainsi que tous leurs
+                accessoires.</p>
+              <p>Une table bois avec pieds chêne, tiroir et tablette. Une gratteuse de 60 cm . avec
+                marche au pied ou au moteur. Un jeu de 150 bobines, environ. Deux rouets et
+                dévidoirs (le tout en très bon état). Un stock de laines de différentes couleurs (
+                35 kilos environ). Un stock de soie de différentes couleurs ( 5 à 6 kilos environ).
+                Le tout de belle qualité.</p>
+              <p>Pour tous renseignements, s'adresser à Mme Veuve Fauvin, 56, rue du Pont, à
+                Beaugency (Loiret).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Liste des Donateurs</head>
+              <p>Mme Varin, Pau, 20 fr. - Mme Chaudieu et Mmes Toudy, à La Garenne-Colombes, 20 fr.
+                - Mme Arthur Luck, à Paris, 510 fr. - Produit d'une quête faite au mariage
+                Peiffer-Delattre, à Longwy, 34 fr. 50. - Produit d'une quête faite au mariage
+                Massart-Brunson, à Longwy, 69 fr. 90. - Colonel de Sillègue, à Urt
+                (Basses-Pyrénées), 20 fr. - Produit d'une quête faite au mariage Beot-Goebert, à
+                Longwy, 46 fr. 75. - Mme Gérard, à Paris, 500 fr. - <pb n="24" break="no"/>
+                <note type="foliation">— 22 —</note> Mme Zula Cross, à Paris, 50 fr. - Anonyme, 25
+                fr. - Mme Mas, Saint-Chiniau (Hérault), 50 fr. - M. J. de Graville, Maulus (Manche),
+                100 fr. - M <hi rend="superscript">°</hi> Chaubet, 100 fr. - M. Roman, à Charols, 20
+                fr. - M. Brun, architecte, à Paris, 10 fr. - M <hi rend="superscript">°</hi> de
+                Bouillé, à Bourgueil (Indre-et-Loire), 200 fr. - Mme Jansen, à Marnes-laCoquette
+                (Seine-et-Oise), 100 fr. - M. Moret, Saint-Quentin (Aisne), 100 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">Dons avec affectation
+                spéciale pour la création de la "Maison des Aveugles de Guerre"</head>
+              <p>Ville de Doué-la-Fontaine (Maine-et-Loire), 50 fr. - Caisse d'Epargne de Laon
+                (Aisne), 600 fr. - Ville du Creusot (Saône-etLoire), 200 fr. - Commune de Capendu
+                (Hérault), 50 fr. - Subvention du département de Seine-et-Marne, 500 fr. - Commune
+                de Céret (Lot), 200 fr. - Commune de Huninge (Bas-Rhin), 30 francs.</p>
+            </div>
+          </div>
+          <fw>Le Gérant : DECOENE. Imp. Dubois et Bauer, 34, r. Laffitte, Paris , 1933</fw>
+          <pb n="25"/>
+          <pb n="26"/>
+          <pb n="27"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourgoignon, secrétaire général honoraire. Fayret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; Vice-Présidents: Fayret, Leveau, Noireaux. Secrétaire général:
+              Amblard. Trésorier: Gaston L'Evesque. Membres: Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabassson, Céré-Labourdette, Conan, Courteix, Derunder, Fauvel, Grillet,
+              Guillam, Izaac, Lap. parque, lagarde, lauté, Malgat, Muller, Nicolai, Petitjean,
+              Robert (Maurice), Roy (Georges), Satué.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le baron de Traversay, Président; Mlle
+              Arbel, Vice-Présidente honoraire. Mme Contamin, Vice-Présidente; M. le colonel de
+              Traversay, Vice-président; M. Oscar Bloch, Secrétaire; M. Auterbe, Sous-Directeur à la
+              Compagnie «L'Union »; Mme du Bos; Mme Broquin; M. Marcel Blocn; M. le marquis de
+              Chaumont-Quirry; M. Chepfer; M. Pierre Chérot; Mme Chevalier; Mme Contamin; Mme
+              Francis de Crosset Mlle Jalaguer; Mlle d'Herbemont; Mme Henri; Mme Kalt; Mme
+              L'Evesque; Mme Lévy-Weis; M. Mayer; Mme Meyer; Mme Mus; M. Pascal.</p>
+            <pb n="28"/>
+          </div>
+          <fw>Imprimerie Dubois et Bauer, 34, rue Laffitte. - Paris 1933</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

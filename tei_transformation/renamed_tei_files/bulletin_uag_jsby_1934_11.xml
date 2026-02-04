@@ -1,0 +1,903 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 16ème année 1934, n°11</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Invalides de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Chiens-guides</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Statut des invalides</title>
+        <title type="topic">Légion d'Honneur</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 23 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#pensionnes">Pensionnés</term>
+          <term ref="#chiens-guides">Chiens-guides</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#dotation-nationale">Dotation nationale</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de divers sujets d'intérêt
+          pour ses membres, notamment les avancées concernant le statut des grands invalides et les
+          discussions avec le ministère des Pensions pour améliorer les dotations. Il informe sur la
+          construction de la Maison des Aveugles de Guerre à Paris et partage des témoignages sur
+          l'utilité des chiens-guides. Le bulletin inclut également des informations
+          administratives, des procès-verbaux de réunions de sections, des listes de donateurs, des
+          promotions à la Légion d'Honneur, et des avis aux pensionnés de guerre. Enfin, il présente
+          les ouvrages disponibles auprès du "Livre de l'Aveugle".</p>
+      </abstract>
+      <creation>
+        <date when="1934-11-01">01/11/1934</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-17" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h6">LE STATUT DES GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTRE MAISON</ref>
+          </item>
+          <item>
+            <ref target="#h8">LES CHIENS-GUIDES</ref>
+          </item>
+          <item>
+            <ref target="#h9">Légion d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h10">Souscription pour le buste Brieux</ref>
+          </item>
+          <item>
+            <ref target="#h11">Avis aux Pensionnés de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h12">«Le Livre de l'Aveugle»</ref>
+          </item>
+          <item>
+            <ref target="#h13">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h14">Caisse Fraternelle</ref>
+              </item>
+
+              <item>
+                <ref target="#h15">ENTRE-NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h16">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h19">PROCÈS-VERBAL de la Réunion de la Section inter-départementale du
+                  GERS et des HAUTES-PYRÉNÉES le 30 Septembre 1934</ref>
+              </item>
+              <item>
+                <ref target="#h20">PROCÈS-VERBAL de la Réunion de Commission du Groupement du NORD
+                  le 7 Octobre 1934</ref>
+              </item>
+              <item>
+                <ref target="#h21">PROCÈS-VERBAL de la Réunion de la Départementale du TARN le 7
+                  Octobre 1934 à Castres</ref>
+              </item>
+              <item>
+                <ref target="#h22">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h23">Liste des Donateurs</ref>
+              </item>
+              <item>
+                <ref target="#h24">Dons avec affectation spéciale pour la création de la " Maison
+                  des Aveugles de Guerre"</ref>
+              </item>
+            </list>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">16e Année. — N° 11</fw>
+          <fw type="header">
+            <hi rend="underline">Novembre 1934</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Le Statut des Grands Invalides</item>
+                    <item>Notre Maison</item>
+                    <item>Les chiens-guides</item>
+                    <item>Légion d'Honneur</item>
+                    <item>Souscription pour le buste de Brieux</item>
+                    <item>Avis aux pensionnés de guerre</item>
+                    <item>Le Livre de l'Aveugle.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle</item>
+                    <item>Entre nous</item>
+                    <item>Procès-verbal de la Réunion de la Section interdépartementale du Gers et
+                      des HautesPyrénées, le 30 Septembre 1934</item>
+                    <item>Procès-verbal de la Réunion du Groupement du Nord, le 7 Octobre
+                      1934</item>
+                    <item>Procès-verbal de la Réunion de la Départementale du Tarn, le 7 Octobre
+                      1934</item>
+                    <item>Avis divers</item>
+                    <item>Liste de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Trinité 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert Lebrun, Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITÉ DE PATRONAGE</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire. \dagger M. Barthou,
+              de l'Académie Française, ancien Président du Conseil. M. le colonel Fabry, député,
+              ancien ministre; \dagger M. le général Balfournier; M. Brisac, préfet; M. J. Ridgely
+              Carter; M. Paul de Cassagnag, ancien député; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Gobart, ancien ministre;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krua; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. Samuel Milbank; M. le docteur Morax; M. Meyer,
+              conseiller d'Etat; M. Henry Paté, député; M. Pierre Rameil, député;</p>
+            <p>M* Henri-Robert, de l'Académie française, ancien bâtonnier de l'Ordre des Avocats; M.
+              le général Sainte-Claire-Deville; \dagger M. Vallery-Radot; M. le professeur Walther,
+              membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LE STATUT DES GRANDS
+              INVALIDES</head>
+            <p>La Commission chargée d'établir un projet de statut des grands invalides a terminé le
+              lundi 29 octobre les travaux qu'elle avait commencés le 13 juillet dernier.</p>
+            <p>Pendant cette période de trois mois, interrompue par les vacances où cependant le
+              travail n'avait pas complètement cessé, on vit se confronter projets, rapports et
+              contre-projets pour enfin aboutir à un texte qui a été présenté au ministre des
+              Pensions.</p>
+            <p>Je n'ai pas voulu, pendant tout le temps que duraient ces études, donner ici des
+              informations qui auraient intéressé certainement nos camarades, mais qu'il était
+              difficile de publier par suite du caractère provisoire des décisions qui étaient
+              prises.</p>
+            <p>Aujourd'hui, un projet est établi, qui n'est certainement pas ce que nous aurions
+              espéré, mais qui présente cependant un grand avantage, celui d'instituer, d'une
+              manière harmonieuse, des degrés de réparation pour les invalidités s'échelonnant de 85
+              à 200%, en tenant compte également de certaines catégories de mutilés, dont nous
+              faisons d'ailleurs partie, qui ne peuvent qu'imparfaitement être indemnisées selon les
+              barèmes existants. Donc, en ce qui nous concerne, la catégorie des Aveugles de Guerre
+              est créée, avec attribution d'une dotation spéciale, car il a paru difficile, pour ne
+              pas dire impossible, de modifier le barème qui prévoit le taux de 100% pour cécité,
+              chaque œil perdu ne pouvant être rémunéré isolément.</p>
+            <p>Il sera donc procédé à une amélioration de notre pension par voie de dotation, dite "
+              dotation nationale " qui viendra s'ajouter à la pension principale et aux allocations
+              et majorations déjà existantes. Le tableau de ces dotations a été établi comme il
+              vient d'être dit, soit par référence au degré d'invalidité, soit pa catégorie de
+              mutilation, <pb n="4"/>
+              <note type="foliation">— 2 —</note> comme : amputé, aveugle, paraplégique. Pour les
+              Aveugles, le projet prévoit une dotation de 18.800 francs. Il est bon de dire tout de
+              suite à nos camarades que ce projet, qui vient d'être remis à M. le Président du
+              Conseil, devra subir l'examen de la Commission des Pensons, et surtout des Finances,
+              et que ce chiffre aujourd'hui énoncé, qui doit être le juste complément d'une pension
+              restée jusqu'ici bien faible, pourra être réduit quelque peu en regard du coût total
+              du projet. Néanmoins, si une réduction est opérée, elle devra l'être sur l'ensemble et
+              compte tenu du montant global de chaque pension auquel nous aboutirons.
+              Malheureusement, l'article premier du projet qui est publié plus loin, en déterminant
+              la qualité des bénéficiaires écarte des camarades très intéressants, tels que ceux qui
+              ont été blessés en service commandé.</p>
+            <p>Je dois dire qu'au cours de toutes ces réunions de Commission et sous-commissions,
+              les représentants d'administration, les médecins, les parlementaires et nos camarades
+              mutilés ont toujours témoigné une grande sympathie à l'égard des Aveugles de Guerre et
+              quand, à un moment, je les remerciais de leur bienveillance, le Président de la
+              Commission répondit qu'il ne pouvait s'agir de bienveillance, car nous avions
+              l'affection de tous. Est-ce là un mot agréable à entendre, mais un mot seulement ? On
+              pourrait être tenté de le croire en cette époque où l'on peut douter de bien des
+              choses, cependant, je ne le crois pas, et pensant à ce sentiment d'affection dont nous
+              sommes entourés, il m'apparaît impossible de ne pas voir prises en considération des
+              situations comme celle de nos camarades blessés en service commandé qui ont la même
+              blessure que nous, reçue en exécutant un ordre.</p>
+            <p>Mais il ne faut pas se tenir pour battu et le Bureau de l'U.A.G., qui a suivi pas à
+              pas les travaux de la Commission, s'est immédiatement réuni au complet pour étudier
+              les moyens d'apporter plus de justice dans les textes établis. Il est difficile de
+              supposer que des camarades méritants seront mis à l'écart et je pense que, malgré les
+              changements survenus dans la direction des affaires publiques, nous pourrons bientôt
+              voir la création de la dotation nationale des grands mutilés.</p>
+            <p>H. Amblard.</p>
+            <p>Voici le texte du projet établi par la Commission réunie au ministère des Pensions
+              pour élaborer un statut des grands invalides : <pb n="5"/>
+              <note type="foliation">— 3 —</note> Article premier. - Sont, au regard de la présente
+              loi, qualifiée grands mutilés de guerre, les pensionnés titulaires de la Carte du
+              Combattant qui, par suite de blesure de guerre sont amputés, aveugles, paraplégiques,
+              blessés craniens avec épilepsie ou aliénation mentale ou qui, par blessure de guerre,
+              sont atteints d'une infirmité entraînant à elle seule un degré d'invalidité d'au moins
+              85%.</p>
+            <p>Art. 2. - Par dérogation aux dispositions des articles 11 et 12 de la loi du 31 mars
+              1919, les blessés de guerre atteints d'infirmités multiples, dont aucune n'entraîne
+              l'invalidité absolue, seront portés à 100% avec majoration d'un degré du dit article
+              12 si, à l'infirmité qui leur ouvre droit au bénéfice de la présente loi, s'ajoute une
+              autre infirmité consécutive à une blessure de guerre et entraînant à elle seule un
+              pourcentage d'invalidité au moins égal à 60%. Toute infirmité surajoutée sera ensuite
+              décomptée conformément aux dispositions de l'article 12 de la loi du 31 mars 1919.</p>
+            <p>Art. 3. - A compter du 1<hi rend="superscript">er</hi> juillet 1934, il est attribué
+              aux grands mutilés de la guerre, définis par la présente loi, de nouvelles allocations
+              en sus de la pension et des majorations et allocations qu'ils perçoivent au titre de
+              la loi du 31 mars 1919 et des lois complémentaires à l'exclusion des allocations 4 bis
+              et 7 instituées par les articles 145 et 146 de la loi de finances du 31 mars 1932.</p>
+            <p>Ces nouvelles allocations ne se cumulent pas entre elles. Le montant en est fixé par
+              référence à la nature de l'infirmité ou au degré d'invalidité. Les intéressés
+              bénficieront, dans chaque cas particulier, du système le plus favorable.</p>
+            <p>L'ensemble des allocations actuellement servies et des allocations nouvelles
+              inscrites au tableau ci-dessous constitue une dotation qui portera le nom de "dotation
+              nationale aux grands mutilés de guerre. (Suit le tableau donnant le montant des
+              dotations accordées aux mutilés de 85 à 100%, art. 10 et 12 , y compris les catégories
+              des amputés, aveugles et paraplégiques.) (Comme nous l'avons dit, le projet prévoit la
+              dotation des aveugles à 18.800 francs.) <pb n="6"/>
+              <note type="foliation">— 4 —</note> Art. 4. - Toutes les contestations auxquelles
+              donnera lieu l'application de la présente loi seront jugées conformément aux
+              dispositions du titre 4 de la loi du 31 mars 1919.</p>
+            <p>Art. 5. - Un règlement d'administration publique déterminera les conditions
+              d'application de la présente loi.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTRE MAISON</head>
+            <p>Nous aurions voulu consacrer d'une manière officielle les débuts des travaux de
+              construction de notre Maison, en organisant une cérémonie très simple qui, par la
+              présence de représentants de la presse, aurait annoncé la prochaine existence dans
+              Paris de la " Maison des Aveugles de Guerre ".</p>
+            <p>Notre camarade Rivollet, ministre des Pensions, nous avait obligeamment promis de
+              présider cette cérémonie, malheureusement, le meurtre, survenu le 9 octobre dernier,
+              du Roi Alexandre de Yougoslavie, ne nous a pas permis de mettre suite à notre projet,
+              un deuil national ayant été ordonné pour un mois. Depuis, les travaux se poursuivent,
+              et déjà le bâtiment annexe, où se trouveront la conciergerie, les archives et une
+              salle de Commission, s'élève rapidement. La Maison principale sort de terre, et il
+              nous est assuré que tout se passe normalement jusqu'à présent. Nous espérons que cela
+              pourra se poursuivre ainsi d'une façon régulière, sans heurts ni accidents. H. A.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LES CHIENS-GUIDES</head>
+            <p>Un de nos camarades ayant demandé qu'un membre de l'U.A.G. possesseur d'un
+              chien-guide lui donne quelques renseignements à ce sujet, notre camarade Chanudet, qui
+              a fait un stage à Vevey, lui a donné d'utiles informations qui nous ont été
+              communiquées.</p>
+            <p>Nous en publions l'essentiel dans l'espoir que les lecteurs du Bulletin y trouveront
+              quelque intérêt :</p>
+            <p>Cher camarade,</p>
+            <p>Ces jours-ci, j'ai eu le plaisir de recevoir votre lettre me demandant de vous faire
+              parvenir tous les renseignements utiles relativement à l'utilisation du chien-guide.
+              J'aurais préféré que vous eussiez pu vous rendre compte par vous-même de la préciosité
+              de ces bonnes bêtes. Une démonstration pratique vous aurait été nécessaire et tous les
+              renseignements et conseils de vive voix, en parallèle, auraient pu vous être fournis.
+              La possession d'un chien-guide est si importante que, sur ses bienfaits, le texte d'un
+              livre, composé en ce sens, n'en tarirait pas. Cependant, vu l'éloignement qui ne
+              pourrait que fort difficilement nous mettre en contact physique, je me fais un devoir
+              de vous donner, succinctement, les renseignements sur ce papier. Ces renseignements,
+              je tiendrais essentiellement à ce que tous mes camarades plongés dans les ténèbres
+              puissent, tout comme vous, en profiter. C'est pourquoi je vous demanderais de bien
+              vouloir, après que vous en aurez pris connaissance, envoyer ces feuillets à l'U.A.G.,
+              afin que le texte qu'ils comportent puisse être inséré dans le plus proche bulletin à
+              paraître. La diffusion, à mon avis, en est absolument indispensable, je me permets
+              donc, cher camarade, de compter sur vous.</p>
+            <p>Voilà trois ans passés que je suis en possession de ma bonne Nimbe. C'est
+              l'appellation du chien-guide que je possède. Voilà trois ans passés que je ne me suis
+              servi d'aucun clairvoyant humain pour me guider à l'extérieur, voilà trois ans passés
+              que je suis quasiment absolument indépendant, moralement et physiquement. Dans la cité
+              que</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>j'habite et où la circulation est intense dans la grand'rue, au point de vue
+              automobile, je ne passe nullement pour un être privé de la vue, mais bien pour
+              quelqu'un qui voit clair. Ma vie, d'une façon générale, est identique à celle des
+              clairvoyants. Je n'ai jamais vu le pays que j'habite, je le connais cependant par
+              cœur, les détails du pays, au point de vue topographique ne me sont pas inconnus, non
+              plus ceux de sa périphérie. Et... c'est d'un pas rapide que je marche, tant en ville
+              qu'en pleine campagne. J'ai déjà effectué, autour de ce pays, des circuits pédestres
+              d'une vingtaine de kilomètres. Seul à seul, avec ma douce Nimbe, je les ai accomplis,
+              ceci peut s'appeler du sport. J'ai fait, de même, le tour de Nevers de ma ville natale
+              dont, par cœur, je connais les moindres coins et recoins. Je l'ai fait, en deux fois
+              consécutives, lors des deux derniers séjours que je fis. Voilà ce que je fais et ce
+              que je voudrais que tous mes camaarades en cécité pussent faire. Les ténèbres qui
+              m'environnaient se sont métamorphosées en clarté et je souhaiterais de tout mon cœur
+              que cette clarté put éclairer de même, avec autant d'intensité, tous mes camarades
+              sans exception, privés de la lumière physique. Mais, pour arriver à ce stade, que
+              d'efforts, que de volonté, que de patience ! Il faut surtout avoir une confiance
+              illimitée en la bête qui vous guide.</p>
+            <p>Il faut connaître à fond la topographie d'ensemble du terrain à parcourir. La bête,
+              qui n'est point du tout bête, est dirigée sur commandement. Elle a, comme principal
+              rôle, à vous éviter les obstacles et le danger. Jamais, depuis qu'elle me sert de
+              guide, ma bonne Nimbe ne m'a fait heurter quoi que ce soit. Souvent, maintenant, le
+              long des routes et des chemins, ma pensée s'en va vagabonder, mon attention n'étant
+              plus captive du danger matériel de la nuit éternelle. Mais... encore une fois... il
+              faut le dire et le redire... pour en arriver là, il faut de la patience, de la
+              ténacité et de la volonté. Mes dires peuvent être entièrement corroborés par quelques
+              camarades d'infortune qui m'ont fait l'honneur et le plaisir de franchir le seuil de
+              mon humble logis. Ce sont : les camarades Amblard, Fraysse, Briffaut, Aveugles de
+              Guerre, et le camarade Texeraud, aveugle civil. Puis, à Nevers, où je m'en fus auprès
+              d'eux, ce sont les camarades Garceau, Sourd, Sursin, Aveugles de Guerre, qui peuvent
+              également confirmer ce que j'avance.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Un an et demi après que j'eus subi mon accident, en accomplissant mon stage,
+              comprenant l'indispensable et absolue nécessité du pur berger allemand pour la
+              conduite des aveugles, je fis une nouvelle demande auprès de l'école d'éducation de
+              chiens-guides, afin de pouvoir y effectuer un second stage. Je m'y rendis donc, une
+              seconde fois, dans le cours de l'été 1931. C'est alors qu'on me donna Nimbe, laquelle
+              chienne s'attacha de suite fortement à moi. Il ne faut pas que j'omette de dire que ce
+              sont les chiennes qui, de préférence, sont réservées pour les aveugles. Elles sont
+              beaucoup plus fidèles et plus attachées que les chiens mâles.</p>
+            <p>Du jour au lendemain, avec deux autres camarades, il nous fallut lâcher la canne et
+              foncer, en vitesse, sur les routes, les trottoirs, les places, les escaliers, lesquels
+              sont nombreux en terre d'Helvétie, de même que les montées et les descentes. Il nous
+              fallut passer au travers des tramways et des autos, longer de larges trottoirs ou bien
+              d'autres à peine marqués, au milieu de la foule. Il nous fallut traverser des places
+              et des carrefours, au milieu de l'intense circulation de la ville de Vevey, où nous
+              accomplissions nos exercices quotidiens, il nous fallut traverser des passages à
+              niveau; c'est pourquoi, il nous fallait donner pleine et entière confiance au chien
+              qu'il fallait suivre d'un pas accéléré, sans aucune hésitation, malgré l'appréhension
+              d'un danger que nous nous figurions toujours présent sous nos pas. Et les chiens, ou
+              plutôt les chiennes, avec leur force herculéenne, pour ainsi dire, nous tiraient
+              fortement. Elles nous tiraient, nous entraînaient plutôt que nous ne marchions
+              positivement de pair avec elles. Ce n'est que que par la suite qu'une marche vraiment
+              harmonieuse rythmée se fit entre la bête et l'homme. Ces puissantes bêtes donc
+              s'entraînaient à vive allure les unes aux autres, suivant le chef dresseur et ses
+              subordonnés, lesquels filaient en avant, d'aucuns en automobile, d'autres à bicyclette
+              et le reste à pied. Et nous autres, nous suivions, comme précipités dans un noir
+              précipice. Au début, c'était terrible, mais... il fallait bien suivre, sans quoi,
+              immédiatement, le chien nous eût été retiré et force de nous en revenir en France sans
+              lui. Cependant, peu à peu, ce qui nous paraissait terrible devint intéressant, puis
+              captivant; puis enfin, nous nous aperçûmes que, sans nous en rendre compte, notre
+              liberté, pour l'extérieur, pour la vie active, nous était rendue. Les chiens
+              s'asseyaient au bord des trottoirs, pour nous aviser qu'il y en avait un à monter ou à
+              descendre. Ils s'asseyaient également <pb n="10"/>
+              <note type="foliation">— 8 —</note> devant les escaliers. Innombrables en ces lieux,
+              puis devant les obstacles de toutes sortes si ceux-ci barraient complètement la voie,
+              ou bien, s'ils ne l'obstruaient qu'incomplètement, nous en détournaient pour nous
+              faire passer par le point, l'issue qui leur semblaient les plus favorables. Nous
+              n'avions qu'à suivre les fluctuations de leur harnais semirigide et ainsi nous
+              sentions que lorsque ces bonnes bêtes étaient arrêtées et assises ou bien lorsqu'elles
+              contournaient des personnes, des véhicules, des travaux, des arbres, etc., sans qu'il
+              nous fut possible de frôler quoi qui se présentât. Il nous fallait passer sur les
+              terrasses et sous les tentes des cafés, sous celles des commerçants, au milieu des
+              consommateurs et des acheteurs, au milieu des tables et dee chaises. De ces dures et
+              délicates épreuves, les intelligents animaux nous faisaient tirer à merveille. Bref
+              chaque jour, matin et soir, pendant 21 jours, il nous fallut faire ces exercices de
+              plus en plus difficiles, sur des parcours de plus en plus longs, au fur et à mesure
+              que notre stage s'avançait.</p>
+            <p>L'examen final avait lieu à Lausanne, le jour de marché. Nous prenions le train pour
+              nous y rendre, il nous fallait passer à travers les bancs garnis de paysannes et à
+              travers la foule qui marchandait, il nous fallait circuler au milieu des paniers
+              d'œufs, de beurre, de fromages, au milieu des volailles accroupies sur le sol, puis
+              également, à l'aller et au retour, au travers de l'intense circulation des voitures
+              automobiles de toutes catégories. Ce qui nous semblait dur, infiniment dur au début,
+              commençait à devenir pour nous une partie de plaisir.</p>
+            <p>Mme Eustis était la grande âme animatrice de l'Ecole de Vevey, M. Humphrey en était
+              le chef technique et instructeur, Miss Doodge remplissait les fonctions de sous-ordre
+              instructeur et technique. Il fallait obéir, il fallait travailler, on nous commandait
+              même quelquefois un tantinet durement. C'était pénible, mais il fallait observer les
+              règlements et commandements, sans quoi il n'y avait qu'à retourner chez soi sans le
+              chien. Cependant, si cette haute direction américaine était rigoureuse relativement à
+              la technique de son enseignement, rien n'était épargné pour le confort du séjour.</p>
+            <p>Je suis donc revenu de Suisse avec ma bonne Nimbe laquelle, dans les chemins de fer
+              de France, a le droit de remplacer la tierce personne pour les Aveugles de Guerre, en
+              bénéficiant de la gratuité qui est accordée à celle-ci, tout en prenant place, dans
+              n'importe quelle <pb n="11"/>
+              <note type="foliation">— 9 —</note> classe de wagon, aux côtés de son maître ou de sa
+              maîtresse. Depuis, à ma douce Nimbe, quotidiennement, j'ai fait chaque matin sa
+              toilette, tout en lui faisant faire immédiatement après ses exercices d'obéissance.
+              Quotidiennement, matin et soir, j'ai fait et continue de faire mes sorties avec elle,
+              à travers le pays et ses alentours. Je vais chez qui je veux, vite, sans tâtonner,
+              sans la moindre hésitation. On dit de moi que je ne suis pas un aveugle, cela me fait
+              plaisir de me voir considérer comme un homme semblable aux autres; je suis redevenu
+              libre.</p>
+            <p>La nourriture, pour Nimbe, me revient en moyenne à 2 francs par jour, elle est très
+              bien soignée, depuis plus de trois ans qu'elle est en ma possession, elle n'a jamais
+              été malade.</p>
+            <p>Je souhaite à chaque camarade d'arriver au stade d'indépendance qu'il m'a été permis
+              d'atteindre et c'est pourquoi je conseille à tous de faire ce que j'ai fait moi-même
+              en faisant l'impossible pour l'acquisition d'un chien-guide. Si j'en avais les moyens
+              pécuniers, à Nogent-sur-Vernisson, dans le Loiret où j'habite, je monterais une école
+              de dressage de chiens-guides. Je m'en occuperais moi-même et me chargerais de sortir
+              de leurs ténèbres nombre de camarades épaissis par l'immobilité physique à laquelle
+              ils sont astreints par leurs occupations sédentaires. Je m'offre à le faire, pour le
+              bien de tous mes camarades, Aveugles de Guerre et Aveugles civils si l'Etat, l'Union
+              des Aveugles de Guerre, Valentin Haüy, l'Eil qui Voit, ainsi que les classes aisées de
+              la société, veulent bien me prêter leur concours et si mes camarades Aveugles civils
+              et Aveugles de Guerre veulent bien m'y encourager. Devant eux, par des démonstrations
+              pratiques, je puis, s'ils l'exigent, leur assurer la véracité de la concrétisation de
+              ma pensée.</p>
+            <p>Voilà, cher camarade, ce que je puis vous dire et ce que je voudrais que chacun de
+              nous, tant Aveugle de Guerre qu'Aveugle civil put savoir. Diffusez-le, faites
+              vous-même comme j'ai fait, n'oubliez pas de transmettre, après que vous en aurez pris
+              connaissance, ce texte à l'U.A.G., en lui recommandant de bien vouloir l'insérer dans
+              un prochain bulletin.</p>
+            <p>En attendant ultérieurement un mot de vous me confirmant que vous avez suivi le
+              chemin que je me suis permis de vous tracer, je <pb n="12"/>
+              <note type="foliation">— 10 —</note> vous prie de vouloir bien agréer, cher camarade,
+              l'expression de ma profonde et cordiale camaraderie.</p>
+            <p>Dans une seconde lettre, il donnait un complément de renseignements dont nous
+              publions également quelques fragments :</p>
+            <p>C'est avec tristesse que j'ai appris, par votre toute dernière lettre, cher camarade,
+              la fermeture de l'Ecole de dressage de chiens-guides de Gilamont-Vevey. C'est une
+              perte immense pour les aveugles, cependant celle-ci n'est pas irréparable si, par
+              nous-mêmes, nous nous imbuons d'une volonté tenace d'en reprendre les fils abandonnés.
+              Personnellement, en dehors du point de vue général, auquel je reste toujours
+              fidèlement attaché au premier lieu, j'en suis très atteint également, au point de vue
+              pratique. Que ma bonne Nimbe vienne à disparaître et à nouveau, pour moi, l'extérieur
+              devient le néant. C'est pourquoi, sans plus attendre, j'ai tenu essentiellement à être
+              en possession d'un couple de tout jeunes chiens, de chiens-loups qui n'ont pas encore
+              trois mois. Ils ne sont pas de la pure race du berger allemand dont, en Nimbe, je
+              possède un spécimen. Cependant, ils se rapprochent beaucoup de cette race, tant par
+              leur taille que par leur forme et leur couleur. Lorsqu'ils auront environ huit mois,
+              je commencerai à les dresser. L'élevage de ces bêtes, toutefois, est fort délicat.
+              Ensuite je les ferai reproduire, à leur tour, pour l'usage d'autres camarades en
+              cécité. C'est donc quasiment un embryon d'école que j'essaie d'instaurer par mes
+              propres moyens. Aux camarades de me suivre et de me seconder dans cette voie en
+              m'aidant par leur propagande auprès de l'Union, de Valentin Haüy, des Amis des Soldats
+              Aveugles, du Gouvernement, de Mme Eustis, initiatrice de l'Ecole de dressage de
+              chiens-guides de Gilamont-Vevey et de toutes les œuvres d'aveugles en général, ainsi
+              qu'auprès de toutes les classes aisées de la société pour que, de toutes parts, des
+              concours indispensables nous soient apportés. Il est indispensable que nous nous
+              groupions plus étroitement que jamais pour suppléer à cette fermeture par le seul jeu
+              de notre volonté agissante, pour l'acquisition de notre volonté extérieure. Dans
+              Nogent-sur-Vernisson, l'ayant personnellement acquise, je me mets à la disposition de
+              tous les camarades qui le désireront pour leur faire une démonstration pratique qui
+              leur confirmera que l'octroi de cette indépendance du dehors n'est pas un vain
+              mot.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+            <p>Je vis au milieu des voyants quasi sans grande différence avec eux. Avec ma bonne
+              Nimbe, je vais dans des réunions où à haute et intelligible voix, de mes propres
+              doigts, j'y lis mes discours en Braille, composés par moi-même, je fais partie
+              intégrante des clairvoyants. Tout cela montre qu'il faut voir en un aveugle un homme à
+              l'esprit plus vivace que celui de la plupart des clairvoyants. Cela les étonne. Ils en
+              sont surpris.</p>
+            <p>Donc courage, cher camarade, et allez coûte que coûte vers le but que vous avez
+              entrevu, lequel est le mien. Montrez-le à d'autres camarades, afin que ceux-ci s'y
+              dirigent également, là est vraiment la lumière. Formons nous-mêmes une Ecole de
+              dressage de chiensguides; avec de la patience et de la persévérance, on vient à bout
+              de tout ! N. D. L. R. - Il a été, en effet, porté à notre connaissance que l'Ecole de
+              chiens-guides de Vevey est fermée depuis fin février dernier.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Légion d'Honneur</head>
+            <p>Au Journal Officiel du 8 juillet, publiant le décret du 29 juin 1934, en application
+              de l'article premier de la loi du 2 janvier 1932, est promu au grade de Chevalier :
+              VuotTO (Dominique), ancien soldat du 9<hi rend="superscript">°</hi> régiment de
+              Tirailleurs. Par décret du 29 juin 1934, en application de l'article 2 de la loi du 2
+              janvier 1932, sont promus au grade d'Officier : BouliER (Gustave-André-Denis), ancien
+              soldat du 115<hi rend="superscript">°</hi> rég. d'Infanterie. Carrier (Elie-Albert),
+              ancien soldat du 215<hi rend="superscript">°</hi> rég. d'Infanterie. Ganneau
+              (Edgar-Alfred), ancien soldat du 75<hi rend="superscript">°</hi> rég. d'Infanterie.
+              Girault (Edmond), ancien maréchal des logis du 502<hi rend="superscript">°</hi> rég.
+              d'Artillerie d'assaut.</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+            <p>Grattepain (Albert-Marcel), ancien soldat du 45<hi rend="superscript">°</hi> rég.
+              d'Artillerie de compagne. Petitpeix (Léon), ancien soldat du 24<hi rend="superscript"
+                >°</hi> rég. d'Infanterie coloniale. Pialoux (Henri-Antoine), ancien soldat du
+                298<hi rend="superscript">°</hi> rég. d'Infanterie.</p>
+            <p>Au Journal Officiel du 27 octobre, publiant le décret du 20 octobre, en application
+              de l'article 2 de la loi du 2 janvier 1932, sont promus au grade d'Officier : CAMUSET
+              (Olivier), ancien sergent du 242<hi rend="superscript">°</hi> rég. d'Infanterie.
+              FOURNIER (Victor-Charles), ancien caporal du 401<hi rend="superscript">°</hi> rég.
+              d'Infanterie. Leroy (Marcel-Maurice-Pierre), ancien soldat du 3<hi rend="superscript"
+                >°</hi> rég. de Génie. Munch (Jules), ancien soldat du 1<hi rend="superscript"
+                >er</hi> rég. d'Artillerie marocaine. Christophe (Marie-Auguste-Emile), ancien
+              soldat du 4<hi rend="superscript">°</hi> rég. de Tirailleurs tunisiens. Ducos
+              (Louis-Dominique), ancien soldat du 283<hi rend="superscript">°</hi> rég.
+              d'Infanterie. Gohiec (Budoc-Jean-Marie-Joseph), ancien soldat du 62<hi
+                rend="superscript">°</hi> rég. d'Infanterie. Hassen Ben Salem Kraim, ancien soldat
+              du 2<hi rend="superscript">′</hi> rég. de Génie. Laligue (Antoine), ancien soldat du
+                172<hi rend="superscript">°</hi> rég. d'Infanterie. Liote (René-Louis), ancien
+              soldat du 30<hi rend="superscript">°</hi> rég. d'Infanterie. Thepenier (Nicolas),
+              ancien sergent du 134<hi rend="superscript">°</hi> rég. d'Infanterie. Vallery
+              (René-Albert), ancien soldat du 43<hi rend="superscript">°</hi> rég. d'Artillerie.
+              Navaron (Blaise), ancien soldat du 410<hi rend="superscript">°</hi> rég.
+              d'Infanterie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Souscription pour le buste
+              Brieux</head>
+            <p>Nous publions, ci-après, la neuvième liste des souscriptions reçues : Feugray 5 fr.,
+              Salettes 10 fr., Rignault 10 fr., Bastion 10 fr., Charrier (P.) 10 fr., Dangas 20 fr.,
+              Conan 10 fr., Pernoo 20 francs.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Avis aux Pensionnés de
+              Guerre</head>
+            <p>Un décret du 7 octobre 1934 proroge jusqu'au 31 décembre 1935 les dispositions des
+              décrets antérieurs accordant la franchise postale à la correspondance adressée par les
+              victimes de guerre aux Sections Départementales des Pensions.</p>
+            <p>En conséquence, jusqu'à la date du 31 décembre 1935 précitée, il ne sera pas
+              nécessaire d'affranchir les lettres ordinaires (c'est-à-dire à l'exclusion des lettres
+              recommandées, pneumatiques, etc.) envoyées par les victimes de guerre à ces organes,
+              mais il est indispensable que l'adresse soit mise très exactement.</p>
+            <p>Bien mentionner : Section Départementale des Pensions de (département, puis
+              l'adresse) (Pour la Seine : 10, quai de la Rapée, Paris (12).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">«Le Livre de l'Aveugle»</head>
+            <p>Le "Livre de l'Aveugle» informe les membres de l'U.A.G. qu'il tient à leur
+              disposition les livres suivants.</p>
+            <p>S'adresser directement au "Livre de l'Aveugle ", 16, rue Laugier, Paris (17).</p>
+            <p>Bibliothèque circulante : Mémoires du Maréchal Joffre, Tome I<hi rend="superscript">er</hi> (19 vol. br.), Tome II ( 18 vol. br.). Les Origines de
+              la Guerre ( 8 vol. br.), R. Poincaré. L'Heure de la Décision ( 7 vol. br.), A.
+              Tardieu. Edouard VII et son Temps ( 12 vol. br.), A. Maurois. La Rocque : Un Chef, des
+              Actes, des Idées (3 vol), H. Malherbe. La Machine Humaine enseignée par la Machine
+              Automobile (5 vol. br.), docteur Chauvin.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+            <p>Guardate (5 vol. br.), Nicolaï. Terre de Chanaan ( 7 vol. br.), L. Chadourne.
+              Vingt-Quatre Heures ( 7 vol.), Bromfield. Les Derniers Harems ( 6 vol.), Myriam Harry.
+              Les Mémoires d'un Touriste, Tome II (12 vol., br.), Stendhal.</p>
+            <p>Au titre de dons ou d'échanges : Histoire Romaine, Mermeix. L'Année Préparatoire de
+              Rédaction et d'Elocution, J. Carré-L. Moy. Le Moyen Age, Cl. de 4<hi
+                rend="superscript">°</hi>, A. Malet-J. Isaac. Méthode Pratique de Russe,
+              Dombrowski-Marchal. Deutsches Sprachbuch, Clarac. Le Cid, Corneille. Chant VI de
+              l'Iliade, Homère. Les Géorgiques, Virgile. Manuel de Philosophie, A. Cuvellier. Précis
+              d'Arithmétique, P. Chenevier. Cours d'Arithmétique, réunion de Professeurs. Code
+              Social, Union Int. d'Etudes Sociales. Littératture Anglaise, Paul Dollin. Précis de la
+              Vraie Acuponcture Chinoise, G. Soulié. Les Muscules, docteur Gomolitsky. Précis de
+              Physiologie et d'Anatomie, docteur Gomolitsky. Principes Fondamentaux du Massage,
+              docteur Gomolitsky. Anatomie Humaine, H. Rouvière. T.S.F., 4<hi rend="superscript"
+                >°</hi> Série, H. Barby.</p>
+            <p>L'Agonie du Mont Renaud, G. Gaudy. Gloire et Mouscaille, H. Evein. Une Euvre
+              Française en Algérie, maréchal Franchey d'Esperey. Nous faisons fausse route, XXX.
+              L'Age qui vient.</p>
+            <pb n="17"/>
+            <note type="foliation">— 15 —</note>
+            <p>L'Ordre s'épaissit sur la Cité, Beleine. La Grande Révolution qui vient, J. Dubois.
+              La Guerre vue par un Paysan, A. Jamet. Marrakech ou les Seigneurs de l'Atlas, J. et J.
+              Tharaud. Les Hauts de Hurle-Vent, Emily Bronté. Olivier Twist, Ch. Dickens. Sans
+              Famille, Tomes I et II, H. Malot. La Maison des Deux Barbeaux, A. Theuriet. Les
+              Chercheurs d'Or, Pierre Hamp. La Confusion des Sentiments, Stefan Zweig. Les Hommes de
+              Bonne Volonté, Jules Romains. La Féerie Cinghalaise, F. de Croisset. J'aurai un Bel
+              Enterrement, P. La Mazière. La Musique Française, Tome II, A. Cortot. Orlando de
+              Lassus, Van den Borren. Xavier de Maistre, M. de la Fuye. Joseph Fouché, Stefan Zweig.
+              Madame Dubarry, P. Reboux. Quelques romans policiers : Pile ou Face, Le Divan Rouge,
+              Bab Bantam, La Rose Verte, Les Faiseurs d'Or, Prince du Crime.</p>
+            <pb n="18"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Caisse Fraternelle</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 31 octobre, une somme de 11.646 francs, se répartissant comme suit :</p>
+              <p>Allocations naissances 1.500 Allocations décès et palmes.............. 5.000
+                Allocations Caisse Maladie 5.146 Il y a lieu d'ajouter à ces 11.646 francs une somme
+                de 32.800 francs pour prêts maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner dix demandes dont deux n'ont
+                donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">ENTRE-NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h16">Naissances</head>
+                <p>Notre camarade et Mme Dessis (Léon), de Riom-des-Landes, nous font part de la
+                  naissance de leur quatrième enfant, Jeannine, née le 2 septembre 1934.</p>
+                <p>Notre camarade et Mme Marrat, du Hameau de Mathieu (Ariège), nous font part de la
+                  naissance de leur fils Roger, né le 30 août 1934.</p>
+                <p>Notre camarade et Mme Le Borgne, de Bourg-de-Cast (Finistère),</p>
+                <pb n="19"/>
+                <note type="foliation">— 17 —</note>
+                <p>nous font part de la naissance de leur petite-fille, Monique, née le 1<hi
+                    rend="superscript">er</hi> septembre 1934.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Mariages</head>
+                <p>Notre camarade Brottes, de Dorignies-les-Douai (Nord), nous fait part de son
+                  mariage avec Mlle Germaine Quenoy, célébré le 1<hi rend="superscript">er</hi>
+                  septembre 1934.</p>
+                <p>Notre camarade Potdevin, de Saint-Aubin-les-Forges (Nièvre), nous fait part du
+                  mariage de sa fille Marie avec M. Robert Mouron, célébré le 29 septembre 1934.</p>
+                <p>Notre camarade Tricaud (Joseph), de Bellac (Haute-Vienne), nous fait part du
+                  mariage de sa fille Andrée avec M. Jules Bouffort, célébré le 27 octobre 1934.</p>
+                <p>Notre camarade Leroy (Marcel), de Fécamp, nous fait part du mariage de sa fille
+                  Marthe avec M. Robert Legros, célébré le 13 octobre 1934.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Décès</head>
+                <p>Nous apprenons le décès : De la belle-mère de notre camarade Riquart, de Paris,
+                  survenu le 14 octobre, dans sa soixante-douzème année.</p>
+                <p>De la femme de notre camarade Boenigen, d'Orly (Seine), décédée le 11 octobre
+                  1934, dans sa quarante-septième année.</p>
+                <p>De la fille de notre camarade Couteau, de Vitry (Seine), décédée le 9 octobre
+                  1934, à l'âge de huit ans et demi.</p>
+                <pb n="20"/>
+                <note type="foliation">— 18 —</note>
+                <p>Du frère de notre camarade Epstein, de Neuville-les-Voisey (Hte-Marne), décédé le
+                  10 septembre 1934, dans sa vingtième année.</p>
+                <p>De la grand'mère de notre camarade Teillet, de La Chaize-leVicomte (Vendée),
+                  décédée le 18 octobre, à l'âge de quatre-vingt-dix-neuf ans.</p>
+                <p>Du père de notre camarade Fourment, de Toulouse (Haute-Garonne), décédé le 30
+                  septembre, à l'âge de soixante-sept ans.</p>
+                <p>De la mère de notre camarade Boucher (Emile), de Sergines (Yonne), décédée le 21
+                  octobre 1934, dans sa soixante-seizième année.</p>
+                <p>Du père de notre camarade Houot (Louis), de Bar-sur-Seine (Aube), survenu le 24
+                  octobre, à l'âge de soixante-douze ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">PROCÈS-VERBAL de la Réunion
+                de la Section inter-départementale du GERS et des HAUTES-PYRÉNÉES le 30 Septembre
+                1934</head>
+              <p>Le Bureau de la Section Interdépartementale du Gers et des Hautes-Pyrénées s'est
+                réuni le 30 septembre à Auch, sous la présidence du camarade Chalendar. Etaient
+                présents : Ducos, vice-président; Tauziet, secrétaire; Lacour, Masse, membres.</p>
+              <p>Après discussion de quelques affaires intéressant le fonctionnement de la Section,
+                le Bureau s'est ému des renseignements qui lui parviennent de différents groupements
+                d'invalides.</p>
+              <p>En conséquence, la Section fait entière confiance à l'U. A. G. pour que celle-ci
+                emploie tous les moyens dont elle dispose pour faire aboutir la catégorisation et
+                maintenir aux Aveugles de Guerre la place à laquelle ils ont droit.</p>
+              <p>Dans le cas où une entente ne pourrait se faire à ce sujet avec la Confédération
+                Nationale, l'U.A.G. devrait immédiatement lancer une <pb n="21"/>
+                <note type="foliation">— 19 —</note> convocation à tous les camarades les invitant à
+                se rendre à Paris et à faire une manifestation auprès du Gouvernement afin d'obtenir
+                que nous soit toujours réservée la première place à laquelle notre blessure nous
+                donne, hélas! droit, place que, sous aucun prétexte, nous ne devons perdre.</p>
+              <p>Le Président : Chalendar.</p>
+              <p>Le Secrétaire : Tauziet.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">PROCÈS-VERBAL de la Réunion
+                de Commission du Groupement du NORD le 7 Octobre 1934</head>
+              <p>La Commission a tenu sa réunion annuelle, le dimanche 7 octobre, à Hazebrouck, Café
+                du Lion Noir.</p>
+              <p>La séance est ouverte à onze heures sous la présidence de Planquette.</p>
+              <p>Sont présents : Planquette, Muret, Derunder, Webber, Delaplace. Boé, absent.
+                Bridoux, non excusé.</p>
+              <p>Les camarades Boo et Béquart assistent à la réunion. Planquette, au nom de la
+                Commission, regrette que le camarade Bridoux n'ait assisté à aucune de nos réunions
+                depuis plus de deux ans, et souvent sans envoyer d'excuses; l'Assemblée ayant adopté
+                le vœu de Brebion demandant la radiation du délégué n'assistant pas aux réunions, le
+                secrétaire est chargé d'écrire à Bridoux pour lui demander s'il désire continuer sa
+                collaboration ou s'il donne sa démission.</p>
+              <p>Lecture du compte rendu de l'Assemblée générale du 18 mars, qui est adopté.</p>
+              <p>Le secrétaire rend compte des démarches entreprises près des Compagnies pour les
+                réductions sur les autobus; ces dernières seront poursuivies.</p>
+              <p>Il est donné lecture d'une lettre d'Amblard donnant tous renseignements au sujet
+                des questions en cours.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>La Commission prend connaissance d'une note du secrétariat résumant les observation
+                présentées par les administrateurs présents à la réunion de la Commission des
+                Pensions du 30 septembre et relative à la préparation du statut des grands
+                invalides. Elle approuve l'action énergique menée par le délégué au cours des
+                réunions de la Commission étudiant le statut des grands invalides.</p>
+              <p>Webber émet le vœu que lors du décès d'un camarade, l'Union adresse à sa veuve les
+                renseignements indispensables pour l'obtention d'une pension de veuve au taux de
+                2.880 francs en y joignant le questionnaire à remplir; il est apparu, en effet, que
+                bien souvent elles ne touchent qu'une pension de reversion de 1.920 francs et que de
+                nombreuses démarches sont ensuite nécessaires pour obtenir satisfaction.</p>
+              <p>La prochaine Assemblée générale est fixée au 17 mars prochain et des avis
+                paraîtront en temps utile sur le Bulletin.</p>
+              <p>Après un échange de vues sur quelques questions diverses, la séance est levée à une
+                heure.</p>
+              <p>Le Secrétaire : Léon Muret.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">PROCÈS-VERBAL de la Réunion
+                de la Départementale du TARN le 7 Octobre 1934 à Castres</head>
+              <p>La séance est ouverte à 10 h .30 , sous la présidence du camarade Satgé.</p>
+              <p>Sont présents, les camarades : Blatgé, Bonnet, Cancé, Cabril, Cailleau, Enjalbert,
+                Geniès, Huc, Maury, Montalan, Saint-Marty, Salesses, Satgé, Séverac et Vidal.</p>
+              <p>Excusés : Dardié, Dupuy et Germa. Absent : Carrié. Le camarade Noireaux, délégué de
+                l'Union, est présent. Au début de la séance, Satgé souhaite la bienvenue à Noireaux,
+                vice-président de l'U.A.G., et lui dit la joie des camarades du Tarn <pb n="23"/>
+                <note type="foliation">— 21 —</note> de l'avoir aujourd'hui parmi eux. Noireaux
+                remercie et salue les camarades au nom du Bureau et du C. A.</p>
+              <p>Procès-verbal de la dernière séance : Adopté. Compte rendu financier de la
+                Départementale : Adopté. Maison de l'Aveugle : Satgé donne des indications aux
+                camarades sur la façon dont a été adjugée, en lots séparés, la Maison de l'Aveugle.
+                La concurrence a été établie, les propositions ont varié de 4 à 10 , selon
+                l'importance des lots. Le montant de ces derniers, ainsi que les maisons qui ont été
+                déclarées adjudicataires, sont portés à la connaissance des camarades. Les travaux,
+                déjà commencés, se poursuivent avec activité, ce qui nous permet d'espérer
+                l'inauguration de notre Maison pour l'Assemblée générale prochaine.</p>
+              <p>Statut des Grands Invalides : Satgé fait le compte rendu de la séance du C.A. du 29
+                septembre à Paris, en indiquant les diverses Commissions où notre délégué Amblard
+                assistait. Le camarade Noireaux nous fait part des dernières nouvelles et croit que
+                de prochains avantages pourront nous être accordés.</p>
+              <p>Le Bureau sortant est réélu, à savoir : président, Satgé, d'Albi; vice-président,
+                Saint-Marty, de Sorèze; secrétaire, Enjalbert, de Saint-Juéry; commissaires,
+                Cailleau et Geniès, de Castres; Cancé, de Gaillac, et Montalan, de Mazamet;
+                trésorière voyante, Mme Satgé; commissaire aux comptes, Mme Saint-Marty. M. Maraval,
+                délégué des Amis des Soldats Aveugles, assiste à notre déjeuner. Au dessert, Satgé
+                dit la joie des camarades de se retrouver en famille. Il remercie M. Maraval d'avoir
+                accepté notre invitation, et pour les heureuses interventions qu'il a pour nous
+                auprès des Amis. Il le prie de transmettre à ces derniers notre profonde
+                gratitude.</p>
+              <p>Il remercie Noireaux de sa présence, le prie de bien vouloir transmettre au Bureau
+                et au C. A. la satisfaction de la Départementale pour la vigilance avec laquelle ils
+                veillent sur nos intérêts et de remercier Amblard pour le labeur qu'il accomplit en
+                ce moment.</p>
+              <p>Après avoir dit aux camarades combien il lui était agréable de les savoir nombreux
+                à cette réunion, Satgé lève son verre aux Amis, à la prospérité de l'Union, à la
+                Départementale, à la santé et au bonheur de tous.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+              <p>M. Maraval prend ensuite la parole. Après avoir fait l'historique des Amis, il
+                exprime aux camarades toute sa joie de se retrouver parmi eux et les assure de
+                l'entier dévouement des Amis et du sien. Il lève son verre et boit à notre santé, à
+                celle de nos familles et à la prompte réalisation de nos vœux.</p>
+              <p>A son tour, Noireaux remercie les camarades de la cordiale sympathie avec laquelle
+                il a été reçu. Il conservera le souvenir de la bonne et agréable journée qu'il a
+                passée avec eux et les assure de l'entier dévouement de l'Union. Il lève son verre à
+                la santé des camarades, de leurs familles et de notre belle Union, que nous désirons
+                tous toujours plus grande et plus prospère.</p>
+              <p>Après le déjeuner, M. Maraval et Noireaux s'entretiennent en particulier avec
+                chaque camarade et la réunion prend fin à 16 h .30 .</p>
+              <p>Le Secrétaire : Enjalbert.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">AVIS DIVERS</head>
+              <p>Mme Veuve Simion (Lucien), femme de notre camarade décédé, prendrait une fillette
+                ou deux comme pensionnaires.</p>
+              <p>S'adresser directement à Mme Veuve Simion (Lucien), 2, place Vauban, à Avallon
+                (Yonne).</p>
+              <p>Notre camarade Georges Briffaut, rue du Docteur-Carrère, à Esternay (Marne), ayant
+                sa femme impotente, serait heureux de trouver une femme de ménage, qui serait logée,
+                couchée, nourrie chez lui et lui donnerait des soins, ainsi qu'à Mme Briffaut.</p>
+              <p>Appareils et lampes T.S.F. Philips, remise importante aux membres de l'Union.
+                S'adresser au camarade Hennebicq, 4, rue Paul-Esćudier, Paris ( 9<hi
+                  rend="superscript">°</hi> ). Tél. Pigalle 67-28.</p>
+              <p>Maison à vendre, excellent état, quatre pièces, une cinquième pouvant servir de
+                cuisine, rez-de-chaussée, premier et grand galetas, électricité, w.-c., cour et
+                dépendances, très bien située, au Mas-d'Agenais ( 2.000 habitants) (Lot-et-Garonne),
+                sur les bords de la Garonne <pb n="25"/>
+                <note type="foliation">— 23 —</note> et du Canal, vue magnifique sur Marmande et
+                Tonneins, nombreux autobus, très bon climat, fruits, légumes en abondance. Prix :
+                12.000 francs.</p>
+              <p>Pour tous renseignements complémentaires, s'adresser au camarade Cailleau, 62,
+                avenue Albert-I<hi rend="superscript">er</hi>, Castres (Tarn).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Liste des Donateurs</head>
+              <p>Mme Guérin, à Châtillon-sous-Bagneux (Seine), 50 fr. Mme Gisèle Memug, Saint-Cloud,
+                20 fr. - Mme Kahn, Paris, 20 fr. - Protection et bonne santé de notre famille, 300
+                fr. Mme Guenser, Metz, 20 fr. - Mme Pumpelly, Ithoca (U.S.A.), 50 fr. - Section
+                Départementale de l'U.A.G. du Rhône, avec affectation à la Caisse des Veuves, 250
+                fr.; avec affectation aux Maisons de Repos, 250 fr. - Mme Ringard, Lyon, 20 fr. -
+                Divers, 4.960 fr. 27.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Dons avec affectation
+                spéciale pour la création de la " Maison des Aveugles de Guerre"</head>
+              <p>Ville de Corbeil, 100 fr. - Commune de Huningue (HautRhin), 30 fr. - Départementale
+                du Pas-de-Calais, 500 fr. Mme Kalff, La Cour-Porée (Côtes-du-Nord), 200 fr. -
+                Commune de Saint-Bonnet de Joux (Saône-et-Loire), 100 fr. - Ville de Gérardmer
+                (Vosges), 100 fr. - Commune du Lion-d'Angers (Maine-et-Loire), 50 fr. - Ville de
+                Chauny (Aisne), 50 fr.</p>
+              <pb n="26"/>
+              <note type="foliation">— 24 —</note>
+              <fw type="footer">IMPRIMERIE DUBOIS &amp; BAUER 34, RUE LAFFITTE PARIS (IX*) - 1934 -</fw>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

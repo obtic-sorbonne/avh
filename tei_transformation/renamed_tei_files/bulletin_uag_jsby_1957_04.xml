@@ -1,0 +1,1105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 36ème année 1957 n°110</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Sécurité sociale</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Livre parlé</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15 cm ; 25 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#uag">UAG</term>
+          <term ref="#ufac">UFAC</term>
+          <term ref="#assemblee-generale">Assemblée générale</term>
+          <term ref="#cotisations">Cotisations</term>
+          <term ref="#reforme">Réforme</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#securite-sociale">Sécurité sociale</term>
+          <term ref="#aveugle">Aveugle</term>
+          <term ref="#ancien-combattant">Ancien combattant</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un large éventail de sujets
+          pertinents pour ses membres. Il inclut des informations sur l'assemblée générale à venir,
+          les questions relatives aux pensions et à la sécurité sociale, ainsi que les activités des
+          différentes sections de l'union. Le document aborde également des sujets d'intérêt
+          international, tels qu'un concours littéraire pour aveugles et les initiatives liées au
+          livre parlé. Des hommages sont rendus à des personnalités ayant contribué à la cause des
+          aveugles de guerre, comme le président des aveugles de guerre autrichiens. Le bulletin
+          fournit également des détails sur les changements législatifs affectant les pensions et
+          les cotisations de sécurité sociale, ainsi que des mises à jour sur les relations avec
+          d'autres organisations d'anciens combattants.</p>
+      </abstract>
+      <creation>
+        <date when="1957-04-01">01/04/1957</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-30" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-29" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">AVANT NOTRE ASSEMBLÉE GÉNÉRALE</ref>
+          </item>
+          <item>
+            <ref target="#h5">PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h6">LE RAPPORT CONSTANT</ref>
+          </item>
+          <item>
+            <ref target="#h7">Cabinet du Ministre</ref>
+          </item>
+          <item>
+            <ref target="#h8">LES TRAITEMENTS DE FONCTIONNAIRES ET LEURS INCIDENCES SUR NOS
+              PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h9">PAIEMENT DES PENSIONS SUR LA BASE DES NOUVEAUX TAUX</ref>
+          </item>
+          <item>
+            <ref target="#h10">A L'U.F.A.C.</ref>
+          </item>
+          <item>
+            <ref target="#h11">LA SÉCURITÉ SOCIALE ET LES GRANDS INVALIDES</ref>
+            <list>
+              <item>
+                <ref target="#h12">LA DOUBLE COTISATION (Modification au décret d'application)</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h13">CANDIDATS AUX PROCHAINES ELECTIONS DU CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h14">LE PRESIDENT DES AVEUGLES DE GUERRE AUTRICHIENS A L'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h15">Prix pour Hans Hirsch</ref>
+          </item>
+          <item>
+            <ref target="#h16">LE LIVRE PARLE EN ANGLETERRE</ref>
+          </item>
+          <item>
+            <ref target="#h17">CONCOURS LITTERAIRE INTERNATIONAL POUR AVEUGLES</ref>
+          </item>
+          <item>
+            <ref target="#h18">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h19">Mademoiselle d'HERBEMONT, OFFICIER DE LA LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h20">"LE LIVRE PARLÉ" DERNIERS OUVRAGES PARUS</ref>
+          </item>
+          <item>
+            <ref target="#h21">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h22">SECTION DEPARTEMENTALE DES ALPES-MARITIMES Réunion annuelle du 10
+                  mars 1957</ref>
+              </item>
+              <item>
+                <ref target="#h23">APPORT DE NOS SECTIONS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h25">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h26">COTISATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h27">COTISATIONS ORDINAIRES ( 200 francs) reçues du 1er mars au 20
+                  mars inclus</ref>
+              </item>
+              <item>
+                <ref target="#h28">COTISATIONS CAISSE DE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h29">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h30">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h31">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h32">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h33">PETITES ANNONCES</ref>
+          </item>
+          <item>
+            <ref target="#h34">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">36e Année. — N° 110</fw>
+          <fw type="header">
+            <hi rend="underline">AVRIL 1957</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Avant notre Assemblée générale.</item>
+                    <item>Pensions.</item>
+                    <item>A l'U.F.A.C.</item>
+                    <item>La Sécurité sociale et les Grands Invalides.</item>
+                    <item>Candidats aux prochaines élections du Conseil d'administration.</item>
+                    <item>Le Président des Aveugles de Guerre autrichiens à l'honneur.</item>
+                    <item>Concours littéraire international pour aveugles.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Le livre parlé.</item>
+                    <item>Dans nos Sections.</item>
+                    <item>Naissances - Décès.</item>
+                    <item>Cotisations.</item>
+                    <item>Pour tenir l'Annuaire à jour.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. IZAAC. Vice-Présidents : H. GUESPEREAU, E. GUILLAM, G. MULLER.</p>
+            <p>Secrétaire Général : H. AMBLARD. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>MM. P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, R. COUESNON, P. DERUNDER, A. FAUVEL, R. FAVRET, Y. GUIBERT, Y. JEZEQUEL, A.
+              LAFFARGUE, D. LEVEAU, R. MATHIEU, J. NICOLAI, C. PANTERNE, M. RAVELEAU, G. ROBIN, G.
+              ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>36e Annee. - N° 110 AVRIL 1957</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">AVANT NOTRE ASSEMBLÉE
+              GÉNÉRALE</head>
+            <p>Je ne saurais trop recommander à tous les membres titulaires de nous renvoyer en
+              temps utile le pouvoir pour cette assemblée, s'il y a lieu, et le bulletin de vote
+              pour le Conseil d'Administration.</p>
+            <p>Tous les membres, d'autre part, ont pu lire déjà dans notre bulletin les jours fixés
+              pour les différentes commissions précédant l'assemblée générale et la manifestation à
+              l'Arc-de-Triomphe du vendredi 3 mai.</p>
+            <p>En ce qui concerne les questions intérieures, la lecture du rapport moral qui a paru
+              au bulletin de mars vous permet de choisir les questions qui peuvent vous
+              préoccuper.</p>
+            <p>Vous savez dans quelle atmosphère se présentent les questions budgétaires, non pas
+              celles de l'U.A.G. que vous aurez d'ailleurs le temps d'évoquer au cours de nos
+              travaux, mais celles que le Gouvernement a l'intention de proposer au Parlement. A ce
+              sujet, l'assemblée donnera des directives à son Conseil.</p>
+            <p>Je me permets d'ajouter, à titre personnel, que cette année il convient de limiter
+              les vœux que nous présenterons, à ce qui paraîtra strictement nécessaire pour le bien
+              matériel et moral de chaque aveugle de guerre.</p>
+            <p>Parmi les affaires intérieures, il faudra examiner la question algérienne sur
+              laquelle la presse, la radio, l'U.F.A.C. vous ont donné et donnent encore des
+              informations.</p>
+            <p>Notre secrétaire général a été choisi par le Gouvernement pour faire partie d'une
+              commission qui a opéré aux Etats-Unis avant les assises de l'O.N.U. C'est avec
+              efficacité et dévouement que notre représentant a plaidé en Amérique la cause
+              française. Dès à présent, <pb n="4"/>
+              <note type="foliation">— 4 —</note> je le remercie publiquement des efforts qu'il a
+              fournis et je pense qu'à ce sujet l'assemblée générale suivra son Président pour
+              qu'Amblard soit remercié et félicité au nom de l'U.A.G.</p>
+            <p>Dans les questions extérieures, nous parlerons certainement de nos relations avec nos
+              ressortissants du Maroc et de Tunisie, peutêtre également de l'embryon d'Europe que le
+              Gouvernement français vient de signer à Rome.</p>
+            <p>Sans entrer dans les détails, c'est-à-dire en évitant conformément à nos statuts de
+              tomber dans des discussions de politique partisane, nous pourrons affirmer une fois de
+              plus que l'U.A.G. désire une efficace organisation de la paix. Les diverses nations du
+              monde paraissent actuellement horriblement divisées et la solution de ce problème est
+              loin d'être facile, même s'il ne s'agissait que de nations ayant souscrit aux textes
+              de la Déclaration universelle des Droits de l'Homme.</p>
+            <p>Quelques-uns d'entre vous ont peut-être entendu à la radio la conférence prononcée
+              aux Annales par M. Erlanger. Nous respectons toutes les opinions sincères et il y a
+              toujours quelque chose à apprendre de ceux qui, non conformistes, ont un sens de
+              l'histoire différent de celui de la majorité des Français. Il est toujours bon, même
+              en mathématiques, de revenir sur les hypothèses qu'on a imaginées, de façon à bien
+              comprendre à quel résultat elles aboutissent. Ceci est beaucoup plus important encore
+              quand il s'agit de l'histoire. Dans ses conclusions, M. Erlanger, me semble-t-il, a
+              l'air de croire que la guerre de 1914, celle de 1939, les difficultés devant
+              lesquelles le monde entier se trouve, auraient pu être évitées. Il suppose que si
+              Louis-Stanislas, frère de Louis XVI, avait été l'aîné, il aurait régné bien entendu à
+              sa place et que presque tous les événements qui se sont produits depuis la Révolution
+              française auraient pris une autre tournure.</p>
+            <p>Les conclusions de M. Erlanger me paraissent quand même hasardeuses. Quand j'étais
+              enfant, j'ai entendu dire presque dans la classe maternelle : "Avec des si, on
+              mettrait Paris en bouteille... " N'essayons pas de refaire l'histoire avec des «si » ;
+              contentons-nous d'examiner attentivement ce qu'on peut faire dans le présent pour que
+              l'avenir soit meilleur. H. I.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PENSIONS</head>
+            <p>C'est dans l'attente d'améliorations espérées que cette année a débuté ; elle se
+              poursuit dans une atmosphère d'incertitude et ne doit pas lasser nos volontés.</p>
+            <p>On connaît la situation : un plan est arrêté dans lequel se trouvent consignées nos
+              deux importantes demandes qui ont reçu l'approbation du Ministère.</p>
+            <p>Dans quel système financier seront-elles comprises et, tout d'abord, seront-elles
+              admises? On prépare un plan triennal. On prépare aussi un collectif et nous voudrions
+              que par le moyen le plus expédient, au moins une de ces deux revendications puisse
+              enfin être adoptée.</p>
+            <p>Nous avons dit qu'une Commission de Législation avait été nommée où siègeront les
+              représentants de toutes les catégories d'anciens combattants, victimes de guerre et
+              ayants droit. Sur les vingt-et-une places réservées à ces représentants, trois sont
+              pour les mutilés, dont une sera tenue par le secrétaire général de l'U.A.G.</p>
+            <p>Avec nos camarades intéressés comme nous à ces grandes questions, nous insistons
+              constamment pour que cette Commission se réunisse le plus tôt possible et établisse
+              rapidement la liste des réformes les plus urgentes à faire.</p>
+            <p>Il y a longtemps que nous avons préparé nos textes, étudié leur répercussion et nous
+              sommes prêts à soutenir le bien fondé de ces réclamations qui ne sont que des mises au
+              point et non des choses nouvelles. Il nous paraît donc équitable que sous peu un
+              examen sérieux soit entrepris et qu'un résultat favorable s'ensuive dans des délais
+              relativement courts. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LE RAPPORT CONSTANT</head>
+            <p>Nous recevons du Ministère des Anciens Combattants la mise au point suivante que nous
+              soumettons à nos lecteurs.</p>
+            <p>Ceci découle du souci que les dirigeants du Comité d'Entente et de l'U.F.A.C. ont de
+              faire respecter le rapport constant, base essentielle de nos pensions.</p>
+            <p>Nous nous félicitons de voir que M. le Ministre tient compte de notre préoccupation
+              et veille également à la stricte observance du jeu du rapport constant. Néanmoins,
+              nous devons être vigilants car, par l'adjonction d'indemnités dont les appellations ne
+              sont pas difficiles <pb n="6"/>
+              <note type="foliation">— 6 —</note> à trouver, on pent aisément tourner les effets de
+              la loi et oublier les anciens combattants.</p>
+            <p>Ministère des Anciens Combattants et Victimes de Guerre</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Cabinet du Ministre</head>
+            <p>Certaines associations d'Anciens Combattants ont manifesté leurs craintes de ce qu'à
+              la faveur des aménagements des échelles indiciaires des fonctionnaires catégories C et
+              D , le rapport constant soit "tourné » soit par l'octroi d'une indemnité spéciale,
+              soit par le jeu d'une révision indiciaire qui aurait pour effet de porter les
+              traitements de tous les fonctionnaires au-delà de l'indice 170 entraînant ainsi la
+              suppression radicale du rapport constant. M. Tanguy-Prigent, ministre des Anciens
+              Combattants et Victimes de Guerre, tient à faire savoir que de telles craintes sont
+              dénuées de tout fondement.</p>
+            <p>La réforme visant les petits fonctionnaires s'est traduite : 1<hi rend="superscript"
+                >°</hi> par un nouveau découpage de la carrière (modification du nombre des
+              échelons) ; 2<hi rend="superscript">°</hi> par une modification dans les conditions
+              d'avancement d'échelon - l'ancienneté exigée a été réduite pour les échelons de début
+              et accrue pour les échelons de fin de carrière de façon à permettre un recrutement
+              normal dans les petits emplois qui étaient insuffisamment rétribués en début de
+              carrière ; 3<hi rend="superscript">°</hi> par le classement des emplois des catégories
+              C et D dans les échelles «lettres» par exemple :</p>
+            <list>
+              <item>agent de service de deuxième catégorie se trouve rangé dans l'échelle 1 D
+                ,</item>
+              <item>agent de service de première catégorie est rangé dans l'échelle 2 D ,</item>
+              <item>employé de bureau est rangé dans l'échelle 3 D ;</item>
+            </list>
+            <p>4° Ces nouvelles échelles «lettres» ont été dotées d'indices bruts : <list>
+                <item>l'échelle 1 D se développe . . . . de 100 à 180 en indices bruts, équivalent,
+                  . . . . . . . . . . de 100 à 160 en indices nets ;</item>
+                <item>l'échelle 2 D se déroule . . . . . de 115 à 190 en indices bruts, équivalent.
+                  . . . . . . . . . . de 110 à 170 en indices nets ;</item>
+                <item>l'échelle 3 D s'étale . . . . . . . . de 125 à 205 en indices bruts,
+                  équivalent. . . . . . . . . . . de 120 à 180 en indices nets ;</item>
+              </list></p>
+            <p>5° Cette réforme se traduit également par la suppression de certains grades. C'est
+              ainsi que les grades d'huissier de direction et d'huissier de cabinet se trouvent
+              supprimés; ils sont remplacés par le grade d'huissier des administrations centrales
+              doté de la même échelle indiciaire 2D(115-190 en brut)=110-170 en net.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+            <p>En définitive, aucune perturbation n'a été apportée dans le jeu du rapport constant,
+              puisqu'il n'a pas été attribué d'indemnité et que l'indice final du traitement de
+              l'huissier est bien demeuré fixé à 170 net correspondant à 190 en brut.</p>
+            <p>L'application de l'échelle indiciaire en brut rend plus facile le calcul des
+              traitements. Par exemple, le traitement de base correspondant à l'indice 100 étant
+              actuellement fixé à 170.000 , le point brut du traitement vaut 1.700 fr ., les 190
+              points vaudront 323.000 fr ., ce qui donne comme valeur au point pension 323.000 /
+              1.000 = 323 francs.</p>
+            <p>Ainsi de suite, au 1<hi rend="superscript">er</hi> mai, le traitement correspondant à
+              l'indice 100 s'élèvera à 180.000 , le point brut vaudra 1.800 francs.</p>
+            <p>Les 190 points ( 170 en net) 342.000 , le point pension passera à 342.000 / 1.000
+              =342 francs.</p>
+            <p>Le Gouvernement a donc respecté la loi.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LES TRAITEMENTS DE FONCTIONNAIRES
+              ET LEURS INCIDENCES SUR NOS PENSIONS</head>
+            <p>Une brochure vient d'être éditée réunissant les décrets du 16 février 1957 :</p>
+            <list>
+              <item>l'un n° 57-177 aménageant le décret n° 55-866 du 30 juin 1955 modifié portant
+                remise en ordre des traitements et soldes des personnels civils et militaires de
+                l'Etat ;</item>
+              <item>l'autre n° 57-174 instituant différentes échelles de rémunération pour les
+                catégories D et C des fonctionnaires de l'Etat.</item>
+            </list>
+            <p>L'article 1<hi rend="superscript">er</hi> du décret n<hi rend="superscript">°</hi>
+              57-177 est ainsi conçu : Article premier. - L'article 3 du décret du 30 juin 1955
+              susvisé est abrogé et remplacé par les dispositions suivantes : «Les émoluments qui,
+              pour les magistrats, les fonctionnaires à solde mensuelle, sont soumis à retenue, sont
+              calculés en multipliant le cen tième du traitement afférent à l'indice 100 par
+              l'indice de traitement qui leur est affecté. "Le traitement afférent à l'indice 100
+              est fixé à 170.000 , à compter du 1<hi rend="superscript">er</hi> janvier 1957, à
+              180.000 à compter du 1<hi rend="superscript">er</hi> mai 1957 et dans la limite des
+              crédts ouverts à cet effet dans la loi de finances pour l'année 1958, à 200.000 fr. à
+              compter du 1<hi rend="superscript">er</hi> janvier 1958. "Pour la période comprise
+              entre le 1<hi rend="superscript">er</hi> novembre 1957 et le 1<hi rend="superscript"
+                >er</hi> janvier 1958, il s'y ajoute un complément soumis à retenue de 20.000 fr .
+              fixé uniformément à ce taux pour l'ensemble de l'échelle hiérarchique.</p>
+            <p>Les dispositions de l'article 10 du décret du 30 juin 1955 sont <pb n="8"/>
+              <note type="foliation">— 8 —</note> abrogées en tant qu'elles s'appliquent à une
+              période postérieure au 31 décembre 1956.</p>
+            <p>Donc, pour trouver le point indiciaire, c'est-à-dire la valeur en franc du point, il
+              suffira donc par application du décret mentionné, de prendre le 1.000<hi
+                rend="superscript">°</hi> de l'indice 170.000 qui est accompagné d'un multiplicande
+              190 d'indice brut dont on prend le 100<hi rend="superscript">°</hi>, soit :</p>
+            <p>Au 1<hi rend="superscript">er</hi> janvier 1957 170 \times 1,90=323.</p>
+            <p>Au 1<hi rend="superscript">er</hi> mai 1957 180 \times 1,90=342.</p>
+            <p>Au 1<hi rend="superscript">er</hi> novembre 1957 Il s'agit d'incorporer simplement le
+                1.000<hi rend="superscript">°</hi> de 20.000 de complément donné à tous les
+              fonctionnaires, soit 20 au point ; donc : 342 \div 20=362</p>
+            <p>Au 1<hi rend="superscript">er</hi> janvier 1958 L'opération première doit être
+              reprise : 200 \times 1,90=380</p>
+            <p>Nous venons donc de vous donner la valeur du point au 1<hi rend="superscript">er</hi>
+              janvier 1957, au 1<hi rend="superscript">er</hi> mai 1957, au 1<hi rend="superscript"
+                >er</hi> novembre 1957 et au 1<hi rend="superscript">er</hi> janvier 1958.</p>
+            <p>Nous allons donner maintenant la manière de calculer sa pension ; il faut d'abord
+              savoir combien de points on possède :</p>
+            <p>Points</p>
+            <list>
+              <item>Pension principale 100% article 18 465 points</item>
+              <item>Allocation 5 bis 1.464 points</item>
+              <item>Statut 982 points</item>
+              <item>Allocation 8/48 368 points</item>
+              <item>Allocation 8/50 (pour les non-statutaires) 736 points</item>
+            </list>
+            <p>Pour ceux qui ont un degré au-dessus de 100%, on sait qu'il y a deux éléments : 1<hi
+                rend="superscript">°</hi> Le degré de surpension =20 points. 2<hi rend="superscript"
+                >°</hi> Un degré d'allocation 6=50 points, soit en tout par degré supplémentaire
+              d'invalidité =70 points.</p>
+            <p>Sachant combien il a de degrés, le camarade peut ainsi additionner le nombre de
+              points qui se rapporte à chacun des éléments indiqués et multiplier ce nombre de
+              points par le prix du point dons nous parlons plus haut.</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+            <p>Exemple pour un pensionné 100% art. 18+1<hi rend="superscript">°</hi>= article 16
+              :</p>
+            <list>
+              <item>100% article 18 465 points</item>
+              <item>Allocation 5 bis 1.464 points</item>
+              <item>Statut 982 points</item>
+              <item>Allocation 8/48. 368 points</item>
+              <item>Un degré d'allocation 6(50+20, un degré de surpension) 70 points</item>
+              <item>3.349</item>
+            </list>
+            <p>Le Ministre des Anciens Combatants et Victimes de Guerre communique :</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">PAIEMENT DES PENSIONS SUR LA BASE
+              DES NOUVEAUX TAUX</head>
+            <p>M. Tanguy Prigent, Ministre des Anciens Combattants et Victimes de la Guerre, a
+              appelé l'attention du Ministère des Affaires Economiques et Financières dès la fin du
+              mois de décembre 1956 sur l'intérêt qui s'attachait à ce que le paiement des pensions
+              concédées au titre du Code des Pensions Militaires d'Invalidité et des Victimes de la
+              Guerre soit effectué compte tenu de la valemr du point au moment de l'échéance.</p>
+            <p>En dépit du volume et de la complexité des tâches imposées tant à mes services qu'à
+              ceux de la Direction de la Comptabilité Publique au Ministère des Affaires Economiques
+              et Financières et grâce à leur extrême diligence, toutes dispositions sont prises afin
+              que les échéances de pensions d'invalidité et des victimes de la guerre survenant à
+              compter du 1<hi rend="superscript">er</hi> avril 1957, soient payées sur la base des
+              nouveaux taux prenant effet à compter du 1<hi rend="superscript">er</hi> janvier
+              1957.</p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">A L'U.F.A.C.</head>
+            <p>L'Union Française des Associations de Combattants, qui groupe l'ensemble des grandes
+              associations pour la défense des droits des mutilés anciens combattants, a réuni son
+              Conseil d'administration samedi 16 et dimanche 17 mars derniers.</p>
+            <p>Dans ces rassemblements se retrouvent les associations qualifiées de grands invalides
+              qui comprennent dans le Comité d'Entente les grandes associations de mutilés avec
+              lesquelles nous entretenons de très amicales relations, puis les grandes associations
+              d'anciens combat- ats bien connues depuis longtemps et ensuite, celles nées de la
+              Résistance qui ont apporté depuis la Libération l'appui des déportés ou de ceux qui
+              subirent les sévices de l'occupant.</p>
+            <p>Il est bon de confronter en un large débat les opinions de tous ces délégués, de se
+              rendre compte des besoins des nombreuses catégories représentées et il est surtout bon
+              de rappeler que c'est dans ses assises que s'affirment, par la voix de 2 millions et
+              demi de membres, les droits imprescriptibles des victimes de la guerre.</p>
+            <p>Au premier rang de nos soucis figure le rapport constant qui a fait l'objet de nos
+              plus attentives délibérations et il ne faut pas que soit porté atteinte à cette belle
+              réalisation d'après-guerre à laquelle nous avons participé dans des jours pénibles
+              nécessitant des discussions, des démonstrations, des manifestations et c'est pourquoi
+              nous surveillons l'application rigoureuse de cette loi fondamentale qu'on serait tenté
+              de détourner de son but.</p>
+            <p>Il fut aussi affirmé l'esprit de discipline dans l'admission des résonutions et ceci
+              nous intéresse pour que dans les demandes concernant notamment la revalorisation de la
+              cécité et l'amélioration des pensions de veuves, nous ayons avec nous la force unanime
+              des anciens combattants et victimes de guerre.</p>
+            <p>Dans notre programme est comprise la défense des intérêts matériels et moraux des
+              mutilés et certes, on ne peut nous reprocher de ne pas penser aux intérêts moraux.</p>
+            <p>Toute notre action de mutualité, de solidarité, d'entr'aide, dont certaines
+              réalisations s'adressent non seulement aux aveugles de guerre, mais aussi aux civils,
+              fait foi de notre esprit d'émancipation sociale. Il ne faut pas oublier non plus
+              qu'une catégorie comme la nôtre a un besoin absolu d'une pension décente dont tous nos
+              camarades doivent bénéficier pleinement.</p>
+            <p>On peut donc reconnaître que notre œuvre au sein du Comité d'Entente recueillant
+              l'approbation de l'U.F.A.C. entière doit être poursuivie pour que la vie de tous les
+              aveugles de guerre et celle de leur famille soit digne et respectée.</p>
+            <pb n="11"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LA SÉCURITÉ SOCIALE ET LES GRANDS
+              INVALIDES</head>
+            <p>Une amélioration vient d'être apportée au régime du paiement des cotisations de la
+              Sécurité sociale.</p>
+            <p>Ces modifications intéressent les grands invalides qui sont retraités militaires et
+              qui, pour une raison quelconque, paient une double cotisation. C'est surtout le cas à
+              l'U.A.G. de aveugles pensionnés pour leurs blessures et de plus bénéficiaires d'une
+              pension de retraite pour les services militaires effectués.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">LA DOUBLE COTISATION
+                (Modification au décret d'application)</head>
+              <p>La loi n<hi rend="superscript">°</hi> 50-879 du 29 juillet 1950, parue au J. O. du
+                30 juillet 1950, a prévu, dans son article 2 , ce qui suit :</p>
+              <p>Sont affiliés obligatoirement aux assurances sociales : 1<hi rend="superscript"
+                  >°</hi> Les bénéficiaires des dispositions du Code des pensions militaires et
+                d'invalidité titulaires d'une pension d'invalidité correspondant à un taux
+                d'incapacité d'au moins 85% qui ne sont pas assurés sociaux ; 2<hi
+                  rend="superscript">°</hi> Les veuves de guerre non remariées et les veuves non
+                remariées des grands invalides de guerre bénéficiaires des dispositions du Code des
+                pensions militaires d'invalidité qui ne sont pas assurées sociales ; 3<hi
+                  rend="superscript">°</hi> Les orphelins de guerre reconnus absolument incapables
+                de travailler par la Commission prévue à l'article 52 de l'ordonnance 45-2454 du 19
+                octobre 1945. Le décret n<hi rend="superscript">°</hi> 51-318 du 28 février 1951
+                publié au J. O. du 11 mars 1951 portant règlement d'administration publique pour
+                l'application de la loi n<hi rend="superscript">°</hi> 50-879 du 29 juillet 1950, a
+                notamment indiqué dans ses articles 6,9 et 10 , les conditions d'assujettissement
+                pour les personnes déjà affiliées à une Caisse de Sécurité sociale en qualité de
+                pensionné ou de retraité.</p>
+              <p>Il ressort de ces textes : 1<hi rend="superscript">°</hi> que tous les grands
+                invalides (militaires ou civils) pensionnés à 85% au moins, les veuves de guerre,
+                les veuves de grands invalides et les orphelins incapables de travailler, sont
+                obligatoirement tenus de se faire immatriculer aux assurancs sociales en vertu de la
+                loi du 29 juillet 1950, même si, par ailleurs, ils sont déjà immatriculés en qualité
+                de retraité de l'Etat, de retraité des assurances sociales, de pensionné de la
+                Sécurité sociale pour invalidité, ou d'accidenté du travail.</p>
+              <pb n="12"/>
+              <note type="foliation">— 12 —</note>
+              <p>Ces retraités, pensionnés, etc., étaient donc obligatoirement astreints jusqu'ici,
+                à payer une cotisation de 1 fr . 25% sur le montant de leur retraite jusqu'au
+                plafond limite de 528.000 fr . et de 1 fr . 25% sur le montant de leur pension
+                (allocations comprises) de mutilé, veuve ou orphelin de guerre également jusqu'au
+                plafond limite de 528.000 fr .</p>
+              <p>Nous n'avons jamais cessé, avec le Comité d'Entente des Grands Invalides de guerre,
+                de protester avec énergie contre l'iniquité consitant à prélever deux cotisations
+                chacune jusqu'au plafond de 528.000 fr . pour ne donner en échange aucun avantage de
+                plus qu'aux retraités non pensionnés de guerre.</p>
+              <p>Or, on sait que le décret du 20 mai 1955 a modifié les conditions d'attribution des
+                prestations-soins pour longue maladie.</p>
+              <p>Pratiquement, à condition de se soumettre à l'examen médical des praticiens de la
+                Sécurité sociale, il n'est plus de limite à l'assurancemaladie, par conséquent,
+                l'avantage supplémentaire dont on avait fait état pour rendre la double affiliation
+                obligatoire (les prestations-soins en cas de longue maladie) n'existe plus et le
+                pensionné de guerre, retraité par ailleurs et déjà affilié à la Sécurité sociale à
+                ce titre, payait donc jusqu'ici 1 fr . 25% sur sa pension de guerre sans
+                contrepartie, puisque du seul fait de son affiliation en qualité de retraité, il
+                était déjà couvert pour les risques de maladie (sauf en ce qui concerne
+                l'assurance-maternité).</p>
+              <p>Nous demandions que les pensionnés de guerre, retraités ou pensionnés par ailleurs,
+                puissent rester affiliés à leur gré, soit en qualité de retraité, soit au titre de
+                pensionné de guerre, mais ne soient plus obligatoirement tenus de payer deux
+                cotisations.</p>
+              <p>Jusqu'ici, les ministères intéressés n'avaient tenu aucun compte de nos
+                protestations.</p>
+              <p>Cependant, une amélioration (qui ne nous donne pas satisfaction entière) vient
+                d'être réalisée :</p>
+              <p>Par décrets n<hi rend="superscript">°</hi>57-289 et 57-290 du 9 mars 1957 publiés
+                au J. O. du 12 mars, il a été admis que la cotisation demandée aux victimes de
+                guerre ne serait plus perçue que sur le total ds différentes pensions reçues et ce,
+                dans la limite du plafond de 528.000 fr . actuellement fixé.</p>
+              <p>D'autre part, la cotisation sera, dans ce cas, réduite à 0 fr. 75%.
+                Malheureusement, pour faciliter les calculs des comptables payeurs, il faudra
+                d'abord verser la cotisation ci-dessus indiquée sur la totalité des deux pensions et
+                c'est seulement si le plafond de 528.000 fr. est dépassé, qu'il y aura lieu
+                d'adresser, avant la fin de l'année en cours, ane demande de remboursement des
+                cotisations versées en trop.</p>
+              <p>C'est là une complication qui ne sera certes pas appréciée des intéressés.</p>
+              <pb n="13"/>
+              <note type="foliation">— 13 —</note>
+              <p>Voici le texte des deux décrets nouveaux : Décret n<hi rend="superscript">°</hi>
+                57-289 du 9 mars 1957 modifiant le décret n<hi rend="superscript">°</hi> 51-318 du
+                28 février 1951 portant règlement d'administration publique pour l'application de la
+                loi n<hi rend="superscript">°</hi>50-879 du 29 juillet 1950, modifiée, étendant le
+                bénéfice de la Sécurité sociale aux grands invalides de guerre, aux veuves de
+                guerre, aux veuves des grands invalides de guerre et aux orphelins de guerre.</p>
+              <p>Article premier. - L'article 9 du décret du 28 février 1951 susvisé est rédigé
+                comme suit :</p>
+              <p>Art. 9. - La cotisation prévue à l'article 5 de la loi du 29 juillet 1950 est
+                assise sur le montant de la pension allouée au titre du Code des pensions militaires
+                d'invalidité et de ses accessoires, à l'exception des prestations familiales et de
+                l'indemnité de soins prévue à l'article 41 dudit Code, dans la limite du plafond
+                fixé par la législation de la Sécurité sociale.</p>
+              <p>Toutefois, lorsque le total des pensions allouées à une même personne, à la fois au
+                titre d'un régime spécial de Sécurité sociale et du Code des pensions militaires
+                d'invalidité, dépasse le plafond servant de base au calcul des cotisations de
+                Sécurité sociale, l'intéressé peut demander le remboursement des cotisations qu'il a
+                versées en trop dans les conditions définies par un arrêté conjoint du Ministre des
+                Affaires sociales, du Ministre des Anciens combattants et Victimes de guerre, et du
+                Ministre des Affaires économiques et financières. Pour être recevable, la demande de
+                remboursement devra être formulée avant l'expiration de l'année civile suivant
+                l'année pendant laquelle ont été acquittées les cotisations dont le remboursement
+                est demandé.</p>
+              <p>Le taux de la cotisation est provisoirement celui qui est fixé pour les pensionnés
+                retraités et les veuves de fonctionnaires. Ce taux peut être réduit par décret sur
+                le rapport du Ministre des Anciens combattants et Victimes de guerre, du Ministre
+                des Affaires économiques et financières, du Ministre des Affaires sociales, du
+                Secrétaire d'Etat au Travail et à la Sécurité socia' et du Secrétaire d'Etat au
+                Budget, notamment pour tenir compte des doubles affiliations comportant le paiement
+                des cotisations pour la couverture d'une partie des risques.</p>
+              <p>Décret n<hi rend="superscript">°</hi> 57-290 du 9 mars 1957 portant réduction du
+                taux de la cotisation de Sécurité sociale due par certains bénéficiaires de la loi
+                  n<hi rend="superscript">°</hi> 50-879 du 29 juillet 1950 modifiée.</p>
+              <p>Article premier. - Le taux de la cotisation due par les personnes visées aux
+                articles 6 et 7 du décret du 28 février 1951 susvisé est fixé à 0,75 %.</p>
+              <pb n="14"/>
+              <note type="foliation">— 14 —</note>
+              <p>Ces modifications ne sont certainement pas négligeables et nous en exprimons notre
+                satisfaction, mais il n'est pas douteux qu'elles laissent subsister une profonde
+                injustice qui consiste à continuer de pénaliser la victime de guerre retraitée ou
+                pensionnée par ailleurs, en lui faisant payer un supplément de cotisation qui ne lui
+                apporte rien en échange, puisqu'elle est déjà couverte, sauf pour le risque
+                maternité, pour tous risques de maladie sans limitation de durée du fait d'une seule
+                affiliation (la deuxième est donc inutile).</p>
+              <p>Nous estimons cependant que la simple sagesse serait la suppression pure et simple
+                de la double cotisation.</p>
+              <p>Bien entendu, nous persistons à demander, par ailleurs, que les grands invalides
+                obligés d'avoir recours à l'aide constante d'une tierce personnes soient exonérées,
+                comme le sont les personnes âgées de plus de 70 ans, du paiement de la cotisation
+                patronale pour la personne qui est à leur service.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">CANDIDATS AUX PROCHAINES
+              ELECTIONS DU CONSEIL D'ADMINISTRATION</head>
+            <p>Nous avons publié dans notre précédent bulletin les déclarations de nos camarades
+              Albert Pagenel et Louis Philippe.</p>
+            <p>Nous communiquons ci-après la profession de foi de notre camarade André Almey,
+              Président de la Section de Bordeaux :</p>
+            <p>Chers Camarades,</p>
+            <p>Candidat aux prochaines élections du Conseil d'Administration, je viens vous exposer
+              quelques-unes de mes intentions.</p>
+            <p>Je mettrai au service de l'U.A.G. mon expérience et mon dévouement, n'ayant d'autres
+              ambitions que de continuer l'œuvre entreprise par mes devanciers, de poursuivre la
+              tâche commencée, où s'inscrit l'assiduité, le courage et le dévouement de mes
+              prédécesseurs, membres de notre Conseil d'Administration, espérant que ces intentions
+              seront comprises par votre esprit et partagées par votre cour et que vous m'accorderez
+              votre confiance.</p>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LE PRESIDENT DES AVEUGLES DE
+              GUERRE AUTRICHIENS A L'HONNEUR</head>
+            <p>Nous relevons dans Combattants du Monde l'annonce d'un prix qui a été décerné à notre
+              camarade Hans Hirsch, Président des Aveugles de Guerre d'Autriche, que nous
+              connaissons depuis longtemps.</p>
+            <p>Nous le félicitons de la distinction dont il est l'objet, récompense du travail
+              inlassable que Hirsch ne cesse de fournir en faveur de nos camarades Autrichiens.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">Prix pour Hans Hirsch</head>
+            <p>M. Hans Hirsch, Président de l'Association des Aveugles de Guerre d'Autriche et
+              membre du bureau de l'Organisation centrale des Associations de Victimes de guerre, a
+              été l'un des lauréats des prix de la «Fondation Karl Renner» pour 1956, qui ont été
+              remis le 19 janvier, à l'Hôtel de Ville de Vienne, en présence du chancelier fédéral
+              Julius Raab et du vice-chancelier Adolf Schaerf</p>
+            <p>La fondation créée en 1951 par la municipalité de Vienne à l'occasion du
+              quatre-vingtième anniversaire de l'ancien président de la République Karl Renner,
+              alloue annuellement des prix d'une valeur globale de 100.000 schillings (un million et
+              demi de francs français) à des personnes « ayant bien mérité de la République».</p>
+            <p>Aveugle et amputé des deux mains depuis 1917 à la suite de l'explosion d'une grenade
+              sur le front italien, alors qu'il avait 19 ans, M. Hirsch est un des fondateurs de
+              l'Association des Aveugles qu'il préside. Il a fait partie de la délégation
+              autrichienne à la Sixième Assemblée générale de la F.M.A.C. à Bruxelles. M. Hirsch a
+              profité de son prix de 10.000 schillings ( 150.000 fr .) pour jeter les bases d'une
+              bibliothèque phonétique pour aveugles, à laquelle contribuent également son
+              association et le Ministère des Affaires sociales.</p>
+            <p>On voit donc que partout chez les aveugles se répand de plus en plus le besoin
+              d'avoir le livre parlé sur bande et nous félicitons Hirsch de favoriser cette
+              entreprise dans son pays.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LE LIVRE PARLE EN
+              ANGLETERRE</head>
+            <p>Nous détachons de Saint Dunstan's Review (le Bulletin des Aveugles de guerre anglais)
+              l'article de Sir Ian Fraser, le distingué Président de Saint Dunstan's au sujet du
+              livre parlé sur bande en Angleterre.</p>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+            <p>« Il y a quelques années, Saint Dunstan's a destiné certains fonds à la recherche
+              employée au service de l'aveugle des appareils susceptibles à l'aider dans la vie, à
+              se diriger, à lire, etc. Les radars se sont avérés lourds et d'un emploi difficile,
+              les machines à lire le noir si compliquées que seulement un aveugle exceptionnel
+              saurait s'en servir. " Nous nous étions donc tournés vers la possibilité d'améliorer
+              le livre parlé et avons longuement réfléchi sur le remplacement du disque par la
+              bande. Nous en sommes arrivés à la conclusion que l'art de l'enregistrement sur ruban
+              se développait alors si rapidement que ce serait une erreur de choisir entre la bande,
+              le film ou le fil.</p>
+            <p>L'enregistrement sur bande prenant une extension considérable, certains modèles se
+              sont créés et le Comité du Livre parlé, avec l'appui du Royal National Institute for
+              the Blind et de Saint Dunstan's, a décidé de tenter une nouvelle expérience. Nous nous
+              proposons d'instituer une bibliothèque du livre parlé qui pratiquerait des
+              enregistrements sur bandes, à titre d'essai, pendant une année ou deux. «Le R.N.I.B.
+              et Saint Dunstan's mettront chacun cinquante appareils à la disposition des aveugles
+              civils et de guerre respectivement, à des conditions non encore déterminées. Il serait
+              probablement fait appel à des volontaires qui accepteraient de prendre les nouveaux
+              appareils en échange des anciens. L'avantage serait, pour ces volontaires, d'être au
+              premier plan d'une expérience nouvelle et fort intéressante, mais par contre, ils
+              n'auraient pas au début un grand choix de livres. « Le projet de ce nouveau livre se
+              présente sous la forme d'une boîte ou cassette en bois ou plastique ayant les
+              dimensions d'une grande boîte de chocolat ou d'une «bible de famille ». Cette cassette
+              contiendra plus de 1.600 pieds ( 480 mètres) de bande, représentant vingt heures de
+              lecture, c'est-à-dire la valeur d'un bon roman moyen. « Si cette expérience est
+              concluaute, le gros problème se posera d'échanger le système du livre parlé de disques
+              en bandes qui s'échelonnerait sur un certain nombre d'années. Il serait peut-être
+              possible alors de créer une section pour étudiants mettant à leur disposition des
+              ouvrages de physiothérapie, droit, ou tous autres sujets bien délimités et d'intérêt
+              restreint. « En attendant, une petite expérience est déjà tentée à l'usage des
+              étudiants en droit et physiothérapie et quelques enregistrements se pratiquent sur
+              bande de 6 mm. 25 ( 1 / 4 inche), à la vitesse de 9 cm. 375(33 / 4 inches) sur bobines
+              de 13.375 (5 3/4 inches) de diamètre. "Les aveugles qui achètent des magnétophones
+              pour leurs propres besoins pourront sûrement utiliser ces enregistrements pour
+              étudiants, mais il est bien entendu que nous ne pouvons assurer qu'ils soient à leur
+              disposition dès que fonctionnera notre nouvelle méthode utilisant la cassette.</p>
+            <pb n="17"/>
+            <note type="foliation">— 17 —</note>
+            <p>"Autrement dit, ce service pour étudiant ne peut être considéré que comme temporaire
+              et ceux qui se rendent acquéreurs d'un magnétophone doivent le faire pour des raisons
+              plus générales et non parce qu'ils comptent pouvoir utiliser indéfiniment la
+              bibliothèque des étudiants. « Bien que la décision soit prise de tenter l'essai des
+              cassettes, celles-ci ne pourront être disponibles avant plusieurs mois, mais nous vous
+              tiendrons au courant de nos progrès. »</p>
+            <p>Nous constatons donc qu'en Angleterre les deux puissantes associations d'aveugles
+              unissent leurs efforts (ce qui est la sagesse même) pour instituer un service de livre
+              parlé sur bande. Nous sommes persuadés qu'ils parviendront à un succès total, notant
+              toutefois que des réserves sont faites pour l'utilisation future des magnétophones
+              achetés par les aveugles.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">CONCOURS LITTERAIRE INTERNATIONAL
+              POUR AVEUGLES</head>
+            <p>Les aveugles du monde entier, sans distinction de race, religion ou nationalité, sont
+              invités à participer au IX<hi rend="superscript">e</hi> Concours Littéraire
+              International, organisé par la Revue Juive en Braille (Jewish Braille Review).</p>
+            <p>Les manuscrits peuvent être présentés dans n'importe quelle langue et le concours est
+              divisé en trois catégories : Nouvelles, Poésie, Récits. En plus des prix d'un montant
+              de 500 dollars qui seront distribués, les meilleurs envois seront publiés dans la
+              Revue Juive.</p>
+            <p>Miss Pearl Buck, auteur connu, qui siégera de nouveau parmi les juges nous dit : «Si
+              j'ai quelque chose à dire aux écrivains aveugles, c'est moins un conseil qu'un
+              souhait, c'est l'espoir qu'ils se serviront de leur propre don, non pour imiter ceux
+              qui voient effectivement, mais pour cultiver leur façon particulière de voir, avec
+              leur propre expérience de la vie et leur point de vue personnel, pour faire comprendre
+              au reste du monde - les voyants qui voient souvent si mal le vrai sens de ce qui se
+              trouve au-delà de l'esprit des êtres humains %.</p>
+            <p>Les envois qui seront reçus jusqu'au 31 juillet 1957 doivent porter l'inscription
+              «Concours Littéraire» et être expédiés à : « The Jewish Braille Institute of America
+              101 West 5th Street, New York, 19 ».</p>
+            <pb n="18"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">LEGION D'HONNEUR</head>
+            <p>Nous sommes heureux d'apprendre, les nominations et promotions dans l'ordre de la
+              Légion d'Honneur de nos camarades ci-après :</p>
+            <p>Au grade d'Officier : Roger DEGREGE.</p>
+            <p>Au grade de Chevalier : Serge DUBARRY. Jean SEYSSIECQ. Nous leur adressons nos plus
+              vives félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">Mademoiselle d'HERBEMONT,
+              OFFICIER DE LA LEGION D'HONNEUR</head>
+            <p>Nous apprenons avec plaisir la décision prise par M. le Ministre de la Santé Publique
+              d'attribuer la rosette d'Officier de la Légion d'Honneur à Mademoiselle G.
+              d'Herbemont. Celle qui cut la généreuse idée de créer la Canne Blanche il y a
+              vingt-cinq ans, vient d'être récompensée pour le rayonnement que cette initiative
+              avait prise dans le monde des aveugles</p>
+            <p>Notre Association, avec celle des Aveugles Civils, s'étaient consultées pour cette
+              décoration et nous sommes heureux que M. le Ministre ait fait droit à cette
+              demande.</p>
+            <pb n="19"/>
+            <note type="foliation">— 19 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">"LE LIVRE PARLÉ" DERNIERS
+              OUVRAGES PARUS</head>
+            <list>
+              <head rend="align(center)">Collection : Oeuvres d'imagination</head>
+              <item>S/MAG-419. - Traversée de Paris (M. Aymé), 2 disques, 2 bandes.</item>
+              <item>S/MAG-421. - Les Roses de Septembre (A. Maurois), 6 disques, 6 bandes.</item>
+              <item>S/MAG-423. - Les Racines du Ciel, Prix Goncourt 1956 (R. Gary), 18 disques, 18
+                bandes.</item>
+              <item>S/MAG-424. - Les Misérables (V. Hugo). 1<hi rend="superscript">re</hi> partie,
+                13 disques, 13 bandes. 2<hi rend="superscript">e</hi> partie, 11 disques, 11
+                bandes.</item>
+              <item>S/MAG-427. - Le Bouquet de la Mariée (J. Chennevière), 4 disques, 4
+                bandes.</item>
+              <item>S/MAG-433. - Le Cardinal (H.-M. Robinson), 25 disques, 25 bandes.</item>
+              <item>S/MAG-430. - Indiscrète Française (L. Colonna d'Istria), 4 disques, 4
+                bandes.</item>
+            </list>
+            <list>
+              <head rend="align(center)">Collection : Aventures et yovages</head>
+              <item>S/MAG-418. - Les Vikings (P. Vialar), 5 disques, 5 bandes.</item>
+              <item>S/MAG-425. - Journal de Bord du Chirurgien Exmelin, 7 disques, 7 bandes.</item>
+              <item>S/MAG-432. - Congo Prodigieux (F. Bellotti), 10 disques, 10 bandes.</item>
+            </list>
+            <list>
+              <head type="section" rend="align(center)">Collection : Historique</head>
+              <item>S/MAG-420. - Saint-Simon par lui-même (F.-R. Bastide), 6 disques, 6
+                bandes.</item>
+              <item>S/MAG-429. - Aimée et souffrante Algérie (J. Soustelle), 9 disques, 9
+                bandes.</item>
+            </list>
+            <list>
+              <head rend="align(center)">Collection : Les Auteurs gais</head>
+              <item>S/MAG-422. - Mémoires de M. Jaunepeluche, valet de pied (W.-H. Thackeray), 5
+                disques, 5 bandes.</item>
+              <item>S/MAG-426. - Histoires Naturelles (J. Renard), 1 disque, 1 bande.</item>
+            </list>
+            <list>
+              <head rend="align(center)">Collection : Le Roman Policier</head>
+              <item>S/MAG-428. - Eva (J. Hadley Chase), 8 disques, 8 bandes.</item>
+              <item>S/MAG-431. - M. Suzuki joue avec le feu (J.-P. Conty), 5 disques, 5
+                bandes.</item>
+            </list>
+            <p>*NOTE. - Les copies sur disques de ces ouvrages sont en cours de fabrication : elles
+              ne sont donc pas toutes disponibles immédiatement, mais seront mises en circulation
+              d'ici un mois ou deux.</p>
+            <pb n="20"/>
+            <note type="foliation">— 20 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">SECTION DEPARTEMENTALE DES
+                ALPES-MARITIMES Réunion annuelle du 10 mars 1957</head>
+              <p>Réunis dans une salle du restaurant Le Bouf à la Mode, 1, rue Paul-Déroulède, à
+                Nice, les Aveugles de Guerre des Alpes-Maritimes ont tenu leur Assemblée générale
+                statutaire le 10 mars 1957.</p>
+              <p>Le Président Hébréard ouvre la séance à 9 h .30 en souhaitant la bienvenue au
+                Secrétaire général Amblard, le remerciant d'avoir bien voulu effectuer un si long
+                déplacement et salue en lui le fondateur de la Section, qui, il y a vingt-sept ans,
+                est venu jeter les bases de notre départementale. Il est procédé ensuite à l'appel.
+                Sont présents: Armet, Arnault Roger, Arnold, Barbier, Baumes, Bertoni, Billoud,
+                Boin, Borsani, Brésard, Bruley, Cattaert, Chambert, Chatillon, Cloup, Crapez,
+                Draperi, Fabre, Félix, Garino, Gauch, Graglia, Grosso, Hébréard, Isnardy, Jouan,
+                Miquelis, Nayl, Noblet, Palmaro, Raphel, Richeris, Roche, Rouquette, Roux, Roy,
+                Spinetta, Paillisse. Total: 38. Se sont excusés : Arnaud Antoine, Bompuis, Coulomb,
+                Dupret, Cladier, Grattepain, Gruner, Lansquenet, Pons, Piera, Raybaud, Turrat Total
+                : 12. N'ont pas répondu à la convocation : Charles, Mondoloni. Total : 2.
+                Conformément à la décision prise par le Comité d'administration, les camarades
+                Mouisset et Mondolini, n'ayant pas répondu à trois convocations successives, ne
+                seront plus convoqués, étant considérés comme se désintéressant de la Section.</p>
+              <p>Le rapport moral rédigé par le Secrétaire Roy et la situation financière établie
+                par le Trésorier Garino, sont adoptés à l'unanimité. Le Commissaire aux comptes
+                Richeris approuve et félicite le Trésorier Garino pour l'exactitude et la bonne
+                tenue des comptes.</p>
+              <p>Le Secrétaire général Amblard, dans un exposé clair et détaillé, décrit l'activité
+                intérieure de l'Union et énumère les diverses démarches acompiles par le Bureau de
+                l'U.A.G. en vue de l'aboutissement de nos revendications. Puis il termine par un
+                vibrant appel aux jeunes camarades aveugles de guerre, leur demandant sans s'en
+                tenir rigoureusement à la lettre, de s'inspirer de l'esprit qui ne doit cesser
+                d'animer l'Union des Aveugles de Guerre</p>
+              <p>La liste de vœux qui sera présentée à la ratification de l'assemblée générale du 4
+                mai 1957 est adoptée à l'unanimité. Le Président Hébréard remercie M. Decker,
+                adjoint du Commandant Merli, Directeur interdépartemental du Ministère des Pensions,
+                d'avoir bien voulu assister à nos débats et le prie de transmettre à ce dernier
+                toute la vive sympathie des aveugles de guerre des Alpes-Maritimes.</p>
+              <pb n="21"/>
+              <note type="foliation">— 21 —</note>
+              <p>Après discussions, le camarade Jouan demande que le Comité d'administration soit
+                reconduit purement et simplement, cette proposition est adoptée à l'unanimité.</p>
+              <p>Après le vote unanime d'une motion de félicitations et de confiance aux membres du
+                bureau de l'U. A. G. le Président Hébréard lève la séance à 11 h .30 .</p>
+              <p>Un banquet servi au restaurant le Bœuf à la Mode, réunissait tous les camarades
+                entourés de nombreuses personnalités : M. Jean Médecin, député maire de Nice ; M.
+                Germain, secrétaire général de l'Office départemental des anciens combattants; M.
+                Decker, adjoint du commandant Merli, directeur interdépartemental du Ministère des
+                Anciens Combattants; M. Amblard, secrétaire général de l'U.A.G. et Madame ; M.
+                Chapuis, président de l'U.F.A.C. départementale ; M. Vergniaud, président de la
+                Fédération des Grands Invalides; M. Denoyer, président de l'Union des Amputés de
+                Guerre ; M. Arnault, délégué des Blessés de la Face ; Mme Bonhomme, représentant le
+                Docteur Bonhomme, conseiller municipal de Cannes ; notre camarade Jouan, également
+                conseiller municipal de Cannes; le Colonel Toulorge, président de l'Guvre de
+                l'Automobile pour Grands Invalides; le Colonel Bourgoin, président du Souvenir
+                Français; Mlle Bolognesi. Agent général de l'U.A.G. Se sont excusés : M. Moatti,
+                Préfet des Alpes-Maritimes; M. Mane, industriel et Président d'honneur de notre
+                Section, et M. Scorteccia, chef de service de la Direction départementale du
+                Ministère des Pensions.</p>
+              <p>Au dessert, le Président Hébréard remercia les personnalités et les assura de la
+                profonde sympathie de tous les camarades. Les dirigeants des divers groupements de
+                mutilés et d'anciens combattants apportèrent le salut cordial des membres de leurs
+                associations. Le Secrétaire général Amblard remercia les camarades de l'accueil
+                cordial qui lui avait été réservé et les assura de toute la sympathie du bureau.
+                Avant de conclure par un appel à l'union, il retraça les buts de sa mission récente
+                aux Etats-Unis, accompagné d'anciens combattants français. Dans un discours
+                fréquemment applaudi, M. Jean Médecin, député maire, assura les aveugles de guerre
+                de son entier dévouement et de sa vive sollicitude. Puis il remercia en des termes
+                émus le Prési: 'ent Hébréard de cette chaleureuse réception où il puisait un réel
+                réconfort moral.</p>
+              <pb n="22"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">APPORT DE NOS
+                SECTIONS</head>
+              <p>AVEYRON, Président Albespy Nous adressons au Président et à ses collaborateurs nos
+                vifs remerciements pour l'activité déployée.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">NAISSANCES</head>
+            <p>Nous apprenons avec joie la naissance de : Philippe, fils de notre camarade Robert
+              CERDAN, d'Oran, le 26 février 1957.</p>
+            <p>Françoise, fille de notre camarade Yann HERVE, de Paris, le 11 mars 1957.</p>
+            <p>Didier, petit-fils de notre camarade Guy MARTEAU, de Noisy-leSec (Seine), le 10 mars
+              1957.</p>
+            <p>Nelly, petite-fille de notre camarade Abraham EPSTEIN, de Neu-velle-les-Voisey
+              (Haute-Marne), le 14 mars 1957.</p>
+            <p>Nous adressons nos bien vives félicitations à nos camarades et nos vœux de prospérité
+              aux bébés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : CANTAREL Firmin (14-18), de Orbigny
+              (I.-et-L.), le 23 février 1957.</p>
+            <p>LE MIRE Ernest (14-18) de Le Guildo (C.-du-N.), le 3 mars 1957. COMBARRE Charles
+              (14-18) de Saint-Julien (Yonne), le 4 janvier 1957.</p>
+            <p>La femme de notre camarade Joseph FRANC, de Pau (B.-P.), le 24 février 1957.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="23"/>
+            <note type="foliation">— 23 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">COTISATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS ORDINAIRES ( 200
+                francs) reçues du 1<hi rend="superscript">er</hi> mars au 20 mars inclus</head>
+              <p>Agnus Alfred. Bellier Raymond, Bellot Gilbert, Besnier Marcel, Beucher Bellot
+                Gilbert ( 200 fr.), Beucher Alphonse ( 100 fr.), Vve Bouchet Gabriel.</p>
+              <p>Calvez Laurent, Mlle Chira Francine, Chouviat Edouard, Cormerais Claude, Coutarel
+                Jean.</p>
+              <p>Deguerry Jean, Dehner Robert, Delatre Léon, Désert Gaëtan, Diaz Henry, Dubreuil
+                Olivier, Dunie Pierre.</p>
+              <p>Egretier Jean, Escala Jacques. Félix Marius, Ferré Pierre. Glaziou Yves. Henriet
+                Francis, Huet Antoine. Karli Charles, Kayser Robert ( 400 fr.), Kromer Louis.
+                Laffargue Aristide, Lafon Pierre, Lamy Ernest, Léonard Robert, Le Roux Goulven,
+                Lesure Maurice, Loiseau Fabien, Louis Robert.</p>
+              <p>Mainguy Joseph, Massonnet Jean, Mauduit Pierre, Mauriceau Louis, Mazaudier
+                François, Michel Adolphe, Moutie Raymond, Munoz Lucien.</p>
+              <p>Nadon Henri. Payro Joseph, Pénard Michel, Popoff Stéphane, Pouget René, Poulain
+                Emile.</p>
+              <p>Ritz Eugène, Roy Serge. Terrier Henri, Thil Pierre, Tonet Henri. Van Audenacrde
+                Fernand, Vion Claude. Wolff Paul, Yvon Marcel.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">COTISATIONS CAISSE DE
+                PREVOYANCE</head>
+              <p>Agnus Alfred ( 500 fr.), Guilbot Eugène ( 500 fr.), Lamy Ernest ( 500 fr.),
+                Mauriceau Louis ( 500 fr.), Ritz Eugène ( 500 fr.).</p>
+              <pb n="24"/>
+              <note type="foliation">— 24 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Bellot Gilvert (200 fr.), Beucher Alphonse (100 fr.), Vve Bouchet (200 fr.).</p>
+              <p>Calvez Laurent ( 800 fr.), Chouviat Edouard ( 300 fr.), Coutarel Jean ( 200
+                fr.).</p>
+              <p>Deguerry Jean ( 200 fr.), Delattre Léon ( 800 fr.), Dunie Pierre (200 fr.).</p>
+              <p>Escala Jacques ( 800 fr.). Vve Fontaines ( 200 fr.), Vve Fouchère ( 250 fr.).
+                Gautier Louis ( 300 fr.), Gouy Pierre ( 400 fr.), Vve Grand ( 300 fr .), Vve Gréard
+                ( 200 fr.), Vve Guillemin Marcel ( 200 fr.).</p>
+              <p>Henriet Francis ( 100 fr.), Huet Antoine ( 5.000 fr.). Kayser Robert ( 100 fr.).
+                Lafon Pierre ( 500 fr.), Vve Lecardonnel ( 200 fr.), Le Roux Goulven ( 100 fr.).</p>
+              <p>Mainguy Joseph ( 500 fr.), Vve Malingre ( 20 fr.), Mlle Maurer Madeleine ( 700
+                fr.), Vve Mazeaud Georges ( 200 fr.), Vve Michel ( 250 fr.), Moutic Raymond ( 300
+                fr.).</p>
+              <p>Nadon Henri ( 300 fr.), Vve Nazaire ( 200 fr.). Payro Joseph ( 1.000 fr.), Pillon
+                Pierre ( 500 fr.), Vve Poirot ( 1.000 fr.), Vve Richaud ( 300 fr.), Roy Serge ( 300
+                fr.).</p>
+              <p>Terrier Henri ( 300 fr.). Vve Vial ( 300 fr.), Wolff Paul ( 800 fr.), Yvon Marcel (
+                800 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Besnier Marcel ( 400 fr.), Bondonnat Eugène ( 300 fr.), Charlat Marcel ( 400 fr.),
+                Guillam Edmond ( 1.000 fr.), Munoz Lucien ( 400 fr.), Pouget René ( 500 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Besnier Marcel ( 400 fr.), Munoz Lucien ( 400 fr.), Ruffenach Eugène ( 500
+                fr.).</p>
+              <p>Nous sommes très sensibles aux cotisations volontaires que certains camarades
+                veulent bien nous adresser; leur geste de solidarité nous prouve leurs sentiments
+                d'attachement à l'U.A.G. et nous les en remercions bien vivement.</p>
+              <pb n="25"/>
+              <note type="foliation">— 25 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>MOLINIER André, 4, rue des Ormes, Fontenay-sous-Bois (Seine). ABDESLEM BEN ABDELLAH
+              ben Amar, Quartier C.I.L., 26, rue Saint-Gaudens, Casablanca (Maroc).</p>
+            <p>PATARY Yvon, 174, rue du Ménil, Asnières (Seine). POULAIN Emile, 29, rue Fermée,
+              Aix-en-Provence (Bouches-duRhône).</p>
+            <p>LEDEZ Jean-Baptiste, 16, rue du Pont-Hamed, Le Portel (Pas-de-Calais).</p>
+            <p>KNIEBIHLI Louis, 8, rue du Jura, Strasbourg (Bas-Rhin).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">PETITES ANNONCES</head>
+            <p>Si vous buvez un apéritif : buvez un Rives Saltes... Le vin de Rives Saltes est, en
+              effet, le meilleur et le moins cher de tous les apéritifs.</p>
+            <p>Le meilleur, car il est doux, agréable et reconstituant. Le moins cher, car Vin
+              garanti naturel et titrant 21 degrés, il n'a pas subi la nouvelle taxe imposée à tous
+              les apéritifs à base de vin et d'alcool.</p>
+            <p>Conditions spéciales pour les Aveugles de Guerre et membres de l'U.A.G. Est vendu en
+              casiers de 15 litres ou en fûts d'un minimum de 32 litres. Toutes taxes comprises,
+              franco domicile, emballages perdus, seuls les fûts sont repris au prix de facture.
+              Demander renseignements : Camarade Toutain Paul, Aveugle de Guerre, représentant,
+              Briouze (Orne).</p>
+            <pb n="26"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents : le Maréchal et Mme la Maréchale JUIN. Vice-Président : M* MASSON.
+              Vice-Présidentes : Mmes CONTAMIN et DU BOS. Secrétaire : M. COLLIER. Vice-Présidente
+              honoraire : Mlle ARBEL. Trésorier honoraire : M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M' BRULLIARD, MM. DE CHAUMONT-QUITRY, CHEPFER, CLAVERIE,
+              Mme COLLIER, D' COUTELA, Mme' DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle
+              LEDOUX, D' RICORD, Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD,
+              délégué au Mexique, le Président de l'Association des Anciens Combattants Français en
+              Argentine.</p>
+          </div>
+
+          <fw>Le Gerant : G. L'EVESQUE Imp. Dubois et Bauer - Paris</fw>
+          <pb n="27"/>
+          <pb n="28"/>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

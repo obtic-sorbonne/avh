@@ -1,0 +1,954 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 36ème année 1957 n°117</title>
+        <author>L'Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Association</title>
+        <title type="topic">Solidarité</title>
+        <title type="topic">Histoire</title>
+        <title type="topic">Administration</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15 cm ; 26 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugle">Aveugle</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#association">Association</term>
+          <term ref="#uag">UAG</term>
+          <term ref="#ancien-combattant">Ancien combattant</term>
+          <term ref="#bulletin">Bulletin</term>
+          <term ref="#proces-verbal">Procès-verbal</term>
+          <term ref="#cotisation">Cotisation</term>
+          <term ref="#deces">Décès</term>
+          <term ref="#mariage">Mariage</term>
+          <term ref="#naissance">Naissance</term>
+        </keywords>
+        <classCode scheme="DDC">362.4106</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre couvre un large éventail de sujets
+          pertinents pour ses membres. Il traite des préoccupations financières, notamment les
+          pensions et les cotisations, et rend compte des démarches entreprises auprès des autorités
+          pour améliorer la situation des aveugles de guerre et de leurs veuves. Le bulletin inclut
+          des hommages aux figures importantes de l'association, des nouvelles des sections locales,
+          des informations sur les activités culturelles et de loisirs, comme les conférences et la
+          bibliothèque sonore, et des détails administratifs tels que le procès-verbal du conseil
+          d'administration. Des informations pratiques, comme les naissances, mariages, décès, et
+          les mises à jour de l'annuaire, sont également incluses.</p>
+      </abstract>
+      <creation>
+        <date when="1957-12-01">01/12/1957</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOS SOUHAITS</ref>
+          </item>
+          <item>
+            <ref target="#h5">HOMMAGE AU PRÉSIDENT</ref>
+          </item>
+          <item>
+            <ref target="#h6">NOS PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h7">LE COMITE D'ENTENTE A ETE REÇU PAR M. QUINSON MINISTRE DES ANCIENS
+              COMBATTANTS</ref>
+          </item>
+          <item>
+            <ref target="#h8">DISTINCTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h9">MISE EN GARDE</ref>
+          </item>
+          <item>
+            <ref target="#h10">APPORT DE NOS SECTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h11">CONFERENCES</ref>
+          </item>
+          <item>
+            <ref target="#h12">"LE LIVRE PARLÉ" DERNIERS OUVRAGES PARUS OU À PARAÎTRE</ref>
+          </item>
+          <item>
+            <ref target="#h13">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION DU 18 OCTOBRE
+              1957</ref>
+          </item>
+          <item>
+            <ref target="#h14">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h15">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h16">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h17">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h18">COTISATIONS 1958</ref>
+          </item>
+          <item>
+            <ref target="#h19">CAISSE DE PREVOYANCE</ref>
+          </item>
+          <item>
+            <ref target="#h20">COTISATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h21">COTISATIONS ORDINAIRES ( 200 fr .) reçues du 15 novembre au 3
+                  décembre inclus</ref>
+              </item>
+              <item>
+                <ref target="#h22">RACHAT DE COTISATION</ref>
+              </item>
+              <item>
+                <ref target="#h23">COTISATIONS CAISSE DE PREVOYANCE</ref>
+              </item>
+              <item>
+                <ref target="#h24">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h25">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h27">PETITE ANNONCE</ref>
+          </item>
+          <item>
+            <ref target="#h28">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">36e Année. — N° 117</fw>
+          <fw type="header">
+            <hi rend="underline">DECEMBRE 1956</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Nos souhaits.</item>
+                    <item>Hommage au Président.</item>
+                    <item>Nos pensions.</item>
+                    <item>Le Comité d'Entente chez le Ministre des A. C.</item>
+                    <item>Conférences à l'Institution nationale les jeunes Aveugles.</item>
+                    <item>Dans nos sections.</item>
+                    <item>Bibliothèque. Discothèque.</item>
+                    <item>Procès-verbal de la séance du Conseil du 18 octobre 1957.</item>
+                    <item>Naissances. Mariages. Décès.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                    <item>Cotisations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. IZAAC. Vice-Présidents : H. GUESPEREAU, E. GUILLAM, G. MULLER.</p>
+            <p>Secrétaire Général : H. AMBLARD. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>MM. P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, R. COUESNON, P. DERUNDER, A. FAUVEL, R. FAVRET, Y. GUIBERT, Y. JEZEQUEL, A.
+              LAFFARGUE, D. LEVEAU, R. MATHIEU, 1. NICOLAI, A. PAGENEL, C. PANTERNE, M. RAVELEAU, G.
+              ROBIN, G. ROY, C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>36e Annee. - N°117 DECEMBRE 1957</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOS SOUHAITS</head>
+            <p>Cette fin d'année nous amène à exprimer à tous nos Camarades non seulement les
+              souhaits de bonne année que les dirigeants de I'Union forment pour eux et leurs
+              familles, mais aussi à examiner d'une manière plus réfléchie encore notre situation et
+              celle de notre pays.</p>
+            <p>Notre avenir dépend en effet de celui de la France et une nation prospère ne peut que
+              nous apporter plus d'aisance, plus de bonheur dans la vie. C'est pourquoi nous faisons
+              des vœux pour que 1958 soit, aussi bien pour notre Pays que pour nos familles, une
+              année qui voit un redressement très sensible.</p>
+            <p>Il suffit de peu de chose, un peu de bonne volonté de la part de chacun, et la France
+              à la base si solide encore reprendra sa place spirituelle et économique. Quant à nous,
+              aveugles de guerre, nous n'aurons qu'à nous féliciter d'avoir fait confiance à notre
+              Pays. H. AMBLARD.</p>
+            <p>C'est avec une certaine mélancolie que nous venons de tracer les quelques lignes qui
+              précèdent, en songeant que notre Président avait l'habitude de s'adresser à tous nos
+              camarades à pareille époque, avec l'esprit que nous lui connaissions.</p>
+            <p>Il ne manquait jamais de désirer du plus profond de son cœur le bonheur de nos
+              familles. C'était pour lui l'essentiel, car de ce bonheur dépendait celui de
+              l'Association qu'il avait créée, qu'il aimait et dont à juste titre il était fier.</p>
+            <p>Nous aimerions qu'en cette fin d'année, sa voix soit encore entendue et que
+              retentissent au plus profond de nous-mêmes les paroles de chaude affection qu'il
+              aurait aimé adresser à tous. H. A.</p>
+            <pb n="4"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">HOMMAGE AU PRÉSIDENT</head>
+            <p>Au nom du Comité d'Action, ma qualité de Doyenne me donne le privilège, auquel je
+              souscris avec émotion, d'inscrire ici notre souvenir très simple, parmi tous les
+              hommages rendus à la mémoire du Président Izaac. Qu'il me soit permis d'y ajouter
+              celui d'une vieille et très chère amitié.</p>
+            <p>Tout au long de l'histoire de l'U.A.G., qui connaîtra bientôt son quarantième
+              anniversaire, la personnalité du commandant Izaac est présente. Que ce soit comme
+              Membre du Conseil d'administration, comme Secrétaire général, comme Président, il est
+              toujours là, travaillant, luttant, se dépensant sans compter pour tout ce qui peut
+              contribuer à rendre l'Union plus digne de son nom: développer l'esprit de solidarité,
+              de fraternité, de compréhension réciproque, poursuivre en commun les moyens propres à
+              améliorer le sort des aveugles de guerre et assurer à leur vie la dignité qui lui
+              convient.</p>
+            <p>Il aura eu la grande joie, dans les dernières années de son existence d'assister et
+              de présider à une réussite qui n'est pas sans surprendre même parfois ceux qui en sont
+              les témoins et qui suscite une admiration unanime. C'est là, à ce seuil, et tandis
+              qu'elles sont encore vivantes, qu'il est peut-être loisible d'évoquer de lui quelques
+              images familières.</p>
+            <p>La présence du Président dans ce bureau qui semble maintenant si lugubrement vide...
+              Il est derrière sa table de travail, sa pipe à portée de la main, la tête légèrement
+              penchée en avant, dans une attitude de méditation et comme pour ne rien laisser
+              perdre, à travers son expression, de la pensée de son interlocuteur. Devant lui
+              défilent, durant ces années, des camarades, vicux, jeunes, de toutes races, de tous
+              pays, tous blessés au service de la France. Il écoute chacun patiemment, soucieux de
+              surprendre son désir et d'en assurer la réalisation, s'il s'avère raisonnable. Pour
+              tous, il a des paroles d'encouragement et de bienveillance qui consolent et
+              réconfortent.</p>
+            <p>Une autre image : le Commandant préside une Assemblée générale, présidence rendue
+              difficile du fait d'une surdité dont il ne parle que pour en plaisanter. Son autorité
+              n'en souffre pas pour autant. Ce qui frappe le plus, au cours des débats souvent
+              passionnés, c'est sa volonté de laisser chacun exprimer librement sa pensée, son
+              opinion, quelles qu'elles soient. "C'est son droit ", avait-il coutume de dire. Il a
+              le respect de la personnalité de l'homme et à une époque où l'une et l'autre sont
+              souvent cruellement méprisés, bafoués, c'est là un des traits essentiels et peut-être
+              le plus attachant de son caractère.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+            <p>Il lui donne au moment opportun l'ascendant nécessaire pour ramener à l'ordre un
+              interrupteur trop tenace ou indiscipliné.</p>
+            <p>Il tient à ce que l'Union soit présente dans toutes les cérémonies officielles qui,
+              de loin ou de près, s'apparentent au prestige du pays ou de ses défenseurs. Et le
+              drapeau de l'Union est là, partout où il a sa raison d'être.</p>
+            <p>Il était auprès de vous, Commandant, dans l'église du Val d'Or, trop petite pour
+              contenir la foule de vos camarades et de vos amis. Il vous aurait plu aussi que des
+              légionnaires, autour de vous, montent une garde d'honneur... On percevait, dans ce
+              silence, ce recueillement immense et comme si chacun l'avait exhalée, l'unanimité
+              d'une peine qui savait mesurer le prix d'une disparition; et, comme pour affirmer
+              votre foi, de temps à autre, s'élevaient les chants et les voix que vous aviez
+              aimés...</p>
+            <p>Mais nous voulons croire que votre esprit n'a pas quitté cette Maison de la rue
+              Blanche qui vous était chère, qu'il préside encore aux destinées de l'Union et qu'il
+              continuera d'inspirer ceux qui auront la mission de la maintenir dans ses nobles
+              traditions. H. Contamin.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">NOS PENSIONS</head>
+            <p>Avec le mois de décembre revient une fois encore la discussion du budget qui va se
+              présenter à l'Assemblée Nationale.</p>
+            <p>On sait avec quel intérêt nous suivons les travaux de nos députés lorsqu'ils
+              élaborent le budget des Anciens Combattants. Ils ne sont pas très nombreux,
+              d'ailleurs, à prendre part à ce débat, mais nous savons que ceux qui s'y intéressent
+              font des efforts louables pour que nos demandes reçoivent satisfaction. Mais, devant
+              eux se dresse le Ministre des Finances, implacable, défendant son budget avec
+              opiniâtreté. Nous le comprenons très bien d'ailleurs, il est dans son rôle, cependant,
+              a-t-il vraiment le sentiment de faire quelque chose de très juste quand,
+              systématiquement, il refuse de faire droit à ce que nous lui présentons. Or, le projet
+              accepté par le Ministre des Anciens Combattants comprenant la revalorisation de la
+              cécité, par exemple, est tout simplement une œuvre d'équité. Sans méconnaître les
+              difficultés financières actuelles, nous pouvons bien poser la question de savoir si la
+              gestion des affaires de l'Etat a été menée d'une manière satisfaisante, pour que,
+              maintenant, on en arrive à faire des objections sur des desiderata aussi logiques que
+              les nôtres, alors que bien des erreurs ont été commises.</p>
+            <p>Nous voulons croire que vu le peu d'importance de notre demande, il n'y sera pas fait
+              objection et nous voulons placer notre espoir, non seulement dans notre actuel
+              ministre des Anciens Combattants, mais aussi dans celui des Finances.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LE COMITE D'ENTENTE A ETE REÇU PAR
+              M. QUINSON MINISTRE DES ANCIENS COMBATTANTS</head>
+            <p>Le Comité d'Entente a été reçu, le 25 novembre, par M. Quinson, ministre des Anciens
+              Combattants.</p>
+            <p>Etaient présents: Adrien, Amblard, Delporte, Derouex, Doby, Gauriault, Nouveau,
+              Régnier.</p>
+            <p>C'est la première fois que le Comité d'Entente est présenté à notre nouveau Ministre
+              qui l'accueille très amicalement.</p>
+            <p>Après avoir demandé que le rapport constant soit observé - ce qui est promis par M.
+              Quinson - les principales demandes formulées par le Comité d'Entente sont exposées au
+              Ministre, particulièrement : la revalorisation de la pension des aveugles, celle des
+              veuves et quelques autres questions sont examinées concernant les associations et nos
+              camarades.</p>
+            <p>L'échange de vue est très cordial et la délégation se retire après trois quarts
+              d'heure d'entretien, au cours duquel M. Quinson a fait preuve de compréhension et a
+              promis, quoique les temps étant difficiles, son appui aux principales demandes qui lui
+              ont été soumises.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">DISTINCTIONS</head>
+            <p>Nous apprenons que dans sa séance solennelle du mardi 10 décembre 1957, l'Académie
+              nationale de Médecine remettra des récompenses, parmi lesquelles des médailles
+              d'argent seront attribuées à :</p>
+            <list>
+              <item>Henri Izaac, président de l'Union des Aveugles de Guerre ;</item>
+              <item>Henri Amblard, secrétaire général.</item>
+            </list>
+            <p>Ce sont là des distinctions données pour l'œuvre accomplie en faveur des aveugles et
+              nous nous réjouissons de l'honneur qui est fait à notre Association, nous regrettons
+              que notre Président ne soit plus là pour recevoir la digne récompense de ses
+              efforts.</p>
+            <pb n="8"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">MISE EN GARDE</head>
+            <p>Dans notre bulletin du mois de septembre, nous avons eu déjà l'occasion d'attirer
+              l'attention de nos camarades sur des représentants en vins qui se présentent chez les
+              aveugles de guerre en se prévalant de notre Association.</p>
+            <p>Nous avons reçu de nouvelles doléances de certains d'entre nous, aussi tenons-nous à
+              répéter que nous n'avons jamais autorisé qui que ce soit à vendre des produits
+              quelconque en notre nom.</p>
+            <p>Les livraisons de ces vins étant loin de donner satisfaction, nous ne saurions trop
+              conseiller à tous d'être prudents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">APPORT DE NOS SECTIONS</head>
+            <p>
+              <list>
+                <item>Section de Bordeaux — Président Almey — Fr. 31.500</item>
+                <item>Section de l'Isère — Président Jacquet — Fr. 50.000</item>
+                <item>Section de l'Indre-et-Loire — Président Panterne — Fr. 60.000</item>
+              </list>
+            </p>
+            <p>Nous adressons aux présidents et à leurs collaborateurs nos vifs remerciements pour
+              l'activité déployée.</p>
+            <pb n="9"/>
+            <note type="foliation">— 79 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">CONFERENCES</head>
+            <p>L'Association « Pour nos Aveugles », 106, rue de la Pompe, nous avise de la reprise
+              de conférences qu'elle organise à l'Institution nationale des Jeunes Aveugles, 56,
+              boulevard des Invalides.</p>
+            <p>Vous trouverez ci-après le programme de ces conférences à partir de janvier prochain;
+              Mme Chambet, la présidente, sera heureuse d'accueillir les membres de l'U.A.G. qui
+              désireraient y assister. <list>
+                <item>Vendredi 10 janvier — « LES GRANDES DÉCOUVERTES MARITIMES », par M. Gausscns,
+                  professeur d'histoire.</item>
+                <item>Vendredi 24 janvier — « LA VIE AU MOYEN-ORIENT », par M. Pevru, agrégé des
+                  lettres, ancien professeur au Lycée de Damas.</item>
+                <item>Vendredi 7 février — « CE QUE J'AI VU EN AMÉRIQUE », par M. Roullier, agrégé
+                  d'anglais, ancien secrétaire général à l'O.N.U.</item>
+                <item>Vendredi 21 février — « LE TABLEAU NOIR ».</item>
+                <item>Vendredi 7 mars — « LES COURSES DE TAUREAUX AU PAYS BASQUE ET EN ESPAGNE »,
+                  par Mme La Hargue, professeur.</item>
+                <item>Vendredi 18 avril — « UNE CIVILISATION MYSTÉRIEUSE, LA CIVILISATION DES INCAS
+                  », par M. Gaussiens, professeur d'histoire.</item>
+                <item>Vendredi 2 mai — « LE PAYS D'ALAIN FOURNIER ET LE GRAND MEAULNES », par M.
+                  Duval, agrégé des lettres.</item>
+                <item>Vendredi 16 mai — « SA MAJESTÉ L'HUMOUR AU SERVICE DES POÈTES FRANÇAIS », par
+                  Lucien et Geneviève Graves.</item>
+                <item>Vendredi 30 mai — « PROBLÈMES DE LA JEUNESSE DÉLINQUANTE », par M. Villars,
+                  professeur.</item>
+              </list></p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">"LE LIVRE PARLÉ" DERNIERS
+              OUVRAGES PARUS OU À PARAÎTRE</head>
+            <list>
+              <head type="subsection" rend="align(center)">Collection : OEUVRES D'IMAGINATION.</head>
+              <item>S/MAG 461. — L'Étranger (A. Camus) Prix Nobel 1957 4 disques, 4 bandes
+                AFOB</item>
+              <item>S/MAG 465. — Illusions perdues, BAL-ZAC 26 disques, 26 bandes AFOB</item>
+              <item>S/MAG 466. — L'Homme de Guerre, F. Ponthier 8 disques, 8 bandes AFOB</item>
+            </list>
+            <list>
+              <head type="subsection" rend="align(center)">Collection : AVENTURES ET VOYAGES</head>
+              <item>S/MAG 464. — La Grande Aventure des Migrateurs (réédition), G. Blond 8 disques,
+                8 bandes AFOB</item>
+            </list>
+            <list>
+              <head type="subsection" rend="align(center)">Collection : HISTORIQUE</head>
+              <item>S/MAG 462. — Journal d'Anne Frank 10 disques, 10 bandes AFOB</item>
+            </list>
+            <list>
+              <head type="subsection" rend="align(center)">Collection : LE ROMAN POLICIER</head>
+              <item>S/MAG 463. — Œil pour œil, Vahé Katcha 4 disques, 4 bandes AFOB</item>
+            </list>
+            <list>
+              <head type="subsection" rend="align(center)">Collection : SCIENTIFIQUE</head>
+              <item>S/MAG 467. — Feuillets d'Anatomie, J. Brizon et J. Castaing 14 bandes
+                AFOB</item>
+            </list>
+            <pb n="11"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION DU 18 OCTOBRE 1957</head>
+            <p>La séance est ouverte à 9 h .30 , sous la présidence de Muller. Sont présents :
+              Amblard, Bodin, Bois, Céré-Labourdette, Chalendar, Chapas, Couesnon, Derunder, Fauvel,
+              Favret, Guespereau, Guibert, Jézéquel, Laffargue, Leveau, L'Evesque, Mathieu, Muller,
+              Panterne, Raveleau, Robin, Roy Georges, Satgé, Sibiril.</p>
+            <p>Excusés : Cattaert, Cornu, Guillam, Izaac, Nicolaï, Pagenel. Ont donné pouvoirs :
+              Cattaert à Amblard ; Guillam à Couesnon ; Nicolaï à Laffargue ; Pagenel à Amblard.
+              Assistent à la séance : Bloch, Bourbon, Cohen, Dunand, Ghighi, Grillet, Philippe,
+              Roche, Sampité.</p>
+            <p>Muller, interprétant l'inquiétude de tous, donne des nouvelles de la santé de notre
+              cher Président ; il informe les camarades que le malade a pu être ramené, mais
+              qu'Izaac, frappé de congestion cérébrale, est toujours dans un état stationnaire, et
+              Amblard donne les dernières nouvelles, peu rassurantes.</p>
+            <p>Muller fait part de la perte cruelle éprouvée par notre camarade Laffargue à la suite
+              du décès brutal de Mme Laffargue. Il rappelle également le décès, en juillet, de Mme
+              Bertrand.</p>
+            <p>Il adresse ensuite des vœux de meilleure santé à tous les camarades absents pour
+              raisons de maladie.</p>
+            <p>Le procès-verbal du dernier Conseil, mis aux voix, est adopté à l'unanimité.</p>
+            <p>SITUATIONS FINANCIERES. - Les situations financières des mois de mai, juin, juillet
+              et août mises aux voix sont adoptées sans discussion après lecture du rapport de
+              Bois.</p>
+            <p>LEGS DESARDILLIER. - Le Conseil prend la délibération suivante : "Après avoir pris
+              connaissance des dispositions testamentaires de <pb n="12"/>
+              <note type="foliation">— 12 —</note> M. Desardillier Alexandre, habitant de son vivant
+              à Morvillette, commune de Saulnières (Eure-et-Loir), décédé le 13 août 1956 en son
+              domicile, le Conseil d'administration décide à l'unanimité d'accepter, sous bénéfice
+              d'inventaire, la libéralité faite à l'U.A.G. et donne tous pouvoirs à son trésorier
+              Gaston L'Evesque de faire les démarches utiles pour obtenir la délivrance de ce legs
+              et pour faire le nécessaire en général. « Le Conseil d'administration décide également
+              que les fonds à provenir de cette libéralité seront placés en valeurs nominatives au
+              Fonds de dotation ».</p>
+            <p>L'Evesque et Amblard donnent divers renseignements sur l'importance de ce legs que le
+              notaire a dû mettre entre les mains des domaines.</p>
+            <p>Muller met la délibération aux voix, le Conseil l'adopte à l'unanimité.</p>
+            <p>L'Evesque, répondant à Couesnon, indique que nous avons l'autorisation de vendre la
+              maison de Chamigny.</p>
+            <p>Le Trésorier demande à mettre le Conseil au courant des prêts attentivement suivis
+              par lui. La situation de cinq camarades en retard dans leurs remboursements est
+              exposée au Conseil.</p>
+            <p>Sur proposition de Muller, après intervention de Bois et Fauvel, il est prévu une
+              procédure pour celui qui ne donne aucun signe de vie.</p>
+            <p>Amblard, Couesnon et Leveau interviennent à leur tour pour que les camarades sachent
+              bien que si le Conseil est décidé à aider largement les camarades, il n'est pas décidé
+              à se laisser faire par les mauvais payeurs.</p>
+            <p>A Bois, qui demande s'il y a eu des cas de camarades décédés avant d'avoir remboursé,
+              Amblard répond par la négative.</p>
+            <p>L'Evesque suggère que les avantages de l'Union soient suspendus à titre de
+              sanction.</p>
+            <p>CALENDRIER ET TIMBRE. - Le Secrétaire général rappelle que notre situation financière
+              est commandée par ces deux modes de ressources. Il fait part des difficultés
+              présentes, en particulier des autorisations préfectorales sont exigées. Il rend compte
+              de ses dernières démarches au Ministère de l'Intérieur. Il expose les conditions de la
+              diffusion et la concurrence qui nous est faite de divers côtés. Une circulaire a été
+              envoyée par lui aux présidents de sections et aux délégués afin de les renseigner.</p>
+            <p>Jézéquel, dans toutes nos démarches, nous a prêté son concours. Il expose son point
+              de vue ; il faudrait que le Bureau rédige une sorte de charte à présenter au Ministère
+              de l'Intérieur basée sur cette idée de reconnaissance qui nous vaut d'être d'utilité
+              publique. Il proteste contre les entreprises se servant des mutilés de guerre et
+              voudrait que soit constituée à ce sujet une documentation.</p>
+            <pb n="13"/>
+            <note type="foliation">— 13 —</note>
+            <p>Bois intervient et Chalendar parle de la canne blanche dans sa région, où des
+              quêteurs sont passés la veille.</p>
+            <p>Satgé, puis Fauvel, donnent leur avis, parlant d'un statut commercial.</p>
+            <p>Chapas craint des difficultés si nous commercialisons. L'Evesque, donnant lecture de
+              la délibération concernant le legs Lereuil, le legs est adopté :</p>
+            <p>LEGS LEREUIL. - "Après avoir pris connaissance des dispositions de Mme Veuve Lereuil,
+              née Suzanne Bizot, demeurant de son vivant, 12, rue de l'Odéon, décédée le 8 mars
+              1956, à Paris, 43, boulevard Raspail, le Conseil d'administration décide à l'unanimité
+              d'accepter, sous bénéfice d'inventaire, la libéralité faite à l'Union des Aveugles de
+              Guerre et donne tout pouvoir à son trésorier Gaston L'Evesque pour procéder à la
+              réalisation de ce legs et, en général, de faire tout le nécessaire à ce sujet. « En
+              raison de la modicité de ce legs, le Conseil d'administration décide de demander à
+              l'autorité administrative, l'emploi immédiat de ces fonds aux besoins habituels du
+              groupement ».</p>
+            <p>PENSIONS. - Le Président rappelle nos deux grands vœux: veuves et revalorisation de
+              la cécité que nous essayons de faire inclure dans un plan général. L'U.F.A.C. a placé
+              en tête de ses revendications notre veeu concernant la revalorisation; celui des
+              veuves est également en bonne place.</p>
+            <p>Le Secrétaire général informe le Conseil de ses démarches à la rentrée de vacances et
+              des bonnes dispositions du Ministère pour nous accorder la majoration de notre
+              allocation 3. Il dit les démarches faites par l'U.F.A.C. auprès de M. Dulin et
+              l'intervention auprès du Ministère des Finances qui désirait toucher à la retraite du
+              combattant. Pour plus de clarté, est allé avec Jézéquel voir le Ministère des Anciens
+              Combattants, lequel reconnaît l'insuffisance de notre pension d'aveugle, mais la
+              situation de nos veuves n'est pas encore bien précisée, nous pouvons estimer leur
+              nombre à 450 .</p>
+            <p>Lecture est donnée de la lettre de Nouveau qui, au nom du Comité d'Entente nous
+              appuie dans cette revendication.</p>
+            <p>Jézéquel se réjouit des premiers résultats dus à la patience et aux efforts
+              d'Amblard, de notre vénéré Président et du Bureau.</p>
+            <p>Il rappelle les difficultés du début, on croyait cela utopique l'idée est lancée et
+              fait son chemin, les veuves de guerre ne s'opposant plus à notre revendication.</p>
+            <p>On remercie Mme de Boucheman. Se félicite également de la compréhension de M. Dulin,
+              mais nous devrons recommencer, car celui-ci est parti.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+            <note>La page manque</note>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+            <p>de Cerdan, à la suite de la circulaire informant de la maladie du Président.</p>
+            <p>Séance levée à 12 heures.</p>
+            <p>La séance est reprise à 14 h .30 , sous la présidence de Guespereau. Les mêmes
+              administrateurs, plus Cornu, étaient présents, Bodin excepté. Jézéquel était
+              excusé.</p>
+            <p>Assistent à la séance : les mêmes camarades, moins Roche. Lecture est faite d'une
+              lettre de Hauser, à laquelle Robin répond qu'on semble s'immiscer dans les affaires
+              des aveugles civils.</p>
+            <p>Guespereau, Couesnon et Chapas communiquent leurs idées sur la diffusion des disques
+              chez les aveugles civils.</p>
+            <p>Le Président de séance propose d'adresser à Mme Izaac tous nos sentiments de dévotion
+              et de sympathie pour elle et sa famille, ce que le Conseil approuve unanimement.</p>
+            <p>REGLEMENT INTERIEUR. - Amblard déclare que le règlement a été examiné trois fois par
+              le Bureau, mais que la question doit être revue. Le règlement contribue à
+              l'atmosphère, à l'ambiance et en rendant visite aux sections, on constate combien les
+              camarades aiment la maison.</p>
+            <p>Chapas voudrait que le préambule devienne article premier. Les articles sont
+              successivement examinés. Interviennent dans la discussion Guibert, Raveleau, Fauvel,
+              Panterne, Bois, Robin.</p>
+            <p>Guespereau souligne qu'il ne doit pas y avoir trop de personnes voyantes séjournant
+              dans la maison.</p>
+            <p>La constatation de l'état des lieux entraîne au départ une longue discussion. Y
+              prennent part Fauvel et Couesnon.</p>
+            <p>Sibiril voudrait que des couverts supplémentaires soient disponibles. Guespereau lui
+              dit qu'une règle d'inscription avant 10 heures est indispensable.</p>
+            <p>A une question de Chapas au sujet des heures de travail résultant des conventions
+              collectives, Amblard répond que les points de friction viennent de là ; il y a un
+              récent décret réglementant le personnel des gens de maison.</p>
+            <p>Le Secrétaire général donne des détails sur le personnel dont nous disposons et
+              Guespereau souligne la nécessité de prévenir si l'on arrive en fin de service de
+              table.</p>
+            <p>De nombreux administrateurs parlent encore des conditions d'accueil. Amblard leur
+              demande un règlement comprenant des formules faciles à appliquer; il promet de
+              consulter M. Malli.</p>
+            <p>Couesnon rappelle l'utilité de l'affichage du menu. Guespereau fait part qu'une
+              lettre complétant le règlement est prévue à l'adresse du gérant.</p>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+            <p>Sur l'article 12 concernant le foyer, la discussion redevient générale, un horaire
+              est recherché. Amblard fait remarquer qu'une heure supplémentaire nous coûte 250
+              francs et davantage.</p>
+            <p>Guespercau et Bois seraient d'avis d'un repas périodiquement organisé.</p>
+            <p>Robin fait préciser par le Président que notre restaurant permet à l'aveugle
+              d'inviter qui il veut.</p>
+            <p>Sibiril se plaint qu'étant malade, on ne peut avoir de soins. Le Président lui
+              demande s'il avait téléphoné.</p>
+            <p>Amblard expose la difficulté de la gestion d'une maison comme la nôtre, avec un
+              personnel restreint. On va chercher à assouplir le règlement, mais il faut un juste
+              milieu.</p>
+            <p>La question de la présence constante du gérant sept jours sur sept est évoquée par
+              Amblard, et divers camarades se plaignent que par moments personne ne répond.</p>
+            <p>Guespereau met alors le règlement aux voix, il est adopté à l'unanimité.</p>
+            <p>Couesnon en demande affichage dans les chambres, le hall et publication au
+              bulletin.</p>
+            <p>LES REPAS. - Un exposé sur la composition des repas et leurs prix de revient est fait
+              par le Secrétaire général. Il propose le prix de départ de 300 francs pour un repas
+              revenant à 350 .</p>
+            <p>Tous les administrateurs présents font des remarques sur la compo. position des
+              menus.</p>
+            <p>Vient ensuite la question des sédentaires. Guespereau dit qu'ils ne viennent pas pour
+              faire des économies, mais pour trouver une maison agréable, il lui paraît logique que
+              le prix soit un peu relevé.</p>
+            <p>Une discussion à laquelle prennent part Fauvel, Chapas et Sibiril conduit Laffargue à
+              déclarer qu'il lui paraît anormal qu'un camarade profite des avantages de l'U.A.G.
+              pendant plusieurs années consécutives.</p>
+            <p>Le déficit de l'hôtel et du restaurant est demandé par Fauvel. Le renseignement lui
+              étant donné, il déclare que l'augmentation doit nous couvrir de ce déficit.</p>
+            <p>Guespereau propose 300 et 500 francs pour le prix des repas. ASCENSEUR. - La question
+              est exposée par Amblard : refaire l'installation, changement de courant. A fait
+              établir un devis qui nous procurera toute sécurité. Il donne des détails sur le
+              fonctionnement futur. Le prix demandé par la Maison Jomain approche les trois
+              millions.</p>
+            <p>Laffargue et Guibert prennent la parole et sur suggestion du Président, le Conseil
+              donne au Bureau pouvoir de poursuivre la remise en état.</p>
+            <pb n="17"/>
+            <note type="foliation">— 17 —</note>
+            <p>ADMISSION DES NOUVEAUX MEMBRES</p>
+            <p>MEMBRES TITULAIRES DEFINITIFS</p>
+            <p>M'Hamed Ben Mohamed, 6, Derb Janiara, Quartier Sagha, Fès (Maroc).</p>
+            <p>Zarmati Jules, 3, rue de la Fillole, Marmande (Lot-et-Garonne).</p>
+            <p>MEMBRES ASSOCIES</p>
+            <p>André Victor, 27, rue de Rieussac, Viroflay (Seine-et-Oise). Echegut Maxime, 71, rue
+              Labrouste, Paris ( 15<hi rend="superscript">°</hi> ). Maholi Camille, Cormans par
+              Saint-Jeoire-en-Faucigny (HauteSavoie).</p>
+            <p>QUESTIONS DIVERSES. - Couesnon voudrait que l'A.V.H. nous procure chaque année 200 ou
+              300 calendriers Braille.</p>
+            <p>Satgé, revenant sur la question du calendrier, désire recevoir le plus' tôt possible
+              une note pour les diffuscurs à transmettre à la Préfecture.</p>
+            <p>Guespercau remercie les camarades de leur attention et lève la séance à 17 h .45
+              .</p>
+            <pb n="18"/>
+            <note type="foliation">— 18 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">NAISSANCES</head>
+            <p>Nous apprenons avec joie la naissance de : Marie-Paule, fille de notre camarade
+              SCHMIDT François, de Marmoutier (Bas-Rhin), le 13 juillet 1957.</p>
+            <p>Odile, petite-fille de notre camarade LAURENT Jean-Félicien, de Pouy-de-Touges
+              (Haute-Garonne), le 20 novembre 1957.</p>
+            <p>Nous adresons nos bien vives félicitations à nos camarades et nos vœux de prospérité
+              aux bébés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">MARIAGES</head>
+            <p>Nous apprenons le mariage de : Marcelle, fille de notre camarade Camille ROLS
+              (décédé), de Conques (Aveyron), avec M. Louis Couzy, le 7 septembre 1957.</p>
+            <p>Georges, fils de notre camarade Justin VERNHES (décédé), de Pouget-de-Campuae
+              (Aveyron), avec Mlle André Grès, le 7 novembre 1957.</p>
+            <p>Roger, fils de notre camarade Alex MARROT (décédé), de Saurat (Ariège) avec Mlle José
+              Mazzoleni, le 30 novembre 1957.</p>
+            <p>Nos adressons nos vives félicitations à nos camarades et nos voux de bonheur aux
+              jeunes époux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : DE PREMENIL Jacques (14-18), de
+              Granville (Manche), le 14 mars 1957.</p>
+            <p>ROUSSEAU Pierre (14-18), de La Séguinière (Maine-et-Loire), le 23 novembre 1957.</p>
+            <p>CHAMBOST Jean (14-18), de Tarare (Rhône), le 26 novembre 1957.</p>
+            <p>JULIE Albert (14-18), de Saint-Georges-des-Groseillers (Orne), le ler décembre
+              1957.</p>
+            <pb n="19"/>
+            <note type="foliation">— 19 —</note>
+            <p>La femme de notre camarade Maurice BOCQUET, de Guipuzcoa (Espagne), le 27 octobre
+              1957.</p>
+            <p>La femme de notre camarade Xavier DARGEGEN, de Erstein (BasRhin), novembre 1957.</p>
+            <p>Mme Veuve GUIZARD, femme de notre camarade décédé, de Pont-de-Salars (Aveyron), le 14
+              août 1957.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>BOERI J.-Baptiste, chez M. Allégrini, Ile-Rousse (Corse). YVON Marcel, 9, rue de la
+              Dorade, Saint-Servan-sur-Mer (L-et-V.). LAMBERT Roger, 6, rue Saint-Gilles, Paris (
+                3<hi rend="superscript">°</hi> ). BURLOT Henri, 15, rue de la Verzée, Segré
+              (M.-et-L.). MEYNARDIE Joseph, Hospice de Trelissac (Dordogne). VU VAN THIET, 4, rue
+              Blainville, Paris ( 5<hi rend="superscript">°</hi> ). LANDAIS Léopold, Lahutte, par
+              Saint-Germain-s'-Sarthe (Sarthe).</p>
+            <pb n="20"/>
+            <note type="foliation">— 20 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">COTISATIONS 1958</head>
+            <p>La COTISATION annuelle ORDINAIRE pour 1958, fixée à 200 fr ., doit être acquittée
+              pour la fin de l'année 1957.</p>
+            <p>Chaque camarade voudra certainement effectuer son versement le plus rapidement
+              possible.</p>
+            <p>Nous demandons à chacun de préciser clairement sur les formules de mandat le détail
+              de son envoi.</p>
+            <p>La liste des cotisants étant publiée dans le Bulletin, il n'est pas accusé
+              réception.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">CAISSE DE PREVOYANCE</head>
+            <p>Malgré les avis publiés dans nos précédents bulletins, certains camarades adhérents à
+              la CAISSE DE PREVOYANCE ne se sont pas encore acquittés du paiement de leur cotisation
+              qui aurait dû nous parvenir le 11 novembre au plus tard.</p>
+            <p>Nous leur demandons d'en effectuer le versement d'URGENCE. En cas de décès, le
+              règlement prévoit en effet que le bénéficiaire perd tous ses droits, si l'adhérent
+              n'est pas en règle avec la Caisse.</p>
+            <p>Ces cotisations, fixées selon l'âge de l'adhérent, sont les suivantes : <list>
+                <item>275 francs jusqu'à 45 ans</item>
+                <item>325 francs de 45 à 50 ans</item>
+                <item>400 francs de 50 à 55 ans</item>
+                <item>500 francs à partir de 55 ans</item>
+              </list> jusqu'à concurrence d'un versement total limité à 8.700 francs. Certains
+              camarades arrivent, en 1958, au terme de leur versement. Leur cotisation se trouve
+              fixée à : <list>
+                <item>50 francs pour ceux nés en 1890</item>
+                <item>225 francs pour ceux nés en 1891</item>
+                <item>400 francs pour ceux nés en 1892</item>
+              </list> CEUX NES AVANT 1890 ONT TERMINE LEUR VERSEMENT. CEUX NES APRES 1892 n'ont pas
+              encore atteint le plafond des 8.700 francs requis.</p>
+            <pb n="21"/>
+            <note type="foliation">— 21 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COTISATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">COTISATIONS ORDINAIRES ( 200
+                fr .) reçues du 15 novembre au 3 décembre inclus</head>
+              <p>Abderrahmann Ben Saad, Agaesse Raymond, Albouy Ernest, Alessandri François ( 600
+                fr.), André Victor, Arhuro Alfred, Arnaud André, Aumasson Léon.</p>
+              <p>Bachelet Clodomir, Barbier Jean-Marcellin, Baudoin Victor, Beauchemin Paul,
+                Beaudufe Simon, Berdou Albert, Bernardini Antoine, Bertrand Marcellin, Bignon
+                Georges, Boucher Emile, Bouix Samuel, Boulesteix Pierre, Bouttes Aimé, Briez Marcel,
+                Broutin Ernest, Burlot Henri, Bussonnais Louis.</p>
+              <p>Cagneul François, Canivet Georges, Capelle Julien, Catoire Marcel, Caudron Georges,
+                Chagniaud Georges, Chardon René, Charles Henri, Citerne David, Clairotte Daniel,
+                Clémencel Lucien, Coignoux Hippolyte, Cointepas André, Comble Paul, Conan Albert,
+                Corazza Alexandre, Couesnon René, Courty Gilbert, Cullet Jean, Cure Paul</p>
+              <p>Delamare Roger, Delmas Georges, Delsol Thomas, De Moya Honoré, Deprun Marcel,
+                Deslias Jean ( 400 fr.), Devarrieux Emile, Devienne Jules, Diverres Louis, Douspis
+                Pierre, Drion Louis, Dubarry Serge, Dufourg Jean.</p>
+              <p>Echegut Maxime. Faugray Joseph, Fouasse Charles, Foubet Julien, François Maurice,
+                Freixes Sauveur.</p>
+              <p>Galis Jean, Garrec Jean, Gatillon Eugène, Gauthier Auguste, Chighi Georges, Girou
+                Auguste, Granotier Paul, Gravet Léon, Grobi Jean, Gromelle Roger.</p>
+              <p>Huc Pierre Jaffiol Fernand, Julie Albert, Julie Lucien, Josse Vincent, Jouy
+                Camille.</p>
+              <p>Lacotas Alfred, Lancieux J.-Baptiste, Lappe Pierre, Lardière Roger, Mlle Latouche,
+                Latrille K.-Marie, Laugt Jean, Laurent J.Félicien, Lebard Jean ( 400 fr.), Leblond
+                Maurice, Ledez J.-Baptiste, Le Hetet Emile, Le Serrec Yves ( 200 fr.), Lévy Mimoun,
+                Longcagne Joseph, Luc Julien.</p>
+              <p>Mandra René, Marchal René, Marchand Désiré, Marchand Paul, Marion Marcel, Martin
+                Jean-Victor, Martin Roger, Massot Alfred, Mathey Emile, Mauduit Pierre, Maurel
+                Zéphirin, Maze Joseph, Menetrey Emile, Messant Paul, Metzger Léon, Meyer Joseph,
+                M'hamed Ben Mohamed, Michaud René, Mirouze Jules, Mittelhauser <pb n="22"/>
+                <note type="foliation">— 22 —</note> Eugène, Montellier Francisque, Morand Henri,
+                Moulin Emile, Moullin René.</p>
+              <p>Nicomette Arthur.</p>
+              <p>Paradis Gabriel, Pardanaud Jules, Pèlerin Henri, Pernod René, Perrin Jules, Phénix
+                André, Pierre Maurice, Poirson Georges, Pons Jean, Portebois Joseph, Poubane Pierre,
+                Poussin Lucien, Préot Alfred.</p>
+              <p>Quémencur Georges, Quinet Maxence.</p>
+              <p>Rabay Emile, Raynaud Victor, Régnier Pierre, Rivemale Joseph, Roget Alexandre,
+                Rokken Frédéric, Roy Georges, Royneau Alfred, Ruffenach Eugène.</p>
+              <p>Salah Ben Mohamed Ben M'Barek (400 fr.), Salles Auguste, Samuel Charles, Sander
+                Robert, Saussote Pierre, Schambion Robert, Sciellour François, Scotti Di Rinaldi,
+                Seingrist François, Serra Michel, Soulié Maurice.</p>
+              <p>Tarte Georges, Thibaut Léonce, Thiberge Gustave, Toudie Jean, Trubert Abel.</p>
+              <p>Vidal Albert, Viguier Paul, Villermin René.</p>
+              <p>Wetzel Emile.</p>
+              <p>Zarmati Jules.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">RACHAT DE COTISATION</head>
+              <p>Tarrancle Raymond (2.000 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">COTISATIONS CAISSE DE
+                PREVOYANCE</head>
+              <p>Abderrahman Ben Saad (500 fr.), Alibert Fernand (500 fr.), Arnaud André (500 fr.),
+                Aumasson Léon (400 fr.).</p>
+              <p>Bachelet Clodomir (500 fr.), Baretge Laurent (500 fr.), Beauchemin Paul (400 fr.),
+                Beneat Yves (500 fr.), Bignon Georges (500 fr.), Boucher Emile (500 fr.).</p>
+              <p>Cagneul François (500 fr.), Capelle Julien (50 fr.), Caudron Georges (500 fr.),
+                Chagniaud Georges (500 fr.), Chardon René (500 fr.), Charles Henri (50 fr.), Chelles
+                Gilbert (500 fr.), Chenenaille Adrien (500 fr.), Cheutin Jules (500 fr.), Coignoux
+                Hippolyte (500 fr.), Cointepas André (500 fr.), Conan Albert (500 fr.), Couesnon
+                René (500 fr.), Courty Gilbert (500 fr.), Curbières Célestin (500 fr.), Cure Paul
+                (500 fr.).</p>
+              <pb n="23"/>
+              <note type="foliation">— 23 —</note>
+              <p>Delamare Roger (325 fr.), Deprun Marcel (325 fr.), Desbancs Marcel (50 fr.),
+                Devienne Jules (500 fr.), Dufourc Pierre (500 fr.), Feugray Joseph (500 fr.). Galis
+                Jean (500 fr.), Gambert François (400 fr.), Gauch Victor (500 fr.), Gauthier Edmond
+                (500 fr.), Gousse François (50 fr.), Grobi Jean (400 fr.).</p>
+              <p>Harter Paul (500 fr.). Jaffiol Fernand (225 fr.). Lacotas Alfred (500 fr.), Lainé
+                Louis (500 fr.), Lardans Gustave (400 fr.), Lardière Roger (500 fr.), Laurent
+                J.-Félicien (50 fr.), Le Roux J.-Jacques (50 fr.), Le Serrec Yves (500 fr.),
+                Longeague Joseph (400 fr.).</p>
+              <p>Marchan Simon (500 fr.), Marchand Désiré (500 fr.), Mamiani Jacques (500 fr.),
+                Marion Marcel (225 fr.), Martin Roger (275 fr.), Meyer Joseph (225 fr.), Morand
+                Henri (500 fr.).</p>
+              <p>Nicomette Arthur (400 fr.). Papineau Marcel (500 fr.), Paradis Gabriel (500 fr.),
+                Pèlerin Henri (225 fr.), Perroux Lucien (500 fr.), Pierre Maurice (500 fr.),
+                Portebois Joseph (500 fr.), Poubane Pierre (400 fr.), Prune Arthur (500 fr.).</p>
+              <p>Régnier Pierre (400 fr.), Rivemale Joseph (50 fr.), Roget Alexandre (400 fr.),
+                Rohken Frédéric (500 fr.), Roy Jean (500 fr.), Royneau Alfred (500 fr.), Ruffenach
+                Eugène (325 fr.).</p>
+              <p>Salles Auguste (500 fr.), Samuel Charles (275 fr.), Sander Robert (275 fr.),
+                Saussotte Pierre (500 fr.), Schambion Robert (275 fr.), Sciellour François (50
+                fr.).</p>
+              <p>Thibaud Léonce (500 fr.), Toudic Jean (500 fr.). Villefayot Léon (500 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Abderrahman Ben Saad (200 fr.), Agaesse Raymond (1.800 fr.). Alessandri François (
+                400 fr.), Aumasson Léon (100 fr.). Barbier Jean-Marcellin (300 fr.), Baudoin Victor
+                (500 fr.), Beaudufe Simon (700 fr.), Bernardini Antoine (300 fr.), Bertrand
+                Marcellin ( 400 fr.), Bignon Georges (200 fr.), Bouhali Bernard (200 fr.), Bouillard
+                Léonard ( 175 fr.), Bouix Samuel (100 fr.), Bouttes Aimé (300 fr.), Briez Marcel
+                (100 fr.), Burlot Henri (300 fr.).</p>
+              <p>Canivet Georges ( 100 fr.), Capelle Julien ( 450 fr), Catoire Marcel (1.000 fr.),
+                Chagniaud Georges ( 100 fr.), Chanut Charles ( 100 fr.), Veuve Charbonnel Emile (
+                300 fr.), Veuve Charles François ( 200 fr.), Cheutin Jules (200 fr.), Citerne David
+                (300 fr.), Cointepas André <pb n="24"/>
+                <note type="foliation">— 24 —</note> (300 fr.), Comble Paul (800 fr.), Veuve Coutin
+                Lucien (500 fr.), Curbières Célestin (100 fr.)</p>
+              <p>Delamare Roger (1.000 fr), Delsol Thomas (200 fr), De Moya Honoré (300 fr.),
+                Desbancs Marcel (450 fr.), Deslias Jean (100 fr.), Diverres Louis (300 fr.), Douspis
+                Pierre (100 fr.), Drion Louis (300 fr.), Veuve Dubost Pierre (600 fr.).</p>
+              <p>Fouasse Charles (800 fr.). Gambert François (100 fr.), Garrec Jean (100 fr.),
+                Ghighi Georges (300 fr.), Granotier Paul (100 fr.), Gravet Léon (300 fr.), Grobi
+                Jean (200 fr.).</p>
+              <p>Jaffiol Fernand (175 fr.), Julie Louis (1000 fr.), Jouy Camille (300 fr.).</p>
+              <p>Lappe Pierre (300 fr.), Lardans Gustave (100 fr.), Mlle Latouche (300 fr.),
+                Latrille Jean-Marie (300 fr.), Leblond Maurice (300 fr.), Ledez Jean-Baptiste (300
+                fr.), Veuve Le Poul (300 fr), Lévy Mimoun (350 fr.), Mme Lissy (500 fr.), Longcagne
+                Joseph (400 fr.).</p>
+              <p>Mandra René (300 fr.), Marehal René (500 fr.), Marion Marcel (325 fr.), Martin
+                Roger (25 fr.), Mathey Emile (1.800 fr.), Mauduit Pierre (800 fr.), Maze Joseph (800
+                fr.), Menetrey Emile (200 fr.), Metzger Léon (300 fr.), Mittelhauser Eugène (2.000
+                fr.), Moulin Emile (100 fr.).</p>
+              <p>Veuve Nazaire (200 fr.), Nehou Lucien (300 fr.). Pelerin Henri (275 fr.), Perroux
+                Lucien (200 fr.), Phénix André (800 fr.), Pincon Louis (500 fr.), Poirson Georges
+                (500 fr), Poussin Lucien (300 fr., Preot Alfred (300 fr.).</p>
+              <p>Régnier Pierre (200 fr.), Roger Alexandre (100 fr.), Roy Georges (200 fr.), Veuve
+                Royer (500 fr.).</p>
+              <p>Salah Ben Mohamed Ben M'Barek (600 fr.), Saussotte Pierre (300 fr.), Serra Michel
+                (500 fr.), Soulié Maurice (330 fr.)</p>
+              <p>Toudic Jean (300 fr.), Trubert Abel (200 fr.). Viguier Paul (200 fr.), Villermin
+                René (500 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Caudron Georges (500 fr.). Lardière Roger ( 150 fr.), Mlle Latouche (500 fr.), Lévy
+                Mimoun (350 fr.).</p>
+              <p>Royneau Alfred (300 fr.). Soulié Maurice (500 fr.).</p>
+              <pb n="25"/>
+              <note type="foliation">— 25 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Chardon René ( 300 fr.), Charles Henri ( 500 fr.), Clairotte Daniel ( 300 fr.),
+                Corazza Alexandre ( 300 fr.).</p>
+              <p>Doré Léon ( 500 fr.). François Maurice ( 500 fr.). Gatillon Eugène ( 400 fr.),
+                Gousse François ( 500 fr.), Guillaum Edmond ( 1.000 fr.).</p>
+              <p>Julie Lucien ( 1.000 fr.). Lardière Roger ( 150 fr.), Lebard Jean ( 200 fr.), Ledez
+                J.-Baptiste ( 1.000 fr.), Lévy Mimoun ( 350 fr.), Louis Robert ( 500 fr.).</p>
+              <p>Mandra René ( 2.000 fr.). Nicomette Arthur ( 200 fr.). Pernod René ( 1.000 fr.).
+                Roy Georges ( 200 fr.). Schambion Robert ( 1.025 fr.), Soulié Maurice ( 500 fr.). «
+                Nous sommes très sensibles aux cotisations volontaires que certains camarades
+                veulent bien nous adresser; leur geste de solidarité nous prouve leur sentiment
+                d'attachement à l'U.A.G. et nous les en remercions bien vivement ».</p>
+              <pb n="26"/>
+              <note type="foliation">— 26 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">PETITE ANNONCE</head>
+            <p>Si vous buvez un apéritif : buvez un Rives Saltes... Le vin de Rives Saltes est, en
+              effet, le meilleur et le moins cher de tous les apéritifs.</p>
+            <p>Le meilleur, car il est doux, agréable et reconstituant. Le moins cher, car Vin
+              garanti naturel et titrant à 21 degrés, il n'a pas subi la nouvelle taxe imposée à
+              tous les apéritifs à base de vin et d'alcool.</p>
+            <p>Conditions spéciales pour les Aveugles de Guerre et Membres de I'U.A.G. Est vendu en
+              casiers de 15 litres ou en fûts d'un minimum de 32 litres. Toutes taxes comprises,
+              franco domicile, emballages perdus, seuls les fûts sont repris au prix de facture.
+              Demander renseignements : Camarade Toutain Paul, Aveugle de Guerre, représentant,
+              Briouze (Orne).</p>
+            <pb n="27"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents : le Maréchal et Mme la Maréchale JUIN. Vice-Président : M* MASSON.
+              Vice-Présidentes : Mmes CONTAMIN et DU BOS. Secrétaire : M. COLLIER. Vice-Présidente
+              honoraire : Mlle ARBEL. Trésorier honoraire : M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M' BRULLIARD, MM. DE CHAUMONT-QUITRY, CHEPFER, Mme
+              COLLIER, D' COUTELA, Mme DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOUTE, Mlle LEDOUX,
+              D' RICORD, Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD, délégué au
+              Mexique, le Président de l'Association des Anciens Combattants Français en
+              Argentine.</p>
+          </div>
+
+
+          <fw>Le Gérant: G. L'EVESQUE Imp. Dubois et Bauer - Paris</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

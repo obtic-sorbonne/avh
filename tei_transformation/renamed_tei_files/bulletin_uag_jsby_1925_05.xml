@@ -1,0 +1,854 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 7ème année 1925, n°5</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Emprunt national</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Associations d'anciens combattants</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>22,5 X 15,5 cm ; 14 pages numérotées + 2 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#mutiles-de-guerre">mutilés de guerre</term>
+          <term ref="#pensions">pensions</term>
+          <term ref="#reajustement">réajustement</term>
+          <term ref="#cecite">cécité</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de questions importantes
+          pour ses membres, notamment les aspects financiers comme l'emprunt et le réajustement des
+          pensions. Il contient également des notes et informations sur des sujets variés tels que
+          l'Institution Nationale des Invalides, les mutilés du cerveau, des offres de vente, et des
+          recommandations bibliographiques. Une chronique de l'U.A.G. est incluse, couvrant la
+          Caisse Fraternelle, des nouvelles personnelles, les activités de la section départementale
+          de la Haute-Garonne, le procès-verbal du Conseil d'administration, et des informations sur
+          les masseurs et les décorations.</p>
+      </abstract>
+      <creation>
+        <date when="1925-05-01">01/05/1925</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-09" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-08" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRÉSIDENT D'HONNEUR de l'Union des Aueugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">L'EMPRUNT</ref>
+          </item>
+          <item>
+            <ref target="#h8">Le Réajustement des Pensions</ref>
+          </item>
+          <item>
+            <ref target="#h9">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h10">VOIR</ref>
+              </item>
+              <item>
+                <ref target="#h11">L'INSTITUTION NATIONALE DES INVALIDES</ref>
+              </item>
+              <item>
+                <ref target="#h12">AUX BROSSIERS</ref>
+              </item>
+              <item>
+                <ref target="#h13">AUX ARTISANS MUTILES REFORMES ET VEUVES DE GUERRE</ref>
+              </item>
+              <item>
+                <ref target="#h14">A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h15">BIBLIOGRAPHIE</ref>
+              </item>
+            </list></item>
+          <item><ref target="#h27">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h28">CAISSE FRATERNELLE</ref>
+              </item>
+              <item><ref target="#h25">ENTRE NOUS</ref><list>
+                  <item>
+                    <ref target="#h26">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h16">DÉCÈS</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">MARIAGES</ref>
+                  </item>
+                </list></item>
+              <item>
+                <ref target="#h18">Section Départementale de la Haute-Garonne</ref>
+              </item>
+              <item>
+                <ref target="#h19">Procès-Verbal de la Séance du Consell d'Administration du 4 Avril
+                  1925</ref>
+              </item>
+              <item>
+                <ref target="#h20">Liste des Membres de l'U.A.G.</ref>
+                <list>
+                  <item>
+                    <ref target="#h21">Questions diverses.</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h22">COMPTE RENDU DE LA REUNION DES COMMISSAIRES MASSEURS DU 1er AVRIL
+                  1925</ref>
+              </item>
+              <item>
+                <ref target="#h23">LEGION D HONNEUR</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h24">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">7e Année. — N° 5</fw>
+          <fw type="header">
+            <hi rend="underline">Mai 1925</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>L'emprunt.</item>
+                    <item>Le réajustement des pensions.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Notes et Informations</head>
+                  <list>
+                    <item>Voir.</item>
+                    <item>L'Institution Nationale des Invalides.</item>
+                    <item>Les mutilés du cerveau.</item>
+                    <item>A vendre.</item>
+                    <item>Bibliographie.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Section départementale de la Haute-Garonne.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'administration du 4 avril
+                      1925.</item>
+                    <item>Masseurs.</item>
+                    <item>Décorations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRÉSIDENT D'HONNEUR de l'Union des
+              Aueugles de Guerre</head>
+            <p>M. A. Milleband, ancien Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourie; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie
+              Française ; M. Duco, médecin-inspecteur ; M. Fribourg, député ;</p>
+            <p>Miss Alice Gerty ; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper ; Miss Winifred Holt; Mme Léopold Kahn ; Mme Géo Kessler ; M. Krug
+              ; M. Lugol, sénateur ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Pate, député; M. Pierre Rameil, député ;</p>
+            <p>M* Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre des Avocats;
+              Général Sainte-Claire-Deville ; M. Vallery-Radot ; M. Constant Verloy, député; M. le
+              Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">L'EMPRUNT</head>
+            <p>Dans un précédent article, Favret vous exposait avec beaucoup de netteté, beaucoup de
+              clarté, le but de l'emprunt au bénéfice de la Caisse des pensions.</p>
+            <p>Chacun porte en soi et dans sa sphère d'action, si restreinte qu'elle wisse être, un
+              élément de réussite. Chacun de vous doit tout d'abord faire comprendre à ceux qu'il
+              peut approcher que l'emprunt constituera un placement avantageux et qu'en outre de
+              considérations matérielles qui peuvent amener le public à souscrire, il en est
+              d'autres d'un ordre moral qui ne sont pas à négliger.</p>
+            <p>Il faut que l'on se souvienne que lorsque le pays nous l'a demandé nous n'avons pas
+              marchandé ni notre santé ni notre sang.</p>
+            <p>Il faut que l'on sache que l'argent des souscripteurs prêté à l'Etat dans des
+              conditions intéressantes, ira à ceux à qui la société doit tant.</p>
+            <p>Il ne viendra à l'idée de personne de nier ni l'utilité, ni la nécessité, ni la
+              justice de cet ajustement de réparation.</p>
+            <p>Tous ceux qui possèdent, si un cœur bat dans leur poitrine, comprendront que l'argent
+              prêté n'a pu être acquis ou conservé que grâce à la masse de ceux qui, aujourd'hui,
+              souffrent dans leur chair.</p>
+            <p>Votre rôle, c'est de rappeler tout cela. C'est d'éviter que ne s'oublient trop vite
+              tant de malheurs et tant de peines. C'est de faire comprendre à tout un peuple que
+              nous parlons un langage de bon sens, de raison et d'équité. Que nous n'exigeons pas,
+              mais qu'il ne nous serait pas possible de tolérer que ceux qui n'ont pas à supporter
+              les terribles conséquences du fardeau que nous traînerons notre vie durant, se
+              désintéressent de nous à qui ils doivent tout.</p>
+            <p>Nous agirons de notre côté avec le Comité d'Entente et nous organiserons par tous les
+              moyens une propagande qui viendra appuyer celle propre de l'emprunt et qui sera basée
+              sur les grands principes que je viens de rappeler.</p>
+            <p>Le pays tout entier connaîtra par l'avion, par le cinéma, par les journaux, par des
+              conférences que nous, qui fûmes et sommes encore la force vitale de la France, voulons
+              pour l'honneur même de la nation que l'emprunt réussisse.</p>
+            <p>Tout Français se doit, proportionnellement à ses moyens, de ne pas lésiner pour une
+              question de prêt d'argent garanti, alors que ceux à qui le bénéfice en est destiné se
+              sont montrés si peu avares de leur vie et de leurs souffrances pour les sauver.</p>
+            <p>Scapini.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Le Réajustement des
+              Pensions</head>
+            <p>Le rapport de la Commission des Finances du Sénat est publié. Il nous fait connaître
+              de quelle façon les membres composant cette Commission interprètent les articles 328
+              et 329 de la loi de finances votée par la Chambre des Députés le 11 février. Ces
+              articles ont été reproduits dans notre Bulletin de mars.</p>
+            <p>La Commission des Finances du Sénat a nettement déclaré dans son rapport que le
+              réajustement de 80% ne sera pas calculé pour le mutilé bénéficiaire de l'article 10,
+              sur sa pension totale, soit 3.000 fr ., mais sur 2.400 francs.</p>
+            <p>De cette mesure, il résulte que l'augmentation ne sera pas non plus calculée sur la
+              surpension accordée aux bénéficiaires des articles 10 et 12 .</p>
+            <p>Cependant, pour être équitable, ce réajustement ne devrait-il pas être basé sur le
+              préjudice subi par l'intéressé ? Si le Sénat accepte la proposition de sa Commission
+              des Finances et limite pour les grands invalides bénéficiaires de l'article 10 ou des
+              articles 10 et 12 l'augmentation à 80% de 2.400 francs, il ne réajustera en fait
+              qu'une partie de sa pension.</p>
+            <p>Par les articles 10 et 12 de la loi du 31 mars 1919, nos législateurs ont prévu une
+              réparation spéciale pour les grands mutilés dans le but de rapprocher la pension, le
+              plus possible, du préjudice causé par la gravité des blessures. Cette réparation
+              spéciale fait donc partie intégrante de la pension du grand invalide et nous espérons
+              encore réussir, tout au moins pour nos camarades article 12, à voir leur pension
+              totale majorée de 80%. Si nos démarches n'aboutissent pas, nous aurons tout de même la
+              joie de voir les Aveugles de guerre augmentés de 1.920 fr ., c'est tout de même
+              appréciable.</p>
+            <p>Maintenant, il reste à savoir par quels moyens financiers sera assuré le paiement du
+              réajustement. Il avait été envisagé un emprunt dont le produit devait être réservé au
+              paiement de notre augmentation de pension. Nul ne sait les mesures qui seront prises
+              par le Gouvernement actuel, il se peut que l'idée d'emprunt pour la Caisse des
+              pensions soit</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>assurer notre paiement, c'est au Gouvernement d'y pourvoir, mais il sait qu'il peut
+              compter sur la collaboration des mutilés.</p>
+            <p>L'erreur commise à l'égard des orphelins sera réparée, le Sénat ne pouvant décider
+              une augmentation de dépenses, la Commission des Finances propose une réduction de
+              1.000 francs sur l'ensemble du chapitre, cette modification entraînera une nouvelle
+              discussion à la Chambre qui fera le nécessaire pour accorder aux orphelins la même
+              augmentation que celle votée pour les enfants des grands invalides.</p>
+            <p>FAVRET.</p>
+            <p>Nota. - A l'heure où nous mettons sous presse, nous regrettons d'aviser nos camarades
+              bénéficiaires des articles 10 et 12 que ros démarches en leur faveur sont restées
+              infructueuses.</p>
+            <p>Nos camarades ont manifesté, ces temps derniers, quelque étonnement inquiet, non
+              point au sujet du réajustement lui-même qu'ils considèrent comme acquis, mais en
+              raison des lenteurs qui en arrêtent le vote définitif.</p>
+            <p>Les lenteurs, on le sait, sont imputables aux derniers événements politiques, qui ont
+              arrêté la discussion du budget au Sénat. On sait aussi que le Comité d'Entente s'en
+              est continuellement préoccupé, et que dans l'attente d'explications précises au sujet
+              de l'emprunt, explications qu'il fut impossible d'obtenir en dehors d'une discussion
+              des projets financiers, encore ajournée, le Comité d'Entente s'est mis en rapport avec
+              certains membres de la Haute-Assemblée en vue de la présentation éventuelle d'un
+              amendement.</p>
+            <p>Depuis, le nouveau Cabinet a été formé, mais il n'a été fourni d'autres précisions
+              que les quelques mots consacrés par la déclaration ministérielle au maintien des
+              droits des créanciers privilégiés de la nation.</p>
+            <p>Le Comité d'Entente s'est donc réuni le 22 avril pour examiner à nouveau la situation
+              et échanger les vues des grandes Associations. Leur avis fut unanime, toutes
+              considèrent que les circonstances ne doivent avoir aucune influence sur la question du
+              réajustement - nouvelle cons- <pb n="6" break="no"/>
+              <note type="foliation">— 4 —</note> le projet voté par la Chambre prévoit le paiement
+              avec rappel du 1<hi rend="superscript">er</hi> janvier des arrérages des pensions
+              réajustées.</p>
+            <p>La question, pour être presque entièrement résolue, n'en reste pas moins en suspens
+              en raison de la séparation des Chambres, et en suspens aussi les moyens de nous
+              payer.</p>
+            <p>C'est dire combien l'attention de tous mérite de rester éveillée pour soutenir le
+              Comité d'Entente et l'aider à emporter définitivement la victoire. Et celle-ci ne
+              signifie pas seulement le réajustement à 1,80 , mais la quasi certitude que ces 80%
+              seront payés en billets.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">NOTES &amp; INFORMATIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">VOIR</head>
+              <p>Le docteur Bonnefon a eu la bonté de nous indiquer qu'il désirait connaître par
+                groupements régionaux le nombre et le nom des camarades qui pourraient bénéficier
+                d'une intervention chirurgicale utile.</p>
+              <p>Nous ne voulons pas revenir sur l'intérêt que présentent les admirables opérations
+                du docteur Bonnefon, ceci a déjà fait l'objet d'articles dans notre Bulletin. Grâce
+                à son art et à son dévouement, seize de nos camarades ont pu recouvrer la perception
+                d'une lumière qu'il croyait à jamais perdue.</p>
+              <p>Afin de tenir dans le plus bref délai les renseignements qui nous sont demandés,
+                nous prions les camarades qui distinguent la différence entre le jour et la nuit, de
+                faire connaître à l'U. A. G. leur nom et leur adresse aussi rapidement que
+                possible.</p>
+              <p>Nous soulignons et spécifions " les camarades qui distinguent la différence entre
+                le jour et la nuit n, cette perception lumineuse constitue la condition primordiale,
+                outre certaines autres d'un ordre technique, qui peut permettre au docteur Bonnefon
+                d'intervenir utilement. S'il n's a aucune perception lumineuse, l'état actuel de la
+                science ne permet aucune intervention chirurgicale susceptible d'un résultat
+                quelconque.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">L'INSTITUTION NATIONALE DES
+                INVALIDES</head>
+              <p>L'Institution Nationale des Invalides reçoit en qualité de pensionnaires les
+                mutilés et héberge les victimes de la guerre de passage à Paris.</p>
+              <p>Les Aveugles de guerre étaient exclus de cet hébergement, l'Hôtel des Invalides
+                n'étant pas aménagé pour y recevoir des mutilés atteints de cécité.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>Nous avons fait des démarches pour que cette mesure soit abolie et M. le ministre
+                des Pensions nous a assuré qu'il allait examiner la requête de l'Union des Aveugles
+                de guerre. Nous espérons que dans un avenir prochain nos camarades ayant besoin pour
+                un motif quelconque de demander leur admission momentanée aux invalides obtiendront
+                satisfaction.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">AUX BROSSIERS</head>
+              <p>Camarades, voulez-vous des crochets pour faire vos brosses? Adres-sez-vous à
+                Bordier (Henri), Aveugle de guerre, à Châteaudun (Eure-etLoir), qui vous enverra
+                contre paiement de 5 francs une série de huit crochets solides.</p>
+              <p>Joindre de préférence les cinq francs à la lettre de commande. M. Achille
+                Grispoire, membre associé de l'U. A. G., Président du Conseil d'administration de
+                l'Association d'ouvriers tisserands l'Artisane, à Hallencourt (Somme), nous prie de
+                porter à la connaissance de nos camarades et aux personnes qui s'intéressent à l'U.
+                A. G. que l'Association qu'il préside fabrique exclusivement à la main les toiles à
+                draps et à matelas. La marchandise ne subit aucun apprêt.</p>
+              <p>Demander prix et échantillons à M. Achille Grispoire, administrateur de l'Artisane,
+                à Hallencourt (Somme).</p>
+              <p>Des agents seraient acceptés.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">AUX ARTISANS MUTILES
+                REFORMES ET VEUVES DE GUERRE</head>
+              <p>L'Artisan mutilé, afin de poursuivre son but, organise sa 3<hi rend="superscript"
+                  >e</hi> Exposition à la mairie du 6<hi rend="superscript">e</hi> arrondissement,
+                du 12 au 21 juin, afin de faire connaître les travaux des mutilés.</p>
+              <p>Les demandes seront reçues jusqu'au 1<hi rend="superscript">er</hi> juin. Pour tous
+                renseignements, écrire à M. Dussault, secrétaire général, 37, rue du Repos (Paris,
+                  20<hi rend="superscript">°</hi> ).</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>L'Association des blessés nerveux de la guerre nous prie d'insérer la note suivante
+                :</p>
+              <p>L'attention a été récemment attirée sur l'infortune des blessés nerveux de la
+                guerre, trépanés ou commotionnés, auxquels les réparations de la loi du 31 mars 1919
+                n'offrent trop souvent que d'insuffisantes compensations.</p>
+              <p>L'Assistance aux Blessés nerveux de la Guerre, Cuvre reconnue d'utilité publique,
+                rappelle que depuis 1917 elle reçoit tous les trépanés, commotionnés, confus de
+                guerre, à son dispensaire, 35, avenue de Saint-Ouen, Paris; elle les soigne et les
+                secourt.</p>
+              <p>Elle les accueille dans ses maisons de retraite d'Arnouville-Gonesse où ils
+                trouvent un refuge agréable et des occupations saines qui apportent des diversions
+                salutaires à leur inquiétude.</p>
+              <p>Tous les blessés nerveux de la guerre peuvent être renseignés sur ces institutions,
+                soit par l'Office National des Mutilés, soit par les Comités Départementaux, soit en
+                s'adressant au siège social de l'Assistance aux Blessés nerveux de la Guerre, 35,
+                avenue de Saint-Ouen, Paris (XVII).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">A VENDRE</head>
+              <p>Une bonne machine à tricoter en parfait état avec tous ses accessoires. Marque "
+                Dubied », jauge 37, largeur 50 centimètres.</p>
+              <p>Ecrire au camarade Sursin, 27, rue de Saint-Mandé, à Charenton (Seine).</p>
+              <p>Matériel pour brosserie à vendre comprenant guillotine de grand modèle, couteau
+                avec tréteau et peigne. Prix modéré.</p>
+              <p>S'adresser au camarade A. Molinier, 28, rue du Puits, à Colombes (Seine).</p>
+              <p>Maison et fonds de bonneterie à vendre, atelier comprenant trois machines "Dubied »
+                état neuf, marche parfaite; une surjeteuse-raseuse marque "Merrow », un an de
+                service ; bobinoir automatique "Dubied " n'ayant jamais servi; un auto-paraffineur à
+                main complet; un grand rouet à main ; accessoires de rechange, bobines, marchandises
+                en magasin. Maison comprenant une cave ; au rez-de-chaussée : magasin, salle à
+                manger, cuisine et cour avec w.-c.; premier étage : trois pièces et <pb n="10"/>
+                <note type="foliation">— 8 —</note> deux grands greniers. Travail à façon assuré,
+                bonne clientèle. Centre commercial. Ville très commerçante. Installation électrique.
+                Le tout pour 32.000 francs. S'adresser au camarade G. Galis, à Tonneins
+                (Lot-et-Garonne).</p>
+              <p>Les camarades qui rechercheraient un guide sont priés de s'adresser à M. Prosper
+                Courgenay, demeurant 17, passage Notre-Dame-de-laCroix, à Paris (20<hi
+                  rend="superscript">°</hi>).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">BIBLIOGRAPHIE</head>
+              <p>Il est rappelé aux camarades aveugles qu'une Bibliothèque, comprenant 2.000
+                ouvrages en écriture Braille, fonctionne au Siège du Comité Départemental des
+                Mutilés de la Seine, 7, rue des Minimes, Paris ( 3<hi rend="superscript">°</hi>
+                ).</p>
+              <p>Cette Bibliothèque est ouverte au public tous les après-midi. Les livres sont
+                prêtés aux camarades qui se présentent ou, s'ils ne peuvent se déplacer, leur sont
+                expédiés par poste sur simple demande de leur part.</p>
+              <p>Le catalogue est expédié gratuitement à tous les camarades qui expriment le désir
+                de le recevoir.</p>
+              <p>S'adresser ou écrire pour l'obtenir, au Comité Départemental das Mutilés, 7, rue
+                des Minimes, Paris ( 3<hi rend="superscript">°</hi> ).</p>
+              <p>La Société "La Familiale des Soldats Aveugles " nous prie d'insérer la note
+                suivante : "La Familiale des Soldats Aveugles a l'honneur de vous faire " savoir que
+                leurs deux dernières réunions avant les vacances auront " lieu de 14 heures 30 à 18
+                heures, rue de Clichy n <hi rend="superscript">°</hi> 51, dans la " salle de la
+                Société Française de Photographie (Métro Place Clichy), " le jeudi 21 mai, jour de
+                l'Ascension, et le dimanche 28 juin prochain. Elle vous prie de lui faire l'honneur
+                d'y assister. "</p>
+            </div>
+          </div>
+          <pb n="11"/>
+          <note type="foliation">— 9 —</note>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fratemelle a distribué, du 16 mars au 15 avril 1925, une somme de
+                4.679 fr. 45 , se répartissant comme suit :</p>
+              <p>Naissances Fr. 1.900 " Secours 2.779 .45</p>
+              <p>Il y a lieu d'ajouter à ces 4.679 fr. 45 une somme de 10.000 fr ., prêts pour
+                achats de maisons familiales.</p>
+              <p>La Commission de Caisse Fratemelle a eu à examiner vingt-deux demandes de secours,
+                sur lesquelles neuf n'ont donné lieu, pour motifs divers, à aucun secours.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">NAISSANCES</head>
+                <p>Notre camarade et Mme Allais (Louis), de Malakoff, nous font part de la naissance
+                  de leur fils Raymond, né le 2 mars 1925.</p>
+                <p>Notre camarade et Mme Stephan, de Pont-Croix (Finistère), nous font part de la
+                  naissance de leur fils Jean, né le 7 février 1925.</p>
+                <p>Notre camarade et Mme Renoux (Henri), de Châteauroux, nous font part de la
+                  naissance de leur fille Yvonne, née le 2 juillet 1924.</p>
+                <p>Notre camarade et Mme Junge (Paul), de Plouescat, nous font part de la naissance
+                  de leur fils Paul, né le 11 mars 1925.</p>
+                <p>Notre camarade et Mme Courtas, de Paris, nous font part de la naissance de leur
+                  fils André, né le 22 mars 1925.</p>
+                <p>Notre camarade et Mme Pelissier (Jean), de Pont-Picot (Puy-de-Dome), nous font
+                  part de la naissance de leur petit-fils.</p>
+                <p>Notre camarade et Mme Loiseau, de Peyravault (Vendée), nous font part de la
+                  naissance de leur fils Théophile, né le 24 mars 1925.</p>
+                <p>Notre camarade et Mme Fauvel, de Sartrouville (S.-et-O.), nous font part de la
+                  naissance de leur fille Monik, née le 31 mars 1925.</p>
+                <p>Notre camarade et Mme Coignoux, de Nantes (Loire-Inférieure), nous font part de
+                  la naissance de leur fille Renée, née le 13 mars 1925.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+                <p>Notre camarade et Mme Dimitrieff, de Dives-sur-Mer (Calvados), nous font part de
+                  la naissance de leur fille Solange, née le 8 avril 1925.</p>
+                <p>Notre camarade et Mme Léger (Robert), de La Chapelle-surCreuse, nous font part de
+                  la naissance de leur fils Jean-Robert, né le 5 avril 1925.</p>
+                <p>Notre camarade et Mme Nicomette, de Fayl-Billot (Haute-Marne). nous font part de
+                  la naissance de leur fille Odette-Louise-Marie, née le 3 avril 1925.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h16">DÉCÈS</head>
+                <p>Nous apprenons le décès : De la mère de notre camarade Estorges, survenu le 10
+                  décembre 1924, à l'âge de soixante et onze ans.</p>
+                <p>Du père de notre camarade Lemaire (Cyrille), survenu le 12 mars 1925, à l'âge de
+                  soixante-dix-huit ans.</p>
+                <p>De la fille de notre camarade Fracasse, survenu à La Couronne, à l'âge de
+                  vingt-trois ans.</p>
+                <p>De la mère de notre camarade Menuet (Pierre), survenu à SaintMalo, à l'âge de
+                  quatre-vingt-un ans.</p>
+                <p>Du père de notre camarade Deltor (Adrien), survenu le 1<hi rend="superscript"
+                    >er</hi> avril 1925, à l'âge de quatre-vingt-neuf ans.</p>
+                <p>De la naissance et du décès de l'enfant de notre camarade Le Borgne.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">MARIAGES</head>
+                <p>Notre camarade Piallat d'Avignon (Vaucluse), nous fait part du mariage de sa
+                  belle-fille avec M. Roure, qui a été célébré le 14 avril 1925, à Avignon.</p>
+                <p>Notre camarade Camuset nous fait part de son mariage avec Mlle Georgette Monnin
+                  qui a été célébré le 2 mai 1925, à Chargey-les-Gray (Haute-Saône).</p>
+                <p>Nous adressons aux jeunes époux tous nos vœux de bonheur.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">Section Départementale de la
+                Haute-Garonne</head>
+              <p>Les membres de la Section sont informés que l'Assemblée générale semestrielle se
+                tiendra, le dimanche 14 juin, à 9 heures du matin, à l'ancienne Faculté des Lettres,
+                17, rue de Rémusat, Toulouse.</p>
+              <p>Bon accueil sera réservé aux camarades habitant les départements voisins et toute
+                faculté leur sera donnée de participer aux débats ayant un caractère de
+                revendications générales.</p>
+              <p>Pour le Bureau : Le Président : Seguy.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">Procès-Verbal de la Séance
+                du Consell d'Administration du 4 Avril 1925</head>
+              <p>La séance est ouverte, à 14 h .30 , sous la présidence de Scapini. Sont présents:
+                Gaston L' Evosque, Courteix, Grillet, Nicolaï, Favret, Amar, Amault, Bardoux,
+                Bertrand, Bois, Dufourc, Conan, Gudefin, Laffargue, Laute, Noireaux.</p>
+              <p>Ont écrit : Antoine Derunder, Izaac, Lallement, Leveau, Leloup, Robert, Toudouri,
+                Fauvel.</p>
+              <p>Assistent à la Séance : M. de Traversay, président du Comité d'action, les
+                camarades Boibin, Brillant, Pagenel, Saillot.</p>
+              <p>Le Président remercie les administrateurs et les camarades de l'U. A. G. des vœux
+                de prompt rétablissement qu'ils ont bien voulu lui témoigner à l'occasion de sa
+                récente maladie. 1<hi rend="superscript">°</hi> Procès-verbal de la dernière réunion
+                adopté à l'unanimité ; 2<hi rend="superscript">°</hi> Situation financière de
+                février et mars adoptée à l'unanimité ; 3<hi rend="superscript">°</hi> Recueil des
+                noms et adresses des membres de l'U. A. G. Le Président. - L'Assemblée générale de
+                l'année dernière a demandé à ce que soit établi une sorte d'annuaire comprenant les
+                noms</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>et adresses des membres de l'U. A. G. par ordre alphabétique et ensuite par
+                département. Le prix d'édition de cet annuaire est très important : 5.400 francs.
+                Pour faire une économie, je vois deux solutions : ou ne faire établir que la moitié
+                du recueil, c'est-à-dire la liste par ordre alphabétique des membres de l'U. A. G.,
+                ou faire éditer le recueil complet, mais le vendre aux camarades.</p>
+              <p>Lecture des lettres des administrateurs de province et de celle de Seguy.</p>
+              <p>Antoine vote pour la publication du recueil. Derunder, Lallement, Leloup, Leveau,
+                Robert (Maurice), Toudouri votent contre cette publication. Fauvel et Izaac donnent
+                pouvoir au secrétaire général.</p>
+              <p>Le secrétaire général fait remarquer qu'il sera bien difficile de faire payer
+                l'annuaire aux camarades. La solution la plus économique consisterait à recommencer
+                la publication de la liste des membres de l'U. A. G. dans notre Bulletin mensuel
+                d'abord par ordre alphabétique, ensuite par département.</p>
+              <p>Le président met la proposition du secrétaire général aux voix ; elle est adoptée
+                par 20.</p>
+              <p>Pour : Scapini, L'Evesque (Gaston), Courteix, Grillet, Nicolaï, Favret, Fauvel,
+                Izaac, Amar, Arnault, Bardoux, Bertrand, Bois, Dufourc, Conan, Gudefin, Laffargue,
+                Laute, Noireaux, Toudouri.</p>
+              <p>Contre : Antoine. 4<hi rend="superscript">°</hi> Franceville (pose de stores aux
+                fenêtres de nos bâtiments). Le Secrétaire général. - Des camarades ayant fait un
+                séjour à Franceville nous ont demandé de vouloir bien faire poser soit des rideaux
+                soit des stores aux fenêtres de nos bâtiments.</p>
+              <p>Cette installation répondant à une utilité, nous nous sommes préoccupés de la
+                dépense qu'elle entraînerait. Celle-ci sera de 1.000 francs environ pour des stores
+                verts à chacune des fenêtres des logements et aux portes des chambres du pavillon
+                "A".</p>
+              <p>Lecture des lettres des administrateurs de province à ce sujet. Antoine et Toudouri
+                donnent pouvoir au Président. Derunder donne pouvoir à Noireaux. Fauvel et lzaac
+                donnent pouvoir au Secrétaire général. Lallement, Leloup, Leveau, Robert (Maurice)
+                votent pour l'installation de stores verts.</p>
+              <p>Le Secrétaire général demande l'avis des administrateurs ayant séjourné à
+                Franceville. Ceux-ci estiment que des stores verts suffisent.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">Liste des Membres de
+                l'U.A.G.</head>
+              <p>par ordre alphabétique</p>
+              <p>Abbas, Douar Errich, Faction Bern Foudha, commune mixte de AinBessem (Algérie).
+                Abderahman (Ben Sad), Tribu des Oulad, rue Bessière, La Chouat (Algérie). Abeihle
+                (Paul), Saint-Etienne-de-Gourgas (Hérault). Aboudarkam (Menahem), 3, rue Talma,
+                Mascara. Abraham (Pierre), Anneville-sur-Scie, par Longueville (Seine-Inférieure).
+                Acart (Alfred), au Petit-Pré, Plaisir (Seine-et-Oise). Adam (Joseph), 5, rue
+                Notre-Dame-des-Champs, Paris. Adrien (Emile), 8, rue Beauregard, Aulnay-sous-Bois
+                (Seine-et-Oise). Affre (Ernest), Villa Aurore, route de Corneilhan, Béziers
+                (Hérault). Agnus (Alfred), au Blanchon, par Pont-Ain (Ain). Agutte (Louis), 14, rue
+                Daru, Paris. Ahmed (Zerouk Ben Mahmond), Ouled-Djellal, commune de Biskra. Ahmed
+                (Ben Mohamed Kléba), Monzel-Dzenil (Tunisie). Alaux (Udaux), rue du Collège,
+                Espalion (Aveyron). Albert (Henri), Montoumais (Vendée). Albert (Victor),
+                Saint-Hilaire-des-Loges (Vendée). Albespy (Charles), Nuces, commune de Valady
+                (Aveyron). Albouy (Ernest), Bouthe, commune de Cuq-Toulza (Tarn). Aldeguer (Joseph),
+                rue de Quinsne, quartier de la Marine, Mostaganem. Alibert (Fernand), avenue de la
+                Gare, Maison Bleue, à Revel (Haute-Garonne). Alison (Elie), 30, avenue du Guide,
+                Bobigny (Seine). Alix (Julien), Beauvoir, canton de Pontorson (Manche). Allais
+                (Louis), 11, rue Depinoy, Malakoff (Seine). Allamend (Célestin), aux
+                Saillands-du-Gua, par Vif (Isère). Alloi (Jean), 14, rue Jacques-Serrières, Nice
+                (Alpes-Maritimes). Alquie (Germain), 1, rue Beziat, Toulouse (Haute-Garonne).
+                Alquier (Emile), 27, rue des Fossés, Narbonne (Aude). Alquier (Gustave), 110, rue
+                Joseph-de-Carayon, Bordeaux (Gironde).</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>Alquier (Louis), 13, rue Escoussière, Revel (Haute-Garonne). Alvergne (Jules), 5,
+                rue Bon-Juan, Marseille (Bouches-du-Rhône). Amant (Polixèmé), 6, rue Pichard,
+                Fresnoy-le-Grand (Aisne). Amar (Joseph), 24, rue de Charenton, Paris. Amblard
+                (Henri), 33, avenue de Breteuil, Paris. André (Auguste), 80, rue Carnot,
+                Raon-l'Etape (Vosges). Andrieu (Pierre), 83, rue de Chennevières,
+                Conflans-Sainte-Honorine (Seine-et-Oise). Angel (François), Bussières (Haute-Saône),
+                par Geneuille (Doubs). Angot (Alphonse), route de la Gare, Saint-Romain-Collore
+                (SeineInférieure). Anquetil (Pierre), 14, rue Daru, Paris. Ansannay-Riond (Jean),
+                Notre-Dame-de-Bellecombe (Savoie). Anthene (Claude), 6, rue du Capitaine, Vichy
+                (Allier). Antoine (Louis), 10, quai de Richemont, Rennes (Ille-et-Vilaine). Aragon
+                (Léon), Neuvy-Chevrières (Ardennes). Arbaizar (Louis), 2, rue Champ-Lacombe,
+                Biarritz (Basses-Pyrénées). Archambault (Louis), Chalivoy, par la
+                Guerche-sous-l'Aubois (Cher). Argouah (Guillaume), Kerranpronosten-Plouenan
+                (Finistère). Arhuro (Alfred), Plouharnel (Morbihan). Arlaud (Louis), boulevard
+                Jules-Ferry, Châteaurenard (Bouches-duRhône). Arnaud (André), 6, rue de Bourgogne,
+                Chelles (Seine-et-Marne). Arnaud (François), rue des Ecoles, Saint-Valles (Drôme).
+                Arnaud (Aristide), Eygalières (Bouches-du-Rhône). Arnaud (Antoine), 16, boulevard
+                Carnot, Cannes (Alpes-Maritimes). Arnault (Victor), 14, rue Daru, Paris. Arnould
+                iEmile), 3 bis, rue Reine, Le Perreux (Seine). Arnould (Arsène), 13, rue des
+                Salines, Reims (Marne). Arnoux (Fernand), 14, rue Désagulières-Tasdon, La Rochelle
+                (Cha-rente-Inférieure). Aronowski (Israël), 184, boulevard de Créteil,
+                Parc-Saint-Maur (Seine). Artel (François), 46, Grande-Rue, La Ferté-Macé (Orne).
+                Artus (Jean), La Cueille-Aigue, près Poitiers (Vienne). Arzagot (Jean-Baptiste), 56,
+                route de Pau, Lourdes (Htes-Pyrénées). Assemat (Louis), Castelnau-de-Brassac (Tarn).
+                Ambert (Alfred), 91 bis, rue du Ballon, Le Mans (Sarthe).</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Aubert (Sauveur), Haras Nationaux, route de Thuir, Perpignan (Pyrénées-Orientales).
+                Aubin (Paul), 18, rue de l'Opéra, Aix-en-Provence (Bouches-duRhône). Aubineau
+                (Auguste), Antigny, par La Châtaigneraie (Vendée). Aubry (Eugène),
+                Granges-de-Fontains, par Nangès (Seine-et-Marne). Aubus (Jules), 1, rue
+                Adolphe-Mion, Montpellier (Hérault). Aucaigne (Jean-Antoine), 3, rue du
+                Vieux-Palais, Mâcon (Saône-et-Loire). Auclair (Auguste), Village de la Folie, par
+                Saint-Marcel (Indre). Audibert (Augustin), rue Sainte-Andréa, Maison Gros,
+                Rodeillon, Toulon (Var). Auffret (Joseph), 5, rue d'Orléans, Saint-Brieuc
+                (Côtes-du-Nord). Aufrère (Marcel), 19, rue du 4-Août, Issoudun (Indre). Auge (Jean),
+                aux Essarts, commune de Chaniers (Charente-Inférieure). Augoyat (Fernand), 8, rue
+                Jenner, Le Creusot (Saône-et-Loire). Auliac (Antoine), Saint-Martial, Entraygues,
+                par Argentat (Corrèze). Aumasson (Léon), 7, rue Renan, Angers (Maine-et-Loire).
+                Aumont (Victor), Trun (Orne). Authie (Louis), cours Colbert, Chalabre (Aude).
+                Bacaria (Joseph), 4, ruelle Gandon, Paris Bachir (Ben Mostfa), Messad, par Djelfa.
+                Badel (Pierre), rue de Genève, Meximieux (Ain). Bailly (Octave), 20, rue de la Gare
+                de Reuilly, Paris. Baizet (Pierre), 75, avenue de Saxe, Lyon (Rhône). Bakour
+                (Ismaël), Crantenoy par Haroué (Meurthe-et-Moselle). Balagny (Joseph), 5, rue des
+                Moulins, Roanne (Loire). Balandras (Charles), 27, rue Victor-Hugo, Villejuif
+                (Seine). Balansa (Joseph), aux Bacamets, par Cintegabelle (Hte-Garonne). Baldy
+                (Jean), Mechmont, par Pélacoy (Lot). Balester (Jean-Baptiste), 16, rue du Sommerard,
+                Paris. Ballay (Louis), 14, rue Poncelet, Paris. Ballu (Marie-Clément), 11, rue du
+                Pont-Louis-Philippe, Paris. Banyuls (François), à Collioure (Pyrénées-Orientales).
+                Baptiste (Théophile), 52, rue Carnot, Fleury-les-Aubrais (Loiret). Baralle
+                (Gustave), 22, rue Pasteur, Iwuy (Nord). Baranger (Daniel), Saint-Cybardeaux
+                (Charente). Barbe (Albert), rue Bonnardsund prolongée, 8, impasse Brimeux,
+                Bou-logne-sur-Mer (Pas-de-Calais). Barberin (Laurent), Boulbon
+                (Bouches-du-Rhône).</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Barbet (Paul), Polliat (Ain). Barbette (Louis), Vellechevreux par Courchaton
+                (Hte-Saône). Barbette (Séraphin), Villechevreux par Courchaton (Hte-Saône). Barbier
+                (Alfred), 37, rue de l'Ancien-Pont-Rouge, allant, Maubeuge (Nord). Barbier
+                (Charles), 2, impasse Saint-Jean, Chemin Perdu, Liévin (Pas-de-Calais). Barbier
+                (Eugène), Saint-Quirin (Moselle). Barbier (Jean), Plougouven (Finistère). Barbier
+                (Jean), Saint-Maurice-de-Lignon (Haute-Loire). Barbier (Pierre), Lévens
+                (Alpes-Maritimes). Barday (Claude), rue du Pilon, Uchizy (Saône-et-Loire). Barde
+                (Cyprien), Sainte-Radegonde par Villeneuve-sur-Lot (Lot-etGaronne). Bardin (Louis),
+                chez M. Magdelaine, facteur à Thiais (Seine). Bardonnet (Claude), La Pacaudière
+                (Loire). Bardoux (Robert), 206, rue Championnet, Paris. Baretje (Laurent), Chemin de
+                Ceinture, Maison Cristin, Colonne Randon, Bône (Constantine). Bardoin
+                (Jean-Baptiste), 24, rue Cyrano, Lyon (Rhône). Barlet (Raymond), 14, rue Daru,
+                Paris. Barnabé (Claude), Saint-Gérand-le-Puy (Allier). Barnabé (Claude), 11, rue du
+                Marché-au-Blé, Le Canet (Allier). Baron (Augustin), La Motte-d'Aveillans (Isère).
+                Baron (François), Gagnard, Sainte-Foy-la-Grande (Gironde). Baron (Jean-Marie), 94,
+                rue Carnot, Lorient (Morbihan). Barrabon (Auguste), Riotard (Hte-Loire). Barrat
+                (Prosper), Melay par Bourbonne-les-Bains (Fite-Marne). Barre (Georges), 20, rue
+                Charles-Lyonnet, Villeurbanne (Rhône). Barrey (Charles), Nom-la-Poterie (Calvados).
+                Barry (Antoine), Arcambal (Lot). Barthelemy (Etienne), rue Ledru-Rollin, Cadenet
+                (Vaucluse). Bartier (Charles), 4, rue de la Prévôté, Maubeuge (Nord). Basile
+                (Henri), Thivars par Goindreville (Eure-et-Loir). Basset (Jean), Chambres, Commune
+                du Vigeau par Mauriac (Cantal). Bastide (Guillaume), 43, rue Marchande, Saint-Flour
+                (Cantal). Bastion (Antoine), Montrottier (Rhône). Bataille (Edouard), 113, rue du
+                Chemin-Vert, Paris. Bathelier (Félicien), 14, rue Saint-Lazare, Orange (Vaucluse).
+                BatteSti (Pierre), Venaco (Corse).</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>A l'unanimité, le Conseil autorise le Bureau à faire installer des stores verts aux
+                fenêtres des logements et aux portes des chambres du pavillon "A".</p>
+              <p>5" Affiliation des départementales ou régionales de l'U. A. G. à des Fédérations de
+                mutilés ou d'anciens combattants.</p>
+              <p>Lecture de la lettre de Beda demandant au Conseil d'administration de vouloir bien
+                prendre une décision au sujet de l'affiliation de sa départementale à une Fédération
+                de mutilés.</p>
+              <p>Lecture des lettres des administrateurs de province à ce sujet. Antoine, Lallement
+                et Toudouri donnent pouvoir au Président. Derunder, Leloup, Leveau, Robert (Maurice)
+                sont contre le maintien de cette affiliation. Fauvel accepte l'affiliation. Izaac
+                donne pouvoir au Secrétaire général par 24 voix :</p>
+              <p>Gaston L'Evesque, Scapini, Antoine, Lallement, Toudouri, Courteix, Grillet,
+                Nicolaï, Favret, Izaac, Amar, Arnault, Bardoux, Bertrand, Bois, Dufourc, Conan,
+                Laffargue, Laute, Noireaux, Derunder, Leloup, Leveau, Robert (Maurice).</p>
+              <p>Contre 2 : Fauvel, Gudefin. Le Conseil d'administration décide que l'article 12 du
+                règlement des départementales et régionales doit être strictement appliqué. Il
+                charge le Secrétaire général d'en informer le Président de la départementale des
+                Vosges.</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Questions
+                  diverses.</head>
+                <p>Admission de nouveaux membres. Sont admis membres titulaires : Définitivement :
+                  Magnin (Louis). Provisoirement : Culot (Paul). Louis (Pierre), dont la pension
+                  avait été rejetée, a obtenu satisfaction à la Cour régionale; il est réintégré
+                  membre titulaire de l'U. A. G.</p>
+                <p>Le Président avise le Conseil qu'il a donné son accord pour que l'Union soit
+                  bénéficiaire du produit d'un match de foot-ball organisé par les jockeys de
+                  Chantilly et de Maisons-Laffitte.</p>
+                <p>A l'unanimité des membres présents, le Conseil ratifie la décision prise par le
+                  Président.</p>
+                <p>Le Président donne quelques explications sur la situation du réajustement des
+                  pensions.</p>
+                <pb n="20"/>
+                <note type="foliation">— 18 —</note>
+                <p>Lecture des lettres de MM. Brieux, Fabry, des camarades Lambert (Léon), Héron,
+                  Brusson, Seguy.</p>
+                <p>Le Secrétaire général informe le Conseil que le Comité d'entente du département
+                  de la Seine vient de se constituer en vue de présenter aux candidats conseillers
+                  municipaux notre cahier de revendications : carte de priorité, logement de la
+                  Ville de Paris, etc...</p>
+                <p>Il demande au Conseil de vouloir bien désigner deux administrateurs pour
+                  assister, en qualité de délégués de l'Union, aux réunions du Comité d'entente
+                  départemental.</p>
+                <p>A l'unanimité des membres présents, Favret et Gudefin sont désignés.</p>
+                <p>La séance est levée à 17 heures.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">COMPTE RENDU DE LA REUNION
+                DES COMMISSAIRES MASSEURS DU 1<hi rend="superscript">er</hi> AVRIL 1925</head>
+              <p>Les commissaires masseurs se sont réunis, le mercredi 1<hi rend="superscript"
+                  >er</hi> avril, à 15 h .30 .</p>
+              <p>Etaient présents : Désiré Cardot, Gaston Mauger, Pierre Rouquette. Assistaient à la
+                séance : Favret, Tihon. Cardot et Mauger rendent compte de la démarche faite au
+                Ministère du Travail en vue de la modification du Tarif Breton (art. 24).</p>
+              <p>Ils furent reçus par le chef du Cabinet du Ministre. Ils obtinrent de ce haut
+                fonctionnaire la promesse que leur requête serait transmise à M. le ministre avec
+                avis favorable et que l'Union serait tenue au courant de la suite donnée.</p>
+              <p>Les commissaires masseurs feront une démarche auprès du ministre des Pensions au
+                sujet de l'article 64.</p>
+              <p>Ils décident ensuite de fixer l'Assemblée générale des masseurs Aveugles de guerre,
+                membres de l'U. A. G., au 28 avril, à 20 h .30 .</p>
+              <p>La séance est levée à 16 h .50 .</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">LEGION D HONNEUR</head>
+              <p>Par décret du Président de la République, en date du 28 mars 1925 (Journal officiel
+                du 4 avril 1925, page 3417), a été nommé au grade de chevalier de la Légion
+                d'honneur :</p>
+              <p>Pour prendre rang le 16 août 1920 : FARCY (Georges-Gustave), ex-soldat du 162<hi
+                  rend="superscript">°</hi> régiment d'infanterie.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Liste des Donateurs</head>
+            <p>Union des Femmes de France, Comité de Barcelone, 1.000 francs. - M. et Mme Métayer,
+              Andrésy (S.-et-O.), en souvenir de leur fils Robert, mort pour la France, 50 fr. -
+              Lycée Rollin, à Paris, 50 fr. M. Roger Louvel, à Paris, 1.000 fr. - Ecole Primaire
+              Supérieure de Jeunes Filles de Saint-Gaultier (Indre), 100 fr. - Anonyme H. G., 100
+              fr. - Mme Sennelier, à Paris, 25 fr. - M. Lobbe, 10 fr. "Deux vieux Parisiens ", 5 fr.
+              - Anonyme N <hi rend="superscript">°</hi> 20.254, 10 fr. Le maire de Nozy-le-Comte
+              (Aisne), 50 fr. - M. Worms, à Vaucouleurs (Meuse), 25 fr. - Anonyme N <hi
+                rend="superscript">°</hi> 20.257, 10 fr. - M. Félix Amar, Paris, 50 fr. - Mme Lang,
+              à Dijon, 20 fr. - Mme Jules Ditisheima, Paris, 20 fr. - Mme Neymarck, Paris, 10 fr.
+              Mme Lévy-Weis, Paris, 100 fr. - Les Elèves de la Classe des Mathématiques du Lycée
+              Henri-IV, à Paris, 2.000 fr. - Société Française de Bienfaisance, à Anvers, 430 fr. -
+              Protection et bonne santé de notre famille, 300 fr. - Lycée Kléber, à Strasbourg, 100
+              fr. - M. A. Girod, à Paris, 5 fr. - M. Rabby, à Neuilly-sur-Seine, 20 fr. - M.
+              Gauthier (Lucien), à Fours (Nièvre), 10 fr. - "Un Sans-Filiste nancéen », 10 fr. - Mme
+              Louise Pouiles, Pamiers, 10 fr. - Ecole Maternelle, 9, rue Popincourt, Paris, 30 fr. -
+              M. V. Richert, à Kaysersberg (Haut-Rhin), 50 fr. - M. Gustave Trautman, Strasbourg, 50
+              fr. - Mme Vve Limousin, à Tolosa (Espagne), transmis par Les Annales, 200 fr. -
+              Société Avignonnaise d'Electricité, à Avignon (Vaucluse), 50 fr. - M. Bœesiger, à
+              Lyon, 20 fr. - Les Conscrits de la Classe 1925, de Poligny (Jura), 182 fr. 25. - M.
+              Etail, à Reims, 50 fr.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

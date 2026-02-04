@@ -1,0 +1,1260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 9ème année 1927 n°6</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Pupilles de la nation</title>
+        <title type="topic">Légion d'honneur</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Guerre 1914-1918</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 27 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#pupilles">Pupilles</term>
+          <term ref="#nation">Nation</term>
+          <term ref="#association">Association</term>
+          <term ref="#blesses">Blessés</term>
+          <term ref="#republique">République</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#tsf">TSF</term>
+          <term ref="#radio">Radio</term>
+          <term ref="#handicap">Handicap</term>
+          <term ref="#solidarite">Solidarité</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de plusieurs sujets
+          d'intérêt pour ses membres, notamment le rajustement des pensions des victimes de guerre,
+          la situation des pupilles de la nation et l'instruction interministérielle relative aux
+          frais d'hospitalisation. Il présente également des informations sur les activités de
+          l'association, comme les procès-verbaux des séances du conseil d'administration et les
+          obsèques de Mme Waubert. Le bulletin contient aussi des articles de fond, comme une
+          réflexion sur l'importance de la T.S.F. pour les aveugles et un témoignage sur les
+          opérations du Docteur Bonnefon.</p>
+      </abstract>
+      <creation>
+        <date when="1927-06-01">01/06/1927</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-11" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-11" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Aux Membres titulaires</ref>
+          </item>
+          <item>
+            <ref target="#h8">CAISSE MUTUELLE</ref>
+          </item>
+          <item>
+            <ref target="#h9">Le Rajustement des Pensions</ref>
+          </item>
+          <item>
+            <ref target="#h10">Pour les Pupilles de la Nation</ref>
+          </item>
+          <item>
+            <ref target="#h11">Instruction interministérielle</ref>
+            <list>
+              <item>
+                <ref target="#h12">TITRE II Frais d'hospitalisation.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h13">Les Légions d'honneur héroïques</ref>
+          </item>
+          <item>
+            <ref target="#h14">C'est presque la lumière !...</ref>
+          </item>
+          <item>
+            <ref target="#h15">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h16">LES OPERATIONS DU DOCTEUR BONNEFON</ref>
+              </item>
+              <item>
+                <ref target="#h17">OFFRE EXCEPTIONNELLE DU CAMARADE LEVEAU</ref>
+              </item>
+              <item>
+                <ref target="#h18">A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h19">BIBLIOGRAPHIE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h20">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h21">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h22">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h23">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h24">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h25">DÉCÉS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h26">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h27">COTISATIONS REÇUES A LA DATE DU 15 MAI</ref>
+              </item>
+              <item>
+                <ref target="#h28">Proces-Verbal de la Séance du Conseil d'Administration du 30
+                  AVRIL 1927</ref>
+              </item>
+              <item>
+                <ref target="#h29">Procès-Verbal de la Séance extraordinaire du Conseil
+                  d'Administration</ref>
+              </item>
+              <item>
+                <ref target="#h30">LEGION D'HONNEUR</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h31">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h32">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h33">COMITE D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h34">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">9e Année. — N° 6</fw>
+          <fw type="header">
+            <hi rend="underline">Juin 1927</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Aux membres titulaires.</item>
+                    <item>Le rajustement des pensions.</item>
+                    <item>Pour les Pupilles de la Nation.</item>
+                    <item>Instruction interministérielle.</item>
+                    <item>Les Légions d'honneur héroïques.</item>
+                    <item>C'est presque la lumière.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>Avis.</item>
+                    <item>A vendre.</item>
+                    <item>Bibliographie.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbaux des séances du Conseil d'administration du 30 avril et du
+                        1<hi rend="superscript">er</hi> mai 1927.</item>
+                    <item>Légion d'honneur.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsirur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou ; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourif; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. Rudely Carter; M. Paul de Cassagnac,
+              ancien député; M. Coirin, notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Gritty; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Moray; M. Meyer, conseiller d'Etat; M. Henry
+              Pate, député; M. Pierre Ramill, député;</p>
+            <p>M* Henri-Robert, de l'Académie Française, ancien bâtonnier de l'Ordre uce Avocats;
+              Général Sainte-Claire-Deville; M. Vallery-Radot; M. Constant Verlot, député; M. le
+              professeur Walther, membre de l'Académie de Médecine</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Aux Membres titulaires</head>
+            <p>En vue de permettre à vos bureaux d'élaborer un projet ayant pour but la création
+              éventuelle d'une caisse de retraites pour les veuves ou ascendants de nos camarades,
+              nous vous prions de bien vouloir retourner au siège de l'U. A. G., après l'avoir
+              rempli, le questionnaire ci-dessous.</p>
+            <p>Les renseignements demandés étant de la plus haute importance, nous insistons
+              particulièrement pour que vous nous répondiez exactement et rapidement.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h8">CAISSE MUTUELLE</head>
+            <p>Nom et prénoms Date et lieu de naissance Domicile Situation de famille (marié, veuf
+              ou célibataire) Date de naissance de l'épouse Date de naissance du père Date de
+              naissance de la mère Nombre d'enfants (date de naissance de chacun d'eux)</p>
+            <p>En cas de décès, quelle personne désignez-vous pour bénéficier d'une allocation ?</p>
+            <p>Fait à Le</p>
+            <p>Certifié exact. Signature.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Le Rajustement des Pensions</head>
+            <p>LES 600 MILLIONS</p>
+            <p>Le projet du Gouvernement est repoussé à l'unanimité par le Comité d'action</p>
+            <p>Le Gouvernement a décidé de prévoir, dans le prochain budget, un crédit de 600
+              millions pour un relèvement des pensions des victimes de la guerre.</p>
+            <p>D'autre part, le ministère des Finances a préparé un projet de répartition de cette
+              somme entre les différentes catégories de bénéficiaires.</p>
+            <p>D'après ce projet, le taux de base de 1919 serait augmenté dans. les proportions
+              suivantes :</p>
+            <table>
+              <row>
+                <cell>Invalides de 10 à 50 0/0</cell>
+                <cell>20</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 550</cell>
+                <cell>25</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 60, 0/0.</cell>
+                <cell>30</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 650</cell>
+                <cell>35</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 70 0/0.</cell>
+                <cell>40</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 75 0/0.</cell>
+                <cell>45</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 80 0/0.</cell>
+                <cell>55</cell>
+                <cell>0 / 0</cell>
+              </row>
+              <row>
+                <cell>- de 85 0/0 et au-dessus.</cell>
+                <cell>60</cell>
+                <cell>0 / 0</cell>
+              </row>
+            </table>
+            <p>Les augmentations des majorations aux enfanis d'invalides suivraient la même
+              progression.</p>
+            <p>Les pensions des veuves seraient augmentées de 250 /0 sur le taux de 1919, et les
+              orphelins de 600 /0 sur ce même taux, déduction faite de la majoration obtenue en
+              décembre 1926.</p>
+            <p>Le Gouvernement a également prévu un crédit pour les ascendants. Enfin, la majoration
+              pour annuités de guerre des fonctionnaires anciens combattants est réglée par un
+              additif.</p>
+            <p>Le Comité d'Action s'est réuni pour délibérer à ce sujet, et a adopté à l'unanimité
+              l'ordre du jour ci-après : "Le Comité d'Action, "Après avoir pris connaissance des
+              intentions qu'aurait manifestées le Gouvernement en ce qui concerne le rajustement des
+              pensions des victimes de la guerre, "Considérant que le crédit de 600 millions, qui
+              serait affecté à cet objet, est absolument dérisoire eu égard aux sommes
+              nécessaires</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>pour opérer le rajustement sur l'indice 1,40 , lequel représente effectivement,
+              d'après les statistiques officielles elles-mêmes, l'augmentation du coût de la vie
+              depuis le dernier trimestre 1924. "Considérant, d'autre part, que ces propositions ne
+              tiennent pas compte de la situation particulièrement injuste faite aux veuves par les
+              tarifs de la loi du 31 mars 1919, d'où il résulte que le taux actuel de leur pension
+              ne correspond qu'à 2,5 par rapport à ce qu'elles touchaient en 1914. "Considérant, en
+              outre, que toutes modalités tendant à créer des catégories entre réformés de guerre,
+              que ce soit par une progressivité suivant l'invalidité ou par tout autre système,
+              doivent être repoussées comme contraires aux principes fondamentaux de la loi du 31
+              mars 1919. "Considérant, d'ailleurs, que le rajustement des pensions doit être opéré
+              suivant l'indice du coût de la vie et non par l'application d'un pourcentage
+              arbitraire des tarifs de 1919. "Le Comité d'Action, "Déclare inacceptables les mesures
+              envisagées, tant en ce qui concerne le montant du crédit que sa répartition et
+              maintient comme base du rajustement l'indice 1,40 . " Décide de s'opposer à toute
+              catégorisation entre les invalides de guerre et d'obtenir le redressement immédiat de
+              la situation particulière des veuves par assimilation à l'invalide de 500 / 0.
+              "S'engage à poursuivre par une union étroite de toutes les victimes de la guerre, la
+              réalisation intégrale de ses revendications. "</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Pour les Pupilles de la
+              Nation</head>
+            <p>(Extrait de la Revue des Vivants du mois de mai 1927) "Combien savent que des
+              orphelins de guerre se suicident, et qu'il arrive malheur à des orphelines? Combien
+              connaissent le nombre des orphelins de guerre qui ne savent ni lire, ni écrire ?...
+              "La génération sacrifiée devait veiller sur la suivante. Professeurs ? Non. Mentors ?
+              Pas davantage. Des grands frères et pas plus. " "La France adopte les orphelins dont
+              le père ou le soutien de famille a été tué à l'ennemi, ou dont le père, la mère ou le
+              soutien de famille est mort de blessures ou de maladies contractées ou aggravées du
+              fait de la guerre. " C'est le premier alinéa de l'article premier de la loi du 27
+              juillet 1917, instituant les Pupilles de la Nation. Cette loi permit l'adoption de
+              700.000 pupilles.</p>
+            <p>Elle les confia à l'organisme prévu en son article 9 : l'Office National des Pupilles
+              de la Nation, rattaché au ministère de l'Instruction publique.</p>
+            <p>Qu'est-ce qu'en dix ans l'Office en a fait ? J'ai eu la curiosité de l'apprendre. Des
+              pupilles, ce ne sont pas des boys-scouts ayant des chefs et des insignes, qu'on voit
+              partir en uniformes américains pour la forêt ou la campagne. Ce sont des enfants qui
+              peuvent avoir encore un foyer, un père, une mère, un tuteur, une grand'mère, une tante
+              ou une cousine, et qui sont vêtus comme tout le monde : il faut les chercher dans la
+              foule. Ce sont des petits bonshommes et des petites bonnes femmes, nés en pleine
+              tourmente, sous le régime de la carte de pain et des allocations. Ils ont vu les rues
+              du village ou de la ville pleines de troupes étrangères, américaines, anglaises,
+              belges ou exotiques; ils ont poussé au son du canon et n'ont connu, avant la paix,
+              qu'une fête, celle de l'Armistice.</p>
+            <p>Ce n'est pas une génération ordinaire. Il y avait près d'eux trop de larmes qui
+              coulaient, ou des joies trop malsaines. Leur père était au feu, leur oncle aussi, et
+              l'instituteur, et souvent le curé lui-même.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+            <p>Tous les hommes qu'ils voyaient portaient un uniforme et toutes les conversations
+              qu'ils entendaient tournaient autour de la guerre.</p>
+            <p>Voilà leur lot. Avant 1918, la plupart n'avait vu ni feu d'artifice, ni lampions, ni
+              drapeaux aux fenêtres. Et ils n'entendaient parler que de tués, de disparus et de
+              blessés.</p>
+            <p>Brusquement, dans la gêne du foyer atteint par la disparition ou par la blessure du
+              père, les voilà pupilles, de par la loi. Qu'est-ce que c'est? C'est de l'argent à
+              toucher, versé par l'Etat, et qui leur est dû. Ils ignorent tout le reste. Ils ne
+              connaissent, ni de loin, ni de près, les six lois qui régissent leur sort, ni les
+              vingt-neuf arrêtés ministériels qui s'occupent d'eux, ni aucun des textes dont ils
+              dépendent. Ils ne savent même pas s'ils ont des chefs. Ils ne connaissent, la plupart
+              du temps, pas toujours, et seulement de nom, rarement de vue, que le secrétaire de la
+              section cantonale, parfois celui de la section permanente de l'Office départemental,
+              et voilà tout.</p>
+            <p>J'enquête donc, à leur sujet. Je trouve immédiatement des abandonnés, des garçonnets
+              de seize ans vivant en hôtels meublés et livrés à eux-mêmes, et des fillettes que leur
+              maman a tout à fait oubliées. Il y en a. Il y a des mères qui se sont remariées, des
+              pères qui ont trouvé fortune ailleurs, et, même, une douzaine de marmots que
+              l'Assistance publique conserve, et qui ont tout perdu, même leur nom.</p>
+            <p>La chose m'émeut. Je cherche plus avant. Et je lis des tas d'imprimés. La loi,
+              d'abord. Puis, le recueil des textes - du 27 juillet 1917 au 9 octobre 1923. Je
+              compulse des circulaires, je feuillette des pages et des pages. J'apprends que
+              l'Office National est administré par un Conseil supérieur présidé par le ministre de
+              l'Instruction publique et composé de cent trente membres représentants de la nation -
+              sénateurs et députés, des conseils généraux et municipaux, - dont les maires des cinq
+              plus grandes villes de France et les présidents des Conseils généraux des cinq
+              départements les plus peuplés - et enfin des grands corps d'Etat et des groupements
+              sociaux. Je cherche la part des combattants dans cet aéropage. Il me semblait si
+              naturel qu'ils eussent la prépondérance dans une assemblée devant régir l'avenir des
+              enfants des copains! Je la découvre enfin. Il y a six délégués de l'Office National
+              des Mutilés et Réformés de Guerre, et douze délégués de l'un ou l'autre sexe des
+              Associations de Mutilés et Réformés, des Veuves et des Ascendants. En tout, dix-huit
+              membres sur cent trente. Me voilà bien étonné.</p>
+            <p>Alors, je me replie sur mon village : Paris. Là aussi, je cherche. J'obtiens la liste
+              des membres de l'Office pour le département de la <pb n="8"/>
+              <note type="foliation">— 6 —</note> Seine. Il y a le préfet de la Seine et le préfet
+              de police, le procureur de la République et six conseillers municipaux. Il y a le
+              représentant de la Chambre de Commerce et trois délégués cantonaux de la ville de
+              Paris. Bref, sur soixante-quinze membres, il y a neuf délégués des Associations de
+              Mutilés, Réformés, Veuves et Ascendants. Ici ou là, à l'Office national comme à
+              l'Office départemental, ils n'auront pas la majorité !</p>
+            <p>Mais l'Office départemental est administré par une "Section permanente " qui
+              surveille le secrétaire général, contrôle ses actes, ratifie ou non les mesures qu'il
+              a prises et fait, en somme, la pluie et le beau temps. Si, dans cette parlote, les
+              anciens combattants peuvent défendre leurs idées, soutenir leur morale et exposer
+              leurs désirs, le mal que j'entrevois et que déjà je crains, ne sera pas bien grand. Je
+              compte. La "Section permanente " se compose de dix-huit membres. Sur ces dixhuit
+              membres, il y a un ancien combattant !</p>
+            <p>Qu'est-ce que ça veut dire, sinon qu'on a éloigné le pupille de l'ancien combattant?
+              On n'a pas voulu que celui qui vit tomber le père se penchât sur le fils. On n'a pas
+              voulu que celui qui ramassa le père de famille éventré par l'obus veille ensuite sur
+              sa fille sans soutien. On a redouté peut-être qu'il rapportât de la tranchée des idées
+              " subversives " et le goût de la violence. On lui a pris sa place, tout
+              simplement.</p>
+            <list>
+              <item>C'était en 1917, dites-vous, en pleine guerre. On ne pouvait prévoir, alors que
+                tant de soldats reviendraient vivants...</item>
+            </list>
+            <p>Soit! Mais depuis? Qu'est-ce qu'on a fait pour ouvrir l'entrée de ces Conseils à ceux
+              qui revinrent du feu? Rien. On les a laissés à la porte. Et si la loi de 1922 les a
+              introduits dans la place, c'est au compte-gouttes. Ils n'ont aucune autorité.</p>
+            <p>Ainsi, ils ne sauraient être tenus pour responsables si quelque chose n'a pas marché
+              très bien dans l' "élevage " de 700.000 enfants.</p>
+            <list>
+              <item>Ils ont réclamé? Ils ont voulu, là aussi, prendre leur charge des devoirs et des
+                responsabilités?</item>
+            </list>
+            <p>De quoi se mêlaient-ils, vraiment! Est-ce au front qu'ils ont pu apprendre comment on
+              élevait des fillettes, et la meilleure manière de pourvoir un garçon d'un métier? Il
+              valait mieux laisser cette charge à ceux qui, pendant la bourrasque, demeuraient au
+              port et observaient l'orage. Ecarter l'homme de Verdun, l'homme du Chemin-des-Dames,
+              le héros de l'Yser et celui des Eparges de l'éducation des enfants des morts et des
+              blessés, c'était sagesse. A chacun son métier.</p>
+            <p>Oui? Alors, pourquoi y a-t-il donc, maintenant, des petits "inter- <pb n="9"
+                break="no"/>
+              <note type="foliation">— 7 —</note> nés " qui ne reçoivent jamais, ni une lettre, ni
+              une visite? Pourquoi y a-t-il des orphelins qui ne vont jamais en vacances? Pourquoi
+              en est-il d'autres qui ne savent pas ce que c'est qu'un cadeau de Noël, un œuf de
+              Pâques, une gâterie, un livre d'images ou un polichinelle? Pourquoi ramasse-t-on dans
+              les rues, la nuit, des pupilles de la nation qui vagabondent? Pourquoi y a-t-il des
+              yeux bleus, des yeux bruns, des yeux pers qui versent encore des larmes? Est-ce parce
+              que le camarade qui vit tomber le père ne vient pas consoler l'enfant?</p>
+            <p>Ces petits ont vécu dans une époque où le mercanti était roi. Ils n'ont peut-être
+              jamais entendu parler de devoir et de justice. L'Office n'a pas rédigé pour eux un
+              code de l'honneur. Il ne pèse pas sur les consciences : il les ignore. Il n'inculque
+              aucun principe. Il n'entend pas, la nuit, pleurer les enfants.</p>
+            <p>Administration "bénévolé " où les emplois payés le sont peu, il entend rester neutre.
+              Neutre absolument. C'est-à-dire qu'il ne lutte même pas pour répandre la morale la
+              plus simple du monde :</p>
+            <list>
+              <item>Tu es pupille de la nation, c'est un honneur : tu ne peux mentir ni
+                tricher.</item>
+            </list>
+            <p>Rien. Le vide. Ou, plutôt, le néant. Alors, les enfants poussent au hasard. Tant
+              mieux pour celui qui, favorisé, reçoit dans sa famille de bons conseils. Tant pis pour
+              l'autre! c'est la vie. L'un grandit, l'autre non; celui-ci est riche, celui-là pauvre.
+              Si tu veux t'instruire, tu le peux. Si tu n'y tiens pas, à la guise! Nous n'avons pas
+              de préceptes formulés à ton usage. Et je ne t'indique même pas quel est ton devoir
+              envers les morts.</p>
+            <p>Ça aboutit à quoi? A ceci : des centaines de pupilles passent, chaque année, devant
+              les tribunaux d'enfants. Et si, parmi les autres, ceux qui sont sages, on trouve de
+              futurs ingénieurs, de futurs artistes et de futurs savants, admis aux cours des
+              grandes écoles, s'il y a des adolescents dont s'enorgueillironi, plus tard, les
+              Offices, il y a, aussi, tant de démoralisés, de dévoyés et de "mauvaise graine ", que
+              le Sauvetage de l'Enfance n'a pas un pénitencier assez vaste pour les garçons, à
+              Grenoble, et qu'on va faire appel au Service social de l'Enfance en danger moral pour
+              sauver les moins atteints.</p>
+            <p>L'Office a mal assuré la surveillance, et sa tutelle est trop souvent tombée en
+              quenouille. Il plaide, certes, les circonstances atténuantes :</p>
+            <list>
+              <item>Il n'est pas facile de surveiller 700.000 enfants!</item>
+            </list>
+            <p>Bien sûr ! Encore que la plupart soient dans leur famille (la Seine, sur 69.000, en a
+              20.000 qui ne demandent rien). Mais les Associations d'Anciens Combattants, où le sens
+              moral est malgré tout plus, <pb n="10"/>
+              <note type="foliation">— 8 —</note> développé que chez les mercantis, pouvaient
+              aisément fournir le personnel de surveillance de tutelle nécessaire. Les poilus
+              auraient regardé vivre les mioches des camarades disparus. Ceux de la campagne
+              auraient volontiers reçu chez eux trois bambins en vacances : les petiots d'Un Tel, du
+              même régiment. Ceux de la ville auraient promené les mêmes citadins.</p>
+            <p>Rien. On n'a rien voulu. Ce ne sont même pas souvent des anciens combattants qui
+              dirigent les Offices. On a coupé en deux la grande famille des mobilisés. Ici, les
+              soldats ; là, les enfants. Les uns bataillent encore pour posséder leur Office du
+              Combattant. Les autres grandisseni loin d'eux, loin de leurs regards, loin de leurs
+              conseils, loin de leur affection.</p>
+            <p>Combien savent que des orphelins se suicident, qu'il arrive malheur à des orphelines?
+              Combien connaissent le nombre des orphelins de guerre qui ne savent ni lire ni écrire?
+              Car il y a ça, aussi : des gamins de quinze ans qui n'ont jamais épelé l'abécédaire,
+              et des gamines de seize ans qui ne savent pas enfiler une aiguille!</p>
+            <p>Tableau noir? Non! Je suis allé au fond des choses. J'ai touché de près les rivalités
+              confessionnelles ou politiques qui se disputent les enfants. Quelle proie! Toute la
+              génération de demain à saisir! J'ai épluché les comptes. J'ai parlé à des délégués
+              cantonaux, pleins de zèle, mais ignorant tout de leurs fonctions. J'ai causé avec des
+              mères, des nourrices et des instituteurs. J'ai visité, à la campagne, les pupilles
+              placés dans des familles paysannes. J'ai bercé la petite fille qui sanglotait parce
+              que sa maman ne donnait plus de ses nouvelles, et j'ai rassuré le garçon inquiet parce
+              qu'il ne possédait aucun métier.</p>
+            <p>J'ai trouvé des mines fraîches, des yeux éveillés, une enfance saine. Et je sais
+              regarder les enfants : je connais leurs bagnes, leurs patronages et leurs
+              pénitenciers. Je suis père, oncle et même beau-frère d'adolescents.</p>
+            <p>Nulle part, je n'ai rencontré d'idéal commun à tous. Ces petiis se laissaient
+              regarder, amoindris, comme des phénomènes. Ils étaient les orphelins. Même soignés,
+              même mieux vêtus que leurs compagnons de jeux des villages, ils se sentaient presque
+              des "enfants de l'hospice », - des abandonnés. Ils n'avaient pas, dans le regard, la
+              fierté qu'ils devraient avoir, si on leur avait dit :</p>
+            <list>
+              <item>Vous êtes les enfants des poilus!</item>
+            </list>
+            <p>Seuls, les anciens combattants pouvaient leur dire cela, sans doute. Pourquoi ne les
+              laissa-t-on pas faire? Qu'est-ce qu'on craignait, qu'on n'a pas dit? C'est avec cette
+              enfance-là, pourtant, que se reconstruira <pb n="11"/>
+              <note type="foliation">— 9 —</note> la France. Le pays sera demain ce qu'ils le
+              feront. Pensait-on que les combattants les pervertiraient? Ils avaient le droit de
+              s'occuper d'eux. S'être battu ne donne pas la science infuse. S'être abstenu non plus.
+              Mais c'est aux poilus que montera le rouge au front si l'on dit plus tard :</p>
+            <list>
+              <item>Il a mal tourné, ce petit : c'était un fils de combattant...</item>
+            </list>
+            <p>La génération sacrifiée devait veiller la suivante. Professeurs? Non! Mentors? Pas
+              davantage! Des grands frères et pas plus. On a tant rêvé à ce qu'on retrouverait, la
+              dernière gargousse éjectée, la dernière cartouche brûlée - quand la victoire serait
+              venue! Ce qu'on retrouverait? C'était ça : des petites mains, des petites bouches et
+              de grands yeux. On savait " ce qu'on ferait de son fils » et où l'on mènerait sa
+              fille. On avait eu le temps d'y réfléchir, de la mer aux Vosges, pendant quatre ans
+              !</p>
+            <p>Nul n'avait le droit de priver de ce rôle ceux qui n'ont survécu que pour les aimer -
+              eux. On n'avait pas le droit de laisser repousser l'égoïsme. Le combattant a donné sa
+              peau. Il aurait donné son cœur aussi.</p>
+            <p>Armé par les textes, chargé d'une mission de confiance resserrant les liens entre
+              tous, administrant l'Office des Pupilles, il aurait aussi bien que les autres conduit
+              la tâche pédagogique et distribué l'argent. Il aurait mieux, sans doute, assuré
+              l'enseignement moral et dégagé la doctrine - hors de toute politique.</p>
+            <p>Ecarté, suspect, l'ancien combattant examine, à présent, l'œuvre accomplie par ceux
+              qui l'évitèrent. Il les juge. Il souffre d'apercevoir des enfants malheureux.</p>
+            <list>
+              <item>Si on les lui rendait, pourtant?</item>
+            </list>
+            <p>Ce sont ses enfants - et ceux des camarades. Ils sont ses héritiers directs et
+              formeront la nation, demain. Ils seront ce qu'on les aura faits. On a oublié de
+              meubler leur conscience. Le combattant peut leur enseigner le sacrifice. Il sait ce
+              que c'est. Il doit revendiquer sa part dans leur éducation. Il y a un trou, il le
+              comblera. Il y a le temps, juste le temps; l'Office est créé pour seize ans, et c'est
+              aujourd'hui que les petits sont des adolescents, qu'il faut former leur âme. Qu'on
+              laisse faire les anciens combattants. Ils ont mérité leur crédit en n'effrayant
+              perscrne.</p>
+            <list>
+              <item>Ce qu'il faut faire?</item>
+            </list>
+            <p>Voici : une loi de plus. Elle modifiera la composition de l'Office National des
+              Pupilles de la Nation. C'est possible, il n'y a pas de lois intangibles. Celle du 27
+              juillet 1917 a été modifiée par celle du <pb n="12"/>
+              <note type="foliation">— 10 —</note> 26 octobre 1922. La nouvelle donnera
+              l'administration des pupilles aux anciens combattants. Elle donnera la conduite des
+              Offices à ceux qui se sont battus. Ils auront près d'eux les autorités consulaires
+              figurant sur les listes. Mais ils ne seront plus dix-huit sur cent trente à l'Office
+              national, neuf sur soixante-quinze à l'Office départemental, un sur dix-huit à la
+              Section permanente. Ils auront la majorité.</p>
+            <p>Qu'est-ce qu'on risque? Rien. Et ce sera justice. Et tout profit pour le pays; les
+              orphelins sauront de qui ils sont les enfants.</p>
+            <p>Emmanuel Bourcier.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Instruction
+              interministérielle</head>
+            <p>fixant les conditions d'application des articles 10, 55 et 64 de la loi du 31 mars
+              1919.</p>
+            <p>Le Titre II, "Frais d'hospitalisation ", de l'instruction interministérielle du 12
+              juin 1926 (Journal Officiel du 3 août 1926), fixant les conditions d'application des
+              articles 10,55 et 64 de la loi du 31 mars 1919 est modifié et complété comme suit
+              :</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">TITRE II Frais
+                d'hospitalisation.</head>
+              <p>Il résulte des trois articles de la loi du 31 mars 1919, dont les dispositions ont
+                été rappelées au début de la présente instruction, que les bénéficiaires de
+                l'article 10 peuvent être hospitalisés à trois titres différents : 1<hi
+                  rend="superscript">°</hi> Le pensionné faisant valoir le droit que lui reconnaît
+                l'article 10 se fait hospitaliser pour se procurer, sous une forme autre que l'aide
+                d'une tierce personne, l'assistance qui lui est indispensable pour accomplir les
+                actes essentiels à la vie ; l'état de l'invalide relève de l'hospice, plutôt que de
+                l'hôpital. L'intéressé, qui est toujours alors admis dans un établissement public,
+                doit subir le prélèvement des frais d'hospitalisation. Le prélèvement porte sur la
+                pension principale, compris la majoration de l'article 12, s'il la touche et le
+                supplément spécial tem- <pb n="13" break="no"/>
+                <note type="foliation">— 11 —</note> poraire correspondant, sur l'allocation
+                spéciale temporaire aux grands invalides.</p>
+              <p>Par contre, aucune retenue ne doit être opérée sur les majorations d'enfants et les
+                suppléments spéciaux temporaires correspondants, non plus que sur les majorations
+                supplémentaires temporaires :</p>
+              <p>2° Le caractère de l'affection et la nature des soins qu'elle exige sont tels que
+                le traitement ne pourrait pas être pratiqué au domicile du malade ou dans un
+                hospice, mais qu'il nécessite médicalement parlant, l'hospitalisation proprement
+                dite, en raison d'accidents ou de complications de la blessure ou de la maladie qui
+                a motivé la pension.</p>
+              <p>L'hospitalisation a lieu suivant les règles établies par le décret du 25 octobre
+                1922, pour l'application de l'article 64 de la loi du 31 mars 1919, modifié par
+                l'article unique de la loi du 21 juillet 1922, et les frais de cette hospitalisation
+                sont à la charge de l'État. Le préfet les mandate au profit des établissements
+                intéressés par imputation sur les crédits budgétaires.</p>
+              <p>Toutes les fois qu'un bénéficiaire de l'article 10 sera admis dans un hôpital, sans
+                qu'il ait été spécifié par la préfecture que l'hospitalisation est effectuée, soit
+                au titre de l'article 10, soit au titre de l'article 64 de la loi du 31 mars 1919,
+                la direction de l'établissement provoquera immédiatement auprès de la préfecture un
+                avis de la Commission tripartite départementale fixant ce point particulier.</p>
+              <p>3° ...</p>
+              <p>Le reste sans changement.</p>
+              <p>Paris, le 7 mai 1927.</p>
+              <p>Le Président du Conseil, Ministre des Finances :</p>
+              <p>Raymond Poincaré.</p>
+              <p>Le Ministre des Pensions :</p>
+              <p>Louis Marin.</p>
+              <p>Le Ministre du Travail, de l'Hygiène, de l'Assistance et de la Prévoyance sociales
+                :</p>
+              <p>André Fallières.</p>
+              <p>(J. O. du 12 mai 1927, page 5031.)</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">Les Légions d'honneur
+              héroïques</head>
+            <p>Profondément émus par certains scandales qui risquèrent, un moment, de discréditer en
+              France et à l'étranger, l'Ordre glorieux de la Légion d'honneur, les légionnaires qui
+              conquirent en exposant leur vie, l'insigne honneur d'agrafer sur leur tunique ou sur
+              leur veston ce petit centimètre de ruban rouge, éprouvèrent soudain le besoin de se
+              compter, de se connaître, et même de contribuer, par leur exemple et leur action, à en
+              maintenir le prestige.</p>
+            <p>L'un d'entre eux, M. Maurice d'Hartoy, dont la conduite, pendant la guerre, fut
+              particulièrement remarquable, assura leur rassemblement.</p>
+            <p>L'Association était fondée. Placée sous le haut patronage symbolique du Soldat
+              Inconnu, mort pour la France sur le champ de bataille, elle prit, le 25 janvier 1927,
+              le nom d' "Association des Membres de la Légion d'honneur décorés au péril de leur vie
+              ».</p>
+            <p>Installée, 10, rue Saint-Louis-en-l'lle, dans les bureaux de la Fédération Nationale
+              des plus grands Invalides de Guerre, son ambition n'est point de monopoliser le
+              mérite, ni sa pensée de contester le mérite des légionnaires admis dans l'Ordre au
+              titre d'un loyal passé ou pour services rendus à la science ou aux arts.</p>
+            <p>Elle ne veut que grouper en une vivante et utile amicale ceux qui, sans exception,
+              auront obtenu le ruban rouge au danger, rappelant ainsi au pays, éfaré par trop de
+              rumeurs fâcheuses, que l'Ordre de la Légion d'honneur compte encore de nombreuses
+              croix attribuées pour un dévouement périlleux et souvent même au prix du sang.</p>
+            <p>Les adhésions justifiées sont reçues au siège social de l'Association, 10, rué
+              Saint-Louis-en-l'Ile.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">C'est presque la lumière
+              !...</head>
+            <p>La France a toujours aimé les aveugles et les a entourés de sa sympathie. Valentin
+              Haüy et le vaillant Braille leur ont appris à entrer en relations avec le monde
+              extérieur. Ernest Vaughan a inventé, pour eux, l'imprimerie Braille. Comment n'a-t-on
+              pas encore songé à leur offrir, à tous, un appareil de T. S. F.? Par lui ils auront
+              des compagnons familiers, ils apprendront, ils sauront, ils se cultiveront l'esprit.
+              Songez que les bibliothèques en Braille sont rares, qu'il faut aux <pb n="15"/>
+              <note type="foliation">— 13 —</note> emmures, des lecteurs bénévoles ou des
+              secrétaires coûteux. Les Aveugles de Guerre ont des difficultés à se familiariser avec
+              l'écriture en relief. S'ils n'habitent pas des agglomérations, ils demeurent seuls,
+              avec leur pensée, et n'ont pour espérance que la musique, angélique consolatrice.</p>
+            <p>La T. S. F. pour eux, c'est presque la lumière. On l'a compris en Angleterre et en
+              Allemagne. Il faut qu'on i'admette, en France. Nous avons attendu, vainement, qu'une
+              organisation se créât avec ce noble idéal : fournir, à tous les aveugles, un appareil
+              récepteur. Nous l'aurions appuyée de toutes nos forces, de tout notre cœur. Puisqu'on
+              a tant tardé, nous allons grouper toutes les bonnes volontés. Il ne peut pas être dit
+              que la France est en retard quand il s'agit de solidarité, de fraternité.</p>
+            <p>J'aime les aveugles, peut-être parce que j'ai failli entrer dans leur famille,
+              peut-être parce que je leur dois beaucoup, car je les ai beaucoup fréquentés, dans mon
+              adolescence. Ils sont joyeux et bons. Ils sont ingénieux. Ils ont des réflexions
+              admirables et révélatrices. Or, la radiophonie leur rendra tant de services, qu'il
+              faut la metire à leur portée. C'est un bienfait social que de réaliser ce rêve.</p>
+            <p>Un mouvement national sera suscité puisqu'il est indispensable. Vous, pour qui la T.
+              S. F. est précieuse, songez qu'elle est tout pour les aveugles. Vous vous associerez à
+              notre campagne et quand l'appel sera lancé vous y répondrez.</p>
+            <p>Il faut que chaque aveugle de France puisse écouter, chez lui, commodément, les voix
+              du monde : on ne s'adresse jamais en vain à nos compatriotes. Ils comprendront.</p>
+            <p>Pour le moment, nous dressons, d'abord, le Comité indispensable, car c'est toute la
+              France, et pas seulement les sans-filistes, qui doit penser aux aveugles et leur
+              manifester.</p>
+            <p>Maurice Privas.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">INFORMATIONS</head>
+            <p>Le 2 mai ont eu lieu les obsèques de Mme Waubert, veuve de l'ancien agent de change,
+              qui a institué l'U. A. G. sa légataire universelle.</p>
+            <p>Vingt-six camarades ont assisté à la cérémonie religieuse et six d'entre eux ont
+              accompagné notre bienfaitrice jusqu'à sa dernière demeure.</p>
+            <p>Un service solennel a été célébré, le dimanche 15 mai, à SaintLouis des Invalides,
+              pour les morts de l'Argonne.</p>
+            <p>L'U. A. G. était représentée, à cette cérémonie, par une délégation, et son drapeau
+              porté par le tout dévoué président du Comité d'action.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">LES OPERATIONS DU DOCTEUR
+                BONNEFON</head>
+              <p>Les lecteurs de notre Bulletin ont déjà lu, à maintes reprises, les articles
+                concernant les opérations pratiquées par M. le docteur Bonnefon, qui avait réussi à
+                rendre un peu de lumière à des Aveugles de Guerre considérés comme incurables.</p>
+              <p>Ces opérations ont provoqué des protestations regrettables parmi un certain nombre
+                d'oculistes français qui n'ont vu là qu'un tremplin de réclame.</p>
+              <p>La polémique engagée par ces praticiens a provoqué, chez les Aveugles de Guerre, un
+                certain scepticisme qui, jusqu'à ce jour, a empêché un certain nombre de nos
+                camarades hésitants de se rendre à Bordeaux.</p>
+              <p>Me trouvant, moi-même, dans cet état d'esprit, après avoir lu le long article
+                publié par Le Petit Journal, en février dernier, je décidai de tenter la chance.
+                Bien m'en a pris. Pour les camarades hésitants et sceptiques, je me permets de venir
+                leur raconter mon histoire, dont l'authenticité peut être attestée par ceux qui me
+                connaissent.</p>
+              <p>Mon histoire est celle de tous les mutilés aveugles. Blessé par obus, le 3 mars
+                1916, amputé du bras droit, l'œil droit arraché, l'œil gauche grièvement blessé par
+                éclat métallique et pierres</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>projetées, après un traitement de sept mois, je quittais l'hôpital avec un
+                vingtième de vision sans netteté.</p>
+              <p>En 1917, une première complication sous forme de décollement de la rétine. Fort
+                bien soigné, je guéris, mais avec un abaissement de mon degré de vision. En 1922,
+                nouvel accident sous forme de cataracte traumatique. Après opération et muni de
+                verres correcteurs je retrouvais mon vingtième de vision.</p>
+              <p>En 1925, nouvel accident sous forme de cataracte secondaire compliquée d'une
+                membrane nerveuse ou charnue tendant à couvrir la partie supérieure de l'œeil.</p>
+              <p>Après cette opération, mon degré de vision s'était encore amoindri et les jours de
+                grande lumière ou même de pluie avec rayons transparents du sol, je ne me conduisais
+                qu'avec difficulté.</p>
+              <p>Pendant les vacances à Franceville, en 1925, je pouvais sortir seul sur les dunes,
+                et même sortir quelques camarades.</p>
+              <p>Au mois d'août 1926, les mêmes camarades pouvaient constater que j'avais beaucoup
+                de difficulté à sortir seul de la propriété de I'U. A. G.</p>
+              <p>Depuis cette date, ma vision n'avait fait que diminuer, et en février dernier, je
+                ne distinguais plus l'entrée même des magasins ou boutiques où j'avais l'habitude
+                d'aller tous les jours.</p>
+              <list>
+                <item>Je me rendis à Bordeaux. Le docteur Bơanefon, d'un abord facile, me questionna
+                  longuement sur ma blessure et sur la nature des divers opérations ou traitements
+                  que j'avais subis.</item>
+              </list>
+              <p>Après un examen attentif de mon oeil, après m'avoir vanté les qualités
+                professionnelles de M. Kalth, chef de service des Quinze-Vingts, qui m'a toujours
+                traité et à qui je garde toute ma confiance et ma profonde reconnaissance, M.
+                Bonnefon décida de m'opérer.</p>
+              <p>Médicalement parlant, ce que m'a fait M. Bonnefon, je ne saurais le dire. Ce que je
+                puis affirmer, c'est qu'après un traitement de huit jours à la Clinique Tivoli, je
+                quittais Bördéaux avec deux dixièmes de vision. Muni de nouveaux verres correcteurs,
+                j'arrive à me conduire assez facilement, et, pour la première fois depuis 1916,
+                j'arrive à mettre un nom sur une figure.</p>
+              <p>Que dire de plus? si ce n'est pour me joindre à la phalange des rescapés de M.
+                Bonnefon pour adresser à ce dernier l'expression de toute ma reconnaissance, et
+                souhaiter aux camarades qui tenteront la chance, de pouvoir sortir du royaume des
+                enténébrés dont nous seuls connaissons la tristesse.</p>
+              <p>Paul Toutain.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">OFFRE EXCEPTIONNELLE DU
+                CAMARADE LEVEAU</head>
+              <p>Le "Grand Saumur ", méthode champenoise, est un excellent vin mousseux choisi parmi
+                les meilleurs crus du Saumurois.</p>
+              <p>Quatre étoiles, 12 francs. Trois étoiles, 11 francs. Deux étoiles, 10 francs. Une
+                étoile, 9 francs.</p>
+              <p>Grand vin rouge mousseux, 9 francs. Grands vins mousseux très bon choix : Prince de
+                Galles, carte d'or, 8 fr. 50. Duc d'Horfranc, carte d'or, 8 francs.</p>
+              <p>Pour tous les prix, 2 francs en plus par deux demies. Marchandises prises à Chacé,
+                franco d'emballage par 25 bouteilles, supplément 2 francs par caisse de moins de 25
+                bouteilles. Valeur : soixante jours net.</p>
+              <p>Ecrire au camarade D. Leveau, 25, rue de Jemmapes, à Angers (Maine-et-Loire).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">A VENDRE</head>
+              <p>Un quadricycle pour aveugle et son guide, avec moteur et pédales, en très bon état
+                de marche. Essayage avant l'achat.</p>
+              <p>Pour tous renseignements, s'adresser au camarade Bourseillier (Fernand), 22,
+                faubourg Saint-Savignien, Villeneuve-sur-Yonne (Yonne).</p>
+              <p>Outillage complet de vannier, à des conditions avantageuses. S'adresser au camarade
+                Julien Briffaut, à Franceville, par Merville (Calvados).</p>
+              <p>Maison à proximité de la porte de Bagnolet, composée : Au rez-de-chaussée, deux
+                pièces et une boutique, libre de suite. Au premier étage, trois grandes pièces.
+                Montée sur cave, grande cour cimentée, gaz. Grandes facilités de paiement. Prix :
+                32.000 francs. Pour visiter, adresser à Mme Baron, 8, passage du Monténégro, (dans
+                la rue de Romainville), Paris ( 19<hi rend="superscript">°</hi> arr.).</p>
+              <p>Le camarade Cordon (Edouard), domicilié, 63 bis, rue Grande, à Ezy (Eure), serait
+                désireux d'acheter un tandem avec place de dame à l'avant.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Le camarade Guermonprez, 20 bis, rue de la Gendarmerie, W atirelos (Nord), demande
+                aux camarades habitant la campagne de lui faire connaître une maison à louer pour
+                juillet, de préférence dans le département de l'Aisne ou dans l'Oise.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">BIBLIOGRAPHIE</head>
+              <p>La Société d'Impression et de Reliure du Livre pour les Aveugles nous communique la
+                liste suivante des livres qu'elle a fait paraître ou qui sont sous presse.</p>
+              <p>Livres parus :</p>
+              <p>Aicard, Maurin des Maures. 11 vol. (Pr nos av.). Baudrillard et Letrait, Lectures
+                leçons de choses. 2 vol. (Pr nos av.). Bossuet, Méditations sur l'Evangile (suite).
+                Bertheroy, La Fille au turban vert. 4 vol. ab. (Phare). Cahuet, Le Masque aux Yeux
+                d'Or. 6 vol. ab. (Phare). Danritt, Robinsons de l'air. 9 vol. (Pr nos av.). Dekobra,
+                Mon cour au ralenti. 7 vol. ab. (Phare). Delavoix et Golin, Livre de lecture pour le
+                C. L. P. 5 vol. ab. (Saint-Mandé). Divers auteurs. Poèmes à dire. 1 vol. ab.
+                (Phare). Girardot, Voulez-vous des histoires d'enfant. 3 vol. (Pr nos av.).
+                Goncourt, Les Frères Zemgano. 5 vol. Larrouy, Coup de roulis. 8 vol. ab. (Phare).
+                Leblond (M.-A.), L'Amour sur la Montagne. Longworth-Chambrun, Le Nouvelle Desdémone.
+                3 vol. ab. (Phare). Louys, Aphrodite, 6 vol. ab. (Phare). Maupassant, Conte de la
+                Bécasse. 4 vol. ab. (Phare). Mironneau, Livre de Lecture, cours élém., 2<hi
+                  rend="superscript">e</hi> degré. 11 vol. (Pr nos av.). Robert. La Grande
+                Catherine. 2 vol. ab. (Phare). Somne-Tcheng, Souvenirs d'enfance et de révolution. 2
+                vol. Tinayre. Vie amoureuse de Mme de Pompadour. 4 vol. ab. (Phare). Toulu, Lectures
+                émouvantes. 2 vol. (Pr nos av.). Toutey, Lectures primaires, cours élém. 1 vol. (Pr
+                nos av.). Turquan, Les Sœurs de Napoléon. 14 vol. ab. (Phare). Monologues pour
+                enfants. 1 vol.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+              <p>Liores sous pressa : Barthou, Vie amoureuse de Wagner, Ab. Bonnefon, Histoire de
+                l'Allemagne. 16 vol. ab. (Phare). Colomb, Enseignements scientifiques à l'écolè
+                (Saint-Mändé). Flers et Croisset, Ces nouveaux messieurs. 3 vol. ab. (Phare).
+                Fromentin, Dominique. 6. vol. ab. (Phare). Mironneau, Livre de lecture, cours moyen,
+                  1<hi rend="superscript">er</hi> degré. 2 vol. (Pr nos av.). Pérochon, Cordes pour
+                dormir à la veillée. Rolland, Lectures encyclopédiques, cours moyen et supérieur. 2
+                vol. (Pr nos av.). SÉVIGNÉ (Mme DE), Lettres. Bible en latin. La Famille Kerdalec au
+                Soudan. (Pr nos av.), Adresser les demandes au Secrétariat de la Société, 2,
+                boulevard Lannes, Baraque 27, Paris.</p>
+              <p>Aux Editions "Pro Arte.», Paris, 26, rue de Turin, Marseille, 19, place
+                Sébastopol.</p>
+              <p>A paraître fin mai: Le Choc. - Roman de Georges Finaud, des écrivains combattants,
+                avec un bois gravé de Claire Finaud-Bounaud. Un volume in-16 de 240 pages. Prix : 12
+                francs. "Voici le livre le plus puissant qui soit par sa virulence douloureuse, son
+                angoissante sincérité, sa thèse généreuse et hardie. Georges Finaud, l'écrivain
+                grand mutilé, romancier talentueux, qui a déjà conquis l'admiration et les faveurs
+                du public et de la critique nous offre aujourd'hui : Le Choc, appelé au
+                retentissement le plus notoire, tant pour les idées émises que par la force avec
+                laquelle elles sont créées. Les sentiments y sont à vif : souffrances qui hurlent,
+                étreintes d'amoureux farouches, heurts tragiques, héroïsmes forcenés. L'action
+                civique des rescapés de la guerre y est traitée avec acuité et autorité par Georges
+                Finaud, militant connu des Associations de Mutilés de France, Le Choc c'est celui de
+                ceux qui ont souffert contre ceux qui en ont profité, l'accouplement des chairs
+                ivres de volupté. Le Choc ! c'est celui des idées, c'est le souffle de l'esprit
+                combattant qui inspire les pages les plus âpres et les plus éloquentes. Le Choc sera
+                critiqué férocement comme ovationné avec enthousiasme, c'est la marque des ceuvres
+                de pre- <pb n="21" break="no"/>
+                <note type="foliation">— 19 —</note> mier plan. Nous vous offrons ce livre comme tel
+                : nul ne nous contredira. »</p>
+              <p>J. S.</p>
+              <p>Pour les éditions ordinaires, en vente dans toutes les librairies. Pour les
+                associations de mutilés et groupements divers, nos éditions consentent des remises
+                spéciales :</p>
+              <p>Des colis de 10 exemplaires leur seront fournis au prix de 105 fr. 50 franco de
+                port.</p>
+              <p>Des colis de 20 exemplaires leur seront fournis au prix de 196 fr . franco de
+                port.</p>
+              <p>Des colis de 50 exemplaires leur seront fournis au prix de 450 fr . net.</p>
+              <p>Prière de les retenir immédiatement. Paiement à échéance convenue.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 15 avril et le 15 mai. une somme de
+                7.200 francs, se répartissant comme suit :</p>
+              <table>
+                <row>
+                  <cell>Décès et couronnes.</cell>
+                  <cell>Fr.</cell>
+                  <cell>3.850</cell>
+                </row>
+                <row>
+                  <cell>Naissances</cell>
+                  <cell>"</cell>
+                  <cell>2.600</cell>
+                </row>
+                <row>
+                  <cell>Secours</cell>
+                  <cell>"</cell>
+                  <cell>750</cell>
+                </row>
+                <row>
+                  <cell/>
+                  <cell/>
+                  <cell>7.200</cell>
+                </row>
+              </table>
+              <p>Il y a lieu d'ajouter à ces 7.200 francs une somme de 2.000 francs pour prêts de
+                maisons familiales.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner 8 demandes de secours, dont 4
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h23">NAISSANCES</head>
+                <p>Notre camarade et Madame Chasselade, de Courpières (Puy-deDôme), nous font part
+                  de la naissance de leur fille Eugénie, née le 14 avril 1927.</p>
+                <p>Notre camarade et Madame Foubet, de Yvrencheux (Somme), nous font part de la
+                  naissance de leur troisième enfant, Lucienne, née le 10 avril 1927.</p>
+                <p>Notre camarade et Madame Ternisien de Colline, de Beaumont (Pes-de-Calais), nous
+                  font part de la naissance de leur fille, Marguerite, ré le 22 mars 1927.</p>
+                <p>Notre camarade et Madame Souverain, de Neuilly-Plaisance (Seine-et-Oise), nous
+                  font part de la naissance de leur fils, Etienne, né le 10 avril 1927.</p>
+                <p>Notre camarade et Madame Delacroix, de Beauvais (Oise), nous font part de la
+                  naissance de leur deuxième enfant, Arlette, née le 21 avril 1927.</p>
+                <pb n="23"/>
+                <note type="foliation">— 21 —</note>
+                <p>Notre camarade et Madame Savigny, de Droué (Loir-et-Cher), nous font part de la
+                  naissance de leurs deux filles, Hélène et Simone, nées le 22 avril 1927.</p>
+                <p>Notre camarade et Madame Pierre Michon, de Tarbes (HauiesPyrénées), nous font
+                  part de la naissance de leur deuxième enfant Edouard, né le 27 avril 1927.</p>
+                <p>Notre camarade et Madame Billard, de Pont-de-Labeaume (Ardèche), nous font part
+                  de la naissance de leur fille Yvette, née le 28 avril 1927.</p>
+                <p>Notre camarade et Madame Camuset, de Auvet, nous font part de la naissance de
+                  leur deuxième enfant, Emile, né le 24 avril 1927.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h24">MARIAGES</head>
+                <p>Jeune fille désireuse se marier avec aveugle de guerre. Ecrire à 1'Union.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h25">DÉCÉS</head>
+                <p>Nous apprenons le décès : De notre camarade Bernier, de Breil (Maine-et-Loire),
+                  décédé le 19 avril 1927, à 30 ans.</p>
+                <p>De notre camarade Palezis (Marcelin), de Sauveterre-de-Béarn (Basses-Pyrénées),
+                  décédé le 15 avril 1927, à 41 ans.</p>
+                <p>De notre camarade Bouvard (Ambroise), de Levallois-Perret (Seine), décédé le 1<hi
+                    rend="superscript">er</hi> mai 1927, à 52 ans.</p>
+                <p>De notre camarade Carlo Sklarg, de Paris, décédé le 9 mai 1927, à
+                  Cambo-les-Bains, à 37 ans.</p>
+                <p>De la femme de notre camarade Cariou, de Paris, décédée le 18 avril 1927, à 43
+                  ans.</p>
+                <p>De la femme de notre camarade Aubert, du Mans (Sarthe), décédée le 12 mai
+                  1927.</p>
+                <p>Du fils de notre camarade Devienne, de Cochet (Seine-et-Oise), décédé le 4 mai
+                  1927, à 3 ans.</p>
+                <p>Du fils de notre camarade Devèze, de Nîmes, décédé le 6 mai 1927, à 16 ans.</p>
+                <p>Du père de notre camarade Goussé, de Craon, décédé le 21 avril 1927.</p>
+                <p>Du père de notre camarade Carpentier, de Saacy-le-Grand (Oise). De la mère de
+                  notre camarade Rouhaud, décédée le 14 avril 1927, à 53 ans.</p>
+                <pb n="24"/>
+                <note type="foliation">— 22 —</note>
+                <p>De la soeur de notre camarade Dölmière, de Lyon-Montchat, décédée le 14 avril
+                  1927.</p>
+                <p>Du frère de notre camarade Renat, d'Aurillac (Cantal), décédé le 20 mars
+                  1927.</p>
+                <p>De la belle-mère de notre camarade Camuset, d'Auvet, décédée le 20 avril
+                  1927.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Félicitations</p>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui,
+                malgré le rachat antérieur de leurs cotisations, ont tenu néanmoins à effectuer un
+                nouveau versement :</p>
+              <p>Bourel (Elie), 30 fr. - Renaudineau, 10 fr. - Marchan, 5 fr. - Godefroy, 5 fr. - Le
+                Nahuec, 20 fr. - Mansuy, 50 fr. Legrand (Georges), 40 fr. - Basile, 10 fr. - Devèze,
+                10 fr. Richard (Elie), 10 fr. - Dubos, 5 fr. - Léyy (F.), 50 fr. - Haçhez, 10 fr. -
+                Maguet, 10 fr. - Epaud, 50 fr. - Ravel, 50 fr. Cardot, 30 francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">COTISATIONS REÇUES A LA DATE
+                DU 15 MAI</head>
+              <p>Gautier (R.), Eychenne, Josse, Lecomte, Miremont, Bris, Domenger, Coussin,
+                Petrucci, Mirault (M.) Pôtereau, Hamel, Cailleau, Tourrès, Carudel, Latrille,
+                Camerle, Lemaire (G.), Cabannot, Martin (P.), Guermonprez, Cordon, Mayet, Cure, Le
+                Bôyne, Monnier (F.), Oudinoi, Maes, Catillon (G.), Houpert (P.), Jabouille, Simon
+                (F.), Vidal (A.), Lefebvre (J.), Change, Mouisset, Mánche, Gilles (R.), Défours,
+                Riffaud, Delhomais, Mâzaudier, Paradis, Marion, Théodule, Chaplain, Semin, Berton
+                (R.), Davaillon, Miniou, Terssier (E.), Méyer (F.), Le Viavant, Coulard, Noël (A.),
+                Buy (B.), Guesnier, Grobi, Estorjes, Balagny, Daridan, Virot, Chapeau, Darras,
+                Verdier, Breval, Fondement, Boudot, Múlsant, Néél, Pouil, Moiroud, Duc, Vaudelin,
+                Ponthier, Girault, Saint-Amans, Fournier (P.), Amblard, Moumier (F.), Verdure,
+                Bordier, Lescadieu, Marieau, Chassagny, Chambert, Berger, Labbé, Cailleaux,
+                Enjalbert, Hutin, Mapey, Luc, Mathay, Desjardins, Denis, Moron, Le Floch (J.),
+                Dussaud, Laloit, Lajous, Montet (E.), Devidal, Chusseau, Peuger, Jeanniard, Mille,
+                Ralfa (J.-M.), Martin (L.), Archambault, Baudon, Forgeot, Dentroux, Bous- <pb n="25"
+                  break="no"/>
+                <note type="foliation">— 23 —</note> seillier, Guilpain, Horlon, Delahaie, Léger
+                (L.), Barlet, Vial (F.), Laborie, Rorhet, Dupuis (J.), Veyret, Drion (L.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Proces-Verbal de la Séance
+                du Conseil d'Administration du 30 AVRIL 1927</head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence de Scapini. Sont présents:
+                Scapini, Noireaux, Grillet, L'Evesque, Favret, Bardoux, Bertrand, Bloncourt, Bois,
+                Conan, Courteix, Guillam, Laffargue, Lagarde, Malgai, Muller, Nicolaï, Virot.</p>
+              <p>Les camarades : Gudefin, Saillot. M. le baron de Traversay, président du Comité
+                d'action.</p>
+              <p>Se sont excusés : Arnault, Cabasson, Derunder, Lallemeat, Lauté, Robert,
+                Toudouri.</p>
+              <p>Ont donné leurs pouvoirs : Au président : Lallement. A Noireaux : Derunder. Au
+                secrétaire général : Arnault, Cabasson, Robert, Toudouri. A Conan : Lauté. 1<hi
+                  rend="superscript">°</hi> Lecture du procès-verbal de la dernière séance. Ce
+                procès-verbal est adopté à l'unanimité. 2<hi rend="superscript">°</hi> Lecture de la
+                situation financière de mars 1927. Adoptée à l'unanimité. 3<hi rend="superscript"
+                  >°</hi> Démissions. Lecture des lettres d'administrateurs de province. 1<hi
+                  rend="superscript">°</hi> Démission de Courteix. - La motion suivante présentée au
+                Conseil par le Bureau est adoptée à l'unanimité. "Le Conseil d'administration
+                exprime au camarade Courteix les très vifs regrets que lui cause son départ du
+                Bureau, et le remercie d'avoir avec tant de tact et de dévouement rempli ses
+                fonctions de vice-président. " 2<hi rend="superscript">°</hi> Démission de Dufourc.
+                - Le Conseil prend acte de la démission du camarade Dufourc, et décide de l'accepter
+                en regrettant des raisons personnelles qui l'obligent à la remettre. 4<hi
+                  rend="superscript">°</hi> Franceville. Lecture des lettres d'administrateurs de
+                province. Le Bureau soumet au Conseil le devis estimatif des travaux à effec- <pb
+                  n="26" break="no"/>
+                <note type="foliation">— 24 —</note> tuer à Franceville, travaux qui ont fait
+                l'objet d'un accord au précédent Conseil. Le total des dépenses s'élève à 23.775 fr
+                .40.</p>
+              <p>Le Conseil accepte le devis qui lui est présenté et demande au Bureau de se mettre
+                d'accord avec l'architecte pour la transformation des six chambres de célibataires
+                en trois petits logements, chambre et cuisine. 5<hi rend="superscript">°</hi>
+                Propagande : projet de tombola. Lecture des lettres d'administrateurs de province.
+                Le Secrétaire général met le Conseil au courant du projet de tombola établi par le
+                Bureau qui a fixé le prix du billet à 2 francs et le nombre de billets à 250.000 .
+                Après un échange de vues auquel prennent part le Président, le Secrétaire général,
+                le Trésorier, Grillet, Courteix, Bois et Gudefin, le Conseil accepte le principe de
+                la tombola et demande au Bureau d'en étudier avec la Commission les moyens de
+                réalisation. 6<hi rend="superscript">°</hi> Acceptation de legs. 1<hi
+                  rend="superscript">°</hi> Legs Belin : Le Conseil d'administration, après avoir
+                pris connaissance des dispositions testamentaires, en date du 27 mars 1919, de Mme
+                Vve Belin, née Frechot, décédée le 23 février 1927, en son domicile, 14, avenue de
+                la République, à Paris, par lesquelles elle lègue pour les Aveugles de guerre au
+                Bureau des Annales, 51, rue Saint-Georges, pour remettre à M. Brieux, une somme de
+                2.000 francs nette et quitte de tous frais.</p>
+              <p>Considérant que M. Brieux étant le président honoraire de notre groupement,
+                celui-ci est qualifié pour recevoir le legs;</p>
+              <p>Considérant que l'intention de la donatrice était bien de faire bénéficier les
+                Aveugles de guerre de notre Union, le Conseil d'administration, à l'unanimité,
+                accepte cette donation et donne tous pouvoirs au trésorier de l' "U. A. G. " pour
+                l'encaisser au nom de ladite Société, prendre tout engagement et faire le
+                nécessaire.</p>
+              <p>2<hi rend="superscript">°</hi> Legs Waubert :</p>
+              <p>Le Conseil d'administration, après avoir pris connaissance des dispositions
+                testamentaires, en date du 25 novembre 1925, de Mme Vve Jacques-Edmond-Lucien
+                Waubert, née Lucie-Marie-Louise Massue, décédée le 29 avril 1927, en son domicile,
+                6, rue Raynouard, à Paris, par lesquelles elle nomme M. Sauvier, demeurant 5, avenue
+                Alphand, à Paris, son exécuteur testamentaire et ses légataires universels les <pb
+                  n="27"/>
+                <note type="foliation">— 25 —</note> Aveugles de guerre, 25, rue Ballu, le Conseil
+                d'administration accepte à l'unanimité ces dispositions testamentaires et donne tous
+                pouvoirs au trésorier de l' U. A. G. " pour encaisser le legs au nom de ladite
+                Société, prendre tout engagement et faire le nécessaire. 7<hi rend="superscript"
+                  >°</hi> Projet de Caisse mutuelle de retraite des veuves et orphelins d'Aveugles
+                de guerre.</p>
+              <p>Lecture des lettres d'administrateurs de province. Le trésorier rapporteur fait un
+                exposé brillant de cette question. A la suite d'une discussion à laquelle prennent
+                part tous les administrateurs présents, le secrétaire général propose de nommer une
+                Commission. Cette Commission est composée de : Muller, Bloncourt, Laffargue,
+                Nicolaï, Lauté et Guillam. 8<hi rend="superscript">°</hi> Questions diverses. 1<hi
+                  rend="superscript">°</hi> Désignation d'un candidat au Comité départemental des
+                mutilés et réformés de la Seine.</p>
+              <p>Le Président propose au Conseil la nomination de Favret qui a déjà rempli ces
+                fonctions au Comité départemental des mutilés et réformés de la Seine.</p>
+              <p>Le Conseil, à l'unanimité des membres présents, demande à Favret d'accepter les
+                fonctions de membre du Comité départemental des mutilés de la Seine.</p>
+              <p>Favret remercie les administrateurs de la nouvelle marque de confiance qu'ils lui
+                témoignent. 2<hi rend="superscript">°</hi> Acceptation de 28 camarades alsaciens
+                comme membres de l'Union.</p>
+              <p>Les Aveugles de guerre, dont les noms suivent, sont acceptés à l'unanimité, moins
+                une abstention :</p>
+              <p>Müller, Ott, Backert, Ledig, Harter, Keller, Netter, Wendling, Wimlon, Fimbel,
+                Harrenberger, Hoppé, Barth, Eckert, Michel, Galbourdin, Auburtin, Lantwein,
+                Grienenberger, Herda, Dargegen, Kribs, Mangold, Becker, Stolz, Leibel, Hauptmann,
+                Vogt. 3<hi rend="superscript">°</hi> Assemblée générale de l'Euvre "Les Amis des
+                Soldats Aveugles ".</p>
+              <p>Lecture est donnée d'une lettre que cette Société nous adresse, pour nous inviter à
+                assister à son Assemblée générale qui aura lieu le 7 mai 1927 à l'Hôtel de la
+                Société des Ingénieurs Civils de France, 19, rue Blanche, Paris.</p>
+              <p>Le Président prie les administrateurs de se rendre à cette Assemblée.</p>
+              <pb n="28"/>
+              <note type="foliation">— 26 —</note>
+              <p>Congrès de l'Union Nationale des Combattants, devant avoir lieu à Clermont-Ferrand,
+                le 12 mai prochain.</p>
+              <p>Le Conseil désigne Lagarde pour représenter l'Union à ce Congrès. 5. Congrès
+                International des Associations de Mutilés et Anciens Combattants organisé par la
+                F.I.D.A.C. et devant avoir lieu à Luxembourg le 22 mai prochain.</p>
+              <p>Le Président représentera l'Union à ce Congrès. 6. Lecture d'une lettre du camarade
+                Biray, demandant que l'Union s'occupe des veuves de guerre.</p>
+              <p>Le Secrétaire général informe le Conseil que M. Boyer, dépuié, a déposé sur le
+                Bureau de la Chambre un projet tendant à modifier les articles 14 et 19 de la loi du
+                31 mars 1919 en faveur des veuves de militaires morts pour la France et des veuves
+                de grands invalides. Ce projet a reçu l'acceptation de M. Ricolfi, rapporteur de la
+                Commission des Pensions, mais il n'en a pas été de même du projet Bussat qui
+                demandait que la pension de reversion soit accordée à toutes les veuves des
+                bénéficiaires de la loi du 31 mars 1919, sans aucune condition de pourcentage ni
+                d'époque de mariage. Ce projet a été rejeté par la Commission des Pensions de la
+                Chambre.</p>
+              <p>Laffargue demande au Bureau de faire des démarches : 1<hi rend="superscript">°</hi>
+                Le projet Boyer soit discuté en séance à la 'Chambre, et que : 2<hi
+                  rend="superscript">°</hi> La Commission des Pensions de la Chambre revienne sur la
+                décision qu'elle a prise, notamment en ce qui concerne le paragraphe relatif à
+                l'époque du mariage.</p>
+              <p>La séance est levée à 17 h .30 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Procès-Verbal de la Séance
+                extraordinaire du Conseil d'Administration</head>
+              <p>DU 1<hi rend="superscript">st</hi> MAI 1927 La séance est ouverte à 9 heures sous
+                la présidence de Scapini. Sont présents: Scapini, Courteix, Grillet, Noireaux,
+                Favret, L'Evesque, Bardoux, Bertrand, Bloncourt, Bois, Conan, Guillam, Laffargue,
+                Lagarde, Malgat, Muller, Nicolaï et Virot.</p>
+              <p>Les camarades : Gudefin, Saillot. M. le baron de Traversay, président du Comité
+                d'action.</p>
+              <p>Se sont excusés : Arnault, Cabasson, Robert, Toudouri, Derunder, Lallement,
+                Lauté.</p>
+              <p>Ont donné leurs pouvoirs: Au président: Lallement. A Noireaux : Derunder.</p>
+              <pb n="29"/>
+              <note type="foliation">— 27 —</note>
+              <p>Au Secrétaire général : Arnault, Cabasson, Robert, Toudouri. A Conan : Lauté. Le
+                Conseil à l'unanimité désigne : Bertrand (Fernand-Eugène), né le 28 septembre 1896 à
+                Paris, brossier; Bloncourt (Clainville), né le 5 mai 1896, à Basse-Terre
+                (Guadeloupe), professeur; Grillet (LouisAlexandre), né le 11 août 1882, à Blois
+                (Loir-et-Cher), masseur, comme délégués électeurs aux élections du Comité
+                Départemental des Mutilés de la Seine.</p>
+              <p>La séance est levée à 9 heures 30 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">LEGION D'HONNEUR</head>
+              <p>Par décret du 21 avril 1927, en application de la loi du 26 décembre 1923, relative
+                à la nomination ou à la promotion dans la Légion d'honneur des mutilés de guerre de
+                100 p. 100,</p>
+              <p>Vu la déclaration du Conseil de l'ordre de la Légion d'honneur portant que les
+                nominations du présent décret sont faites en conformité des lois, décrets et
+                règlements en vigueur,</p>
+              <p>Les militaires dont les noms suivent, titulaires d'une pension d'invalidité de 100
+                p. 100 à titre définitif, sont nommés au grade de chevalier dans l'ordre national de
+                la Légion d'honneur : (Pour prendre rang du 2 mars 1925.) Pernco (Albert-Victor),
+                ex-soldat du 10<hi rend="superscript">°</hi> rég. du génie. (Pour prendre rang du 28
+                juillet 1926.) Lioté (René-Louis), ex-soldat du 30<hi rend="superscript">°</hi> rég.
+                d'infanterie.</p>
+              <pb n="30"/>
+              <note type="foliation">— 28 —</note>
+              <p>.</p>
+              <pb n="31"/>
+              <note type="foliation">— 29 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">TABLEAU D'HONNEUR</head>
+            <p>IRAAC, président honoraire. Bouraguianon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-présidents : Grillet, Noibraux. Secrétaire général :
+              Bloncourt. Trésorier: Gaston L'Evesque. Membres : Antoine, Abnault, Bardoux, Bertrand,
+              Bois, Carasson, Courteix, Dérubier, Fauvel, Favret, Conan, Goubin, Guillam, Izaac,
+              Lapargue, Lagarde, Lallement, Laute, Maloat, Muller, Nicolas, Robert (Meurice),
+              Toupouri, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traverbat, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Oscar Bloch, Secrétaire adjoint; M. Auterbe, Actuaire
+              à la Compagnie « L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broquin. M. Cuepper. M. Pierre Cuirot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jalaquier. Baronue de Grottihuss-Germandt. Mme Henri. Mme Kalt. Mme L'Evesque.
+              Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mue. M. Pascal. Dr Scenrider Colomb de Traverbat.</p>
+            <pb n="32"/>
+            <note type="foliation">— 30 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">Liste des Donateurs</head>
+            <p>Anonymes, transmis par le journal Le Matin, 1.001 fr. Mlle Maisonète, à Darlington
+              (Angleterre), 61 fr. 60. - Mme LevyWeiss, à Paris, 100 fr. - Mme Couleru, à Tours, 50
+              fr. - Lycée de garçons de Nice, 100 fr. - Anonyme n <hi rend="superscript">°</hi>
+              25420, 60 fr. - Mlle Bérand, Paris, affectation maisons de repos Franceville, 50 fr. -
+              M. Gaitz Hocky, Paris, 200 fr. - Les élèves de la classe de mathématiques élémentaires
+              du Lycée Henri-IV, à Paris, 924 fr. - Mlle Pelissier, à Paris, 284 fr. 11. - Les
+              élèves de l'école Saint-Joseph, Ile de la Réunion, 25 fr. - Produit d'une quête
+              transmis par la Sidi Brahim, du canton de Longwy, 300 fr. - Mme Rachel Meynadier,
+              Paris, 1.000 fr. - Mme Veuve Limousin, à Tolosa, Espagne, 200 francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

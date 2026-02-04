@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 18ème année 1936, n°9</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Dévaluation</title>
+        <title type="topic">Paix</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Soutien social</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 12 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#pensions-de-guerre">pensions de guerre</term>
+          <term ref="#cecite">cécité</term>
+          <term ref="#anciens-combattants">anciens combattants</term>
+          <term ref="#maison-des-aveugles">Maison des Aveugles</term>
+          <term ref="#caisse-des-pensions">Caisse des Pensions</term>
+          <term ref="#rassemblement-pour-la-paix">Rassemblement pour la Paix</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre traite de questions importantes pour ses
+          membres, notamment les préoccupations concernant l'impact de la dévaluation sur les
+          pensions de guerre et les efforts pour garantir que les victimes de guerre soient prises
+          en compte dans les mesures gouvernementales. Il met en avant l'ouverture prochaine de la
+          Maison de l'Union, un lieu de refuge et de soutien pour les aveugles de guerre. Le
+          bulletin détaille également les progrès réalisés dans la création d'une Caisse des
+          Pensions et rend compte du Rassemblement universel pour la paix. Des informations
+          pratiques concernant la Caisse Fraternelle, les naissances, mariages, décès, et des avis
+          divers sont inclus, ainsi qu'une liste de donateurs et les membres du Conseil
+          d'Administration et du Comité d'Action.</p>
+      </abstract>
+      <creation>
+        <date when="1936-10-01">01/10/1936</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-15" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-15" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h4">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h6">LES PENSIONS ET LA DÉVALUATION</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTRE MAISON</ref>
+          </item>
+          <item>
+            <ref target="#h8">LA CAISSE DES PENSIONS</ref>
+            <list>
+              <item>
+                <ref target="#h9">Première solution :</ref>
+              </item>
+              <item>
+                <ref target="#h10">Deuxième solution :</ref>
+              </item>
+              <item>
+                <ref target="#h11">Troisième solution :</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h12">RASSEMBLEMENT UNIVERSEL POUR LA PAIX</ref>
+          </item>
+          <item>
+            <ref target="#h13">LA PROROGATION DES DÉLAIS</ref>
+          </item>
+          <item>
+            <ref target="#h14">SÉJOUR D'HIVER A SAINTE-MAXIME</ref>
+          </item>
+          <item>
+            <ref target="#h15">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h16">CAISSE FRATERNELLE</ref>
+              </item>
+
+              <item>
+                <ref target="#h17">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h18">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h19">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h21">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h22">LISTES DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h23">Dons avec affectation spéciale pour la Maison des Aveugles de
+                  Guerre</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h25">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h26">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">18e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">OCTOBRE 1936</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Les pensions et la dévaluation.</item>
+                    <item>Notre Maison.</item>
+                    <item>La Caisse des Pensions.</item>
+                    <item>La prorogation des délais.</item>
+                    <item>Rassemblement universel pour la paix.</item>
+                    <item>Séjour d'hiver à Sainte-Maxime.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Avis divers.</item>
+                    <item>Liste de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier; M. Brisac, Préfet; M. J. Ridgely-Carter; M. Paul de Cassagnac,
+              ancien Député; M. Maurice Donnay, de l'Académie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              ancien Sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer, Conseiller
+              d'Elet; M. Henry Paté, Député; \dagger M<hi rend="superscript">e</hi> Henri-Robert, de
+              l'Académie française, ancien Bâtonnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; \dagger M. Vallery-Radot;</p>
+            <pb n="3"/>
+          </div>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE N° 9 - OCTOBRE 1936</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LES PENSIONS ET LA
+              DÉVALUATION</head>
+            <p>Ayant constaté que, dans les textes gouvernementaux relatifs au projet d'ajustement
+              monétaire, aucune garantie n'était donnée aux victimes de la guerre, dans le cas
+              éventuel de renchérissement de la vie, le Bureau de l'Union s'est rendu, le lundi 28
+              septembre, à la Chambre des Députés.</p>
+            <p>Accompagné des camarades Scapini et Bloncourt, députés, il a eu un entretien avec M.
+              le Ministre des Pensions auquel il a demandé de bien vouloir ajouter les victimes de
+              la guerre aux catégories de citoyens énumérées dans l'article 15 du projet de loi,
+              article qui prévoit le réajustement éventuel des traitements, salaires, indemnités,
+              etc.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTRE MAISON</head>
+            <p>Nous allons nous entretenir aujourd'hui d'un sujet qui nous est cher à tous : de
+              notre Maison.</p>
+            <p>Cette maison, qui se dresse magnifique, devant laquelle chacun de nous peut se dire :
+              " Si un jour je me trouve isolé dans la vie, je serai là chez moi. " Si la maladie
+              frappe les miens, j'attendrai avec confiance que la guérison m'apporte la possibilité
+              de retrouver mon foyer. " Si mon foyer est détruit pour toujours, je ne m'abandonnerai
+              pas au désespoir, là j'aurai un refuge où, avec le temps, me reviendra le courage de
+              vivre. "</p>
+            <p>Eh bien! cette Maison, sur laquelle nous fondons tant de légitimes espoirs, va
+              bientôt fonctionner. Déjà, de nombreux achats, indispensables à la marche des
+              services, ont été effectués.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Je n'ai pas besoin d'insister, mes chers camarades, sur les soins qui entourent ces
+              achats, les deniers de l'Union ne sont dépensés qu'à bon escient.</p>
+            <p>Votre Commission de gestion pense à tout; ce ne sont que devis, comparaisons entre
+              les prix et les qualités, choix du personnel, recherches diverses afin de faciliter le
+              bon fonctionnement de l'ensemble, les idées doivent être larges et hardies sans
+              devenir téméraires; enfin, tous ces efforts vont recevoir leur récompense et nous
+              comptons bien pendre la crémaillère vers le 1<hi rend="superscript">er</hi>
+              novembre.</p>
+            <p>De nombreux camarades ont déjà profité de l'installation existante; tous ont été très
+              satisfaits.</p>
+            <p>Nous espérons qu'après une très courte période de mise au point, chacun de nous
+              pourra trouver, dans notre restaurant, de confortables repas, bien préparés, à des
+              prix très raisonnables et qui attireront, nous en sommes persuadés, une nombreuse et
+              fidèle clientèle.</p>
+            <p>C'est ce que nous souhaitons en toute sincérité ; plus les camarades seront nombreux,
+              plus l'atmosphère de la Maison deviendra chaude et cordiale. R. Favret.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LA CAISSE DES PENSIONS</head>
+            <p>Ceux d'entre vous qui ont suivi, depuis des années, les travaux des Associations se
+              souviennent que, dès 1923, le projet d'institution d'une Caisse des Pensions était
+              déjà à l'étude.</p>
+            <p>Que de discussions passionnées pendant les réunions du "Comité d'Entente ", que de
+              projets, plus séduisants les uns que les autres et qui, subissant le même sort,
+              aboutissaient tous à la corbeille à papiers.</p>
+            <p>Depuis plusieurs mois, la création de la Caisse des Pensions a fait l'objet de
+              nouvelles et très sérieuses études et sa réalisation sera probablement résolue dans un
+              délai assez rapproché.</p>
+            <p>Cette création intéresse tous les bénéficiaires de la loi du 31 mars 1919, je vais
+              donc essayer, mes chers camarades, de documenter sur ce <pb n="5"/>
+              <note type="foliation">— 3 —</note> sujet ceux d'entre vous qui n'auraient pas encore
+              étudié la question, et cela le plus simplement possible.</p>
+            <p>Le but principal de la Caisse des Pensions est d'alléger les charges budgétaires,
+              occasionnées par le paiement des pensions et de la retraite du combattant, en
+              répartissant équitablement ces charges entre plusieurs générations, en outre de
+              matérialiser la créance prévilégiée des victimes de la guerre et de la soustraire aux
+              effets des écarts budgétaires dont elle subit fatalement l'influence.</p>
+            <p>Avec le régime actuel des pensions, dont le montant s'élève pour 1936 à la somme de
+              5.729 millions, il n'existe qu'un moyen de supporter cette charge : l'emprunt qui,
+              cette année, exigera 366 millions.</p>
+            <p>La suppression des prélèvements opérés sur les pensions élèvera d'autant le montant
+              du budget des pensions, dont le total atteindra 6.768 millions en 1937 (1)<note>(1)
+                Rapport Catalan.</note></p>
+            <p>Trois solutions ont été envisagées par la Sous-Commission' chargée de l'examen de
+              l'organisation administrative de la Caisse des Pensions, projetée lors de sa réunion
+              du 29 juillet dernier.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Première solution :</head>
+              <p>La Caisse des Pensions est intégrée dans la Caisse d'Amortissement. Dans ce cas, la
+                Caisse des Pensions étant dotée budgétairement par le Parlement, cette dotation
+                serait reportée au budget général de la Caisse d'Amortissement, dont un chapitre
+                spécial serait affecté aux opérations de recettes et de dépenses des pensions de
+                guerre, avec écritures spéciales également.</p>
+              <p>Un Comité financier, où prendraient place quatre représentants des victimes de la
+                guerre, nommés par l'Office National des Mutilés, serait chargé de la gestion de la
+                Caisse des Pensions.</p>
+              <p>Auprès de ce Comité financier, un Conseil consultatif, comprenant également six
+                représentants des victimes de la guerre, serait désigné pour quatre ans. Il
+                donnerait son avis sur les questions soumises à son examen par le Comité financier
+                auquel il adresserait également des propositions et des vœux.</p>
+              <pb n="6"/>
+              <note type="foliation">— 4 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Deuxième solution :</head>
+              <p>La Caisse des Pensions est autonome, elle est gérée par la Caisse
+                d'Amortissement.</p>
+              <p>Avec cette proposition, la Caisse serait gérée par la Caisse d'Amortissement; elle
+                serait administrée par un Conseil d'administration nommé pour quatre ans dont
+                feraient partie six représentants des victimes de la guerre, toujours nommés par
+                l'Office National des Mutilés.</p>
+              <p>Le Conseil d'administration arrêterait le budget annuel et déciderait toutes
+                opérations nécessaires au bon fonctionnement de la Caisse des Pensions.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Troisième solution :</head>
+              <p>Solution mixte : La Caisse des Pensions Autonome est administrée et gérée par la
+                Caisse d'Amortissement. Même Comité financier qu'à la première solution, même
+                Conseil consultatif.</p>
+              <p>La Caisse d'Amortissement serait chargée d'administrer et de gérer la Caisse des
+                Pensions qui serait alimentée par la dotation budgétaire votée par le Parlement, et
+                dont le budget propre ne se confondrait pas avec celui de la Caisse d'Amortissement,
+                ses recettes particulières supportant ses seules dépenses particulières.</p>
+              <p>La Sous-Commission a donné sa préférence à la deuxième solution envisagée.</p>
+              <p>J'ajoute que, le 22 juillet dernier, au moment de l'examen du financement de la
+                Caisse des Pensions, la Sous-Commission avait, indépendamment de l'annuité
+                budgétaire fixe, envisagé comme ressources exceptionnelles le produit total de la
+                Loterie Nationale, une taxe de 5% sur les entrées dans les hippodromes, une
+                majoration sur le produit du Pari Mutuel, etc.</p>
+              <p>Il est bien entendu que la Caisse des Pensions sera tenue lorsque, par extinction
+                de ses tributaires, ses encaissements seront en excédent sur ses paiements, de
+                rembourser les avances qui lui auront été faites.</p>
+              <p>Vous le voyez, mes chers camarades, la question est complexe, j'ai essayé de
+                simplifier mes explications; je vous tiendrai au courant des modifications qui
+                pourront être suggérées avant le vote définitif de la loi. R. FAVRET.</p>
+              <pb n="7"/>
+              <note type="foliation">— 5 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">RASSEMBLEMENT UNIVERSEL POUR LA
+              PAIX</head>
+            <p>En toute objectivité et à titre d'information, nous vous donnons ci-après le texte de
+              la résolution présentée au nom des anciens combattants de toutes les nations
+              participant au Rassemblement annuel pour la Paix, tenu à Bruxelles, les 3, 4, 5 et 6
+              septembre dernier.</p>
+            <p>Les anciens combattants de divers pays et représentant plus de dix millions d'hommes,
+              réunis à Bruxelles du 3 au 6 septembre 1936, à l'occasion du Rassemblement universel
+              pour la Paix :</p>
+            <p>Rappelant en ces jours solennels les efforts poursuivis depuis la guerre par
+              l'ensemble du mouvement ancien combattant et notamment par la F.I.D.A.C., la
+              C.I.A.M.A.C. et l'I.A.C. et s'en félicitant;</p>
+            <p>Adressent tout d'abord leur pensée cordiale à tous les anciens soldats de la grande
+              guerre;</p>
+            <p>Forts de leur douloureuse expérience, affirment devant l'opinion mondiale qu'ils sont
+              contre toutes les guerres et toutes les agressions, et pour l'organisation rationnelle
+              de la Paix;</p>
+            <p>Rappellent que, par le Pacte Briand-Kellog, la guerre fut et reste universellement
+              condamnée ;</p>
+            <p>Qu'il est du droit, du devoir et de l'intérêt de tous les peuples, d'accomplir
+              l'effort de bonne volonté nécessaire pour vivre dans la confiance mutuelle;</p>
+            <p>Qu'une organisation positive de la paix entre les Etats n'est possible que si une
+              règle commune les lie, définissant leurs droits et leurs devoirs réciproques;</p>
+            <p>La Paix internationale doit reposer sur le respect des obligations essentielles
+              suivantes : I. - Tous traités, accords, engagements, signés ou intervenus entre les
+              Etats doivent être tenus pour inviolables, leur révision pouvant cependant intervenir,
+              mais exclusivement dans la légalité et dans la solidarité internationale. Il n'y a pas
+              de société concevable sans le respect de la parole donnée. II. - La limitation et la
+              réduction graduelle et contractuelle des armements, en allégeant les charges qui
+              pèsent sur la vie économique <pb n="8"/>
+              <note type="foliation">— 6 —</note> des peuples, permettrait d'améliorer leur
+              condition sociale et diminuerait le danger certain que constitue la course aux
+              armements.</p>
+            <p>Il est souhaitable qu'un accord entre les Etats supprime en tous pays les profits
+              résultant de la production et du commerce des armes, non seulement parce qu'il est
+              scandaleux de s'enrichir de la mort d'autrui, mais aussi parce qu'il importe d'enlever
+              à ceux qui font métier de fabriquer et de vendre des instruments de meurtre, les
+              moyens d'action politique qu'ils tirent de leur commerce immoral. III. -
+              L'organisation de la sécurité collective et de l'assistance mutuelle est reconnue
+              comme le moyen le plus efficace de prévenir la guerre ou de l'enrayer à la double
+              condition : a) Que tous les signataires du Pacte fassent honneur à leur engagement de
+              venir au secours de l'agressé et de faire front contre l'agresseur; b) Que le
+              mécanisme de l'intervention collective, morale, économique, financière, militaire,
+              soit déterminé au préalable afin d'en assurer l'application immédiate. IV. - Chaque
+              peuple devant disposer dans la collectivité internationale de moyens d'existence
+              normaux, il importe que la S.D.N. établisse, dès maintenant, un organisme permanent
+              susceptible de lui permettre de remédier aux situations internationales d'où pourrait
+              sortir la guerre, et notamment de prévenir les conflits pouvant naître de la
+              répartition des produits indispensables à la vie.</p>
+            <p>Les Anciens Combattants, rassemblés à Bruxelles, affirment en conscience que
+              l'observation de tels principes élémentaires et initiaux de l'organisation de la paix
+              sont acceptables par tous les peuples et par tous les Etats et qu'ils répondent à
+              cette égalité des peuples et des Etats devant la loi internationale, universellement
+              reconnue et proclamée comme la base même de la Paix.</p>
+            <p>En mémoire des millions de morts restés sur les champs de bataille et en souvenir des
+              souffrances endurées, ils veulent que l'acte de foi qu'ils accomplissent soit le
+              prélude d'une détente indispensable des pensées et des sentiments permettant à toutes
+              les initiatives de se manifester en faveur d'une Paix rationnellement organisée,
+              substituant le Droit à la Violence.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Les Anciens Combattants, dans l'action pour la paix, s'assignent avant tout un rôle
+              moral. Ils s'affirment qualifiés pour remplir la mission d'agents de liaison qui leur
+              revient entre les diverses opinions publiques nationales. Ils adressent un appel
+              solennel à leurs frères d'armes de tous les pays pour être, au sein de leurs nations
+              respectives, des propagandistes inlassables de l'idée de réconciliation
+              internationale. Ils se proposent de tout mettre en ceuvre pour mener à bien une telle
+              besogne et de saisir toutes les occasions de manifester par des gestes appropriés, à
+              la fois leur horreur de la guerre et leur volonté de pacification générale.</p>
+            <p>Convaincus que la propagande pacifiste internationale est à la base de tout mouvement
+              sérieux pour éclairer et entraîner les masses, les anciens combattants demandent
+              instamment que la S.D.N. ait à sa disposition un poste puissant de T.S.F. destiné à
+              diffuser impartialement et objectivement dans toutes les langues, les nouvelles
+              internationales et l'action menée en faveur de la paix. Ainsi aucun pays ne serait
+              excepté de l'action générale et toutes les nations pourraient suivre au jour le jour
+              les progrès réalisés dans la voie de la paix. A ce poste, des représentants mandatés
+              des Anciens Combattants seraient particulièrement désignés pour rappeler aux peuples
+              et à leurs gouvernements responsables leurs obligations d'humanité et de
+              solidarité.</p>
+            <p>Enfin, les Anciens Combattants ont le devoir d'associer à leurs efforts ceux de la
+              jeunesse dont l'action doit se conjuguer avec celle de ses aînés.</p>
+            <p>Ainsi se traduira la volonté de la génération du feu de travailler avec ténacité à
+              l'élaboration d'une humanité meilleure, fraternelle et pacifiée.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">LA PROROGATION DES DÉLAIS</head>
+            <p>En attendant le vote, par le Sénat, du projet adopté par la Chambre des Députés, M.
+              le Ministre des Pensions a adressé aux directeurs du Service de Santé des régions
+              militaires une circulaire dont voici le texte : " Le délai dont disposaient les
+              anciens militaires de la guerre 1914- <pb n="10" break="no"/>
+              <note type="foliation">— 8 —</note> " 1918 pour présenter leurs demandes de pension
+              expirait le 30 juin " 1936 . " Toutefois, le Parlement étant saisi d'un projet de loi
+              tendant " à proroger ce délai, j'ai décidé que les demandes de pension, formulées par
+              d'anciens militaires postérieurement au 30 juin 1936, " seront accueillies par les
+              centres de réforme, enregistrées et conser" vées en instance; mais il ne sera pas
+              procédé à leur instruction jusqu'à " nouvel ordre. " Ces mesures sont destinées à
+              hâter la solution des affaires après " le vote de la prorogation, mais, bien entendu,
+              elles ne sauraient en " rien préjuger des décisions du Parlement. "</p>
+            <p>Les camarades qui désirent se mettre en instance de pension pour une nouvelle
+              infirmité peuvent, dès à présent, adresser leur demande, avec certificat médical à
+              l'appui, au Directeur du Service de Santé de leur région.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">SÉJOUR D'HIVER A
+              SAINTE-MAXIME</head>
+            <p>Nous informons nos camarades désireux d'effectuer un séjour d'hiver dans notre
+              station de Sainte-Maxime, au " Manestou ", de nous adresser, dès à présent, leur
+              demande afin de nous permettre d'effectuer la répartition de nos logements.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> août
+                et le 30 septembre, une somme de 55.024 francs, se répartissant comme suit : <list>
+                  <item>Allocations naissances 1.800</item>
+                  <item>Allocations décès et palmes 40.700</item>
+                  <item>Allocations Caisse Maladie 11.324</item>
+                  <item>Allocations diverses 1.200</item>
+                </list></p>
+              <p>Il y a lieu d'ajouter à ces 55.024 francs une somme de 7.400 francs pour prêts
+                maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner trente demandes, dont quatre
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Naissances</head>
+                <p>Notre camarade Guis (Antonin), de Manosque (Basses-Alpes), nous fait part de la
+                  naissance de son deuxième fils, Denis, né le 1<hi rend="superscript">er</hi> août
+                  1936.</p>
+                <p>Notre camarade Rosant, de Franleu (Somme), nous fait part de la naissance de sa
+                  fille, Lorette, née le 8 septembre 1936.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Mariages</head>
+                <p>Notre camarade Branger, de Courtenay (Loiret), nous fait part du mariage de sa
+                  fille Mireille avec M. Marcel Boulay, célébré le 5 septembre 1936.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+                <p>Notre camarade Colombel, de Paris, nous fait part de son mariage avec Mlle
+                  Suzanne Valta, célébré le 12 septembre 1936.</p>
+                <p>Notre camarade Cado, de Kerentrech-Lorient (Morbihan), nous fait part. du mariage
+                  de son fils Pierre avec Mlle Madeleine Lescouet, célébré le 12 septembre 1936.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Brunet (Gaston), 57, rue de
+                  Bourgogne, Paris, décédé le 31 août 1936, dans sa trente-neuvième année.</p>
+                <p>Né le 21 juillet 1897, à Blois (Loir-et-Cher), soldat au 225<hi
+                    rend="superscript">°</hi> Régiment d'Infanterie, notre camarade fut blessé, le
+                  17 août 1917, au Mont Cornillet. Réformé à 100%, article 10 , pour cécité
+                  complète, officier de la Légion d'honneur, titulaire de la Médaille militaire, il
+                  laisse une veuve et un enfant.</p>
+                <p>De notre camarade Lardet (Pierre), de Chatenet, commune de Vigeois (Corrèze),
+                  décédé le 17 septembre 1936, à l'âge de quarantecinq ans.</p>
+                <p>Né le 17 décembre 1891, à Ybard (Corrèze), soldat au 15<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie, notre camarade fut blessé, le 18 août 1915, à
+                  Perthes-les-Hurlus (Marne). Réformé à 100%, article 10 , pour cécité complète,
+                  chevalier de la Légion d'honneur, titulaire de la Médaille militaire, il laisse
+                  une veuve.</p>
+                <p>De notre camarade Fleury (Henri), de Vieux-Bourg-Echauffour (Orne), décédé le 20
+                  septembre 1936, à l'âge de quarante-sept ans.</p>
+                <p>Né le 11 octobre 1889, à Echauffour (Orne), soldat au 24<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie, notre camarade fut blessé le 5 juillet 1917, au
+                  Chemin-des-Dames. Réformé à 100%, article 10 , pour cécité, Fleury était chevalier
+                  de la Légion d'honneur et titulaire de la Médaille militaire.</p>
+                <p>De notre camarade Becker (Joseph), d'Hirsingue (Haut-Rhin), décédé le 21
+                  septembre 1936, à l'âge de cinquante-huit ans.</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+                <p>Né le 15 octobre 1878, à Hirsingue, soldat dans l'armée allemande, réformé à
+                  100%, article 10 , pour cécité, il laisse une veuve et quatre enfants.</p>
+                <p>De la mère de notre camarade Raynal, d'Etables (Côtes-du-Nord), décédée le 27
+                  juillet, à l'âge de soixante-neuf ans.</p>
+                <p>Du fils de notre camarade Bourdon, de Fumay (Ardennes), décédé accidentellement
+                  le 6 août 1936.</p>
+                <p>De la femme de notre camarade Videmont (Auguste), de Paris, décédée le 29
+                  septembre 1936, à l'âge de soixante-quatre ans.</p>
+                <p>Nous adressons aux familles nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">AVIS DIVERS</head>
+              <p>Demoiselle quarante-cinq ans, possédant en Bretagne une petite villa bien située,
+                serait désireuse de prendre en pension un Aveugle de Guerre auquel elle prodiguerait
+                des soins éclairés et dévoués.</p>
+              <p>Pour tous renseignements complémentaires, s'adresser au camarade Raynal, aux
+                Rosiers, Le Tertre-Etables (Côtes-du-Nord).</p>
+              <p>Notre camarade Niant (Simon), ancien propriétaire vigneron, se met à la disposition
+                des camarades pour leur faire envoyer des vins de la région de Bergerac-Bordeaux,
+                vins ordinaires et supérieurs, aux meilleures conditions.</p>
+              <p>Se mettre directement en rapports avec M. Niant, 71, rue du Pont-Saint-Jean,
+                Bergerac (Dordogne).</p>
+              <p>Montres pour aveugles. M. Camille Mercier, 6, rue d'Helvétie, à Morteau (Doubs),
+                fabricant de montres, nous informe qu'il peut four- <pb n="14" break="no"/>
+                <note type="foliation">— 12 —</note> nir des montres savonnettes pour aveugles, avec
+                mouvement ancre très soigné, 15 rubis, spiral Bréguet, de toute première qualité, en
+                métal chromé, au prix de 70 francs.</p>
+              <p>Les camarades intéressés par cette offre sont priés de passer leurs commandes
+                directement.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">LISTES DE DONATEURS</head>
+              <p>Les Elèves de Mme d'Hostingue, Paris, 50 fr. - Mme Jansen, Marnes-la-Coquette
+                (Seine-et-Oise), 200 fr. - Mme Fischer, Paris, 10 fr. - Divers : 3.016 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Dons avec affectation
+                spéciale pour la Maison des Aveugles de Guerre</head>
+              <p>Anonyme, 265 fr. - M. P. Dumont, Nancy, 250 fr. - Département des Hautes-Pyrénées,
+                71 fr. 50. - M. Foucault, Saint-Maur, 25 francs. - Commune de Céret
+                (Pyrénées-Orientales), 134 fr. 50. - Notre camarade Le Guen, 14 fr. - Commune de
+                Doué-la-Fontaine (Maine-et-Loire), 45 fr.</p>
+              <pb n="15"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Bourguignon, Secrétaire général honoraire. Favret,
+              Secrétaire général honoraire. Conan, Secrétaire général honoraire. Amblard, Secrétaire
+              général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">Conseil d'Administration</head>
+            <p>Président : SCAPINI. Vice-Présidents : Bois, Conan, Lauté. Secrétaire général :
+              Fayret. Trésorier : Gaston L'Evesque. Membres : Amblard, Bardoux, Bertrand, Bloncourt,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Derunder, Evrat, Fauvel, Grillet,
+              Guillam, Izaac, Lappargue, Lagarde, Leveau, Malgat, Muller, Nicolai, Noireaux, Robert
+              (Maurice), Roy (Georges), Satué.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">Comité d'Action</head>
+            <p>M. le baron de Traversay.</p>
+            <p>Mlle Arbel, Vice-Présidente honoraire; Mme L'Evesque, M. Iweins; M. Oscar Bloch, M.
+              Auterbe, Sous-Directeur à la Compagnie L'Union; Mme du Bos; Mme Broquin; M. de
+              Chaumont-Quitry ; M. Chepfer; M. Pierre Chérot; Mme Contamin. Mme Francis de Croisset;
+              Mlle Jalaguier; Mlle d'Herbemont; Mme Henri; Mme Kalt; Mme Lévy-Weis; M. Mayer; Mme
+              Meyer; Mme Mus; M. Pascal. Mme Chevalier;</p>
+            <pb n="16"/>
+          </div>
+        </div>
+        <fw>Gérant: DÉCOENE. Imp. Dubois et Bauer, 34, r. Laffitte. - 1986</fw>
+      </div>
+    </body>
+  </text>
+</TEI>

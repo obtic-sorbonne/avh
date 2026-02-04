@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 18ème année 1936, n°11</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Première Guerre mondiale</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Commémoration</title>
+        <title type="topic">Soutien aux handicapés</title>
+        <title type="topic">Pension de guerre</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 23 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#armistice">Armistice</term>
+          <term ref="#caisse-des-pensions">Caisse des Pensions</term>
+          <term ref="#chiens-guides">Chiens-guides</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#anciens-combattants-aveugles">Anciens combattants aveugles</term>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#entraide">Entraide</term>
+          <term ref="#solidarite">Solidarité</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) pour une date non
+          spécifiée en 1936 détaille les activités de l'association, incluant la commémoration de
+          l'Armistice, les festivités organisées, l'ouverture du restaurant de l'Union, et des
+          informations sur la Caisse des Pensions. Il rend hommage aux morts de la Première Guerre
+          Mondiale et souligne l'importance de la fraternité et du souvenir. Le document contient
+          également des informations administratives, des procès-verbaux de réunions, des listes de
+          donateurs, des nouvelles des membres (naissances, mariages, décès), et des informations
+          sur les chiens-guides et les distinctions honorifiques.</p>
+      </abstract>
+      <creation>
+        <date when="1936-12-01">01/12/1936</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-22" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-21" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h6">L'ARMISTICE A PARIS HOMMAGE AUX MORTS</ref>
+          </item>
+          <item>
+            <ref target="#h7">LE RELAIS SACRÉ LA CÉRÉMONIE A BRUXELLES</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTRE FÊTE DU 15 NOVEMBRE</ref>
+          </item>
+          <item>
+            <ref target="#h9">NOS PROCHAINES FÊTES</ref>
+          </item>
+          <item>
+            <ref target="#h10">OUVERTURE DE NOTRE RESTAURANT</ref>
+          </item>
+          <item>
+            <ref target="#h11">LA CAISSE DES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h12">LA CROIX DU COMBATTANT VOLONTAIRE</ref>
+          </item>
+          <item>
+            <ref target="#h13">CHIENS-GUIDES</ref>
+          </item>
+          <item>
+            <ref target="#h14">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h15">UNE DISTINCTION</ref>
+          </item>
+          <item>
+            <ref target="#h16">BUREAU DU COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h17">Chronique de l'U.A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h18">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h19">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h20">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h22">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h23">PROCÈS-VERBAL de la Réunion du Conseil d'Administration du 24
+                  Octobre 1936</ref>
+              </item>
+              <item>
+                <ref target="#h24">PROCÈS-VERBAL de la Réunion du Conseil de la Régionale de Lyon et
+                  du Sud-Est le 22 Octobre 1936</ref>
+              </item>
+              <item>
+                <ref target="#h25">PROCÈS-VERBAL de la Réunion de la Section des Bouches-du-Rhône du
+                  28 Octobre 1936</ref>
+              </item>
+              <item>
+                <ref target="#h26">COMPTE RENDU de la Réunion de la Section Régionale de Bordeaux le
+                  8 Novembre 1936</ref>
+              </item>
+              <item>
+                <ref target="#h27">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h28">LISTES DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h29">Dons avec affectation spéciale pour la Maison des Aveugles de
+                  Guerre</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h30">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h31">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h32">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">18e Année. — N° 11</fw>
+          <fw type="header">
+            <hi rend="underline">DECEMBRE 1936</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>L'Armistice à Paris.</item>
+                    <item>Le Relais Sacré.</item>
+                    <item>Notre fête du 15 Novembre.</item>
+                    <item>Nos prochaines fêtes.</item>
+                    <item>Ouverture du Restaurant.</item>
+                    <item>La Caisse des Pensions.</item>
+                    <item>La Croix du Combattant Volontaire.</item>
+                    <item>Chiens-guides.</item>
+                    <item>Légion d'Honneur.</item>
+                    <item>Une distinction.</item>
+                    <item>Le Bureau du Comité d'Action.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre Nous.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'Administration du 24 octobre
+                      1936.</item>
+                    <item>Procès-verbal de la réunion du Conseil de la Régionale de Lyon le 22
+                      octobre 1936.</item>
+                    <item>Procès-verbal de la réunion de la Section des Bouches-du-Rhône le 28
+                      octobre 1936.</item>
+                    <item>Compte rendu de la réunion de la Régionale de Bordeaux le 8 novembre
+                      1936.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes des donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Comité de Patronage</head>
+            <p>\dagger M. Bricux, de l'Académie Française, Président honoraire; \dagger M. Barthou,
+              ancien Président du Conseil; M. le colonel Fabry, Député, ancien Ministre; \dagger M.
+              le général Balfourier; M. Brisac, Préjet; M. J. Ridgely-Carter; M. Pant de Cassagnac,
+              ancien Dépulé; M. Maurice Donnay, de l'Académie française; M. Dico,
+              Médecin-Inspecteur; M. Fribourg, Député; Miss Alice Gctty; M. Justin Godart, ancien
+              Ministre; Miss Grace Ilarper; Miss Winifred Ilolt; Mme Léopold Kahn; M. Krug; M.
+              Lugol, ancien Sénateur; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer,
+              Conseiller d'Elst; M. llenry Paté, Député; \dagger M. Henri-Robert, de l'Académie
+              française, ancien Bationnier de l'Ordre des Avocats; M. le général
+              Sainte-Claire-Deville; \dagger M. Vallery-Radot;</p>
+            <pb n="3"/>
+          </div>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE N° 11 - DÉCEMBRE 1936</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">L'ARMISTICE A PARIS HOMMAGE AUX
+              MORTS</head>
+            <p>11 novembre 1918-11 novembre 1936. Il y a dix-huit ans, le canon se taisait, une
+              immense joie avivait tous les cœurs, la France était sauvée, mais la victoire se
+              payait du sang de millions d'hommes.</p>
+            <p>En fêtant l'Armistice, en revivant la minute où ùprenaient fin plus de quatre années
+              d'angoisse, le peuple de France veut se souvenir de ceux qui tombèrent pour le droit,
+              animés de l'espoir que leur sacrifice délivrerait pour toujours de la guerre le
+              monde.</p>
+            <p>Survivants de la grande tourmente, cet idéal n'est pas éteint en nous et c'est pour
+              communier en la pensée des morts que, nombreux chaque année, nous montons à l'Etoile.
+              Groupés autour de la dalle sacrée, que viennent dire ces mutilés et ces anciens
+              combattants à leur camarade dont le sacrifice fut total? Ils viennent, en une minute
+              de silence, faire serment d'espérer qu'un jour les hommes cesseront de se haïr et que
+              tant de souffrances et de deuils seront les piliers du temple de la paix. Qu'importent
+              les angoisses de l'heure, leur présence atteste la volonté de paix de la France, mais
+              d'une France qui ne s'abandonne pas. A ceux qui sont tombés pour le salut commun, les
+              anciens combattants font hommage de leur foi en la destinée du pays.</p>
+            <p>L'U.A.G., fidèle à ces sentiments de piété, s'est assemblée cette année, comme les
+              précédentes, au rond-point des Champs-Elysées, pour prendre la tête du cortège des
+              anciens combattants. Plus de cent camarades sont rangés derrière le drapeau de l'Union
+              et notre colonne s'avance, saluée de la foule respectueuse et des troupes présentant
+              les armes.</p>
+            <p>Je ne vous décrirai pas toute la cérémonie : l'arrivée des drapeaux, celle du
+              Président de la République. L'heure du : "Cessez le feu "</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>de 1918 fait place à la minute du recueillement. La sonnerie aux morts retentit, un
+              vent léger emporte le vol de nos pensées vers la ligne de feu, vers ce coin de terre
+              française où notre regard s'est posé pour la dernière fois.</p>
+            <p>Le défilé des troupes terminé, allons-nous nous séparer? Non. La voix écoutée de
+              notre camarade Izaac a lancé qu'en un tel jour des anciens poilus doivent serrer les
+              rangs. Nombreux sont ceux qui répondent à son appel et un déjeuner de 130 couverts
+              vient montrer notre belle camaraderie.</p>
+            <p>La Confédération, d'accord avec le Gouvernement, ayant organisé pour l'après-midi un
+              grand défilé groupant tous les anciens frères d'armes, l'U.A.G., une seconde fois,
+              reçoit la mission d'ouvrir la marche et avec nous, vers le Soldat Inconnu, monte l'âme
+              de tout un peuple pour un solennel hommage.</p>
+            <p>Le soir vient, la nuit venteuse de novembre ramène les survivants de la tourmente à
+              l'Arc de Triomphe où le général Gouraud, pour ranimer la flamme, attend le flambeau
+              allumé le matin à Bruxelles, sur la tombe du Soldat Inconnu belge et rapporté à Paris
+              par une délégation d'anciens combattants, parmi lesquels notre Président Conan
+              représentait l'Union.</p>
+            <p>Ancien soldats belges, anciens soldats français ont échangé ainsi un gage de
+              fraternelle amitié, mais pour nous, Français, dans ce symbole il y a davantage : le
+              flambeau venu de Bruxelles est le rappel du sacrifice d'un peuple neutre pour le
+              droit. La victoire, ce mot revient sous ma plume en terminant, n'en devons-nous pas
+              une grande part à la vaillance de l'armée belge d'août 1914: en ce jour anniversaire,
+              il est juste que nous nous en souvenions.</p>
+            <p>Edmond Guillam.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LE RELAIS SACRÉ LA CÉRÉMONIE A
+              BRUXELLES</head>
+            <p>Le Relais Sacré est l'une des manifestations les plus touchantes d'après-guerre.</p>
+            <p>Tous les ans, la veille de l'Armistice, à la Flamme perpétuelle qui brûle sur la
+              tombe des Soldats Inconnus Français et Belges, est allumé un flambeau. Celui-ci est
+              veillé toute la nuit par des anciens combattants, puis emporté le lendemain matin par
+              une escorte d'honneur pour aller, le 11 novembre, d'une capitale à l'autre, ranimer,
+              par une flamme fraternelle, le vivant souvenir de tous ceux qui ont souffert de la
+              guerre, auprès de leur camarade inconnu.</p>
+            <p>Comme les années précédentes, l'U.A.G. a délégué un des siens pour aller, de
+              Bruxelles à Paris, accompagner la flamme symbolique. Le 10 au soir, à Bruxelles, au
+              pied de la Colonne du Congrès, où, gardé par les lions, emblèmes des armes belges,
+              dort le Soldat Inconnu, l'aide de camp du Roi a allumé le flambeau et l'a remis à la
+              délégation des anciens combattants, pendant que la fanfare des Guides faisait entendre
+              les sonneries réglementaires. Puis, conduit par le général Pontus, le cortège se
+              rendit à l'Hôtel de Ville où il fut reçu par le bourgmestre, M. Max. Dans la salle
+              décorée aux couleurs françaises et belges, la veillée commença.</p>
+            <p>Il n'est pas un de nous, mes chers camarades, qui ne connaisse le bourgmestre Adolphe
+              Max. Le monde entier se souvient de son admirable conduite pendant les quatre années
+              que dura le martyre de la Belgique et de sa capitale sous l'occupation allemande. Nous
+              savons aussi que M. le bourgmestre Max fut, pour notre Union, un ami généreux. Il tint
+              à nous renouveler ses sentiments de sympathie et vint s'entretenir quelques instants
+              avec nous aussitôt après la cérémonie officiello.</p>
+            <p>Nous ne pouvons ici nous étendre à notre gré sur tous les détails de ce pèlerinage
+              plein de faits touchants. Après l'hommage rendu dans ce bel Hôtel de Ville, par les
+              anciens combattants français à la nation <pb n="6"/>
+              <note type="foliation">— 4 —</note> belge tout entière, à son Roi chevalier, c'est,
+              sur la route de Paris, la transmission du flambeau à chaque relais : Mons, Cambrai,
+              Bapcaume, Péronne, Saint-Quentin. C'est, devant les cimetières militaires où dorment
+              Anglais, Canadiens, Français, la sonnerie aux morts. Puis, à Rethondes, dans la nuit,
+              sous la lueur des torches que portent les spahis algériens, le serment de Verdun
+              renouvelé. C'est, enfin, la remise à l'Arc de Triomphe du flambeau au général Gouraud
+              et la Flame Belge ravivant la Flamme Française, symbole émouvant de l'amitié qui liera
+              à jamais les frères d'armes des deux nations. A. Conan.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTRE FÊTE DU 15 NOVEMBRE</head>
+            <p>Au cours d'une récente séance, notre Conseil d'administration mettait au point une
+              idée depuis longtemps caressée, en même temps qu'il donnait satisfaction à un désir
+              exprimé par divers membres de l'Union, en décidant l'organisation de fêtes diverses
+              pendant la saison 19361937.</p>
+            <p>Le dimanche 15 novembre, notre salle des fêtes s'est donc ouverte pour la première
+              fois; constatons que ce coup d'essai fut un coup de maître.</p>
+            <p>De nombreux camarades, accompagnés de leurs familles, envahirent la salle et, en peu
+              d'instants, toutes les places furent occupées.</p>
+            <p>Pour des raisons d'ordre pratique, il fut impossible aux organisateurs, et nous le
+              regrettons tous, d'aviser nos camarades de province; on dut se borner à avertir les
+              membres de l'Union habitant la région parisienne. D'ailleurs, comme il s'agissait
+              d'une expérience, il était sage de se montrer prudent.</p>
+            <p>Devant le succès, la preuve étant faite, nous ne pouvons que bien augurer de
+              l'avenir, et nos camarades de province seront conviés par la voix du Bulletin à se
+              joindre nombreux à nous, car tous les spectateurs ont emporté de cette fête familiale
+              le meilleur souvenir.</p>
+            <p>Conan, récemment investi de la lourde charge présidentielle, a ouvert la fête par une
+              courte allocution; en termes excellents, il nous a rappelé <pb n="7"/>
+              <note type="foliation">— 5 —</note> les raisons de la réalisation de la Maison de
+              l'Aveugle permettant aux camarades de se rencontrer, de se mieux connaître, de
+              resserrer entre eux les liens d'amitié. Il remercia les artistes qui nous apportaient
+              un concours gracieux, puis il pria notre ami Bloch, membre de notre Comité d'Action,
+              qui prit une part très active à la préparation de la fête, de présenter les
+              artistes.</p>
+            <p>Avec beaucoup de verve, le speaker improvisé nous donna quelques indications sur le
+              programme qui nous était offert. Nous eûmes alors le plaisir d'entendre Mlle Odette
+              Gartenlaub, jeune pianiste âgée de quatorze ans, premier prix de piano du
+              Conservatoire National de Musique de Paris, première nommée, qui exécuta, sur piano
+              Erard, le Treizième Nocturne et la Septième Valse de Chopin, Jardins sous la Pluie de
+              Debussy.</p>
+            <p>Quelle souplesse, quelle précision, quelle aisance, aussi quels applaudissements
+              accueillirent cette interprétation expressive, fine et vigoureuse.</p>
+            <p>Un nouveau régal lui succéda. Mme Lowelly-Boulogne, qui a connu les plus grands
+              succès sur les scènes de l'Opéra-Comique, de la GaîtéLyrique, dans nos grandes villes
+              de province et dans les importants théâtres de l'étranger, nous a chanté, avec un goût
+              exquis, d'une voix charmante, égale dans tous ses registres, Ma Bien-Aimée de Boelmann
+              et la célèbre Valse d'Arditi. L'auditoire ne lui a pas ménagé ses
+              applaudissements.</p>
+            <p>Du grand art nous passâmes au rire; le joyeux comique Nicollot, du Kursaal, dans son
+              désopilant répertoire, parvint par son grand talent, son sens de l'humour, ses gais
+              propos, à délider tous les fronts; l'auditoire, après s'être abandonné à une douce
+              hilarité, ne lui marchanda pas ses frénétiques acclamations. M. Bloch annonça ensuite
+              au public un court entr'acte permettant de transformer la salle en vue d'une sauterie,
+              aux sons d'un très bon orchestre-jazz, dirigé par M. Blaustein, que tous nous
+              connaissons et apprécions, car il nous a déjà fait danser, M. Blaustein étant chef
+              d'orchestre du Palais d'Orsay.</p>
+            <p>Notre speaker nous prévint en même temps de l'ouverture de notre bal où nous avons
+              trouvé, comme il nous le promettait, le meilleur accueil et, ce qui n'est pas à
+              dédaigner, de bonnes consommations à des prix fort abordables.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>Le bal fut très animé, nombreux furent les amateurs de foxs et de tangos; pendant ce
+              temps, ceux de nos camarades qui apprécient moins ou qui n'apprécient plus ce genre de
+              distractions savouraient au bar de délicieux apéritifs ou se livraient au jeu
+              passionnant de la belote.</p>
+            <p>Quand l'horloge impitoyable marqua l'héure de la séparation, tous exprimèrent leur
+              grande satisfaction de la belle fête, le désir de voir ce genre de manifestations se
+              multiplier, nos camarades espèrent, en effet, pouvoir souvent se rencontrer d'une
+              façon aussi charmante dans notre maison. Puis on se quitta à regret en se disant : "A
+              bientôt!"</p>
+            <p>Bois.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">NOS PROCHAINES FÊTES</head>
+            <p>Après le grand succès obtenu par la première fête donnée dans notre nouvelle Maison,
+              le Conseil d'administration, certain qu'il répondait au. désir de tous nos camarades,
+              a confirmé sa décision d'organiser une série de manifestations diverses pendant la
+              saison 1936-1937.</p>
+            <p>La première de ces manifestations a eu lieu, le 15 novembre; le programme en a été
+              très apprécié, tant pour la partie concert, qui intéressait l'unanimité des
+              spectateurs, que pour la partie danse, qui réjouissait de nombreux groupes.</p>
+            <p>Les fêtes se succéderont donc et nous ferons tous nos efforts pour multiplier nos
+              réunions amicales, tout en présentant chaque fois un programme varié et attrayant.
+              Pour le moment, toutefois, nous sommes un peu freinés dans notre élan par diverses
+              manifestations d'un autre ordre décidées par notre Conseil d'administration.</p>
+            <p>Le 6 décembre, notre Président se rendra à Cannes où il assistera à l'inauguration de
+              la rue Brieux; il déposera, à cette occasion, une palme sur la tombe de notre grand
+              bienfaiteur.</p>
+            <p>Notre deuxième concert, suivi d'une sauterie, aura lieu le 20 décembre, à 14 h .30 ;
+              nous vous préparons un beau programme pour cette réunion. Puis nos fêtes se
+              succéderont et vous serez toujours prévenus par la voix du Bulletin.</p>
+            <p>Sauf modifications indépendantes de notre volonté, nous avons l'intention de donner
+              ensuite des fêtes le 14 février, le 11 avril, puis le 30 mai.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">OUVERTURE DE NOTRE
+              RESTAURANT</head>
+            <p>Nous avons le plaisir d'informer nos camarades que le restaurant de notre Maison est
+              ouvert aux membres de l'Union et à leurs familles depuis le 1<hi rend="superscript"
+                >er</hi> décembre.</p>
+            <p>Les prix des repas ont été fixés provisoirement de la façon suivante : Petit déjeuner
+              : 2 francs. Déjeuner : 9 francs. Dîner : 7 francs. Ces prix sont majorés de 5% pour le
+              service. Nous rappelons que le bar fonctionne depuis le 15 novembre à la satisfaction
+              des camarades qui s'y sont déjà rencontrés.</p>
+            <p>Les camarades désireux de venir, soit déjeuner, soit dîner, sont priés, pour les
+              commodités du service, de prévenir : le matin avant neuf heures pour le déjeuner et
+              avant quatorze heures pour le dîner.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">LA CAISSE DES PENSIONS</head>
+            <p>Nous extrayons, du projet de budget de 1937, les articles 82 à 85 concernant la
+              Caisse des Pensions, et les communiquons ci-dessous pensant qu'ils pourront intéresser
+              nos camarades :</p>
+            <p>ART. 82. - Il est institué, à partir du 1<hi rend="superscript">er</hi> janvier 1937,
+              une Caisse des pensions de guerre. Cette Caisse, dotée de l'autonomie financière,
+              assumera la charge des pensions et accessoires de pensions attribués aux victimes de
+              la guerre 1914-1918, en exécution des lois des 31 mars et 24 juin 1919 et des lois
+              subséquentes, ainsi que la retraite du combattant instituée par les lois du 16 avril
+              1930 et du 31 mars 1932.</p>
+            <p>En outre, la Caisse des pensions assumera la charge en intérêt et amortissements des
+              titres ou valeurs dont l'émission est prévue à l'article 83 ci-après.</p>
+            <p>ART. 83. - Les ressources de la Caisse des pensions comprennent : 1<hi
+                rend="superscript">°</hi> Une subvention annuelle de 4.500 millions de francs pour
+              laquelle un crédit d'égal montant sera inscrit au budget du Ministère des Pensions;
+                2<hi rend="superscript">°</hi> Les dons et legs faits à la Caisse; 3<hi
+                rend="superscript">°</hi> Les recettes diverses et accidentelles; 4<hi
+                rend="superscript">°</hi> Dans la mesure où les ressources énumérées aux trois para-
+                <pb n="10"/>
+              <note type="foliation">— 8 —</note> graphes précédents ne permettront pas à la Caisse
+              de couvrir les dépenses, le produit d'opérations d'emprunt réalisées dans des
+              conditions fixées par décret contresigné par le ministre des Finances, après avis du
+              Conseil d'administration de la Caisse des pensions de guerre.</p>
+            <p>Les titres qui seront émis en application de l'alinéa précédent bénéficieront de la
+              garantie de l'Etat et seront assimilables aux valeurs de l'Etat frànçais en ce qui
+              concerne les remplois et placements ainsi que le régime fiscal.</p>
+            <p>ART. 84. - La Caisse des pensions de guerre est administrée par un Conseil
+              d'administration dont la composition est la suivante :</p>
+            <p>Un sénateur, président; Deux députés ; Six représentants des anciens combattants et
+              victimes de la guerre, désignés par l'Office national des mutilés combattants et
+              pupilles de la nation;</p>
+            <p>Deux représentants du ministre des Pensions; Trois représentants du ministre des
+              Finances; Un représentant de la Caisse des dépôts et consignations; Un représentant de
+              la Caisse autonome d'amortissement; Un représentant de la Banque de France. Les
+              fonctions de président et de membre du Conseil d'administration sont gratuites.</p>
+            <p>Art. 85. - Un décret rendu sur la proposition du ministre des Pensions et du ministre
+              des Finances déterminera les modalités de fonctionnement de la Caisse des pensions de
+              guerre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">LA CROIX DU COMBATTANT
+              VOLONTAIRE</head>
+            <p>Le Journal Officiel a publié le texte d'un décret, daté du 18 novembre, qui proroge
+              d'une année le délai pendant lequel les intéressés peuvent demander l'attribution de
+              la croix du combattant volontaire.</p>
+            <p>Voici le texte de ce décret : Article premier. - Le délai d'un an, prévu à l'article
+              6 du décret du 28 novembre 1935, est prorogé jusqu'au 1<hi rend="superscript">er</hi>
+              décembre 1937 inclus.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+            <p>ART. 2. - Les ministres de la Défense nationale et de la Guerre, de la Marine et de
+              l'Air, sont chargés de l'exécution du présent décret qui sera publié au Journal
+              Officiel.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">CHIENS-GUIDES</head>
+            <p>Notre camarade Delfosse, de Valenciennes (Nord), nous demande d'insérer la note
+              suivante relative aux chiens-guides : " J'ai le plaisir d'informer les camarades, qui
+              seraient désireux d'un chien-guide, qu'ils peuvent s'adresser en toute confiance à
+              l'Euvre Belge du Chien-Guide pour Aveugle, à Maffles, près Ath (Belgique). " Cette
+              Euvre a été créée peu après la fermeture de "L'œeil qui voit » à Vevey. Les premiers
+              obstacles de la période des tâtonnements ayant été vaincus, elle peut maintenant
+              fournir des chiens (malinois) à ceux qui en désireraient. " L'école de Maffles est
+              dirigée par M. Barbe, dresseur éminent, dont les chiens pistiers sont très connus de
+              la police belge, et plusieurs fois primés. Il a fait d'ailleurs un stage en Allemagne
+              pour s'adapter à l'éducation du chien-guide. " Actuellement, le prix du chien, aussi
+              bien dressé qu'à "L'œil qui voit », équipement et stage, serait de 3.000 francs belges
+              environ, prix très intéressant malgré notre dévaluation. " M. Jean Morel, aveugle
+              civil de Beaurains-lez-Arras, m'écrit qu'il possède un de ces chiens depuis fin
+              juillet, qu'il en est enchanté, que sa vie s'en trouve complètement changée et qu'il
+              ne saurait trop recommander aux camarades le centre de Maffles. "</p>
+            <p>Note du Secrétariat. - Nous rappelons à nos camarades que Chanudet, Aveugle de
+              Guerre, a créé une Ecole de chiens-guides à Nogent-sur-Vernisson (Loiret).</p>
+            <p>Le Conseil d'administration, suivant les directives qui lui ont été données par
+              l'Assemblée générale de 1936, a apporté son concours au fonctionnement de cette
+              Ecole.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">LÉGION D'HONNEUR</head>
+            <p>Au Journal Officiel du 13 novembre 1936, publiant le décret du 31 octobre, sont
+              promus :</p>
+            <p>Au grade d'officier dans l'Ordre de la Légion d'honneur : Gable (Alphonse-Adolphe),
+              ancien caporal du 8<hi rend="superscript">°</hi> Régiment de tirailleurs algériens.
+              Occre (Charles), ancien soldat du 73<hi rend="superscript">°</hi> Régiment
+              d'infanterie. Truy (Gustave), ancien soldat du 120<hi rend="superscript">°</hi>
+              Régiment d'infanterie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">UNE DISTINCTION</head>
+            <p>Notre camarade Pannetrat, de Chaumont (Haute-Marne), est heureux de faire savoir aux
+              membres de l'U.A.G. que, par arrêté ministériel en date du 10 octobre dernier, il a
+              été promu officier de l'Instruction publique.</p>
+            <p>Nous lui adressons toutes nos félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">BUREAU DU COMITÉ D'ACTION</head>
+            <p>Le Comité d'Action de l'U.A.G. s'est réuni, le lundi 23 novembre dernier.</p>
+            <p>Son Bureau a été composé de la façon suivante : Président : M. de Traversay.
+              Vice-Présidentes : Mme Contamin, Mme L'Evesque. Secrétaires : M. Bloch, adjoint au
+              Trésorier; M. Iweins, secrétaire du Comité d'Action.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">Chronique de l'U.A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 30 novembre 1936, une somme de 29.185 francs, se répartissant comme suit : <list>
+                  <item>Allocations naissances .......... 1.200 francs</item>
+                  <item>décès et palmes...... 14.550 -</item>
+                  <item>Caisse Maladie ...... 12.535 -</item>
+                  <item>diverses ............ 900 -</item>
+                </list></p>
+              <p>Il y a lieu d'ajouter à ces 29.185 francs, une somme de 19.900 francs pour prêts
+                maisons familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner vingt-cinq demandes, dont deux
+                n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Naissances</head>
+                <p>Notre camarade Abderahmann Ben Saad, de Lagouat (Tunisie), nous fait part de la
+                  naissance de sa fille Fatma, née le 20 octobre 1936.</p>
+                <p>Notre camarade et Mme May, de Bugeat (Corrèze), nous font part de la naissance de
+                  leur deuxième enfant, Yvonne, née le 15 octobre 1936.</p>
+                <p>Notre camarade et Mme Masson, de Lannion (Côtes-du-Nord), nous font part de la
+                  naissance de leur onzième enfant, Georgette, née le 18 novembre 1936.</p>
+                <pb n="14"/>
+                <note type="foliation">— 12 —</note>
+                <p>Notre camarade Calmès, de Toulouse (Haute-Garonne), nous fait part de la
+                  naissance de sa petit-fille Maryse, née le 17 novembre 1936.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Mariages</head>
+                <p>Notre camarade Couesnon, de Dinard (Ille-et-Vilaine), nous fait part du mariage
+                  de sa fille Madeleine avec M. Louis Villabon, célébré le 9 novembre 1936.</p>
+                <p>Nous adressons nos vœux de bonheur aux nouveaux époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h22">Décès</head>
+                <p>Nous apprenons le décès</p>
+                <list>
+                  <item>De notre camarade Lafon (Jean), de Montauban (Tarn-etGaronne), décédé le 23
+                    octobre 1936, à l'âge de soixante-quatre ans. Né le 18 août 1872, à Montauban,
+                    soldat au 332<hi rend="superscript">°</hi> R. I., réformé à 100%, article 10 ,
+                    pour cécité, notre camarade laisse une veuve.</item>
+                  <item>De notre camarade Tisserand (Aristide), de Cosges, par Bletterans (Jura),
+                    décédé le 17 août 1936, à l'âge de cinquante-sept ans. Né le 15 mars 1879, à
+                    Relans (Jura), soldat au 18<hi rend="superscript">°</hi> R. I., notre camarade
+                    fut blessé, le 28 juin 1918, à Saint-Pierre-Aigle (Aisne). Réformé à 100%,
+                    article 10 , pour cécité, chevalier de la Légion d'honneur, titulaire de la
+                    Médaille militaire et de la Croix de guerre, il laisse une veuve et un
+                    enfant.</item>
+                  <item>De notre camarade Le Garlantezec (Edouard-Marie), de Guingamp
+                    (Côtes-du-Nord), décédé le 5 novembre 1936, à l'âge de quarante-deux ans. Né le
+                    12 août 1894, à Pont-Melvez (Côtes-du-Nord), soldat au 94<hi rend="superscript"
+                      >°</hi> Régiment d'infanterie, notre camarade fut blessé au Bois de la Grurie,
+                    le 10 février 1915. Réformé à 200%, articles 10 et 12 , pour cécité et blessures
+                    multiples, il était officier de la Légion d'honneur et titulaire de la Médaille
+                    militaire.</item>
+                  <pb n="15"/>
+                  <note type="foliation">— 13 —</note>
+                  <item>De notre camarade Gros (François), d'Albens (Savoie), décédé le 26 novembre
+                    1936, à l'âge de quarante-deux ans. Né le 5 juin 1894, à Mognard, soldat au
+                    68<hi rend="superscript">°</hi> d'Infanterie, notre camarade fut blessé, le 27 mai 1917, à Craonne.
+                    Réformé à $120 %$, articles 10 et 12, pour cécité et blessures multiples,
+                    officier de la Légion d'honneur et titulaire de la Médaille militaire, il laisse
+                    une veuve et trois enfants.</item>
+                  <item>De la mère de notre camarade Jamet, de Paris, décédé le 24 novembre 1936, à
+                    l'âge de soixante et onze ans.</item>
+                  <item>De la femme de notre camarade Lucas, de Villedieu (Indre), décédée le 26
+                    octobre 1936.</item>
+                  <item>De la femme de notre camarade Huc, de Pouzols (Tarn), décédée en novembre
+                    1936.</item>
+                  <item>Du père de notre camarade Michel (Félix), de Marseille, décédé en novembre
+                    dernier.</item>
+                  <item>De la grand-mère de notre camarade Paul Lemaire, de Paris, décédée le 22
+                    novembre 1936, dans sa quatre-vingt-treizième année.</item>
+                  <item>De la femme de notre camarade Breton, de La Ferté-Gaucher
+                    (Seine-et-Marne).</item>
+                  <item>Du fils de notre camarade Focé, de Lamastre (Ardèche), décédé le 20 novembre
+                    1936, dans sa vingt-quatrième année.</item>
+                  <item>Du père de notre camarade Pannetrat, de Chaumont (HauteMarne), décédé le 20
+                    novembre 1936, dans sa quatre-vingt-quatrième année.</item>
+                </list>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">PROCÈS-VERBAL de la Réunion
+                du Conseil d'Administration du 24 Octobre 1936</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Conan. Sont présents:
+                Bois, Conan, Lauté, Favret, L'Evesque, Amblard, Bardoux, Brusson, Céré-Labourdette,
+                Courteix, Evrat, Fauvel, Grillet, Guillam, Izaac, Leveau, Malgat, Nicolaï, Noireaux,
+                Scapini.</p>
+              <p>Excusés : Bloncourt, Cabasson, Derunder, Laffargue, Lagarde, Muller, Robert (M.),
+                Roy (G.), Satgé.</p>
+              <p>Ont donné leurs pouvoirs : Au Secrétaire général : Cabasson, Lagarde, Muller, Roy
+                (G.). A Scapini : Robert (M.). A Amblard : Satgé. A Noireaux : Derunder. Assistaient
+                également à la séance : M. de Traversay, président; M. Iweins, membre du Comité
+                d'Action; M. Oscar Bloch, trésorier adjoint.</p>
+              <p>Les camarades : Berthet, Briant, Briffaut, Bur, Chardon, Hennebicq, Lambert
+                (Roger), Leblond, Olivier, Rochelet, Rousseau, Saillot.</p>
+              <p>1" Procès-verbal de la réunion du Conseil d'administration du 3 octobre. Adopté à
+                l'unanimité. 2<hi rend="superscript">°</hi> Situation financière de septembre.
+                Adoptée à l'unanimité. 3<hi rend="superscript">°</hi> Election d'un membre du
+                Bureau. Conan fait procéder à l'ouverture des enveloppes pour l'élection d'un membre
+                du Bureau. Vingt-huit bulletins ont été reçus.</p>
+              <p>Le résultat s'établit ainsi : Guillam, 17 voix; divers, 4 voix; bulletins blancs,
+                7.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>N'ont pas pris part au vote: Guillam et Bertrand. (Le bulletin de vote de Bertrand
+                nous est parvenu après la séance.) Guillam est invité à prendre place au Bureau, qui
+                est alors appelé à se répartir les fonctions.</p>
+              <p>Bois, doyen d'âge des vice-présidents, met le Conseil au courant des délibérations
+                du Bureau; les membres du Bureau ont offert à Favret et Conan les deux principaux
+                postes. Après accord entre eux, Favret ayant exprimé le désir de conserver le
+                Secrétariat général qu'il assure depuis le mois de juin, la présidence de l'Union
+                est confiée à Conan, qui l'accepte.</p>
+              <p>Le Bureau est ainsi constitué : Président : Conan. Vice-Présidents : Bois, Guillam,
+                Lauté. Secrétaire général : Favret. Trésorier : L'Evesque (Gaston) (élu par
+                l'Assemblée générale). Conan remercie et félicite Scapini, Amblard et leurs
+                collaborateurs de l'ancien Bureau et adresse ses souhaits de bienvenue au nouvel
+                élu. Il remercie également le Comité d'Action de sa collaboration. 4<hi
+                  rend="superscript">°</hi> Favret informe le Conseil que la Société Immobilia,
+                ayant dénoncé le contrat qui nous liait, le Bureau a entrepris immédiatement des
+                démarches auprès de l'Union des Blessés de la Face, en vue d'envisager la
+                collaboration de l'U.A.G. à l'émission des dixièmes de billets de la Loterie
+                Nationale faite par les Gueules Cassées.</p>
+              <p>Le Bureau met le Conseil au courant du résultat des pourparlers. Après échange de
+                vues, à l'unanimité des membres présents, moins une abstention: Céré, le Conseil
+                accepte les propositions de l'Union des Blessés de la Face et fait confiance au
+                Bureau pour établir un contrat avec les Gueules Cassées dans les meilleures
+                conditions possibles.</p>
+              <p>L'Evesque expose son point de vue sur la propriété des lots non réclamés. Sa
+                manière de voir n'est pas partagée par un certain nombre d'administrateurs,
+                notamment Scapini, Amblard, Izaac, et le Conseil décide alors de charger la
+                Commission de la Loterie, composée de MM. de Traversay, Bloch, Iweins, L'Evesque, de
+                se mettre en <pb n="18"/>
+                <note type="foliation">— 16 —</note> rapports avec la Société Immobilia pour la
+                liquidation légale des lots non réclamés.</p>
+              <p>Désignation d'un délégué à la Confédération. Le Conseil désigne son Président Conan
+                pour représenter l'Union en qualité de délégué à la Confédération. Lauté est nommé
+                délégué suppléant.</p>
+              <p>Il est demandé à Conan de poser sa candidature lors de l'élection du Conseil
+                d'administration de la Confédération.</p>
+              <p>Se sont abstenus sur cette question : Brusson, Céré-Labourdette, Courteix, Leveau,
+                Malgat, Noireaux.</p>
+              <p>Le Conseil désigne Bois pour représenter l'Union à la Commission Supérieure de
+                Surveillance et de Contrôle des soins médicaux.</p>
+              <p>Lecture est donnée des demandes d'adhésion de : Massot (Alfred), aux Plaines,
+                commune de Blaye-les-Mines (Tarn), 100%, article 10 , titre définitif, carte du
+                combattant. LeclercQ (Fernand-Joseph), 67, rue Hinemar, Reins (Marne), 100%, article
+                10 , titre provisoire, carte du combattant.</p>
+              <p>Ces camarades, remplissant les conditions, sont admis, Massot en qualité de membre
+                titulaire, et Leclercq de membre temporaire.</p>
+              <p>L'apposition dans un des salons de l'U.A.G. d'une plaque portant l'inscription :
+                Salle "Les Amis des Soldats Aveugles », Prési-dent-Fondateur : Vallery-Radot;
+                Président : Général Sainte-ClaireDeville, est décidée par le Conseil.</p>
+              <p>Les plaques portant les inscriptions : Salle Maunoury, Salle Brieux et Salle
+                Boetzel, autrefois dans l'immeuble Ballu, seront placées respectivement dans : la
+                Salle des Fêtes, la salle du restaurant et la salle du Conseil.</p>
+              <p>Le 15 novembre prochain, une matinée artistique suivie d'une sauterie, sera donnée
+                par l'U.A.G., dans notre Salle des Fêtes.</p>
+              <p>Après avoir pris connaissance des dispositions testamentaires, en date du 17
+                décembre 1935, de M. Spazier (Louis-Frédéric), en son vivant demeurant à Paris, 98,
+                rue du Faubourg-Saint-Martin, où il est décédé, le 2 janvier 1936, par lesquelles il
+                lègue aux Aveugles de Guerre une somme de deux mille francs.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Le Conseil d'administration accepte à l'unanimité ces dispositions testamentaires
+                et donne tous pouvoirs à son Trésorier pour l'encaisser en son nom, prendre tous
+                engagements et faire le nécessaire.</p>
+              <p>Sur proposition du Bureau, le Conseil décide d'attribuer une subvention de 300
+                francs à la souscription ouverte pour le "Monument National aux Infirmières
+                Françaises tuées à l'ennemi ".</p>
+              <p>En remplacement de Guillam, nommé Vice-Président, Grillet est désigné membre de la
+                Commission de Caisse Fraternelle.</p>
+              <p>Lecture est donnée de lettres reçues de la Départementale de la Seine-Inférieure,
+                des camarades Capelle et Niant.</p>
+              <p>Le Conseil autorise les Aveugles victimes civiles de la guerre, membres de l'Union,
+                à se réunir chaque année dans une des salles de notre Maison.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 h .45 .</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">PROCÈS-VERBAL de la Réunion
+                du Conseil de la Régionale de Lyon et du Sud-Est le 22 Octobre 1936</head>
+              <p>Le Conseil d'administration de la Régionale de Lyon s'est réuni, le 22 octobre
+                1936, à 17 h. 30, sous la présidence de Mulsant.</p>
+              <p>Etaient présents : Mulsant, Petitdidier, Gerbelli, Cachet (délégué pour l'Ain),
+                Finet (délégué des Savoies) et le trésorier voyant Fascina.</p>
+              <p>Le Conseil a repris le contact habituel de fin de vacances et délibéré sur les
+                affaires courantes intéressant la Régionale et particulièrement l'Ain et les
+                Savoies.</p>
+              <p>Après s'être entretenu sur les délibérations du Conseil d'administration de
+                l'U.A.G. et après avoir pris connaissance de la détermination prise par le Président
+                Scapini, le Conseil a voté à l'unanimité des administrateurs présents, l'ordre du
+                jour suivant : " Le Conseil d'administration de la Régionale de Lyon, au cours de sa
+                séance du 22 octobre 1936, ému de la regrettable détermination prise par le
+                Président, notre camarade Scapini, lui exprime en la circonstance, avec tous ses
+                regrets de le voir quitter la présidence, l'expression de son indéfectible
+                reconnaissance pour l'œuvre accomplie depuis de longues années, ainsi que tous ses
+                remerciements bien sincères. " Les membres du Conseil d'administration sont
+                convaincus que le camarade Scapini, Président honoraire de l'U. A. G., ne pourra
+                s'abstenir de continuer à œuvrer à notre grande Union pour laquelle il s'est si
+                largement dépensé et a contribué à en faire briller l'éclat parmi nous et dans tout
+                notre cher pays. »</p>
+              <p>Le Conseil de la Régionale est également particulièrement heureux de la nouvelle
+                distinction qui vient d'honorer son Président Mulsant, ainsi que la Régionale tout
+                entière.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Le 14 juillet 1936, à l'occasion de la revue des troupes de la garnison, place
+                Bellecour, le camarade président F. Mulsant, au cours de la prise d'armes qui a
+                suivi, a été, en présence de sa famille et de ses amis, décoré de la croix du
+                combattant volontaire par M. le Général Gouverneur Militaire, commandant la Place de
+                Lyon.</p>
+              <p>Le Conseil d'administration de la Régionale, en félicitant son Président au nom de
+                tous pour la distinction bien méritée, dont il est justement l'objet, lui renouvelle
+                son attachement et ses sentiments de bonne camaraderie pour le fleuron qu'il vient
+                d'ajouter à la Régionale de Lyon.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 19 h .15 . Pour le Conseil
+                d'administration : Le Trésorier voyant : J. FASCINA.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">PROCÈS-VERBAL de la Réunion
+                de la Section des Bouches-du-Rhône du 28 Octobre 1936</head>
+              <p>Le Conseil d'administration de la Section des Bouches-du-Rhône s'est réuni, à
+                Marseille, le mercredi 28 courant, sous la présidence du camarade Cabasson.</p>
+              <p>Etaient présents : Les camarades Cabasson, Chaullier, Dupuy, Fauchier, Michel
+                (Eugène) et Roubaud.</p>
+              <p>Le Conseil approuve la situation financière de la Section, qui se solde par un
+                avoir de 352 francs. Après un exposé fait par le Président des travaux de l'U.A.G.,
+                le Conseil approuve l'action de notre Bureau.</p>
+              <p>Il rappelle au Conseil d'administration de l'U.A.G. et au Bureau, trois questions
+                qui tiennent particulièrement à cœur aux camarades des <pb n="22"/>
+                <note type="foliation">— 20 —</note> Bouches-du-Rhône et sur lesquelles ils attirent
+                à nouveau l'attention de notre organisme central : 1<hi rend="superscript">°</hi>
+                Etude d'assurances en faveur des veuves de scamarades. 2<hi rend="superscript"
+                  >°</hi> Extension du Statut des Grands Invalides aux camarades qui n'en sont pas
+                encore bénéficiaires. 3<hi rend="superscript">°</hi> Attribution de la Médaille
+                militaire ou de la Légion d'honneur à tous les camarades qui n'en sont pas encore
+                titulaires.</p>
+              <p>Le Conseil insiste à nouveau auprès du Bureau de l'U.A.G. pour que l'action en vue
+                de la solution de ces trois question ne se relâche pas.</p>
+              <p>Le Président : M. CABasson.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">COMPTE RENDU de la Réunion
+                de la Section Régionale de Bordeaux le 8 Novembre 1936</head>
+              <p>Le Bureau de la Section Régionale de Bordeaux a tenu sa réunion semestrielle, le
+                dimanche 8 novembre 1936.</p>
+              <p>Etaient présents : Brusson, président; Almy, vice-président; Laugt, secrétaire;
+                Lanuc, Michou, membres du Bureau, ainsi que les camarades Gouny, Magat et Marc.</p>
+              <p>Excusés : Tauzia et M. Sedard, trésorier. Ordre du jour du Bureau : 1<hi
+                  rend="superscript">°</hi> Situation financière de la Section. Lecture est donnée
+                de la lettre de notre trésorier, M. Sédard, qui s'excuse, retenu par ses occupations
+                professionnelles, de ne pouvoir assister à notre réunion.</p>
+              <p>La situation financière, au 8 novembre 1936, présente un solde créditeur de 1.378
+                fr. 65.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+              <p>Dans sa lettre, M. Sédard a bien voulu nous donner l'assurance qu'il compte donner,
+                dans quelque temps, un spectacle dans un de ses cinémas au profit de notre Section.
+                D'avance, le Bureau lui adresse l'expression de sa profonde gratitude. 2<hi
+                  rend="superscript">°</hi> Fixation de l'Assemblée générale de 1937 de la Section :
+                Le Bureau décide, en principe, de la fixer au quatrième dimanche avant celle de
+                l'U.A.G.</p>
+              <p>Il est bien entendu qu'en temps utile une convocation spéciale fera connaître à
+                chacun des membres de la Section la date et le lieu de l'Assemblée annuelle. Il est
+                rappelé, pour le bon ordre, que l'Assemblée annuelle du 29 mars 1936 a décidé que
+                les Assemblées annuelles se tiendraient dorénavant dans la matinée avant le banquet.
+                  3<hi rend="superscript">°</hi> Questions diverses. Le camarade Brusson rend compte
+                des dernières séances du Conseil d'administration de l'U.A.G. et nous le remercions
+                des renseignements qu'il nous a fourni à ce sujet.</p>
+              <p>Il est décidé qu'une palme sera déposée, le 11 novembre 1936, au monument aux morts
+                de la ville de Bordeaux.</p>
+              <p>La réunion du Bureau, commencée à midi, s'est terminée à 17 heures dans la plus
+                franche cordialité.</p>
+              <p>Le Secrétaire : LaUgT.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">AVIS DIVERS</head>
+              <p>Mme Lambert, veuve de notre camarade Gabriel Lambert, demeurant à Blanc-Mesnil,
+                139, avenue de la République, nous informe qu'elle céderait à de bonnes conditions
+                un outillage de vannerie.</p>
+              <p>S'adresser directement à Mme Lambert, 139, avenue de la République, Blanc-Mesnil
+                (Seine-et-Oise). M. Louis Larue, Aveugle de Guerre, à Larochepot, par Nolay
+                (Côte-d'Or), offre à ses camarades des bons vins de bouteille, vins de propriétaire,
+                aux prix suivants :</p>
+              <p>Pinot blanc, Meursault, la caisse de 12 bouteilles : 108 francs. Pinot blanc,
+                Meursault, la caisse de 24 bouteilles : 200 francs. Pinot blanc, Puligny-Montrachet,
+                même qualité, même prix. Ces vins font 13<hi rend="superscript">°</hi> 5. Pinot
+                rouge, Chassagne-Montrachet, la caisse de 12 bouteilles : 96 francs.</p>
+              <p>Pinot rouge, Chassagne-Montrachet, la caisse de 24 bouteilles : 180 francs.</p>
+              <p>Ces vins font 12<hi rend="superscript">°</hi> 5. Le tout, Côte de Beaune, rendu
+                franco domicile dans toute la France.</p>
+              <p>S'adresser directement à M. Larue, à Larochepot, par Nolay (Côted'Or).</p>
+              <p>Notre camarade Niant (Simon), ancien propriétaire vigneron, se met à la disposition
+                de ses camarades pour leur faire envoyer des vins de la région de Bergerac-Bordeaux,
+                vins ordinaires et supérieurs aux meilleures conditions.</p>
+              <p>Se mettre directement en rapports avec M. Niant, 71, rue du Pont-Saint-Jean, à
+                Bergerac (Dordogne).</p>
+              <p>Aux amateurs de champagne, notre camarade Malgat propose un champagne excellent,
+                cuvée réservée, délimitation 1908, provenance <pb n="25"/>
+                <note type="foliation">— 23 —</note> directe du propriétaire récoltant, à 9 francs
+                la bouteille franco domicile de port et d'emballage, pour Paris et banlieue, et à 10
+                francs la bouteille pour la province. Ces prix s'entendent par caisse de 25
+                bouteilles.</p>
+              <p>S'adresser directement à M. Malgat, 28 bis, rue du Chemin-Vert, Villemomble
+                (Seine).</p>
+              <p>La Maison "Le Décor ", papiers peints, 38, rue Ballu, Paris (9), nous fait savoir
+                qu'elle consent aux Aveugles de Guerre une réduction de 20% sur le montant de leurs
+                achats.</p>
+              <p>Se présenter muni de la carte de membre de l'U.A.G.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">LISTES DE DONATEURS</head>
+              <p>Mlle Coraly Valentie, Santos (Brésil), 200 fr. - Mme Condamin, Paris, 6 fr. - Une
+                Beauceronne, 50 fr. - M. J. Charlot, Paris, 300 fr. - Mme Portus, Paris, 20 fr. -
+                Mme Teilh, Loudun (Vienne), 20 fr. - Anonyme, 500 fr. - M. Masson, Mancieulles
+                (Meurthe-et-Moselle), 60 fr. - Protection et bonne santé de notre famille, 300 fr. -
+                Une Bourguignonne, 25 fr. - Mme Théron, Château-Thierry (Aisne), 25 fr. - Société
+                Avignonnaise d'Electricité, 50 fr. - Mme Veuve Jean Schott, Huriegheim (Bas-Rhin),
+                100 fr. - M. Delanne, Remaucourt (Ardennes), 20 fr. - Divers, 1.049 fr. 80 .</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Dons avec affectation
+                spéciale pour la Maison des Aveugles de Guerre</head>
+              <p>Anonyme, 50 fr. - Mme Nicolas, Paris, 30 fr. - M. Helf, Courbevoie, 10 fr. - M.
+                Monin, Paris, 10 fr. - M. Greffier, Paris, 10 fr. - Mme Chavignat, Paris, 10 fr. -
+                Mme Cabasset, Paris, 20 fr. - M. Duval, Paris, 100 fr. - Mme Burclot, 50 fr.</p>
+              <pb n="26"/>
+            </div>
+          </div>
+          <fw>Le Géant: DECOENE IMP. DUBOIS &amp; BAUER 34, rue Laffitte - Paris-9</fw>
+          <pb n="27"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Scapini, Président honoraire. Bourguignon, Secrétaire
+              général honoraire. Favret, Secrétaire général honoraire. Conan, Secrétaire général
+              honoraire. Amblard, Secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">Conseil d'Administration</head>
+            <p>Président : CONAN. Vice-Présidents : Bois, Guillam, Lauté. Secrétaire général :
+              Favret. . Trésorier : Gaston L'Evesque. Membres : Amblard, Bardoux, Bertrand,
+              Bloncourt, Brusson, Cabasson, Céré-labourbette, Courteix, Driunier, Evrat, Fauvel,
+              Grillet, Izaac, Laffargue, Lagarde, Leveau, Malgat, Muller, Nicolai, Norreaus, Robert
+              (Maurice), Roy (Georges), Sator, Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">Comité d'Action</head>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Président : M. le baron de Traversay;
+              Vice-Présidentes : Mme Contamin; Mme L'Evesque. Secrétaires : M. Bloch, adjoint au
+              Trésorier; M. Iweins, Secrétaire du Comité d'Action; M. Auterbe, Sous-Directeur à la
+              Compagnie L'Union; Mme du Bos; Mme Broquin; M. de Chaumont-Quitry; M. Chepfer; M.
+              Pierre Chérot; Mme Chevalier; Mme Francis de Croisset; Mlle Jalaguier; Mlle
+              d'Ilerhemont; Mme Ilenri; Mme Kall; Mme Lévy-Weis; M. Mayer; Mme Meyer; Mme Mus; M.
+              Pascal. Colonel de Traversay.</p>
+            <pb n="28"/>
+          </div>
+          <fw>Gérard: DECOENE. Imp. Dubois et Bauer, 14, r Laffitte. - 1936</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

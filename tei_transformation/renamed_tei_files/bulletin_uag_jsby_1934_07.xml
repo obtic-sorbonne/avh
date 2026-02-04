@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 16ème année 1934, n°7</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Anciens combattants aveugles</title>
+        <title type="topic">Statut des invalides</title>
+        <title type="topic">Pensions de guerre</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Secours mutuel</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 16 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles-de-guerre">Aveugles de guerre</term>
+          <term ref="#invalides">Invalides</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#association">Association</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#statut-des-grands-invalides">Statut des grands invalides</term>
+          <term ref="#decrets-lois">Décrets-lois</term>
+        </keywords>
+        <classCode scheme="DDC">362.410944</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre (U.A.G.) traite de l'actualité de
+          l'association et des questions relatives aux anciens combattants aveugles. Il aborde le
+          statut des grands invalides et les efforts entrepris pour son amélioration, ainsi que
+          l'impact des décrets-lois sur les pensionnés de guerre. Le bulletin rend hommage à Pierre
+          Villey et publie la réponse du Ministre des Pensions concernant les victimes civiles. Il
+          contient également des informations sur la Caisse Fraternelle, les cotisations, les
+          naissances, mariages et décès des membres de l'U.A.G., ainsi que le procès-verbal de la
+          réunion du Conseil d'Administration.</p>
+      </abstract>
+      <creation>
+        <date when="1934-07-01">01/07/1934</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-17" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h6">LE STATUT DES GRANDS INVALIDES</ref>
+          </item>
+          <item>
+            <ref target="#h7">LES DÉCRETS-LOIS</ref>
+          </item>
+          <item>
+            <ref target="#h8">HOMMAGE A PIERRE VILLEY</ref>
+          </item>
+          <item>
+            <ref target="#h9">Réponse écrite de M. le Ministre des Pensions</ref>
+            <list>
+              <item>
+                <ref target="#h10">Victimes civiles</ref>
+              </item>
+              <item>
+                <ref target="#h11">Souscription pour le buste de BRIEUX</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h12">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h13">Caisse Fraternelle</ref>
+              </item>
+              <item>
+                <ref target="#h14">ENTRE-NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h15">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h17">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h18">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h19">Cotisations volontaires</ref>
+              </item>
+              <item>
+                <ref target="#h20">Cotisations pour l'année 1934</ref>
+              </item>
+              <item>
+                <ref target="#h21">PROCES-VERBAL de la Réunion du Conseil d'Administration du 2 Juin
+                  1934</ref>
+              </item>
+              <item>
+                <ref target="#h22">AVIS</ref>
+              </item>
+              <item>
+                <ref target="#h23">Dons avec affectation spéciale pour la création de la " Maison
+                  des Aveugles de Guerre"</ref>
+              </item>
+              <item>
+                <ref target="#h24">Liste des Donateurs</ref>
+              </item>
+            </list>
+          </item>
+          <item> </item>
+
+          <item>
+            <ref target="#h25">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h26">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h27">COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">16e Année. — N° 7</fw>
+          <fw type="header">
+            <hi rend="underline">Juillet 1934</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Avis pour les vacances.</item>
+                    <item>Le Statut des Grands Invalides.</item>
+                    <item>Les Décrets-Lois.</item>
+                    <item>Hommage à Pierre Villey.</item>
+                    <item>Réponse écrite de M. le Ministre des Pensions.</item>
+                    <item>Souscription pour le Buste Brieux.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre-Nous.</item>
+                    <item>Cotisations pour l'année 1934.</item>
+                    <item>Procès-Verbal de la Réunion du Conseil d'Administration du 2 Juin
+                      1934.</item>
+                    <item>Avis divers.</item>
+                    <item>Liste des Donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert Lebrun, Président de la République.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">COMITÉ DE PATRONAGE</head>
+            <p>\dagger M. Eugène Brieux, de l'Académie Française, Président honoraire. M. Barthou,
+              de l'Académie Française, ancien Président du Conseil. M. le colonel Fabry, ancien
+              ministre. \dagger M. le général Balpourier; M. Brisac, préfet; M. J. Ridgely Carter;
+              M. Paul de Cassagnac, ancien député; M. Maurice Donnay, de l'Académie Française; M.
+              Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien ministre;</p>
+            <p>Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug; M. Lugol,
+              sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. Samuel Milbank; M. le docteur Morax; M. Meyer,
+              conseiller d'Etat; M. Henry Paté, député; M. Pierre Rambil, député;</p>
+            <p>M<hi rend="superscript">e</hi> Henri-Robert, de l'Académie française, ancien
+              bâtonnier de l'Ordre des Avocats; M. le général Sainte-Claire-Deville; M.
+              Vallery-Radot; M. le professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+            <p>AVIS POUR LES VACANCES</p>
+            <p>Nos camarades sont instamment priés de n'adresser aux Bureaux de l'U A.G. pendant le
+              mois d'août, que des lettres ou demandes présentant un caractère de réelle
+              urgence.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">LE STATUT DES GRANDS
+              INVALIDES</head>
+            <p>Nos camarades n'ont cessé de suivre avec attention l'évolution de la question du
+              statut des grands invalides qui doit nous apporter enfin la juste amélioration que
+              nous attendons depuis longtemps.</p>
+            <p>Nous voudrions rappeler ici brièvement le travail qui, ces temps derniers, fut fait
+              dans ce sens, pour aboutir à la déclaration que M. le Président Doumergue fit à la
+              Chambre le jeudi 5 juillet dernier en faveur des grands invalides, leur donnant un
+              gage de sollicitude qu'ils apprécient hautement.</p>
+            <p>Le jeudi 21 juin, en examinant la situation, le Bureau de la Confédération décidait
+              de s'occuper activement de la réalisation de nos revendications et confiait à Ramard,
+              membre du Bureau, le soin de coordonner les efforts des Associations intéressées dont
+              les représentants (Aveugles, Amputés, Plus Grands Invalides, Trépanés) se mettaient
+              d'accord le samedi 23 juin pour mener une action concertée.</p>
+            <p>Le mardi suivant, 26 juin, M. Malvy, Président de la Commission des Finances de la
+              Chambre, nous recevait et avec une grande bonne volonté, cherchait avec nous les
+              moyens pratiques de faire voter un texte, ce qui en cette fin de session parlementaire
+              paraissait bien difficile.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+            <p>Après que nous nous fussions réunis encore une fois entre délégués, nous étions reçus
+              le vendredi 29 juin par la Commission des Pensions de la Chambre, dont le Président
+              Maupoil, ainsi que le rapporteur, notre ami Dormann, soutenaient chaleureusement notre
+              demande. Cependant il paraissait absolument impossible à cette époque de faire aboutir
+              le statut par la voie parlementaire, et après avoir consulté encore une fois M. Malvy,
+              qui s'y prêta obligeamment ainsi que notre camarade Rivollet, ministre des Pensions,
+              nous arrivâmes à cette conclusion, à savoir que seule une initiative gouvernementale
+              avait, vu l'urgence, des chances de succès. Nous décidâmes alors de demander un
+              rendez-vous à M. Doumergue qui reçut dans la soirée les délégués accompagnés par les
+              députés Maupoil et Dormann.</p>
+            <p>Ramard, au nom de la Confédération, fit alors un exposé de la situation à M.
+              Doumergue, qui fut très touché de voir cette union des Associations de Grands Mutilés.
+              Le Président du Conseil voulut absolument nous témoigner sa bienveillance et n'ayant
+              pas à ce moment précis les crédits à sa disposition, il nous promit de faire devant la
+              Chambre une déclaration qui constituerait de sa part un engagement très ferme. M.
+              Doumergue tint sa promesse, et le jeudi 5 juillet, il fit à la tribune de la Chambre
+              la déclaration suivante :</p>
+            <p>"Messieurs,</p>
+            <p>" J'ai une courte déclaration à faire pour répondre aux demandes "qui m'ont été
+              adressées par les amputés et les grands mutilés de la " guerre. "Ils ont compris qu'à
+              l'heure où nous sommes, il serait difficile " au Parlement de discuter les questions
+              qui les intéressent. Mais " je leur ai donné l'assurance que ces questions seraient
+              examinées " pendant les vacances par le Gouvernement et voici l'engagement " que je
+              suis heureux de pouvoir prendre devant la Chambre, à leur " égard, au nom du
+              Gouvernement. "Le Gouvernement s'occupera, pendant les vacances, de dégager " du
+              budget en cours les ressources nécessaires pour accorder une aide " supplémentaire aux
+              grands mutilés et amputés de la guerre. " Il soumettra au Parlement, dès sa rentrée,
+              un projet de loi en <pb n="5"/>
+              <note type="foliation">— 3 —</note> " ce sens, étant entendu que les dispositions de
+              ce projet prendront " effet à partir du 1<hi rend="superscript">er</hi> juillet 1934
+              (vifs applaudissements). "</p>
+            <p>Notre camarade Maupoil, Président de la Commission des Pensions de la Chambre,
+              remercia M. le Président du Conseil de l'engagement qu'il venait de prendre. Il
+              rappela les démarches antérieures, puis poursuivant, il dit : "En vérité, pour mettre
+              au point, dans un esprit de clarté, de "réparation, et de justice, la situation de
+              tous les grands invalides de " guerre, aveugles, amputés de un, deux ou plusieurs
+              membres, grands " blessés des centres nerveux, etc., pour éviter l'enchevêtrement des
+              " textes créant des règles de cumul touffues et des rapprochements " choquants et
+              irritants entre des catégories différentes qui ont un droit "égal à la reconnaissance
+              du pays, il y a lieu d'établir et de mettre " en vigueur, dans le plus bref délai
+              possible, le statut des grands " invalides de guerre, demandé par la Confédération
+              Nationale des " anciens combattants et par toutes les associations de mutilés dans "
+              leurs Congrès. "Un travail important sur ce sujet a été établi, à la Confédération "
+              Nationale, sur l'initiative de l'actuel ministre des Pensions, notre " camarade M.
+              Rivollet. Celui-ci peut donc maintenant poursuivre " activement l'étude du problème
+              posé, en collaboration avec la Com" mission interministérielle qu'il vient de créer et
+              au sein de laquelle " la Commission des Pensions a une importante représentation,
+              ainsi, " d'ailleurs, que les intéressés. " Je souhaite que ce travail soit rapidement
+              achevé, car les grands " invalides de guerre ne peuvent plus attendre. Ceux d'entre
+              eux qui " pouvaient se procurer quelques ressources pa leur travail sont réduits, par
+              la crise, à leur seule pension d'invalidité. " Il y va de l'honneur du pays qu'ils ont
+              sauvé d'assurer à ces " grands mutilés et à leur famille une existence décente. "En
+              réponse à une question posée fort judicieusement par mon " ami M. Dormann, qui s'est
+              toujours occupé de ses frères d'armes " - et nul n'est plus qualifié que lui pour le
+              faire - un ministre des " Finances a bien voulu reconnaître que, chaque année, il y
+              avait " malheureusement par suite de la mort de nombre de nos camarades, " plus de 250
+              millions sans emploi dans le budget des pensions.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+            <p>"M. le Ministre des Finances nous a dit que, sur ces 250 millions, " il tenait à
+              prélever les 90 millions correspondant à l'augmentation " de la retraite du
+              combattant. Nous le lui accordons volontiers. Il " restera environ 160 millions
+              disponibles qui permettront de donner " satisfaction à nos camarades. " Je demande, en
+              outre, que les amputés, victimes civiles de la " guerre qui sont très peu nombreux,
+              bénéficient du même statut. Il " en résultera seulement une dépense de deux millions
+              ainsi qu'il " résulte d'un rapport de M. des Rotours, relatif à cette question. " Pour
+              terminer cette brève intervention, je remercie encore, au " nom des grands mutilés, M.
+              le Président du Conseil de sa décla" ration nette, catégorique et je tiens à l'assurer
+              de toute la confiance " de nos camaades. " (Vifs applaudissements.)</p>
+            <p>Tous les Aveugles de Guerre seront reconnaissants à M. Doumergue de l'affectueuse
+              sollicitude qu'il leur a témoignée et adressent aussi à Maupoil et Dormann leurs
+              sentiments de reconnaissance.</p>
+            <p>Une Commission qui comprend des parlementaires, des membres du corps médical et des
+              représentants des Associations intéressées est nommée. Elle va se réunir prochainement
+              pour mettre au point la partie technique du statut des grands invalides, ce qui
+              permettra au Parlement de voter à la rentrée le projet de loi qui lui sera soumis.
+              Dans cette Commission l'U.A.G. est représentée par Amblard, membre titulaire, et
+              Favret, membre suppléant.</p>
+            <p>Le vendredi 6 juillet dernier eut lieu à Paris, à 21 heures, dans la salle du Petit
+              Journal, une grande réunion où les amputés avaient convié les Aveugles de Guerre, les
+              Plus Grands Invalides et les Trépanés. Bon nombre de nos camarades assistaient à ce
+              meeting où les représentants de ces grandes Associations de mutilés scellèrent l'union
+              des grands invalides pour l'aboutissement de leurs revendications. H. A.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LES DÉCRETS-LOIS</head>
+            <p>Le Journal Officiel du 1<hi rend="superscript">er</hi> juillet dernier publie un
+              décret qui apporte une sérieuse modification à celui du 4 avril 1934, qui interdisait
+              aux fonctionnaires de l'Etat de cumuler, au titre du même enfant, les indemnités de
+              charges de famille avec les majorations pour enfants accordées aux pensionnés de
+              guerre par les articles 13 et 19 de la loi de marr 1919.</p>
+            <p>Le décret du 1<hi rend="superscript">er</hi> juillet autorise à nouveau le cumul,
+              mais seulement pour les veuves et les invalides pensionnés à 20% au moins. Ceci
+              n'intéresse cependant pas les Aveugles de Guerre, qui ne peuvent occuper un emploi par
+              suite de leur cécité et qui sont, du reste, exclus du bénéfice des emplois réservés.
+              Seules quielques individualités parmi nous sont intéressés par la question et c'est
+              pourquoi nous la mentionnons ici.</p>
+            <p>Nous n'avons pas les mêmes réserves à faire en ce qui concerne la modification
+              apportée au décret n<hi rend="superscript">°</hi>4 du 14 avril, qui prévoyait
+              la possibilité d'une modification par simple décret des conditions d'attribution de la
+              retraite du combattant. L'article est remplacé par le texte confirmant que toute
+              modification aux conditions d'attribution de la carte du combattant devront être
+              soumises pour avis à l'Office National des Mutilés et Combattants. Le statut de la
+              retraite reste ainsi protégé par la loi; le vœu, qui avait été émis par notre
+              Assemblée générale à ce sujet, reçoit donc satisfaction.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">HOMMAGE A PIERRE VILLEY</head>
+            <p>L'Association Valentin-Hauy nous transmet l'appel suivant que nous publions
+              volontiers : " Les témoignages d'unanime et douloureuse sympathie rendus, au " cours
+              de cette année, à la mémoire de Pierre Villey ont suscité, " tant dans la presse que
+              dans les revues typhlophiliques et littéraires, " de longues études consacrées à
+              l'érudit, à l'homme de lettres, au " psychologue, au grand ami des aveugles - aveugle
+              lui-même - si " brutalement disparu. " De tous les points du monde civilisé où
+              existent des œuvres "typhlophiliques, leurs assemblées générales ont donné lieu aux
+              plus " émouvantes manifestations en souvenir de celui dont l'érudition fai" sait le
+              plus grand honneur à son pays, dont l'aménité proverbiale " gagnait irrésistiblement
+              la confiance et la sympathie de tous ceux " qui l'approchaient. " Aussi l'Association
+              Valentin-Hauy a-t-elle cru devoir prendre " l'initiative d'offrir à tous les amis de
+              Pierre Villey et à tous les " aveugles, le moyen de lui exprimer leur infinie
+              reconnaissance. " Avec le plein assentiment de la famille et sous le haut patro" nage
+              d'un Comité d'honneur, elle prévoit la gravure d'un médaillon " grandeur nature de
+              Pierre Villey, exécuté par l'artiste Prudhomme. "Une souscription publique est ouverte
+              en vue de recueillir les " fonds nécessaires à l'exécution du projet. Toute
+              souscription, si " minime soit-elle, sera acceptée avec reconnaissance. Une souscrip"
+              tion de 100 francs donnera droit à une plaquette en bronze, réplique " du médaillon. "
+              Si, comme nous l'espérons, les fonds recueillis dépassent les " frais d'organisation
+              et de réalisation, l'excédent sera consacré à la " création d'un prix dont le revenu
+              serait attribué, annuellement, à un " aveugle par les soins de l'Académie française. "
+              Le Comité d'organisation prévoit la remise du médaillon de</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>" Pierre Villey, au cours d'une cérémonie qui aura lieu l'hiver prochain à la
+              Sorbonne. " Nous avons confiance que le but poursuivi sera pleinement atteint " et que
+              la générosité des souscripteurs nous permettra de créer le Prix " Pierre-Villey. C'est
+              là, nous n'en pouvons douter, l'hommage que, " dans sa modestie, il eût préféré à tous
+              les autres, le seul qu'on aurait " pu lui faire accepter. " Prière de bien vouloir
+              adresser les souscriptions à M. le Trésorier " de l'A.V.H., 9, rue Duroc, Paris (7),
+              en mentionnant très nette" ment : "Souscription Pierre Villey ». Chèques postaux C.C.
+              Paris " 283-14, mandats-cartes, mandats-postes, chèques, mandats internationaux,
+              chèques barrés. " La médaille sera envoyée franco aux souscripteurs y ayant droit "
+              aussitôt après la cérémonie. "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Réponse écrite de M. le Ministre
+              des Pensions</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Victimes civiles</head>
+              <p>M. Capron demande à M. le Ministre des Pensions quelle est la situation des
+                victimes civiles de la guerre, pensionnés de la loi du 24 juin 1919 et, par
+                conséquent, non titulaires de la carte du combattant, en face de la révision légale.
+                (Question du 15 février 1934.)</p>
+              <p>Réponse. - La revision prévue par les articles 126 et 128 de la loi du 31 mai 1933
+                ne s'applique pas aux pensions des victimes civiles, car ces pensions ont été
+                concédées sous un régime légal exigeant l'administration préalable de la preuve du
+                rattachement à un fait de guerre de l'infirmité invoquée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Souscription pour le buste
+                de BRIEUX</head>
+              <p>Nous publions ci-après la huitième liste des souscriptions reçues : Delahaie, 10
+                fr. - Fouet, 5 fr. - Guesnier, 10 fr. - Michalet, 10 fr. - Le Barzic, 10 fr. -
+                Rineau, 5 fr. - Bruley, 10 fr. Padellec, 10 fr. - Esclaine, 10 fr. - Montet, 10 fr.
+                - Devillers, 10 fr. - Mampey, 10 fr.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Caisse Fraternelle</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 30 juin 1934, une somme de 21.293 francs, se répartissant comme suit :</p>
+              <p>Allocations naissances ............ 1.500 francs Allocations décès et
+                palmes........ 11.900 - Allocations Caisse maladie ...... 7.893 - Il y a lieu
+                d'ajouter à ces 21.293 francs, une somme de 53.800 francs pour prêts maisons
+                familiales et pour prêts exceptionnels.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner vingt-deux demandes, dont
+                quatre n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">ENTRE-NOUS</head>
+              <p>On nous prie d'insérer la réception, dans l'Ordre d'officier dans la Légion
+                d'honneur, de notre camarade Maxime Meunier, en date du 3 juin 1934.</p>
+              <p>Cette cérémonie était présidée par M. Couturier, maire de la Commune de Garancière,
+                ancien combattant.</p>
+              <p>Ont pris part à cette cérémonie, une délégation des Médaillés Militaires de
+                Montfort-l'Amaury, avec M. le docteur Sepchat, président (notre camarade Meunier est
+                le vice-président de ladite Section), une délégation des anciens combattants et les
+                habitants de la commune.</p>
+              <p>Le camarade Jean Eiselé, membre du Bureau de la Section Départementale de la
+                Seine-Inférieure, a eu l'honneur de remettre les insignes d'officier de la Légion
+                d'honneur à Maxime Meunier.</p>
+              <p>Ayant retracé les faits d'armes et les souffrances morales de notre ami, il sut
+                trouver les mots qui allèrent au coeur de tous !</p>
+              <p>Cette journée nous apporte un nouveau réconfort, car la foule des</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+              <p>anciens combattants et des personnes présentes était de tout cœur avec nous. Le
+                camarade Eiselé ayant parlé de la solidarité qui existe entre tous les Aveugles de
+                Guerre de France dit que les marques' de sympathie que l'on témoignait à M . Meunier
+                allaient au cœur de tous les infortunés privés de la vue, et c'est dans l'émotion
+                générale que s'est terminée cette cérémonie.</p>
+              <p>Un vin d'honneur a été offert par les anciens combattants de la commune.</p>
+
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h15">Naissances</head>
+                <p>Notre camarade et Mme Ali Ben Mohamed Trabelsi, d'El Ksar (Tunisie), nous font
+                  part de la naissance de leur fils Ali, né le 21 avril 1934.</p>
+                <p>Notre camarade et Mme Paul Houpert, de Bar-sur-Seine (Aube), nous font part de la
+                  naissance de leur quatrième bébé, Henri, né le 1<hi rend="superscript">er</hi>
+                  juin 1934.</p>
+                <p>Notre camarade et Mme Renaudineau, de Bourg-Saint-Martin, Machecoul
+                  (Loire-Inférieure), nous font part de la naissance de leur petite fille, Marie,
+                  née le 15 mars 1934.</p>
+                <p>Notre camarade et Mme Catrou, de Port-des-Barques (CharenteInférieure), nous font
+                  part de la naissance de leur petite fille, Jeannine, née le 8 juin 1934.</p>
+                <p>Notre camarade et Mme Khemfri Brahim El Abdaoui, d'Aïn M'lila (Constantine), nous
+                  font part de la naissance de leur fille, née le 22 juin 1934.</p>
+                <p>Notre camarade et Mme Loiseau (Alfred), de Levallois-Perret, nous font part de la
+                  naissance de leur deuxième enfant, Geneviève, née le 28 juin 1934.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h17">Mariages</head>
+                <p>Notre camarade Forgues (Jean), de Varilhes (Ariège), nous fait part de son
+                  mariage avec Mme Léonie Rouan, célébré le 9 juin 1934.</p>
+                <p>Notre camarade Monsch, de Gennevilliers, nous fait part de son mariage avec Mlle
+                  Boulat, belle-fille de notre camarade Marius Houpert, célébré le 16 juin 1934.</p>
+                <p>Notre camarade Bakour, de Clichy (Seine), nous fait part de son mariage avec Mlle
+                  Vellet, célébré le 12 juin 1934.</p>
+                <p>Notre camarade Bidau, d'Anglet, nous fait part du mariage de sa fille, Madeleine,
+                  avec M. Jean Daugé, célébré le 25 juin 1934.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h18">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Parisot (Edmond), de Paris, décédé le
+                  27 juin 1934, à l'âge de 38 ans.</p>
+                <p>Né le 14 mars 1896, à Meaux (Seine-et-Marne), soldat de 2<hi rend="superscript"
+                    >e</hi> classe au 31<hi rend="superscript">°</hi> d'infanterie, notre camarade
+                  devint aveugle le 4 mars 1918. Réformé à 100% pour cécité, art. 10 , et 30% pour
+                  blessures multiples. Notre camarade était célibataire.</p>
+                <p>De notre camarade Faucquenoy (Georges), de Vitré (Ille-et-Vilaine), décédé le
+                    1<hi rend="superscript">re</hi> juillet 1934, à l'âge de 59 ans.</p>
+                <p>Né le 10 septembre 1875 à Lille, soldat de 2<hi rend="superscript">e</hi> classe
+                  au 70<hi rend="superscript">e</hi> d'infanterie, notre camarade devint aveugle le
+                  28 janvier 1918.</p>
+                <p>Réformé à 100%, art. 10 pour cécité, Faucquenoy était titulaire de la Croix de
+                  Guerre et de la Médaille Militaire.</p>
+                <p>Notre camarade laisse une veuve et deux enfants. De notre camarade Loubière, de
+                  Orange (Vaucluse), décédé le 3 juillet à l'âge de 40 ans.</p>
+                <p>Né le 28 mars 1894, à Joncquières (Vaucluse), soldat de 2<hi rend="superscript"
+                    >e</hi> classe</p>
+                <pb n="13"/>
+                <note type="foliation">— 11 —</note>
+                <p>au 49<hi rend="superscript">°</hi> d'infanterie coloniale, notre camarade fut
+                  blessé par balle le 29 septembre 1915 à Messiges (Champagne). Réformé à 100% art.
+                  10 pour cécité, Loubière était titulaire de la Croix de Guerre, de la Médaille
+                  Militaire et de la Légion d'Honneur et laisse une veuve et trois enfants.</p>
+                <p>Du père de notre camarade Padellec, de Rome (Italie), décédé à Gavre (Morbihan),
+                  le 7 mars 1934, à 79 ans.</p>
+                <p>De la mère de notre camarade Delmas, de Blagnac (Haute-Garonne), décédée le 22
+                  janvier 1934.</p>
+                <p>De la belle-mère de notre camarade Ray (Albert), de Villemotier (Ain), décédée le
+                  8 juin 1934 dans sa 80<hi rend="superscript">°</hi> année.</p>
+                <p>De la mère de notre camarade Cluzeleau, de Limoges, décédée le 10 juin 1934.</p>
+                <p>De la mère de notre camarade Prault, de Châtillon-sur-Indre (Indre), décédée à
+                  l'âge de 78 ans.</p>
+                <p>De la mère de notre camarade Mandet, d'Ambert (Puy-de-Dôme), décédée le 21 juin
+                  1934, à 70 ans.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances. Nous apprenons la mort,
+                  survenue en juin dernier, du frère Daniel, infirmier-major à l'Ecole Maunoury, à
+                  Caluire (Rhône) où furent soignés et rééduqués les Aveugles de Guerre.</p>
+                <p>Une délégation des Aveugles de Guerre du Rhône, accompagnée de leur drapeau,
+                  était venue rendre un dernier hommage à celui qui fut leur éducateur, et notre
+                  camarade Mulsant prononça quelques paroles au nom des Aveugles de Guerre.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">Cotisations
+                volontaires</head>
+              <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                ont tenu à effectuer un nouveau versement :</p>
+              <p>Coublucq, 10 fr. - Guéry, 10 fr. - Gallo, 5 fr. - Dessartre, 5 fr. - Belliot, 5
+                francs.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">Cotisations pour l'année
+                1934</head>
+              <p>Laboulais, Philippe, Darras, Baron (J.), Mautemps, Beaume, Valade, Roux (L.),
+                Delahaie, Lixon, Bugnet, Guesnier, Guéry, Beaudufé, Marchand (D.), Juillard, Guillot
+                (G.), Occre, Renoux (H.), Capet, Hesnard, Catherine, Garnerie, Veau, Albert (V.),
+                Ardhuin, Savigny, Lalique, Leblanc, Rousseau (P.), Deglise, Robert (G.), Leveau
+                (R.), Anquetil, Capelle, Delhez, Schoettel, Lebourg, Gelin, Favier (F.), Monsch
+                (rachat), Bruley, Rineau, Le Barzic, Girault (M.), Vaudelin, Ramspacher, Grispoir,
+                Delengaigue, Robquin, Garnier (A.), Prudent, Madaire, Besnard, Lardet, Pouil,
+                Foucher, Boulanger, Gril, Roy (R.), Chaplain, Sergent, Liénart, Stéphan (J.-P.),
+                Delourmel, Braun, Abraham, Faudot, Dumont (M.), Marrot, Henriet, Mauconduit, Cordon,
+                Barbette (S.), Buissonnière, Laurent (J.), Leroy (L.), Julie, Corlobé, Chavin,
+                Bathelier, Vitré, Lescadieu, Paradis, Aubry, Fillion, Saynmiard, Chilau, Goulet
+                (L.), Cabrillac, Lorrain, Poulet, Canler, Moulin (A.), Dulucq, Moisan, Lantwein,
+                Ragon, Mahalin, Batôt, Janet, Barralon, Crozon, Rols, Dussaud, Lagarde (P.),
+                Oudinot, Boutaric, Jonchier, Duc, Vichet, Kervel, Lapébie, Lacoste, Lafaille, Niant,
+                Vigny, Leblond (A.), Bertrand (P.), Flandre, Roy (J.), Marchadour, Michalet,
+                Tavernier, Belmontet, Renaud (E.), Padellec, Chambost, Reynes (L.), Esclaine,
+                Montet, Rathery, Charles (F.), Senechal, Bled, Davaillon, Benaud, Laloit, Dangas,
+                Deldon, Borla, Bayle, Lieutaud, Ferrari, Grelier, Daviau, Tourneux (M.), Christophe,
+                Gibert, Wlending-Carudel, Maussay, Parent (V.), Houpert, Vachon (L.), Froget, Buron,
+                Prault, Desigaud, Baudin, Backert, Kamfri Brahim, Péron (J.), Falcou, Lefebvre (G.),
+                Devidal, Hébert, Giorgetti, Beaslas, Guilbot, Daumas, Auclair, David, Degeuse,
+                Courtecuisse, Griemberger, Caron (O.), Robin (C.), Ceysson, Baizet, Fournier (P.),
+                Tissier, Butel, Labre, Durant (J.), Moret, Roybin, Dessartre, Doudart, Gallo,
+                Rolland (E.), Prévost (L.), Devillers, Lazaro, Tisserand (A.), Dupont (G.), Ott,
+                Ternisien, de Fontenilles, Margat, Le Teuff, Jamet, Jeandin, Nicolet, Catrou, Le
+                Mire, Lauro, Coulon (H.), Merlet, Fabre (A.), Madeleine, Bosquet, Malgoire, Belliot,
+                Gorce, Guis, Georges (A.), Boulet (A.), Michel (F.), El Keir Ben Hamza, Maubert,
+                Monceau, Lefebvre (E.), Djouama, Becker (J.), Delattre, Benharoche, Albouy, Martin
+                (C.), Mazaudier, Bonnetain,</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">PROCES-VERBAL de la Réunion
+                du Conseil d'Administration du 2 Juin 1934</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence de Scapini. Sont présents :
+                Scapini, Favret, Leveau, Amblard, L'Evesque, Bardoux, Bois, Brusson,
+                Céré-Labourdette, Conan, Courteix, Evrat, Fauvel, Guillam, Lauté, Malgat, Muller,
+                Roy (G.). M. de Traversay, Président du Comité d'Action. M. de Chaumont-Quitry,
+                membre du Comité d'Action.</p>
+              <p>Les camarades : Berthet, Hennebicq, Rousseau, Saillot. Excusés : Bertrand,
+                Bloncourt, Cabasson, Derunder, Grillet, Izaac, Laffargue, Lagarde, Nicolaï,
+                Noireaux, Robert (M.), Satgé.</p>
+              <p>Ont donné leurs pouvoirs : A Scapini : Robert (M.). A Favret : Cabasson, Grillet,
+                Lagarde. A Amblard : Nicolaï, Noireaux, Satgé. A Leveau : Bertrand. A Noireaux :
+                Bloncourt, Derunder. Scapini, avant de passer à l'ordre du jour, remercie ses
+                camarades du Bureau de l'avoir renommé président pour l'année 1934-1935. Commentant
+                les résultats du vote désignant les membres du Bureau, il estime que la diminution
+                des voix qu'il a obtenues lui indique une diminution égale de la confiance du
+                Conseil et qu'en conséquence il ne peut accepter d'être Président de l'U.A.G.
+                Considérant avant tout l'intérêt supérieur de l'Union, il ne pense pas quitter le
+                Bureau et désire occuper les fonctions de vice-président. Les camarades présents
+                apprécient différemment ce vote et ne croient pas que la confiance en Scapini soit
+                diminuée. Plusieurs croient y discerner le désir de voir le Président participer de
+                plus près aux travaux du Bureau.</p>
+              <p>Scapini propose qu'une révision des statuts soit opérée pour permettre un roulement
+                dans les fonctions de Président. Cette proposition est renvoyée à l'étude et Scapini
+                conserve la présidence pour l'année en cours.</p>
+              <p>Le procès-verbal de la séance du 12 mai est adopté après quelques modifications
+                demandées par Bloncourt, Muller et Nicolaï.</p>
+              <p>A la suite d'un malentendu survenu pendant la dernière séance, M. de Traversay
+                demande quelques explications à Fauvel. Celui-ci</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+              <p>le rassure pleinement en indiquant que le Comité d'Action n'avait été visé en
+                rien.</p>
+              <p>Désignation de l'architecte. - Avant de procéder au vote, Favret dépose la motion
+                suivante : en vue de s'entourer de toutes garanties quant au prix et à la
+                construction de la Maison des Aveugles de Guerre, le Conseil d'administration
+                demande à l'architecte chargé de l'édification du dit immeuble : " 1" D'établir un
+                cahier des charges qu'il soumettra pour appro" bation. " 2" De mettre en concurrence
+                plusieurs entrepreneurs de chaque " corps d'état pour l'adjudication des travaux. "
+                3" De n'accepter que des soumissions sous enveloppes cachetées, " l'ouverture de ces
+                enveloppes n'étant faite qu'en présence de deux " membres du Comité d'Action de
+                l'Union. " Les entrepreneurs choisis resteront sous le contrôle de l'archi" tecte.
+                "En principe les travaux devront, sauf impossibilité, être effectués " par de la
+                main-d'œuvre française. "</p>
+              <p>Plusieurs camarades prennent la parole sur la question et la motion mise aux voix
+                est adoptée à l'unanimité.</p>
+              <p>Brusson demande que, pour activer les travaux, le Conseil fasse toute confiance au
+                Bureau et à la Commission.</p>
+              <p>Le Bureau et la Commission ayant proposé de confier l'exécution de notre Maison à
+                M. Sézille, architecte de l'Office National, le Conseil, qui a reçu une
+                documentation sûr les titres des différents architectes, est appelé à se
+                prononcer.</p>
+              <p>Scapini met la proposition du Bureau aux voix. Ont proposé un autre architecte :
+                Laffargue, Lagarde, Nicolaï, Robert (M.).</p>
+              <p>Se sont abstenus : Conan, Lauté, Muller. Leveau et Satgé préconisaient une autre
+                procédure. Les autres membres du Conseil, soit vingt et un camarades, ont voté pour
+                le candidat du Bureau qui est désigné comme architecte de l'U.A.G.</p>
+              <p>Evrat dépose une motion au sujet de la rééducation des Aveugles de Guerre et de
+                l'attribution scandaleuse de certaines pensions. Cette motion est renvoyée au Bureau
+                pour étude.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>A l'unanimité le Conseil prononce l'admission à l'U.A.G., en qualité de membres
+                titulaires, de :</p>
+              <p>Cholau (Marcel), 96, boulevard Bompard, Marseille (BouchesRhône, 235%, art. 10 et
+                12 , titre définitif. Carte du Combattant.</p>
+              <p>Glorieux (Adolphe), 11, rue Paul-Wante, Roubaix (Nord). 310%, art. 10 et 12 , titre
+                définitif. Carte du Combattant.</p>
+              <p>L'allocation usuelle accordée pour la naissance d'un enfant est votée par le
+                Conseil au camarade V..., victime civile.</p>
+              <p>Brusson rappelle que le Conseil National de la Confédération se réunira le 8
+                juillet pour examiner les décrets-lois. Il demande que la question soit étudiée au
+                Conseil qui devra fixer l'attitude de son délégué.</p>
+              <p>Scapini estime que le problème dont vient de parler Brusson est très important. Les
+                anciens combattants menant depuis quelque temps une action sociale et politique,
+                Scapini demande que l'Union examine très attentivement cette question qui est trop
+                importante pour être traitée à la fin de ce Conseil et est renvoyée à une réunion
+                qui aura lieu le 30 juin. Les administrateurs auront à dire de quelle façon l'Union
+                doit prendre part aux débats du Conseil National. Le Bureau réunira toute
+                documentation possible qui sera adressée en temps utile aux membres du Conseil.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">AVIS</head>
+              <p>Le camarade G. Envin reçoit quelques pensionnaires dans sa villa de Biarritz :</p>
+              <p>Trois salles de bains; Eau courante chaude et froide; Grand parc ombragé; Garage;
+                Tennis; Cuisine soignée.</p>
+              <p>S'adresser à M. Envin, Itsas Mendia, Chemin de Salon, Biarritz
+                (Basses-Pyrénées).</p>
+              <p>Habitant environs d'Annecy, je ferais volontiers la lecture à un aveugle.</p>
+              <p>S'adresser à Mme Dalsace, 26, rue Vavin, Paris ( 6<hi rend="superscript">°</hi> ).
+                A vendre. Pour le prix de 50 francs, une montre d'aveugle ayant peu servi.</p>
+              <p>S'adresser à M. Leterosa, 16, rue Philippe-Landrieu, à Vitry (Seine).</p>
+              <p>Jolie petite propriété, neuve, à Lorgue (Var), à dix minutes des Arcs.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>La maison se compose de deux entrées. Deux grandes chambres en plein midi avec
+                grandes fenêtres modernes. Derrière, une salle à manger et une grande cuisine; au
+                fond du corridor: W.C. Cave, eau, électricité. Terrain : 2.000 mètres carrés; vigne
+                : 360 pieds, environ.</p>
+              <p>La maison se trouve à 10 minutes du village où l'on trouve deux docteurs, deux
+                pharmaciens, coiffeur et un grand collège.</p>
+              <p>Prix: 60.000 francs. Pour visiter, s'adresser à MM. Fighiera, à Lorgue (Var).</p>
+              <p>Pour tous renseignements, s'adresser au camarade Palmaro (Louis), Cité des Aveugles
+                de Guerre, Nice (Alpes-Maritimes).</p>
+              <p>Notre camarade Larue (Louis), de la Rochepot par Noblay (Côted'Or), nous informe
+                qu'il fournirait :</p>
+              <p>Aux camarades désireux de connaître les véritables bons vins de Bourgogne, des vins
+                fins Pinot blanc Meursault, à 13 francs la bouteille, et des vins Pinot rouge
+                Chassagne-Montrachet, à 10 francs la bouteille, le tout livrable en caisses de 25
+                bouteilles, rendu franco de port et d'emballage. Expédition directe de la propriété.
+                Médaille d'Or, Exposition Paris 1932.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">Dons avec affectation
+                spéciale pour la création de la " Maison des Aveugles de Guerre"</head>
+              <p>M. Renault de la Templerie, à Paris, 50 fr. - M. le comte François du Luart, à
+                Paris, 100 fr. - Ville de Versailles, 300 fr. Département des Hautes-Pyrénées, 80
+                fr. - Ville du Creusot (Saône-et-Loire), 200 fr. - M. de Beauvoir et M. Serret, à
+                Paris, 10.000 francs.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">Liste des Donateurs</head>
+              <p>Anonyme, 20 fr. - Mme Condamin-Lyotard, à Nice, 6 fr. Mme Mulot, à Paris, 5 fr. -
+                Mme Kahn, à Louveciennes (Seine-et-Oise), 20 fr. - M. Gallet, à Noyelles-sur-Lens
+                (Pas-de-Calais), 20 fr. - Anonyme G. H., 20 fr. - Produit d'une quête faite au
+                mariage des époux Garnier Ditsch, à Longwy (Meurthe-et-Moselle), 39 fr. 30. - M. le
+                docteur Popovici, Pavillon-sous-Bois, 20 fr. Mme Cayrefucq, à Paris, 20 fr. -
+                Anonyme, 100 fr. - Mme Schulmann, à Paris, 20 fr. - Mme David, Paris, 20 fr. - M.
+                Suleaux, Lestocq-les-Monsures (Oise), 100 fr. - Protection et bonne santé de notre
+                famille, 300 fr. - Anonyme X.Y.Z., 500 fr. - Divers, 402 fr. 35.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire. Conan, secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h26">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Scapini; Vice-Présidents : Favret, Leveau, Noireaux. Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-labourdette, Conan, Courteix, Derunder, Evrat, Fauvel,
+              Grillet, Guillam, Izaac, Laffargue, Lagarde Lauté, Malgat, Muller, Nicolai, Robert
+              (Maurice), Roy (Georges), Satgé.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">COMITÉ D'ACTION</head>
+            <p>M. le baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Mme Contamin, Vice-Présidente; M. le colonel
+              de Traversay, Vice-président; M. Oscar Bloch, Secrétaire; M. Autrere, Sous-Directeur à
+              la Compagnie «L'Union »; Mme du Bos; Mme Broquin; M. Marcel Bloch; M. le marquis de
+              Chaumont-Quirry; M. Chepper; M. Pierre Chérot;</p>
+            <p>Mme Chevalier; Mme Francis de Croisset. Mlle Jalaguier; Mlle d'Herbemont; Mme Henri;
+              Mme Kalt; Mme L'Evesque; Mme Lévy-Weis; M. Mayer;</p>
+            <p>Mme Meyer; Mme Mus; M. Pascaz</p>
+            <pb n="20"/>
+            <note type="foliation">— 18 —</note>
+            <fw type="footer">Imprimerie Dubois et Bauer. 34, rue Laffitte. - Paris 1904</fw>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

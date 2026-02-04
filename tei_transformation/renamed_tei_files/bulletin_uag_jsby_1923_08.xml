@@ -1,0 +1,1279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 5ème année 1923, n°8</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Impôts</title>
+        <title type="topic">Associations de mutilés</title>
+        <title type="topic">Recherche de personnes</title>
+        <title type="topic">Annonces</title>
+        <title type="topic">Finances</title>
+        <title type="topic">Législation</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 28 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#mutiles-de-guerre">Mutilés de guerre</term>
+          <term ref="#pensionnes">Pensionnés</term>
+          <term ref="#impots">Impôts</term>
+          <term ref="#commissions">Commissions</term>
+          <term ref="#franceville">Franceville</term>
+          <term ref="#comite-daide">Comité d'Aide</term>
+          <term ref="#victimes-civiles">Victimes civiles</term>
+          <term ref="#militaires-de-carriere">Militaires de carrière</term>
+          <term ref="#finistere">Finistère</term>
+          <term ref="#masseurs-aveugles">Masseurs aveugles</term>
+        </keywords>
+        <classCode scheme="DDC">362.410944</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Ce bulletin mensuel de l'Union des Aveugles de Guerre aborde divers sujets d'intérêt pour
+          ses membres, notamment les travaux des commissions préparatoires à l'assemblée générale,
+          des informations détaillées sur les droits des pensionnés en matière d'impôts, des
+          nouvelles de l'association, des comptes rendus de réunions, et des annonces diverses
+          (recherches de personnes, offres d'emploi, etc.). Il inclut également des informations sur
+          les avantages accordés aux mutilés de guerre par différentes organisations.</p>
+      </abstract>
+      <creation>
+        <date when="1923-08-01">01/08/1923</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-05" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-04" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">Commissions des 16 et 17 Novembre</ref>
+            <list>
+              <item>
+                <ref target="#h4">Première Commission.</ref>
+              </item>
+              <item>
+                <ref target="#h5">Deuxième Commission.</ref>
+              </item>
+              <item>
+                <ref target="#h6">Troisième Commission.</ref>
+              </item>
+              <item>
+                <ref target="#h7">Quatrième Commission.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h8">Les Pensionnés et les Impôts</ref>
+            <list>
+              <item>
+                <ref target="#h9">Impôt général sur le revenu.</ref>
+              </item>
+              <item>
+                <ref target="#h10">Impôt cédulaire sur les pensions et rentes viagères.</ref>
+              </item>
+              <item>
+                <ref target="#h11">Impôt cédulaire sur les traitements.</ref>
+              </item>
+              <item>
+                <ref target="#h12">Bénéficiaires des articles 59 et 60 .</ref>
+              </item>
+              <item>
+                <ref target="#h13">Mutilé d'avant-guerre.</ref>
+              </item>
+              <item>
+                <ref target="#h14">Les prestations en nature.</ref>
+              </item>
+              <item>
+                <ref target="#h15">Chiens.</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h16">LES MAJORATIONS POUR ENFANTS</ref>
+          </item>
+          <item>
+            <ref target="#h17">LES BENEFICES EXCEPTIONNELS DES COMMERÇANTS ET INDUSTRIELS
+              MOBILISES</ref>
+          </item>
+          <item>
+            <ref target="#h18">VICTIMES CIVILES DE LA GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h19">MILITAIRES DE CARRIERE REFORMES AVANT 1914</ref>
+          </item>
+          <item>
+            <ref target="#h20">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h21">DEPARTEMENT DE LA SEINE PENSIONS MILITAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h22">COMPAGNIE DES CHEMINS DE FER DEPARTEMENTAUX DU FINISTERE</ref>
+              </item>
+              <item>
+                <ref target="#h23">A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h24">MASSEURS</ref>
+              </item>
+              <item>
+                <ref target="#h25">RECHERCHES</ref>
+              </item>
+              <item>
+                <ref target="#h26">BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+
+          <item><ref target="#h42">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h27">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h28">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h29">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h31">Procès-verbal de la Séance du Conseil d'Administration du 9 Juin
+                  1923</ref>
+              </item>
+              <item>
+                <ref target="#h32">QUESTIONS DIVERSES</ref>
+              </item>
+              <item>
+                <ref target="#h33">Procès-verbal de la Séance du Conseil d'Administration du 30 Juin
+                  1923</ref>
+              </item>
+              <item>
+                <ref target="#h34">UN NOUVEAU TRAVAIL A ENTREPRENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h35">AVIS A NOS LECTEURS DU MAINE-ET-LOIRE</ref>
+              </item>
+              <item>
+                <ref target="#h36">LEGION D'HONNEUR</ref>
+                <list>
+                  <item>
+                    <ref target="#h37">Au grade de Chevalier</ref>
+                  </item>
+                </list></item>
+              <item>
+                <ref target="#h38">CONSEIL D'ADMINISTRATION</ref>
+              </item>
+              <item>
+                <ref target="#h39">COMITÉ D'ACTION</ref>
+              </item>
+              <item>
+                <ref target="#h40">COMITÉ D'AIDE</ref>
+              </item>
+              <item>
+                <ref target="#h41">Liste des Donateurs</ref>
+              </item>
+            </list>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">5e Année. — N° 8</fw>
+          <fw type="header">
+            <hi rend="underline">Août 1923</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Commission des 16 et 17 Novembre.</item>
+                    <item>Les pensionnés et les impôts.</item>
+                    <item>Les majorations pour enfants.</item>
+                    <item>Commerçants et industriels mobilisés.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)">Notes et Informations</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbaux des séances du Conseil d'administration des 9 et 30
+                      juin.</item>
+                    <item>Lettre de camarade.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. Brieux, de l'Académie Française, président honoraire ; M. le général
+              Balfourie ; M. Borrel, député, ancien sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter, M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. le colonel Fabry, député ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, député de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn :
+              Mme Géo Kessler ; M. Krug ; M. Lugol, député ;</p>
+            <p>Mme la maréchale Maunoury ; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député ; M. Pierre Rameil, député ;</p>
+            <p>M・ Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; Général
+              Sainte-Claire-Deville; M. Vallon ; M. Vallery-Radot ; M. Constant Verlot, député ; M.
+              le Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Commissions des 16 et 17
+              Novembre</head>
+            <p>Comme nos camarades ont pu se le faire lire dans le Bulletin de juillet, des
+              Commissions se réuniront à Paris les 16 et 17 novembre prochain pour préparer des vœux
+              qui seront soumis ensuite à l'Assemblée générale.</p>
+            <p>Pour faciliter le travail, chacun de nous peut, dès à présent, envoyer au Siège
+              social des lettres concernant les questions à traiter dans ces Commissions, mais nous
+              recommandons de faire une lettre spéciale pour chaque question traitée. Ces lettres
+              seront immédiatement transmises aux rapporteurs désignés.</p>
+            <p>Nous donnons encore une fois les détails de ces Commissions avec le nom des
+              rapporteurs désignés dans la séance du Conseil d'administration du 21 juillet.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h4">Première Commission.</head>
+              <p>Travail, rapporteur : Bois.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h5">Deuxième Commission.</head>
+              <p>Création de la Maison de Retraite, rapporteur : Heuze. Relations extérieures
+                (Office National des Mutilés, Office National des Combattants, Associations de
+                Mutilés, Euvres s'occupant des Aveugles de Guerre), Propagande, rapporteur :
+                Izaac.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h6">Troisième Commission.</head>
+              <p>Pension de l'aveugle, des veuves, des enfants, des femmes d'aliénés, des
+                ascendants, rapporteur : Durat.</p>
+              <p>Pupilles de la Nation, Article 64 de la loi du 31 mars 1919, Transports,
+                Décorations, rapporteur : Gudefin.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">Quatrième Commission.</head>
+              <p>Fonctionnement du Siège social et de la Maison de Franceville, rapporteur :
+                Favret.</p>
+              <p>Groupements régionaux, Sections départementales, rapporteur : Laffargue.</p>
+              <pb n="4"/>
+              <note type="foliation">— 2 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">Les Pensionnés et les
+              Impôts</head>
+            <p>Quels sont à l'égard des charges fiscales, les droits précis des pensionnés pour
+              invalidité et les exonérations ou avantages divers qui leur sont accordés?</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">Impôt général sur le
+                revenu.</head>
+              <p>1<hi rend="superscript">°</hi> Tout d'abord, la loi du 25 juin 1920, portant
+                création de nouvelles ressources fiscales, a spécifié dans son article 6, paragraphe
+                  3<hi rend="superscript">°</hi>, que sont affranchis de l'impôt général sur le
+                revenu : "Les mutilés, veuves, et ayants droit des morts de la grande guerre pour
+                les pensions dont ils sont titulaires en vertu de la loi du 31 mars 1919. "</p>
+              <p>Il en résulte donc que les pensionnés de la guerre n'ont pas à tenir compte du
+                montant de leur pension lorsqu'ils établissent leur déclaration pour l'impôt général
+                sur le revenu.</p>
+              <p>Cet avantage a d'ailleurs été confirmé à nouveau par la loi du 30 mars 1923,
+                relative aux douzièmes provisoires des mois d'avril et mai : 2<hi rend="superscript"
+                  >°</hi> L'article 9 de la même loi apporte à l'encontre des contribuables âgés de
+                plus de trente ans, célibataires, divorcés ou mariés depuis deux ans, sans avoir
+                d'enfants et qui n'ont aucune personne à leur charge, une aggravation des charges
+                fiscales pesant sur eux, au titre de l'impôt général sur le revenu; mais il est
+                spécifié que ces dispositions ne sont pas opposables aux contribuables de ces
+                catégories, lorsqu'ils sont "titulaires d'une pension de la loi du 31 mars 1919,
+                pour une invalidité de 400 / 0 et au-dessus ".</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">Impôt cédulaire sur les
+                pensions et rentes viagères.</head>
+              <p>En ce qui concerne l'impôt cédulaire sur les pensions et rentes viagères, l'article
+                  1<hi rend="superscript">er</hi> de la loi du 25 juin 1920 spécifie que " les
+                pensions servies en vertu de la loi du 31 mars 1919 ") ne sont pas susceptibles
+                d'être imposées et, par conséquent, ne doivent pas être comprises dans la
+                déclaration pour l'impôt cédulaire.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">Impôt cédulaire sur les
+                traitements.</head>
+              <p>La loi du 30 mars 1923, mentionnée ci-dessus, accorde, outre toute une série de
+                dégrèvements pour charges de famille, un avan-</p>
+              <pb n="5"/>
+              <note type="foliation">— 3 —</note>
+              <p>tage très important aux pensionnés, en matière d'impôts sur les salaires.</p>
+              <p>En effet, l'article 6, paragraphe 6 de la loi, précise que les déductions prévues
+                par la loi, sont augmentées d'une somme supplémentaire de 1.000 francs " en faveur
+                des mutilés titulaires d'une pension d'invalidité ").</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">Bénéficiaires des articles
+                59 et 60 .</head>
+              <p>Comment jouent à leur égard les exonérations fiscales? La question a été posée au
+                ministre des Finances et ce dernier a fourni à cet égard une réponse précise et
+                détaillée que nous reproduisons ci-dessous :</p>
+              <p>La loi du 31 mars 1919 a prévu deux catégories de pensions mixtes, les unes sont
+                calculées conformément aux dispositions de l'article 59 de ladite loi et réservées
+                aux militaires de carrière et aux réformés d'avant-guerre n'ayant pas accompli un
+                nombre suffisant d'années de service pour avoir droit à une pension d'ancienneté ou
+                à une pension proportionnelle en vertu de la législation antérieure ; elles se
+                composent d'une pension déterminée d'après le nouveau régime institué par le même
+                article 59 en raison de l'ancienneté de service des bénéficiaires, et majorée d'une
+                somme égale à la pension d'invalidité allouée par la loi du 31 mars 1919 aux soldats
+                atteints de la même infirmité; les autres, calculées conformément à l'article 60,
+                alinéa 2, de la loi du 31 mars 1919 et attribuées aux militaires remplissant les
+                conditions nécessaires pour avoir droit à une pension d'ancienneté proportionnelle
+                ou de réforme d'après la législation précédemment en vigueur, sont constituées par
+                le montant de cette pension, majoré comme dans le cas précédent. Or, d'après la
+                législation en vigueur, les seules pensions qui soient exonérées d'impôt sont celles
+                qui sont "servies en vertu de la loi du 31 mars 1919 ". Les pensions de la première
+                catégorie, intégralement calculées d'après les nouvelles règles tracées par la loi
+                du 31 mars 1919, remplissent cette dernière condition et elles se trouvent par suite
+                complètement affranchies d'impôt. Par contre, les pensions de la deuxième catégorie
+                ne peuvent être considérées comme servies en vertu de la loi précitée du 31 mars
+                1919 pour la partie de leur montant qui est déterminée en vertu de la législation
+                antérieure et dès lors, les intéressés ne sont susceptibles d'être exonérés d'impôt
+                que pour la majoration dont ils bénéficient.</p>
+              <p>Il en résulte donc que pour les bénéficiaires de l'article 59 il y a exonération
+                complète; pour les bénéficiaires de l'article 60, l'exoné- <pb n="6" break="no"/>
+                <note type="foliation">— 4 —</note> ration n'est que partielle et porte seulement
+                sur la pension d'invalidité du taux de soldat.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">Mutilé
+                d'avant-guerre.</head>
+              <p>Aucun des avantages ci-dessus n'est accordé aux pensionnés d'avant-guerre bien
+                qu'ils bénéficient, depuis la loi du 18 juillet 1922, des taux de pensions et de
+                certains des avantages de la loi du 31 mars 1919.</p>
+              <p>C'est ce que vient de faire connaître le ministre des Finances en réponse à une
+                question qui lui avait été posée à ce sujet. Ce refus est basé, d'après le ministre
+                des Finances, sur les termes de la loi du 25 juin 1920, qui ne parle que « des
+                pensions servies en vertu de la loi du 31 mars 1919 ».</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Les prestations en
+                nature.</head>
+              <p>Les mutilés en sont-ils exonérés? Le ministre des Finances à qui la question avait
+                été posée a fait la réponse suivante :</p>
+              <p>Aucune disposition législative n'exonère, par voie de mesure générale, les mutilés
+                de guerre de la taxe de prestations. Mais ces mutilés doivent être affranchis de
+                ladite taxe par application des dispositions de l'article 3 de la loi du 21 mai
+                1836, si l'invalidité dont ils sont atteints les met dans l'incapacité d'acquitter
+                leurs prestations en nature, et leur situation doit être examinée à ce point de vue
+                dans chaque cas particulier.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Chiens.</head>
+              <p>L'article 14 de la loi du 31 juillet 1920 exempte de toute taxe les chiens servant
+                à conduire les aveugles ou appartenant à des mutilés de guerre ayant au moins 800 /
+                0 d'invalidité. (Journal Officiel du 1<hi rend="superscript">er</hi> août 1920.)</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">LES MAJORATIONS POUR
+              ENFANTS</head>
+            <p>Une loi vient de modifier les dispositions de l'article 71 de la loi du 31 mars 1919
+              relatif à l'incessibilité et à l'insaisissabilité des majorations pour enfants. En cas
+              de divorce ou de séparation de corps, les majorations seront de plein droit attribuées
+              à celui des parents qui a obtenu la garde des enfants. Les majorations peuvent être
+              également retirées aux titulaires qui ne s'en montreraient pas dignes.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">LES BENEFICES EXCEPTIONNELS DES
+              COMMERÇANTS ET INDUSTRIELS MOBILISES</head>
+            <p>L'article 61 de la loi de Finances prévoit des exonérations de la contribution
+              extraordinaire pour les bénéfices réalisés depuis le 11 novembre 1918, en faveur de
+              certaines catégories de commerçants qui ont été mobilisés pendant au moins un an ou
+              réformés pour blessure reçue ou maladie contractée en service.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">VICTIMES CIVILES DE LA
+              GUERRE</head>
+            <p>Dans le Journal Officiel du 27 juillet 1923, page 7317, paraît la loi prorogeant le
+              délai accordé aux victimes civiles de la guerre ou à leurs ayants droit en vue de se
+              mettre en instance de pension. Nous reproduisons ci-dessous l'article unique de cette
+              loi :</p>
+            <p>Est prorogé jusqu'à l'expiration d'un délai de trois mois à partir de la promulgation
+              de la présente loi, le délai imparti par le paragraphe 1<hi rend="superscript">er</hi>
+              de l'article 5 de la loi du 24 juin 1919, modifié par l'article 1<hi
+                rend="superscript">er</hi> de la loi du 28 juillet 1921, aux personnes ayant à faire
+              valoir les droits accordés par lesdites lois aux victimes civiles de la guerre ou à
+              leurs ayants droit.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">MILITAIRES DE CARRIERE REFORMES
+              AVANT 1914</head>
+            <p>Le Journal Officiel du 27 juillet, page 7317, indique que les articles 58,59 et 60 de
+              la loi du 31 mars 1919 seront appliqués, à dater du 1<hi rend="superscript">er</hi>
+              juillet 1923, aux militaires et marins bénéficiaires de la loi du 18 juillet 1922,
+              même à ceux qui n'ont pas repris du service depuis le 2 août 1914.</p>
+            <p>Ceci est intéressant pour les pensions mixtes ou les pensions d'ancienneté des
+              militaires de carrière réformés avant-guerre.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">NOTES &amp; INFORMATIONS</head>
+            <p>Paris, le 6 juillet 1923.</p>
+            <p>Monsieur le Président de l'Union des Aveugles de Guerre, Paris.</p>
+            <p>Monsieur LE PRÉSIDENT,</p>
+            <p>Je vous remets ci-joint un arrêté des comptes du Comité d'Aide de l'Union des
+              Aveugles de Guerre, depuis sa création jusqu'à la date du 30 juin 1923.</p>
+            <p>Les sommes recueillies au total (net) s'élèvent à la somme de
+              ..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <p>Le total net des espèces recueillies par le Comité d'Aide, au 30 juin 1923 (déduction
+              faite des 1.500 francs remboursés à l'Office National, est de mai 1921 à juin 1923 de
+              641.912 fr. 90 , et d'un mobilier d'une valeur estimée à 48.850 francs.</p>
+            <p>Veuillez avoir l'obligeance de me confirmer votre accord sur tous ces points et de me
+              retourner un exemplaire de ce compte après l'avoir signé.</p>
+            <p>Croyez, Monsieur le Président, à l'assurance de mes sentiments dévoués.</p>
+            <p>Signé : Mme Louis Deschamps.</p>
+            <p>Paris, le 27 Juillet 1923. Madame Louis Deschamps, Présidente du Comité d'Aide de
+              l'Union des Aveugles de Guerre, Paris.</p>
+            <p>Madame la Présidente,</p>
+            <p>J'ai l'honneur de vous accuser réception de votre lettre du 6 courant et de vous
+              informer que le Bureau, après avoir réellement déduit les 1.500 francs provenant de la
+              fête donnée à Rouen, ce qui donne un total de 641.912 fr. 90 (six cent quarante et un
+              mille neuf cent douze francs quatre-vingt-dix centimes) approuve les chiffres indiqués
+              dans votre lettre et vous prie de transmettre ses félicitations et ses remerciements
+              au Comité d'Aide que vous présidez.</p>
+            <p>Dans le but d'éclairer tous les lecteurs du Bulletin, je tiens à souligner que la
+              somme de 641.912 fr. 90 mentionnée dans la lettre précitée se décompose en deux
+              parties : 1<hi rend="superscript">°</hi> Une somme de 455.912 fr. 90 recueillie
+              directement sur l'initiative et par l'activité du Comité d'Aide : 2<hi
+                rend="superscript">°</hi> Une somme de 186.000 francs provenant de subventions
+              accordées par différents ministères sur des demandes signées du Président de l'U. A.
+              G., demandes appuyées par le Comité d'Aide.</p>
+            <p>D'autre part, la somme de 455.912 fr. 90 , collectée directement par le Comité d'Aide
+              depuis qu'il a bien voulu offrir sa collaboration à l'U. A. G., n'est pas restée
+              improductive dans la caisse du Groupement, mais a servi :</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>Francs. a) A payer l'achat de l'immeuble du 25 de la rue Ballu, soit une somme de.
+              325.000 " b) A payer les frais d'impôts relatifs à cet achat pour une somme de. c) A
+              payer les frais d'intérêts consentis par contrat vis-à-vis de l'ex-propriétaire et
+              impôts. d) A payer les frais d'aménagement de cet immeuble pour une somme de. e) A
+              collaborer aux frais de fonctionnement de la Maison de l'Aveugle depuis notre dernière
+              Assemblée générale jusqu'au 30 juin 1923 pour une somme de Ceci, conformément à la
+              publicité faite par le Comité d'Aide qui parlait non seulement de l'achat de
+              l'immeuble, mais du fonctionnement de la Maison des Aveugles de Guerre.</p>
+            <p>En additionnant les sommes inscrites aux chapitres précédents, on trouve un total
+              de.</p>
+            <p>Si on soustrait les dépenses de la somme globale recueillie directement par le Comité
+              d'Aide, en y ajoutant les subventions ministérielles, il reste, au 30 juin 1923, une
+              somme de 147.213 fr. 75 actuellement disponible inscrite au chapitre "Capital ) de
+              l'U. A. G.</p>
+            <p>Madame la Présidente, le Bureau de l'U. A. G. publie votre lettre du 6 juillet en
+              même temps que la présente réponse pour que tous les aveugles de guerre et leurs amis
+              se rendent un compte exact de l'aide efficace apportée par le Comité que vous
+              présidez.</p>
+            <p>Avec mes remerciements, au nom de l'Union, j'ai l'honneur, Madame la Présidente, de
+              vous présenter l'assurance de mes hommages respectueux.</p>
+            <p>Le Président : Izaac.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">DEPARTEMENT DE LA SEINE
+                PENSIONS MILITAIRES</head>
+              <p>La Section départementale des Pensions de la Seine sera transférée du N <hi
+                  rend="superscript">°</hi> 51 bis, boulevard de La Tour-Maubourg, Paris (7'), au
+                  N<hi rend="superscript">°</hi> 10, quai de la Rapée, Paris (12'), à partir du 29
+                juillet 1923.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+              <p>Les Services de la Section départementale reprendront au quai de la Rapée une
+                marche normale qui comportera, dès lors, pour le Service des Renseignements au
+                public, la règle de fonctionnement suivante : Ouverture tous les jours, sauf les
+                dimanches et jours fériés, de 8 h .30 à 12 heures et de 14 heures à 18 heures. Le
+                samedi aprèsmidi, les bureaux ne fonctionnant pas, les opérations du Service des
+                Renseignements sont limitées à des consultations d'ordre général et à la réception
+                de demandes écrites ou de pièces à produire déposées par les intéressés.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">COMPAGNIE DES CHEMINS DE FER
+                DEPARTEMENTAUX DU FINISTERE</head>
+              <p>Les mutilés et réformés de la guerre ayant au moins 500 / 0 d'invalidité peuvent,
+                sur la présentation de leur carte d'invalidité, munie de leur photographie, obtenir
+                le transport en deuxième classe, demi-place.</p>
+              <p>La gratuité du voyage sera, en outre, accordée au guide de l'invalide de 1000 / 0,
+                titulaire de la carte à double barre bleue prévue par la loi du 29 octobre 1921.</p>
+              <p>Le présent tarif spécial est applicable aux premier et deuxième réseaux et à la
+                ligne de Brest au Conquet, et au service maritime par bateau à vapeur entre Brest,
+                Le Conquet, Molène et Ouessant.</p>
+              <p>Les Etablissements Allez Frères nous avisent qu'ils accordent aux aveugles de
+                guerre une remise de 50 / 0.</p>
+              <p>Pour bénéficier de cet avantage, les Etablissements Allez Frères demandent aux
+                aveugles de guerre d'adresser leur facture acquittée à l'Union des Aveugles de
+                Guerre qui se fera rembourser mensuellement le pourcentage. L'Union réglera ensuite
+                chaque intéressé.</p>
+              <p>Nous adressons nos sincères remerciements aux Etablissements Allez Frères.</p>
+              <p>Mme Lemoine, habitant Fonternement, par Saint-Sever (Calvados), prendrait en
+                pension un aveugle de guerre sans famille.</p>
+              <p>La pension serait, soit de 4.000 francs par an, soit de 15 francs par jour pour un
+                séjour de deux semaines ou un mois.</p>
+              <p>Prière aux camarades que cette offre intéresserait de s'adresser directement à Mme
+                Lemoine.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">A VENDRE</head>
+              <p>Jonc et sarrette à 2 francs le kilo contre remboursement. S'adresser à Clément
+                Boiteau, à Jarlac, par Montils (CharenteInférieure).</p>
+              <p>Deux vélos, l'ư marque "La Française », état neuf avec accoupleur Card et beau
+                panier fauteuil pour enfant. A vendre : 900 francs. S'adresser à Paradis, Ligneyrac,
+                par Meyssac (Corrèze).</p>
+              <p>De notre Camarade Lacotas : Barrique Demi-Barrique</p>
+              <p>Ces prix à la barrique de 220 litres ou la demi-barrique de 110 litres franco de
+                port, de régie et de logement.</p>
+              <p>A domicile dans Paris et la Seine, sur gare destinataire dans les autres
+                départements. S'adresser à A. Lacotas, agent de la Maison Coste-Folcher, 5, rue
+                Gerhardt, à Montpellier.</p>
+              <p>Le camarade Niconnette prévient les vanniers qu'il n'expédie plus d'osier par
+                petite quantité. Les commandes devront se monter au moins à 500 kilos. Niconnette,
+                rue du Breuil, à Frayl-Billot (Haute-Marne).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">MASSEURS</head>
+              <p>Nous avons reçu de M. le professeur Walther, membre de notre Comité de Patronage et
+                président de la Société L'Euvre des Masseurs Aveugles de la Guerre, la note suivante
+                que nous nous empressons de publier : " Etant donné que le Comité envisage le
+                maintien du fonctionne" ment de la Permanence comme il est actuellement, il prie
+                l'U. " A. G. de vouloir bien, par quelques lignes dans son journal, faire "savoir à
+                nos masseurs qu'aucun secours de quelque catégorie qu'il " soit ne sera plus
+                distribué à partir du 1<hi rend="superscript">er</hi> juillet, les fonds devant "
+                être conservés pour entretenir la Permanence selon leur vœu " exprimé par les
+                lettres insérées plus haut. )</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">RECHERCHES</head>
+              <p>En procédant à des fouilles sur les champs de bataille, il vient d'être retrouvé
+                les corps des soldats français ci-après désignés sur lesquels on n'a retrouvé que
+                des plaques d'identité partiellement lisibles.</p>
+              <p>Entre Souchez et Neuville-Saint-Vaast, direction des cotes 119 et 140 : ...ouchy
+                K.....tié, classe 1914 ; Ouzen Chaloum, classe 1913, matricule 424 ; ..herar..
+                ......iem, classe 1914 ; .ampigny Joseph, classe 1902 ; .....not ...and, classe
+                1907, matricule 25 ; Barbier Marcel. Godier Henri, 109<hi rend="superscript">°</hi> R. I.
+                Renseignements fournis par le Comité de Lorette, 4, rue des Fours, à Arras, qui se
+                tient à la disposition des familles pour les aider dans la recherche de leurs
+                disparus. </p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">BIBLIOTHEQUE</head>
+              <p>de la Société d'Impression et de Reliure du Livre pour les Aveugles LIVRES PARUS
+                :</p>
+              <p>Bourget (Paul) : Le mensonge du père (5 vol.). Combe : Tim Boum, Grand Garçon (1
+                vol.). Conventry (Kate) : Autobiographie (en anglais) (1 vol.). Drault : Marié par
+                procuration (1 vol.). Gérhardt : Autour d'une tiare (7 vol.). Hugo (Victor) : Les
+                Misérables (4 vol. parus). Rolland (Romain) : Vie de Michel-Ange (6 vol.). Rousseau
+                (J.-J.) : Profession de foi du Vicaire savoyard. Schultz (J.) : La Neuvaine de
+                Colette (4 vol.); Lectures anglaises (1 vol.) ; La Sainte-Communion (5 vol.).</p>
+              <p>LIVRES SOUS PRESSE : Daudet (A.) : Le Petit Chose; Contés du Lundi. Girardot (De) :
+                Contes. Hermant (Abel) : Les Transatlantiques. Lenotre : Histoires étranges qui sont
+                arrivées. Renan : Souvenirs d'enfance et de jeunesse.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>C'est le dimanche 16 septembre prochain, sous la présidence du Maréchal Fayolle,
+                ancien Commandant du 33<hi rend="superscript">°</hi> Corps d'armée, qu'aura lieu la
+                Grande Manifestation Patriotique à la mémoire des Héros tombés sur les fronts
+                d'Artois et des Flandres.</p>
+              <p>La cérémonie se déroulera sur le Plateau de Lorette, au pied de la "Lanterne des
+                Morts " surmontant l'ossuaire où reposent tous les inconnus retrouvés dans le
+                secteur.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h42">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h28">NAISSANCES</head>
+                <p>Notre camarade et Mme Prudent, au Ballet, près Lagy (Saône-et-Loire), nous font
+                  part de la naissance de leur troisième enfant, Simone.</p>
+                <p>Notre camarade et Mme Guillon (Louis), à Riec-sur-Belon (Finistère), nous font
+                  part de la naissance de leur fille Alice.</p>
+                <p>Notre camarade et Mme Brunet (Gaston), à Paris, nous font part de la naissance de
+                  leur fils François.</p>
+                <p>Notre camarade et Mme Lajous (Henri), à Rieux (Haute-Garonne), nous font part de
+                  la naissance de leur fille Odette, le 12 juin 1923.</p>
+                <p>Notre camarade et Mme Decogne, à Moebecq, par Vendoeuvres (Indre), nous font part
+                  de la naissance de leur fille Jeannine, le 17 juin 1923.</p>
+                <p>Notre camarade et Mme Doudart (Joseph), à Moutertelot (Morbihan), nous font part
+                  de la naissance de leur fille Antoinette, le 26 juin 1923.</p>
+                <p>Notre camarade et Mme Bertrand nous font part de la naissance de leur fille
+                  Gabrielle.</p>
+                <p>Nous adressons nos sincères félicitations aux parents et nos vœux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">MARIAGES</head>
+                <p>M. le docteur E. Kalt, médecin ophtalmologiste des QuinzeVingts, officier de la
+                  Légion d'honneur, et Mme Kalt, membre du Comité d'Action de l'Union des Aveugles
+                  de Guerre, nous font part du mariage de leur fils, M. Marcel Kalt, avec Mlle
+                  Andrée Giroux.</p>
+                <p>Toutes nos félicitations et nos meilleurs vœux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Freton (Jean-Félix), à
+                  Saint-Alban-les-Eaux (Loire) ;</p>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+                <p>De notre camarade Fauvin (Léon), à Beaugency (Loiret) ; De la femme de notre
+                  camarade Alloi (Jean), à Nice (AlpesMaritimes).</p>
+                <p>Nous adressons à leur famille nos sincères condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">Procès-verbal de la Séance
+                du Conseil d'Administration du 9 Juin 1923</head>
+              <p>La séance est ouverte à 14 h .30 sous la présidence d'Izaac. Sont présents : Gaston
+                L'Evesque, Favret, Amar, Arnault, Bardoux, Bertrand, Bois, Courteix, Delage,
+                Dufourc, Durat, Grillet, Goubin, Gudefin, Malgat, Laffargue, Sainte-Rose,
+                Scapini.</p>
+              <p>Assistent à la séance : M. de Traversay, président du Comité d'Action, et les
+                camarades Boidin, Heuzé, Saillot.</p>
+              <p>Ont écrit, les administrateurs : Lagarde, Leveau, Leloup, Maurice Robert,
+                Toudouri.</p>
+              <p>Excusés : Noireaux, Roy (Georges). 1<hi rend="superscript">°</hi> Procès-verbal de
+                la dernière séance : Adopté. 2<hi rend="superscript">°</hi> Situation financière.
+                Laffargue demande des explications sur les versements faits à ce jour pour les
+                nouvelles constructions de Franceville, si dans les 47.000 francs de recette portés
+                au Comité d'Aide il y a des subventions, des détails sur les expositions de Niort et
+                de Néris.</p>
+              <p>Le Trésorier : Il a été fait, au 1<hi rend="superscript">er</hi> juin, un versement
+                de 35.000 francs pour Franceville, un second versement de 50.000 francs doit être
+                fait incessamment, quant aux 47.000 francs de recette du Comité d'Aide, cette somme
+                provient uniquement de la propagande faite par les pancartes déposées dans les
+                hôtels.</p>
+              <p>Le Secrétaire général : L'exposition de Néris est en cours et n'a donné encore
+                aucun résultat; quant à celle de Niort, l'Union avait envoyé pour 300 francs de
+                marchandises, payées aux aveugles; les objets non vendus à cette exposition sont
+                revenus dans le magasin de l'U. A. G. auquel ils appartiennent.</p>
+              <p>Malgat : Comment se fait-il que nous soyons allés à ces expositions, alors que le
+                Conseil n'en a pas été saisi?</p>
+              <p>Le Secrétaire Général : Il s'agit de ventes organisées d'après les textes mêmes que
+                vous avez approuvés au magasin.</p>
+              <p>Courteix : Le Bureau ne doit manquer aucune occasion pour vendre des objets
+                fabriqués par les aveugles de guerre.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+              <p>Gudefin : Les paiements faits pour Franceville ont-ils été tirés sur la Banque
+                Nationale de Crédit ?</p>
+              <p>Le Trésorier : Le premier chèque de 35.000 francs a été tiré sur la Banque
+                Nationale de Crédit, ainsi que celui de 50.000 francs qui figurera sur la situation
+                financière de juin. 3<hi rend="superscript">°</hi> Elections. Les camarades Scapini
+                et Malgat, présents à la séance, ont oublié leur bulletin de vote. Le Conseil
+                d'administration, consulté par le président, admet leur vote.</p>
+              <p>Pour éviter toute erreur, il est décidé qu'à l'avenir le Bureau enverra en même
+                temps que le bulletin de vote une enveloppe spécialement destinée au retour du
+                bulletin. Les administrateurs devront donc, sous peine de nullité du bulletin de
+                vote, retourner leur bulletin sous cette enveloppe. a) Election d'un administrateur
+                :</p>
+              <p>Administrateurs en exercice : 29. Votes exprimés : 26. Ont obtenu : Boidin : 8
+                voix; Guibaud : 1 voix; Heuzé : 17 voix. Le camarade Heuzé est élu administrateur.
+                b) Election d'un vice-président.</p>
+              <p>Administrateurs en exercice : 29. Votes exprimés : 26. Ont obtenu : Amar : 1 voix;
+                Arnault : 9 voix; Bardoux : 1 voix; Dufourc : 1 voix; Durat : 2 voix; Goubin : 1
+                voix; Gudefin : 9 voix; SainteRose : 2 voix.</p>
+              <p>Ballottage entre Arnault et Gudefin. Le camarade Gudefin déclare se désister en
+                faveur d'Arnault. Le Conseil décide de procéder à l'élection du vice-président dans
+                le courant de juillet.</p>
+              <p>Goubin : Je remercie le camarade qui a voté pour moi mais je tiens à dire que je ne
+                désiré pas un poste de vice-président.</p>
+              <p>Sainte-Rose : Il faut que les candidats à la vice-présidence soient aptes à remplir
+                leurs fonctions; j'ai constaté que lorsque le président s'absentait aucun
+                vice-président ne le remplaçait.</p>
+              <p>Le Président: Les deux vice-présidents sont absents aujourd'hui, il se sont
+                d'ailleurs excusés régulièrement; Roy (Georges) ne peut être là, il est malade.
+                Noireaux, qui est venu plusieurs fois dans la semaine pour travailler, n'a pu venir
+                aujourd'hui, son père étant malade.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+              <p>Les samedis où il n'y a pas de Conseil ni de convocation régulière, les
+                administrateurs ou camarades qui viennent peuvent parfaitement se constituer en
+                comité d'étude et désigner un président de séance.</p>
+              <p>LAFFARGUE : Si un camarade est élu vice-président et n'a pas le temps de tenir son
+                mandat il n'a qu'à refuser ce poste.</p>
+              <p>BARDOUX : C'est ce que vient de faire Gudefin. c) Election d'un membre au Comité
+                d'Action.</p>
+              <p>Mme Mus est nommée membre du Comité d'Action. 4<hi rend="superscript">°</hi>
+                Pensions. Lecture de la lettre du camarade Leveau. Après avoir entendu l'exposé de
+                la situation par le Bureau, le Conseil d'administration approuve son action et passe
+                à l'ordre du jour. 5<hi rend="superscript">°</hi> Renouvellement des membres de la
+                Caisse Fraternelle. Les camarades Dufourc, Durat, Grillet, Heuzé sont élus membres
+                de la Caisse Fraternelle pour les mois de juin, juillet et août. 6<hi
+                  rend="superscript">°</hi> Propagande. Sainte-Rose : Je demande que le Conseil
+                d'administration prenne en considération le vœu émis par l'Assemblée constitutive du
+                Groupement Régional de la Côte d'Azur.</p>
+              <p>Lecture est donnée de ce vœu. "Qu'une disposition légale soit établie faisant
+                interdiction aux " œuures mixtes de s'adresser à la charité publique ou d'organiser
+                " des fêtes au profit des aveugles de guerre; que seules soient auto« risées à
+                récolter des fonds au profit des aveugles de guerre les asso« ciations légalement
+                constituées et composées exclusivement. " d'aveugles de guerre. Ils demandent, en
+                outre, la concentration " à l'U. A. G. de tous les dons actuellement recueillis au
+                profit des " aveugles de guerre par des associations autres que celles composées "
+                exclusivement d'aveugles de guerre. "</p>
+              <p>Le Bureau propose que trois administrateurs soient désignés pour faire un rapport
+                au sujet de la propagande; ce rapport et ses conclusions seront soumis à un prochain
+                Conseil.</p>
+              <p>Aucun administrateur n'acceptant d'être désigné pour établir ce rapport, le Conseil
+                laisse ce soin au Bureau.</p>
+              <p>Après avoir pris connaissance de la lettre de l'Union Fédérale et de l'Association
+                des Mutilés et Anciens Combattants de la Grande Guerre relative au cahier de
+                revendications des victimes de la guerre et des anciens combattants, le Conseil
+                décide que le Bureau devra <pb n="19"/>
+                <note type="foliation">— 17 —</note> préparer le cahier qui concerne les aveugles de
+                guerre, cahier qui devra être soumis à l'Office National des Mutilés et Réformés de
+                la guerre et communiqué aux autres Sociétés de mutilés et anciens combattants.</p>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h32">QUESTIONS
+                  DIVERSES</head>
+                <p>Sur la proposition du secrétaire général, le Conseil d'administration autorise ce
+                  dernier à apposer l'inscription suivante à l'extérieur de la Maison : Magasin de
+                  vente des objets fabriqués par les Aveugles de Guerre : Brosserie, Vannerie,
+                  Tricotage, etc... Entrée libre. Les camarades Cadière (Gabriel), Caillaux (Emile),
+                  Dessaix (François), tous trois réformés 100%, article 10 et en possession de titre
+                  de pension définitif, sont admis comme membres titulaires de l'U. A. G.</p>
+                <p>Les camarades Bargoin Jean, Beaslas René, Bouvard Ambroise, Cartaillac Justin,
+                  Delaunay Henri, Evette Raphaël, Lequenne Aimable, Renat Alain, Sourd Gilbert sont
+                  inscrits jusqu'à un prochain Conseil comme membres associés de l'U. A. G.</p>
+                <p>Le Bureau propose de rembourser les frais de chemins de fer aux administrateurs
+                  de province venus à Paris au moment de l'Assemblée générale, selon les mêmes
+                  modalités que les années précédentes. Il propose en outre que les mêmes
+                  remboursements de frais soient accordés à un délégué par région, en principe le
+                  Président, et à un délégué par département pour les Sections départementales non
+                  réunies à un Groupement régional.</p>
+                <p>Cette proposition est adoptée à l'unanimité des membres présents qui votent un
+                  crédit de 800 francs à ce sujet.</p>
+                <p>Après quelques questions posées sur l'organisation de la prochaine assemblée
+                  générale, le Conseil décide de reporter cette question à la prochaine séance du
+                  Conseil.</p>
+                <p>Le Conseil autorise la formation de la Section départementale de la
+                  Seine-Inférieure comprenant actuellement 52 aveugles de guerre membres titulaires
+                  de l'U. A. G.</p>
+                <p>L'autorisation demandée par le camarade Hennebicq est accordée. Le Conseil prend
+                  acte de la lettre écrite par M. Demont. 'Les camarades Courteix et Malgat, appuyés
+                  de la déclaration du camarade Saillot, signalent l'attitude dans les rues d'un
+                  aveugle de guerre que le Bureau devra convoquer.</p>
+                <p>Bertrand demande les résultats des récentes démarches faites <pb n="20"/>
+                  <note type="foliation">— 18 —</note> auprès de M. Wattier par la Commission
+                  composée de M. de Traversay, du trésorier et du camarade Dufourc.</p>
+                <p>Le trésorier déclare qu'il vaut mieux attendre une lettre que M. Wattier a promis
+                  d'écrire à ce sujet, et que si cette lettre tardait à venir, il se propose de
+                  rappeler cette affaire à M. Wattier.</p>
+                <p>Bertrand demande où en est la question des 25.000 francs que les Amis des Soldats
+                  Aveugles sont disposés à donner pour nos constructions de Franceville.</p>
+                <p>Le Président. - Nous avons désiré cette somme sans aucune condition, nous ne
+                  pouvons qu'attendre avec patience.</p>
+                <p>Goubin demande que le Bureau soit attentif et intervienne, si cela lui est
+                  possible, pour améliorer ce qui se produit dans le cas suivant :</p>
+                <p>Un aveugle de guerre, dont l'ensemble de la pension est modifié du fait du
+                  passage d'un de ses enfants à sa dix-huitième année, subit à la moindre des
+                  erreurs administratives des retards dans le paiement de sa pension tout
+                  entière.</p>
+                <p>Le Bureau prend note des déclarations de Goubin. Gudefin désire savoir si on
+                  publiera quelque chose au sujet de la bibliothèque de la rue des Minimes.</p>
+                <p>Le nécessaire est fait à ce sujet par le Bulletin de juillet. La séance est levée
+                  à 17 h. 30.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">Procès-verbal de la Séance
+                du Conseil d'Administration du 30 Juin 1923</head>
+              <p>La séance est ouverte à 14 h .30 , sous la présidence d'Izaac. Sont présents:
+                L'Evesque Gaston, Favret, Arnault, Bardoux, Bertrand, Bois, Courteix, Dufourc,
+                Durat, Grillet, Goubin, Gudefin, Heuzé, Laffargue, Malgat, Sainte-Rose.</p>
+              <p>Assistent à la séance : Saillot, Boidin, Mougenel. Les camarades ayant écrit:
+                Lagarde, Lallement, Leloup, Leveau, Toudouri.</p>
+              <p>Excusés : Amar, Delage, "Noireaux, Roy Georges, Monsieur de Traversay. 1<hi
+                  rend="superscript">°</hi> Procès-verbal de la dernière séance : adopté. 2<hi
+                  rend="superscript">°</hi> Election d'un vice-président : Le trésorier et le
+                comptable, en présence des membres du Conseil procèdent au dépouillement.</p>
+              <p>Administrateurs en exercice : 30 . Votes exprimés : 28.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Ont obtenu :</p>
+              <p>Arnault : 8 voix; Durat : 19 voix; Sainte-Rose : 1 voix. Durat est élu
+                vice-président. Laffargue. - Je regrette que dans cette question d'élection au
+                Bureau, beaucoup de camarades aient tenu compte davantage de leurs sentiments
+                personnels que de l'intérêt de l'Union.</p>
+              <p>Le Président. - Je suis convaincu que les administrateurs ne tiennent compte que
+                des intérêts de l'Union.</p>
+              <p>DURAT. - Je suis flatté de la confiance que vous me témoignez et sensible à vos
+                sentiments personnels à mon égard. 3<hi rend="superscript">°</hi> Assemblée
+                générale. Lecture des lettres des camarades Leloup, Leveau. Le Conseil adopte la
+                date et les grandes lignes d'organisation et décide la publication immédiate de
+                cette partie dans le Bulletin de juillet.</p>
+              <p>Le Conseil note les idées données par le camarade Leloup qui demande que l'on
+                puisse à temps désigner des rapporteurs chargés de préparer leurs projets et les
+                soumettre si possible à l'avis des administrateurs ou tout au moins des membres du
+                Bureau.</p>
+              <p>Dans cet ordre d'idées, le Bulletin pourrait faire appel aux camarades en les
+                invitant à faire connaître leur opinion et leurs desiderata sur telle ou telle
+                question. Les rapporteurs pourraient ainsi profiter peut-être de quelques idées
+                intéressantes.</p>
+              <p>Le Bureau fera le nécessaire pour que les Groupements régionaux et les Sections
+                départementales reçoivent en temps utile le compte rendu moral et financier.</p>
+              <p>Le prochain Conseil désignera un rapporteur par Commission. 4<hi rend="superscript"
+                  >°</hi> Franceville. Lecture des lettres des camarades Lagarde, Leloup, Leveau et
+                Toudouri.</p>
+              <p>Tous sont favorables, sauf Lagarde qui écrit : "En principe, je suis contre; ceux
+                qui vont se baigner peuvent fort bien s'habiller et se déshabiller dans leur
+                logement. Franceville, méfions-nous, est un gouffre et nos revenus, si la propagande
+                tombe, seront bien réduits, les partisans de cette suppression sont, je suppose
+                bien, contre toute dépense non aboslument indispensable, sinon ils ne sont pas
+                logiques avec eux-mêmes. »</p>
+              <p>Le Secrétaire général. - Les baraques de bois pourraient être transportées sur la
+                plage et transformées en cabines de bain. Ces travaux nécessiteraient une dépense de
+                2.000 francs environ, dont :</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <p>1.200 francs pour la menuiserie, 400 francs pour la peinture, 400 francs pour la
+                couverture. La Commission de Franceville a donné son avis favorable. Après
+                discussion sur la couverture, soit en carton bitumé, soit en rubéroïd, soit en
+                fibro-ciment, la couverture en carton bitumé est adoptée.</p>
+              <p>Le Président met aux voix le crédit de 2.000 francs : Pour (18) : L'Evesque, Izaac,
+                Favret, Arnault, Bertrand, Courteix, Dufourc, Durat, Grillet, Goubin, Gudefin,
+                Laffargue, Leloup, Leveau, Bardoux, Bois, Malgat, Toudouri.</p>
+              <p>Contre (3) : Heuzé, Lagarde, Sainte-Rose. 5<hi rend="superscript">°</hi>
+                Bibliothèque. Lecture des lettres des camarades Lagarde, Leveau, Leloup,
+                Toudouri.</p>
+              <p>Lecture du projet de règlement dont ci-dessous copie : "La bibliothèque est ouverte
+                tous les jours de 9 heures à 12 heures et de 14 heures à 18 heures, sauf les samedis
+                après-midi, dimanches et jours fériés. "L'Union prend à sa charge les frais d'envoi
+                et les frais du retour restent à la charge du lecteur. " A moins de raison majeure
+                invoquée, la durée du prêt des livres est d'un mois maximum (délai prolongé pour les
+                résidences lointaines). "Seuls les ouvrages précédés d'un astérisque sont écrits en
+                abrégé. »</p>
+              <p>Le camarade Leloup est d'avis que les frais de retour soient également à la charge
+                de l'Union.</p>
+              <p>Quant au catalogue, le camarade Grillet demande s'il n'y aurait pas moyen de le
+                publier en plusieurs fois dans le Bulletin, les camarades qui voudraient le relier
+                n'auraient qu'à détacher cette feuille, l'Union ferait peut-être une économie.</p>
+              <p>Gudefin. - Je préfère un catalogue, nous aurons ainsi tout de suite la liste des
+                ouvrages qui sont à notre disposition. Je préférerais avoir à l'acheter au besoin,
+                mais avoir un catalogue.</p>
+              <p>Laffargue. - La proposition Grillet reviendrait à peu près aussi cher que le
+                catalogue, puisque le prix du Bulletin est calculé au prorata des pages.</p>
+              <p>Le Président. - Le Bulletin est trop chargé actuellement, ce n'est pas le moment
+                d'y ajouter une page.</p>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+              <p>LAFFARGUE. - Le Bulletin est tiré à 4.400 exemplaires et alors que le catalogue ne
+                le sera qu'à 1.000 . Les frais ne seront donc pas beaucoup plus importants en
+                faisant un catalogue.</p>
+              <p>Le Secrétaire général. - Il s'agirait d'une dépense de 500 francs environ.</p>
+              <p>Le crédit de 500 francs mis aux voix est adopté à l'unanimité. Le Président. - Il
+                reste la question des frais de retour des livres à l'U. A. G.</p>
+              <p>GUdEfin. - D'accord avec Leloup pour que les frais de retour soient à la charge de
+                l'Union. Les camarades pourraient retourner les livres en port dû.</p>
+              <p>LaffargUE. - Ce n'est possible que pour les colis postaux, la poste ferait payer
+                une taxe supplémentaire.</p>
+              <p>Le Conseil décide que les frais de retour seront à la charge du lecteur, il
+                regrette qu'aucun moyen pratique ne permette à l'Union de prendre tous les frais à
+                sa charge.</p>
+              <p>Le Conseil adresse toutes ses félicitations et ses remerciements à Mme Chevalier et
+                à ses collaboratrices pour l'effort qui a été donné pour l'organisation de la
+                bibliothèque.</p>
+              <p>L'ensemble du projet de règlement de la bibliothèque est adopté à l'unanimité. 6<hi
+                  rend="superscript">°</hi> Questions diverses. Le Conseil prend acte de la lettre
+                de l'Euvre des Amis des Soldats Aveugles, en date du 12 juin.</p>
+              <p>Nomination de deux délégués au Tribunal départemental des pensions :</p>
+              <p>Favret, délégué, Durat, délégué suppléant, sont désignés pour être mis sur la
+                liste. Lecture de la lettre du camarade Lagarde, relative aux fêtes de Brive, au
+                cours desquelles un sieur Lajieu Jean, collectait de l'argent soi-disant au profit
+                des Aveugles de Guerre.</p>
+              <p>Bois. - Nous devrions saisir la presse pour que le public soit mis au courant.</p>
+              <p>Le Bureau fait part qu'il a écrit à ce sujet au maire de Brive, au directeur de la
+                Sûreté générale et à l'Office national.</p>
+              <p>Avant de prévenir la presse, il est décidé d'attendre le résultat de ces
+                enquêtes.</p>
+              <p>Le Conseil adresse tous ses remerciements à Mine Chevalier et <pb n="24"/>
+                <note type="foliation">— 22 —</note> à ses collaboratrices pour la soirée organisée
+                pour Franceville, au théâtre Montmartre "L'Atelier », le 4 mai.</p>
+              <p>D'autre part, le Conseil adresse ses plus chaleureux remerciements à Mlle Arbel,
+                vice-présidente de notre Comité d'action, qui a bien voulu prendre la parole au
+                concert qui a été donné à Enghien-lesBains, au profit de nos maisons de Franceville,
+                ainsi qu'à notre camarade Lauté, cette fête ayant été organisée sur l'initiative de
+                ce dernier par des personnes sympathiques aux blessés aux yeux, auxquelles nous
+                avons d'ailleurs adressé tous nos remerciements.</p>
+              <p>Après avoir pris connaissance de différentes lettres concernant une fête donnée à
+                Cannes, le Conseil décide de publier au Bulletin le passage de la lettre du 1<hi
+                  rend="superscript">er</hi> mai du docteur Lallement, concernant la répartition des
+                bénéfices de cette fête, et de considérer l'incident comme clos.</p>
+              <p>Il est donné lecture d'un projet de loi accepté à la Chambre, qui nous donnerait
+                satisfaction relativement à l'admission comme Pupilles de la Nation des enfants nés
+                et à naître des grands mutilés.</p>
+              <p>Laffargue demande que le Conseil soit mis au courant de ce qui a été fait depuis un
+                mois au sujet des pensions.</p>
+              <p>Le Président rend compte des démarches en cours. La séance est levée à 18 heures.
+                Le Conseil d'administration de l'U. A. G. dans sa séance du 21 juillet 1923, après
+                avoir pris connaissance de l'incident qui s'est produit relativement à la fête
+                donnée à Cannes le 2 avril dernier, entre le docteur Lallement, administrateur de
+                l'U. A. G., et M. Guinot, directeur'de l'établissement climatique de Cannes,</p>
+              <p>Attendu : 1<hi rend="superscript">°</hi> Que les termes employés par le docteur
+                Lallement dans ses deux lettres des 26 mars et 5 avril, publiées dans notre Bulletin
+                mensuel de juin, ne sont nullement incorrects vis-à-vis de M. Guinot, 2<hi
+                  rend="superscript">°</hi> Que ce dernier cependant, dans une lettre du 22 juin
+                écrite au docteur Lallement emploie à son égard des termes impolis et presque
+                injurieux, 3<hi rend="superscript">°</hi> Que s'il est exact que l'établissement de
+                Cannes n'a point participé à la répartition des bénéfices de la fête, M. Guinot
+                pouvait laisser croire le contraire à l'U. A. G. par sa lettre du 22 mars où il
+                déclare rester en négociation avec l'Euvre des Amis des Soldats Aveugles, que,
+                d'ailleurs, c'est le docteur Lallement qui lui-même dans sa lettre du 1<hi
+                  rend="superscript">er</hi> mai, avise le premier l'U. A. G. que l'établissement de
+                  <pb n="25"/>
+                <note type="foliation">— 23 —</note> Cannes n'avait sans doute pas participé aux
+                bénéfices, que ce n'est que le 22 juin que M. Guinot a fait connaître à l'Union que
+                son établissement n'avait pas participé aux bénéfices. 4<hi rend="superscript"
+                  >°</hi> Qu'il est prouvé que M. Guinot a cru bon d'adresser copie de sa lettre du
+                22 juin au docteur Lallement, non seulement à des administrateurs, mais à un certain
+                nombre de membres de l' U. A. G.</p>
+              <p>Décide : Que la lettre de M. Guinot au docteur Lallement, datée du 22 juin, sera
+                adressée à tous les aveugles de guerre, suivie de la réponse que le docteur
+                Lallement lui fait en date du 26 juin.</p>
+              <p>Le Conseil félicite chaleureusement le docteur Lallement du zèle et du dévouement
+                qu'il déploie particulièrement dans la région du Sud-Est en faveur de la cause des
+                aveugles de guerre.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">UN NOUVEAU TRAVAIL A
+                ENTREPRENDRE</head>
+              <p>Il s'agit de la mise en bouteille des eaux minérales. Etant de passage à Evian, il
+                y a quelques jours, je demandai à visiter la source Cachat. Comme c'est un travail à
+                répétition, j'espérais bien découvrir quelques places pouvant être occupées par des
+                soldats aveugles. Le contremaitre qui m'accompagna, me fit voir les différentes
+                manipulations subies par les bouteilles et je remarquai, en effet, que quelques-unes
+                pourraient, le cas échéant, être faites par des aveugles.</p>
+              <p>Les bouteilles subissent un premier lavage dans de l'eau contenant de la soude.
+                Pour cela, elles sont placées sur une roue à vitesse très lente: 7 minutes pour un
+                tour, laquelle roue les plonge progressivement dans cette eau. Les bouteilles sont
+                enfilées par la jante de la roue, le goulot dirigé vers le moyeu. L'axe de la roue
+                est horizontal, donc pendant la descente elles se remplissent et pendant la montée
+                elles se vident.</p>
+              <p>Ces bouteilles sont alors reprises et placées sur une seconde roue qui leur fait
+                subir la même opération, dans une eau contenant un peu d'acide chlorhydrique. De là
+                elles sont enlevées et placées sur des goupilles à tiree creuse qui, tout en
+                tournant, projettent de l'eau de tous côtés à l'intérieur de la bouteille. Comme
+                dernière opération de nettoyage, elles sont placées pour le rinçage au-dessus d'un
+                jet d'eau qui projette celle-ci avec force à l'intérieur. (Approvisionner les roues
+                avec des bouteilles est une opération tout à fait possible.)</p>
+              <p>Ces bouteilles sont alors placées sous les jets d'eau en commu- <pb n="26"
+                  break="no"/>
+                <note type="foliation">— 24 —</note> nication avec la source. (Opération encore
+                possible.) Elles sont alors amenées vers la machine qui les bouche. Après les avoir
+                revêtues d'une capsule métallique qui contient une rondelle de liège couverte par
+                une rondelle de papier d'étain, ces bouteilles sont placées dans les logements
+                portés par un plateau-revolver qui tourne continuellement et s'arrête un instant
+                devant un dispositif, juste l'instant nécessaire pour qu'il lui sertisse la capsule
+                métallique autour du goulot. Elle continue alors sa course sur le plateau jusqu'au
+                moment où elle sera enlevée pour être remplacée par une autre bouteille à boucher.
+                Cette machine ne présente aucun danger et peut donc être conduite par une personne
+                atteinte de cécité.</p>
+              <p>Ensuite vient le collage des étiquettes, également très facile, puisqu'il se fait
+                automatiquement. Il n'y a qu'à placer la bouteille dans son logement et la retirer
+                quand l'étiquette est collée. Je crois que cette opération serait mieux faite par un
+                demi-voyant dont la vision lui permettrait de voir si toutes les bouteilles ont bien
+                des étiquettes, quoiqu'il soit très aisé de s'en rendre compte à la main.</p>
+              <p>Un certain nombre de soldats aveugles pourraient ainsi trouver des emolois très
+                facilement, ce qui confirme une fois de plus ce que j'ai toujours dit: "Les travaux
+                pouvant être effectués par les aveugles ne manquent pas, il suffit de les chercher.
+                " La fabrication des capsules métalliques a également attiré mon attention et comme
+                elles se font à Paris, rue Rodier, j'irai également m'informer à ce sujet.</p>
+              <p>Je compte prochainement aller visiter d'autres sources et ferai connaître mes
+                impressions dans un autre article. M. BOCQUET, ingénieur,</p>
+              <p>45 , rue de Berri, Paris ( 8<hi rend="superscript">°</hi> ).</p>
+              <p>Mon cher Président,</p>
+              <p>Le 4 novembre 1921, me trouvant de passage à Paris, je me suis rendu au siège
+                social de l'U. A. G. où j'ai eu le plaisir de vous y trouver, ainsi que quelques-uns
+                de nos camarades. Au cours de notre conservation, je vous dis qu'à mon avis, on
+                avait mal interprété, au ministère des Pensions, l'article 10 de la loi du 31 mars
+                1921, et que l'allocation spéciale pour la tierce personne devait être calculée non
+                pas sur la pension du simple soldat, mais sur l'ensemble des émoluments perçus au
+                titre de ladite loi. Je me rappelle que vous fites cette <pb n="27"/>
+                <note type="foliation">— 25 —</note> réponse : «Versini a peut-être raison; il y
+                aurait lieu de faire trancher cette question par la juridiction compétente. ") C'est
+                ce que je fis dès mon retour à Bourg. J'adressai, dans ce but, une requête au
+                Président du Tribunal départemental des pensions de Bourg. Le 6 novembre 1922, je
+                fus convoqué devant le Tribunal des pensions, et après avoir entendu la lecture des
+                conclusions du ministre, le Président me rendit un arrêt me déboutant de ma demande.
+                Je ne me tins pas pour battu, et quelques jours après, je fis appel de ce jugement
+                devant la Cour régionale de Lyon. Vendredi dernier, j'ai été cité à comparaître
+                devant cette juridiction. J'avais eu soin, cette fois, de faire présenter ma défense
+                par un avocat. Après plaidoirie de l'avocat et réquisitoire du Commissaire du
+                Gouvernement, j'ai demandé la parole et suis arrivé à réfuter, point par point, les
+                arguments contenus dans les conclusions envoyées par le ministre des Pensions. La
+                Cour s'est ensuite retirée pour délibérer, et après 45 minutes de délibération, elle
+                a rendu un arrêt faisant droit à la requête que j'avais adressée au Tribunal des
+                pensions à Bourg, l'année précédente.</p>
+              <p>Versini.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">AVIS A NOS LECTEURS DU
+                MAINE-ET-LOIRE</head>
+              <p>Dans le but de réunir les aveugles de guerre et les personnes du département
+                s'intéressant à leur cause, la Section départementale du Maine-et-Loire organise
+                pour le dimanche 7 octobre, à midi, Hôtel de France, en face la gare,
+                Angers-Saint-Laud, un petit banquet qui sera suivi d'une causerie sur les questions
+                intéressant les aveugles de guerre. Le prix du banquet est fixé à 10 francs par
+                tête. Les personnes qui désireraient y prendre part sont priées d'envoyer leur
+                adhésion à notre camarade Leveau, 25, rue de Jemmapes, à Angers, en y joignant le
+                montant des couverts retenus, avant le 30 septembre dernier délai. Cet avis ne
+                concerne pas nos camarades aveugles de guerre auxquels il sera envoyé en temps utile
+                une lettre individuelle.</p>
+              <pb n="28"/>
+              <note type="foliation">— 26 —</note>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">LEGION D'HONNEUR</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h37">Au grade de
+                  Chevalier</head>
+                <p>Par décret du 30 juin 1923 (Journal Officiel du 8 juillet) : Alvergne
+                  (Jules-Henri-Ernest), ex-soldat au 63<hi rend="superscript">°</hi> Bataillon de
+                  Chasseurs Alpins.</p>
+                <p>Bastion (Antoine-Marie), ex-soldat au 8<hi rend="superscript">°</hi> Régiment de
+                  Zouaves. Bertrand (Victor-René), ex-soldat au 164<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie.</p>
+                <p>Buy (Benoît-Jean-Marie), ex-soldat au 163<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Cailleau (Jean-Joseph-Gaston), ex-caporal au 296<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie.</p>
+                <p>Chaplais (Louis-Eugène), ex-soldat au 6<hi rend="superscript">°</hi> Régiment du
+                  Génie. Chomarat (Jean), ex-caporal au 12<hi rend="superscript">°</hi> Bataillon de
+                  Chasseurs à pied.</p>
+                <p>Cluze (Antoine-Marius), ex-soldat au 171<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Cohn (Maurice-Roger), ex-soldat au 116<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie. Courteix (Joseph), ex-soldat au 31<hi rend="superscript">°</hi>
+                  Bataillon de Chasseurs. De Dreuille (Léon-François-Marie-Joseph), ex-maréchal des
+                  Logis au 500<hi rend="superscript">°</hi> Régiment d'Artillerie.</p>
+                <p>Defours (Auguste), ex-soldat au 23<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie. Dietz (Charles-Emilien), ex-soldat au 356<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie.</p>
+                <p>Dubost (Pierre-Francisque), ex-soldat au 42<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Dupuy (Paul), ex-soldat au 63<hi rend="superscript">°</hi> Régiment d'Infanterie.
+                  Ecal (Jean-Marie-Félix-Gabriel), ex-maréchal des Logis au 3<hi rend="superscript"
+                    >°</hi> Régiment d'Artillerie Coloniale.</p>
+                <p>Envin (Gustave-Lucien-Cornil), ex-soldat au 110<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie.</p>
+                <p>Gauthier (Auguste-Joseph), ex-soldat au 227<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Gazaille (Jean), ex-caporal au 95<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie Territoriale.</p>
+                <pb n="29"/>
+                <note type="foliation">— 27 —</note>
+                <p>George (Léon-Julien), ex-soldat au 151<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie. Gille (Raphaël-François), ex-soldat au 7<hi rend="superscript"
+                    >°</hi> Régiment de Chasseurs.</p>
+                <p>Gladieux (Gaston-Lucien), ex-soldat au 130<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Godard (Robert-Jules-Maurice), ex-soldat au 407<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie.</p>
+                <p>Godin (Adrien), ex-soldat au 1<hi rend="superscript">er</hi> Régiment
+                  d'Infanterie. Gouet (Georges-Aristide), ex-soldat au 5<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie Coloniale.</p>
+                <p>Groussier (Jacques-Edouard-Joseph), ex-sergent au 282<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie.</p>
+                <p>Herman (Lucien-Louis), ex-soldat au 145<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Holveck (Georges-Félix), ex-soldat au 17<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>LeboinDRE (Robert-Louis-Julien), ex-soldat au 104<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie.</p>
+                <p>Le Borgne (Laurent), ex-soldat au 74<hi rend="superscript">e</hi> Régiment
+                  d'Infanterie. Lebrun (Sévère-Ghislain), ex-soldat au 43<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie.</p>
+                <p>Legrand (Georges-Henri), ex-caporal au 27<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Le Serrec (Yves-Marie), ex-soldat au 17<hi rend="superscript">°</hi> Bataillon de
+                  Chasseurs à pied.</p>
+                <p>Machavoine (Charles), ex-soldat au 204<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie. Matinaud (Joseph), ex-soldat au 278<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie. Maurandy (Charles-Auguste), ex-soldat au 44<hi
+                    rend="superscript">°</hi> Régiment d'Infanterie.</p>
+                <p>Millien (Louis-Marceau), ex-soldat au 206<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Morlet (Gabriel), ex-soldat au 29<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie. Navaron (Blaise), ex-soldat au 410<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie. Oullet (Joseph-Bénet), ex-soldat au 53<hi
+                    rend="superscript">°</hi> Régiment d'Infanterie. Person (Camille-Louis),
+                  ex-soldat au 72<hi rend="superscript">°</hi> Régiment d'Infanterie.</p>
+                <pb n="30"/>
+                <note type="foliation">— 28 —</note>
+                <p>Prudent (Jean-Marie-Julien-Henri), ex-soldat au 4<hi rend="superscript">°</hi>
+                  Régiment du Génie.</p>
+                <p>Quemener (Jean-François), ex-soldat au 17<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Sauvage (François-Marie), ex-soldat au 124<hi rend="superscript">°</hi> Régiment
+                  d'Infanterie.</p>
+                <p>Seebacher (Albert-Jean), ex-soldat au 2<hi rend="superscript">°</hi> Bataillon de
+                  Chasseurs à pied.</p>
+                <p>Serieys (Albert-Guillaume-Eugène-Marius), ex-sergent au 47<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie.</p>
+                <p>Thevenard (Gustave-Pierre), ex-caporal au 13<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie.</p>
+                <p>Vallery (René-Albert), ex-soldat au 43<hi rend="superscript">°</hi> Régiment
+                  d'Artillerie. Villette (Jules), ex-soldat au 4<hi rend="superscript">°</hi>
+                  Régiment de Hussards. Invernizzi (Ange-Ambroise), ex-soldat au 52<hi
+                    rend="superscript">°</hi> Régiment d'Infanterie.</p>
+                <fw type="footer">Le Gérant: Drcornn.</fw>
+                <fw type="footer">Imprimerie Dubois et Bauer, 34, rue Laffitte, Paris.</fw>
+                <pb n="31"/>
+                <note type="foliation">— 29 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Izanc ; vice-présidents: Durat, Noireaux, Roy Georges. Secrétaire général
+              : Favret. Trésorier : L'Evesque Gaston. Membres: MM. Amar, Antoine, Arnault, Bardoux,
+              Bois, Bertrand, Cour-teix-Delage, Dufourc, Durat, Grillet, Goubin, Gudefin, Heuzé,
+              Laffargue, Lagarde, Lallement, Leloup, Leveau, Malgat, Robert (Maurice), Sainte-Rose,
+              Scabini, Sigault, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. de Fleurieu, Trésorier adjoint; M. Auterbe, Actuaire à la Compagnie
+              «L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Boylesve. Mme Broquin. M. Cheffer. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation</p>
+            <p>Mlle Jalaguier. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. Mme Mus. M. Joseph Roux. M. Sollar.</p>
+            <p>D" Schneider. Mme Valton. Mme Yves.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h40">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente ; Mme Leygues ; Mme Le Troquer ; Mme Lhopiteau. Mme
+              J.-L. Lebreton. Mme Marthe Brandès, présidente de l'Abri du Soldat Aveugle.</p>
+            <pb n="32"/>
+            <note type="foliation">— 30 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h41">Liste des Donateurs</head>
+            <p>Mme Condamin Ain Moulares, 80 fr. - Mme Toudy, Paris, 15 fr. - Pour protection et
+              bonne santé de notre famille, 300 fr. Mme A. Labosse Sainte-Adresse, 50 fr. - Mlle de
+              Freycinet, Paris, 50 fr. - Mme Pouiles, Pamiers, 10 fr. - Anonyme n <hi
+                rend="superscript">°</hi> 15822, 500 fr. - M. Paul Miche, Amsterdam, 100 fr. - M. F.
+              Mesriera Tossa, Espagne, transmis par les Annales, 118 fr. 20. - Mme Ronquay, Guitres
+              (Gironde), transmis par les Annales, 50 fr. - La famille Michaud, transmis par les
+              Annales, 5 fr. - Mme Arthur Luck, Londres, 250 francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

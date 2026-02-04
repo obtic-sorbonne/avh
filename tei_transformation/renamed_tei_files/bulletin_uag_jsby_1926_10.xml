@@ -1,0 +1,1175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 8ème année 1926, n°9</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Commémorations</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Finances</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15 cm ; 24 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#mutiles">Mutilés</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#sarrebourg">Sarrebourg</term>
+          <term ref="#meaux">Meaux</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#caisse-fraternelle">Caisse Fraternelle</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin de l'Union des Aveugles de Guerre d'octobre 1926 détaille les événements
+          commémoratifs auxquels l'Union a participé, notamment à Sarrebourg et Meaux, ainsi que les
+          démarches entreprises pour améliorer les pensions et les droits des aveugles de guerre. Il
+          présente un projet de rapport moral pour l'exercice 1925-1926, exposant les actions
+          législatives entreprises, l'activité des bureaux, et les relations extérieures de l'Union.
+          Le rapport financier du trésorier met en lumière les défis financiers rencontrés par
+          l'organisation. Le bulletin inclut également des informations sur la Caisse Fraternelle,
+          la maison de Franceville, et les efforts de propagande.</p>
+      </abstract>
+      <creation>
+        <date when="1926-10-01">01/10/1926</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-10" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h5">PRESIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h7">Promotion dans la Légion d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h8">A Sarrebourg, le 12 Septembre 1926</ref>
+          </item>
+          <item>
+            <ref target="#h9">Commémoration, à Meaux, de la Victoire de la Marne</ref>
+          </item>
+          <item>
+            <ref target="#h10">Après la Cérémonie de Sarrebourg</ref>
+          </item>
+          <item>
+            <ref target="#h11">Projet de Rapport moral pour l'exercice 1925-1926</ref>
+          </item>
+          <item>
+            <ref target="#h12">L'OEUVRE LEGISLATIVE DE L'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h13">Exposé général.</ref>
+              </item>
+              <item>
+                <ref target="#h14">Question des pensions.</ref>
+              </item>
+              <item>
+                <ref target="#h15">L'activité de nos bureaux.</ref>
+              </item>
+              <item>
+                <ref target="#h16">Bulletin.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">BIBLIOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h18">CAISSE FRATERNELLE</ref>
+          </item>
+          <item>
+            <ref target="#h19">MAISON DE FRANCEVILLE</ref>
+          </item>
+          <item>
+            <ref target="#h20">PROPAGANDE</ref>
+          </item>
+          <item>
+            <ref target="#h21">RELATIONS EXTERIEURES</ref>
+          </item>
+          <item>
+            <ref target="#h22">L'AVENIR DE NOTRE UNION</ref>
+          </item>
+          <item>
+            <ref target="#h23">Rapport financier du Trésorier</ref>
+          </item>
+          <item>
+            <ref target="#h24">BILAN AU 31 AOUT 1926</ref>
+          </item>
+          <item>
+            <ref target="#h25">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h26">A VENDRE</ref>
+              </item>
+              <item>
+                <ref target="#h27">PROPOSITION INTERESSANTE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h28">Chronique de l'U.A.G.</ref>
+            <list>
+              <item>
+                <ref target="#h29">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h30">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h31">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h32">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h33">TABLEAU D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h34">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h35">COMITE D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h36">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">8e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">Octobre 1926</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Promotion dans la Légion d'Honneur.</item>
+                    <item>A Sarrebourg, le 12 septembre 1926.</item>
+                    <item>Commémoration à Meaux de la victoire de la Marne (5 septembre
+                      1926).</item>
+                    <item>Après la cérémonie de Sarrebourg.</item>
+                    <item>Projet de rapport moral pour l'exercice 1925-1926.</item>
+                    <item>Rapport financier du Trésorier.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Informations</head>
+                  <list>
+                    <item>A vendre.</item>
+                    <item>Proposition intéressante.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">PRESIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>Monsieur le Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. le colonel Fabry, ancien ministre des Colonies; M. Brieux, de
+              l'Académie Française, président honoraire; M. le général Balfourré; M. Borrel, député,
+              ancien sous-secrétaire d'Etat;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet; M. J. RigdelY Carter; M. Paul de Cassagnac,
+              ancien député; M. Cottin? notaire honoraire; M. Maurice Donnay, de l'Académie
+              Française; M. Duco, médecin-inspecteur; M. Fribourg, député;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ministre du Travail et de l'Hygiène;</p>
+            <p>Miss Grass Harper; Miss Winifred Holt; Mme Léopold Kahn; Mme Géo Kessler; M. Krug; M.
+              Lugol, sénateur;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax; M. Meyer, conseiller d'Etat; M. Henry
+              Paté, député; M. Pierre Rameil, député;</p>
+            <p>M<hi rend="superscript">e</hi> Henri-Robert, de l'Académie Française, ancien
+              bâtonnier de l'Ordre ues Avocats; Général Sainte-Claire-Deville; M. Vallery-Radot; M.
+              Constant Verlot, député; M. le professeur Walther, membre de l'Académie de
+              Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">Promotion dans la Légion
+              d'Honneur</head>
+            <p>M. le Ministre des Pensions nous informe que par décret du 14 septembre 1926, et sur
+              sa proposition, notre président, M. Georges Scapini, est nommé officier de la Légion
+              d'honneur.</p>
+            <p>Nous adressons nos très vives et très cordiales félicitations à notre président avec
+              la certitude que notre joie sera partagée par tous nos camarades et tous nos amis.</p>
+            <p>Nous exprimons à M. Louis Marin, ministre des Pensions, l'expression de toute notre
+              reconnaissance pour cette nouvelle marque d'estime qu'il vient de témoigner à notre
+              Union, en la personne de notre président et qui est la juste récompense de son haut et
+              exceptionnel mérite.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">A Sarrebourg, le 12 Septembre
+              1926</head>
+            <p>Le dimanche 12 septembre, sous la présidence de M. Louis Marin, ministre des
+              Pensions, eut lieu l'inauguration du grand cimetière national des prisonniers de
+              guerre qui s'étend à trois kilomètres de Sarrebourg, à droite de la route qui conduit
+              vers Morhange.</p>
+            <p>Là reposent plus de 14.000 Français dont les yeux se sont fermés pour toujours
+              pendant leur captivité de guerre en Allemagne, et qui ne furent pas réclamés par leurs
+              familles.</p>
+            <p>La vaste nécropole est située au seuil d'une forêt, sur l'emplacement même où le soir
+              du 23 août 1914, après la sanglante bataille de la Lorraine, le 37<hi
+                rend="superscript">°</hi> régiment d'artillerie avait établi ses batteries et se fit
+              tuer sur ses pièces afin de couvrir la retraite de notre armée.</p>
+            <p>La ville de Sarrebourg a fait don de ce terrain à la nation. Au cours de cette
+              cérémonie, particulièrement émouvante, notre secrétaire général prononça les paroles
+              suivantes :</p>
+            <p>" Monsieur le Ministre,</p>
+            <p>"La cérémonie d'aujourd'hui, qui nous émeut si profondément, apportera un
+              adoucissement à la douleur de bien des familles françaises. "Dimanche dernier, à
+              Meaux, vous nous demandiez, Monsieur le Ministre, d'élever notre pensée et notre cœur
+              vers les héros de la Marne, <pb n="4"/>
+              <note type="foliation">— 2 —</note> et la France tout entière, assemblée près de vous,
+              vibrante d'émotion, s'inclinait pieusement sur leurs tombes fleuries. "Ceux que nous
+              honorons aujourd'hui, n'ont pas eu le bonheur d'être ensevelis sur le champ de
+              bataille. Ils sont morts de la plus pénible des morts, des suites de leurs blessures
+              ou du joug d'une cruelle captivité, loin des leurs, loin de la Patrie, séparés de
+              leurs frères d'armes. " Vous les saluez, Monsieur le Ministre, du souvenur le plus
+              trisiement ému. Ils tressaillent dans leurs tombes, et par delà les limites de ce
+              cimetière, dans toute notre France. Comme un souffle bienfaisant, vos paroles
+              toucheront le coeur de ceux qui les chérissent encore, pères, mères, femmes, enfants.
+              En les retirant de la froide terre ennemie, en les réunissant sur ce sol sacré de
+              l'Alsace-Lorraine, la France accomplit une ceuvre sainte. " Au nom du Comité d'Entente
+              de nos grandes Associations Nationales de Mutilés et Anciens Combattants, dont les
+              représentants sont ici fraternellement groupés, je suis heureux, Monsieur le Ministre,
+              de vous exprimer notre très vive reconnaissance et de dire à M. le Maire de
+              Sarrebourg, combien il nous est doux d'accomplir ici ce pèlerinage. "Qu'il me soit
+              permis d'adresser également aux membres du Souvenir Français et à nos camarades de la
+              Fédération des Anciens Prisonniers de Guerre, à leur président, M. Desbons, à leur
+              secrétaire général, M. Volvey, nos sentiments d'admiration pour la grandeur de la
+              tâche qu'ils ont conçue et à laquelle ils se sont consacrés avec un inlassable
+              dévouement. "En ces jours de commémorations nationales, la France se sent plus unie.
+              Elle est émue par la profondeur des sentiments qui l'attachent à ses morts glorieux.
+              Comme eux nous garderons intacts, au fond de notre coeur, le culte de la Patrie et
+              cette foi inébranlable dans les destinées de notre pays, dont ils nous ont donné le
+              sublime exemple, souvenir qui restera le meilleur soutien de notre vie. "</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">Commémoration, à Meaux, de la
+              Victoire de la Marne</head>
+            <p>(5 Septembre 1926)</p>
+            <p>Il faut commémorer par des cérémonies appropriées aux faits qu'elles magnifient, les
+              grands événements de notre vie nationale. C'est le plus sûr moyen de perpétuer dans
+              l'âme des foules le souvenir du passé et d'entretenir toujours vivace la flamme de la
+              reconnaissance. La guerre a été fertile en épisodes inoubliables et de combien
+              d'étapes, <pb n="5"/>
+              <note type="foliation">— 3 —</note> douloureuses ou sublimes, a été marquée la voie
+              qui nous conduisit à la victoire définitive. C'est pour le rappeler à ceux qui
+              seraient tentés déjà de l'oublier que les Anciens Combattants ont pris l'habitude de
+              célébrer dignement l'anniversaire des grandes dates historiques que le pays doit
+              inscrire dans ses fastes.</p>
+            <p>On ne pouvait laisser passer sans une manifestation de circonstance, la date du 5
+              septembre, douzième anniversaire de la Victoire de la Marne. Les cérémonies organisées
+              par la Municipalité de Meaux en commun accord avec le Comité d'Entente des Groupemenis
+              Nationaux d'Anciens Combattants et Victimes de la Guerre et le Comité du Souvenir
+              Français, eurent tout l'éclat qu'elles méritaient. L'Union des Aveugles de Guerre,
+              invitée à participer à cette commémoration, s'était fait représenter par une
+              délégation qu'accompagnait le drapeau de notre Association, ainsi que le Président de
+              notre Comité d'Action. A neuf heures et demie, la longue file des délégués de chaque
+              groupement s'ébranlait pour se rendre à l'Hôtel de Ville où étaient déjà réunis les
+              représentants du chef de l'Etat et du Gouvernement, la Municipalité de Meaux, des
+              membres du Conseil général et du Conseil municipal de la Seine, de nombreux
+              parlementaires, des généraux, des officiers alliés, et le cortège officiel se dirigea
+              vers la cathédrale où une foule nombreuse et recueillie assista à la cérémonie
+              religieuse qui préludait au programme de la journée. Tous les corps constitués étaient
+              également représentés aux cérémonies du même genre, protestants et israélites, qui
+              eurent lieu au même moment. A midi, un déjeuner familial, le Déjeuner du Combattant,
+              réunissait au Manège de Cavalerie, aménagé avec soin pour la circonstance, les anciens
+              frères d'armes qui avaient répondu à l'appel des organisateurs et, après une courte
+              allocution prononcée par M. Louis Marin, ministre des Pensions, toutes les
+              délégations, en un cortège imposant, se rendirent de nouveau à l'Hôtel de Ville où
+              venait d'arriver M. le Ministre de la Guerre, et de là commença le pieux pèlerinage
+              vers le Nouveau Cimetière où reposent tant de glorieux héros, victimes des tragiques
+              combats où se joua le sort de la nation, vers le Monument des Quatre-Routes, élevé sur
+              le territoire de Barcy-Chambry, à la mémoire des Combattants de la Marne, vers les
+              autres nécropoles du champ de bataille où coula un sang si généreux pour que la France
+              pût vivre et résistât à la tourmente.</p>
+            <p>Quelles plus belles leçons de vertu que celles qui se dégagent de telles
+              manifestations, à la fois simples et émouvantes et qui contribuent <pb n="6"/>
+              <note type="foliation">— 4 —</note> à faire communier en un même culte tant de cœurs
+              et tant d'esprits divers à qui s'impose la beauté du plus pur sacrifice.
+              Bloncourt.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Après la Cérémonie de
+              Sarrebourg</head>
+            <p>Dans une émouvante cérémonie, M. le Ministre des Pensions a inauguré, le dimanche 11
+              septembre, à Sarrebourg, le cimetière national des Prisonniers de guerre morts en
+              captivité, où dorment, unis dans un même sacrifice, près de 14.000 de nos
+              camarades.</p>
+            <p>Une délégation de l'U. A. G., conviée à cette cérémonie par l'Union Nationale des
+              Prisonniers de Guerre, s'est rendue à Sarrebourg, consciente du pieux devoir qu'elle
+              accomplissait en pareille circonstance. Ce fut une journée grandiose dans sa
+              simplicité, qui évoqua les heures de tristesse et la souffrance éprouvée par tous ces
+              captifs, jusqu'au dernier souffle de leur vie.</p>
+            <p>Nous devons très sincèrement féliciter notre camarade Conan, qui, en sa qualité de
+              secrétaire général de notre Union, fut prié par nos camarades du Comité d'Entente de
+              représenter ce dernier à cette cérémonie de Sarrebourg, comme il le fut le dimanche
+              précédent, à Meaux, lors de la commémoration de la Victoire de la Marne. C'est là une
+              attention délicate de la part de nos camarades prisonniers de guerre ; et je dois
+              souligner que c'est en grande partie grâce à l'attitude vitale que se donne
+              actuellement l'Union vis-à-vis de ses relations extérieures, qu'est due cette
+              distinction particulière, dont a été l'objet, à deux reprises, notre secrétaire
+              général.</p>
+            <p>Il m'est un devoir agréable de signaler son allocution personnelle, prononcée d'une
+              voix émue mais ferme, qui fut appréciée par tous les personnages officiels présents,
+              et en particulier par M. le Ministre des Pensions.</p>
+            <p>Ce fut, vous le constaterez tous, une très belle journée pour notre groupement, et
+              notre camarade, avec son tact et sa délicatesse habituelle, ne manqua pas d'obtenir à
+              nouveau de la part de M. le Ministre, l'assurance que le projet présenté par nous, au
+              début du mois d'août, pour l'amélioration de notre allocation 5 bis, fait l'objet de
+              sa préoccupation la plus constante et la plus bienveillante, parce que la plus juste,
+              et qu'il saurait bien dans le plus bref délai possible, obtenir l'adhésion complète de
+              M. le Ministre des Finances.</p>
+            <p>Il faut également retirer des impressions semblables, de la commémoration de
+              l'anniversaire de la Bataille de la Marne, qui fut célébré <pb n="7"/>
+              <note type="foliation">— 5 —</note> le dimanche 5 septembre, à Meaux, par toutes les
+              Associations Nationales d'Anciens Combattants et Mutilés, groupés fraternellement dans
+              l'accomplissement d'un devoir sacré. Là encore, l'U. A. G. fut représentée, et comme à
+              Sarrebourg, elle fut particulièrement remarquée.</p>
+            <p>Comment ne pas reconnaître les grands bienfaits d'une telle attitude dans des
+              circonstances semblables, lorsque, pour ne citer qu'un fait, M. le Ministre, dans une
+              allocution très courte, tant à Meaux qu'à Sarrebourg, tint à évoquer les grands
+              sacrifices consentis pendant la Grande Guerre, et fixa sa généreuse pensée tout
+              particulièrement sur les Aveugles de Guerre, qui, disait-il, "dans leur nuit atroce
+              provo" quée brutalement à la fleur de l'âge, sont ici l'image vivante et sai" sissante
+              du sacrifice consenti ».</p>
+            <p>Ce sont des paroles, direz-vous ! mais ces paroles, dans la bouche de notre ministre
+              actuel, une des plus belles figures lorraines, sont empreintes de la plus poignante
+              sincérité, et sont le meilleur gage du succès de nos revendications.</p>
+            <p>Des paroles !... toutes ces marques de profonde sympathie, de compassion, que les
+              représentants de notre Union reçoivent de toutes parts, quand ils sont en
+              délégation... Oui, des paroles! Mais si, par impossible, elles devaient être
+              considérées comme éphémères, pour-raient-elles être émises si la dignité de notre
+              présence ne les provoquait pas ?</p>
+            <p>Si les paroles s'envolent, soyez persuadés qu'il se crée ainsi une atmosphère toute
+              particulière de considération profonde, qui demeure, celle-là, et qui contribue
+              fortement à donner à notre groupement une vitalité puissante, et la place
+              prépondérante qu'il doit occuper, tant auprès de l'opinion que des Pouvoirs publics :
+              signes avant-coureurs de la prompte réalisation des projets de l'U. A. G. et, en
+              particulier, de l'amélioration de nos pensions, question brûlante qui préoccupe au
+              plus haut point, à l'heure actuelle, notre Bureau.</p>
+            <p>Partout où le devoir nous commande, soyons là ! Partout où notre influence morale
+              peut et doit se manifester, soyons présents !</p>
+            <p>Si, par ailleurs, des questions particulières se présentent, à la solution desquelles
+              notre groupement est convié à collaborer; si, à première vue, elles ne paraissent pas
+              d'un intérêt primordial pour notre Union, la meilleure façon de s'assurer de
+              l'opportunité d'un intérêt quelconque pour notre groupement, sera, je pense, de
+              participer en observateur à la discussion de ces questions, et ainsi de se faire une
+              juste opinion, qui, seule, devra prévaloir pour dicter notre attitude définitive.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <p>C'est dans cet esprit que notre président Scapini et notre secrétaire général
+              s'emploient inlassablement, à donner à notre groupement une prospérité toujours
+              nouvelle, pour le bien de tous et de chacun en particulier. Je suis heureux,
+              aujourd'hui, de pouvoir rendre hommage à leur dévouement désintéressé, et bientôt, je
+              l'espère, grâce à leur diplomatie, grâce à leurs démarches incessantes, nous les
+              verrons triompher dans les négociations qu'ils ont entreprises, dans la juste
+              amélioration de nos pensions actuelles. R. Lauté.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">Projet de Rapport moral pour
+              l'exercice 1925-1926</head>
+            <p>Chaque année, à la même époque, s'achève l'une des pages de l'histoire de notre
+              Union. Elle est l'image de notre vivant esprit de solidarité entouré des marques
+              d'affectueuses amitiés qui nous touchent si profondément. Du fond du coeur, nous
+              remercions tous nos amis de leur inlassable attachement.</p>
+            <p>C'est une grande satisfaction pour nous, que de pouvoir exprimer notre reconnaissance
+              à tous nos généreux bienfaiteurs, aux hautes personnalités de notre Comité de
+              Patronage, aux membres de notre Comité d'Action, dont nous apprécions chaque jour le
+              précieux concours et qui ont consacré, dans notre maison, une si grande partie de leur
+              temps à partager nos travaux.</p>
+            <p>Mais notre reconnaissance doit s'étendre aussi à quelques-uns de nos camarades, qui,
+              au cours des années passées, se sont laborieusement dévoués à la cause commune. A
+              chaque Assemblée générale vous leur avez exprimé également vos sentiments de
+              gratitude. C'est pour compléter cette pensée, que nous avons demandé à votre Conseil
+              d'administration la création de titres honorifiques, pour ceux d'entre nous dont les
+              noms sont inséparables de l'histoire de notre Union.</p>
+            <p>Nous sommes certains de votre approbation. Nous espérons que vous ressentirez avec
+              nous, la joie que nous cause l'inscription à ce tableau d'honneur du capitaine Izaac,
+              comme président honoraire, de notre camarade Favret, comme secrétaire général
+              honoraire, ainsi que vous l'aviez fait autrefois pour Bourguignon, cet ardent pionnier
+              de la première heure.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h12">L'OEUVRE LEGISLATIVE DE L'U.
+              A. G.</head>
+            <div type="subsubsection">
+              <head type="subsubsection" rend="align(center)" xml:id="h13">Exposé général.</head>
+              <p>Nous savons tous combien les événements de cette année ont été peu favorables à la
+                réalisation des vœux émis lors de notre dernière Assemblée générale. Cependant,
+                votre Bureau, confiant dans l'avenir et aidé de votre Conseil d'administration, n'a
+                pas ralenti ses efforts dans cette voie. Nous nous sommes livrés à une étude plus
+                approfondie des problèmes à résoudre et, dès le début de l'année, nous en avons
+                saisi le nouveau ministre des Pensions. M. Jourdain leur a apporté sa plus grande
+                attention et soumis immédiatement à ses services techniques.</p>
+              <p>Nous rappelons brièvement ces principaux vœux : Reconnaissance de tous nos enfants
+                comme pupilles de la nation. (Projet du colonel Picot.)</p>
+              <p>Assimilation des veuves de nos camarades à celles des tués à l'ennemi. (Projet
+                Jules Boyer, déposé au cours de cet exercice.)</p>
+              <p>Assimilation de nos ascendants à ceux des tués à l'ennemi. (Projet Ricolfi.)</p>
+              <p>Extension du bénéfice de l'article 64 (soins médicaux) à toutes les maladies des
+                grands mutilés. (Rapport Lallement.)</p>
+              <p>Modification de l'article 55 concernant les femmes d'aliénés. Transports.
+                Décorations.</p>
+              <p>Ces principaux vœux ont été renouvelés par les soins du Comité d'Entente, qui les a
+                inscrits à son programme et appuiera nos nouvelles démarches à l'heure propice de
+                leur réalisation.</p>
+              <p>Nous devons enregistrer, toutefois, un point important acquis au cours de cet hiver
+                : l'abrogation du délai de cinq ans, résultat de démarches collectives auxquelles
+                nous avons participé.</p>
+              <p>Nous pourrions aussi rappeler d'autres résultats, tels que le maintien des droits
+                des veuves remariées, l'exonération de la taxe civique, mais la principale
+                préoccupation de vos dirigeants a été le réajustement de nos pensions, devenu
+                l'indispensable devant la courbe ascendante du prix de la vie.</p>
+            </div>
+            <div type="subsubsection">
+              <head type="subsubsection" rend="align(center)" xml:id="h14">Question des
+                pensions.</head>
+              <p>Nous n'exposerons pas ici les causes de la dévalorisation de notre monnaie
+                nationale. Nous dirons seulement et brièvement, les études et démarches que nous
+                avons accomplies en vue de nous garantir contre la diminution constante du pouvoir
+                d'achat de nos pensions. Presque au</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+              <p>lendemain de notre dernière Assemblée générale, l'élévation rapide et continue du
+                prix de la vie nous conduisait à étudier un mode nouveau d'évaluation de nos
+                pensions les mettant en harmonie avec le coût réel de l'existence.</p>
+              <p>Deux projets furent alors retenus par notre Conseil : celui de notre Président,
+                préconisant le paiement en francs-or, et celui de l'échelle mobile, développé par
+                notre camarade Lauté. Ce sont ces mêmes projets qui furent reconnus par les autres
+                groupements comme étant les seuls capables de donner à nos pensions la garantie
+                recherchée.</p>
+              <p>Les Congrès de nos grandes associations nationales, après les avoir adoptés, s'en
+                rapportèrent au Comité d'Entente du soin de faire aboutir l'un ou l'autre de ces
+                projets dès que la situation l'exigerait. Mais l'importance même des crédits
+                nécessaires à une telle généralisation demandant l'ouverture de crédits énormes,
+                momentanément au-dessus des forces budgétaires du pays, créait une situation
+                d'attente prolongée.</p>
+              <p>Mais pour nous autres grands mutilés, dont la pension ne constitue plus que
+                l'unique ressource, la nécessité d'un réajustement immédiat se posait avec rigueur.
+                Nous ne pouvions attendre ; aussi, dans sa séance du 12 juin, votre Conseil se
+                ralliait à l'ordre du jour suivant : " Le Conseil, tout en restant fidèle au
+                principe de l'échelle mobile, " demande que des efforts soient faits pour que le
+                budget de 1927 " ne passe pas sans qu'il y ait une amélioration de nos pensions.
+                "</p>
+              <p>Dès que les événements le lui permirent, votre Bureau se mit en devoir de faire
+                aboutir cette revendication. Nous avons même insisté sur l'urgence de ce
+                réajustement avant le 1<hi rend="superscript">er</hi> janvier 1927.</p>
+              <p>Nous devons répéter ici que nous avons reçu, de M. Louis Marin, depuis peu de jours
+                ministre des Pensions, l'accueil le plus encourageant et le plus affectueux. Nous ne
+                pouvions trouver un meilleur défenseur de notre cause, et nous pouvons d'avance le
+                remercier, car nous sommes persuadés qu'il saura la faire triompher.</p>
+            </div>
+            <div type="subsubsection">
+              <head type="subsubsection" rend="align(center)" xml:id="h15">L'activité de nos
+                bureaux.</head>
+              <p>L'action de nos bureaux au cours de cette année n'a pas été moins vive que celle
+                des exercices précédents. La correspondance de nos membres adhérents n'a, en effet,
+                nullement diminué, et les études auxquelles nous nous sommes livrés, le
+                développement de la propagande, de nos relations extérieures, ont exigé des efforts
+                réels de la part de notre personnel, réduit, comme vous le savez, au strict minimum
+                et nous devons lui en savoir gré.</p>
+              <pb n="11"/>
+              <note type="foliation">— 9 —</note>
+            </div>
+            <div type="subsubsection">
+              <head type="subsubsection" rend="align(center)" xml:id="h16">Bulletin.</head>
+              <p>Nous avons fait tout notre possible pour soutenir l'intérêt de notre Bulletin. En
+                plus des documents et articles habituels, nous y avons reproduit de nombreux
+                extraits du Bulletin de la F. I. D. A. C. qui mettent si bien en relief l'activité
+                générale des anciens combattants.</p>
+              <p>Renouvelons nos remerciements à MM. Dubois et Bauer, membres d'honneur de notre
+                groupement, qui, malgré les difficultés les plus grandes, nous continuent leurs
+                conditions aussi avantageuses.</p>
+            </div>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h17">BIBLIOTHEQUE</head>
+            <p>Nous devons beaucoup remercier Mme Chevalier qui, au cours de cet hiver, organisa le
+              brillant gala du Roi David au profit de notre Union et qui assume toujours, avec
+              l'aide de quelques collaboratrices bénévoles le service de notre bibliothèque.</p>
+            <p>Nous avons reçu cette année de nouveaux ouvrages en grand nombre. Nous préparons un
+              catalogue général qui rendra, nous l'espérons, des services aux lecteurs.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h18">CAISSE FRATERNELLE</head>
+            <p>La Caisse Fraternelle a distribué dans le courant de l'exercice 1925-1926 :</p>
+            <table>
+              <row>
+                <cell>Allocations naissances.</cell>
+                <cell>36.200</cell>
+                <cell>"</cell>
+              </row>
+              <row>
+                <cell>Allocations veuves et enfants.</cell>
+                <cell>34.965</cell>
+                <cell>"</cell>
+              </row>
+              <row>
+                <cell>Secours et allocations spéciales.</cell>
+                <cell>21.149</cell>
+                <cell>80</cell>
+              </row>
+              <row>
+                <cell>Prêts d'honneur.</cell>
+                <cell>20.650</cell>
+                <cell>"</cell>
+              </row>
+              <row>
+                <cell>Prêts pour l'achat ou la construction d'une mai- son familiale.</cell>
+                <cell>82.500</cell>
+                <cell>"</cell>
+              </row>
+            </table>
+            <p>L'importance de ce chiffre vous démontrera combien a été utile l'institution des
+              prêts d'honneur et des prêts pour l'achat ou la construction d'une maison familiale;
+              cette année encore, nous espérons obtenir une subvention de l'Office National des
+              Mutilés et Réformés qui nous permettra de continuer à aider les camarades qui
+              cherchent à avoir une maison bien à eux.</p>
+            <p>D'autre part, nous avons complété le programme des constructions en ajoutant un
+              paragraphe annexe au règlement des prêts pour constructions permettant d'étendre le
+              bénéfice des prêts aux demandes formulées par les camarades obligés d'apporter des
+              réparations à leur maison. Ces prêts seraient consentis aux mêmes conditions que les
+              prêts</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+            <p>de construction; le maximum en serait de 2.000 francs et ne pourrait être toutefois
+              consenti que dans la limite des disponibilités des sommes affectées au chapitre des
+              prêts pour construction ou achat de maison, la priorité devant toujours leur en être
+              gardée.</p>
+            <p>Nous avons enregistré la naissance de 181 enfants et le décès de 36 de nos
+              camarades.</p>
+            <p>Réunis en Assemblée générale, nous tenons à renouveler nos vives félicitations aux
+              heureux parents et nos bien vives condoléances aux familles qui ont été si cruellement
+              éprouvées.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h19">MAISON DE FRANCEVILLE</head>
+            <p>Les demandes de séjour pour notre maison de Franceville ont été aussi nombreuses que
+              les années précédentes, puisque 77 camarades y ont séjourné pendant la belle saison ;
+              ils en sont revenus enchantés en constatant le bienfaisant repos qu'il apporte à leur
+              famille.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h20">PROPAGANDE</head>
+            <p>L'une des questions qui se pose le plus impérieusement à l'attention de votre Conseil
+              est celle du développement indispensable de la propagande. Un nouveau programme,
+              s'accordant avec les possibilités de l'heure, a été adopté et votre Conseil
+              d'administration en poursuit activement la mise en œuvre.</p>
+            <p>Nous devons remercier Mlle Arbel, vice-présidente, et le baron de Traversay,
+              président de notre Comité d'Action, de la collaboration précieuse qu'ils nous ont
+              apporté à cette occasion.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h21">RELATIONS EXTERIEURES</head>
+            <p>1<hi rend="superscript">°</hi> Relations de l'Union avec les autres Sociétés
+              s'occupant des Aveugles de Guerre.</p>
+            <p>Nous nous sommes attachés, comme par le passé, à maintenir intact et même à
+              développer l'excellent état des relations que notre Union a toujours entretenues avec
+              les autres Sociétés s'occupant d'Aveugles de Guerre, cette tâche nous a été rendue
+              facile par l'atmosphère de confiance et de sympathie que nous y avons toujours
+              rencontrée. Nous tenons à leur rendre un juste hommage et à les remercier, au nom de
+              tous nos camarades, de leur si amicale coopération et des bienfaits qu'elles ont
+              continué à apporter dans un si grand nombre de nos foyers. Nous devons nommer parmi
+              ces Sociétés, les Amis des Soldats Aveugles et le Foyer du Soldat Aveugle. 2<hi
+                rend="superscript">°</hi> Avec les pouvoirs publics.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+            <p>Il en est de même auprès des pouvoirs publics et nous devons une mention toute
+              spéciale à la bonne harmonie de nos rapports avec l'Office National des Mutilés et
+              Réformés. Nous devons déjà beaucoup à ce grand organisme. Nous ne saurions trop
+              exprimer notre gratitude à son Conseil d'administration, à son éminent et bienveillant
+              secrétaire général, M. Possoz, pour la puissante aide morale et financière qui est
+              venue si heureusement compléter la mise en œuvre de certains de nos projets les plus
+              chers.</p>
+            <p>L'Office National nous a accordé cette année une subvention totale de 68.000 francs,
+              dont 60.000 spécialement affectés à notre Caisse de prêts pour constructions
+              familiales.</p>
+            <p>3" Avec les mutilés et anciens combattants. Chaque rapport moral vous a tenu au
+              courant de l'importance croissante de nos relations avec le monde extérieur et en
+              particulier avec celui des anciens combattants. Avec ce dernier, la question est
+              devenue vitale pour notre Union, et mériterait à elle seule un chapitre étendu.</p>
+            <p>Nous savons ce que les liens de cordialité qui unissent tous les mutilés et anciens
+              combattants ont permis de créer. Nous connaissons les heureux résultats de leur
+              collaboration au sein du Comité d'Entente. Cette vitalité des anciens combattants
+              s'est affirmée chaque jour plus grande et elle s'est manifestée cette année avec une
+              force nouvelle qui a pénétré le pays tout entier.</p>
+            <p>Votre Conseil d'administration a pris en considération l'importance qu'il y avait
+              lieu de donner à nos relations avec les autres groupements, en adoptant dans sa séance
+              du 27 mars 1926, l'ordre du jour de notre camarade Lauté exprimant si bien la pensée
+              générale et le souci de donner à notre Union la place honorable qu'elle doit prendre
+              parmi le monde extérieur.</p>
+            <p>Nous rappelons notre participation aux travaux du Comité d'Entente, notre
+              représentation aux Congrès de Nice, Bernay, Arras, Strasbourg et Metz. Notre présence
+              à Luxembourg et à toutes les cérémonies commémoratives officielles.</p>
+            <p>Notre participation à la manifestation du 11 juillet, au sujet des accords de
+              Washington, notre adhésion à la F. I. D. A. C. dont le principe avait été voté à notre
+              dernière Assemblée générale, l'étude d'une participation possible d'une Conférence
+              Internationale des Anciens Combattants à côté des grandes associations nationales et
+              de la F. I. D. A. C.</p>
+            <p>Nous sommes heureux de dire que notre Union fut partout merveilleusement accueillie,
+              que notre qualité morale fut hautement reconnue, <pb n="14"/>
+              <note type="foliation">— 12 —</note> comme le témoigne l'honneur réservé à notre
+              camarade Scapini, de répondre, à Metz, au discours du Président de la République, au
+              nom de tous les mutilés et anciens combattants.</p>
+            <p>Notre président a été appelé à faire partie d'une des Commissions de la Caisse
+              d'amortissement pour le relèvement du franc, auquel l'Union a été heureuse d'y porter
+              son offrande.</p>
+          </div>
+          <div type="subsection">
+            <head type="subsection" rend="align(center)" xml:id="h22">L'AVENIR DE NOTRE UNION</head>
+            <p>La tâche de l'Union, pourrait-on dire, ne sera jamais terminée. Des questions
+              législatives importantes restent encore en suspens et nécessiteront les constants
+              efforts de votre Conseil d'administration. Il y aura toujours l'imprévu des cas
+              d'espèce, si délicats et si difficiles à faire triompher.</p>
+            <p>Pendant longtemps encore, nous pourrons porter notre action vers un développement
+              plus grand des prêts pour constructions familiales, poursuivre l'étude des achats en
+              commun et l'une des questions les plus angoissantes n'est-elle pas de pouvoir suivre
+              la situation des veuves et des enfants de nos camarades décédés et si dignes d'intérêt
+              ?</p>
+            <p>Un si vaste programme demandera encore de bien grands efforts; mais l'avenir de notre
+              Union se présente sous d'heureux auspices, dont vos liens de bonne camaraderie et de
+              tenace volonté justifient l'espérance.</p>
+            <p>Au moment où nous inscrivons ces lignes, nous apprenons de M. le Ministre des
+              Pensions, la nomination de notre Président au grade d'officier de la Légion
+              d'honneur.</p>
+            <p>Nous sommes très heureux de cette marque de sympathie de la part du ministre pour
+              notre Président, et du grand intérêt qu'il porte à notre Union.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">Rapport financier du
+              Trésorier</head>
+            <p>Dans mon rapport financier de l'année dernière, je ne vous ai pas dissimulé mes
+              inquiétudes concernant l'avenir financier de l'Union des Aveugles de Guerre :
+              malheureusement les événements m'ont donné raison et il ne pouvait en être autrement,
+              puisque le pays vient de traverser une crise financière dont l'acuité semble avoir
+              atteint en juillet dernier son point culminant.</p>
+            <p>Il ne faut pas m'en vouloir si aujourd'hui, à l'occasion de cet exposé, mes paroles
+              tintent à vos oreilles comme les coups répétés d'une sonnette d'alarme.</p>
+            <p>Assurément, notre situation financière est loin d'être désespérée, mais nous voici
+              arrivés à une période critique où nos recettes ordinaires ne vont plus suffire à
+              amortir nos dépenses courantes.</p>
+            <p>Il me faut donc vous demander cette année d'adopter des mesures, et surtout une
+              politique financière, qui me permettent de maintenir dans son intégrité le patrimoine
+              mobilier de l'Union des Aveugles de Guerre, et de le protéger contre un effritement
+              rapide qui serait un aveu public de mon imprévoyance et de ma faiblesse.</p>
+            <p>N'oubliez pas que vous avez, à maintes reprises, affirmé votre force dans le pays :
+              vous vous devez donc d'exister, mais cette existence ne peut être réelle et effective
+              qu'autant que vous en posséderez le nerf : l'argent.</p>
+            <p>D'accord avec votre Conseil d'administration, je suis arrivé cette année encore à
+              maintenir l'équilibre du budget, mais au prix de quels efforts ! Je le répète, je
+              crains d'être arrivé à la zone dangereuse qu'il me faudra franchir si vous ne vous
+              décidez pas à adopter tout à la fois une politique de restrictions et de
+              propagande.</p>
+            <p>Conformément à l'article 9 des statuts, je vais vous rendre compte de la situation
+              financière de l'Union au 31 août 1926, telle qu'elle résulte des écritures et des
+              opérations effectuées au cours de l'exercice. L'actif au 31 août 1926 s'élevait à
+              .........francs 1.689.23450</p>
+            <list>
+              <head>Recettes au cours de l'exercice:</head>
+              <item>Cotisations des membres adhérents 8.710 "</item>
+              <item>Rachat de cotisations 950 "</item>
+              <item>Subventions 8.000 "</item>
+              <item>Subvention de l'Office National des Mutilés et Ré- <pb n="16"/>
+                <note type="foliation">— 14 —</note> formés pour prêts pour achat ou construction
+                d'une maison familiale 60.000 »</item>
+              <item>Bienfaiteurs, donateurs, associés 121.65801</item>
+              <item>Dons spécialement affectés pour les maisons de repos à Franceville 970 »</item>
+              <item>Intérêts de l'argent placé. 39.80271</item>
+              <item>Location des chambres de la maison de l'Aveugle. 12975</item>
+              <item>Groupements régionaux 29935</item>
+              <item>Résultats du magasin. 64040</item>
+              <item>Printe de remboursement sur obligation Crédit National 1919 123 "</item>
+              <item>Total 1.930 .51772</item>
+              <item>Dépenses 189.78260</item>
+              <item>1.740 .73512</item>
+            </list>
+            <p>Les dépenses au cours du même exercice se répartissent de la façon suivante : <list>
+                <item>Abonnement au téléphone et provision 97370</item>
+                <item>Chauffage, éclairage et eau 4.46535</item>
+                <item>Personnel 32.503 "</item>
+                <item>Bulletin 24.97820</item>
+                <item>Timbres d'acquit et papier timbré. 30350</item>
+                <item>Frais de correspondance. 3.60635</item>
+                <item>Impôts et assurances (immeuble personnel) 5.29145</item>
+                <item>Entretien maison de l'Aveugle 3.36695</item>
+                <item>Propagande 1.62570</item>
+                <item>Frais de déplacements des administrateurs et des membres de l'Union
+                  5.80780</item>
+                <item>Courses 37530</item>
+                <item>Fournitures des bureaux 2.92090</item>
+                <item>Assemblée générale 2.73975</item>
+                <item>Bibliothèque et journaux 67540</item>
+                <item>Participation au Comité d'Entente. 53265</item>
+                <item>Contribution au relèvement du franc. 2.000 "</item>
+                <item>Frais sur prêts pour achat ou construction d'une maison familiale 83650</item>
+                <item>Adhésion à la F. I. D. A. C. 500 "</item>
+                <item>Allocations naissances 36.200 "</item>
+                <pb n="17"/>
+                <note type="foliation">— 15 —</note>
+                <item>Allocations veuves et enfants 34.965</item>
+                <item>Secours 21.149 80</item>
+                <item>Secours sur le fond Kahn 600</item>
+                <item>Frais de location des logements de Franceville (aménagement, entretien et
+                  surveillance) 1.959 45</item>
+                <item>Souscription et divers 1.405 85</item>
+                <item>189.782 60</item>
+              </list></p>
+            <p>Il résulte donc de ces écritures que le solde de 1925, soit 1 million 740.735 fr. 12,
+              est en excédent de 51.500 fr. 62 sur celui de 1924, qui était de 1.689.234 fr. 50. Je
+              vous fais remarquer que cet excédent diminue chaque année dans des proportions
+              inquiétantes, puisqu'il n'atteint pas cette année la moitié de celui de l'an passé,
+              qui était de 113.019 fr. 24.</p>
+            <p>Avant de vous donner des explications sur ces recettes et dépenses, je tiens à les
+              rapprocher, comme je viens de le faire pour le solde, de certains postes de l'exercice
+              précédent.</p>
+            <p>Tout d'abord, en ce qui concerne les recettes, il semblerait qu'on puisse se réjouir
+              d'une augmentation d'environ 10.000 francs, sur le chiffre de subvention de l'an passé
+              ( 68.000 - 57.875). Or, les subventions sont constituées cette année par un don
+              unique, celui de l'Office National, encore que fait avec affectation spéciale : 8.000
+              francs pour la marche générale de l'Union et 60.000 francs pour alimenter le fonds de
+              " prêts pour construction ou achat de maisons individuelles ». Par conséquent, 60.000
+              franes sont devenus du même coup indisponibles. Je ne dispose donc librement que de
+              8.000 francs, contre 57.875 l'année dernière, soit une moins-value de 49.875
+              francs.</p>
+            <p>En ce qui concerne les dons, j'ai reçu 47.151 fr. 44 de moins que l'année dernière (
+              168.809 fr. 45 - 121.658 fr. 01). Donc, en ajoutant cette perte avec celle de 49.875
+              francs que je viens de vous signaler, je me trouve avoir une diminution de recettes
+              qui se chiffre dans cet exercice par 97.891 fr. 44, soit en chiffres ronds près de
+              100.000 francs.</p>
+            <p>Le loyer de l'argent, qui a augmenté par suite de la dévalorisation du franc, aurait
+              dû me permettre logiquement de faire apparaître à la rubrique "intérêts et agios " une
+              somme supérieure à 39.802 fr. 71. Or, vous remarquerez que dans le présent exercice,
+              la somme est légèrement inférieure à celle de l'année passée ( 40.533,41 ), parce
+              qu'au mois de juin dernier, je me suis vu dans l'obligation de ne pas renou- <pb
+                n="18" break="no"/>
+              <note type="foliation">— 16 —</note> veler 50.000 francs de Bons de la Défense
+              Nationale, dont le montant m'était indispensable pour assurer la marche normale de
+              l'Union.</p>
+            <p>En ce qui concerne les dépenses, vous n'avez pas été sans constater qu'en principe
+              elles n'ont pas été augmentées en proportion de la hausse de l'indice du coût de la
+              vie. Le Bulletin lui-même a continué à être imprimé dans les mêmes conditions que les
+              années précédentes, et le prix de revient de son impression n'a pas augmenté. Par
+              contre, au titre de la Caisse Fraternelle, les allocations de naissances qui étaient
+              de 27.640 francs, ont été de 36.200 francs (il n'y a pas lieu de s'en plaindre). Par
+              contre, les allocations aux veuves et enfants, qui étaient de 15.150 francs, sont
+              passées à 34.965 francs, et les secours qui étaient de 25.064 francs n'ont été que de
+              21.149 fr. 80 cette année. Dans l'ensemble, 92.314 fr. 80 de dépenses cette année
+              contre 67.854 francs l'année dernière, soit une augmentation de nos charges de 24.460
+              fr. 80 . Cette augmentation constitue donc à elle seule la différence de 23.208 fr. 53
+              qui existe entre le montant des dépenses de 1924 (166.754,07) et celui des dépenses de
+              1925 (189.782 fr. 60).</p>
+            <p>J'aurais aimé voir augmenter très sensiblement les frais de propagande. Car si,
+              suivant la même méthode de comparaison, l'on veut bien jeter un regard sur les
+              recettes du passé, l'on constate qu'en 1923 les dons étaient d'environ 560.000 francs,
+              en 1924 ils n'étaient plus que de 386.000 francs, en 1925 de 225.000 francs et cette
+              année de 120.000 francs.</p>
+            <p>N'oubliez pas que vous avez voté à plusieurs reprises des dépenses qu'il vous est
+              difficile de rapporter aujourd'hui. Dans le même ordre d'idées, il est presque
+              matériellement impossible de songer à diminuer ou à supprimer un quelconque des postes
+              de dépenses; bien au contraire, je vous demandais à l'instant même d'augmenter les
+              frais de propagande.</p>
+            <p>Par conséquent, si nous ne voulons pas sur l'heure adopter une ligne de conduite qui
+              soit de nature à faire rentrer de l'argent dans nos caisses, nous serons, tôt ou tard,
+              appelés à puiser dans notre portefeuille mobilier, dont la dépréciation est chaque
+              année plus grande. En effet, alors qu'en 1923 nous n'avions mis à la réserve pour
+              fluctuation de valeurs qu'une somme de 36.682 fr. 75 , en 1924 il nous a fallu
+              réserver 81.835 fr. 95 pour atteindre en 1925156.346 fr. 70 et 175.817 fr. 65 cette
+              année. Vous voyez donc quel serait le désastre si nous étions obligés de réaliser
+              actuellement des valeurs. Il faut alors, à mon avis, trouver d'autres sources de
+              recettes, et c'est précisément sur ce point que j'attire votre attention. J'espère que
+              vous me com- <pb n="19" break="no"/>
+              <note type="foliation">— 17 —</note> prendrez et que vous ferez vôtres les suggestions
+              que contient cet exposé. Avant de vous donner lecture des indisponibilités qui,
+              malheureusement, s'élèvent à 1.726 .349 fr. 61 contre 1.622 .654 fr. 76 , soit 103.694
+              fr. 85 de plus que l'an dernier, je tiens à vous signaler qu'elles ne sont pas ce
+              qu'elles pourraient être ; en effet, dans mon précédent rapport financier, j'avais
+              prévu une plus-value de l'immeuble de la rue Ballu; or, je ne puis songer à grever
+              davantage mes indisponibilités sans risquer de compromettre l'équilibre de vos
+              écritures comptables. Je vous demande donc de reporter à l'an prochain une mesure qui
+              cependant s'impose.</p>
+            <p>Voici, d'ailleurs, la liste des fonds indisponibles : <list>
+                <item>Fonds Brieux pour service du Bulletin aux Aveugles et aux Blessés aux yeux.
+                  343.500 "</item>
+                <item>Fonds Kahn au profit des élèves de son école de massage 11.78456</item>
+                <item>Fonds de réserves pour fluctuation de valeurs. 175.81765</item>
+                <item>Rachat de cotisations. 17.010 "</item>
+                <item>Amortissement immeubles et mobilier Maison de l'Aveugle et maisons de repos.
+                  154.801 "</item>
+                <item>Immeuble Maison de l'Aveugle. 325.000 "</item>
+                <item>Immeubles maisons de repos. 339.000 "</item>
+                <item>Matériel et mobilier Union. 60.50190</item>
+                <item>Matériel et mobilier Franceville. 99.88460</item>
+                <item>Fonds maisons de repos. 26.68740</item>
+                <item>Fonds pour prêts maisons. 40.207 "</item>
+                <item>Prêts maisons 119.793 "</item>
+                <item>Prêts d'honneur 12.36250</item>
+                <item>1.726 .34961</item>
+              </list></p>
+            <p>De sorte que l'Union des Aveugles de Guerre ne dispose librement que d'une somme de
+              14.385 fr. 51 en diminution de 52.193 fr. 63 sur l'exercice précédent.</p>
+            <p>Ces indisponibilités sont d'ailleurs susceptibles de s'éteindre pour partie si, la
+              situation financière de notre pays aidant, vous pouvez débloquer les fonds de la
+              réserve pour fluctuation de valeurs. Mais ce ne sont là que des jeux d'écritures et
+              nous ne pouvons pas penser améliorer nos finances en n'ayant recours qu'à des
+              expédients.</p>
+            <p>Il est vrai cependant que si, comme nous sommes en droit de l'espérer, les camarades
+              font honneur à leur signature, ceux qui ont <pb n="20"/>
+              <note type="foliation">— 18 —</note> bénéficié du "Prêt d'honneur » rendront aux
+              époques prévues l'argent que nous leur avons avancé, et nous trouverons là une dizaine
+              de mille francs ; ce n'est assurément pas une somme suffisante pour me permettre de
+              parer aux éventualités de l'heure présente.</p>
+            <p>Si, d'autre part, les camarades auxquels nous avons prêté de l'argent pour édifier ou
+              acheter des maisons individuelles remboursent leurs avances, nous récupérerons ainsi
+              une trentaine de mille francs, mais il m'est impossible d'en disposer, car c'est là un
+              fonds de roulement que je laisserai toujours intact, désireux de donner l'argent
+              remboursé par les premiers emprunteurs à d'autres camarades heureux de suivre
+              l'exemple de leurs devanciers. Je profite de l'occasion pour rendre hommage à la
+              fidèle exactitude des camarades, qui ont tenu à faire honneur à leur signature, malgré
+              les duretés de la vie journalière.</p>
+            <p>Pour votre édification personnelle, voici quelques renseignements concernant le
+              mouvement des fonds " prêt d'honneur " et prêt pour maisons " :</p>
+            <p>Prêt d'honneur. - 48 camarades ont reçu des avances pour une somme de 20.650 francs
+              qui, ajoutée aux 8.675 francs de l'année précédente donne un total de 29.325 francs
+              sur lesquels 16.962 fr. 50 ont été remboursés.</p>
+            <p>Prêt maisons. - Je vous rappelle tout d'abord que le fonds de roulement de 160.000
+              francs est constitué par les 100.000 francs mis par nous, l'année dernière, en
+              réserve, et par les 60.000 francs donnés à cet effet par l'Office National des Mutilés
+              et Réformés. Dans le courant de cet exercice, dix-neuf camarades, pour une somme de
+              82.500 francs, ont pu construire ou acquérir des maisons individuelles. A cette somme
+              de 82.500 francs, il y a lieu d'ajouter 60.000 francs prêtés l'année dernière, ce qui
+              représente un total d'avances de 142.500 francs sur lesquels 22.707 francs ont été
+              remboursés à échéance. En conséquence, si 142.500 francs ont été dépensés sur le fonds
+              de réserve de 160.000 francs, il ne reste plus que 17.500 francs de disponibles,
+              auxquels il y a lieu d'ajouter les 22.707 francs de remboursement, ce qui laisse un
+              disponible de 40.207 francs (17.500=22.707). Ce fonds de roulement peut, d'ailleurs,
+              au cours des prochains exercices, être augmenté du remboursement à échéance des
+              premiers prêts.</p>
+            <p>Comme vous pouvez vous en rendre compte par cet exposé, la diminution excessive des
+              recettes, l'augmentation corrélative des dépenses, l'accroissement indispensable des
+              fonds indisponibles cons- <pb n="21" break="no"/>
+              <note type="foliation">— 19 —</note> tituent autant d'éléments qui m'obligent à vous
+              dévoiler la gravité de l'heure présente. Je n'ai pas hésité à vous suggérer les
+              directives que je voudrais voir adopter à l'Union pour procéder, comme l'Etat luimême,
+              à l'élaboration d'un plan de redressement financier : réduction des dépenses ;
+              augmentation des recettes.</p>
+            <p>Laissez à votre Conseil d'administration toute la liberté d'action désirable pour lui
+              permettre d'heureuses initiatives qui devront avoir pour seul objectif de faire
+              affluer l'argent liquide dans vos caisses, méprisant la satisfaction d'intérêts
+              personnels, et n'ayant pour devise que la lutte pour la vie, pour l'existence de votre
+              Union.</p>
+            <p>Soyez sans inquiétude à ce sujet, nous chercherons à ne frapper qu'aux bonnes portes.
+              Votre noble attitude écartera de vous le spectre de la mendicité. Vous rappellerez
+              simplement au monde entier que la France traîne derrière elle le lourd fardeau des
+              dévastations humaines nées de la Grande Guerre, et si, malgré cela il est encore des
+              nations qui veulent asservir notre Patrie par leur soif de l'or, vous essayerez de
+              raviver dans leur cœur la flamme du souvenir, espérant que cette renaissance sera pour
+              l'Union l'aurore d'une ère où vous retrouverez la paix du cœur et la prospérité de vos
+              finances.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">BILAN AU 31 AOUT 1926</head>
+              <list>
+                <head>ACTIF</head>
+                <item>Caisse 52765</item>
+                <item>Banque Nationale de Crédit. 63.70543</item>
+                <item>Banque du Rhin. 58155</item>
+                <item>Compte Chèques Postaux. 2969</item>
+                <item>Titres et valeurs. 715.12165</item>
+                <item>Immeuble Maison de l'Aveugle. 325.000 "</item>
+                <item>Immeuble Maison de Repos. 339.000 "</item>
+                <item>Matériel et mobilier Union. 60.50190</item>
+                <item>Matériel et mobilier Franceville. 99.88460</item>
+                <item>Marchandises 4.06315</item>
+                <item>Clients 164 "</item>
+                <item>Prêts d'honneur 12.36250</item>
+                <item>Prêts maisons 119.793 "</item>
+              </list>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+              <list>
+                <head>PASSIF</head>
+                <item>Capital 970.927 51</item>
+                <item>Fonds Brieux pour service Bulletin Aveugles et Blessés aux yeux 343.500
+                  "</item>
+                <item>Fonds Kahn au profit des élèves de son Ecole de Massage 11.784 56</item>
+                <item>Fonds et réserves pour fluctuations de valeurs 175.817 65</item>
+                <item>Rachat de cotisation 1 .010 "</item>
+                <item>Amt. Immeuble Maison Aveugle 46.353 "</item>
+                <item>Amt. Immeuble Maisons Repos 47.267 "</item>
+                <item>Amt. Matériel Mobilier Union 25.489 20</item>
+                <item>Amt. Matériel Mobilier Franceville 35.691 80</item>
+                <item>F orids Maisons Repos 26.687 40</item>
+                <item>Fonds pour prêts maisons 40.207 "</item>
+                <item>1.740.735 12</item>
+              </list>
+              <pb n="23"/>
+              <note type="foliation">— 21 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h25">INFORMATIONS</head>
+            <p>Le Comité de la "Familiale des Soldats Aveugles », 9, rue du Caire, fait savoir à
+              tous les mutilés des yeux, que ses réunions, concerts, sauteries mensuels auront lieu,
+              pour la saison 1926-1927, aux dates suivantes :</p>
+            <p>24 octobre - 21 novembre - 26 décembre - 16 janvier 1927 - 20 février - 6 mars - 10
+              avril - 15 mai - 19 juin 10 juillet.</p>
+            <p>Salle de réunion : 51, rue de Clichy.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">A VENDRE</head>
+              <p>Machine à tricoter, marque Jacquart, 0 m .70 , jauge 7,36 , en très bon état, avec
+                accessoires.</p>
+              <p>S'adresser à M. Paul Martin, 10, rue de l'Union, à La Courneuve (Seine).</p>
+              <p>A noter que le camarade Villefayot, demeurant 4, place Charost, à Versailles, en
+                possession d'une machine de cette marque, en est très satisfait.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">PROPOSITION
+                INTERESSANTE</head>
+              <p>MM. Jauffret-Bonnet et Cie, à Salon, près Marseille (Bouches-du-Rhône), offrent un
+                dépôt de leur café torréfié (marque réputée) à nos camarades.</p>
+              <p>Beaux bénéfices à réaliser sans dérangement.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 15 juin et le 15 août, une somme de
+                5.850 francs, se répartissant comme suit : <list>
+                  <item>Naissances 2.800</item>
+                  <item>Décès 1.300</item>
+                  <item>Secours 1.750</item>
+                </list> Il y a lieu d'ajouter, à ces 5.850 fr., une somme de 2.100 fr. pour prêts
+                d'honneur et une somme de 10.000 francs pour prêts de maisons familiales.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examiner onze demandes de secours, dont
+                deux n'ont donné lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h31">NAISSANCES</head>
+                <p>Notre camarade et Mme Leproust, de Grand-Lucé (Sarthe), nous font part de la
+                  naissance de leur fils, Gérard, né le 1<hi rend="superscript">er</hi> août
+                  1926.</p>
+                <p>Notre camarade et Mme Gautier (Joseph), de Verton (Loire-Inférieure), nous font
+                  part de la naissance de leur fils, Claude, né le 9 août 1926.</p>
+                <p>Notre camarade et Mme Goussin, de Villaine (Indre-et-Loire), nous font part de la
+                  naissance de leur fille, Lucette, née le 11 août.</p>
+                <p>Notre camarade et Mme Laloit (Léopold), de Saint-Vincent-desPrés (Sarthe), nous
+                  font part de la naissance de leur sixième enfant, Jeanne, née le 10 août 1926.</p>
+                <p>Notre camarade et Mme Leroux, de Goaven-en-Gourin (Morbihan), nous font part de
+                  la naissance de leur quatrième enfant, Yves, né le 8 août 1926.</p>
+                <p>Notre camarade et Mme Poirier (Victor), de Gennevilliers (Seine). nous font part
+                  de la naissance de leur quatrième enfant, Serge, né le 3 juin 1926.</p>
+                <p>Notre camarade et Mme Leveau (Désiré), d'Angers (Maine-et-</p>
+                <pb n="25"/>
+                <note type="foliation">— 23 —</note>
+                <p>Loire), nous font part de la naissance de leur troisième enfant, Marcel, né le 31
+                  août 1926.</p>
+                <p>Notre camarade et Mme Berdoux (Albert), de Vinneuf (Yonne), nous font part de la
+                  naissance de leur troisième enfant, Simone, née le 3 septembre 1926.</p>
+                <p>Notre camarade et Mme Medard (Maurice), de Paris, nous font part de la naissance
+                  de leur fils, Claude, né le 21 juillet 1926.</p>
+                <p>Notre camarade et Mme Henri Heuze, de Paris, nous font part de la naissance de
+                  leur fils, Philippe-Henri-Robert, né le 13 août 1926.</p>
+                <p>Notre camarade Lehouck (Auguste), de Hondrechoote (Nord), nous fait part de la
+                  naissance de son cinquième enfant, Roger, né le 11 août 1926.</p>
+                <p>Notre camarade Adam (Ernest), de Toul (Meurthe-et-Moselle), nous fait part de la
+                  naissance de son huitième enfant, Suzanne.</p>
+                <p>Notre camarade et Mme Maurandy (Charles), de Pezenas (Hérault), nous font part de
+                  la naissance de leur fille, Francette, née le 5 septembre 1926.</p>
+                <p>Notre camarade et Mme Sabiani (Xavier), de Casamaccioli (Corse), nous font part
+                  de la naissance de leur fille, Marie-Jéronine, née le 27 août 1926.</p>
+                <p>Notre cámarade et Mme Thuilliez, d'Aveluy (Somme), nous font part de la naissance
+                  de leur fille, Madeleine, née le 6 septembre 1926.</p>
+                <p>Notre camarade et Mme Richaud (Désiré), de La Motte-du-Caire (Basses-Alpes), nous
+                  font part de la naissance de leur troisième enfant, Yvon, né le 22 juillet
+                  1926.</p>
+                <p>Notre camarade et Mme Doudard (Joseph), de Montertelot (Morbihan), nous font part
+                  de la naissance de leur cinquième enfant, Denise, née le 29 août 1926.</p>
+                <p>Nous adressons nos sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h32">DÉCÈS</head>
+                <p>Nous apprenons le décès de : De notre camarade Riat (Pierre), de
+                  Saint-Léger-des-Vignes (Nièvre), décédé le 27 août 1926.</p>
+                <p>De la femme de notre camarade Le Serrec (Yves), de Saint-Brieuc (Côtes-du-Nord),
+                  décédée le 14 septembre 1926, à l'âge de trentedeux ans.</p>
+                <pb n="26"/>
+                <note type="foliation">— 24 —</note>
+                <p>De la femme de notre camarade Boeri (Jean), de Féliceto (Corse), décédée le 22
+                  août 1926, à l'âge de trente-six ans.</p>
+                <p>Du fils de notre camarade Rineau (Xavier), de Gétigné (LoireInférieure), décédé
+                  le 16 août, à neuf mois.</p>
+                <p>De la mère de notre camarade Bruckmann, de Paris, décédée le 5 août 1926.</p>
+                <p>Du père de notre camarade Baudrand, de Liergues (Rhône), décédé le 14 août 1926,
+                  dans sa soixante-troisième année.</p>
+                <p>Du père de notre camarade Raffat (Benoît), de La Ricamarie (Loire), décédé le 11
+                  août 1926, à quatre-vingts ans.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+                <pb n="27"/>
+                <note type="foliation">— 25 —</note>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">TABLEAU D'HONNEUR</head>
+            <p>Izaac, président honoraire. Bourguignon, secrétaire général honoraire. Favret,
+              secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">CONSEIL D'ADMINISTRATION</head>
+            <p>Président: Scapini; vice-présidents: Courtreix, Grillet, Noirraux. Secrétaire
+              général: Conan. Trésorier: Gaston L'Evesque. Membres: Amar, Antoine, Arnault, Bardoux,
+              Bertrand, Bloncourt, Bois, Cabasson, Derunder, Dufourc, Fauvel, Favret, Goubin, Izaac,
+              Lappargue, Lagarde, Lallement, Lauté, Leloup, Malgay, Nicolai, Robert (Maurice),
+              Toudourr, Virot.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">COMITE D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. Auterbe, Actuaire à la Compagnie "L'Union »; M. Marcel Bloch.</p>
+            <p>Mme Broquin. M. Cheffer. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation.</p>
+            <p>Mlle Jàlaguièr. Baronne de Grothuss-Gernandt. Mme Henri. Mme Kalt. Mme L'Evesque. Mme
+              Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Mus. M. Pascal.</p>
+            <p>Dr Scineider.</p>
+            <pb n="28"/>
+            <note type="foliation">— 26 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h36">Liste des Donateurs</head>
+            <p>Les Elèves de l'école de filles du boulevard Rey, à Grenoble (Isère), 22 fr. -
+              Société Sidi-Brahim du canton de Longwy, produit de leur fête annuelle, 1.236 fr. - Un
+              lecteur du Matin pour nos maisons de repos à Franceville, 134 fr. 75. - Commune de
+              Saint-Rémy (Vosges), 25 fr. - Anonyme, transmis par Le Journal, 352 fr. Mlle Cécile
+              Debouy, à New York, 1.000 fr. - M. Napoléon Rancy, 2.325 fr. - M. le maire de la
+              commune de Saint-André (Ile de la Réunion), 200 francs.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

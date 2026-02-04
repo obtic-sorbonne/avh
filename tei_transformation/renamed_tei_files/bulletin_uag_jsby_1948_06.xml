@@ -1,0 +1,785 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 28ème année 1948 n°16</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Sécurité Sociale</title>
+        <title type="topic">Allocations familiales</title>
+        <title type="topic">Invalidité</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Réunions</title>
+        <title type="topic">Emploi</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 16 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#securite-sociale">Sécurité Sociale</term>
+          <term ref="#allocation">Allocation</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#reeducation">Rééducation</term>
+          <term ref="#emploi">Emploi</term>
+          <term ref="#association">Association</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin traite de divers sujets d'intérêt pour les aveugles de guerre, notamment les
+          développements concernant la Sécurité Sociale et son application potentielle au personnel
+          militaire, les discussions sur le réajustement des pensions et allocations, et les
+          problèmes rencontrés avec les allocations familiales. Il rend compte des activités du
+          Comité d'Entente des grands invalides de guerre, y compris les préoccupations concernant
+          la représentation lors des cérémonies commémoratives et les demandes d'avantages
+          tarifaires. Le bulletin inclut également des informations sur le Comité de Coordination
+          Professionnel des Aveugles de Guerre, les réunions des sections locales, et des avis
+          divers.</p>
+      </abstract>
+      <creation>
+        <date when="1948-06-01">01/06/1948</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-20" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h4">La Sécurité Sociale et nous</ref>
+          </item>
+          <item>
+            <ref target="#h5">Des Pensions</ref>
+          </item>
+          <item>
+            <ref target="#h6">VACANCES 1948</ref>
+          </item>
+          <item>
+            <ref target="#h7">ALLOCATIONS FAMILIALES</ref>
+          </item>
+          <item>
+            <ref target="#h8">CHARBON</ref>
+          </item>
+          <item>
+            <ref target="#h9">AVIS IMPORTANT</ref>
+          </item>
+          <item>
+            <ref target="#h10">COMITE D'ENTENTE DES GRANDS INVALIDES DE GUERRE Réunion du 12 Mai
+              1948</ref>
+          </item>
+          <item>
+            <ref target="#h11">PAIEMENT de nos PENSIONS à l'Etranger</ref>
+          </item>
+          <item>
+            <ref target="#h12">PETITS AVIS</ref>
+          </item>
+          <item>
+            <ref target="#h13">COMITE DE COORDINATION PROFESSIONNEL DES AVEUGLES DE GUERRE</ref>
+            <list>
+              <item>
+                <ref target="#h14">Réunion du 19 Avril 1948</ref>
+              </item>
+              <item>
+                <ref target="#h15">Réunion du 30 Avril 1948</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h16">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h17">SECTION D'AUVERGNE Réunion du 11 Avril 1948</ref>
+              </item>
+              <item>
+                <ref target="#h18">SECTION DE SAONE-ET-LOIRE Réunion du 11 Avril 1948</ref>
+              </item>
+              <item>
+                <ref target="#h19">SECTION DE LA SARTHE Réunion du 8 Mai 1948</ref>
+              </item>
+              <item>
+                <ref target="#h20">SECTION DEPARTEMENTALE DE L'ISERE Réunion du 15 Mai 1948</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h21">DISTINCTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h22">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h23">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h24">DECES</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">28e Année. — N° 16</fw>
+          <fw type="header">
+            <hi rend="underline">JUIN 1948</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>La Sécurité Sociale et nous. Les pensions.</item>
+                    <item>Allocations familiales.</item>
+                    <item>Comité d'Entente des plus grands invalides.</item>
+                    <item>Payement de nos pensions à l'étranger.</item>
+                    <item>Comité de Coordination professionnel des Aveugles de Guerre.</item>
+                    <item>Avis divers.</item>
+                    <item>Dans nos Sections.</item>
+                    <item>Distinction.</item>
+                    <item>Naissances - Mariages - Décès.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Conseil d'Administration</head>
+            <p>Président : H. IZAAC.</p>
+            <p>Vice-Présidents : COUESNON, FAVRET, GUESPEREAU.</p>
+            <p>Secrétaire Général : AMBLARD.</p>
+            <p>Trésorier : Gaston LEVESQUE.</p>
+            <p>Membres : BERTRAND, BLONCOURT, BODIN, BOIS, BRUSSON, CABASSON, CERE-LABOURDETTE,
+              CHALENDAR, CHAPAS, CORNU, DERUNDER, DUC, FAUVEL, GRILLET, GUILLAM, LAFFARGUE, LEVEAU,
+              MULLER, NICOLAI, NOIREAUX, ROBIN, ROY Georges, SIBIRIL, SATGE.</p>
+            <pb n="3"/>
+          </div>
+          <fw>28° ANNEE. - N° 16 JUIN 1948</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">La Sécurité Sociale et nous</head>
+            <p>"Le Conseil des Ministres du 26 mai s'est trouvé d'accord sur le principe de
+              l'application du régime de la Sécurité Sociale au personnel militaire. Les modalités
+              d'application seront fixées ultérieurement. On précise à ce propos que le personnel
+              militaire qui sera appelé à bénéficier de la Sécurité Sociale est celui servant sous
+              contrat, au-delà de la durée légale. Les jeunes soldats des contingents en seront donc
+              exclus."</p>
+            <p>Cette communication du Ministre des Armées laisse prévoir dans un avenir plus ou
+              moins éloigné, que les militaires de carrière pourront être inscrits à la Sécurité
+              Sociale et que, par voie de conséquence, il en sera de même pour les retraités. C'est
+              là une mesure qui fera plaisir aux aveugles de guerre ayant appartenu aux cadres de
+              l'Armée.</p>
+            <p>Dès à présent, ceux d'entre nous qui sont salariés peuvent bénéficier de
+              remboursement des soins médicaux et pharmaceutiques pour eux-mêmes et pour leur
+              famille. Cependant, beaucoup de camarades ne sont pas salariés et ne le seront sans
+              doute jamais. En effet, la gravité de certaines blessures, s'ajoutant à la cécité
+              complète, empêche d'avoir autre chose qu'une indispensable mais assez faible activité.
+              Par conséquent, ils ne peuvent prétendre à une rémunération véritable et, en dehors
+              des soins gratuits qu'ils peuvent avoir par le jeu de l'article 64 de la loi du 31
+              mars 1919 pour eux-mêmes, ils se voient obligés de régler d'importantes notes aux
+              chirurgien, médecin ou pharmacien.</p>
+            <p>La France se relève lentement, certes, mais elle se relève incontestablement.
+              Espérons que le Gouvernement et le Parlement ne mettront pas trop de temps à prendre
+              des mesures pratiques pour que ceux qui ont perdu la vue au service du pays ne soient
+              pas accablés par des charges que, chaque jour, on cherche, avec raison, à rendre plus
+              légères aux autres citoyens. H. IZAAC.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Des Pensions</head>
+            <p>Nous devons à nouveau entretenir nos camarades des récents événements qui ont trait à
+              notre situation au point de vue pensions.</p>
+            <p>On se rappelle que nous en étions restés à une démarche faite auprès de M. le
+              Sous-Secrétaire d'Etat au Budget au cours de laquelle bonne note seulement avait été
+              prise de nos désirs. Or, ceux-ci se basaient sur la prise en considération par
+              l'Assemblée Générale de la motion Aubry qui reconnaissait comme juste un réajustement
+              d'environ 20% sur l'ensemble des pensions et allocations. Nous savons bien que le
+              ministre des Anciens Combattants s'était montré favorable à cette thèse, mais rien
+              n'était venu nous rassurer au point de vue des sentiments du Gouvernement en
+              général.</p>
+            <p>Au Congrès que l'Union Fédérale a tenu à Grenoble à la Pantecôte et auquel no.s
+              assistions M. Mitterrand s'est nettement prononcé pour la réévaluation de 20%, en
+              précisant bien qu'il s'agissait d'abord du rattachement de nos pensions au sort des
+              traitements de fonctionnaires, afin de réaliser le fameux rapport constant entre ces
+              deux catégories de parties prenantes, comme l'avait si bien défini M. Pleven.</p>
+            <p>Nous comptons donc sur notre Ministre pour défendre au sein du Gouvernement les
+              revendications que nous venons de formuler, et nous pensons que la déclaration que M.
+              Schuman, Président du Conseil, a faite au Bureau de l'U.F.A.C. sera suivie d'une
+              exécution, telle que nous la désirons. Il fut nettement promis que des crédits
+              supplémentaires seraient inscrits dans le Budget pour l'amélioration demandée, et nous
+              voulons croire que ces crédits correspondront au coefficient qu'il a été reconnu
+              nécessaire de nous appliquer. Ce serait là l'ultime bataille que les grands mutilés
+              auraient eu à entreprendre, puisqu'en théorie notre sort serait lié à celui des
+              fonctionnaires. Nous voulons à ce sujet rappeler combien furent souvent rudes les
+              étapes à franchir quand on se reporte au point de départ du mouvement que tous les
+              mutilés eurent à entreprendre, et l'U.A.G. naissante y était déjà fortement associée
+              pour obtenir l'établissement de notre charte de 1919.</p>
+            <p>A Grenoble, dans son très intéressant exposé, Léon Viala, Président Honoraire de
+              l'U.F., fit l'historique des trente années d'existence de cette grande association.
+              Nous avons retenu particulièrement le passage où il évoquait les difficultés que les
+              mutilés eurent à faire connaître leurs droits à réparation. Léon Viala exposa ce qui
+              suit: "Le premier Congrès national des Mutilés de la guerre se tint à Paris, au
+              Grand-Palais, le 11 novembre 1917. C'est dans cette première réunion que fut fixée la
+              nouvelle doctrine des invalides, des veuves, des ascendants et des A.C. pour obtenir
+              du Parlement l'indemnisation légale des infirmités de guerre. "L'appel sous les
+              drapeaux, déclarait le Dr Charles Valentino devant ses camarades, doit être assimilé à
+              la réquisition des biens; de même que celui qui est frappé par la réquisition a un
+              droit de dédommagement absolu, le citoyen mobilisé et devenu infirme doit être un
+              véritable créanc ier de la Nation. "</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <p>" A son tour, M. Marcel Lehmann démontrait : " que la dette de l'Etat pouvait
+              d'autant moins être contestée que, par les services militaires fournis, les citoyens
+              ont conservé la chose nationale. De même qu'en vertu de l'article 2.102 du Code Civil,
+              le conservateur de la chose doit être payé avant tous autres créanciers, puisque
+              ceux-ci n'auraient plus aucun gage si la chose n'avait pas été conservée, de même les
+              mutilés et les ayanls droit des soldats tués doivent être indemnisés avant quiconque
+              parce qu'ayant sauvé et conservé la Patrie, ils ont sur la Nation une créance
+              privilégiée." "Pour faire triompher ces principes, nos militants de cette époque
+              durent lutter âprement devant la Haute-Assemblée ; le Président de la Commission, M.
+              Doumer, et le rapporteur, Henry Chéron, déclaraient qu'il était inadmissible
+              d'assimiler les dommages personnels à des dommages matériels : "ce qui serait les
+              avilir " disait l'un, tandis que l'autre déclarait : "que les obligations militaires
+              sont considérées comme un des devoirs essentiels du citoyen. C'est un risque national
+              qui est la contre-partie des avantages du droit de liberté et de sécurité qui lui est
+              attribué. Les conséquences de ce risque peuvent se traduire par l'aide nationale, par
+              une récompense, mais ne saurait se rattacher à un principe de solidarité." "Ce ne fut
+              qu'après une lutte qui dura plus de quinze mois que nos camarades obtinrent de la
+              Commission de la Chambre, sur la proposition de son rapporteur, M. Georges Lugol,
+              l'inscription en tête de la loi nouvelle une indication ainsi libellée : "La
+              République, reconnaissante envers ceux qui ont assuré le salut de la Patrie, proclame
+              et détermine, conformément aux dispositions de la présente loi, le droit à réparation
+              du... etc..."</p>
+            <p>Il était bon qu'au moment de son, trentième anniversaire que l'U.F. rappelât ces
+              choses, et nous ne pouvons nous empêcher de penser que cette même année 1948, en
+              décembre prochain, nous fêterons aussi notre trentième anniversaire. Comme les autres,
+              nous avons bien lutte, nous devrons le faire encore, mais nous espérons qu'une
+              situation stable nous permettra de porter nos efforts vers la réalisation d'autres
+              désirs qui nous sont chers et qui compléteront d'une façon harmonieuse l'ensemble de
+              la tâche que les aveugles de guerre doivent accomplir. H. AMBLARD.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">VACANCES 1948</head>
+            <p>Comme l'année précédente, nous rappelons que notre maison fonctionnera au ralenti
+              pendant le mois d'août pour des raisons d'organisation intérieure.</p>
+            <p>Pour j'hotel, seul le service des chambres sera à la disposition des camarades. Le
+              restaurant sera fermé.</p>
+            <p>Nos services administratifs n'assureront qu'une permanence, aussi insis-tons-nous
+              vivement auprès de tous nos camarades afin que, pendant le mós d'août, ils n'écrivent
+              à nos bureaux qu'une correspondance de réelle urgence.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">ALLOCATIONS FAMILIALES</head>
+            <p>L'ordonnance du 25 octobre 1945 qui nous accordait le bénéfice des allocations
+              familiales nous avait causé une grande satisfaction, nos justes aspirations étant
+              enfin réalisées. Malheureusement, l'application s'en est montrée difficile dans bien
+              des régions et, de plus, nous avons dû constater avec amertume qu'une fois encore nous
+              étions oubliés.</p>
+            <p>En effet, le taux des allocations familiales a été sensiblement relevé, fin 1947, et
+              à notre stupéfaction, aucun de nous n'a perçu les arrérages de ces a locations au
+              nouveau taux. Renseignements pris, il s'agit d'ordres qui n'ont pas été donnés, ce qui
+              paraît extraordinaire, car tous les citoyens qui peuvent prétendre au bénéfice des
+              allocations familiales doivent être traités sur le même pied.</p>
+            <p>Nous avons donc adressé une réclamation à la Direction des Finances, et au Cabinet
+              même de M. le Ministre, il nous a été assuré que les instructions nécessaires allaent
+              être données incessamment pour que nous puissions percevoir les allocations au nouveau
+              taux. Il y a là, de toute façon, un retard préjudiciable, et nous comprenons mal ces
+              sortes d'oubli.</p>
+            <p>Nous veillons donc à ce que nos droits soient intégralement respectés et que les
+              sommes qui nous sont dûes nous soient versées le plus tôt possible. H. A.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">CHARBON</head>
+            <p>Par arrêté en date du 12 mai dernier, les Aveugles de Guerre de la région parisienne
+              peuvent obloinir un bon spécial de 700 kg . de charbon.</p>
+            <p>Cette attribution remplace celle qui était accordée antérieurement; s'adresser aux
+              Mairies.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">AVIS IMPORTANT</head>
+            <p>Nous demandons à nos camarades qui opèrent un règlement à notre caisse de bien
+              spécifier la destination de la somme qu'ils nous adressent, en indiquant le détail
+              pour chaque affectation lorsque l'envol réunit plusieurs paiements. Ceci est
+              indispensable pour le bon ordre de nos comptes.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">COMITE D'ENTENTE DES GRANDS
+              INVALIDES DE GUERRE Réunion du 12 Mai 1948</head>
+            <p>Présidence : Jugon. Etaient présents : Amblard, Bouré, Delporte, Churiault, Griffoux,
+              Nouveau, Hégnier, Thibault.</p>
+            <p>Nouveau signale le manque d'organisation de la cérémonie du 8 mai (Anniversaire de la
+              Victoire). Les grands invalides de guerre, contrairement à ce qui est fait d'habitude,
+              ont du défiler en queue du cortège. Nos camarades de 1939-1945 qui ont rejoint les
+              rangs des groupements spécialisés ont été ainsi relégués à une place qui n'est pas la
+              leur.</p>
+            <p>Le Comité d'Entente, sur proposition de Nouveau, décide de convoquer individuellement
+              l'année prochaine les grands invalides de la guerre 1939-1945 auxquels se joindront
+              les conseils d'administration de nos groupements et de les faire défiler d'autorité
+              (quelle que soit l'organisation chargée d'assurer la cérémonie) à la place qui leur
+              est due, c'est-à-dire à la tête des associations des Anciens Combattants et des
+              Victimes de Guerre.</p>
+            <p>Il est signalé que les compagnies distributrices de gaz Butane (Butagaz, Primagaz,
+              etc...) réclament au moment de l'échange des bouteilles une nouvelle consignation de
+              1.500 francs, remplaçant celle exigée avant guerre qui était de 137 francs. Delporte
+              entrera en communication avec les sociétés distributrices pour avoir des précisions
+              sur les conditions dans lesquelles cette nouvelle consignation est opérée.</p>
+            <p>Il est donné lecture d'une lettre signalant les avantages tarifaires accordés en
+              matière de gaz et d'électricité: au personnel des entreprises nationalisées du gaz et
+              de l'électricité de France, ainsi qu'aux familles nombreuses et demandant au Comité de
+              réclamer les mêmes avantages pour les mutilés à 85% et au-dessus. La question sera
+              posée aux Pouvoirs Publics.</p>
+            <p>A 17 heures, Samuel, membre de l'U.F.A.C., qui vient de rencontrer M. Aubry à
+              l'Assemblée nationale, entre en séance. Il fait un exposé sur l'état actuel de nos
+              revendications. Le projet de loi gouvernemental qui reconduit le budget de l'année
+              1947 pour l'année 1948 ne comprend pas de nouveaux crédits en vue du rajustement de
+              20%. Le Ministre des Finances aurait déclaré qu'il ne ferait aucune proposition à ce
+              sujet.</p>
+            <p>En conséquence, notre camarade Aubry, député, a l'intention d'interpeller le
+              Gouvernement pour exiger des explications sur la suite négative donnée à l'amendement
+              voté par les deux Assemblées. Le Comité demandera audience au Président du Conseil et
+              à la Commission des Finances de l'Assemblée Nationale. Une lettre sera adressée
+              également aux députés pour leur demander d'appuyer l'action de leur collègue Aubry.
+              Samuel fait <pb n="8"/>
+              <note type="foliation">— 6 —</note> ensuite un exposé détaillé au sujet de l'étude de
+              la réponse du Ministère des Finances à notre demande d'abrogation des lois ayant
+              saboté la charte des pensions entre 1940 et 1942. Thibault insiste pour que soient
+              alertes les présidents des groupes politiques afin qu'ils appuient la demande de mise
+              en discussion immédiate du projet de loi tendant à l'abrogation des dites lois.</p>
+            <p>Le Comité décide de demander aux Commissions des Pensions et des Finances de recevoir
+              conjointement nos délégués afin d'entendre nos observations en réfutant des arguments
+              présentés par le Ministre des Finances.</p>
+            <p>Chaque membre de ces commissions recevra auparavant un exemplaire du rapport établi
+              par Samuel au nom de la Commission de Défense des droits (U.F.A.C.), de manière à
+              pouvoir noter en marge les observations orales que nous leur soumettrons au cours de
+              l'audience.</p>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">PAIEMENT de nos PENSIONS à
+              l'Etranger</head>
+            <p>Certains de nos camarades paraissant s'intéresser à la question du payement à
+              l'étranger des pensions d'invalidité, nous précisons, en cette matière, la
+              réglementation actuelle.</p>
+            <p>Jusqu'en 1939, le payement à l'étranger d'une pension d'invalidité, de la retraite du
+              combattant et du traitement de la Légion d'Honneur ou de la Médaille Militaire ne
+              soulevait aucune difficulté particulière, mais, depuis lors, le décret du 18 novembre
+              1939, relatif à l'engagement des dépenses à l'étranger (" J. O. " du 26, p. 13.390) a
+              subordonné à l'autorisation préalable du Ministre des Finances tout payement à
+              l'étranger ou en devises étrangères des dépenses soumises aux règles budgétaires.</p>
+            <p>Ainsi que le rappelle une circulaire de la Direction de la Comptabilité Publique du
+              24 janvier 1947, cette autorisation est nécessaire dans tous les cas où le payement de
+              la pension doit avoir lieu dans un territoire autre que la métropole, l'Algérie, les
+              colonies, pays de protectorat et territoires sous mandat français (Togo, Cameroun), la
+              Principauté de Monaco, la République d'Andorre et le Condominium franco-britannique
+              sur les Nou-velles-Hébrides.</p>
+            <p>Toutefois, aux termes de la même circulaire, l'octroi de l'autorisation est
+              subordonnée à la double condition, d'une part, que l'intéressé réside effectivement
+              dans le pays où le payement de la pension est demandé, et, d'autre part, que cette
+              pension appartienne à l'une des catégories suivantes :</p>
+            <p>10 Pensions déjà servies à l'étranger avant le 3 septembre 1939 ; 20 Pensions, quelle
+              que soit la date de concession, dont les titulaires pourront fournir la preuve de leur
+              domicilation à l'étranger depuis une date antérieure au 3 septembre 1939, même s'ils
+              ont eu l'occasion de faire un séjour momentané en France depuis cette date et à
+              condition qu'ils aient fixé leur domicile actuel dans le même pays étranger ;</p>
+            <p>30 Pensions dont l'état de santé des bénéficiaires exige un séjour à l'étranger dans
+              un établissement hospitalier et à la condition que le malade ne puisse être soigné en
+              France ou ne soit pas hospitalisé, soit en Suisse aux frais du "Don Suisse ", soit,
+              d'une manière générale, à l'étranger aux frais de l'état. Ces pensions ne peuvent être
+              payées à l'étranger que pendant une période de six mois avec possibilité de
+              renouvellement et sur le vu de certificats médicaux émanant d'un médecin attaché à
+              l'établissement hospitalier ;</p>
+            <p>4 Pensions allouées aux fonctionnaires en poste à l'étranger, pendant toute la durée
+              de leur mission ; <pb n="10"/>
+              <note type="foliation">— 8 —</note> 50 Pensions d'un montant global annuel inférieur à
+              25.000 francs français (allocations comprises), dont les bénéficiaires pourront
+              prouver qu'étant sans proche famille en France, ils ont des parents dans le pays où
+              ils vont résider ; 6<hi rend="superscript">°</hi> Pensions concédées, soit aux
+              étrangers d'origine, ayant, notamment, servi dans la Légion Etrangère, soit à leurs
+              ayants-cause.</p>
+            <p>Si un mutilé se rendant définitivement ou momentanément à l'étranger ne remplit pas
+              les conditions énoncées ci-dessus, il ne peut, en principe, obtenir le payement direct
+              de sa pension dans le pays où il se rend.</p>
+            <p>En pareil cas, il lui appartient, d'une part, de prendre toutes dispositions utiles
+              pour que cette pension soit virée à un compte bancaire ouvert en France à son nom, et,
+              d'autre part, de se mettre en rapport avec l'Office des Changes, 8-10, rue de la
+              Tour-des-Dames, à Paris (IX), pour tenter d'obtenir le transfert à l'étranger de tout
+              ou partie des arrèrages ainsi virés à son compte bancaire. P. DUC.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">PETITS AVIS</head>
+            <p>Jeune camarade 39-45 aimerait passer vacances à la mer, août-septembre, dans famille
+              de camarade. Ne serait pas accompagné. Ecrire : Maurice Braud, 49, rue Myrrha, Paris
+              (18). Veuve Polazin - Colayrac, Saint-Cieq (Lot-et-Garonne), prendrait A. de G. en
+              pension. Bonne nourriture. Lui écrire directement.</p>
+            <p>Fabricant de bois de brosses en tous genres : M. Beauvalet, 9, cité Binoist, route de
+              Ruaudin, Le Mans (Sarthe).</p>
+            <p>A VENDRE : Une guillotine et couteau montés sur pied. Prix respectivement 9.000 et
+              6.000 . Ecrire directement à Emile Leroux, 5, Chemin du Détour, Aire-sur-la-Lys
+              (Pas-de-Calais).</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">COMITE DE COORDINATION
+              PROFESSIONNEL DES AVEUGLES DE GUERRE</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">Réunion du 19 Avril
+                1948</head>
+              <p>Les aveugles de guerre brossiers et canneurs se sont réunis le lundi 19 avril
+                1948.</p>
+              <p>Etaient présents : Lefebvre G., Schneider, Pallier, Lioté, Adam, Rémy, Maillot,
+                Cuny, Arnaux, Lardière, Pagenel, Cantarel, Vochel, Lohez, Thuilliez, Marlin M.,
+                Hénaux, Morin, Rohaut, Evrat, Caron G., Cohen, Montelli-r, Piera, Polette,
+                Alexandre, Fayolle, Jacquel, Duhen, Paradé, Aldrin, Evanno, Almey, Houleau,
+                Chotard.</p>
+              <p>La séance est ouverte à 15 heures sous la présidence de Couesnon, vicePrésident de
+                l'Union des Aveugles de Guerre.</p>
+              <p>Il est d'abord rappelé le but du Comité qui est le suivant : permettre le
+                regroupement au sein de l'Union des Aveugles de Guerre de tous les aveugles
+                travailleurs en vue de toutes améliorations possibles, tant au point de vue moral
+                que matériel, en étroite liaison avec l'œuvre des Amis des Soldats Aveugles.</p>
+              <p>Evrat rappelle que la Société des Amis des Soldats Aveugles fut fondée pendant la
+                guerre de 1914 pour la rééducation des aveugles de guerre avec constitution d'un
+                centre, fourniture de matériel, de matières premières et placement du travail.</p>
+              <p>Echange de vue sur les prix des matières premières. Prennent part : Pagenel,
+                Cattaert, Schneider, Piéra, Lardière, Lohez et Lefebvre.</p>
+              <p>Différents vœux sont émis notamment sur : la garantie du travail des camarades, la
+                qualité des bois, la répartition des matières premières, le barème des prix et les
+                taux de reprise.</p>
+              <p>Ces vœux sont discutés, et la question des matières premières est abordée.
+                Chiendent. - Il est demandé que la quantité soit augmentée. Rien à dire sur la
+                qualité.</p>
+              <p>Tampico. - Nettement insuffisant comme répartition. Soie. - Il serait souhaitable
+                qu'elle soit plus longue. Crin. - Quantité suffisante. Ny on. - Certains camarades
+                n'en ont pas encore reçu. Coco. - Duhan propose qu'on obtienne des devises en
+                Belgique pour acheter du coco.</p>
+              <pb n="12"/>
+              <note type="foliation">— 10 —</note>
+              <p>Bois. - Lardière demande que les camarades connaissant des adresses intéressantes
+                pour les bois de brosses les communiquent au Bureau.</p>
+              <p>Aux questions diverses, Lohez suggère des économies à réaliser dans le prix
+                d'achat. Chotard demande que l'Union des Aveugles procure des couteaux aux jeunes
+                camarades brossiers et prenne les noms pour grouper les commandes.</p>
+              <p>Cannage. - Evrat demande la suppression de la retenue et la revalorisation des
+                prix.</p>
+              <p>La séance est levée à 18 h .30 après élection du bureau. Sont élus à l'unanimité :
+                Président : Alexandre. Vice-Président : Martin Marcel. Secrétaire Général : C.
+                Hénaux Secrétaire-Adjoint : Duhen. Membre : Lefebvre.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">Réunion du 30 Avril
+                1948</head>
+              <p>Le bureau des Aveugles travailleurs constitué par l'Assemblée Générale du 19 avril
+                1948, s'est réuni le vendredi 30 avril 1948, à 9 heures 30 .</p>
+              <p>Etalent présents: Alexandre, Martin, Hénaux, Duhen. Excuse : Lefebvre. Ouverture de
+                la séance à 9 heures 30 , suspendue à 12 heures et reprise à 14 heures.</p>
+              <p>Le Président rend compte de ses démarches préliminaires auprès de l'œuvre des Amis
+                des Soldats Aveugles, rue du Temple, et du Bureau de l'U. A. G.</p>
+              <p>Les membres du Bureau décident de demander une entrevue à M. le Général Duheux, en
+                vue de lui présenter les vœux émis lors de l'Assemblée du 19 avril 1948.</p>
+              <p>Séance levée à 17 heures son ordre du jour épuisé. Le Président et les membres du
+                Bureau remercient l'Union des Aveugles de Guerre de l'accueil et de la facilité qui
+                leur ont été accordées pour cette réunion.</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">SECTION D'AUVERGNE Réunion
+                du 11 Avril 1948</head>
+              <p>La séance est ouverte sous la présidence de Pagonel. Le Président adresse les
+                regrets de la section aux familles des camarades disparus pendant l'année et fait
+                des voûx de rétablissement au camarade Coupas, souffrant.</p>
+              <p>Le rapport moral et la situation financière sum adoptés à l'unanimité. Le Président
+                indique les raisons qui l'ont incité à s'associer à la nouvelle formule
+                qu'expérimente le Comité d'Entente consistant à réunir le même jour toutes les
+                associations composant ce Comite. Après la réunion particuliere de chaque groupement
+                aura lieu une assemblée plénière de toutes les associations, où les délégués du
+                Comité viendront exposer la situation générale. Enfin, après un défilé jusqu'au
+                monument aux combattants, un banquet commun réunira les mutilés. Cette formule est
+                adoptée par tous, toutefois pour l'avenir, afin d'éviter les inconvénients de
+                l'heure matinale et du manque d'autobus le dimanche, la réunion de la section se
+                tiendra un jour de semaine.</p>
+              <p>Des vœux sont présentés et adoptés à l'unanimité. Pagenel informe les camarades
+                qu'il vient de prendre possession des fonds provenant de la liquidation de la Maison
+                des Aveugles de Guerre de la 15- région qui, conformément à la décision de
+                l'Assemblée Générale de dissolution, doivent revenir à la section d'Auvergne de
+                l'U.A.G. Il fait connaître que les dernières formalités ne tarderont pas à être
+                réglées et que sous peu la section pourra disposer de ces fonds.</p>
+              <p>Guillaume et Guyollot font ensuite remarquer que les réductions ne sont pas
+                appliquées sur les transports de la région. Pagenel fera les démarches
+                nécessaires.</p>
+              <p>Le Bureau est alors constitué. Sont réclus : Président : Pagenel. Vice-Président
+                Maguet. Secrétaire Général : Coupas. Administrateurs : Quittanson et Arribat.
+                Trésoriere : Mme Chautard. Secrétaire et trésoriere-adjointe : Mme Pagenel.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">SECTION DE SAONE-ET-LOIRE
+                Réunion du 11 Avril 1948</head>
+              <p>La séance est ouverte à 10 h . is par le Président Philippe. Seize membres sont
+                présents : Augpyat, Baudin, Champagnon, Chanut, Dufour Louis, Favret, Giloux,
+                Gauthier A., Laffay, Michon, Millet, Morey, Perrin, Philippe, Tramoy, Virot.</p>
+              <p>Se sont excusés : Brusson, David, Champey, Buy, Barday, Prudent, Chiffot, Fournier,
+                Gresset, Jeannin, Passerat, Vion; Guillemin Gaston et Mathey.</p>
+              <p>Philippe salue et remercie les camarades venus même de très loin, présente le
+                vice-Président de l'U.A.G., Favret, venu de Paris pour représenter notre Union.</p>
+              <p>Assiste également à la séance, le camarade Aubert, Secrétaire Gânérat de l'Office
+                des Mutilés de Saône-et-Loire.</p>
+              <p>Philippe annonce que, depuis notre Assemblée, la section a eu la douleur de perdre
+                deux de ses membres : Delorme Louis et Eugène Paul. Pour honorer la mémoire de ces
+                camarades, une minute de silence est observée.</p>
+              <p>Le Président Philippe donne la parole à Mme Giloux, notre Trésorière. Elle donne le
+                détail du rapport financier qui est approuvé. En caisse, le 11 avril 1948 : 771
+                francs et 8.840 francs à la Caisse d'Epargne. Philippe remercie Mme Giloux de la
+                bonne tenue des comptes de la Section.</p>
+              <p>Ensuite, il fait un exposé de l'action de la Section depuis la dernière
+                Assemblée.</p>
+              <p>Il dit qu'il ira représenter les camarades de Saône-et-Loire le 18 avril à Paris à
+                l'Assemblée Générale de l'U.A.G.. Lecture est faite de la lettre envoyée par les
+                nouveaux candidats au Conseil de l'U.A.G.</p>
+              <p>Philippe donne la parole à Favret, qui fait un exposé très clair des travaux du
+                Bureau et du Conseil d'Administration de l'U.A.G. Favret parle de nos pensions, de
+                la Sécurité Sociale, de la marche de la Maison et répond aux questions posées par
+                les camarades.</p>
+              <p>Ensuite, le Secrétaire Général de l'Office des Mutilés, Aubert, donne des
+                renseignements sur les attributions d'essence, de pneus et chambres à air d'autos,
+                ainsi que de gaz Butane.</p>
+              <p>A l'unanimité des membres présents, il est convenu qu'une réunion amicale aura
+                lieu, en principe, le premier dimanche de septembre, à Cluny.</p>
+              <p>La séance est levée à midi. Les camarades, leurs guides et leurs invités passent à
+                la salle à manger, où ils apprécient tous l'excellent et copieux déjeuner servi par
+                le maître-queu, Longueville.</p>
+              <p>Pendant tout le repas, une franche galeté n'a cessé de régner. Au dessert, les
+                chanteurs se sont fait applaudir, entre autres : Mlle Baudin, Virot, Gauthier,
+                Champagnon, ainsi que Chanut, que les circonstances avaient tenu loin de nous
+                pendant pluseurs années et que nous avons été heureux de retrouver.</p>
+              <p>Puis vient l'heure de nous séparer en nous promettant de nous réunir encore plus
+                nombreux la prochaine fois.</p>
+              <p>PHILIPPE, Président.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">SECTION DE LA SARTHE Réunion
+                du 8 Mai 1948</head>
+              <p>La séance est ouverte sous la présidence de Favret. Etaient présents: Bignon,
+                Boudant, Buron, Charles, Coulard, Courtomanche, Gérard, Girard, Loistron, Mme
+                Loquin, Marchand, Monceaux, Moreau, Paulin, Thiberge, Perrelle, Chatelain, Bouttier,
+                Chotard, délégué de la Mayenne.</p>
+              <p>Excuses : Farcy, Madelaine, Persenne, Padois, Prune, Verrier, Rouleau, Lavie.</p>
+              <p>Une minute de silence est observée à la mémoire des décédés. Charles souhaite la
+                bienvenue à Favret et remercie les camarades d'être venus.</p>
+              <p>Le Président fait un exposé des démarches sur le plan local et indique les
+                résultats obtenus en ce qui concerne le charbon, les transports, les voitures
+                personnelles réquisitionnées ou volées pendant la guerre. Il rend compte de ses
+                rapports avec le Comité d'Entente départemental.</p>
+              <p>Chotard, de la Mayenne, demande que les camarades de son département soient
+                rattachés à la Sarthe.</p>
+              <p>Le compte-rendu financier est lu par la Trésorière. Chotard parle ensuite de la
+                réunion des brossiers à l'U.A.G. au lendemain de l'Assemblée générale et Favret fait
+                un large exposé et répond à toutes les questions des camarades. Il résume les
+                questions traitées par les dirigeants de l'Union.</p>
+              <p>Constitution du Bureau : Président : Charles. Vice-Présidents : Chotard, Bignon.
+                Secrétaire : Boudant. Trésorière : Mme Charles. Membres : Thiberge, Marchand,
+                Coulard, Perrelle, Moreau. Commissaire aux comptes voyant : M. Papin,
+                architecte-expert. Un repas amical est ensuite servi. Avant de se séparer, une
+                délégation se joint au cortège des anciens combattants qui se rend au monument de la
+                Victoire.</p>
+              <pb n="16"/>
+              <note type="foliation">— 14 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">SECTION DEPARTEMENTALE DE
+                L'ISERE Réunion du 15 Mai 1948</head>
+              <p>La départementale de l'Isère a tenu, à Grenoble, son assemblée annuelle, sous la
+                présidence d'honneur de M. le Préfet de l'Isère.</p>
+              <p>Etaient présents : Allemand, Baron, Bouval, Cuny, Guerry, Hébert, Jacquet, Jullien,
+                Sarret et Turrat.</p>
+              <p>Etaient excusés : Guinet, Moiroud et Revol. l'inet, de Chambéry, représentait les
+                camarades de Savoie. L'Union était représentée par son dévoué Secrétaire Général,
+                Amblard, qui proâtait également de son voyage en Dauphiné pour représenter l'U.A.G.
+                aux séances de clôture du Congrès de l'U.F.</p>
+              <p>Après les souhaits de bienvenue exprimés par le Président de Section et la lecture
+                des rapports moral et financier qui sont adoptés à l'unanimité, la parole est donnée
+                à Amblard, qui avec sa compétence habituelle, devant son auditoire attentif, par un
+                exposé clair et précis sur les réalisations déjà obtenues, dresse un tableau exact
+                des problèmes encore à résoudre. M. Laroche, Secrétaire Général de l'O.D.M.A.C.,
+                représentant M. le Préfet, dans une très émouvante allocution, assure les aveugles
+                qui, dit-il, sont au premier rang des grandes victimes de la guerre, de toute sa
+                sympathie et de tout son dévouement. Il exalte également le dévouement admirable de
+                nos compagnes. M. Flory, Président du Comité d'Entente et des P.G.I. de l'Isère,
+                fait ressortir la nécessité des liens de plus en plus étroits et amicaux qui doivent
+                unir tous les grands mutilés. M. Chassignaux, Président de l'E.D. et de l'U.F.A.C.
+                de l'Isère, dans une éloquente et vibrante improvisation apporte le salut fraternel
+                de tous les anciens combattants de l'Isère à leurs camarades qui ont sacrifié le
+                meilleur d'eux-mêmes au service de la Patrie.</p>
+              <p>Le bureau est constitué ainsi : Vice-Présidents : Baron et Cuny. Secrétaire :
+                Allemand. Il est complété par deux dévouées personnes voyantes : MM. Hennequin et
+                Laforêt, respectivement Trésorier et Commissaire aux comptes.</p>
+              <p>La motion suivante est adoptée à l'unanimité : "La départementale de l'Isère,
+                réunie en Assemblée Générale, le 15 mai "1948, adressé au Bureau de l'Union et à son
+                Conseil d'Administration ses "plus vifs sentiments de gratitude pour l'immense
+                effort déjà accompli en "vue de l'amélioration des conditions matérielles
+                d'existence des aveugles "de guerre, et lui fait confiance pour poursuivre avec
+                ténacité et persévé"rance ses louables efforts jusqu'à l'aboutissement de nos
+                modestes mais " justes et légitimes revendications."</p>
+              <p>Un repas amical clôture la séance et les convives se séparèrent emportant un peu de
+                réconfort moral de cette excellente journée passée dans la plus franche et cordiale
+                camaraderie.</p>
+              <pb n="17"/>
+              <note type="foliation">— 15 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">DISTINCTIONS</head>
+            <p>Nous sommes heureux d'apprendre la promotion au grade d'Officier dans l'Ordre de la
+              Légion d'Honneur de notre camarade :</p>
+            <p>Houpert Paul, de Bar-sur-Seine (Aube) (" J. O. " du 3 juin 1948).</p>
+            <p>Notre camarade Leclerc, de Tarbes, qui était capitaine, nous fait connaitre qu'il a
+              été promu chef de bataillon.</p>
+            <p>Nos félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">NAISSANCES</head>
+            <p>La fille Elisabeth, de notre camarade Gomez (39-45), de Marseille, le 26 mars 1944.
+              La fille Franeine, de notre camarade Xavier Fleck (39-45), de Storckensohn
+              (Haut-Rhin), mai 1948. La fille Mariette, de notre camarade Paul Blayes (39-45), de
+              Graissesac (Herault), le 4 mai 1948. Le fils Jean-François, le 28 juin 1947, et la
+              fille Marie-Francoise, le 31 mai 1948, de notre camarade Pierre Olivier, de Bordeaux
+              (Gironde). Le petit-fils André, de notre camarade Louis Ducos, de Chis
+              (Hautes-Pyrénées), le 30 avril. Le petit-fils Joël, de notre camarade Ledroit,
+              d'Angers, mai 1948. Le deuxième petit-fils Philippe, de notre camarade Hervoir, de
+              Paris, le 8 février 1948. La petite-fille Nicole, de notre camarade A. Marcq, de
+              Pessac (Gironde), le 15 mai 1948. La petite-fille Marie-Claire Agasse, du Président H.
+              Izaac, le 24 mai 1948. Nous adressons nos félicitations aux heureux parents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">MARIAGES</head>
+            <p>La fille Edmonde, de notre camarade Druelle, de Bully-les-Mines, avec M. G. Minche,
+              le 15 mai 1948.</p>
+            <p>La fille Marguerite, de notre camarade Louis Houot, de Bar-sur-Seine, avec M.
+              Della-Libera, le 4 mai 1948.</p>
+            <p>Le fils Jean, de notre camarade Larde, d'Antony (Seine), avec Mlle R. Bernardin, le
+              29 mai 1948. Tous nos vœux de bonheur aux nouveaux mariés.</p>
+            <p>Notre camarade A. Dambrine, de Nancy, nous fait part de ses noces d'or, célébrées le
+              17 mai en la basilique de Saint-Epore. Nous les en félicitons.</p>
+            <pb n="18"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">DECES</head>
+            <p>Nous avons le regret d'annoncer à nos camarades le décès de M. Sueur, qui était notre
+              comptable depuis octobre dernier. M. Sueur, ancien combattant, blessé de guerre,
+              s'était mis rapidement au courant de nos affaires financières qu'il gérait à la
+              satisfaction de tous. Nous avons été désolés d'apprendre sa mort rapide, après une
+              courte maladie, et nous exprimons à sa veuve nos plus vives condoléances.</p>
+            <p>Notre camarade Ange Giorgetti, de Corse, le 4 mai 1948. Notre camarade Arsène Beaume,
+              de La Fare (Hautes-Alpes), le 9 mai 1948. Notre camarade Demètre Toudouri, de
+              Juvisy-sur-Orge (S.-et-O.), le 26 mai 1948.</p>
+            <p>Notre camarade Pierre Pannetrat, de Saint-Loup-sur-Anjou (Haute-Marne), le 30 mai
+              1948. Notre camarade Emil Blondell, de Migné-Auxances (Vienne), le 2 juin 1948. Il
+              était citoyen Suédois, engagé en 1914 dans la Légion Etrangère. Il avait perdu la vue
+              au service de la France. La belle-mère de nos camarade Rols Camille, de Conques
+              (Aveyron), et Bayol Adrien, du Pas (Aveyron), en mai 1948, à l'age de 78 ans. Nous
+              adressons nos sincères condoléances aux familles éprouvées.</p>
+            <pb n="19"/>
+            <pb n="20"/>
+            <p>Le Gerant : L'EVESQUE. Imp. Frebinet, Paris.</p>
+          </div>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

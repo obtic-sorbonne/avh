@@ -1,0 +1,651 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 5ème année 1923, n°9</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Droits des mutilés</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Logement</title>
+        <title type="topic">Transports</title>
+        <title type="topic">Radio</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 12 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#uag">U.A.G.</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre-1914-1918">Guerre 1914-1918</term>
+          <term ref="#pensionnes-de-guerre">Pensionnés de guerre</term>
+          <term ref="#habitations-a-bon-marche">Habitations à bon marché</term>
+          <term ref="#compartiments-reserves">Compartiments réservés</term>
+          <term ref="#radio-braille">Radio-Braille</term>
+          <term ref="#concours-lepine">Concours Lépine</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre traite de plusieurs aspects de la
+          vie des anciens combattants aveugles. Il commence par une réflexion sur la situation des
+          aveugles de guerre en France, comparant leur sort à celui des mutilés allemands. Le
+          bulletin fournit ensuite des informations pratiques concernant les habitations à bon
+          marché et les compartiments réservés dans les trains pour les pensionnés de guerre. Il
+          inclut également des notes et informations sur la chronique de l'U.A.G., des réunions
+          familiales, des sections départementales et des groupements régionaux. Enfin, il présente
+          des listes de donateurs et les compositions des différents comités de l'Union.</p>
+      </abstract>
+      <creation>
+        <date when="1923-09-01">01/09/1923</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2025-12-05" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2025-12-04" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">PRÉSIDENT D'HONNEUR de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h2">COMITÉ DE PATRONAGE</ref>
+          </item>
+          <item>
+            <ref target="#h3">Si nous avions été vaincus...</ref>
+          </item>
+          <item>
+            <ref target="#h4">CONCOURS LEPINE 1923</ref>
+          </item>
+          <item>
+            <ref target="#h5">LES HABITATIONS A BON MARCHE</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMPARTIMENTS RESERVES</ref>
+          </item>
+          <item>
+            <ref target="#h7">NOTES &amp; INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h8">T. S. F.</ref>
+              </item>
+            </list>
+          </item>
+
+          <item><ref target="#h20">Chronique de l'U.A.G.</ref><list>
+              <item>
+                <ref target="#h9">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h10">NAISSANCES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h11">MARIAGES</ref>
+                  </item>
+                  <item>
+                    <ref target="#h12">DÉCÈS</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h13">REUNION FAMILIALE A FRANCEVILLE</ref>
+              </item>
+              <item>
+                <ref target="#h14">PROCES-VERBAL DE L'ASSEMBLEE DE LA SECTION DEPARTEMENTALE DU
+                  FINISTERE</ref>
+              </item>
+              <item>
+                <ref target="#h15">GROUPEMENT DE LA REGION DU NORD</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h16">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h17">COMITÉ D'ACTION</ref>
+          </item>
+          <item>
+            <ref target="#h18">COMITÉ D'AIDE</ref>
+          </item>
+          <item>
+            <ref target="#h19">Liste des Donateurs</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">5e Année. — N° 9</fw>
+          <fw type="header">
+            <hi rend="underline">Septembre 1923</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)">BULLETIN MENSUEL <lb/>de <lb/>L'UNION DES
+                AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9 avril 1921<lb/>
+                et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">SOMMAIRE</head>
+                  <list>
+                    <item>Si nous avions été vaincus...</item>
+                    <item>Le concours Lépine 1923.</item>
+                    <item>Les habitations à bon marché.</item>
+                    <item>Compartiments réservés.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <head type="section" rend="align(center)">Notes et Informations</head>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)">Chronique de l'U. A. G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Réunion familiale à Franceville.</item>
+                    <item>Section départementale du Finistère.</item>
+                    <item>Groupement de la Région du Nord.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
+            Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">PRÉSIDENT D'HONNEUR de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. A. Millerand, Président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">COMITÉ DE PATRONAGE</head>
+            <p>M. Barthou; M. Brieux, de l'Académie Française, président honoraire ; M. le général
+              Balfourif ; M. Borrel, député, ancien sous-secrétaire d'Etat ;</p>
+            <p>Mme Marthe Brandès; M. Brisac, préfet ; M. J. Ridgely Carter. M. Paul de Cassagnac,
+              député ; M. Cottin, notaire honoraire ; M. Maurice Donnay, de l'Académie Française ;
+              M. Duco, médecin-inspecteur ; M. le colonel Fabry, député ; M. Fribourg, député ;</p>
+            <p>Miss Alice Getty; M. Justin Godart, ancien sous-secrétaire d'Etat au service de
+              santé, ćputé de Lyon ; Miss Grass Harper ; Miss Winifred Holt ; Mme Léopold Kahn ; Mme
+              Géo Kessler ; M. Krug ; M. Lugol, député ;</p>
+            <p>Mme la maréchale Maunoury; M. le docteur Morax ; M. Meyer, conseiller d'Etat ; M.
+              Henry Paté, député ; M. Pierre Rameil, député ;</p>
+            <p>M・ Henri-Robert, ancien bâtonnier de l'Ordre des Avocats ; Général
+              Sainte-Claire-Deville; M. Vallon ; M. Vallery-Radot ; M. Constant Verlot, député ; M.
+              le Professeur Walther, membre de l'Académie de Médecine.</p>
+            <pb n="3"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Si nous avions été
+              vaincus...</head>
+            <p>Si nous avions été vaincus... Voilà une phrase qui parfois vient frapper
+              douloureusement les oreilles des aveugles de guerre français, au cours d'une
+              conversation, ou d'une lecture d'un article de journal ; et, depuis quelque temps,
+              cette phrase parait se répéter plus souvent que dans les premières années qui ont
+              suivi la signature de l'armistice.</p>
+            <p>Un peuple organisé n'abandonne jamais complètement après une guerre, ceux qui en ont
+              été victimes. La presse allemande nous apprend que le Reich s'occupe avec le plus
+              grand soin de ses mutilés et particulièrement de ses aveugles. La pension de ces
+              derniers n'est pas la même en Prusse comme en Bavière ; dans tel Etat ils touchent une
+              indemnité plus forte que dans tel autre. Mais enfin, partout on se préoccupe d'eux au
+              point d'augmenter, lorsque la valeur du mark dégringole, l'indemnité hebdomadaire
+              prévue pour leurs chiens.</p>
+            <p>Si nous avions été vaincus... mais, mon Dieu, notre nation auraii fait au moins pour
+              nous ce que l'Allemagne a fait pour ses grands invalides. Certes, à l'heure actuelle,
+              nous toucherions chaque semaine non pas quelques francs, mais probablement des
+              millions de francs; nous serions tous millionnaires, mais nous ne serions pas plus
+              avancés pour cela pour faire bouillir la marmite, car le kilo de pommes de terre
+              vaudrait, sans doute, 50.000 francs.</p>
+            <p>Si nous avions été vaincus... nous ne serions certes pas à la noce, car l'Allemagne
+              victorieuse eut été pour notre pays autrement dure et intransigeante que les Alliés ne
+              l'ont été vis-à-vis d'elle.</p>
+            <p>L'autre jour un Anglais demandait des détails sur la vie des Aveugles de guerre en
+              France depuis la fin de la guerre. Cet Anglais est un homme excellent, il a d'ailleurs
+              combattu dans les tranchées d'Arras et d'Ypres, et il profitait des vacances pour
+              venir revoir les endroits terribles où il a souffert près de nous. Après avoir écouté
+              les explications que je lui donnai, après avoir compris très vite - tous ceux qui ont
+              fait véritablement la guerre se comprennent vite - que les aveugles de guerre français
+              n'étaient pas actuellement à l'abri des soucis de la vie matérielle à l'heure où la
+              livre sterling bat tous ses propres récords : "Oui, oui, dit-il, il faut faire plus
+              pour ces pauvres garçons, mais si vous aviez été vaincus ils seraient encore moins
+              heureux. "</p>
+            <p>Malgré la part de vérité contenue dans ces mots ne fallait-il pas <pb n="4"/>
+              <note type="foliation">— 2 —</note> tout de suite s'écrier : "Il ne faut pas dire,
+              cher Monsieur, si " vous " aviez été vaincus, mais bien si "nous " avions été vaincus,
+              car si la France avait été vaincue que serait devenue la Grande-Bretagne ? et aussi la
+              Belgique, et les Etats-Unis eux-mêmes et enfin les peuples qui ont combattu pour la
+              liberté ?</p>
+            <p>Et puis, à quoi bon faire des suppositions stériles et mauvaises ? Laissons cela aux
+              cerveaux affaiblis ou timorés. Nous n'avons pas été vaincus, nous ne pouvions pas être
+              vaincus. Certes un agresseur a pu et pourra peut-être encore opprimer une nation
+              voisine, ravager systématiquement son sol, amonceler des cadavres et pendant longtemps
+              mutiler et aveugler impunément. Mais tôt ou tard l'heure de la justice doit sonner,
+              elle devrait avoir déjà sonné pour l'Allemagne.</p>
+            <p>La cause que nous défendions était si belle que les aveugles de guerre ont accepté
+              leur douloureux sacrifice avec une sorte de joie, mais cette joie leur serait enlevée
+              et avec elle leur dernière satisfaction, si ce sacrifice restait vain. Il faut prouver
+              au monde entier que c'est bien la cause des peuples libres qui a triomphé, et la
+              première preuve que les Gouvernements alliés doivent donner consiste à assurer, en
+              toutes circonstances, aux grandes victimes de la guerre, une existence à l'abri des
+              soucis matériels.</p>
+            <p>Izanc.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">CONCOURS LEPINE 1923</head>
+            <p>Nous prévenons toutes les personnes s'intéressant à l'activité des aveugles de guerre
+              que l'U. A. G. expose des produits fabriqués par ses membres au Concours Lépine
+              (Paris, Champ-de-Mars), Hall n <hi rend="superscript">°</hi> 2, stand "La Masse ".</p>
+            <p>Cette exposition avec vente des objets et prise de commandes a lieu jusqu'au 30
+              septembre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">LES HABITATIONS A BON
+              MARCHE</head>
+            <p>L'Office National vient de prendre des nouvelles mesures pour aider les pensionnés de
+              guerre dans la construction ou l'achat d'habis tations à bon marché et nous
+              reproduisons ci-dessous la délibération prise par son Comité d'administration : <pb
+                n="5"/>
+              <note type="foliation">— 3 —</note> « Le Comité d'administration après en avoir
+              délibéré, « Décide que des avances pourront être accordées par l'Office « National aux
+              pensionnés de la guerre faisant appel aux facilités « de crédit prévues par la
+              législation en vigueur sur les habitations « à bon marché et la petite propriété. "Le
+              montant de ces prêts sera égal, au maximum, au huitième du " prix de revient de
+              l'immeuble pour les emprunteurs ayant plus de " trois enfants et au dixième de ce même
+              prix de revient pour les " autres emprunteurs. "Ils porteront intérêt de 1% et seront
+              remboursables par frac"tions égales dans un délai maximum de dix ans. "L'Office aura
+              la faculté de prendre, pour la garantie du prêt, " une inscription hypothécaire dont
+              tous les frais (enregistrement, " honoraires, renouvellement, mainlevée, etc.) seront
+              à sa charge. "D'autre part, des avances pourront être accordées par l'Office "
+              National aux pensionnés de la guerre qui solliciteront un prêt pour "parfaire le prix
+              d'acquisition d'une maison, étant entendu que " celle-ci devra remplir les conditions
+              prévues par la législation en " vigueur sur les habitations à bon marché. Le montant
+              de ces prêts, " qui ne pourra excéder 5.000 francs (cinq mille), sera fixé en con"
+              sidération de l'effort personnel de l'emprunteur et en s'inspirant des " taux établis
+              pour l'aide à donner aux emprunteurs des Sociétés de "Crédit immobilier. "Les prêts
+              consentis porteront intérêt de 1% et seront rembours" sables par fractions égales dans
+              un délai qui sera fixé dans chaque " cas particulier en tenant compte des propositions
+              formulées par " l'emprunteur, sans que toutefois ce délai puisse, en principe, excé"
+              der dix ans. "Sauf délibération spéciale contraire et dûment motivée des "Commissions
+              compétentes de l'Office National, ces prêts seront " garantis par une inscription
+              hypothécaire dont tous les frais seront " à la charge de l'emprunteur. "</p>
+            <p>Notons, au point de vue pratique : Que le premier cas envisagé ne donne pas
+              satisfaction aux aveugles de guerre, en raison des difficultés qu'ils rencontrent pour
+              trouver dans de bonnes conditions une assurance sur la vie. Nous reviendrons sur ce
+              sujet lors de nos discussions au mois de novembre prochain.</p>
+            <p>Le deuxième cas est parfaitement favorable aux aveugles de guerre, c'est-à-dire à
+              ceux qui ont la chance, et ils sont rares, de pos- <pb n="6" break="no"/>
+              <note type="foliation">— 4 —</note> séder la presque totalité de la valeur de la
+              maison qu'ils désirent acquérir.</p>
+            <p>L'Office National accordera à ceux-là, sur demande, un prêt dont le montant sera fixé
+              suivant la somme apportée par l'emprunteur. Ce prêt sera consenti au taux réduit de 1%
+              et sera remboursable dans les délais fixés dans chaque cas particulier d'accord avec
+              l'emprunteur. Toutefois, ce délai ne pourra pas excéder dix ans. |Comme il s'agit de
+              prêts pouvant atteindre la somme de 5.000 fr ., l'Office National les garantira par
+              une inscription hypothécaire dont tous les frais seront à la charge de
+              l'emprunteur.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMPARTIMENTS RESERVES</head>
+            <p>Depuis plusieurs mois déjà les |Chemins de fer de l'Etat ont réservé, sur les trains
+              de certaines lignes de la banlieue parisienne, des compartiments aux pensionnés de
+              guerre. La personne accompagnant un aveugle est admise à côté de lui.</p>
+            <p>Depuis le 15 juillet, la Compagnie Paris-Orléans a pris les mêmes mesures.</p>
+            <p>Ces dispositions sont vraiment très heureuses, et nous souhaitons qu'elles s'étendent
+              à d'autres Compagnies et à la banlieue d'autres villes de France.</p>
+            <p>Nous ne sommes plus obligés comme autrefois d'attendre plus ou moins longtemps qu'une
+              personne veuille bien nous donner une place assise, la guerre est si loin...</p>
+            <p>Pour conserver la mesure prise il ne faut pas manquer d'utiliser ces compartiments
+              chaque fois qu'il en existe, sans quoi ils se trouveraient eux-mêmes très vite
+              envahis, soit par des gamins de quinze ans, cet âge est sans pitié ! soit par de nos
+              concitoyens ayant oublié de faire la guerre, soit encore par d'aimables voyageuses qui
+              prennent sans doute ces compartiments pour des compartiments de dames séules.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">NOTES &amp; INFORMATIONS</head>
+            <p>Le <hi rend="italic">Journal officiel</hi> du 11 août 1923 publie une intéressante
+              loi sur le fonctionnement des Caisses de retraite ne comprenant que des mutilés de
+              guerre.</p>
+            <p>Nous reproduisons ci-dessous l'article unique de cette loi qui peut un jour
+              intéresser spécialement l'U. A. G. et qui inspirera peut-être des idées aux lecteurs
+              du Bulletin :</p>
+            <p>« Les Sociétés et Unions approuvées de Sociétés de secours mutuels exclusivement
+              composées d'anciens combattants de la guerre 1914-1918, de veuves, d'orphelins et
+              d'ascendants de militaires morts pour la France au cours de la guerre et celles qui
+              auront organisé au profit de leurs membres participants une caisse autonome
+              fonctionnant dans les conditions du décret du 25 mars 1901 portant règlement
+              d'administration publique pour l'application de la loi du 1er avril 1898,
+              bénéficieront, sous réserve des dispositions de l'article 28 de la loi du 1er avril
+              1898, d'une subvention de l'État égale au quart des sommes provenant des ressources
+              sociales affectées au cours de l'année précédente à la constitution des retraites des
+              membres participants sus-indiqués, à condition que ces derniers, pour bénéficier de
+              leur pension, soient tenus d'effectuer des versements de retraites pendant dix années
+              au moins. Toutefois, dans le cas de blessures graves, ou d'infirmités prématurées,
+              entraînant une incapacité absolue de travail, la pension pourra être liquidée avant
+              l'accomplissement des dix années de versements sus-indiqués.</p>
+            <p>« La présente loi délibérée et adoptée par le Sénat et par la Chambre des députés
+              sera exécutée comme loi de l'État.</p>
+            <p>« Fait à Rambouillet, le 4 août 1923.</p>
+            <p>« A. MILLERAND. »</p>
+            <p>A VENDRE : très bon piano mécanique, excellente harmonie (67 marteaux feutrés),
+              rouleau de dix danses convenant pour bal. Ecrire : Bruno Bertoni, 13, avenue Pauliani,
+              Nice (Alpes-Maritimes).</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">T. S. F.</head>
+              <p>Le Radio-Club Valentin Haüy constitué sur l'initiative de M. Roussel, secrétaire
+                général de la Société Française d'études de T. S. F., comme section de cette
+                Société, a pour but de grouper les aveugles et les typhlophiles s'intéressant à la
+                T. S. F.</p>
+              <p>Il procure à ses adhérents les avantages suivants : Pour ceux de Paris ou de la
+                banlieue : 1<hi rend="superscript">°</hi> possibilité d'assister aux séances de
+                travail de la Société Française à l'Ecole Bréguet, 81, rue Falguière (15"), et de
+                profiter dans une certaine mesure de son laboratoire, 7, rue Paul-Louis-Courrier
+                (17'), les lundis, mercredis et jeudis (ce dernier jour de préférence) de 20 h .30 à
+                23 h .; 2<hi rend="superscript">°</hi> création éventuelle d'un petit laboratoire
+                particulier ; 3<hi rend="superscript">°</hi> réunions périodiques qui comporteront
+                une causerie d'initiation technique.</p>
+              <p>Pour les adhérents de province : rattachement à la section de la Société Française
+                la plus voisine de leur résidence ou mise en rapports avec un sans-filiste compétent
+                qu'ils pourront consulter directement.</p>
+              <p>Tous les adhérents bénéficieront sur présentation de leur carte des avantages
+                consentis aux membres de la Société Française par les constructeurs et fournisseurs
+                d'appareils de T. S. F.</p>
+              <p>Les adhérents abonnés recevront le "Radio-Braille ", Bulletin Braille de T. S. F.,
+                qui paraîtra tous les deux mois à partir d'octobre 1923. Le Radio-Club se propose en
+                outre de publier un petit manuel de T. S. F. à l'usage des aveugles.</p>
+              <p>Contrairement à ce qui avait été prévu tout d'abord et afin de couvrir les frais de
+                correspondance, imprimés divers, etc., le Comité de direction a dû décider une
+                cotisation aussi minime que possible fixée comme suit :</p>
+              <p>Membres adhérents ne recevant pas le «Radio-Braille», 2 francs par an.</p>
+              <p>Membres actifs recevant ce Bulletin, 5 francs par an. Membres honoraires, 10 francs
+                par an. (Pour ces trois catégories de membres, la cotisation vaudra pour l'année en
+                cours et pour 1924.)</p>
+              <p>Le titre de " membre bienfaiteur " sera donné aux personnes ayant effectué un seul
+                versement de 100 francs.</p>
+              <pb n="9"/>
+              <note type="foliation">— 7 —</note>
+              <p>Le titre de "membre fondateur" sera donné aux personnes ayant effectué un seul
+                versement de 500 francs.</p>
+              <p>Adresser adhésions, cotisations, correspondance, au secrétaire du Radio-Club
+                Valentin Haüy, 9, rue Duroc, Paris (7e) (Siège social provisoire). Les cotisations
+                doivent être payées sous forme de mandat-poste, au nom de M. Roux, trésorier. Prière
+                de joindre un timbre pour la réponse pour les correspondances en noir et de rappeler
+                son adresse à chaque lettre.</p>
+              <p>LE COMITÉ.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">Chronique de l'U.A.G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h10">NAISSANCES</head>
+                <p>Mme Lamy, à Sens (Yonne), nous fait part de la naissance de sa fille.</p>
+                <p>Notre camarade et Mme Montgermont (Lucien) nous font part de la naissance de leur
+                  fils André.</p>
+                <p>Notre camarade et Mme Guérin (Gaston), à Metz, nous font part de la naissance de
+                  leur fils Christian-Pierre-Raymond, le 19 août 1923.</p>
+                <p>Notre camarade et Mme Berthuy (J.), à Paris, nous font part de la naissance de
+                  leur fils Gabriel-Max.</p>
+                <p>Notre camarade et Mme Barrallon (Auguste) nous font part de la naissance de leur
+                  cinquième enfant Jean-Baptiste.</p>
+                <p>Notre camarade et Mme Delsol nous font part de la naissance de leur fils
+                  Robert-Eugène.</p>
+                <p>Notre camarade et Mme Carret (Alphonse) nous font part de la naissance de leur
+                  fille Yvonne.</p>
+                <p>Notre camarade et Mme Dentroux, à Beynost, nous font part de la naissance de leur
+                  fille Louise-Francine.</p>
+                <p>Notre camarade et Mme Graux (Aimé) nous font part de la naissance de leur fils
+                  Roger.</p>
+                <p>Notre camarade et Mme Pallier (J.) nous font part de la naissance de leur
+                  troisième enfant Huguette-Louise-Armande.</p>
+                <p>Notre camarade et Mme Dangas (André) nous font part de la naissance de leur fille
+                  Jacqueline.</p>
+                <p>Notre camarade et Mme Florimond-Gay (Lucien) nous font part de la naissance de
+                  leur fille Marcelle-Henriette-Alexandrine.</p>
+                <p>Notre camarade et Mme Rousseau (Pierre) nous font part de la naissance de leur
+                  fille Lucienne-Marie-Rose.</p>
+                <p>Notre camarade et Mme Pouget (René) nous font part de la naissance de leur fille
+                  Renée-Madeleine.</p>
+                <pb n="11"/>
+                <note type="foliation">— 9 —</note>
+                <p>Notre camarade et Mme Bouchepillon, à Brassy (Nièvre) nous font part de la
+                  naissance de leur fille Gilberte.</p>
+                <p>Notre camarade et Mme Chesneau (Louis) nous font part de la naissance de leur
+                  fils Georges.</p>
+                <p>Notre camarade et Mme Denos (Jean-Baptiste) nous font part de la naissance de
+                  leur fils Marcel.</p>
+                <p>Notre camarade et Mme Redonnet (J.), à Luchon (HauteGaronne), nous font part de
+                  la naissance de leur fille Renée-GabrielleJacqueline.</p>
+                <p>Nous adressons nos bien sincères félicitations aux heureux parents et nos vœux de
+                  prospérité aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h11">MARIAGES</head>
+                <p>Notre camarade Lanuc nous fait part de son mariage avec Mlle Andrée Collot, fille
+                  de notre camarade Collot.</p>
+                <p>Notre camarade Gros (François) nous fait part de son mariage avec Mlle Angèle
+                  Guignet.</p>
+                <p>Notre camarade Rouquette nous fait part de son mariage. Nous adressons aux jeunes
+                  époux tous nos vœux de bonheur.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h12">DÉCÈS</head>
+                <p>Nous apprenons le décès : De notre camarade Montiton, à Laval (Mayenne). Du fils
+                  de notre camarade Flandre, à Amiens (Somme), à l'âge de trois ans.</p>
+                <p>Du père de notre camarade Boidin, à Paris. Du beau-père de notre camarade Berrie
+                  (Célestin). Notre camarade A. Mougin, à Vacqueville (M.-et-M.), nous fait part de
+                  la naissance et du décès de sa fille Laure-Marie-Marguerite, née le 15 mai
+                  1923.</p>
+                <p>Nous exprimons aux parents nos plus vives condoléances.</p>
+                <pb n="12"/>
+                <note type="foliation">— 10 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">REUNION FAMILIALE A
+                FRANCEVILLE</head>
+              <p>Sur l'initiative d'Amar et de quelques autres camarades, il a été organisé à
+                Franceville une petite soirée à laquelle ont pris part les douze familles présentes
+                du 1<hi rend="superscript">er</hi> au 15 août.</p>
+              <p>Nos camarades ont tenu une fois de plus à témoigner leur reconnaissance aux membres
+                du Comité d'action pour leur concours moral et financier et pour l'activité qu'ils
+                ne cessent de prodiguer en faveur de l'U. A. G., aux généreux donateurs, grâce
+                auxquels nos maisons de Franceville ont pu être construites, et enfin au Groupement
+                de l'U. A. G. lui-même.</p>
+              <p>Plusieurs camarades ont pris la parole en désirant le développement de
+                Franceville.</p>
+              <p>A l'occasion de cette petite fête la caisse de nos maisons de repos a reçu de Mme
+                Auvray la somme de 20 francs, et de notre camarade Beda la somme de 50 francs; ce
+                dernier désirait en même temps marquer l'inauguration d'un petit pavillon qu'il a
+                fait construire non loin de nos maisons.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">PROCES-VERBAL DE L'ASSEMBLEE
+                DE LA SECTION DEPARTEMENTALE DU FINISTERE</head>
+              <p>La séance est ouverte à 14 heures sous la présidence du camarade Le Cocq.</p>
+              <p>Le secrétaire donne lecture du compte rendu moral, et le trésorier du compte rendu
+                financier. Ces comptes rendus sont adoptés.</p>
+              <p>Le président fait connaître ensuite les démarches faites par l'U. A. G. pour faire
+                aboutir la demande du relèvement des pensions.</p>
+              <p>Election du Comité d'administration départemental. Sont élus : Le Cocq, président ;
+                Deniel, Kromer, Beneat, Sibiril, secrétaires ; Cueff, trésorier ; Leyer, commissaire
+                aux comptes.</p>
+              <p>Sibiril est désigné comme délégué de la Section à l'Assemblée générale de l'U. A.
+                G.</p>
+              <p>Les vœux suivants ont été adoptés : Considérant que lorsqu'un aveugle est atteint
+                d'un malaise quelconque, celui-ci provient presque toujours du manque d'exercice dû
+                à sa cécité, nous demandons l'application de l'article 64 de la loi</p>
+              <pb n="13"/>
+              <note type="foliation">— 11 —</note>
+              <p>du 31 mars 1919 pour tous les maux provenant directement ou indirectement de notre
+                infirmité (Le Cocq).</p>
+              <p>Que la veuve d'un grand mutilé ait droit à la pension de réversion après un an de
+                mariage, quelle que soit la date à laquelle il ait été contracté. Que si un enfant
+                est né du mariage avant un an, la pension soit réversible à la naissance de cet
+                enfant (Kromer).</p>
+              <p>Que le Bulletin de l'U. A. G. paraisse à date fixe pour permettre aux Sections
+                départementales de s'en servir comme agent de liaison entre le Comité
+                d'administration départemental ou régional et ses membres lorsqu'il aurait des
+                communications à faire.</p>
+              <p>Que la Légion d'honneur soit accordée à titre militaire et non à titre civil.</p>
+              <p>Note du Bureau. - En ce qui concerne la veuve d'un grand mutilé, un projet de loi a
+                été déposé accordant la pension de réversion après un an de mariage ou moins si
+                celui-ci a été rompu par la mort accidentelle de l'époux, et quelle que soit la date
+                du mariage.</p>
+              <p>Pour la Légion d'honneur ainsi que nous l'avons annoncé dans notre Bulletin de
+                juillet, la Chambre avant de se séparer a voté une loi accordant la Légion d'honneur
+                à titre militaire avec traitement aux mutilés de guerre 100% titulaires de la
+                médaille militaire. La question est en instance au Sénat.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">GROUPEMENT DE LA REGION DU
+                NORD</head>
+              <p>Les membres du Bureau du Groupement régional du Nord se sont réunis le 22 juillet
+                1923 dans une salle de l'Institut Industriel de Calais, mise gracieusement à la
+                disposition de l'Union par l'aimable directeur.</p>
+              <p>La séance est ouverte à 10 h .45 sous la présidence de Planquette. Sont présents:
+                Bridoux, Dereinder, Duforest, Hennebicq, Muret. Excusés : M. Donce, trésorier, et M.
+                Bossier. Il est procédé à l'examen des pièces essentielles du courrier, notamment
+                des réponses aux demandes de subvention faites aux Comités départementaux du Nord et
+                du Pas-de-Calais.</p>
+              <p>Mandat est ensuite donné au camarade Bridoux d'entrer en relations avec quelques
+                personnes de Boulogne, susceptibles de s'intéresser au groupement du Nord.</p>
+              <pb n="14"/>
+              <note type="foliation">— 12 —</note>
+              <p>Lecture est ensuite donnée du rapport financier se répartissant comme suit :</p>
+              <p>Recettes Anonyme Roubaix ..... 12 » Mile Hennebicq, Roubaix ..... 10 » M. Jacqmarc,
+                à St-Saulne (Nord) ..... 100 » Total ..... 122 »</p>
+              <p>Dépenses Versé à l'U. A. G. ..... 1220 Frais de bureau ..... 1670 Total ..... 2890
+                Soit au 15 juillet la somme de ..... 9310</p>
+              <p>Plusieurs questions sont ensuite longuement discutées à la suite desquelles les
+                vœux suivants sont émis : 1<hi rend="superscript">°</hi> Que le Conseil
+                d'administration de l'U. A. G. poursuive éner- giquement auprès des Pouvoirs
+                publics, le projet d'augmentation de pension, étant donné que les 8.000 francs
+                alloués en décembre 1921, qui, à cette époque, correspondaient à peu près aux
+                besoins de la vie, sont maintenant notoirement insuffisants. 2<hi rend="superscript"
+                  >°</hi> Que la pension de réversibilité des veuves d'aveugles de guerre soit
+                portée de 500 à 1.200 francs. 3<hi rend="superscript">°</hi> Que les Pouvoirs
+                publics contrôlent d'une façon plus efficace la destination des fonds recueillis au
+                profit des aveugles de guerre par des œuvres mixtes ou des particuliers.</p>
+              <p>Le Bureau fixe ensuite au 30 septembre l'Assemblée générale du Groupemênt.</p>
+              <p>Le Secrétaire : René Hennebicq.' Le Géran! : DecoBnB.</p>
+              <pb n="15"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">CONSEIL D'ADMINISTRATION</head>
+            <p>Président : Izaac ; vice-présidents: Noireaux, Roy Georges, Durat. Secrétaire général
+              : Favret. Trésorier : L'Evesque Gaston. Membres: MM. Amar, Antoine, Arnault, Bardoux,
+              Bois, Bertrand, Cour-zeix-Delage, Dufourc, Grilley, Goubin, Guderin, Heuzé, Laffargue,
+              Lagarde, Lallement, Leloup, Leveau, Malgat, Robert (Maurice), Sainte-Rose, Scapini,
+              Sicault, Toudouri.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">COMITÉ D'ACTION</head>
+            <p>M. François-Marsal, Président d'honneur; M. le Baron de Traversay, Président;</p>
+            <p>Mlle Arbel, Vice-Présidente; M. Meynadier, Vice-Président; M. Oscar Bloch, Secrétaire
+              adjoint; M. de Fleurieu, Trésorier adjoint; M. Auterbe, Actuaire à la Compagnie «
+              1'Union »; M. Marcel Bloch.</p>
+            <p>Mme Boylesve. Mme Broguin. M. Chepfer. M. Pierre Chérot.</p>
+            <p>Mme Chevalier. Mme Contamin. M. Dubranle, Inspecteur des Ecoles de Rééducation</p>
+            <p>Mlle Jalaguier. Mme Kalt. Mme L'Evesque. Mme Lévy-Weiss. M. Mayer.</p>
+            <p>Mme Meyer. Mme Pierre Mouraux. Mme Mus. M. Joseph Roux. M. Sollar.</p>
+            <p>D" Schneider. Mme Valton. Mme Yves.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">COMITÉ D'AIDE</head>
+            <p>Mme Louis Deschamps, présidente ; Mme Leygues ; Mme Le Troquer ; Mme Lhopiteau. Mme
+              J.-L. Lebreton. Mme Marthe Brandès, présidente de l'Abri du Soldat Aveugle.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">Liste des Donateurs</head>
+            <p>Mme Champion, Paris, 500 fr. - M. Paris, Bussière-les-Belmont (Haute-Marne), 250 fr.
+              - Mlle Lacroix, Callas (Var), 50 fr. - Prince d'Essling, Paris, 100 fr. - M. André
+              Roeser, Crécy-en-Brie, 400 fr. - Les élèves de l'école communale de filles,
+              Blanquefort, 27 fr. 20. - Anonyme n <hi rend="superscript">°</hi> 16.075, 30 fr.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

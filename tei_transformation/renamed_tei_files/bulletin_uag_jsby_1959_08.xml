@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 38ème année 1959 n°136</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine privé</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Protection sociale</title>
+        <title type="topic">Associations d'anciens combattants</title>
+        <title type="topic">Réadaptation</title>
+        <title type="topic">Légion d'Honneur</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23,5 X 15,5 cm ; 18 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#braille">Braille</term>
+          <term ref="#livre-parle">Livre parlé</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#invalidite">Invalidité</term>
+          <term ref="#secours">Secours</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin détaille l'assemblée générale de l'Organisation Mondiale pour la Protection
+          Sociale des Aveugles à Rome, mettant en avant l'importance de l'emploi des aveugles dans
+          l'industrie et l'agriculture. Il relate les promotions et nominations à la Légion
+          d'Honneur, notamment celle de L. Serre. Le bulletin fournit des informations sur les
+          activités des sections locales de l'Union, les réunions annuelles, et les actions
+          entreprises pour défendre les droits des aveugles de guerre. Il inclut également des
+          informations pratiques telles que les cotisations, les mises à jour de l'annuaire, et des
+          annonces diverses.</p>
+      </abstract>
+      <creation>
+        <date when="1959-08-01">01/08/1959</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-01-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-01-16" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">CONSEIL D'ADMINISTRATION</ref>
+          </item>
+          <item>
+            <ref target="#h4">ASSEMBLÉE GÉNÉRALE DE L'ORGANISATION MONDIALE POUR LA PROTECTION
+              SOCIALE DES AVEUGLES</ref>
+          </item>
+          <item>
+            <ref target="#h5">LE PROGRES AU SERVICE DES AVEUGLES</ref>
+          </item>
+          <item>
+            <ref target="#h6">APRES LES GRANDES VACANCES</ref>
+          </item>
+          <item>
+            <ref target="#h7">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h8">NOTRE CAMARADE SERRE EST GRAND CROIX DE LA LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h9">INFORMATIONS</ref>
+            <list>
+              <item>
+                <ref target="#h10">A L'ATTENTION DE NOS AUTOMOBILISTES</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h11">" LE LIVRE PARLÉ "</ref>
+          </item>
+          <item>
+            <ref target="#h12">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h13">APPORT DE SECTION</ref>
+              </item>
+              <item>
+                <ref target="#h14">SECTION REGIONALE D'AUVERGNE Réunion annuelle du 27 juin
+                  1959</ref>
+              </item>
+              <item>
+                <ref target="#h15">SECTION DE PICARDIE Réunion annuelle du 13 juin 1959</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h16">POUR TENIR L'ANNUAIRE A JOUR</ref>
+          </item>
+          <item>
+            <ref target="#h17">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h18">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h19">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h20">COTISATIONS</ref>
+          </item>
+          <item>
+            <ref target="#h21">COTISATIONS reçues du 5 juillet au 10 septembre 1959 inclus</ref>
+            <list>
+              <item>
+                <ref target="#h22">COTISATIONS ORDINAIRES (200 francs)</ref>
+              </item>
+              <item>
+                <ref target="#h23">COTISATIONS VOLONTAIRES</ref>
+              </item>
+              <item>
+                <ref target="#h24">COTISATIONS VOLONTAIRES DISCOTHEQUE</ref>
+              </item>
+              <item>
+                <ref target="#h25">COTISATIONS VOLONTAIRES BIBLIOTHEQUE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h26">RACHAT DE COTISATION (2.000 francs)</ref>
+          </item>
+          <item>
+            <ref target="#h27">CAISSE PREVOYANCE</ref>
+          </item>
+          <item>
+            <ref target="#h28">PETITE ANNONCE</ref>
+          </item>
+          <item>
+            <ref target="#h29">LISTE DES MEMBRES DU COMITÉ D'ACTION</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">38e Année. — N° 136</fw>
+          <fw type="header">
+            <hi rend="underline">AOUT-SEPTEMBRE 1959</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Assemblée générale : organisation mondiale pour la protection sociale des
+                      aveugles.</item>
+                    <item>Le progrès au service des aveugles.</item>
+                    <item>Après les grandes vacances.</item>
+                    <item>Légion d'honneur.</item>
+                    <item>Informations.</item>
+                    <item>Livre Parlé.</item>
+                    <item>Dans nos sections.</item>
+                    <item>Pour tenir l'annuaire à jour.</item>
+                    <item>Naissances. Mariages. Décès.</item>
+                    <item>Cotisations.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CONSEIL D'ADMINISTRATION</head>
+            <p>BUREAU</p>
+            <p>Président : H. AMBLARD. Vice-Présidents : H. GUESPEREAU, E. GUILLAM, Y. JEZEQUEL.
+              Secrétaire général : R. COUESNON. Trésorier : G. L'EVESQUE.</p>
+            <p>MEMBRES</p>
+            <p>P. BODIN, P. BOIS, P. CATTAERT, J. CERE-LABOURDETTE, A. CHALENDAR, E. CHAPAS, E.
+              CORNU, P. DERUNDER, P. DUC, A. FAUVEL, R. FAVRET, Y. GUIBERT, A. LAFFARGUE, D. LEVEAU,
+              G. MULLER, J. NICOLAI, G. OLIE, A. PAGENEL, C. PANTERNE, M. RAVELEAU, G. ROBIN, G ROY,
+              C. SATGE, P. SIBIRIL.</p>
+            <pb n="3"/>
+          </div>
+          <fw>38e Annee. - N° 136 AOUT-SEPTEMBRE 1959</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">ASSEMBLÉE GÉNÉRALE DE
+              L'ORGANISATION MONDIALE POUR LA PROTECTION SOCIALE DES AVEUGLES</head>
+            <p>L'Organisation Mondiale pour la Protection sociale des Aveugles a tenu son assemblée
+              générale à Rome du 21 au 31 juillet, la précédente ayant eu lieu à Paris en 1954. Ce
+              Conseil Mondial, rattaché à I'O.N.U., groupe aujourd'hui quarante-huit nations où des
+              Associations d'Aveugles, ou pour Aveugles, s'emploient à améliorer le sort des
+              victimes de la cécité. Certes ceci n'est pas essentiellement un problème à caractère
+              ancien combattant, cependant de nombreux aveugles de guerre, de par leurs
+              Associations, sont intéressés à la bonne marche du Conseil Mondial.</p>
+            <p>L'O.M.P.S.A. a établi ses statuts en 1951 sous la loi française, et son siège est à
+              Paris. Par cet été brûlant en la Ville Eternelle, les travaux de la seconde assemblée
+              générale s'effectuèrent néanmoins avec régularité.</p>
+            <p>Le thème du Congrès était l'emploi des aveugles dans l'industrie et dans
+              l'agriculture. Pcur un pays comme la France la question n'est pas nouvelle, la patrie
+              de Valentin Haüy et Louis Braille ayant, depuis longtemps, abordé ce problème
+              difficile à résoudre. Les industriels et employeurs devraient, en ce domaine, montrer
+              plus de confiance vis-à-vis d'aveugles qui sont, pour la plupart, capables de tenir
+              certains postes occupés par des voyants.</p>
+            <p>Dans les pays en voie de développement, tout est à faire et l'expérience du vieux
+              Continent est à plus d'un titre précieuse pcur ceux qui ont besoin d'aide, d'appui et
+              de conseils. Nous avons <pb n="4"/>
+              <note type="foliation">— 4 —</note> vu avec plaisir se joindre à nous des délégués de
+              la Pologne, de la Tchécoslovaquie et de l'Allemagne de l'Est, et il est souhaitable,
+              et même probable, que l'on arrive à l'universalité du mouvement aveugle comme le
+              désirent ceux qui participent aux réunions de la F.M.A.C.</p>
+            <p>La délégation française était très heureuse de recevoir à Rome les encouragements de
+              M. Palewski, notre ambassadeur, et de M. Deltour, notre consul. Tous les congressistes
+              ont eu la joie d'être admis en audience particulière par S.S. Jean XXIII, et les sept
+              membres du Bureau eurent l'honneur d'être reçus par le Président Gronchi. On voit
+              ainsi l'intérêt que suscita cette assemblée.</p>
+            <p>L'hommage rendu en séance plénière à Louis Braille a touché notre cœur de Français.
+              Au cours des dernières conflagrations de nombreux aveugles de guerre ont ou être
+              rééduqués grâce au Braille, reprenant ainsi une place honorable dans la société ; et
+              combien plus nombreux encore sont ceux qui, dans le monde, ont pu s'instruire
+              complètement et occuper dans leurs pays des postes qu'ils n'auraient pu atteindre sans
+              l'invention géniale de notre compatriote. La maison natale de ce grand aveugle,
+              bienfaiteur de ses semblables, est devenue maintenant le point de ralliement de tous
+              les aveugles du monde. Une souscription mondiale est ouverte pour l'entretien de cette
+              maison à Coupvray (S.-et-M.), qui est devenue un musée. Notre ami Raverat (président),
+              M. Renaux (aveugle de guerre), M. Ingalls, M. le Maire de Coupvray et moi-même formons
+              le Comité.</p>
+            <p>D'autre part, le Bureau du Conseil Mondial a été constitué ainsi qu'il suit, pour
+              cinq ans :</p>
+            <p>Col. Baker (Canada), président ; vice-présidents: Professeur Bentivoglio (Italie), M.
+              Boulter (U.S.A.), M. Coligan (GrandeBretagne), Docteur Strehl (Allemagne), M. Uzelac
+              (Yougoslavie), M. Dassanaike (Ceylan) ; secrétaire général : M. Jarvis ; trésorier :
+              H. Amblard (France), tous aveugles, sauf un.</p>
+            <p>Donc, si tout ce problème des aveugles n'est pas complètement une question A. C.,
+              nous ne doutons pas que son côté social intéressera nos camarades. H. AMBLARD.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">LE PROGRES AU SERVICE DES
+              AVEUGLES</head>
+            <p>Pendant les vacances, j'ai eu le plaisir de rencontrer un camarade avec qui je fis,
+              il y a bien longtemps, ma rééducation. Seul aveugle de guerre dans sa région, il
+              habite un bourg de montagne que la neige et le froid isolent souvent l'hiver.</p>
+            <p>Ce camarade m'a dit sa joie de recevoir régulièrement les envois de notre
+              bibliothèque et de notre studio. Ce qui me semble intéressant de signaler ici, c'est
+              que grâce au magnétophone dont il est possesseur, il échange sur bandes directement,
+              avec d'autres membres de l'Union, des renseignements, des impressions de lecture, des
+              nouvelles familiales, etc. Les distances sont abolies et des voix amies pénètrent
+              ainsi dans les foyers, l'un envoie de son Midi un peu de chaleur et de soleil, l'autre
+              décrit la beauté majestueuse de ses montagnes. C'est donc là une possibilité
+              supplémentaire qui leur permet de resserrer les liens qui nous unissent tous.</p>
+            <p>Le progrès va vite de notre temps et nous avons une certaine peine à comprendre ce
+              qu'était la vie des enténébrés il y a un siècle, avant Louis Braille, qui commença
+              leur libération.</p>
+            <p>Souhaitons qu'à son tour la science, dans le domaine de la médecine, parvicune à
+              diminuer le nombre de ceux qui ignorent ou qui ont perdu la lumière. R. C.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">APRES LES GRANDES VACANCES</head>
+            <p>Quand ce Bulletin vous parviendra, les grandes vacances, favorisées cette année par
+              un temps magnifique, ne seront plus qu'un souvenir. Elles auront été d'ailleurs
+              abrégées pour beaucoup de familles en raison de la rentrée des classes à la
+              mi-septembre.</p>
+            <p>Naturellement, nos trois centres de repos d'Amélie, de Carnolès et de Franceville ont
+              été occupés en totalité, ce qui a permis à une centaine de familles d'y trouver repos
+              et bon air, dans une ambiance amicale</p>
+            <p>Un certain nombre de camarades nous ont fait part du plaisir que leur a procuré leur
+              séjour dans nos maisons, toutes agréablement situées.</p>
+            <p>Pour les mois d'hiver, nos camarades désirant se reposer à Carnolès et à Amélie ont
+              intérêt à nous adresser le plus tôt possible leur demande.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">LEGION D'HONNEUR</head>
+            <p>Nous avons le plaisir de faire part à nos camarades des promotions et nomination dans
+              l'ordre de la Légion d'Honneur :</p>
+            <p><list>
+                <item>A la dignité de : <list>
+                    <item>Grand-Croix Serre Léon.</item>
+                    <item>Grand Officier Sabiani Xavier.</item>
+                  </list></item>
+                <item>Aux grades de : <list>
+                    <item>Commandeur Céré-Labourdette Jean. </item>
+                    <item>Chevalier Fraysse Félix.</item>
+                  </list></item>
+              </list> Nous leur adressons nos très sincères félicitations.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">NOTRE CAMARADE SERRE EST GRAND
+              CROIX DE LA LEGION D'HONNEUR</head>
+            <p>Le Journal Officiel du 16 juillet 1959 nous apprend l'élévation à la dignité de Grand
+              Croix dans l'ordre de la Légion d'Honneur de notre camarade L. Serre, président de
+              notre section du Morbihan.</p>
+            <p>C'est la première fois qu'un aveugle de guerre se voit élevé à la plus haute dignité
+              dans l'ordre et nous ne voulons pas manquer de souligner le fait. Les titulaires du
+              Grand Cordon ne sont pas très nombreux, cette distinction étant réservée à quelques
+              hautes personnalités de la nation et nous sommes heureux de constater que l'on admet
+              un très grand mutilé parmi ces hauts dignitaires. Il y a là un symbole qui place ceux
+              qui ont le plus souffert pour la patrie au premier rang des citoyens.</p>
+            <p>Notre ami Serre est, en effet, un très grand mutilé, ce qui ne l'empêche pas de se
+              consacrer à nos camarades du Morbihan, dont il préside la section.</p>
+            <p>Nous avons eu connaissance des éloges que la presse de ce département faisait à
+              l'égard de notre camarade et je pense que Serre ne sera pas moins touché par les
+              félicitations que nous lui adressons au nom de tous nos camarades. H. A.</p>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">INFORMATIONS</head>
+            <p>M. le Ministre des Anciens Combattants et Victimes de Guerre a reçu en audience, le 9
+              juillet le Comité d'Entente des Grands Invalides, auquel s'était joint le président de
+              l'U.F.A.C., P. Manet.</p>
+            <p>Il a été rappelé au Ministre les desiderata des associations et, en ce qui nous
+              concerne, les principaux vœux adoptés par notre assemblée générale.</p>
+            <p>Le Ministre a déclaré qu'il était très au courant de nos justes revendications et
+              s'est dit prêt à les satisfaire dans la limite des crédits qui lui seraient accordés
+              dans le budget de 1960.</p>
+            <p>Le président Amblard et le secrétaire général Couesnon représentaient l'U.A.G. à
+              cette audience.</p>
+            <p>La 2<hi rend="superscript">°</hi> D.B., que préside Mme la Maréchale Leclerc, a fait
+              célébrer le dimanche 23 août, en la cathédrale Notre-Dame de Paris, une messe
+              solennelle à l'occasion du quinzième anniversaire de la libération de la capitale</p>
+            <p>Répondant à l'invitation qui lui avait été adressée, l'U.A.G. a été représentée à
+              cette cérémonie par deux membres du Bureau.</p>
+            <p>Notre drapeau et deux membres du Bureau ont représenté l'U.A.G. le 2 septembre, à la
+              cérémonie qui s'est déroulée à l'Arc de Triomphe, au cours de laquelle le général
+              Eisenhower, président des Etats-Unis et ancien commandant en chef des armées alliées,
+              a ranimé la flamme en présence du Général de Gaulle et des autorités civiles et
+              militaires.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">A L'ATTENTION DE NOS
+                AUTOMOBILISTES</head>
+              <p>Une plaque ovale métallique, portant les lettres G.I.G. (Grands Invalides de
+                Guerre), émaillées noires sur fond jaune, pourra être apposée à l'avant et à
+                l'arrière des voitures automobiles de tourisme appartenant aux grands mutilés de
+                guerre, réformés à 85% au moins, possesseurs de la carte d'invalidité à double barre
+                (rouge ou bleue) avec mention "Station debout pénible».</p>
+              <p>Ces plaques, visibles de très loin, sont destinées à attirer l'attention des agents
+                de l'autorité et permettront à ces derniers de mani- <pb n="8"/>
+                <note type="foliation">— 8 —</note> fester une bienveillance particulière à l'égard
+                des grands invalides qui utiliseront personnellement le véhicule.</p>
+              <p>Le port de ces plaques ne dispense pas l'usager de l'observation stricte des
+                prescriptions du Code de la Route et des décisions municipales concernant la
+                circulation.</p>
+              <p>Les plaques G.I.G. ne doivent pas être visibles lorsque l'automobile n'est pas
+                occupée par le mutilé en personne. Dans ce cas, des caches noirs caoutchoutés
+                devront être placés sur les plaques pour en dissimuler l'inscription (ces caches
+                sont livrés avec les plaques).</p>
+              <p>Celles-ci seront numérotées et répertoriées. Un contrôle sévère sera établi et le
+                droit à l'apposition de ces plaques pourra être retiré à tout moment en cas de
+                fraude constatée.</p>
+              <p>Elles seront envoyées à tout grand invalide qui en fera la demande à l'U.A.G.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">" LE LIVRE PARLÉ "</head>
+            <p>L'Union italienne des Aveugles nous a fait parvenir le catalogue de sa bibliothèque
+              sonore composée uniquement de bandes magnétiques en 9,5 cm.(du même type que
+              les bandes de l'U.A.G.).</p>
+            <p>Ce catalogue comporte environ 125 ouvrages en italien. Ceux de nos camarades qui
+              seraient intéressés par ce fonds étranger sont priés de nous en informer. Nous leur
+              ferons parvenir le catalogue et le moyen d'obtenir le prêt des bandes magnétiques
+              italiennes.</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h13">APPORT DE SECTION</head>
+              <p>Section régionale : Haut-Rhin, Bas-Rhin, Moselle (Président : G. Freidinger.) Nous
+                adressons à son Président et à ses collaborateurs nos plus vifs remerciements.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">SECTION REGIONALE D'AUVERGNE
+                Réunion annuelle du 27 juin 1959</head>
+              <p>La séance est ouverte à 10 heures. Sont présents, les camarades : Roux, Raynal,
+                Maguet, Lardans, Cassat, Arribat, Bellot, Longeagne, Coutarel, Flandias, Dumas,
+                Barnabé, Ezard, Barbier, Pagenel.</p>
+              <p>Assistait à la séance le camarade Gallard. Se sont excusés : les camarades
+                Desseignes, Pialous, Janton, Chagniaud, Tabart et Granger.</p>
+              <p>En ouvrant la séance, Pagenel informe l'assemblée que depuis la précédente réunion,
+                la section avait eu la douleur de perdre trois de ses membres: les camarades
+                Bonnichon, de l'Allier, Guillaume, de Clermont-Ferrand et Quittanson, de La
+                Chaise-Dieu. Le Président renouvelle aux familles des chers disparus les sincères
+                condoléances de la section et demande aux assistants d'observer une minute de
+                silence en mémoire de leurs camarades.</p>
+              <p>Pagenel remercie ensuite le vice-président Guillam d'avoir bien voulu accepter de
+                venir pour la deuxième fois représenter l'Union à la réunion anmuelle de la section;
+                il l'assure que tous les camarades éprouvent pour lui une sincère amitié et ils lui
+                sont reconnaissants pour l'activité qu'il déploie depuis de longues années au sein
+                du Bureau pour la défense des intérêts des aveugles de guerre.</p>
+              <p>Pagenel lui exprime également les regrets de tous, que Mme Guillam, pour raison de
+                santé n'ait pu accompagner son mari et il le charge de lui présenter en même temps
+                que les hommages des membres de la section, leurs vœux de prompte et complète
+                guérison.</p>
+              <pb n="10"/>
+              <note type="foliation">— 10 —</note>
+              <p>Le vice-président Guillam remercie et exprime tout le plaisir qu'il éprouve de se
+                retrouver parmi les camarades d'Auvergne et leur transmet le salut du Bureau de
+                l'Union ; il dit tout l'intérêt que le Siège central porte au bon fonctionnement des
+                sections qui permettent aux dirigeants de l'Union de maintenir un contact plus
+                étroit avec les camarades de province. Il remercie aussi l'assemblée pour les vœux
+                adressés à Mme Guillam.</p>
+              <p>Il est donné lecture du rapport moral décrivant les principales actions de la
+                section au cours de l'exercice. Ce rapport est adopté à l'unanimité.</p>
+              <p>Mme Chautard, trésorière, fait lecture de la situation financière qui montre un
+                excédent de recettes satisfaisant ; elle est adoptée à l'unanimité. Pagenel remercie
+                Mme Chautard pour sa fidèle collaboration.</p>
+              <p>Mme Pagenel communique la liste des membres de la section qui ont cotisé en 1958
+                pour la Caisse de secours après décès. Le montant de celui-ci est maintenu à 15.000
+                francs.</p>
+              <p>Le Président fournit quelques explications sur la participation à la Journée des
+                Cannes Blanches; il précise que la section a montré jusqu'ici beaucoup de discrétion
+                dans cette manifestation.</p>
+              <p>Pagenel, ayant eu connaissance de certaines difficultés rencontrées par un camarade
+                soumis à la double cotisation à la Sécurité sociale, expose sa situation et regrette
+                que la question n'ait pas encore été mise au point. Guillam ajoute quelques
+                précisions utiles et l'assemblée émet le vœu : 1<hi rend="superscript">°</hi> que le
+                décret supprimant la double cotisation soit rapidement mis à exécution; 2<hi
+                  rend="superscript">°</hi> que les grands invalides soumis à cette double
+                cotisation soient dispensés du ticket modérateur; 3<hi rend="superscript">°</hi> que
+                la retenu de 3.000 francs leur soit rendue.</p>
+              <p>L'ordre du jour appelle l'élection des membres du Conseil d'administration. Le
+                camarade Chagniaud, pour raisons de santé, a fait connaître qu'il ne demandait pas
+                le renouvellement de son mandat. En conséquence, le camarade Raynal a posé sa
+                candidature. Ont été élus les camarades : Ezard, Granger, Maguet, Pagenel, Raynal,
+                Roux, Tabart. Mme Chautard est réélue trésorière et Mme Pagenel, trésorière
+                adjointe.</p>
+              <p>Guillam, dans un exposé clair et documenté, retrace l'action du Bureau de l'Union
+                pour obtenir la revalorisation de la cécité et l'amélioration de la situation des
+                veuves de grands invalides. Il indique l'espoir que certaine promesse du
+                Gouvernement précédent avait fait naître et la déception éprouvée lors de la
+                disparition du crédit qui semblait nous être destiné. Il parle de toutes les
+                démarches effectuées auprès des autorités compétentes pour obtenir la réparation de
+                l'injustice dont les aveugles sont victimes et assure l'assemblée qu'aucun effort ne
+                sera épargné pour aboutir. Guillam cite les œuvres sociales entreprises par l'Union:
+                maisons de repos, rééducation des jeunes <pb n="11"/>
+                <note type="foliation">— 11 —</note> aveugles, discothèque, bibliothèque Braille,
+                service des prêts consentis par notre grande Association. Il expose également la
+                situation de Boulleville qui, cette année, restera fermé. Il termine en faisant le
+                vœu que tous les camarades comprennent qu'il est de leur devoir et de leur intérêt
+                d'assister aux réunions des sections, afin de renforcer au maximum l'autorité de
+                l'Union.</p>
+              <p>Cette allocution est vivement applaudie. Pagenel remercie Guillam, au nom des
+                assistants, pour toutes les précisions qu'il a données et qui ont intéressé les
+                camarades.</p>
+              <p>Election du Bureau : président, Pagenel ; vice-président, Raynal ; secrétaire
+                général, Maguet ; trésorière, Mme Chautard ; trésorière adjointe, Mme Pagenel.</p>
+              <p>Les assistants se rendent ensuite à l'Hôtel Terminus, où un excellent déjeuner fut
+                servi et où Pagenel, Roux et Guillam prirent la parole. Les camarades eurent
+                également le plaisir d'entendre le disque du quarantième anniversaire et tous
+                manifestèrent leur satisfaction, heureux de la bonne journée passée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">SECTION DE PICARDIE Réunion
+                annuelle du 13 juin 1959</head>
+              <p>La section de Picardie a tenu sa sixième assemblée générale annuelle le samedi 13
+                juin, dans les Salons Godbert, rue des Jacobins, à Amiens.</p>
+              <p>Notre secrétaire général Couesnon avait accepté de venir représenter le Bureau de
+                Paris. L'Union départementale de l'U.F.A.C. avait délégué son vice-président Pillon.
+                Les camarades Wéber et Derunder manifestaient, par leur présence, la sympathie
+                qu'ils portent à la section picarde.</p>
+              <p>La réunion commença par l'audition du disque reproduisant la cérémonie du
+                quarantième anniversaire et permit à l'assistance d'entendre les discours du
+                président Amblard, du Maréchal Juin et de M. Michelet, ministre des Anciens
+                Combattants à l'époque.</p>
+              <p>Après les remerciements d'usage et les souhaits de bienvenue, le président Cornu
+                fit observer une minute de silence en hommage aux morts de l'Association et aux
+                membres de leurs familles. Il exposa ensuite, dans son rapport moral, le bilan de
+                son activité depuis la dernière assemblée, puis fit procéder à la lecture du rapport
+                financier. Les deux rapports furent adoptés à l'unanimité.</p>
+              <pb n="12"/>
+              <note type="foliation">— 12 —</note>
+              <p>Quatre vœux relatifs au rétablissement de la hiérarchie dans l'indemnisation des
+                invalidités, à l'amélioration du sort des veuves, au rétablissement de la retraite
+                des anciens combattants et à l'indemnisation des grades militaires de carrière,
+                ainsi qu'une motion de confiance en faveur du Bureau national furent également
+                adoptés.</p>
+              <p>Le Comité d'administration fut réélu ; président: Cornu; viceprésident: Planquette
+                ; secrétaire: Degrège ; trésorier: Maton; membres : Chellé et Rosant ; secrétaire
+                trésorier adjoint : Mme Cornu.</p>
+              <p>Courson rappela l'action sociale du Bureau de Paris, notamment dans le domaine de
+                la rééducation de nos jeunes blessés d'Algérie, du «Livre-Parlé » et des maisons de
+                repos.</p>
+              <p>Philippe Randazzo reçut la Croix de Chevalier de la Légion d'Honneur des mains du
+                président Cornu. Notre jeune camarade fut très applaudi et chaudement félicité.</p>
+              <p>Notre Secrétaire général procéda ensuite à la remise du drapeau de la section et
+                Cornu précisa que cet emblème devait être pour tous le rappel de leur devoir, mais
+                aussi la volonté de manifester leur présence et de défendre leurs droits.</p>
+              <p>Un repas amical clôtura cette magnifique journée. Au dessert, le représentant de
+                l'U.F.A.C. manifesta sa satisfaction de se trouver parmi les aveugles de guerre et
+                insista sur la nécessité pour les anciens combattants de maintenir leur union. Notre
+                Secrétaire général, ainsi que Mme Couesnon, emportaient un très bon souvenir de
+                cette magnifique journée, qui fut réconfortante pour tous.</p>
+              <pb n="13"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">POUR TENIR L'ANNUAIRE A
+              JOUR</head>
+            <p>Picot Georges, rue Augustin-Lemercier, Doudeville (SeineMaritime).</p>
+            <p>Toutain Paul, rue de la Gare, Briouze (Orne). Perrotey Jean, 2, rue du Neuf-Moulin,
+              Mirccourt (Vosges). Dupont Eugène, 71, rue de l'Eglise, Boisguillaume
+              (SeineMaritime).</p>
+            <p>Combret Ernest, avenue Desmazures, Sanary-sur-Mer (Var). Anglade Jean-Pierre, 12, rue
+              Hippolyte-Bottier, Compiègne (Oise). Midenet Edouard, 115, rue des Ecoles, quartier
+              Beauséjour, Casablanca.</p>
+            <p>Maritannes André, 76, rue du Général-de-Gaulle, Wormhout (Nord).</p>
+            <p>Ranc Cyprien, lotissement Pré-d'Arens, 25, rue A, Montpellier (Hérault).</p>
+            <p>A propos de notre Annuaire, nous ne saurions trop recommander à nos camarades de
+              conserver précieusement et de prendre soin de notre numéro de juillet (couverture
+              orange), contenant la liste de nos camarades avec leurs adresses.</p>
+            <p>Cet ouvrage, dont le prix de revient est assez onéreux, ne pourra être réédité avant
+              quelques années.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">MARIAGES</head>
+            <p>Nous apprenons le mariage de : Notre camarade Hervé Bardou, de Montredon-Labessonnié
+              (Tarn), avec Mlle Renée Saussaye, le 22 août 1959.</p>
+            <p>Claude, fils de notre camarade François Huet, de Châteaugiron (Ille-et-Vilaine), avec
+              Mlle Annick Legendre, le 29 juin 1959.</p>
+            <p>Jean-Marie, fils de notre camarade Loquin, du Mans (Sarthe), avec Mlle Genevière
+              Mallit, le 11 juillet 1959.</p>
+            <p>Gérard, fils de notre camarade Victor Salmon, de Champigny-sur-Marne (Seine), avec
+              Mlle Jacqueline Grimoin, le 25 juillet 1959.</p>
+            <p>André, fils de notre camarade Henri Brottes, de Dorignies (Nord) avec Mlle Yvette
+              Gravelotte, le 11 juillet 1959.</p>
+            <p>Marvanick, fille de notre camarade Guy Thépault, de Huelgoat (Finistère), avec M.
+              Jacques Tilly, le 1<hi rend="superscript">er</hi> septembre 1959.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+            <p>Philippe, fils de notre camarade Albert Vivin, de Metz (Moselle), avec Mlle Hélène
+              Schmeisser, le 5 septembre 1959.</p>
+            <p>Andrée, fille de notre camarade Cachet, décédé, de Crépieux-la-Pape (Ain), avec M.
+              Camille Biard, le 13 juin 1959.</p>
+            <p>Nous adressons nos bied vives félicitations à nos camarades et nos vœux de bonheur
+              aux jeunes époux.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">NAISSANCES</head>
+            <p>Nous apprenons avec plaisir la naissance de : Cécile, fille de notre camarade Jacques
+              Engelmann, de Paris, le 7 juillet 1959.</p>
+            <p>Dominique-Michel, fils de notre camarade Michel Grabianski, de Château-Landon
+              (Seine-et-Marne), le 9 août 1959.</p>
+            <p>Christian, fils de notre camarade Robert Ruppert, de Paris-13, le 30 août 1959.</p>
+            <p>Fabienne Russérr, petite-fille de notre regretté camarade Carasson, de Marseille
+              (Bouche-du-Rhône), le 21 juin 1959.</p>
+            <p>Didier, petit-fils de notre camarade Maurice Segrt, de EsmeryHallon (Somme), juillet
+              1959.</p>
+            <p>Bruno-Gérard, petit-fils de notre camarade Girallt, d'Henrichemont, le 14 août
+              1959.</p>
+            <p>Marc-Henri, petit-fils de notre camarade René Pons, de Saint-Clair, Sète (Hérault),
+              le 28 juillet 1959.</p>
+            <p>Nous adressons nos bien vives félicitations à nos camarades et nos vœux de prospérité
+              aux bébés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">DECES</head>
+            <p>Nous avons à déplorer le décès de nos camarades : Chanson Gabriel (14-18), de
+              Velars-sur-Ouche (Côte-d'Or), le 2 juillet 1959.</p>
+            <p>Seeracher Albert (14-18), de Fontenay par Saint-Satur (Cher), le 12 juillet 1959.</p>
+            <p>Espiard Raoul (14-18), de Pont-l'Abbé (Finistère), le 1<hi rend="superscript">er</hi>
+              juillet 1959.</p>
+            <p>Arendt Lucien (14-18), de Metz (Moselle), le 13 juillet 1959.</p>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+            <p>Mathieu Camille (39-45), de Anduze (Gard), le 15 juillet 1959 (accident).</p>
+            <p>Laporte Ernest (14-18), de Oradour (Cantal), le 28 juillet 1959. Beaudure Simon
+              (14-18), de Payzac (Dordogne), le 26 juillet 1959.</p>
+            <p>Boulfroy Ludovic (14-18), de Plancy (Aube), le 13 août 1959. Frasse Jean (14-18), de
+              Saurat (Ariège), le 15 août 1959. Moisan Mathurin (14-18), de Pluvignier (Morbihan),
+              le 25 août 1959.</p>
+            <p>Ben Belaid Mohamed (14-18), de Aflou (Oran), le 31 août 1959. Petitpeix Léon (14-18),
+              de Logé par Bonnac-la-Côte (HauteVienne), le 22 août 1959.</p>
+            <p>La femme de notre camarade Perot Jean, de Paris-16', le 18 juillet 1959.</p>
+            <p>La femme de notre camarade Duplan Ferdinand, d'Orange (Vaucluse), le 24 août
+              1959.</p>
+            <p>Le beau-père de notre camarade Secret Maurice, de Esmery-Hallon (Somme), M. Paul
+              Pfanner, de Kingersheim (Haut-Rhin), juillet 1959.</p>
+            <p>La petite-fille, Monique Lalande (13 ans), de notre camarade Léon Dupont, de la
+              Queue-les-Yvelines (Seine-et-Oise), le 27 juillet 1959.</p>
+            <p>Nous adressons aux familles éprouvées notre affectueuse sympathie.</p>
+            <pb n="16"/>
+            <note type="foliation">— 16 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">COTISATIONS</head>
+            <p>Afin d'éviter des erreurs, nous demandons instamment aux camarades de préciser sur
+              leurs règlements la destination exacte de leur envoi.</p>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">COTISATIONS reçues du 5 juillet
+              au 10 septembre 1959 inclus</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">COTISATIONS ORDINAIRES (200
+                francs)</head>
+              <p>Beaufils Jean. Deleey François. Demarthe Léon. Fabre Antoine. Greff Joséphine
+                (Mme). Hilt Lucien. Pasquet Jean. Saïah Tahar ( 1.000 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">COTISATIONS
+                VOLONTAIRES</head>
+              <p>Avec reconnaissance, nous recevons également des dons de la part des veuves de nos
+                camarades ; toutefois, nous leur rappelons qu'elles sont exemptes de toute
+                cotisation annuelle.</p>
+              <p>Beaufils Jean ( 300 fr.) Combarré (Vve) ( 1.000 fr .). Glorieux Adolphe ( 325 fr.)
+                ; Guillam Edmond ( 1.000 fr.). Mittelhauser Eugène ( 1.750 fr.). Pasquet Jean ( 550
+                fr.) ; Perchat Roger ( 1.000 fr.). Teillet Alphonse ( 500 fr.) ; Trémège Emile ( 475
+                fr.).</p>
+              <pb n="17"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">COTISATIONS VOLONTAIRES
+                DISCOTHEQUE</head>
+              <p>Barbaux Arthur ( 300 fr.). Fleury Julien ( 1.000 fr.) ; François Maurice ( 500
+                fr.). Louis Robert ( 500 fr.). Virot Georges ( 500 fr.).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">COTISATIONS VOLONTAIRES
+                BIBLIOTHEQUE</head>
+              <p>Saïah Tahar ( 500 fr.). Nous sommes très sensibles aux cotisations volontaires que
+                certains camarades veulent bien nous adresser; leur geste de solidarité nous prouve
+                leur sentiment d'attachement à l'U.A.G. et nous les en remercions bien vivement.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">RACHAT DE COTISATION (2.000
+                francs)</head>
+              <p>Perehat Roger.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">CAISSE PREVOYANCE</head>
+              <p>Pasquet Jean.</p>
+              <pb n="18"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">PETITE ANNONCE</head>
+            <p>«UN RIVESALTES»</p>
+            <p>Le meilleur des apéritifs Le plus reconstituant des vins doux naturels Livré
+              directement du producteur au consommateur Expédié en fûts, bonbonnes (consignés) ou en
+              bouteilles</p>
+            <p>Franco de port, exempt de toutes taxes S'adresser à M. Toutain, aveugle de guerre,
+              Briouze (Orne)</p>
+            <pb n="19"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">LISTE DES MEMBRES DU COMITÉ
+              D'ACTION</head>
+            <p>Présidents: le Maréchal et Mme la Maréchale JUIN. Vice-Président : M <hi
+                rend="superscript">°</hi> MASSON. Vice-Présidentes : Mmes CONTAMIN et DU BOS.
+              Secrétaire : M. COLLIER. Vice-Présidente honoraire : Mlle ARBEL. Trésorier honoraire :
+              M. MAYER.</p>
+            <p>MEMBRES</p>
+            <p>Mlle BOUILLON, Mme BRISSET, M<hi rend="superscript">e</hi> BRULLIARD, MM. DE CHAUMONT - QUITRY, CHEPFER,
+              Mme COLLIER, D' COUTELA, Mme DIAN, M. GUICHARD, Mlle JALAGUIER, Mme LACOURTE, Mlle
+              LEDOUX, D' RICORD, Mmes ROUX, TALBOT, MM. CARRUT, délégué au Brésil, DUBERNARD,
+              délégué au Mexique, le Président de l'Association des Anciens Combattants Français en
+              Argentine.</p>
+          </div>
+        </div>
+        <fw>Le Gerant : G. L'EVESQUE Imp. Dubois et Baver - Paris</fw>
+        <pb n="20"/>
+      </div>
+    </body>
+  </text>
+</TEI>
