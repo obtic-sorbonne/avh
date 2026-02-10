@@ -1,0 +1,1289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 20ème année 1938 n°1</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Bien-être</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>23 X 15,5 cm ; 32 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#rajustement">Rajustement</term>
+          <term ref="#anciens-combattants">Anciens Combattants</term>
+          <term ref="#valentin-hauy">Valentin Haüy</term>
+          <term ref="#concerts">Concerts</term>
+          <term ref="#inauguration">Inauguration</term>
+          <term ref="#statut-du-grand-invalide">Statut du Grand Invalide</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde divers sujets tels que le
+          rajustement des pensions, les activités et événements organisés par l'union, des visites
+          et rencontres avec d'autres associations d'anciens combattants, et des articles sur
+          l'avenir et le bien-être des aveugles de guerre. Il inclut également des informations sur
+          l'Association Valentin Haüy et ses initiatives pour les aveugles civils. Le bulletin vise
+          à informer et à soutenir les membres de l'union et à promouvoir la solidarité entre les
+          anciens combattants.</p>
+      </abstract>
+      <creation>
+        <date when="1938-01-01">01/01/1938</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-02-10" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-02-04" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h4">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h5">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h6">BONNE ANNÉE</ref>
+          </item>
+          <item>
+            <ref target="#h7">INFORMATION URGENTE</ref>
+          </item>
+          <item>
+            <ref target="#h8">RAJUSTEMENT DES PENSIONS</ref>
+            <list>
+              <item>
+                <ref target="#h9">ANALYSE DE L'ACTION MENEE POUR LE RAJUSTEMENT DES PENSIONS</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h10">AVENIR</ref>
+          </item>
+          <item>
+            <ref target="#h11">CHEZ LES ANCIENS COMBATTANTS BELGES A PARIS</ref>
+          </item>
+          <item>
+            <ref target="#h12">REMISE DE LA ROSETTE A GEORGES RIVOLLET</ref>
+          </item>
+          <item>
+            <ref target="#h13">VISITE DU BUREAU DE L'U.N.C.</ref>
+          </item>
+          <item>
+            <ref target="#h14">DOUBLE INAUGURATION A L'ASSOCIATION VALENTIN HAUY</ref>
+          </item>
+          <item>
+            <ref target="#h15">NOS CONCERTS</ref>
+            <list>
+              <item>
+                <ref target="#h16">NOTRE FÊTE DU 28 NOVEMBRE</ref>
+              </item>
+              <item>
+                <ref target="#h17">NOTRE CONCERT DU 19 DÉCEMBRE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h18">L'U.A.G. A LA "FLAMME"</ref>
+          </item>
+          <item>
+            <ref target="#h19">ANNUAIRE TOURISTIQUE</ref>
+          </item>
+          <item>
+            <ref target="#h20">TRIBUNE DU LIVRE PARLÉ</ref>
+          </item>
+          <item>
+            <ref target="#h21">A PROPOS D'ASSURANCES</ref>
+          </item>
+          <item>
+            <ref target="#h22">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h23">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h24">CAISSE FRATERNELLE</ref>
+              </item>
+              <item>
+                <ref target="#h25">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h26">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h27">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h28">COTISATIONS 1938</ref>
+                <list>
+                  <item>
+                    <ref target="#h29">Cotisations volontaires</ref>
+                  </item>
+                  <item>
+                    <ref target="#h30">Cotisations</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h31">PROCÈS-VERBAL DE LA RÉUNION DU CONSEIL D'ADMINISTRATION DU 20
+                  NOVEMBRE 1937</ref>
+              </item>
+              <item>
+                <ref target="#h32">GROUPEMENT DU NORD</ref>
+              </item>
+              <item>
+                <ref target="#h33">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h34">CHANGEMENT D'ADRESSE</ref>
+              </item>
+              <item>
+                <ref target="#h35">LISTE DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h36">DONS AVEC AFFECTATION SPÉCIALE POUR LA "MAISON DES AVEUGLES DE
+                  GUERRE"</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h37">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h38">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h39">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">20e Année. — N° 1</fw>
+          <fw type="header">
+            <hi rend="underline">Janvier 1938</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Bonne Année.</item>
+                    <item>Information urgente.</item>
+                    <item>Rajustement des Pensions.</item>
+                    <item>Avenir.</item>
+                    <item>Chez les Anciens Combattants Belges à Paris.</item>
+                    <item>Remisé de la rosette à Georges Rivollet.</item>
+                    <item>Visite du Bureau de l'U.N.C.</item>
+                    <item>Double inauguration à l'Association Valentin Hauy.</item>
+                    <item>Nos concerts.</item>
+                    <item>L'U.A.G. à «La Flamme».</item>
+                    <item>Annuaire touristique.</item>
+                    <item>Tribune du Livre Parlé.</item>
+                    <item>A propos d'assurances.</item>
+                    <item>Légion d'Honneur.</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Caisse Fraternelle.</item>
+                    <item>Entre nous.</item>
+                    <item>Cotisations 1938.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'Administration du 20 novembre
+                      1937.</item>
+                    <item>Groupement du Nord.</item>
+                    <item>Avis divers.</item>
+                    <item>Listes de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire ; \dagger M. Barthou,
+              ancien Président du Conseil ; M. le colonel Fabry, Député, ancien Ministre ; \dagger
+              M. le général Balfourier ; M. Brisac, Préfet; M. J. Ridgely-Carter; M. Paul de
+              Cassagnac, ancien Député ; M. Maurice Donnay, de l'Académie française; M. Duco,
+              Médecin-Inspecteur; M. Fribourg, Député ; Miss Alice Getty; M. Justin Godart, ancien
+              Ministre ; Miss Grace Harper; Miss Winifred Holt; Mme Léopold Kahn; M. Krug ; M.
+              Lugol, ancien Sénateur ; Mme la maréchale Maunoury; M. Samuel Milbank; M. Meyer,
+              Conseiller d'Etat; M. Henry Paté, Député ; \dagger M<hi rend="superscript">e</hi> Henri-Robert, de l'Académie française, ancien Bâtonnier de l'Ordre des
+              Avocats; M. le général Sainte-Claire-Deville ; \dagger M. Vallery-Radot.</p>
+            <pb n="3"/>
+          </div>
+          <fw>20e ANNÉE - N° 1 JANVIER 1938</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">BONNE ANNÉE</head>
+            <p>A l'occasion de cette nouvelle année, nous sommes heureux de présenter à tous nos
+              amis, ainsi qu'à nos camarades et à leurs familles, les vœux bien sincères de bonheur
+              et de bonne santé que nous formons à leur intention.</p>
+            <p>Nous souhaitons que 1938 apporte ce que chacun désire au plus profond de son cœur,
+              c'est-à-dire, d'une façon générale, l'acheminement vers une paix plus stable et, en
+              particulier pour l'U.A.G., la continuation d'une prospérité qui n'a fait que croître
+              grâce à la bonne. entente qui n'a cessé de régner parmi ses membres.</p>
+            <p>Le Bureau.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">INFORMATION URGENTE</head>
+            <p>Nous nous empressons de faire connaître à nos camarades que, le dimanche 30 janvier,
+              aura lieu dans notre salle des fêtes, un concert avec le concours du quatuor
+              Calvet.</p>
+            <p>Ce concert sera radio-diffusé par le poste des P.T.T. et différents autres postes
+              d'Etat. Aussi engageons-nous vivement nos camarades à se mettre à l'écoute vers quinze
+              heures. Ils pourront ainsi profiter de notre matinée artistique et se trouver, en
+              quelque sorte, rapprochés de nous par la pensée.</p>
+            <p>Afin de leur permettre de suivre cette audition, nous leur indiquons les parties
+              essentielles de ce beau programme qui comprendra: I. - Quatuor Calvet : a) Nocturne,
+              de Borodine. b) Sérénade, de Haydn. II. - Mlle Mireille Berthon, de l'Opéra : a)
+              Damnation de Faust, de Berlioz. b) Sapho, de Massenet. c) Les trois Valses, de
+              Strauss. III. - Quatuor Calvet:</p>
+            <p>Quatuor, de Mozart. IV. - M. Georges Chepper, dans ses œuvres.</p>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">RAJUSTEMENT DES PENSIONS</head>
+            <p>Le rajustement des pensions est aujourd'hui chose faite. Trois mois de négociations
+              laborieuses, menées par la Confédération et par nos Associations de Grands Mutilés,
+              ont abouti aux résultats que nous allons brièvement exposer. 1<hi rend="superscript"
+                >°</hi> Un crédit de 100 millions, voté par le Parlement, a été mis à la disposition
+              du Ministre des Pensions pour le rajustement général des pensions, allocations de
+              guerre et retraite du combattant pour la période du 1<hi rend="superscript">er</hi>
+              octobre au 31 décembre 1937. La répartition en a été fixée par décret du 18 décembre
+              dernier, de la façon suivante :</p>
+            <p>Article premier. - Le supplément spécial temporaire fixé à 140% par la loi du 23 mars
+              1929 est, à compter du 1<hi rend="superscript">er</hi> octobre 1937, porté à 154%.</p>
+            <p>Article 2. - Les pensions prévues par l'article 19, 2<hi rend="superscript">e</hi> de
+              la loi du 31 mars 1919, modifiées par l'article 78 de la loi du 30 décembre 1928 sont,
+              à compter du 1<hi rend="superscript">er</hi> octobre 1937, majorées d'une somme égale
+              à 6% de la pension actuelle due à une veuve de soldat de la même catégorie.</p>
+            <p>La majoration prévue par le deuxième alinéa de l'article 74 de la loi du 27 décembre
+              1927 est, à compter du 1<hi rend="superscript">er</hi> octobre 1937, porté à 126
+              francs.</p>
+            <p>Article 3. - Les allocations spéciales temporaires aux grands invalides, les
+              allocations aux grands mutilés de guerre et l'indemnité temporaire de soins aux
+              pensionnés à 100% pour tuberculose sont, à compter du 1<hi rend="superscript">er</hi>
+              octobre 1937, majorées de 6%.</p>
+            <p>Article 4. - Le retraite instituée par les articles 197 à 202 de la loi du 16 avril
+              1930, modifiée par l'article 144 de la loi du 31 mars 1932 est, à compter du 1<hi
+                rend="superscript">er</hi> octobre 1937, majorée de 6%.</p>
+            <p>Examinons en ce qui nous concerne, l'application de ce décret : La pension de base
+              d'un article 10 (loi du 31 mars 1919) est de 3.000 francs. Le supplément temporaire
+              établi à 140% de cette pension (loi du 23 mars 1929) est de 4.200 francs, ce qui nous
+              fait un ensemble de 7.200 francs.</p>
+            <p>L'article premier de ce nouveau décret porte de 140 à 154% ce supplément temporaire,
+              ce qui équivaut à 14% de la pension de base <pb n="6"/>
+              <note type="foliation">— 4 —</note> de 3.000 , soit : 3.000 \times 14 / 100=420
+              francs, ou si l'on préfère, augmente l'ensemble : pension et supplément 7.200 fr . de
+              5,84 %. On peut traduire encore ce résultat d'une autre façon, en considérant le
+              supplément comme majoré de 10%, soit : 4.200 \times 10 / 100=420 francs, et la
+              pension de base de 3.000 comme exclue de tout rajustement.</p>
+            <p>L'article 3 du décret se rapporte à l'ensemble de nos allocations, y compris le
+              statut de grand invalide, et les majore du taux uniforme de 6%, ce qui donne pour un
+              article 10 les sommes suivantes : ( 16.000 francs plus 9.800 francs) =25.800 francs,
+              25.800 multiplié par six sur (25.800 \times 6) cent \qquad =1.548 <hi
+                rend="superscript">fr</hi>., et pour le trimestre dernier, le quart 100 de cette
+              somme, 1.548: 4=387 francs. L'ensemble de ces deux rajustements (supplément temporaire
+              et allocations), s'élève à 1.968 francs. Nos camarades auront donc un rappel de 492
+              francs pour le trimestre écoulé du 1<hi rend="superscript">er</hi> octobre au- 31
+              décembre.</p>
+            <p>Pour assurer ces avantages en 1938, la dernière loi de Finances met à la disposition
+              du Ministre des Pensions une somme de 400 millions.</p>
+            <p>Mais à ce rajustement général, viendra pour 1938, s'ajouter pour nous une nouvelle
+              disposition.</p>
+            <p>Le 9 décembre dernier, le Gouvernement a déposé sur le Bureau de la Chambre un projet
+              de loi d'extension du Statut du Grand Invalide, projet que nous avons soutenu et qui
+              avait été approuvé par notre dernière Assemblée Générale. Ce projet, qui viendra en
+              discussion devant le Parlement dans le courant de ce mois, prévoit également, sur la
+              proposition du Ministre des Finances, un rajustement spécial de ce statut de 10% et
+              qui s'ajoutera au relèvement précédent de 6% qui nous est déjà accordé, soit un
+              supplément de 980 francs, qui prendra effet à dater du 1<hi rend="superscript">er</hi>
+              janvier 1938.</p>
+            <p>Nos camarades, article 10 simple, toucheront pour l'année 1938: 1.968 francs, plus
+              980 francs, soit 2.948 francs.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h9">ANALYSE DE L'ACTION MENEE
+                POUR LE RAJUSTEMENT DES PENSIONS</head>
+              <p>Nos camarades ont pu suivre dans nos différents bulletins le tableau des démarches
+                accomplies au cours de ces derniers mois pour <pb n="7"/>
+                <note type="foliation">— 5 —</note> ce rajustement de nos pensions. Ils ont pu en
+                constater le nombre élevé. Bien qu'il ne nous était point possible alors de nous
+                livrer à des commentaires sur cette action, il leur était facile d'en déduire que
+                l'ensemble de ces négociations se poursuivait dans un cadre difficile. Difficile
+                certainement pour de nombreuses causes.</p>
+              <p>Le franc ayant subi successivement deux dévaluations, le prix de la vie s'en
+                trouvait fatalement influencé et les indices qui étaient en 1935 de 450 atteignaient
+                ces temps derniers environ 620 points. Le pouvoir d'achat de nos pensions en était
+                d'autant diminué. L'abrogation des décrets Laval et Doumergue nous rendait les 13%
+                de retenue dont notre pension avait été l'objet. A cela, il est juste de tenir
+                compte du rétablissement des articles 61 et 63 de la loi de Finances, compris dans
+                les décrets Laval, et qui soumettaient à l'impôt sur le revenu nos pensions,
+                prélèvement qui n'eut pas le temps de jouer en réalité, mais que nous aurions
+                supporté si le décret du 17 juin 1936 n'avait rétabli ces deux articles de la loi de
+                Finances.</p>
+              <p>Ces mesures qui nous rendaient environ mille francs de nos pensions et nous
+                libéraient de l'impôt ne pouvaient compenser suffisamment la hausse du prix de la
+                vie et notre Conseil, d'accord avec les autres groupes de mutilés, décidait qu'il y
+                avait lieu d'adresser aux Pouvoirs Publics une nouvelle demande de rajustement.</p>
+              <p>A la fin de septembre, les Associations de grands mutilés notifiaient cette demande
+                au Ministre des Pensions. Mais ce prix élevé de la vie touchait évidemment tous les
+                autres anciens combattants, tous les pensionnés petits ou grands, toutes les
+                catégories de citoyens vivant entièrement ou partiellement des deniers de l'Etat.
+                Les mêmes causes produisant les mêmes effets, les Pouvoirs Publics furent saisis par
+                tous des mêmes demandes de rajustement de pensions ou d'appointements. Il en
+                résultait, pour le Gouvernement, une augmentation très importante de ses dépenses:
+                les crédits nécessaires se chiffraient dans une première estimation à plus de 4
+                milliards.</p>
+              <p>Le Ministre des Finances faisait connaître que la somme de 4 milliards était
+                irréalisable en raison de la situation économique toujours déficitaire du pays, il
+                en fixait le plafond, après les nombreuses tractations que chacun connait, à 1
+                milliard 750 millions pour l'ensemble de ces demandes, y compris les anciens
+                combattants. Le Gouvernement posait la question de confiance sur ces chiffres devant
+                le Parlement.</p>
+              <p>Sur cette somme globale, 400 millions étaient réservés aux anciens combattants, ce
+                qui équivalait à un rajustement général des pensions de guerre à moins de 6%,
+                environ 5,80 . C'est ce qui expliquera à nos camarades les dispositions prises par
+                le Ministre des Pensions.</p>
+              <p>En répartissant ce rajustement à un taux pour le supplé nent temporaire et à un
+                autre pour les allocations, le but était de manœuvrer dans les limites des crédits
+                accordés.</p>
+              <pb n="8"/>
+              <note type="foliation">— 6 —</note>
+              <p>Il y a lieu de remarquer à ce sujet que l'on se trouve pour la première fois devant
+                un fait nouveau, à savoir que jusque-là le Parlement avait toujours fixé le
+                pourcentage des rajustements à effectuer, ne chiffrant qu'approximativement les
+                conséquences budgétaires de ces rajustements. Aujourd'hui, le Parlement, sur la
+                proposition du Ministre des Finances, a fixé la somme globale devant servir à ce
+                rajustement, se dégageant non seulement du taux général à appliquer, mais laissant
+                le Ministre des Pensions juge de cette répartition, en se mettant d'accord avec les
+                parties intéressées. Cette méthode nouvelle devait créer des recherches, des
+                échanges de vues, des concessions entre anciens combattants, méthode non sans danger
+                en réalité risquant de heurter des intérêts, mais dont on fut heureusement protégé
+                par la bonne foi générale des anciens combattants.</p>
+              <p>Le problème se posait en effet de la façon suivante: la Confédération estimait que
+                le moment était venu pour elle de soutenir un rajustement général des pensions,
+                allocations et retraite du combattant sur le taux de 10%, alors qu'un premier
+                communiqué gouvernemental laissait entendre que seuls les invalides seraient
+                bénéficiaires d'un rajustement, en sorte que les veuves de guerre, les pensions de
+                reversion, les ascendants, les orphelins en seraient exclus. La Confédération
+                confirmait sa volonté le 28 novembre dans son Conseil National, ce qui exigeait un
+                crédit total de 720 millions environ.</p>
+              <p>La Confédération comprenait les réserves du Ministre des Finances, justifiées par
+                la situation économique du pays pesant sur le budget, mais demandait que les 300
+                millions complémentaires soient obtenus en augmentant d'autant les facultés
+                d'emprunt de la Caisse des Pensions. Cette charge nouvelle pour les générations
+                futures fut jugée cependant trop lourde par le Gouvernement qui la refusa. Les
+                disponibilités mises au service du Ministère des Pensions restèrent donc fixées à
+                400 millions.</p>
+              <p>Six pour cent de rajustement général est un taux faible pour tous, plus encore pour
+                ceux qui sont réduits à ne vivre que de leur pension. Nous avions toujours et
+                honnêtement indiqué à nos camarades de la Confédération que l'U.A.G., tout en se
+                ralliant à la doctrine Confédérale, considérait le taux de 10% comme un minimum pour
+                ses membres et faisait toutes ses réserves quant à un chiffre plus faible
+                (Commission des revendications matérielles, réserves renouvelées au Congrès National
+                du 28 novembre, puis en séance du Conseil de la Confédération).</p>
+              <p>Nous avions de même précisé nos positions à nos camarades du Comité d'Entente des
+                grands Invalides, par lettre du 2 novembre 1937 et, d'accord avec eux, nous avons
+                sollicité un rajustement spécial com- <pb n="9" break="no"/>
+                <note type="foliation">— 7 —</note> plémentaire du Statut, dont information fut
+                faite au Bureau de la Confédération.</p>
+              <p>Le Ministre des Pensions, saisi de notre nouvelle revendication, sollicitait sur
+                notre demande une audience du Ministres des Finances. Le 13 décembre, M. Georges
+                Bonnet jugeait légitime notre thèse, regrettait de ne pouvoir nous aider à son gré,
+                mais nous accordait un supplément de 25 millions pour ce rajustement spécial du
+                Statut qui s'opérerait au moment de son extension, comme nous l'avons dit plus
+                haut.</p>
+              <p>Nous devons remercier Monsieur le Ministre des Finances de cette compréhension.
+                Nous devons également remercier Monsieur le Ministre des Pensions de nous avoir
+                soutenus et aidés en ces circonstances. Nous sommes sensibles aux marques de
+                sympathie qu'il nous a toujours témoignées. Nous devons enfin reconnaître les
+                sentiments de solidarité montrés par la Confédération à notre égard. Celle-ci avait
+                un devoir à remplir envers tous ses membres, elle ne pouvait agir autrement qu'elle
+                ne l'a fait. L'on ne peut que regretter l'insuffisance, justifiée par la situation
+                économique actuelle, des sommes accordées par le Gouvernement, mais la Confédération
+                apprécie dans toute sa valeur les sentiments et l'attitude dont l'U.A.G. ne s'est
+                jamais départie au cours de ces négociations. A son Conseil National du 28 novembre,
+                la Confédération a promis publiquement, sur la proposition de Camille Planche
+                (président du Groupe des députés anciens combattants) et de Brousmiche, représentant
+                l'U.F., de soutenir les revendications que nous aurions à formuler en dehors du
+                rajustement général. A. Conan. N. B. - Nous nous excusons auprès des nombreux
+                camarades qui nous ont écrit au sujet des pensions de n'avoir pu leur répondre en
+                particulier.</p>
+              <p>Ils auront trouvé ici tous les renseignements qui jusqu'à ce jour pouvaient leur
+                être donnés d'une façon aussi complète que possible.</p>
+              <pb n="10"/>
+              <note type="foliation">— 8 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">AVENIR</head>
+            <p>Lorsque se tourne la page des années et qu'apparaît à l'horizon l'aurore d'un an
+              nouveau, qui d'entre-nous ne reporte sa pensée vers le chemin parcouru et ne jette un
+              regard vers l'avenir?</p>
+            <p>Je me souviens d'une lecture de jeunesse dans laquelle la vie était comparée à une
+              bobine dévidant lentement, chaque jour, le fil soutenant notre existence. Pendant nos
+              années scolaires, afin de devenir tout de suite «un homme», n'avons-nous pas souvent
+              désiré pouvoir dévider plus vite notre bobine, mais les années ont passé et je crois
+              que c'est le mouvement inverse que nous aimerions faire maintenant: retenir l'heure
+              présente et avancer lentement vers cet avenir toujours plein d'inconnu!</p>
+            <p>Il me semble que nous, aveugles de guerre, nous n'avons pas une seule bobine, mais
+              deux : celle de notre existence propre, et celle de la vie de notre Union.</p>
+            <p>La première bobine est telle qu'individuellement nous la faisons. Pour en soigner la
+              santé morale, gardons notre optimisme et conservons notre santé physique en continuant
+              d'être actifs malgré notre blessure : pas d'oisiveté alourdissante, mais au contraire
+              de la marche, du grand air, des vacances, que rien ne soit oublié ni négligé,
+              combattons l'ennui, que les camarades des grandes cités aillent respirer à la
+              campagne, que ceux des campagnes viennent se récréer à Paris.</p>
+            <p>Reste la seconde bobine, la collective, dont le fil est de même longueur que la durée
+              de notre Union. A ce fil est suspendue notre existence matérielle, en lui n'avons-nous
+              pas mis notre confiance, de sa solidité dépend le bien-être de nos foyers, les
+              secousses malheureusement ne lui ont pas été épargnées depuis quelques mois, sur lui a
+              pesé l'augmentation du prix de la vie, mais ce fil est solide, il le prouve chaque
+              jour, il tient bon.</p>
+            <p>Restons groupés, c'est en notre union que réside notre force, et c'est grâce à elle
+              que nous avons foi en notre avenir. E. Guillam.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">CHEZ LES ANCIENS COMBATTANTS
+              BELGES A PARIS</head>
+            <p>Les dirigeants des trois grandes Associations Belges d'Anciens Combattants: la
+              Fédération Nationale des Invalides, la Fédération Nationale des Combattants et
+              l'Amicale des Officiers, ont convié le 21 décembre dernier les représentants des
+              Grandes Associations Françaises d'Anciens Combattants en un dîner amical de caractère
+              intime qui eut lieu au Foyer des Invalides Belges, 59, rue Vergniaud, sous la
+              présidence du Colonel Raquez, attaché militaire auprès de l'Ambassade de Belgique, de
+              notre camarade Georges Rivollet, ancien Ministre et Secrétaire Général de la
+              Confédération Nationale des Anciens Combattants, et de M. Espiard, chef du Cabinet du
+              Ministre des Pensions.</p>
+            <p>A l'issue de ce dîner auquel nos camarades belges avaient tenu à donner un caractère
+              d'affectueuse intimité, puisqu'il était servi par les dames même des membres de leur
+              Comité, l'attaché militaire remit, au nom de Sa Majesté le Roi des Belges, différentes
+              distinctions honorifiques à nos camarades :</p>
+            <p>Linville, organisateur du Relais Sacré, Officier de l'Ordre de la Couronne ;</p>
+            <p>Jean Volvey, Jean Claude et Dandoulet, Officiers de l'Ordre de Léopold.</p>
+            <p>L'U.A.G. n'avait pas manqué de s'y faire représenter et, dans sa chaude et cordiale
+              allocution, notre camarade Kerkhofs, grand mutilé, Président de la F.N.I., le chargea
+              tout particulièrement d'exprimer aux aveugles de guerre français les sentiments
+              affectueux des combattants belges. Le Colonel Raquez y joignit ceux de Sa Majesté et
+              du peuple belge. Jean Claude répondit au nom des nouveaux décorés et Georges Rivollet
+              au nom des Anciens Combattants français.</p>
+            <p>Dans les circonstances actuelles, au milieu d'une Europe troublée, où la Belgique
+              elle-même cherche sa voie, il n'est pas indifférent que les Anciens Combattants des
+              deux pays redisent les inaltérables liens qui les unissent. Nous sommes reconnaissants
+              aux Anciens Combattants belges de cette amicale et chaleureuse manifestation. Tous les
+              Aveugles de Guerre français sont unanimes à leur envoyer un salut confiant et
+              fraternel. G. Muller.</p>
+            <pb n="12"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">REMISE DE LA ROSETTE A GEORGES
+              RIVOLLET</head>
+            <p>Le samedi 27 novembre, de nombreux représentants des Associations d'Anciens
+              Combattants étaient réunis à l'Hôtel Claridge, en un dîner amical, pour fêter notre
+              ami Georges Rivollet, de la Confédération Nationale des Anciens Combattants, qui
+              devait recevoir la rosette d'Officier de la Légion d'Honneur, au titre du Ministères
+              des Affaires Etrangères.</p>
+            <p>Ce dîner était présidé par M. Yvon Delbos, Ministre des Affaires Etrangères, entouré
+              de M. Queuille, Président de l'Office National des Mutilés, et de M. Rivière, Ministre
+              des Pensions.</p>
+            <p>Notre camarade de Barral remit la Croix à Rivollet; plusieurs discours furent
+              prononcés, notamment de très vibrantes paroles de M. Yvon Delbos. Puis Rivollet
+              remercia avec émotion et put constater la sympathie dont il jouit auprès des
+              dirigeants des Associations d'Anciens Combattants français.</p>
+            <p>L'Union des Aveugles de Guerre, qui s'était fait représenté a tenu, de cette façon à
+              lui marquer ses sentiments de camaraderie.</p>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">VISITE DU BUREAU DE
+              L'U.N.C.</head>
+            <p>Le jeudi 9 décembre, le Bureau de l'U.N.C. a répondu aimablement à l'invitation à
+              déjeuner que notre Bureau lui avait adressée. Avec le Président Jean Goy, étaient
+              venus nos camarades Charron, Galland et Rossignol, vice-Présidents, ainsi que
+              Hubert-Aubert, qui a la charge de la direction administrative de l'U.N.C.</p>
+            <p>Au dessert, notre Président Conan, en remerciant les représentants de l'U.N.C. de
+              leur marque de sympathie, rappela qu'il y a longtemps déjà, notre camarade Jean Goy,
+              alors jeune député, avait pris une part très active, avec le Colonel Fabry, à la
+              création de l'allocation 5 bis, qui portait nos pensions de 3.000 à 6.000 francs, ce
+              qui commençait à sortir partiellement de la gêne les aveugles de guerre qui menaient
+              une vie extrêmement précaire.</p>
+            <p>Dans sa réponse, Jean Goy rappela les excellentes relations qui existèrent toujours
+              entre l'U.N.C. et l'U.A.G. et nous assura de son entier dévouement à notre cause.</p>
+            <p>Nos camarades visitèrent ensuite la Maison et voulurent bien nous dire tout l'intérêt
+              qu'ils y avaient pris. Ils nous félicitèrent de cette création et promirent de venir
+              nous revoir souvent.</p>
+            <p>Nous sommes très heureux, par le moyen de cette Maison, de conserver avec les grandes
+              Associations comme l'U.F. et l'U.N.C., des relations extrêmement cordiales qui, du
+              reste, existèrent toujours avec ces représentants du mouvement combattant. H. A.</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">DOUBLE INAUGURATION A
+              L'ASSOCIATION VALENTIN HAUY</head>
+            <p>Le 21 décembre dernier, M. le Préfet de la Seine, assisté de M. le Président du
+              Conseil Municipal de Paris, inaugurait la rue Maurice-de-la-Sizeranne. Le Conseil
+              Municipal de Paris vient en effet de donner le nom du regretté fondateur de
+              l'Association Valentin Haüy au tronçon de la rue Masseran, qui longe l'Association,
+              entre la rue Duroc et la rue de Sèvres.</p>
+            <p>Il était en même temps procédé à l'inauguration des nouveaux bâtiments de
+              l'Association, qui s'étendent sur une superficie de plus de 300 mètres carrés et sur
+              huit étages, destinés à recevoir certains services devenus trop à l'étroit dans les
+              anciens locaux.</p>
+            <p>Ayant tenu à apporter par notre présence à cette inauguration le témoignage de notre
+              solidarité et de l'intérêt que nous portons au développement de l'œuvre qui étend sa
+              sollicitude à tous nos camarades en cécité, les aveugles civils, nous avons été ainsi
+              parmi les premiers à visiter le nouveau bâtiment dont la bibliothèque Braille occupe
+              la plus grande partie et dont l'organisation moderne mérite quelques mots
+              d'explication.</p>
+            <p>Il ne faut pas moins de sept étages au-dessus du rez-de-chaussée pour loger les
+              110.000 volumes qui composent actuellement cette bibliothèque qui s'augmente chaque
+              année de quelque 5.000 volumes. Dans de grandes salles claires et aérées par de
+              grandes baies vitrées de chaque côté, les volumes sont rangés méthodiquement sur
+              d'innombrables étagères de fer disposées parallèlement, laissant entre elles les
+              allées de circulation.</p>
+            <p>On sait que le mouvement de la bibliothèque circulante est de six à sept mille
+              volumes par mois. Chaque matin, une camionnette des P.T.T. apporte six à sept sacs de
+              livres. Ces sacs sont jetés de la rue dans une «culotte» qui les conduit par gravité
+              au sous-sol, près de l'ascenseur monte-charge par où ils montent à la salle d'arrivée,
+              reliée par des téléphones et des monte-livres aux différents étages.</p>
+            <p>Le contrôle, à l'arrivée et au départ, comporte un remarquable système de fichiers et
+              de fiches en Braille, car il faut mentionner que tout le service est fait par des
+              bibliothécaires aveugles. Une salle d'expédition et une salle de lecture complètent la
+              bibliothèque.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+            <p>Le rez-de-chaussée du nouveau bâtiment contient une école-modèle de massage, que le
+              docteur Monthus nous montre avec une légitime fierté ; elle comprend une salle de
+              cours dont on a retiré «Zéphirin», le squelette qui se morfond sans doute dans quelque
+              placard, le sexe sensible composant la majorité des visiteurs de ce jour
+              d'inauguration. Puis ce sont les modernes vestiaires des élèves, puis les salles de
+              massage, salle féminine et salle masculine, composées chacune de plusieurs box ouverts
+              sur l'allée, où les lavabos d'eau chaude et froide alternent avec de robustes
+              radiateurs. Un box noir est aménagé pour l'examen des yeux. Le rez-de-chaussée
+              comporte enfin une salle de réunions et de fêtes. C'est là qu'entre deux chœurs
+              exécutés par une chorale de l'Institution Nationale des Jeunes Aveugles, nous
+              entendons les discours d'inauguration prononcés par M. de Fleuriau, ancien
+              Ambassadeur, Président de l'Association Valentin-Haüy, M. le Conseiller Municipal du
+              quartier, M. le Président du Conseil Municipal, M. Villey, Préfet de la Seine, qui ne
+              parvient pas à dissimuler son émotion bien compréhensible. On sait en effet qu'il est
+              le frère du regretté Pierre Villey, professeur aveugle, agrégé de l'Université et
+              Professeur à la Faculté de Caen, qui fut un des animateurs de cette Maison et qui
+              trouva une mort tragique, il y a peu d'années, avec toute sa famille, dans une
+              catastrophe de chemin de fer. M. Albert Mahaut, vice-Président de l'Association,
+              clôtura les discours par une belle apologie de Maurice de la Sizeranne et de son
+              œuvre.</p>
+            <p>L'Union des Aveugles de Guerre ne peut que se réjouir de la prospérité de
+              l'Association Valentin-Haüy, qui est, avec notre Union, un des flambeaux éclairant la
+              route des Aveugles, route dont nous connaissons l'aridité. Tous nos camarades
+              s'associent aux félicitations que le délégué de l'U.A.G. a exprimées aux animateurs de
+              l'Association Valentin-Haüy, et en particulier à son Secrétaire Général, notre
+              camarade le Lieutenant Renaux. G. Müller.</p>
+            <pb n="16"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">NOS CONCERTS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">NOTRE FÊTE DU 28
+                NOVEMBRE</head>
+              <p>Le Conseil d'Administration ayant décidé de reprendre la série des concerts
+                familiaux qui avaient eu tant de succès l'année dernière, le dimanche 28 novembre, à
+                15 heures, notre salle des fêtes a rouvert ses portes et, quelques instants après,
+                toutes les places étaient occupées par nos camarades accompagnés de leurs
+                familles.</p>
+              <p>Notre aimable Président Conan, retenu par ses fonctions à une réunion de la
+                Confédération Nationale des Anciens Combattants, avait demandé à notre Secrétaire
+                Général Amblard de le remplacer.</p>
+              <p>Ce dernier a donc ouvert la fête en prononçant une allocution courte, mais
+                charmante. Il montra l'intérêt de nos réunions et exprima le plaisir que nous
+                éprouvions tous à nous retrouver le plus souvent possible: puis après avoir remercié
+                les excellents artistes de l'aimable et précieux concours qu'ils voulaient bien nous
+                apporter, il pria notre ami Bloch, membre de notre Comité d'Action et organisateur
+                des concerts, de présenter le programme et les artistes.</p>
+              <p>Confirmé ainsi dans les fonctions qu'il remplissait déjà l'an passé, notre speaker
+                nous annonça l'ordre du programme, les noms et les titres des artistes. M. Jean
+                Davy, un excellent baryton, à la voix à la fois puissante et bien timbrée, nous
+                chanta avec beaucoup de talent «La Jolie fille de Perth», de Bizet. Il obtint un
+                très gros succès, notre fête ne pouvait mieux débuter.</p>
+              <p>Mlles Ermenault et Gérard nous firent entendre ensuite le beau duo du « Roi d'Ys»,
+                de Lalo; des applaudissements nourris saluèrent la belle interprétation des
+                charmantes artistes.</p>
+              <p>Mlle Marie Botty, leur excellente et renommée professeur était au piano
+                d'accompagnement.</p>
+              <p>Nous eûmes alors le plaisir d'entendre une très jeune violoncelliste, premier prix
+                des derniers concours du Conservatoire, qui exè- <pb n="17" break="no"/>
+                <note type="foliation">— 15 —</note> cuta «Sonatine», de Sammartini, «Andante», de
+                Boccherini, «Fileuse», de Fauré, fort bien accompagnée par une excellente pianiste,
+                Mlle Ostermayer, elle-même élève au Conservatoire. Ce régal a été salué par de très
+                vives acclamations de la salle, conquise par le charme, la souplesse, la précision
+                de la jeune artiste.</p>
+              <p>Le joyeux troupier M. Méral nous transporta dans le pays de la gaieté et, grâce à
+                son amusant répertoire, dérida tous les fronts.</p>
+              <p>Il nous fut donné ensuite de goûter le talent de Mlle Ermenault dans la «Habanera»
+                de Carmen, Mlle Gérard et M. Davy dans le «Duo» de Véronique, M. Davy dans «la
+                lettre» de Véronique.</p>
+              <p>Enfin, parut M. Jean Vorcet, l'excellent chansonnier bien connu des nombreux
+                auditeurs de Radio-Paris. Ce grand artiste, accompagné par l'exquis compositeur M.
+                Zimmermann, sut nous amuser, nous intéresser : il connut les bravos, les rappels ;
+                il nous fit entendre ses dernières créations et clôtura notre programme dans le rire
+                et la joie.</p>
+              <p>Et le concert se termina par d'unanimes applaudissements, remerciant les artistes
+                qui venaient de nous faire passer un moment fort agréable mais trop court. M. Bloch
+                annonça alors un entr'acte pour la transformation de la salle, en vue d'une
+                sauterie; puis pendant deux heures, les nombreux amateurs de danse purent s'en
+                donner à cœur joie aux sons de l'excellent jazz dirigé par M. Blaustein.</p>
+              <p>A sept heures, nous nous sommes séparés, non sans grands regrets, en nous disant à
+                bientôt. De nombreux camarades restèrent à dîner dans notre belle salle de
+                restaurant; ils apprécièrent la bonne chère; la plus franche gaieté régna et la fête
+                se prolongea fort tard dans la soirée.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">NOTRE CONCERT DU 19
+                DÉCEMBRE</head>
+              <p>Malgré la neige tombant à gros flocons, la foule des grands jours remplissait bien
+                avant quinze heures notre salle des fêtes.</p>
+              <p>Notre concert commença, suivant l'antique usage, par quelques <pb n="18"/>
+                <note type="foliation">— 16 —</note> mots aimables de notre Président Conan.
+                Aussitôt après, M. Bloch nous présenta, avec sa verve habituelle, le programme et
+                les artistes.</p>
+              <p>Mlle Gudefin, la charmante fille de notre regretté camarade, nous permit
+                d'apprécier son jeune talent de pianiste en jouant une «Valse de Strauss» et «Le
+                Coucou» de Daquin.</p>
+              <p>Notre camarade Thomas se fit applaudir en chantant avec beaucoup de goût plusieurs
+                morceaux de son répertoire. M. Mangin, gendre du camarade Clavier, nous fit
+                tressaillir en nous disant «Le Rat»; il nous calma ensuite et nous fit rire en nous
+                récitant «La Jarretière».</p>
+              <p>Mlle Solange Picard eut un beau succès ; tout le monde apprécia sa bêlle voix, très
+                juste, très pure.</p>
+              <p>Mme et M. Roux eurent leur part de bravos dans le «Duo» de Mademoiselle
+                Nitouche.</p>
+              <p>Notre camarade Glorieux annonça ensuite de sa voix puissante qu'« Il nous avait
+                donné son cœur»; nous l'en remercions. Il termina en chantant de façon charmante «Le
+                Roi de Lahore».</p>
+              <p>Mme Roux connut un vrai succès de diseuse dans «Le Pardon» et «Les Rubans».</p>
+              <p>Le camarade Céré-Labourdette, à la puissante voix de baryton, souleva les
+                applaudissements de la salle entière en nous chantant le prologue de «Paillasse» et
+                «Patrie».</p>
+              <p>La toute gracieuse Mlle Guyollot nous dit d'une façon remarquable «L'Idole» de
+                Barbier; elle dut se rendre compte, par les acclamations qui saluèrent son audition,
+                qu'elle était l'idole du public.</p>
+              <p>Les applaudissements continuèrent vibrants pour saluer le talent de notre fin
+                ténor, le camarade Amblard, qui nous fit entendre une page d' «Hérodiade» et la
+                «Sicilienne» de Cavalleria Rusticana.</p>
+              <p>Notre concert se termina sur une note très gaie grâce au grand talent comique de M.
+                Clavier, fils de notre camarade, qui nous chanta «Les remèdes de mon journal», «Par
+                politesse» et nous dit «Gavroche au cinéma».</p>
+              <p>Une triple salve d'applaudissements salua et remercia les excellents artistes qui
+                venaient de nous faire passer un moment très agréable.</p>
+              <p>La sauterie qui suivit aux sons du bon jazz du camarade Pichenot fut très animée,
+                et à 19 heures sonna la retraite.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+              <p>Beaucoup de camarades dînèrent dans notre excellent restaurant; grande fut
+                l'animation, débordante fut la joie; il n'y eut qu'un instant triste dans cette
+                belle journée : ce fut le moment de la séparation.</p>
+              <p>L'abonné du fauteuil n<hi rend="superscript">°</hi> 7.</p>
+              <p>Nous recevons de notre camarade Mougenel la lettre suivante: C'est avec plaisir que
+                je vous envoie cette lettre pour vous remercier et vous féliciter de l'œuvre que
+                vous avez enfin réalisée, et tous les camarades de province qui ont passé durant
+                l'Exposition dans cette Maison, qui est des plus modernes, ont pu constater ce que
+                vous avez fait pour nous. Aussi, à notre dernier concert, quelle foule nous avions,
+                quel enthousiasme, et surtout quelle bonne table, car tout est bon, l'apéritif, le
+                pinard, la cuisine de premier choix, à un point que lorsque j'annonce à ma petite
+                famille que je l'emmène à l'Union des Aveugles de Guerre, tous sont fous de joie
+                d'aller au concert et ensuite au banquet - car ils appellent cela un banquet. Cela
+                nous fait une bonne partie de plaisir; aussi je remercie les organisateurs, sans
+                oublier MM. Bloch et de Traversay. J'oserai même vous demander de faire un concert
+                deux fois par mois; je suis sûr que les camarades viendraient encore plus nombreux,
+                car pour mon compte personnel aucune autre société ne m'intéresse plus, car nous
+                avons dans cette Maison tout ce qui peut nous satisfaire.</p>
+              <p>Encore une fois, merci à tous les membres du Bureau; je vous envoie à tous mes
+                meilleurs vœux de bonne santé pour l'année prochaine et une cordiale poignée de
+                main. J. Mougenel.</p>
+              <pb n="20"/>
+              <note type="foliation">— 18 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">L'U.A.G. A LA "FLAMME"</head>
+            <p>Nous informons dès à présent nos camarades que l'U. A. G. ranimera «La Flamme» le
+              samedi 7 mai, à 18 h .30.</p>
+            <p>Nous avons pu obtenir cette date qui correspond à nos séances d'Assemblée générale,
+              mais, ce jour étant un samedi, nous aurons d'autres Associations avec nous, car la
+              cérémonie du samedi revêt toujours un caractère particulier, ayant une musique à sa
+              disposition pour en rehausser l'éclat.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">ANNUAIRE TOURISTIQUE</head>
+            <p>L'an dernier, nous avons, dans notre Bulletin, donné une liste d'hôtels et de
+              restaurants où nos camarades pouvaient être certains de trouver, soit une bonne
+              chambre, soit un bon repas.</p>
+            <p>Nous répétons que nous ne cherchons pas à recommander uniquement des maisons réputées
+              pour leurs prix très modérés, mais surtout des Etablissements qui en donnent «pour
+              l'argent». Il est toujours intéresssant de trouver, le long des routes, une maison où
+              l'on dégustera une bonne truite meunière, un fameux homard à l'armoricaine ou un
+              délicat dindonneau bien préparé. Il existe partout de bons, de très bons cuisiniers;
+              il faut nous aider à les faire connaître à nos camarades, car je me suis rendu compte
+              que beaucoup d'entre nous ne sont pas insensibles aux charmes d'une bonne table, et ce
+              n'est certes pas moi qui leur donnerai tort.</p>
+            <p>Cette année, lors de mes séjours dans notre Maison, j'ai pu me rendre compte que
+              beaucoup de nos camarades parlaient, avec onction, d'un plat savouré dans le Jura, ou
+              d'une vieille bouteille dégustée dans une petite auberge des Landes. Ne soyez pas des
+              égoïstes, et ces bonnes adresses, faites-les connaître à tous.</p>
+            <p>Nous publierons dans le Bulletin les renseignements que vous nous adresserez sur :
+                1<hi rend="superscript">°</hi> les bons hôtels à prix moyens;</p>
+            <pb n="21"/>
+            <note type="foliation">— 19 —</note>
+            <p>2<hi rend="superscript">°</hi> les bons restaurants dont vous nous indiquerez, si
+              possible, les spécialités; 3<hi rend="superscript">°</hi> les Maisons appartenant à un
+              de nos camarades, ou administrées par lui ou un membre de sa famille.</p>
+            <p>Envoyez-nous ces renseignements à l'Union tout de suite, car, si vous remettez au
+              lendemain, vous oublierez peut-être, et ce serait dommage pour les camarades et pour
+              les Maisons recommandées. A. Fauvel.</p>
+            <p>Notre camarade Chalendar nous informe que tous les membres de l'U. A. G. de passage à
+              Auch (Gers) trouveront un hôtel confortable, bonne table, accueil amical et prix
+              modérés, chez M. Baumier, Hôtel de Paris, avenue de Verdun (près de la gare), à Auch
+              (Gers).</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">TRIBUNE DU LIVRE PARLÉ</head>
+            <p>Lettre du camarade André Malavault, de Bazoches-du-Morvan (Nièvre) ...Je vous
+              retourne, par le même courrier, la «Féerie Cinghalaise» et je profite de cette lettre
+              pour vous dire combien je suis enchanté du «Livre Parlè».</p>
+            <p>Je tiens aussi à vous remercier bien sincèrement de vos envois, car l'U. A. G. ne
+              fait jamais attendre ses lecteurs.</p>
+            <p>Avec mes remerciements et toute ma gratitude, croyez, etc...</p>
+            <p>Lettre du camarade Epaud, de Landevieille (Vendée) ...Je renvoie Maria Chapdelaine;
+              sa lecture m'a beaucoup intéressé et je serais heureux qu'il y en ait d'autres de ce
+              genre.</p>
+            <pb n="22"/>
+            <note type="foliation">— 20 —</note>
+            <p>Je suis véritablement satisfait de mon appareil et de son fonctionnement; les disques
+              qui, au début, demandaient quelques perfectionnements, semblent absolument
+              parfaits.</p>
+            <p>Ma gratitude est donc extrême envers ceux qui ont réalisé cette chose admirable.
+              Veuillez le dire à l'occasion et leur exprimer mes remerciements les plus
+              sincères.</p>
+            <p>J'attendais cela depuis que j'ai perdu la vue, c'est vous dire combien je suis
+              heureux, mais évidemment pour tirer de cette machine merveilleuse le parti que je
+              souhaite, il faudrait traiter des livres répondant à mes besoins, mais je reconnais
+              qu'ils ne s'accordent peutêtre pas au goût de la majorité des camarades utilisant le
+              Livre Parlé ; néanmoins, je fais confiance au Comité Français du Livre Parlé...</p>
+            <p>Je vous prie d'agréer, etc...</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">A PROPOS D'ASSURANCES</head>
+            <p>A l'issue du dernier Conseil de novembre, plusieurs camarades ont sollicité une
+              information au présent bulletin concernant les modalités de réalisation du vœu
+              Chalendar évoqué à ce Conseil.</p>
+            <p>Voici, ci-après, quelques chiffres pouvant utilement fixer l'esprit des lecteurs que
+              la question intéresserait.</p>
+            <p>Rappelons en deux mots quel état le vœu Chalendar, retenu par la dernière Assemblée
+              Générale :</p>
+            <p>Constituer au siège social, une caisse mutuelle qui serait alimentée par le
+              versement, par chaque camarade cotisant, d'autant de fois cinq francs que décéderaient
+              de camarades dans l'année. Les sommes ainsi recueillies seraient ensuite réparties par
+              les soins de l'Administration aux veuves de ces camarades.</p>
+            <p>Inutile de revenir sur les considérations sentimentales que suscitent un tel vœu.</p>
+            <p>En soi, la réalisation de ce vœu est simple, mais comporte un gros inconvénient,
+              c'est que le dernier survivant des cotisants aurait versé chaque année une somme
+              pouvant varier entre 250 et 300 fr . et, à sa mort, sa veuve ne pourrait rien
+              recevoir.</p>
+            <pb n="23"/>
+            <note type="foliation">— 21 —</note>
+            <p>Le Bureau avait amandé ce vœu : on retenait dans les caisses de l'U.A.G. une partie
+              du produit des cotisations de telle sorte que, sur 1.000 cotisants par exemple, chaque
+              veuve, au décès de son mari, recevrait une somme de 2.250 francs.</p>
+            <p>En supposant, pratiquement, une moyenne annuelle de 50 décès soit, pour chaque
+              cotisant survivant, une somme à verser, chaque année, de 250 fr ., le problème revient
+              à établir le rapport entre 250 fr . de versement annuel pour un profit payable en une
+              seule fois, de 2.250 fr .</p>
+            <p>Or, en consultant les barêmes officiels des Instituts d'assurancesdécès, on relève,
+              par exemple, qu'à l'âge de 40 ans, des versements annuels de 256 fr. jusqu'au décès du
+              souscripteur, permettraient de garantir un capital de 10.000 francs.</p>
+            <p>Le rapport de 10.000 à 2.250 est évidemment disproportionné eu égard au fait que,
+              dans les deux cas, le versement annuel est sensiblement le même (256)-(250).</p>
+            <p>L'intérêt de tous nos camarades semble donc résider dans la souscription pour leur
+              compte personnel et au profit de leur épouse d'un contrat d'assurance.</p>
+            <p>Ci-dessous, nous indiquons trois chiffres qui donneront une idée aux lecteurs des
+              avantages que leur procurerait une telle souscription :</p>
+            <p>Pour garantir un capital de 1.000 fr. : <list>
+                <item>à l'âge de 40 ans, il faut verser par an une somme de 25 fr. 60</item>
+                <item>à l'âge de 45 ans, il faut verser par an une somme de 31 fr. 20</item>
+                <item>à l'âge de 50 ans, il faut verser par an une somme de 38 fr. 80</item>
+              </list> Le principe du vœu Chalendar serait ainsi respecté, car il serait nécessaire
+              que ce soit l'U.A.G. qui sor t le collecteur de tous les versements. Par ailleurs,
+              elle souscrirait le contrat sur la tête du camarade cotisant. L'U.A.G., ainsi,
+              deviendrait bénéficiaire du capital assuré. Il serait alors évité les délais de
+              versement du capital à la veuve, ces délais étant toujours longs, pour pallier
+              efficacement et rapidement au désarroi du décès. L'U.A.G. se substituerait à la Caisse
+              des Dépôts pour le versement immédiat du capital et remplirait ensuite les formalités
+              nécessaires pour recouvrer de la Caisse des Dépôts le capital avancé.</p>
+            <p>Nous verrons, dans une autre étude, d'autres modalités pratiques d'une telle
+              combinaison, en même temps qu'une liste plus complète des âges avec versements annuels
+              correspondants.</p>
+            <pb n="24"/>
+            <note type="foliation">— 22 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">LÉGION D'HONNEUR</head>
+            <p>Au Journal Officiel du 4 décembre 1937, publiant le décret du 23 novembre 1937, est
+              promu au grade de Chevalier :</p>
+            <p>BESNARD (Pierre-Auguste), ancien soldat du 69<hi rend="superscript">°</hi> Régiment
+              d'Infanterie Territoriale.</p>
+            <p>Au Journal Officiel du 5 décembre 1937, publiant le décret du 23 novembre 1937, sont
+              promus au grade d'Officier :</p>
+            <p>CORLOBE (Armand-Joseph-Marie), ancien soldat du 287<hi rend="superscript">°</hi> R.
+              I. DUBREUIL (Olivier), ancien caporal du 139<hi rend="superscript">°</hi> R. I. DUCROT
+              (Charles-Michel), ancien sergent du 16<hi rend="superscript">°</hi> Bataillon de
+              'Firailleurs sénégalais.</p>
+            <p>FALAISE (Paul), ancien soldat du 18<hi rend="superscript">°</hi> Rég. d'Inf.
+              territoriale. INVERNIZZI (Ange-Ambroise), ancien soldat du 52<hi rend="superscript"
+                >°</hi> Régiment d Infanterie coloniale.</p>
+            <p>JAMMET (Joseph-Jean-Louis), ancien caporal du 143<hi rend="superscript">°</hi> Rég.
+              d'Inf. MAYEN (Bertin-Gabriel), ancien soldat du 24<hi rend="superscript">°</hi> Bat.
+              de Chasseurs à pied.</p>
+            <p>MILHAS (Abel), ancien soldat du 20<hi rend="superscript">°</hi> Rég. d'Inf. MIRAILH
+              (Pierre), ancien soldat du 34<hi rend="superscript">°</hi> Rég. d'Inf. NICOLAS
+              (François-Emmanuel), ancien sergent du 48<hi rend="superscript">°</hi> R. d'Inf.
+              QUESNE (Bienvenu-André), ancien soldat du 28<hi rend="superscript">°</hi> Rég.
+              d'Inf.</p>
+            <p>Au Journal Officiel du 16 décembre 1937, publiant le décret du 30 novembre 1937, sont
+              promus au grade d'Officier :</p>
+            <p>NEGRE (Louis), ancien soldat du 328<hi rend="superscript">°</hi> Rég. d'Inf. POUSSE
+              (Joseph-Etienne), ancien soldat du 414<hi rend="superscript">°</hi> Rég. d'Inf. SIMON
+              (Joseph), ancien soldat du 2<hi rend="superscript">°</hi> Rég. d'Inf. Coloniale.
+              VENNIER (Jacques-Fernand), ancien soldat du 120<hi rend="superscript">°</hi> Bataillon
+              de Chasseurs à pied.</p>
+            <pb n="25"/>
+            <note type="foliation">— 23 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">CAISSE FRATERNELLE</head>
+              <p>Notre Caisse Fraternelle a distribué, entre le 1<hi rend="superscript">er</hi> et
+                le 11 décembre 1937 une somme de 23.975 fr., se répartissant comme suit :</p>
+              <list>
+                <item>Allocations naissances 300 . »</item>
+                <item>Allocations décès et palmes 11.522 . »</item>
+                <item>Allocations Caisse-maladie 11.153 . »</item>
+                <item>Allocations aux aveugles ayant eu leur pension supprimée 1.000 . »</item>
+              </list>
+              <p>Il y a lieu d'ajouter à ces 23.975 fr. une somme de 10.500 fr. pour prêts
+                exceptionnels et pour prêts maisons familiales.</p>
+              <p>La Commission de Caisse Fraternelle a eu à examnier 26 demandes, dont 3 n'ont donné
+                lieu, pour motifs divers, à aucune attribution.</p>
+            </div>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h26">Mariages</head>
+                <p>Notre camarade GANNEAU, de Gy (Loir-et-Cher), nous fait part du mariage de sa
+                  fille Alphéna avec M. Roger Jauret, célébré le 9 décembre 1937.</p>
+                <p>Notre camarade LE BORGNE, de Saint-Pol-de-Léon (Finistère), nous fait part du
+                  mariage de sa fille Jeanne avec M. Daniélou, célébré le 15 novembre 1937.</p>
+                <p>Nous adressons nos vœux de bonheur aux jeunes époux.</p>
+                <pb n="26"/>
+                <note type="foliation">— 24 —</note>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h27">Décès</head>
+                <p>Nous apprenons le décès de : Notre camarade GRIL (Emile), de Béziers (Hérault),
+                  décédé le 18 octobre 1937, à l'âge de 53 ans.</p>
+                <p>Né le 5 septembre 1884, à Béziers, soldat au 296<hi rend="superscript">e</hi>
+                  Régiment d'Infanterie, notre camarade fut blessé le 6 juin 1915 à
+                  Notre-Dame-deLorette. Réformé à 100% article 10 pour cécité, Chevalier de la
+                  Légion d'honneur et titulaire de la Médaille militaire, il laisse une veuve et
+                  deux enfants.</p>
+                <p>Notre camarade BIESSY (Jean), de Venissieux (Rhône), décédé le 23 novembre 1937 à
+                  l'âge de 49 ans.</p>
+                <p>Né le 13 janvier 1888, à Lyon, soldat au 159<hi rend="superscript">°</hi>
+                  Régiment d'Infanterie, réformé à 150% articles 10 et 12 pour cécité complète et
+                  surdité, notre camarade laisse une veuve et un enfant.</p>
+                <p>Notre camarade RAMELOT (Etienne), de La Varenne-SaintHilaire (Seine), décédé le
+                  18 décembre 1937, à l'âge de 44 ans.</p>
+                <p>Né le 17 septembre 1893 à Noirlieu (Marne), soldat au 132<hi rend="superscript"
+                    >°</hi> Régiment d'Infanterie, notre camarade fut blessé le 1<hi
+                    rend="superscript">er</hi> octobre 1916 à Bouchavesnes. Réformé à 180% articles
+                  10 et 12 pour cécité et blessures multiples, Officier de la Légion d'honneur et
+                  titulaire de la Médaille militaire, il laisse une veuve.</p>
+                <p>De la femme de notre camarade LE FLOCH (Félix-Marie), de Saint-Nicolas-du-Pélem
+                  (Côtes-du-Nord), décédée le 30 octobre 1937.</p>
+                <p>De la fille de notre camarade MICHEL (Raoul), de Villeneuve-surLot
+                  (Lot-et-Garonne), décédée le 18 octobre 1937, dans sa douzième année.</p>
+                <p>De la mère de notre camarade BEDA, de Villeneuve-sur-Bellot (Seine-et-Marne),
+                  décédée le 2 décembre 1937, à l'âge de 64 ans.</p>
+                <p>Du fils, Hugues-Patrice, de notre camarade VIARD-GAUDIN, de Beaufort-sur-Doron
+                  (Savoie), décédé le 18 décembre 1937 dans sa 15<hi rend="superscript">°</hi>
+                  année.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+                <pb n="27"/>
+                <note type="foliation">— 25 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">COTISATIONS 1938</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h29">Cotisations
+                  volontaires</head>
+                <p>Nous sommes heureux d'adresser ici nos sincères remerciements à nos camarades qui
+                  ont tenu à effectuer un nouveau versement :</p>
+                <p>Raffestin, 5 fr.; Quittanson, 5 fr.; Degoutte, 5 fr.; Vidry, 5 fr.; Préot, 5 fr.;
+                  Le Bourlout, 15 fr.; Roi J., 10 fr.; Souchard, 20 fr.; Samuel, 10 fr.; Rochet, 10
+                  fr.; Bardonnet, 5 fr.; Lasalle, 5 fr.; Vochet, 10 fr.; Daurios, 5 fr.; Lemaitre, 5
+                  fr.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h30">Cotisations</head>
+                <p>Raffestin, Couesnon A., Tilly, Ferezou, Colombat, Quittanson, Gagnard, Viault,
+                  Tillère, Palmaro, Epstein, Verdelet, Bouillard, Agutte, Morand, Degoutte, Kamfri,
+                  Levasseur, Notelet, Lemarchand, Charrière S., Garcelon, Brinon, Gourdin, Ritz,
+                  Guitteny, Vidry, Bellec, Lambert L., Buron, Vennier, Preot, Barbier E., Thibault,
+                  Bur (rachat), Ballu, Latrille, Salles, Hadot, Drapeau, Arnould E., Feugray,
+                  Basile, Debooserie, Gailly, Nast, Capitaine, Nicolas F., Laügt, Hervoir, Le
+                  Bourlout, Roi J., Souchard, Devarrieux, Raynal, Corbel, Brottes, Samuel, Alloi,
+                  Sourissaud, Giboulot, Angel, Mariet, Le Borgne J., Rochet, Gaetti, Rost,
+                  Bardonnet, Betoux, Gauthier R., André A., Lasalle, Bertoni, Citerne, Vochel, Boé,
+                  Podevin F., Daurios, Lemaitre, Masson J., Fabre I., Barrat, Authié, Melle Marin,
+                  Rouxel, Marchal, Jacquet, Broutin, Le Blanc A., Chatillon, Leveau D.</p>
+                <p>La séance est ouverte à 14 h .30 , sous la présidence de Conan.</p>
+                <pb n="28"/>
+                <note type="foliation">— 26 —</note>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">PROCÈS-VERBAL DE LA RÉUNION
+                DU CONSEIL D'ADMINISTRATION DU 20 NOVEMBRE 1937</head>
+              <p>La séance est ouverte à 14 h. 30, sous la présidence de Conan. Sont
+                présents : Conan, Guillam, Izaac, Leveau, Amblard, L'Evesque, Bardoux, Bertrand,
+                Bois, Brusson, Céré-Labourdette, Courteix, Evrat, Favret, Grillet, Lagarde, Lauté,
+                Malgat, Nicolaï, Noireaux, Roy G., Satgé.</p>
+              <p>Excusés : Bloncourt, Cabasson, Derunder, Fauvel, Laffargue, Muller, Robert M.,
+                Scapini.</p>
+              <p>On: donné leurs pouvoirs : à Amblard : Fauvel, Laffargue, Muller. à Favret :
+                Cabasson. ¿ Noireaux : Derunder. Assistaient également à la séance : M. de
+                Traversay, Président et M. Iweins, secrétaire du Comité d'Action ; M. Oscar Bloch,
+                trésorier adjoint.</p>
+              <p>Les camarades : Berthet, Chalendar, Chauvel, Courtas, Detoc, Laboulais, Lepesteur,
+                Marche, Mathieu, Nicolaï Pierre, Planquette, Rochelet, Saillot.</p>
+              <p>1. - Procès verbal de la réunion du 9 octobre 1937 : Adopté à l'unanimité.</p>
+              <p>2. - Après quelques explications données sur la gestion de la Maison, les
+                situations financières de septembre et octobre 1937 sont approuvées à
+                l'unanimité.</p>
+              <p>3. - Pensions : Le Président fait un large exposé de l'action menée par le Bureau,
+                avec le Comité d'Entente, auprès des Pouvoirs Publics. Il rend compte des nombreuses
+                démarches auxquelles les représentants de l'Union ont pris part et indique à quel
+                point en est la question du rajustement. Il rapelle l'action menée par l'U.A.G. pour
+                l'expention du statut et les amendements qu'il sera nécessaire de faire déposer. A
+                ce propos, il fait part au Conseil de certaines réceptions propres à entre- <pb
+                  n="29" break="no"/>
+                <note type="foliation">— 27 —</note> tenir les bonnes relations avec les Grandes
+                Associations, les Parlementaires, Journalistes, etc...</p>
+              <p>Le Conseil donne son avis et se met d'accord avec le Bureau sur ces questions de
+                propagande.</p>
+              <p>Après que l'excellence de nos rapports avec la Confédération eût été soulignée, le
+                Conseil, examinant la question du rajustement et de l'extension du statut, charge le
+                Bureau de faire le nécessaire.</p>
+              <p>4. - Fixation de la date de l'Assemblée Générale : La date de notre prochaine
+                Assemblée Générale est fixée au 8 mai 1938.</p>
+              <p>5. - Le Conseil est appelé à examiner le projet du camarade Chalendar au sujet
+                d'une caisse mutuelle au bénéfice des veuves, retenue pour étude par notre dernière
+                Assemblée Générale. Le Bureau présente, d'une part, un texte amendé de ce projet et
+                d'autre part, deux propositions qu'il estime plus simples d'application. Le camarade
+                Chalendar, présent à la séance, est autorisé à faire un exposé.</p>
+              <p>Guillam, au nom du Bureau, indique les raisons de l'amendement. Le Conseil examine
+                ensuite la proposition du Bureau qui tend à doubler l'allocation de 50 fr . donnée à
+                une veuve par année de présence du camarade à l'Union, en donnant toutefois cette
+                seconde allocation un an après le décès.</p>
+              <p>De plus, le Bureau propose que deux ans après le décès, une somme de 500 fr . soit
+                attribuée à titre exceptionnel. Cette disposition sera appliquée pendant trois
+                ans.</p>
+              <p>Le Secrétaire Général insiste sur le caractère provisoire de cette dernière
+                disposition qui est prise en raison des difficultés actuelles de la vie.</p>
+              <p>Le Conseil, après avoir examiné attentivement la question, se prononce pour
+                l'adoption des deux dernières propositions du Bureau et vote la résolution suivante
+                : « A partir de 1938, l'allocation de 50 fr . par année de présence à « l'Union du
+                camarade, versée lors de son décès à son ayant-droit, « sera complétée par une
+                seconde annuité de 50 fr . par année de prèsence, dont le montant total ne pourra
+                dépasser 1.000 fr . Cette « seconde allocation ne serait versée qu'un an après le
+                décès du « camarade. « De plus, à titre tout à fait exceptionnel, et pour permettre
+                d'attendre l'amélioration du sort des veuves, tenant compte des difficultés <pb
+                  n="30"/>
+                <note type="foliation">— 28 —</note> « actuelles de la vie, il sera versé une seule
+                fois à la veuve d'un cama« rade, deux ans après le décès de ce dernier, une
+                allocation unique de « 500 francs. « Cette dernière mesure ne sera applicable que
+                pendant trois ans « seulement à dater de l'Assemblée Générale. « La Caisse
+                Fraternelle sera chargée, selon les cas, de l'applica« tion de cette dernière
+                disposition. »</p>
+              <p>Pour répondre au désir exprimé par l'Assemblée Générale dernière, le Conseil vote
+                ensuite la délibération suivante : «Considérant que l'Union des Aveugles de Guerre a
+                maintenant « vingt années d'existence et que l'avoir qu'elle a recueilli est dû, en
+                « grande partie, au groupement de la presque totalité de ses membres « depuis sa
+                fondation. «Considérant, d'autre part, que ceux-ci, aveugles depuis vingt ans « ou
+                plus ont, en quelque sorte, un droit de priorité sur les nouveaux « adhérents dont
+                la cécité est récente par suite d'aggravation de bles« sure ou de maladie contractée
+                en service, «L'Assemblée Générale, en conformité avec la décision de prin« cipe du 9
+                mai 1937, décide définitivement, qu'à compter de la date « précitée les nouveaux
+                adhérents continueront à bénéficier de tous les « avantages réservés par l'U.A.G à
+                ses membres titulaires après un an « de présence, à l'exception de l'allocation
+                décès. « Il sera attribué à leur veuve ou à la personne désignée sur leur « bulletin
+                d'adhésion, ainsi qu'aux orphelins, par année de présence, « le vingtième de
+                l'allocation maximum. »</p>
+              <p>Lecture est donnée des demandes d'adhésion de : LEFEVRE (Stéphane-Armand), 42, Bd.
+                du Temple, PARIS. 100% article 10, titre provisoire, Carte du Combattant; MANIGAULT
+                (Léon), 18, rue du Goulet, AUBERVILLIERS (Seine) 100% article 10, titre provisoire,
+                Carte du Combattant. Ces camarades remplissant les conditions sont admis à l'U.A.G.
+                en qualité de membres temporaires.</p>
+              <p>Legs GUIEU : Après avoir pris connaissance des dispositions testamentaires en date
+                du 27 juin 1929, de Madame Léchelle HenrietteLouise, épouse de M. GUIEU,
+                Frédéric-Laurent, avec lequel elle demeurait à Oran, place Sébastopol, n<hi rend="superscript">°</hi>10, où elle est décédée le 28 juin 1931, par
+                lesquelles elle lègue, à la mort de son mari, sur ses biens personnels et sur ceux
+                revenant de sa part de communauté, une somme de dix mille francs ( 10.000 ) aux
+                Aveugles de Guerre.</p>
+              <pb n="31"/>
+              <note type="foliation">— 29 —</note>
+              <p>Le Conseil d'Administration de l'Union des Aveugles de Guerre accepte à l'unanimité
+                ces dispositions testamentaires et donne tous pouvoirs à son trésorier pour
+                encaisser le legs au nom de ladite Association, prendre tous engagements et faire le
+                nécessaire.</p>
+              <p>Legs HARLE : Après avoir pris connaissance des dispositions testamentaires en date
+                du 1<hi rend="superscript">er</hi> mai 1929, de Madame Edmée-Alexandrine Beuve,
+                veuve de M. Charles-Alexandre HARLE, décédée le 10 septembre 1937, en son domicile à
+                Paris, 11, rue Chardon-Lagache, par lesquelles elle institue sa légataire
+                universelle l'administration de l'Assistance Publique, avenue Victoria à Paris, à
+                charge par elle de pourvoir aux frais de sépulture et d'entretien de sa tombe; un
+                legs particulier étant fait hors part aux petits malades de Berck, le reste de
+                l'avoir de Madame HARLE devra être partagé en trois parties égales : 1<hi
+                  rend="superscript">°</hi> Les Aveugles de Guerre de la rue Ballu; 2<hi
+                  rend="superscript">°</hi> Les Orphelins d'Auteuil, 40, rue Lafontaine; 3<hi
+                  rend="superscript">°</hi> La Société Centrale de Sauvetage des Naufragés, 1, rue
+                de Bourgogne. Le Conseil d'Administration de l'Union des Aveugles de Guerre accepte
+                à l'unanimité ces dispositions testamentaires et donne tous pouvoirs à son trésorier
+                pour encaisser le legs au nom de ladite Association, prendre tous engagements et
+                faire le nécessaire.</p>
+              <p>Le Président expose ensuite le cas du camarade B.... décédé, ancien membre de
+                l'Union, radié temporairement, qui n'avait pas demandé sa réintégration, Le Conseil,
+                interrogé sur l'opportunité d'un secours à accorder à sa veuve, ne peut, pour des
+                raisons particulières, accéder à sa demande.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 18 h. 15 .</p>
+              <pb n="32"/>
+              <note type="foliation">— 30 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">GROUPEMENT DU NORD</head>
+              <p>Le Secrétaire de la Section du Nord informe les camarades de la région que
+                l'Assemblée annuelle du Groupement est fixée au dimanche 20 mars prochain. Salle du
+                Conservatoire de Musique de Lille.</p>
+              <p>Un second avis qui paraîtra en février, fournira toutes indications utiles à ce
+                sujet.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">AVIS DIVERS</head>
+              <p>ASPIRATEURS toutes marques, remis intégralement à neuf, garantis un an, à partir de
+                275 fr .</p>
+              <p>APPAREILS de T.S.F. haute qualité, quinze ans de références. S'adresser au camarade
+                FAUVEL, 1, rue des Jardins, ASNIERES (Seine). (Bien préciser la nature du courant,
+                continu ou alternatif, et le voltage).</p>
+              <p>Serais ACHETEUR machine Braille d'occasion. Faire offre au camarade QUEMENEUR, 14,
+                rue Daru, PARIS.</p>
+              <p>A VENDRE d'occasion :</p>
+              <p>1<hi rend="superscript">°</hi> Aspirateur Lux, avec cireuse et les 8 brosses
+                rotatives de l'Elec-tro-Lux; 2<hi rend="superscript">°</hi> Une série de 3 volumes,
+                collection Hachette : «Les Merveilles de la France», «Les Merveilles de l'Europe»,
+                «Les races humaines».</p>
+              <p>S'adresser au camarade CAILBAUT, villa «Les Bruyères», avenue Jules-Verne,
+                LA-BAULE-LES-PINS (Loire-Inférieure).</p>
+              <pb n="33"/>
+              <note type="foliation">— 31 —</note>
+              <p>AMATEURS de vins apéritifs et de dessert, demandez le «Valmya Porto», d'un goût
+                exquis. Exposition Internationale Paris 1937. Livraison franco port et emballage au
+                prix de 12 fr. 50 le litre, par commande de 10 litres.</p>
+              <p>S'adresser au camarade L. POLETTE, 42, rue de Dantzig, PARIS ( 15<hi
+                  rend="superscript">e</hi> arrondissement).</p>
+              <p>Aux amateurs de CHAMPAGNE, notre camarade MALGAT propose un champagne excellent,
+                cuvée réservée, délimitation 1908, provenance directe du propriétaire récoltant à 12
+                fr . la bouteille, franco de port et d'emballage, à domicile pour Paris et banlieue
+                et à 12 fr .50 la bouteille pour la Province. Ces prix s'entendent par caisse de 25
+                bouteilles. S'adresser directement à M. MALGAT, 28 bis, rue du Chemin de Fer, à
+                VILLEMONBLE (Seine). Téléphone : Le Raincy 785.</p>
+              <p>POUR TROUSSEAUX, achats de toile et lingerie, notre camarade PETITDIDIER nous
+                informe qu'il livrera aux meilleures conditions le beau linge des Vosges, garanti
+                blanchi sur pré. Livraison franco, 5% d'escompte, demander échantillons.</p>
+              <p>S'adresser directement à M. PETITDIDIER, 118, rue Marietton, LYON-VAISE
+                (Rhône).</p>
+              <p>Les membres de l'U.A.G., amateurs de BONS VINS BLANCS, désireux de s'adresser au
+                propriétaire producteur, à des prix défiant toute concurrence, peuvent se mettre en
+                rapports, en se recommandant de notre camarade Chalendar, avec M. DESMERIE-SERIZIER,
+                à MONPRIMBLANC (Gironde).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">CHANGEMENT D'ADRESSE</head>
+              <p>CIZAC (Jean), 91, rue Baudry-Lacantinerie, BORDEAUXBASTIDE (Gironde).</p>
+              <pb n="34"/>
+              <note type="foliation">— 32 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">LISTE DE DONATEURS</head>
+              <p>Mme J. Ripeloux, Princeton (U.S.A.), 200 fr. - Mme Condamin, Paris, 6 fr. - Mme
+                Theron, Château-Thierry (Aisne), 25 fr. M. Pecnard, Paris (sur son allocation de
+                combattant), 100 fr. M. Gérald Dobède, Bath (Angleterre), 1.467 fr. - M. Lecomte,
+                Marly-le-Roi (S- \delta-O), 200 fr. - M. Gobrecht, Clichy (Seine), 30 fr. - Général
+                et Mme B. Matton, Neuilly-sur-Seine, 200 fr. - Mlle Bret, Charolles (S- \delta-L),
+                100 fr. - M. R. Wallut, Bruyères-le-Châtel (Seine-\delta-Oise), 5.000 fr. -
+                Protection et bonne santé de notre famille, 300 fr. - Mme Cornud-Peschier, Vallon
+                (Ardèche), 300 fr. - Cie d'Assurances «L'Union», 500 fr. - Cie d'Assurances «La
+                Nati-nale-Vie», 500 fr. - Cie d'Assurances «La Nationale-Incendie», 500 fr. - M.
+                Blanchard, Paris, 10 fr. - Mme Vve Boesiger, Lyon, 20 fr. - Mme L. Brocq, Paris, 20
+                fr. - M. Roland-Gosselin, Paris, 500 fr. - Mme Whitehouse, Paris, 200 fr. - Anonyme,
+                10 fr. Mme P. Dieterlen, Strasbourg, 20 fr. - M. J.A. Lafargue, Alger, 200 fr. - M.
+                J. Gastambide, Paris, 10 fr. - M. Butollo, Paris, 50 fr. - M. Gilbert Lévy, Paris,
+                200 fr. - M. Guy de Mola, Paris, 20 fr. Mme Portier, Paris, 20 fr. - Mme Fischer,
+                Menton, 10 fr. - Mme Bollack, Paris, 100 fr. - Sté Avignonnaise d'Electricité, 50
+                fr. Mme Ferrant, St-Vinnemar (Yonne), 10 fr. - Mlle Maupoix, Charly (Aisne), 25 fr.
+                - M. Max Pick, Roubaix (Nord), 100 fr. - M. Bimbenet, St-Mandé (Seine), 50 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h36">DONS AVEC AFFECTATION
+                SPÉCIALE POUR LA "MAISON DES AVEUGLES DE GUERRE"</head>
+              <p>Ville de Chauny (Aisne), 44 fr. 70. - Ville de Marle (Aisne), 49 fr. 75. - Ville de
+                Céret (Pyr.-Orientales), 135 fr.</p>
+              <pb n="35"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire. Scapini, Président honoraire. Bourguignon, Secrétaire
+              général honoraire. Favret, Secrétaire général honoraire. Conan, Secrétaire général
+              honoraire. Amblard, Secrétaire général honoraire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">Conseil d'Administration</head>
+            <p>Président : Conan. Vice-Présidents : Guillam, Izaac, Leveau. Secrétaire général :
+              Amblard. Trésorier : Gaston L'Evesque. Membres : Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Deruinder, Evrat, Fauvel, Favret,
+              Grillet, Laffargue, Lagarde, Lauté, Malgat, Muller, NicolaïNoireaux, Robert (Maurice),
+              Roy (Georges), Satgé, Scapini.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Comité d'Action</head>
+            <p>Mlle Arbel, Vice-Présidente honoraire. Président : M. de Traversay. Vice-Présidentes
+              Mme Contamin. Mme L'Evesque. M. Bloch, adjoint au Trésorier ; Secrétaires M. Iweins,
+              Secrétaire du Comité d'Action. M. Auterbe, Sous-Directeur à la Compagnie «L'Union».
+              Mme du Bos; Mme Broquin; M. de Chaumont-Quitry ; M. Chepfer ; Mme Chevalier ; Mlle
+              Jalaguier Mme Lévy-Weis ; M. Mayer ; Mme Meyer ; Colonel de Traversay.</p>
+            <pb n="36"/>
+            <note type="foliation">— 34 —</note>
+          </div>
+
+          <fw>Gérant : DECOENE Imp. Maurice DAUER, 57, rue des Vinaigriers, Paris-x</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
