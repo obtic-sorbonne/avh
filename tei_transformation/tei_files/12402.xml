@@ -1,0 +1,1429 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 21ème année 1940 n°2</title>
+        <author>L'UNION DES AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Associations</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Entraide</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 32 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#anciens-combattants">Anciens combattants</term>
+          <term ref="#bulletin">Bulletin</term>
+          <term ref="#rapport">Rapport</term>
+          <term ref="#hommage">Hommage</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#franceville">Franceville</term>
+        </keywords>
+        <classCode scheme="DDC">362.4</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre comprend un hommage au Baron de
+          Traversay, des informations sur le livret militaire de santé, des projets de rapports
+          moral et financier, et des détails sur les pensions et cotisations. Il inclut également
+          une chronique de l'U.A.G., le procès-verbal d'une réunion du conseil d'administration, des
+          avis divers et une liste de donateurs. Le document fournit un aperçu des activités de
+          l'organisation et de son soutien aux aveugles de guerre.</p>
+      </abstract>
+      <creation>
+        <date when="1940-02-01">01/02/1940</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-02-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-02-11" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h5">Président d'Honneur de l'Union des Aveugles de Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h6">Comité de Patronage</ref>
+          </item>
+          <item>
+            <ref target="#h7">HOMMAGE AU BARON DE TRAVERSAY</ref>
+          </item>
+          <item>
+            <ref target="#h8">LE LIVRET MILITAIRE DE SANTE</ref>
+          </item>
+          <item>
+            <ref target="#h9">PROJET DE RAPPORT MORAL PRESENTE PAR LE CONSEIL D'ADMINISTRATION DE
+              "L'UNION DES AVEUGLES DE GUERRE " SUR L'EXERCICE 1939</ref>
+          </item>
+          <item>
+            <ref target="#h10">PROJET DE RAPPORT FINANCIER</ref>
+            <list>
+              <item>
+                <ref target="#h11">BILAN AU 31 DECEMBRE 1939</ref>
+              </item>
+              <item>
+                <ref target="#h12">BILAN AU 31 DECEMBRE 1939</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h13">DECRET-LOI SUR LES PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h14">POUR LES MOBILISES FILS DE TUES A L'ENNEMI</ref>
+          </item>
+          <item>
+            <ref target="#h15">COTISATIONS VOLONTAIRES</ref>
+          </item>
+          <item>
+            <ref target="#h16">COTISATIONS 1940</ref>
+          </item>
+          <item>
+            <ref target="#h17">LEGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h1">Chronique de l'U. A. G.</ref>
+            <list>
+              <item>
+                <ref target="#h18">ENTRE NOUS</ref>
+                <list>
+                  <item>
+                    <ref target="#h19">Naissances</ref>
+                  </item>
+                  <item>
+                    <ref target="#h20">Mariages</ref>
+                  </item>
+                  <item>
+                    <ref target="#h21">Décès</ref>
+                  </item>
+                </list>
+              </item>
+              <item>
+                <ref target="#h22">PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION DU 13
+                  JANVIER 1940</ref>
+              </item>
+              <item>
+                <ref target="#h23">A LA REGIONALE DU NORD</ref>
+              </item>
+              <item>
+                <ref target="#h24">AVIS DIVERS</ref>
+              </item>
+              <item>
+                <ref target="#h25">LISTE DE DONATEURS</ref>
+              </item>
+              <item>
+                <ref target="#h26">DONS AVEC AFFECTATION SPECIALE POUR LA " MAISON DES AVEUGLES DE
+                  GUERRE "</ref>
+              </item>
+            </list></item>
+          <item>
+            <ref target="#h27">Tableau d'Honneur</ref>
+          </item>
+          <item>
+            <ref target="#h28">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h29">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">21e Année. — N° 2</fw>
+          <fw type="header">
+            <hi rend="underline">FEVRIER 1940</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h2">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h3">SOMMAIRE</head>
+                  <list>
+                    <item>Hommage au Baron de Traversay.</item>
+                    <item>Le livret militaire de santé.</item>
+                    <item>Projet de rapport moral.</item>
+                    <item>Projet de rapport financier.</item>
+                    <item>Décret-loi sur les pensions.</item>
+                    <item>Pour les mobilisés fils de tués à l'ennemi.</item>
+                    <item>Cotisations volontaires.</item>
+                    <item>Légion d'Honneur</item>
+                  </list>
+                </div>
+              </div>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h4">Chronique de l'U. A.
+                    G.</head>
+                  <list>
+                    <item>Entre nous.</item>
+                    <item>Procès-verbal de la réunion du Conseil d'Administration du 13 janvier
+                      1940.</item>
+                    <item>A la Régionale du Nord.</item>
+                    <item>Avis divers.</item>
+                    <item>Liste de donateurs.</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31 Siège provisoire: FRANCEVILLE (Calvados)</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Président d'Honneur de l'Union des
+              Aveugles de Guerre</head>
+            <p>M. Albert LEBRUN, président de la République</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">Comité de Patronage</head>
+            <p>\dagger M. Brieux, de l'Académie Française, Président honoraire ; \dagger M. Barthou,
+              ancien Président du Conseil ; M. le colonel Fabry, Député, ancien Ministre ; \dagger
+              M. le général Balfourier ; M. J. Ridgely-Carter ; M. Paul de Cassagnac, ancien Député
+              ; M. Maurice Donnay, de l'Académie Française ; M. Duco, Médecin-Inspecteur ; M.
+              Fribourg, Député ; Miss Alice Getty ; M. Justin Godart, ancien Ministre ; Miss Grace
+              Harper ; Miss Winifred Holt ; M<hi rend="superscript">me</hi> Léopold Kahn ; M. Krung
+              ; M. Lugol, ancien Sénateur ; \dagger M<hi rend="superscript">me</hi> la maréchale
+              Maunoury ; M. Samuel Milbank ; M. Meyer, Conseiller d'Etat ; M. Henry Paté, Député ;
+              \dagger M<hi rend="superscript">e</hi> Henri Robert, de l'Académie française, ancien
+              Batonnier de l'Ordre des Avocats; M. le général Sainte-Claire-Deville ; \dagger M.
+              Vallery-Radot.</p>
+            <pb n="3"/>
+          </div>
+          <fw>21e ANNEE. -N° 2 FEVRIER 1940</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">HOMMAGE AU BARON DE
+              TRAVERSAY</head>
+            <p>C'est avec l'émotion la plus vive et la plus douloureuse que nous avons appris le
+              décès du Président de notre Comité d'Action, le Baron de Traversay, survenu le
+              mercredi 24 janvier à Niort, où il s'est éteint entouré de sa famille et de ses
+              amis.</p>
+            <p>Sa mort est un deuil pour l'U. A. G. qui perd en lui le grand et sûr ami, dont la
+              fidélité fut un exemple vivant pour nous tous.</p>
+            <p>Depuis un an, nous le savions touché, mais sa robuste constitution, sa volonté de
+              réagir était si grande, que son activité s'était presque intégralement maintenue et
+              nous espérions le conserver encore longtemps à notre affection.</p>
+            <p>Depuis le mois de Septembre, il s'était retiré chez un de ses amis dans les
+              Deux-Sèvres, d'où il venait chaque mois à Paris passer une semaine qu'il nous
+              consacrait en grande partie. Il avait assisté à notre réunion du Conseil
+              d'Administration du 13 Janvier ; nous avions été heureux de le retrouver, non
+              seulement très reposé, mais encore plein de son activité légendaire. Malheureusement,
+              à son retour, saisi brutalement par la période de très grands froids, une congestion
+              pulmonaire l'enlevait quelques jours plus tard à l'affection des siens, à la nôtre, sa
+              seconde famille, comme il se plaisait à nous appeler.</p>
+            <p>Bien rares, parmi nous, sont ceux qui ne l'ont pas connu, qui n'ont pas eu recours à
+              lui en de multiples circonstances, car Monsieur de Traversay faisait, pour chacun
+              individuellement, autant que pour l'ensemble de l'Union.</p>
+            <p>Dès les premières heures de la guerre, c'est-à-dire en 1915, il se consacra, aidé des
+              siens, aux Aveugles de Guerre, si bien que lors de la fondation de l'U. A. G. en 1918
+              il y joua un rôle très actif et devait, peu de temps après, devenir Président de son
+              Comité d'Action.</p>
+            <p>Pendant près de vingt-cinq ans, il n'a cessé de nous donner, de nous prodiguer son
+              affection et son dévouement. Il était avec nous de tout son cour, il n'est pas une
+              question nous touchant qui ne l'inté- <pb n="4" break="no"/>
+              <note type="foliation">— 2 —</note> ressât avec passion ; après sa famille, nous
+              avions toutes ses pensées. Combien aussi nous garderons précieusement le souvenir de
+              sa présence dans notre maison de la rue Blanche, qu'il aimait tant, et des belles
+              journées qu'ensemble nous y avons vécues. Cette maison, il l'avait faite sienne et
+              s'ingénia à la rendre toujours plus vivante et plus accueillante. Il avait demandé
+              qu'on lui confiât l'entretien du jardin, dont il s'occupait avec un soin jaloux et qui
+              faisait l'admiration de tous nos visiteurs. Aussi, à chaque printemps, les fleurs qui
+              y fleuriront raviveront-elles ee souvenir de l'ami fidèle et très cher que nous
+              perdons.</p>
+            <p>Les services rendus par M. de Traversay à l'Union sont considérables et nous ne les
+              oublierons jamais. Lorsque les circonstances nous le permettront, nous lui rendrons
+              l'hommage publie que nous lui devons. Chacun de nous aura quelque chose à rappeler et
+              l'ensemble de ces souvenirs constituera son Livre d'Or. Ce Livre d'Or s'enrichira de
+              tous les témoignages de haute estime et de profonde amitié venus de toutes parts
+              autour de l'U. A. G., de tous nos amis qui le connaissaient comme nous-mêmes, de tous
+              les milieux anciens Combattants, aux réunions et aux cérémonies desquelles il nous
+              avait tant de fois conduits. Ce qui ajoutait à toutes ces actions de M. de Traversay,
+              c'est l'esprit, le dévouement, le cour avec lequel il les accomplissait. Les joies,
+              les peines de chacun de nous, il les a partagées comme si elles avaient été les
+              siennes, jamais à aucune demande il n'a répondu non. Très introduit, grâce à ses
+              relations, à son savoir, à ses démarches infatigables, il a toujours réussi, aussi
+              notre joie, notre reconnaissance furent grandes lorsque le 15 Mars 1930 notre
+              Président Seapini lui remit la croix de la Légion d'Honneur.</p>
+            <p>Mais c'est avec le plus vif chagrin que les deux délégations de l'U. A. G. remplirent
+              le samedi 27 Janvier leur pieux devoir, la première à Niort, au service religieux qui
+              eut lieu le matin et la seconde à son inhumation en fin du même jour au cimetière
+              d'Evreux. De nombreux camarades du Conseil d'Administration et de l'Union y
+              assistaient, ainsi que des membres du Comité d'Action. C'est avec une émotion intense
+              qu'ils accompagnèrent leur grand ami à sa dernière demeure et lui dirent dans leur
+              douloureuse reconnaissance, sous les plis de leur drapeau, dont il avait fait son
+              symbole, leurs regrets dans un touchant adieu.</p>
+            <p>Aux paroles de gratitude que nous avons exprimées, s'ajoutent les sentiments que nous
+              ressentons à l'égard de sa famille, restée comme lui fidèle à notre Union. A.
+              CONAN.</p>
+            <p>Parmi les nombreux témoignages de sympathie dont nous avons été l'objet à l'occasion
+              du décès de M. de Traversay, et qu'il nous est matériellement impossible de citer ici,
+              nous tenons à indiquer tout de <pb n="5"/>
+              <note type="foliation">— 3 —</note> suite à nos camarades le très beau geste accompli
+              au nom de l'American Braille Press, par M. Raverat, qui a déposé, à côté de la nôtre,
+              une superbe couronne d'œillets et de tulipes. Nous le remercions vivement de s'être
+              associé si complètement à notre deuil.</p>
+            <p>Nous publions ci-après l'hommage que le Comité d'Action tient à rendre au Président
+              qu'il vient de perdre :</p>
+            <p>Nous avons perdu en lui un ami, en même temps qu'un homme d'action pour notre cause,
+              c'est-à-dire un vrai et sincère ami.</p>
+            <p>Jusqu'à son dernier jour, M. de Traversay nous a donné les preuves de son
+              attachement, de son complet dévouement. Il nous avait consacré tout ce qu'il pouvait
+              de sa vie ; avec son caractère entier, il nous considérait comme inclus pour toujours
+              dans son ardente sympathie. Ce n'est point de notre côté une vaine supposition que de
+              l'affirmer avec certitude, nous avons occupé une de des dernières pensées, comme nous
+              avons eu un de ses derniers battements de cour.</p>
+            <p>Aussi, à l'heure avancée de ce soir du samedi 27 janvier, où arrivait à Evreux le
+              funèbre convoi qui le ramenait de Niort à son caveau de famille, nous sommes-nous
+              empressés de nous réunir à la hâte pour dire adieu à notre regretté Président du
+              Comité d'Action. Présents ou représentés, les camarades de l'U. A. G., de tous les
+              points du territoire où ils avaient appris à le connaître et à l'estimer, faisaient
+              monter vers lui leur témoignage ému de reconnaissance, que notre Président Conan a su
+              traduire en termes aussi justes que bien choisis.</p>
+            <p>Dès la première heure de notre Union, même dès le premier groupement des aveugles de
+              la grande guerre, M. de Traversay s'était voué à aider, à seconder ces liens qui se
+              créaient, et dont le développement devait faire notre force ; et pendant plus de vingt
+              années, il n'a pas cessé de rechercher, avec sa fougueuse activité, ce qui pouvait
+              être notre bien, s'ingéniant constamment à nous être utile ou agréable, animant de sa
+              collaboration dans les grandes ou les petites choses, notre maison de la rue Ballu,
+              puis celle autrement belle et grande de la rue Blanche, toujours prêt, à l'Assemblée,
+              au Conseil ou dans les Commissions, à chercher sur quel point il pourrait de nouveau
+              rendre service soit à l'U. A. G. en général, soit à chacun de ses membres en
+              particulier. De même au dehors, dans le monde, dans ses contacts avec les affaires, il
+              mettait encore cette ardeur résolue, parfois cavalière,-à bouter dehors, quand il les
+              rencontrait, l'indifférence, l'inaction, le manque de scrupule ou de conscience, il
+              était l'ennemi juré de la lâcheté et de la veulerie.</p>
+            <p>Les résultats obtenus par lui pour l'U. A. G. ne se comptent pas, et tout en
+              s'administrant elle-même, notre Union n'oublie point en combien de circonstances ses
+              yeux de voyant, son expérience financière, <pb n="6"/>
+              <note type="foliation">— 4 —</note> ses relations personnelles nous ont apporté un
+              appui indispensable et permis, par son énergique intervention, d'atteindre le but
+              cherché.</p>
+            <p>Il aura été de ceux qui, depuis leur enfance, auront vu trois fois la guerre
+              déchaînée avec ses angoisses et ses misères, sur notre beau pays, par l'impérialisme
+              allemand, toujours férocement le même sous des noms divers. Son patriotisme avait
+              douloureusement senti, surtout dans les dix dernières années, décliner les chances de
+              paix solide, de paix voulue et partagée, comme de reprise économique durable. Il s'en
+              révoltait facilement. Mais il avait classé parmi les "valeurs or » de la vie d'un
+              homme, qu'il ne se montrât jamais abattu et qu'il se consacrât aux autres
+              généreusement, qu'il donnât de sa personne, de son temps, de ses biens, comme de son
+              influence. Ennemi de la plainte creuse, il débordait d'un altruisme jamais satisfait ;
+              c'était un homme de tant de bonne volonté qu'il était infatigablement tendu dans un
+              désir inassouvi d'agir et de bien faire. Et c'est pourquoi notre drapeau, auquel il
+              fut fidèle, s'est incliné avec respect, avec une émotion reconnaissante sur sa tombe
+              fleurie en notre nom à tous. "Mon cher de Traversay, vous voici, hélas, les yeux clos,
+              et vous ne verrez plus, au milieu des camarades, notre lumière. Du moins, soyez
+              certain que vous vivez encore en ceux que vous appeliez « votre seconde famille ».
+              C'est cette famille-là qui a tenu à offrir à la vôtre, à vos filles, à votre frère,
+              l'hommage et l'expression de ses profonds regrets, tant de l'U. A. G. que du Comité
+              d'Action. " Avant la fin tragique de l'été 1939, le jardin de la rue Blanche était
+              souvent l'objet de vos soins, et même de vos appels et démarches. Je me rappelle avec
+              quel souci de pépiniériste vous nous montriez vos fleurs et vos plants. Comme ce que
+              vous avez fait sur ce terrain, dans cette oasis parisienne, avec des lierres et des
+              bégonias, le Bien semé par vous durera, prendra racine, fleurira, adoucira nos dures
+              heures d'attente et de résignation volontaire, jusqu'au jour où s'épanouira enfin la
+              joie de la délivrance par la Victoire. » M. TWEINS.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">LE LIVRET MILITAIRE DE
+              SANTE</head>
+            <p>Plusieurs journaux et bulletins concernant les anciens combattants ont déjà fait état
+              de la nécessité de créer à propos de la nouvelle guerre le livret militaire de
+              santé.</p>
+            <p>Cette idée, émise par notre Président Conan au cours de certaine réunion, à
+              d'ailleurs été mentionné avec sympathie par des chroni- <pb n="7" break="no"/>
+              <note type="foliation">— 5 —</note> queurs des anciens combattants et nous pouvons
+              dire que cette création correspond à un réel besoin.</p>
+            <p>A la suite de la Guerre 1914-1918, un grand nombre de blessés et de malades
+              éprouvèrent une grande peine à faire reconnaître l'origine de leurs infirmités par
+              suite des difficultés qu'ils rencontrèrent à réunir les pièces nécessaires. En effet,
+              bien des billets d'hôpitaux ou billets d'évacuation portaient parfois des diagnostics
+              dissemblables, ce qui entraîna certaines complications pour obtenir le droit à
+              réparation.</p>
+            <p>Dans la tourmente de la guerre et le désarroi de l'après-guerre, les dossiers de
+              nombreux Etablissements, qui avaient un caractère provisoire, furent dispersés, et il
+              fut souvent impossible à de véritables victimes de guerre de se procurer des preuves
+              de l'imputabilité au service de leurs infirmités. C'est pourquoi notre Président Conan
+              a pensé que chaque soldat devrait avoir un livret individuel de santé qui, comme le
+              livret militaire, porterait toutes indications personnelles et mentionnerait de plus,
+              en cas de blessure ou de maladie, tous les Etablissements sanitaires par où
+              l'intéressé est passé, avec les diagnostics exacts le concernant. Ce livret, qui
+              suivrait toujours le soldat, donnerait de cette façon la preuve certaine de l'origine
+              et de la nature de l'affection contractée, et éviterait de ce fait toutes les
+              contestations possibles pour faire reconnaître le droit à réparation.</p>
+            <p>Nous espérons qu'il pourra être tenu compte de cette intéressante suggestion et que
+              bientôt sera créé le livret militaire de santé. H. AMBLARD.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">PROJET DE RAPPORT MORAL PRESENTE
+              PAR LE CONSEIL D'ADMINISTRATION DE "L'UNION DES AVEUGLES DE GUERRE " SUR L'EXERCICE
+              1939</head>
+            <p>Chers Camarades,</p>
+            <p>Au début de 1940, les membres de votre Conseil d'Administration auraient bien aimé,
+              comme chaque année, en vous donnant un aperçu de ce que fut l'action de notre
+              Association pendant l'exercice écoulé, s'adresser à vous dans cet esprit tranquille et
+              confiant que donne la paix à laquelle nous nous étions habitués.</p>
+            <p>La guerre, qui nous a été imposée, et que le Pays poursuit avec détermination afin
+              que la liberté revienne sur le monde, trouve notre <pb n="8"/>
+              <note type="foliation">— 6 —</note> Association tonjours semblable à elle-même, prête
+              à faire son devoir. Avant de vous entretenir de ce qui fut fait au cours de l'année
+              dernière, vos administrateurs tiennent à assurer tous les membres de l'Union des
+              Aveugles de Guerre de leur vive sympathie pour eux, leurs familles et surtout leurs
+              mobilisés.</p>
+            <p>Au cours des huit premiers mois de 1939, l'U. A. G. ressentait, comme tout le Pays,
+              la menace qui pesait sur nous, malgré les preuves de bonne volonté données par les
+              Français, et il était difficile, dans ces conditions, de poursuivre la réalisation du
+              vou de notre Assemblée Générale demandant le relèvement de notre allocation 5 bis et
+              de notre allocation 6 en faveur des double article 10 , mesure qui alors aurait aidé
+              efficacement les grands mutilés qui pour la plupart, comme nous, n'ont que leur
+              pension pour seul moyen d'existence. Cependant, nous avions déjà posé d'intéressants
+              jalons auprès de M. Champetier de Ribes, le Ministre d'alors, et nous avions aussi mis
+              en avant la question du sort de nos veuves qui, d'accord avec certaines Fédérations,
+              aurait pu être amélioré en même temps que celui de certaines catégories plus
+              particulièrement intéressantes.</p>
+            <p>D'autre part, nous avons veillé à l'exécution du décret du 17 juin 1938, c'est-à-dire
+              l'extension du bénéfice du statut au profit de nos camarades exclus et, malgré la
+              rigueur des règlements, nous avons pu aider bien des camarades à obtenir satisfaction,
+              en conseiller utilement d'autres qui, par voie de justice, arrivent aussi à faire
+              valoir leurs droits.</p>
+            <p>Nous en étions là quand la guerre éclata en septembre. Malgré la tristesse qui
+              remplissait nos ecurs d'anciens combattants, le Bureau a alors exécuté les directives
+              prises par votre Conseil. Par prudence, la Maison de la rue Blanche fut fermée, la
+              direction des Services transférée dans notre Maison de Franceville ; l'Union s'était
+              repliée, mais n'avait pas cessé un jour de fonctionner.</p>
+            <p>Au cours des huit premiers mois de l'année, si comme nous venons de le rappeler,
+              *votre Conseil n'a cessé de veiller attentivement aux intérêts immédiats des Aveugles
+              de Guerre, il n'en a pas moins poursuivi sa tâche d'entr'aide qui est une des plus
+              belles choses de notre Association. Notre Maison, qui devient de plus en plus le foyer
+              familial avait, dès le début de 1939, atteint un degré de mise au point qui répond
+              maintenant parfaitement à ce que nous attendions de cette création; un gérant attentif
+              veille à son bon fonctionnement et nous pouvons dire que nous avons adopté une formule
+              adéquate aux besoins, voire aux exigences des usagers. Les aménagements en cours ont
+              été terminés et les deux grandes vérandas qui prolongent, l'une la salle à manger,
+              l'autre la salle des fêtes, nous ont procuré un espace appréciable. C'était un grand
+              plaisir, les jours de réunions, de pénétrer dans notre restaurant ainsi agrandi, où la
+              rumeur de plus de 200 convives donnait à cette Maison une vie d'une intensité qu'on
+              n'avait jamais connue, et ce fut une bien grande joie pour nous d'avoir pour la pre-
+                <pb n="9" break="no"/>
+              <note type="foliation">— 7 —</note> mière fois tenu chez nous notre Assemblée
+              Générale, qui se déroula dans une atmosphère d'amicale fraternité.</p>
+            <p>Jusqu'au mois d'août, notre restaurant a servi 3.627 petits déjeuners, 5.185
+              déjeuners et 3.330 diners, ce qui proportionnellement représente une augmentation
+              sensible sur l'année précédente, que nous retrouvons également dans le nombre de
+              camarades ayant effectué un séjour, qui s'élève à 349 pour 3.419 journées de présence.
+              On voit par ces chiffres que notre Maison a suivi dans son utilisation une courbe
+              ascendante vers son complet développement, et si elle est fermée actuellement, elle
+              rouvrira ses portes, plus vivante que jamais. Nous y avons reçu, comme d'habitude,
+              beaucoup d'amis, de visiteurs, qui nous ont encouragés à poursuivre notre effort. Si
+              nous ne pouvons mentionner toutes les personnes qui sont venues chez nous, nous
+              voudrions rappeler cependant que le 26 avril 1939 nous avons inauguré dans notre
+              grande salle le buste du Maréchal Maunoury, sous la présidence de M. Champetier de
+              Ribes, Ministre des Pensions. M. le Général Brécard a bien voulu rappeler les
+              circonstances de la blessure du Maréchal disparu qui fut notre Président d'Honneur,
+              devant une assistance composée de nombreuses personnalités où se trouvaient des
+              généraux aux noms déjà fameux, et nous avons vécu là une journée qui montre combien
+              est vrai l'intérêt que présente notre Association.</p>
+            <p>Nous ne faisons cependant pas de propagande bruyante, mais nous avions élaboré un
+              plan de voyage en Amérique, où vos délégués étaient déjà assurés de recevoir le
+              meilleur accueil et de préparer pour l'avenir de l'Union et ses diverses activités un
+              champ nouveau plus élargi. La guerre nous en a empêchés, mais nous gardons toujours de
+              bonnes relations dans ce pays ainsi qu'avec nos amis de l'American Legion qui n'ont
+              jamais cessé de nous témoigner une véritable amitié.</p>
+            <p>Si, à l'extérieur, nous ne manquons pas de faire connaître nos buts, votre Conseil
+              d'Administration a, comme par le passé, tenu ses réunions où toutes les questions
+              intéressantes ont été examinées avec soin. Les Commissions ont travaillé avec
+              régularité, spécialement celle de la Caisse Fraternelle, qui a eu à examiner tous les
+              cas qui comme d'habitude lui sont soumis. Elle a apporté ainsi toute son attention à
+              la situation des veuves qui est toujours une grande préoccuption pour nous.</p>
+            <p>En 1932, 42 camarades sont décédés, soit 4 de plus que l'année dernière, ce qui est
+              une indication pour l'avenir. L'allocation accordée en pareil cas, et qui maintenant
+              se monte à 6.000 fr., a donné aux veuves de nos camarades la preuve de la sollicitude
+              collective se traduisant par l'envoi immédiat des mandats qui, groupés, font une somme
+              de Frs : 202.855. A cela il faut ajouter, dans bien des cas, l'appoint de la Caisse de
+              Prévoyance créée l'année dernière qui, pour 30 camarades ayant adhéré, a apporté un
+              supplément de 10.000 fr. à leurs veuves. Les lettres que nous avons reçues de ces
+              compagnes restées seules nous assurent de l'efficacité de notre action.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+            <p>Dans les cas de maladie qui, malheureusement, deviennent de plus en plus fréquents au
+              foyer de l'Aveugle de Guerre, qui ne rajeunit pas, la Caisse a examiné de nombreuses
+              demandes et, selon les barèmes établis, a versé une somme de Frs : 129.240,85.</p>
+            <p>Récemment, un nouveau chapitre de solidarité a été inserit au budget afin de soulager
+              d'une part les aveugles dont la pension a été supprimée et d'autre part la détresse
+              d'anciens combattants devenus aveugles ou de certaines veuves de nos camarades dont la
+              situation est vraiment difficile. La Caisse de Solidarité a, dans ces cas, déboursé
+              une somme de Frs : 6.900 , - qui, nous n'en doutons pas, aura trouvé un emploi
+              immédiat dans ces tristes foyers.</p>
+            <p>Nous avons heureusement encore quelques naissances et l'allocation qui fut récemment
+              portée à 500 fr . a, pour ces nouveaux-nés, formé un total de Frs : 8.500 .</p>
+            <p>Les aveugles de guerre ont fait encore appel à notre Caisse de prêts-maisons dans une
+              proportion un peu moins forte, mais qui représente cependant un respectable appui de
+              la part de l'Union pour ceux qui veulent, soit construire, soit aménager une maison
+              familiale. Le montant maximum de ces prêts ayant été élevé depuis peu, la Caisse a
+              avancé une somme de 195.000 fr. pour pouvoir donner un peu de confort ou tout au moins
+              de tranquillité aux camarades.</p>
+            <p>Malheureusement, les hostilités de septembre sont arrivées, les ressources de ce fait
+              ont diminué notablement et la loterie nationale, qui nous apporte un appoint sérieux,
+              a vu son produit net réduit dans de notables proportions. Votre Conseil
+              d'Administration a pris tout de suite les décisions qui s'imposaient pour comprimer
+              les dépenses. S'il a diminué momentanément les possibilités de remboursement données
+              par la Caisse Maladie, s'il a supprimé même quelques chapitres secondaires, il n'a
+              voulu, en aneune façon, toucher à l'allocation servie aux veuves, et si l'on considère
+              ce qui a été fait dans cet ordre d'idées par d'autres Sociétés ou Associations, on
+              pourra remarquer que l'U. A. G. a conservé à son effort d'entr'aide un haut degré
+              d'efficacité.</p>
+            <p>Cette faculté d'épaulement, nous la constatons aussi dans nos Maisons de repos, où
+              nos camarades sont comme toujours heureux de se retrouver. Franceville a vu en 1939
+              ses appartements occupés comme d'habitude. 83 camarades y ont séjourné. "Le Manestou "
+              a reçu également 32 familles et, pour suppléer à l'insuffisance de ces deux Maisons
+              cependant largement accueillantes, nous avons loué aussi des appartements à
+              Malo-les-Bains, à Vals, à Chatelaillon, à Royat et, innovation de l'année, à
+              Gérardmer.</p>
+            <p>Cependant l'Assemblée Générale dernière avait donné mandat à votre Conseil de
+              rechercher une station plus permanente dans le Centre de la France, afin que soit plus
+              enraciné l'esprit de l'U. A. G., mais les événements ont empêché votre Bureau de
+              réaliser ce projet. Ce n'est qu'une exécution retardée, car il est préférable d'avoir
+              des créations stables où notre esprit d'Association puisse se manifester d'une <pb
+                n="11"/>
+              <note type="foliation">— 9 —</note> façon plus suivie, donnant ainsi un sens plus
+              pratique à ces réalisations. C'est dans cet esprit que l'aménagement de Franceville a
+              été complètement terminé, offrant à nos camarades et à leurs familles, d'une façon
+              simple mais agréable, le confort qu'on ne trouve pas toujours dans les stations
+              estivales.</p>
+            <p>Toutes ces branches de notre activité ont bien entendu un centre moteur dans nos
+              Bureaux de la rue Blanche, où notre dévoué personnel accomplit sa tâche quotidienne.
+              De là partent circulaires, correspondances, interventions de toutes sortes; là se
+              compose notre bulletin, que nous avons maintenu malgré les difficultés, et que nous
+              savons avoir été apprécié comme lien indestructible de notre vivante amitié.</p>
+            <p>De notre Maison sont aussi partis régulièrement, à l'adresse de camarades de plus en
+              plus nombreux, les disques du Livre Parlé, et la grande quantité de lettres reçues des
+              auditeurs, dont nous avons publié quelques extraits, témoignent de la satisfaction et
+              du plaisir apporté par cette nouvelle invention. L'enregistrement et le tirage de ces
+              disques était, au début de 1939, complètement mis au point, grâce à l'infatigable
+              action de M. Raverat, qui avait apporté des améliorations dans les nombreux domaines
+              de la fabrication à un point quasi parfait. Les hostilités ont à peine arrêté pour un
+              instant la publication de nouveaux ouvrages. Quant à nous, nous avons repris depuis
+              longtemps l'envoi périodique de ces disques, assuré par le gérant de notre Maison.</p>
+            <p>Nous avons une dette de reconnaissance envers Mr. William Nelson Cromwell, le
+              généreux Président de l'American Braille Press, qui permet la publication sur disques
+              d'ouvrages divers, intéressants et variés. Nous ne saurions manquer de lui renouveler
+              ici les sentiments de gratitude de l'U. A. G.</p>
+            <p>Ce Livre Parlé, selon le vou même de ses promoteurs, n'a pas arrêté un instant la
+              pratique du Braille, que nous lisons toujours avec plaisir, à en juger par l'activité
+              constante de notre bibliothèque, dirigée avec dévouement par M<hi rend="superscript"
+                >me</hi> Chevalier, aidée de M<hi rend="superscript">me</hi> Contamin et L'Evesque,
+              que nous remercions vivement de ce concours. Nous avons, en Septembre dernier, à peine
+              cessé nos envois, pour les reprendre comme à l'ordinaire, à la grande satisfaction de
+              nos camarades, ce qui, dans ces temps troublés où l'on ne quitte guère la maison,
+              permet à nos esprits de se reposer dans la pensée des meilleurs auteurs.</p>
+            <p>Toutes les choses extérieures nous intéressent vivement, et notre Association, comme
+              nous-mêmes, vit avec ses voyants, qui sont toujours les mêmes amis dévoués, en tête
+              desquels il faut placer M. de Traversay, M. Bloch, M. Iweins, ainsi que notre
+              trésorier M. L'Evesque.</p>
+            <p>Nous ne voudrions pas oublier de citer ici, parmi nos bons amis, la Société "Les Amis
+              des Soldats Aveugles ", qui n'a cessé de témoigner à nos camrades son affectueuse
+              sollicitude sous la paternelle présidence du Général Sainte-Claire-Deville qui,
+              désirant se reposer, a cette année, sollicité l'honorariat. C'est avec regret que nous
+              avons tous vu partir le Général Sainte-Claire-Deville et nous sommes certains que le
+                <pb n="12"/>
+              <note type="foliation">— 10 —</note> Général Dufieux, son successeur, saura garder à
+              la Société des "Amis" son caractère d'aide si efficace pour nous tous.</p>
+            <p>Il nous est agréable de trouver toujours autour de nous les mêmes sentiments
+              compréhensifs, venant de la part d'amis de la première heure comme de ceux qui nous
+              ont connus plus tard. Nous en sommes profondément touchés et nous aimons à compter les
+              sympathies, aussi bien dans le public que dans la masse des anciens combattants, avec
+              lesquels nous travaillons à la Confédération par l'entremise de notre Président, qui a
+              été nommé membre du Bureau.</p>
+            <p>L'U. A. G. termine donc 1939 en Association bien établie, où tous les camarades se
+              connaissent, s'estiment et s'entr'aident, où tous nos Groupements régionaux et
+              départementaux nourrissent avec le Siège central des relations de sincères
+              collaboration.</p>
+            <p>Or, maintenant, c'est la guerre. Ce mot, qui revient dans nos conversations de chaque
+              jour, ne nous décourage cependant pas ; vos Administrateurs, Chers Camarades, feront
+              tout ce qui dépend d'eux pour veiller aux destinées de votre Association et, par là
+              même, à celles de notre Pays.</p>
+            <p>LE CONSEIL.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">PROJET DE RAPPORT
+              FINANCIER</head>
+            <p>Conformément à l'article 9 des statuts, nous allons vous rendre compte de la
+              situation financière de l'Union des Aveugles de Guerre au 31 décembre 1939, telle
+              qu'elle résulte des opérations effectuées au cours de l'exercice.</p>
+            <list>
+              <head>Recettes au cours de l'exercice:</head>
+              <item>Cotisations des membres titulaires 14.790 »</item>
+              <item>Rachat de cotisations 300 »</item>
+              <item>Subvention Office National des Mutilés ( 1<hi rend="superscript">er</hi>
+                fraction) 18.000 »</item>
+              <item>Bienfaiteurs, donateurs, legs, Loterie Nationale 1.355 .18562</item>
+              <item>Dons et subventions avec affectat. Maison de l'Aveugle 14.788 »</item>
+              <item>Intérêts de l'argent placé 605.71688</item>
+              <item>Intérêts sur le fonds Kahn 400 »</item>
+              <item>Location des Maisons de Repos 18.24715</item>
+              <item>Location des logements immeubles rues Blanche et Ballu 6.052 »</item>
+              <item>2.033 .47965</item>
+              <item>Cotisations et intérêts Caisse de Prévoyance 487.33325</item>
+              <item>TOTAL. 2.520 .81290</item>
+            </list>
+            <pb n="13"/>
+            <note type="foliation">— 11 —</note>
+            <p>Les Dépenses an cours de ce même exercice se répartissent de la façon suivante :</p>
+            <list>
+              <item>Abonnement au téléphone et taxes 6.16390</item>
+              <item>Chauffage, éclairage, eau 56.64240</item>
+              <item>Bulletin et imprimés 29.78015</item>
+              <item>Timbres correspondance et télégrammes 9.59845</item>
+              <item>Fourniture des Bureaux 10.98310</item>
+              <item>Propagande 70.46230</item>
+              <item>Remboursement forfaitaire des frais du Président, du Secrétaire Général et du
+                Trésorier 30.000 »»</item>
+              <item>Déplacements des Administrateurs et des Membres de l'Union 20.41815</item>
+              <item>Groupements régionaux 18.59720</item>
+              <item>Personnel 124.600 »"</item>
+              <item>Assurances du Personnel 4.02315</item>
+              <item>Assemblée Générale et 20<hi rend="superscript">°</hi> Anniversaire
+                54.30650</item>
+              <item>Allocations naissances 8.700 »"</item>
+              <item>Allocations décès 202.855 »"</item>
+              <item>Allocations Caisse maladie 129.24085</item>
+              <item>Allocations Legs Antola 500 »"</item>
+              <item>Allocations aux camarades ayant eu leur pension sup- primée 18.900 »"</item>
+              <item>Allocations Caisse de Solidarité 6.900 »"</item>
+              <item>Allocations sur le Fonds Kahn 300 »"</item>
+              <item>Frais sur prêts maisons familiales 79975</item>
+              <item>Location de Maisons de Repos dans diverses régions 48.77180</item>
+              <item>Franceville : entretien, fonctionnement, surveillance, aménagements, réparations
+                105.10540</item>
+              <item>Bibliothèque, discothèque et journaux 24.43290</item>
+              <item>Courses 38585</item>
+              <item>Charges afférentes aux legs 8.17220</item>
+              <item>Frais de banque et sur titres en dépôt 12.05518</item>
+              <item>Souscriptions, cotisations et divers 3.24530</item>
+              <item>Installation des Bureaux et frais du siège à Franceville 4.526 »"</item>
+              <item>Fonctionnement de la Maison de l'Aveugle, bar, restau- rant-hôtel
+                125.09780</item>
+              <item>Entretien des immeubles Blanche et Ballu 11.39440</item>
+              <item>Versement sur legs Goldenberg à la Cité des Averugles de Guerre de Nice 100.000
+                "</item>
+              <item>1.246 .85773</item>
+              <item>Allocations Caisse de Prévoyance 300.000 »"</item>
+              <item>Total 1.546 .85773</item>
+            </list>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+            <p>Nous ne pensons pas qu'il y ait lieu de donner sur les comptes de l'exercice des
+              commentaires particuliers; seuls les postes d'allocation décès et de caisse de
+              prévoyance sont plus chargés que l'an passé, ce qui dénote une augmentation sensible
+              de la mortalité des camarades. Espérons que cette recrudescence ne se vérifiera pas
+              l'année prochaine.</p>
+            <p>L'état créé par la déclaration de guerre nous a obligés à prendre un ensemble de
+              mesures exceptionnelles, dont le coût n'a pas sensiblement affecté vos postes de
+              dépenses.</p>
+            <p>La seule explication que nous croyons utile de vous donner est la présentation
+              nouvelle du bilan.</p>
+            <p>Pour répondre au désir légitime exprimé par les autorités compétentes, chargées de
+              contrôler nos finances, nous avons décidé de faire apparaître dorénavant au passif de
+              votre bilan une rubrique "Dotation ". Les éléments constitutifs de cette dotation,
+              tels qu'ils sont énumérés à l'article 13 de vos statuts, composent les différents
+              postes de cette rubrique.</p>
+            <p>Cette modification, qui rend nos écritures plus conformes que jamais à la légalité, a
+              pour principale répercussion de nous avoir obligés à faire disparaitre de notre bilan
+              les appellations: "Fonds de réserves pour le service des allocations décès et de la
+              caisse maladie " ainsi que "Fonds de réserve des maisons de repos ", ce qui n'implique
+              nullement la suppression des avantages dont le montant a été déterminé par un vote
+              lors de diverses Assemblées Générales antérieures ; leur service sera assuré, comme
+              par le passé, par prélèvement tant sur le revenu des valeurs composant le Portefeuille
+              de la Dotation que sur les autres ressources dont dispose l'Union des Aveugles de
+              Guerre.</p>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">BILAN AU 31 DECEMBRE
+                1939</head>
+              <list>
+                <head>Actif</head>
+                <item>
+                  <list>
+                    <head>A. - Immobilisations :</head>
+                    <item>Immeubles Ballu et Franceville 556,470 ""</item>
+                    <item>Matériel et mobilier Franceville 73,80505</item>
+                    <item>Notre participation achat du terrain rue Blanche 1,000,000 ""</item>
+                    <item>Immeubles Succession Guesnon 14.94945</item>
+                    <item>Immeuble Maison de l'Aveugle 2.290.872 ""</item>
+                    <item>Matériel et mobilier Maison de l'Aveugle 244.54445</item>
+                    <item>Portefeuille dotation 5.225 .94936</item>
+                    <item>9,406,59031</item>
+                  </list>
+                </item>
+                <pb n="15"/>
+                <note type="foliation">— 13 —</note>
+                <item>
+                  <list>
+                    <head>B. — Disponibilités :</head>
+                    <item>Caisse 347.123 50</item>
+                    <item>Crédit Foncier compte disponible 182.954 82</item>
+                    <item>Crédit Foncier compte capitaux 20.123 82</item>
+                    <item>Banque Nationale pour le Commerce et l'Industrie 117.985 26</item>
+                    <item>Compte de report chez Sargenton 1.381 43</item>
+                    <item>Compte de chèques-postaux 56.008 81</item>
+                    <item>Portefeuille disponible 7.972.673 09</item>
+                    <item>Réserve spéciale 1.400.000 »</item>
+                    <item>10.098.250 73</item>
+                  </list>
+                </item>
+                <item>
+                  <list>
+                    <head>C. — Dépenses recouvrables :</head>
+                    <item>Prêts exceptionnels 45.700 »</item>
+                    <item>Prêts maisons familiales -919.290 »</item>
+                    <item>Appareils pour livre parlé 85.707 »</item>
+                    <item>1.050.697 »</item>
+                  </list>
+                </item>
+                <item>
+                  <list>
+                    <head>D. — Caisse de Prévoyance :</head>
+                    <item>Fonds à la dotation 800.430 »</item>
+                    <item>Fonds disponible 187.333 25</item>
+                    <item>987.763 25</item>
+                  </list>
+                </item>
+                <item>Total 21.543.301 29</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">BILAN AU 31 DECEMBRE
+                1939</head>
+              <list>
+                <head>PASSIF</head>
+                <item>
+                  <list>
+                    <head>A. — Dotation :</head>
+                    <item>Fonds Brieux 343.500 »</item>
+                    <item>Fonds Kahn 13.284 56</item>
+                    <item>Rachat de cotisations 31.710 »</item>
+                    <item>Legs Antola 22.338 25</item>
+                    <item>Immeubles Ballu et Franceville 556.470 »</item>
+                    <item>Immeubles Maison de l'Aveugle 2.290.872 »</item>
+                    <item>Immeubles succession Guesnon 14.949 45</item>
+                    <item>Valeurs du Portefeuille en dotation 4.815.116 55</item>
+                    <item>Fonds Caisse de Prévoyance 800.430 »</item>
+                    <item>Terrain rue Blanche 1.000.000 »</item>
+                    <item>9.888.670 81</item>
+                  </list>
+                </item>
+                <pb n="16"/>
+                <note type="foliation">— 14 —</note>
+                <item>
+                  <list>
+                    <head>B. - Réserve :</head>
+                    <item>Fonds fluctuations de valeurs 659.83115</item>
+                    <item>Caisse de Prévoyance fonctionnement 187.33325</item>
+                    <item>Fonds des Services de l'Union des Aveugles de Guerre 10.656,21608</item>
+                    <item>11.503 .38048</item>
+                    <item>11.503 .38048</item>
+                  </list>
+                  <list>
+                    <head>C. - Legs Goldenberg :</head>
+                    <item>Au profit de la Cité des Aveugles de Guerre de Nice 151.250 %</item>
+                  </list>
+                </item>
+                <item>Total 21.543 .30129</item>
+              </list>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">DECRET-LOI SUR LES
+              PENSIONS</head>
+            <p>Un décret du 20 janvier 1940 maintient, pour les nouveaux combattants, les
+              dispositions de la loi du 31 mars 1919.</p>
+            <p>Il est bien entendu que les modifications qu'il apporte cependant à la loi ne
+              concernent pas ceux qui, comme nous, ont leur pension définitivement réglée.</p>
+            <p>Nous donnons succinctement les caractéristiques de ce décret et publions ensuite les
+              articles nous intéressant particulièrement.</p>
+            <p>La législation du 31 mars 1919 est maintenue, cependant, en cas de maladie prévoyant
+              que la présomption d'origine doit s'appliquer de plein droit aux combattants ayant
+              enduré les fatigues du service, le décret estime que cette présomption ne se justifie
+              pas de plein droit pour les malades appartenant à une formation non combattante. La
+              présomption d'origine pour les blessures serait intégralement maintenue.</p>
+            <p>Pour les infirmités résultant de maladie, le taux minimum de pension serait de 20%,
+              mais resterait à 10% pour les infirmités résultant de blessures.</p>
+            <p>En cas d'aggravation imputable au service d'une infirmité pré. existant à
+              l'incorporation, il est prévu que la pension sera désormais calculée sur la base de
+              l'aggravation seule. Toutefois, pour une aggravation élevée, on peut admettre en
+              compte le pourcentage total de l'infirmité, si celui-ci atteint 60%. Pour les
+              infirmités résultant de <pb n="17"/>
+              <note type="foliation">— 15 —</note> maladie, le délai de 4 ans au bout duquel la
+              pension temporaire devient définitive est reconnu trop court et une période plus
+              étendue est exigée pour se prononcer sur l'incurabilité. Il est prévu dans le décret
+              que les pensions pour maladie seront concédées à titre temporaire et que leur
+              conversion en pension définitive n'interviendra qu'après 9 années. Le renouvellement
+              des pensions temporaires se ferait tous les trois ans jusqu'à la période de 9 années ;
+              pour les infirmités résultant de blessure, le délai à l'expiration duquel la pension
+              temporaire doit être convertie en pension définitive serait ramené de 4 à 3 ans. Au
+              sujet de l'article 10, il est dit que si l'incapacité de se mouvoir, de se conduire ou
+              d'accomplir les actes essentiels à la vie n'est pas reconnue définitive, le droit au
+              bénéfice de l'article 10 ne devrait être conféré qu'à titre révisable.</p>
+            <p>Viennent ensuite des dispositions : de révision des pensions pour erreur, pour
+              aggravation, pour le choix du barème le plus favorable, etc...</p>
+            <p>Pour l'attribution de pension pour maladie un délai de 5 ans est accordé.</p>
+            <p>Décret du 20 janvier 1940 :</p>
+            <p>Art. 1<hi rend="superscript">er</hi>. - Les articles 3,4,5,6,7,10,15,67,68 et 76 de
+              la loi du 31 mars 1919 sont ainsi modifiés : "Art. 3. - Ouvrent droit à pension : "
+                1<hi rend="superscript">°</hi> Les infirmités qui résultent de blessures constatées
+              avant le renvoi du militaire dans ses foyers, à moins qu'il ne soit établi que ces
+              blessures ne proviennent pas d'événements de guerre ou d'accidents éprouvés par le
+              fait ou à l'occasion du service ; " 2<hi rend="superscript">°</hi> Les infirmités qui
+              résultent de maladies, lorsqu'il est établi que ces maladies ont été causées ou
+              aggravées par les fatigues, dangers ou accidents éprouvés par le fait ou à l'occasion
+              du service. Les intéressés seront admis à faire la preuve par tous moyens. " Par
+              dérogation aux dispositions du paragraphe 2<hi rend="superscript">°</hi> précédent, au
+              cours d'une guerre, ou au cours d'une expédition déclarée campagne de guerre par
+              l'autorité compétente, sont présumées, sauf preuve contraire, avoir été contractées ou
+              s'être aggravées par suite des fatigues, dangers ou accidents du service, les maladies
+              constatées : " a) Pendant toute période au cours de laquelle le militaire ou le marin
+              a participé aux opérations de combat ; "b) Dans les trente jours qui suivent chacune
+              de ces périodes; "c) Avant le renvoi dans ses foyers, pour le militaire ou le marin
+              ayant participé aux opérations de combat, au cours de la même guerre ou de la même
+              expédition, pendant quatre-vingt-dix jours, consécutifs ou non. " L'Etat pourra
+              fournir la preuve contraire par tous moyens. " En ce qui concerne les militaires ou
+              marins qui n'ont pas été <pb n="18"/>
+              <note type="foliation">— 16 —</note> renvoyés dans leurs foyers au cours des
+              hostilités, le délai prévu à l'alinéa c ci-dessus expire à la date de cessation des
+              hostilités. "Les militaires ou marins, titulaires de la carte du combattant au titre
+              de la guerre 1914-1918 ou d'expéditions déclarées campagnes de guerre antérieures au 2
+              septembre 1939, bénéficient des dispositions de l'alinéa c ci-dessus en ce qui
+              concerne la guerre commencée le 2 septembre 1939 s'ils ont participé au cours de cette
+              guerre aux opérations de combat, mais sans condition de durée. "Un décret définira les
+              conditions dans lesquelles les militaires ou marins seront considérés avoir participé
+              aux opérations de combat pour l'application du présent article. "Un dossier médical
+              doit être constitué pour chaque recrue lors de son examen par le conseil de revision
+              et lors de son incorporation dans des conditions également déterminées par décret. "
+              "Art. 4. - Les pensions sont établies suivant le degré d'invalidité. "L'invalidité
+              constatée doit être au minimum de 10% pour les infirmités qui résultent de blessures
+              et de 20% pour les infirmités qui résultent de maladies. "En cas d'aggravation
+              imputable au service d'une infirmité préexistant à l'incorporation, l'aggravation doit
+              être au minimum de 20% et la pension est établie sur la base de cette aggravation
+              seule. " Toutefois, elle est établie sur le pourcentage total de l'infirmité ainsi
+              aggravée, si ce pourcentage atteint ou dépasse 60%. " "Art. 5. - Le point de départ de
+              la pension est fixé au jour de la décision prise par la commission de réforme. " Il y
+              a droit à pension définitive quand l'infirmité résultant de blessure est reconnue
+              incurable. Il y a droit à pension temporaire si elle n'est pas reconnue incurable. "En
+              cas de maladie, la pension est concédée à titre temporaire. "En cas de pluralité
+              d'infirmités, dont l'une ouvre droit à pension temporaire, le militaire ou marin est
+              admis à pension temporaire pour l'ensemble de ses infirmités. " "Art. 6. - Toute
+              décision comportant attribution de pension doit être motivée et faire ressortir les
+              faits et documents ou les raisons d'ordre médical établissant que l'infirmité provient
+              de l'une des causes indiquées à l'article 3 ; ou, lorsque la pension est attribuée par
+              présomption, le droit de l'intéressé à cette présomption et l'absence de preuve
+              contraire. " Toute décision comportant rejet de pension doit être également motivée et
+              faire ressortir qu'il n'est pas établi que l'infirmité provient de l'une des causes
+              indiquées à l'article 3 ; ou, lorsque l'intéressé a droit à la présomption, les faits,
+              documents ou raisons d'ordre médical dont résulte la preuve contraire détruisant cette
+              présomption. " "Art. 7. - La pension temporaire est concédée pour trois années, sauf
+              en ce qui concerne les réformés temporaires qui n'y ont droit que <pb n="19"/>
+              <note type="foliation">— 17 —</note> pendant le temps où ils sont en position de
+              réforme. Elle est renouvelable par périodes triennales après examens médicaux. " Au
+              cas où la ou les infirmités résultent uniquement de blessures, la situation du
+              pensionné doit, dans un délai de trois ans, à compter du point de départ légal défini
+              à l'article 5 , être définitivement fixée soit par la conversion, à un taux supérieur,
+              égal ou inférieur au taux primitif, de la pension temporaire en pension définitive,
+              sous réserve toutefois de l'application de l'article 68 de la présente loi, soit, si
+              l'invalidité a disparu ou est devenue inférieure au degré indemnisable, par la
+              suppression de toute pension. " Au cas où une infirmité, ouvrant droit à pension,
+              associée ou non à d'autres, résulte de maladies, la pension temporaire est, à
+              l'expiration de chaque période, soit renouvelée à un taux supérieur, égal ou inférieur
+              au taux primitif, soit supprimée si l'invalidité a disparu ou est devenue inférieure
+              au degré indemnisable. " Dans les mêmes conditions, la situation du pensionné
+              temporaire doit, à l'expiration du délai de neuf ans qui suit le point de départ légal
+              défini à l'article 5 , être définitivement fixée soit par la conversion de la pension
+              temporaire en pension définitive, sous réserve toutefois de l'application de l'article
+              68 de la présente loi, soit par la suppression de toute pension. " Tout bénéficiaire
+              d'une pension temporaire, chez qui se sera produit une complication nouvelle ou une
+              aggravation de son infirmité, peut, sans attendre l'expiration de la période de trois
+              ans, adresser une demande de revision sur laquelle il devra être statué par la
+              commission de réforme dans les deux mois qui suivront la demande ". "Art. 10. - Les
+              invalides que leurs infirmités rendent incapables de se mouvoir, de se conduire ou
+              d'accomplir les actes essentiels de la vie, ont droit à l'hospitalisation, s'ils la
+              réclament. En ce cas, les frais de cette hospitalisation sont prélevés sur la pension
+              qui leur est concédée. " S'ils ne reçoivent pas ou s'ils cessent de recevoir cette
+              hospitalisation et, si vivant chez eux, ils sont obligés de recourir d'une manière
+              constante aux soins d'une tieree personne, ils ont droit, à titre d'allocation
+              spéciale, à une majoration égale au quart de la pension. " Le droit à cette
+              hospitalisation ou à cette majoration de pension est constaté par la commission de
+              réforme, au moment où elle statue sur le degré d'invalidité dont le mutilé est
+              atteint. " Il est revisable tous les trois ans, après examens médicaux, même lorsque
+              la pension ne présente pas ou ne présente plus le caractère temporaire, si
+              l'incapacité de se mouvoir, de se conduire ou d'accomplir les actes essentiels à la
+              vie n'a pas été reconnue définitive ". "Art. 15. - Les demandes de pension, autres que
+              les pensions de réversion, formulées par les veuves ou orphelins de militaires ou
+              marins décédés dans leur foyer doivent être accompagnées d'un rapport médico-légal,
+              établi par le médecin qui a soigné l'ancien militaire <pb n="20"/>
+              <note type="foliation">— 18 —</note> ou marin pendant sa dernière maladie, ou, à
+              défaut, de soins donnés pendant la dernière maladie, par le médecin qui a constaté le
+              décès. "Le rapport visé au paragraphe précédent fera ressortir, d'une façon précise,
+              la relation de cause à effet, entre le décès et la blessure reçue, ou la maladie
+              contractée ou aggravée en service. Les postulants à pension y joindront tous documents
+              utiles pour établir la filiation de l'affection, cause du décès, par rapport aux
+              blessures ou aux maladies imputables au service dans les conditions définies à
+              l'article 3 de la présente loi. " Si le décès survient dans le délai d'un an à dater
+              du renvoi définitif du militaire ou marin dans ses foyers, il est réputé, sauf preuve
+              contraire, provenir desdites blessures ou maladies. L'Etat pourra fournir la preuve
+              contraire par tous moyens. " Le ministre des anciens combattants et pensionnés peut se
+              faire communiquer, par tous services administratifs qui en seraient détenteurs,
+              ampliation de tous documents, quelle qu'en soit la nature, concernant les décès ayant
+              donné lieu à une demande de pension ». " Art. 67. - Les pensions définitives ou
+              temporaires, les gratifications et allocations de toute nature, attribuées en raison
+              des droits ouverts depuis le 2 août 1914, peuvent être revisés dans les cas suivants :
+              " 1<hi rend="superscript">°</hi> Lorsqu'une erreur matérielle de liquidation a été
+              commise ; " 2<hi rend="superscript">°</hi> Lorsque les énonciations des actes ou des
+              pièces, sur le vu desquels l'arrêté de concession a été rendu, sont reconnues
+              inexactes, soit en ce qui concerne le grade, le décès ou le genre de mort, soit en ce
+              qui concerne l'état des services, soit en ce qui concerne l'état civil ou la situation
+              de famille. " Dans tous ces cas, la revision a lieu sans conditions de délai, dans les
+              mêmes formes que la concession, sur l'initiative du ministre liquidateur, ou à la
+              demande des parties, et par voie administrative si la décision qui avait alloué la
+              pension définitive ou temporaire, la gratification ou l'allocation n'avait fait
+              l'objet d'aucun recours. " Dans le cas contraire, la demande en revision sera porté
+              devant le tribunal qui avait rendu la décision attaquée. Il en sera saisi dans les
+              formes indiquées au titre IV de la présente loi. " 3<hi rend="superscript">°</hi> A
+              titre exceptionnel, lorsqu'à la suite d'une enquête ouverte par le ministre des
+              anciens combattants et pensionnés, il sera démontré : " a) Que la pension, la
+              majoration ou le complément de pension ont été accordées par suite d'erreur matérielle
+              ou médicale, de fraude, de substitution, de simulation, à raison d'affections dont
+              l'intéressé n'est pas atteint ; " b) Qu'un ancien militaire, dont le prétendu décès a
+              ouvert droit à pension de veuve, d'orphelin ou d'ascendant est reconnu vivant. " Pour
+              l'application du présent paragraphe, le ministre des anciens combattants et pensionnés
+              saisira le tribunal départemental des pensions, lequel statuera dans les formes
+              prévues au titre IV.</p>
+            <pb n="21"/>
+            <note type="foliation">— 19 —</note>
+            <p>"Le Trésor ne pourra exiger la restitution des sommes payées indûment que si
+              l'intéressé était de mauvaise foi." "Art. 68. - Le titulaire d'une pension
+              d'invalidité concédée à titre définitif peut en demander la revision en invoquant
+              l'aggravation d'une ou plusieurs infirmités en raison desquelles cette pension lui a
+              été accordée. "Cette demande n'est recevable pour les infirmités résultant de maladies
+              que dans le délai de cinq ans qui suit la première concession de pension définitive.
+              Elle peut être formée sans limitation de délai pour les infirmités qui résultent de
+              blessures. "La pension ayant fait l'objet de la demande est revisée à un taux
+              supérieur ou inférieur au taux primitif, lorsque le degré d'invalidité résultant de
+              l'infirmité ou de l'ensemble des infirmités est reconnu, après examen médical,
+              différer de 10% au moins du pourcentage antérieur. "Toutefois, l'aggravation ne peut
+              être prise en considération que si le supplément d'invalidité est exclusivement
+              imputable aux blessures ou aux maladies constitutives des infirmités pour lesquelles
+              la pension a été accordée. "La pension revisée est concédée à titre temporaire pour
+              une durée de trois ans. " A l'expiration de la troisième année, la pension temporaire
+              est, après examen médical, convertie en pension définitive à un taux supérieur, égal
+              ou inférieur au taux de ladite pension. " "Art. 76. - Le militaire ou marin qui, par
+              le fait des blessures ou des infirmités ayant ouvert droit à pension, ne peut plus
+              exercer son métier habituel, a droit à l'aide de l'Etat en vue de sa rééducation
+              professionnelle. "L'office national des mutilés, combattants, victimes de la guerre et
+              pupilles de la nation déterminera les conditions dans lesquelles les collectivités ou
+              cuvres agréées à cet effet pourront organiser cette rééducation. Il fixera les
+              conditions générales selon lesquelles seront passés, sous le contrôle de l'inspection
+              du travail, les contrats d'apprentissage. "Le militaire ou marin pourra aussi, pour sa
+              rééducation et dans les mêmes conditions, passer un contrat d'apprentissage avec un
+              patron particulier. "L'Etat versera au militaire ou marin, infirme ou invalide, et qui
+              fera l'apprentissage d'un nouveau métier conformément aux dispositions ci-dessus, une
+              allocation dont le taux et les règles d'attribution seront fixés par arrêté du
+              ministre des finances et du ministre des anciens combattants et pensionnés, après avis
+              de l'office national des mutilés, combattants, victimes de la guerre et pupilles de la
+              nation. "Le bénéfice de la loi du 2 janvier 1918 est étendu aux veuves pensionnées au
+              titre de la présente loi. L'office national des mutilés, combattants, victimes de la
+              guerre et pupilles de la nation sera chargé <pb n="22"/>
+              <note type="foliation">— 20 —</note> de leur en assurer l'application dans des
+              conditions qui seront fixées par décret. »</p>
+            <p>Art. 2. - (Concerne les fonctionnaires). Art. 3. - Les dispositions transitoires de
+              l'article 65 de la loi du 31 mars 1919 sont exclusivement applicables aux infirmités
+              résultant, soit de blessures reçues, soit de maladies constatées dans des conditions
+              ouvrant droit à la présomption d'origine instituée à l'article 3 de ládite loi, au
+              cours de la guerre 1914-1918, au cours des expéditions déclarées campagnes de guerre
+              antérieures au 2 septembre 1939 et au cours de la guerre commencée le 2 septembre
+              1939.</p>
+            <p>Art. 4. - (Concerne les affectés spéciaux). Art. 5. - Les demandes de pension au
+              titre de la loi du 31 mars 1919 et des lois subséquentes doivent être présentées dans
+              le délai de cinq ans qui suit soit la constatation de l'infirmité, soit la cessation
+              des services, soit le décès.</p>
+            <p>Toutefois, lorsque l'infirmité ou le décès résulte de blessures provenant
+              d'événements de guerre ou d'accidents éprouvés par le fait ou à l'occasion du service,
+              les demandes de pension sont recevables sans limitation de délai.</p>
+            <p>Les demandes de pensions d'ascendant sont, dans tous les cas, recevables sans
+              limitation de délai.</p>
+            <p>Les anciens titulaires d'une pension temporaire d'au moins 25% pour la maladie, dont
+              la pension a cessé d'être servie, en raison de l'abaissement du degré d'invalidité
+              au-dessous du taux indemnisable, peuvent, en cas d'aggravation de l'infirmité pour
+              laquelle ils avaient été pensionnés, se mettre à nouveau en instance de pension
+              pendant un délai de cinq ans à dater de l'expiration de leur dernière pension
+              temporaire.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">POUR LES MOBILISES FILS DE TUES A
+              L'ENNEMI</head>
+            <p>Plusieurs de nos camarades qui, après avoir fait la guerre 19141918, voient les
+              jeunes partir sous les drapeaux, nous ont posé une question afin de savoir si des
+              dispositions spéciales ne pourraient pas être prises en faveur des fils de grands
+              mutilés comme nous.</p>
+            <p>Des mesures ont été prises au bénéfice de ceux qui ont perdu soit leur père, soit
+              deux ou plusieurs frères à la guerre.</p>
+            <pb n="23"/>
+            <note type="foliation">— 21 —</note>
+            <p>Nous avons demandé, avec d'autres Groupements, que compte soit tenu de la situation
+              spéciale des grands mutilés, mais devant le très grand nombre de P'upilles de la
+              Nation, on étudie en ce moment la possibilité de faire bénéficier de ces dispositions
+              les jeunes combattants fils des grands mutilés décédés depuis la guerre.</p>
+            <p>Voici la note publiée par le Ministère de la Défense Nationale et de la Guerre, le 11
+              janvier 1940, à ce sujet : " Il est procédé à un aménagement des affectations des
+              hommes de troupes des réserves qui ont perdu, des suites des opérations de la guerre
+              1914-1918, de celles qui se sont développées sur un théâtre d'opérations extérieures,
+              ou de celles de la guerre actuelle, soit leur père, soit deux ou plusieurs frères.</p>
+            <p>Les militaires rentrant dans l'une de ces catégories seront affectés, s'ils
+              appartiennent à la deuxième réserve, à une formation du territoire, stationnée dans la
+              zone de l'intérieur, et s'ils appartiennent à la première réserve, aux emplois les
+              moins exposés des unités dont ils font partie.</p>
+            <p>Toutefois, ceux d'entre eux qui en feraient la demande écrite, pourront être
+              maintenus dans leur affectation actuelle.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h15">COTISATIONS VOLONTAIRES</head>
+            <p>Il n'a certainement pas échappé à nos camarades que, depuis quelque temps déjà, de
+              nombreux membres de l'Union nous adressaient, en plus de leur cotisation statutaire,
+              un supplément au titre de cotisation volontaire, soit pour la Maison, soit pour la
+              bonne marche de l'Association en général.</p>
+            <p>Chaque mois, des listes assez longues paraissent sous ce titre, et nous tenons à
+              souligner l'intérêt et l'attachement qu'apportent de nombreux aveugles de guerre à
+              leur Association. Le Conseil les remercie particulièrement de cette marque de
+              solidarité.</p>
+            <p>Voici les versemenls que nous avons reçu ce mois-ci : MM. Perot, 10 fr. ; Laurent A.,
+              20 fr. ; Mougin, 10 fr. ; Gerard, 10 fr. ; Brebion, 20 fr. ; Fafet, 10 fr. ; Bidau, 5
+              fr. ; Boyer E., 20 fr. ; Dutaud, 5 fr. ; Lefebvre O., 5 fr. ; Gouriou, 5 fr. ;
+              Potereau, 5 fr. ; Cailbaut, 10 fr. ; Canterel, 5 fr. ; Favereau, 10 fr. ; Deguerville,
+              10 fr. ; Munch, 5 fr. ; Guermonprez, 10 fr. ; Boche, 10 fr. ; Hachez, 10 fr. ;
+              Moricel, 10 fr. ; Castree, 5 fr. ; Mersenne, 10 fr. ; Houdré, 15 fr. ; Bazas, 5 fr. ;
+              Ballu, 10 fr. ; Le Borgne, 5 fr. Darnaud-Guilhem, 10 fr. ; <pb n="24"/>
+              <note type="foliation">— 22 —</note> Bouché, 10 fr.; Poussard, 5 fr.; Guillen, 5 fr.;
+              Le Nahuec, 10 fr.; Ferrer, 10 fr.; Chaudron, 10 fr.; Henaff, 10 fr.; Beaubras, 5 fr.;
+              Lapébie J.-B., 5 fr.; Rochet, 15 fr.; Adam E., 5 fr.; Ganneau, 10 fr.; Durand H., 10
+              fr.; Porcheron, 10 fr.; Descormes, 10 fr.; Gesta, 5 fr.; Yvon, 10 fr.; Fonehy, 5 fr.;
+              Levy M., 15 fr.; Lassalle, 5 fr.; Miremont, 5 fr.; Raybaud, 5 fr.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h16">COTISATIONS 1940</head>
+            <p>MM. Trouillet, Lallemand G., Senry, Richou, Moricel, Castree, Barbier J., Berigaud,
+              Izembard, Mersenne, Prudhomme, Pillon, Houdré, Brinon, Rineau, Le Treust, Salvat,
+              Badel, Butel, Bazas, Gardette, Sabin, Leroy H., Robin V., Moley, Ballu, Le Borgne,
+              Arhuro, Kromer, Darnaud-Guilhem, Toequard, Cassat, Sarret, Branger, Bouché, Rascle,
+              L'Hermitte, Loquin, Lafaye, Douale, Pasquier A., Rain, Brusson, Cadot, Arnoux,
+              Vandromme, Poussard, Grillet L., Courteix, Guillam, Nadal, Guillin, Delille, Ferrer,
+              Le Nahuec, Mariet, Eychenne, Chaudron, Henaff, de Diego, Mercier R., Beaubras, Lapébie
+              J.-B., Rochet, Adam E., Pallier, Cluzeleau, Heuzé H., Glorieux, Pélissier M., Huet H.,
+              Malgat, Satgé, Bertrand F., Vennier, Croisé, Julie A., Benoit B., Drapeau, Chouquet,
+              Millepied, Ganneau, Reyne, Levasseur, Truffert, Durand H., Porcheron, Serret, Leveau
+              D., Descormes, Gesta, Farrant, Yvon, Bouchet R., Pousse, Fonehy, Levy M., Lassalle,
+              Salles, Deltor, Rohken, Miremont, Raybaud, Paulin, Perot, Laurent A., Revol, Mougin,
+              Moteau, Gerard, Brebion, Prigent, Brassac, Gerentes, Martin A., Salesse, Pichonneau,
+              Vabois, Odoul, Guiton, Patisson, Fafet, Colleuille, Sursin P., Daraspe, Choron,
+              Desseignes, Bidan, Tureat, Lamy A., Boyer E., Lelarge, Boulert, Abbas, Barbier E.,
+              Cassar, Marignier, Couesnon A., Alloi, Bertoni, Massart, Lenfant, Dutaud, Charpentier,
+              Duforest, Boé, Amar, Caudron, Lefebvre O., Gouriou, Lefebvre G., Cartoux, Robineau,
+              Potereau, Fauvergne, Bolon, Cailbaut, Favereau, Mercadier, Cantarel, Guy, Royer,
+              Charriaut, Champey, Deguerville, Foubet, Grimaldi, Lambert P., Camerey, Vitré, Roche
+              A., Cloerec, Monribot, Grossemy, Equerre, Munch, Matinaud, Jeannin, Combarré,
+              Guermonprez, Roget, Fargier, François M., Cloarec, Falcou, Boehe, Gilles R., Tourrès,
+              Mordrelle, Schoettel, Wetzel, Leroy M., Liagre, Martin J., Briant, Chabert J., Lainé
+              G., Mouisset, Faucon, Fayolle, Barbier G., Hereng, Liabeuf, Cayrel, Pichenot,
+              Mougenel.</p>
+            <pb n="25"/>
+            <note type="foliation">— 23 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">LEGION D'HONNEUR</head>
+            <p>Par décret du 30 décembre 1939, paru au Journal Officiel du 17 janvier 1940, sont
+              promus au Grade d'Officier dans l'Ordre de la Légion d'honneur :</p>
+            <p>Campet André, ex-soldat au 3e Rég. d'Infanterie Coloniale ; Potdevin Louis, ex-soldat
+              au 29 R. I. ; Rivemale Joseph, ex-maréchal des logis au 56 d'Artillerie ; Grillon
+              Maurice, ex-sergent au 164* Rég. d'Infanterie.</p>
+            <pb n="26"/>
+            <pb n="27"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Chronique de l'U. A. G.</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">ENTRE NOUS</head>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h19">Naissances</head>
+                <p>Notre camarade et Madame C. Falcou, de Lafaye (Aude), nous font part de la
+                  naissance de leur 5<hi rend="superscript">e</hi> enfant, Lucie, née le 14
+                  décembre.</p>
+                <p>Notre camarade et Madame Grattepain, de Saint-Mème-les-Carrières (Charente), nous
+                  font part de la naissance de leur petit-fils Jacques, en janvier 1940.</p>
+                <p>Nous adressons nos félicitations aux heureux parents et nos voux de prospérité
+                  aux bébés.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h20">Mariages</head>
+                <p>Notre camarade Salettes, de Careassonne (Aude), nous fait part du mariage de sa
+                  fille Marie avec M. Paul Debely, célébré le 13 janvier 1940.</p>
+                <p>Notre camarade Henri Durand, de Vierzon (Cher), nous fait part du mariage de sa
+                  fille, célébré le 27 janvier 1940.</p>
+                <p>Nous adressons nos voux de bonheur aux jeunes époux.</p>
+              </div>
+              <div type="subsubsection">
+                <head type="subsubsection" rend="align(center)" xml:id="h21">Décès</head>
+                <p>Nous apprenons le décès : De notre camarade Favier Pierre, de Paris, décédé le 20
+                  janvier 1940, à l'âge de 68 ans.</p>
+                <p>Né le 5 novembre 1872 à Paris, sergent au 1<hi rend="superscript">er</hi>
+                  Régiment d'Aviation, notre camarade devint aveugle en 1917. Réformé à 100% art. 10
+                  pour cécité, il laisse une veuve.</p>
+                <p>De notre camarade Muller Jean, de Schwindratzheim (Bas-Rhin), décédé le 28
+                  septembre 1939.</p>
+                <p>Né le 16 mars 1895 à Schwindratzheim (Bas-Rhin), soldat au 220<hi
+                    rend="superscript">°</hi> Régiment de Mitrailleurs dans l'armée allemande,
+                  Muller fut <pb n="28"/>
+                  <note type="foliation">— 26 —</note> blessé en Macédoine le 10 septembre 1918. Il
+                  était réformé à 100% art. 10 pour cécité.</p>
+                <p>De la belle-mère de notre camarade Julie Albert, de
+                  Saint-Georges-des-Groseilliers (Orne), décédée le 5 janvier 1940, dans sa 81<hi
+                    rend="superscript">°</hi> année.</p>
+                <p>De la mère de notre camarade Delhomme, de Poitiers (Vienne), décédée le 10
+                  janvier 1940, dans sa 84<hi rend="superscript">°</hi> année.</p>
+                <p>Nous adressons aux parents nos plus vives condoléances.</p>
+              </div>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">PROCES-VERBAL DE LA REUNION
+                DU CONSEIL D'ADMINISTRATION DU 13 JANVIER 1940</head>
+              <p>La séance est ouverte à 10 h . sous la présidence de M. Conan. Sont présents :
+                Conan, Favret, Guillam, Izaac, Amblard, Bertrand, Bloncourt, Bois, Brusson,
+                Céré-Labourdette, Courteix, Derunder, Grillet, Lauté, Malgat, Muller, Roy G.,
+                Satgé.</p>
+              <p>Excusés : Bardoux, Cabasson, Evrat, Fauvel, Laffargue, Lagarde, Leveau; L'Evesque,
+                Noireaux, Scapini.</p>
+              <p>Ont donné leurs pouvoirs: au Président: Bardoux, Lagarde, Scapini. au Secrétaire
+                Général : Laffargue, Noireaux. à Favret : Cabasson. à Bloncourt : Evrat. Assistait
+                également à la séance: M. de Traversay, Président du Comité d'Action.</p>
+              <p>Au début de ce Conseil, le premier depuis les hostilités, le Président tient à
+                saluer particulièrement les administrateurs, tous les membres de l'Union, leurs
+                familles et surtout leurs mobilisés. Il regrette de ne plus compter parmi nous notre
+                camarade Robert, administrateur, décédé en août dernier. Il exprime la confiance
+                dans l'avenir du Pays, dans celui de notre Association et, expliquant la nécessité
+                de tenir deux séances de Conseil, passe à l'ordre du jour.</p>
+              <p>1) Le procès-verbal de la dernière séance est adopté. 2) Les situations financières
+                de Novembre et Décembre sont également adoptées. 3) Election d'un administrateur en
+                remplacement du camarade Robert.</p>
+              <p>Le Conseil devant désigner un remplaçant, le dépouillement des bulletins de vote a
+                lieu et donne le résultat suivant : <pb n="29"/>
+                <note type="foliation">— 27 —</note> Votants : 28 (l'enveloppe de Nicolaï,
+                actuellement en Corse, n'étant pas parvenue),</p>
+              <p>Ont obtenu : Dallet, 17 voix ; Mathieu, 8 ; Almey, 1 ; Mulsant, 1 ; Bulletin blanc,
+                1.</p>
+              <p>Le camarade Dallet, de Nantes, est nommé administrateur de l'U. A. G. 4) Le
+                Secrétaire général fait alors un exposé de l'action du Bureau de l'Union depuis le
+                début des hostilités. Il indique comment ont fonctionné les Services pendant les
+                trois mois où ils ont séjourné à Franceville. Puis, le temps ayant manqué pour
+                adresser en cette période de l'année la copie du rapport moral, il fait lire un
+                projet de ce rapport.</p>
+              <p>Le Président, l'ayant remercié de son travail, ouvre la discussion. Quelques
+                explications et mises au point sont demandées par les administrateurs présents,
+                entr'autres par Bloncourt, Bois, Brusson, et le rapport moral est adopté dans
+                l'esprit où il est présenté. 5) Le rapport financier n'ayant de même pu être
+                présenté à temps, le Secrétaire Général fait donner lecture des dépenses faites
+                pendant l'exercice écoulé. Chaque chapitre est examiné attentivement par les
+                administrateurs et comparé avec les chiffres inscrits au budget. Bertrand remarque
+                que le crédit affecté aux Président, Secrétaire Général et Trésorier n'est pas
+                complètement dépensé. Bloncourt demande quelques informations sur Franceville, il
+                s'intéresse au développement de notre station. A ce propos, le Secrétaire Général
+                indique qu'il serait possible d'acheter un terrain contigü au nôtre afin de dégager
+                complètement nos Pavillons. Le Conseil fait confiance au Bureau pour négocier cette
+                affaire. Les administrateurs approuvent la dépense de 4.526 fr. occasionnée par le
+                fonctionnement du siège à Franceville, et donnent leur approbation pour l'ensemble
+                des dépenses.</p>
+              <p>Sur demande de Brusson, le Secrétaire Général indique comment les versements à la
+                Caisse de Prévoyance sont rentrés. Il fera ultérieurement une note à ce sujet. 6) A
+                propos d'incidents qui se sont déroulés à Boulleville, le Bureau demande au Conseil
+                d'examiner le cas d'Evrat pour des propos désobligeants tenus à l'égard des
+                camarades, de leurs femmes et de leurs guides. Courteix est invité à faire un exposé
+                des faits, Muller apporte aussi son témoignage. Le Bureau qui, lors d'incidents
+                antérieurs, avait été partisan de l'indulgence, demande au Conseil, par application
+                des statuts, la radiation d'Evrat comme membre de l'Union.</p>
+              <p>Fauvel a exprimé par lettre l'opinion que des incidents survenus à Boulleville ne
+                nous regardaient pas. Bloncourt, qui n'approuve pas l'attitude du camarade, estime
+                cependant que la radiation est une sanction trop rigoureuse et demande qu'un blâme
+                lui soit adressé. Grillet partage cet avis. Le Bureau, devant la persistance de
+                l'attitude d'Evrat, regrette d'avoir à demander l'application des statuts qui ne <pb
+                  n="30"/>
+                <note type="foliation">— 28 —</note> prévoient pas la radiation de membre du Conseil
+                mais la perte de qualité de membre de l'Union.</p>
+              <p>Les administrateurs présents, ainsi que ceux qui ont donné leurs pouvoirs à cette
+                occasion, sont appelés à se prononcer sur la question.</p>
+              <p>Ont voté pour la radiation: Amblard, Bardoux, Bertrand, Bois, Brusson,
+                Céré-Labourdette, Conan, Courteix, Derunder, Favret, Guillain, Izaac, Laffargue,
+                Lagarde, Lauté, Leveau, Malgat, Muller, Noireaux, Roy G., Satgé, Scapini (22).</p>
+              <p>Abstentions: Bloncourt, Grillet (pour les raisons qu'ils ont indiqué) et
+                Fauvel.</p>
+              <p>Il est midi 30, la séance est levée.</p>
+              <p>A 15 heures, la séance est ouverte, sous la présidence de Conan. Les mêmes
+                camarades sont présents, plus L'Evesque, trésorier.</p>
+              <p>En raison des circonstances présentes, le Bureau propose la motion suivante :</p>
+              <p>« Le Conseil d'Administration, vu les décrets des 27 septembre et 19 novembre 1939
+                qui condamnent en France toute organisation à caractère communiste et tout individu
+                en professant la doctrine ou se conformant dans son activité aux mots d'ordre
+                relevant de la IIIe Internationale,</p>
+              <p>déclare : 1°) Que toute personne tombant sous le coup de ces décrets ne peut être
+                ni admise, ni maintenue à l'Union des Aveugles de Guerre ;</p>
+              <p>2°) Que tout membre de l'U. A. G. appartenant à ces organisations, en propageant
+                les idées ou en portant les insignes, sera immédiatement radié de l'Union ;</p>
+              <p>3°) Le Bureau de l'U. A. G. est chargé de veiller à la stricte application de ces
+                décisions avec mission de rendre compte de son mandat à chaque séance du Conseil
+                d'Administration. »</p>
+              <p>Roy et Bois envisagent l'application de cette décision. Bloncourt demande que le
+                décret du 19 novembre 1939 ne soit pas évoqué, tandis qu'il fait l'objet de
+                discussions au Parlement et pense que le décret du 27 septembre doit nous
+                satisfaire. De plus, il s'indigne de la collusion Hitler-Staline et demande qu'une
+                motion soit également votée dans ce sens. Amblard pense que nous devons tous
+                désavouer le pacte germano-russe. Une motion dans ce sens sera présentée à la fin de
+                la séance.</p>
+              <p>La motion présentée par le Bureau, ainsi modifiée, est adoptée à l'unanimité :</p>
+              <p>« Le Conseil d'Administration, vue le décret du 27 septembre 1939 qui condamne en
+                France toute organisation à caractère communiste et tout individu en professant la
+                doctrine ou se conformant dans son activité aux mots d'ordre relevant de la IIIe
+                Internationale,</p>
+              <p>« déclare : 1°) Que toute personne tombant sous le coup de ce <pb n="31"/>
+                <note type="foliation">— 29 —</note> " décret ne peut être ni admise ni maintenue à
+                l'Union des Aveugles " de Guerre ; " 2") Que tout membre de l'U. A. G. appartenant à
+                ces organisa" tions, en propageant les idées ou en portant les insignes, sera immé"
+                diatement radié de l'Union ; " 3<hi rend="superscript">°</hi> ) Le Bureau de l'U. A.
+                G. est chargé de veiller à la stricte " application de ces décisions et d'en rendre
+                compte au Conseil d'Ad"ministration."</p>
+              <p>Le Président rappelle alors qu'une des questions principales pour laquelle le
+                Conseil a été réuni au début de l'année est celle de la Confédération et de laLégion
+                des Anciens Combattants.</p>
+              <p>Tous les Administrateurs ayant reçu une note détaillée sur la question, le
+                Président ajoute quelques explications.</p>
+              <p>De nombreux Administrateurs font connaître leur opinion. Après un échange de vues,
+                il ressort que les Administrateurs désirent garder à l'Union son caractère
+                particulier et expriment la volonté de s'entendre avec les anciens combattants. Ils
+                aimeraient aussi voir créer la "carte du Légionnaire ", ce qui clarifierait la
+                situation.</p>
+              <p>Le Conseil, s'inspirant de l'esprit de conciliation qui n'a cessé de régner pendant
+                le débat, fait confiance au Bureau pour que, dans les relations avec les Anciens
+                Combattants, il agisse au mieux des intérêts de l'Union et vote la motion suivante :
+                " Le Conseil d'Administration de l'Union des Aveugles de Guerre, " après avoir été
+                mis au courant des événements qui se sont produits " au sujet de la séparation de
+                plus en plus marquée qui s'accentue " entre les Anciens Combattants, considérant
+                que, parce que c'est la " guerre, l'Union des Aveugles de Guerre doit faire tous ses
+                efforts " pour essayer de faire cesser un état de choses qui ne profiterait, ni "
+                aux Anciens Combattants, ni à ceux qui versent ou verseront leur " sang pour le
+                Pays, " 1<hi rend="superscript">°</hi> ) approuve complètement l'attitude de son
+                Bureau dans cette " circonstance ; " 2<hi rend="superscript">°</hi> ) lui donne
+                mandat d'intervenir par tous moyens pour essayer " qu'une seule Légion Française
+                existe en France, " A cet effet, profitant de la réunion de l'U. F. du dimanche " 14
+                janvier, décide d'y faire connaitre l'opinion et le désir de " l'Union des Aveugles
+                de Guerre dans cette circonstance, démarches " ou lettres analogues devant être
+                faites auprès de l'U. N. C., auprès " de la Confédération et, au besoin, de toute
+                personnalité en France susceptible d'amener une conciliation ; " 3<hi
+                  rend="superscript">°</hi> ) Dit que le Bureau de l'U. A. G. ne doit pas s'écarter
+                de cette " idée fondamentale, que la situation telle qu'elle existe ne saurait "
+                durer, l'Union des Aveugles de Guerre ne pouvant prendre parti " entre deux groupes
+                qu'elle a estimés et qu'elle estime encore aujourd'hui.</p>
+              <pb n="32"/>
+              <note type="foliation">— 30 —</note>
+              <p>" En conséquence, donne au Bureau pleins pouvoirs pour prendre " toutes décisions
+                s'accordant avec les principes ainsi définis."</p>
+              <p>Le Conseil décide également, dans les circonstances présentes, de ne pas continuer
+                sa collaboration au Comité d'Entente des Grands Invalides.</p>
+              <p>A propos de la question évoquée au début de la séance, Bloncourt présente la motion
+                suivante : " Réuni pour la première fois depuis le déclenchement de la " guerre qui
+                a été hâté par la signature du pacte germano-russe, le " Conseil d'Administration de
+                l'Union des Aveugles de Guerre tient " à adresser son salut aux Armées de la
+                République et aux Armées " alliées qui sont mobilisées pour défendre les libertés
+                menacées et la " sécurité du Pays, " Il apporte le témoignage de sa sympathie aux
+                Nations qui ont " été l'objet des odieuses agressions d'Hitler et de Staline, " Il
+                exprime l'émotion et l'indignation qu'il a ressenties en appre" nant que des
+                Français se sont mis au service de Gouvernements " étrangers dont ils ont approuvé
+                et encouragé les attitudes bellicistes, " Il réprouve et condamne toutes les menées
+                anti-françaises et ii " souhaite ardemment que bientôt triomphent la justice et la
+                paix. " indissolublement liées, ainsi que toutes les valeurs morales au service "
+                desquelles il maintient toutes ses forces."</p>
+              <p>Cette motion est adoptée à l'unanimité. Le Président parle de la date de la
+                prochaine Assemblée Générale qui sera choisie selon les circonstances.</p>
+              <p>Il expose aussi quelles sont les relations avec l'A. B. P. et les projets à propos
+                des éventuels nouveaux aveugles de guerre.</p>
+              <p>Le Conseil approuve toutes ces déclarations. Grillet pense être l'interprète du
+                Conseil pour remercier et féliciter le Bureau de l'activité qu'il a déployée depuis
+                le mois de septembre.</p>
+              <p>Le Conseil approuve un prêt pour agrandissement de maison familiale consenti au
+                camarade II..., victime civile.</p>
+              <p>Après avoir pris connaissance des dispositions testamentaires de M<hi
+                  rend="superscript">me</hi> Veuve Triossi, demeurant à Villefranche-sur-Mer, Villa
+                " La Loggia ", où elle est décédée le 17 octobre 1939, par lesquelles elle lègue par
+                testament olographe fait à Villefranche-sur-Mer le 12 octobre 1931, aux Aveugles de
+                Guerre, (Euvre Nationale, une somme de 100.000 fr., le Conseil d'Administration
+                décide à l'unanimité d'accepter ces dispositions testamentaires sous bénéfice
+                d'inventaire et sous réserve de l'autorisation préfectorale et quant aux fonds à
+                provenir du dit legs de les employer en secours immédiats aux Aveugles de guerre
+                conformément à l'art. 1<hi rend="superscript">er</hi> des statuts de l'Association,
+                donner tous pouvoirs à son Trésorier pour encaisser le legs au nom de l'Union des
+                Aveugles de Guerre, prendre tous engagements et faire le nécessaire.</p>
+              <p>Le Conseil d'Administration de l'U. A. G. donne pleins pouvoirs <pb n="33"/>
+                <note type="foliation">— 31 —</note> à son Trésorier M. Gaston L'Evesque ou, à son
+                défaut, à M. Oscar Bloch, Trésorier adjoint, à l'effet de toucher le remboursement
+                de tous titres amortis ou sortis aux tirages, y compris ceux ayant bénéfici: d'un
+                lot, effectuer tous emplois et remplois soit de fonds ayant nature de capitaux, soit
+                de fonds ayant nature de revenus, donner tous ordres de bourse à cet égard, signer
+                toutés souscriptions et donner bonne et valable quittance de toutes ces
+                opérations.</p>
+              <p>Le Conseil déclare que les pouvoirs du Trésorier restent valables jusqu'à l'époque
+                de sa réélection en 1941, conformément à l'art. 5 des statuts.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 18 h .30 .</p>
+              <p>Note aux Administrateurs. - Nous avons rajouté une délibération nécessaire au
+                Trésorier pour opérer le remboursement d'obligations de la Ville de Paris, ainsi que
+                le texte d'une donation faite à l'Euvre Nationale des Aveugles de Guerre, transmise
+                par les « Mutilés des Yeux».</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">A LA REGIONALE DU
+                NORD</head>
+              <p>Les camarades de la Régionale du Nord sont avisés qu'en raison des circonstances,
+                la réunion qui devait avoir lieu le troisième dimanche de Mars, a été remise à une
+                date ultérieure.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">AVIS DIVERS</head>
+              <p>Serais acheteur bonne machine à écrire, marque américaine de préférence, Remington
+                ou Underwood.</p>
+              <p>Faire offre au camarade TOUTAIN, Grande-Rue, Briouze (Orne).</p>
+              <pb n="34"/>
+              <note type="foliation">— 32 —</note>
+              <p>A vendre, pour cause décès du camarade, Vélocar tout neuf, n'ayant servi que trois
+                fois, modèle cyclotourisme.</p>
+              <p>S'adresser à M<hi rend="superscript">me</hi> Veuve Ernest CATHERINE, Longueville,
+                par La Cambe (Calvados).</p>
+              <p>Pour trousseaux, achats toile et lingerie, notre camarade PETITDIDIER nous informe
+                qu'il livrera aux meilleures conditions le beau linge des Vosges, garanti blanchi
+                sur pré, Livraison franco 5% d'escompte. Demander échantillons.</p>
+              <p>S'adresser directement à M. PETITDIDIER, 118, rue Marietton, Lyon (Rhône).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">LISTE DE DONATEURS</head>
+              <p>Protection et bonne santé de notre famille, 600 fr. ; M<hi rend="superscript"
+                  >me</hi> Lemaire, Cambrai, 50 fr. ; M<hi rend="superscript">me</hi> Toudy et
+                Chandieu, La Garenne-Colombes, 20 fr. ; M<hi rend="superscript">me</hi> Coquerelle,
+                Epinay-sur-Seine, 100 fr. (en souvenir de son fils Georges mort pour la France) ; M.
+                François, Morteau (Doubs), 50 fr. ; M. Villevieille, Meudon (S.-et-O.), 20 fr. ;
+                  M<hi rend="superscript">me</hi> P. Dieterlen, Valentigney (Doubs), 50 fr. ; notre
+                camarade Robineau, (pour le Livre Parlé), 20 fr.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">DONS AVEC AFFECTATION
+                SPECIALE POUR LA " MAISON DES AVEUGLES DE GUERRE "</head>
+              <p>Commune de La Ferté-Alais (S.-et-O.), 45 fr. ; Commune de Marle (Aisne), 50 fr. ;
+                  M<hi rend="superscript">me</hi> Veuve Legrand, Gambais (S.-et-O.), 10 fr.</p>
+              <pb n="35"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h27">Tableau d'Honneur</head>
+            <p>Izaac, Président honoraire Scapini, Président honoraire Bourguignon, Secrétaire
+              général honoraire Favret, Secrétaire général honoraire Conan, Secrétaire général
+              honoraire Amblard, Secrétaire général honoraire</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h28">Conseil d'Administration</head>
+            <p>Président : Conan Vice-Présidents: Favret, Guillam, Izaac Secrétaire général :
+              Amblard Trésorier : Gaston L'Evesque Membres: Bardoux, Bertrand, Bloncourt, Bois,
+              Brusson, Cabasson, Céré-Labourdette, Courteix, Dallet, Derunder, Fauvel, Grillet,
+              Laffargue, Lagarde, Lauté, Leveau, Malgat, Muller, Nicolai, Noireaux, Roy (Georges),
+              Satgé, Scapini</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h29">Comité d'Action</head>
+            <p>M<hi rend="superscript">lle</hi> Arbel, Vice-Présidente honoraire. \ddagger
+              Président: M. de Traversay. Vice-Présidentes Mme Contamin. Mme L'Evesque. M. Bloch,
+              adjoint au Trésorier ; M. Iweins, Secrétaire du Comité d'Action. M. Auterbe, Directeur
+              à la Compagnie "L'Union". M<hi rend="superscript">me</hi> du Bos; M<hi
+                rend="superscript">me</hi> Broquin ; M. de Chaumont-Quirry ; M. Chepfer ; M<hi
+                rend="superscript">me</hi> Chevalier ; M<hi rend="superscript">lle</hi> Jalaguier ;
+              Mme Lévy-Weis ; M. Julien Mayer. Colonel de Traversay.</p>
+            <pb n="36"/>
+          </div>
+          <fw>Gérant: DECOENE. IMPRIMERIE CARON &amp; Cie, 34, RUE DEMOLOMBE, CAEN</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

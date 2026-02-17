@@ -1,0 +1,1271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - Mars 1945</title>
+        <author>Groupement National des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Rapport</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Association</title>
+        <title type="topic">Finances</title>
+        <title type="topic">Rapport moral</title>
+        <title type="topic">Assemblée Générale</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>26,5 X 21 cm ; 14 pages numérotées + 1 pages non numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#association">Association</term>
+          <term ref="#rapport">Rapport</term>
+          <term ref="#finances">Finances</term>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#secours">Secours</term>
+          <term ref="#entraide">Entraide</term>
+          <term ref="#assemblee-generale">Assemblée Générale</term>
+          <term ref="#robert-laute">Robert Lauté</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le document est un ensemble de rapports et d'informations concernant le Groupement
+          National des Aveugles de Guerre. Il commence par un hommage à Robert Lauté, un ancien
+          administrateur décédé. Ensuite, il annonce la réunion de l'Assemblée Générale ordinaire de
+          1945. Le rapport moral pour l'exercice 1944 détaille les activités de l'association
+          pendant la guerre, les difficultés rencontrées et les efforts pour aider les membres.
+          Enfin, le rapport financier présente la situation financière de l'Union au 31 décembre
+          1944, en comparant les recettes et les dépenses avec les années précédentes.</p>
+      </abstract>
+      <creation>
+        <date when="1945-03-01">01/03/1945</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-02-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-02-11" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">ROBERT LAUTÉ</ref>
+          </item>
+          <item>
+            <ref target="#h2">L'ASSEMBLÉE GÉNÉRALE</ref>
+          </item>
+          <item>
+            <ref target="#h3">CANDIDATURES</ref>
+          </item>
+          <item>
+            <ref target="#h4">RAPPORT MORAL POUR L'EXERCICE 1944</ref>
+          </item>
+          <item>
+            <ref target="#h5">RAPPORT FINANCIER</ref>
+          </item>
+          <item>
+            <ref target="#h6">RECETTES AU COURS DE L'EXERCICE 1944</ref>
+          </item>
+          <item>
+            <ref target="#h7">COMMENTAIRES SUR LES ÉCRITURES COMPTABLES</ref>
+          </item>
+          <item>
+            <ref target="#h8">RÉPARTITION DES DÉPENSES DE GUERRE</ref>
+          </item>
+          <item>
+            <ref target="#h9">BILAN AU 31 DÉCEMBRE 1944</ref>
+            <list>
+              <item>
+                <ref target="#h10">ACTIF</ref>
+              </item>
+              <item>
+                <ref target="#h11">PASSIF</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h12">SOUSCRIPTIONS EN FAVEUR DES SINISTRÉS</ref>
+          </item>
+          <item>
+            <ref target="#h13">PROCES-VERBAL DE LA REUNION DU CONSEIL D'ADMINISTRATION de I'UNION
+              DES AVEUGLES DE GUERRE, du 28 Novembre 1944.</ref>
+            <list>
+              <item>
+                <ref target="#h14">1. - Procès-verbaux des réunions des 21 septembre et 24 octobre
+                  1944.</ref>
+              </item>
+              <item>
+                <ref target="#h15">2. - Présentation d'une situation financière comprenant les mois
+                  de juillet, août et septembre.</ref>
+              </item>
+              <item>
+                <ref target="#h16">3. - Election de trois nouveaux membres.</ref>
+              </item>
+              <item>
+                <ref target="#h17">4. - Nomination des membres de la Commission des Finances.</ref>
+              </item>
+              <item>
+                <ref target="#h18">5. - Proposition Noireaux pour les enfants des camarades.</ref>
+              </item>
+              <item>
+                <ref target="#h19">6. - Compte rendu sur l'action menée à propos des pensions et du
+                  mouvement combattant.</ref>
+              </item>
+              <item>
+                <ref target="#h20">7. - Questions diverses.</ref>
+              </item>
+            </list>
+          </item>
+
+          <item>
+            <ref target="#h21">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h22">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h23">NÉCROLOGIE</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw>UNION DES AVEUGLES DE GUERRE Groupement National des Aveugles de Guerre</fw>
+          <fw>SIEGE SOCIAL: 49, RUE BLANCHE, 49 PARIS (9) Reconnue d'Utilité Publique, Décret du 9
+            Avril 1921</fw>
+          <fw>TÉLÉPHONE : TRINITÉ 85-83 COMPTE CHÈQUES POSTAUX 160-31</fw>
+          <fw>Nombre d'Adhérents : 2.000</fw>
+          <fw>Mars 1945</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">ROBERT LAUTÉ</head>
+            <p>C'est avec une profonde tristesse que nous annonçons la perte de l'un de nos plus
+              anciens Administrateurs: Robert Lauté.</p>
+            <p>Le 20 janvier dernier, à la fin d'une sombre si froid, lourné d'hiver, Lauté a trouvé
+              la mort dans un des plus pénibles et tragiques accidents quippuissacrivé à l'un des
+              notres.</p>
+            <p>Il revenait de Paris et rentrait chez lui à Enghien. Par suite d'un concours de
+              circonstances malheureuses, il fut surpris et tamponné par un train en traversant un
+              passage à niveau situé sur son chemin. Heurté violemment à la tête, projeté en
+              arrière, c'est sur un sol recouvert d'une épaisse couche de neige que ses amis
+              relevèrent son corps inanimé. La mort avait été instantanée.</p>
+            <p>C'est le 17 avril 1917, au cours d'un des sanglants combats de l'attaque du Chemin
+              des Dames, que Lauté, après plus de deux ans de front, tomba gravement blessé et
+              perdit la vue à 22 ans.</p>
+            <p>Avec courage et confiance il entreprit sa rééducation, il réussit à se créer une
+              situation dans une compagnie d'assurances et fonda son foyer.</p>
+            <p>Doué d'un vif esprit d'association, il consacra une grande partie de son activité à
+              l'U.A.G. où il ne tarda pas à prendre place dans le Conseil d'Administration. Il y fut
+              élu le 18 novembre 1923 et son mandat lui fut depuis constamment renouvelé. Actif et
+              dévoué, il s'y fit rapidement remarquer en participant à de nombreux travaux, en
+              particulier à la création de notre Caisse de Prévoyance, grâce aux études approfondies
+              de la question des assurances et aux connaissances techniques de sa profession. Son
+              empressement à rendre service, sa cordialité, son caractère conciliant lui valurent
+              l'estime générale. Sa disparition survenant après celles si récentes et prématurées de
+              nos autres amis du Conseil: Bardoux, Courteix, Dallet, Lagarde et Robert, est vivement
+              ressentie. Tous ces vides nous affectent profondément.</p>
+            <p>Ceux d'entre nous qui connaissaient Lauté intimement peuvent dire combien était grand
+              son attachement à notre Union, combien il aimait participer à sa vie, à partager ses
+              projets d'avenir. Avec camaraderie et simplicité il exposait ses pensées toujours
+              généreuses, il disait sa joie de la reprise d'une vie, péniblement suspendue pendant
+              les années d'occupation, mais déjà toute prête à affirmer les espoirs qu'avait apporté
+              à tous la délivrance de notre pays. Victime des conséquences de sa blessure, nous ne
+              pouvons sans une grande émotion, songer aujourd'hui au douloureux accident qui
+              l'enlève à l'affection des siens et prive tragiquement ceux-ci de l'appui du chef de
+              famille, leur soutien naturel. Nous sommes venus nombreux lui rendre les derniers
+              devoirs. Au milieu des drapeaux des délégations d'Anciens Combattants d'Enghien,
+              venues elles aussi, le saluer et lui apporter le témoignage de leur estime et de leur
+              sympathie, ainsi qu'à sa femme et à sa fille cruellement éprouvées, le nôtre s'est
+              incliné sur sa tombe dans un émouvant et fraternel adieu.</p>
+            <p>Partageant l'immense douleur de Mme Lauté et de sa fille, à l'ami sincère que nous
+              perdons, nous disons nos tristes et affectueux regrets. Son souvenir s'ajoutera
+              fidèlement à celui de tous nos autres chers camarades disparus qui, après avoir
+              partagé activement la vie de notre Union et travaillé avec nous de tout leur cœur, à
+              sa grandeur et à son épanouissement, restent unis dans notre pensée aux sentiments
+              toujours <pb n="2"/>
+              <note type="foliation">— 2 —</note> plus élevés qui nous font rechercher la marche en
+              avant de notre groupement, sentiments auxquels nous convions les jeunes qui nous
+              arrivent.</p>
+            <p>Blessés sous le même drapeau, nous voulons à son ombre continuer à servir dans la
+              même confiance et le même espoir pour que notre U.A.G., au lendemain de la dure
+              épreuve, étende toujours plus au rythme de notre cœur, dans la mémoire du passé et du
+              souvenir de ceux qui ne sont plus, son action compréhensive, familiale et
+              réconfortante. A. Conan.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">L'ASSEMBLÉE GÉNÉRALE</head>
+            <p>C'est avec une grande joie que nous vous annonçons la réunion de notre Assemblée
+              Générale ordinaire de 1945, dont la date a été fixée par notre dernier Conseil
+              d'Administration au dimanche 6 mai. Ainsi, la bonne tradition de l'Union reprend avec
+              la perspective de cette rencontre amicale et fraternelle qui nous a tellement manqué
+              ces dernières années, et si les circonstances ne permettent pas encore de retrouver
+              pleinement l'atmosphère d'antan, nous sentons que nous allons vers un fécond
+              renouveau.</p>
+            <p>La situation actuelle ne permet pas d'envisager l'organisation de l'Assemblée
+              Générale telle que nous la concevions avant la guerre. Il nous est, en effet,
+              impossible de faire fonctionner pour le moment notre restaurant. D'autre part, nous ne
+              pourrons donner des chambres dans notre maison qu'à nos délégués, régulièrement
+              mandatés, c'est-à-dire à nos Administrateurs de province, et nos Présidents de
+              sections.</p>
+            <p>La difficulté des moyens de transports restreindra vraisemblablement le nombre de nos
+              camarades qui venaient à titre particulier prendre part à nos réunions, mais nous
+              sommes persuadés que ceux qui ont des facilités de résider dans Paris pourront se
+              joindre à nos Camarades de la région parisienne et aux délégués des provinces pour
+              assister à cette Assemblée.</p>
+            <p>Nous aurons comme d'habitude des séances de commissions les jours précédents où nous
+              procéderons à une large revue de ce que fut l'Association pendant ces années
+              d'occupation et où après avoir regularisé le passé nous prendrons des decisions pour
+              l'avenir, nous orientant franchement dans une voie qui fut toujours celle de l'Union,
+              en tenant compte des réalités de l'heure et n'oubliant surtout pas que nous avons
+              maintenant avec nous les représentants d'une jeune generation avec laquelle nous ne
+              formerons qu'un seul bloc.</p>
+            <p>Toutes les instructions necessaires et details concernant nos travaux vous seront
+              communiques en temps utile en meme temps que la convocation et c'est avec une ardeur
+              renouvelée que nous préparons notre réunion annuelle dans l'attente du plaisir qu'elle
+              nous causera à tous.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">CANDIDATURES</head>
+            <p>A l'occasion de l'Assemblee Generale, nos camarades devront proceder à l'élection du
+              Conseil d' Administration, dont la totalite de ses membres considérant leurs pouvoirs
+              expirés devra se représenter si tous le désirent bien entendu.</p>
+            <p>Nous enregistrons déja une place vacante par suite du décès de notre regretté ami
+              Robert LAUTE.</p>
+            <p>Nous demandons done aux membres de l'Union qui desireraient poser leur candidature au
+              Conseil d'Administration de nous le faire savoir dès la réception de la présente
+              circulaire, les délais nécessités par la correspondance, les impressions de bulletins
+              de vote, convocations, etc ... étant infiniment longs.</p>
+            <p>Les candidatures seront reçues jusqu'au 26 mars inclus. Nous etablirons ainsi les
+              bulletins de vote ou avec le nom des anciens Administrateurs sortants ou non se
+              mêleront ceux des quatre nouveaux camarades, auxquels le Conseil a entendu réserver
+              une place dans son sein pour representer la jeune generation qui, déja, donne des
+              preuves d'intelligente activité, ce qui est un grand encouragement pour la pérennité
+              du Groupement.</p>
+            <p>H. AMBLARD.</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">RAPPORT MORAL POUR L'EXERCICE
+              1944</head>
+            <p>L'année 1944 vient de se terminer, et ce n'est pas sans une intense émotion que nous
+              reprenons la tradition d'autrefois qui nous amenait chaque année auprès de vous pour
+              vous parler de votre Association, de ce qu'elle avait fait et de ce qu'elle comptait
+              réaliser.</p>
+            <p>Cette année a marqué profondément sa place dans le cour de tous les Français. C'est
+              pour nous le signe d'un renouveau que nous attendons depuis quatre ans et qui
+              subitement est venu à nous dans la splendeur de la liberté retrouvée.</p>
+            <p>La libération du territoire signifie pour nous la reprise de notre vie antérieure,
+              avec tout ce qu'elle comportait d'harmonie dans le jeu de notre institution qui nous
+              est propre, des possibilités d'expression et c'est avec la même confiance d'autrefois
+              que les aveugles de guerre peuvent reprendre les relations fraternelles qui les ont
+              toujours unis.</p>
+            <p>Pendant quatre années, l'U.A.G. n'a pu fonctionner que sous des apparences réduites,
+              notre Association n'étant pas reconnue par les occupants. Sa vie latente pouvait
+              laisser croire à un déclin, mais nous sommes libres maintenant, notre Conseil peut se
+              réunir, tout a repris sa valeur. C'est dans ces conditions que nous vous présentons
+              aujourd'hui ce rapport qui vous indiquera ce que fut pour l'Union 1944.</p>
+            <p>Tout d'abord nous tenons à saluer respectueusement les artisans de notre délivrance,
+              le Général de Gaulle, nos Ailles et aussi nos braves soldats qui se sont battus à
+              l'intérieur, qui se battent encore dans l'Est et qui maintiennent bien haut le
+              flambeau de la Patrie.</p>
+            <p>La guerre continue, sa rançon est lourde, les fils de nos camarades tombent au Champ
+              d'Honneur. C'est pour défendre ces intérêts primordiaux que notre Association s'est
+              formée il y a 26 ans, rassemblant tous les aveugles de la guerre 14-18.</p>
+            <p>Or, maintenant nous voyons venir à nous ceux des opérations de 39-40. Nous les
+              accueillons fraternellement et avec la reprise des hostilités sur notre sol, nous
+              devons penser à nouveau à ceux qui ont perdu la vue dans les combats de l'intérieur,
+              ou sur nos frontières de l'Est. Ils sont encore dans les hôpitaux, mais déjà nous les
+              visitons. Quelques-uns d'entre eux viennent rue Blanche commencer l'étude du
+              Braille.</p>
+            <p>Le Bureau se préoccupe de reprendre la réeduration entreprise il y a deux ans, mais
+              en attendant, nos jeunes camarades sont assurés de trouver auprès de leurs anciens
+              toute l'aide amicale qu'ils sont capables de leur apporter.</p>
+            <p>La guerre a malheureusement semé ses ruines sur notre territoire n'épargnant pas les
+              aveugles de guerre dont beaucoup ont été victimes de ses conséquences. Nous comptons
+              environ 200 sinistrés dont 17 le sont totalement et une trentaine gravement. Les
+              autres ont vu leur maison et leurs biens sérieusement endommagés par la tourmente.</p>
+            <p>L'U.A.G. ne peut, évidemment, se charger de relever les demeures si chères de nos
+              camarades infortunés, mais elle a tenu à leur apporter un secours immédiat pour
+              contribuer à parer aux premières nécessités de la reprise de la vie et surtout pour
+              leur témoigner la sollicitude de tous ses membres.</p>
+            <p>L'Union aussi a été elle-même sinistrée en Normandie, où ses pavillons ont beaucoup
+              souffert des opérations de débarquement. Les premières mesures de protection ont été
+              prises, en attendant l'époque incertaine où elle pourra relever ses bâtiments.</p>
+            <p>Les dirigeants de l'Union se sont occupés d'améliorer le ravitaillement général des
+              camarades par des interventions auprès des Préfets qui, dans la plupart des cas, nous
+              ont attribué des rations supplémentaires pour compléter l'approvisionnement de nos
+              familles.</p>
+            <p>Nos maisons ont été détruites ou pillées. De nouveaux aveugles viennent grossir nos
+              rangs, mais la France, nous en sommes convaincus, sortira grandie de l'épreuve et nous
+              pourrons alors vivre dans la tranquillité, nous qui avons engagé le combat il y a
+              trente ans pour que ces choses ne se renouvellent pas.</p>
+            <p>Pour nous qui avons acquis le droit au repos, dans l'impossibilité où nous sommes de
+              gagner notre vie, nous devons recourir uniquement aux Pouvoirs Publics pour obtenir
+              les ressources nécessaires à cette vie, et c'est pourquoi, dès le début de 1944, nous
+              vous communiquions le résultat des démarches entreprises pour le relèvement de nos
+              pensions.</p>
+            <p>Celui-ci représentait une amélioration de notre sort, mais malheureusement les
+              exigences nous amenèrent bientôt à penser qu'un nouvel effort devait être envisagé
+              pour que nous puissions décemment faire face aux difficultés qui nous
+              assaillaient.</p>
+            <p>Le Comité d'Entente des Grands Invalides, auquel nous sommes rattachés, a entrepris
+              des démarches pour que soit appliquée à la Métropole la législation des pensions en
+              vigueur dans l'Empire et à la fin de l'année, nous avions la certitude que ce serait
+              chose faite, regrettant-cependant que cette nouvelle augmentation ne parte que du 1<hi
+                rend="superscript">er</hi> janvier 1945.</p>
+            <p>Nous avons donc pu annoncer un relèvement substantiel de nos pensions et nous devons
+              adresser tous <pb n="4"/>
+              <note type="foliation">— 4 —</note> nos remerciements à M. Parodi, Ministre du
+              Travail, et à M. Samson, Secrétaire Général aux Anciens Combattants, pour la grande
+              part qu'ils ont prise à cette œuvre de justice.</p>
+            <p>Malheureusement, il n'en a pas été de même en ce qui concerne les pensions de veuves
+              et d'enfants. Malgré nos réclamations antérieures, les Pouvoirs Publics qui avaient
+              inscrit en tête de leur programme l'aide à la famille n'ont pas crû devoir l'apporter
+              aux enfants des Grands Mutilés qui sont loin d'être traités comme les autres petits
+              Français. C'est là une de nos préoccupations majeures, et nous ne cessons d'insister
+              pour que soit donné à nos enfants l'appui matériel qui leur est dû.</p>
+            <p>Dans toutes ces questions, nous avons été largement aidés par nos Présidents des
+              Sections Régionales et Départementales et certains Administrateurs de province. Ils
+              ont déployé une grande activité pour le ravitaillement de leur région. Ils se sont
+              intéressés aux jeunes aveugles en les visitant dans les hôpitaux et nous ont signalé
+              les camarades sinistrés de leur Section. Nous tenons à rendre hommage à leur
+              dévouement.</p>
+            <p>Maintenant que les deux funestes zones n'existent plus, nos camarades voyagent plus
+              aisément, et nombreux sont ceux qui de tous les coins de la France viennent à Paris.
+              Ils descendent à notre Maison de la Rue Blanche où ils sont heureux de trouver un
+              asile, malgré l'absence provisoire de chauffage et de restaurant.</p>
+            <p>Nous conservons-l'espoir de reprendre nos réunions et surtout notre Assemblée
+              Générale qui s'était tenue en 1940 dans notre Grande Salle pour la première fois.
+              C'est notre désir le plus cher qui s'accomplira, nous en sommes convaincus.</p>
+            <p>Dans nos Bureaux, nos services ont fonctionné normalement, malgré les difficultés de
+              l'heure, notre personnel ayant apporté tout son dévouement à nous seconder dans notre
+              tâche.</p>
+            <p>Notre œuvre d'entr'aide s'est accomplie en s'adaptant aux circonstances et nous
+              voulons vous donner maintenant un aperçu de ce qui fut fait dans cet ordre
+              d'idées.</p>
+            <p>En 1944 nous avons enregistré 42 décès de camarades, pour les veuves desquels nous
+              avons versé l'allocation prévue. Le total de ces allocations se monte à la somme de
+              Frs 207.400 pour l'année écoulée.</p>
+            <p>Nous avons songé aussi aux veuves de nos camarades décédés les années précédentes qui
+              éprouvent tant de peine à vivre avec leur maigre pension.</p>
+            <p>Nous avons répondu au désir exprimé depuis longtemps par les disparus, en
+              n'abandonnant pas leurs compagnes et nous avons utilisé les fonds attribués par
+              l'office National en 1943, en faisant une nouvelle répartition en 1944. Ceci nous a
+              permis d'augmenter, au moins en ces temps difficiles, les faibles ressources de nos
+              veuves. Nous avons alloué selon les cas des sommes d'une moyenne d'environ Frs 2.000 à
+              303 veuves.</p>
+            <p>Nous pourrons renouveler ce geste en 1945, espérant que par la suite leur pension les
+              dispensera d'avoir recours à nous. L'Union les aura aidées à franchir les heures
+              critiques de la guerre et par là, remplacer en partie le grand soutien qu'elles ont
+              perdu.</p>
+            <p>Notre Caisse de Prévoyance a répondu au désir de ses fondateurs en versant à 23
+              veuves l'allocation de Frs 10.000 , particulièrement utile en ce moment.</p>
+            <p>Notre Caisse Maladie a également rempli son rôle auprès de ceux d'entre nous qui, la
+              santé ébranlée, doivent faire face à des dépenses bien lourdes. Les taux de
+              remboursement sêssiblement augmentés ont amené notre Caisse à verser globalement une
+              somme de Frs 211.393 , soulageant ainsi les budgets des familles éprouvées.</p>
+            <p>Comme chaque année, nous nous sommes penchés sur la situation de nos camarades qui
+              ont vu avec tristesse leur pension supprimée. Frs 69.000 ont été versés à 21
+              bénéficiaires. C'est là une institution à laquelle nous nous attachons, comme à notre
+              Caisse de Solidarité, dans les cas pénibles et particuliers qui nous sont trop souvent
+              soumis.</p>
+            <p>Nous avons enregistré 17 naissances, chez les nouveaux comme chez les anciens. Nous
+              ne manquons pas en cette circonstance de marquer notre intérêt en adressant
+              l'allocation spéciale dont le montant a été relevé de manière appréciable en attendant
+              que les Pouvoirs Publics donnent à nos enfants le soutien qui leur est promis.</p>
+            <p>En attendant, le Conseil a désiré faire un geste, tout à fait à titre exceptionnel
+              pour l'année 1944, en allouant une somme de Frs 500 par enfant âgé de 15 ans au plus,
+              à nos camarades qui avaient au moins deux enfants. Les bénéficiaires en ont été très
+              heureux. En outre, nous n'avons pas hésité, dans certains cas particuliers qui nous
+              étaient signalés, d'aider nos camarades dont les enfants poursuivent des études.</p>
+            <p>Nous n'avons pas négligé l'important service de notre Bibliothèque, si utile en ce
+              moment où les heures sont longues et l'oisiveté accablante. Avec le toujours généreux
+              concours de Mme Contamin, une amie de la première heure, nous avons remédié à
+              l'absence de publications imprimées en faisant copier à la main de nombreux ouvrages
+              et en en faisant remettre en état beaucoup d'autres, aussi nos camarades ont-ils été
+              très sensibles à ce nouvel apport de livres mis à leur disposition.</p>
+            <p>Nous avions indiqué dans les rapports précédents la prise en charge par l'U.A.G. des
+              services d'étude et d'enregistrement du Livre Parlé depuis la fermeture de l'American
+              Braille Press. Au cours de cet exercice nous avons complété l'aménagement du studio
+              monté provisoirement dans les locaux de notre immeuble.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+            <p>Muni des derniers perfectionnements, nous avons pu procéder à une mise au point que
+              l'on considère comme définitive, réalisant dans la production des progrès très
+              appréciables sur les enregistrements d'avant-guerre. Un certain nombre d'ouvrages
+              nouveaux, dans les genres les plus variés, sont prêts à être mis en circulation. Nous
+              espérons que les camarades se rendront compte de la qualité de l'audition et du choix
+              des lecteurs auxquels nous avons eu recours ainsi que du relief que nous nous sommes
+              efforcés d'introduire par les lectures à plusieurs voix et le jeu des artistes qui
+              nous ont prêté leur concours.</p>
+            <p>Par ailleurs, nous avons continué à gérer les services de l'A.B.P. qui nous ont été
+              confiés et avons versé les pensions aux camarades bi-manchots. Les alloćations se sont
+              élevées à Frs 27.750 .</p>
+            <p>Nos relations avec les organisations extérieures se sont toujours maintenues, et nous
+              voudrions rappeler une fois de plus le concours si précieux que nous apporte en toutes
+              circonstances la Société des Amis des Soldats Aveugles qui ne manque jamais de
+              secourir nos camarades, trop nombreux, assaillis par de graves soucis. Nous voulons
+              adresser tous nos remerciements, spécialement au Président de cette (Euvre et à son
+              directeur, qui reçoit toujours nos camarades avec tant d'aménité.</p>
+            <p>N'oublions pas qu'avec les années qui passent, nos amis voyants se font de plus en
+              plus rares, aussi désirons-nous marquer notre affectueuse reconnaissance à notre
+              Trésorier, M. Gaston L'Evesque, toujours près de nous pour nous rendre service.</p>
+            <p>Ces années de guerre et d'occupation ont été pour tous les aveugles de guerre très
+              pénibles sous bien des rapports et, au cours de 1944, beaucoup d'entre nous ont été
+              plus particulièrement éprouvés.</p>
+            <p>Une abondante correspondance nous a apporté les récits des souffrances de nos
+              camarades qui ressentaient un apaisement à nous les confier et à demander aide et
+              conseil à l'U.A.G. La lecture de tant de misères n'était pas sans nous affecter
+              profondément; cependant, nous tenons à dire tout le réconfort que nous trouvions dans
+              l'esprit élevé de patriotisme qui se dégageait de ses lettres. Les plus sévèrement
+              touchés dans leurs affections et dans leurs biens témoignent d'un courage admirable et
+              songent encore à plus malheureux qu'eux.</p>
+            <p>Devant tant de preuves de ténacité, nous pouvons affirmer que tous nos camarades sont
+              plus unis que jamais, pleins de foi et de confiance dans les destinées de leur
+              Association et dans celles de leur Patrie.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">RAPPORT FINANCIER</head>
+            <p>Conformément à l'article 9 des Statuts, nous allons vous rendre compte de la
+              situation financière de l'Union des Aveugles de Guerre au 31 décembre 1944, telle
+              qu'elle résulte des opérations effectuées au cours de l'exercice.</p>
+            <p>Toutefois, avant de vous donner ce compte rendu, il nous parait nécessaire de faire
+              le point en reprenant les recettes et les dépenses au 31 décembre 1939 et en les
+              comparant à celles de l'exercice écoulé.</p>
+            <p>Nos dépenses actuelles sont trois fois et demie plus élevées que celles d'avant
+              guerre, mais nous avons pu constater une progression exceptionnelle de nos recettes
+              qui nous a permis de faire heureusement face à de telles dépenses. Il faut rechercher
+              les causes de cette augmentation: 1<hi rend="superscript">°</hi> Dans une
+              dévalorisation progressive du franc; 2<hi rend="superscript">°</hi> Dans l'importance
+              des subventions allouées à notre Groupement par l'Office National des Mutilés et
+              Réformés, à charge par nous de les affecter à des dépenses spéciales; 3<hi
+                rend="superscript">°</hi> Dans une politique financière empreinte de prudence et de
+              sagesse en présence des remboursements ou des conversions atteignant les valeurs
+              mobilières de notre portefeuille Titres; 4<hi rend="superscript">°</hi> Dans la
+              générosité de quelques donateurs, dont certains ont été sagement inspirés de leur
+              vivant par les notaires chargés de la rédaction de leurs dispositions
+              testamentaires.</p>
+            <p>C'est ainsi que nos dépenses s'élevaient au 31 décembre 1939 à un peu plus de un
+              million, alors qu'au 31 décembre 1944 elles atteignaient le chiffre de quatre millions
+              deux cent mille francs. En ce qui concerne les recettes, la progression est analogue,
+              puisqu'au 31 décembre 1939 elles n'étaient que de deux millions, et qu'au 31 décembre
+              1944 elles se montaient à près de quatorze millions.</p>
+            <p>Vous trouverez d'ailleurs, d'autre part, le détail de ces progressions dans des
+              rapports financiers établis pour les exercices 1940-1941, 1942, 1943, étant entendu
+              que les événements tragiques de juin 1940 et le repii provisoire en zone libre d'une
+              partie de nos bureaux nous ont obligés à grouper en un seul et même rapport les
+              opérations réalisées au cours des années 1940 et 1941, car il nous fallait attendre de
+              pouvoir établir entre notre siège provisoire de Vichy et notre siège social de Paris
+              une liaison suffisamment étroite pour rapprocher les écritures comptables faites tant
+              en zone libre qu'en zone occupée.</p>
+            <pb n="6"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">RECETTES AU COURS DE L'EXERCICE
+              1944</head>
+            <list>
+              <item>Cotisations des Membres titulaires 24.720 "</item>
+              <item>Subvention exceptionnelle de l'Office National des Mutilés ci Réformés pour le
+                Livre-Parié et l'organisation du travail, et bibliothèque 1.850.000 "</item>
+              <item>Bienfaiteurs, donateurs, legs, Loterie Nationale 10.311.784 55</item>
+              <item>Intérêts de l'argent placé. 989.241 53</item>
+              <item>Plusvalue sur remboursement et Vente de Valeurs du portefeuille 67.943 87</item>
+              <item>Location des maisons de repos 18.000 "</item>
+              <item>13.261.239 95</item>
+              <item>Cotisations et Intérêts Caisse de Prévoyance 544.686 95</item>
+              <item>Total 13.805.926 90</item>
+            </list>
+            <p>Avant de vous présenter les dépenses de l'exercice, nous nous devons de vous
+              justifier la nouvelle présentation de nos dépenses. En effet, sur une remarque de
+              notre Expert-Complable, nous avons décidé de vous présenter dorénavant nos dépenses
+              scindées en deux parties distinctes: 1° Le service de l'entraide sociale: 2. Le
+              financement des frais généraux nécessités par ce service et par le marché générale du
+              Groupement. Cette modification a pour principal avantage de montrer immédiatement par
+              deux totaux la vie intérieure et extérieure de l'Association. Les Dépenses au cours de
+              ce même exercice se répartissent de la façon suivante</p>
+            <list>
+              <head>1° Service de l'entraide sociale </head>
+              <item>Allocations naissances 47.500 "</item>
+              <item>Allocations décès 207.400 "</item>
+              <item>Allocations Caisse Maladie 211.393 "</item>
+              <item>Allocations legs Antola 1.000 "</item>
+              <item>Allocations aux camarades ayant eu leur pension supprimée 69.240 50</item>
+              <item>Allocations exceptionnelles aux veuves 654.867 50</item>
+              <item>Allocations Caisse de Solidarite 57.865 "</item>
+              <item>Aide exceptionnelle aux enfants 255.560 "</item>
+              <item>Dépenses exceptionnelles de guerre, Aide aux camarades sinistrés, réfugiés,
+                réeducation des nouveaux aveugles, amélioration ravitaillement et liquidation du
+                siège en zone sud 840.128 10</item>
+              <item>Maisons de repos Franceville et Sainte-Maxime 29.156 20</item>
+              <item>Bibliotheque 67.588 90</item>
+              <item>Livre-Parlé 454.583 45</item>
+              <item>Fonctionnement Maison de l'Aveugle 226.974 "</item>
+              <item>Organisation du Travail 70.503 50</item>
+              <item>3.193.760 15</item>
+            </list>
+            <list>
+              <head>2° Frais généraux</head>
+              <item>Abonnement au téléphone et taxes. 9.484 20</item>
+              <item>Chauffage, éclairage, eau 105.118 "</item>
+              <item>Bulletin et imprimés 27.292 "</item>
+              <item>Timbres correspondance et télégrammes 18.395 "</item>
+              <item>Propagande 27.193 "</item>
+              <item>Fournitures de bureaux 32.889 90</item>
+              <item>Remboursement forfaitaire des frais du President, du Secretaire general, du
+                Tresorier, et guides d'aveugles 80.000 "</item>
+              <item>Déplacements des Administrateurs et Membres de l'Union 19.192 50</item>
+              <item>Groupements régionaux 12.758 "</item>
+              <item>Personnel 274.160 "</item>
+              <item>Assurances du personnel, caisse de compensation familiale et assurances sociales
+                51.687 70</item>
+              <item>Assurances et impôts 6.210 10</item>
+              <item>Courses 3.015 60</item>
+              <item>Charges afférentes aux legs 13.652 "</item>
+              <item>Frais de banque et gestion financiere 38.340 39</item>
+              <item>Souscriptions, cotations et divers 6.303 50</item>
+              <item>Entretien et réfection des immeubles 83.752 "</item>
+              <item>800.443 89</item>
+              <item>soit un total de dépenses de 4.003.204,04 (3.193.760,15 + 809.443,89)</item>
+            </list>
+            <pb n="7"/>
+            <note type="foliation">— 7 —</note>
+            <p>A ces dépenses ordinaires il y a lieu d'ajouter : 1<hi rend="superscript">°</hi> Le
+              reliquat du legs Goldenberg versé par nous à la Cité des Aveugles de Guerre de Nice,
+              qui en était le bénéficiaire, et 2<hi rend="superscript">°</hi> Comme par le passé,
+              les allocations Caisse de Prévoyance, soit : <list>
+                <item>Dépenses ordinaires — 4.003.204 04</item>
+                <item>Legs Goldenberg — 71.250"</item>
+                <item>Allocations Caisse de Prévoyance — 230.000 "</item>
+                <item>TOTAL — 4.304.454 04</item>
+              </list></p>
+            <p>A ces dépenses viennent s'ajouter la perte d'une partie de notre capital par la
+              destruction partielle de nos maisons de Franceville et la perte par suite de vol ou
+              pillage du mobilier et du matériel contenu dans ces même maisons. Nous pouvons évaluer
+              cette perte à Frs 218.025,05. C'est pour cette raison que vous voyez inscrit dans
+              notre bilan une provision pour dommages de guerre.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">COMMENTAIRES SUR LES ÉCRITURES
+              COMPTABLES</head>
+            <p>Une remarque s'impose en premier lieu: deux postes figurent au tableau des dépenses;
+              ce sont les allocations exceptionnelles aux veuves et le reliquat du legs Goldenberg.
+              Ces dépenses n'ont aucune contrepartie dans l'énumération de nos recettes, parce que
+              pour les premières le service a été fait sur l'attribution de la subvention versée en
+              1943 par l'Office National des Mutilés et pour les secondes la liquidation du legs
+              Goldenberg a été passée en écriture dans les recettes de l'exercice 1938.</p>
+            <p>Nous tenons à signaler à votre attention que, malgré la baisse du loyer de l'argent,
+              nous sommes parvenus, par des placements judicieux à vous présenter comme montant de
+              l'intérêt des fonds placés une somme de Frs 989.241 en excédent sur les sommes
+              relevées à ce même titre dans les écritures des exercices antérieurs.</p>
+            <p>Au chapitre des Dons et Legs il nous est donné de vous présenter le chiffre le plus
+              élevé qui ait été atteint depuis la création de l'Union, soit Frs 10.300 .000 . Cet
+              accroissement est dû en majeure partie à la réalisation du legs à nous fait par la
+              Comtesse de Turenne, legs qui à lui seul se monte à une dizaine de millions.</p>
+            <p>Enfin, vous voyez figurer dans nos recettes une somme de Frs 1.850 .000 qui
+              représente la subvention dont l'Office National des Mutilés et Réformés a doté votre
+              Groupement pour le perfectionnement du LivreParlé, l'aménagement de la bibliothèque et
+              le développement de l'organisation du travail. C'est dans cette opération spéciale que
+              réside, comme nous venons de le dire, une des causes de l'augmentation de nos
+              dépenses. C'est un fait analogue que nous avons pu constater dans l'exercice 1943 et
+              même en 1944, lorsque plus de 600.000 francs ont été attribués aux veuves de nos
+              camarades sous forme d'allocations exceptionnelles.</p>
+            <p>Votre Bureau, d'ailleurs, a fait un effort considérable pour améliorer le sort des
+              veuves, non seulement par le versement des allocations susvisées, mais encore par le
+              paiement d'allocations au décès du camarade, en prélevant les fonds soit sur les
+              disponibilités financières ou réserves constituées à cet effet, soit pour les
+              adhérents à la Caisse de Prévoyance sur les fonds disponibles de cette même
+              caisse.</p>
+            <p>Cet effort de solidarité s'est manifesté également lorsque votre Groupement a décidé
+              de venir en aide aux camarades chargés de famille, aux camarades malades, aux
+              sinistrés et aux réfugiés. Des sommes importantes ont été versées à ces différents
+              titres et figurent sous rubrique spéciale dans l'énumération des dépenses de
+              l'exercice. De même notre bureau a adopté une politique alimentaire qui, si elle a
+              entraîné de grosses dépenses, a eu le grand mérite de contribuer à améliorer le
+              ravitaillement individuel des camarades et dans les temps présents il n'est personne
+              qui ne se félicite hautement des dépenses ainsi engagées dans un but aussi utilitaire
+              qu'humanitaire. C'est pourquoi nous nous devons de vous détailler la répartition des
+              dépenses exceptionnelles de guerre :</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">RÉPARTITION DES DÉPENSES DE
+              GUERRE</head>
+            <p><list>
+                <item>Rééducation — 23.033 \times 80</item>
+                <item>Amélioration ravitaillement — 161.545 60</item>
+                <item>Aide aux réfugiés, sinistrés et location logements — 630.810 10</item>
+                <item>Liquidation du siège en zone sud — 15.968 50</item>
+                <item>Divers — 8.770 "</item>
+                <item>640.128 "</item>
+              </list><pb n="8"/><note type="foliation">— 8 —</note> Un peu plus de 450.000 francs
+              ont été dépensés pour le perfectionnement du Livre-Parlé. Grâce à la subvention de
+              l'Office National des essais concluants ont été faits en présence d'un grand nombre de
+              camarades et nous sommes heureux que cette conquête de l'aveugle pour sa liberté
+              d'action soit arrivée grâce aux efforts de techniciens avertis, à une forme définitive
+              à peu près parfaite. Nous n'aurions certainement pu conslater de tels résultats si
+              nous n'avions disposé des fonds alloués à cet effet par l'Office National.</p>
+            <p>Vous avez remarqué, dans les dépenses, que nous avons versé à la Cité des Aveugles de
+              Guerre de Nice, une somme de 71.250 francs. Cette écriture représente la liquidation
+              du legs Goldenberd. Nous détenions, en effet, ce reliquat à la disposition de la Cité
+              des Aveugles de Guerre de Nice et un accord total étant intervenu, rien ne s'opposait
+              plus à son versement entre les mains des bénéficiaires.</p>
+            <p>Avant de terminer cet exposé nous tenons à vous donner quelques indications sommaires
+              sur la Caisse de Prévoyance : le montant des cotisations versées en 1944, ainsi que
+              l'intérêt des fonds placés représentent Frs 544.686,95. Par contre il a été versé aux
+              veuves des camarades des allocations représentant un total de 230.000 francs pour ce
+              même exercice.</p>
+            <p>L'actif de la Caisse de Prévoyance au 31 décembre 1944 s'élève à Frs 2.452.467,02. Il
+              est constitué de la manière suivante :</p>
+            <list>
+              <item>Avance de l'U.A.G. — 400.000 "</item>
+              <item>Total des cotisations encaissées depuis la création de la Caisse — 3.053.675
+                "</item>
+              <item>Total des intérêts pendant la même période — 388.792 02</item>
+              <item>Total — 3.842.467 02 </item>
+              <item>A déduire : l'ensemble des allocations versées depuis la création de la Caisse
+                jusqu'au 31 décembre 1944 1.390 .000</item>
+              <item>SOLDE. 2.452 .46702</item>
+            </list>
+            <p>Il vous sera donné de pouvoir apprécier les efforts faits par votre Bureau pour
+              équilibrer les Recettes et les Dépenses pendant ces quatre années de guerre où,
+              fatalement, les tracasseries nées de l'occupant, la raréfaction des dons, les
+              conversions et remboursements des valeurs mobilières, l'augmentation du coût de la
+              vie, sont autant de facteurs qui ont enrayé, dans une certaine mesure, les
+              dispositions que nous avions à prendre pour accélérer le rythme de notre effort de
+              solidarité. Et, malgré cela, nous n'avons pas négligé de vous faire remarquer
+              l'heureux résultat des démarches que nous avons entreprises en vue de nous créer des
+              sources de rentrées exceptionnelles.</p>
+            <p>Divers comptes rendus résument pour les quatre années de guerre les opérations
+              comptables et montrent l'équilibre de nos recettes et de nos dépenses. Vous n'ignorez
+              pas, en effet, l'importance des difficultés auxquelles nous nous sommes heurtés et
+              dont votre Bureau à tenu à vous rendre compte au fur et à mesure qu'elles se
+              présentaient. Nous vous demandons donc d'approuver sans réserves les comptes qui vous
+              sont présentés et de faire confiance pour l'avenir à votre Conseil d'Administration et
+              à votre Bureau désireux tous deux de vous soumettre toujours des rapports, reflet
+              d'une politique financière libérale, mais sage et prudente.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">BILAN AU 31 DÉCEMBRE 1944</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h10">ACTIF</head>
+              <list>
+                <head>A. - Immobilisations :</head>
+                <item>Immeubles Ballu et Franceville — 412.250 "</item>
+                <item>Immeuble Maison de l'Aveugle — 2.290.872 "</item>
+                <item>Notre participation achat terrain rue Blanche — 1.000.000 "</item>
+                <item>Matériel et Mobilier Maison de l'Aveugle — 258.598 85</item>
+                <item>Valeurs du portefeuille à la dotation — 5.227.153 26</item>
+                <item>Total — 9.188.874 11</item>
+              </list>
+              <list>
+                <head>B. - Disponibilités :</head>
+                <item>Caisse, dont 56.916,25 appartenant à la Caisse de Prévoyance — 1.029.496
+                  40</item>
+                <item>Banque Nationale pour le Commerce et l'Industrie — 179.056 90</item>
+                <item>Crédit Foncier compte disponible — 442.090 38</item>
+                <item>Crédit Foncier compte capitaux — 127.255 02</item>
+                <item>Compte chez Sargenton Agent de Change — 26.258 54</item>
+                <item>Compte de chèques postaux — 62.381 10</item>
+                <item>Valeurs du portefeuille disponible — 2.6433.635 54</item>
+                <item>Total — 28.300.173 88</item>
+              </list>
+              <pb n="9"/>
+              <note type="foliation">— 9 —</note>
+              <list>
+                <head type="section" rend="align(center)">C. — Dépenses recouvrables :</head>
+                <item>Prêts exceptionnels — 67.075 "</item>
+                <item>Prêts maisons familiales — 134.950 "</item>
+                <item>Appareils pour Livre-Parlé — 26.669 10</item>
+                <item>Avance aux Groupements régionaux — 403.400 "</item>
+                <item>Matières Premières pour le travail des Aveugles — 149.308 90</item>
+                <item>Total — 781.403 "</item>
+              </list>
+              <list>
+                <head type="section" rend="align(center)">D. — Caisse de Prévoyance :</head>
+                <item>Fonds à la dotation — 800.430 "</item>
+                <item>Fonds disponibles valeurs — 1.294.300 65</item>
+                <item>En compte chez Sargenton, agent de Change — 300.820 12</item>
+                <item>En Caisse à l'U.A.G. — 56.916 25</item>
+                <item>Total — 2.395.550 77</item>
+                <item>Total — 40.666.001 76</item>
+                <item>Créance à récupérer pour dommages de guerre — Mémoire</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">PASSIF</head>
+              <list>
+                <head type="subsection" rend="align(center)">A. — Dotation :</head>
+                <item>Fonds Brieux — 353.500 "</item>
+                <item>Fonds Kahn — 13.284 56</item>
+                <item>Rachat de cotisations — 33.610 "</item>
+                <item>Legs Antola — 22.338 25</item>
+                <item>Immeubles Ballu et Franceville — 412.250 "</item>
+                <item>Immeubles maison de l'Aveugle — 2.290.872 "</item>
+                <item>Terrain rue Blanche — 1.000.000 "</item>
+                <item>Valeurs du Portefeuille dotation — 4.815.116 55</item>
+                <item>Fonds Caisse Prévoyance dotation — 800.430 "</item>
+                <item>Total — 9.731.401 36</item>
+              </list>
+              <list>
+                <head type="subsection" rend="align(center)">B. — Réserve :</head>
+                <item>Fonds des services U.A.G. — 30.206.074 40</item>
+                <item>Fonds exceptionnels de l'Office National des Mutilés Anciens Combattants pour
+                  aide aux veuves — 728.526 "</item>
+                <item>Total — 30.934.600 40</item>
+                <item>Total — 40.666.001 76</item>
+                <item>Contre-partie des dommages de guerre à récupérer — Mémoire</item>
+              </list>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">SOUSCRIPTIONS EN FAVEUR DES
+              SINISTRÉS</head>
+            <p>Nous sommes heureux de présenter la première liste des souscriptions qui nous ont été
+              adressées par nos camarades au profit de nos sinistrés et c'est une grande joie pour
+              nous de constater avec quel empressement il a été répondu à notre appel. Nul doute que
+              ceux d'entre nous qui ont été sévèrement atteints par les événements y trouvent là une
+              consolation et un réconfort à leur misère.</p>
+            <list>
+              <item>Ducros — Fr. 1.000</item>
+              <item>Le Blanc — 100</item>
+              <item>Lucas Georges — 250</item>
+              <item>Guespereau — 500</item>
+              <item>Lebrun Georges — 1.000</item>
+              <item>Gréard Henri — 500</item>
+              <item>Collot — 200</item>
+              <item>Saivanes — 1.000</item>
+              <item>Alaux Adam — 200</item>
+              <item>Barbet — 50</item>
+              <item>Docteur Lallement — 500</item>
+              <item>Pisson — 200</item>
+              <item>Gagner — 100</item>
+              <item>Cochet — 500</item>
+              <item>Coat — 100</item>
+              <item>Laine René — 90</item>
+              <item>Huppe — 100</item>
+              <item>Sigault — 500</item>
+              <item>Muller Georges — 1.000</item>
+              <item>Antoine Louis — 1.000</item>
+              <item>Matinaud — 100</item>
+              <item>Pichonot — 100</item>
+              <item>Raynaud V. — 200</item>
+              <item>Meunier Maxime — 200</item>
+              <item>Viguier Henri — 500</item>
+              <item>Marquet — 200</item>
+              <item>Viguier Paul — 100</item>
+              <item>Bardonnet — 200</item>
+              <item>Latrille — 100</item>
+              <item>Lefebvre Georges — 200</item>
+              <pb n="10"/>
+              <note type="foliation">— 10 —</note>
+              <item>Becker Henri — 220</item>
+              <item>Vérité Robert — 500</item>
+              <item>Schneider — 250</item>
+              <item>Le Hétet — 500</item>
+              <item>Cornu — 200</item>
+              <item>Planquette — 200</item>
+              <item>Mauduit — 500</item>
+              <item>Lepesteur — 500</item>
+              <item>Sanguine — 100</item>
+              <item>Porcheron — 140</item>
+              <item>Lallemant Georges — 100</item>
+              <item>Legrand L. — 500</item>
+              <item>Vochel — 250</item>
+              <item>Abeilhe — 100</item>
+              <item>Calmes — 300</item>
+              <item>Chatonnier — 50</item>
+              <item>Sautou — 100</item>
+              <item>Ledernez — 500</item>
+              <item>Lapébie E. — 200</item>
+              <item>Coublucq — 200</item>
+              <item>Leveau D. — 300</item>
+              <item>Heuze H. — 200</item>
+              <item>Dessenne — 100</item>
+              <item>Escherich — 150</item>
+              <item>Deville — 100</item>
+              <item>Hénaff Hervé — 50</item>
+              <item>Loiseau A. — 200</item>
+              <item>Hauser — 500</item>
+              <item>Desseignes — 240</item>
+              <item>Piodet — 100</item>
+              <item>Lachatre — 150</item>
+              <item>Moulin Emile — 500</item>
+              <item>Tauziet — 300</item>
+              <item>Debooserie — 1,000</item>
+              <item>Martin Adrien — 50</item>
+              <item>Tourres — 100</item>
+              <item>Garrec — 200</item>
+              <item>Fauvergue — 1,000</item>
+              <item>Mauconduit — 200</item>
+              <item>Tricaud — 1,000</item>
+              <item>Lallemand Joseph — 200</item>
+              <item>Bruno Bertoni — 100</item>
+              <item>Laine Louis — 1,000</item>
+              <item>Gresle — 100</item>
+              <item>Izaac — 500</item>
+              <item>Pernoo — 200</item>
+              <item>Samuel — 200</item>
+              <item>Truchot — 1,000</item>
+              <item>Kérangall — 1,000</item>
+              <item>Morand — 200</item>
+              <item>Terras — 150</item>
+              <item>Guth — Fr. 200</item>
+              <item>Montfaucon — 200</item>
+              <item>Boulanger — 200</item>
+              <item>Lamaury — 230</item>
+              <item>Seebacher — 100</item>
+              <item>Pinet — 500</item>
+              <item>Reyne Roger — 100</item>
+              <item>Girardeau — 100</item>
+              <item>Lutz — 500</item>
+              <item>Branger — 100</item>
+              <item>L'Evesque Gaston — 1,000</item>
+              <item>Carpentier C. — 50</item>
+              <item>Guillam — 500</item>
+              <item>Mombœuf — 100</item>
+              <item>Viala — 100</item>
+              <item>Thomas — 100</item>
+              <item>Milhas — 100</item>
+              <item>Chalendar — 100</item>
+              <item>Carente — 100</item>
+              <item>Gousse — 1,500</item>
+              <item>Angot — 500</item>
+              <item>Simon J. — 200</item>
+              <item>Girard J.-M. — 100</item>
+              <item>Plateau — 100</item>
+              <item>Marche — 500</item>
+              <item>Broutin — 500</item>
+              <item>Trémeau — 200</item>
+              <item>Thoumelin — 100</item>
+              <item>Choron — 100</item>
+              <item>Grenet — 300</item>
+              <item>Farrant — 100</item>
+              <item>Mazaudier — 50</item>
+              <item>Moley — 500</item>
+              <item>Conan A. — 1,000</item>
+              <item>Juhel — 500</item>
+              <item>Falaise — 500</item>
+              <item>Boé — 50</item>
+              <item>Lamerand — 100</item>
+              <item>Larde — 200</item>
+              <item>Descourière — 500</item>
+              <item>Ardhuin — 500</item>
+              <item>Lemerle — 150</item>
+              <item>Nottin — 200</item>
+              <item>Laignel — 200</item>
+              <item>Germa — 300</item>
+              <item>Bonniehon — 500</item>
+              <item>Lécuyer — 250</item>
+              <item>Fourcade — 1,000</item>
+              <item>Mouille — 500</item>
+              <item>Valbadeau G. — 130</item>
+              <item>Berthet — 500</item>
+              <item>Doré — 100</item>
+              <item>Brunin — 50</item>
+              <item>Dubessay — 200</item>
+              <item>Morizet — 300</item>
+              <item>Charlat — 200</item>
+              <item>Riau — 260</item>
+              <item>Hourcade — 100</item>
+              <item>Epaud — 200</item>
+              <item>Dejan de St-Marcel — 100</item>
+              <item>Cuny — 150</item>
+              <item>Drouhot — 200</item>
+              <item>Deruaz — 500</item>
+              <item>Mulsant — 100</item>
+              <item>Aronoswki — 1,000</item>
+              <item>Oliviero — 200</item>
+              <item>Coupas — 1,000</item>
+              <item>Lantres — 100</item>
+              <item>Granot Jean — 500</item>
+              <item>Hugueny — 100</item>
+              <item>Lefebvre Julien — 1,000</item>
+              <item>Lathière — 50</item>
+              <item>Tanis — 100</item>
+              <item>Ambiard — 1,000</item>
+              <item>Darnaud Guilhem — 500</item>
+              <item>Montellier — 200</item>
+              <item>Izembard — 100</item>
+              <item>Détail — 100</item>
+              <item>Fraisse E. — 100</item>
+              <item>Fauconnet — 100</item>
+              <item>Palmaro — 150</item>
+              <item>Jeannin — 500</item>
+              <item>Roget — Fr. 200</item>
+              <item>Roche — 100</item>
+              <item>Marciban S. — 200</item>
+              <item>Cheutin — 100</item>
+              <item>Blondell E. — 2,000</item>
+              <item>Houpert P. — 100</item>
+              <item>Papineau — 300</item>
+              <item>Moreau Auguste — 100</item>
+              <item>Vairet — 200</item>
+              <item>Chanson — 100</item>
+              <item>Mondoloni — 50</item>
+              <item>Roy Georges (Cte Maritime) — 100</item>
+              <item>Dumonlet — 200</item>
+              <item>Decogne — 300</item>
+              <item>Fourment — 200</item>
+              <item>Sourissaud — 50</item>
+              <item>Dupuis J. — 50</item>
+              <item>Cantarel — 500</item>
+              <item>Leveau Robert — 1,000</item>
+              <item>Marceau A. — 300</item>
+              <item>Thépenier — 200</item>
+              <item>Bouvet — 100</item>
+              <item>Veyrat — 300</item>
+              <item>Devèze — 200</item>
+              <item>Barthélémy — 500</item>
+              <item>Cresson — 100</item>
+              <item>Larher — 100</item>
+              <item>Guévello — 100</item>
+              <item>Pasquier A. — 300</item>
+              <item>Rouvreau — 100</item>
+              <item>Despinardes — 1,000</item>
+              <item>Vve Lamy Aimé — 345</item>
+              <item>Albert Henri — 1,000</item>
+              <item>Stafrach — 100</item>
+              <item>Grousset — 100</item>
+              <item>Delmas I. — 100</item>
+              <item>Lavaur — 100</item>
+              <item>Cabasson — 1,000</item>
+              <item>Martin Jean (Morb.) — 300</item>
+              <item>Le Slang — 250</item>
+              <item>Jannot — 300</item>
+              <item>Barriol — 100</item>
+              <item>Briez — 300</item>
+              <item>Couesnon — 500</item>
+              <item>Duc Pierre — 1,000</item>
+              <item>Fleury — 100</item>
+              <item>Reulet — 500</item>
+              <item>Emo — 100</item>
+              <item>Parent V. — 500</item>
+              <item>Dufoure P. — 250</item>
+              <item>Garceau — 500</item>
+              <item>Delfieux — 100</item>
+              <item>Trémège — 100</item>
+              <item>Labatut — 150</item>
+              <item>Ramadour — 100</item>
+              <item>Bodin — 500</item>
+              <item>Philippe L. — 300</item>
+              <item>Huet F. — 500</item>
+              <item>Canler — 200</item>
+              <item>Lacourt L. — 500</item>
+              <item>Michon P. — 200</item>
+              <item>Velllet — 200</item>
+              <item>Liabeuf — 100</item>
+              <item>Favret — 500</item>
+              <item>Dupuy Pierre — 150</item>
+              <item>Charpentier A. — 50</item>
+              <item>Giloux — 300</item>
+              <item>Section des Aveugles de guerre de S.-et-Loire — 1,000</item>
+              <item>Révol — 100</item>
+              <item>Mézières — 500</item>
+              <item>Fillère — 50</item>
+              <item>Lémée — 200</item>
+              <item>Lelarge — 1,000</item>
+              <item>Le Gall — 500</item>
+              <item>Bois — 200</item>
+              <item>Arribat — 500</item>
+              <item>Prault — 100</item>
+              <item>Total 1re liste — 78,355</item>
+            </list>
+            <pb n="11"/>
+            <note type="foliation">— 11 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">PROCES-VERBAL DE LA REUNION DU
+              CONSEIL D'ADMINISTRATION de I'UNION DES AVEUGLES DE GUERRE, du 28 Novembre
+              1944.</head>
+            <p>La séance est ouverte à 15 heures, sous la présidence de Conan. Sont présents:
+              Président: Conan; Secrétaire général: Amblard; Vice-Présidents: Favret, Izaac;
+              Trésorier: L'Evesque; Membres: Couesnon, Fauvel, Grillet, Lauté, Leveau, Noireaux,
+              Muller, Roy Georges.</p>
+            <p>Excusés: Bois, Bertrand, Cabasson, Céré-Labourdette, Derunder, Guillam, Laffargué,
+              Malgat, Sibiril.</p>
+            <p>Ont donné leurs pouvoirs :</p>
+            <list>
+              <item>au Président : Cabasson, Guillam, Malgat, Sibiril;</item>
+              <item>au Secrétaire Général : Bertrand, Céré-Labourdette, Satgé;</item>
+              <item>à Favret : Laffargue;</item>
+              <item>à Noireaux : Derunder, Bois.</item>
+            </list>
+
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">1. - Procès-verbaux des
+                réunions des 21 septembre et 24 octobre 1944.</head>
+              <p>Certaines observations sont présentées au sujet de la rédaction des procès-verbaux.
+                Il est entendu qu'il en sera tenu compte en donnant le plus de renseignements
+                possible, tout en conservant la forme qui doit être donnée à un procès-verbal.</p>
+              <p>Des circulaires seront adressées aux membres de l'Union à intervalles aussi
+                réguliers que possible, la publication du bulletin ne pouvant être envisagée
+                qu'ultérieurement.</p>
+              <p>Après qu'un additif demandé par Bois ait été accepté, les procès-verbaux sont
+                adoptés à l'unanimité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">2. - Présentation d'une
+                situation financière comprenant les mois de juillet, août et septembre.</head>
+              <p>De nombreuses explications sont demandées, notamment sur la rentrée des fonds, sur
+                le chapitre du personnel, sur la valeur de notre mobilier de Franceville, sur le
+                fonds exceptionnel d'aide aux veuves et sur la possibilité de reprise des prêts pour
+                maisons familiales. Ce dernier point étant remis pour une étude ultérieure, le
+                Trésorier ayant donné les explications sur les questions posées, la situation
+                arrêtée au 30 septembre est adoptée.</p>
+              <p>La situation financière du mois d'octobre est présentée conformément aux habitudes
+                en usage à l'Union, elle est adoptée à l'unanimité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">3. - Election de trois
+                nouveaux membres.</head>
+              <p>Sur 26 Administrateurs sollicités à voter, 24 ont répondu, Brusson de La Rochelle
+                et Nicolaï de Corse, étant dans l'impossibilité de faire parvenir leur bulletin de
+                vote.</p>
+              <p>Le Bureau présentait trois noms de nouveaux camarades aveugles de la guerre 39-40
+                afin d'être nommés membres du Conseil pour que la nouvelle génération y soit
+                représentée.</p>
+              <p>Ont obtenu: Duc Guespereau Bodin 24 voix 24 » Ces trois camarades sont déclarés
+                être membres du Conseil d'Administration de l'U.A.G. A propos du vote des
+                Administrateurs, le Conseil examine la position de Scapini au regard de la situation
+                actuelle.</p>
+              <p>Les Administrateurs présents font connaitre leur opinion à ce sujet et, à
+                l'unanimité, prennent la décision suivante :</p>
+              <p>Le Conseil d'Administration de l'Union des Aveugles de Guerre, considérant la
+                situation dans laquelle se trouve Scapini à l'heure actuelle, estime qu'il ne peut
+                conserver ni ses fonctions d'Administrateur, ni son titre de Président honoraire de
+                l'U.A.G. ».</p>
+              <p>Le Conseil d'Administration de l'Union des Aveugles de Guerre, considérant la
+                situation dans laquelle se trouve Scapini à l'heure actuelle, estime qu'il ne peut
+                conserver ni ses fonctions d'Administrateur, ni son titre de Président honoraire de
+                l'U.A.G. ».</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h17">4. - Nomination des membres
+                de la Commission des Finances.</head>
+              <p>Le Bureau pense qu'il est opportun de reconstituer une Commission des Finances dont
+                le but serait de contrôler chaque mois les situations financières. Le Conseil fixe à
+                quatre le nombre des commissaires.</p>
+              <p>Sont nommés: Bois, Guespereau, Muller, Noireaux. Bois ayant écrit pour la
+                reconstitution de la Caisse Fraternelle, le Conseil n'estime pas devoir donner <pb
+                  n="12"/>
+                <note type="foliation">— 12 —</note> suite à cette demande, laissant au Bureau le
+                soin d'appliquer les barèmes de remboursements en vigueur.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">5. - Proposition Noireaux
+                pour les enfants des camarades.</head>
+              <p>Le Conseil est appelé à examiner la proposition de Noireaux tendant à accorder une
+                allocation exceptionnelle de 500 francs par enfant âgé de 15 ans au plus, à
+                condition qu'il y ait deux enfants au foyer.</p>
+              <p>Noireaux précise que cette allocation est applicable seulement à l'année 1944, sans
+                aucun engagement pour les années futures. Elle est destinée à marquer l'intérêt que
+                porte l'Union aux camarades pères de jeunes enfants dont les majorations de pension
+                sont très loin d'égaler les allocations accordées par le code de la famille. Le
+                Conseil entier attire l'attention du Bureau sur la nécessité de faire obtenir aux
+                enfants des aveugles de guerre des allocations semblables à celles versées par les
+                caisses de compensation.</p>
+              <p>Fauvel, Leveau, Muller, Izaac interviennent particulièrement dans ce débat qui se
+                clot par l'adoption unanime de la proposition Noireaux.</p>
+              <p>Noireaux retire sa proposition tendant à augmenter de Frs 500 l'allocation donnée
+                pour naissance, Roy faisant remarquer que les frais d'accouchement peuvent être
+                remboursés au même titre que les frais d'opération.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">6. - Compte rendu sur
+                l'action menée à propos des pensions et du mouvement combattant.</head>
+              <p>Le Président rend compte de l'audience accordée au Comité d'Entente par M. Pabodı,
+                Ministre du Travail; ce dernier ayant réservé un accueil favorable à nos demandes,
+                les délégués espèrent que le rajustement en cours sera fait sur la base de celui qui
+                fut opéré à Alger.</p>
+              <p>Quelques nouvelles sont également données sur la constitution de l'Union Française
+                des Associations de Combattants, Prisonniers, Combattants de la Libération et
+                Victimes des deux guerres; les statuts seront envoyés aux Administrateurs.</p>
+              <p>Le Conseil désigne ses deux délégués au Comité d'Entente qui sont : Conan, délégué;
+                Amblard, suppléant. Puis, il désigne Conan comme représentant auprès de l'Union
+                Française des Associations de Combattants, Prisonniers, Combattants de la Libération
+                et Victimes des deux guerres.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">7. - Questions
+                diverses.</head>
+              <p>Admission de nouveaux aveugles : Est admis à titre définitif : Aragon Vital-Louis,
+                5, rue Etchénique à Cauderan (Gironde), 100%, art. 10, titre définitif, carte du
+                combattant.</p>
+              <p>Sont admis à titre provisoire: Avizou Elie-Hyppolite, 29, rue de la Croix-Verte, à
+                Albi (Tarn), 100 %+3 degrés + art. 10, titre provisoire, carte du combattant; Le
+                Moal François-Louis, domicilié 21, rue des Filles-du-Calvaire, à Paris, 100 %+ art.
+                10, titre provisoire, carte du combattant.</p>
+              <p>Legs Drouot. - Après avoir pris connaissance des dispositions testamentaires de M.
+                Charles-JeanXavier Drouot, demeurant à Rouen, rue Bouquet, n<hi rend="superscript"
+                  >°</hi>25, où il est décédé le 22 janvier 1944, par lesquelles il lègue à l'Union
+                des Aveugles de Guerre une somme de cent mille francs nette de tous frais et
+                charges, par testament olographe en date du 30 septembre 1939, le Conseil
+                d'Administration décide à l'unanimité d'accepter ces dispositions testamentaires et
+                quant aux fonds à provenir dudit legs, de les employer en secours immédiats aux
+                aveugles de guerre, conformément à l'article I des statuts de l'Association, donne
+                tous pouvoirs à son Trésorier pour encaisser le legs au nom de l'Union des Aveugles
+                de Guerre prendre tous engagements et faire le nécessaire.</p>
+              <p>Legs Pasquier. - Après avoir pris connaissance des dispositions testamentaires de
+                M. Paul-Jean-Marie Pasquier demeurant à Montescourt-Lizerolles (Aisne) où il est
+                décédé le 30 juillet 1944, par lesquelles il lègue aux aveugles de guerre ce qui
+                restera de sa succession, par testament olographe en date du 9 février 1944, le
+                Conseil d'Administration décide à l'unanimité d'accepter ces dispositions
+                testamentaires sous bénéfice d'inventaire et quant aux fonds à provenir dudit legs
+                de les employer en secours immédiats aux aveugles de guerre, conformément à l'art. I
+                des Statuts de l'Association, donne tous pouvoirs à son Trésorier pour encaisser le
+                legs au nom de l'Union des Aveugles de Guerre, prendre tous engagements et faire le
+                nécessaire.</p>
+              <p>Legs Veuve Roza. - Après avoir pris connaissance des dispositions testamentaires de
+                Mine Veuve André Roza, demeurant à l'Hôtel de la Paix, avenue Félix-Faure à Nice
+                (Alpes-Maritimes), décédée à Nice le 3 octobre 1943, par lesquelles elle lègue à
+                l'Union des Aveugles de Guerre par testament olographe en date du 25 septembre 1938,
+                trois mille livres sterling nettes et quittes de tous droits. Le Conseil
+                d'Administration décide à l'unanimité d'accepter ces dispositions testamentaires et
+                quant aux fonds à provenir dudit legs de les employer en secours immédiats aux
+                aveugles de guerre, conformément à l'art. I des statuts de l'Association, donne tous
+                pouvoirs à son trésorier pour encaisser le legs au nom de l'Union des Aveugles de
+                Guerre, prendre tous engagements et faire le nécessaire.</p>
+              <p>L'ordre du jour étant épuisé, la séance est levée à 17 h .30 .</p>
+              <pb n="13"/>
+              <note type="foliation">— 13 —</note>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>Fernand Barre (1939-1940), de Segré (Maine-et-Loire), son fils Bernard, le 1<hi
+                rend="superscript">er</hi> août 1944. Jean Chomarat, de Montluel (Ain), sa
+              petite-fille Janine, le 2 novembre 1942. Louis Faucon, Moulin-Neuf (Dordogne), sa
+              petite-fille Danielle, le 6 décembre 1944. Léon Delattre, de Fressenneville (Somme),
+              sa petite-fille Marie-Claude, le 20 juin 1944. Léon Delattre, de Fressenneville
+              (Somme), sa petite-fille Jocelyne, le 16 septembre 1944. Emile Leroux,
+              d'Aire-sur-la-Lys (Pas-de-Calais), sa petite-fille Bernadette, le 23 mai 1943. Emile
+              Leroux, d'Aire-sur-la-Lys (Pas-de-Calais), sa petite-fille Thérèse, le 19 août 1944.
+              J.-M. Fourcade, de Goutz-Fleurance (Gers), sa petite-fille Nicole, le 22 janvier 1942.
+              J.-M. Fourcade, de Goutz-Fleurance (Gers), son petit-fils Jean-Marie, le 28 août 1944.
+              Maurice Tourneux, de Marly-Gaumont (Aisne), son petit-fils Lionel, février 1945.
+              Joseph Pallier, de Bellac (Haute-Vienne), son petit-fils Robert-Bernard, le 26 juin
+              1944. Vincent Larher, de Morlaix (Finistère), son arrière petite-fille, janvier 1945.
+              Nous adressons nos félicitations aux heureux parents et nos vœux de prospérité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">MARIAGES</head>
+            <p>Les camarades suivants nous font part des célébrations de mariage : Pierre Prébost
+              (1939-1940), à La Merlic (Haute-Vienne), avec Mlle Augustine Urbain, le 10 juin 1944.
+              Joseph Baud-Grasset (1939-1940), Bogève (Haute-Savoie), avec Mlle Pierrette Bel, le 30
+              novembre 1944. Jean Chomarat, de Montluel (Ain), sa fille Paulette avec M. Ernest
+              Stef, le 12 avril 1941. Joseph Guibaud, de Labruguière (Tarn), sa fille Françoise avec
+              M. Jean Hus, le 28 décembre 1944. Julien Foubet, d'Yrencheux (Somme), son fils Louis,
+              le 26 juillet 1944. Jean Quittanson, de La Chaise-Dieu (Haute-Loire), sa fille
+              Marie-Louise, avec le Commandant Marc, le 27 janvier 1945. Auguste Moron, de
+              Saint-Hilaire St-Florent (Maine-et-Loire), son fils Robert avec Mlle Janine Houdon, le
+              13 janvier 1945. Léon Delattre, à Fressenneville (Somme), son fils Jacques avec Mlle
+              Andrée Ledieu, en août 1944. Albert Colas, d'Aubervilliers (Seine), sa fille Renée
+              avec M. Pavy, le 6 janvier 1945. Jules Coudrai, Le Buisson (Manche), son fils Louis
+              avec Mlle Georgette Lesigne, le 20 janvier 1945. Ben Hassen Ben Solem Kraiem, de
+              Téboulba (Tunisie), son fils Mohmoud avec Mlle Béchira bel Solem Kraiem, le 29 août
+              1942. Georges Grossemy, d'Arras (Pas-de-Calais), sa fille Lucienne avec M. Marcel
+              Noyon, le 29 janvier 1945. Emile Leroux, d'Aire-sur-la-Lys (Pas-de-Calais), sa fille
+              Renée avec M. Marcel Duriez, le 9 mai 1942. Marcel Rouet, de Paris, son fils Bernard,
+              pharmacien, avec Mlle Jacqueline PiedcoQ, pharmacienne, le 19 décembre 1944. Joseph
+              Foucher, Le Horps (Mayenne), son fils Paul avec Mlle Denise Papillon, le 30 janvier
+              1945. Jacques Jahan du Brunoy (Seine-et-Oise), sa fille Yvette avec M. Robert
+              Barathon, le 10 février 1945. François Masson, de Lannion (Côtes-du-Nord), sa fille
+              Mélanie avec M. Louis Olivry, le 27 janvier 1945. Nous adressons nos vœux de bonheur
+              aux nouveaux mariés.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h23">NÉCROLOGIE</head>
+            <p>Aimé Lamy, d'Authume (Jura), le 27 décembre 1944. Paul Castex, de Mont-de-Marsan
+              (Landes), le 24 janvier 1945. Robert Lauté, d'Enghien (Seine-et-Oise), décédé
+              accidentellement, le 30 janvier 1945. Auguste Leloup, de Vesoul (Haute-Saône), le 6
+              février 1945. La femme de Romain Seceh, de Colombes (Seine), le 31 décembre 1944. La
+              femme de Pierre Pillon, de Persan (Seine-et-Oise), le 10 janvier 1945. La femme de
+              Auguste Leblond, de Berck (Nord), le 1<hi rend="superscript">er</hi> janvier 1945. La
+              femme de Joseph Foucher, Le Chaponnais-Le Horps (Mayenne), le 26 janvier 1945. Le fils
+              Henri de Marcel Gesta, d'Alger (Algérie), le 11 août 1943. La fille de Ch. Honoré,
+              d'Arras (Pas-de-Calais), le 27 avril 1944, au cours d'un bombardement. Le fils Edouard
+              de Clerc Perrichon, de Ceyssieu (Isère), tué aux Chantiers de Jeunesse, le 7 octobre
+              1943. La mère d'Antoine Feuillet, de Delly (Algérie), en juillet 1943. La mère de
+              Marcel Blesson (1939-1940), de Paris, le 10 janvier 1945. La mère de Casimir Blatge,
+              de Saint-Sulpice la Pointe (Tarn), le 28 janvier 1945. La mère de Joseph Pallier, de
+              Bellac (Haute-Vienne), le 24 janvier 1945. La belle-mère de Jean Chomarat, de Montluel
+              (Ain), le 10 septembre 1944, au cours d'un bombardement à Saint-Max
+              (Meurthe-et-Moselle). Le beau-père de Charles Bérard, d'Eaubonne (Seine-et-Oise), le
+              20 janvier 1945. Nous adressons aux familles éprouvées nos plus vives
+              condoléances.</p>
+            <pb n="15"/>
+            <pb n="16"/>
+          </div>
+
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

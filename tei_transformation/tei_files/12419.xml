@@ -1,0 +1,1341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 28ème année 1947, n°5</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+        <availability>
+          <p>Domaine public</p>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Aveugles de guerre</title>
+        <title type="topic">Anciens combattants</title>
+        <title type="topic">Pensions</title>
+        <title type="topic">Allocations</title>
+        <title type="topic">Association</title>
+        <title type="topic">Assemblée Générale</title>
+        <title type="topic">Législation</title>
+        <title type="topic">Services sociaux</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+          <physDesc>
+            <p>24 X 15,5 cm ; 28 pages numérotées</p>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term ref="#aveugles">Aveugles</term>
+          <term ref="#guerre">Guerre</term>
+          <term ref="#pension">Pension</term>
+          <term ref="#allocation-familiale">Allocation familiale</term>
+          <term ref="#mitterand">Mitterand</term>
+          <term ref="#transport">Transport</term>
+          <term ref="#bibliotheque">Bibliothèque</term>
+          <term ref="#discotheque">Discothèque</term>
+          <term ref="#charbon">Charbon</term>
+          <term ref="#assemblee-generale">Assemblée Générale</term>
+          <term ref="#election">Election</term>
+          <term ref="#conseil-dadministration">Conseil d'Administration</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <abstract>
+        <p>Le bulletin mensuel de l'Union des Aveugles de Guerre aborde des sujets variés concernant
+          les anciens combattants aveugles. Il inclut des informations sur l'assemblée générale, les
+          élections du conseil d'administration et du bureau, les démarches entreprises pour
+          améliorer les pensions et allocations, la visite de M. Mitterand (Ministre des Anciens
+          Combattants), les activités de la bibliothèque et discothèque, les difficultés rencontrées
+          concernant la carte de transport, et les réunions des sections départementales. Le
+          bulletin contient également des informations sur les nouveaux membres, les legs à
+          l'association, et les distinctions honorifiques.</p>
+      </abstract>
+      <creation>
+        <date when="1947-05-01">01/05/1947</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-02-16" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-02-11" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES </head>
+        <list>
+          <item>
+            <ref target="#h3">Conseil d'Administration</ref>
+          </item>
+          <item>
+            <ref target="#h4">LENDEMAIN D'ASSEMBLEE GENERALE</ref>
+          </item>
+          <item>
+            <ref target="#h5">ELECTION DU CONSEIL</ref>
+          </item>
+          <item>
+            <ref target="#h6">ELECTION DU BUREAU</ref>
+          </item>
+          <item>
+            <ref target="#h7">PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h8">VISITE DE M. MITTERAND, Ministre des Anciens Combattants et Victimes
+              de la Guerre</ref>
+          </item>
+          <item>
+            <ref target="#h9">LA FLAMME</ref>
+          </item>
+          <item>
+            <ref target="#h10">ALLOCATIONS FAMILIALES</ref>
+          </item>
+          <item>
+            <ref target="#h11">CARTE DE TRANSPORT A DOUBLE BARRE BLEUE</ref>
+          </item>
+          <item>
+            <ref target="#h12">BIBLIOTHEQUE ET DISCOTHEQUE</ref>
+          </item>
+          <item>
+            <ref target="#h13">LISTE DES LIVRES NOUVEAUX</ref>
+          </item>
+          <item>
+            <ref target="#h14">"LES LECTURES PAR LE DISQUE"</ref>
+            <list>
+              <item>
+                <ref target="#h15">RECOMMANDATION IMPORTANTE.</ref>
+              </item>
+              <item>
+                <ref target="#h16">DERNIERS OUVRAGES PARUS.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">CHARBON</ref>
+          </item>
+          <item>
+            <ref target="#h18">PROCES-VERBAL DE LA SEANCE DU CONSEIL D'ADMINISTRATION DU 21 FEVRIER
+              1947</ref>
+          </item>
+          <item>
+            <ref target="#h19">DISTINCTIONS</ref>
+          </item>
+          <item>
+            <ref target="#h20">CONCOURS BOCQUET</ref>
+          </item>
+          <item>
+            <ref target="#h21">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h22">SECTION DE L'AVEYRON Réunion du 10 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h23">REGIONALE DE BORDEAUX Réunion du 13 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h24">SECTION DE LA COTE-D'OR Réunion du 20 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h25">SECTION DE LA HAUTE-GARONNE Réunion du 9 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h26">SECTION DU GERS ET DES HAUTES-PYRENEES Réunion du 8 avril
+                  1947</ref>
+              </item>
+              <item>
+                <ref target="#h27">SECTION DE L'ISERE Réunion du 13 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h28">SECTION D'ORANIE Réunion du 3 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h29">SECTION DE SAONE-ET-LOIRE Réunion du 13 avril 1947</ref>
+              </item>
+              <item>
+                <ref target="#h30">SECTION DU TARN Réunion du 11 avril 1947</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h31">SARTHE</ref>
+          </item>
+          <item>
+            <ref target="#h32">SECTION REGIONALE DES ALPES-MARITIMES</ref>
+          </item>
+          <item>
+            <ref target="#h33">NAISSANCES DANS LES FAMILLES DE NOS CAMARADES</ref>
+          </item>
+          <item>
+            <ref target="#h34">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h35">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h36">A VENDRE</ref>
+          </item>
+          <item>
+            <ref target="#h37">COTISATIONS 1947</ref>
+          </item>
+          <item>
+            <ref target="#h38">COTISATIONS VOLONTAIRES 1947</ref>
+          </item>
+          <item>
+            <ref target="#h39">SOUSCRIPTION POUR LE TOMBEAU DU GENERAL GOURAUD</ref>
+          </item>
+          <item>
+            <ref target="#h40">Comité d'Action</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">28e Année. — N° 5</fw>
+          <fw type="header">
+            <hi rend="underline">MAI 1947</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <div type="section">
+              <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de
+                <lb/>L'UNION DES AVEUGLES DE GUERRE <lb/>Reconnue d'utilité publique par décret du 9
+                avril 1921<lb/> et <lb/>Journal des Soldats Blessés aux Yeux</head>
+              <div type="section">
+                <div type="section">
+                  <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                  <list>
+                    <item>Lendemain d'Assemblée Générale</item>
+                    <item>Elections</item>
+                    <item>Pensions</item>
+                    <item>Visite de M. Mitterand</item>
+                    <item>La Flamme</item>
+                    <item>Allocations Familiales</item>
+                    <item>Carte de Transport</item>
+                    <item>Bibliothèque et Discothèque</item>
+                    <item>Charbon.</item>
+                    <item>P. V. du 21 février 1947</item>
+                    <item>Distinctions</item>
+                    <item>Concours Bocquet</item>
+                    <item>Dans nos Sections</item>
+                    <item>Naissances - Mariages - Décès</item>
+                    <item>Cotisations</item>
+                    <item>Souscription Gouraud</item>
+                  </list>
+                </div>
+              </div>
+            </div>
+          </div>
+          <fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+            BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque
+            postal 160-31</fw>
+          <pb n="2"/>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">Conseil d'Administration</head>
+            <p>Président : H. IZAAC. Vice-Présidents : COUESNON, FAVRET, GUESPEREAU.</p>
+            <p>Secrétaire Général : AMBLARD. Trésorier : Gaston LEVESQUE. Membres : BERTRAND,
+              BLONCOURT, BODIN, BOIS, BRUSSON, CABASSON, CERELABOURDETTE, CHALENDAR, CONAN, CORNU,
+              DERUNDER, DUC, FAUVEL, GRILLET, GUILLAM, LAFFARGUE, LEVEAU, MULLER, NICOLAI, NOIREAUX,
+              ROBIN, ROY Georges, SIBIRIL, SATGE.</p>
+            <pb n="3"/>
+          </div>
+          <fw>28e ANNEE. - N° 5 MAI 1947</fw>
+          <fw>BULLETIN MENSUEL DE L'UNION DES AVEUGLES DE GUERRE</fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">LENDEMAIN D'ASSEMBLEE
+              GENERALE</head>
+            <p>Nos camarades et nos amis pourront avoir une idée exacte de notre dernière Assemblée
+              Générale, lorsque nous aurons publié en détail les comptes rendus des commissions qui
+              l'ont précédée et de la séance du 27 avril.</p>
+            <p>Nous ne pouvons que nous féliciter du grand nombre de camarades qui ont assisté aux
+              travaux des commissions et nous voulons simplement indiquer dès à présent quelques
+              remarques sur la marche générale de notre Association.</p>
+            <p>Il ressort des débats et des conversations en séance, l'immense désir de tous, de
+              voir l'U.A.G. poursuivre dans l'avenir ses buts essentiels qui sont la défense morale
+              et matérielle des Aveugles de guerre. Les Présidents de nos sections ont marqué une
+              volonté d'activité dans leurs départements, qui reste indispensable dans toutes les
+              régions et qui doit fléchir d'autant moins en ce moment-ci que l'économie dirigée
+              laisse encore des initiatives à chaque Préfet.</p>
+            <p>Avec un excellent esprit, les délégués de nos sections y compris, bien entendu, ceux
+              d'Alsace et d'Afrique du Nord, ont montré qu'ils désirent voir leur activité
+              coordonnée et appuyée par notre Conseil d'Administration auquel ils font totale
+              confiance.</p>
+            <p>Encouragés par cette confiance le Conseil d'Administration et le Bureau de Paris
+              pourront, avec ténacité, essayer de résoudre les multiples</p>
+            <p>Il ne faut pas que les Présidents des Sections soient seuls à être et difficiles
+              problèmes pour le plus grand bien de tous ses membres. actifs dans la période que nous
+              traversons, c'est pourquoi nous recommandons, à tous nos adhérents de se documenter en
+              se faisant lire attentivement notre bulletin de façon à agir en connaissance de cause,
+              dans les milieux où ils se trouvent pour que triomphent les idées et la volonté de
+              notre belle Association.</p>
+            <pb n="4"/>
+            <note type="foliation">— 2 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">ELECTION DU CONSEIL</head>
+            <p>A l'occasion de l'assemblée générale, a eu lieu le vote tendant à élire le tiers des
+              administrateurs dont le mandat venait à expiration. Les dix administrateurs sortants
+              ont été réélus avec le nombre de voix ci-après :</p>
+            <list>
+              <item>Votants 1.461</item>
+              <item>Bulletins nuls 110</item>
+              <item>Suffrages exprimés 1.351</item>
+            </list>
+            <list>
+              <head>Ont obtenus :</head>
+              <item>Izaac 1.212</item>
+              <item>Roy Georges 1.080</item>
+              <item>Fauvel 1.064</item>
+              <item>Derunder 1.011</item>
+              <item>Brusson 998</item>
+              <item>Cabasson 990</item>
+              <item>Nicolai 906</item>
+              <item>Bertrand 890</item>
+              <item>Grillet 882</item>
+              <item>Robin 775</item>
+            </list>
+            <p>Ces dix camarades sont nommés administrateurs à nouveau pour trois années.</p>
+            <list>
+              <head>Ont ensuite obtenu :</head>
+              <item>Ravaleau 500</item>
+              <item>Delamare 378</item>
+              <item>Almey 396</item>
+              <item>Serre 351</item>
+              <item>Guibert 295</item>
+              <item>Lardière 278</item>
+              <item>Potereau 270</item>
+              <item>Eisele 262</item>
+              <item>Lohèz 255</item>
+              <item>Mathieu 248</item>
+              <item>Dolmière 213</item>
+              <item>Luc 184</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">ELECTION DU BUREAU</head>
+            <p>Le Conseil d'Administration s'est réuni à l'issue de l'Assemblée Générale, le
+              dimanche 27 avril, à 14 heures 30 , pour procéder à l'élection des membres du
+              bureau.</p>
+            <list>
+              <item>Votants 30</item>
+              <item>Bulletins nuls 2</item>
+              <item>Suffrages exprimés 28</item>
+            </list>
+            <pb n="5"/>
+            <note type="foliation">— 3 —</note>
+            <list>
+              <head>Ont obtenu :</head>
+              <item>Izaac 28</item>
+              <item>Guespereau 27</item>
+              <item>Amblard 25</item>
+              <item>Favret 22</item>
+              <item>Couesnon 18</item>
+              <item>Muller 6</item>
+              <item>Robin 4</item>
+              <item>Conan 3</item>
+              <item>Guillam 2</item>
+              <item>Bertrand 1</item>
+              <item>Duc 1</item>
+              <item>Laffargue 1</item>
+              <item>Noireaux 1</item>
+              <item>Roy Georges 1</item>
+            </list>
+            <p>Les cinq premiers sont désignés pour constituer le Bureau, le Trésorier étant nommé
+              par l'Assemblée Générale.</p>
+            <p>Les membres du Bureau se sont répartis les fonctions de la façon suivante :</p>
+            <list>
+              <item>Président Izaac. </item>
+              <item>Vice-Présidents Couesnon, Favret, Guespereau. </item>
+              <item>Secrétaire général .......... Amblard. </item>
+              <item>Trésorier .................... L'Evesque.</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">PENSIONS</head>
+            <p>Conformément au mandat que l'Assemblée Générale et le Conseil ont donné au Bureau,
+              nous poursuivons nos demarches pour que nos pensions et allocations soient relevées de
+              façon satisfaisante.</p>
+            <p>L'Assemblée a accepté le coefficient 8 pour nos allocations et demande 5 pour nos
+              pensions.</p>
+            <p>Les récents événements pouvaient faire craindre un remaniement ministériel qui eût pu
+              être préjudiciable aux demandes que nous avions présentées, et dont une partie déjà
+              était examinée avec bienveillance.</p>
+            <p>Les ministères qui nous intéressent n'ayant pas été changés, nous sommes un peu
+              rassurés sur ce point, mais le Comité d'entente doit être reçu mercredi 14 par M. le
+              Ministre des Pensions auquel nous allons demander de faire tout ce qui est en son
+              pouvoir pour hâter, de son côté, la décision que nous attendons tous. H. A.</p>
+            <pb n="6"/>
+            <note type="foliation">— 4 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">VISITE DE M. MITTERAND, Ministre
+              des Anciens Combattants et Victimes de la Guerre</head>
+            <p>Au cours de notre Assemblée Générale, M. Mitterand, Ministre des Anciens Combattants
+              et Victimes de la Guerre, a tenu à rendre visite à l'U.A.G. Il a été reçu dans notre
+              grande salle, où avait lieu une réunion de commission et devant nos camarades, notre
+              Président Izaac lui a souhaité la bienvenue en lui disant la joie qu'il avait de le
+              recevoir parmi nous. Il lui a exprimé la confiance que nous avions de voir se
+              réaliser, très. prochainement, toutes les demandes que l'Assemblée est entrain
+              d'établir, pour l'amélioration de notre sort et celui de nos veuves. M. Mitterand a
+              répondu en disant le plaisir qu'il avait d'être au milieu des aveugles de guerre et
+              nous a assurés de son concours le plus entier pour faire aboutir au plus tôt les
+              revendications que nous formulions. à l'heure présente.</p>
+            <p>Le Bureau a ensuite accompagné M. le Ministre dans la visite de la Maison, où il
+              s'est intéressé aux divers services de notre Association et a renouvelé ses sentiments
+              d'attachement à notre cause.</p>
+            <p>Nous remercions vivement M. Mitterand de nous avoir donné ce témoignage de
+              sympathie.</p>
+            <pb n="7"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">LA FLAMME</head>
+            <p>Ce même jour, vendredi 25 avril, à la suite de notre réunion de Commissions, les
+              membres de l'U.A.G. se sont rendus à l'Arc-de-Triomphe pour ranimer la Flamme, en même
+              temps que la Société des Pollus d'Orient.</p>
+            <p>Ce fut notre camarade Céré, également ancien combattant des Dardanelles, qui a
+              accompli le geste symbolique, entouré de nombreux aveugles de guerre qui se sont
+              recueillis sur la dalle sacrée, en souvenir de tous nos camarades disparus.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">ALLOCATIONS FAMILIALES</head>
+            <p>L'Ordonnance du 25 octobre 1945 nous accordait, comme chacun sait, le bénéfice du
+              Code de la Famille, et nous étions en droit d'attendre l'application de cette mesure
+              qui devait apporter enfin aux aveugles de guerre chargés de famille les avantages
+              recounus à tous les Français.</p>
+            <p>Voilà dix-huit mois passés que nous attendons le paiement de ces allocations, et rien
+              n'est encore venu nous donner satisfaction. Nous ne pouvons nous expliquer ce retard
+              insensé, et nous ne comprenons pas pourquor l'administration des Finances met une
+              telle mauvaise volonté à exécuter une loi de la Nation. Il est bien pénible de
+              constater l'indifférence des pouvoirs publics à l'égard des grands invalides comme
+              nous qui ne peuvent être salar.és, et qui ont cependant, comme tous les citoyens, à
+              élever dignement leurs jeunes enfants.</p>
+            <p>Nous ne cessons de multiplier nos réclamations en tous lieux, nous nous adresons à
+              toutes les portes. Les raisons que nous donnons ne sont pas discutées, car elles ne
+              peuvent l'être, et nous nous demandons quand finira cet état d'esprit vraiment
+              injurieux pour des grands mutilés comme nous. Nous espérons cependant que d'ici peu
+              nous pourrons enfin percevoir les allocations qui, en droit, nous sont accordées
+              depuis longtemps déjà.</p>
+            <pb n="8"/>
+            <note type="foliation">— 6 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">CARTE DE TRANSPORT A DOUBLE BARRE
+              BLEUE</head>
+            <p>Plusieurs camarades nous ont signalé que depuis quelque temps ils avaient rencontré
+              des difficultés dans l'obtention de la réduction de 75% qui nous est acocrdee sur les
+              chemins de fer, et la gratuité pour le guide, ce qui n'avait jamais été contesté
+              jusqu'alors.</p>
+            <p>Nous croyons savoir qu'il y a eu, dans certains cas, confusion avec la nouvelle carte
+              qui vient d'être accordée à certains grands mutilés dont la blessure, sans nécessiter
+              l'octroi de l'article 10, les oblige à se faire aider dans leurs voyages. A ces grands
+              mutilés, une carte à double barre rouge a été remise, leur donnant droit à une
+              réduction pour leur guide, en plus de celle qu'ils avaient précédemment. De nouvelles
+              instructions ayant été données à ce sujet, certains agents de la S.N.C.F. ont cru
+              qu'elles annulaient celles qui régissent l'usage de notre carte à double barre bleue,
+              et de ce fait quelques camarades se sont vus demander l'acquit des droits pour leurs
+              guides.</p>
+            <p>Or, il n'y a rien de changé, et nos cartes à doub'e barre bleue ont toujours la même
+              valeur. C'est ce que nous sommes allés rappeler à M. le Directeur de l'Office National
+              des Mutilés, qui nous a promis de faire une démarche auprès de la S.N.C.F. pour que
+              soient maintenues les instructions relatives aux voyages des " article 10 ". Nous
+              avons demandé en même temps, que soient également bien observées les instructions qui
+              nous accordent la gratuité pour les locations de places pour nous et notre guide.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">BIBLIOTHEQUE ET
+              DISCOTHEQUE</head>
+            <p>Notre Assemblée Générale avait à examiner un vœu tendant à demander à nos camarades,
+              usagers de la bibliothèque et de la discothèque, une cotisation supplémentaire de
+              Frs.: 100. - pour chacun de ces services. Ce vœu n'a pas été retenu dans ce qu'il
+              comportait d'obligations vis-à-vis de notre caisse, mais afin d'aider nos services,
+              dont les charges deviennent, plus lourdes de jour en jour, il a été décidé d'adresser,
+              par la voie du bulletin, un appel à tous nos camarades qui font usage de la
+              bibliothèque Braille ou de la discothèque, afin de leur demander d'envoyer une
+              cotiastion volontaire. Nous espérons que beaucoup comprendront la nécessité de
+              participer aux avantages, comme aux frais de ces deux services, qui intéressent bon
+              nombre d'entre-nous.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">LISTE DES LIVRES NOUVEAUX</head>
+            <list>
+              <head type="section" rend="align(center)">ROMANS</head>
+              <item>224 KOETSLER A. ; Le Zéro et I'Infini, 8 vol. Amplifié.</item>
+            </list>
+            <list>
+              <head>PHILOSOPHIE - RELIGION</head>
+              <item>2068 Epitre aux Hébreux de Saint-Jacques et de Saint-Pierre, 1 vol.
+                Intégral.</item>
+              <item>2081 LACORDAIRE : Conférences, 3 vol. Abrégé.</item>
+            </list>
+            <pb n="9"/>
+            <note type="foliation">— 7 —</note>
+            <list>
+              <head>OUVRAGE EN INTEGRAL RETRANSCRIT EN AMPLIFIE</head>
+              <item>90 VICTOR HUGO : Quatre-vingt-treize, 15 vol. Amplifié.</item>
+            </list>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">"LES LECTURES PAR LE
+              DISQUE"</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">RECOMMANDATION
+                IMPORTANTE.</head>
+              <p>Nous avons eu à déplorer, au cours de ces derniers mois, parmi les envois
+                d'ouvrages pressés qui nous sont retournés, la casse d'un certain nombre de disques
+                ; ce qui cause à notre discothèque un préjudice considérab'e. Pour y remédier, nous
+                ne saurions trop insister auprès des camarades, afin qu'ils prennent le plus grand
+                soin dans l'emballage des disques qu'ils nous réexpédient, en replaçant notamment
+                les cartons spéciaux, dans les boîtes, au-desous et au-dessus des disques lourds
+                cassables.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">DERNIERS OUVRAGES
+                PARUS.</head>
+              <list>
+                <head>Collection: Les Euvres d'Imagination</head>
+                <item>S/85 - Matterhorn (J. Peyré) - 11 disques</item>
+              </list>
+              <list>
+                <head>Collection: Les Meilleurs Contes et Nouvelles</head>
+                <item>S/88 - Contes du Lundi (Alphonse Daudet) - 11 disques</item>
+              </list>
+              <list>
+                <head>Collection: Aventures et Voyages</head>
+                <item>S/86 - Aux prises avec le Sahara (H. Lhote) - 10 disques</item>
+                <item>S/89 - 5.000 Kilomètres en Amazonie (R. Courteville) - 9 disques</item>
+              </list>
+              <list>
+                <head>Collection: Le Homan Policier</head>
+                <item>S/87 - La Porte aux 7 Serrures (E. Wallace) - 10 disques</item>
+              </list>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">CHARBON</head>
+            <p>Plusieurs de nos camarades ayant éprouvé des difficultés dans les mairies de la
+              Région parisienne pour l'obtention des suppléments de charbon, nous avons demandé au
+              Bureau central de nous confirmer les dispositions qui étaient en vigueur, en notre
+              faveur, l'année dernière.</p>
+            <p>La réponse a été affirmative. Il est indiqué que nos camarades peuvent recevoir,
+              comme l'année dernière, l'attribution réservée aux pensionnés 100% pour soins,
+              c'est-à-d' re 200 kilogs de charbon pour la période d'été ( 1<hi rend="superscript"
+                >er</hi> avril au 31 octobre) sur simple présentation de la carte à double barre
+              bleue, ainsi qu'il est mentionné dans le fascicule bleu (à l'usage des mairies), page
+              32, paragraphe 26.</p>
+            <p>Nous remercions M. le Directeur Départemental du Charbon de la Seine de bien vouloir
+              maintenir les instructions qui avaient été édictées.</p>
+            <pb n="10"/>
+            <note type="foliation">— 8 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">PROCES-VERBAL DE LA SEANCE DU
+              CONSEIL D'ADMINISTRATION DU 21 FEVRIER 1947</head>
+            <p>La séance est ouverte à 9 heures 45 , sous la présidence d'Izaac. Etaient présents:
+              Bertrand, Bloncourt, Bodin, Brusson, Bois, Cabasson, Céré, Chalendar, Conan, Cornu,
+              Couesnon, Duc, Fauvel, Favret, Grillet, Guespereau, Guillam, Laffargue, Leveau,
+              L'Evesque, Muller, Nicolat Jean, Noireaux, Robin, Roy Georges, Satgé, Sibiril.</p>
+            <p>Excuses : Amblard, - pouvoirs au Président : Derunder. Les camarades suivants
+              assistaient à la séance : Chimbert, Dunan, Rousseau, Salliot.</p>
+            <p>Le Président ouvre la séance. Il a le plaisir d'informer le Conseil que le Président
+              de la République veut bien accepter la présidence d'honneur de notre Association. Il
+              est heureux de saluer le camarade Chimbert, de Marseille, qui remplace le camarade
+              Dupuy, si dévoué à la départementale des Bouches-du-Bhône.</p>
+            <p>Le procès-verbal du 18 décembre 1946 est ensuite adopté à l'unanimité. Lecture du
+              rapport du président de la Commission des finances est faite relativement au relevé
+              des recettes et dépenses de décembre et janvier. Une discussion s'engage, à laquelle
+              prennent part : Brusson, Favret, Nicolai.</p>
+            <p>Les situations financières de décembre et janvier sont adoptées à l'unanimité.</p>
+            <p>PENSIONS. - Le Président met le Conseil au courant des démarches entreprises auprès
+              de MM. les Ministres des Finances, des Anciens Combattants, de la Commission des
+              Pensions de la Chambre, relativement à la revalorisation de nos pensions, de nos
+              allocations, de la retraite du combattant et de la Légion d'honneur.</p>
+            <p>L'U.A.G. demande le rajustement au coefficient 8 de nos allocations sur les taux qui
+              nous étaient alloués en 1938, et le coefficient 4 sur la pension principale de
+              1938.</p>
+            <p>En outre, les démarches que nous avons faites au sujet du Statut ont déjà porté leurs
+              fruits, puisqu'un avis de la Commission des finances du Conseil d'Etat donne tort au
+              Ministre au sujet de la forclusion. Nous devons remercier M. Collier pour les
+              démarches qu'il a faites auprès du Conseil d'Etat.</p>
+            <pb n="11"/>
+            <note type="foliation">— 9 —</note>
+            <p>Après une très longue discussion à laquelle prennent part : Brusson, Céré, Fauvel,
+              Muller, Nicolai, Robin, Roy Georges, le Président précise, en ce qui concerne les
+              veuves, que nous demandons, en p'ein accord avec l'U.F.A.C. et le Comité d'Entente,
+              qu'elles obtiennent la moitié de la pension d'un mutilé à 100%, y compris les
+              allocations.</p>
+            <p>La discussion reprend avec : Bois, Brusson, Céré, Chalendar, Duc, Fauvel, Favret,
+              Guillam, Laffargue, Leveau.</p>
+            <p>Le Président met le Conseil au courant de la décision du Comité d'Entente de tenir le
+              15 mars une séance d'informations qui sera suivie ou non d'une manifestation, selon
+              l'état des pourparlers à ce moment avec le gouvernement ou la Chambre.</p>
+            <p>Céré, Guillam, Roy, prennent la parole au point de vue particulier des bi-manchots.
+              Le Président parle des démarches faites jusqu'ici et ne laisse pas beaucoup d'espoir
+              pour l'amélioration de leur situation.</p>
+            <p>Le Conseil donne mandat au Bureau de continuer, avec la dernière énergie, les
+              démarches relatives aux allocations, sans cesser d'être en solidarité avec le Comité
+              d'Entente et l'U.F.A.C. pour l'amélioration de la pension principa'e, de la retraite
+              du combattant et spécialement des veuves.</p>
+            <p>FONCTIONNEMENT HOTEL RESTAURANT. - Favret rend compte à ses camarades de la marche du
+              restaurant et de l'hôtel. Il a été servi 792 repas. Aucune plainte n'a été enregistrée
+              à la connaissance du Bureau. Les camarades sont tous satisfaits. Vingt chambres ont
+              été occupées. Le Conseil estime que le restaurant ne doit pas être fermé le
+              dimanche.</p>
+            <p>Après discussion entre : Brusson, Conan, Couesnon, Duc, Grillet, Guillam, Leveau,
+              Muller, Nicolai, Roy Georges, il est convenu que les prix pourront être révisés, s'il
+              y a lieu, en fin de trimestre.</p>
+            <p>RAPPORT MORAL. - Après une discussion à laquelle prennent part : Bertrand, Bloncourt,
+              Céré, Couesnon, Favret, Leveau, Muller, Nicolai, quelques additions sont demandées et
+              acceptées par Favret.</p>
+            <p>Le rapport moral est adopté à l'unanimité.</p>
+            <p>RAPPORT FINANCIER - COMPTES DE GESTION ET BILAN 1946. A Après examen du rapport
+              financier, des comptes de gestion et du bilan, une discussion a lieu entre tous les
+              administrateurs présents, et les trois textes sont adoptés à l'unanimité, sous réserve
+              des observations de l'expert-comptable, qui viendra contrôler nos finances avant
+              l'Assemblée générale.</p>
+            <p>QUESTIONS DIVERSES. - Admission des nouveaux membres.</p>
+            <p>Membres Titulaires Provisoires :</p>
+            <p>BARDIN Gaston, 8, rue Saint-Denis, Dun-sur-Amon (Cher) BOUCHET Georges, 29, rue du
+              Docteur-Roux, La Courneuve (Seine) BRAUN Auguste, 1a, route de Strasbourg, Bischwiller
+              (Bas-Rhin) FERRARIS René, 47, rue Bonaparte, Nice (Alpes-Maritimes) FLECK Xavier, No
+              36, Storckensolm (Haut-Rhin) <pb n="12"/>
+              <note type="foliation">— 10 —</note> GODIO Jean, 82, avenue de Carthage, Tunis.
+              GRUENWALD Eugène, 11, rue Haute, à Bitschwiller-les-Thann (Ht Rhin) KNIERIHL Louis,
+              21, rue des Charpent ers, Strasbourg (Bas-Rhin) MASSONNET Jean, 107, rue du Ruisseau,
+              Hargarten-aux-Mines (Moselle) SCHOTT Alfred, Pfaffenhoffen (Bas-Rhin) SINDT François,
+              117, rue D dot, Paris ( 14<hi rend="superscript">°</hi> ) THEPAULT Armand, Le Huelgoat
+              (Finistère) THOMAS Alex, Epping, No 70 (Moselle).</p>
+            <p>Membres Titulaires Définitifs :</p>
+            <p>BODENES Pierre, Plougastel-Daoulas (Finistère) DEJEAN Jean, Capon, par Montauban
+              (Tarn-et-Garonne) REY Jean, place de la Mairie, Grisolles (Tarn-et-Garonne) REMES
+              Auguste, Livinhac-le-Haut (Aveyron)</p>
+            <p>Membres Associés :</p>
+            <p>BERGES René, Marpaps, par Amou (Landes) VERDON Roger, 61, Grande-Rue,
+              Cormeilles-en-Parisis (S.-et-O.)</p>
+            <p>Membres Associés (non bénéficiaires du Statut) : AUZANET Jean, 2, rue du
+              Parc-Montsouris, Paris (14) BABINOT Charles, rue du 6-Mai, Saint-Laurent-d'Aigouze
+              (Gard) CAMPBELL Eugène, Monteux (Vaucluse) DAIGHEMONT Octave, 9, rue Haute, Deuil
+              (Seine-et-Oise) DERMONCOURT René, rue de Douaumont, Haisnes-lez-la-Bassée (P.-de-C.)
+              DURAND Jean-Marie, au Clos, Ploneour-Lanvern (Finistère) HENAUX Célestin,
+              Saulces-Monclin (Ardennes) FOURNIER Edouard, 61, rue Nationale, Wimille
+              (Pas-de-Calais) LAMAZIERE Joseph, 18, rue Richard, Cognac (Charente) MARTIN Jean,
+              Launay-en-Saint-Marcel, par Malestroit (Morbihan) PEHELLE Lucien, 297 ter, route de
+              Laval, Le Mans (Sarthe) REGIS Antoine, 13, rue d'Armenonville, Neuilly-sur-Seine
+              ROBERT Pierre, 19, rue Déroulède, Asnières (Seine) TONDEUR Roger, Episy, par
+              Moret-sur-Loing (Seine-et-Marne) UGINET Léon, 46, rue de la République, Albertville
+              (Savoie) LETANT Joseph, Viry (Haute-Savoie) SECRET Maurice, 7, Cité Jardin,
+              Kingersheim, près Mulhouse (Haut-Rhin) FABREGUES Paul, 39, route des Petits-Ponts,
+              Pantin (Seine)</p>
+            <p>LEGS MANDET. - Le Conseil d'Administration, après avoir pris connaissance des
+              dispositions testamentaires du camarade Mandet, en son vivant <pb n="13"/>
+              <note type="foliation">— 11 —</note> domicilie à Ambert (Pas-de-Calais), et après
+              avoir approuvé, dans sa séance du 17 octobre 1946, la transaction intervenue entre
+              l'Union des Aveugles de Guerre et Mme Boitias, héritière du " de cujus ", donne tous
+              pouvoirs à son trésorier, Gaston L'Evesque, pour assurer l'exécution stricte des
+              charges imposées, tant par le testament que par l'acte de transaction susvisé.</p>
+            <p>LEGS GELARDIN. - Après avoir pris connaissance des dispositions testamentaires en
+              date du 19 mars 1942 de Mme Gélardin, née Godefroy, domiciliée et décédée à Paris, 1
+              ter, rue Chanez, par lesquelles elle donne et lègue à l'U.A.G. tous ses titres;</p>
+            <p>Après exécution des legs particuliers, Le Conseil d'Administration de l'Union des
+              Aveugles de Guerre accepte, sous bénéfice d'inventaire, ces dispositions
+              testamentaires et donne tous pouvoirs à son trésorier, M. Gaston L'Evesque, pour
+              encaisser le legs au nom de ladite Association, prendre tous engagements et, en
+              général, faire le nécessaire.</p>
+            <p>LEGS BONAR-BARTOL. - Le Conseil d'Administration, après avoir pris connaissance des
+              dispositions testamentaires de Mme Hélène Bonar-Bartol en faveur des aveugles de
+              guerre de Nice, décide d'accepter, sous bénéfice d'inventaire, la libéralité ainsi
+              faite, à charge par l'U.A.G. d'en rétrocéder le montant intégral aux dits aveugles de
+              Nice, et charge son trésorier, M. Gaston L'Evesque, de prendre toutes dispositions
+              utiles à la réalisation de cette donation, de donner bonne et valable quittance et, en
+              général, de faire tout le nécessaire.</p>
+            <p>MAINLEVEE. - Le Conseil d'Administration, après avoir pris connaissance des
+              versements effectués par le camarade Jacques Draperi, demeurant Villa Odette, à
+              Châteauneuf-de-Grasse (Alpes-Maritimes), déclare que celui-ci n'est plus redevable à
+              l'Union d'aucune somme sur le prêt qui lui a été consenti; en conséquence, décide de
+              donner à son trésorier, M. Gaston L'Evesque, tous pouvoirs de donner mainlevée avec ou
+              sans constatation de paiement de l'inscription hypothécaire prise le 19 juillet
+              1930.</p>
+            <p>Bobin ayant évoqué l'affaire Scapini, deux motions ont été présentées, l'une par
+              Bloncourt, l'autre par Laffargue: " Le Conseil d'Administration, prenant acte de la
+              décision de l'Assemblée générale de 1945, au terme de laquelle Scapini a été déchu de
+              ses droits d'administrateur et de Président honoraire de l'U.A.G., estime cependant
+              qu'il a commis une faute en acceptant d'être ambassadeur du Gouvernement de Vichy et
+              en conservant ses fonctions jusqu'à la Libération, demande à l'Assemblée générale de
+              1947 de se saisir à nouveau du cas de Scapini. " "Le Conseil d'Administration, s'en
+              tenant à la décision prise par l'Assemblée générale de 1945, au sujet de Scapini,
+              passe à l'ordre du jour. »</p>
+            <p>La priorité pour la motion Laffargue est adoptée par 18 voix contre 6 et une
+              abstention.</p>
+            <pb n="14"/>
+            <note type="foliation">— 12 —</note>
+            <p>La motion Laffargue étant mise aux voix, ont voté pour: Guespereau, Céré, Leveau,
+              Conan, Chalendar, Sibiril, Muller, Lafargue, Couesnon, Cabasson, Nicolal, Grillet,
+              Bodin, Duc, Satgé, Brusson, L'Evesque, Roy.</p>
+            <p>Contre: Robin, Bloncourt, Noireaux, Bertrand, Fauvel, Bois. Abstention : Izaac.
+              L'ordre du jour étant épuisé, la séance est levée à 18 h .30 .</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">DISTINCTIONS</head>
+            <p>Nous sommes heureux de relever au " Journal Officiel " du 17 avril 1947 la nomination
+              au grade de Chevalier dans l'ordre de la Légion d'Honneur de nos camarades :</p>
+            <list>
+              <item>Gaston BENVENUTI,</item>
+              <item>Marcel DEPRUN.</item>
+            </list>
+            <p>Au "Journal Officiel " du 27 mars 1947, figure le nom de Mme Suzanne Loiseau, femme
+              de notre camarade Alfred Loiseau, de Levallois, à qui a été attribuée la Médaille de
+              la Résistance Française.</p>
+            <p>Toutes nos félicitations les plus vives.</p>
+            <pb n="15"/>
+            <note type="foliation">— 13 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">CONCOURS BOCQUET</head>
+            <p>Nous publions ci-dessous une des réponses au Concours qui avait été ins. tiuté dans
+              nos colonnes. Quoique n'étant pas exactement dans le sujet, cette réponse constitue
+              une sorte de lecture agréable, qui certainement intéressera nos camarades:</p>
+            <p>Janvier 1945. - Depuis quelques jours, il fait un froid terrible, ce qui présage de
+              prochaines chutes de neige. Assis près de mon feu qui crépite, j'écoute un air du
+              tendre Mozart diffusé par la radio de Bruxelles.</p>
+            <p>Tout à coup, l'on frappe à ma porte. Tout en tempêtant contre l'intrus, ma femme,
+              souffrante depuis un certain temps, se lève et va ouvrir. C'est le porteur de journaux
+              qui fait également fonction de facteur et d'agent de liaison entre les hameaux et
+              villages limitrophes. Il vient m'annoncer que mon ami Jean, malade depuis des années,
+              est bien mal, et que si je désire encore l'entendre, je ne devrais pas tarder à lui
+              rendre visite.</p>
+            <p>L'état de santé de ma femme ne lui permettant pas de m'accompagner, après quelques
+              hésitations, je me décide à partir avec mon vieux Bob, chien ratier que j'affectionne
+              beaucoup. Je m'engage donc sur un sentier raccourci que longe une bordure gazonnée, ce
+              qui, lorsque je suis seul, me sert de repère que je tâte du bout de mon bâton. Comme à
+              l'habitude, ce sentier me conduisit, sans incident, en une demi-heure chez mon ami,
+              sur ce village de Mons-en-Pevèle arrosé du sang des Flamands et Français sous Philippe
+              le Bel. Arrivé chez mon ami, je pus constater que ce que l'on m'avait dit était,
+              hélas! réel; en me prenant la main dans les siennes, qui étaient moites et sans
+              vigueur, aux quelques mots d'adieu qu'il me balbutia et auxquels je ne sus trop que
+              répondre, je jugeais que son état était vraiment mauvais. Néanmoins, j'essayais de le
+              réconforter, et après un certain temps passé à son chevet, ses parents me
+              conseillèrent de retourner, car le vent augmentant de violence et le ciel
+              s'assombrissant, ils craignaient que si je tardais j'eusse des ennuis durant mon
+              retour. Je dis donc au revoir à mon ami en lui promettant de revenir sous peu, et
+              m'éloignai, m'engageant sur le sentier cité plus haut. Et, tout en marchant, je me mis
+              à songer au triste sort que le destin avait réservé à mon camarade, aux souvenirs
+              qu'il m'avait contés de ses séjours en sanatorium, où il était resté allongé pendant
+              des années. Je me demandais le pourquoi de tout cela et en étais obsédé au point que
+              je ne pris pas garde aux quelques flocons de neige qui vinrent m'effleurer. Ce n'est
+              que lorsque le vent redoubla et que les flocons me tombèrent en abondance sur le
+              visage que je fus tiré de mes pensées. Toujours aidé de mon chien et de mon bâton, je
+              pressai le pas afin de rentrer au plus vite; mais cinq minutes ne s'étalent sans doute
+              pas encore écoulées que la neige s'amassait sous mes chaussures. Je n'avançais plus
+              que très lentement et manquais pied fréquemment. Pour comble de malheur, bientôt mon
+              bâton ne me fut plus d'aucun secours, car je ne sentais plus la bordure du sentier,
+              qui était complètement enneigée, et cette neige empêchait mon chien de sentir sa
+              piste. La nuit devait approcher, et décidé à tout plutôt que de rester sur place, je
+              tentais un effort, mais bientôt je tombais dans une excavation que <pb n="16"/>
+              <note type="foliation">— 14 —</note> je pensais être un ruisseau. Je me relevais tant
+              bien que mal et, assailli de pensées désespérantes, je ne savais que faire et n'osais
+              plus bouger, tandis que la neige tombait toujours en abondance.</p>
+            <p>Tout à coup, je pensais à mon camarade. Ses paroles hâchées me revinrent à l'esprit,
+              et je sentis ses mains moites et décharnées. Je pensais que je pouvais mourir seul en
+              cet endroit et je me surpris appelant au secours. Bientôt, je perçus que l'on
+              répondait à mes appels, et cela me tranquillisa. J'attendis quelques minutes et
+              bientôt j'entendis des pas presque étouffés par la neige; tout aussitôt, une bordée
+              d'injures frappa mes oreilles. C'était un vieux paysan qui, m'ayant entendu et
+              reconnu, essayait de moraliser sur mon imprévoyance. Mais, bientôt, quoique très
+              misanthrope, il se radoucit lorsque je lui appris le motif de ma sortie et de ma
+              présence en cet endroit. Je n'eus donc pas à insister pour qu'il me reconduise chez
+              moi - ce qu'il n'eut d'ailleurs pas besoin de faire, car nous fûmes rattrapés par un
+              parent de mon ami mourant qui, se doutant de la situation périlleuse dans laquelle je
+              pouvais me trouver par suite des chutes de neige, venait pour me guider, ce qu'il fit
+              jusque chez moi.</p>
+            <p>Le lendemain, mon camarade mourait, et l'épaisseur de neige était telle que, même
+              sous la conduite d'un guide, je n'aurais pu accomplir encore une fois ce trajet, et
+              c'est en frissonnant que je pensais au danger que j'avais couru la veille.</p>
+            <p>Alexandre PETIT.</p>
+            <pb n="17"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">SECTION DE L'AVEYRON Réunion
+                du 10 avril 1947</head>
+              <p>Le jeudi 10 avril a eu lieu l'Assemblée Générale de la Section départementale des
+                Aveugles de guerre de l'Aveyron, sous la présidence d'honneur du commandant Izaac,
+                président de l'U.A.G., et du camarade Satgé, membre du Conseil d'administration.</p>
+              <p>Dix-sept membres du groupement étaient présents: Alaux, Albespy, Andrieu, Bayol,
+                Bertrand, Charles, Cassand, Ginestet, Grand, Guizard, Izard, Maurel, Reynes, Rols,
+                Routaboul, Vernhes.</p>
+              <p>Absents: Benaud, Chassagny, Deltor, Garry, Guillin, Laclau, Maurandy, Pinaquy,
+                Plenacoste, Remes, Saint-Martin.</p>
+              <p>Après avoir souhaité la bienvenue au président Izaac et au camarade Satgé, le
+                prés.dent de la Section fit l'exposé du travail accompli durant l'année écoulée (la
+                quatrième de la vie de la Ssction). Sur le plan moral, le président fit resortir
+                l'activité du Bureau de la Section à la recherche des isolés et leur intégration au
+                sein du groupement.</p>
+              <p>Désignation d'une liste de membres de la section appelés à stéger au tr bunal des
+                Pensions, par tirage au sort.</p>
+              <p>Protection sociale des Aveugles et Sécurité sociale. Après l'exposé de la situation
+                économique et financière, furent traitées les questions de priorité d'achat de
+                voitures pour le remplacement de celles qui furent réquisitionnées par les F.F.I. -
+                Promot.on dans l'Ordre de la Légion d'honneur, etc.....</p>
+              <p>On formula le souhait que les veuves de nos camarades assistent à la réunion de
+                l'année prochaine.</p>
+              <p>Un déjeuner intime de quarante-deux couverts termina cette journée, où la franche
+                camaraderie ne cessa de régner. Le Président de la Section remercia le commandant
+                Izaac et le camarade Satgé et porta un toast en leur honneur. En terminant, on
+                souhaita d'être plus nombreux à la réunion de l'an prochain.</p>
+              <pb n="18"/>
+              <note type="foliation">— 16 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">REGIONALE DE BORDEAUX
+                Réunion du 13 avril 1947</head>
+              <p>La séance est ouverte à 10 heures. Sont présents: Almey, Baron, Brun, Daviú,
+                Darnau-Guilhem, Fillonneah, Fusillier, Gatuet, Faucon, Guibert, Gouny, Lhopital,
+                Marq, Morisot, Moutic, Paradis, Pichard, Tabart, Turban.</p>
+              <p>Excusés:</p>
+              <p>Aragon, Boissard, Brusson, Dangas, Domenger, Dunies, Gallay, Lardière, Laugt,
+                Millep ed, Maros, Ramadou.</p>
+              <p>Almey, Président, prend la parole et remercie tous les camarades présents, ainsi
+                que le Président Izaac.</p>
+              <p>Après un hommage à la mémoire des morts et, en particulier, celle de M. Sédar,
+                trésorier de la section, décédé tragiquement, Mme Gouny lit le rapport
+                financier.</p>
+              <p>Almey donne quelques explications, notamment sur une séance cinématographique. Il
+                parle ensuite des cotisations à l'U.F.A.C., à régler par l'Union.</p>
+              <p>Izaac fait un tour d'horizon sur l'action générale de l'Union. Parlant des
+                finances, il donne des explications sur les dépenses, celles de la rééducation en
+                particulier, et demande un effort à tous les camarades de province pour alléger les
+                charges générales. Il parle ensuite des pensions et des démarches en cours pour le
+                relèvement de nos allocations, de la retraite du combattant et des pensions de nos
+                veuves. On demande, pour elles, la moitié de l'ensemble de la pension et
+                allocations. Le code de la famille est évoqué. Almey et Izaac parlent aussi de la
+                Sécurité sociale qui n'est pas au point.</p>
+              <p>Jections du Bureau de la Section. Celui-ci est réélu. Le camarade Tabart est nommé
+                en remplacement du camarade Paradis, démissionnaire.</p>
+              <p>A la suite de cette réunion, un banquet réunit tous les membres et aussi les
+                personnalités présentes: M. l'Intendant Loubens, M. de Valois, représentant de
+                l'Office des Mutilés, M. Dabos, représentant de l'U.F.A.C., les représentants des
+                Associations de grands mutilés: MM. Claverie, Comte, Floruy, Cluzel, Lelièvre,
+                Directeur de l'Institution des Jeunes aveugles, Mme Dumora, secrétaire des Dames
+                patronesses.</p>
+              <pb n="19"/>
+              <note type="foliation">— 17 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h24">SECTION DE LA COTE-D'OR
+                Réunion du 20 avril 1947</head>
+              <p>La séance est ouverte à 10 heures, par le Président Bellesœur, en présence
+                seulement des camarades dijonnais, ceux des départements n'arriveront que plus tard,
+                à cause des difticultés dominicales de transport.</p>
+              <p>Il félicite les camarades qui se sont dérangés, notamment le docteur Julié, venu
+                tout spécialement de Paris.</p>
+              <p>Dans un compte-rendu moral aussi sobre que précis, il fait le po nt du chemin
+                accompli depuis l'Assemblée de l'an dernier. La véritable fraternité, la même
+                solidarité, règnent parmi ses dix-sept membres, où deux jeunes, sur un plan de
+                complète égalité, sont venus assurer la joignante continuité de l'esprit du feu. Le
+                Bureau a accompli, avec diligence et parfois succès, un certain nombre de démarches
+                demandées par des camarades auprès des Pouvoirs publics.</p>
+              <p>Le Président remercie notre camarade Guespereau, vice-président de l'U.A.G.,
+                d'avoir bien voulu, comme l'an dernier, venir représenter à cette assemblée de
+                section le Bureau central de Paris. Il lui demande de rapporter à notre U.A.G. les
+                sentiments fraternels, le dévouement et la gratitude des membres cótedoriens pour
+                cette œuvre commune et chère aux aveugles de guerre.</p>
+              <p>Trois voux sont adoptés pour être présentés à l'Assemblée générale relatifs aux
+                pensions, traitement des veuves, rapatriement des corps des combattants de la
+                dernière heure à leur résidence d'origine.</p>
+              <p>Le secrétaire Hauser a ensuite la parole pour le compte rendu de ses activités,
+                notamment sur les résultats de la soirée dansante du 27 octobre 1946, qui laissa
+                pour la caisse une somme appréciable. Il est décidé de renouveler, au cours de
+                l'hiver prochain, si les circonstances sont favorables, le principe d'une telle
+                soirée, augmentée d'une grande tombola.</p>
+              <p>Le trésorier Vincent donne le compte rendu de la situation financière, qui,
+                déduction faite du très modeste avoir de l'Amicale en 1945, avant sa transformation
+                en départementlae, permettra une participation à la caisse de l'Union. Il est décidé
+                de faire appel aux commissaires aux comptes se composant de trois personnes
+                voyantes: nos excellents amis Lombard, secrétaire général de l'U.D. et de
+                l'U.F.A.C.; Goublot, secrétaire de l'U.N.C., et le secrétaire du Comité d'entente.
+                Il est décidé également, pour permettre à tous les camarades de pouvoir venir
+                l'année prochaine à cette petite fête annuelle, de prendre en charge sur la caisse
+                de la section tous les frais de la journée.</p>
+              <p>L'ordre du jour étant épuisé, une délégation se rend avec Bellesœur au monuments
+                aux Morts pour une minute de recueillement.</p>
+              <p>A la fin du déjeuner antical qui suivit, Bellesœur renouvela aux invités sa
+                gratitude et son plaisir au nom de toute la section. Ceux-ci répondirent <pb n="20"/>
+                <note type="foliation">— 18 —</note> à tour de rôle en assurant les aveugles de
+                guerre de la Côte-d'Or de leur sollicitude et de leur amitié fraternelle. Citons les
+                allocutions émouvantes de M. le Chef de Cabinet de Préfet, de l'adjoint au maire, du
+                secrétaire de l'Office départemental, du secrétaire de l'U.F.A.C., du Comité
+                d'entente et, enfin, du doyen de la section, le docteur Julié, pleine de saveur et
+                d'humour.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">SECTION DE LA HAUTE-GARONNE
+                Réunion du 9 avril 1947</head>
+              <p>La Section des Aveugles de Guerre de la Haute-Garonne s'est réunie en Assemblée
+                générale le mercredi 9 avril 1947.</p>
+              <p>Sur 34 adhérents, 30 camarades étaient présents. S'étaient excusés: Abadie,
+                Burgard, Dupuy, Tarrancle. Etaient également présents, les présidents des
+                Départementales voisines: Chalendar, du Gers; Satge, du Tarn; Granet, du
+                Tarn-et-Garonne.</p>
+              <p>Le camarade Fourment, président de la section, ouvre la séance. Il demande
+                d'observer une minute de recueillement à la mémoire du camarade Lanne, de Toulouse,
+                et à celle de tous les camarades de l'U.A.G. décédés dans le courant de l'année.</p>
+              <p>Il adresse ses souhaits de bienvenue au camarade Izaac, président de l'U.A.G.,
+                qu'il prie d'accepter la présidence d'honneur de la réunion.</p>
+              <p>Il remercie, au nom de tous, le camarade Monnier et Mme Monnier, qui, avec une
+                amabilité jamais démentée, distribuent chaque mois les denrées si précieuses à notre
+                ravitaillement familial.</p>
+              <p>Le président Izaac prend alors la parole; en termes chaleureux, il dit combien il
+                est heureux de se trouver parmi les camarades de la Ville Rose et il félicite le
+                camarade Fourment, qui, par son activité inlassable, donne à la section de la
+                Haute-Garonne une vitalité toujours plus grande; le grand nombre de camarades
+                présents à la réunion en étaient la meilleure preuve. Ses paroles sont longuement
+                applaudies.</p>
+              <p>Mme Monnier donne lecture du compte rendu moral et financier, qui est adopt oà
+                l'unanimité. On passe ensuite au renouvellement du bureau. La section n'ayant qu'à
+                se louer de l'activité et du dévouement du bureau sortant, décide à l'unanimité son
+                maintien en fonction pour le prochain exercice.</p>
+              <p>Plusieurs vœux sont ensuite émis et quelques-uns retenus pour être soumis à
+                l'Assemblée générale de l'U.A.G., notamment ceux des camarades Seguy et
+                Chalendar.</p>
+              <p>Des explications sont ensuite données sur diverses questions: exonération d'impôts,
+                sécurité sociale, lettre de l'Office du combattant (canne blanche).</p>
+              <p>Le président Izaac donne alors quelques précisions sur les pensions et rend compte
+                des démarches faites auprès des ministères intéressés pour obtenir le réajustement
+                des pensions justifié par la hausse croissante du coût de la vie.</p>
+              <pb n="21"/>
+              <note type="foliation">— 19 —</note>
+              <p>Ensuite, les camarades Masson, de l'U.F.A.C., et Pendanx, du Comité d'entente, qui
+                nous avait fait l'honneur d'accepter notre invitation, prennent à leur tour la
+                parole pour nous dire toute la bienveillance et tout l'intérêt que leurs Fédérations
+                réciuroques portent à l'U.A.G. et à ses membres, déclarent comb.en il est nécessaire
+                de rester unis afin d'obtenir l'aboutissement de nos légitimes revend.cations. Leurs
+                vibrantes allocutions obtiennent un vif succès.</p>
+              <p>Composition du Bureau et du Comité: président d'honneur, Seguy; président,
+                Fourment; vice-présidents, Monnie et Duplan; secrétaire général, Alibert; trésorier,
+                Mme Monnie; adjointe, Mme Lainile; administrateurs, Seguy, Alquie et Dufort.</p>
+              <p>La séance est ensuite levée. A l'issue de la réunion, un banquet, au cours duquel
+                n'a cessé de régner la plus franche cordialité, réunit tous les camarades et leurs
+                guides autour d'une table bien servie. Au dessert, les amateurs de "bel canto " s'en
+                donnèrent à cœur joie et une vibrante "Toulousaine " chantée en chœur clôtura cettte
+                belle journée qu. laisse dans le cœur de tous les camarades un souvenir ému et le
+                désir de se retrouver tous ensemble l'an prochain.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">SECTION DU GERS ET DES
+                HAUTES-PYRENEES Réunion du 8 avril 1947</head>
+              <p>La Section de l'U.A.G. du Gers et des Hautes-Pyrénées s'est réunie à Auch, le mardi
+                8 avril, sous la présidence de Chalendar.</p>
+              <p>Tous les membres de la section étaient présents, à l'exception de: Correger, Dupuis
+                et Duffaut, excuses.</p>
+              <p>Chalendar ouvre la séance. Il est heureux de saluer la présence d'Izaac, président,
+                et lui souhaite la bienvenue.</p>
+              <p>Chalendar fait un exposé sur la vie de la section, sur ses relations avec les
+                autres groupements et les autorités locales.</p>
+              <p>L'Union des Aveugles de Guerre est représentée au sein de l'U.F.A.C. et la
+                préfecture a prié chalendar de faire partie de la Commission de protection des
+                aveugles civils.</p>
+              <p>Dans un vaste tour d'horizon, Izaac traite des problèmes intéressant les aveugles
+                de guerre. Avec sa haute compétence, il parle de la rééducation, de la
+                revalorisation des pensions, de la loi d'octobre 1945 relative au Code de la
+                Famille. Il donne des renseignements sur la Sécurité sociale, et son exposé est très
+                apprécié et appiaudi.</p>
+              <p>Deux vœux sont votés à l'unanimité. Après le compte rendu financier, la séance est
+                levée et tous se dirigent vers un succulent repas.</p>
+              <pb n="22"/>
+              <note type="foliation">— 20 —</note>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">SECTION DE L'ISERE Réunion
+                du 13 avril 1947</head>
+              <p>Le dimanche 13 avril 1945 s'est tenue à Grenoble, sous la présidence d'honneur de
+                M. le Préfet, l'Assemblée générale de la Départementale de l'Isère.</p>
+              <p>Etaient présents: Allemand, Baron, Bouval, Cuny, Guéry, Hébert, Jacquet, Julien,
+                Mallo!, Morroud, Revoì et Sarret.</p>
+              <p>Huit camarades n'avaient pas répondu à la convocation. Le président de section,
+                après avoir exprimé ses souhaits de bienvenue aux camarades présents, ainsi qu'au
+                camarade Favret, le dévoué et sympathique vice-président de l'Union, qui avait bien
+                voulu rebausser de sa présence cette petite réunion, fit donner lecture par le
+                trésorier de la lettre d'excuses de M. le Préfet et d'un télégramme du camarade
+                Finet, de Chambéry, empêché pour cause de maladie. Le trésorier donna également
+                lecture du règlement des départementales, ainsi que du rapport moral et du rapport
+                financier, qui furent adoptés à l'unanimité.</p>
+              <p>Favret put ensuite la parole et, avec sa compétence habituelle, traita devant ses
+                camarades des pr ncipales questions qui les intéressaient au p'us haut point. Il
+                répondit également, et fort aimablement, aux questions personnelles et aux
+                renseignements particuliers que des camarades avaient à lui soumettre.</p>
+              <p>On passa alors à l'élection du bureau, ainsi constitué pour l'année 1947:
+                Président, P. Jacquet; vice-président, A. Baron; secrétaire, Allemand; trésorier
+                voyant, M. Paul Hennequin; commissaire aux comptes, M. Raymond Laforêt. M.
+                Chassignoux, président de l'U.F.A.C. de l'Isère, dans une éloquente et émouvante
+                improvisation, assura notre groupement de toute la sympathie et de tout l'appui dans
+                nos revendications du monde ancien combattant qu'il représente.</p>
+              <p>Le président remercia et leva la séance, non sans adresser une pensée émue aux
+                camarades décédés et à tous ceux tombés sur les champs de bataille pour que vive la
+                France.</p>
+              <p>Un repas amical, très bien servi, termina ainsi cette réunion, où ne cessa de
+                régner la plus grande cordialité et la plus franche camaraderie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">SECTION D'ORANIE Réunion du
+                3 avril 1947</head>
+              <p>La réun on générale des aveugles de guerre de la section d'Oranie a eu lieu à Oran
+                le 3 avril 1947.</p>
+              <p>Etaient présents: Robert Cerdan, François Flores, Louis Lazaro, Jean <pb n="23"/>
+                <note type="foliation">— 21 —</note> Abanies, Louis Klingeri, Joseph Aldeguer, Cheik
+                Kadroui, Mimoun Lévy, Cheik Bakar, Abdelkader Atard, Ben Aouda Mustapha.</p>
+              <p>Cerdan souhaite la bienvenue à toute l'assistance et, en particuk'er, aux camarades
+                Musu'mans. Il souhaite un prompt rétablissement au camarade de Moya, souffrant. Il
+                félicite de Moya et Guigui pour leur mariage, ainsi que Florès pour sa Légion
+                d'honneur et ses fiançailles.</p>
+              <p>Le procès-verbal de la dernière Assemblée est adopté à l'unan mité. Il est fait
+                lecture des rapports moral et financier, qui sont adoptés à l'unanimité.</p>
+              <p>Suppléments d'alimentation. - Il est décidé qu'une lettre sera adressée à tous les
+                maires n'appliquant pas la circulaire gouvernementale, afin que tous les camarades
+                reçoivent satisfact!on.</p>
+              <p>Cerdan rend compte de son voyage à Alger. Il tient à remercier la section d'Alger,
+                et en particulier le président régional Douet, pour l'accueil qui lui a été réservé.
+                Il souhaite vivement que la Régionale soit effective, car il serait désirable que
+                les départements algériens s'unissent pour épauler d'une façon homogène le Siège
+                central de Paris. Il est décidé que la section attendra le retour de Douet, qui doit
+                prendre des direct.ves sur la marche des Régionales métropolitaines.</p>
+              <p>A l'unanimité, tous acceptent d'adopter les mêmes principes qu'à Alger, en ce qui
+                concerne les dons maladie. La section remboursera 25% des frais maladie n'excédant
+                pas 3.000 francs, soit au maximum 750 francs. Les dons pour mar:ages et naissances
+                sont maintenus. Une pièce justificative sera exigée.</p>
+              <p>Election du Bureau. - Sont élus: président, Robert Cerdan; vice-président, Louis
+                Lazaro; secrétaire, François Florès; membres du Comité, de Moya, Honoré, Kadraou
+                Cheik.</p>
+              <p>Nous sommes heureux de compter pami nous un camarade Musulman pour resserrer les
+                liens.</p>
+              <p>La séance se termine par un apéritif d'honneur offert par le camarade Florès à
+                l'occasion de sa nomination dans l'ordre de la Légion d'honneur. Il est porté un
+                toast de sympathie au président Isaac et à tout son Bureau, ainsi qu'à notre cher
+                Président régional.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">SECTION DE SAONE-ET-LOIRE
+                Réunion du 13 avril 1947</head>
+              <p>Sont présents: Philippe, Brusson, Baudin, Barday, Buy, Augoyat, Champagnon,
+                Chifflot, Guillemin Gaston, David, Fournier, Giloux, Gauthier, Lafay, Moléry,
+                Perrni, Tramoy, Virot, Michon.</p>
+              <p>Se sont excusés: Champey, Millet, Dufour, Gresset, Delorme, Chanut, Royer, Eugène
+                Paul, Vion, Prudent, Guillemin Marcel, Mathey.</p>
+              <p>Brusson, administrateur de l'U.A.G., assiste à la réunion, ainsi que M. Aubert,
+                secrétaire général de l'Office départemental des mutilés de Saône-et-Loire.</p>
+              <pb n="24"/>
+              <note type="foliation">— 22 —</note>
+              <p>Le président Philippe ouvre la séance à 10 h .45 et remercie les camarades d'être
+                venus aussi nombreux. Il félicite Brusson d'être venu de La Rochelle et Virot de
+                Paris, ainsi que M. Aubert, toujours dévoué à la cause des aveugles, qui est parmi
+                nous comme chaque année. Le président Philippe rappelle l'utilité de rester un's et
+                de soutenir l'U.A.G. par les sections. Il souligne l'entrée parmi nous de Guillemin
+                Gaston (1939-1945) et regrette l'absence de M. Haffner, secrétaire voyant.</p>
+              <p>Le raport financier est approuvé. Brusson parle du rajustement des pensions à un
+                coefficient raisonnable. Les pensions des veuves sont prises en considération. M.
+                Aubert donne différents renseignements aux camarades, parle de l'action de
+                l'U.F.A.C., des pensions, de celles de nos veuves et autres...</p>
+              <p>Différents vœux pour l'Assemblée générale sont adoptés. La séance est levée à midi
+                et les camarades, leurs guides et leurs invités sont heureux de prendre un repas en
+                commun.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">SECTION DU TARN Réunion du
+                11 avril 1947</head>
+              <p>La séance est ouverte à 10 h .15 , sous la présidence du camarade Izaac. Sont
+                présents: Albouy, Avizou, Blatge, Bonnet, Boyer, Cailleau, Combret, Cros, Dardie,
+                Danis, Enjalbert, Genies, Massot, Montalan, Montet, Nicolas, Salesse, Satge,
+                Saint-Marty, Vidal.</p>
+              <p>Excusés: Cance, Carayel, Germa, Guibaud, Huc, Séverac: Satge remercie notre
+                président Izaac d'avoir accepté l'invitation de le Départementale et lui dit la
+                satisfaction de tous de l'avoir aujourd'hui parmi nous.</p>
+              <p>Il remercie également les camarades présents, les félicite de l'intérêt et de la
+                gratitude qu'ils témoignent à l'Union et regrette que certains d'entre eux n'aient,
+                pour des raisons plus ou moins valables, pu assister à la réunion.</p>
+              <p>Le président fait le compte rendu de son activité au cours de l'année 1946 et
+                énumère les avantages obtenus.</p>
+              <p>Les camarades le remercient des avantages dont ils ont pu bénéficier tant au point
+                de vue ravitaillement que textile, charbon, pneus, etc...</p>
+              <p>Izaac remercie les camarades de l'accueil chaleureux qui lui est fait et, par un
+                long exposé, leur indique les diverses démarches faites par l'Union pour
+                l'amélioration du sort de l'aveugle.</p>
+              <p>Les camarades sont unanimes pour remercier Izaac de son exposé et exprimer au
+                Bureau et au C.A. de l'U.A.G. leurs félicitations et leurs remerciements pour le
+                travail accompli en faveur de tous.</p>
+              <p>A diverses questions posées, Izaac répond en donnant l'assurance qu'il sera tenu
+                compte des suggestions faites.</p>
+              <pb n="25"/>
+              <note type="foliation">— 23 —</note>
+              <p>Après le déjeuner, Statgé dit à notre président Izaac et à M. Joly, délégué des
+                Amis des Soldats Aveugles, la confiance que les camarades ont en eux pour satisfaire
+                à leurs désirs.</p>
+              <p>Izaac les remercie et les assure de l'entier dévouement de l'Union à leur cause. M.
+                Joly les remercie également de leur aimable invitation et leur dit, connaissant leur
+                situation particulière, son entier dévouement auprès des Amis.</p>
+              <p>Après la réélection du Bureau sortant et la désignation du camarade Satgé pour
+                représenter la Départementale à l'Assemblée générale, la séance est levée à 16 h.
+                30.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h31">SARTHE</head>
+            <p>Nous signalons également que, quoique n'étant pas encore off ciellement constituée en
+              section de l'U.A.G., nos camarades de la Sarthe se sont réunis sous la présidence de
+              Gabriel Charles.</p>
+            <p>Etaient présents: G. Bignon, H. Boudant, D. Marchand, Prune, A. Thiberge, G.
+              Coulard.</p>
+            <p>Charles indique que pour les transports " Tramways Electriques " du Mans, la carte de
+              transport gratuit est délivrée à tous les camarades de la qui font la demande au
+              président de la section, qui est chargé de l'établir et de la faire contre-signer par
+              le Directeur de la société de transports. Pour cette carte, il sera demandé une
+              participation de 50 francs à chaque camarade. Elle séra délivrée gratuitement à ceux
+              qui ne sont pas bénéficiaires du Staut. Prune, qui est dans ce cas, tient à verser ses
+              50 francs.</p>
+            <p>Il en est autrement pour les transports S.T.A.O., qui remplacent les Tramways de la
+              Sarthe. A compter du 1er mar s1947, la Société accorde 50% de réduction seulement au
+              titulaire de la carte à double barre bleue (le guide payant place entière).</p>
+            <p>Charles fait savoir que le Directeur départemental des Combustibles regrette de ne
+              pouvor délivrer du charbon aux camarades des communes rurales.</p>
+            <p>La question de la Sécurité sociale et Allocations familiales est évoquée. Il en sera
+              discuté à l'Asssemblée générale de Paris.</p>
+            <p>Il est fait confiance au Conseil d'administration pour le relèvement des pensions des
+              camarades et de celles des veuves.</p>
+            <pb n="26"/>
+            <note type="foliation">— 24 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h32">SECTION REGIONALE DES
+              ALPES-MARITIMES</head>
+            <p>Dans notre dernier bu'letin, le compte rendu de la réunion de la Section des
+              Alpes-Maritimes s'est trouvé tronque d'une ligne qui a sauté aux épreuves. De ce fait,
+              il n'ava t pas été mentionné la présence à cette réunion des camarades: Ferraris,
+              Gaetti, George Léon, Graglia, Grattepain, Isnardy et - tout simplement - son prés dent
+              Hébréard.</p>
+            <p>Nous rectifions cette erreur en ajoutant qu'étaient présents également: MM. Gilli,
+              président des Amputés; Dagnaut, représentant le capitaine Le Port, près dent des
+              Grands Invalides; Cavenago, chef de service de la Section des Pensions de Guerre;
+              Toutain, de notre Comité de patronage.</p>
+            <pb n="27"/>
+            <note type="foliation">— 25 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h33">NAISSANCES DANS LES FAMILLES DE
+              NOS CAMARADES</head>
+            <p>FABREGUES Paul, de Pantin (Seine) : sa fille Paulette, le 23 février 1947. MOREAU
+              Maurice, de Marolles-les-Brault (Sarthe): sa fille Nicole, le 22 mars 1947. CUNY
+              Jules, de Grand-Lemps (Isère) : sa fille Christiane, le 19 avril 1947. MORISOT André,
+              de Bordeaux (Gironde) : son fils Claude, le 8 avril 1947. FRERE Emile, de Rouen
+              (Seine-Inférieure) : son fils Claude, le 4 avril 1947. AHMED BEN MOHAMED TLIBA, de
+              Menzel-Djemil (Tunisie) : son fils Mahjoub, le 2 avril 1947. LEDROIT, d'Angers
+              (Maine-et-Loire) : ses petites-filles Yannik et Monique, avril 1947. BENOIT Edouard,
+              de Chandoias (Ardèche) : sa petite-fille Danielle, le 22 mars 1947. COLOMBEL Maurice,
+              de Neuilly-Plaisance (Seine-et-Oise) : sa pet te-fille Evelyne, le 18 avril 1947.
+              LANDAIS Léopold, de La Hutte-Coulombiers (Sarthe) : son petit-fils Claude, le 7 avril
+              1947. SIBIRIL Pierre, de Carhaix (Finistère) : son petit-fils Jacques, le 28 mars
+              1947. CLOUP Roger, de Meymac (Corrèze) : son petit-fils Georges, le 23 février 1947.
+              GINESTET Gaston, de Sauveterre (Aveyron) : sa fille Aline, le 8 mai 1947. HONORE
+              Charles, d'Arras (Pas-de-Calais) : sa f.ite Lakmé, le 25 novembre 1945. GRIGNON
+              Ernest, de Carantec (Finistère) : ses fîlles Armelle, le 1er septembre 1943, et
+              Mireille, le 21 mars 1947. Nous adressons nos félicitations aux heureux parents.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h34">MARIAGES</head>
+            <p>Nous apprenons avec plaisir le mariage de: Notre camarade Gaston MARINECHE, de
+              Châtellerault (Vienne) avec Mme Juliat Tomas, célébré le 8 avril 1947. Notre camarade
+              Alfred ARHUHO, de Plouarnel (Morbihan), avec Mme Anna Audic, célébré le 27 avril 1947.
+              Jeannette A'aux, fille de notre camarade Jean ALAUX, d'Espalion (Aveyron), avec M.
+              Jean Pagès, célébré le 16 avril 1947. Yvette Guibert, fille de notre camarade Yvan
+              GUIBERT, de Talence (Gironde), avec M. Jean-Christian Berniès, célébré le 19 avril
+              1947. Gaston Moreau, fils de notre camarade Adolphe MOREAU, de Bry-sur-Marne (Seine),
+              avec Mlle Bernadette Raoul, célébré le 19 avril 1947. Henry DONZELOT, fils de notre
+              camarade Charles DONZELOT, de Bondy (Seine), avec Mlle Solange Philippe, célébré le 19
+              avril 1947.</p>
+            <pb n="28"/>
+            <note type="foliation">— 26 —</note>
+            <p>Christian Guérin, fils de notre camarade Gaston GUERIN, de Tours (Indre-et-Loire),
+              avec Mlle Cécile Luce, célébré le 21 avril 1947. Paul Lachatre, fils de notre camarade
+              Emile LACHATRE, de La Souterraine (Creuse), avec Mlle Paulette Parot, célébré le 10
+              avril 1947. Pierre GUTTEFIN, fils de notre camarade décédé, neveu de notre camarade
+              PAGENEL, avec Mlle Liliane Bartholomé, f.lleule de notre camarade Fernand BERTRAND,
+              célébré le 12 avril 1947. Nous adresosns nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h35">DECES</head>
+            <p>CHASSAGNÝ Théodore, de Curières, par Lagniole (Aveyron), le 16 avril 1947. La femme
+              du camarade Edouard POT, de Candant-les-Angles (Gard), le 19 mars 1947. La femme du
+              camarade Albert LANGEL, de Paris, le 18 avril 1947. Le fils André du camarade Nicolas
+              THEPENIER, de Châtillon-en-Bazois (Nièvre), le 28 janvief 1947, à l'âge de 28 ans. La
+              mère du camarade CABASSON, de Marseille (Bouches-du-Rhône), le 21 mars 1947. La
+              belle-mère du camarade GIRONNET, de Liguell (Indre-et-Loir), le 20 mars 1947. Nous
+              adressons aux familles éprouvées nos plus vives condoléances.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h36">A VENDRE</head>
+            <p>Bureau moderne neuf en chêne massif, 1 m. 30 sur 0 m. 80, composé de 4 tiroirs à
+              droite et 1 au milieu, avec une guérite et porte et classeurs pour dossiers à gauche.
+              Prix: 9.000 fr. S'adresser au camarade Henri MARTIN, 2, rue Jules-Guesde, Ormesson
+              (Seine-et-Oise).</p>
+            <pb n="29"/>
+            <note type="foliation">— 27 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h37">COTISATIONS 1947</head>
+            <p>VIDEMONT (Seine), HAMON, VENDEVILLE, SURSIN, MENETREZ, COMBLE, TONNADRE, BRICE,
+              MARTIN H., HUBERT E., LENOIR R., GUERRY J., BOUTARIC, SORBIE, PARADE, BOUCHE René,
+              ANGOT, HAUSER, BOURCEILLER, BALLAY, BONNET, BRISSONNET, RENAUDINEAU, POPOFF, AVIZOU,
+              PAU-</p>
+            <p>VERT, LEDROIT, CORLOBE, PLUCHOT, MITHOUARD, PION, BINET, BENDRIES, JOLY G., ATLANI,
+              Mme GOULOT, ESCOFFIE, BOULFROY, GUILLERMET, FEHSE, DEGUERRY, LIOTAUD, LAPORTE Emile,
+              MULLER Louis, Mme VANDEVELDE, WAGNER, DEVIDAL, PAPADO. PULO, BRUSSON.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h38">COTISATIONS VOLONTAIRES
+              1947</head>
+            <p>Nous rappelons à nos camarades qu'il n'est pas renvoyé de reçu pour les cotisations,
+              les noms des cotisants étant publiés au bulletin au fur et à mesure des
+              versements.</p>
+            <list>
+              <item>PIOT 50</item>
+              <item>HAMON 40</item>
+              <item>VENDEVILLE 90</item>
+              <item>BARRALON A. 50</item>
+              <item>MENETREZ 20</item>
+              <item>MARTIN Adrien 150</item>
+              <item>PARADE 50</item>
+              <item>ANGOT 50</item>
+              <item>MULSANT 58</item>
+              <item>BONNET 15</item>
+              <item>LABBE B. 50</item>
+              <item>JOHANNSEN 30</item>
+              <item>PAUVERT 100</item>
+              <item>MITHOUARD 40</item>
+              <item>LOUESDON 100</item>
+              <item>PION 40</item>
+              <item>Vve GRIZIAUX 200</item>
+              <item>BERGADIEU 50</item>
+              <item>FAURE Jean 50</item>
+              <item>Vve DUCORNET 50</item>
+              <item>COUBLUCQ 100</item>
+              <item>GAULTIER René 50</item>
+              <item>Vve LANDAIS 50</item>
+              <item>MULLER Louis 50</item>
+              <item>LETELLIER 100</item>
+              <item>COCHON F. 50</item>
+              <item>CARDOT D. 100</item>
+            </list>
+            <p>Nous adressons nos sincères remerciements à nos camarades qui ont tenu à effectuer un
+              nouveau versement.</p>
+            <pb n="30"/>
+            <note type="foliation">— 28 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">SOUSCRIPTION POUR LE TOMBEAU DU
+              GENERAL GOURAUD</head>
+            <list>
+              <item>Total des sommes précédemment reçues 6.430</item>
+              <item>LAMBERT L. 50</item>
+              <item>MENETREZ 20</item>
+              <item>MUSQUAT 50</item>
+              <item>BIRAY 100</item>
+              <item>SALVANES 50</item>
+              <item>PARADE 50</item>
+              <item>POIRSON 100</item>
+              <item>CHIMBERT 200</item>
+              <item>BRISSONNET 50</item>
+              <item>RENAUDINEAU 50</item>
+              <item>POPOFF 50</item>
+              <item>FEHRARI 100</item>
+              <item>PAGAND 50</item>
+              <item>DESBANCS 50</item>
+              <item>DELUY 100</item>
+              <item>KHIDAS MOHAMED BEN ALI 50</item>
+              <item>PION 300</item>
+              <item>FAVEREAU 50</item>
+              <item>TAFFORIN 50</item>
+              <item>DARNAUD GUILHEM 50</item>
+              <item>BRUSSON 50</item>
+              <item>QUEFFURUST 100</item>
+              <item>GRILLET 100</item>
+              <item>BLONDELL 100</item>
+              <item>GROSDIDIER V. 100</item>
+              <item>BELLENGER Emile 50</item>
+              <item>COCHON F. 50</item>
+              <item>FEREZOU 50</item>
+              <item>DEVEZE 50</item>
+              <item>CARDOT 50</item>
+              <item>BENOIT Edouard 100</item>
+              <item>TOTAL 8.800</item>
+            </list>
+            <pb n="31"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h40">Comité d'Action</head>
+            <p>Présidents : MM. Jérôme et Jean THARAUD, de l'Académie Française. Vice-Président :
+                <hi rend="superscript">M</hi>^{<hi rend="superscript">c</hi>} MASSON.
+              Vice-Présidentes : Mme CONTAMIN, Mme du BOS. Vice-Présidente Honoraire : Mlle ARBEL.
+              Trésorier Honoraire : M. MAYER. Membres : M. AGASSE, M. AUTERBE, <hi
+                rend="superscript">M</hi>^{<hi rend="superscript">c</hi>} BRULLIARD, M. de
+              CHAUMONT-QUITRY, M. COLLIER, M. le Docteur COUTELA, Mlle JALAGUIER.</p>
+            <pb n="32"/>
+          </div>
+
+          <fw>Le Gérant : L'EVESQUE. Imp. Frébinet, Paris.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
