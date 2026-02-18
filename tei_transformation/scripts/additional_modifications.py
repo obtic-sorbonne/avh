@@ -3,7 +3,7 @@ import re
 import sys
 from lxml import etree
 
-from functions import (
+from parameters.functions import (
     replace_first_pb, add_breakno_pb,
     p_to_list_regex)
 
@@ -43,7 +43,7 @@ def process_xml(chemin_in: str, chemin_out: str):
         # Tout ce qui est avant </p>
         before_p = xml_content[last_pos:start].rstrip('</p>')
 
-        if prev_char in ('.', ';'):
+        if prev_char in ('.', ';', '"', ")"):
             # On garde le </p> et le <p> comme ils sont
             out_parts.append(xml_content[last_pos:end])
         else:
@@ -82,9 +82,9 @@ def batch_process(input_dir: str, output_dir: str):
         if fname.lower().endswith(".xml"):
             input_path = os.path.join(input_dir, fname)
             output_path = os.path.join(output_dir, fname)
-            print("✅ Modification done:", fname)
+            print("✅", fname)
             process_xml(input_path, output_path)
-    print("✔  Done")
+    print("✔  MODIFICATION DONE")
 
 # ---------------------------------------------------------------------
 # Exemple d'utilisation :

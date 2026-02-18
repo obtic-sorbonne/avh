@@ -4,7 +4,7 @@ import re  # Expressions régulières
 from lxml import etree # Pour créer et écrire le XML TEI
 
 
-from variables import BLOC_PB1
+from parameters.variables import BLOC_PB1
 
 NS_TEI = "http://www.tei-c.org/ns/1.0"
 NSMAP = {"tei": NS_TEI}

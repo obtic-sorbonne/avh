@@ -5,7 +5,7 @@ from lxml import etree # Pour créer et écrire le XML TEI
 from datetime import date # Gestion des dates et heures
 
 #Appel des fonctions utiles pour les modifications supplémentaires
-from functions import (build_toc_from_node, 
+from parameters.functions import (build_toc_from_node, 
     build_hierarchical_toc, normalize_dates, 
     group_all_heads, transform_footer_info)
 
@@ -53,7 +53,7 @@ def process_tei(xml_path, output_path):
     # Sauvegarde
     # ======================================================
     tree.write(output_path, pretty_print=True, encoding="utf-8", xml_declaration=True)
-    print(f"✅ Process done: {output_path}")
+    print(f"✅ {output_path}")
 
 
 # ======================================================
@@ -67,6 +67,7 @@ def batch_process_tei(input_dir, output_dir):
             input_path = os.path.join(input_dir, fname)
             output_path = os.path.join(output_dir, fname)
             process_tei(input_path, output_path)
+    print("✔  PROCESS DONE")
 
 # ======================================================
 # ============ Entrée en ligne de commande =============

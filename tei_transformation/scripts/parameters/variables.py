@@ -60,7 +60,7 @@ BLOC_PB1 = """<pb n="1"/>
     </list>
   </div>
   <div type="section">
-    <head type="section" rend="align(center)">Notes et Informations</head>
+    <head type="section" rend="align(center)">Informations</head>
     <list>
       <item>...</item>
     </list>
@@ -75,4 +75,8 @@ BLOC_PB1 = """<pb n="1"/>
 <fw type="footer" rend="align(center)">Administration :<lb/> Siège de l'U. A. G., 25, rue
   Ballu, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : Central 44-88 —
   Chèque postal 160-31</fw>
+<fw type="footer" rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE
+  BLANCHE, PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque postal
+  160-31</fw>
+
 """.strip()

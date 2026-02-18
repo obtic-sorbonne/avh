@@ -7,19 +7,19 @@ from lxml import etree        # Pour créer et écrire le XML TEI
 from datetime import date # Gestion des dates et heures
 
 #Appel de variables pour remplir les métadonnées
-from variables import (projectDesctext, seriesStmttext, countrytext, 
+from parameters.variables import (projectDesctext, seriesStmttext, countrytext, 
     settlementtext, institutiontext, repositorytext, digitizationtext, 
     digitizationresp, transcriptiontext, transcriptionresp, encodingtext, 
     encodingresp, hyphenationtext, quotationtext, authoritytext, 
     collectiontext)
 
 #Appel des fonctions utiles pour l'encodage
-from functions import (markdown_to_html, clean_text, slugify, 
+from parameters.functions import (markdown_to_html, clean_text, slugify, 
     text_enrichment, list_encoding, encode_elements,
     insert_foliation, normalize_dates)
 
 #Appel du contenu des métadonnées JSON
-from metadata_json import inject_metadata
+from parameters.metadata_json import inject_metadata
 
 
 def md_to_tei(md_path, tei_path, metadata):
@@ -135,7 +135,7 @@ def md_to_tei(md_path, tei_path, metadata):
     # ======================================================
     os.makedirs(os.path.dirname(tei_path), exist_ok=True)
     etree.ElementTree(tei).write(tei_path, encoding="utf-8", xml_declaration=True, pretty_print=True)
-    print(f'✅ Transformation done: {tei_path}')
+    print(f'✅ {tei_path}')
 
 
 # ======================================================
@@ -157,6 +157,7 @@ def batch_process_md(dossier_md, dossier_tei):
                 metadata = {}
 
             md_to_tei(chemin_md, chemin_tei, metadata)
+    print("✔  TRANSFORMATION DONE")
 
 # ======================================================
 # ============ Entrée en ligne de commande =============
