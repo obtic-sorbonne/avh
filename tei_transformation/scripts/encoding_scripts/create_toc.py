@@ -1,3 +1,8 @@
+"""
+Création d'une table des matières et 
+de la structure des fichiers XML-TEI
+"""
+
 import os # Interaction avec le système d’exploitation
 import re # Expressions régulières
 import sys # Accès aux variables et fonctions du système

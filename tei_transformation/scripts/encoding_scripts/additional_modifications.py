@@ -1,3 +1,8 @@
+"""
+Correction de divers erreurs nécessitant un
+traitement individuel
+"""
+
 import os
 import re
 import sys

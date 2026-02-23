@@ -1,3 +1,7 @@
+"""
+Conversion des fichiers Markdown en XML-TEI
+"""
+
 import json # Sérialisation et désérialisation de données en JSON
 import os # Interaction avec le système d’exploitation
 import re # Expressions régulières

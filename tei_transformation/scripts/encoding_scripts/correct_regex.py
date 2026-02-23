@@ -1,3 +1,7 @@
+"""
+Correction du bruit et autres qui restent de l'OCR
+"""
+
 import os
 import re
 import sys
