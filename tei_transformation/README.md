@@ -1,106 +1,70 @@
-# Conversion TEI/XML — Documentation
+# 📚 AVH TEI Documentation
 
-Ce projet transforme des fichiers Markdown en **XML TEI complet**, enrichi par :
+Bienvenue dans la **documentation AVH TEI**, un repository Python pour la gestion, l’analyse et la conversion de fichiers **XML-TEI** de la collection de la bibliothèque patrimoniale de l'AVH.
 
-* des métadonnées provenant d’un JSON combinant SharePoint et un modèle IA ;
-* un encodage structuré respectant les recommandations TEI ;
-* la génération d’une table des matières hiérarchique et des corrections structurelles ;
-* une cohérence éditoriale complète via des variables et règles prédéfinies.
+Ce repo permet de :
 
-L’objectif est de produire des fichiers TEI prêts pour l’édition numérique, l’indexation ou la diffusion patrimoniale.
-
----
-
-## 1. Architecture générale
-
-Le projet s’articule autour de trois blocs principaux :
-
-1. **Conversion Markdown → TEI (`md_to_tei`)**
-
-   * Transforme le Markdown en HTML (`markdown_to_html`) puis en TEI.
-   * Crée un squelette TEI avec `<teiHeader>`, `<fileDesc>`, `<encodingDesc>`, `<profileDesc>`, `<text>`.
-   * Encode automatiquement le contenu textuel et les marqueurs `[Page X]`.
-
-2. **Injection de métadonnées (`inject_metadata`)**
-
-   * Remplit `titleStmt`, `publicationStmt`, `profileDesc`, `seriesStmt`, `textClass`, `msDesc` à partir d’un JSON.
-   * Gère les champs uniques ou multiples, les valeurs absentes et normalise les identifiants via `slugify`.
-   * Champs pris en charge : type de document, mots-clés, sujets, titre principal, auteur/éditeur, résumés, classification Dewey, date, format et droits.
-
-3. **Post-traitement TEI (`process_tei`)**
-
-   * Regroupe les titres hiérarchiquement (`group_all_heads`) et normalise les dates (`normalize_dates`).
-   * Transforme le contenu de bas de page (`transform_footer_info`).
-   * Génère une table des matières hiérarchique (`build_hierarchical_toc`).
-   * Ajoute une entrée de révision automatique.
+* Analyser la **structure des fichiers TEI**
+* Extraire des **métadonnées** et des **contextes regex**
+* Collecter et centraliser des documents
+* Convertir du **Markdown en TEI**
+* Travailler avec un **ODD TEI personnalisé**
 
 ---
 
-## 2. Fonctionnement batch
+## 🗂 Structure du repo
 
-* `batch_process_md(dossier_md, dossier_tei)` : convertit tous les fichiers Markdown d’un dossier en TEI.
-* `batch_process_tei(input_dir, output_dir)` : applique le post-traitement sur un dossier complet de fichiers TEI.
-
----
-
-## 3. Dépendances et modules
-
-### 3.1 Bibliothèques standard
-
-* `json` pour charger les métadonnées
-* `os` pour la gestion des dossiers
-* `re` pour détecter des signatures structurelles
-* `sys` pour arguments CLI
-* `datetime.date` pour la datation automatique des révisions
-
-### 3.2 Parsing et création XML
-
-* `BeautifulSoup` : parse l’HTML intermédiaire issu du Markdown
-* `lxml.etree` : crée et sérialise le TEI XML
-
-### 3.3 Variables éditoriales (`variables.py`)
-
-Fournissent automatiquement :
-
-* la description du projet et les autorités responsables
-* les responsables de numérisation, transcription et encodage
-* les informations sur la collection et le manuscrit (`msDesc`)
-* les règles éditoriales (césure, guillemets)
-
-Ces variables assurent une cohérence éditoriale sur tous les fichiers générés.
-
-### 3.4 Fonctions utilitaires (`functions.py`)
-
-| Fonction                 | Rôle                                             |
-| ------------------------ | ------------------------------------------------ |
-| `markdown_to_html`       | Convertit Markdown → HTML                        |
-| `clean_text`             | Nettoie le texte avant encodage                  |
-| `slugify`                | Normalise une chaîne pour identifiants           |
-| `text_enrichment`        | Applique des enrichissements personnalisés       |
-| `list_encoding`          | Encode les listes selon les conventions TEI      |
-| `encode_elements`        | Transforme les éléments HTML en TEI              |
-| `insert_foliation`       | Ajoute automatiquement les repères de page       |
-| `normalize_dates`        | Harmonise les formats de dates et attributs      |
-| `build_hierarchical_toc` | Génère une table des matières complète           |
-| `group_all_heads`        | Regroupe logiquement les titres (`<head>`)       |
-| `transform_footer_info`  | Convertit les informations de bas de page en TEI |
-
-### 3.5 Métadonnées JSON (`metadata_json.py`)
-
-* `inject_metadata(metadata, titleStmt, publicationStmt, profileDesc, seriesStmt, textClass, msDesc, slugify)`
-* Complète automatiquement les sections TEI selon les règles éditoriales et normalise les identifiants.
+├── odd/
+│   └── tei_avh.xml                # ODD TEI personnalisé pour validation et encodage
+│
+├── scripts/
+│   ├── retrieve_tags_attributes.py       # Analyse structure des balises et attributs TEI
+│   ├── retrieve_documents.py             # Collecte de fichiers depuis des sous-dossiers
+│   ├── retrieve_metadata.py              # Extraction de métadonnées TEI vers CSV
+│   ├── retrieve_regex.py                 # Extraction de contextes regex depuis TEI
+│   ├── md_to_tei_converter.py            # Conversion Markdown → XML-TEI
+│   └── ... autres scripts utilitaires
+│
+├── tei_documents/
+│   ├── old_names/                   # TEI générés avec les noms de fichiers d'origine
+│   └── new_name/                    # TEI avec noms explicites et normalisés
+│
+└── README.md                      # Cette documentation
 
 ---
 
-## 4. Workflow résumé
+### 📁 `odd/`
 
-1. **Conversion Markdown → TEI** avec `md_to_tei`.
-2. **Injection des métadonnées** via `inject_metadata`.
-3. **Post-traitement** avec `process_tei` pour structure, dates, pieds de page et TOC.
-4. **Export** du fichier TEI final (`UTF-8`, XML declaration, pretty print).
-5. **Batch processing** possible pour des dossiers complets.
+Contient l’**ODD TEI personnalisé**.
 
-![Schéma du workflow](schema_conversion_avh.png "Schéma du workflow")
+* Fichier `tei_avh.xml` : définit les balises, attributs et structures autorisées pour le corpus.
+* Sert à **valider les fichiers TEI**, assurer la cohérence du balisage et guider la conversion Markdown → TEI.
+
+C’est le **référentiel de règles TEI** pour le projet.
 
 ---
 
+### 📁 `scripts/`
+
+Contient tous les scripts Python pour manipuler et analyser le corpus TEI.
+
+* Scripts d’analyse de **structure** (`retrieve_tags_attributes.py`)
+* Scripts de **collecte de fichiers** (`retrieve_documents.py`)
+* Scripts d’**extraction de métadonnées** (`retrieve_metadata.py`)
+* Scripts d’**analyse textuelle par regex** (`retrieve_regex.py`)
+* Scripts de **conversion Markdown → TEI** (`md_to_tei_converter.py`)
+
+Chaque script est autonome et exécutable en ligne de commande pour des tâches spécifiques sur le corpus TEI.
+
+---
+
+### 📁 `tei_files/`
+
+Contient tous les fichiers TEI générés ou collectés pour le corpus.
+
+* `old_name/` : TEI avec les noms de fichiers d’origine, tels qu’ils ont été produits ou récupérés depuis les sources.
+* `new_name/` : TEI renommés avec des noms explicites et normalisés, plus faciles à exploiter dans les pipelines et analyses.
+
+Ce dossier est la **source principale pour tous les traitements ultérieurs**, analyses, ou conversions.
+
+---
