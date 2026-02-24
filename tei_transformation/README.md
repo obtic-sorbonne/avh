@@ -16,21 +16,18 @@ Ce repo permet de :
 ```text
 .
 ├── odd/
-│   └── tei_avh.xml                # ODD TEI personnalisé pour validation et encodage
+│   └── tei_avh.xml                  # ODD TEI personnalisé pour validation et encodage
 │
 ├── scripts/
-│   ├── retrieve_tags_attributes.py       # Analyse structure des balises et attributs TEI
-│   ├── retrieve_documents.py             # Collecte de fichiers depuis des sous-dossiers
-│   ├── retrieve_metadata.py              # Extraction de métadonnées TEI vers CSV
-│   ├── retrieve_regex.py                 # Extraction de contextes regex depuis TEI
-│   ├── md_to_tei_converter.py            # Conversion Markdown → XML-TEI
-│   └── ... autres scripts utilitaires
+│   ├── schema_conversion_avh.png    # Schématise les étapes de création des fichiers XML-TEI
+│   ├── encoding_scripts/            # Scripts pour la transformation de MD à XML-TEI complets
+│   └── retrieval_scripts/           # Scripts pour récupérer divers éléments
 │
 ├── tei_documents/
 │   ├── old_names/                   # TEI générés avec les noms de fichiers d'origine
 │   └── new_name/                    # TEI avec noms explicites et normalisés
 │
-└── README.md                      # Cette documentation
+└── README.md                        # Cette documentation
 ```
 
 
@@ -51,11 +48,9 @@ C’est le **référentiel de règles TEI** pour le projet.
 
 Contient tous les scripts Python pour manipuler et analyser le corpus TEI.
 
-* Scripts d’analyse de **structure** (`retrieve_tags_attributes.py`)
-* Scripts de **collecte de fichiers** (`retrieve_documents.py`)
-* Scripts d’**extraction de métadonnées** (`retrieve_metadata.py`)
-* Scripts d’**analyse textuelle par regex** (`retrieve_regex.py`)
-* Scripts de **conversion Markdown → TEI** (`md_to_tei_converter.py`)
+* Schéma de **création** des fichiers XML-TEI (`schema_conversion_avh.png`)
+* Scripts de **transformation de MD à XML-TEI complets** (`encoding_scripts/`)
+* Scripts de **récupération** de divers éléments (`retrieval_scripts/`)
 
 Chaque script est autonome et exécutable en ligne de commande pour des tâches spécifiques sur le corpus TEI.
 
