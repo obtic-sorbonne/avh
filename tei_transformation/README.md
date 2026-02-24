@@ -13,7 +13,8 @@ Ce repo permet de :
 ---
 
 ## 🗂 Structure du repo
-
+```text
+.
 ├── odd/
 │   └── tei_avh.xml                # ODD TEI personnalisé pour validation et encodage
 │
@@ -30,6 +31,8 @@ Ce repo permet de :
 │   └── new_name/                    # TEI avec noms explicites et normalisés
 │
 └── README.md                      # Cette documentation
+```
+
 
 ---
 

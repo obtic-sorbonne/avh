@@ -104,15 +104,6 @@ python retrieve_tags_attributes.py <dossier> text
 
 ---
 
-## 💡 Cas d’usage
-
-* Analyse structurelle d’un corpus
-* Normalisation TEI
-* Audit de balisage
-* Préparation à un schéma ODD
-
----
-
 # 2️⃣ `retrieve_documents.py`
 
 ## 🎯 Objectif
@@ -184,15 +175,6 @@ python retrieve_documents.py corpus/ html_files/ .html
 
 ---
 
-## 💡 Cas d’usage
-
-* Centralisation de versions finales
-* Récupération de fichiers OCR
-* Extraction d’un sous-corpus
-* Nettoyage de projets dispersés
-
----
-
 # 3️⃣ `retrieve_metadata.py`
 
 ## 🎯 Objectif
@@ -251,15 +233,6 @@ Structure :
 ```bash
 python retrieve_metadata.py <dossier_xml>
 ```
-
----
-
-## 💡 Cas d’usage
-
-* Construction d’un catalogue
-* Vérification des métadonnées
-* Création d’index
-* Alimentation d’une base de données
 
 ---
 
