@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bulletin mensuel de l'Union des aveugles de guerre et Journal des soldats blessés aux
+          yeux - 29ème année 1949, n°27</title>
+        <author>L'UNION des AVEUGLES DE GUERRE</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
+          aux yeux (1919-1957)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass/>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1949-08-01">01/08/1949</date>
+        <date when="1949-09-01">01/09/1949</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h3">LÉGION D'HONNEUR</ref>
+          </item>
+          <item>
+            <ref target="#h4">NOS PENSIONS</ref>
+          </item>
+          <item>
+            <ref target="#h5">CONFÉRENCE D'OXFORD</ref>
+          </item>
+          <item>
+            <ref target="#h6">COMITE D'ENTENTE DES GRANDS INVALIDES Séance du 12 juillet 1949
+              PROCES-VERBAL</ref>
+          </item>
+          <item>
+            <ref target="#h7">CECITE PRATIQUE</ref>
+          </item>
+          <item>
+            <ref target="#h8">GREFFE DE LA CORNEE</ref>
+          </item>
+          <item>
+            <ref target="#h9">SECURITE SOCIALE POUR LES MILITAIRES DE CARRIERE</ref>
+          </item>
+          <item>
+            <ref target="#h10">CONTRIBUTION MOBILIERE ET IMPOT FONCIER</ref>
+          </item>
+          <item>
+            <ref target="#h11">MISE AU POINT SUR LES TRANSPORTS DE LA REGION PARISIENNE</ref>
+          </item>
+          <item>
+            <ref target="#h12">TRANSPORTS DEPARTEMENTAUX</ref>
+          </item>
+          <item>
+            <ref target="#h13">SUCCES AUX EXAMENS</ref>
+          </item>
+          <item>
+            <ref target="#h14">BIBLIOTHÈQUE</ref>
+            <list>
+              <item>
+                <ref target="#h15">LISTE DES LIVRES NOUVEAUX</ref>
+              </item>
+              <item>
+                <ref target="#h16">OUVRAGES EN INTEGRAL RETRANSCRITS EN AMPLIFIE</ref>
+              </item>
+
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">LES LECTURES PAR LE DISQUE Recommandation importante</ref>
+          </item>
+
+          <item>
+            <ref target="#h18">UN SUPER-PHONOGRAPHE</ref>
+          </item>
+          <item>
+            <ref target="#h19">NAISSANCES</ref>
+          </item>
+          <item>
+            <ref target="#h20">MARIAGES</ref>
+          </item>
+          <item>
+            <ref target="#h21">DECES</ref>
+          </item>
+          <item>
+            <ref target="#h22">DANS NOS SECTIONS</ref>
+            <list>
+              <item>
+                <ref target="#h23">REUNION ANNUELLE DE LA SECTION DU FINISTERE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">JUILLET 1949 ET AOUT 1949</ref>
+            <list>
+              <item>
+                <ref target="#h25">Cotisations ordinaires</ref>
+              </item>
+              <item>
+                <ref target="#h26">Cotisations Caisse Prévoyance</ref>
+              </item>
+              <item>
+                <ref target="#h27">Cotisations volontaires</ref>
+              </item>
+              <item>
+                <ref target="#h28">Cotisations volontaires Discothèque</ref>
+              </item>
+              <item>
+                <ref target="#h29">Cotisations volontaires Bibliothèque</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h30">PETITES ANNONCES</ref>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">29e Année. — N° 27</fw>
+          <fw type="header">
+            <hi rend="underline">AOUT-SEPTEMBRE 1949</hi>
+            <lb/>
+            <hi rend="underline">POUR LES AVEUGLES PAR LES AVEUGLES</hi>
+          </fw>
+          <div type="section">
+            <head type="main" rend="align(center)" xml:id="h1">BULLETIN MENSUEL <lb/>de <lb/>L'UNION
+              DES AVEUGLES DE GUERRE</head>
+            <fw rend="align(center)">Administration :<lb/> SIEGE DE l'U. A. G., 49, RUE BLANCHE,
+              PARIS (9<hi rend="superscript">e</hi>) <lb/> TÉLÉPH. : TRINITE 85-83 — Chèque postal
+              160-31</fw>
+            <div type="section">
+              <div type="section">
+                <head type="section" rend="align(center)" xml:id="h2">SOMMAIRE</head>
+                <list>
+                  <item>Légion d’Honneur.</item>
+                  <item>Nos pensions.</item>
+                  <item>Conférence d’Oxford.</item>
+                  <item>Comité d’Entente.</item>
+                  <item>Cécité pratique.</item>
+                  <item>Greffe de la cornée.</item>
+                  <item>Sécurité sociale pour les militaires de carrière.</item>
+                  <item>Contribution mobilière et impôt foncier.</item>
+                  <item>Transports.</item>
+                  <item>Succès aux examens.</item>
+                  <item>Bibliothèque et discothèque.</item>
+                  <item>Un super-phonographe.</item>
+                  <item>Naissances - Mariages - Décès.</item>
+                  <item>Dans nos sections.</item>
+                  <item>Cotisations.</item>
+                </list>
+              </div>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">LÉGION D'HONNEUR</head>
+            <p>Le « Journal Officiel » du 24 juillet, publie le décret portant nomination d’Henri
+              Amblard au grade de Commandeur de la Légion d’Honneur.</p>
+            <p>Je le félicite joyeusement tout d’abord comme ami personnel, et aussi au nom de tous
+              comme Président de l’U.A.G., puisqu’il est connu des plus anciens comme des plus
+              jeunes d’entre nous de la métropole et d’outre-mer, par les immenses services qu’il a
+              rendus à notre Union.</p>
+            <p>En dehors du monde des aveugles, son activité intelligente et féconde est également
+              fort appréciée. Je suis certain que les fidèles membres de notre Comité d’action et
+              tous les amis de l’U.A.G. sont heureux comme nous de la distinction tant méritée dont
+              Henri Amblard vient d’être l’objet.</p>
+            <p>Que Madame Amblard veuille bien accepter ici la juste part de <pb n="2"/>
+              <note type="foliation">— 2 —</note> félicitations et la reconnaissance que nous devons
+              à notre secrétaire général pour son inlassable et efficace activité.</p>
+            <p>Le « Journal Officiel » du 3 septembre publie le décret portant nomination de Pierre
+              Duc au grade de Commandeur de la Légion d'Honneur.</p>
+            <p>Nous sommes d'autant plus heureux de féliciter chaleureusement notre camarade Duc
+              pour cette distinction, due à sa valeur et à ses mérites, que dès sa blessure en 1940,
+              il s'est montré tout dévoué à la cause de l'U.A.G., à laquelle il a rendu déjà de
+              nombreux et très utiles services. Souhaitons, dans notre propre intérêt, qu'il veuille
+              bien continuer à servir notre Union.</p>
+            <p>Henri IZAAC.</p>
+            <p>Les camarades dont les noms suivent ont été également nommés dans l'Ordre de la
+              Légion d'Honneur au titre de :</p>
+            <list>
+              <item>Officiers : Jean LECLERE ; Paul BENDRIES.</item>
+              <item>Chevaliers : Jean-Marie ERHARD ; François FEHSE ; François DELCEY ; Georges GOMY
+                ; Elie FREYDIER.</item>
+            </list>
+            <p>Nous les félicitons vivement.</p>
+            <pb n="3"/>
+            <note type="foliation">— 3 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">NOS PENSIONS</head>
+            <p>Nous voici au début de l'automne prêts à reprendre le travail qui se présente à nous
+              — encore délicat — pour arriver à donner aux aveugles de guerre la situation qu'ils
+              ont perdue depuis la récente guerre.</p>
+            <p>Si nous venons, en effet, de percevoir la pension dont le taux fut récemment majoré
+              de 15 %, il ne faut pas oublier que nous sommes loin de compte, et que d'après les
+              calculs de notre ami Gauriault, 43 % seraient encore à obtenir.</p>
+            <p>Si nous avons pris part en masse à la grande manifestation de juin dernier, c'était
+              pour marquer notre mécontentement de voir notre situation encore bien précaire, notre
+              amertume de constater le manque de considération vis-à-vis des grandes victimes de la
+              guerre. Nous aurons, au cours des mois qui vont venir, à présenter aux Pouvoirs
+              publics des demandes bien raisonnables et bien justes touchant le taux de nos
+              pensions, celui-ci étant trop bas en comparaison de celui qui est donné aux salariés,
+              fonctionnaires et autres parties prenantes. Nous aurons à demander qu'un vrai rapport
+              constant soit établi entre nos pensions et les traitements des fonctionnaires, que les
+              pensions de nos veuves ne soient plus des aumônes, et qu'en un mot, sans peut-être
+              retrouver complètement la situation qui nous était faite en 1938, nous puissions avoir
+              une vie relativement décente.</p>
+            <p>C'est là la tâche qui nous attend et que nous défendrons avec nos camarades du Comité
+              d'Entente devant M. le Ministre des Anciens Combattants, afin qu'avec la situation
+              économique qui doit pouvoir se rétablir, nous ayons aussi les moyens de vivre
+              honnêtement sans qu'il soit besoin de toujours réclamer des améliorations qui dès
+              maintenant devraient nous être accordées.</p>
+            <p>H. AMBLARD.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">CONFÉRENCE D'OXFORD</head>
+            <p>Du 3 au 13 août dernier s'est tenue la Conférence Mondiale des Aveugles. Cette
+              réunion des représentants des veuvres d'Aveugles ou pour Aveugles ne s'était pas
+              produite depuis 1931, lors du congrès de New-York. Il s'agissait là bien entendu d'un
+              congrès étudiant les questions intéressant tous les Aveugles en général, où je fus
+              délégué pour représenter l'Union des Aveugles de Guerre de France.</p>
+            <p>Dix-neuf nations d'Europe et d'Amérique du Nord avaient répondu à l'appel des
+              organisateurs qui étaient : l'American Foundation for the Blind, et le National
+              Institute for the Blind de Londres.</p>
+            <p>Pendant ces dix jours, les congressistes ont vécu la vie d'étudiants au Merton
+              College, dans cette vieille ville universitaire d'Oxford, bien propice aux travaux de
+              délibérations d'hommes qui avaient surtout pour tâche d'admettre des idées, confronter
+              des systèmes et tirer des enseignements <pb n="4"/>
+              <note type="foliation">— 4 —</note> propres à les aider une fois rentrés dans leurs
+              pays respectifs, pour essayer d'améliorer le sort de leurs camarades.</p>
+            <p>Nous tenons à remercier ici le Doctor Robert Irwin, de l'American Foundation, qui
+              présida ces assises avec compétence et autorité, ainsi que Mr. W. Mc G. Eager du
+              N.I.B., qui fut un hôte parfait.</p>
+            <p>Pendant neuf jours de travaux, au cours des sessions tenues au moins deux fois par
+              jour, les sujets suivants furent abordés : <list>
+                <item>Résolutions ;</item>
+                <item>Recensement. — Qualifications ;</item>
+                <item>Rééducation et formation professionnelle ;</item>
+                <item>Occupations ;</item>
+                <item>Assistance ;</item>
+                <item>Assistance aux Aveugles à domicile ;</item>
+                <item>Foyers pour les Aveugles ;</item>
+                <item>Organismes responsables des Aveugles ;</item>
+                <item>Dispositions spéciales en faveur des Aveugles ;</item>
+                <item>Éducation ;</item>
+                <item>Relations avec les Nations Unies,</item>
+              </list> et en fin de session, une motion fut votée en faveur de l'Esperanto pour les
+              Aveugles.</p>
+            <p>Bien entendu, toutes ces résolutions n'avaient qu'un caractère d'indication,
+              puisqu'il n'existe pas encore de gouvernement mondial et que chaque délégation doit
+              avoir à cœur de faire aboutir auprès de son Gouvernement des suggestions
+              définitivement adoptées.</p>
+            <p>A un certain moment de la conférence, Mr. W. Mc G. Eager rendit hommage aux femmes
+              des Aveugles, à leur dévouement inlassable, adresse qui fut écoutée debout par
+              l'assistance.</p>
+            <p>La grande idée dominante de ces débats fut celle de reconnaître la nécessité
+              d'accorder aux Aveugles une compensation en outre des salaires et pensions habituels,
+              pour réparer le handicap provoqué par la cécité et gênant l'Aveugle dans sa
+              profession, ses déplacements, sa vie en général. C'était d'ailleurs l'esprit de notre
+              article 10 de notre loi des pensions qui doit être élargi et amélioré.</p>
+            <p>Ces contacts permanents d'hommes connaissant bien les Aveugles et les organisations
+              de leurs pays permirent d'établir des relations amicales qui, nous l'espérons,
+              demeureront utiles et fructueuses pour le bien-être de tous les individus atteints de
+              cécité.</p>
+            <p>Le programme était très large et très complet, et les recommandations qui furent
+              mises au point ont été transmises au représentant de l'O.N.U. qui assista à toutes les
+              séances et en demandera l'application par l'entremise de cette grande organisation
+              internationale. Nous avons insisté particulièrement sur la question des transports,
+              estimant que sur le plan mondial un Aveugle et son guide ne doivent être considérés
+              que comme une seule personne pour le voyage ; sur la production de machines utiles aux
+              Aveugles ; la question des pensions des Aveugles de guerre restant encore à faire dans
+              notre propre pays.</p>
+            <p>C'est dans cet esprit qu'il m'a été donné de participer aux travaux de cette
+              conférence, d'en rapporter des renseignements intéressants et d'avoir ainsi une base
+              plus forte pour discuter à l'avenir des choses intéressant les Aveugles en général et
+              les Aveugles de guerre en particulier.</p>
+            <p>H. AMBLARD.</p>
+            <pb n="5"/>
+            <note type="foliation">— 5 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">COMITE D'ENTENTE DES GRANDS
+              INVALIDES Séance du 12 juillet 1949 PROCES-VERBAL</head>
+            <p>Présidence. — Régnier.</p>
+            <p>Présents. — Boure, Delporte, Doby, Duroueix, Favret, Griffoux, Nouveau, Poul,
+              Régnier, Saulnier.</p>
+            <p>Régnier souhaite la bienvenue aux camarades Doby et Poul de la Fédération des Blessés
+              Multiples et Impotents qui sont délégués par leur association pour la représenter au
+              Comité d'Entente.</p>
+            <p>Régnier évoque la mémoire de Paul Thibault, et rappelle sa longue et fructueuse
+              collaboration.</p>
+            <p>Doby remercie et déclare qu'il s'efforcera de s'inspirer de l'exemple donné par son
+              regretté prédécesseur.</p>
+            <p>Il est rendu compte au C. E. de la suite donnée au procès intenté par la S.N.C.F. à
+              des trafiquants de la carte d'invalidité à barres rouges ou bleues. Le Comité
+              d'Entente, qui s'était fait porter partie civile par l'entremise de M. Nouveau, en sa
+              qualité d'avocat, a obtenu le franc de dommages et intérêts qu'il avait réclamé.</p>
+            <p>Il est également donné connaissance d'une circulaire N° B. 1083 datée du 24 juin 1949
+              de M. le Ministre des A. C. qui indique les sanctions à prendre à l'égard des
+              invalides qui utiliseraient la carte d'invalidité à double barre en sollicitant une
+              rémunération en échange des avantages attachés à cette carte.</p>
+            <p>Les membres de la Commission chargés d'examiner les cas litigieux sont désignés par
+              le C. E. ; ce sont : Nouveau, Delporte, Gauriault, titulaires ; Boure, Doby, Jugon,
+              suppléants.</p>
+            <p>Delporte fait connaître que les grands invalides protestent, avec juste raison,
+              contre la suppression de l'allocation de salaire unique pour leurs enfants âgés de
+              plus de dix ans.</p>
+            <p>Il est rappelé que le C. E. a toujours protesté contre la suppression du cumul des
+              allocations du Code de la famille et des majorations pour enfants de la loi du 31 mars
+              1919.</p>
+            <p>Ces majorations existaient d'ailleurs avant l'institution du Code de la famille.</p>
+            <p>Le C. E. continuera à demander que, dans le cas où les allocations du Code de la
+              famille cesseront d'être versées, le grand invalide puisse recevoir les majorations de
+              la loi du 31 mars 1919 pour ses enfants âgés de moins de dix-huit ans.</p>
+            <p>Il est donné lecture de deux lettres, l'une de Kerdavid, président de la Section des
+              Amputés du département d'Alger, l'autre de Mariani, président du Comité d'Entente des
+              Invalides d'Algérie.</p>
+            <p>Pour plus d'éclaircissements, il sera demandé copie de l'ordonnance du 2 septembre
+              1943 qui a institué une association unique d'A. C. et V. G. en Algérie.</p>
+            <p>Le C. E. insistera pour que l'étude des modalités permettant d'étendre aux grands
+              invalides, ne pouvant actuellement en bénéficier, les avan-<pb n="6" break="no"/>
+              <note type="foliation">— 4 —</note>tages de la Sécurité sociale (prestations, soins),
+              soit accélérée afin d'aboutir dès que possible à une solution satisfaisante.</p>
+            <p>Delporte rappelle que les associations composant les C.E. doivent d'urgence apporter
+              leur suggestion pour les modifications du guide-barème qui leur semblent
+              indispensables.</p>
+            <p>Il signale que la Fédération des Trépanés a déposé un projet établi par M. Adrien en
+              faveur des sourds.</p>
+            <p>Le C. E. demandera au Ministre des A.C. de désigner une Commission spéciale composée
+              de médecins et de représentants du C.E. chargée d'étudier les quelques modifications
+              qu'il est possible d'apporter au guide-barème des invalidités de guerre.</p>
+            <p>A 17 heures, MM. Giauque, Conseiller de la République et Touchard, député, entrent en
+              séance.</p>
+            <p>Les conséquences du vote de renvoi à la suite des interpellations de MM. Albert
+              Aubry, Auguste Touchard et Roger Devemy sont évoquées.</p>
+            <p>Le C.E. décide que la liste des députés ayant voté pour le renvoi sera publiée par
+              ses soins et les grands invalides des régions dont dépendent ces parlementaires seront
+              invités à adresser des reproches à ceux qui ont ainsi retardé l'aboutissement de leurs
+              justes revendications ou, au contraire, des remerciements à ceux qui ont voté contre
+              le renvoi et manifesté ainsi leur sympathie pour les victimes de guerre.</p>
+            <p>Touchard rappelle qu'il a déposé un projet de loi concernant le Rapport Constant, il
+              pense qu'une démarche du Comité auprès de la Commission des Pensions de l'Assemblée
+              pourrait peut-être permettre à celle-ci de proposer la discussion d'urgence de cette
+              loi.</p>
+            <p>Le Comité demandera une audience aussi rapprochée que possible à la Commission des
+              Pensions.</p>
+            <p>Giauque déclare que, de son côté, au Conseil de la République, il luttera avec
+              énergie, comme par le passé, pour l'aboutissement de cette revendication qui est des
+              plus justifiée.</p>
+            <p>La séance est levée à 18 h. 30.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h7">CECITE PRATIQUE</head>
+            <p>Nous relevons dans le Journal Officiel du 5 juillet, un décret du 28 juin 1949,
+              modifiant le barème des affections oculaires en ce qui concerne la cécité pratique.
+              Voici ces dispositions :</p>
+            <p>Article premier. — Le chapitre I. — Cécité complète et quasi-cécité pratique du titre
+              V. — Ophtalmologie du guide-barème des invalidités pour l'application de la loi du 31
+              mars 1919 est supprimé et remplacé par le texte suivant :</p>
+            <p>I. — Cécité complète et quasi-cécité ou cécité pratique.</p>
+            <p>« Sont atteints de cécité complète, ceux dont la vision est abolie (V = O) au sens
+              absolu du mot, avec abolition complète du réflexe lumineux. »</p>
+            <p>« Sont considérés comme atteints de quasi-cécité ou cécité pratique :</p>
+            <p>« 1° Ceux dont la vision est égale ou inférieure à un vingtième, qu'il y ait ou non
+              déficience des champs visuels ;</p>
+            <p>« 2° Ceux qui gardant pour l'œil le meilleur une acuité au plus égale à deux
+              dixièmes, présentent en même temps une altération du cham <pb n="7"/>
+              <note type="foliation">— 7 —</note> visuel des deux côtés telle que celui-ci n'excède
+              pas 10 degrés dans le secteur le plus étendu. »</p>
+            <p>Cécité complète... 100 %</p>
+            <p>Quasi-cécité ou cécité pratique... 100 %</p>
+            <p>Nous espérons que l'application de ce texte permettra à ceux qui vraiment peuvent se
+              réclamer de la situation d'aveugles de guerre, en ce qui concerne surtout les
+              inconvénients majeurs inhérents à la cécité, d'avoir droit à la qualification
+              d'aveugle.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h8">GREFFE DE LA CORNEE</head>
+            <p>Il est paru au Journal Officiel du 8 juillet une loi du 7 juillet dont nous
+              reproduisons ci-après l'article unique.</p>
+            <p>« Les prélèvements anatomiques effectués sur l'homme en vue de la pratique de la
+              kératoplastie (greffe de la cornée), peuvent être effectués sans délai et sur les
+              lieux mêmes du décès, chaque fois que le de cujus a, par disposition testamentaire,
+              légué ses yeux à un établissement public ou à une œuvre privée pratiquant ou
+              facilitant la pratique de cette opération.</p>
+            <p>« Dans ce cas, la réalité du décès devra avoir été préalablement constatée par deux
+              médecins qui devront employer tous procédés reconnus valables par le Ministre de la
+              Santé publique et de la Population. Ils devront signer un procès-verbal de constat de
+              décès relatant notamment la date et l'heure du décès, ainsi que les procédés utilisés
+              pour s'assurer de sa réalité. »</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">SECURITE SOCIALE POUR LES
+              MILITAIRES DE CARRIERE</head>
+            <p>Le Ministère du Travail nous communique une note qu'il adresse à MM. les Présidents
+              des Conseils d'administration des Caisses primaires de Sécurité sociale (s/c de MM.
+              les Directeurs régionaux de la Sécurité sociale). En voici le texte :</p>
+            <p>« La loi n° 49-489 du 12 avril 1949 qui a étendu aux militaires le régime de la
+              Sécurité sociale, a prévu notamment que les prestations en nature en cas de maladie,
+              longue maladie et maternité, seront servies aux intéressés à compter du 1er juin 1949
+              par une Caisse autonome de Sécurité sociale à circonscription nationale.</p>
+            <p>« Les modalités d'organisation et de fonctionnement de cet organisme seront précisées
+              par un règlement d'administration publique qui va intervenir incessamment.</p>
+            <p>« Pour permettre aux tributaires du nouveau régime de faire valoir ultérieurement
+              leurs droits auprès de la Caisse autonome de Sécurité sociale des militaires, j'ai
+              l'honneur de vous prier de mettre à la disposition des intéressés, sur leur demande,
+              les imprimés utilisés pour la constitution des dossiers des assurés du régime
+              général.</p>
+            <p>« Il est bien entendu que les organismes du régime général devront <pb n="8"/>
+              <note type="foliation">— 8 —</note> refuser le paiement de toute prestation aux
+              militaires en activité ou en retraite, tributaires du régime de Sécurité sociale
+              institué par la loi du 12 avril 1949. »</p>
+            <p>Signé : Pour le Ministre et par délégation, Le Directeur du Cabinet, F. SAMSON.</p>
+            <p>Les intéressés doivent donc s'adresser à la Direction de la Sécurité sociale de leur
+              ressort pour leurs demandes.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">CONTRIBUTION MOBILIERE ET IMPOT
+              FONCIER</head>
+            <p>Plusieurs camarades nous demandent des renseignements au sujet de l'exonération de
+              l'impôt foncier et de la contribution mobilière qui nous est accordée sous certaines
+              conditions. Nous avons déjà publié cette information dans un précédent bulletin, mais
+              nous croyons bon de rappeler que les demandes doivent être adressées à M. le
+              Contrôleur des Contributions directes, en se référant aux lois des 13-9-46 et 7-10-46
+              (articles 17 et 179). Les instructions relatives à cette exemption ont paru au
+              Bulletin Officiel des Contributions directes (N° 6, année 1948). En cas de
+              contestations, il y a lieu d'en saisir M. le Directeur des Contributions directes.</p>
+            <p>Nous ajoutons qu'il importe de ne pas être soumis à l'impôt sur le revenu et de
+              n'abriter sous son toit que des personnes à charge.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h11">MISE AU POINT SUR LES TRANSPORTS
+              DE LA REGION PARISIENNE</head>
+            <p>Une certaine confusion s'est établie dans l'esprit de quelques camarades à la suite
+              d'articles de presse laissant penser que les Aveugles de guerre de province pouvaient
+              maintenant bénéficier des mêmes avantages que les porteurs de la carte de priorité de
+              couleur bistre, avec Croix de Saint André rouge, délivrée par la Préfecture de Police.
+              Il n'en est malheureusement rien et nous avons reçu une précision de l'Office
+              départemental de la Seine, insistant sur le fait que seuls les Aveugles de guerre
+              demeurant dans la région desservie par la T.C.R.P., peuvent prétendre — comme par le
+              passé — à circuler en 1re classe avec la réduction de 50 % et la gratuité du
+              guide.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h12">TRANSPORTS DEPARTEMENTAUX</head>
+            <p>Le Président de notre section de Limoges, notre camarade Fonchy, nous fait savoir
+              qu'il a obtenu dans sa région 50 % de réduction sur les tramways et autobus
+              départementaux de la Haute-Vienne, avec gratuité pour le guide.</p>
+            <p>Par ailleurs, notre camarade Henri Leriche nous indique que les Transports routiers
+              Ansart, de Clermont (Oise), accordent une réduction de 50 % aux Aveugles de guerre et
+              50 % à leur guide sur le réseau Clermont-Beauvais et Clermont-Compiègne.</p>
+            <p>Nous félicitons nos camarades de leurs heureuses initiatives.</p>
+            <pb n="9"/>
+            <note type="foliation">— 9 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">SUCCES AUX EXAMENS</head>
+            <p>Nous avons été heureux d'apprendre que nos jeunes camarades : Delcey, Mathieu,
+              avaient été reçus à leurs examens de massages.</p>
+            <p>Nous les en félicitons vivement ainsi que F. Doutreuwe qui a été reçu dans l'Ordre
+              des Avocats. Il nous fait savoir qu'il est maintenant installé 40, rue Lesson, à
+              Rochefort (Charente-Maritime), et qu'il se tient à la disposition des camarades de la
+              région qui pourraient désirer un renseignement quelconque. Nous le remercions de cette
+              marque de solidarité.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h14">BIBLIOTHÈQUE</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">LISTE DES LIVRES
+                NOUVEAUX</head>
+              <list>
+                <head rend="align(center)">ROMANS</head>
+                <item>593 DESMARETS Marie-Anne, Torrents, 8 vol. Ampl. </item>
+                <item>594 CHEVALIER Gabriel, Clochemerle, 11 vol. Ampl. </item>
+                <item>595 DRUON Maurice, Les Grandes Familles, 10 vol. Abrégé. </item>
+                <item>596 SOMERSET MAUGHAM, Le Fil du Rasoir, 12 vol. Abrégé.</item>
+              </list>
+              <list>
+                <head rend="align(center)">THEATRE</head>
+                <item>1.463 SHAKESPEARE, Hamlet (traduction André GIDE), 4 vol. Ampl.</item>
+              </list>
+              <list>
+                <head rend="align(center)">GUERRE</head>
+                <item>2.373 W. CHURCHILL, Les Mémoires de Guerre (2ᵉ partie), 14 vol. Ampl.</item>
+              </list>
+              <list>
+                <head rend="align(center)">GEOGRAPHIE. — VOYAGES</head>
+                <item>3.405 TROYAT Henri, La Case de l'Oncle Sam (reportage d'un voyage en
+                  Amérique), 8 vol. Ampl.</item>
+              </list>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">OUVRAGES EN INTEGRAL
+                RETRANSCRITS EN AMPLIFIE</head>
+              <list>
+                <head rend="align(center)">ROMANS</head>
+                <item>358 BENOIT Pierre, La Chaussée des Géants, 8 vol. Ampl.</item>
+              </list>
+              <list>
+                <head rend="align(center)">GEOGRAPHIE. — VOYAGES</head>
+                <item>3.396 DECOURT (D² F.), La Famille Kerdalec au Soudan, 10 vol. Ampl.</item>
+              </list>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">LES LECTURES PAR LE DISQUE
+              Recommandation importante</head>
+            <p>Afin d'effectuer un contrôle plus précis des livres parlés, nous prions instamment
+              les camarades de nous aider : si, en cours d'audition, ils constatent des
+              imperfections ou une usure trop grande des disques, qu'ils veuillent bien consigner
+              leurs observations sur la fiche verte « NOTES d'ECOUTE » que nous joignons désormais à
+              chaque envoi.</p>
+            <p>Prière de noter plus particulièrement le numéro des faces défectueuses, afin que
+              notre service technique les retire de la circulation et les remplace par de nouvelles
+              copies. Nous remercions à l'avance les auditeurs et nous espérons, grâce à leur
+              collaboration, améliorer peu à peu la qualité technique de notre discothèque.</p>
+            <pb n="10"/>
+            <note type="foliation">— 10 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h18">UN SUPER-PHONOGRAPHE</head>
+            <p>Le phonographe commençait à baisser sérieusement pavillon devant les progrès de son
+              redoutable adversaire le magnétophone. Mais, avec l'apparition de disques à très
+              longue durée, de dix à vingt-quatre heures, le phonographe va devenir un véritable
+              instrument de travail.</p>
+            <p>En France, les disques vendus dans le commerce sont enregistrés à 78 tours par
+              minute. Dans le but d'augmenter la durée de l'enregistrement, on a abaissé la vitesse
+              exceptionnellement à 33 tours par minute. Bien qu'elle convienne encore pour la
+              musique, elle ne s'est pas généralisée. Elle est toutefois employée pour enregistrer
+              des livres pour les aveugles, car la majorité de ceux-ci étant pauvre, les lecteurs
+              bénévoles sont trop rares et les lecteurs payés trop chers, alors, comme complément,
+              des bibliothèques Braille, circulantes, commencent à se former des discothèques
+              roulantes. Un très bon lecteur en écriture Braille (points en reliefs) n'arrive guère
+              qu'à lire 80 mots par minute au maximum, alors que le phonographe triple cette
+              vitesse. C'est de plus un lecteur infatigable auquel on peut faire répéter sans
+              crainte de le lasser, certaines phrases qui présentent un intérêt particulier. Il est
+              toujours de bonne humeur et à la disposition de son lecteur de jour comme de nuit.</p>
+            <p>Si les disques à 78 tours durent environ six minutes, ceux à 33 tours arrivent à
+              trente minutes. A cette vitesse, un disque de 30 cm. de diamètre permet d'enregistrer
+              en moyenne 20 pages d'un roman courant. Il faut donc 15 disques pour un roman de 300
+              pages et ils coûtent fort cher. Bien que cette vitesse semblait ne pas pouvoir être
+              diminuée, il y a une quinzaine d'années les Anglais l'abaissèrent à 24 tours-minute et
+              ces nouveaux disques durent cinquante minutes. Trente disques anglais enregistrent
+              donc autant de texte que cinquante disques français. C'était, bien entendu, la limite
+              des limites à ne pas dépasser, quand les Allemands, pendant la guerre, la firent
+              tomber à 16 tours-minute, et naturellement on ne devait plus rien à espérer, on avait
+              atteint le fond du trou.</p>
+            <p>Un problème se pose lorsque l'on cherche à diminuer la vitesse de rotation d'un
+              disque pendant l'enregistrement ; les notes aiguës s'évanouissent, seules persistent
+              les notes graves, d'où difficulté d'enregistrer la musique au-dessous de 33 tours, car
+              certains instruments se trouvent éliminés et ce même phénomène se produit pour la
+              voix, mais à une vitesse plus petite. On y remédie alors dans une certaine mesure en
+              employant un microphone plus apte aux notes aiguës et en modifiant son circuit
+              électrique pour freiner les notes graves.</p>
+            <p>Il restait une expérience à faire, il fallait vérifier si les Allemands avaient
+              diminué la vitesse autant que faire se peut, ou, si simplement comme les Anglais, ils
+              n'avaient fait qu'une étape de plus vers l'obstacle infranchissable. Mais, lorsque
+              l'on veut réaliser un appareil nouveau, il ne faut pas faire abstraction de tout ce
+              qui existe car il y a des personnes qui ont acheté un très grand nombre de disques et
+              il faut leur donner la possibilité de continuer à les utiliser tout en profitant des
+              derniers perfectionnements. Le nouveau tourne-disque devait donc être capable de
+              tourner à toutes les vitesses comprise entre zéro et 78 tours. D'autre part, le but
+              que je m'étais proposé était de parvenir à enregistrer un roman de trois à quatre
+              cents pages dans un seul disque. Le texte de quinze à vingt disques</p>
+            <pb n="11"/>
+            <!-- Page manquante -->
+            <pb n="12"/>
+            <note type="foliation">— 12 —</note>
+            <p>opérations chirurgicales. Ces petits films seront très bon marché, car ils ne seront
+              pas sonorisés du fait que l'on ne pourrait jamais les accompagner d'un texte pouvant
+              durer plusieurs heures. Ces petits appareils de cinéma se réduiront presque à des
+              lanternes magiques manœuvrées à la main comme cela se fait déjà.</p>
+            <p>Les étudiants pauvres qui n'auront pas obtenu de bourse pourront faire leurs études à
+              domicile tout en travaillant pour gagner leur vie. Les études secondaires et
+              supérieures deviendront à la portée de tous.</p>
+            <p>On entrevoit aisément la grande extension que prendront les disques de longue durée.
+              Dans les facultés, par exemple, les étudiants n'auront plus à copier leurs cours et
+              toute leur attention pourra être fixée sur ce que dit le professeur, ils ne joueront
+              plus le rôle de machines à écrire, car ils sauront qu'ils pourront à volonté se faire
+              répéter autant de fois qu'ils le voudront la leçon par leur même professeur jusqu'au
+              point de la savoir par cœur, tous devront donc réussir aux examens de fin d'année, les
+              élèves malades n'auront plus de temps à perdre à recopier les cours faits en leur
+              absence, ils écouteront le disque du jour de leur absence. L'Histoire de France, la
+              grammaire, etc., tiendront en un seul disque.</p>
+            <p>Dans l'instruction, ces disques seront extrêmement précieux.</p>
+            <p>Quand les cours seront enregistrés avec le super-phonographe, les Aveugles pourront
+              suivre les mêmes études que les voyants, car ce qui les en empêchent en ce moment,
+              c'est l'impossibilité de prendre des notes assez rapidement.</p>
+            <p>Il sera désormais facile d'enregistrer tout ce qui se dit au courant d'une réunion,
+              même si elle dure toute la journée. Il n'y aura qu'à mettre le tourne-disque en route
+              le matin et l'arrêter le soir, et la dépense se réduira au prix d'un 1/2 disque, à
+              moins que l'on veuille en obtenir plusieurs copies simultanées ou les faire exécuter
+              ensuite, l'original servant à graver les duplicata.</p>
+            <p>Précautions. — Mais des disques contenant une telle quantité de texte seront précieux
+              et devront être maniés avec soin. Le pick-up ne sera plus placé à la main, mais
+              automatiquement. Sa descente sera lente pour assurer une prise de contact très douce
+              avec le disque et éviter la chute de celui-ci qui se produit parfois involontairement,
+              ainsi que le rayage des sillons voisins pendant la remise ou l'enlèvement de
+              celui-ci.</p>
+            <p>Comme personne ne peut écouter un disque dont l'émission peut durer 5, 12 ou 24
+              heures à la file, il faut pouvoir l'arrêter à n'importe quel instant et remettre
+              l'appareil en marche lorsqu'on le désire. Deux boutons sont prévus qui portent les
+              indications, l'un « Marche », l'autre « Arrêt ».</p>
+            <p>Si l'on veut se faire répéter une certaine partie du texte, soit mal entendu du fait
+              qu'on s'est trouvé distrait ou qu'il vous intéresse plus particulièrement, il suffira
+              d'appuyer sur le bouton « Marche arrière » pendant un temps correspondant à peu près à
+              la durée du texte que l'on veut entendre à nouveau.</p>
+            <p>On ne touchera donc au pick-up que pour remplacer l'aiguille. Dans le «
+              Super-Phonographe », pendant toute la durée de l'émission, le disque défile sous
+              l'aiguille à la vitesse toujours constante de deux centimètres et demi par seconde,
+              alors que dans les disques de 25 cm. de diamètre qui tournent à 78 tours, lorsque
+              l'aiguille est dans le grand sillon, cette vitesse atteint quatre-vingt-dix-huit
+              centimètres, soit quarante fois plus.</p>
+            <p>On conçoit aisément que le bruit de l'aiguille doit disparaître et que sa durée soit
+              très augmentée.</p>
+            <p>Rappelons qu'une aiguille qui a été enlevée ne doit jamais être remise sur le
+              pick-up, car les deux facettes qui se forment par usure ont des angles <pb n="13"/>
+              <note type="foliation">— 13 —</note> coupants qui raboteraient par la suite les côtés
+              du sillon et que les pick-up ne doivent peser que quelques grammes pour réduire
+              l'usure au strict minimum. Environ 5 à 6 grammes. Il suffit de compenser les trop
+              lourds au moyen d'un ressort ou d'un contre-poids.</p>
+            <p>L'avenir montrera l'importance des disques de longue durée, car dès maintenant, il
+              est difficile d'en deviner toutes les applications.</p>
+            <p>Maurice Bocquet, <hi rend="italic">Ingénieur, Aveugle de la guerre
+              1914-1918.</hi></p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h19">NAISSANCES</head>
+            <p>La fille Christiane, de notre camarade Blanchet (39-45), de Paris, le 30 juin
+              1949.</p>
+            <p>Le fils Yves, de notre camarade Vigouroux (39-45), de Douarnenez, le 25 mai 1949.</p>
+            <p>Le fils Bernard, de notre camarade Peyskens (39-45), de Saint-Omer (Pas-de-Calais),
+              le 20 juillet 1949.</p>
+            <p>La fille Michèle, de notre camarade Ginestet (39-45), de Sauveterre (Aveyron), le 5
+              août 1949.</p>
+            <p>La petite-fille Monique, de notre camarade Ch. Renauld, de Caen (Calvados), le 22
+              avril 1949.</p>
+            <p>Le petit-fils Claude, de notre camarade Ledroit, d'Angers (Maine-et-Loire), le 27
+              juin 1949.</p>
+            <p>La petite-fille Marie-Elisabeth, de notre camarade E. Pichenot, de Paris, le 2 mai
+              1949.</p>
+            <p>Le petit-fils Alain, de notre camarade Cluzeleau, de Limoges (Haute-Vienne), le 8
+              juillet 1949.</p>
+            <p>La petite-fille Arlette, de notre camarade Léon Dupond, de la Queue-les-Yvelines
+              (S.-et-O.), en août 1949.</p>
+            <p>La petite-fille Martine, de notre camarade Corozza, de Marseille, le 13 août
+              1949.</p>
+            <p>La petite-fille Claudie, de notre camarade Faucon, de Moulin-Neuf (Dordogne), en août
+              1949.</p>
+            <p>Le petit-fils Guy, de notre camarade Grossemy, d'Arras, le 19 juillet 1949.</p>
+            <p>Le petit-fils Jean-Pierre, de notre camarade Lemarchand, du Petit-Couronné
+              (Seine-Inférieure), le 13 août 1949.</p>
+            <p>Nous adressons nos félicitations aux heureux parents.</p>
+            <pb n="14"/>
+            <note type="foliation">— 14 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h20">MARIAGES</head>
+            <p>Notre camarade Jean Battistini, de Dax (Landes), avec Mlle Henriette
+              Boureau-Thisselin, le 19 juillet 1949.</p>
+            <p>Notre camarade Buizza Joseph (39-45), d'Herserange (M.-et-M.), le 3 septembre
+              1949.</p>
+            <p>Le fils René, de notre camarade Henri Champagnon, de Varennes-les-Mâcon
+              (Saône-et-Loire), avec Mlle Jany Noël, de Lyon, le 23 juin 1949.</p>
+            <p>La fille Odette, de notre camarade Eugène Guillot, de Neuilly (Seine), avec M. Jean
+              Boulanger, le 16 juillet 1949.</p>
+            <p>Le fils Gilbert, de notre camarade Raphaël Epaud, de Landevieille (Vendée), avec Mlle
+              Marie-Madeleine Grayon, le 20 juillet 1949.</p>
+            <p>La fille Monique, de notre camarade Cattaert, de Vannes (Morbihan), avec M. Fernand
+              Saucourt, le 28 juillet 1949.</p>
+            <p>Le fils Joseph, de notre camarade Emile Rouge, de Saint-Etienne, avec Mlle Suzanne
+              Raymond, le 27 août 1949.</p>
+            <p>Le fils Pierre, de notre camarade René Chardon, de Saint-Michel-sur-Orge (S.-et-O.),
+              avec Mlle Jacqueline Trillet, le 8 septembre 1949.</p>
+            <p>Le fils Gérard, de notre camarade Raveleau, de Légé (Loire-Inférieure), avec Mlle
+              Jacqueline Lollier, le 17 septembre 1949.</p>
+            <p>Le fils Maurice, de notre camarade Antoine, de Rennes, avec Mlle Jeanne Chauvel, le
+              15 septembre 1949.</p>
+            <p>Tous nos vœux de bonheur aux nouveaux mariés.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h21">DECES</head>
+            <p>Notre camarade François Richou, de Toulouse, le 4 juillet 1949.</p>
+            <p>Notre camarade François Loyer, de Guérande (Loire-Inférieure), le 7 juillet 1949.</p>
+            <p>Notre camarade Gustave Hilaire, de Saint-Julien-du-Guà (Ariège), le 8 juillet
+              1949.</p>
+            <p>Notre camarade Charles Dietz, du Perreux (Seine), le 20 juillet 1949.</p>
+            <p>Notre camarade Arthur Moulin, de Sourdeval-la-Barre (Manche), le 20 août 1949.</p>
+            <p>La femme de notre camarade Paul Rottée, de Vincennes (Seine), le 30 juillet 1949.</p>
+            <p>La femme de notre camarade Marcq, de Pessac (Gironde), le 31 juillet 1949.</p>
+            <p>La femme de notre camarade Oscar Peltier, de Fresnoy-le-Grand (Aisne), le 13 août
+              1949.</p>
+            <p>La femme de notre camarade Peyskens (39-45), de Saint-Omer (Pas-de-Calais), le 13
+              août 1949.</p>
+            <p>Le fils René, de notre camarade Vianee-Broussaudier, de Saillot-sur-Vienne
+              (Haute-Vienne), le 16 juillet 1949.</p>
+            <p>Le père de notre camarade Hautin, des Thébault-par-Henrichemont (Cher), le 13 août
+              1949.</p>
+            <p>Nous adressons nos sincères condoléances aux familles éprouvées.</p>
+            <pb n="15"/>
+            <note type="foliation">— 15 —</note>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h22">DANS NOS SECTIONS</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">REUNION ANNUELLE DE LA
+                SECTION DU FINISTERE</head>
+              <p>Landerneau, 7 juillet 1949. </p>
+              <p>Présidence de Amblard, secrétaire général de l’U.A.G., assisté de Fauvel,
+                président, Bescond P., secrétaire général, L. Kaigre, trésorier de la
+                Départementale, Sibiril, vice-président, Le Cocq, Labat, Kerneis, membres du
+                bureau.</p>
+              <p>Présents (37). — L. Kaigre, Bellec, Bescond Pierre, Bescond Laurent, Bourlès,
+                Cailleau, Doaré, Espiard, Fauvel, Grignon, Guiziou, Kerneis, Kerrien, Labat, Le
+                Cocq, Le Gléau, Le Gall, Le Han, Le Lann, Le Méné, Pirlo, Queffurust, Quéré, Riou,
+                Sibiril, Scornec, Thépault, Cornec, Vigouroux ; Mmes Vves Barbier, Bouguen, Cariou,
+                Castel, Déniel, Kerhuel, Le Pochat, Prigent.</p>
+              <p>Excusés (19). — Argouach, Bernier, Calvez, Castrec, Coat, Durand, Ferezou, Henaff,
+                Jung, Kerangall, Larher, Guillou, Le Borgne Laurent, Moullec, Nicolas, Mme Patin,
+                Quinquis, Mmes Vves Lavolé et Gohiec.</p>
+              <p>Absents (18). — Bodénès, Bénéat, Couchouron, Fiche, Garrec, Gouriou, Guennou,
+                Lannuzel, Le Bis, Le Borgne J.-M., Guillerm, Le Roux, Masson, Péron, Poirier,
+                Rolland, Mmes Vves Nicolas et Daniellou.</p>
+              <p>La séance est ouverte à 10 h. 30 dans la salle du Conseil municipal mise
+                obligeamment à la disposition de la Départementale par M. le maire de
+                Landerneau.</p>
+              <p>Kaigre fait l’appel des présents. Fauvel, après avoir déploré la disparition de
+                notre camarade Gohiec, de Concarneau, et de Georges Piton qui, avant la guerre,
+                assurait si amicalement le rôle de commissaire aux comptes, fait observer une minute
+                de silence ; ensuite, après avoir adressé aux camarades absents pour cause de
+                maladie les vœux du groupement et félicité plusieurs camarades pour les événements
+                heureux qui se sont produits dans leurs foyers (naissances, mariages), Fauvel se
+                félicite de la présence d’Amblard dont il souligne les continus efforts, en liaison
+                avec le bureau et le conseil de l’U.A.G., pour améliorer le bien-être des camarades
+                ; il souligne l’impression de camaraderie qui se dégage de toutes les réunions des
+                Aveugles de guerre, remercie les présents d’être venus si nombreux, salue avec
+                émotion la présence de nombreuses veuves de camarades disparus et les assure que
+                l’U.A.G. défendra toujours leurs intérêts.</p>
+              <p>Kaigre donne le compte rendu financier. La Départementale n’est pas très riche,
+                mais elle a fait face à toutes ses obligations.</p>
+              <p>Un échange de vues a lieu entre les camarades. Nombreux sont ceux qui apportent des
+                suggestions intéressantes dont Amblard, ainsi que les deux administrateurs, Fauvel
+                et Sibiril, prennent bonne note.</p>
+              <p>Amblard, dans une causerie fort intéressante, indique les avantages acquis, les
+                efforts encore à accomplir pour que la situation des Aveugles et, surtout, celle des
+                veuves, soient améliorées ; il se trouve heureux de retrouver une Départementale au
+                sein de laquelle règne une affectueuse camaraderie et la félicite de ne jamais
+                oublier les compagnes de ceux qui sont disparus.</p>
+              <p>Un déjeuner, excellemment servi à l’Hôtel des Voyageurs, clôture cette réunion, M.
+                Bodet, membre d’honneur de la Départementale, qui devait le présider, a dû, au
+                dernier moment, se faire excuser, et son absence a été vivement regrettée.</p>
+              <p>Quelques paroles de Fauvel, Savina (président des Grands Invalides du Finistère),
+                Amblard, précèdent les chansons où brillent jeunes et vieux.</p>
+              <pb n="16"/>
+              <note type="foliation">— 16 —</note>
+              <p>Le bureau départemental est formé ainsi : Membre d'honneur : M. Bodet, président de
+                la Croix-Rouge de Quimper. Président : A. Fauvel. Vice-président : P. Sibiril.
+                Secrétaire général : Pierre Bescond. Trésorier voyant : L. Kaigre. Membres : Le
+                Cocq, Kerneis, Labat, Fiche.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">JUILLET 1949 ET AOUT 1949 </head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Cotisations ordinaires </head>
+              <p>Allessandri François, Fessard Gilbert, Robert Louis, Nestier Albert, Manigault
+                Léon, Gay Marc, Gable Alphonse, Daigrement Octave, Legrand Eugène : 2.000 (rachat),
+                Schneider Georges, Moulard Kléber, Moulin Emile (1950), Van Audenaerde Fernand,
+                Pelerin Henri (1950), Boutte Aimé, Castagne Théodore, Campbell Eugène (48-49), Labbé
+                Camille, Chanteclair Louis, Hubert Eugène (49-50), Lallement Emile, Mautemps Paul,
+                Delattre Léon (48-49), Bakkar Cheikh, Pelletier Alix, Fetique Jean, Pasquet Jean,
+                Monceaux Louis (49), Dehner Robert, Fillonneau Victor, Berlingieri Louis, Delahaye
+                Robert, Rey Jean (1950), Bayle Maurice, Félix Marius, Fereyre Ernest, Monnerie
+                Gabriel, Soulié Michel, Pierson Eugène, Gouy Pierre, Forment Philippe, Perdrisot
+                Alain, Bouval Louis, Teissier Henri, Vidry Georges (50), Bellenger Emile (1950),
+                Ritz Eugène, Mabon François (48 et 49).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Cotisations Caisse
+                Prévoyance </head>
+              <p>Pluquin Jules 500, Fessard Gilbert 500, Tricaud Joseph (49) 500, Manigault Léon
+                400, Gable Alphonse 400 (49), Moulin Emile (49) 500, Labbé Camille 400, Chanteclair
+                Louis (49) 500, Delahaye Alphonse Robert 275, Vidal Adolphe (49) 500, Fetique Jean
+                400 (48), 500 (49), Monceaux Louis 500 (49), Hugues Daniel 500, Lambert Ludovic (49)
+                500, Lucas Alphonse (49) 500, Mauriceau Louis (48-49) 1.000, Launay Eugène 500,
+                Campet André 400 (49), Ritz Eugène 400, Barbe Albert 400.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">Cotisations volontaires </head>
+              <p>Pluquin Jules 100, Nestier Albert 100, Vilette Léon 100, Torres Gaspard 400,
+                Margault Marcel 1.000, Schneider Georges 50, Pelerin Henri 100, Labbé Camille 50,
+                Delattre Léon 150, Diagne Paul 300, Barrallon Auguste 100.</p>
+              <p>Nous remercions vivement nos camarades pour leur geste de solidarité.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">Cotisations volontaires
+                Discothèque </head>
+              <p>Daigremont Octave 200, Authie Louis 300, Perdrisot Alain 300.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Cotisations volontaires
+                Bibliothèque </head>
+              <p>Vidry Georges 300.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h30">PETITES ANNONCES </head>
+            <p>Serait acquéreur d’un établi, d’un couteau, d’un étau à plaquer et d’un peigne de
+              brossier. Ecrire au camarade G. LEFEBVRE, 27, rue des Cheneaux, Sceaux (Seine).</p>
+            <p>Recherche à louer maison en Touraine ou pays limitrophe raison de santé. S’adresser
+              au camarade René DE WITTE, 16, rue Latine, ROUBAIX (Nord).</p>
+          </div>
+          <fw>Imprimerie Dubois et Bauer, 34, rue Laffitte, Paris-7.</fw>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
