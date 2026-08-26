@@ -1,0 +1,1789 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le Journal des Soldats Blessées aux Yeux - Septembre 1917 N°11</title>
+        <author>Union des Aveugles de Guerre</author>
+        <respStmt>
+          <resp>Numérisation par</resp>
+          <name>L'Atelier de la Villette</name>
+        </respStmt>
+        <respStmt>
+          <resp>Transcription par</resp>
+          <name>AVH</name>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage par</resp>
+          <name>ObTIC</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Association Valentin Haüy, Sorbonne Université et CNRS</authority>
+      </publicationStmt>
+      <seriesStmt>
+        <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <settlement>Paris</settlement>
+            <institution>Association Valentin Haüy</institution>
+            <repository>Bibliothèque patrimoniale</repository>
+            <collection>Fonds "Aveugles de guerre"</collection>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Cet encodage est réalisé dans le cadre du Projet d'édition numérique, inclusive et
+          critique des collections de la Bibliothèque patrimoniale Valentin Haüy (Association
+          Valentin Haüy, Sorbonne Université, CNRS).</p>
+        <p>Métadonnées combinées: IA (Gemini) + SharePoint (Catalogue)</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="none">
+          <p>Les tirets de fin de ligne n'ont pas été conservés et les mots ont été remis dans une
+            version de lecture</p>
+        </hyphenation>
+        <quotation>
+          <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
+        </quotation>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass/>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <creation>
+        <date when="1917-09-01">01/09/1917</date>
+      </creation>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
+        des matières</change>
+      <change when="2026-08-20" who="#fchiffol">Conversion du texte en XML-TEI</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="toc">
+        <head>TABLE DES MATIÈRES</head>
+        <list>
+          <item>
+            <ref target="#h1">Le Journal des Soldats Blessés aux Yeux</ref>
+          </item>
+          <item>
+            <ref target="#h2">Le Journal des Soldats Blessés aux Yeux</ref>
+          </item>
+          <item>
+            <ref target="#h3">LES RASOIRS DE SURETÉ</ref>
+          </item>
+          <item>
+            <ref target="#h4">Notre Caisse</ref>
+          </item>
+          <item>
+            <ref target="#h5">Reparlons Mariage</ref>
+          </item>
+          <item>
+            <ref target="#h6">MARIAGES ET NAISSANCES</ref>
+            <list>
+              <item>
+                <ref target="#h7">Mariages</ref>
+              </item>
+              <item>
+                <ref target="#h8">Naissances</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h9">A ceux qui combattent</ref>
+          </item>
+          <item>
+            <ref target="#h10">Chronique Agricole</ref>
+            <list>
+              <item>
+                <ref target="#h11">LES PUBLICATIONS AGRICOLES POUR LES AVEUGLES</ref>
+              </item>
+              <item>
+                <ref target="#h12">CELUI QUI FAIT L'AVEUGLE</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h13">Les Livres en Braille</ref>
+            <list>
+              <item>
+                <ref target="#h14">ŒUVRE NATIONALE DU « LIVRE DES AVEUGLES DE LA GUERRE »</ref>
+              </item>
+              <item>
+                <ref target="#h15">LES LIVRES EN BRAILLE</ref>
+              </item>
+              <item>
+                <ref target="#h16">LE PETIT DOIGT</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h17">Nouvelles Diverses</ref>
+            <list>
+              <item>
+                <ref target="#h18">UNE NOMINATION BIEN MÉRITÉE</ref>
+              </item>
+              <item>
+                <ref target="#h19">DOCTORAT EN MÉDECINE</ref>
+              </item>
+              <item>
+                <ref target="#h20">VENTE DE PROPRIÉTÉS</ref>
+              </item>
+              <item>
+                <ref target="#h21">L'AMITIÉ DES AVEUGLES DE FRANCE</ref>
+              </item>
+              <item>
+                <ref target="#h22">COURRIER des THÉATRES Concert de Bienfaisance</ref>
+              </item>
+              <item>
+                <ref target="#h23">UN ANNIVERSAIRE École de Saint-Brieuc</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h24">Lettres de nos Camarades</ref>
+            <list>
+              <item>
+                <ref target="#h25">Le bonheur est aux champs</ref>
+              </item>
+              <item>
+                <ref target="#h26">Apprenez à travailler!</ref>
+              </item>
+              <item>
+                <ref target="#h27">« En le voyant travailler, on dirait qu'il y voit! »</ref>
+              </item>
+              <item>
+                <ref target="#h28">« Nous pouvons nous rendre utiles! »</ref>
+              </item>
+              <item>
+                <ref target="#h29">Je ne suis pas à plaindre</ref>
+              </item>
+              <item>
+                <ref target="#h30">Le travail est à recommander à tous</ref>
+              </item>
+              <item>
+                <ref target="#h31">Téléphonistes!</ref>
+              </item>
+              <item>
+                <ref target="#h32">Deux cordes à son arc</ref>
+              </item>
+              <item>
+                <ref target="#h33">Le travail chasse l'ennui</ref>
+              </item>
+              <item>
+                <ref target="#h34">« Le message des canons »</ref>
+              </item>
+              <item>
+                <ref target="#h35">L'Écriture Cantonnet</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h36">Pêches d'Aveugles</ref>
+            <list>
+              <item>
+                <ref target="#h37">1° Pêche à la cuillère.</ref>
+              </item>
+              <item>
+                <ref target="#h38">2° Pêche à la sonde.</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h39">Nos Écoles de Province</ref>
+            <list>
+              <item>
+                <ref target="#h40">ÉCOLE GÉNÉRAL MAUNOURY Caluire (Rhône)</ref>
+              </item>
+            </list>
+          </item>
+          <item>
+            <ref target="#h41">COMITÉ FRANÇAIS DU Permanent Blind Relief War Fund for Soldiers and
+              Sailors (fondé par M. et Mme GEORGES KESSLER)</ref>
+            <list>
+              <item>
+                <ref target="#h42">Entrepôt des Matières premières 35, Boulevard du Château,
+                  Neuilly-sur-Seine (Seine) NOTE DU MAGASINIER</ref>
+              </item>
+            </list>
+          </item>
+        </list>
+      </div>
+      <div type="text">
+        <div type="main">
+          <pb n="1"/>
+          <fw type="header">
+            <hi rend="underline">N° 11</hi>
+            <hi rend="underline">Septembre 1917.</hi>
+          </fw>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h1">Le Journal des Soldats Blessés aux
+              Yeux</head>
+            <p rend="align(right)">
+              <hi rend="italic">Ce Journal, qui parait une fois par<lb/> mois, n'est pas mis dans le
+                commerce</hi>
+            </p>
+            <p rend="align(center)">Il est exclusivement réservé aux<lb/> soldats blessés aux yeux,
+              à qui<lb/> il est envoyé gratuitement, et aux<lb/> personnes qui s'intéressent à
+              eux</p>
+            <p rend="align(center)">DIRECTEUR-GÉRANT<lb/>
+              <hi rend="italic">M. BRIEUX, de l'Académie française</hi><lb/> 26, Rue Victor-Massé,
+              Paris</p>
+            <fw type="footer" rend="align(center)">ADMINISTRATION LES ANNALES 51, rue Saint-Georges
+              PARIS</fw>
+            <pb n="2"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h2">Le Journal des Soldats Blessés aux
+              Yeux</head>
+            <p>
+              <hi rend="italic">Le “ Journal des Soldats Blessés aux Yeux ” n’est pas mis dans le
+                commerce : il est adressé gratuitement à tous ces blessés, et aux souscripteurs de
+                vingt francs au moins.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Nous faisons appel à la collaboration de tous, sous forme de
+                critiques, de conseils ou d’articles.</hi>
+            </p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h3">LES RASOIRS DE SURETÉ</head>
+            <p>Eh bien, mes chers amis, il y a plaisir à vouloir vous être agréable!</p>
+            <p>Quelles jolies lettres, et gentilles et affectueuses vous m’avez écrites à la suite
+              de l’article paru dans notre dernier numéro! Je voudrais pouvoir les transcrire toutes
+              pour les offrir, comme un frais bouquet, à M. Cusinberche, qui m’a donné le moyen de
+              vous offrir, à chacun, un rasoir de sûreté!</p>
+            <p>Ce que j’aime surtout dans vos lettres, mes chers enfants, c’est leur gaieté, c’est
+              leur esprit. Vous comprenez bien que c’est cela qui doit le plus me toucher, puisque
+              vous m’apportez ainsi la preuve que vous êtes contents, et que votre courage à
+              reprendre la vie a été vite récompensé, et que tous les efforts de ceux qui vous
+              veulent du bien n’ont pas été perdus.</p>
+            <p>L’offre des rasoirs a donc eu un joli succès, et les lettres sont arrivées
+              nombreuses, nombreuses, et toutes bienvenues.</p>
+            <p>L’un de vous m’écrit :</p>
+            <p>Il me fallait faire une demi-heure de chemin pour aller trouver le coiffeur et ma
+              femme n’a pas toujours le temps de m’accompagner, et comme j’ai une bonne barbe, au
+              bout d’une semaine ou deux, ma femme me fuit comme le diable fuit l’eau bénite, et me
+              dit que quand elle m’embrasse, <hi rend="italic">c’est comme si elle embrassait mes
+                brosses de chiendent</hi> . Alors vous comprenez ma désolation...</p>
+            <p>Oui, mon brave, je la comprends, je la comprends même très bien, et je me réjouis à
+              penser que bientôt, elle comparera vos joues à un satin sur lequel elle aimera
+              caresser le satin des siennes.</p>
+            <p>Un autre pense à l’avenir :</p>
+            <p>Je suis loin d’être un sapeur, dit-il, et quand la guerre a éclaté, je n’avais guère
+                <note type="foliation">— 1 —</note>
+              <pb n="3"/>
+              <fw type="header" rend="align(center) italic">Les Rasoirs de Sûreté</fw> de poils au
+              menton et je tirais sur une moustache naissante. Trois ans ont passé et le rasoir de
+              sûreté sera le bienvenu. Je n'ai pas encore de bourgeoise, <hi rend="italic">mais il
+                faut être prêt à tout événement</hi> .</p>
+            <p>Plusieurs appuient leur demande de la même façon. Je leur souhaite de trouver bientôt
+              la bonne petite épouse, celle que je souhaite à chacun; une payse, celle qu'on eût
+              épousée avant, celle qui ne se marie ni par pitié, ni par intérêt, et j'espère
+              qu'après avoir pris seulement un baiser sur vos joues bien rasées, elle ne voudra plus
+              en embrasser d'autres.</p>
+            <p>C'est ma femme qui me dit de vous écrire, dit un troisième. Depuis qu'elle a lu votre
+              article, elle ne me laisse pas tranquille...</p>
+            <p>Oh!</p>
+            <p>Envoyez-moi donc un rasoir. Faites ça pour elle. Et aussi pour moi.</p>
+            <p>Madame, prenez un peu de patience. Chacun son tour... En attendant, embrassez votre
+              mari sur le front; s'il s'en contente vous me le direz.</p>
+            <p>Et voici une dernière citation :</p>
+            <p>... Je n'ai pas encore de bourgeoise, mais j'ai deux petites sœurs...</p>
+            <p>Pauvres petites sœurs! Laissez-vous piquer, petites: ça lui fait tant de plaisir, à
+              ce grand frère, pour lequel vous ne serez jamais trop bonnes. Plus tard, vous
+              comprendrez; pour le moment, écoutez-moi.</p>
+            <p>Je me suis donc mis à la recherche des rasoirs, des centaines de rasoirs qu'il me
+              faut, ou plutôt, j'ai prié mon vieil ami Laboucheix — qui m'a déjà bien aidé à vous
+              aider — de rechercher quel était le meilleur. (Laboucheix est un « vieux fouinard »
+              dévoué comme un chien, malin comme un singe). J'ai aussi demandé à des industriels de
+              me dire leurs prix et j'ai questionné un certain nombre d'entre vous.</p>
+            <p>Ceux de vos camarades que j'ai vus tout d'abord, sont naturellement des Parisiens, et
+              la plupart m'ont demandé des rasoirs <hi rend="italic">Gillette</hi> .</p>
+            <p>J'ai fait la grimace, parce qu'un rasoir <hi rend="italic">Gillette</hi> coûte
+              vingt-cinq francs et qu'à ce prix-là, je sais bien qu'il me serait impossible de tenir
+              ma promesse: satisfaire tout le monde.</p>
+            <p>Heureusement, dimanche dernier, j'ai causé avec un camarade qui habite la campagne et
+              je lui ai dit mon ennui, et le désir des Parisiens.</p>
+            <p>— Ne les écoutez pas, m'a-t-il dit tout de suite. Le <hi rend="italic">Gillette</hi>
+              , c'est bon pour les citadins, et pour ceux qui ont les moyens. Dans nos campagnes où
+              voulez-vous que nous trouvions des lames de rechange, lorsque celles que vous nous
+              aurez données seront usées... Et ça coûte cinq sous pièce, au prix où est le 75.
+              Achetez donc pour nous des lames épaisses, que nous pourrons repasser nous-mêmes; ce
+              sera bien préférable.</p>
+            <p>— En effet.</p>
+            <p>— Seulement, il faudra joindre un cuir à chaque envoi.</p>
+            <p>— Parfaitement.</p>
+            <p>— Pendant que vous y serez, mettez aussi un blaireau...</p>
+            <note type="foliation">— 2 —</note>
+            <pb n="4"/>
+            <fw type="header" rend="align(center) italic">Les Rasoirs de Sûreté</fw>
+            <p>— Je ne demande pas mieux, mais...</p>
+            <p>— Le tout coûtera moins cher qu'un Gillette... Moi, je connais une marque qui ne fait
+              pas de réclame, — ça fait que vous n'avez pas à la payer, — je m'en sers depuis
+              plusieurs années et j'en suis très content.</p>
+            <p>— Je vais essayer.</p>
+            <p>Et en effet, j'ai essayé. Voici le sixième jour que je me sers du même instrument, et
+              de la même lame, en lui donnant seulement trois petits aller et retour sur le cuir, et
+              je m'en trouve bien, moi aussi.</p>
+            <p>J'ai donc décidé de donner ma commande à la maison qui ne fait pas de réclame.</p>
+            <p>Mais le fabricant, lorsque je lui ai parlé de me faire une première livraison la
+              semaine prochaine, a levé les bras au ciel, m'a demandé si je n'étais pas fou et si je
+              savais que nous étions en guerre — hélas, si je le sais!</p>
+            <p>Il paraît que l'on ne trouve, ni bois, ni cuir, ni acier, ni métal, ni
+              main-d'œuvre...</p>
+            <p>Je me suis récrié, je lui ai offert d'aller demander au Ministère de l'Armement
+              quelques ouvriers pour quelques jours, et je l'ai interpellé, bousculé, grondé, prié,
+              supplié...</p>
+            <p>Le résultat, c'est que j'espère bien avoir commencé la distribution lorsque ce numéro
+              paraîtra.</p>
+            <p>Les demandes seront servies dans l'ordre de leur réception et il ne sera tenu aucun
+              compte des recommandations, ni des prières des épouses impatientes... Mesdames, je
+              fais de mon mieux, je vous assure.</p>
+            <p>Et je voudrais terminer par un petit mot un peu plus sérieux.</p>
+            <p>Presque tous, vous avez pris la peine de m'écrire vous-mêmes, et de m'envoyer les
+              quatre mots : <hi rend="italic">Bon pour un rasoir</hi> que je vous ai demandés.</p>
+            <p>Pour un petit nombre d'entre vous, j'ai reçu une liste écrite soit par le Directeur
+              de l'École, soit par une infirmière ou un camarade.</p>
+            <p>Bien entendu, ces commandes ont été classées à leur ordre et seront servies comme les
+              autres; mais je voudrais, mes chers amis, vous supplier de n'être pas paresseux pour
+              écrire. Vous avez tous des guide-main, — si vous n'en avez pas demandez-en à M. Emard,
+              99, rue de Reuilly, à Paris, qui vous en enverra — pourquoi ne vous en servez-vous
+              pas?</p>
+            <p>Si vous ne prenez pas le soin d'écrire en noir chaque fois que l'occasion vous en est
+              offerte, vous en perdrez l'habitude, et votre écriture deviendra très rapidement
+              illisible. Si je vous dis cela c'est que je le sais, c'est que j'en ai vu des
+              exemples.</p>
+            <p>Je sais bien qu'il est plus facile de faire écrire par quelqu'un et de profiter des
+              dévouements qui vous sont si généreusement offerts, mais il faut songer à l'avenir.
+              Plus tard, comment ferez-vous? Vous n'aurez pas toujours à vos côtés un Directeur
+              complaisant ou une infirmière empressée; alors, comment écrirez-vous si vous n'avez
+              pas appris à vous servir de votre guide-main?</p>
+            <note type="foliation">— 3 —</note>
+            <pb n="5"/>
+            <fw type="header" rend="align(center) italic">Les Rasoirs de Sûreté</fw>
+            <p>Et aux Directeurs ainsi qu'aux infirmières, j'adresse ici la prière de laisser à
+              leurs élèves et à leurs blessés la plus grande initiative possible, de leur apprendre
+              à se débrouiller.</p>
+            <p>Sans doute, il est plus doux de leur dire : « Ne vous donnez pas la peine, je vais
+              faire cela pour vous. » C'est plus doux et c'est même plus facile. Il faut plus de
+              temps et plus de soin pour guider une main malhabile que pour écrire soi-même, mais en
+              faisant agir au lieu d'agir à sa place, vous serez beaucoup plus réellement utiles à
+              celui que vous voulez obliger. Vous ne serez pas toujours là. Lorsqu'il sera rentré
+              chez lui, il sera fort embarrassé si en voulant lui épargner toutes peines vous l'avez
+              laissé incapable de se tirer d'affaire sans un secours étranger.</p>
+            <p>Le plus grand service que l'on puisse rendre à un blessé aux yeux, c'est de réduire
+              au minimum les obligations où il se trouvera de demander service à quelqu'un.</p>
+            <p>C'est de cela qu'ils souffrent le plus, d'être sous la dépendance d'autrui. Chaque
+              fois que vous apprenez à l'un d'eux le moyen de s'en passer, vous aidez à sa
+              délivrance et à son bonheur.</p>
+            <p>P.-S. — Depuis que cet article a été donné à la composition, j'ai reçu de nouveaux
+              renseignements relatifs aux lames minces.</p>
+            <p>Il paraît qu'on peut les repasser facilement. Un industriel m'en a fait la
+              démonstration, et il m'a convaincu.</p>
+            <p>Il m'a surtout convaincu lorsqu'il m'a montré un bel écrin dans lequel sont contenus
+              : rasoir, manche pour repasser, cuir, blaireau, lames de rechange... et une petite
+              surprise.</p>
+            <p>Un certain nombre d'entre vous, mes chers amis, recevront donc des rasoirs à lames
+              minces, genre Gillette. Ceux qui ne seront pas contents n'auront qu'à me renvoyer leur
+              écrin à Neuilly-sur-Seine, 35, boulevard du Château, où se fait l'emballage (par les
+              soins du bon bougre de magasinier), et on leur enverra en échange, un rasoir à lame
+              épaisse.</p>
+            <p>BRIEUX.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h4">Notre Caisse</head>
+            <table>
+              <row role="label">
+                <cell>En Caisse</cell>
+                <cell>Sommes</cell>
+              </row>
+              <row>
+                <cell>Nous avions « Caisse » 31 Juillet.</cell>
+                <cell>69.273 30</cell>
+              </row>
+              <row>
+                <cell>Reçu du 1^{er} au 31 Août . . . .</cell>
+                <cell>19.836 70</cell>
+              </row>
+              <row>
+                <cell>Total</cell>
+                <cell>89.110</cell>
+              </row>
+              <row>
+                <cell>Dépenses du 1^{er} au 31 Août . . .</cell>
+                <cell>9.477 65</cell>
+              </row>
+              <row>
+                <cell>Solde en Caisse au 31 Août . . .</cell>
+                <cell>79.632 35</cell>
+              </row>
+            </table>
+            <p>Nous avons reçu ce mois-ci près de vingt mille francs, c'est un record.</p>
+            <p>Nous avons eu la grande joie — et quelque fierté — de recevoir du Ministère de la
+              Guerre, sans avoir rien demandé, une somme de cinq mille francs. Nos lecteurs savent
+              comment cinq autres mille francs nous ont été apportés par M. Cusinberche, et l'usage
+              que nous allons en faire.</p>
+            <p>Nous avons reçu beaucoup de petites souscriptions, et ces offrandes, même les plus
+              modestes, ont été reçues avec une reconnaissance attendrie.</p>
+            <p>Nous avons dépensé de notre mieux et le plus que nous avons pu.</p>
+            <p>Le nombre des familles qui reçoivent un secours mensuel s'élève à :</p>
+            <p>Deux cent six</p>
+            <note type="foliation">— 4 —</note>
+            <pb n="6"/>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h5">Reparlons Mariage</head>
+            <p>
+              <hi rend="italic">Nous avons beaucoup parlé mariage déjà, dans ce journal. Mais j'ai
+                été frappé de voir le petit nombre de lettres qui m'ont été écrites, sur ce sujet,
+                par nos camarades.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Cependant, nous avons publié des lettres bien alléchantes.
+                Particulièrement, Mme G. S. (je ne la nommerai que si elle m'y autorise) inspire
+                toute confiance par la générosité de ses sentiments, son enthousiasme et son désir
+                de réalisation.</hi>
+            </p>
+            <p>
+              <hi rend="italic">On lira ci-dessous la lettre qu'elle m'a adressée et à laquelle je
+                ne change pas un mot.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Je prie nos camarades de la lire attentivement et de me dire ce
+                qu'ils en pensent.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Je ferai de leurs réponses ce qu'ils me diront d'en faire : ou je
+                les reproduirai (avec ou sans signature, comme on voudra), ou je les enverrai à Mme
+                G. S..., ou je les garderai pour moi.</hi>
+            </p>
+            <p>
+              <hi rend="italic">La Solitude, 11 Juin 1917.</hi>
+            </p>
+            <p>Monsieur,</p>
+            <p>Cette fois, le journal m'est parvenu. En vous remerciant de ne pas vous effrayer d'un
+              « terrain dangereux », je suis heureuse de constater que la question dont j'hésitais à
+              vous entretenir est de celles dont vous vous préoccupiez déjà.</p>
+            <p>Oh ! J'ai hésité assez longtemps, car, moi aussi, j'avais peur des femmes qui
+              demandent à « épouser un aveugle »... Voyez-vous, je ne vous ai parlé que de celles
+              qui seraient capables de l'aimer, quoique aveugle.</p>
+            <p>Il faut, pour éviter les périls d'un mariage de ce genre, avoir, non pas de
+              l'exaltation, mais une « âme conjugale ».</p>
+            <p>Je ne sais si je me fais bien comprendre ; je crois que oui, parce que tout ce qui
+              suit votre « Mais... », gros de restrictions, est précisément ce qui m'avait plongée
+              dans les hésitations que vous savez. « Mais » j'en suis sortie parce qu'il me semble
+              qu'en s'entourant des précautions utiles, il vaut mieux, malgré tout, ne pas refuser
+              son aide à ceux qui aspirent à fonder un foyer.</p>
+            <p>Donc, l'idéal, c'est entendu, sera la fiancée d'avant la guerre, ou celle que le
+              blessé découvrira lui-même dans son entourage.</p>
+            <p>Par malheur, l'idéal reste parfois hors de portée. La petite épouse qui ferait le
+              bonheur de notre gars n'est pas toujours si proche.</p>
+            <p>Le même village, oui, sans doute. « Mais si elle est dans un autre village, un autre
+              village de France, et qu'une conformité de caractère, de principes, d'éducation (je
+              vous cite) existe cependant, offrant à deux êtres qui s'ignorent cette chance de
+              bonheur dont vous parlez ?</p>
+            <p>Compter sur le hasard ? Attendre, attendre encore... Non, monsieur Brieux. Les hommes
+              de l'avant-guerre étaient trop portés à attendre chez nous, et cela n'allait pas
+              mieux.</p>
+            <p>Vous direz que je suis pressée, soit. J'ai peut-être vu l'inconvénient du défaut
+              contraire, et la jeune fille de Lyon dont vous insérez une lettre n'a pas tort, vous
+              vous en doutez bien, de demander : « Si vous ne nous aidez pas, qui nous aidera ?
+              »</p>
+            <p>Il y en a qui n'auront besoin de personne, et c'est tant mieux. Il y en a qui
+              craindront une aide, il y en a qui n'oseront pas la réclamer. Voilà pas mal de
+              complications. On ne peut pas pourtant échanger des avis à perpétuité.</p>
+            <p>Une doctoresse Américaine, qui a passé quelque temps dans nos hôpitaux, avait <note
+                type="foliation">— 5 —</note>
+              <pb n="7"/>
+              <fw type="header" rend="align(center) italic">Reparions Mariage</fw> coutume,
+              lorsqu'on faisait appel à son concours pour n'importe quoi, de s'informer d'abord : «
+              Dire quelle chose pratique à faire tout de suite ? »</p>
+            <p>En suivant sa méthode, voulez-vous me permettre de vous exposer ce qui me paraît
+              faisable, dès aujourd'hui ?</p>
+            <p>Quand je vous ai écrit, l'autre jour, c'était une lettre toute personnelle et qui le
+              restera, soyez-en sûr, malgré l'honneur auquel elle ne s'attendait point et la petite
+              note dont je suis sincèrement touchée.</p>
+            <p>Cela m'étonnerait beaucoup qu'un de nos aveugles se décide là-dessus à m'écrire.
+              Pourquoi ? Eh bien ! surtout parce qu'il n'y avait encore rien de <hi rend="italic"
+                >précis</hi> à quoi ils puissent répondre.</p>
+            <p>Avez-vous observé, du moins pour les autres mutilés, comme il faut préciser pour eux
+              ou les <hi rend="italic">forcer à préciser</hi> eux-mêmes dès qu'il s'agit de leur
+              avenir.</p>
+            <p>Pour le mariage, ce sera la même histoire.</p>
+            <p>Je voudrais donc les amener à préciser dans quelles conditions, s'ils ne sont pas
+              éloignés de la pensée d'un foyer, ils souhaiteraient la réaliser.</p>
+            <p>Entendons-nous. Vous n'évoquez pas l'annonce classique « Mutilé, telle profession,
+              épouserait demoiselle affectueuse, dévouée, situation en rapport. » Non, n'est-ce pas
+              ? Et quant à la page pour les correspondances, réclamée dans votre journal, je
+              craindrais qu'elle ne fût encombrée d'un brin, côté jeunes et vieilles filles.</p>
+            <p>Alors ? Alors, il faudra, dans certains cas, en arriver à cet échange de
+              correspondances, ce n'est pas douteux ; mais avant, il faudrait encore savoir qui
+              correspond. Un travail qui n'a rien de simple en apparence. Mais on peut le
+              simplifier. Voulez-vous que nous tentions un essai ? A titre d'essai, uniquement.</p>
+            <p>Parmi vos « camarades » blessés aux yeux, certains, sans famille, vous diraient sans
+              peine, j'imagine — à vous, monsieur Brieux, non pas à moi ou à M^{me} X... qu'ils ne
+              connaissent point et en qui ils n'ont aucune raison spéciale d'avoir confiance — s'ils
+              se marieraient volontiers.</p>
+            <p>Les familles de quelques-uns, dans l'impossibilité de trouver une fiancée comme il le
+              faudrait, s'adresseraient à vous aussi simplement.</p>
+            <p>Et dans l'entourage de l'aveugle, un directeur d'école, un professeur, un parent ou
+              un ami, saurait au besoin parler pour l'intéressé.</p>
+            <p>En ce qui concernerait ce dernier, vous seriez vite fixé.</p>
+            <p>Pour la compagne <hi rend="italic">désirable</hi> , si elle n'appartenait pas au même
+              coin de pays, croyez qu'on n'en serait pas moins vite renseigné sur son honorabilité,
+              son milieu social, etc... Par l'intermédiaire de nos Sociétés de la Croix-Rouge, dans
+              chaque région, on trouverait, je l'espère, des <hi rend="italic">répondants</hi> d'une
+              autorité morale suffisante pour écarter le péril d'une aventure.</p>
+            <p>Ceci obtenu, que risqueriez-vous à laisser aux deux intéressés le soin de se
+              connaître ? En s'écrivant, ils commenceraient par n'être pas tout à fait eux-mêmes,
+              par se mentir un peu sans doute involontairement, mais faites crédit à ce que
+              j'appelle les âmes conjugales... Ça finirait bien, huit fois sur dix.</p>
+            <p>Monsieur Brieux, ne vous impatientez pas. Je sais à merveille que de telles
+              expériences peuvent entraîner loin et que le temps vous manque. Si je n'étais, en ce
+              moment, retenue à plus de 600 kilomètres de la rue Victor-Massé, je vous proposerais
+              de me charger de tout le travail, lettres, renseignements, etc. et il me semble que je
+              vous convaincrais.</p>
+            <p>C'est évidemment, je le répète, une question de confiance ; vous ne savez pas qui je
+              suis. Mais enfin, entre braves gens, on doit pouvoir s'entendre ; voulez-vous, pour
+              l'essai que je vous propose, procéder comme si j'habitais Versailles ou Saint-Cloud et
+              me charger provisoirement de ce qui vous demanderait des loisirs que vous n'avez point
+              ? La correspondance subirait dix heures de retard, voilà tout.</p>
+            <p>Je me résume :</p>
+            <p>Si vous connaissez, ou si quelqu'un de vos amis connaît, dans la région <hi
+                rend="italic">Sud-Ouest</hi> (on ne peut pourtant pas limiter la petite Patrie au
+              bourg natal !), un soldat aveugle répondant au cas qui nous occupe, voulez-vous me
+              mettre à même de lui chercher la <note type="foliation">— 6 —</note>
+              <pb n="8"/>
+              <fw type="header" rend="align(center) italic">Reparlons Mariage</fw> compagne avec
+              laquelle il aurait des chances d'être heureux ?</p>
+            <p>Si vous en connaissez un dans une autre région, voulez-vous me le signaler également
+              ? (Au besoin, réservez le nom. Si je ne fais pas de distinction entre les pays
+              d'origine, c'est que, parmi les « compagnes sûres » dont je pourrais, moralement
+              répondre, plusieurs ne sont pas mes « payses » mais pourraient l'être du soldat
+              intéressé.)</p>
+            <p>L'essai commencerait de la sorte.</p>
+            <p>Si vous le jugiez satisfaisant et s'il vous plaisait de me communiquer quelques-unes
+              des lettres de vos correspondantes, vous verriez comme il deviendrait facile de rendre
+              le <hi rend="italic">terrain solide</hi> . Je le souhaite autant que vous, car Dieu
+              sait où je m'embarque.</p>
+            <p>Je ne m'y décide que parce que personne, au fond, n'a le grand désir de <hi
+                rend="italic">commencer</hi> .</p>
+            <p>Parmi ceux-là qui pourraient le faire, d'une manière au-dessus de tout soupçon, les
+              uns redoutent, savez-vous quoi ? Ce léger sourire bien français, dont nous n'avons pu
+              nous guérir complètement en parlant de ces choses. (Pourtant, je vous garantis qu'ils
+              en parlent sans sourire, de l'autre côté du Rhin !) Et puis, beaucoup craignent
+              l'insuccès, les responsabilités, les ennuis...</p>
+            <p>Essayons quand même, voulez-vous ?</p>
+            <p>Si une villégiature de quelques jours dans la région devenait utile pour un de vos
+              aveugles, je crois pouvoir vous dire que la Société de Secours aux Blessés militaires
+              a ici une maison de permissionnaires, ouverte aux permissionnaires sans famille ou
+              originaires des pays envahis, où le soldat serait reçu s'il le désirait et où il
+              trouverait, à la place du guide « indésirable » ; des amis avertis qui lui
+              épargneraient toute audition de « voix geignardes ».</p>
+            <p>Quand on a soigné de grands blessés, on sait un peu comment il faut parler aux
+              aveugles.</p>
+            <p>Veuillez agréer, etc.</p>
+            <p>M^{me} G. S.</p>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h6">MARIAGES ET NAISSANCES</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h7">Mariages</head>
+              <p><hi rend="italic">Louis Desgrippes</hi> , 93, rue de la République, Montluçon
+                (Allier).</p>
+              <p><hi rend="italic">Joseph Verbrigghe</hi> s'est marié, le samedi 18 août 1917, avec
+                M^{lle} Lucie Lejay, de Reims.</p>
+              <p><hi rend="italic">M. Robert Vérité</hi> se marie à Tours, avec M^{lle} Marguerite
+                Pimot.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h8">Naissances</head>
+              <p><hi rend="italic">Liotaud</hi> , Jean, de Marseille, nous annonce la naissance de
+                sa fille Yvonne.</p>
+              <p>L'adjudant <hi rend="italic">Noël</hi> , 4, rue des Petits-Champs, nous annonce la
+                naissance de sa petite fille.</p>
+              <p><hi rend="italic">Bataille</hi> , 30, rue Rochechouart, nous annonce la naissance
+                de son 3<hi rend="superscript">e</hi> enfant, Robert-Marcel, né le 18 juillet
+                1917.</p>
+              <p><hi rend="italic">Duffaut</hi> , à Andoufielle (Gers), nous annonce la naissance
+                d'une fille, née le 27 juillet 1917.</p>
+              <p><hi rend="italic">M. et M^{me} Durand</hi> , à La Métairie, commune de
+                Saint-Sulpice, par Guéret, font part de la naissance de leur quatrième fils,
+                Jean-Raymond, né le 17 août 1917.</p>
+              <p><hi rend="italic">M. et M^{me} Robert Bardoux</hi> sont heureux de vous faire part
+                de la naissance de leur fille Jacqueline-Marie, 16, rue de Chaillot, le 15 août
+                1917.</p>
+              <p><hi rend="italic">M. et M^{me} Abel Trubert</hi> font part de la naissance de leur
+                fils Raymond, à Chartres, le 16 août 1917.</p>
+              <p>
+                <hi rend="italic">Tout soldat blessé aux yeux qui en fera la demande recevra
+                  gratuitement la brochure de M. Brieux : " Lettres aux Soldats blessés aux yeux ",
+                  imprimée en noir ou en Braille.</hi>
+              </p>
+              <note type="foliation">— 7 —</note>
+              <pb n="9"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h9">A ceux qui combattent</head>
+            <p>
+              <hi rend="italic">O vous qui combattez pour défendre la France, Qui livrez tous les
+                jours d'âpres et durs combats, Soldats braves et fiers, héros pleins de vaillance :
+                Je vous admire tous et vous aime en Soldats !</hi>
+            </p>
+            <p>
+              <hi rend="italic">Oui, je vous aime tous, car vous êtes mes frères, Un baptême commun
+                nous unit pour toujours, Nous avons soutenu des luttes meurtrières, Pour le même
+                idéal et pour le même amour.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Ce baptême du feu que donne la mitraille, Ce baptême sanglant que
+                nous avons reçu Sur les fonts baptismaux de nos champs de bataille Crée entre nous
+                un lien qui ne s'efface plus !</hi>
+            </p>
+            <p>
+              <hi rend="italic">Quoiqu'éloigné de vous, je vis de votre vie, Je vous vois dans vos
+                trous, je vous suis à l'assaut ; J'entends le grondement sourd de l'artillerie, Je
+                vous vois dans la Somme ainsi qu'au Fort de Vaux.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Près de vous je n'irai plus reprendre ma place, Je ne reprendrai
+                plus les armes pour lutter ; Mais il me reste encore, et à Dieu j'en rends grâce,
+                Mon cœur pour vous aimer, mes vers pour vous chanter.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Oui, mes vers chanteront vos exploits, votre gloire ! Mon amour
+                fraternel me dictera les mots Sublimes et vibrants, grands comme vos victoires, Les
+                mots superbes qui conviennent aux Héros.</hi>
+            </p>
+            <p>
+              <hi rend="italic">Mais jamais ni les mots ni la reconnaissance Ne seront assez forts
+                pour vous remercier ; Gloire à Vous ! Gloire à Vous ! petits soldats de France !
+                Devant Vous, chapeau bas, chacun doit s'incliner.</hi>
+            </p>
+            <p>VICTOR STOHR.</p>
+            <note type="foliation">— 8 —</note>
+            <pb n="10"/>
+          </div>
+
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h10">Chronique Agricole</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h11">LES PUBLICATIONS AGRICOLES
+                POUR LES AVEUGLES</head>
+              <p>La rééducation professionnelle des mutilés de la guerre est un problème
+                particulièrement difficile à résoudre, quand il s'agit des aveugles.</p>
+              <p>Beaucoup de travaux agricoles peuvent être accomplis par des aveugles, mais il en
+                est peu pour lesquels le concours d'une autre personne ne soit pas nécessaire à un
+                moment donné. Cependant, à l'intérieur de l'exploitation agricole, le nettoyage des
+                grains, le sulfatage des semences, le lavage des racines, la préparation des
+                aliments pour les animaux, la distribution des fourrages, l'enlèvement des fumiers,
+                le bottage du foin et de la paille, le sciage du bois de chauffage, peuvent être
+                exécutés par les aveugles seuls. Dans le jardin potager, le béchage, les semis,
+                certains binages peuvent être faits par eux, pour peu qu'on leur donne de temps à
+                autre, quelques indications, pour peu qu'on leur fournisse quelques points de
+                repère. Dans les travaux de vinification et de cidrerie, ils peuvent s'employer
+                couramment. Il semble surtout que dans les pays viticoles, les soins qu'il faut
+                accorder au vin pendant son séjour en cellier ou en cave puissent leur procurer un
+                emploi permanent où il ne serait que très rarement nécessaire de leur venir en aide.
+                Il en est de même dans les industries annexes de la ferme, comme la laiterie, la
+                beurrerie et surtout la fromagerie. En apiculture, où certains se montrent,
+                paraît-il, très habiles, ils peuvent tout au moins remplir le rôle d'aide pour le
+                maniement des ruches, leur construction, la récolte du miel et son traitement. Il
+                n'y a donc que la conduite des chevaux et des bœufs, par suite celle des charrettes
+                et des instruments aratoires qui soit toujours difficile et présente quelque danger,
+                bien qu'elle ne soit pas impossible lorsqu'elle a lieu dans les mêmes endroits et
+                sur des parcours limités.</p>
+              <p>Cela empêche évidemment les aveugles de prendre une grande part aux travaux des
+                champs les plus importants, mais ils peuvent néanmoins y participer en qualité
+                d'aides, ou s'intéresser à leur direction, conseiller même ceux qui en ont la
+                surveillance.</p>
+              <p>Les publications agricoles relatives aux travaux auxquels ils peuvent prendre part
+                sans l'aide d'aucune autre personne, sont évidemment celles qui les intéressent tout
+                d'abord le plus et qu'il y a lieu d'éditer en premier lieu. Les manuels ne le
+                satisfont, à notre avis, que s'ils indiquent les moyens déjà employés pour permettre
+                à des aveugles la réalisation de certains travaux; il semble qu'ils ne puissent être
+                convenablement établis qu'après une observation très exacte des procédés à employer
+                par eux pour obtenir les meilleurs résultats dans leur labeur. De bonnes études
+                techniques des différentes questions agricoles et des améliorations culturales
+                possibles leur plairont probablement davantage, parce qu'ils trouveront toujours un
+                grand plaisir à en faire profiter les personnes qui les entourent et qui
+                s'intéressent à eux.</p>
+              <p>On ne saurait oublier que si la perte de la vue a pour conséquence, comme on l'a
+                toujours remarqué, un développement des autres sens, en particulier de celui du
+                toucher, la mémoire s'accroît aussi notablement chez les aveugles. Aussi sommes-nous
+                enclin à croire que, dans beaucoup de cas, les aveugles vivant à la campagne, qui
+                liront facilement les ouvrages agricoles imprimés en Braille, deviendront, — juste
+                retour des choses d'ici-bas! — les guides éclairés des nombreux cultivateurs qui les
+                entourent et qui ne s'instruisent pas, ne se perfectionnent pas parce qu'ils n'ont
+                pas, ou le goût, ou le temps de lire.</p>
+              <p>Il importe, pour cette raison, de ne pas se limiter à l'impression d'ouvrages ayant
+                trait aux seuls travaux que les aveugles peuvent exécuter. L'ÉTUDE DU DROIT RURAL
+                  <note type="foliation">— 9 —</note>
+                <pb n="11"/>
+                <fw type="header" rend="align(center) italic">Chronique Agricole</fw> ET DE LA
+                POLICE SANITAIRE, la connaissance des prix des différentes denrées achetées ou
+                vendues par les agriculteurs peuvent leur être très profitables. Tout ce qui
+                concerne l'organisation et le fonctionnement des syndicats, des coopératives, des
+                assurances agricoles, des caisses de crédit agricole peut leur être d'une utilité
+                immédiate beaucoup plus grande qu'on ne le soupçonne tout d'abord. Il est, en effet,
+                permis d'entrevoir leur participation active à la marche de ces différentes
+                associations et d'espérer qu'ils trouveraient dans les fonctions qu'on leur
+                confierait des satisfactions d'ordre moral non négligeables. Et, s'il en est ainsi,
+                si nos souhaits ne relèvent pas de l'utopie, si le nombre des aveugles qui sont
+                susceptibles de s'intéresser aux mêmes questions est malheureusement plus grand
+                qu'on ne le pensait, l'idée d'un journal agricole imprimé spécialement pour eux,
+                qu'on nous a déjà soumise, mérite de prendre corps.</p>
+              <p>CH. VOITELLIER,</p>
+              <p>Ingénieur agronome, Maître des Conférences à l'Institut National Agronomique.</p>
+              <p>131, Avenue Wagram, Paris (XVII)° 20 mai 1917.</p>
+              <p>Monsieur,</p>
+              <p>Comme suite à notre conversation de ce jour, je viens vous demander de bien vouloir
+                me signaler les aveugles rentrés dans leurs foyers et susceptibles de s'intéresser à
+                l'« Expérience d'Apiculture » de M. Villey. Je pourrais, à votre choix, soit mettre
+                à votre disposition le nombre de ces brochures, imprimées en Braille, que vous
+                jugerez nécessaire, ou les envoyer aux adresses que vous indiqueriez.</p>
+              <p>J'ai omis de vous dire que nous venons d'imprimer la deuxième partie du Livre
+                d'Aviculture de M. Voitellier (du Laboratoire de Zootechnie de l'Institut
+                Agronomique), dont je vous parlais cet après-midi à propos des travaux de
+                viticulture. Cette partie du Livre d'Aviculture comprend l'incubation, l'élevage,
+                l'engraissement. J'ai vu dans votre journal que plusieurs cultivateurs aveugles,
+                rentrés dans leurs foyers, s'occupent d'élevage de poulets et demandent des
+                renseignements sur des couveuses artificielles, etc. Je vous serais reconnaissante
+                de nous signaler les aveugles qui s'intéresseraient à cet ouvrage d'aviculture.</p>
+              <p>Pour le moment, notre imprimerie s'occupe surtout de ce qui concerne les questions
+                rurales et les métiers pouvant être choisis par les cultivateurs. Si vous désirez
+                faire publier en Braille un ouvrage de ce genre, notre imprimerie se mettra très
+                volontiers à votre disposition.</p>
+              <p>Reecvez, etc.,</p>
+              <p>Sophie DE SALEMPELS.</p>
+              <p>La lettre suivante a été adressés aux Directeurs de nos écoles :</p>
+              <p>Saint-Étienne, 11 juin 1917.</p>
+              <p>Monsieur,</p>
+              <p>Au cours d'une causerie avec l'un des hommes qui ont assumé la tâche de réparer le
+                plus possible les malheurs de la guerre, je fus vivement frappé par une idée qu'il
+                émit, et décidai de faire quelque chose pour aider à sa réalisation. Cette idée la
+                voici :</p>
+              <p>L'aveugle de la guerre, rentré chez lui avec un bagage d'instruction modeste, mais
+                cependant appréciable, entouré aussi du respect que lui confère son auréole de
+                gloire, pourrait très utilement devenir le propagateur de connaissances en culture,
+                en hygiène, en architecture simple, voire même en droit, toutes choses trop
+                généralement ignorées du paysan français.</p>
+              <p>Au nombre des ouvrages de vulgarisation qui ont été signalés à mon ignorance, voici
+                le premier qui me fut envoyé : Le Rôle du Purin à la Ferme. Cette brochure de 45
+                pages, qui pour des aveugles devra être réduite encore, peut se résumer ainsi :</p>
+              <p>Explications claires et concises sur la composition des purins provenant des divers
+                animaux de la ferme. — Moyens pratiques de recueillir cet engrais, souvent cause
+                d'insalubrité. — Conseils sur sa meilleure utilisation. — Résultats obtenus par son
+                emploi dans différentes cultures.</p>
+              <p>L'utilité de telles notions ne peut-elle être rendue évidente aux hommes qui sont
+                confiés à votre direction ? et, par eux, à leur famille ? Et ce blessé, au lieu
+                d'être pour les siens une charge, ne peut-il pas devenir parfois un conseiller
+                éclairé ? Source d'améliorations, de bien-être, de richesse peut-être pour ceux
+                  <note type="foliation">— 10 —</note>
+                <pb n="12"/>
+                <fw type="header" rend="align(center) italic">Chronique Agricole</fw> qui
+                l'entourent et pour le pays qu'il a défendu ?</p>
+              <p>Pour atteindre à ce but, il faudrait que chacun des aveugles actuellement
+                hospitalisés, appelé à vivre dans un milieu de cultivateurs, fût non seulement
+                instruit de ces notions indispensables, mais pourvu de quelques traités simples,
+                auxquels il pourrait en tout temps se référer.</p>
+              <p>Avant de procéder à la transcription en Braille de tels ouvrages, il serait
+                indispensable de connaître le nombre d'exemplaires nécessaire. Et, étant donné la
+                rareté et le prix élevé du papier spécial, il serait bon que ce nombre fût déterminé
+                assez exactement, afin de ne pas imposer aux simples particuliers qui se chargent de
+                ce travail, des dépenses aussi inutiles qu'excessives.</p>
+              <p>Serait-ce abuser, M. le Directeur, que de vous demander de vouloir bien faire
+                procéder à ce recensement dans votre établissement, et d'en communiquer le résultat
+                le plus tôt possible au <hi rend="italic">Journal des Soldats Blessés aux Yeux</hi>
+                , dont M. Brieux a l'obligeance de me prêter le précieux concours.</p>
+              <p>Veuillez, Monsieur, etc., etc.</p>
+              <p>X...</p>
+              <p>Chartres, le 23 juillet 1917.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h12">CELUI QUI FAIT
+                L'AVEUGLE</head>
+              <p>Monsieur Brieux,</p>
+              <p>Il n'y a pas très longtemps que je vis au milieu des soldats blessés aux yeux,
+                pourtant je croyais m'être rendu compte de ce qu'un aveugle pouvait faire. La
+                brosserie, la chaiserie, la cordonnerie sont choses courantes, le jardinage qu'on
+                pratique si bien à l'école de Chartres, m'avait émerveillé. Voir ces non-voyants
+                semer au cordeau jusqu'aux plus petites graines, me semblait déjà très beau. Je ne
+                croyais pas, certes, qu'un aveugle pût faire mieux. Pourtant je viens vous crier mon
+                étonnement de ce que j'ai vu l'autre jour.</p>
+              <p>Étant allé dans ma famille, à Mamers, j'en profitai pour rendre visite à un ancien
+                élève de l'école, Hérouin, dans un joli petit village enfoui dans la verdure.</p>
+              <p>A la première maison, je demande : Connaissez-vous M. Hérouin, et pourriez-vous me
+                dire où il habite ? Une vieille à coiffe me répond : Ah oui, vous venez voir celui
+                qui fait l'aveugle, c'est la dernière</p>
+              <p>maison à gauche au bout du pays, sur la route de Saosnes. Je remerciai la bonne
+                femme tout en me demandant pourquoi elle avait dit : « celui qui fait l'aveugle.
+                »</p>
+              <p>J'arrive devant une petite ferme comme il y en a dans notre pays. C'était un
+                dimanche. La cour bien propre, balayée, où se promenaient de nombreuses poules. Le
+                chien s'avance vers moi, montrant les dents, et à sa voix une femme paraît sur le
+                pas de la porte. C'est Mme Hérouin. Elle m'invite à entrer et je trouve réunie là,
+                autour de la table de chêne, assise sur les légendaires bancs de bois, toute la
+                famille. Il était quatre heures du soir et on collationnait. Le maître, à sa place
+                au bout de la table, présidait. A ses côtés, trois jolis bambins de 12, 8 et 4 ans
+                engloutissaient des tartines de confiture. Le garçon de ferme, un voisin, était venu
+                faire un brin de causette. La mère et la femme allaient et venaient dans la pièce,
+                servant tout le monde.</p>
+              <p>Je donne mon nom et dis d'où je viens. « Ah! Monsieur, vous venez de Chartres.
+                Comment vont les camarades ? Combien y en a-t-il de rentrés chez eux ? »</p>
+              <p>Un tas de questions auxquelles je m'empresse d'ailleurs de répondre. « Moi,
+                voyez-vous, ajoute-t-il, j'ai repris mes anciennes habitudes. Au début, cela a été
+                un peu dur, mais maintenant, cela va. D'ailleurs, je vais vous montrer ma ferme.
+                Nous partons tous les deux et nous visitons l'étable, l'écurie. Il me dit : « Voyez,
+                Monsieur, c'est moi qui les soigne, mes bêtes. » Il appelle chaque animal par son
+                nom, le caresse. En me montrant une superbe jument percheronne : « Celle-là est
+                toute jeune, et bouge un peu quand je l'attelle. — Ah! vous pouvez atteler vos
+                chevaux ? — Mais ce n'est pas difficile, et ce qui m'embête, c'est de ne pouvoir les
+                conduire. Pourtant, je laboure, aidé d'une personne qui guide l'attelage. Et puis
+                vous savez, je peux faire beaucoup plus que je n'aurais jamais cru. Je fane, je
+                tasse le foin sec dans le grenier. A la saison des pommes de terre, je pourrai les
+                arracher. Il faut bien élever sa famille. J'ai trois enfants et il me faut leur
+                faire une situation. J'ai été, moi, domestique de ferme, je sais ce que c'est. On
+                n'est pas toujours heureux, et <note type="foliation">— 11 —</note>
+                <pb n="13"/>
+                <fw type="header" rend="align(center) italic">Chronique Agricole</fw> j'espère bien
+                pouvoir établir mes gars sans qu'ils passent par là. Avec ma femme on travaille
+                ferme, mais on gagne de l'argent, on a bien quelques petits ennuis de temps en
+                temps. Les gens sont bien un peu jaloux. Ils ne peuvent pas comprendre qu'un aveugle
+                puisse se tirer d'affaire comme cela. <hi rend="italic">Il y en a même qui ont écrit
+                  des lettres anonymes racontant que je faisais celui qui n'y voit pas</hi> pour
+                toucher ma pension. Au début, cela m'a été pénible, mais maintenant j'en ris, car je
+                suis heureux et je sais que cela excitera toujours des jalousies. » J'ai alors
+                compris la réponse de la bonne femme.</p>
+              <p>Tout en causant il m'avait mené jusqu'au pré attenant à la ferme et ouvrant la
+                barrière « Voyez cette petite génisse, c'est moi qui l'ai achetée l'autre jour. Elle
+                est jolie, bien faite, je crois que cela fera une bonne laitière. J'irai demain au
+                marché voir les cours pour savoir si je ne l'ai pas payée trop cher. »</p>
+              <p>Je partis tellement émerveillé que je ne puis résister à la tentation de vous
+                écrire tout au long le récit de ma visite.</p>
+              <p>Excusez ma lettre un peu longue. J'espère qu'elle pourra être utile à quelques
+                camarades qui hésitent.</p>
+              <p>Après ce que j'ai vu, si vous le permettez, je vous ferai part de mon impression.
+                Je crois fermement que tout blessé aux yeux, installé dans une ferme avant sa
+                blessure doit reprendre ses occupations. Il y trouvera non seulement un grand
+                réconfort dans son malheur, mais aussi une satisfaction morale très grande. Il
+                redeviendra lui-même, surtout s'il a une femme dévouée et qui l'aide.</p>
+              <p>Recevez, etc...</p>
+              <p>D'rDEVEAUX.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h13">Les Livres en Braille</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h14">ŒUVRE NATIONALE DU « LIVRE
+                DES AVEUGLES DE LA GUERRE »</head>
+              <p>Je suis heureux d'annoncer à nos camarades blessés aux yeux que notre Œuvre vient
+                d'être approuvée par M. le Ministre de l'Intérieur. Cette autorisation officielle
+                nous permettra d'avoir désormais nos coudées plus franches pour donner plus
+                d'extension à nos efforts.</p>
+              <p>Les demandes d'envoi du journal gratuit imprimé en « Braille », <hi rend="italic"
+                  >Le Braillard</hi> , continuent d'affluer, et nous sommes bien heureux de
+                constater que la création de cette petite revue répondait à un besoin.</p>
+              <p>Toutefois, de nombreuses demandes, tendant à l'envoi du « Braillard » nous ont été
+                adressées par des aveugles civils. Nous rappelons que ce journal est exclusivement
+                réservé aux Soldats blessés aux yeux retirés dans leurs foyers, ou hospitalisés dans
+                une école de rééducation. La gratuité du « Braillard » est rigoureuse et nous
+                n'acceptons point d'abonnements payants. Rappelons encore que notre Œuvre possède
+                une bibliothèque circulante, également gratuite, destinée à nos camarades. Les frais
+                de poste occasionnés par le retour des volumes après lecture, sont remboursés. Nous
+                offrons aux camarades qui n'en possèdent point, des règles de poche. Ces envois sont
+                faits au fur et à mesure des livraisons qui nous sont faites à nous-même.</p>
+              <p>Tout ce qui concerne l'administration du journal, doit être adressé au Directeur
+                général de l'Œuvre Nationale du « Livre des Aveugles de la Guerre », 31, rue
+                d'Espagne, à Biarritz (Basses-Pyrénées).</p>
+              <note type="foliation">— 12 —</note>
+              <pb n="14"/>
+              <fw type="header" rend="align(center) italic">Les Livres en Braille</fw>
+              <p>Pour le service de la bibliothèque et demandes de renseignements, écrire au Comité
+                Central de l'Œuvre, 51, boulevard de l'Égalité à Nantes (Loire-Inférieure).</p>
+              <p>Fondateur de l'Œuvre, Directeur Général.</p>
+              <p>
+                <hi rend="italic">Monsieur Edmond Rostand, de l'Académie Française, vient d'informer
+                  par un mot charmant M. Bertagne, qu'il acceptait la Présidence d'honneur de
+                  l'Œuvre Nationale du Livre des Aveugles de la Guerre.</hi>
+              </p>
+              <p>A. BERTAGNE.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h15">LES LIVRES EN BRAILLE</head>
+              <p>Dans ses premiers numéros le <hi rend="italic">Journal des soldats Blessés aux
+                  yeux</hi> a fait une large place à toutes les œuvres s'occupant des aveugles, soit
+                avant la guerre, soit depuis. A côté de ces grandes et belles entreprises : «
+                Association Valentin-Haüy », « Le Phare de France », « Reuilly » et tant d'autres,
+                il y en a de plus modestes, de toutes petites même, qui cependant mériteraient
+                d'être plus connues de ceux à qui elles s'adressent tout spécialement. Ces œuvres
+                sont les « Imprimeries locales en Braille », qui travaillent presque toutes avec le
+                système Vaughan. La grande majorité de ces œuvres ne sont que des dépendances
+                morales et matérielles, dans ce sens qu'elles impriment les livres qu'on leur
+                signale, à un petit nombre d'exemplaires (10-25), uniquement destinés à être
+                distribués par les soins de l'œuvre principale. « La Roue » suit son propre
+                programme en imprimant des méthodes de langues et des ouvrages commerciaux. « Le
+                livre de l'Aveugle » n'entreprend la reproduction de volumes destinés aux aveugles
+                intellectuels que s'ils lui sont expressément demandés par les intéressés
+                eux-mêmes.</p>
+              <p>Dans cet ordre d'idées, il faut signaler à ceux qui s'occupent des blessés aux yeux
+                « L'Œuvre du Livre pour Soldats aveugles » de Pontarlier (Doubs). Ce qui distingue
+                cette imprimerie des autres, c'est que fondée au printemps 1916, par M. René
+                Bastian, alors soldat au Contrôle militaire postal de cette ville, le travail est
+                fait par des militaires qui y consacrent leurs heures de repos, le soir. Un
+                important stock de papier ayant été constitué, l'imprimerie continuera à fonctionner
+                après la guerre, grâce à un Comité de dames. L'Œuvre de Pontarlier offre
+                gratuitement les livres qu'elle imprime, port compris. Elle a déjà fait paraître «
+                Farce normande », de Guy de Maupassant et « Notre France », en deux volumes,
+                spécialement destinés aux aveugles de guerre. « Notre France », ce sont des pages de
+                gloire, pages écrites par les plus illustres et les plus autorisés de nos écrivains
+                : Anatole France, Lacour-Gayet, Camille Jullian, Marcel Marion, Salomon Reinach,
+                Gabriel Hanotaux, etc. Cet ouvrage a été tiré à cent exemplaires. A l'heure
+                actuelle, Pontarlier a sous presse « Le Guide du Soldat aveugle », tome I, contenant
+                les œuvres s'occupant à Paris des blessés aux yeux. Une deuxième édition, qui
+                probablement sera tirée à plusieurs centaines d'exemplaires, est en préparation au «
+                Phare de France », « L'Œuvre du Livre pour Soldats aveugles », déclarée œuvre de
+                guerre, a été logée par les soins de la Municipalité de Pontarlier, dans un de ses
+                immeubles, 3, rue Notre-Dame. C'est là qu'il y a lieu d'adresser la
+                correspondance.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h16">LE PETIT DOIGT</head>
+              <p>
+                <hi rend="italic">Pontorson, 15 août 1917.</hi>
+              </p>
+              <p>Monsieur,</p>
+              <p>Croyez que je suis sensible à l'honneur que vous me faites de m'écrire et, puisque
+                vous me demandez de vous exposer les observations que m'inspire le grand sujet de la
+                rééducation de nos glorieux aveugles de la guerre, je m'empresse de répondre à votre
+                appel. Je ne me crois pas très compétente en la matière, car, aveugle depuis
+                l'enfance, je n'ai pas eu à faire ma rééducation, mais me plaçant au point de vue du
+                soldat aveugle, j'estime que, autant que possible, il est bon de lui conserver son
+                milieu, son métier, ses occupations <note type="foliation">— 13 —</note>
+                <pb n="15"/>
+                <fw type="header" rend="align(center) italic">Les Livres en Braille</fw>
+                d'autrefois. Nous nous familiarisons tous et sans nous en rendre bien compte avec
+                tout ce qui nous entoure. Les voyants ne disent-ils pas d'un endroit qui leur est
+                connu : « Moi, j'irais là les yeux fermés » et d'une chose qui leur est habituelle :
+                « Je ferais cela les yeux fermés. » Du reste, Monsieur, vous avez compris dès la
+                première heure cette nécessité de remettre l'aveugle à la place qu'il occupait quand
+                il était encore voyant, et votre œuvre tend tout entière vers ce résultat.</p>
+              <p>Il est un cas que je veux vous soumettre et qui m'a suggéré une idée que je crois
+                nouvelle, ce qui peut-être n'en fait pas l'excellence : un jeune homme de la classe
+                15 a perdu la vue par une balle ; il a été soigné à Paris. On lui a appris le
+                Braille.</p>
+              <p>Le pauvre garçon n'a pu continuer d'être garçon de ferme, n'ayant pas de ferme à
+                lui ; on lui a donc appris le paillage, et il connaît bien son métier.</p>
+              <p>Mais comme rentré chez lui, je lui offrais de lui prêter des livres Braille, il me
+                dit : « Oh ! c'est inutile, Madame, j'ai les doigts durcis par le travail que je
+                fais et je ne sens plus assez exactement les points pour lire. »</p>
+              <p>Voici donc l'idée qui m'est venue : pourquoi ne tenterait-on pas d'apprendre aux
+                soldats aveugles, ou voire à ceux qui sont astreints à un travail susceptible de
+                leur durcir les doigts ? pourquoi ne tenterait-on pas, dis-je, de leur apprendre à
+                se servir, pour lire du petit doigt qui, prenant moins part aux travaux manuels,
+                risque moins de se durcir ? La position de la main sera peut-être moins gracieuse,
+                mais l'aveugle pourra lire et ce sera le point capital.</p>
+              <p>L'aveugle des campagnes a, je crois, besoin de lire plus qu'un autre à cause de
+                l'isolement auquel il est exposé ; son entourage tout d'abord comprend souvent mal
+                ce qu'il faut être vis-à-vis de lui ; on sait le plaindre, on lui répète à chaque
+                instant que c'est bien triste d'être comme cela et puis, comme il faut aller au
+                champ, on l'assied au coin de l'âtre ou au bord d'un fossé. C'est là qu'un livre lui
+                ferait du bien !...</p>
+              <p>Veuillez agréer, etc.</p>
+              <p>LESDOITY-PRIOUL.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h17">Nouvelles Diverses</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h18">UNE NOMINATION BIEN
+                MÉRITÉE</head>
+              <p>Le professeur H. Truc, médecin-major de 1^{re} classe, vient d'être nommé médecin
+                principal. C'est un avancement largement mérité et dont nous sommes heureux de le
+                féliciter.</p>
+              <p>M. Truc, dès le début des hostilités, a repris du service en même temps que son
+                fils aîné, tué en Champagne, s'engageait pour la durée de la guerre. Il n'a cessé
+                depuis de faire vaillamment tout son devoir patriotique.</p>
+              <p>Chef du centre ophtalmologique de la 16<hi rend="superscript">e</hi> région,
+                médecin-expert aux conseils de réforme, médecin-chef à l'hôpital 48,
+                directeur-fondateur de l'École des Soldats aveugles régionaux, il a partout fait
+                preuve de la plus grande activité et du plus généreux dévouement. M. Truc est
+                officier de la Légion d'honneur.</p>
+              <p>30 juillet. 1917</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h19">DOCTORAT EN MÉDECINE</head>
+              <p>On lit dans <hi rend="italic">l'Est Républicain</hi> :</p>
+              <p>Mardi, a été soutenue devant la Faculté de Nancy, la thèse de doctorat de notre
+                concitoyen, M. Yacs Bozellec, médecin aide-major dans un bataillon de chasseurs,
+                décoré de la médaille militaire et de la croix de guerre.</p>
+              <note type="foliation">— 14 —</note>
+              <pb n="16"/>
+              <fw type="header" rend="align(center) italic">Nouvelles Diverses</fw>
+              <p>Le jeune docteur qui, quoique très grièvement blessé et encore en traitement dans
+                un hôpital parisien, avait mené à bonne fin son travail, a été admis au grade avec
+                la mention <hi rend="italic">très bien</hi> et les félicitations du jury, auxquelles
+                s'étaient jointes celles de M. le recteur Adam, présent à la cérémonie.</p>
+              <p>Le docteur Bozellec est le fils de M. Jean Bozellec, actuellement capitaine aux
+                armées, chevalier de la Légion d'honneur et décoré de la croix de guerre, et
+                petit-fils de M. Houbre, ancien architecte adjoint de la ville, récemment
+                décédé.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h20">VENTE DE PROPRIÉTÉS</head>
+              <p>Notre camarade Robert Vérité, soldat de la classe 1915 et blessé à Massiges le 28
+                septembre 1915, a l'intention de fonder à Tours un cabinet de négociations
+                immobilières et de ventes de propriétés.</p>
+              <p>Notre jeune ami faisait son droit au moment de la guerre; aidé par les conseils de
+                son père, expert près les tribunaux et la Cour, il sera certainement à même de
+                procurer de bonnes affaires aux étrangers qui, la guerre finie, viendront se rendre
+                acquéreurs de quelque propriété dans ce joli coin de France.</p>
+              <p>Peut-être même n'attendront-ils pas la fin de la guerre pour cela. Déjà de nombreux
+                Américains, aviateurs, ingénieurs et autres, ont débarqué chez nous; de tous temps,
+                ils ont aimé le Jardin de la France; je suis sûr que ceux qui désireraient y trouver
+                une propriété seraient heureux d'être guidés dans leur choix par un de nos
+                soldats.</p>
+              <p>Que ceux-là aillent 25, rue Boisdenier, à Tours, Robert Vérité se fera une joie de
+                les conseiller.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h21">L'AMITIÉ DES AVEUGLES DE
+                FRANCE</head>
+              <p>Union des Aveugles civils et militaires</p>
+              <p>
+                <hi rend="italic">Siège social, 61, avenue de la République Montrouge (Seine).</hi>
+              </p>
+              <p>M. BERGER, Président.</p>
+              <p>Voici les renseignements généraux sur cette œuvre nouvelle.</p>
+              <p>Article premier. — L'Association fondée sous le titre Amitié des Aveugles de
+                France, se propose d'établir des rapports amicaux entre tous les Aveugles, de les
+                faire mieux apprécier du public, de servir leur cause commune en toutes
+                circonstances et par tous les moyens à sa disposition, de lutter pour eux contre
+                l'indifférence, et, le cas échéant, contre l'injustice.</p>
+              <p>
+                <hi rend="italic">Art. 2. — Cherchant avant tout l'amélioration de la condition
+                  morale, intellectuelle et sociale des Aveugles, l'Amitié se propose en
+                  particulier:</hi>
+              </p>
+              <p>
+                <hi rend="italic">1° D'appeler les Aveugles à étudier, à discuter entre eux les
+                  questions qui les concernent, et à formuler eux-mêmes les solutions qu'elles
+                  comportent.</hi>
+              </p>
+              <p>
+                <hi rend="italic">2° De faire connaître au public, par des conférences, par des
+                  brochures, par des articles de journaux, et par tous autres moyens de propagande,
+                  ce que sont les Aveugles, ce qu'ils désirent;</hi>
+              </p>
+              <p>
+                <hi rend="italic">3° D'agir auprès des Pouvoirs publics et des œuvres privées en vue
+                  d'obtenir la coordination des efforts faits en faveur des Aveugles, et l'adoption
+                  des mesures que les Aveugles jugent nécessaires;</hi>
+              </p>
+              <p>
+                <hi rend="italic">4° D'assurer aux Aveugles la part qui leur revient dans
+                  l'élaboration et dans l'application des dites mesures.</hi>
+              </p>
+              <p>Pour plus amples informations, s'adresser à M. l'abbé Porak, 176, boulevard
+                Saint-Germain, Paris.</p>
+              <p>
+                <hi rend="bold">Le "Journal des Blessés aux Yeux" n'est pas mis dans le commerce; il
+                  est adressé à ces blessés et aux personnes qui s'intéressent à eux.</hi>
+              </p>
+              <p>
+                <hi rend="bold">Tout soldat blessé aux yeux qui s'établira, à Paris ou en Province,
+                  aura droit à une ANNONCE GRATUITE.</hi>
+              </p>
+              <note type="foliation">— 15 —</note>
+              <pb n="17"/>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h22">COURRIER des THÉATRES
+                Concert de Bienfaisance</head>
+              <p>On nous écrit d'Épinal :</p>
+              <p>Continuant l'œuvre qu'elle a entreprise depuis novembre 1915, l'Association des
+                Concerts aux hôpitaux militaires donnait, dimanche dernier, en matinée, un très
+                intéressant concert dans la superbe salle presque achevée de Palace-Théâtre,
+                obligeamment prêtée par les administrateurs.</p>
+              <p>Six à sept cents blessés et malades y assistaient gratuitement et les places qui
+                restaient furent littéralement prises d'assaut par un public sélect et des plus
+                connaisseurs.</p>
+              <p>Le programme était des plus variés. Mlle Jane Prince, notre compatriote, premier
+                prix du Conservatoire de Nancy, obtint un brillant succès avec l'air de <hi
+                  rend="italic">Galathée</hi> , celui du <hi rend="italic">Barbier de Séville</hi>
+                et le « Pourquoi » de <hi rend="italic">Lakmé</hi> . Les fleurs ne lui furent pas
+                plus ménagées que les applaudissements.</p>
+              <p>M. Hagenbach, premier prix du Conservatoire de Paris, y a interprété avec un brio
+                extraordinaire et avec un sentiment rare des œuvres pour piano de Chopin et de sa
+                composition.</p>
+              <p>M. Caille, d'une superbe voix de basse profonde, a soulevé son auditoire avec l'air
+                de <hi rend="italic">La Juive</hi> , celui de <hi rend="italic">Patrie</hi> et <hi
+                  rend="italic">Hérodiate</hi> .</p>
+              <p>M. Gendreu, premier prix de violon du Conservatoire de Bordeaux, est un virtuose
+                grand talent qui a su faire apprécier ses qualités dans le <hi rend="italic"
+                  >Prélude</hi> de Saint-Saëns et la <hi rend="italic">Berceuse</hi> de Fauré.</p>
+              <p>M. Krégenbiehl, lauréat du Conservatoire de Nancy, a eu de nombreux bravos avec la
+                  <hi rend="italic">Cavatine</hi> de Raff et le <hi rend="italic">Final</hi> de
+                Saint-Saëns.</p>
+              <p>Très bien également le baryton Dastugue, avec l'air du <hi rend="italic"
+                  >Toréador</hi> et <hi rend="italic">Benvenuto</hi> .</p>
+              <p>Pour la partie comique, un acrobate contorsionniste, M. J. Cazeau, a surpris tout
+                autant qu'il a amusé son public. M. A. Schwartz est un amateur qui rendrait des
+                points à bien des professionnels dans un répertoire aussi gai que convenable. M.
+                Fred Rag'hott a soulevé l'hilarité avec des chansons de café-concert.</p>
+              <p>Un brillant orchestre, dirigé par M. A. Julard, complétait ce beau programme et a
+                obtenu un succès très mérité.</p>
+              <p>L'intéressant est qu'en plus d'avoir amusé gratuitement de nombreux poilus, l'œuvre
+                pourra verser encore 500 à 600 francs aux diverses œuvres de bienfaisance. Les frais
+                ne sont pas très élevés, puisque tous les artistes veulent bien offrir gracieusement
+                leur concours.</p>
+              <p>A tous, encore, merci !</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h23">UN ANNIVERSAIRE École de
+                Saint-Brieuc</head>
+              <p>Le 23 juillet dernier, nous avons fêté le premier anniversaire de l'ouverture de
+                notre École. Cette fête très simple et tout intime nous a fourni l'occasion de
+                rappeler le souvenir des camarades qui nous ont quittés, celui des nombreux amis qui
+                nous ont soutenus et de juger ensemble des résultats obtenus jusqu'à ce jour.</p>
+              <p>Pendant l'année, 49 élèves sont entrés à l'École : 5, étrangers à la Région ou
+                insuffisamment guéris, n'y ont séjourné que peu de temps ; 25 y ont fait un
+                apprentissage complet et sont actuellement établis dans leurs familles. La plupart
+                d'entre eux, anciens cultivateurs, ont repris en partie leurs occupations
+                d'autrefois, tout en exerçant les métiers qu'ils ont appris dans nos ateliers. — Je
+                voudrais pouvoir mettre sous vos yeux les lettres qu'ils nous écrivent, notamment
+                celles de Lagneul, de Tallec, Pasquiou, Gautier, Trotel, Lourdon, Valy... Ces
+                lettres, par les détails qu'elles contiennent, et la bonne humeur qu'elles
+                respirent, sont, en effet, la meilleure preuve de l'utilité de notre École et de sa
+                portée.</p>
+              <p>Ce succès est dû assurément à l'excellent moral de nos aveugles bretons, mais il
+                est dû aussi à l'appui que nous avons trouvé auprès de vous et auprès des
+                différentes œuvres qui se sont fondées à Paris pour nous venir en aide. Nos élèves
+                ne l'ignorent pas et ils en sont à tous infiniment reconnaissants. Ce qui importe,
+                maintenant, c'est qu'entre ces œuvres, une entente et une organisation
+                s'établissent, qui leur permettent d'éclairer sûrement leur générosité. S'il en
+                était autrement, les conséquences en seraient tâcheuses. Les habiles peu scrupuleux
+                recevraient de toutes les mains, et les timides candides seraient toujours
+                oubliés.</p>
+              <p>Notre reconnaissance n'est pas moins vive pour les auxiliaires modestes que nous
+                avons trouvés dans la région, jusque dans nos écoles de hameau et qui se sont imposé
+                la tâche d'assurer du travail à nos ouvriers, de les réconforter, aux heures de
+                découragement et de leur donner, en toute occasion, cette impression si apaisante
+                qu'ils ont des amis discrets et sûrs autour d'eux.</p>
+              <p>Cette aide, sur place, est surtout indispensable à ceux de nos aveugles qui se sont
+                établis dans des villages isolés où manquent les clients ; à ceux dont l'esprit très
+                simple n'entendra jamais rien aux affaires ; à ceux aussi, à ceux surtout, dont la
+                santé est délicate.</p>
+              <note type="foliation">— 16 —</note>
+              <pb n="18"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h24">Lettres de nos Camarades</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h25">Le bonheur est aux
+                champs</head>
+              <p>Monsieur Brieux,</p>
+              <p>Je vous adresse ces quelques mots pour vous faire connaître d'une façon aussi
+                précise que possible les conditions de ma vie nouvelle. Quand j'ai quitté Chartres
+                j'appréhendais un peu mon retour au foyer et me demandais non sans anxiété ce que je
+                pourrais faire, qu'à l'école je n'avais appris aucun métier. Je ne sais si c'est
+                l'air de la campagne qui me redonne un peu d'espoir; mais sitôt arrivé j'avais
+                besoin de faire quelque chose, j'éprouvai le désir de me remettre aux travaux de la
+                ferme.</p>
+              <p>Je vous assure monsieur Brieux que je fis pendant quelque temps de la bonne
+                rééducation et aujourd'hui je vais me permettre de vous énumérer les différents
+                travaux que je fais.</p>
+              <p>Mes journées entières sont occupées, je soigne le bétail, attelle et dételle mes
+                chevaux, au moment de la pique des pommes de terre j'en ai fait une grande partie
+                accompagné de mon enfant de 4 ans, la pique des choux, des betteraves ne
+                m'embarrasse pas du tout, je vais dans mon grenier sans besoin de personne et donne
+                à manger à mes bêtes moins vite qu'avant c'est certain, mais aussi sûrement. Je
+                descends ds mon grenier des sacs pleins de graines, je fabrique le beurre, tire de
+                l'eau, fais la soupe au besoin quand ma femme est aux champs.</p>
+              <p>Fait-il mauvais temps, je ne m'ennuie pas pour cela, j'ai des champs à clore, je
+                fais des barrières, pour cela il faut percer des trous, armé d'un vilebrequin ou
+                d'une tarière, je vous assure que je m'en tire bien. Et si le mauvais temps persiste
+                je fais ou raccommode nos paniers.</p>
+              <p>Voilà ce que j'ai pu faire jusqu'ici sans oublier naturellement les travaux de
+                fenaison, je ne vais pas très vite mais je fais des petites meules ou meulons, les
+                arrondis aussi bien que n'importe qui.</p>
+              <p>Vous voyez, monsieur, que quoique malheureux de ne plus y voir, il ne faut pas s'en
+                faire car on est encore bon à quelque chose.</p>
+              <p>J'ai bien reçu tous les numéros de votre journal et vous en remercie bien
+                sincèrement et vous prie de dire aux cultivateurs aveugles qu'avac un peu de bonne
+                volonté ils arriveront à bien travailler malgré cette rude infirmité.</p>
+              <p>Veuillez agréer,</p>
+              <p>Cultivateur à Panon (Sarthe.)</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h26">Apprenez à
+                travailler!</head>
+              <p>La Jonchère,</p>
+              <p>Cher Monsieur Brieux,</p>
+              <p>J'ai été blessé tout à fait au début de la campagne, le 28 août, où je restais
+                quatre jours sur le champ de bataille, pris par les Allemands, je fus transporté
+                dans une ambulance de Trèves où j'ai resté jusqu'au 24 septembre, puis j'ai été
+                transporté à Cologne où j'ai fait un long séjour, me voyant seul et sans famille
+                étant chez nos ennemis, je me suis souvent demandé ce que j'allais devenir.
+                Lorsqu'au mois de décembre 1914, les Allemands nous parlaient d'un échange de
+                blessés entre toutes les nations, j'y croyais peu pour commencer, mais cela me
+                donnait un peu de courage quand même, enfin le 15 février, mes camarades et moi,
+                nous prenions le train pour revenir en France, nous avons voyagé pendant 24 heures,
+                puis on nous débarqua tout près de la Suisse où nous restions jusqu'au 6 mars,
+                enfin, le soir, nous embarquions dans un train sanitaire de Suisse et, le lendemain,
+                nous arrivions à Lyon, mes camarades et moi, nous avons éprouvé une grande joie de
+                ne plus entendre parler le boche; ensuite, on nous a transportés au Bourget, où je
+                suis resté un mois, et de là je suis venu à Paris; j'étais très content, pensant que
+                peut-être je retrouverais mes frères; on m'emmena à l'École de rééducation de
+                Reuilly, où l'on voulait me faire travailler, mais je ne voulais rien savoir, car à
+                ce moment-là, j'avais bien le cafard et je me disais en moi-même: Que veut-on bien
+                me faire faire? J'ai commencé tout d'abord par des annonces sur les journaux à faire
+                rechercher <note type="foliation">— 17 —</note>
+                <pb n="19"/>
+                <fw type="header" rend="align(center) italic">Lettres de nos Camarades</fw> mes
+                frères; c'est enfin que le 20 mai l'un de mes frères est venu me chercher à l'annexe
+                des Quinze-Vingts. Pensez, Monsieur, quelle joie pour moi et quelle surprise pour
+                mon frère! J'étais si heureux de ne plus être seul, que je ne peux exprimer la joie
+                que j'éprouvais; tous les jeudis ma belle-sœur venait me voir, et tous les samedis
+                soir on venait me chercher. Le 15 juin, je partais avec mon frère pour passer
+                quelques jours à la campagne où je suis en ce moment, où j'ai été heureux de me
+                trouver avec mes anciens camarades qui, tout comme mon frère, me conseillent
+                d'apprendre un métier, et c'est après un court séjour à la campagne, que je suis
+                revenu à Reuilly et me suis décidé à me mettre au travail; c'est alors que, peu de
+                temps après, j'apprenais le métier de brossier. J'ai quitté l'annexe pour me marier.
+                Après être marié, j'ai été terminer mon apprentissage à l'Association Valentin Haüy;
+                après avoir fini, je suis venu m'établir brossier à La Jonchère où j'ai fait
+                l'héritage d'un petit garçon qui fait ma joie et ma consolation, et je suis très
+                heureux de ma nouvelle vie, et je ne saurais jamais assez conseiller à mes camarades
+                d'infortune d'apprendre à travailler et de chercher à se créer un foyer et une
+                famille, depuis que je suis dans mon petit chez moi, je me mets à faire bien des
+                choses, j'aide à ma femme à faire le ménage, à faire la vaisselle, je lui scie son
+                bois, j'ai fait moi-même un petit placard dans ma cuisine, un porte-manteau dans ma
+                chambre. Je tiens mon petit garçon. Un jour que ma femme avait été obligée de
+                s'absenter, c'est moi qui ai fait à manger, tout était prêt quand elle est rentrée.
+                Je fais les commissions, je vais chercher de l'eau à la fontaine, je finis par
+                oublier que je n'y vois plus, et c'est pour moi une grande consolation; lorsque
+                j'étais en Allemagne, je n'aurais jamais pensé qu'il arriverait un jour où je serais
+                si heureux; j'ai des joies et des satisfactions que je n'avais jamais eues en y
+                voyant clair, et j'aime autant ma vie présente que ma vie passée. Dans la brosserie,
+                je fais tout ce qui peut se faire; il n'y a que pour plaquer et vernir que je ne
+                peux pas. c'est ma femme qui le fait.</p>
+              <p>Je viens, encore une fois, vous remercier de tous les dévouements que vous avez eus
+                pour les camarades et pour moi.</p>
+              <p>Veuillez agréer, etc.</p>
+              <p>Auguste FRIMBAUD, 100e d'infanterie, La Jonchère (Haute-Vienne).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h27">« En le voyant travailler,
+                on dirait qu'il y voit! »</head>
+              <p>
+                <hi rend="italic">Saint-Étienne-de-Gourges,</hi>
+              </p>
+              <p>Monsieur Brieux,</p>
+              <p>J'ai reçu tous les numéros parus du Journal des Blessés aux yeux, et je vous en
+                remercie. Merci aussi pour l'initiative que vous prenez vis-à-vis de ces grands et
+                malheureux blessés, et qui méritent tant par leur infortune qu'on s'occupe d'eux.
+                J'ai mon fils qui est un de ceux qui ont donné à la Patrie ce qu'ils avaient de plus
+                précieux. A 21 ans, une balle lui a traversé la tête au niveau des deux yeux,
+                coupant les deux nerfs optiques; de suite la nuit pour toujours. Devant un cas
+                pareil, je crois que les mères souffrent plus que ceux qui sont atteints. Il a été
+                soigné à Paris, son traitement a duré six mois, après lequel il est venu à la
+                maison. Chose étonnante, il n'a jamais voulu apprendre à lire et à écrire la méthode
+                des aveugles. Il possède une instruction supérieure et connaît la musique
+                suffisamment pour se distraire, et possède par-dessus tout une philosophie qui le
+                fait admirer de tous ceux qui le connaissent. Je tiens à vous dire, monsieur Brieux,
+                pour que vous vouliez bien le répéter à tous ceux qui, comme lui, ont été si
+                sérieusement atteints, que depuis sa blessure il n'a jamais eu un moment d'ennui ni
+                de révolte, qu'il s'est habitué très facilement à ne plus y voir, qu'il est très
+                content, toujours joyeux, c'est lui qui amuse et distrait le peu de jeunes gens qui
+                restent.</p>
+              <p>Il se plaît beaucoup dans notre village où il se rend utile à la propriété. En ce
+                moment il déchausse les souches, en le voyant travailler, on dirait qu'il y voit;
+                tous les voisins sont surpris de le voir faire et l'admirent, bien entendu,
+                puisqu'il est guidé par le domestique que nous avons.</p>
+              <note type="foliation">— 18 —</note>
+              <pb n="20"/>
+              <fw type="header" rend="align(center) italic">Lettres de nos Camarades</fw>
+              <p>Il est très heureux de pouvoir partir le matin au travail et d'y retourner
+                l'après-midi. Je voudrais souvent qu'il fasse une journée moins longue, mais il me
+                dit en riant : « Tu sais, l'agriculture manque de bras. Le travail est le dérivatif.
+                » Aussi, monsieur Brieux, conseillez à tous ceux qui ont de la propriété, même
+                petite, de s'en occuper. A mon avis, je sais par mon fils, qu'on peut faire beaucoup
+                de travaux à la campagne en n'y voyant pas. Ceux qui sont mariés, aidés par leur
+                femme ou enfants, peuvent faire beaucoup.</p>
+              <p>Veuve ABEILHE.</p>
+              <p>Saint-Étienne-de-Gourgas, par Soubès (Hérault).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h28">« Nous pouvons nous rendre
+                utiles! »</head>
+              <p>Monsieur Brieux,</p>
+              <p>Je ne peux pas vous écrire moi-même, parce que je ne sais pas encore écrire en
+                Braille ; pour moi, ce ne sera plus long d'apprendre, parce que je ne savais pas
+                lire ni écrire quand j'étais clairvoyant. Mais je veux vous dire que je suis été
+                bien heureux d'avoir pu venir à l'École des Mutilés de Bayonne pour apprendre à
+                travailler de façon à pouvoir gagner ma vie.</p>
+              <p>Quand j'étais chez moi je ne faisais rien toute la journée, et alors j'étais triste
+                et je m'ennuyais. Mais depuis deux mois que je suis à l'école, j'ai appris le
+                remplaillage des chaises, et, en revenant du congé de Pâques, je vais commencer à
+                faire les brosses. Me voilà donc maintenant à l'abri du besoin, je suis aussi bien
+                content de voir que je ne suis pas une charge pour ma famille.</p>
+              <p>Mes camarades blessés aux yeux et moi nous avons été bêcher le jardin et semer les
+                pommes de terre. Nous avons été bien contents de faire ce travail et de voir que
+                nous pouvons nous rendre utiles.</p>
+              <p>Pierre MONTAULIEU,</p>
+              <p>École des Mutilés, Bayonne.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h29">Je ne suis pas à
+                plaindre</head>
+              <p>Monsieur,</p>
+              <p>Permettez à un jeune poilu de la classe 1915 de vous adresser les lignes qui
+                suivent :</p>
+              <p>C'est dans le courant de la même année, le 18 mai exactement, que je fus blessé aux
+                yeux par un éclat d'obus qui entraîna la perte totale de la vue. Je me trouve à
+                Marseille, chez mes parents, depuis le 12 mai 1916.</p>
+              <p>Bien souvent ma pensée se reporte aux beaux jours que j'ai vécus à Reuilly en la
+                compagnie de mes chers camarades, en la sollicitude discrète de nos dévouées
+                infirmières, qui jetaient sur notre existence un reflet de pure clarté — cette
+                clarté du cœur et de l'âme — qui illuminait parfois les profondes ténèbres
+                auxquelles nous sommes voués, nous les grands mutilés de la grande guerre.</p>
+              <p>Sans doute au sein de ma famille, je suis entouré de tous les soins qu'une mère, un
+                père, une sœur, peuvent apporter à l'enfant prodigue et aimé davantage à cause des
+                souffrances qu'il a endurées ou qu'il rencontre inévitablement sur son chemin, dans
+                la rue, en croisant des personnes... charitables!!! dont la bonté se résume en ces
+                mots : « Oh ! le malheureux. Il est bien à plaindre. » Eh bien non ! ai-je envie de
+                leur crier, de les souffler au visage ; Ce n'est pas moi qui suis à plaindre, c'est
+                vous, vous qui vous attristez sur le sort d'un gars qui a fait tout son devoir, qui
+                est tombé face à l'ennemi, sans un mot de regret, pour un noble idéal — cet idéal
+                sacré pour lequel le moindre citoyen devrait se sacrifier sans arrière-pensée, dans
+                la pure satisfaction du devoir pleinement accompli.</p>
+              <p>Oui, monsieur Brieux, je ne regrette ni mon enfance heureuse, ni ma jeunesse
+                captive, puisque ma présence sur le front a contribué pour sa modeste part à sauver
+                la civilisation de la barbarie boche. Voilà ce que je tiens à faire savoir, à tous
+                ceux, à toutes celles qui s'apitoyent sur mon sort.</p>
+              <p>Mon sort ! J'estime qu'il ne doit pas attirer la commisération des foules.</p>
+              <p>Les plaintes sont superflues, puisque je connais par avance toute leur
+                signification.</p>
+              <p>Combien de fois n'ai-je pas réfléchi sur les beautés de la vie qui m'ont été ravies
+                : soleil, printemps, couleurs. Oui, je sais. Une âme mal trempée pourrait s'effrayer
+                devant la perspective d'une nuit éternelle, que pas un rayon de clarté, même
+                éphémère, ne vient l'auréoler.</p>
+              <note type="foliation">— 19 —</note>
+              <pb n="21"/>
+              <fw type="header" rend="align(center) italic">Lettres de nos Camarades</fw>
+              <p>Mais tel n'est pas mon cas et celui de beaucoup d'autres de mes camarades, je
+                pense. Ma volonté indomptable, irréductible, se tend et s'insurge devant la réalité
+                et alors, ô joie, la vision du devoir resplendit dans mon rêve et bannit victorieuse
+                les pensées moroses et le cauchemar accablant des souvenirs de prime jeunesse et
+                d'avant-guerre.</p>
+              <p>Veuillez agréer...</p>
+              <p>Pierre MONDOLINI, ex-poilu du 415<hi rend="superscript">e</hi> d'infanterie, 64,
+                rue d'Albrand (Marseille).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h30">Le travail est à recommander
+                à tous</head>
+              <p>
+                <hi rend="italic">Trun, le 26 Mai 1917.</hi>
+              </p>
+              <p>Monsieur Brieux,</p>
+              <p>Permettez-moi, Monsieur Brieux, de vous donner quelques renseignements sur ma
+                situation actuelle. Blessé de la Marne (7 septembre 1914), j'entrai à la Maison de
+                Reuilly à l'ouverture; d'abord hésitant comme tant d'autres de mes camarades sur la
+                possibilité où je me trouvais de travailler, mais aimant beaucoup la lecture, je me
+                mis à apprendre le Braille et fus bientôt surpris moi-même du résultat. Un peu
+                encouragé par ce petit succès, je tâtai de la brosserie dès l'ouverture de
+                l'atelier, j'arrivai assez vite à me perfectionner. J'avais appris ce métier dans
+                l'espoir de pouvoir l'exercer au pays et dans le milieu où j'avais vécu. Tout s'est
+                bien passé ainsi et je n'ai qu'à me féliciter d'avoir ainsi appris à travailler.</p>
+              <p>C'est dans mon petit atelier que je passe la plus grande partie de mon temps et
+                avec quelques diversions, lecture et petites promenades, les journées me semblent
+                passer vite, très vite même.</p>
+              <p>Le travail est nécessaire pour le supplément de ressources qu'il peut apporter,
+                mais aussi à cause de l'occupation qu'il fournit à l'esprit en écartant l'ennui qui
+                ne manque pas de nous assaillir. C'est à mon avis le plus sûr remède pour le
+                vaincre.</p>
+              <p>Veuillez agréer, etc.</p>
+              <p>Ancien Sergent du 304<hi rend="superscript">e</hi> d'infanterie.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h31">Téléphonistes!</head>
+              <p>
+                <hi rend="italic">Toulouse, 28 juin 1917.</hi>
+              </p>
+              <p>Cher monsieur Brieux,</p>
+              <p>Je suis de l'École de Rééducation de la Persagotière à Nantes. Comme j'habitais
+                Nantes avant la guerre et que mon intention est de m'y fixer définitivement, j'ai
+                pensé que je pourrais y trouver un emploi autre que la brosserie ou tout autre
+                métier similaire et surtout plus lucratif. J'ai donc pensé au téléphone et après
+                quelques démarches (facilitées par la bonne volonté de personnalités nantaises) j'ai
+                pu obtenir l'assurance d'avoir une place de téléphoniste à la mairie de Nantes pour
+                y desservir un standard à cent directions.</p>
+              <p>M. Léger, de Toulouse, ayant inventé un appareil pointé, j'ai pu obtenir
+                l'autorisation de faire le déplacement afin de faire mon apprentissage. Je suis ici
+                depuis huit jours et je donne déjà toutes les communications de la mairie de
+                Toulouse qui a un standard à cent directions. Je ne doute pas que mes camarades
+                blessés aux yeux trouvent là un emploi facile et rémunérateur d'autant plus que dans
+                toutes les grandes villes tous les industriels et commerçants possédant un standard
+                ne demanderaient qu'à employer des hommes qui leur rendraient les services complets
+                d'un voyant et dont ils s'assureraient d'avance le plus entier dévouement.</p>
+              <p>A Nantes, à la suite d'un article publié dans le journal <hi rend="italic">Le Phare
+                  de la Loire</hi> , de nombreux industriels que la question avait intéressés,
+                avaient manifesté le désir d'employer comme téléphonistes des blessés aux yeux. Si,
+                comme j'en suis persuadé, je donne entière satisfaction à la mairie de Nantes, il
+                est certain que mes camarades nantais pourront prendre une part active dans la lutte
+                de demain.</p>
+              <p>Comme je sais que votre but est d'adoucir notre sort par tout ce qui est possible,
+                si vous le jugez utile, je vous permets bien volontiers de publier ma lettre dans
+                votre <hi rend="italic">Journal des Blessés aux yeux</hi> et si des camarades
+                trouvant la question intéressante avaient besoin de renseignements, ils pourront
+                m'écrire à mon adresse qui est la suivante:</p>
+              <p>H. GUILLET, 51<hi rend="superscript">e</hi> d'Artillerie, pour le moment en
+                rééducation à l'École de la Persagotière (Nantes).</p>
+              <note type="foliation">— 20 —</note>
+              <pb n="22"/>
+              <fw type="header" rend="align(center) italic">Lettres de nos Camarades</fw>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h32">Deux cordes à son arc</head>
+              <p>Voici maintenant quelques nouvelles sur ma situation : Le métier de fileteur que
+                j'ai appris a beaucoup de succès. Je travaille continuellement dans les filets et
+                c'est à peine si je peux arriver à fournir ma clientèle qui devient de plus en plus
+                nombreuse.</p>
+              <p>D'après ce que l'on me dit, mon travail ne pourrait être mieux et je suis moi-même
+                étonné de la rapidité avec laquelle j'arrive à faire ce travail; c'est un plaisir et
+                une belle distraction que de travailler ainsi; cela me fait totalement oublier que
+                je n'ai plus mes yeux.</p>
+              <p>Pendant la morte saison, c'est-à-dire l'hiver je veux commencer à faire du filet
+                très fin pour ouvrage de dames, j'espère y réussir car à présent j'ai le toucher
+                bien exercé grâce à mon métier et à la lecture Braille qui me fait aussi passer
+                d'agréables moments.</p>
+              <p>Craignant de manquer de travail l'hiver dernier j'ai appris à remplailler les
+                chaises, ce petit métier pourrait m'occuper continuellement car dans la localité où
+                j'habite il n'y a pas de chaisier, mais le profit que je peux en retirer n'est pas
+                très élevé, alors je reviendrai aux chaises quand les filets auront moins de
+                presse.</p>
+              <p>Enfin, je crois que dans ma situation on ne peut s'ennuyer quand on aime le
+                travail.</p>
+              <p>Évaux-les-Bains, le 21 juin 1917.</p>
+              <p>Henri ALBERT</p>
+              <p>à l'Aubretière, par Montournais (Vendée).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h33">Le travail chasse
+                l'ennui</head>
+              <p>Monsieur Brieux,</p>
+              <p>Tout d'abord vous voudrez bien m'excuser du retard apporté à venir vous accuser
+                réception du <hi rend="italic">Journal des Blessés aux yeux</hi> que vous avez bien
+                voulu m'envoyer. Je vous en remercie bien. Mes parents me l'ont lu et cela m'a causé
+                un réel plaisir d'entendre lire les belles et encourageantes lettres de mes
+                camarades privés de la lumière. Si je ne crains de vous importuner, je veux bien
+                vous dire quelques mots de mon histoire qui ressemble à tant d'autres.</p>
+              <p>D'abord je vous dirai que je suis un fantassin du 338<hi rend="superscript">e</hi>
+                d'infanterie. Parti le deuxième jour de la mobilisation 1914 sur le front de
+                Belgique et après vingt et un mois de front j'ai été blessé dans la Somme à
+                Méharicourt le 19 avril 1916 où j'ai presque totalement perdu la vue. Je suis resté
+                dans les hôpitaux un an croyant toujours y revoir. Mais voyant que c'était toujours
+                la même chose et que la vue ne me revenait pas j'ai demandé à rentrer dans une de
+                vos écoles et l'on m'a envoyé à Bordeaux où je suis encore.</p>
+              <p>J'apprends à faire les brosses, le cannage et aussi la vannerie et je vous assure
+                que je n'aurais jamais cru aussi bien arriver, sans quoi j'y serais venu bien plus
+                vite, comme disait mon camarade il faut avoir confiance dans l'avenir, en
+                travaillant on arrive à tout.</p>
+              <p>Monsieur excusez-moi de ce long bavardage et encore bien merci pour votre journal
+                qui nous réconforte tous.</p>
+              <p>Recevez etc...</p>
+              <p>Pierre VEVRET</p>
+              <p>338<hi rend="superscript">e</hi> d'Infanterie, convalescent à Mazany, par
+                Aradour-sur-Glane (Haute-Vienne).</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h34">« Le message des canons
+                »</head>
+              <p>
+                <hi rend="italic">Saint-Étienne, le 17 juillet 1917.</hi>
+              </p>
+              <p>Cher Monsieur Brieux.</p>
+              <p>Vous m'excuserez si j'ai tardé à vous écrire pour vous remercier de votre journal
+                qui m'intéresse beaucoup; j'attendais d'avoir fini l'essai d'un nouveau métier pour
+                les soldats aveugles atteints de cécité complète.</p>
+              <p>Comme l'essai a parfaitement réussi, je m'empresse de vous l'écrire afin que vous
+                communiquez à mes camarades; ce métier est le dressage du canon à la machine.</p>
+              <p>Ayant été blessé le 9 mars 1915 et réformé au mois de mai de la même année, je suis
+                rentré à l'École de Rééducation où j'ai appris la brosserie et la chaiserie jusqu'au
+                mois de juin 1917, époque à laquelle la manufacture d'armes et cycles de
+                Saint-Étienne m'a fait appeler pour apprendre le dressage du canon à une nouvelle
+                machine inventée par un administrateur de la maison. Je vous dirai que je suis
+                arrivé très facilement; aussi, j'espère que l'on confectionnera beaucoup de machines
+                de ce genre et les camarades qui sont dans mon cas trouveront un emploi facile et
+                rémunérateur.</p>
+              <p>Recevez, etc...</p>
+              <p>CHARRIÈRE.</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h35">L'Écriture Cantonnet</head>
+              <p>
+                <hi rend="italic">Saint-Brévin, 31 mai 1917.</hi>
+              </p>
+              <p>Monsieur,</p>
+              <p>M. le Dr Cantonnet vient de m'adresser une notice concernant une nouvelle méthode
+                d'écriture dont il est l'auteur. Cette méthode permet aux aveugles de correspondre
+                avec les clairvoyants qui ne connaissent pas le</p>
+              <note type="foliation">— 21 —</note>
+              <pb n="23"/>
+              <fw type="header" rend="align(center) italic">Lettres de nos Camarades</fw>
+              <p>Braille et réciproquement. Le principe essentiel de la nouvelle écriture est la
+                reproduction en points des lettres majuscules de l'alphabet des voyants.</p>
+              <p>La méthode du Dr Cantonnet se recommande par son ingénieuse simplicité. Sans étude
+                préalable ma femme a pu lire avec les yeux et moi avec les doigts un spécimen que
+                m'avait adressé M. Cantonnet. L'expérience est concluante.</p>
+              <p>Autre argument : une partie des soldats aveugles ne se décident pas à l'étude du
+                Braille, parce que, disent-ils, il ne s'en serviront jamais. Ils n'ont plus cette
+                excuse avec une écriture qui leur permet après quelques minutes d'apprentissage, de
+                prendre des notes qu'ils peuvent relire, de correspondre avec un fournisseur, un
+                client, un ami. Et quel fournisseur ou ami refuserait les cinq minutes d'étude que
+                la méthode Cantonnet, peut au maximum, exiger d'un clairvoyant ?</p>
+              <p>Il faut remarquer d'ailleurs que cette méthode ne tend nullement à supplanter le
+                Braille puisque son utilisation est limitée aux seules relations entre personnes qui
+                n'auraient jamais communiqué en Braille.</p>
+              <p>Je me suis permis, en écrivant à M. le Dr Cantonnet, une toute petite remarque. Il
+                y aurait avantage, je crois, à ce que les intervalles entre les lettres fussent
+                légèrement augmentés. Chaque caractère se détacherait mieux et la lecture serait
+                plus facile. J'ai été un peu gêné, en lisant le spécimen qui me fut adressé par le
+                rapprochement des lettres. La plupart des militaires aveugles seront plus gênés
+                encore parce que leur profession les aura moins habitués que la mienne à la lecture
+                des points. Mais ce n'est là qu'une observation de détail qui n'infirme en rien la
+                valeur de la méthode.</p>
+              <p>Je m'excuse de vous avoir si longuement parlé d'une innovation que vous connaissez
+                peut-être déjà et je vous prie d'agréer, Monsieur, mes respectueux hommages.</p>
+              <p>DALLET, Instituteur.</p>
+              <p>Nous sollicitons de nos camarades l'envoi de lettres destinées à réconforter les
+                nouveaux blessés.</p>
+              <p>Celles qui seront publiées seront payées dix centimes la ligne.</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h36">Pêches d'Aveugles</head>
+            <p>— M'sieu le major, est-ce que vous m'autorisez à aller faire une partie de barque
+              avec le sergent Darrou, cet après-midi ?</p>
+            <p>C'est un de mes petits gars blessés aux yeux, bon petit enfant débrouillard,
+              intelligent et affectueux qui vient ainsi, la semaine passée, me poser la question
+              avec une frousse évidente d'entendre une réponse négative.</p>
+            <p>— Tu sais nager ? Darrou aussi ? Parfait. Vas-y. Ah ! à propos... aimerais-tu par la
+              même occasion prendre un brochet ou une perche ? Passe chez moi à une heure, je te
+              remettrai une ligne à cuillère avec la façon de t'en servir.</p>
+            <p>Le soir venu, mes deux lapins revenaient avec un nez long d'une aune. Ils avaient
+              piqué un beau brochet d'un kilo et... l'avaient laissé se décrocher à un mètre de la
+              barque.</p>
+            <p>L'expérience était faite néanmoins, et l'idée qui me vint de suite fut d'écrire un
+              article sur les pêches possibles pour aveugles.</p>
+            <p>Et je le fais avec un plaisir extrême, car, parler de la pêche, n'est-ce pas presque
+              pêcher déjà ?... Chevalier de la gaule impénitent, il y a environ quarante ans que je
+              pris à la ligne ma première « roche » — lisez « gardon » — dans les fossés de Lille et
+              depuis !... J'ai roulé un peu par-<note type="foliation">— 22 —</note>
+              <pb n="24" break="no"/>
+              <fw type="header" rend="align(center) italic">Pêches d'aveugles</fw>tout au gré des
+              mutations militaires et civiles et, partout où un filet d'eau coulait dans la localité
+              où j'étais, on était sûr de m'y trouver. Aux grandes manœuvres, ma canne à mouches
+              figurait dans un coin de la voiture médicale. Aux haltes horaires, j'évoque encore mes
+              deux infirmiers, de « corvée de sauterelles », saisissant dans l'herbe, sous l'œil
+              loustic des canonniers, les appâts pour la pêche à l'arrivée à l'étape !... Heureux
+              temps !... Un des meilleurs écrivains de pêche anglais, Francis-Francis, écrivait
+              jadis cet aveu touchant et presque religieux :</p>
+            <p>« Après les remerciements que je dois à Dieu pour m'avoir donné l'être, je dois le
+              remercier de la faveur qu'il m'a faite en me permettant de pêcher à la mouche
+              artificielle ! »</p>
+            <p>Et, sur un mode moins « britannique » mais tout aussi convaincu, un de nos maîtres
+              contemporains, Buthod, écrivait en substance dans sa préface de « la Pêche au lancer »
+              :</p>
+            <p>« La raison péremptoire pour laquelle Mahomet fut contraint d'inventer la hour à
+              l'usage de son paradis, c'est que, l'Arabie étant dépourvue de cours d'eau, il ne
+              connaissait pas la pêche à la ligne ! »</p>
+            <p>Je partage pleinement ces deux avis ; Confiteor !... et, ma profession de foi de «
+              pauvre pêcheur » ainsi faite, j'entre en plein dans le vif de notre sujet.</p>
+            <p>Les modes de pêche à la ligne dont peuvent bénéficier nos blessés sont assez
+              nombreux. En fouillant dans mes souvenirs et mon expérience personnelle, je trouve par
+              ordre d'importance : 1° Pêche à la cuillère ; 2° Pêche à la pelote ; 3° Pêche à la «
+              sonde » ; 4° Pêche à la « branlette » ; 5° Pêche à la « vourmée » et au poisson mort ;
+              6° Pêche à la ligne plombée ordinaire sans flotteur.</p>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h37">1° Pêche à la
+                cuillère.</head>
+              <p>Elle s'adresse au brochet, à la perche, au gros chevesne et éventuellement à la
+                truite, dans les cours d'eau qui en contiennent un peu partout, comme le Doubs. Elle
+                se pratique en bateau ; un rameur dirige la barque, longe les rives autant que
+                possible, ou contourne avec habileté les touffes de roseaux et d'herbes derrière
+                lesquelles les maîtres bandits sont à l'affût du paisible goujon ou de l'insouciante
+                vandoise.</p>
+              <p>Le pêcheur, assis à l'arrière, tient en main une planchette sur laquelle est
+                enroulée une trentaine de mètres de cordonnet. A l'extrémité dudit, est une «
+                cuillère », c'est-à-dire un appât métallique ayant en général la forme d'une louche
+                de cuillère à café dont on aurait rogné la queue. Un hameçon simple ou triple adorne
+                cet engin et un émerillon sis entre la cuillère et le cordonnet empêche ce dernier
+                de « vriller ».</p>
+              <p>Tel est l'engin simple avec lequel, sur l'immense majorité des rivières et des lacs
+                de France, on réussira passablement ou très bien, avec de légères variantes locales
+                imposées par la profondeur, la nature du fond, la grosseur des pièces probables. Un
+                cordonnet de la grosseur n° 5 du fil de lin tressé et tanné des catalogues est
+                excellent et suffit à tout. Un petit bout de fil d'acier de 0m, 20 entre la cuillère
+                et le cordonnet n'est pas indifférent. Je me rappelle avec un regret amer certain «
+                pépé » de quinze livres avec qui j'eus sous le pont de Rans — dans le Doubs — une
+                discussion d'un bon quart d'heure et qui me coupa mon fil de lin au-dessus de la
+                cuillère, tant il l'avait « engoulée ». Je l'aurais eu, s'il avait mordu sur du fil
+                d'acier...</p>
+              <p>Ainsi, la barque s'en va, à l'allure normale de promenade. De temps à autre, pan !
+                pan !... un bienheureux frémissement est transmis à la main du pêcheur. Halte !...
+                on enroule alors plus ou moins vite le fil sur la planchette et d'un mouvement
+                souple et continu que l'on a vite fait de saisir, on envoie délicatement le client
+                dans la barque...</p>
+              <p>Que d'heures heureuses passent ainsi, combinant les délices d'une promenade en air
+                vivifiant avec l'intérêt d'une partie de pêche...</p>
+              <p>Quelle est, me demanderez-vous, la meilleure cuillère ?... Heu ! Heu ! la forme des
+                cuillères est un peu comme la forme de gouvernement... la meilleure est encore à
+                trouver, mais, rassurons-nous, il y en a <note type="foliation">— 23 —</note>
+                <pb n="25"/>
+                <fw type="header" rend="align(center) italic">Pêches d'Aveugles</fw> néanmoins
+                d'excellentes... (je parle des formes de cuillères). Je suis d'ailleurs sur ce
+                chapitre d'un scepticisme effroyable. N'importe lequel des nombreux modèles
+                existants, je l'utilise avec une égale conviction. Voici à la suite de quelles
+                expériences spéciales j'en suis arrivé là...</p>
+              <p>J'ai eu la veine d'avoir, il y a quelques années, comme compagnon de pêche, un
+                vieil oncle extraordinaire, pêcheur forcené et que j'avais, pour ma part, contribué
+                à gangrener quelque peu sur le point spécial de la pêche à la « kèière » (telle
+                était sa façon de prononcer « cuillère »). Pendant trois ans de suite, nous avons
+                pratiqué ensemble ce sport, et, abusant traîtreusement de la confiance qu'il avait
+                en moi, j'en ai profité pour faire défiler au bout de sa ligne toutes les variétés
+                les plus fantastiques de « kèières » de France et d'Angleterre... Convaincu, le «
+                tonton » pêchait avec l'énergie et la conviction du pêcheur endurci et, résultat
+                inattendu mais très instructif, prenait sensiblement autant de poisson que moi, qui
+                me réservais cyniquement les cuillères que je croyais irrésistibles.</p>
+              <p>Une expérience de trois années peut compter. Depuis, sans nul souci des formes ni
+                des couleurs, j'arbore au bout de ma ligne ce que j'ai en fait de cuillères et ce
+                que je trouve sur place dans le pays. Disons seulement, pour fixer l'esprit des
+                néophytes qui ont besoin d'un « Credo », qu'une cuillère dite « américaine » n° 2 et
+                que la cuillère dite « de Genève » de 7 à 8 centimètres de long réussissent
+                partout.</p>
+              <p>Sur ce, disons adieu aux brochets et passons aux barbillons !...</p>
+            </div>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h38">2° Pêche à la sonde.</head>
+              <p>Nous sommes cette fois en 1897, en pleine Loire, sur un beau banc de gravier. Le
+                courant est vif. L'eau a environ un mètre de profondeur. Notre barque est fichée en
+                plein courant, l'avant regardant l'amont, et solidement fixée. Je suis installé à
+                l'arrière du bateau, face à l'aval, et j'ai en mains une planchette sur laquelle est
+                enroulée une soie solide d'une trentaine de mètres : au bout, un plomb coulant de
+                forme ovalaire, de 30 à 40 grammes, et en dessous de ce plomb, une « empile »,
+                c'est-à-dire un solide crin de Florence muni d'un hameçon n° 1 et un fort de
+                fer.</p>
+              <p>SEXE Médecin-Major de 1^{re} classe, Chef de Service, Centre principal
+                d'Ophtalmologie, Région du Nord.</p>
+              <p>(A suivre).</p>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h39">Nos Écoles de Province</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h40">ÉCOLE GÉNÉRAL MAUNOURY
+                Caluire (Rhône)</head>
+              <p>Le mariage de René de Witte avec Mlle Françoise Genin, célébré le 12 juin à
+                Caluire, a été l'occasion d'une belle manifestation de sympathie envers notre
+                valeureux camarade. Il la méritait d'une façon toute spéciale.</p>
+              <p>Arrivé à l'école Maunoury à l'état de loque humaine, aveugle, l'avant-bras droit
+                arrachés, deux doigts de la main gauche paralysés, on aurait pu dire de lui comme du
+                vieux maréchal de Louis XIII :</p>
+              <p>Que Mars ne lui laisse rien d'entier que le cœur.</p>
+              <p>Mais ce cœur n'avait pas tremblé, la volonté y était demeurée intacte. Grâce à une
+                énergie surhumaine, grâce aussi à une sollicitude attentive et à l'ingénieux couteau
+                que M. Lotz, de l'A. V. H. sut imaginer à l'usage de manchots, il est devenu un des
+                meilleurs brossiers de l'école; il en est un des plus beaux titres d'honneur, celui
+                dont elle se paraît avec le plus de fierté devant le Président de la République
+                lui-même lors de la visite de M. Poincaré à la foire de Lyon.</p>
+              <p>Aujourd'hui, le mariage a consommé l'œuvre, la rédemption s'est achevée par
+                l'amour.</p>
+              <p>Suivant des rites qui deviennent traditionnels à Caluire, M. l'adjoint au maire
+                Terrasse, M. l'aumônier de l'ambulance et M. de la Boisse ont tour à tour fait au
+                jeune couple les honneurs de la mairie, de l'église et de l'école, elle même, dont
+                les élèves réunis dans la salle du Braille manifestèrent la joie accoutumée.</p>
+              <note type="foliation">— 24 —</note>
+              <pb n="26"/>
+            </div>
+          </div>
+          <div type="section">
+            <head type="section" rend="align(center)" xml:id="h41">COMITÉ FRANÇAIS DU Permanent
+              Blind Relief War Fund for Soldiers and Sailors (fondé par M. et Mme GEORGES
+              KESSLER)</head>
+            <div type="subsection">
+              <head type="subsection" rend="align(center)" xml:id="h42">Entrepôt des Matières
+                premières 35, Boulevard du Château, Neuilly-sur-Seine (Seine) NOTE DU
+                MAGASINIER</head>
+              <p>Cette fois ça y est! Le patron est resté pendant un mois sans taper sur le pauvre
+                bougre de magasinier, aussi ai-je le sourire et je vais vous faire mes
+                confidences.</p>
+              <p>Lorsqu'il y a quelques mois celui que vous appelez votre père, mon patron à moi,
+                m'a chargé de faire tous les mois, dans ce Journal, le Bulletin de l'Entrepôt, je
+                n'ai accepté qu'à la condition de pouvoir vous écrire en camarades, en bon copains
+                que vous êtes tous. Car vous savez je vous connais bien, si vous, vous ne me
+                connaissez pas. Je n'ignore rien, pour avoir beaucoup vécu au milieu des camarades
+                d'une École de Rééducation, de votre caractère, de vos habitudes et même de vos
+                manies. Ne rouspétez pas si je dis que vous avez des manies. Vous les connaissez
+                aussi bien que moi, et si vous ne me croyez pas, demandez à votre bourgeoise, et
+                vous verrez bien qu'elle dira comme moi.</p>
+              <p>Bien entendu, il était convenu que cette familiarité de langage ne devait pas être
+                aux dépens du boulot. Pour moi, ça le facilite. J'aime mieux faire mon turbin en
+                rigolant et en chantant, qu'en étant muet comme une carpe. Faites comme moi et vous
+                verrez que j'ai raison. Aussi je fais tant de boucan en ficelant vos ballots, que
+                mon administration a collé mon Entrepôt, loin de tout le monde, dans une ancienne
+                Ecurie. Là au moins, je peux chanter à mon aise sans crainte que mes éclats de voix
+                cassent les carreaux, puisqu'il n'y en a pas.</p>
+              <p>Maintenant causons de nos affaires. Ça barde les bouts de bois!</p>
+              <p>Chaque semaine le nombre de mes clients augmente et, quand ils y ont goûté, ils y
+                reviennent. C'est bien rare que quand le poignon d'une première livraison radine,
+                vous ne fassiez pas une commande plus forte. Ça, ça prouve que vous êtes contents,
+                et ça me botte. Aussi allez-y carrément. J'ai en magasin tous les bois courants et,
+                sur demande, je vous ferai faire tous les bois spéciaux que vous pourriez
+                désirer.</p>
+              <p>Mon chiendent est tout à fait épatant. Beaucoup me le demandent tout coupé. Dans ce
+                cas, indiquez-moi bien les longueurs de la coupe que vous désirez.</p>
+              <p>J'ai aussi du joli coco, de la belle bassine et du chouette tampico.</p>
+              <p>J'ai eu des difficultés pour la ficelle. Elle n'est pas bonne. Le patron dit que
+                vous n'avez qu'à la renvoyer, et on vous la remplacera pour rien et franco. Celle
+                que j'ai maintenant est à la hauteur, je le crois.</p>
+              <p>Je vous recommande encore, pour vous éviter des retards, de bien adresser vos
+                commandes, 35, boulevard du Château, à Neuilly-sur-Seine (Seine). Adressez vos
+                lettres à M. Brieux, au magasinier, au pauvre bougre de magasinier si vous voulez,
+                ça n'a pas d'importance (1) <note>(1) Et les réclamations à moi. Soyez tranquilles,
+                  ce « pauvre bougre de magasinier » n'en prendra que selon son grade et selon ses
+                  torts. (Note du patron.)</note>.</p>
+              <p>Et surtout écrivez bien lisiblement votre nom, votre ancien régiment, votre adresse
+                avec le département et la gare où je dois faire l'expédition.</p>
+              <p>LE MAGASINIER,</p>
+              <p>moins pauvre bougre que la dernière fois.</p>
+              <pb n="27"/>
+              <fw type="footer">PARIS. — IMPRIMERIE CHAIX (SUCCURSALE B), II, BOULEVARD
+                SAINT-MICHEL. — 3044-17.</fw>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
