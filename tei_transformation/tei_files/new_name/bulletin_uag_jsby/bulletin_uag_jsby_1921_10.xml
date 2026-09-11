@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Logement et Propriété</title>
+        <title type="topic">Relations internationales et Action interalliée</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#loisirs-et-sports">Loisirs et Sports</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-10-01">01/10/1921</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin d'octobre 1921 prépare l'Assemblée générale annuelle de décembre 1921 et
+          publie l'ensemble des déclarations de candidature et professions de foi des membres se
+          présentant au Conseil d'administration. Il fait part des avancées dans la liquidation des
+          pensions par le Ministère et informe de la nomination de M. Possoz comme secrétaire
+          général de l'Office National des Mutilés. Le texte rapporte l'exemple d'un camarade ayant
+          fait don de 1 000 fr. d'arrérages reçus à la caisse de secours de l'U.A.G. La chronique
+          rassemble les procès-verbaux des Conseils d'administration des 9 juillet, 10 septembre et
+          1er octobre 1921, votant notamment un crédit de 25 000 fr. pour aider la Section des
+          Brossiers parisiens à soumissionner aux adjudications (marché P.L.M.). Enfin, il comprend
+          le rapport d'activité des masseurs et la suite des listes départementales.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Prothèses et Santé</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#gratifications-renouvelables">Gratifications renouvelables</term>
+          <term ref="#yeux-artificiels-et-coques">Yeux artificiels et Coques</term>
+          <term ref="#mariage">Mariage</term>
+          <term ref="#mecaniciens-aveugles">Mécaniciens aveugles</term>
+          <term ref="#ecoles-et-rapports-trimestriels">Écoles et Rapports trimestriels</term>
+          <term ref="#caisse-depargne">Caisse d'épargne</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-01-01">01/01/1918</date>
       </creation>
+      <abstract>
+        <p>Le bilan financier enregistre un don de 5 000 francs provenant de la vente d'une
+          collection de timbres, transmis par M. Lavedan. M. Brieux annonce que la Chambre étudie le
+          relèvement des pensions à 1 500 francs. Justin Godart signe une circulaire autorisant
+          l'allocation des yeux artificiels à double coque. P.-Félix Thomas (Saint-Brieuc) dénonce
+          la concurrence déloyale de certains ateliers obtenant de grosses commandes militaires. Le
+          numéro contient les rapports semestriels des écoles de Reuilly (ajustage mécanique,
+          massage), Valentin Haüy, Amiens (avec décomposition détaillée du prix de revient des
+          brosses), Bordeaux, Caen, et Tours. Enfin, le magasinier de Neuilly explique la mise en
+          vente de deux qualités de chiendent.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

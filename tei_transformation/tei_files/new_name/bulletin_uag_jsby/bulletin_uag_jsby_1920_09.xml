@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Relations internationales et Action interalliée</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1920-09-01">01/09/1920</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de septembre 1920 constitue un guide pratique complet pour bénéficier de la
+          réévaluation des pensions à 6 000 francs, fournissant le modèle officiel de demande à
+          adresser au Sous-Intendant pour l'attribution des carnets d'allocations spéciales et des
+          majorations pour enfants. Il détaille le fonctionnement du carnet de paiement,
+          l'attribution de la Légion d'honneur au titre civil et les conclusions du 4e Congrès
+          Interallié des Invalides. Un article du Dr Fabre plaide en faveur du mariage et de la vie
+          de famille pour les aveugles plutôt que l'institutionnalisation. Les notes ministérielles
+          confirment la priorité de liquidation accordée aux grands mutilés, l'exonération des
+          patentes et la révision du prêt agricole (plafond porté à 10 000 fr. pour un bien de 20
+          000 fr.). Enfin, le numéro publie des listes départementales d'adhérents.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

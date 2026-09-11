@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Formation professionnelle</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Assistance et Solidarité</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,36 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#union-des-aveugles-de-guerre-uag">Union des Aveugles de Guerre (UAG)</term>
+          <term ref="#techniques-de-brosserie">Techniques de brosserie</term>
+          <term ref="#cordonnerie-a-chartres">Cordonnerie à Chartres</term>
+          <term ref="#masseurs-et-accordeurs">Masseurs et Accordeurs</term>
+          <term ref="#intendance-militaire">Intendance militaire</term>
+          <term ref="#soutien-aux-civils">Soutien aux civils</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-02-01">01/02/1919</date>
       </creation>
+      <abstract>
+        <p>M. Brieux remercie pour les vœux du Nouvel An et annonce les démarches pour porter la
+          pension à 2 400 francs. La liste des rédacteurs aveugles du journal est publiée. Les Dr
+          Monthus et Delord concluent leur rapport sur la cordonnerie en estimant le métier trop
+          complexe pour la majorité des aveugles. M. Chevalier (Val-de-Grâce) publie un "Guide des
+          brossiers" technique extrêmement complet (montage, coupe, tableaux de référence). L'école
+          de Saint-Brieuc présente son rapport annuel. Le magasinier commente les difficultés de
+          transport de l'après-guerre.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-09-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-09-07" who="#fchiffol">Conversion du texte en XML-TEI</change>

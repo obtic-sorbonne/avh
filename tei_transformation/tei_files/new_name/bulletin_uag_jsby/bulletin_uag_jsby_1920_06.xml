@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#loisirs-et-sports">Loisirs et Sports</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1920-06-01">01/06/1920</date>
       </creation>
+      <abstract>
+        <p>Publié en juin 1920, ce numéro présente une étude sur l'importance des exercices
+          physiques et de la gymnastique d'assouplissement en chambre pour la santé des aveugles. Il
+          fournit des informations juridiques sur les retraites ouvrières, les procédures de
+          révision pour les réformés n° 2 et les démarches en cas de perte des titres de pension.
+          Sur le plan professionnel, il mentionne l'école de tonnellerie de Carcassonne et les prêts
+          accordés aux petits commerçants par les banques populaires. Le Conseil d'administration
+          clarifie les conditions de la fermeture de l'entrepôt de Neuilly et annonce l'achat de 225
+          costumes de drap distribués aux membres. Enfin, le bulletin rend compte de la Réunion
+          parisienne du 30 mai, officialise la création de la Section des Masseurs aveugles avec la
+          liste de ses membres, et entame les listes départementales d'adhérents.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

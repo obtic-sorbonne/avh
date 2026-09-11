@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Formation professionnelle</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,36 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#projet-de-loi-sur-les-pensions">Projet de loi sur les pensions</term>
+          <term ref="#tierce-personne-et-enfants">Tierce personne et Enfants</term>
+          <term ref="#uag-et-fusion">UAG et Fusion</term>
+          <term ref="#cordonnerie-et-debats">Cordonnerie et Débats</term>
+          <term ref="#rapports-des-ecoles-regionales">Rapports des écoles régionales</term>
+          <term ref="#soutien-de-la-femme">Soutien de la femme</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-03-01">01/03/1919</date>
       </creation>
+      <abstract>
+        <p>M. Brieux présente la nouvelle loi sur les pensions militaires élevant la pension de base
+          des aveugles à 2 400 francs par an avec majorations familiales et rappels. Clairin
+          Estienne (École de Mazargues) réfute les conclusions des Dr Monthus et Delord et démontre
+          qu'un aveugle peut réaliser un ressemelage complet. Les écoles de Lyon-Caluire,
+          Montferrand et Nantes (sortants réadaptés) présentent leurs rapports. Le magasinier
+          raconte sur le ton de la comédie sa démobilisation et sa réembauche avec haute paye à
+          Neuilly.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-09-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-09-07" who="#fchiffol">Conversion du texte en XML-TEI</change>

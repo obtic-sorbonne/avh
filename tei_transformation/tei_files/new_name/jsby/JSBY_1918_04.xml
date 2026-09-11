@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Prothèses et Santé</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Enseignement</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#temoignages-de-readaptation">Témoignages de réadaptation</term>
+          <term ref="#yeux-artificiels-et-soins">Yeux artificiels et Soins</term>
+          <term ref="#instituteurs-aveugles">Instituteurs aveugles</term>
+          <term ref="#aide-aux-aveugles-de-guerre">Aide aux aveugles de guerre</term>
+          <term ref="#rapports-des-ecoles">Rapports des écoles</term>
+          <term ref="#cordonnerie">Cordonnerie</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-04-01">01/04/1918</date>
       </creation>
+      <abstract>
+        <p>M. Brieux adresse un message de réconfort aux nouveaux blessés de l'offensive allemande
+          du printemps 1918. De nombreux camarades racontent leur réadaptation rurale, la
+          fabrication de couffins ou le travail de cordonnerie. Un poilu du front témoigne de
+          l'impact moral du journal lu dans les tranchées. Le Dr Coulomb donne des consignes
+          médicales pour l'entretien de la cavité oculaire et des prothèses. Un grand dossier est
+          consacré aux instituteurs aveugles : après les craintes exprimées par A. Fauvel, Henri
+          Pannetrat et F. Dallet démontrent que l'enseignement est un apostolat pleinement
+          accessible avec une préparation méthodique en Braille. Enfin, les écoles de Saint-Brieuc,
+          Nantes, Montpellier et Marseille présentent leurs bilans.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

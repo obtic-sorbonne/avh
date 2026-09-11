@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-09-01">01/09/1921</date>
       </creation>
+      <abstract>
+        <p>Publié en septembre 1921, ce numéro fait le point sur les démarches en faveur de la
+          réévaluation des pensions et de la défense des quatre revendications fondamentales. Il
+          demande l'application officielle de la signature par empreintes digitales dans les actes
+          administratifs. L'association relance le projet de la "Maison de l'Aveugle de guerre" et
+          prépare les candidatures pour les élections du Conseil d'administration. Les pages
+          d'information signalent l'extension des tarifs réduits de transport aux réseaux
+          ferroviaires coloniaux (Indochine, Madagascar, A.O.F.) et les prix réduits de fournitures
+          de brosserie. Le Dr Fabre signe un article défendant le mariage et le foyer familial
+          contre le placement en hospice. Enfin, le bulletin publie le procès-verbal du Conseil du 9
+          juillet 1921, les listes des promotions dans la Légion d'honneur et la suite des listes
+          départementales.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

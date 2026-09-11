@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Famille et Veuves</title>
+        <title type="topic">Mémoire et Commémoration</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#veuves-et-orphelins">Veuves et Orphelins</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1923-12-01">01/12/1923</date>
       </creation>
+      <abstract>
+        <p>Le bulletin de décembre 1923 retrace la participation de l'U.A.G. à la cérémonie de la
+          Flamme du Souvenir sous l'Arc de Triomphe, où les honneurs militaires ont été rendus pour
+          la première fois aux associations de mutilés. L'éditorial "Gardons-nous des illusions"
+          appelle à la prudence financière face aux projets budgétaires. Le numéro fournit le compte
+          rendu complet de l'Assemblée générale du 18 novembre 1923 à la Sorbonne, avec les rapports
+          moral et financier (avoirs de 1 286 364 fr.) et le rapport des commissaires aux comptes.
+          L'Assemblée adopte des vœux pour la revalorisation des pensions face à la cherté de la vie
+          (proposition du Colonel Picot), soutient le magasin de vente et l'entrepôt de laine,
+          réaménage les règles de séjour à Franceville et décide la création d'un bureau de
+          consultations juridiques gratuites au siège social de la rue Ballu.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

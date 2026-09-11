@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Agriculture et Élevage</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,34 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#brochure-le-retour-a-la-terre">Brochure Le Retour à la terre</term>
+          <term ref="#loi-sur-les-pensions-et-demarches">Loi sur les pensions et Démarches</term>
+          <term ref="#maisons-de-travail">Maisons de travail</term>
+          <term ref="#fermeture-des-ecoles-regionales">Fermeture des écoles régionales</term>
+          <term ref="#centre-de-grignon">Centre de Grignon</term>
+          <term ref="#reformes-n-2">Réformés N° 2</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-05-01">01/05/1919</date>
       </creation>
+      <abstract>
+        <p>M. Brieux plaide pour "Le Retour à la Terre du Soldat aveugle". Un extrait de la Revue
+          Interalliée met en garde contre la création d'asiles fermés. Le lieutenant Grosjean et les
+          poilus de la réserve générale d'aviation offrent un don de 4 500 francs. Les élèves du
+          chalet du Centre militaire de Grignon envoient une lettre poignante sur leur vie libre en
+          forêt. L'École Maunoury à Caluire présente son rapport annuel d'activité.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-09-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-09-07" who="#fchiffol">Conversion du texte en XML-TEI</change>

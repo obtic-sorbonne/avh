@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#caisse-maladie">Caisse maladie</term>
+          <term ref="#allocations-aux-veuves">Allocations aux veuves</term>
+          <term ref="#sections-regionales">Sections régionales</term>
+          <term ref="#artisans-et-brossiers">Artisans et Brossiers</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1949-05-01">01/05/1949</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de mai 1949 dresse le bilan complet des Journées des 6, 7 et 8 mai 1949 et
+          des élections au Conseil d'administration, où Henri Izaac est réélu Président. Il détaille
+          la réforme votée par l'Assemblée générale concernant le barème de remboursement de la
+          Caisse maladie (seuil de franchise à 10 000 fr. et prise en charge à 40 % jusqu'à 60 000
+          fr.). Le procès-verbal du Conseil d'administration du 25 février 1949 y est retranscrit,
+          abordant la gestion financière, la loterie, les dépenses du studio de disques et les
+          secours aux veuves. Le bulletin fait état des démarches pour le réajustement des pensions
+          et le maintien de la parité avec la fonction publique. Il se clôture par le compte rendu
+          d'activité des sections régionales (Maine-et-Loire, Algérie avec le départ du président
+          Douet, Nord et Pas-de-Calais, Ouest).</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

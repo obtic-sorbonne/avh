@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Évolution vers la clôture</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +57,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#deces-de-mme-kauffmann">Décès de Mme Kauffmann</term>
+          <term ref="#preparation-de-la-dissolution">Préparation de la dissolution</term>
+          <term ref="#vingtieme-anniversaire">Vingtième anniversaire</term>
+          <term ref="#conversion-des-rentes">Conversion des rentes</term>
+          <term ref="#bilan-de-cloture">Bilan de clôture</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Rapport du 19e exercice (1933) présenté le 25 avril 1934. Face à la dépréciation des
+          titres, la baisse des revenus de rentes (-20 %) et la réduction des dons, le F.S.A.
+          attribue 214 575 frs à 71 bénéficiaires. L'association annonce officiellement la
+          préparation de sa dissolution programmée pour 1935 (son 20e anniversaire) et
+          l'organisation du transfert de son capital résiduel au profit des plus démunis. Le rapport
+          rend un hommage ému à la trésorière Mme Kauffmann, décédée subitement fin novembre 1933
+          après 19 ans de dévouement, remplacée par Mme Salomon. L'actif net disponible s'établit à
+          632 250,92 frs.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -229,7 +262,8 @@
             <head type="section" rend="align(center)" xml:id="h4">COMITE D'HONNEUR</head>
             <p>MM. <g rend="obele">†</g> Léon BOURGEOIS; <g rend="obele">†</g> Maurice BARRES, de
               l'Académie française; Marcel BLOCH; <g rend="obele">†</g> BRIEUX, de l'Académie
-              française; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Ethiopie; <g rend="obele">†</g> Robert de FLERS, de l'Académie française; <g rend="obele">†</g>
+              française; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Ethiopie; <g
+                rend="obele">†</g> Robert de FLERS, de l'Académie française; <g rend="obele">†</g>
               GAUTHIER DE CLAGNY; HENRI-ROBERT, ancien Bâtonnier de l'Ordre des Avocats; Maréchal
               LYAUTEY, de l'Académie française; HERRIOT, maire de Lyon; <g rend="obele">†</g>
               Général MALLETERRE; <g rend="obele">†</g> Général MAUNOURY; D' MORAX, président de la
@@ -2326,7 +2360,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>

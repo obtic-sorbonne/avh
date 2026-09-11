@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Enseignement</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +66,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#matieres-premieres-et-chiendent">Matières premières et Chiendent</term>
+          <term ref="#pensions-et-deputes">Pensions et Députés</term>
+          <term ref="#debats-sur-le-mariage">Débats sur le Mariage</term>
+          <term ref="#instituteurs-aveugles">Instituteurs aveugles</term>
+          <term ref="#impression-braille">Impression Braille</term>
+          <term ref="#livre-de-laveugle">Livre de l'Aveugle</term>
+          <term ref="#ecoles-de-reeducation">Écoles de rééducation</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-04-01">01/04/1917</date>
       </creation>
+      <abstract>
+        <p>M. Brieux annonce l'ouverture des magasins du Comité franco-américain avenue Raphaël à
+          Paris, permettant de fournir du chiendent et des bois troués à prix coûtant aux artisans.
+          Le débat sur le mariage se poursuit à travers des avis contrastés et des récits d'unions
+          heureuses. Le numéro publie un rapport d'inspection extrêmement élogieux de l'inspecteur
+          Gautier sur la classe de l'instituteur aveugle Dallet, saluée comme une "leçon de
+          résurrection". M. Pierre Villey et l'association Le Livre de l'Aveugle lancent un appel
+          pour coordonner la transcription des ouvrages en Braille. L'apprentissage de la vannerie à
+          Fayl-Billot et l'exercice des travaux agricoles suscitent de vifs témoignages
+          contradictoires entre incrédules et praticiens enthousiastes. Enfin, Paul Emard annonce la
+          création d'une Caisse maternelle pour aider les jeunes pères.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-19" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1651,7 +1683,7 @@
               <pb n="23"/>
             </div>
           </div>
-          <!-- Page 21 manquante -->
+
           <div type="section">
             <head type="section" rend="align(center)" xml:id="h36">L'Energie française</head>
             <pb n="24"/>
@@ -1732,7 +1764,7 @@
               <note type="foliation">— 22 —</note>
               <pb n="25"/>
             </div>
-            <!-- Page 23 manquante -->
+
             <pb n="26"/>
           </div>
           <div type="section">

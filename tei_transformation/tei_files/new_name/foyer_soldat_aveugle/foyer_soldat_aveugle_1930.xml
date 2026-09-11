@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Solidarité entre aveugles</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,41 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pension-de-22200-francs">Pension de 22200 francs</term>
+          <term ref="#legs-curtis-tilton">Legs Curtis Tilton</term>
+          <term ref="#caisse-des-jeux">Caisse des Jeux</term>
+          <term ref="#entraide-fraternelle">Entraide fraternelle</term>
+          <term ref="#gestion-du-portefeuille">Gestion du portefeuille</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document rend compte de l'exercice 1930 lors de l'Assemblée du 25 avril 1931.
+          L'exercice est marqué par la réception d'un don exceptionnel et magnifique de 250 000 frs
+          offert par M. Curtis Tilton, nommé membre du Comité d'Honneur. Ce don a permis de
+          renforcer la réserve statutaire de 100 000 frs et d'accorder immédiatement un don de Noël
+          de 500 frs à chaque bénéficiaire de mensualités. Au total, 277 465,25 frs sont distribués
+          à 170 bénéficiaires (dont 43 secours mensuels d'un total de 202 950 frs). L'actif net de
+          l'association atteint son plus haut niveau historique à 957 947,26 frs.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -244,7 +277,8 @@
           <div type="section">
             <head type="section" rend="align(center)" xml:id="h4">COMITÉ D'HONNEUR</head>
             <p>MM. <g rend="obele">†</g> Léon BOURGEOIS; <g rend="obele">†</g> Maurice BARRÈS, de
-              l’Académie française; Marcel BLOCH; BRIEUX, de l’Académie française; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Ethiopie; <g rend="obele">†</g>
+              l’Académie française; Marcel BLOCH; BRIEUX, de l’Académie française; <g rend="obele"
+                >†</g> Maurice de COPPET, ministre de France en Ethiopie; <g rend="obele">†</g>
               Robert de FLERS, de l’Académie française; <g rend="obele">†</g> GAUTHIER DE CLAGNY;
               HENRI-ROBERT, ancien Bâtonnier de l’Ordre des avocats; HERRIOT, maire de Lyon;
               Maréchal LYAUTEY, de l’Académie française; <g rend="obele">†</g> Général MALLETERRE;
@@ -2436,7 +2470,8 @@
                 <cell>250</cell>
               </row>
               <row>
-                <cell>Eissén (M<hi rend="superscript">me</hi> Maurice) pour freyssinier (M<hi rend="superscript">me</hi>)</cell>
+                <cell>Eissén (M<hi rend="superscript">me</hi> Maurice) pour freyssinier (M<hi
+                    rend="superscript">me</hi>)</cell>
                 <cell>20</cell>
               </row>
               <row>
@@ -2490,7 +2525,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>
@@ -3480,7 +3516,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Pagès (Ed.), en souvenir de M<hi rend="superscript">lle</hi> Th. et de M<hi rend="superscript">me</hi> Maximilien Pagès</cell>
+                <cell>Pagès (Ed.), en souvenir de M<hi rend="superscript">lle</hi> Th. et de M<hi
+                    rend="superscript">me</hi> Maximilien Pagès</cell>
                 <cell>12</cell>
               </row>
               <row>

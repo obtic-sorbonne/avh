@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Reconstitution des Foyers</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Législation et Droits</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,45 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#regions-envahies">Régions envahies</term>
+          <term ref="#croix-rouge">Croix-Rouge</term>
+          <term ref="#appels-au-public">Appels au public</term>
+          <term ref="#prix-de-lacademie-francaise">Prix de l'Académie française</term>
+          <term ref="#membres-fondateurs">Membres fondateurs</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Rapport de l'exercice 1917 présenté lors de l'Assemblée générale du 27 janvier 1918 sous
+          la présidence de Maurice Donnay. Le Rapport moral met en avant le développement rapide de
+          l'œuvre, qui a porté le nombre de ses bénéficiaires de 335 à 737 aveugles secourus pour un
+          montant distribué de 120 197 frs. Le F.S.A. participe activement à une action inter-œuvres
+          collective (avec l'Association Valentin Haüy, les Amis des Soldats Aveugles et la
+          Croix-Rouge américaine) pour reconstruire les foyers des aveugles rapatriés des régions
+          envahies. Le rapport financier enregistre 679 604,68 frs de recettes en 12 mois et
+          souligne le soutien substantiel du Permanent Blind Relief War Fund. L'allocution
+          présidentielle insiste sur le devoir national de reconnaissance envers les victimes de la
+          guerre.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-24" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-18" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -3788,7 +3825,8 @@
                   <cell>100</cell>
                 </row>
                 <row>
-                  <cell>Cochu (M<hi rend="superscript">me</hi> V<hi rend="superscript">re</hi>)</cell>
+                  <cell>Cochu (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                    >re</hi>)</cell>
                   <cell>4</cell>
                 </row>
                 <row>
@@ -4079,7 +4117,8 @@
                   <cell>494 97</cell>
                 </row>
                 <row>
-                  <cell>Par Consul de France à Colon (République de Panama), représentation de M<hi rend="superscript">me</hi> Decamp-Sterlicq</cell>
+                  <cell>Par Consul de France à Colon (République de Panama), représentation de M<hi
+                      rend="superscript">me</hi> Decamp-Sterlicq</cell>
                   <cell>251 30</cell>
                 </row>
                 <row>
@@ -4185,7 +4224,8 @@
                   <cell>1.714 28</cell>
                 </row>
                 <row>
-                  <cell>Par Consul de France à San-Juan (représentation de M<hi rend="superscript">me</hi> Decamp-Sterlicq)</cell>
+                  <cell>Par Consul de France à San-Juan (représentation de M<hi rend="superscript"
+                      >me</hi> Decamp-Sterlicq)</cell>
                   <cell>169 57</cell>
                 </row>
                 <row>
@@ -5828,7 +5868,8 @@
                   <cell>40</cell>
                 </row>
                 <row>
-                  <cell>Permanent Blind Relief War Fund, fondé par M. et M<hi rend="superscript">me</hi> Kessler</cell>
+                  <cell>Permanent Blind Relief War Fund, fondé par M. et M<hi rend="superscript"
+                      >me</hi> Kessler</cell>
                   <cell>50.000</cell>
                 </row>
                 <row>

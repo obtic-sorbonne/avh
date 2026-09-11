@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Action sociale</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,41 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pension-de-23200-francs">Pension de 23200 francs</term>
+          <term ref="#loi-lambert-et-assistance-civile">Loi Lambert et assistance civile</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#dix-septieme-exercice">Dix-septième exercice</term>
+          <term ref="#crise-economique">Crise économique</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Rapport du 17e exercice (1931) présenté le 22 avril 1932. Soumis aux contraintes de la
+          crise économique mondiale, le F.S.A. enregistre un resserrement budgétaire : 88
+          bénéficiaires reçoivent 242 900 frs (dont 37 mensualités majeures pour 206 350 frs). Pour
+          préserver l'avenir financier de la société, le Conseil prend la décision douloureuse de
+          bloquer l'admission de nouveaux dossiers d'aveugles sans pension. L'actif s'établit à 871
+          174,56 frs après un prélèvement de 91 000 frs sur le capital. L'allocution présidentielle
+          rend hommage à Curtis Tilton, récemment décédé.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -238,7 +271,8 @@
             <div type="section">
               <head type="section" rend="align(center)" xml:id="h5">COMITE D'HONNEUR</head>
               <p>MM. <g rend="obele">†</g> Léon BOURGEOIS; <g rend="obele">†</g> Maurice BARRES, de
-                l'Académie française; Marcel BLOCH; BRIEUX, de l'Académie française; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Ethiopie; <g rend="obele">†</g>
+                l'Académie française; Marcel BLOCH; BRIEUX, de l'Académie française; <g rend="obele"
+                  >†</g> Maurice de COPPET, ministre de France en Ethiopie; <g rend="obele">†</g>
                 Robert de FLERS, de l'Académie française; <g rend="obele">†</g> GAUTHIER DE CLAGNY;
                 HENRI-ROBERT, ancien Bâtonnier de l'Ordre des avocats; HERRIOT, maire de Lyon;
                 Maréchal LYAUTEY, de l'Académie française; <g rend="obele">†</g> Général MALLETERRE;
@@ -2488,7 +2522,8 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell>Mayer (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Mayer (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>
@@ -2535,7 +2570,8 @@
                 <cell>5.000</cell>
               </row>
               <row>
-                <cell>Braunschweig (MM. Paul et Jules) en souvenir de leur tante, M<hi rend="superscript">me</hi> Jules Simon</cell>
+                <cell>Braunschweig (MM. Paul et Jules) en souvenir de leur tante, M<hi
+                    rend="superscript">me</hi> Jules Simon</cell>
                 <cell>10.000</cell>
               </row>
               <row>

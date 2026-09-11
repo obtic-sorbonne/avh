@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Formation professionnelle</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Loisirs et Sports</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#tonnellerie">Tonnellerie</term>
+          <term ref="#medaille-militaire-a-200f">Médaille militaire à 200F</term>
+          <term ref="#chateau-de-madrid">Château de Madrid</term>
+          <term ref="#solidarite-interalliee">Solidarité interalliée</term>
+          <term ref="#reliure-et-machines-a-calculer">Reliure et Machines à calculer</term>
+          <term ref="#syndicat-daveugles">Syndicat d'aveugles</term>
+          <term ref="#exercices-physiques">Exercices physiques</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-03-01">01/03/1918</date>
       </creation>
+      <abstract>
+        <p>Un supplément annonce l'ouverture de l'École Industrielle et Commerciale au 27, boulevard
+          Victor-Hugo à Neuilly et le transfert de l'École Supérieure au Château de Madrid au Bois
+          de Boulogne. Le journal consacre une étude à la tonnellerie et annonce l'attribution de la
+          Médaille militaire avec une rente de 200 francs. Le sous-lieutenant J. Chounet publie une
+          tribune retentissante ("Halte-là ! Concurrence loyale") proposant la création d'un
+          Syndicat professionnel et d'une Société des Aveugles de Guerre pour effectuer des achats
+          en gros et gérer une maison de retraite. Henri Morand décrit les 55 manipulations de la
+          reliure d'art, Maurice Bocquet présente une machine à calculer en Braille, et Leperlier
+          expose sa méthode de rédaction au crayon sans guide-main.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

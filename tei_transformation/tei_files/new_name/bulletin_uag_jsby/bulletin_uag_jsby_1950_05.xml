@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#assemblee-generale">Assemblée générale</term>
+          <term ref="#manifestations-et-action">Manifestations et Action</term>
+          <term ref="#maisons-de-repos">Maisons de repos</term>
+          <term ref="#cannes-blanches">Cannes blanches</term>
+          <term ref="#prix-litteraires">Prix littéraires</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1950-05-01">01/05/1950</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de mai 1950 publie les résultats de l'Assemblée générale de 1950 et la
+          composition du nouveau Bureau présidé par Henri Izaac. Il retranscrit le compte rendu de
+          la Commission des sections du 5 mai réunissant 28 délégués. Le bulletin insère la lettre
+          explicative du ministre Jacquinot au sénateur Jézéquel étalant la revalorisation des
+          pensions (8 % au 1er janv 1950, 8 % au 1er juil 1950, 8 % au 1er janv 1951 + majorations).
+          Il rend compte de la manifestation du 25 avril et de la création du Centre de réforme de
+          Grenoble. Il félicite Serge Ouvaroff pour l'obtention du Prix Viking (La Nuit de Surigao).
+          Enfin, il présente les comptes rendus d'assemblées de nombreuses sections (Finistère,
+          Savoie, Alpes-Maritimes, Maine-et-Loire, Ouest, Alger, Auvergne, Saône-et-Loire, Bordeaux,
+          Tarn).</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

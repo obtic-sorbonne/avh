@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Formation professionnelle</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,36 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#nouveau-comite-de-lœuvre">Nouveau Comité de l'Œuvre</term>
+          <term ref="#maison-des-aveugles">Maison des Aveugles</term>
+          <term ref="#justin-godart-et-henri-robert">Justin Godart et Henri Robert</term>
+          <term ref="#abrege-bœtzel">Abrégé Bœtzel</term>
+          <term ref="#victoire-et-armistice">Victoire et Armistice</term>
+          <term ref="#distribution-de-cuba">Distribution de Cuba</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-12-01">01/12/1918</date>
       </creation>
+      <abstract>
+        <p>M. Brieux annonce la transmission de la gestion active de l'Œuvre à un Comité composé de
+          Justin Godart, du Dr Duco, d'Henri Robert et du Dr Cosse, Brieux devenant "grand-père".
+          Brieux publie son grand manifeste "Ce que je voudrais voir avant de mourir", traçant les
+          plans d'un Palais/Maison des Aveugles de Guerre à Paris (entrepôt, monopoles, ateliers
+          d'essais, coopérative, imprimerie Braille). La méthode d'abrégé sténographique Bœtzel est
+          présentée. Les élèves de Neuilly fêtent la Victoire en présence de personnalités
+          éminentes.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#plan-quadriennal">Plan quadriennal</term>
+          <term ref="#benefices-de-campagne">Bénéfices de campagne</term>
+          <term ref="#federation-mondiale-fmac">Fédération mondiale (FMAC)</term>
+          <term ref="#epargne-construction">Epargne-construction</term>
+          <term ref="#pensions-de-veuves">Pensions de veuves</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1953-12-01">01/12/1953</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de décembre 1953 contient les vœux d'Izaac et fait le point sur le vote du
+          Plan quadriennal à l'Assemblée nationale les 5-6 décembre 1953 (suppression de la
+          condition de revalorisation simultanée des retraites pour le rapport constant). Il
+          retranscrit le PV du Comité d'entente du 16 novembre 1953 (régionalisation des pensions)
+          et relate l'inauguration d'une plaque au Baron de Traversay Rue Blanche. Le document
+          dresse le bilan de l'Assurance-Groupe en 1953 (8 décès réglés pour 2,2 millions) et
+          félicite le Dr G. Robin (Officier de la Santé publique). Il publie une étude approfondie
+          de G. Muller sur le décret-loi du 9 août 1953 relatif au nouveau régime des loyers
+          d'habitation. S'y ajoutent la prorogation des cartes de priorité pour 2 ans (1953-1954),
+          la réunion des présidents de sections du 22 octobre 1953, le PV de la 1re AG de la section
+          du Maroc à Casablanca (présidence Lopez) et le PV du CA du 16 octobre 1953 (legs Gonchon,
+          surélévation du 5e étage, achat contigu à Carnolès, aménagement d'Amélie).</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-17" who="#fchiffol">Conversion du texte en XML-TEI</change>

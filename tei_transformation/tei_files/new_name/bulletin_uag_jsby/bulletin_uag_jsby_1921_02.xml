@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Famille et Veuves</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +69,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#veuves-et-orphelins">Veuves et Orphelins</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-02-01">01/02/1921</date>
       </creation>
+      <abstract>
+        <p>Le bulletin de février 1921 convoque une nouvelle Assemblée générale pour le 13 février
+          1921 à la Sorbonne. Il expose les résultats de la démarche de l'U.A.G. auprès du Ministère
+          des Pensions ayant permis d'identifier et de débloquer 942 dossiers en souffrance. Le
+          Conseil présente son programme de revendications complémentaires : pension minimum de 6
+          000 fr. majorée selon les charges de famille, superpension pour infirmités multiples,
+          majoration de 500 fr. par enfant, cumuls pour militaires de carrière et maintien de
+          l'échelonnement selon le grade. Le Bureau formule une mise au point ferme réfutant un
+          article controversé paru dans la "Gazette de Touche-à-Tout". Le numéro informe sur la loi
+          des Pupilles de la Nation, les retraites des veuves, l'Union Commerciale des blessés
+          aveugles et publie les procès-verbaux des réunions du Conseil.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1008,9 +1042,9 @@
                 séances et de relever les votes nominatifs.</p>
               <p>Cette proposition est adoptée à l'unanimité de 18 votants.</p>
               <pb n="20"/>
-              <!-- Page manquante -->
+
               <pb n="21"/>
-              <!-- Page manquante -->
+
               <pb n="22"/>
               <note type="foliation">— 20 —</note>
               <p>dant trois ans, à partir d'avril 1921, pour participer à nos frais de loyer, et les
@@ -1176,9 +1210,9 @@
                 Hebmann, Mlles Jalaguier, Kuhn, M. l'Evesque, Mme Lyon, M. J. Mayer, M. François
                 Marsal, Mme Meyer, MM. Meynadier, Fontet, Pichon,</p>
               <pb n="26"/>
-              <!-- Page manquante -->
+
               <pb n="27"/>
-              <!-- Page manquante -->
+
               <pb n="28"/>
               <note type="foliation">— 26 —</note>
               <p>lable soit effectuée par le Bureau de l'U. A. G. auprès du Conseil d'administration

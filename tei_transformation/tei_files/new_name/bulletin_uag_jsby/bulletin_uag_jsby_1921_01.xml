@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Éducation et Culture</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#livres-et-braille">Livres et Braille</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-01-01">01/01/1921</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de janvier 1921 présente le compte rendu de l'Assemblée générale du 12 décembre
+          1920 et les résultats des consultations : augmentation des cotisations (5 fr. pour les
+          titulaires, 15 fr. pour les associés) et maintien du critère de cécité à 100 % pour être
+          membre. Il annonce l'élection de M. Cottin à la présidence de la société "Les Amis des
+          Soldats Aveugles" en remplacement de M. Vallery-Radot. Le bulletin reproduit l'extrait du
+          rapport de l'Académie Française décernant une médaille d'argent à Miss Alice Getty pour
+          l'œuvre de l'imprimerie Braille "La Roue". Il donne des informations administratives sur
+          la gratuité du transport du guide en chemin de fer votée par la Chambre, l'usage de la
+          carte de métro, la Légion d'honneur, et les règles d'arrérages après décès. Enfin, il
+          rassemble les procès-verbaux des Conseils d'administration de fin 1920.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1303,9 +1337,9 @@
                 <p>Notre camarade Gustin (Louis), nous fait part de son mariage avec Mlle Marie
                   Chapot, qui a été célébré le 19 juin 1919.</p>
                 <pb n="24"/>
-                <!-- Page manquante -->
+
                 <pb n="25"/>
-                <!-- Page manquante -->
+
                 <pb n="26"/>
                 <note type="foliation">— 24 —</note>
                 <p>Par la voix de notre Bulletin, j'ai été très heureux d'apprendre que, avant de

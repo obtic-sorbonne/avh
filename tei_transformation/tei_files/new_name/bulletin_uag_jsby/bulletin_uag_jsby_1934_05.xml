@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,42 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#loisirs-et-sports">Loisirs et Sports</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1934-05-01">01/05/1934</date>
       </creation>
+      <abstract>
+        <p>Le numéro de mai 1934 rend compte de l'Assemblée générale du 29 avril 1934 et reproduit
+          l'intégralité des discours prononcés lors du banquet annuel présidé par M. Albert Lebrun,
+          Président de la République (allocutions du Député Georges Scapini, de Mme Cassou, et
+          hommage du Président Lebrun à la grandeur d'âme des aveugles de guerre). Il valide les
+          résultats des élections au Conseil d'administration. Sur le plan législatif, le bulletin
+          analyse les décrets-lois instituant un prélèvement de 3 % sur les pensions d'invalidité et
+          détaille les actions engagées pour la défense des blessés crâniens. Il publie les comptes
+          rendus du Conseil du 10 mars 1934 (règlement des Maisons de repos et de la Caisse Maladie)
+          et des assemblées des sections régionales (Bordeaux, Limoges, Lot/Lot-et-Garonne, Rhône,
+          Tarn).</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

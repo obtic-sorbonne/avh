@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#rapport-moral-et-financier">Rapport moral et financier</term>
+          <term ref="#caisse-maladie">Caisse maladie</term>
+          <term ref="#brosserie-et-materiaux">Brosserie et Matériaux</term>
+          <term ref="#bibliotheque-et-disques">Bibliothèque et Disques</term>
+          <term ref="#carte-de-cecite">Carte de cécité</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1950-03-01">01/03/1950</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de mars 1950 relate l'audience accordée le 1er mars par le Président du Conseil
+          Georges Bidault à la délégation de l'U.A.G. concernant le retard de revalorisation des
+          pensions. Il publie l'intégralité des Projets de Rapport moral et financier de l'exercice
+          1949, détaillant les recettes (12 345 623 fr.), les dépenses, la Caisse de prévoyance et
+          le bilan au 31 décembre 1949. Il officialise la liste complète des candidats au Conseil
+          d'administration pour l'Assemblée générale du 6 mai 1950 avec leurs fiches biographiques.
+          Le bulletin précise les règles d'envoi des dossiers à la Caisse maladie, les critères
+          d'attribution de la Carte du combattant 39-45 et de la carte de cécité. Enfin, il
+          mentionne les conférences du Carême du RP Riquet et la réunion des brossiers.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

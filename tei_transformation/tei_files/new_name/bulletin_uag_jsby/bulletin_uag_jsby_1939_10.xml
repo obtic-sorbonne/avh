@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Mobilisation et Reconstitution</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +69,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#mobilisation-et-reconstitution">Mobilisation et Reconstitution</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1939-08-01">01/08/1939</date>
       </creation>
+      <abstract>
+        <p>Intitulé "Bulletin de Guerre", ce numéro d'octobre 1939 paraît au début de la Seconde
+          Guerre mondiale. Le Secrétaire général H. Amblard y adresse un message de calme, de
+          sang-froid et de civisme aux aveugles de guerre, alors que de nombreux anciens combattants
+          de 1914 et de jeunes Français sont mobilisés au Front. Le bulletin officialise le
+          transfert provisoire des services administratifs et du siège de l'Union des Aveugles de
+          Guerre à Franceville (Calvados), lieu où tout le courrier doit désormais être acheminé. Il
+          contient les avis nécrologiques concernant le camarade René Munnier (Officier de la Légion
+          d'honneur) et Suzanne Marin (victime civile), ainsi qu'une petite annonce immobilière pour
+          la vente d'une propriété à Saint-Pourçain-sur-Sioule.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

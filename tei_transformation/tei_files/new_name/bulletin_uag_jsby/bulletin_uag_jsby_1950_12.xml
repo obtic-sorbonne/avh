@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#vente-de-charite">Vente de charité</term>
+          <term ref="#visites-officielles">Visites officielles</term>
+          <term ref="#securite-sociale">Sécurité sociale</term>
+          <term ref="#exonerations-fiscales">Exonérations fiscales</term>
+          <term ref="#comite-dentente">Comité d'entente</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1950-12-01">01/12/1950</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de décembre 1950 publie les vœux de fin d'année d'Henri Izaac et la lettre de
+          remerciements du Président de la République Vincent Auriol après le 11 novembre. Il dresse
+          le bilan financier et moral fructueux de la Vente de charité tenue au siège. Le document
+          relate les visites officielles à l'U.A.G. de Louis Jacquinot, de Sir Ian Fraser (président
+          de St. Dunstan's) et du Préfet de la Seine M. Haag. Il félicite Pierre Régnier, promu
+          Grand Officier de la Légion d'honneur. Le camarade Duc y commente en détail le décret du 6
+          octobre 1950 sur les avantages fiscaux et successoraux. Enfin, il mentionne la réduction
+          de 50 % accordée par les Cars Citroën dans l'Ouest et publie les listes de
+          cotisations.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -412,9 +441,9 @@
               se renouvellent avec les délégués de nombreux pays où malheureusement on compte des
               Aveugles de guerre.</p>
             <pb n="8"/>
-            <!-- Page manquante -->
+
             <pb n="9"/>
-            <!-- Page manquante -->
+
             <pb n="10"/>
             <note type="foliation">— 10 —</note>
             <p>Ce nouveau texte nous donne entière satisfaction, car l'avantage accordé aux Mutilés,

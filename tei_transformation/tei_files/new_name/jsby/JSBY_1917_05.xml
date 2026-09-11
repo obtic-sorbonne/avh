@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Prothèses et Santé</title>
+        <title type="topic">Agriculture et Élevage</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#yeux-artificiels-et-soins">Yeux artificiels et Soins</term>
+          <term ref="#apiculture-et-essaims">Apiculture et Essaims</term>
+          <term ref="#machines-a-ecrire-modifiees">Machines à écrire modifiées</term>
+          <term ref="#assurances">Assurances</term>
+          <term ref="#ecoles-de-reeducation">Écoles de rééducation</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-05-01">01/05/1917</date>
       </creation>
+      <abstract>
+        <p>Ce numéro enregistre de grands progrès politiques pour "Le Prix des Yeux", les ministres
+          Justin Godart, Thierry et Painlevé s'engageant à faire voter la majoration de pension à 1
+          200 francs. L'entrepôt franco-américain élargit ses stocks de matières premières en
+          proposant désormais du coco, des bois de balais, de la canne et du rotin. La rubrique du
+          mariage s'enrichit de témoignages sur le bonheur familial et d'offres d'installation
+          rurale dans le Sud-Ouest. Le Dr Sexe livre un guide pratique sur les débuts en apiculture
+          et présente le succès de l'apiculteur Fontaine. Sur le plan technique, M. Bocquet décrit
+          la modification de la machine à écrire Underwood pour les mutilés d'une main. Enfin, le
+          journal donne des nouvelles des écoles de Chartres et de Caluire et publie les conseils de
+          M. Izac sur le placage des brosses.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-19" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1398,7 +1428,7 @@
               <pb n="19"/>
             </div>
 
-            <!-- Page 17 manquante -->
+
             <pb n="20"/>
             <div type="subsection">
               <head type="subsection" rend="align(center)" xml:id="h38">TRANSFORMATION DE LA MACHINE

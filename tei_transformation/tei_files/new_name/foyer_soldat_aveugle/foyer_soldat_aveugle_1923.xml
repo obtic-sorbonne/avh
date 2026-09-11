@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-retirees">Pensions retirées</term>
+          <term ref="#maladie-au-foyer">Maladie au foyer</term>
+          <term ref="#collaboration-inter-œuvres">Collaboration inter-œuvres</term>
+          <term ref="#association-valentin-hauy">Association Valentin Haüy</term>
+          <term ref="#charges-familiales">Charges familiales</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Rapport du 8e exercice (1923) présenté le 30 mars 1924 par la Secrétaire générale Mme
+          Lévy-Dhurmer. L'action est désormais très spécialisée et cible 332 bénéficiaires ayant
+          reçu 195 080,60 frs pour des motifs médicaux ou familiaux stricts (maladies de l'aveugle
+          ou de son épouse, frais pour les enfants, pensions contestées ou supprimées).
+          L'association maintient sa concertation étroite avec Valentin Haüy et les Amis des Soldats
+          Aveugles afin d'éviter les doubles emplois et d'optimiser l'impact des secours. Le F.S.A.
+          affirme sa volonté de poursuivre sa mission d'entraide malgré les appels de certains
+          bulletins d'aveugles souhaitant la fin des œuvres privées.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1372,7 +1406,8 @@
                   <cell>200</cell>
                 </row>
                 <row>
-                  <cell>Clausonne (M<hi rend="superscript">me</hi> Alfred de Cochery (M<hi rend="superscript">me</hi>)</cell>
+                  <cell>Clausonne (M<hi rend="superscript">me</hi> Alfred de Cochery (M<hi
+                      rend="superscript">me</hi>)</cell>
                   <cell>100</cell>
                 </row>
                 <row>
@@ -4383,7 +4418,8 @@
                 <cell>50</cell>
               </row>
               <row>
-                <cell>Oswald (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Oswald (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>
@@ -4542,7 +4578,8 @@
                 <cell>50</cell>
               </row>
               <row>
-                <cell>Robinet et les ouvrières de son atelier (M<hi rend="superscript">me</hi>)</cell>
+                <cell>Robinet et les ouvrières de son atelier (M<hi rend="superscript"
+                  >me</hi>)</cell>
                 <cell>30</cell>
               </row>
               <row>
@@ -4744,7 +4781,8 @@
                 <cell>5</cell>
               </row>
               <row>
-                <cell>Tiffy et Personnel des P. T. T. de Pezenas (M<hi rend="superscript">me</hi>)</cell>
+                <cell>Tiffy et Personnel des P. T. T. de Pezenas (M<hi rend="superscript"
+                  >me</hi>)</cell>
                 <cell>20</cell>
               </row>
             </table>
@@ -4822,7 +4860,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Vigouroux, ses adjointes et ses élèves (M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Vigouroux, ses adjointes et ses élèves (M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>100</cell>
               </row>
               <row>

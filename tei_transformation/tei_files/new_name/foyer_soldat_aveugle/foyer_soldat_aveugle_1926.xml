@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Réforme des Statuts</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#nouveaux-statuts">Nouveaux statuts</term>
+          <term ref="#decret-presidentiel">Décret présidentiel</term>
+          <term ref="#categories-prioritaires">Catégories prioritaires</term>
+          <term ref="#don-du-11-novembre">Don du 11 novembre</term>
+          <term ref="#membres-adherents">Membres adhérents</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document couvre l'exercice 1926 et intègre le texte intégral des nouveaux statuts
+          révisés, approuvés par décret présidentiel le 8 juillet 1926. Le Rapport moral confirme la
+          pleine pertinence du nouveau cadre statutaire, l'œuvre ayant reçu 102 787 frs de
+          contributions financières en 1926. Les secours s'élèvent à 165 009,20 frs distribués à 207
+          bénéficiaires dans le besoin. Le rapport met en lumière la solidarité des anciens
+          bénéficiaires désormais autonomes, qui agissent comme relais d'information auprès du
+          F.S.A. pour signaler leurs camarades en détresse. Les frais généraux sont fortement
+          réduits à 7,3 % des recettes.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -2747,7 +2781,8 @@
                 <cell>50</cell>
               </row>
               <row>
-                <cell>Boissonnet (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Boissonnet (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                    >lle</hi>)</cell>
                 <cell>5</cell>
               </row>
               <row>

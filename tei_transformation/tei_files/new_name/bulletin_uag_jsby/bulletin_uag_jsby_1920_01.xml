@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +69,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1920-01-01">01/01/1920</date>
       </creation>
+      <abstract>
+        <p>Ce premier numéro de l'année 1920 publie une circulaire relative à la délivrance des
+          titres d'allocation provisoire d'attente pour les réformés sous l'ancienne loi de 1831. Il
+          présente les réformes administratives récentes, comme l'instauration des carnets de
+          coupons sans certificat de vie, la loi du 24 octobre 1919 sur les avances au petit
+          commerce et celle du 31 octobre 1919 sur l'accession à la propriété rurale. Le bulletin
+          retrace la cérémonie d'hommage au cours de laquelle la cravate de Commandeur de la Légion
+          d'honneur a été offerte à M. Brieux par l'Union. Il fournit le procès-verbal de
+          l'Assemblée générale du 7 décembre 1919 avec la proclamation des résultats du scrutin pour
+          le Conseil d'administration. Enfin, il propose des articles techniques sur la réalisation
+          de clichés d'impression plâtrés et la viticulture par les aveugles.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

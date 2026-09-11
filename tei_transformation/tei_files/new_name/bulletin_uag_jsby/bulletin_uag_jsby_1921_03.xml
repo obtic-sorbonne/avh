@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-03-01">01/03/1921</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de mars 1921 publie l'intégralité du Rapport moral et financier définitif de
+          l'U.A.G. pour l'exercice 1919-1920 ainsi que le compte rendu officiel de l'Assemblée
+          générale du 13 février 1921 à la Sorbonne. Il annonce l'élection du nouveau Bureau :
+          Eugène Goubin est élu Président, Georges Roy, Gudefin et Bois Vice-présidents, Bertrand
+          Secrétaire général, et Boetzel Trésorier. L'Assemblée valide la poursuite des démarches
+          pour la reconnaissance d'utilité publique, la préparation des sections régionales et
+          l'étude du projet de "La Maison de l'Aveugle de guerre". Sur le plan professionnel, le
+          bulletin annonce la première commande officielle de brosserie faite par l'État aux
+          aveugles (brosses à boutons pour l'armée) et la participation à l'Exposition de Nancy.
+          Enfin, il inclut les avis administratifs ordinaires et la chronique.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

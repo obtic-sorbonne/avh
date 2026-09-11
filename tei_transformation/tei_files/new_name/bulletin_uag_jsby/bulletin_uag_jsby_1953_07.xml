@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#plan-quadriennal">Plan quadriennal</term>
+          <term ref="#securite-sociale">Sécurité sociale</term>
+          <term ref="#television-et-aveugles">Télévision et Aveugles</term>
+          <term ref="#question-du-logement">Question du logement</term>
+          <term ref="#assurance-groupe-sur-la-vie">Assurance-groupe sur la vie</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1953-07-01">01/07/1953</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de juillet 1953 explique le retard de parution lié aux grèves d'août 1953. Il
+          fait le point sur le Plan quadriennal sous le ministre André Mutter, la fin des versements
+          d'arrérages de l'allocation 8 et retranscrit le PV du Comité d'entente du 25 septembre
+          1953. Le document présente M. André Mutter (député de l'Aube, résistant et déporté), M.
+          Siret et M. Morin. Il dresse le bilan d'été à Franceville et annonce l'acquisition de la
+          nouvelle maison de repos d'Amélie-les-Bains (Pyrénées-Orientales, au pied du Canigou). S'y
+          ajoutent les conseils juridiques de G. Muller sur les prêts UAG, l'historique de la
+          "Planche à dessiner Leveau" (reprise de fabrication à 750 fr.), la nécrologie d'Henry
+          Laverne et les nouveautés Braille/discothèque.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -629,9 +658,9 @@
               <p>Dans le bulletin, comme nous l'avons fait par le passé,</p>
               <pb n="7"/>
 
-              <!-- Page manquante -->
+
               <pb n="8"/>
-              <!-- Page manquante -->
+
               <pb n="9"/>
               <note type="foliation">— 9 —</note>
               <p>nous tiendrons nos camarades au courant de la marche du groupe.</p>

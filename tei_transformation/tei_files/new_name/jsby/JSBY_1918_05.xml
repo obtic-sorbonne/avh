@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Formation professionnelle</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#syndicat-professionnel-brossier">Syndicat professionnel brossier</term>
+          <term ref="#droits-des-reformes-n-2">Droits des réformés N° 2</term>
+          <term ref="#contrat-de-mariage">Contrat de mariage</term>
+          <term ref="#memento-de-laveugle">Mémento de l'aveugle</term>
+          <term ref="#outillage-et-guide-main">Outillage et Guide-main</term>
+          <term ref="#telephonie">Téléphonie</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-05-01">01/05/1918</date>
       </creation>
+      <abstract>
+        <p>M. Brieux lance officiellement le projet de Syndicat professionnel des Ouvriers brossiers
+          aveugles pour obtenir des monopoles d'État et créer une coopérative d'achat. R. Vérité
+          développe des réflexions philosophiques sur la vision intérieure ("Voir sans voir"). Le
+          journal publie le "MEMENTO de l'Aveugle de Guerre", un guide pratique du quotidien. M.
+          Brieux interpelle le gouvernement ("Sans yeux, sans bras... et sans pension") en faveur
+          des réformés n°2 blessés par grenades. Plusieurs camarades témoignent de leurs succès en
+          tonnellerie, vannerie ou boulangerie. M. Dodu (Tours) publie un guide sur le contrat de
+          mariage et offre le concours gratuit de notaires. Enfin, l'entrepôt annonce une baisse des
+          prix des matières premières.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Agriculture et Élevage</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Lecture et Écriture</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +66,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#comite-franco-americain">Comité Franco-Américain</term>
+          <term ref="#soutien-financier">Soutien financier</term>
+          <term ref="#apiculture-et-miel">Apiculture et Miel</term>
+          <term ref="#aviculture-et-volailles">Aviculture et Volailles</term>
+          <term ref="#mariage">Mariage</term>
+          <term ref="#bibliotheques-braille">Bibliothèques Braille</term>
+          <term ref="#masseurs-aveugles">Masseurs aveugles</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-03-01">01/03/1917</date>
       </creation>
+      <abstract>
+        <p>Ce numéro célèbre la générosité des souscripteurs et annonce le soutien massif des
+          Américains via le Permanent Blind Relief War Fund créé par M. et Mme George Kessler. M.
+          Brieux initie une grande réflexion sur le mariage des blessés aux yeux en publiant la
+          lettre d'une dame aveugle incitant les camarades à fonder un foyer. Le Dr Sexe apporte une
+          consultation scientifique sur l'apiculture, tandis qu'un rapport sur l'aviculture
+          artificielle et les couveuses présente les cours de l'école anglaise de St-Dunstan.
+          L'instituteur Dallet demande des livres pour créer une bibliothèque scolaire, et son
+          collègue Veillet raconte ses premiers essais d'enseignement. Plusieurs lettres illustrent
+          la réadaptation de brossiers, fileteurs et représentants de commerce, tandis que naissent
+          de nouvelles revues en Braille comme Touche-à-Tout.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-19" who="#fchiffol">Conversion du texte en XML-TEI</change>

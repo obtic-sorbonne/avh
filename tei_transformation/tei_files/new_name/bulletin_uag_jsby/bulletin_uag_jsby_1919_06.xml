@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Éducation et Culture</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +69,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#livres-et-braille">Livres et Braille</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-06-01">01/06/1919</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de juin 1919 marque un tournant historique avec la fusion du Bulletin de
+          l'U.A.G. et du "Journal des Soldats Blessés aux Yeux" fondé par l'académicien Eugène
+          Brieux, scellant l'union des deux publications sous une même direction. Le bulletin traite
+          de la réglementation sur la fixation des indemnités pour accidents du travail et publie le
+          décret régissant les allocations provisoires forfaitaires attribuées aux réformés en
+          instance de liquidation de pension. Il dresse le bilan des volumes en Braille édités par
+          l'imprimerie "La Roue" dirigée par Miss Alice Getty ainsi que par Valentin Haüy. Le
+          procès-verbal du Conseil d'administration du 1er juin annonce la modification des statuts.
+          Enfin, la revue contient des avis d'entraide pour l'écoulement des stocks de brosserie et
+          la liste des prix des matières premières fournies à l'entrepôt de Neuilly.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

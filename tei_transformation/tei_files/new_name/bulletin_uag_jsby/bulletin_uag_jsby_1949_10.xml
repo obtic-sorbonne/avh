@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#rapport-constant">Rapport constant</term>
+          <term ref="#soins-medicaux">Soins médicaux</term>
+          <term ref="#lectures-par-le-disque">Lectures par le disque</term>
+          <term ref="#retraite-artisanale">Retraite artisanale</term>
+          <term ref="#maisons-de-repos">Maisons de repos</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1949-10-01">01/10/1949</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin d'octobre 1949 réaffirme l'exigence du réajustement des pensions pour combler
+          l'écart de 43 % constaté par rapport à la revalorisation des traitements des
+          fonctionnaires. Le Comité d'entente y vote une motion contre les retards de paiement des
+          soins (art. 64) et diffuse le rapport de Gauriault aux parlementaires. Le document traite
+          des modalités de la Sécurité sociale et de l'allocation vieillesse des artisans. Un long
+          procès-verbal du Conseil d'administration du 25 juin 1949 aborde les choix budgétaires sur
+          la discothèque « Les Lectures par le disque », la qualité technique des enregistrements et
+          la réouverture de Franceville. Le bulletin mentionne l'accueil de délégués australiens et
+          d'une tournée avec chiens-guides belges, la mission d'Yvan Guibert en A.O.F., ainsi que
+          diverses réductions commerciales.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -364,9 +394,9 @@
             <p>Toutefois, quelles que soient les ressources, l'allocation est versée pour une part
               égale aux 2/15 de l'allocation par année de cotisation.</p>
             <pb n="6"/>
-            <!-- Page manquante -->
+
             <pb n="7"/>
-            <!-- Page manquante -->
+
             <pb n="8"/>
             <note type="foliation">— 8 —</note>
             <p>Cette médaille ne pourra être attribuée aux personnes déjà titulaires : <list>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,42 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-12-01">01/12/1919</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de décembre 1919 est consacré au rapport annuel d'activité et financier du
+          Conseil d'administration présenté lors de l'Assemblée générale du 7 décembre. Il retrace
+          le bilan de la première année d'existence de l'U.A.G. : installation du siège social rue
+          du Mont-Thabor, création de l'Office de renseignements ayant répondu à des milliers de
+          demandes, édition du bulletin et démarches auprès des ministères. Le rapport détaille la
+          reprise en gestion directe de l'entrepôt de matières premières de Neuilly (d'une valeur de
+          300 000 fr. cédée par le Comité français) et la distribution de vêtements de laine. Enfin,
+          l'association expose son programme d'avenir : projet de loi pour la "Maison de l'Aveugle
+          de guerre", création d'une marque de garantie U.A.G. contre la concurrence déloyale et
+          développement de coopératives de production et d'achat.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Éducation et Culture</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,7 +69,19 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
@@ -69,8 +89,22 @@
         <date when="1919-08-01">01/08/1919</date>
         <date when="1919-09-01">01/09/1919</date>
       </creation>
+      <abstract>
+        <p>Publié en août-septembre 1919, ce bulletin fait le point sur le transfert des fonds et de
+          l'œuvre du "Journal des Soldats Blessés aux Yeux" transmis par M. Brieux à l'U.A.G.,
+          représentant plus de 342 000 francs. L'association lance une vaste enquête nationale
+          auprès de ses membres afin d'obtenir du Gouvernement le maintien de dix écoles régionales
+          de rééducation professionnelle. Une notice technique consacrée à l'optophone — appareil
+          permettant aux aveugles d'entendre la lecture de textes imprimés grâce au sélénium — y est
+          traduite par Maurice Bocquet. Le bulletin organise la distribution de chaussures et
+          chandails financée par un don de Cuba de 32 000 francs. Il achève la publication du
+          Guide-barème des invalidités (dents, bouche, nez, oreilles, membres inférieurs) et
+          présente de nombreuses correspondances de camarades.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Éducation et Culture</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +69,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-07-01">01/07/1919</date>
       </creation>
+      <abstract>
+        <p>Ce numéro double de juillet-août 1919 présente la composition complète du Comité de
+          Patronage (présidé par le Général Maunoury et M. Brieux) et du Comité d'Action de l'U.A.G.
+          Il relate l'initiative touchante d'une institutrice de Lorraine et de ses élèves ayant
+          réalisé une collecte au profit des aveugles de guerre. Le bulletin conclut l'étude
+          juridique d'O. Bloch sur les accidents du travail et convoque l'Assemblée générale de
+          l'association pour le 7 décembre 1919. La partie documentaire entame la publication
+          séquentielle du Guide-barème officiellement annexé au décret du 29 mai 1919, détaillant
+          les taux d'évaluation pour les incapacités des membres supérieurs (doigts, main, poignet,
+          coude, épaule), le crâne et l'acuité visuelle. Le numéro publie également des tarifs de
+          matières premières et des avis d'entraide.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

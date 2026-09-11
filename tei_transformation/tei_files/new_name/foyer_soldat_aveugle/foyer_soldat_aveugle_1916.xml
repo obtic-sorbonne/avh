@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,12 +66,36 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#reconnaissance-dutilite-publique">Reconnaissance d'utilité publique</term>
+          <term ref="#souscriptions-et-dons">Souscriptions et Dons</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#statuts-et-reglement">Statuts et Règlement</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document couvre le premier exercice prolongé de l'association (de juillet 1915 à
+          décembre 1916, soit 17 mois). Il intègre le décret du 20 octobre 1916 signé par le
+          président Raymond Poincaré portant reconnaissance d'utilité publique de l'œuvre. Le
+          rapport précise les statuts, la composition du Comité d'honneur (avec Maurice Barrès, Paul
+          Deschanel, le général Lyautey) et du Conseil d'administration. Le compte rendu de
+          l'Assemblée générale du 28 janvier 1917 réunit le Rapport moral et le Rapport du trésorier
+          Jules Siegfried fils. L'objectif fixé est d'apporter secours financier et soutien par le
+          travail à 1 800 foyers de soldats blessés aux yeux. Durant cet exercice, 48 662,75 frs
+          d'allocations et dons ont été distribués à 335 bénéficiaires grâce aux cartes postales de
+          Lévy-Dhurmer, souscriptions de presse et ventes de tableaux.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-24" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-18" who="#fchiffol">Conversion du texte en XML-TEI</change>

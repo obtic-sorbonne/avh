@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Formation professionnelle</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#chambre-des-deputes">Chambre des Députés</term>
+          <term ref="#pupilles-du-comite-americain">Pupilles du Comité américain</term>
+          <term ref="#ecole-industrielle-de-neuilly">École industrielle de Neuilly</term>
+          <term ref="#ecole-superieure">École supérieure</term>
+          <term ref="#bibliotheques-braille">Bibliothèques Braille</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-07-01">01/07/1917</date>
       </creation>
+      <abstract>
+        <p>Ce numéro célèbre le vote définitif de la loi des 1 200 francs par la Chambre des
+          Députés. Le Comité franco-américain ouvre l'École industrielle de tricotage mécanique au
+          boulevard du Château à Neuilly, offrant gratuitement la formation, l'hébergement et la
+          machine aux élèves. Une allocation d'ameublement de 600 francs est attribuée aux pupilles
+          s'installant chez eux. Le journal rend compte de grandes représentations théâtrales
+          données au Colisée à Paris et à Port-Saïd au profit de sa caisse. Une nouvelle école
+          consacrée à la massothérapie, la téléphonie et les langues étrangères s'ouvre à Cannes.
+          Dans ses conseils, l'auteur anonyme vante les mérites de la vie rurale et exige un ordre
+          rigoureux au foyer. Enfin, l'œuvre du Livre de l'Aveugle développe ses bibliothèques
+          circulantes.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-20" who="#fchiffol">Conversion du texte en XML-TEI</change>

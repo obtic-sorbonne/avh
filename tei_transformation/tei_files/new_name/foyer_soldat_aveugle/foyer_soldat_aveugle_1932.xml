@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#depreciation-des-titres">Dépréciation des titres</term>
+          <term ref="#pensions-contestees">Pensions contestées</term>
+          <term ref="#lois-dassistance-civile">Lois d'assistance civile</term>
+          <term ref="#citation-de-brieux">Citation de Brieux</term>
+          <term ref="#ajustement-des-secours">Ajustement des secours</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce rapport couvre l'exercice 1932 (Assemblée du 25 janvier 1933). Il s'ouvre par un
+          hommage solennel au soldat aveugle Griffon (décédé à l'été 1932), qui versait chaque année
+          une cotisation de 1 000 frs prélevée sur sa pension. L'action maintient l'aide auprès de
+          82 bénéficiaires pour un montant de 231 875 frs (incluant 37 dons mensuels pour 204 650
+          frs). Le rapport note des progrès notables : 12 aveugles soutenus par le Foyer ont enfin
+          obtenu leur pension militaire d'État depuis 1930, et 3 municipalités leur ont accordé le
+          bénéfice de l'assistance civile. L'actif net au 31 décembre 1932 s'élève à 768 522,32
+          frs.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -247,7 +281,9 @@
           <div type="section">
             <head type="section" rend="align(center)" xml:id="h4">COMITÉ D'HONNEUR</head>
             <p>MM. <g rend="obele">†</g> Léon BOURGEOIS ; <g rend="obele">†</g> Maurice BARRES, de
-              l'Académie française ; Marcel BLOCH ; BRIEUX, de l'Académie française ; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Éthiopie ; <g rend="obele">†</g> Robert de FLERS, de l'Académie française ; <g rend="obele">†</g>
+              l'Académie française ; Marcel BLOCH ; BRIEUX, de l'Académie française ; <g
+                rend="obele">†</g> Maurice de COPPET, ministre de France en Éthiopie ; <g
+                rend="obele">†</g> Robert de FLERS, de l'Académie française ; <g rend="obele">†</g>
               GAUTHIER DE CLAGNY ; HENRI-ROBERT, ancien Bâtonnier de l'Ordre des Avocats ; Maréchal
               LYAUTEY, de l'Académie française ; HERRIOT, maire de Lyon ; <g rend="obele">†</g>
               Général MALLETERRE ; <g rend="obele">†</g> Général MAUNOURY ; D’MORAX, président de la
@@ -2334,7 +2370,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>
@@ -4728,7 +4765,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Thiesnard (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Thiesnard (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>

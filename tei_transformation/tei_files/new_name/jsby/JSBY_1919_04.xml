@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Formation professionnelle</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,35 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#promulgation-de-la-loi-sur-les-pensions">Promulgation de la Loi sur les
+            Pensions</term>
+          <term ref="#droits-des-veuves-et-orphelins">Droits des veuves et orphelins</term>
+          <term ref="#indemnite-de-demobilisation">Indemnité de démobilisation</term>
+          <term ref="#soins-medicaux-gratuits">Soins médicaux gratuits</term>
+          <term ref="#apprentissage-de-la-cordonnerie">Apprentissage de la cordonnerie</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-04-01">01/04/1919</date>
       </creation>
+      <abstract>
+        <p>Le journal publie une analyse juridique détaillée de la loi du 31 mars 1919 sur les
+          pensions et explique le calcul de l'Indemnité de Démobilisation. Le débat sur la
+          cordonnerie se poursuit avec les contributions de Clairin Estienne et Charles Mengin
+          démontrant la faisabilité technique de la couture et du ferrage. Deux collaborateurs
+          reçoivent la Légion d'honneur. L'entrepôt de Neuilly publie son tarif des matières
+          premières.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-09-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-09-07" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1323,9 +1349,9 @@
             <fw type="header">PARIS. — IMPRIMERIE CHAUX (NUCCURNAIR BÉROUGEUR) AND SAINT-MICHEL. —
               1157-19.</fw>
             <pb n="19"/>
-            <p><!-- Element manquante --> nion, 50 fr. — M. Louis Bancal, 48, rue de la République,
-              Saint-Denis (Seine), 5 fr. — Mme Rollinat, cours complémentaire, Toucy (Yonne), 5 fr.
-              — Mlle Gentilt, institutrice, Courgis, par Chablis (Yonne), 20 fr.</p>
+            <p> nion, 50 fr. — M. Louis Bancal, 48, rue de la République, Saint-Denis (Seine), 5 fr.
+              — Mme Rollinat, cours complémentaire, Toucy (Yonne), 5 fr. — Mlle Gentilt,
+              institutrice, Courgis, par Chablis (Yonne), 20 fr.</p>
             <p>Les fillettes de l'école du groupe Berthelot, Villeneuve St-Georges (Mlle Verly,
               directrice), 20 fr. — Collecte faite parmi les familles Adam, Brès, Brouard, Demancet,
               Dupré, Janin, Millon, Hani, Letocard, Sivade, Tondeur, M. Ch. Millon, professeur,

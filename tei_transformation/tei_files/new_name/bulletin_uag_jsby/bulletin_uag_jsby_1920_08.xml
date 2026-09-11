@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Famille et Veuves</title>
+        <title type="topic">Santé et Soins</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#veuves-et-orphelins">Veuves et Orphelins</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1920-08-01">01/08/1920</date>
       </creation>
+      <abstract>
+        <p>Paru en août 1920, ce numéro célèbre le vote de la nouvelle loi sur les pensions portant
+          le minimum des invalides à 100 % (art. 10) à 6 000 francs par an. Il contient la notice
+          nécrologique de M. Félix Thomas, directeur de l'école de rééducation de Saint-Brieuc et
+          membre du Comité de Patronage. Le bulletin prépare l'Assemblée générale de décembre 1920
+          et la réélection partielle du Conseil d'administration. Il reproduit l'instruction
+          ministérielle encadrant l'emploi à titre civil des masseurs aveugles de guerre dans les
+          hôpitaux militaires. Il informe également sur la situation des aliénés pensionnés et les
+          contestations liées aux majorations pour enfants. Enfin, la chronique présente des
+          initiatives locales de soins gratuits en Charente, des essais sur l'optophone au Phare de
+          France et la suite des listes d'adhérents par département.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

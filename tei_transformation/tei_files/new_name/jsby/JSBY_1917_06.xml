@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions">Pensions</term>
+          <term ref="#permanent-blind-relief-war-fund">Permanent Blind Relief War Fund</term>
+          <term ref="#mutiles-des-deux-mains">Mutilés des deux mains</term>
+          <term ref="#primes-de-naissance">Primes de naissance</term>
+          <term ref="#mariage">Mariage</term>
+          <term ref="#ecriture-en-caracteres-usuels">Écriture en caractères usuels</term>
+          <term ref="#guide-main">Guide-main</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-06-01">01/06/1917</date>
       </creation>
+      <abstract>
+        <p>M. Brieux annonce le dépôt par le Gouvernement du projet de loi relevant la pension des
+          aveugles de guerre à 1 200 francs avec effet rétroactif. Le Permanent Blind Relief War
+          Fund adopte des "pupilles" et la Société "E Manu Lux" accorde des primes pour les
+          nouveau-nés. Le Dr Cantonnet présente une méthode permettant aux aveugles d'écrire en
+          caractères usuels, tandis qu'un couteau à pédale est conçu pour les brossiers manchots. La
+          série des "Conseils d'un Ami" aborde le déroulement de la rééducation et la discipline
+          dans le ménage. De nombreux camarades racontent leur retour à la vie active en tant que
+          chaisiers, agriculteurs ou coiffeurs. Enfin, G. Desdevises du Dezert présente le bilan
+          complet de la Maison de Montferrand après un an de fonctionnement.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-19" who="#fchiffol">Conversion du texte en XML-TEI</change>

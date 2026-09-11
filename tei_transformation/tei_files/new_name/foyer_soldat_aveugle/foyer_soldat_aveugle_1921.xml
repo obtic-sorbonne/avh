@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Finances et Budget</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,43 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pension-de-8000-francs">Pension de 8000 francs</term>
+          <term ref="#restriction-de-lassistance">Restriction de l'assistance</term>
+          <term ref="#mutilations-graves">Mutilations graves</term>
+          <term ref="#autonomie-financiere">Autonomie financière</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Rapport du 6e exercice (1921) présenté à l'Assemblée générale du 12 février 1922. Il
+          reproduit la circulaire du 20 novembre 1921 annonçant qu'avec la revalorisation de la
+          pension d'État à 8 000 frs, le F.S.A. cesse le versement d'allocations systématiques pour
+          se concentrer sur les détresses majeures et les cas les plus lourdement frappés. Lors de
+          l'exercice 1921, 2 096 bénéficiaires ont encore reçu 606 706,25 frs avant cette
+          réorganisation. Le bilan cumulé depuis 1915 indique plus de 3,62 millions de francs de
+          recettes et 2,65 millions distribués. L'allocution du Président Maurice Donnay rassemble
+          les réponses très dignes d'aveugles approuvant cette concentration des secours sur leurs
+          camarades les plus malheureux.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -3165,7 +3200,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Bazinet (M<hi rend="superscript">me</hi> A. et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Bazinet (M<hi rend="superscript">me</hi> A. et M<hi rend="superscript"
+                    >lle</hi>)</cell>
                 <cell>10</cell>
               </row>
               <row>
@@ -5377,7 +5413,8 @@
                 <cell>100</cell>
               </row>
               <row>
-                <cell>Meyer (M. et M<hi rend="superscript">me</hi> Louis) et M<hi rend="superscript">me</hi> Jules Falco</cell>
+                <cell>Meyer (M. et M<hi rend="superscript">me</hi> Louis) et M<hi rend="superscript"
+                    >me</hi> Jules Falco</cell>
                 <cell>100</cell>
               </row>
               <row>
@@ -5389,7 +5426,8 @@
                 <cell>4</cell>
               </row>
               <row>
-                <cell>Ministre plénipotentiaire du Danemark (par M. Bernhoft). Don de M<hi rend="superscript">lle</hi> Charlotte Lingby</cell>
+                <cell>Ministre plénipotentiaire du Danemark (par M. Bernhoft). Don de M<hi
+                    rend="superscript">lle</hi> Charlotte Lingby</cell>
                 <cell>100</cell>
               </row>
               <row>
@@ -5527,7 +5565,8 @@
                 <cell>55</cell>
               </row>
               <row>
-                <cell>Oswald (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lles</hi>)</cell>
+                <cell>Oswald (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lles</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>
@@ -6070,7 +6109,8 @@
                 <cell>50</cell>
               </row>
               <row>
-                <cell>Trémolières (M. et M<hi rend="superscript">me</hi> P.) et M<hi rend="superscript">me</hi> Martin</cell>
+                <cell>Trémolières (M. et M<hi rend="superscript">me</hi> P.) et M<hi
+                    rend="superscript">me</hi> Martin</cell>
                 <cell>10</cell>
               </row>
               <row>

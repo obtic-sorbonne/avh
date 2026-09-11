@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie familiale</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,37 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#dernier-numero-du-journal">Dernier numéro du Journal</term>
+          <term ref="#passage-de-temoin-a-luag">Passage de témoin à l'UAG</term>
+          <term ref="#dons-de-calcutta-et-cuba">Dons de Calcutta et Cuba</term>
+          <term ref="#distribution-de-la-paix">Distribution de la Paix</term>
+          <term ref="#bilan-financier-final">Bilan financier final</term>
+          <term ref="#guide-des-œuvres-dassistance">Guide des œuvres d'assistance</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-06-01">01/06/1919</date>
       </creation>
+      <abstract>
+        <p>M. Brieux annonce la parution du 32e et DERNIER numéro du Journal des Soldats Blessés aux
+          Yeux. Deux dons d'adieu magnifiques sont distribués pour le 14 Juillet de la Paix : 79 000
+          francs de Mme Viviane Humphreys (Calcutta) pour un chèque de 25 francs à chaque blessé, et
+          32 051 francs de la République de Cuba pour des vêtements/chaussures. M. Brieux transmet
+          officiellement tous les pouvoirs, archives et le solde de caisse de 367 736 francs à
+          L'UNION DES AVEUGLES DE GUERRE (U. A. G.). Le bilan financier historique récapitule 754
+          061 francs de recettes et 7 832 secours versés. Enfin, le Dr Delord fournit une méthode
+          d'éducation commerciale en brosserie.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-09-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-09-07" who="#fchiffol">Conversion du texte en XML-TEI</change>

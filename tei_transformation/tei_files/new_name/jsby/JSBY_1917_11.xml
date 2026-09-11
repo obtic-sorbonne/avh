@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie familiale</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#bilan-de-la-premiere-annee">Bilan de la première année</term>
+          <term ref="#comite-franco-americain">Comité Franco-Américain</term>
+          <term ref="#montres-pour-aveugles">Montres pour aveugles</term>
+          <term ref="#rasoirs-de-surete">Rasoirs de sûreté</term>
+          <term ref="#presse-quotidienne-braille">Presse quotidienne Braille</term>
+          <term ref="#menuiserie-et-placage">Menuiserie et Placage</term>
+          <term ref="#tonnellerie">Tonnellerie</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-11-01">01/11/1917</date>
       </creation>
+      <abstract>
+        <p>M. Brieux dresse le bilan de la première année du journal : 184 239 francs de recettes,
+          95 217 francs de dépenses et zéro franc de frais généraux grâce à l'hospitalité des
+          Annales. Le Journal Officiel publie les premiers arrêtés d'attribution de la pension de 1
+          200 francs. La maison Brandt offre 45 montres à sonnerie Omega aux blessés. Maurice
+          Cintrat apporte son soutien au projet de journal quotidien en Braille en citant l'exemple
+          anglais. L'officier Aubus propose une réforme graphique des signes Braille pour les rendre
+          plus perceptibles. Lucien Clément fournit des conseils techniques sur la colle forte et le
+          placage des bois. Gustave Truy témoigne des réussites spectaculaires de l'atelier de
+          menuiserie de la rue de la Durance. Enfin, l'entrepôt de Neuilly recrute un ancien
+          professeur pour développer la brosserie industrielle.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-20" who="#fchiffol">Conversion du texte en XML-TEI</change>

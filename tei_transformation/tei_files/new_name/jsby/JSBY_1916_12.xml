@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie familiale</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +66,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#conseils-de-reforme">Conseils de réforme</term>
+          <term ref="#mariage">Mariage</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#vente-de-brosses">Vente de brosses</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1916-12-01">01/12/1916</date>
       </creation>
+      <abstract>
+        <p>Ce deuxième numéro met en avant deux avancées administratives : le quart de tarif accordé
+          par les compagnies de chemin de fer aux familles accompagnant les militaires aveugles et
+          la révision de la situation des blessés quasi-aveugles assimilés à tort à des borgnes. M.
+          Brieux retrace les débuts des ateliers d'hôpitaux et le succès foudroyant de la vente des
+          "brosses de héros" grâce au journal Les Annales et à Mme Brisson. Une première liste
+          d'anciens pensionnaires de Reuilly déjà installés à leur compte avec leur matériel est
+          publiée afin de favoriser la solidarité. Des récits de camarades illustrent la reprise
+          d'activités variées, qu'il s'agisse de la pêche à la ligne, du mariage ou du travail de
+          téléphoniste. Enfin, l'édition brosse un panorama détaillé des écoles de rééducation de
+          province (Amiens, Bayonne, Bordeaux, Caen, Lyon, Marseille, Montferrand, Nantes, Toulouse,
+          Tours) et fournit un annuaire de fournitures pour brossiers.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-19" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -1697,7 +1730,7 @@
               <pb n="20"/>
             </div>
 
-            <!-- Page 18 manquante -->
+
             <pb n="21"/>
           </div>
           <div type="subsection">
@@ -1834,7 +1867,7 @@
             <fw type="footer" rend="italic">L'ennui est la nuit intérieure. </fw>
             <note type="foliation">— 20 —</note>
             <pb n="23"/>
-            <!-- Page 21 manquante -->
+
             <pb n="24"/>
             <note type="foliation">— 18 —</note>
             <p>La journée, de 8 heures à 12 heures et de 14 à 19 heures, est généralement bien
@@ -1929,7 +1962,7 @@
             <note type="foliation">— 22 —</note>
             <pb n="25"/>
           </div>
-          <!-- Page 23 manquante -->
+
           <pb n="26"/>
           <div type="subsection">
             <head type="subsection" rend="align(center)" xml:id="h46">ECOLE DE TOULOUSE (Château de
@@ -2005,7 +2038,7 @@
             <note type="foliation">— 24 —</note>
             <pb n="27"/>
           </div>
-          <!-- Page 25 manquante -->
+
           <pb n="28"/>
         </div>
         <div type="section">

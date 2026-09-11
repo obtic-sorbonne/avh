@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,14 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Santé et Soins</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +69,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1920-02-01">01/02/1920</date>
       </creation>
+      <abstract>
+        <p>Le bulletin de février 1920 met en avant la question des transports (revendication du
+          quart de place pour le mutilé et son guide) et reproduit un plaidoyer du Colonel Fabry en
+          faveur de la centralisation des services au sein d'un Ministère des Pensions unique,
+          ministère nouvellement créé et confié à André Maginot. Le numéro donne des consignes
+          pratiques pour l'échange des anciens titres de pension de 1 200 francs contre des titres
+          au nouveau tarif et clarifie la portée des formulaires de renonciation devant les
+          commissions de réforme. Il aborde la situation des fonctionnaires mutilés, la franchise
+          postale et les secours aux Alsaciens-Lorrains. La chronique financière au 1er janvier 1920
+          affiche un solde de 431 841 francs. Enfin, le numéro contient un hommage au lieutenant
+          Chounet et la suite des études agricoles de Jean Sigault.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

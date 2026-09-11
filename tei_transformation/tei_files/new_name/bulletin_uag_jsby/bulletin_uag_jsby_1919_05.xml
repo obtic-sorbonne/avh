@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Économie et Coopération</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +68,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+          <term ref="#mobilisation-et-reconstitution">Mobilisation et Reconstitution</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-05-01">01/05/1919</date>
       </creation>
+      <abstract>
+        <p>Le bulletin de mai 1919 aborde les défis de la vente des produits manufacturés en
+          recommandant la création d'une maison de vente centralisée à Paris pour écouler le surplus
+          non vendu localement. O. Bloch poursuit son analyse juridique du champ d'application de la
+          loi de 1898 sur les accidents du travail. Le numéro fournit des précisions administratives
+          sur les modalités d'attribution de la prime de démobilisation (indemnité fixe et primes
+          mensuelles) et sur les mesures visant à accélérer la révision et la liquidation des
+          pensions devant les centres de réforme. Il reproduit le texte de la loi sur l'emploi
+          obligatoire des mutilés de guerre dans les établissements industriels et commerciaux. La
+          chronique relate le don d'un stock de tabac et cigarettes par la Croix-Rouge cubaine et
+          présente une adaptation sur machine à écrire réalisée par Désiré Leveau.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

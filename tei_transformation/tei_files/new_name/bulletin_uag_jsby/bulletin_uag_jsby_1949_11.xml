@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#tierce-personne">Tierce personne</term>
+          <term ref="#brosserie-et-artisanat">Brosserie et Artisanat</term>
+          <term ref="#appareils-de-lecture">Appareils de lecture</term>
+          <term ref="#comite-dentente">Comité d'entente</term>
+          <term ref="#invalides-de-guerre">Invalides de guerre</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1949-11-01">01/11/1949</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de novembre 1949 porte sur les démarches auprès du nouveau gouvernement et du
+          ministre des Anciens Combattants Louis Jacquinot. L'U.A.G. y revendique la parité, le
+          rapport constant et une meilleure prise en charge de la tierce personne pour les très
+          grands invalides (art. 10) et les veuves. Le Comité d'entente rend compte de son audience
+          du 15 novembre avec le ministre. Le bulletin annonce le lancement du calendrier UAG 1950,
+          la réunion d'information pour les brossiers de la région parisienne, ainsi que la
+          commercialisation d'un prototype de mallette-phonographe plus légère (16 000 fr.). Il
+          détaille les nouveaux livres imprimés et enregistrés sur disques (dont La Peste et Anna
+          Karénine). Enfin, il présente le compte rendu de la réunion de la section du Gers et des
+          Hautes-Pyrénées.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,16 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Relations internationales et Action interalliée</title>
+        <title type="topic">Mémoire et Commémoration</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +71,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#veuves-et-orphelins">Veuves et Orphelins</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-05-01">01/05/1921</date>
       </creation>
+      <abstract>
+        <p>Le numéro de mai 1921 présente un rapport comparatif sur la rééducation des aveugles de
+          guerre en Angleterre (centre de St Dunstan's) et en France. Il décrit la transformation du
+          Phare de France en centre d'hébergement, de rééducation et d'imprimerie Braille. Le
+          bulletin donne des instructions pratiques sur les séjours aux Invalides, la situation des
+          militaires de carrière de l'armée active ou coloniale, la délivrance des titres
+          définitifs, et les demandes de révision pour aggravation de blessures. Il informe sur les
+          démarches en cours pour le voyage gratuit du guide en chemin de fer et les consultations
+          théâtrales à Paris. Enfin, il contient les procès-verbaux des Conseils des 5 et 12 mars
+          1921, relate le départ du Secrétaire général Bertrand et donne les comptes rendus des
+          réunions corporatives des masseurs et brossiers.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

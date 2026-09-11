@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Législation et Droits</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#appel-durgence-financiere">Appel d'urgence financière</term>
+          <term ref="#ecoles-de-rochecorbon">Écoles de Rochecorbon</term>
+          <term ref="#union-des-aveugles-de-guerre-uag">Union des Aveugles de Guerre (UAG)</term>
+          <term ref="#debats-sur-le-syndicat">Débats sur le Syndicat</term>
+          <term ref="#droits-des-reformes-n-2">Droits des réformés N° 2</term>
+          <term ref="#mariage">Mariage</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-06-01">01/06/1918</date>
       </creation>
+      <abstract>
+        <p>M. Brieux lance un cri d'alarme ("Au Secours !") face à l'épuisement des caisses qui
+          secourent 371 familles malheureuses. L'École de Neuilly est transférée à Rochecorbon près
+          de Tours (Hôpital 23 bis) dans le parc du château de Madrid pour fuir les bombardements.
+          J. Chounet détaille le manifeste fondateur de l'Union des Aveugles de la Guerre (U. A. G.)
+          : comptoirs régionaux, scierie-atelier, maison de retraite et journal en Braille. A. Séguy
+          (aveugle-sourd-manchot) apporte son adhésion chaleureuse. Joseph Dupuis analyse la
+          concurrence industrielle et pénitentiaire. M. Guéhenno commence une chronique sur la vie
+          de Valentin Haüy. Enfin, le magasinier publie le premier tarif officiel de l'entrepôt de
+          Rochecorbon.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

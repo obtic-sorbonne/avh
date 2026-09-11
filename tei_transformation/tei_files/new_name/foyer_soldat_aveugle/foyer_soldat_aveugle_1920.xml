@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,43 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#loi-du-31-juillet-1920">Loi du 31 juillet 1920</term>
+          <term ref="#pension-de-6000-francs">Pension de 6000 francs</term>
+          <term ref="#legs-bourdis">Legs Bourdis</term>
+          <term ref="#reorganisation-des-secours">Réorganisation des secours</term>
+          <term ref="#projet-de-federation">Projet de fédération</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Le rapport du 5e exercice (1920), présenté le 27 février 1921, enregistre la réception du
+          don magnifique de 344 012,90 frs issu du legs de M. J.-B. Bourdis (décédé à New York),
+          permettant de distribuer un don exceptionnel de Noël à 2 300 bénéficiaires. À la suite de
+          la loi du 31 juillet 1920 portant la pension d'État à 6 000 frs, l'association réoriente
+          son aide vers les situations les plus graves : mutilés multiples, malades, célibataires
+          sans soutien et familles nombreuses. L'œuvre propose d'apporter la moitié de son capital
+          (500 000 frs) à un projet de groupement fédératif pour l'organisation du travail des
+          aveugles. Dans son allocution, le président commente le livre « À Tâtons » de Benjamin
+          Vallotton consacré au quotidien des aveugles.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-24" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-18" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -641,7 +676,8 @@
                 aveugles, qu'une autre étoile pour <hi rend="italic">Eux</hi> se lève, plus belle et
                 plus brillante : qu'elle mette dans la nuit imméritée de nos courageux amis, la
                 lumière et la douceur de sa présence. Ils la reconnaîtront tous, car ils la
-                connaissent, ils l'appellent, ils l'espèrent. Elle se nomme : <hi rend="italic">Travail</hi> .</p>
+                connaissent, ils l'appellent, ils l'espèrent. Elle se nomme : <hi rend="italic"
+                  >Travail</hi> .</p>
               <p>M. Maurice Donnay invite M. Jules Siegfried fils, Trésorier, à donner lecture du
                 rapport financier.</p>
             </div>
@@ -866,7 +902,8 @@
                   particulièrement touchés de leur générosité et les remercions une fois de plus de
                   leur geste fraternel, très reconnaissants notamment des envois qui nous sont venus
                   cette année de nos chers compatriotes d'Alsace.</p>
-                <p>Les comptes <hi rend="italic">Cartes postales</hi> , <hi rend="italic">Estampes</hi> , <hi rend="italic">Carnets de timbres</hi> sont très minces: ce
+                <p>Les comptes <hi rend="italic">Cartes postales</hi> , <hi rend="italic"
+                    >Estampes</hi> , <hi rend="italic">Carnets de timbres</hi> sont très minces: ce
                   furent de bons moyens de propagande, très utiles à nos débuts, mais qui ne
                   répondent plus maintenant à notre programme actuel.</p>
                 <p>Les souscriptions par l'entremise des journaux ont donné encore Fr. 929,50, mais
@@ -1060,7 +1097,10 @@
                 moins de notre reconnaissance. J'aurais eu grand plaisir pourtant à vous présenter
                 M. Benjamin Vallotton qui a écrit, pendant la grande guerre, une œuvre très
                 française. Je citerai, entre autres livres, <hi rend="italic">Ce qu'en pense
-                  Potterat</hi> ; <hi rend="italic">On changerait plutôt le cœur de place</hi> ; <hi rend="italic">Leur Calvaire</hi> ; <hi rend="italic">Ceux de Cambrai</hi> , <hi rend="italic">Noyon</hi> , <hi rend="italic">Lille</hi> , <hi rend="italic">Saint-Quentin</hi> .</p>
+                  Potterat</hi> ; <hi rend="italic">On changerait plutôt le cœur de place</hi> ; <hi
+                  rend="italic">Leur Calvaire</hi> ; <hi rend="italic">Ceux de Cambrai</hi> , <hi
+                  rend="italic">Noyon</hi> , <hi rend="italic">Lille</hi> , <hi rend="italic"
+                  >Saint-Quentin</hi> .</p>
               <p>Et, maintenant, il me vient un second scrupule ; c'est que mon premier scrupule
                 vous ait privés d'entendre M. Benjamin Vallotton qui eût, sans doute prononcé
                 quelques paroles et sans doute encore plus nouvelles que les miennes. Mais si, en
@@ -2406,7 +2446,8 @@
                   <cell>Sommes versées</cell>
                 </row>
                 <row>
-                  <cell>Raphaël (M<hi rend="superscript">me</hi> V<hi rend="superscript">ve</hi>)</cell>
+                  <cell>Raphaël (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                    >ve</hi>)</cell>
                   <cell>200</cell>
                 </row>
                 <row>
@@ -4121,7 +4162,8 @@
                   <cell>8</cell>
                 </row>
                 <row>
-                  <cell>Collège de Jeunes Filles d'Alais. Conférence par M<hi rend="superscript">me</hi> Gibrac.</cell>
+                  <cell>Collège de Jeunes Filles d'Alais. Conférence par M<hi rend="superscript"
+                      >me</hi> Gibrac.</cell>
                   <cell>100</cell>
                 </row>
                 <row>
@@ -4306,7 +4348,8 @@
                   <cell>500</cell>
                 </row>
                 <row>
-                  <cell>Crémond (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                  <cell>Crémond (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                    >lle</hi>)</cell>
                   <cell>20</cell>
                 </row>
                 <row>
@@ -4773,7 +4816,8 @@
                   <cell>5</cell>
                 </row>
                 <row>
-                  <cell>Fontaine (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi> Marie)</cell>
+                  <cell>Fontaine (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                      >lle</hi> Marie)</cell>
                   <cell>10</cell>
                 </row>
                 <row>
@@ -5184,7 +5228,8 @@
                   <cell>40</cell>
                 </row>
                 <row>
-                  <cell>Kopp (par M<hi rend="superscript">me</hi> A) : Luna Ebel (M<hi rend="superscript">lle</hi>)</cell>
+                  <cell>Kopp (par M<hi rend="superscript">me</hi> A) : Luna Ebel (M<hi
+                      rend="superscript">lle</hi>)</cell>
                   <cell>10</cell>
                 </row>
                 <row>
@@ -5696,7 +5741,8 @@
                   <cell>2.000</cell>
                 </row>
                 <row>
-                  <cell>Ministre Plénipotentiaire du Danemark (par M. Bernhoft): Don de M<hi rend="superscript">me</hi> la Baronne Plessen</cell>
+                  <cell>Ministre Plénipotentiaire du Danemark (par M. Bernhoft): Don de M<hi
+                      rend="superscript">me</hi> la Baronne Plessen</cell>
                   <cell>1.000</cell>
                 </row>
                 <row>
@@ -5822,31 +5868,38 @@
                   <cell>1</cell>
                 </row>
                 <row>
-                  <cell>Employés du 3e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 3e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>37</cell>
                 </row>
                 <row>
-                  <cell>Employés du 4e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 4e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>57</cell>
                 </row>
                 <row>
-                  <cell>Employés du 1er Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 1er Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>25</cell>
                 </row>
                 <row>
-                  <cell>Employés du 5e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 5e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>43</cell>
                 </row>
                 <row>
-                  <cell>Employés du 2e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 2e Bureau de la 5e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>63</cell>
                 </row>
                 <row>
-                  <cell>Employés du 1er Bureau de la 6e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 1er Bureau de la 6e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>6</cell>
                 </row>
                 <row>
-                  <cell>Employés du 2e Bureau de la 6e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés du 2e Bureau de la 6e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>37</cell>
                 </row>
               </table>
@@ -5856,11 +5909,13 @@
                   <cell>Sommes versées</cell>
                 </row>
                 <row>
-                  <cell>Employés des 2e et 3e Divisions de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés des 2e et 3e Divisions de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>75</cell>
                 </row>
                 <row>
-                  <cell>Employés de la 4e Division de l'Exploitation P.L.-M. (M<hi rend="superscript">me</hi>s et MM. les)</cell>
+                  <cell>Employés de la 4e Division de l'Exploitation P.L.-M. (M<hi
+                      rend="superscript">me</hi>s et MM. les)</cell>
                   <cell>408</cell>
                 </row>
                 <row>
@@ -6143,7 +6198,9 @@
                   <cell>2.000</cell>
                 </row>
                 <row>
-                  <cell>Raucourt (par M<hi rend="superscript">me</hi>) : M<hi rend="superscript">me</hi> Raucourt 3, M<hi rend="superscript">lle</hi> Gastaud 1, M<hi rend="superscript">lle</hi> Cerceau 1, M. Bouchené 2</cell>
+                  <cell>Raucourt (par M<hi rend="superscript">me</hi>) : M<hi rend="superscript"
+                      >me</hi> Raucourt 3, M<hi rend="superscript">lle</hi> Gastaud 1, M<hi
+                      rend="superscript">lle</hi> Cerceau 1, M. Bouchené 2</cell>
                   <cell>7</cell>
                 </row>
                 <row>
@@ -6568,7 +6625,8 @@
                   <cell>2</cell>
                 </row>
                 <row>
-                  <cell>Theray-Savoy (moitié des bénéfices des représentations de M<hi rend="superscript">me</hi>)</cell>
+                  <cell>Theray-Savoy (moitié des bénéfices des représentations de M<hi
+                      rend="superscript">me</hi>)</cell>
                   <cell>324</cell>
                 </row>
                 <row>
@@ -6602,7 +6660,8 @@
                   <cell>50</cell>
                 </row>
                 <row>
-                  <cell>Tremolières (M. et M<hi rend="superscript">me</hi> P.) et M<hi rend="superscript">me</hi> Martin</cell>
+                  <cell>Tremolières (M. et M<hi rend="superscript">me</hi> P.) et M<hi
+                      rend="superscript">me</hi> Martin</cell>
                   <cell>10</cell>
                 </row>
                 <row>

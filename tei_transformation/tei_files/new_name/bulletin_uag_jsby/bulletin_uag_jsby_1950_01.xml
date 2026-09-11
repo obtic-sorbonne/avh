@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#carte-du-combattant">Carte du combattant</term>
+          <term ref="#affections-oculaires">Affections oculaires</term>
+          <term ref="#reeducation-des-jeunes">Rééducation des jeunes</term>
+          <term ref="#conseil-dadministration">Conseil d'administration</term>
+          <term ref="#methodes-de-langues">Méthodes de langues</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1950-01-01">01/01/1950</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de janvier 1950 fait le point sur le vote des douzièmes provisoires du budget
+          national et l'audience accordée par le ministre Louis Jacquinot aux dirigeants Izaac et
+          Amblard. Le ministre s'est également rendu au siège de la Rue Blanche. Le document
+          convoque l'Assemblée générale du 6 mai 1950 et fixe la limite des candidatures au 1er
+          mars. Il commente la modification du décret sur les affections oculaires (extension de
+          l'art. 10 aux champs visuels restreints) et les conditions d'obtention de la Carte du
+          combattant 39-45. Il contient les PV des séances du Conseil d'administration des 14
+          octobre et 16 décembre 1949, traitant du fonctionnement du restaurant, de la propagande,
+          des travaux à Franceville, de la rééducation des jeunes du Val-de-Grâce et du budget du
+          livre parlé.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

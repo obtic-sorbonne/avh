@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Transports et Mobilité</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#ecoles-et-centres-regionaux">Écoles et Centres régionaux</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-04-01">01/04/1921</date>
       </creation>
+      <abstract>
+        <p>Publié en avril 1921, ce bulletin contient un Questionnaire Général de recensement
+          adressé à tous les adhérents afin de constituer une base de données exacte (pensions,
+          blessures, famille, métiers, outillage, maîtrise du Braille et TSF). Il convoque des
+          réunions corporatives à Paris pour les brossiers, tricoteurs, vanniers et accordeurs de
+          pianos. Le numéro rassemble des informations juridiques sur le paiement des pensions, la
+          Légion d'honneur, la Médaille militaire, les séjours en sanatorium, la gratuité des soins
+          (art. 64) et les transports pour réformés d'avant-guerre. Il confirme la participation de
+          l'association à l'Exposition de Nancy. La chronique comprend les procès-verbaux des
+          Conseils des 12 et 20 février 1921, des conseils pour l'achat de montres d'aveugles et la
+          suite des listes de membres par département.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

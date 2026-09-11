@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#plan-quadriennal">Plan quadriennal</term>
+          <term ref="#non-statutaires">Non-statutaires</term>
+          <term ref="#allocation-8">Allocation 8</term>
+          <term ref="#maisons-de-repos">Maisons de repos</term>
+          <term ref="#emploi-des-aveugles-aux-usa">Emploi des aveugles aux USA</term>
+          <term ref="#testaments">Testaments</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1954-02-01">01/02/1954</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de février 1954 publie le Projet de Rapport moral 1953 d'Henri Izaac (bilan
+          de l'allocation 8, réclamation pour les veuves et le statut, maisons de repos avec l'achat
+          d'Amélie-les-Bains, 41 nouveautés Braille, disques et bandes). Il convoque l'AG des 6-7
+          mai 1954 et publie les professions de foi des candidats au CA (Parent, Philippe,
+          Potereau...). Le document fournit des précisions sur l'application de la loi du 31
+          décembre 1953 au 1er juillet 1954 et le PV du Comité d'entente du 11 février 1954
+          (évacuation des administrations de l'Hôtel des Invalides, révision du guide-barème pour
+          hémiplégie/défiguration). S'y ajoutent le poème "Palalda" d'Erouart, les réunions de
+          sections (Tours), des promotions Légion d'honneur et le PV du CA du 11 décembre 1953
+          (budget 1954, réhabilitation du camarade Dupuy).</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

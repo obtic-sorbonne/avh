@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#loisirs-et-sports">Loisirs et Sports</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-et-mutuelles">Secours et Mutuelles</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1922-02-01">01/02/1922</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de février 1922 rend hommage à M. Morel, ancien gouverneur du Crédit Foncier et
+          trésorier de l'U.A.G., décédé récemment. Il organise la saison d'été à Franceville-Plage
+          en décrivant l'équipement des pavillons meublés (1 fr. par jour) et annonce le projet de
+          constructions en dur. Une lettre du Président publiée dans Le Matin dénonce les
+          agissements de faux invalides exploitant la charité publique. Le texte donne des consignes
+          pour le paiement des nouvelles pensions, l'échange des carnets et la régularisation des
+          Médailles militaires. Il reproduit les procès-verbaux du Conseil et le compte rendu de
+          l'Assemblée générale du 18 décembre 1921 (élection du Bureau, commissions de travail),
+          signale des offres d'emplois chez Citroën par Maurice Bocquet et publie les promotions
+          dans la Légion d'honneur.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

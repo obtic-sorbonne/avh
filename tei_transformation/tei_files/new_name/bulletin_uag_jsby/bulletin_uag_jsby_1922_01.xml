@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Famille et Veuves</title>
+        <title type="topic">Transports et Mobilité</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#veuves-et-orphelins">Veuves et Orphelins</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#livres-et-braille">Livres et Braille</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1922-01-01">01/01/1922</date>
       </creation>
+      <abstract>
+        <p>Le bulletin de janvier 1922 célèbre l'aboutissement historique du vote de la Loi de
+          Finances portant la pension minimum des aveugles de guerre (100 % art. 10) à 8 000 fr. par
+          an grâce à l'attribution de l'allocation n° 5 bis de 2 000 fr. Il donne les démarches
+          pratiques et le modèle de demande pour échanger les livrets supplémentaires à la
+          Sous-Intendance. Le numéro récapitule les gains obtenus : 8 000 fr. de base, 125 fr. par
+          10 % d'infirmités multiples, 500 fr. par enfant, cumuls pour militaires de carrière et
+          maintien des échelons par grade. Il explique les formalités d'obtention de la nouvelle
+          carte d'invalidité pour le voyage gratuit du guide. Enfin, il informe sur les livrets de
+          la Médaille militaire, les soins dentaires gratuits offerts par Mme Becker-Weil, le
+          transfert de "La Roue" 7 rue Duroc.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

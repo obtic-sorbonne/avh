@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie familiale</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Législation et Droits</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#travail-a-la-campagne-vs-ville">Travail à la campagne vs ville</term>
+          <term ref="#maison-de-famille-de-la-garenne">Maison de famille de La Garenne</term>
+          <term ref="#familles-evacuees">Familles évacuées</term>
+          <term ref="#primes-de-natalite">Primes de natalité</term>
+          <term ref="#livres-et-catalogues-braille">Livres et Catalogues Braille</term>
+          <term ref="#club-des-aveugles-de-nice">Club des aveugles de Nice</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-02-01">01/02/1918</date>
       </creation>
+      <abstract>
+        <p>M. Brieux ouvre ce numéro par un plaidoyer ("Aux champs ou à la ville ?") déconseillant
+          les ateliers collectifs en ville et prônant l'installation rurale en famille, le Comité
+          américain offrant un an de loyer et 600 à 700 francs de meubles. L'Atelier Familial du
+          Soldat Aveugle s'ouvre à La Garenne-Colombes pour loger les ménages pendant
+          l'apprentissage du tricotage. L'Œuvre du Livre des Aveugles (O.L.S.A.) s'installe à
+          Biarritz, tandis qu'un Club des Aveugles de Guerre est fondé à Nice. Plusieurs camarades
+          racontent leur réadaptation dans le commerce, la vannerie ou la batellerie. Les écoles de
+          Cannes, Chartres (atelier de reliure de Morand), Montferrand et Dijon présentent leurs
+          rapports d'activité.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

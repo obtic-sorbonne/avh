@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Métiers intellectuels</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +66,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#protheses-et-yeux-artificiels">Prothèses et Yeux artificiels</term>
+          <term ref="#conseils-de-reforme">Conseils de réforme</term>
+          <term ref="#instituteurs-aveugles">Instituteurs aveugles</term>
+          <term ref="#dactylographie-et-machines">Dactylographie et Machines</term>
+          <term ref="#brosserie-et-cannage">Brosserie et Cannage</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#secours-aux-familles">Secours aux familles</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-01-01">01/01/1917</date>
       </creation>
+      <abstract>
+        <p>Ce numéro propose un modèle de réclamation adressé à Justin Godart pour permettre aux
+          blessés quasi-aveugles classés en 5e catégorie d'obtenir la gratification renouvelable au
+          taux de 100 %. Une circulaire ministérielle fixe désormais le droit à l'allocation
+          gratuite de deux yeux artificiels de première mise. Le témoignage marquant du
+          sous-lieutenant Dallet explique comment il a pu reprendre sa classe d'instituteur public
+          grâce à des cartes en relief et un tableau noir à lignes en creux. Un appel est lancé pour
+          récolter des machines à écrire usagées remises en état par le mécanicien aveugle Léger.
+          Des coiffeurs aveugles témoignent de leur capacité à confectionner des postiches et à
+          raser leurs clients, tandis que des montres à sonnerie sont distribuées aux étudiants. Le
+          numéro dresse un bilan d'étape des écoles de province et détaille l'outillage complet
+          remis aux sortants de Saint-Brieuc.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-19" who="#fchiffol">Conversion du texte en XML-TEI</change>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Dissolution et Liquidation</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Transmission d'actif</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,43 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#office-national-des-mutiles">Office National des Mutilés</term>
+          <term ref="#convention-de-dissolution">Convention de dissolution</term>
+          <term ref="#transfert-du-capital">Transfert du capital</term>
+          <term ref="#rente-viagere">Rente viagère</term>
+          <term ref="#derniere-assemblee-generale">Dernière assemblée générale</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document retrace le 20e et dernier exercice (1934), lors des Assemblées générale
+          ordinaire et extraordinaire du 15 janvier 1935. Les délibérations entérinent la
+          dissolution volontaire de l'association et la dévolution de son actif net (612 319,10 frs)
+          à l'Office National des Mutilés, Combattants et Victimes de la Guerre. Selon la convention
+          conclue, l'Office National s'engage à assurer la distribution d'une rente trimestrielle
+          viagère (63 000 frs/an au total) aux 24 derniers aveugles nécessiteux du F.S.A. et à
+          servir le legs Brach. L'allocution d'adieu de Maurice Donnay retrace deux décennies
+          d'histoire, célébrant les 6,31 millions de francs collectés et le dévouement constant des
+          Dames du Foyer auprès des soldats aveugles.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -221,10 +256,13 @@
             <head type="section" rend="align(center)" xml:id="h3">COMITE D'HONNEUR</head>
             <p>MM. <g rend="obele">†</g> Léon BOURGEOIS; <g rend="obele">†</g> Maurice BARRES, de
               l'Académie française; Marcel BLOCH; <g rend="obele">†</g> BRIEUX, de l'Académie
-              française; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Ethiopie; <g rend="obele">†</g> Robert de FLERS, de l'Académie française; <g rend="obele">†</g>
-              GAUTHIER DE CLAGNY; HENRI-ROBERT, ancien Bâtonnier de l'Ordre des Avocats; <g rend="obele">†</g> Maréchal LYAUTEY, de l'Académie française; HERRIOT, maire de
+              française; <g rend="obele">†</g> Maurice de COPPET, ministre de France en Ethiopie; <g
+                rend="obele">†</g> Robert de FLERS, de l'Académie française; <g rend="obele">†</g>
+              GAUTHIER DE CLAGNY; HENRI-ROBERT, ancien Bâtonnier de l'Ordre des Avocats; <g
+                rend="obele">†</g> Maréchal LYAUTEY, de l'Académie française; HERRIOT, maire de
               Lyon; <g rend="obele">†</g> Général MALLETERRE; <g rend="obele">†</g> Général
-              MAUNOURY; Dr MORAX, président de la Société des Ateliers d'aveugles; <g rend="obele">†</g> Pierre VILLEY, professeur à la Faculté des lettres de Caen.</p>
+              MAUNOURY; Dr MORAX, président de la Société des Ateliers d'aveugles; <g rend="obele"
+                >†</g> Pierre VILLEY, professeur à la Faculté des lettres de Caen.</p>
           </div>
           <div type="section">
             <head type="section" rend="align(center)" xml:id="h4">COMPOSITION DU CONSEIL
@@ -345,7 +383,8 @@
                 mensualité réajustée aux possibilités de demain devient celle qu'ils toucheront
                 toujours, tous, sauf un, semblent vouloir nous consoler de n'avoir pu faire plus et
                 mieux. Et s'accrochant surtout au mot « toujours », ils nous communiquent le
-                bien-être apporté dans leur cœur, si justement inquiet, par ce que ce : <hi rend="italic">Être aidé toujours</hi> signifie pour eux de sécurité.</p>
+                bien-être apporté dans leur cœur, si justement inquiet, par ce que ce : <hi
+                  rend="italic">Être aidé toujours</hi> signifie pour eux de sécurité.</p>
               <p>Que la première étincelle d'une pensée qui vaut de vivre et de nous survivre se
                 développe et s'augmente d'autres efforts similaires.</p>
               <p>Car s'il est juste et légitime qu'existent des différences, tant au point de vue
@@ -2422,7 +2461,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
               <row>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#allocation-8">Allocation 8</term>
+          <term ref="#pensions-de-veuves">Pensions de veuves</term>
+          <term ref="#combattants-volontaires-39-45">Combattants volontaires 39-45</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#cartes-de-priorite">Cartes de priorité</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1953-02-01">01/02/1953</date>
       </creation>
+      <abstract>
+        <p>Ce bulletin de février 1953 Rédige un hommage à Jérôme Tharaud (récit des obsèques au
+          cimetière Montmartre avec le Maréchal Juin et F. Mauriac). Il dénonce la pénurie
+          d'imprimés administratifs retardant les livrets de pension. Le document rend compte de
+          l'audience accordée par André Mutter (nouveau ministre des AC) au Comité d'entente et
+          publie la lettre d'adieu d'Emmanuel Temple. Il rappelle l'AG du 18 avril 1953 (profession
+          de foi d'A. Parent), le renouvellement des cartes de priorité et la création de la Croix
+          du combattant volontaire 39-45. Enfin, il présente le bilan très positif de
+          l'Assurance-Groupe pour 1952 (8 décès réglés pour 2,2 millions, ristourne de 15 % sur les
+          primes 1953, déduction fiscale) et la nécrologie de Miellet.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-17" who="#fchiffol">Conversion du texte en XML-TEI</change>

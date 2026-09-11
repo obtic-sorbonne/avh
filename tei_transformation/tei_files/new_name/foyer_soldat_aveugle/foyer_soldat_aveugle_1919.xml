@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,43 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#pension-de-2400-francs">Pension de 2400 francs</term>
+          <term ref="#vie-chere">Vie chère</term>
+          <term ref="#retards-administratifs">Retards administratifs</term>
+          <term ref="#matieres-premieres">Matières premières</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document présente le 4e exercice (1919) lors de l'Assemblée générale du 31 janvier
+          1920. Face à la cherté de la vie et aux retards administratifs dans la liquidation des
+          titres de pension d'État de 2 400 frs, le F.S.A. prend la décision exceptionnelle de
+          doubler l'allocation trimestrielle à ses protégés dès octobre 1919, versant plus de 180
+          000 frs en un seul trimestre. Le nombre d'aveugles inscrits s'élève à 1 514 hommes,
+          auxquels 369 956,25 frs ont été attribués. Le trésorier signale des recettes maintenues et
+          des revenus d'intérêts de 83 033,80 frs. L'allocution de Maurice Donnay s'appuie sur la
+          lecture de lettres poignantes d'aveugles pour témoigner des difficultés de réinsertion
+          professionnelle.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-24" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-18" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -983,7 +1018,8 @@
                 <p>Aux termes de l'article 13 de nos Statuts, vous avez à voter le budget de
                   l'Exercice 1920. Cette mesure d'ordre administratif correspond rarement à la
                   réalité en raison des nécessités mêmes de notre action qui varient d'année en
-                  année, sans qu'il soit possible de les prévoir d'avance. Nous nous baserons <pb n="27"/>
+                  année, sans qu'il soit possible de les prévoir d'avance. Nous nous baserons <pb
+                    n="27"/>
                   <note type="foliation">— 23 —</note> donc, si vous le voulez bien, sur les
                   chiffres de la situation financière dont vous venez d'entendre l'exposé, soit
                   environ :</p>
@@ -4677,7 +4713,8 @@
                   <cell>326 50</cell>
                 </row>
                 <row>
-                  <cell>Consul de France à Londres (par) Part des bénéfices du Récital de M<hi rend="superscript">lle</hi> Marie de Nys</cell>
+                  <cell>Consul de France à Londres (par) Part des bénéfices du Récital de M<hi
+                      rend="superscript">lle</hi> Marie de Nys</cell>
                   <cell>623 60</cell>
                 </row>
                 <row>
@@ -5644,7 +5681,8 @@
                   <cell>100</cell>
                 </row>
                 <row>
-                  <cell>Héricourt (M<hi rend="superscript">me</hi> V<hi rend="superscript">ve</hi>)</cell>
+                  <cell>Héricourt (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                    >ve</hi>)</cell>
                   <cell>10</cell>
                 </row>
                 <row>
@@ -5697,7 +5735,8 @@
                   <cell>134 50</cell>
                 </row>
                 <row>
-                  <cell>Huffer (M<hi rend="superscript">me</hi> V<hi rend="superscript">ve</hi>)</cell>
+                  <cell>Huffer (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                    >ve</hi>)</cell>
                   <cell>100</cell>
                 </row>
                 <row>
@@ -6482,7 +6521,8 @@
                   <cell>200</cell>
                 </row>
                 <row>
-                  <cell>Mosquet-Grison (M<hi rend="superscript">me</hi> V<hi rend="superscript">ve</hi>)</cell>
+                  <cell>Mosquet-Grison (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                      >ve</hi>)</cell>
                   <cell>2</cell>
                 </row>
               </table>
@@ -6522,7 +6562,8 @@
                   <cell>100</cell>
                 </row>
                 <row>
-                  <cell>Civiale (M<hi rend="superscript">me</hi> V<hi rend="superscript">ve</hi>)</cell>
+                  <cell>Civiale (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                    >ve</hi>)</cell>
                   <cell>1</cell>
                 </row>
                 <row>
@@ -6893,7 +6934,8 @@
                   <cell>200</cell>
                 </row>
                 <row>
-                  <cell>Raucourt (M<hi rend="superscript">me</hi>, M. Bouchené, M<hi rend="superscript">me</hi> Gastaud et Cerceau)</cell>
+                  <cell>Raucourt (M<hi rend="superscript">me</hi>, M. Bouchené, M<hi
+                      rend="superscript">me</hi> Gastaud et Cerceau)</cell>
                   <cell>6</cell>
                 </row>
                 <row>
@@ -7524,7 +7566,8 @@
                   <cell>50</cell>
                 </row>
                 <row>
-                  <cell>Tremolières (M. et M<hi rend="superscript">me</hi>) et M<hi rend="superscript">me</hi> Martin.</cell>
+                  <cell>Tremolières (M. et M<hi rend="superscript">me</hi>) et M<hi
+                      rend="superscript">me</hi> Martin.</cell>
                   <cell>10</cell>
                 </row>
                 <row>
@@ -8032,7 +8075,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Reynoird et fils (M<hi rend="superscript">me</hi> V<hi rend="superscript">ve</hi>)</cell>
+                <cell>Reynoird et fils (M<hi rend="superscript">me</hi> V<hi rend="superscript"
+                    >ve</hi>)</cell>
                 <cell>20</cell>
               </row>
               <row>

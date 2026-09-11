@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Famille et Veuves</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +68,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#reeducation-professionnelle">Rééducation professionnelle</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#veuves-et-orphelins">Veuves et Orphelins</term>
+          <term ref="#artisanat-et-ateliers">Artisanat et Ateliers</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-04-01">01/04/1919</date>
       </creation>
+      <abstract>
+        <p>Paru en avril 1919, ce quatrième bulletin s'ouvre sur un appel à la conscience
+          professionnelle et à la recherche de la qualité du travail manuel produit par les aveugles
+          afin de maintenir la confiance du public. Il est principalement consacré à la publication
+          intégrale de la Loi sur les pensions d'infirmité des militaires et marins votée par le
+          Parlement, détaillant les conditions du droit à pension, les règles pour les ayants cause,
+          les orphelins et les ascendants, ainsi que les voies de recours. Le document reproduit
+          l'ensemble des tableaux officiels fixant les taux de pension selon les grades et les
+          barèmes d'invalidité associés aux différentes infirmités et mutilations. Enfin, il
+          rappelle le rôle de l'État dans l'allocation d'apprentissage pour la rééducation
+          professionnelle des invalides de guerre.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

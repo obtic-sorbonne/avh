@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,16 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Transports et Mobilité</title>
+        <title type="topic">Santé et Soins</title>
+        <title type="topic">Logement et Propriété</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +71,41 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#loisirs-et-sports">Loisirs et Sports</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#soins-medicaux-et-protheses">Soins médicaux et Prothèses</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#prets-et-propriete">Prêts et Propriété</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1921-07-01">01/07/1921</date>
       </creation>
+      <abstract>
+        <p>En juillet 1921, le bulletin étudie la proposition de loi de M. About visant une pension
+          de base à 3 000 fr. avec complément variable selon le coût de la vie pour garantir un
+          minimum de 6 000 fr. Il dresse le bilan très satisfaisant de la présence de l'U.A.G. à
+          l'Exposition de Nancy et à la Foire de Paris. Maurice Bocquet propose une étude technique
+          détaillée sur un appareil d'agrandissement et de lecture tactile de caractères
+          d'imprimerie noire ("À propos de l'Optophone"). Le numéro donne des nouvelles de la loi
+          sur le transport gratuit du guide en chemin de fer et du lancement de la station de
+          vacances de Franceville-Plage. Enfin, il comprend les procès-verbaux des réunions du
+          Conseil du 29 mai 1921, des sections de masseurs, tricoteurs et brossiers, ainsi que la
+          liste des nominations dans la Légion d'honneur.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

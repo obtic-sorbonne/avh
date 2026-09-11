@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Reconstitution des Foyers</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Finances et Budget</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,43 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#armistice">Armistice</term>
+          <term ref="#union-des-aveugles-de-guerre">Union des Aveugles de Guerre</term>
+          <term ref="#allocations-et-dons">Allocations et Dons</term>
+          <term ref="#chomage">Chômage</term>
+          <term ref="#cooperatives-de-travail">Coopératives de travail</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce rapport couvre le 3e exercice (1918), à la fin de la Grande Guerre. Une lettre du
+          président Maurice Donnay rappelle que la mission d'assistance auprès des aveugles devra
+          durer plusieurs décennies (jusqu'à un demi-siècle). Le Rapport moral recense 1 030
+          bénéficiaires et soutient la création d'une coopérative de travail, l'Union des Aveugles
+          de Guerre, pour prémunir les invalides contre le chômage. Le trésorier Jules Siegfried
+          fils fait état de 778 319,18 frs de recettes et de 180 469,50 frs d'allocations versées,
+          tout en notant le premier legs testamentaire majeur (36 300 frs de Maurice Mühlfeld). La
+          politique financière vise à fortifier les réserves en prévision des besoins prolongés
+          d'après-guerre.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-24" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-18" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -860,7 +895,8 @@
                   Fr. 5.855, <hi rend="italic">Appels au public</hi> , Fr. 712,50, n'ont pas donné
                   ce que nous en attendions. Ce sont des moyens à utiliser dans des circonstances
                   spéciales mais sur lesquels nous ne pouvons compter d'une manière régulière.</p>
-                <p>Par contre nous sommes heureux de vous signaler l'ouverture du compte <hi rend="italic">Legs</hi> , qui a été crédité cette année, du fait d'une seule
+                <p>Par contre nous sommes heureux de vous signaler l'ouverture du compte <hi
+                    rend="italic">Legs</hi> , qui a été crédité cette année, du fait d'une seule
                   disposition testamentaire, de la belle somme de Fr. 36.300, due à la générosité de
                   M. Maurice Mühlfeld. Nous avons plusieurs promesses de même nature et nous
                   espérons, maintenant que notre œuvre se fait connaître et apprécier de plus en
@@ -3661,7 +3697,8 @@
                   <cell>Sommes versées</cell>
                 </row>
                 <row>
-                  <cell>Hessel (M<hi rend="superscript">me</hi>) (M<hi rend="superscript">me</hi>).</cell>
+                  <cell>Hessel (M<hi rend="superscript">me</hi>) (M<hi rend="superscript"
+                    >me</hi>).</cell>
                   <cell>6</cell>
                 </row>
                 <row>
@@ -3965,7 +4002,8 @@
                   <cell>75</cell>
                 </row>
                 <row>
-                  <cell>Bechmann (M. et M<hi rend="superscript">me</hi> Alfred Dreyfus, M. et M<hi rend="superscript">me</hi> Ed.)</cell>
+                  <cell>Bechmann (M. et M<hi rend="superscript">me</hi> Alfred Dreyfus, M. et M<hi
+                      rend="superscript">me</hi> Ed.)</cell>
                   <cell>200</cell>
                 </row>
                 <row>
@@ -4978,7 +5016,8 @@
                   <cell>5</cell>
                 </row>
                 <row>
-                  <cell>Consul de France à Bahia (par) : Soirée à Bahia par M<hi rend="superscript">me</hi> Eugénie Buffet.</cell>
+                  <cell>Consul de France à Bahia (par) : Soirée à Bahia par M<hi rend="superscript"
+                      >me</hi> Eugénie Buffet.</cell>
                   <cell>1.618 40</cell>
                 </row>
                 <row>
@@ -5100,7 +5139,8 @@
                   <cell>380 10</cell>
                 </row>
                 <row>
-                  <cell>Consul de France à Rio-de-Janeiro (par): Concert à Saint-Paul par M<hi rend="superscript">me</hi> Eugénie Buffet</cell>
+                  <cell>Consul de France à Rio-de-Janeiro (par): Concert à Saint-Paul par M<hi
+                      rend="superscript">me</hi> Eugénie Buffet</cell>
                   <cell>838 41</cell>
                 </row>
               </table>
@@ -5114,7 +5154,8 @@
                   <cell>562 70</cell>
                 </row>
                 <row>
-                  <cell>Consul de France à Sao-Paulo (par): Quote-part d'un concert par M<hi rend="superscript">lle</hi>a Bellah de Andreda et Hildebrand</cell>
+                  <cell>Consul de France à Sao-Paulo (par): Quote-part d'un concert par M<hi
+                      rend="superscript">lle</hi>a Bellah de Andreda et Hildebrand</cell>
                   <cell>1.736 10</cell>
                 </row>
                 <row>
@@ -6383,7 +6424,8 @@
                   <cell>Sommes versées</cell>
                 </row>
                 <row>
-                  <cell>Guyenot (M<hi rend="superscript">me</hi>), en souvenir de sa mère, M<hi rend="superscript">me</hi> Bahuaud</cell>
+                  <cell>Guyenot (M<hi rend="superscript">me</hi>), en souvenir de sa mère, M<hi
+                      rend="superscript">me</hi> Bahuaud</cell>
                   <cell>50</cell>
                 </row>
                 <row>
@@ -6499,7 +6541,8 @@
                   <cell>65</cell>
                 </row>
                 <row>
-                  <cell>Holland (Mrs Dolorès), produit d'une tombola commencée par M<hi rend="superscript">me</hi> Blaker</cell>
+                  <cell>Holland (Mrs Dolorès), produit d'une tombola commencée par M<hi
+                      rend="superscript">me</hi> Blaker</cell>
                   <cell>200</cell>
                 </row>
               </table>
@@ -7031,7 +7074,8 @@
                   <cell>3</cell>
                 </row>
                 <row>
-                  <cell>Léger (par M<hi rend="superscript">me</hi>), don de M<hi rend="superscript">me</hi> M</cell>
+                  <cell>Léger (par M<hi rend="superscript">me</hi>), don de M<hi rend="superscript"
+                      >me</hi> M</cell>
                   <cell>150</cell>
                 </row>
                 <row>
@@ -8997,7 +9041,8 @@
                   <cell>Sommes versées</cell>
                 </row>
                 <row>
-                  <cell>Viard (M., M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                  <cell>Viard (M., M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                      >lle</hi>)</cell>
                   <cell>3</cell>
                 </row>
                 <row>
@@ -9030,7 +9075,9 @@
                   <cell>1.850</cell>
                 </row>
                 <row>
-                  <cell>Vilboeuf (par M<hi rend="superscript">me</hi>) : Vente de bourses à M<hi rend="superscript">me</hi> Mégargée, Cravoisier et M<hi rend="superscript">lle</hi> Denise Cahen</cell>
+                  <cell>Vilboeuf (par M<hi rend="superscript">me</hi>) : Vente de bourses à M<hi
+                      rend="superscript">me</hi> Mégargée, Cravoisier et M<hi rend="superscript"
+                      >lle</hi> Denise Cahen</cell>
                   <cell>110</cell>
                 </row>
                 <row>
@@ -9253,7 +9300,8 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell>B*** (M., M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>B*** (M., M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>4</cell>
               </row>
               <row>

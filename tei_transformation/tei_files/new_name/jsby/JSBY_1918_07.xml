@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Vie familiale</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,35 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#celebration-du-4-juillet-americain">Célébration du 4 Juillet américain</term>
+          <term ref="#generosite-de-calcutta-et-cuba">Générosité de Calcutta et Cuba</term>
+          <term ref="#syndicat-professionnel">Syndicat professionnel</term>
+          <term ref="#industrie-electrique">Industrie électrique</term>
+          <term ref="#ouvrages-en-braille">Ouvrages en Braille</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-07-01">01/07/1918</date>
       </creation>
+      <abstract>
+        <p>Le journal célèbre l'amitié franco-américaine lors des fêtes du 4 et du 14 juillet. Le
+          débat sur le Syndicat professionnel (U. A. G.) suscite de nombreuses adhésions à Limoges,
+          Ligugé et Luçon. Le capitaine Gabolde propose le rattachement du syndicat à la Fédération
+          Nationale des Mutilés du général Malleterre. M. Guéhenno retrace la suite de la vie de
+          Valentin Haüy et l'invention des caractères en relief. La Compagnie Thomson-Houston offre
+          des emplois de bobinage électrique aux aveugles à Neuilly-sur-Marne. Enfin, le magasinier
+          raconte le transfert rapide des stocks de Neuilly vers Rochecorbon.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

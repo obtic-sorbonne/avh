@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,12 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +67,38 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#securite-sociale">Sécurité sociale</term>
+          <term ref="#telephone-rural">Téléphone rural</term>
+          <term ref="#chiens-guides">Chiens-guides</term>
+          <term ref="#reliure-et-metiers">Reliure et Métiers</term>
+          <term ref="#proces-verbaux-dassemblee">Procès-verbaux d'assemblée</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1950-07-01">01/07/1950</date>
       </creation>
+      <abstract>
+        <p>Ce numéro de juillet 1950 commente la situation politique après la chute du gouvernement
+          Bidault et réaffirme la revendication d'une revalorisation de 25 % pour 1950. Il annonce
+          la promulgation de la loi du 29 juillet 1950 étendant la Sécurité sociale aux grands
+          invalides et aux veuves. Il publie une lettre du ministre des PTT Charles Brune accordant
+          50 % de réduction sur les téléphones de circonscription. Le bulletin signale le vote de la
+          gratuité des transports ferroviaires pour les chiens-guides et la création de cartes
+          Indochine. Il contient les comptes rendus analytiques intégraux des 6 commissions et de
+          l'Assemblée générale plénière du 6 mai 1950 (textes des 14 vœux adoptés sur les pensions,
+          les veuves et le statut).</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-17" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-09" who="#fchiffol">Conversion du texte en XML-TEI</change>

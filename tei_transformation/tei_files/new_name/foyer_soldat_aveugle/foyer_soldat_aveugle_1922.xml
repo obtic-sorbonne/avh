@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,41 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#interventions-speciales">Interventions spéciales</term>
+          <term ref="#reformes-n-2">Réformés n° 2</term>
+          <term ref="#pensions-amoindries">Pensions amoindries</term>
+          <term ref="#soutien-aux-veuves">Soutien aux veuves</term>
+          <term ref="#dons-et-allocations">Dons et Allocations</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document rend compte du 7e exercice (1922) lors de l'Assemblée du 14 janvier 1923. Il
+          concrétise l'adaptation des secours : l'assistance est resserrée sur 994 bénéficiaires
+          ciblés pour un total de 237 632,20 frs versés. Les interventions spéciales privilégient
+          les soldats aux pensions amoindries ou supprimées, les pères de familles nombreuses
+          résidant en région parisienne (allocations portées jusqu'à 1 200 frs) et les veuves
+          d'aveugles. Le rapport financier présente un encaissement de 121 455,59 frs de dons, 53
+          181,75 frs de cotisations annuelles et un reliquat de legs de 18 131,85 frs.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -3497,7 +3530,8 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell>Dactylographes du Bureau 110 au Ministère des Affaires Etrangères (M<hi rend="superscript">me</hi>s les), 2 versements</cell>
+                <cell>Dactylographes du Bureau 110 au Ministère des Affaires Etrangères (M<hi
+                    rend="superscript">me</hi>s les), 2 versements</cell>
                 <cell>20</cell>
               </row>
               <row>
@@ -4010,7 +4044,8 @@
                 <cell>10</cell>
               </row>
               <row>
-                <cell>Gerst (J.), Produit d'une Quête aux Fiançailles de sa petite-fille, M<hi rend="superscript">lle</hi> Y. Lévy avec M. Dreyfus-Bumsel, de Belfort</cell>
+                <cell>Gerst (J.), Produit d'une Quête aux Fiançailles de sa petite-fille, M<hi
+                    rend="superscript">lle</hi> Y. Lévy avec M. Dreyfus-Bumsel, de Belfort</cell>
                 <cell>200</cell>
               </row>
               <row>
@@ -4149,7 +4184,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Jacob (M<hi rend="superscript">lle</hi> C.), 2 versem<hi rend="superscript">ts</hi></cell>
+                <cell>Jacob (M<hi rend="superscript">lle</hi> C.), 2 versem<hi rend="superscript"
+                    >ts</hi></cell>
                 <cell>17 50</cell>
               </row>
               <row>
@@ -4663,7 +4699,8 @@
                 <cell>55</cell>
               </row>
               <row>
-                <cell>Oswald (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Oswald (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>25</cell>
               </row>
             </table>
@@ -4878,7 +4915,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>M<hi rend="superscript">me</hi> Robinet, M. Delacour, M<hi rend="superscript">lle</hi> Nénette et toutes les Ouvrières de l'Atelier A. 9.</cell>
+                <cell>M<hi rend="superscript">me</hi> Robinet, M. Delacour, M<hi rend="superscript"
+                    >lle</hi> Nénette et toutes les Ouvrières de l'Atelier A. 9.</cell>
                 <cell>35 25</cell>
               </row>
               <row>

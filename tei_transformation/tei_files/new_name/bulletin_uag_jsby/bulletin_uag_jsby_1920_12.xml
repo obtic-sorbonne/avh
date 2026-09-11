@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -25,6 +25,15 @@
       <seriesStmt>
         <title type="main">Bulletin de l'Union des aveugles de guerre et Journal des soldats blessés
           aux yeux (1919-1957)</title>
+        <title type="genre">Bulletin</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Éducation et Culture</title>
+        <title type="topic">Mémoire et Commémoration</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -61,15 +70,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pensions-et-allocations">Pensions et Allocations</term>
+          <term ref="#travail">Travail</term>
+          <term ref="#associations-et-groupements">Associations et Groupements</term>
+          <term ref="#livres-et-braille">Livres et Braille</term>
+          <term ref="#transports-et-reductions">Transports et Réductions</term>
+          <term ref="#assemblees-et-statuts">Assemblées et Statuts</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1920-12-01">01/12/1920</date>
       </creation>
+      <abstract>
+        <p>Le bulletin de décembre 1920 explique la modification du calendrier de parution, le
+          compte rendu de l'Assemblée générale devant paraître en janvier. Il contient une note
+          urgente concernant les retards d'arriérés de pension et un questionnaire pour le Ministre
+          André Maginot. Maurice Bocquet propose une étude scientifique sur les perfectionnements
+          futurs de l'optophone, tandis que le Dr Schneider publie un article critique dénonçant les
+          abus d'attribution des pensions à de faux invalides. Le numéro retrace la participation de
+          l'U.A.G. aux cérémonies de Verdun et de l'Arc de Triomphe en hommage au Poilu inconnu. Le
+          procès-verbal du Conseil d'administration du 9 octobre fixe les vœux pour la
+          revalorisation des pensions et la majoration des enfants. Enfin, le texte reproduit des
+          offres de fournitures et la suite des listes départementales.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-07-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-07-02" who="#fchiffol">Conversion du texte en XML-TEI</change>

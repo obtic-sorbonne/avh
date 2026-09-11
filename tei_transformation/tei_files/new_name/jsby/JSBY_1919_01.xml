@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Assistance et Solidarité</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,37 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#fermeture-progressive-des-ecoles">Fermeture progressive des Écoles</term>
+          <term ref="#liberte-et-travail-a-domicile">Liberté et Travail à domicile</term>
+          <term ref="#concurrence-boche">Concurrence boche</term>
+          <term ref="#quart-de-place-et-guides">Quart de place et Guides</term>
+          <term ref="#cordonnerie-a-chartres">Cordonnerie à Chartres</term>
+          <term ref="#societes-dassistance">Sociétés d'assistance</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1919-01-01">01/01/1919</date>
       </creation>
+      <abstract>
+        <p>M. Brieux trace la feuille de route de l'après-guerre ("La fermeture de nos Écoles") :
+          fermeture progressive des écoles temporaires de province, accélération de la liquidation
+          des pensions et installation rurale avec le concours du Comité américain (un an de loyer +
+          600 frs de meubles). Un partenariat est noué avec la Fédération des Coopératives de
+          Consommation. Le journal proteste contre la concurrence du travail des prisonniers
+          allemands. Hommage est rendu au lieutenant J. Chounet, subitement décédé. Les Dr Monthus
+          et Delord publient une étude sur l'enseignement de la cordonnerie à Chartres. Le
+          magasinier de Neuilly annonce sa démobilisation.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-09-08" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-09-07" who="#fchiffol">Conversion du texte en XML-TEI</change>

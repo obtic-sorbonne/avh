@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Agriculture et Élevage</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,36 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-surcroit-dinfirmites">Pensions et Surcroît d'infirmités</term>
+          <term ref="#acces-a-la-propriete-rurale">Accès à la propriété rurale</term>
+          <term ref="#loi-du-9-avril-1918">Loi du 9 avril 1918</term>
+          <term ref="#donation-de-hang-keou">Donation de Hang-Kéou</term>
+          <term ref="#machine-braille-pour-manchots">Machine Braille pour manchots</term>
+          <term ref="#amicales-departementales">Amicales départementales</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1918-08-01">01/08/1918</date>
       </creation>
+      <abstract>
+        <p>M. Brieux compare la rééducation française à celle de St-Dunstan à Londres et salue le
+          succès du lieutenant Thébaut à l'examen de droit. La colonie française de Han-K'éou en
+          Chine envoie un don de 5 000 francs. Un guide explique la loi du 9 avril 1918 permettant
+          aux pensionnés d'emprunter 10 000 francs à 1 % pour devenir propriétaires ruraux. Léopold
+          Prévost (Flixecourt) détaille son plan pour l'U. A. G. : marchés militaires et comptoirs
+          régionaux. L'Amicale des Aveugles des Côtes-du-Nord est créée. Maurice Bocquet adapte une
+          machine à sténo-Braille Hall pour les amputés d'une main.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-21" who="#fchiffol">Conversion du texte en XML-TEI</change>

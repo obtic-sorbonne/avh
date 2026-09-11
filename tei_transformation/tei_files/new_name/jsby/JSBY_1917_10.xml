@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Agriculture et Élevage</title>
+        <title type="topic">Loisirs et Sports</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,39 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#pensions-et-promesses">Pensions et Promesses</term>
+          <term ref="#legion-dhonneur">Légion d'Honneur</term>
+          <term ref="#instituteurs-aveugles">Instituteurs aveugles</term>
+          <term ref="#presse-braille">Presse Braille</term>
+          <term ref="#peche-pour-aveugles">Pêche pour aveugles</term>
+          <term ref="#ecoles-regionales">Écoles régionales</term>
+          <term ref="#maternite-et-naissances">Maternité et Naissances</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-10-01">01/10/1917</date>
       </creation>
+      <abstract>
+        <p>Le président du Service des Pensions rassure les aveugles en confirmant le vote définitif
+          des 1 200 francs et le paiement intégral des arrérages. M. Brieux explique les retards de
+          livraison des 750 écrins de rasoirs de sûreté commandés en Savoie. La Société "E Manu Lux"
+          renouvelle pour 1918 sa prime de 50 francs par naissance, augmentée selon le nombre
+          d'enfants. Albert Masselier lance un grand projet et un référendum pour la création d'un
+          journal quotidien en Braille de 8 pages avec supplément hebdomadaire. Un cultivateur
+          explique son système de jardinage guidé par des fils de fer, briques et cordelettes.
+          L'École du Phare de France présente un guide-main perfectionné, tandis qu'une école de
+          rééducation est créée à Jassy par la Mission militaire française en Roumanie.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-20" who="#fchiffol">Conversion du texte en XML-TEI</change>

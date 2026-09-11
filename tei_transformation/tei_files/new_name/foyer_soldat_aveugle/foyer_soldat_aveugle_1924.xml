@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#mensualites-ciblees">Mensualités ciblées</term>
+          <term ref="#grands-mutiles">Grands mutilés</term>
+          <term ref="#pensions-contestees">Pensions contestées</term>
+          <term ref="#soutien-aux-veuves">Soutien aux veuves</term>
+          <term ref="#capital-et-reserves">Capital et Réserves</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce document retrace le 9e exercice (1924) examiné le 28 mars 1925. Il met en avant une
+          grande stabilité d'action illustrée par un tableau comparatif : 314 bénéficiaires ont
+          perçu 194 907 frs (215 allocations régulières et 139 secours exceptionnels). Un effort
+          financier important de 68 450 frs sous forme de mensualités soutient 28 cas très critiques
+          d'invalides sans pension ou aux titres retirés. Sur le plan financier, les dons s'élèvent
+          à 81 806,35 frs et les cotisations à 47 782,40 frs. L'exercice se distingue par la
+          réception simultanée de plusieurs legs significatifs (Legs Badger-Krepper, Delugin,
+          Ployer, Clinchant) totalisant 161 541,52 frs.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -2752,7 +2786,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Bazinet (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Bazinet (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>10</cell>
               </row>
               <row>

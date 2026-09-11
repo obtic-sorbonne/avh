@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pension-de-19700-francs">Pension de 19700 francs</term>
+          <term ref="#revalorisation-des-mensualites">Revalorisation des mensualités</term>
+          <term ref="#aveugles-sans-pension">Aveugles sans pension</term>
+          <term ref="#historique-des-legs">Historique des legs</term>
+          <term ref="#appels-au-public">Appels au public</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Ce rapport présente l'exercice 1928 lors des Assemblées du 22 mars et du 27 avril 1929.
+          Face à la hausse du coût de la vie consécutive à la stabilisation du franc, le Conseil
+          d'administration décide de rehausser le montant des mensualités accordées aux aveugles les
+          plus démunis, représentant une charge accrue de 160 000 frs. Le trésorier Jules Siegfried
+          annonce sa démission après 14 ans de gestion éclairée. L'exercice est marqué par
+          l'encaissement du legs de Mlle Malvina Brach (163 394,86 frs), portant le capital net à
+          790 118,95 frs. L'Assemblée extraordinaire réduit le nombre de membres du Conseil
+          d'administration de 33 à 21.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -2508,7 +2542,8 @@
               <cell>20</cell>
             </row>
             <row>
-              <cell>Fontaine (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+              <cell>Fontaine (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                >lle</hi>)</cell>
               <cell>10</cell>
             </row>
             <row>
@@ -2562,7 +2597,8 @@
               <cell>20</cell>
             </row>
             <row>
-              <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+              <cell>Meyer (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                >lle</hi>)</cell>
               <cell>25</cell>
             </row>
             <row>
@@ -2849,7 +2885,8 @@
               <cell>50</cell>
             </row>
             <row>
-              <cell>Boissonnet (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+              <cell>Boissonnet (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                >lle</hi>)</cell>
               <cell>5</cell>
             </row>
             <row>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,12 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Le Journal des soldats blessés aux yeux (1916-1919)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Réadaptation et Autonomie</title>
+        <title type="topic">Travail et Emploi</title>
+        <title type="topic">Loisirs et Sports</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -59,15 +65,40 @@
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#loi-sur-les-pensions">Loi sur les pensions</term>
+          <term ref="#conference-interalliee">Conférence Interalliée</term>
+          <term ref="#matieres-premieres">Matières premières</term>
+          <term ref="#transports-et-gratuite">Transports et Gratuité</term>
+          <term ref="#rasoirs-de-surete">Rasoirs de sûreté</term>
+          <term ref="#jardinage-et-loisirs">Jardinage et Loisirs</term>
+          <term ref="#ecoles-regionales">Écoles régionales</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
       <creation>
         <date when="1917-08-01">01/08/1917</date>
       </creation>
+      <abstract>
+        <p>Le Sénat entame l'examen du projet de loi sur les pensions, les sénateurs Debierre,
+          Milliès-Lacroix et Peytral promettant un vote rapide. Une circulaire de Justin Godart rend
+          obligatoire la création de petits ateliers près des centres ophtalmologiques et réglemente
+          les prothèses oculaires. La 5e section de la Conférence Interalliée adopte à l'unanimité
+          des vœux pour la rééducation des aveugles. L'adjudant Verdon présente sa tablette pour
+          écriture ordinaire. M. Brieux lance l'opération "Un rasoir mécanique pour rien" grâce à un
+          don anonyme de 5 000 francs apporté par M. Cusinberche et le Dr Sexe. Enfin, le Capitaine
+          Galtier réclame une coordination méthodique entre toutes les œuvres d'assistance, et
+          l'Association Valentin Haüy met sa bibliothèque musicale de 10 000 partitions à
+          disposition.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-08-25" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-08-20" who="#fchiffol">Conversion du texte en XML-TEI</change>

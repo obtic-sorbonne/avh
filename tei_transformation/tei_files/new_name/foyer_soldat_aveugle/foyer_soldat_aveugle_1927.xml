@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -23,6 +23,13 @@
       </publicationStmt>
       <seriesStmt>
         <title type="main">Pour le foyer du soldat aveugle (1916-1934)</title>
+        <title type="genre">Journal</title>
+        <title type="topic">Assistance et Solidarité</title>
+        <title type="topic">Législation et Droits</title>
+        <title type="topic">Mutilés de guerre</title>
+        <title type="topic">Finances et Budget</title>
+        <title type="topic">Vie associative</title>
+        <title type="topic">Travail et Emploi</title>
       </seriesStmt>
       <sourceDesc>
         <msDesc>
@@ -51,15 +58,42 @@
         <quotation>
           <p>Tous les guillemets du texte ont été transformés en guillemets anglais</p>
         </quotation>
-      <interpretation><p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été rajoutés à certains tableaux, et les tirets représentant des répétitions ont été remplacés par l'information même qu'ils désignaient.</p></interpretation></editorialDecl>
+        <interpretation>
+          <p>Pour aider à la compréhension et à l'accessibilité du texte, des en-têtes ont été
+            rajoutés à certains tableaux, et les tirets représentant des répétitions ont été
+            remplacés par l'information même qu'ils désignaient.</p>
+        </interpretation>
+      </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <textClass/>
+      <textClass>
+        <keywords>
+          <term ref="#blesses-de-guerre">Blessés de guerre</term>
+          <term ref="#pension-de-18860-francs">Pension de 18860 francs</term>
+          <term ref="#dons-mensuels">Dons mensuels</term>
+          <term ref="#cas-dexception">Cas d'exception</term>
+          <term ref="#maintien-de-laide">Maintien de l'aide</term>
+          <term ref="#fidelite-des-donateurs">Fidélité des donateurs</term>
+        </keywords>
+        <classCode scheme="DDC">362.41</classCode>
+      </textClass>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <abstract>
+        <p>Rapport du 12e exercice (1927) présenté le 24 avril 1928. L'action se concentre sur les
+          aveugles victimes de pensions d'État temporairement retirées ou suspendues, ainsi que sur
+          les familles frappées par de graves maladies. Le document cite le cas d'invalides isolés
+          sans ressources survivant uniquement grâce au mandat mensuel de 300 frs du F.S.A.. Le
+          rapport financier indique 171 325 frs d'allocations pour 152 bénéficiaires, 43 623,90 frs
+          de souscriptions annuelles, 56 184,10 frs de dons et l'encaissement d'un legs de 20 000
+          frs. Dans son allocution, Maurice Donnay note que malgré la hausse de la pension légale à
+          18 860 frs, l'aide privée reste irremplaçable pour résoudre les drames individuels.</p>
+      </abstract>
     </profileDesc>
     <revisionDesc>
+      <change when="2026-09-11" who="#fchiffol">Ajout de nouvelles métadonnées (abstract, topic,
+        keywords)</change>
       <change when="2026-06-18" who="#fchiffol">Corrections structurelles et génération de la table
         des matières</change>
       <change when="2026-06-10" who="#fchiffol">Conversion du texte en XML-TEI</change>
@@ -2245,7 +2279,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Fontaine (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Fontaine (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                  >lle</hi>)</cell>
                 <cell>10</cell>
               </row>
               <row>
@@ -2586,7 +2621,8 @@
                 <cell>50</cell>
               </row>
               <row>
-                <cell>Boissonnet (M<hi rend="superscript">me</hi> et M<hi rend="superscript">lle</hi>)</cell>
+                <cell>Boissonnet (M<hi rend="superscript">me</hi> et M<hi rend="superscript"
+                    >lle</hi>)</cell>
                 <cell>5</cell>
               </row>
               <row>
@@ -2630,7 +2666,8 @@
                 <cell>20</cell>
               </row>
               <row>
-                <cell>Cahen Salvador (par M<hi rend="superscript">me</hi>) En souvenir de M<hi rend="superscript">me</hi> Salva Cahen</cell>
+                <cell>Cahen Salvador (par M<hi rend="superscript">me</hi>) En souvenir de M<hi
+                    rend="superscript">me</hi> Salva Cahen</cell>
                 <cell>300</cell>
               </row>
               <row>
