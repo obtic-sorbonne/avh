@@ -14,7 +14,7 @@ from datetime import date # Gestion des dates et heures
 from parameters.variables import (projectDesctext, seriesStmttext, countrytext, 
     settlementtext, institutiontext, repositorytext, digitizationtext, 
     digitizationresp, transcriptiontext, transcriptionresp, encodingtext, 
-    encodingresp, hyphenationtext, quotationtext, authoritytext, 
+    encodingresp, hyphenationtext, quotationtext, interpretationtext, authoritytext, 
     collectiontext)
 
 #Appel des fonctions utiles pour l'encodage
@@ -101,6 +101,8 @@ def md_to_tei(md_path, tei_path, metadata):
     etree.SubElement(hyphenation, "p").text = hyphenationtext
     quotation = etree.SubElement(editorialDecl, "quotation")
     etree.SubElement(quotation, "p").text = quotationtext
+    interpretation = etree.SubElement(editorialDecl, "interpretation")
+    etree.SubElement(interpretation, "p").text = interpretationtext
 
     # ======================================================
     # --- Ajout d'un seriesStmt ---
@@ -124,8 +126,18 @@ def md_to_tei(md_path, tei_path, metadata):
     for elem in soup.find_all(["p", "h1", "h2", "h3", "h4", "blockquote", "dl", "table", "figure", "ul", "ol", "article", "img"]):
         text = elem.get_text(strip=True)
 
+    
         # Détection des marqueurs de page
-        match = re.match(r"\[Page (\d+)\]", text)
+        #match = re.match(r"\[Page (\d+)\]", text)
+        #if match:
+        #    pb = etree.SubElement(main_div, "{%s}pb" % NS)
+        #    pb.set("n", match.group(1))
+        #else:
+        #    encode_elements(elem, main_div)
+    
+
+        # Détection des marqueurs de page
+        match = re.match(r"— ?(\d+) ?—", text)
         if match:
             pb = etree.SubElement(main_div, "{%s}pb" % NS)
             pb.set("n", match.group(1))
